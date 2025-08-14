@@ -107,9 +107,25 @@ class SimpleEmbeddingAnalyzer:
     def _get_model_name(self) -> str:
         """Get the name of the embedding model being used."""
         if self.use_local:
-            return f"{self.local_model_name}" if self.local_model_name else "unknown"
+            # Normalize local model names to match the standard naming
+            if self.local_model_name:
+                return self._normalize_model_name(self.local_model_name)
+            return "unknown"
         else:
             return "Qwen/Qwen3-Embedding-0.6B"
+    
+    def _normalize_model_name(self, model_name: str) -> str:
+        """Normalize model names to ensure consistency between local and direct loading."""
+        # Map local LM Studio model names to standard names
+        normalization_map = {
+            "text-embedding-qwen3-embedding-0.6b": "Qwen/Qwen3-Embedding-0.6B",
+            "text-embedding-qwen3-embedding-4b": "Qwen/Qwen3-Embedding-4B", 
+            "text-embedding-qwen3-embedding-8b": "Qwen/Qwen3-Embedding-8B",
+            "text-embedding-all-minilm-l6-v2-embedding": "all-MiniLM-L6-v2",
+            "text-embedding-nomic-embed-text-v1.5": "nomic-ai/nomic-embed-text-v1.5"
+        }
+        
+        return normalization_map.get(model_name, model_name)
     
     def _save_embedding_to_file(self, problem_key: str, embedding: np.ndarray, content_hash: str) -> None:
         """Save embedding and metadata to a separate YAML file in _embeddings directory."""
@@ -155,10 +171,24 @@ class SimpleEmbeddingAnalyzer:
                 data = response.json()
                 if data.get('data'):
                     model_names = [model.get('id', 'unknown') for model in data['data']]
-                    print(f"✅ LM Studio is available with models: {', '.join(model_names)}")
-                    # Use the first available model
-                    self.local_model_name = model_names[0]
-                    print(f"🎯 Using model: {self.local_model_name}")
+                    print(f"✅ LM Studio is available with {len(model_names)} models: {', '.join(model_names[:3])}{'...' if len(model_names) > 3 else ''}")
+                    
+                    # Try to find the closest match to our preferred model
+                    preferred_model = "text-embedding-qwen3-embedding-0.6b"
+                    if preferred_model in model_names:
+                        self.local_model_name = preferred_model
+                        print(f"🎯 Using preferred model: {self.local_model_name}")
+                    else:
+                        # Look for any qwen3 0.6b variant
+                        qwen_models = [m for m in model_names if 'qwen3' in m.lower() and '0.6b' in m.lower()]
+                        if qwen_models:
+                            self.local_model_name = qwen_models[0]
+                            print(f"🎯 Using Qwen3 0.6B variant: {self.local_model_name}")
+                        else:
+                            # Fall back to first model
+                            self.local_model_name = model_names[0]
+                            print(f"⚠️  Preferred model not found, using first available: {self.local_model_name}")
+                            print(f"💡 Available models: {', '.join(model_names)}")
                 else:
                     print("⚠️  LM Studio is available but no models are loaded")
                     raise ValueError("No models available in local service")
@@ -340,9 +370,13 @@ class SimpleEmbeddingAnalyzer:
                 except Exception as e:
                     print(f"⚠️  Could not load cache from {embedding_file}: {e}")
             
+            # Normalize model names for comparison
+            normalized_cached = self._normalize_model_name(cached_model) if cached_model else None
+            normalized_current = self._normalize_model_name(current_model)
+            
             if (cached_embedding and 
                 cached_hash == content_hash and 
-                cached_model == current_model):
+                normalized_cached == normalized_current):
                 # Use cached embedding from separate file
                 if isinstance(cached_embedding, list):
                     cached_embedding = np.array(cached_embedding)
