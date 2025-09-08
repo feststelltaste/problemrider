@@ -93,16 +93,38 @@ permalink: /landscape/
         display: flex;
         align-items: center;
         margin-bottom: 8px;
-        line-height: 1.4;
+        line-height: 1.4;        
     }
     .control-icon {
         font-size: 16px;
         margin-right: 8px;
         width: 20px;
         text-align: center;
+        text-decoration: none;
     }
     .control-text {
         color: #495057;
+        cursor: pointer
+    }
+    .control-text:hover {
+        color: #212529;
+        text-decoration: solid;
+    }
+    .delete-path-btn {
+        margin-left: 15px;
+        filter: saturate(0.2);
+        cursor: pointer;
+    }
+    .delete-path-btn:hover {
+        filter: none;
+    }
+    .export-path-btn{
+        margin-left: 5px;
+        filter: saturate(0.2);
+        cursor: pointer;
+    }
+    .export-path-btn:hover {
+        filter: none;
     }
     .modal {
         display: none;
@@ -251,6 +273,43 @@ permalink: /landscape/
         color: #764ba2;
         text-decoration: underline;
     }
+    .path-tool {
+        cursor: pointer;
+    }
+    .path-creator-on-tooltip{
+        visibility: hidden;
+        background-color: lime;
+        color:white;
+        padding: 5px 10px;
+        border-radius: 4px;
+        opacity: 0.8;
+        box-shadow: 0 0 5px lime;
+        position: absolute;
+        top: 80px;
+        right: 50%;
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+            "path-creator-label path-creator-label path-creator-label path-creator-label"
+            "save-path-btn add-node-btn remove-node-btn cancel-path-btn";
+    }
+    .path-creator-label{
+        grid-area: path-creator-label;
+        text-align: center;
+    }
+    .save-path-btn{
+        grid-area: save-path-btn;
+    }
+    .add-node-btn{
+        grid-area: add-node-btn;
+    }
+    .remove-node-btn{
+        grid-area: remove-node-btn;
+    }
+    .cancel-path-btn{
+        grid-area: cancel-path-btn;
+    }
 </style>
 
 <div class="tooltip"></div>
@@ -277,6 +336,30 @@ permalink: /landscape/
         <span class="control-icon">&#128196;</span>
         <span class="control-text">Double-click for full details</span>
     </div>
+
+    <h4>Path Tools</h4>
+    <button class="control-item" id="create-path-btn">
+        <span class="control-icon">➕</span>
+        <span class="control-text">Create path</span>
+    </button>
+    <button class="control-item" id="import-path-btn">
+        <span class="control-icon">📤</span>
+        <span class="control-text">Import path</span>
+    </button>
+
+    <h4>Current Paths</h4>
+    <div id="path-list-container">
+        <!-- <em>No saved paths.</em> -->
+    </div>
+    
+</div>
+
+<div class="path-creator-on-tooltip">
+    <span class="path-creator-label">Create Path: ON</span>
+    <button class="save-path-btn" id="save-path-btn" title="Save Path">💾</button>
+    <button class="add-node-btn" id="add-node-btn" title="Add Node">➕</button>
+    <button class="remove-node-btn" id="remove-node-btn" title="Remove Node">➖</button>
+    <button class="cancel-path-btn" id="cancel-path-btn" title="Cancel Path">❌</button>
 </div>
 
 <div id="modal" class="modal">
