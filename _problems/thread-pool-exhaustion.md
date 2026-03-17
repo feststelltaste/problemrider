@@ -35,8 +35,6 @@ Thread pool exhaustion occurs when all available threads in an application's thr
 
 ## Symptoms ▲
 
-- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
-<br/>  Thread pool exhaustion creates severe performance bottlenecks as no new requests can be processed despite available system resources.
 - [Cascade Failures](cascade-failures.md)
 <br/>  When one service exhausts its thread pool, dependent services also fail as their requests time out, causing cascading failures.
 - [System Outages](system-outages.md)

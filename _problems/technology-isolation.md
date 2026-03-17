@@ -41,8 +41,6 @@ Technology isolation occurs when a system's technology stack becomes so outdated
 <br/>  Isolation from modern ecosystems prevents the team from leveraging current tools, libraries, and practices for innovation.
 - [High Maintenance Costs](high-maintenance-costs.md)
 <br/>  Custom solutions must be built for problems that have standard solutions in modern ecosystems, increasing maintenance costs.
-- [Inadequate Onboarding](inadequate-onboarding.md)
-<br/>  New hires require extensive training on isolated technologies, dramatically extending time to productivity.
 ## Causes ▼
 
 - [Obsolete Technologies](obsolete-technologies.md)

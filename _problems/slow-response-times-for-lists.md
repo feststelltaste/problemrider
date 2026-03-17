@@ -35,8 +35,6 @@ Slow response times for lists is a common performance problem in web application
 
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Slow list pages are a visible component of overall application sluggishness perceived by users.
-- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
-<br/>  Users frequently interact with list views, so their slowness directly degrades the overall user experience.
 - [High API Latency](high-api-latency.md)
 <br/>  List endpoints that fetch large amounts of data contribute significantly to API latency.
 ## Causes ▼

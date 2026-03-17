@@ -35,8 +35,6 @@ Slow incident resolution occurs when system problems, outages, or critical issue
 
 ## Symptoms ▲
 
-- [System Outages](system-outages.md)
-<br/>  When incidents take too long to resolve, minor issues escalate into prolonged outages with wider impact.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Extended incident resolution times prolong user-facing problems, leading to frustration and complaints.
 - [User Trust Erosion](user-trust-erosion.md)

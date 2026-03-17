@@ -40,8 +40,6 @@ Technical architecture limitations occur when the fundamental design and structu
 <br/>  Architectural constraints force developers to work around fundamental design issues, significantly slowing feature development.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Developers create workarounds to bypass architectural constraints rather than implementing straightforward solutions.
-- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
-<br/>  Fundamental design constraints create performance ceilings that cannot be resolved without architectural changes.
 - [High Maintenance Costs](high-maintenance-costs.md)
 <br/>  Adding new features requires disproportionate effort because changes must work within limiting architectural constraints.
 - [Technology Lock-In](technology-lock-in.md)

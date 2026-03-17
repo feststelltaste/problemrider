@@ -39,8 +39,6 @@ SQL injection vulnerabilities occur when applications fail to properly sanitize 
 <br/>  Without coding standards mandating parameterized queries, developers may use string concatenation for SQL.
 - [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Without code review, insecure query construction patterns go undetected before reaching production.
-- [Password Security Weaknesses](password-security-weaknesses.md)
-<br/>  Lack of security awareness and secure coding practices allows SQL injection patterns to persist in the codebase.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Older code written before security best practices were established often contains SQL injection vulnerabilities.
 ## Detection Methods ○

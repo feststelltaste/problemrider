@@ -40,8 +40,6 @@ Upstream timeouts are a common issue in distributed systems where a service fail
 <br/>  End users experience slow responses or errors caused by upstream timeouts, leading to dissatisfaction.
 - [High Connection Count](high-connection-count.md)
 <br/>  Waiting connections accumulate when upstream services are slow, as calling services hold connections open until timeout.
-- [Release Instability](release-instability.md)
-<br/>  Cascading timeouts across services can destabilize the entire system, causing widespread failures.
 ## Causes ▼
 
 - [High API Latency](high-api-latency.md)

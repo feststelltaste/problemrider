@@ -45,8 +45,6 @@ Slow development velocity represents a sustained reduction in the team's ability
 <br/>  When development velocity drops, business value reaches users much later than expected.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Persistently slow delivery demoralizes the team as they struggle to make meaningful progress.
-- [User Trust Erosion](user-trust-erosion.md)
-<br/>  Repeated failure to deliver at an acceptable pace erodes stakeholder confidence in the development team.
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)

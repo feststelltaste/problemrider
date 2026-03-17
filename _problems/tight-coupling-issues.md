@@ -55,8 +55,6 @@ Tight coupling issues occur when system components are overly dependent on each 
 <br/>  When modules lack clear single responsibilities, they tend to reach into other components for functionality, creating tight coupling.
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  Monolithic architectures naturally encourage tight coupling as all components share the same deployment unit and codebase.
-- [High Technical Debt](high-technical-debt.md)
-<br/>  Accumulated shortcuts and deferred design improvements erode component boundaries and increase coupling over time.
 ## Detection Methods ○
 
 - **Dependency Analysis:** Analyze component dependencies and identify tight coupling patterns

@@ -43,8 +43,6 @@ Test Debt is the accumulated risk resulting from inadequate or neglected quality
 <br/>  Lengthy manual regression testing and lack of automated verification slow down the release cycle.
 - [Quality Degradation](quality-degradation.md)
 <br/>  The accumulated lack of testing leads to progressive quality decline as undetected issues compound over time.
-- [High Technical Debt](high-technical-debt.md)
-<br/>  Test debt is a major component of overall technical debt, contributing to the system becoming increasingly fragile and costly to maintain.
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)

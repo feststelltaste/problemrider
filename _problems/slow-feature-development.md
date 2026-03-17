@@ -36,8 +36,6 @@ Slow feature development is the consistent inability of a development team to de
 <br/>  Slow feature development directly causes delivery dates to be missed.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  When features take too long to build, business value is delivered late, reducing competitive advantage.
-- [User Trust Erosion](user-trust-erosion.md)
-<br/>  Consistently slow delivery of features erodes stakeholder confidence in the team's capabilities.
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)

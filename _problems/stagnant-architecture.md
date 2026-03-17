@@ -44,8 +44,6 @@ Stagnant architecture occurs when a system's fundamental design and structure re
 <br/>  When the architecture can't accommodate new requirements naturally, developers create workarounds that accumulate over time.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Bolting new functionality onto an outdated architecture creates mounting technical debt.
-- [Vendor Lock-In](vendor-lock-in.md)
-<br/>  A stagnant architecture cements dependency on older technology vendors, making migration increasingly difficult.
 ## Causes ▼
 
 - [Fear of Change](fear-of-change.md)
