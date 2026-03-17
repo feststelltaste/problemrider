@@ -49,8 +49,6 @@ Gold plating is the practice of adding unnecessary features or complexity to a p
 <br/>  Without clear requirements, developers fill perceived gaps with their own assumptions about what would be valuable.
 - [No Formal Change Control Process](no-formal-change-control-process.md)
 <br/>  Without formal scope control, developers can add unrequested features without approval or trade-off analysis.
-- [Short-Term Focus](short-term-focus.md)
-<br/>  Focus on immediate impressiveness over long-term product health drives developers to add flashy but unnecessary features.
 ## Detection Methods ○
 - **Feature Request Backlog:** Analyze the feature request backlog to identify features that were not requested.
 - **Product Roadmap:** Review the product roadmap to see if it is focused and realistic.

@@ -37,8 +37,6 @@ Excessive disk I/O can be a major cause of poor application performance. This ca
 <br/>  Heavy disk I/O saturates storage bandwidth, creating contention that affects all applications and services sharing the same storage.
 - [Service Timeouts](service-timeouts.md)
 <br/>  Operations waiting for disk reads or writes may exceed timeout thresholds, causing service failures.
-- [High Database Resource Utilization](high-database-resource-utilization.md)
-<br/>  Excessive disk I/O from inefficient queries or poor indexing drives up database resource consumption.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As data volumes grow, inefficient disk access patterns cause progressively worsening performance.
 ## Causes ▼

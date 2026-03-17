@@ -74,13 +74,3 @@ A Feature Factory is an anti-pattern where organizations become obsessed with ou
 
 A large enterprise software company operates multiple development teams delivering new features every sprint across their suite of products. Management proudly reports that teams are hitting 95% of their story point commitments and shipping an average of 8 new features per quarter. However, customer churn has been steadily increasing, support ticket volume is growing, and user surveys indicate frustration with product complexity. When the product team analyzes feature usage data, they discover that 60% of features released in the past year have less than 15% user adoption. Development teams report feeling disconnected from the impact of their work, with many developers unable to explain how their recent features solve customer problems. The organization has fallen into a feature factory pattern, optimizing for delivery speed while losing sight of customer value and business outcomes.
 
-## Causes ▼
-
-- [Short-Term Focus](short-term-focus.md)
-<br/>  Management focus on immediate delivery metrics rather than long-term value drives the feature factory pattern.
-- [Feedback Isolation](feedback-isolation.md)
-<br/>  Teams operating without user feedback cannot assess whether features deliver value, reinforcing output-focused metrics.
-- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
-<br/>  Without clear strategic goals, teams default to measuring success by feature volume rather than business outcomes.
-- [Market Pressure](market-pressure.md)
-<br/>  Competitive pressure drives organizations to prioritize shipping features quickly over validating their value.

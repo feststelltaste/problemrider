@@ -36,8 +36,6 @@ High resource utilization on the client-side can lead to a poor user experience.
 <br/>  Excessive client-side resource consumption causes the application UI to become sluggish and unresponsive for users.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Users experience poor performance, battery drain, and device overheating, leading to frustration and abandonment.
-- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
-<br/>  High CPU and memory usage on the client leads to laggy interfaces, slow rendering, and unresponsive controls.
 ## Causes ▼
 
 - [Inefficient Frontend Code](inefficient-frontend-code.md)
@@ -46,8 +44,6 @@ High resource utilization on the client-side can lead to a poor user experience.
 <br/>  Unreleased memory from improperly managed objects and event listeners gradually consumes available client resources.
 - [Improper Event Listener Management](improper-event-listener-management.md)
 <br/>  Accumulated unremoved event listeners consume memory and execute unnecessary code, increasing CPU and memory usage.
-- [Gradual Performance Degradation](gradual-performance-degradation.md)
-<br/>  Without client-side performance testing, resource-intensive code patterns go undetected until users experience problems.
 ## Detection Methods ○
 
 - **Browser Developer Tools:** Use the Performance, Memory, and Network tabs in browser developer tools to profile client-side activity.

@@ -38,8 +38,6 @@ A high number of database queries is a common performance problem in database-dr
 <br/>  The cumulative latency of many database round-trips per request directly slows down application response times.
 - [High API Latency](high-api-latency.md)
 <br/>  API endpoints that trigger excessive database queries experience increased response times due to accumulated query overhead.
-- [Slow Database Queries](slow-database-queries.md)
-<br/>  High query volume creates contention and lock waits that slow down individual query execution times.
 ## Causes ▼
 
 - [N+1 Query Problem](n-plus-one-query-problem.md)
