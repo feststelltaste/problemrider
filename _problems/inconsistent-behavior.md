@@ -50,7 +50,7 @@ Inconsistent behavior is a common problem in software systems. It occurs when th
 <br/>  Developers unaware of all locations where business logic exists make changes in one place but miss others.
 - [Inconsistent Codebase](inconsistent-codebase.md)
 <br/>  Lack of uniform design patterns and standards leads to different implementations of the same business process.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Without documentation of intended behavior, different developers implement the same process differently based on their own assumptions.
 ## Detection Methods ○
 - **Integration Testing:** Use integration testing to verify that the system behaves consistently across different parts of the application.

@@ -53,7 +53,7 @@ Slow development velocity represents a sustained reduction in the team's ability
 <br/>  Accumulated technical debt makes every change harder and slower, systematically reducing velocity.
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Tangled, unstructured code makes even simple changes time-consuming because developers must understand complex logic.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Lack of documentation forces developers to spend excessive time understanding the system before making changes.
 - [Inefficient Development Environment](inefficient-development-environment.md)
 <br/>  Slow build times, poor tooling, and cumbersome development workflows waste developer time on non-productive activities.

@@ -52,7 +52,7 @@ Spaghetti code refers to source code that has become tangled, unstructured, and 
 
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Without enforced coding standards, developers write unstructured code that accumulates into spaghetti.
-- [Review Process Breakdown](insufficient-code-review.md)
+- [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Without code review, poorly structured code goes unchecked and accumulates over time.
 - [Time Pressure](time-pressure.md)
 <br/>  Under pressure to deliver quickly, developers take shortcuts that result in tangled, poorly structured code.

@@ -47,7 +47,7 @@ Authentication bypass vulnerabilities occur when security flaws in authenticatio
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Poor error handling in authentication logic can create fallback paths that bypass security checks.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Lack of thorough security testing leaves authentication bypass vulnerabilities undetected.
 - [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
 <br/>  Developer backdoors and simplified authentication in prototypes become security vulnerabilities when prototypes go to production.

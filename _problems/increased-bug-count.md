@@ -51,7 +51,7 @@ Increased bug count occurs when software changes consistently introduce new defe
 
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  A brittle codebase means that small changes have unpredictable widespread effects, introducing more bugs.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Insufficient test coverage allows more bugs to slip through to production undetected.
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
 <br/>  Tightly coupled components mean changes in one area inadvertently break others, multiplying bug introduction.

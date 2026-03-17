@@ -33,7 +33,7 @@ Fear of conflict in code reviews is the reluctance of reviewers to provide criti
 
 - [Superficial Code Reviews](superficial-code-reviews.md)
 <br/>  Reviewers focus only on surface-level issues to avoid confrontation, missing important design and logic problems.
-- [Review Process Breakdown](inadequate-code-reviews.md)
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
 <br/>  The review process fails to identify critical issues because reviewers avoid providing the difficult feedback necessary for quality assurance.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  When significant issues go unchallenged in reviews, code quality degrades as flawed designs and implementations enter the codebase.

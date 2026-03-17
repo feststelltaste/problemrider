@@ -49,7 +49,7 @@ Cross-Site Scripting (XSS) vulnerabilities occur when web applications fail to p
 <br/>  Legacy code written without security testing often lacks proper input validation and output encoding that would prevent XSS.
 - [Quality Compromises](quality-compromises.md)
 <br/>  When quality standards are lowered to meet deadlines, security practices like proper input sanitization are skipped.
-- [Review Process Breakdown](inadequate-code-reviews.md)
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
 <br/>  Code reviews that fail to identify security issues allow XSS-vulnerable code to reach production.
 ## Detection Methods ○
 

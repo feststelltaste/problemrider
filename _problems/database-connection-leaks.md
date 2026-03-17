@@ -54,7 +54,7 @@ Database connection leaks occur when applications open database connections but 
 <br/>  Developers unfamiliar with connection lifecycle management fail to use try-with-resources patterns or proper cleanup logic.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Without tests that exercise error paths and long-running scenarios, connection leak patterns go undetected until production.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Connection leaks typically only manifest under sustained load or error conditions that are not covered by superficial testing.
 ## Detection Methods ○
 

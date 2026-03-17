@@ -48,7 +48,7 @@ Unreleased resources occur when applications acquire system resources such as me
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  When exception paths don't include proper cleanup code, resources allocated before the error are never released.
-- [Review Process Breakdown](insufficient-code-review.md)
+- [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Lack of thorough code reviews allows resource management mistakes to reach production undetected.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Without coding standards mandating resource cleanup patterns, developers inconsistently manage resource lifecycles.

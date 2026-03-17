@@ -48,7 +48,7 @@ Race conditions occur when multiple threads or processes access and manipulate s
 <br/>  Lack of proper synchronization mechanisms for shared resource access is the direct technical cause of race conditions.
 - [Skill Development Gaps](skill-development-gaps.md)
 <br/>  Developers lacking concurrent programming expertise fail to identify and prevent race conditions.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Standard testing rarely exercises concurrent code paths adequately, allowing race conditions to persist undetected.
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Concurrency scenarios are rarely included in test suites, leaving race conditions untested.

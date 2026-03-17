@@ -47,7 +47,7 @@ Information decay occurs when documentation, specifications, and knowledge artif
 <br/>  Developers waste time discovering how the system actually works because documentation no longer reflects reality.
 ## Causes ▼
 
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Systems with initially poor documentation practices are more susceptible to rapid information decay.
 - [Unclear Documentation Ownership](unclear-documentation-ownership.md)
 <br/>  When no one is responsible for maintaining documentation, it naturally becomes outdated as the system evolves.

@@ -50,7 +50,7 @@ Error message information disclosure occurs when applications reveal sensitive t
 <br/>  Misconfigured logging levels in production environments cause debug-level information to be displayed to end users.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without security awareness may not realize that detailed error messages in production pose a security risk.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Lack of security testing for error conditions means information disclosure through error messages goes undetected before production.
 ## Detection Methods ○
 

@@ -54,7 +54,7 @@ Increasing brittleness occurs when software systems become progressively more fr
 <br/>  Accumulated technical debt degrades system architecture over time, making the system progressively more fragile.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Workarounds create hidden dependencies and bypass designed interfaces, making the system prone to breaking.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Without comprehensive tests, regressions go undetected as changes are made, allowing brittleness to grow.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Low-quality code with unclear contracts and poor structure becomes increasingly fragile as it evolves.

@@ -48,7 +48,7 @@ An inconsistent codebase lacks coherent and unified design, style, and standards
 <br/>  Without clear coding standards, each developer follows their own preferences, resulting in inconsistent code.
 - [Team Churn Impact](team-churn-impact.md)
 <br/>  As developers join and leave over time, each brings different coding conventions that accumulate in the codebase.
-- [Review Process Breakdown](inadequate-code-reviews.md)
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
 <br/>  Superficial reviews fail to enforce consistent coding standards and allow style inconsistencies to persist.
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  Without clear ownership of code quality standards, no one takes responsibility for maintaining consistency.

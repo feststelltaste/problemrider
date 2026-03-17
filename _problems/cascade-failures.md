@@ -49,7 +49,7 @@ Cascade failures occur when a single change, bug, or failure in one component ca
 <br/>  Critical shared components that lack redundancy become failure origins that affect all dependent systems.
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Inadequate error handling means components crash rather than gracefully degrading when upstream services fail.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Lack of failure scenario testing means cascade failure paths are not discovered until they occur in production.
 - [Service Discovery Failures](service-discovery-failures.md)
 <br/>  Failed service discovery causes requests to be routed to unavailable instances, triggering cascade failures.

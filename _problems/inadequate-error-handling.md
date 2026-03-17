@@ -51,7 +51,7 @@ Inadequate error handling occurs when applications fail to properly anticipate, 
 <br/>  Under deadline pressure, developers skip error handling code to deliver features faster, treating it as non-essential.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Junior developers often lack understanding of failure modes and error handling patterns, resulting in missing or naive error handling.
-- [Review Process Breakdown](inadequate-code-reviews.md)
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
 <br/>  Superficial code reviews fail to catch missing error handling in critical code paths.
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
 <br/>  When requirements do not specify error conditions and edge cases, developers build only the happy path.

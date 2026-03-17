@@ -34,7 +34,7 @@ Testing complexity is a common problem in software systems with a high degree of
 
 - [Test Debt](test-debt.md)
 <br/>  When testing is too complex, teams take shortcuts and skip tests, accumulating test debt over time.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  The high effort required to test duplicated functionality leads to insufficient test coverage overall.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
 <br/>  The increased risk of missing bugs due to duplicated test surfaces means more issues reach production.

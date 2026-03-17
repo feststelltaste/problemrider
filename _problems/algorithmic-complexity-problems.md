@@ -49,7 +49,7 @@ Algorithmic complexity problems occur when code uses algorithms or data structur
 
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers lacking computer science fundamentals may not recognize poor algorithmic choices or know better alternatives.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Testing only with small data sets fails to reveal algorithmic complexity issues that appear at production scale.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Time pressure leads developers to implement the first working solution without considering its algorithmic efficiency.

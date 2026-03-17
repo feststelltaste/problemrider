@@ -55,7 +55,7 @@ Poor interfaces between applications occur when systems communicate through poor
 
 ## Causes ▼
 
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Lack of up-to-date interface documentation leads to misunderstandings about API contracts and data formats.
 - [Team Silos](team-silos.md)
 <br/>  Teams developing systems in isolation create incompatible interfaces without cross-team coordination.

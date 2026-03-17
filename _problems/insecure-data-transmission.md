@@ -3,7 +3,7 @@ title: Insecure Data Transmission
 description: Sensitive data transmitted without proper encryption or security controls,
   exposing it to interception and unauthorized access.
 category:
-- Performance
+- Security
 - Security
 related_problems:
 - slug: silent-data-corruption

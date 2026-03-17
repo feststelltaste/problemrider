@@ -51,7 +51,7 @@ Inadequate configuration management occurs when organizations lack proper system
 
 - [Manual Deployment Processes](manual-deployment-processes.md)
 <br/>  Manual deployments encourage ad-hoc configuration changes that bypass tracking and version control systems.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Without documentation practices, configuration decisions and changes are not recorded, making tracking impossible.
 - [Process Design Flaws](process-design-flaws.md)
 <br/>  Poorly designed operational processes lack configuration change control steps, allowing untracked modifications.

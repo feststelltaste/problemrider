@@ -50,11 +50,11 @@ Breaking changes occur when modifications to APIs, interfaces, or system behavio
 
 - [API Versioning Conflicts](api-versioning-conflicts.md)
 <br/>  Poor API versioning practices make it impossible to evolve APIs without breaking existing consumers.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Lack of integration tests against existing client usage patterns allows breaking changes to go undetected before release.
 - [Change Management Chaos](change-management-chaos.md)
 <br/>  Changes deployed without proper coordination or impact assessment break client integrations unexpectedly.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Without documented API contracts, developers don't know which behaviors clients depend on and may inadvertently break them.
 ## Detection Methods ○
 

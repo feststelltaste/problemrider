@@ -1,5 +1,5 @@
 ---
-title: Review Process Breakdown
+title: Insufficient Code Review
 description: Code review processes fail to catch design flaws, bugs, or quality issues
   due to inadequate depth, time, or expertise.
 category:

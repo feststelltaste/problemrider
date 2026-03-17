@@ -48,7 +48,7 @@ Rate limiting issues occur when mechanisms designed to control request frequency
 
 - [Configuration Drift](configuration-drift.md)
 <br/>  Rate limiting configurations gradually become outdated as traffic patterns evolve but settings are not updated.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Lack of documentation about expected traffic patterns and rate limiting rationale leads to misconfigured limits.
 ## Detection Methods ○
 

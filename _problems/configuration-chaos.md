@@ -51,7 +51,7 @@ Configuration chaos occurs when system configurations are managed inconsistently
 <br/>  Without proper version control and tracking of configurations, they inevitably become inconsistent and chaotic.
 - [Manual Deployment Processes](manual-deployment-processes.md)
 <br/>  Manual deployments introduce human error and inconsistency in how configurations are applied across environments.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  When configuration decisions and changes are not documented, knowledge about the intended state is lost, enabling drift and chaos.
 - [Change Management Chaos](change-management-chaos.md)
 <br/>  Without coordinated change management, configuration changes happen ad hoc without oversight, creating inconsistencies across environments.

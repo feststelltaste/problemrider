@@ -50,7 +50,7 @@ Team confusion occurs when team members lack clear understanding of what they sh
 
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  When project goals and priorities are not clearly defined or communicated, team members are left to interpret them differently.
-- [Communication Breakdown](poor-communication.md)
+- [Poor Communication](poor-communication.md)
 <br/>  Ineffective communication channels and practices prevent important information about goals and responsibilities from reaching all team members.
 - [Unclear Documentation Ownership](unclear-documentation-ownership.md)
 <br/>  When responsibilities and ownership boundaries are not defined, team members don't know who is responsible for what.

@@ -49,7 +49,7 @@ Poor project control occurs when project management lacks effective mechanisms t
 
 - [Poor Planning](poor-planning.md)
 <br/>  Without clear plans and milestones, there is nothing meaningful to track progress against.
-- [Communication Breakdown](poor-communication.md)
+- [Poor Communication](poor-communication.md)
 <br/>  When team members don't communicate problems openly, project managers lack visibility into actual status.
 - [Fear of Failure](fear-of-failure.md)
 <br/>  Team members hide problems and report optimistic status due to fear of consequences, undermining project visibility.

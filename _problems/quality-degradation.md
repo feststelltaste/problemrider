@@ -47,7 +47,7 @@ Quality degradation occurs when software systems experience a steady decline in 
 
 - [Quality Compromises](quality-compromises.md)
 <br/>  Deliberately lowering quality standards creates the shortcuts and debt that drive gradual quality decline.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Inadequate testing allows defects to accumulate undetected, contributing to systematic quality erosion.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Poor code quality practices compound over time, creating a downward spiral of maintainability.

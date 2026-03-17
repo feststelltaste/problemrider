@@ -56,7 +56,7 @@ Data migration integrity issues occur when transferring data from legacy systems
 <br/>  Business rules embedded in legacy data formats and constraints are difficult to identify and preserve during migration, leading to semantic data loss.
 - [Data Migration Complexities](data-migration-complexities.md)
 <br/>  The overall complexity of migration processes increases the likelihood of errors that compromise data integrity.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Missing or incomplete documentation about legacy data fields, formats, and their meanings leads to incorrect mapping and transformation during migration.
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Legacy systems using proprietary data formats, outdated encodings like EBCDIC, or custom serialization create conversion challenges that risk data integrity.

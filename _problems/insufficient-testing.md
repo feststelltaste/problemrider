@@ -1,5 +1,5 @@
 ---
-title: Quality Blind Spots
+title: Insufficient Testing
 description: The testing process is not comprehensive enough, leading to a high defect
   rate in production.
 category:

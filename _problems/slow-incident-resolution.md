@@ -47,7 +47,7 @@ Slow incident resolution occurs when system problems, outages, or critical issue
 
 - [Monitoring Gaps](monitoring-gaps.md)
 <br/>  Without proper monitoring, teams lack visibility into system behavior and must manually investigate to find root causes.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Missing operational documentation forces responders to figure out system behavior from scratch during incidents.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When system knowledge is siloed, incident responders may lack the specific expertise needed to diagnose and fix problems quickly.

@@ -1,5 +1,5 @@
 ---
-title: Review Process Breakdown
+title: Inadequate Code Reviews
 description: Code reviews are not consistently performed, are rushed, superficial,
   or fail to identify critical issues, leading to lower code quality and increased
   risk.

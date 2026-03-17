@@ -1,5 +1,5 @@
 ---
-title: System Integration Blindness
+title: Missing End-to-End Tests
 description: Complete user flows are not tested from start to finish, allowing workflow-breaking
   bugs to reach production.
 category:

@@ -49,7 +49,7 @@ Test Debt is the accumulated risk resulting from inadequate or neglected quality
 
 - [Time Pressure](time-pressure.md)
 <br/>  Pressure to deliver features quickly leads teams to skip or defer testing activities to meet deadlines.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  A pattern of not writing adequate tests accumulates into test debt over time.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Prioritizing immediate delivery over long-term quality leads to consistently cutting corners on testing.

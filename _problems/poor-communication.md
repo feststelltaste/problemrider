@@ -1,5 +1,5 @@
 ---
-title: Communication Breakdown
+title: Poor Communication
 description: Collaboration breaks down as developers become isolated and less willing
   to engage with peers.
 category:

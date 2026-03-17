@@ -51,7 +51,7 @@ High turnover occurs when developers frequently leave the team, often shortly af
 <br/>  Poor onboarding experiences frustrate new hires and make them feel unsupported, contributing to early departures.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Working with debt-laden, complex code is demoralizing for developers who want to write quality software.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Inadequate documentation forces new developers to struggle to understand the system, increasing frustration and burnout.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Overworked developers facing constant firefighting and maintenance burdens become exhausted and seek better opportunities.

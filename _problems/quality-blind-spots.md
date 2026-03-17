@@ -46,9 +46,9 @@ Quality blind spots occur when testing practices fail to detect critical defects
 
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Gaps in test coverage directly create areas where defects can go undetected.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Inadequate testing practices mean critical scenarios and edge cases are never verified.
-- [System Integration Blindness](missing-end-to-end-tests.md)
+- [Missing End-to-End Tests](missing-end-to-end-tests.md)
 <br/>  Without end-to-end tests, integration issues between components remain invisible until production.
 - [Quality Compromises](quality-compromises.md)
 <br/>  Deliberately skipping testing to meet deadlines creates systematic gaps in quality verification.

@@ -54,7 +54,7 @@ Data migration complexities occur when moving data between systems, upgrading da
 <br/>  Business rules embedded in complex, poorly documented code make it difficult to understand what transformations are needed during migration.
 - [Legacy Business Logic Extraction Difficulty](legacy-business-logic-extraction-difficulty.md)
 <br/>  Critical business rules buried in legacy code must be understood and preserved during migration, adding significant complexity.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Outdated or missing documentation about data formats, relationships, and business rules makes planning and executing migrations much harder.
 ## Detection Methods ○
 

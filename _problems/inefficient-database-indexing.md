@@ -51,7 +51,7 @@ Inefficient database indexing is a common cause of slow database queries. This c
 <br/>  Neglecting regular review and optimization of database indexes allows inefficient indexing to persist.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers unfamiliar with database performance tuning fail to create appropriate indexes for their query patterns.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Without documentation of query patterns and indexing strategies, proper indexing decisions are difficult to make as the system evolves.
 ## Detection Methods ○
 

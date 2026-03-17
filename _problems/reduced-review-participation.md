@@ -37,7 +37,7 @@ Reduced review participation occurs when many team members avoid or minimize the
 
 - [Review Bottlenecks](review-bottlenecks.md)
 <br/>  Concentrating review work on a few individuals creates bottlenecks when those reviewers are unavailable or overloaded.
-- [Review Process Breakdown](inadequate-code-reviews.md)
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
 <br/>  Fewer reviewers means less diverse perspectives and reduced thoroughness in catching issues.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  Non-participating team members miss exposure to code changes, reinforcing knowledge isolation.

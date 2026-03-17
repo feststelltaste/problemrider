@@ -42,7 +42,7 @@ Inefficient frontend code can have a significant impact on the user experience. 
 
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers unfamiliar with browser rendering pipelines and performance optimization create inefficient frontend code.
-- [Review Process Breakdown](insufficient-code-review.md)
+- [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Without reviews focused on performance, frontend anti-patterns like excessive DOM manipulation go undetected.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  General code quality issues manifest as unoptimized rendering logic, redundant computations, and wasteful resource usage in the frontend.

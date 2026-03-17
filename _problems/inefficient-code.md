@@ -48,7 +48,7 @@ Inefficient code is a broad problem that can have a wide range of causes, from t
 <br/>  Use of inefficient algorithms and data structures is a primary cause of computationally expensive code.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers lacking performance optimization knowledge write code that is unnecessarily resource-intensive.
-- [Review Process Breakdown](insufficient-code-review.md)
+- [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Without code reviews, performance anti-patterns go undetected and accumulate in the codebase.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Low-quality code tends to include redundant operations, unnecessary allocations, and other inefficiencies.

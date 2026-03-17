@@ -42,7 +42,7 @@ Session management issues occur when applications improperly handle user session
 <br/>  Developers without security experience may implement predictable session tokens, skip encryption, or neglect proper session lifecycle management.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Session management code in legacy systems without test coverage makes it risky to fix vulnerabilities or update session handling practices.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Insufficient security testing fails to identify session management vulnerabilities like predictable tokens or missing invalidation.
 ## Detection Methods ○
 

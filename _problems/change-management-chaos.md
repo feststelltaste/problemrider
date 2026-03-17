@@ -48,7 +48,7 @@ Change management chaos occurs when modifications to systems, code, configuratio
 
 - [Team Coordination Issues](team-coordination-issues.md)
 <br/>  Poor communication and coordination between teams leads to conflicting changes being deployed simultaneously.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Lack of documented change procedures and system dependencies means teams cannot assess the impact of their changes.
 - [Rapid System Changes](rapid-system-changes.md)
 <br/>  High pace of system modifications makes it difficult to coordinate and review changes properly.

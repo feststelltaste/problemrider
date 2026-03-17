@@ -49,7 +49,7 @@ System integration blindness occurs when teams lack visibility into how individu
 
 - [Inadequate Integration Tests](inadequate-integration-tests.md)
 <br/>  Without thorough integration testing, component interaction issues remain hidden until deployment.
-- [System Integration Blindness](missing-end-to-end-tests.md)
+- [Missing End-to-End Tests](missing-end-to-end-tests.md)
 <br/>  Lack of end-to-end tests means complete user workflows across components are never validated before production.
 - [Hidden Dependencies](hidden-dependencies.md)
 <br/>  Undocumented dependencies between components create unexpected interactions that teams cannot anticipate.

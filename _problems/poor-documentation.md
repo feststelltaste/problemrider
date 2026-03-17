@@ -1,5 +1,5 @@
 ---
-title: Information Decay
+title: Poor Documentation
 description: System documentation is outdated, incomplete, inaccurate, or difficult
   to find and use effectively.
 category:

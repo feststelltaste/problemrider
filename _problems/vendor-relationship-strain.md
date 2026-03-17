@@ -49,7 +49,7 @@ Vendor relationship strain occurs when tensions, conflicts, or dissatisfaction d
 <br/>  Imposing unrealistic deadlines on vendors creates tension and adversarial dynamics in the relationship.
 - [Vendor Dependency](vendor-dependency.md)
 <br/>  Heavy dependency on a vendor creates power imbalances and friction when expectations are not met.
-- [Communication Breakdown](poor-communication.md)
+- [Poor Communication](poor-communication.md)
 <br/>  Inadequate communication between the organization and vendor leads to misunderstandings and growing tensions.
 ## Detection Methods ○
 

@@ -50,7 +50,7 @@ Single points of failure occur when critical system knowledge, capabilities, or 
 <br/>  When knowledge is concentrated in individuals rather than shared across the team, those individuals become single points of failure.
 - [Knowledge Dependency](knowledge-dependency.md)
 <br/>  Critical system knowledge residing with specific individuals creates dependencies that make them irreplaceable.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Without documentation, knowledge stays locked in individuals' heads, making the organization dependent on their availability.
 - [Skill Development Gaps](skill-development-gaps.md)
 <br/>  When team members fail to develop breadth of skills, expertise concentrates in few individuals who become single points of failure.

@@ -39,7 +39,7 @@ Stack overflow errors occur when a program's call stack exceeds the allocated st
 <br/>  Tangled code with unpredictable call chains can create deep or circular call hierarchies that exhaust the stack.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
 <br/>  Overly complex recursive logic without proper termination conditions leads to unbounded recursion.
-- [Review Process Breakdown](insufficient-code-review.md)
+- [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Without code review, unbounded recursion and excessive stack usage patterns go undetected.
 ## Detection Methods ○
 

@@ -45,7 +45,7 @@ Team churn impact refers to the negative effects on code quality, consistency, a
 <br/>  Long onboarding times and lost institutional knowledge slow the team down as new members struggle to become productive.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  New developers who don't understand original design decisions create workarounds rather than proper solutions, adding complexity.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  When developers leave without documenting their knowledge, critical system information is lost, creating persistent documentation gaps.
 ## Causes ▼
 

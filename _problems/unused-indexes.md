@@ -42,7 +42,7 @@ Unused indexes are database indexes that are not being utilized by any queries. 
 <br/>  Without regular database maintenance and auditing, unused indexes accumulate over time as queries change but indexes remain.
 - [Monitoring Gaps](monitoring-gaps.md)
 <br/>  Without monitoring of index usage statistics, teams have no visibility into which indexes are actually being used.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Poor documentation of why indexes were created makes it difficult to determine if they are still needed.
 ## Detection Methods ○
 

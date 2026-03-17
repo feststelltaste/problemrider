@@ -48,7 +48,7 @@ High maintenance costs are a common problem for legacy systems. As a system ages
 <br/>  Accumulated design shortcuts and code quality issues make every change more expensive and time-consuming.
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  High coupling between components means changes in one area cascade throughout the system, multiplying maintenance effort.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Without proper documentation, developers spend excessive time understanding system behavior before they can make changes.
 ## Detection Methods ○
 - **Cost of Ownership Analysis:** Calculate the total cost of owning and maintaining the system over its lifetime. This will give you a clear picture of the financial impact of the system.

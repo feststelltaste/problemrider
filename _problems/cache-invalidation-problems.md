@@ -42,9 +42,9 @@ Cache invalidation problems occur when cached data is not properly updated or re
 <br/>  Poorly designed caching approaches lack proper invalidation logic, leading to stale data problems.
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Tightly coupled systems make it hard to ensure all cache layers are properly invalidated when source data changes.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Without documented data flow and caching dependencies, developers miss invalidation paths when modifying data sources.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Lack of tests for cache invalidation scenarios allows inconsistency bugs to reach production.
 ## Detection Methods ○
 

@@ -40,7 +40,7 @@ Improper event listener management occurs when applications register event handl
 <br/>  Developers unfamiliar with component lifecycle management may not understand the need to clean up event listeners.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Without standards mandating cleanup of event listeners in component lifecycle methods, this pattern persists.
-- [Review Process Breakdown](insufficient-code-review.md)
+- [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Code reviews could catch missing cleanup code, but without them these patterns enter the codebase unchallenged.
 ## Detection Methods ○
 

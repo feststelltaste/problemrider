@@ -52,7 +52,7 @@ Legacy business logic extraction difficulty occurs when critical business rules 
 
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Tangled, unstructured code makes it nearly impossible to identify where business logic begins and technical implementation ends.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Lack of documentation about business rules forces teams to reverse-engineer logic from code rather than referencing specifications.
 - [Implicit Knowledge](implicit-knowledge.md)
 <br/>  Business rules exist as unwritten assumptions known only to departed employees, making extraction dependent on code archaeology.

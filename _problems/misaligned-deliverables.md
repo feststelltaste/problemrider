@@ -46,7 +46,7 @@ Misaligned deliverables are a classic symptom of a breakdown in communication be
 
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
 <br/>  Poor communication between stakeholders and developers leads to misunderstanding of what needs to be built.
-- [Feedback Isolation](no-continuous-feedback-loop.md)
+- [No Continuous Feedback Loop](no-continuous-feedback-loop.md)
 <br/>  Without regular feedback during development, misalignment is not detected until delivery when it is costly to fix.
 - [Assumption-Based Development](assumption-based-development.md)
 <br/>  Developers making assumptions about requirements instead of validating them leads to deliverables that miss stakeholder expectations.

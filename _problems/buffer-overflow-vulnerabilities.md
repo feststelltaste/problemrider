@@ -41,9 +41,9 @@ Buffer overflow vulnerabilities occur when a program writes more data to a buffe
 
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Without coding standards mandating bounds checking and safe string functions, unsafe buffer operations persist.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Lack of boundary condition testing and fuzz testing allows buffer overflow bugs to reach production.
-- [Review Process Breakdown](inadequate-code-reviews.md)
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
 <br/>  Code reviews that don't specifically check for memory safety issues allow buffer overflow vulnerabilities to pass through.
 ## Detection Methods ○
 

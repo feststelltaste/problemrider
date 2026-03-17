@@ -1,5 +1,5 @@
 ---
-title: Team Dysfunction
+title: Poor Teamwork
 description: Team members work in isolation, resist collaboration, or lack mutual
   respect, reducing overall effectiveness.
 category:

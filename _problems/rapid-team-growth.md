@@ -44,7 +44,7 @@ Rapid team growth occurs when development teams expand in size quickly, often do
 <br/>  Many new developers joining simultaneously without adequate mentoring leads to divergent coding practices.
 - [Review Bottlenecks](review-bottlenecks.md)
 <br/>  Code review queues become overwhelmed when too many new developers submit code with insufficient senior reviewers available.
-- [Team Dysfunction](poor-teamwork.md)
+- [Poor Teamwork](poor-teamwork.md)
 <br/>  Rapid expansion disrupts established team dynamics and communication patterns, reducing collaboration effectiveness.
 ## Causes ▼
 

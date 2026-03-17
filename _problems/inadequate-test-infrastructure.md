@@ -38,7 +38,7 @@ Inadequate test infrastructure refers to the lack of proper tools, environments,
 
 ## Symptoms ▲
 
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Without proper tools and environments, thorough testing becomes impractical and critical areas go untested.
 - [Flaky Tests](flaky-tests.md)
 <br/>  Unreliable test environments cause tests to fail due to infrastructure issues rather than actual bugs.

@@ -45,7 +45,7 @@ Authorization flaws occur when access control mechanisms fail to properly restri
 <br/>  Poor error handling can silently bypass authorization checks, allowing unauthorized access.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
 <br/>  Complex authorization logic is more likely to contain flaws that allow unintended access.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Without thorough authorization testing, access control flaws go undetected until exploited.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without security experience may implement incomplete or incorrect authorization checks.

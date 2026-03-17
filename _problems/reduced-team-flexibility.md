@@ -48,7 +48,7 @@ Reduced team flexibility occurs when a development team loses its ability to ada
 
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When knowledge is concentrated in individuals, only specific people can work on certain components, limiting reassignment options.
-- [Team Dysfunction](poor-teamwork.md)
+- [Poor Teamwork](poor-teamwork.md)
 <br/>  Lack of collaboration and mutual support prevents team members from helping each other across skill boundaries.
 ## Detection Methods ○
 

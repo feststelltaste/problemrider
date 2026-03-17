@@ -47,7 +47,7 @@ Information fragmentation occurs when critical system knowledge, decisions, and 
 <br/>  Fragmented information is harder to maintain and update, accelerating its decay into inaccuracy.
 ## Causes ▼
 
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Lack of documentation standards and practices leads to information being recorded inconsistently across multiple locations.
 - [Tool Limitations](tool-limitations.md)
 <br/>  Using many different tools for documentation and communication naturally scatters information across systems.

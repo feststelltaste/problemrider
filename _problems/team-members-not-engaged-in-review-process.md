@@ -40,7 +40,7 @@ When team members are disengaged from the code review process, it ceases to be a
 <br/>  When only a few people review code, knowledge about the codebase remains concentrated rather than spread across the team.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  Review bottlenecks from disengaged reviewers delay the integration and release of completed work.
-- [Review Process Breakdown](insufficient-code-review.md)
+- [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Rubber-stamp approvals without meaningful examination result in effectively insufficient code review coverage.
 ## Causes ▼
 

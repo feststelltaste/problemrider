@@ -53,7 +53,7 @@ Regression bugs are defects that occur when previously working functionality bre
 <br/>  Tightly coupled components mean changes in one area unexpectedly affect seemingly unrelated functionality.
 - [Brittle Codebase](brittle-codebase.md)
 <br/>  A fragile codebase with poor structure makes it easy for changes to inadvertently break existing functionality.
-- [Review Process Breakdown](inadequate-code-reviews.md)
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
 <br/>  Poor code reviews fail to identify changes that could break existing functionality before they are merged.
 ## Detection Methods ○
 - **Automated Regression Test Suites:** Comprehensive automated tests that verify existing functionality after every change

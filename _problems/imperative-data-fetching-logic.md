@@ -46,7 +46,7 @@ Imperative data fetching logic is a common performance problem in database-drive
 
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers unfamiliar with declarative data access patterns and ORM best practices default to imperative loop-based fetching.
-- [Review Process Breakdown](insufficient-code-review.md)
+- [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Without code review, inefficient data fetching patterns go undetected and become established in the codebase.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Without established data access patterns and standards, developers implement fetching logic inconsistently and inefficiently.

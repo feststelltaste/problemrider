@@ -40,7 +40,7 @@ Integer overflow and underflow occur when arithmetic operations produce results 
 
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Developers without awareness of data type limits fail to implement proper bounds checking.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Insufficient testing with boundary values fails to detect overflow conditions before production.
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Lack of validation and error handling for arithmetic operations allows overflows to occur silently.

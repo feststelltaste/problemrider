@@ -48,7 +48,7 @@ A brittle codebase is one that is difficult and risky to change. When a small ch
 
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  High coupling between components means changes propagate unpredictably, making the codebase fragile.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Without adequate test coverage, there is no safety net to catch regressions introduced by changes.
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Tangled, unstructured code with unclear control flow makes changes risky and unpredictable.

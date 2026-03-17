@@ -35,7 +35,7 @@ Rapid system changes occur when software systems undergo frequent architectural 
 
 ## Symptoms ▲
 
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Documentation cannot keep pace with frequent system changes, becoming outdated and unreliable.
 - [Breaking Changes](breaking-changes.md)
 <br/>  Rapid modifications to APIs and architecture increase the likelihood of breaking existing integrations and functionality.

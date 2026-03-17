@@ -54,7 +54,7 @@ Legacy configuration management chaos occurs when legacy systems store configura
 <br/>  Configuration values embedded directly in code or compiled binaries are a primary driver of configuration management chaos.
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Legacy platforms and proprietary tools lack modern configuration externalization capabilities, forcing outdated configuration approaches.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Configuration settings that were never documented become tribal knowledge, and as people leave, the understanding of configuration is lost.
 ## Detection Methods ○
 

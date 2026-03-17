@@ -48,7 +48,7 @@ New hire frustration occurs when recently hired developers, regardless of their 
 <br/>  Complex, poorly structured onboarding processes create the primary barriers that frustrate new hires.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When critical knowledge is locked in individual team members' heads, new hires cannot learn independently and must constantly interrupt others.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Without adequate documentation, new hires have no self-service way to learn the system and must rely entirely on colleagues.
 - [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md)
 <br/>  When onboarding quality varies, some new hires receive inadequate support and become frustrated by the uneven experience.

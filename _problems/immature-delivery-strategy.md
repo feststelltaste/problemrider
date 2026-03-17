@@ -49,11 +49,11 @@ An immature delivery strategy reflects the absence of well-defined, tested, and 
 
 - [Manual Deployment Processes](manual-deployment-processes.md)
 <br/>  Reliance on manual steps instead of automation makes deployments error-prone and inconsistent.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Without documented deployment procedures, each release depends on individual knowledge and memory.
 - [Poor Operational Concept](poor-operational-concept.md)
 <br/>  A weak understanding of operational requirements leads to delivery processes that don't account for production needs.
-- [Deployment Risk](missing-rollback-strategy.md)
+- [Missing Rollback Strategy](missing-rollback-strategy.md)
 <br/>  Without planned rollback procedures, teams have no safety net when deployments fail, worsening the impact.
 ## Detection Methods ○
 

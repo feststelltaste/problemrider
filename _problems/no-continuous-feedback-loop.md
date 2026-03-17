@@ -1,5 +1,5 @@
 ---
-title: Feedback Isolation
+title: No Continuous Feedback Loop
 description: Stakeholders are not involved throughout the development process, and
   feedback is only gathered at the very end, leading to misaligned deliverables.
 category:

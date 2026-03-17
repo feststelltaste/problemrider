@@ -54,9 +54,9 @@ High technical debt is the implied cost of rework caused by choosing an easy (li
 <br/>  When code is never improved or restructured, design shortcuts and complexity accumulate over time into significant debt.
 - [Time Pressure](time-pressure.md)
 <br/>  Tight deadlines push developers to take shortcuts and skip quality practices, directly creating technical debt.
-- [Review Process Breakdown](insufficient-code-review.md)
+- [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Without peer review, poor design decisions and implementation shortcuts enter the codebase unchallenged.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Without tests, refactoring is risky, so debt-laden code remains untouched and accumulates further.
 - [Implementation Starts Without Design](implementation-starts-without-design.md)
 <br/>  Coding without upfront design leads to ad-hoc architecture and implementation shortcuts that become technical debt.

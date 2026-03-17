@@ -42,7 +42,7 @@ Incomplete knowledge is a common problem in software development. It occurs when
 <br/>  Developers working with incomplete understanding of the system are more likely to introduce defects.
 ## Causes ▼
 
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Outdated or missing documentation prevents developers from learning about all relevant parts of the system.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When knowledge is locked within individual team members, others cannot learn about system areas they have not personally worked on.

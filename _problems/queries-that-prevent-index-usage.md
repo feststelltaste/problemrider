@@ -41,7 +41,7 @@ Even when appropriate indexes exist, certain query patterns can prevent the data
 
 - [Skill Development Gaps](skill-development-gaps.md)
 <br/>  Developers lack knowledge of how database query optimizers work and what patterns prevent index usage.
-- [Review Process Breakdown](insufficient-code-review.md)
+- [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Code reviews that don't evaluate query performance miss patterns that prevent index usage.
 - [Inefficient Database Indexing](inefficient-database-indexing.md)
 <br/>  Poorly designed indexes may not match query patterns, compounding the effect of index-unfriendly queries.

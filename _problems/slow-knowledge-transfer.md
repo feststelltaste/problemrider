@@ -45,7 +45,7 @@ Slow knowledge transfer is a situation where it takes a long time for new team m
 <br/>  Slow transfer means new members develop incomplete understanding, leaving persistent gaps in their knowledge.
 ## Causes ▼
 
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Without documentation, new team members must learn everything through asking colleagues, which is slow and unreliable.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When knowledge is siloed, it can only be transferred through the specific individuals who hold it, creating bottlenecks.

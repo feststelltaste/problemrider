@@ -53,7 +53,7 @@ Inconsistent quality occurs when different parts of a software system exhibit dr
 <br/>  Varying coding standards across the codebase lead to different levels of code quality in different modules.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated technical debt concentrates in certain areas, causing those parts to deteriorate while maintained areas stay healthy.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Uneven test coverage means some parts of the system have comprehensive quality assurance while others have none.
 ## Detection Methods ○
 

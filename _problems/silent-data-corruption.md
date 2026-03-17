@@ -41,7 +41,7 @@ Silent data corruption occurs when data becomes altered, damaged, or lost withou
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Poor error handling fails to detect and report data corruption when it occurs, allowing corrupted data to persist silently.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Lack of comprehensive data validation testing means corruption scenarios are never identified before they affect production.
 - [Race Conditions](race-conditions.md)
 <br/>  Concurrent access without proper synchronization can corrupt shared data in subtle ways that don't trigger explicit errors.

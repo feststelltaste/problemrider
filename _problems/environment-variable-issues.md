@@ -51,7 +51,7 @@ Environment variable issues occur when applications rely on environment variable
 <br/>  Lack of proper configuration management practices means environment variables are not tracked, versioned, or validated systematically.
 - [Configuration Chaos](configuration-chaos.md)
 <br/>  Disorganized configuration management leads to environment variables being inconsistently defined and poorly documented across environments.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Outdated or missing documentation about required environment variables causes misconfiguration during deployments.
 - [Manual Deployment Processes](manual-deployment-processes.md)
 <br/>  Manual deployment steps increase the chance of environment variables being set incorrectly or forgotten entirely.

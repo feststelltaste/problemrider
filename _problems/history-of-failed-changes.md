@@ -44,13 +44,13 @@ A history of failed changes can create a lasting negative impact on a team's cul
 <br/>  Reluctance to change leads to architecture that remains frozen and unable to evolve with changing requirements.
 ## Causes ▼
 
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Inadequate testing allowed defects to reach production in past deployments, causing the failures that created this fear.
 - [Large, Risky Releases](large-risky-releases.md)
 <br/>  Large, infrequent releases carry higher risk of failure, and when they fail, the impact is severe enough to create lasting fear.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
 <br/>  Repeated production bugs from releases build a record of failed changes that reinforces risk-averse culture.
-- [Deployment Risk](missing-rollback-strategy.md)
+- [Missing Rollback Strategy](missing-rollback-strategy.md)
 <br/>  Without rollback capability, failed deployments cause extended outages that amplify the negative impact and fear.
 ## Detection Methods ○
 - **Deployment Frequency:** Track how often the team deploys changes to production. A low deployment frequency can be a sign of fear.

@@ -49,7 +49,7 @@ Increased risk of bugs occurs when the structure, complexity, or clarity of code
 <br/>  Code that is hard to comprehend makes it much more likely that developers will introduce defects when making changes.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
 <br/>  Convoluted business logic with unclear intent creates conditions where bugs are easily introduced.
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Without automated tests to catch regressions, any code change carries a higher risk of introducing bugs.
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Tightly coupled code means changes in one area can unpredictably affect other areas, increasing the risk of unintended bugs.

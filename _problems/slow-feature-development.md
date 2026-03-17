@@ -46,7 +46,7 @@ Slow feature development is the consistent inability of a development team to de
 <br/>  A fragile codebase requires extensive testing and caution for any change, significantly slowing feature development.
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Tangled code makes it extremely difficult to understand where and how to add new functionality safely.
-- [Information Decay](poor-documentation.md)
+- [Poor Documentation](poor-documentation.md)
 <br/>  Without documentation, developers must reverse-engineer the codebase before they can add features.
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
 <br/>  Tightly coupled code means adding a feature in one area requires changes across many unrelated components.

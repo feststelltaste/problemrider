@@ -47,7 +47,7 @@ Team dysfunction occurs when structural, cultural, or interpersonal problems pre
 <br/>  Developers implement local workarounds instead of raising issues that require team-wide collaboration, as described in the example.
 ## Causes ▼
 
-- [Communication Breakdown](poor-communication.md)
+- [Poor Communication](poor-communication.md)
 <br/>  Ineffective communication prevents team members from aligning on goals, resolving conflicts, and building trust.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  When team goals conflict or are unclear, team members work at cross-purposes, creating dysfunction.

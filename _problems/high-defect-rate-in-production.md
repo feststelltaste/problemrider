@@ -45,11 +45,11 @@ A high defect rate in production is a clear sign that there are serious problems
 <br/>  When releases frequently introduce bugs, developers become reluctant to make changes, slowing development velocity.
 ## Causes ▼
 
-- [Quality Blind Spots](insufficient-testing.md)
+- [Insufficient Testing](insufficient-testing.md)
 <br/>  Without adequate test coverage, bugs that could be caught before release make it into production.
 - [Large, Risky Releases](large-risky-releases.md)
 <br/>  Infrequent, large releases bundle many changes together, making it harder to detect defects and increasing the risk of production issues.
-- [Review Process Breakdown](insufficient-code-review.md)
+- [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Without peer review of code changes, logical errors and quality issues go undetected before they reach production.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated shortcuts and complexity make the codebase fragile and prone to unintended side effects when changes are made.
