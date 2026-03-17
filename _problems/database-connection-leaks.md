@@ -4,7 +4,7 @@ description: Database connections are opened but not properly closed, leading to
   pool exhaustion and application failures.
 category:
 - Code
-- Data
+- Database
 - Performance
 related_problems:
 - slug: misconfigured-connection-pools

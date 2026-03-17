@@ -4,7 +4,7 @@ description: Database schema cannot be modified to support new requirements due 
   extensive dependencies and lack of migration tooling
 category:
 - Code
-- Data
+- Database
 related_problems:
 - slug: database-schema-design-problems
   similarity: 0.7

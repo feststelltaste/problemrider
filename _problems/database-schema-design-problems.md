@@ -4,7 +4,7 @@ description: Poor database schema design creates performance issues, data integr
   problems, and maintenance difficulties.
 category:
 - Architecture
-- Data
+- Database
 related_problems:
 - slug: schema-evolution-paralysis
   similarity: 0.7

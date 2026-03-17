@@ -3,7 +3,7 @@ title: Shared Database
 description: A situation where multiple services or components share a single database.
 category:
 - Architecture
-- Data
+- Database
 related_problems:
 - slug: shared-dependencies
   similarity: 0.75

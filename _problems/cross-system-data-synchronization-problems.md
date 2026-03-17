@@ -4,7 +4,7 @@ description: Maintaining data consistency between legacy and modern systems duri
   migration creates complex synchronization challenges and potential data corruption
 category:
 - Code
-- Data
+- Database
 - Testing
 related_problems:
 - slug: data-migration-integrity-issues

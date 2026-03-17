@@ -4,7 +4,7 @@ description: Data becomes corrupted without triggering errors or alerts, leading
   incorrect results and loss of data integrity.
 category:
 - Code
-- Data
+- Database
 - Security
 related_problems:
 - slug: data-migration-integrity-issues

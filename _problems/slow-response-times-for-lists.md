@@ -4,7 +4,7 @@ description: Web pages or API endpoints that display lists of items are signific
   slower to load than those that display single items, often due to inefficient data
   fetching.
 category:
-- Data
+- Database
 - Performance
 related_problems:
 - slug: slow-application-performance

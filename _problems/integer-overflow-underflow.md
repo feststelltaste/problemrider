@@ -4,7 +4,7 @@ description: Arithmetic operations produce results that exceed the maximum or mi
   values representable by integer data types, leading to unexpected behavior.
 category:
 - Code
-- Data
+- Database
 - Security
 related_problems:
 - slug: buffer-overflow-vulnerabilities

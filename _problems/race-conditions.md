@@ -4,7 +4,7 @@ description: Multiple threads access shared resources simultaneously without pro
   synchronization, leading to unpredictable behavior and data corruption.
 category:
 - Code
-- Data
+- Database
 - Performance
 related_problems:
 - slug: lock-contention

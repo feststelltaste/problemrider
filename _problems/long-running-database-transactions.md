@@ -44,8 +44,6 @@ Long-running database transactions are a specific type of long-running transacti
 <br/>  Application requests waiting for database operations blocked by long-running transactions exceed timeout thresholds.
 ## Causes ▼
 
-- [Slow Database Queries](slow-database-queries.md)
-<br/>  Inefficient queries within a transaction extend its duration, keeping the transaction open longer than necessary.
 - [Inefficient Database Indexing](inefficient-database-indexing.md)
 <br/>  Missing or poor indexes cause queries within transactions to take much longer, extending transaction duration.
 - [External Service Delays](external-service-delays.md)

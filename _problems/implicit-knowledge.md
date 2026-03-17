@@ -39,8 +39,6 @@ Implicit knowledge refers to critical information about system behavior, busines
 <br/>  New hires struggle to become productive because critical system knowledge is not documented and must be learned through experience or asking individuals.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When knowledge is implicit, it naturally concentrates in the minds of specific individuals, creating dangerous single points of expertise.
-- [High Turnover](high-turnover.md)
-<br/>  New developers become frustrated when they cannot access the knowledge needed to be effective, contributing to early departures.
 - [High Bug Introduction Rate](high-bug-introduction-rate.md)
 <br/>  Developers unaware of unwritten rules and assumptions make changes that violate implicit constraints, introducing bugs.
 - [Implementation Rework](implementation-rework.md)

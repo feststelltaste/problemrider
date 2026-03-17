@@ -3,7 +3,7 @@ title: Index Fragmentation
 description: Over time, as data is inserted, updated, and deleted, database indexes
   become disorganized, reducing their efficiency.
 category:
-- Data
+- Database
 - Performance
 related_problems:
 - slug: unused-indexes

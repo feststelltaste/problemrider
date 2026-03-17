@@ -46,8 +46,6 @@ High database resource utilization can be a major cause of poor application perf
 
 - [High Number of Database Queries](high-number-of-database-queries.md)
 <br/>  A large volume of queries per request multiplies the load on database CPU and memory resources.
-- [Slow Database Queries](slow-database-queries.md)
-<br/>  Inefficient queries that run for extended periods consume database resources disproportionately and hold locks longer.
 - [Inefficient Database Indexing](inefficient-database-indexing.md)
 <br/>  Missing or poorly designed indexes force the database to perform full table scans, consuming excessive CPU and I/O.
 - [High Connection Count](high-connection-count.md)

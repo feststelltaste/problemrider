@@ -32,8 +32,6 @@ Incomplete knowledge is a common problem in software development. It occurs when
 
 ## Symptoms ▲
 
-- [Code Duplication](code-duplication.md)
-<br/>  Developers unaware of existing implementations create duplicate code because they do not know solutions already exist.
 - [Synchronization Problems](synchronization-problems.md)
 <br/>  When developers do not know all locations where similar logic exists, updates to one copy miss others, causing divergent behavior.
 - [Inconsistent Behavior](inconsistent-behavior.md)

@@ -4,7 +4,7 @@ description: Data structures are organized in ways that cause poor cache perform
   leading to excessive memory access latency and reduced throughput.
 category:
 - Code
-- Data
+- Database
 - Performance
 related_problems:
 - slug: alignment-and-padding-issues

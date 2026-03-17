@@ -4,7 +4,7 @@ description: Data structures that grow indefinitely without proper pruning or si
   limits, leading to memory exhaustion and performance degradation.
 category:
 - Code
-- Data
+- Database
 - Performance
 related_problems:
 - slug: unbounded-data-growth

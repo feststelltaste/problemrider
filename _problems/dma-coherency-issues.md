@@ -4,7 +4,7 @@ description: Direct Memory Access operations conflict with CPU cache coherency, 
   to data corruption or inconsistent data views between CPU and DMA devices.
 category:
 - Code
-- Data
+- Database
 - Performance
 related_problems:
 - slug: false-sharing

@@ -4,7 +4,7 @@ description: Data loses integrity, consistency, or meaning during migration from
   to modern systems due to schema mismatches and format incompatibilities
 category:
 - Code
-- Data
+- Database
 - Operations
 related_problems:
 - slug: cross-system-data-synchronization-problems

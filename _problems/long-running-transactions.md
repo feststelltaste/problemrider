@@ -4,7 +4,7 @@ description: Database transactions that remain open for a long time can hold loc
   consume resources, and block other operations.
 category:
 - Code
-- Data
+- Database
 - Performance
 related_problems:
 - slug: long-running-database-transactions

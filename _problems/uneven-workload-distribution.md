@@ -48,8 +48,6 @@ Uneven workload distribution occurs when work assignments are not balanced acros
 <br/>  When work is concentrated on a few individuals, the team cannot easily reassign work or adapt when those people are unavailable.
 ## Causes ▼
 
-- [Knowledge Silos](knowledge-silos.md)
-<br/>  When only certain people have specific expertise, work that requires that expertise always flows to them, creating imbalance.
 - [Inappropriate Skillset](inappropriate-skillset.md)
 <br/>  When team members lack skills for certain work types, managers route complex tasks to the few who are capable, creating imbalance.
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)

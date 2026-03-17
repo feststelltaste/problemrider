@@ -4,7 +4,7 @@ description: An application makes numerous unnecessary database calls to fetch r
   data where a single, more efficient query would suffice, causing significant performance
   degradation.
 category:
-- Data
+- Database
 - Performance
 related_problems:
 - slug: high-number-of-database-queries
