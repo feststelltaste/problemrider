@@ -45,6 +45,9 @@ Legacy code without tests refers to existing production systems that were built 
 <br/>  Without automated tests to catch regressions, changes frequently break previously working functionality.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
 <br/>  Lack of test coverage means defects go undetected during development and only surface in production.
+- [Null Pointer Dereferences](null-pointer-dereferences.md)
+<br/>  Null pointer dereferences cause crashes in production.
+
 ## Causes ▼
 
 - [Difficult to Test Code](difficult-to-test-code.md)

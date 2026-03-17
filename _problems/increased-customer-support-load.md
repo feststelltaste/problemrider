@@ -37,8 +37,6 @@ Increased customer support load occurs when technical problems, poor user experi
 
 - [Maintenance Cost Increase](maintenance-cost-increase.md)
 <br/>  More support tickets require more support staff and operational resources, increasing overall maintenance costs.
-- [Declining Business Metrics](declining-business-metrics.md)
-<br/>  High support load correlates with poor user experience, which drives down engagement, conversion, and revenue metrics.
 - [Operational Overhead](operational-overhead.md)
 <br/>  Support staff spends time on technical issues that should have been prevented, diverting resources from planned activities.
 ## Causes ▼

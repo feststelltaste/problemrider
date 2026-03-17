@@ -39,8 +39,6 @@ Resource waste occurs when available capacity, skills, or tools are not utilized
 <br/>  Paying for underutilized resources while needing to acquire additional resources for constrained areas drives costs above budget.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  When skilled developers are allocated to low-value tasks while critical work is understaffed, overall team velocity suffers.
-- [Project Resource Constraints](project-resource-constraints.md)
-<br/>  Poor resource utilization means some projects lack resources while equivalent capacity sits idle elsewhere in the organization.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Stakeholders become frustrated when they see investment in resources not translating to proportional productivity or output.
 ## Causes ▼

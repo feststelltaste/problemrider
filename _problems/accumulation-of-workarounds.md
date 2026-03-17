@@ -43,8 +43,6 @@ Accumulation of workarounds occurs when developers consistently choose temporary
 <br/>  Layered workarounds create unexpected interactions and edge cases that increase the likelihood of bugs.
 - [Maintenance Cost Increase](maintenance-cost-increase.md)
 <br/>  Each new feature or fix must navigate around existing workarounds, significantly increasing maintenance effort.
-- [Brittle Codebase](brittle-codebase.md)
-<br/>  Interconnected workarounds create fragile code where modifying one workaround can break others.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  New features take longer because developers must understand and work around the existing web of workarounds.
 ## Causes ▼

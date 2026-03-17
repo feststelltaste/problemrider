@@ -39,8 +39,6 @@ Vendor relationship strain occurs when tensions, conflicts, or dissatisfaction d
 <br/>  Strained vendor relationships lead to delays as vendors become unresponsive or reduce service levels.
 - [Quality Degradation](quality-degradation.md)
 <br/>  When vendor relationships deteriorate, deliverable quality suffers as vendors provide minimal effort.
-- [Legal Disputes](legal-disputes.md)
-<br/>  Escalating tensions with vendors can lead to formal legal disputes over contract terms and deliverables.
 - [Maintenance Cost Increase](maintenance-cost-increase.md)
 <br/>  Strained relationships lead to renegotiation demands and additional costs to resolve conflicts.
 ## Causes ▼

@@ -42,8 +42,6 @@ Inability to innovate occurs when development teams become so consumed with main
 <br/>  Without capacity for innovation, the system architecture remains frozen and cannot evolve to meet new requirements.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Inability to deliver new features or improve the product causes customers to become dissatisfied as competitors advance.
-- [Reduced Innovation](reduced-innovation.md)
-<br/>  The team's inability to innovate directly manifests as a measurable reduction in innovative output and improvements.
 ## Causes ▼
 
 - [High Maintenance Costs](high-maintenance-costs.md)

@@ -50,8 +50,6 @@ Micromanagement culture occurs when organizational leadership requires detailed 
 <br/>  Developers spend significant time on approval workflows and justification documents instead of productive work.
 ## Causes ▼
 
-- [User Trust Erosion](user-trust-erosion.md)
-<br/>  Fundamental distrust of team members' judgment drives management to require oversight on all decisions.
 - [Fear of Change](fear-of-change.md)
 <br/>  An organizational culture that prioritizes avoiding mistakes over empowering teams leads to excessive controls and approvals.
 - [Power Struggles](power-struggles.md)

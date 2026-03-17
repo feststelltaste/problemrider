@@ -48,6 +48,11 @@ Poor interfaces between applications occur when systems communicate through poor
 <br/>  Poorly defined interfaces produce frequent integration errors from mismatched data formats and inconsistent contracts.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  New features requiring cross-system integration take much longer due to unreliable and inconsistent interfaces.
+- [ABI Compatibility Issues](abi-compatibility-issues.md)
+<br/>  ABI incompatibilities emerge as a specific manifestation.
+- [Endianness Conversion Overhead](endianness-conversion-overhead.md)
+<br/>  Endianness conversion becomes a measurable performance drag.
+
 ## Causes ▼
 
 - [Information Decay](poor-documentation.md)

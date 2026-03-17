@@ -40,8 +40,6 @@ Quality blind spots occur when testing practices fail to detect critical defects
 <br/>  Undetected defects accumulate over time, causing gradual decline in system reliability and quality.
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  Untested failure modes create hidden fragilities that make the system increasingly prone to unexpected breakage.
-- [Monitoring Gaps](monitoring-gaps.md)
-<br/>  Blind spots in testing often extend to monitoring, leaving production issues undetected as well.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Production failures from untested scenarios erode stakeholder confidence in the system.
 ## Causes ▼

@@ -30,12 +30,8 @@ Slow application performance is a broad problem that can have a wide range of ca
 
 ## Symptoms ▲
 
-- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
-<br/>  Sluggish application performance directly degrades the user experience, making the application frustrating to use.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Users become dissatisfied when the application is slow and unresponsive, leading to complaints and churn.
-- [High Resource Utilization on Client](high-resource-utilization-on-client.md)
-<br/>  Poor performance often manifests as excessive CPU and memory consumption on user devices.
 - [System Outages](system-outages.md)
 <br/>  Severe performance degradation can cascade into full outages when resources are exhausted.
 ## Causes ▼

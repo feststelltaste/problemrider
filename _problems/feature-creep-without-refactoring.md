@@ -44,6 +44,9 @@ Feature creep without refactoring is the process of continuously adding new feat
 <br/>  The codebase becomes progressively harder to understand as features are added without improving the underlying design.
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Continuous feature additions without structural improvement create tangled, unstructured code that is nearly impossible to maintain.
+- [Hidden Side Effects](hidden-side-effects.md)
+<br/>  Hidden side effects accumulate as code evolves without review.
+
 ## Causes ▼
 
 - [Deadline Pressure](deadline-pressure.md)

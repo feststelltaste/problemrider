@@ -44,6 +44,9 @@ Monolithic functions and classes are code components that have grown to handle m
 <br/>  Complex, multi-responsibility functions are prone to bugs because changes to one concern can inadvertently affect others.
 - [Difficult to Test Code](difficult-to-test-code.md)
 <br/>  Testing monolithic functions requires extensive setup and mocking of many dependencies, making thorough testing impractical.
+- [Circular Dependency Problems](circular-dependency-problems.md)
+<br/>  Circular dependencies develop as modules become intertwined.
+
 ## Causes ▼
 
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)

@@ -35,8 +35,6 @@ Slow database queries are a primary cause of poor application performance. When 
 <br/>  Slow queries directly cause the application to respond slowly to user requests.
 - [Slow Response Times for Lists](slow-response-times-for-lists.md)
 <br/>  List pages are especially affected by slow queries because they execute multiple queries or process large result sets.
-- [High Database Resource Utilization](high-database-resource-utilization.md)
-<br/>  Inefficient queries consume excessive CPU, memory, and I/O on the database server.
 - [High API Latency](high-api-latency.md)
 <br/>  API endpoints that depend on database queries inherit the slowness, increasing overall API response times.
 ## Causes ▼

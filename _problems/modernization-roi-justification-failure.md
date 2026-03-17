@@ -41,8 +41,6 @@ Modernization ROI justification failure occurs when organizations cannot build c
 <br/>  When ROI cannot be justified, teams cannot commit to any modernization approach, leading to decision paralysis.
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Inability to justify modernization investment means legacy systems continue running on increasingly obsolete technology stacks.
-- [High Maintenance Costs](high-maintenance-costs.md)
-<br/>  Without modernization investment, legacy systems accumulate technical debt that drives maintenance costs ever higher.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Failure to justify and fund modernization allows competitors with modern systems to outpace the organization in features and agility.
 - [Stakeholder Frustration](stakeholder-frustration.md)

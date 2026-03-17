@@ -43,8 +43,6 @@ Poor planning occurs when development projects lack adequate forethought, realis
 <br/>  Poor upfront planning leaves requirements vague, allowing scope to expand uncontrollably during development.
 - [Implementation Rework](implementation-rework.md)
 <br/>  Discovering unanticipated technical obstacles late in development forces significant rework of existing implementations.
-- [Resource Allocation Failures](resource-allocation-failures.md)
-<br/>  Poor planning leads to mismatched resource allocation that doesn't reflect actual project needs.
 - [Increased Stress and Burnout](increased-stress-and-burnout.md)
 <br/>  Unrealistic plans create sustained pressure on teams trying to meet impossible timelines.
 ## Causes ▼

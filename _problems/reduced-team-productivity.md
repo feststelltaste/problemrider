@@ -42,8 +42,6 @@ Reduced team productivity occurs when a development team's collective output, ef
 <br/>  Lower team output leads to missed deadlines and extended project timelines.
 - [Incomplete Projects](incomplete-projects.md)
 <br/>  Reduced productivity means teams cannot finish all planned work, leaving projects incomplete.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
-<br/>  Teams working harder to compensate for systemic productivity loss experience exhaustion and burnout.
 - [User Trust Erosion](user-trust-erosion.md)
 <br/>  Consistently underdelivering erodes stakeholder confidence in the development team's capabilities.
 ## Causes ▼

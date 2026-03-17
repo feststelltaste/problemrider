@@ -34,8 +34,6 @@ Service timeouts occur when a service fails to respond to a request within a spe
 
 - [Cascade Failures](cascade-failures.md)
 <br/>  When one service times out, callers may also time out waiting for it, creating a chain reaction of failures across the system.
-- [Increased Error Rates](increased-error-rates.md)
-<br/>  Timeout errors contribute directly to elevated error rates across the system as requests fail to complete.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Users experience slow responses or error messages when services time out, leading to frustration and dissatisfaction.
 - [Slow Application Performance](slow-application-performance.md)

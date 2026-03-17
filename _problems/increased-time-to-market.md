@@ -42,8 +42,6 @@ Increased time to market occurs when the duration from concept to customer deliv
 <br/>  When time to market increases, the value of features reaching customers is delayed, reducing business impact.
 - [User Trust Erosion](user-trust-erosion.md)
 <br/>  Consistently missing market windows erodes stakeholder confidence in the development organization's ability to deliver.
-- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
-<br/>  Longer development cycles lead to repeated deadline extensions as original timelines prove unachievable.
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)

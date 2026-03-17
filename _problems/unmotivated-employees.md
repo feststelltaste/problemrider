@@ -40,8 +40,6 @@ Unmotivated employees exhibit low engagement, minimal initiative, and reduced co
 <br/>  Unmotivated employees contribute minimal effort, directly reducing the team's overall output and effectiveness.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Disengaged developers are less careful in their work, leading to more defects and poorly designed code.
-- [Team Demoralization](team-demoralization.md)
-<br/>  Unmotivated individuals negatively influence team morale, as their disengagement spreads to other team members.
 - [Reduced Review Participation](reduced-review-participation.md)
 <br/>  Unmotivated employees avoid voluntary activities like code reviews, concentrating the review burden on engaged team members.
 - [Resistance to Change](resistance-to-change.md)

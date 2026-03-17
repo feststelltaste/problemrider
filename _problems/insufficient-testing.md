@@ -44,6 +44,11 @@ Insufficient testing is a major cause of poor software quality. When a product i
 <br/>  Teams spend significant time dealing with production issues that testing should have caught.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Frequent production bugs caused by insufficient testing directly impact user experience and satisfaction.
+- [Cache Invalidation Problems](cache-invalidation-problems.md)
+<br/>  Cache invalidation issues surface as a recurring problem.
+- [Integer Overflow and Underflow](integer-overflow-underflow.md)
+<br/>  Integer overflow and underflow bugs appear in production.
+
 ## Causes ▼
 
 - [Deadline Pressure](deadline-pressure.md)

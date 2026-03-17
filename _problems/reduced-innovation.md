@@ -35,10 +35,6 @@ Reduced innovation occurs when development teams lose their drive to explore new
 
 ## Symptoms ▲
 
-- [Technology Isolation](technology-isolation.md)
-<br/>  Resistance to new ideas causes the team to fall behind on technology trends, becoming isolated from the broader ecosystem.
-- [Inability to Innovate](inability-to-innovate.md)
-<br/>  Persistent resistance to new approaches eventually solidifies into a structural inability to innovate at all.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  Avoidance of new approaches means the system architecture remains unchanged despite known limitations.
 - [Competitive Disadvantage](competitive-disadvantage.md)

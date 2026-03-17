@@ -50,8 +50,6 @@ Rate limiting issues occur when mechanisms designed to control request frequency
 <br/>  Rate limiting configurations gradually become outdated as traffic patterns evolve but settings are not updated.
 - [Information Decay](poor-documentation.md)
 <br/>  Lack of documentation about expected traffic patterns and rate limiting rationale leads to misconfigured limits.
-- [Resource Allocation Failures](resource-allocation-failures.md)
-<br/>  Incorrect understanding of resource capacity leads to rate limits that don't match actual system capabilities.
 ## Detection Methods ○
 
 - **Rate Limit Hit Analysis:** Monitor frequency and patterns of rate limit violations

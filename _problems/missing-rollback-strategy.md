@@ -38,8 +38,6 @@ Deployment Risk occurs when teams deploy systems without having a reliable, test
 
 ## Symptoms ▲
 
-- [Deployment Risk](deployment-risk.md)
-<br/>  Without rollback capability, teams become anxious about deployments since any problem requires fixing forward under pressure.
 - [Slow Incident Resolution](slow-incident-resolution.md)
 <br/>  When deployments go wrong and cannot be quickly reverted, incidents last longer and have greater impact.
 - [Large, Risky Releases](large-risky-releases.md)

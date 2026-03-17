@@ -51,8 +51,6 @@ Information fragmentation occurs when critical system knowledge, decisions, and 
 <br/>  Lack of documentation standards and practices leads to information being recorded inconsistently across multiple locations.
 - [Tool Limitations](tool-limitations.md)
 <br/>  Using many different tools for documentation and communication naturally scatters information across systems.
-- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
-<br/>  Without standards for where and how information should be documented, team members store knowledge wherever is convenient.
 ## Detection Methods ○
 
 - **Information Audit:** Survey what critical information exists and where it's located

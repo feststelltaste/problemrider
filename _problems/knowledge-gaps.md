@@ -49,6 +49,9 @@ Knowledge gaps occur when team members lack sufficient understanding of the syst
 <br/>  Developers working without sufficient understanding of the system introduce more defects.
 - [Cargo Culting](cargo-culting.md)
 <br/>  Developers copy patterns without understanding them because they lack the knowledge to evaluate alternatives.
+- [Dependency on Supplier](dependency-on-supplier.md)
+<br/>  Heavy dependency on external suppliers creates risk.
+
 ## Causes ▼
 
 - [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
@@ -57,8 +60,6 @@ Knowledge gaps occur when team members lack sufficient understanding of the syst
 <br/>  Outdated or missing documentation forces developers to work without reliable reference material.
 - [High Turnover](high-turnover.md)
 <br/>  Frequent departures of experienced staff cause institutional knowledge to be lost.
-- [Inadequate Onboarding](inadequate-onboarding.md)
-<br/>  Poor onboarding processes fail to transfer essential knowledge to new team members.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  Critical knowledge isolated in individuals becomes a gap for everyone else on the team.
 ## Detection Methods ○

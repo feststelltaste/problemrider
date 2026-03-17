@@ -43,8 +43,6 @@ Network latency is the time it takes for data to travel from one point to anothe
 
 - [Microservice Communication Overhead](microservice-communication-overhead.md)
 <br/>  APIs that require many round-trips to complete operations amplify the impact of network latency on overall performance.
-- [Resource Allocation Failures](resource-allocation-failures.md)
-<br/>  Deploying services in geographically distant or poorly connected data centers introduces unnecessary network latency.
 - [External Service Delays](external-service-delays.md)
 <br/>  Dependence on external services with poor network connectivity introduces latency that the application cannot control.
 ## Detection Methods ○

@@ -37,10 +37,6 @@ Resource allocation failures occur when applications acquire system resources su
 
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As resources leak over time, application performance steadily worsens due to increasing resource scarcity.
-- [Memory Leaks](memory-leaks.md)
-<br/>  Failure to deallocate memory is a specific manifestation of resource allocation failures that causes growing memory consumption.
-- [Database Connection Leaks](database-connection-leaks.md)
-<br/>  Unreleased database connections are a specific form of resource allocation failure that exhausts connection pools.
 - [Thread Pool Exhaustion](thread-pool-exhaustion.md)
 <br/>  Threads that are never returned to the pool due to improper resource management eventually exhaust all available threads.
 - [Resource Contention](resource-contention.md)

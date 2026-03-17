@@ -55,8 +55,6 @@ Team churn impact refers to the negative effects on code quality, consistency, a
 <br/>  Without effective onboarding processes, new team members adopt their own practices rather than learning existing conventions, amplifying churn impact.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Without documented coding standards and architectural guidelines, each new developer brings their own approach, making churn more damaging.
-- [Information Decay](poor-documentation.md)
-<br/>  When system knowledge exists only in developers' heads rather than in documentation, every departure causes knowledge loss.
 ## Detection Methods ○
 - **Turnover Rate Analysis:** Track the frequency of team member departures and their impact duration
 - **Knowledge Audit:** Identify critical knowledge that exists only with specific individuals

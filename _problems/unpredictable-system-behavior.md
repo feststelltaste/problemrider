@@ -40,8 +40,6 @@ Unpredictable system behavior occurs when modifications to one component cause u
 <br/>  Hidden dependencies cause changes to break seemingly unrelated functionality, manifesting as regression bugs.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  When system behavior is unpredictable, tracing the cause of bugs through hidden dependencies becomes extremely difficult.
-- [Increasing Brittleness](increasing-brittleness.md)
-<br/>  As hidden dependencies accumulate, the system becomes increasingly fragile and prone to breaking from small changes.
 - [Defensive Coding Practices](defensive-coding-practices.md)
 <br/>  Developers write overly defensive code to guard against unexpected side effects from hidden dependencies.
 ## Causes ▼

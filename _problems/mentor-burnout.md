@@ -36,8 +36,6 @@ Mentor burnout occurs when experienced developers become overwhelmed by the cons
 
 ## Symptoms ▲
 
-- [High Turnover](high-turnover.md)
-<br/>  Burned-out mentors eventually leave the organization, taking critical institutional knowledge with them.
 - [Reduced Individual Productivity](reduced-individual-productivity.md)
 <br/>  Mentors overwhelmed by teaching responsibilities have less time and energy for their own development work.
 - [Maintenance Bottlenecks](maintenance-bottlenecks.md)

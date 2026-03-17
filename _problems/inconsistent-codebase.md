@@ -42,8 +42,6 @@ An inconsistent codebase lacks coherent and unified design, style, and standards
 <br/>  Without agreed-upon standards, code reviews devolve into debates about stylistic preferences.
 - [Increased Cognitive Load](increased-cognitive-load.md)
 <br/>  Developers must mentally switch between different conventions and patterns when working across modules.
-- [Automated Tooling Ineffectiveness](automated-tooling-ineffectiveness.md)
-<br/>  Linters and formatters cannot be configured consistently when the codebase follows multiple conflicting conventions.
 ## Causes ▼
 
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)

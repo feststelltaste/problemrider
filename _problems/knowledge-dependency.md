@@ -52,8 +52,6 @@ Knowledge dependency occurs when team members, particularly those who are no lon
 <br/>  Ineffective knowledge sharing mechanisms force team members to rely on individuals rather than documentation.
 - [Implicit Knowledge](implicit-knowledge.md)
 <br/>  When critical knowledge exists only in people's heads, others must depend on those individuals to access it.
-- [Inadequate Onboarding](inadequate-onboarding.md)
-<br/>  Poor onboarding fails to build sufficient foundation knowledge, leaving team members dependent on others.
 - [Information Decay](information-decay.md)
 <br/>  When documentation becomes outdated and unreliable, team members must rely on people instead of docs.
 ## Detection Methods ○

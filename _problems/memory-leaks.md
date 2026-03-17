@@ -48,8 +48,6 @@ A memory leak is a type of resource leak that occurs when a computer program inc
 <br/>  Failure to properly release resources like event listeners, file handles, or database connections is a direct cause of memory leaks.
 - [Excessive Object Allocation](excessive-object-allocation.md)
 <br/>  Creating many objects without proper lifecycle management increases the likelihood that some will not be properly freed.
-- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
-<br/>  Without clear ownership, resource management responsibilities become unclear, and memory cleanup code is neglected.
 - [Review Process Breakdown](insufficient-code-review.md)
 <br/>  Inadequate code review processes fail to catch common memory leak patterns before they reach production.
 ## Detection Methods ○

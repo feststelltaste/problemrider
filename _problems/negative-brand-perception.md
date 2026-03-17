@@ -35,10 +35,6 @@ Negative brand perception occurs when technical problems and poor software quali
 
 ## Symptoms ▲
 
-- [Competitive Disadvantage](competitive-disadvantage.md)
-<br/>  Users switch to competitors perceived as more reliable, eroding market position.
-- [Customer Dissatisfaction](customer-dissatisfaction.md)
-<br/>  Persistent negative brand perception manifests as ongoing customer dissatisfaction even after technical issues are resolved.
 ## Causes ▼
 
 - [System Outages](system-outages.md)

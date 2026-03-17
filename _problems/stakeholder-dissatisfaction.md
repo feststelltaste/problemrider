@@ -37,8 +37,6 @@ Stakeholder dissatisfaction occurs when business stakeholders, executives, or pr
 
 - [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
 <br/>  Prolonged dissatisfaction leads stakeholders to lose trust in the development team's ability to deliver.
-- [Budget Overruns](budget-overruns.md)
-<br/>  Dissatisfied stakeholders may impose additional controls, external reviews, or parallel efforts that increase project costs.
 - [Incomplete Projects](incomplete-projects.md)
 <br/>  Dissatisfied stakeholders may withdraw support or cancel projects before completion.
 - [Micromanagement Culture](micromanagement-culture.md)

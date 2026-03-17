@@ -46,6 +46,9 @@ Architectural mismatch occurs when the current system architecture is fundamenta
 <br/>  Working around architectural limitations significantly increases the cost of implementing new features.
 - [Scaling Inefficiencies](scaling-inefficiencies.md)
 <br/>  An architecture designed for different scale assumptions cannot efficiently handle new load requirements.
+- [Complex Implementation Paths](complex-implementation-paths.md)
+<br/>  Implementation paths become unnecessarily complex.
+
 ## Causes ▼
 
 - [Stagnant Architecture](stagnant-architecture.md)

@@ -44,8 +44,6 @@ Stakeholder confidence loss occurs when business partners, customers, or managem
 <br/>  Adversarial relationships and excessive scrutiny from distrustful stakeholders slow down the team through additional reporting and approval requirements.
 - [Communication Breakdown](communication-breakdown.md)
 <br/>  Loss of trust causes stakeholders to reduce collaborative communication, leading to directive-only interactions and information withholding.
-- [Declining Business Metrics](declining-business-metrics.md)
-<br/>  Reduced stakeholder support leads to decreased investment, fewer approved projects, and ultimately declining business outcomes.
 ## Causes ▼
 
 - [Delayed Project Timelines](delayed-project-timelines.md)

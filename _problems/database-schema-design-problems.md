@@ -45,6 +45,9 @@ Database schema design problems occur when database structures are poorly planne
 <br/>  Problematic schema designs create difficult migration challenges when schema changes are eventually needed to fix structural issues.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Data redundancy from poor normalization creates opportunities for data inconsistency bugs when updates miss some copies of the data.
+- [Index Fragmentation](index-fragmentation.md)
+<br/>  Index fragmentation builds up over time, degrading database performance.
+
 ## Causes ▼
 
 - [Implementation Starts Without Design](implementation-starts-without-design.md)

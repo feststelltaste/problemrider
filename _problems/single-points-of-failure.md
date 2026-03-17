@@ -36,8 +36,6 @@ Single points of failure occur when critical system knowledge, capabilities, or 
 
 ## Symptoms ▲
 
-- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
-<br/>  When only one person or component can handle certain tasks, maintenance queues up and creates bottlenecks.
 - [Slow Incident Resolution](slow-incident-resolution.md)
 <br/>  When the sole expert is unavailable, incidents take much longer to resolve because no one else has the required knowledge.
 - [Slow Development Velocity](slow-development-velocity.md)

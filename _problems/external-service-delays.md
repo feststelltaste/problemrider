@@ -44,6 +44,9 @@ External service delays are a common problem in distributed systems, where servi
 <br/>  A slow external service can cause thread pool exhaustion and resource starvation in the calling service, triggering cascading failures across the system.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Users experience slow or failing operations due to external service delays, leading to frustration and complaints.
+- [Long-Running Database Transactions](long-running-database-transactions.md)
+<br/>  Long-running transactions hold locks and degrade throughput.
+
 ## Causes ▼
 
 - [Network Latency](network-latency.md)

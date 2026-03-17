@@ -41,10 +41,11 @@ Inexperienced developers refers to a situation where team members lack the knowl
 <br/>  Inexperienced developers often produce code with anti-patterns, poor structure, and inconsistent practices.
 - [Increased Technical Shortcuts](increased-technical-shortcuts.md)
 <br/>  Lack of experience leads developers to choose expedient solutions without understanding long-term consequences.
-- [SQL Injection Vulnerabilities](sql-injection-vulnerabilities.md)
-<br/>  Developers unaware of security best practices introduce vulnerabilities such as plain-text password storage or weak authentication.
 - [Inefficient Code](inefficient-code.md)
 <br/>  Without knowledge of performance optimization, inexperienced developers write computationally expensive code.
+- [Error Message Information Disclosure](error-message-information-disclosure.md)
+<br/>  Error messages inadvertently expose sensitive system details.
+
 ## Causes ▼
 
 - [High Turnover](high-turnover.md)

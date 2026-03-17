@@ -35,14 +35,8 @@ Release anxiety is the feeling of stress and fear that developers experience whe
 
 - [Resistance to Change](resistance-to-change.md)
 <br/>  Anxiety about releases makes teams reluctant to make changes or improvements, preferring the safety of the status quo over the risk of a bad deployment.
-- [Long Release Cycles](long-release-cycles.md)
-<br/>  Teams delay releases to reduce exposure to the stress of deployment, stretching release cycles as they try to ensure everything is perfect before shipping.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Deployment fear causes developers to over-test, over-prepare, and hesitate, slowing down the overall pace of feature delivery.
-- [Large, Risky Releases](large-risky-releases.md)
-<br/>  Anxiety causes teams to batch changes into fewer, larger releases to minimize the number of stressful deployment events, paradoxically increasing risk.
-- [Quality Compromises](quality-compromises.md)
-<br/>  Under the pressure of anxious deployments, teams may rush last-minute fixes or skip proper procedures, compromising quality to get through the stressful release event.
 ## Causes ▼
 
 - [Release Instability](release-instability.md)

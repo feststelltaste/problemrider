@@ -37,8 +37,6 @@ Monitoring gaps are blind spots in a system's observability. They are areas of t
 <br/>  Without proper monitoring, issues take longer to detect and diagnose, directly extending incident response times.
 - [System Outages](system-outages.md)
 <br/>  Undetected degradation patterns repeat because monitoring gaps prevent teams from identifying and fixing root causes proactively.
-- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
-<br/>  Without proactive monitoring, teams can only respond to problems after they cause user-visible failures rather than preventing them.
 - [Negative User Feedback](negative-user-feedback.md)
 <br/>  When monitoring gaps mean customers discover problems before the team does, user frustration and complaints increase.
 ## Causes ▼

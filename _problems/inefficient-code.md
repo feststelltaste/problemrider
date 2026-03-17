@@ -35,8 +35,13 @@ Inefficient code is a broad problem that can have a wide range of causes, from t
 <br/>  Computationally expensive code directly causes the application to respond slowly to user requests.
 - [High Database Resource Utilization](high-database-resource-utilization.md)
 <br/>  Inefficient code consumes excessive CPU, memory, and other resources beyond what is necessary.
-- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
-<br/>  Slow response times from inefficient code frustrate users and degrade the overall user experience.
+- [Interrupt Overhead](interrupt-overhead.md)
+<br/>  Interrupt handling overhead impacts system responsiveness.
+- [Task Queues Backing Up](task-queues-backing-up.md)
+<br/>  Task queues back up, causing cascading delays across the system.
+- [Unoptimized File Access](unoptimized-file-access.md)
+<br/>  File access patterns are unoptimized, causing I/O bottlenecks.
+
 ## Causes ▼
 
 - [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)

@@ -43,8 +43,6 @@ A single entry point design is a design where all requests to a system must go t
 
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  Monolithic designs naturally funnel all requests through centralized components rather than distributing responsibility.
-- [Stagnant Architecture](stagnant-architecture.md)
-<br/>  Without a clear architectural plan, developers default to routing everything through a single well-known component rather than designing proper separation.
 ## Detection Methods ○
 - **Code Reviews:** Look for single classes or components that are responsible for handling all incoming requests.
 - **Static Analysis Tools:** Use tools to identify large classes and classes with a large number of dependencies.

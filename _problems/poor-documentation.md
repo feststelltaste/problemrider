@@ -47,6 +47,13 @@ Poor documentation occurs when the written information about a system, its archi
 <br/>  Without accurate documentation of business rules and system behavior, developers are more likely to introduce bugs from misunderstanding.
 - [Extended Research Time](extended-research-time.md)
 <br/>  Developers spend excessive time reverse-engineering system behavior that should be documented.
+- [Environment Variable Issues](environment-variable-issues.md)
+<br/>  Environment variable misconfigurations cause deployment failures.
+- [Rate Limiting Issues](rate-limiting-issues.md)
+<br/>  Rate limiting is misconfigured or absent, allowing resource exhaustion.
+- [Unused Indexes](unused-indexes.md)
+<br/>  Unused indexes waste storage and slow down write operations.
+
 ## Causes ▼
 
 - [Deadline Pressure](deadline-pressure.md)

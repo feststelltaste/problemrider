@@ -43,6 +43,9 @@ False sharing occurs when multiple CPU cores access different data elements that
 <br/>  False sharing prevents linear performance scaling with additional threads or cores, as adding more parallelism increases cache coherency overhead.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As more threads are added over time, false sharing effects compound, causing progressively worse performance degradation.
+- [Atomic Operation Overhead](atomic-operation-overhead.md)
+<br/>  Excessive atomic operation overhead becomes a performance bottleneck.
+
 ## Causes ▼
 
 - [Alignment and Padding Issues](alignment-and-padding-issues.md)
