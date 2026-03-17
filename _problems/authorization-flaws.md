@@ -37,8 +37,6 @@ Authorization flaws occur when access control mechanisms fail to properly restri
 <br/>  Authorization flaws violate compliance requirements for access control, pushing the system out of regulatory compliance.
 - [User Trust Erosion](user-trust-erosion.md)
 <br/>  Users lose trust when they discover others can access their data due to authorization flaws.
-- [Silent Data Corruption](silent-data-corruption.md)
-<br/>  Unauthorized users performing actions they should not can corrupt data without detection.
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)

@@ -46,8 +46,6 @@ Budget overruns are a common problem in software development. They occur when th
 <br/>  Uncontrolled expansion of project scope adds work beyond what was originally budgeted.
 - [Poor Planning](poor-planning.md)
 <br/>  Inadequate initial planning leads to unrealistic budget estimates that don't account for actual complexity.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
-<br/>  Difficulty in accurately estimating software development effort leads to budgets that are too low from the start.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Technical workarounds create hidden costs as maintenance and rework consume budget not originally accounted for.
 - [High Maintenance Costs](high-maintenance-costs.md)

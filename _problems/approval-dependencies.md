@@ -4,7 +4,7 @@ description: Work progress is frequently blocked by the need for approvals from 
   individuals, creating bottlenecks and delays.
 category:
 - Dependencies
-- Performance
+- Process
 - Process
 related_problems:
 - slug: work-blocking

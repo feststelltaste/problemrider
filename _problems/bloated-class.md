@@ -33,8 +33,6 @@ A bloated class is a class that has accumulated too many responsibilities over t
 
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Oversized classes with too many responsibilities become extremely hard for developers to understand and reason about.
-- [Superficial Code Reviews](superficial-code-reviews.md)
-<br/>  Changes to bloated classes require reviewers to understand extensive context, making reviews time-consuming.
 - [Regression Bugs](regression-bugs.md)
 <br/>  Modifying one part of a bloated class frequently breaks unrelated functionality within the same class.
 - [Merge Conflicts](merge-conflicts.md)

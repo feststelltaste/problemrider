@@ -37,8 +37,6 @@ Data protection risk occurs when systems inadequately safeguard personal, sensit
 
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md)
 <br/>  Inadequate data protection safeguards cause the system to fall behind evolving privacy regulations, creating widening compliance gaps.
-- [System Outages](system-outages.md)
-<br/>  Data protection failures can trigger mandatory system shutdowns or service interruptions when breaches are discovered.
 - [Budget Overruns](budget-overruns.md)
 <br/>  Retrofitting data protection measures after the fact is significantly more expensive than building them in from the start, causing cost overruns.
 - [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)

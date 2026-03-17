@@ -40,8 +40,6 @@ Defensive coding practices occur when developers modify their coding style not t
 <br/>  Overly verbose code with excessive comments and unnecessary defensive logic increases the mental effort needed to understand the codebase.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Writing and maintaining unnecessarily verbose and defensive code takes more time than writing clean, focused implementations.
-- [Inefficient Code](inefficient-code.md)
-<br/>  Unnecessary validation checks and defensive error handling for impossible scenarios add computational overhead.
 - [Reduced Code Submission Frequency](reduced-code-submission-frequency.md)
 <br/>  Developers spend extra time adding defensive code to preempt review criticism, delaying their submissions.
 ## Causes ▼
