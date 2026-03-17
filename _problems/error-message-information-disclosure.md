@@ -34,7 +34,6 @@ Error message information disclosure occurs when applications reveal sensitive t
 
 ## Symptoms ▲
 
-
 - [SQL Injection Vulnerabilities](sql-injection-vulnerabilities.md)
 <br/>  Detailed database error messages reveal schema information that attackers use to craft targeted SQL injection attacks.
 - [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
@@ -43,8 +42,8 @@ Error message information disclosure occurs when applications reveal sensitive t
 <br/>  Disclosure of system internals through error messages creates legal and compliance risks around data protection.
 - [Cross-Site Scripting Vulnerabilities](cross-site-scripting-vulnerabilities.md)
 <br/>  Stack traces and debug output revealing application structure help attackers identify injection points for XSS attacks.
-
 ## Causes ▼
+
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Poor error handling passes raw exceptions and stack traces to users instead of displaying sanitized error messages.
 - [Logging Configuration Issues](logging-configuration-issues.md)
@@ -53,7 +52,6 @@ Error message information disclosure occurs when applications reveal sensitive t
 <br/>  Developers without security awareness may not realize that detailed error messages in production pose a security risk.
 - [Quality Blind Spots](insufficient-testing.md)
 <br/>  Lack of security testing for error conditions means information disclosure through error messages goes undetected before production.
-
 ## Detection Methods ○
 
 - **Error Message Security Review:** Review all error messages for sensitive information disclosure

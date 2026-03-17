@@ -45,19 +45,14 @@ Insufficient audit logging occurs when applications fail to properly log securit
 <br/>  Lack of detailed event logs makes it harder to trace and diagnose issues in production.
 - [Data Protection Risk](data-protection-risk.md)
 <br/>  Without audit logs, unauthorized data access cannot be detected or investigated, increasing data protection risk.
-
 ## Causes ▼
+
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  When no one owns the logging infrastructure, audit logging requirements are neglected.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Under time pressure, developers skip implementing comprehensive audit logging as it is not a visible feature.
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Developers without security design experience may not understand what events require audit logging.
-- [Log Injection Vulnerabilities](log-injection-vulnerabilities.md)
-<br/>  Injected fake log entries corrupt audit trails, making legitimate audit logging unreliable and untrustworthy.
-- [Logging Configuration Issues](logging-configuration-issues.md)
-<br/>  When logging is configured too restrictively, critical audit events are missed, leaving gaps in compliance and forensic records.
-
 ## Detection Methods ○
 
 - **Security Event Coverage Analysis:** Review what security events are currently being logged

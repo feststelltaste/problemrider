@@ -47,8 +47,8 @@ Work blocking occurs when development tasks cannot move forward because they req
 <br/>  Time spent waiting for approvals rather than producing code directly reduces team output.
 - [Workaround Culture](workaround-culture.md)
 <br/>  When proper changes are blocked by approval processes, developers resort to workarounds that bypass the blocking process.
-
 ## Causes ▼
+
 - [Approval Dependencies](approval-dependencies.md)
 <br/>  Work blocking is directly caused by processes that require specific individuals to approve before work can proceed.
 - [Bottleneck Formation](bottleneck-formation.md)
@@ -57,11 +57,6 @@ Work blocking occurs when development tasks cannot move forward because they req
 <br/>  When decision-makers avoid or defer decisions, work that depends on those decisions remains blocked.
 - [Micromanagement Culture](micromanagement-culture.md)
 <br/>  Excessive management oversight requiring approval for routine decisions creates unnecessary blocking of development tasks.
-- [Delayed Decision Making](delayed-decision-making.md)
-<br/>  Development tasks that depend on unmade decisions cannot proceed, creating bottlenecks in the workflow.
-- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
-<br/>  Other team members are blocked from making progress on tasks that touch the bottlenecked system components.
-
 ## Detection Methods ○
 
 - **Blocking Time Tracking:** Monitor how much time tasks spend in blocked status

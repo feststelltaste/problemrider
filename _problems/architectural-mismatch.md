@@ -46,8 +46,8 @@ Architectural mismatch occurs when the current system architecture is fundamenta
 <br/>  Working around architectural limitations significantly increases the cost of implementing new features.
 - [Scaling Inefficiencies](scaling-inefficiencies.md)
 <br/>  An architecture designed for different scale assumptions cannot efficiently handle new load requirements.
-
 ## Causes ▼
+
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  An architecture that has not evolved alongside changing business needs becomes increasingly mismatched.
 - [Feature Creep](feature-creep.md)
@@ -56,11 +56,6 @@ Architectural mismatch occurs when the current system architecture is fundamenta
 <br/>  Monolithic architectures are particularly prone to mismatch as they are harder to adapt to diverse new requirements.
 - [Accumulated Decision Debt](accumulated-decision-debt.md)
 <br/>  Deferred architectural decisions constrain the system until it can no longer accommodate evolving requirements.
-- [Schema Evolution Paralysis](schema-evolution-paralysis.md)
-<br/>  A frozen schema increasingly diverges from evolving business requirements, creating a growing mismatch between system capabilities and business needs.
-- [System Stagnation](system-stagnation.md)
-<br/>  New business requirements increasingly conflict with the unchanged architecture as the business evolves but the system does not.
-
 ## Detection Methods ○
 
 - **Feature Complexity Analysis:** Compare implementation complexity of new features vs. historical norms

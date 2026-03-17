@@ -45,8 +45,8 @@ Legacy code without tests refers to existing production systems that were built 
 <br/>  Without automated tests to catch regressions, changes frequently break previously working functionality.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
 <br/>  Lack of test coverage means defects go undetected during development and only surface in production.
-
 ## Causes ▼
+
 - [Difficult to Test Code](difficult-to-test-code.md)
 <br/>  Tightly coupled legacy code with hidden dependencies makes it structurally difficult to add tests without major refactoring.
 - [Short-Term Focus](short-term-focus.md)
@@ -55,9 +55,6 @@ Legacy code without tests refers to existing production systems that were built 
 <br/>  Overly coupled components cannot be tested in isolation, making it impractical to add tests to legacy code.
 - [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
 <br/>  Prototype code that was never intended to be permanent entered production without tests and was never retroactively tested.
-- [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
-<br/>  Without adequate infrastructure to support test creation, legacy code remains untested as adding tests is too difficult.
-
 ## Detection Methods ○
 - **Code Coverage Analysis:** Measure test coverage for different parts of the system to identify untested legacy areas
 - **Code Age Analysis:** Identify older code sections that were written before testing practices were established

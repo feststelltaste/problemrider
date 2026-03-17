@@ -48,8 +48,8 @@ Cognitive overload occurs when developers are required to understand and work wi
 <br/>  Developers complete fewer tasks because each change requires understanding far more context than the change itself.
 - [Procrastination on Complex Tasks](procrastination-on-complex-tasks.md)
 <br/>  Overwhelmed developers defer cognitively demanding tasks in favor of simpler, less impactful work.
-
 ## Causes ▼
+
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Highly coupled systems require understanding many interconnected components to make even simple changes.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
@@ -58,7 +58,6 @@ Cognitive overload occurs when developers are required to understand and work wi
 <br/>  Frequent switching between different systems or problem domains fragments attention and overwhelms working memory.
 - [Complex Domain Model](complex-domain-model.md)
 <br/>  Inherently complex business domains require developers to hold extensive domain knowledge in working memory.
-
 ## Detection Methods ○
 
 - **Complexity Metrics:** Measure cyclomatic complexity, coupling, and other architectural complexity indicators

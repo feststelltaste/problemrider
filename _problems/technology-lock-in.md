@@ -42,21 +42,14 @@ Technology lock-in is a situation where it is difficult or impossible to switch 
 <br/>  Technology lock-in often manifests as vendor lock-in when the locked technology is proprietary.
 - [System Stagnation](system-stagnation.md)
 <br/>  The inability to evolve the technology stack causes the system to stagnate and fall behind competitors.
-
 ## Causes ▼
+
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  A monolithic architecture built on a single technology stack makes it impossible to incrementally adopt new technologies.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  When code is tightly coupled to specific technology APIs and patterns, switching technologies requires rewriting large portions of the system.
 - [Accumulated Decision Debt](accumulated-decision-debt.md)
 <br/>  Early technology decisions that were never revisited become deeply embedded, making change increasingly costly.
-- [Dependency on Supplier](dependency-on-supplier.md)
-<br/>  Reliance on a supplier's proprietary technology makes it prohibitively expensive to switch, locking the organization into their ecosystem.
-- [Premature Technology Introduction](premature-technology-introduction.md)
-<br/>  Once a premature technology choice is integrated, switching costs make it difficult to move to a better alternative.
-- [Shared Dependencies](shared-dependencies.md)
-<br/>  Shared dependencies lock all consuming components to the same technology versions, making it impossible to upgrade one without upgrading all.
-- [Technical Architecture Limitations](technical-architecture-limitations.md)
-<br/>  Deeply embedded architectural decisions make it prohibitively expensive to switch technologies or adopt modern approaches.
-
 ## Detection Methods ○
 - **Technology Stack Analysis:** Analyze the technology stack of the system to identify which technologies are being used.
 - **Developer Surveys:** Ask developers if they feel like they are able to use new technologies to improve the system.

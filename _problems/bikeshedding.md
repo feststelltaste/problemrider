@@ -26,19 +26,26 @@ Bikeshedding, also known as Parkinson's law of triviality, is a phenomenon where
 
 ## Symptoms ▲
 
+- [Superficial Code Reviews](superficial-code-reviews.md)
+<br/>  Focusing on trivial details extends review cycles as discussions get bogged down in unimportant minutiae.
 - [Unproductive Meetings](unproductive-meetings.md)
 <br/>  Meetings devolve into debates over trivial topics while important design and logic issues go unaddressed.
 - [Missed Deadlines](missed-deadlines.md)
 <br/>  Time wasted on trivial review discussions delays feature delivery and causes schedule slips.
 - [Development Disruption](development-disruption.md)
 <br/>  Excessive back-and-forth on trivial review comments disrupts developers' focus and workflow.
-
+- [Quality Blind Spots](quality-blind-spots.md)
+<br/>  While reviewers fixate on style and naming, critical logic bugs and design flaws pass through undetected.
 ## Causes ▼
+
 - [Incomplete Knowledge](incomplete-knowledge.md)
 <br/>  Reviewers who lack deep understanding of the code's logic focus on surface-level issues they can easily evaluate.
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Without automated style enforcement, trivial formatting issues become subjects of manual review debates.
 - [Avoidance Behaviors](avoidance-behaviors.md)
 <br/>  Reviewers avoid the cognitive effort of evaluating complex logic and instead focus on easy-to-judge trivial matters.
-
+- [Code Review Inefficiency](code-review-inefficiency.md)
+<br/>  Without clear guidelines on what reviews should focus on, reviewers default to commenting on trivial matters.
 ## Detection Methods ○
 
 - **Code Review Metrics:** Analyze the types of comments made in pull requests (e.g., ratio of stylistic comments to logical/design comments).

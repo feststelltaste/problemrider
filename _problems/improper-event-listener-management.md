@@ -34,11 +34,14 @@ Improper event listener management occurs when applications register event handl
 <br/>  Accumulated inactive event listeners consume both memory and CPU as they continue to execute on events.
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  As inactive listeners accumulate, event dispatch overhead increases and memory pressure degrades overall application performance.
-
 ## Causes ▼
+
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers unfamiliar with component lifecycle management may not understand the need to clean up event listeners.
-
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Without standards mandating cleanup of event listeners in component lifecycle methods, this pattern persists.
+- [Review Process Breakdown](insufficient-code-review.md)
+<br/>  Code reviews could catch missing cleanup code, but without them these patterns enter the codebase unchallenged.
 ## Detection Methods ○
 
 - **Memory Profilers:** Analyze heap dumps to identify event listener objects that should have been garbage collected

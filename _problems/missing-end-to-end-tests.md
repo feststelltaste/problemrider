@@ -35,22 +35,24 @@ Missing end-to-end tests occur when testing strategies focus on individual compo
 
 ## Symptoms ▲
 
-
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Without end-to-end testing, workflow-breaking bugs reach production, increasing the overall defect rate.
+- [Slow Incident Resolution](slow-incident-resolution.md)
+<br/>  Integration issues that are not caught by end-to-end tests cause production incidents when users attempt complete workflows.
 - [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
 <br/>  Without end-to-end tests verifying integration points, interface mismatches between components go undetected until production.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Users encountering broken workflows despite individual features working leads to loss of trust and dissatisfaction.
-
 ## Causes ▼
+
 - [Testing Complexity](testing-complexity.md)
 <br/>  The inherent complexity of setting up and maintaining end-to-end test environments discourages teams from creating comprehensive tests.
-- [Difficult-to-Test Code](difficult-to-test-code.md)
+- [Difficult to Test Code](difficult-to-test-code.md)
 <br/>  Tightly coupled or poorly structured code makes it impractical to create end-to-end tests that exercise complete workflows.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Under time pressure, end-to-end tests are often the first testing activity to be cut since they are the most time-consuming to create.
 - [Inadequate Integration Tests](inadequate-integration-tests.md)
 <br/>  A culture of insufficient integration testing extends to missing end-to-end tests, as both reflect underinvestment in cross-component validation.
-
 ## Detection Methods ○
 - **User Journey Mapping:** Document complete user workflows and assess test coverage for each journey
 - **Production Issue Analysis:** Track bugs that span multiple system components or user workflow steps

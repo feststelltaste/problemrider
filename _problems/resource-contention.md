@@ -42,8 +42,8 @@ Resource contention occurs when multiple processes or threads compete for the sa
 <br/>  Heavy memory contention forces the OS to swap memory to disk, dramatically degrading system performance.
 - [Unpredictable System Behavior](unpredictable-system-behavior.md)
 <br/>  Resource contention causes timing-dependent behavior where system performance varies unpredictably based on concurrent load patterns.
-
 ## Causes ▼
+
 - [Resource Allocation Failures](resource-allocation-failures.md)
 <br/>  Leaked resources reduce available capacity, intensifying competition among processes for the remaining resources.
 - [N+1 Query Problem](n-plus-one-query-problem.md)
@@ -52,31 +52,6 @@ Resource contention occurs when multiple processes or threads compete for the sa
 <br/>  Infrastructure that doesn't match actual demand patterns leads to resource contention during peak usage periods.
 - [Scaling Inefficiencies](scaling-inefficiencies.md)
 <br/>  Inability to scale components independently means bottlenecked components create resource contention for the entire system.
-- [Atomic Operation Overhead](atomic-operation-overhead.md)
-<br/>  Multiple threads competing for atomic variables create CPU-level resource contention through cache coherency traffic.
-- [Endianness Conversion Overhead](endianness-conversion-overhead.md)
-<br/>  CPU time consumed by endianness conversions competes with actual application processing, especially under high load.
-- [Excessive Disk I/O](excessive-disk-io.md)
-<br/>  Heavy disk I/O saturates storage bandwidth, creating contention that affects all applications and services sharing the same storage.
-- [Excessive Logging](excessive-logging.md)
-<br/>  Log writing competes with application processing for disk I/O bandwidth and CPU cycles.
-- [False Sharing](false-sharing.md)
-<br/>  Cores compete for cache lines containing unrelated data, creating artificial resource contention at the hardware level.
-- [GraphQL Complexity Issues](graphql-complexity-issues.md)
-<br/>  Expensive GraphQL queries monopolize server CPU and memory, starving other requests of resources.
-- [High Database Resource Utilization](high-database-resource-utilization.md)
-<br/>  High database resource utilization creates contention where multiple queries compete for limited CPU and memory resources.
-- [Load Balancing Problems](load-balancing-problems.md)
-<br/>  Poor load balancing causes some servers to compete for limited resources while others sit idle.
-- [Lock Contention](lock-contention.md)
-<br/>  Lock contention is a direct form of resource contention where threads compete for synchronization primitives rather than doing productive work.
-- [Memory Barrier Inefficiency](memory-barrier-inefficiency.md)
-<br/>  Memory barriers force serialization of memory operations, creating CPU resource contention in multi-threaded code.
-- [Rate Limiting Issues](rate-limiting-issues.md)
-<br/>  Ineffective rate limiting fails to prevent resource contention when too many requests overwhelm shared system resources.
-- [Serialization/Deserialization Bottlenecks](serialization-deserialization-bottlenecks.md)
-<br/>  CPU-intensive serialization operations consume processing resources that could be used for business logic, creating resource contention.
-
 ## Detection Methods ○
 
 - **System Monitoring Tools:** Use tools like `top`, `htop`, `vmstat`, `iostat` (Linux) or Task Manager (Windows) to monitor CPU, memory, and I/O usage.

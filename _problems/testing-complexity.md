@@ -34,23 +34,24 @@ Testing complexity is a common problem in software systems with a high degree of
 
 - [Test Debt](test-debt.md)
 <br/>  When testing is too complex, teams take shortcuts and skip tests, accumulating test debt over time.
-- [Insufficient Testing](insufficient-testing.md)
+- [Quality Blind Spots](insufficient-testing.md)
 <br/>  The high effort required to test duplicated functionality leads to insufficient test coverage overall.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  The increased risk of missing bugs due to duplicated test surfaces means more issues reach production.
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  The QA team's inability to keep up with development due to testing overhead slows overall delivery.
 - [Inconsistent Quality](inconsistent-quality.md)
 <br/>  Some instances of duplicated functionality get thoroughly tested while others are missed, resulting in uneven quality.
-
 ## Causes ▼
+
 - [Code Duplication](code-duplication.md)
 <br/>  Duplicated code means the same functionality must be verified in multiple locations, directly multiplying testing effort.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
 <br/>  Complex, hard-to-understand logic requires more elaborate test scenarios and makes it harder to achieve adequate coverage.
-- [Difficult-to-Test Code](difficult-to-test-code.md)
+- [Difficult to Test Code](difficult-to-test-code.md)
 <br/>  Code that is inherently difficult to test due to poor design adds to overall testing complexity.
-- [Copy-Paste Programming](copy-paste-programming.md)
-<br/>  Quality assurance must verify the same functionality in multiple locations, increasing testing effort and the risk of missing bugs.
-- [Inconsistent Behavior](inconsistent-behavior.md)
-<br/>  Quality assurance must verify the same business process in multiple locations, multiplying testing effort.
-
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Tightly coupled components cannot be tested in isolation, requiring complex integration test setups.
 ## Detection Methods ○
 - **Test Case Analysis:** Analyze your test cases to identify duplicated tests.
 - **Code Coverage Analysis:** Analyze your code coverage to identify areas of the system that are not being tested.

@@ -45,8 +45,8 @@ Rushed approvals occur when code reviews are completed hastily without adequate 
 <br/>  Quick approvals skip enforcement of coding standards, allowing inconsistent patterns to enter the codebase.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Without thorough review, design shortcuts and poor patterns accumulate in the codebase as technical debt.
-
 ## Causes ▼
+
 - [Time Pressure](time-pressure.md)
 <br/>  Deadline pressure forces reviewers to prioritize speed over thoroughness, leading to superficial approvals.
 - [Review Bottlenecks](review-bottlenecks.md)
@@ -55,13 +55,6 @@ Rushed approvals occur when code reviews are completed hastily without adequate 
 <br/>  Overwhelmingly large pull requests discourage thorough review, leading reviewers to skim and approve rather than invest the significant time needed.
 - [Reviewer Inexperience](reviewer-inexperience.md)
 <br/>  Inexperienced reviewers who cannot identify real issues default to quick approval rather than admitting they don't understand the code.
-- [Approval Dependencies](approval-dependencies.md)
-<br/>  Backlog pressure from accumulated approval requests leads approvers to rush through decisions.
-- [Fear of Conflict](fear-of-conflict.md)
-<br/>  Reviewers approve pull requests quickly to avoid the discomfort of providing critical feedback.
-- [Reviewer Anxiety](reviewer-anxiety.md)
-<br/>  Anxious reviewers may quickly approve changes to avoid the discomfort of providing potentially wrong or controversial feedback.
-
 ## Detection Methods ○
 - **Review Time Analysis:** Track how long reviewers spend examining code relative to change complexity
 - **Review Comment Quality:** Analyze the depth and specificity of review feedback

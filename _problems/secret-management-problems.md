@@ -39,8 +39,8 @@ Secret management problems occur when applications improperly handle sensitive i
 <br/>  Hardcoded secrets and inconsistent secret handling across environments create configuration management chaos when secrets need rotation.
 - [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
 <br/>  Using the same secrets across environments or hardcoding environment-specific credentials leads to inconsistencies between deployment environments.
-
 ## Causes ▼
+
 - [Legacy Configuration Management Chaos](legacy-configuration-management-chaos.md)
 <br/>  Legacy systems with poor configuration management practices lack proper secret management infrastructure, leaving credentials hardcoded or in plain text.
 - [Inadequate Configuration Management](inadequate-configuration-management.md)
@@ -49,9 +49,6 @@ Secret management problems occur when applications improperly handle sensitive i
 <br/>  Developers hardcode secrets for convenience during development, and these shortcuts persist into production without being addressed.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers lacking security experience may not understand the risks of poor secret management practices like hardcoding credentials.
-- [Environment Variable Issues](environment-variable-issues.md)
-<br/>  Storing secrets in environment variables without proper access controls exposes sensitive credentials to unauthorized access.
-
 ## Detection Methods ○
 
 - **Source Code Scanning:** Scan code repositories for hardcoded secrets and credentials

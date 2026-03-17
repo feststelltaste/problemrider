@@ -35,7 +35,6 @@ Extended review cycles occur when code reviews require multiple rounds of feedba
 
 ## Symptoms ▲
 
-
 - [Extended Cycle Times](extended-cycle-times.md)
 <br/>  Multiple rounds of review directly inflate the total time from code submission to production delivery.
 - [Reduced Code Submission Frequency](reduced-code-submission-frequency.md)
@@ -48,8 +47,8 @@ Extended review cycles occur when code reviews require multiple rounds of feedba
 <br/>  Lengthy and painful review cycles motivate developers to find ways to bypass or minimize the review process.
 - [Context Switching Overhead](context-switching-overhead.md)
 <br/>  Multiple review rounds force authors to repeatedly switch back to code they wrote days or weeks ago, losing context each time.
-
 ## Causes ▼
+
 - [Perfectionist Review Culture](perfectionist-review-culture.md)
 <br/>  A culture that demands perfection through reviews leads to endless rounds of nitpicking rather than accepting good-enough code.
 - [Inadequate Initial Reviews](inadequate-initial-reviews.md)
@@ -60,11 +59,6 @@ Extended review cycles occur when code reviews require multiple rounds of feedba
 <br/>  Without agreed-upon coding standards, each review round surfaces new stylistic preferences from different reviewers.
 - [Large Pull Requests](large-pull-requests.md)
 <br/>  Large PRs are harder to review thoroughly in one pass, leading to issues being discovered across multiple rounds.
-- [Code Review Inefficiency](code-review-inefficiency.md)
-<br/>  Inefficient reviews require multiple rounds of trivial feedback, significantly extending the time from submission to approval.
-- [Style Arguments in Code Reviews](style-arguments-in-code-reviews.md)
-<br/>  Style debates extend the time from code submission to approval as multiple rounds of style-related feedback occur.
-
 ## Detection Methods ○
 
 - **Review Round Tracking:** Monitor the number of revision rounds required for different types of changes

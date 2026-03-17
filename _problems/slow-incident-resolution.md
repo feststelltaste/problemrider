@@ -37,33 +37,24 @@ Slow incident resolution occurs when system problems, outages, or critical issue
 
 - [System Outages](system-outages.md)
 <br/>  When incidents take too long to resolve, minor issues escalate into prolonged outages with wider impact.
-
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Extended incident resolution times prolong user-facing problems, leading to frustration and complaints.
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  Prolonged incidents undermine confidence in the team's ability to maintain reliable systems.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Extended firefighting during incidents exhausts the team and reduces morale.
 ## Causes ▼
+
+- [Monitoring Gaps](monitoring-gaps.md)
+<br/>  Without proper monitoring, teams lack visibility into system behavior and must manually investigate to find root causes.
+- [Information Decay](poor-documentation.md)
+<br/>  Missing operational documentation forces responders to figure out system behavior from scratch during incidents.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When system knowledge is siloed, incident responders may lack the specific expertise needed to diagnose and fix problems quickly.
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Tangled code makes it extremely difficult to trace the root cause of incidents through the system.
 - [Single Points of Failure](single-points-of-failure.md)
 <br/>  When only specific individuals can resolve certain types of incidents, resolution depends on their availability.
-- [Configuration Chaos](configuration-chaos.md)
-<br/>  When configurations are inconsistent and undocumented, diagnosing production incidents takes much longer because the actual system state is unknown.
-- [Inadequate Configuration Management](inadequate-configuration-management.md)
-<br/>  Without configuration audit trails, diagnosing which configuration change caused an issue becomes extremely difficult.
-- [Insufficient Audit Logging](insufficient-audit-logging.md)
-<br/>  Without comprehensive audit logs, investigating and resolving security incidents takes much longer.
-- [Legacy Configuration Management Chaos](legacy-configuration-management-chaos.md)
-<br/>  When configuration is undocumented and scattered across multiple locations, diagnosing and recovering from configuration-related incidents takes much longer.
-- [Legacy Skill Shortage](legacy-skill-shortage.md)
-<br/>  When incidents occur in legacy systems, resolution is delayed because few people have the expertise to diagnose problems.
-- [Log Spam](log-spam.md)
-<br/>  When critical incidents occur, teams waste time sifting through noise to find relevant log entries, delaying resolution.
-- [Deployment Risk](missing-rollback-strategy.md)
-<br/>  Without the option to quickly rollback, incident resolution requires debugging and fixing in production, which takes much longer.
-- [Poor Operational Concept](poor-operational-concept.md)
-<br/>  Missing runbooks and troubleshooting guides make production incidents take much longer to diagnose and resolve.
-- [Service Discovery Failures](service-discovery-failures.md)
-<br/>  Service discovery failures are difficult to diagnose because they manifest as various downstream symptoms, making root cause identification slow.
-
 ## Detection Methods ○
 
 - **Mean Time to Resolution (MTTR) Tracking:** Monitor average time to resolve different types of incidents

@@ -42,29 +42,14 @@ Scaling inefficiencies occur when it is difficult or impossible to scale differe
 <br/>  Systems that cannot scale independently typically must also deploy together, creating deployment coupling between unrelated components.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Inability to scale efficiently leads to slower response times and higher costs, putting the organization at a disadvantage against competitors with more scalable architectures.
-
 ## Causes ▼
+
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  Monolithic architectures bundle all components into a single deployable unit, making it impossible to scale individual parts independently.
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Tightly coupled components cannot be separated for independent scaling because they depend directly on each other's internals.
 - [Shared Database](shared-database.md)
 <br/>  A shared database becomes a scaling bottleneck since all services must scale their database access together rather than independently.
-- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
-<br/>  Algorithms with poor complexity characteristics prevent the system from scaling efficiently with increased load.
-- [Architectural Mismatch](architectural-mismatch.md)
-<br/>  An architecture designed for different scale assumptions cannot efficiently handle new load requirements.
-- [Atomic Operation Overhead](atomic-operation-overhead.md)
-<br/>  Atomic operation contention prevents performance from scaling with additional CPU cores.
-- [Data Structure Cache Inefficiency](data-structure-cache-inefficiency.md)
-<br/>  Cache-inefficient data layouts cause performance to degrade non-linearly as data grows, making the system difficult to scale.
-- [Database Query Performance Issues](database-query-performance-issues.md)
-<br/>  Queries that perform full table scans or lack proper indexing become exponentially slower as data volumes grow, preventing effective scaling.
-- [False Sharing](false-sharing.md)
-<br/>  False sharing prevents linear performance scaling with additional threads or cores, as adding more parallelism increases cache coherency overhead.
-- [Lock Contention](lock-contention.md)
-<br/>  Adding more threads or cores provides diminishing or negative returns when they all contend for the same locks.
-
 ## Detection Methods ○
 - **Performance Testing:** Use performance testing tools to identify bottlenecks and areas for improvement.
 - **Resource Monitoring:** Monitor the resource utilization of the system to identify which components are using the most resources.

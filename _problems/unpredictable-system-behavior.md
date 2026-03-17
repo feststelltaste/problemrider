@@ -44,8 +44,8 @@ Unpredictable system behavior occurs when modifications to one component cause u
 <br/>  As hidden dependencies accumulate, the system becomes increasingly fragile and prone to breaking from small changes.
 - [Defensive Coding Practices](defensive-coding-practices.md)
 <br/>  Developers write overly defensive code to guard against unexpected side effects from hidden dependencies.
-
 ## Causes ▼
+
 - [Hidden Dependencies](hidden-dependencies.md)
 <br/>  Undocumented and non-obvious dependencies between components are the primary source of unexpected side effects.
 - [Tight Coupling Issues](tight-coupling-issues.md)
@@ -54,23 +54,6 @@ Unpredictable system behavior occurs when modifications to one component cause u
 <br/>  Tangled, unstructured code creates implicit connections between parts of the system that cause unpredictable behavior.
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
 <br/>  Components that are highly interdependent and perform unrelated functions make system behavior difficult to predict.
-- [Configuration Drift](configuration-drift.md)
-<br/>  Drifted configurations cause unexpected side effects since the actual system state no longer matches what developers and operators expect.
-- [Global State and Side Effects](global-state-and-side-effects.md)
-<br/>  Global state mutations from any part of the codebase cause unexpected side effects in seemingly unrelated areas.
-- [Hidden Side Effects](hidden-side-effects.md)
-<br/>  Calling functions produces unexpected results because their undocumented side effects change system state in non-obvious ways.
-- [Increasing Brittleness](increasing-brittleness.md)
-<br/>  A brittle system exhibits unexpected behavior when changes are made, making outcomes hard to predict.
-- [Integer Overflow and Underflow](integer-overflow-underflow.md)
-<br/>  Wrapped values cause unexpected program behavior that is difficult to reproduce and diagnose.
-- [Null Pointer Dereferences](null-pointer-dereferences.md)
-<br/>  Null pointer dereferences cause crashes that occur inconsistently depending on input conditions and program state, making system behavior unpredictable.
-- [Resource Contention](resource-contention.md)
-<br/>  Resource contention causes timing-dependent behavior where system performance varies unpredictably based on concurrent load patterns.
-- [Thread Pool Exhaustion](thread-pool-exhaustion.md)
-<br/>  The system appears to hang or behave unpredictably with low CPU usage, making the root cause difficult to diagnose.
-
 ## Detection Methods ○
 - **Impact Analysis Tools:** Use dependency analysis tools to map actual vs. expected component relationships
 - **Regression Testing Patterns:** Monitor which tests fail when specific modules are changed to identify hidden connections

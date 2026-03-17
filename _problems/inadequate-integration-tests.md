@@ -45,8 +45,8 @@ Inadequate integration tests occur when the testing strategy focuses primarily o
 <br/>  Untested component interactions can trigger chain reactions of failures when assumptions at service boundaries are violated.
 - [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
 <br/>  Integration issues discovered in production require emergency fixes and rollbacks to restore service.
-
 ## Causes ▼
+
 - [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
 <br/>  Lack of proper test environments and tools makes it difficult or impossible to run meaningful integration tests.
 - [Inadequate Test Data Management](inadequate-test-data-management.md)
@@ -55,7 +55,6 @@ Inadequate integration tests occur when the testing strategy focuses primarily o
 <br/>  Integration tests are more complex and time-consuming to write, so they are often skipped under deadline pressure.
 - [Team Silos](team-silos.md)
 <br/>  When teams work in isolation on individual components, nobody takes responsibility for testing cross-component interactions.
-
 ## Detection Methods ○
 - **Integration Test Coverage Analysis:** Measure what percentage of component interactions are covered by integration tests
 - **Production Issue Categorization:** Track how many bugs stem from integration problems versus component-specific issues

@@ -41,11 +41,18 @@ Vendor dependency occurs when organizations become excessively reliant on extern
 <br/>  When vendors discontinue products, dependent organizations become trapped with no supported alternatives.
 - [Vendor Relationship Strain](vendor-relationship-strain.md)
 <br/>  Heavy dependency creates power imbalances that strain vendor relationships when expectations diverge.
-
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  Vendors with significant leverage can raise prices knowing the organization cannot easily switch.
+- [Reduced Team Flexibility](reduced-team-flexibility.md)
+<br/>  Dependence on vendor timelines and roadmaps limits the organization's ability to respond quickly to changing needs.
 ## Causes ▼
+
+- [Data Migration Complexities](data-migration-complexities.md)
+<br/>  Without a migration strategy, organizations deepen vendor dependency over time without evaluating alternatives.
 - [Poor Planning](poor-planning.md)
 <br/>  Insufficient planning around technology choices leads to over-reliance on single vendors without considering long-term risks.
-
+- [Quality Compromises](quality-compromises.md)
+<br/>  Taking shortcuts by using vendor-specific features rather than building vendor-agnostic abstractions increases dependency.
 ## Detection Methods ○
 
 - **Vendor Dependency Mapping:** Identify all critical business functions that depend on external vendors

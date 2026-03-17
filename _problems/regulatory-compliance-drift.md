@@ -38,30 +38,22 @@ Regulatory compliance drift occurs when legacy systems gradually fall behind evo
 
 ## Symptoms ▲
 
-
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Manual processes and workarounds accumulate to compensate for the system's inability to meet current regulatory requirements.
 - [Increased Manual Work](increased-manual-work.md)
 <br/>  Staff must perform manual compliance tasks that the legacy system cannot automate, increasing operational burden.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Inability to meet regulatory requirements prevents offering new products or services that competitors with modern systems can provide.
-
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  Maintaining compliance through manual workarounds and supplementary systems significantly increases operational expenses.
 ## Causes ▼
+
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  An unchanging system architecture lacks the flexibility to adapt to evolving regulatory requirements.
 - [Vendor Dependency Entrapment](vendor-dependency-entrapment.md)
 <br/>  Dependence on vendors who no longer update compliance features leaves the system unable to meet new regulations.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Avoiding system modernization and restructuring prevents the updates needed to maintain regulatory compliance.
-- [Authorization Flaws](authorization-flaws.md)
-<br/>  Authorization flaws violate compliance requirements for access control, pushing the system out of regulatory compliance.
-- [Data Protection Risk](data-protection-risk.md)
-<br/>  Inadequate data protection safeguards cause the system to fall behind evolving privacy regulations, creating widening compliance gaps.
-- [Insecure Data Transmission](insecure-data-transmission.md)
-<br/>  Insecure data transmission causes the system to fall out of compliance with security regulations like PCI-DSS and GDPR.
-- [Insufficient Audit Logging](insufficient-audit-logging.md)
-<br/>  Missing audit trails cause failures in compliance audits for regulations like HIPAA and SOX.
-
 ## Detection Methods ○
 
 - Conduct regular compliance gap analyses comparing current system capabilities with regulatory requirements

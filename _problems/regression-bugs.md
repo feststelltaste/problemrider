@@ -45,71 +45,16 @@ Regression bugs are defects that occur when previously working functionality bre
 <br/>  Repeated experiences of changes breaking existing functionality creates a culture of fear around code modifications.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Regressions in production require urgent fixes, pulling the team into reactive firefighting mode.
-
 ## Causes ▼
+
 - [Test Debt](test-debt.md)
 <br/>  Insufficient test coverage fails to catch regressions before deployment, allowing them to reach production.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Tightly coupled components mean changes in one area unexpectedly affect seemingly unrelated functionality.
 - [Brittle Codebase](brittle-codebase.md)
 <br/>  A fragile codebase with poor structure makes it easy for changes to inadvertently break existing functionality.
-- [Inadequate Code Reviews](inadequate-code-reviews.md)
+- [Review Process Breakdown](inadequate-code-reviews.md)
 <br/>  Poor code reviews fail to identify changes that could break existing functionality before they are merged.
-- [Bloated Class](bloated-class.md)
-<br/>  Modifying one part of a bloated class frequently breaks unrelated functionality within the same class.
-- [Breaking Changes](breaking-changes.md)
-<br/>  Previously working client integrations start exhibiting bugs after API changes break their assumptions.
-- [Change Management Chaos](change-management-chaos.md)
-<br/>  Changes deployed without impact assessment frequently break existing functionality that was previously working.
-- [Difficult to Test Code](difficult-to-test-code.md)
-<br/>  Without tests to catch regressions, previously fixed bugs resurface when code is modified.
-- [Global State and Side Effects](global-state-and-side-effects.md)
-<br/>  Changes to global state in one area break existing functionality elsewhere because the dependencies are not apparent.
-- [Hidden Dependencies](hidden-dependencies.md)
-<br/>  Modifications inadvertently break functionality in components that depend on hidden assumptions or undocumented interactions.
-- [Hidden Side Effects](hidden-side-effects.md)
-<br/>  Refactoring or reusing functions with hidden side effects inadvertently breaks functionality that depended on those side effects.
-- [Inadequate Integration Tests](inadequate-integration-tests.md)
-<br/>  Without integration tests, changes to one component can silently break interactions with other components.
-- [Incomplete Knowledge](incomplete-knowledge.md)
-<br/>  Changes made without awareness of all affected locations inadvertently break functionality in unknown parts of the system.
-- [Review Process Breakdown](insufficient-code-review.md)
-<br/>  Reviews that miss side effects and coupling issues lead to regression bugs when code changes.
-- [Quality Blind Spots](insufficient-testing.md)
-<br/>  Insufficient test coverage means changes frequently break existing functionality without detection before release.
-- [Legacy Code Without Tests](legacy-code-without-tests.md)
-<br/>  Without automated tests to catch regressions, changes frequently break previously working functionality.
-- [Long-Lived Feature Branches](long-lived-feature-branches.md)
-<br/>  Large merges from long-lived branches introduce many changes at once, increasing the chance of subtle regressions.
-- [Lower Code Quality](lower-code-quality.md)
-<br/>  Code written without proper care, testing, or design is more fragile and likely to cause regressions when modified.
-- [Feedback Isolation](no-continuous-feedback-loop.md)
-<br/>  Late-stage changes driven by delayed feedback require rushed modifications that introduce regressions in previously working features.
-- [Partial Bug Fixes](partial-bug-fixes.md)
-<br/>  Bugs that were supposedly fixed reappear in different contexts because the fix was only applied to some instances of the duplicated code.
-- [Poor Domain Model](poor-domain-model.md)
-<br/>  Scattered business logic means changes in one area inadvertently break business rules enforced elsewhere.
-- [Poor Test Coverage](poor-test-coverage.md)
-<br/>  Lack of automated tests means regressions are not caught during development, appearing later in production.
-- [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
-<br/>  Prototype code without proper testing and structure leads to frequent regressions when changes are made.
-- [Rapid System Changes](rapid-system-changes.md)
-<br/>  Frequent changes without adequate testing time lead to inadvertent breakage of previously working functionality.
-- [Reduced Code Submission Frequency](reduced-code-submission-frequency.md)
-<br/>  Large, complex changes submitted infrequently are more likely to introduce regressions that are difficult to isolate.
-- [Review Process Breakdown](review-process-breakdown.md)
-<br/>  Reviews that don't examine code logic thoroughly miss regressions that break previously working functionality.
-- [Ripple Effect of Changes](ripple-effect-of-changes.md)
-<br/>  Changes that ripple across components frequently introduce regressions in areas that developers didn't realize were affected.
-- [Rushed Approvals](rushed-approvals.md)
-<br/>  Reviewers who don't carefully examine changes miss regressions that break existing functionality.
-- [Superficial Code Reviews](superficial-code-reviews.md)
-<br/>  Without deep review of logic changes, regressions slip through and break previously working functionality.
-- [Synchronization Problems](synchronization-problems.md)
-<br/>  Updating one instance of duplicated logic without updating others causes regressions in the unchanged locations.
-- [Tight Coupling Issues](tight-coupling-issues.md)
-<br/>  Tight coupling means changes in one component can silently break functionality in dependent components, causing regressions.
-- [Unpredictable System Behavior](unpredictable-system-behavior.md)
-<br/>  Hidden dependencies cause changes to break seemingly unrelated functionality, manifesting as regression bugs.
-
 ## Detection Methods ○
 - **Automated Regression Test Suites:** Comprehensive automated tests that verify existing functionality after every change
 - **User Acceptance Testing:** Systematic testing of key user workflows before releases

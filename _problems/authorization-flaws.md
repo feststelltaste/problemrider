@@ -39,8 +39,8 @@ Authorization flaws occur when access control mechanisms fail to properly restri
 <br/>  Users lose trust when they discover others can access their data due to authorization flaws.
 - [Silent Data Corruption](silent-data-corruption.md)
 <br/>  Unauthorized users performing actions they should not can corrupt data without detection.
-
 ## Causes ▼
+
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Poor error handling can silently bypass authorization checks, allowing unauthorized access.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
@@ -49,9 +49,6 @@ Authorization flaws occur when access control mechanisms fail to properly restri
 <br/>  Without thorough authorization testing, access control flaws go undetected until exploited.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without security experience may implement incomplete or incorrect authorization checks.
-- [Session Management Issues](session-management-issues.md)
-<br/>  Poor session handling can allow users to escalate privileges or access other users' sessions, creating authorization failures.
-
 ## Detection Methods ○
 
 - **Access Control Testing:** Test all protected resources and functions for proper authorization

@@ -36,19 +36,24 @@ Technical architecture limitations occur when the fundamental design and structu
 
 ## Symptoms ▲
 
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  Architectural constraints force developers to work around fundamental design issues, significantly slowing feature development.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Developers create workarounds to bypass architectural constraints rather than implementing straightforward solutions.
+- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
+<br/>  Fundamental design constraints create performance ceilings that cannot be resolved without architectural changes.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  Adding new features requires disproportionate effort because changes must work within limiting architectural constraints.
 - [Technology Lock-In](technology-lock-in.md)
 <br/>  Deeply embedded architectural decisions make it prohibitively expensive to switch technologies or adopt modern approaches.
-
 ## Causes ▼
+
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  An architecture that has not evolved to meet changing requirements becomes increasingly limiting over time.
 - [Accumulated Decision Debt](accumulated-decision-debt.md)
 <br/>  Early architectural decisions that were never revisited compound into fundamental constraints as the system grows.
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  A monolithic design inherently limits the ability to scale, modify, or evolve different parts of the system independently.
-
 ## Detection Methods ○
 
 - **Performance Profiling:** Identify whether performance issues stem from architectural limitations

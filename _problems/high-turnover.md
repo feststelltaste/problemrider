@@ -45,43 +45,16 @@ High turnover occurs when developers frequently leave the team, often shortly af
 <br/>  Remaining senior developers become exhausted from continuously training new hires who may also leave soon.
 - [High Bug Introduction Rate](high-bug-introduction-rate.md)
 <br/>  New developers unfamiliar with the system are more likely to introduce bugs due to lack of domain knowledge and system understanding.
-
 ## Causes ▼
+
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
 <br/>  Poor onboarding experiences frustrate new hires and make them feel unsupported, contributing to early departures.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Working with debt-laden, complex code is demoralizing for developers who want to write quality software.
-- [CV Driven Development](cv-driven-development.md)
-<br/>  Developers who chose technologies for their resumes leave once they have gained enough experience to list them, taking critical knowledge with them.
+- [Information Decay](poor-documentation.md)
+<br/>  Inadequate documentation forces new developers to struggle to understand the system, increasing frustration and burnout.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
-<br/>  Frustrated and burned-out developers leave the organization, leading to elevated attrition rates.
-- [High Maintenance Costs](high-maintenance-costs.md)
-<br/>  Developers become frustrated working primarily on maintenance of aging systems rather than building new things, leading them to leave.
-- [Implicit Knowledge](implicit-knowledge.md)
-<br/>  New developers become frustrated when they cannot access the knowledge needed to be effective, contributing to early departures.
-- [Inability to Innovate](inability-to-innovate.md)
-<br/>  Developers who cannot grow professionally or work with modern technologies become frustrated and leave for better opportunities.
-- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md)
-<br/>  Poorly mentored developers become frustrated with lack of support and leave the organization.
-- [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md)
-<br/>  Poorly onboarded developers may become discouraged and leave the team due to inadequate initial support.
-- [Mentor Burnout](mentor-burnout.md)
-<br/>  Burned-out mentors eventually leave the organization, taking critical institutional knowledge with them.
-- [Micromanagement Culture](micromanagement-culture.md)
-<br/>  Talented developers leave organizations where they lack autonomy and decision-making authority.
-- [Modernization Strategy Paralysis](modernization-strategy-paralysis.md)
-<br/>  Developers frustrated by endless analysis and inability to work with modern technologies leave for organizations with clearer technical direction.
-- [New Hire Frustration](new-hire-frustration.md)
-<br/>  Frustrated new hires who cannot contribute effectively often leave within their first year, increasing turnover rates.
-- [Overworked Teams](overworked-teams.md)
-<br/>  Overworked team members leave for more sustainable work environments, causing increased turnover rates.
-- [Team Dysfunction](poor-teamwork.md)
-<br/>  Dysfunctional team dynamics and interpersonal conflicts drive skilled developers to leave the organization.
-- [Team Demoralization](team-demoralization.md)
-<br/>  Demoralized team members actively seek employment elsewhere, leading to increased departures.
-- [Team Dysfunction](team-dysfunction.md)
-<br/>  Team members leave the organization to escape the dysfunctional environment.
-
+<br/>  Overworked developers facing constant firefighting and maintenance burdens become exhausted and seek better opportunities.
 ## Detection Methods ○
 - **Turnover Rate Tracking:** Monitor how long new hires stay and identify patterns in departures
 - **Exit Interview Analysis:** Collect and analyze feedback from departing developers

@@ -35,10 +35,12 @@ Slow response times for lists is a common performance problem in web application
 
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Slow list pages are a visible component of overall application sluggishness perceived by users.
+- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
+<br/>  Users frequently interact with list views, so their slowness directly degrades the overall user experience.
 - [High API Latency](high-api-latency.md)
 <br/>  List endpoints that fetch large amounts of data contribute significantly to API latency.
-
 ## Causes ▼
+
 - [High Number of Database Queries](high-number-of-database-queries.md)
 <br/>  N+1 query patterns cause list pages to execute one query per item, dramatically increasing load times.
 - [Slow Database Queries](slow-database-queries.md)
@@ -47,13 +49,6 @@ Slow response times for lists is a common performance problem in web application
 <br/>  Lazy loading related data for each item in a list triggers many additional queries, multiplying response time.
 - [Imperative Data Fetching Logic](imperative-data-fetching-logic.md)
 <br/>  Manually coded data fetching often fails to batch or optimize queries for list operations.
-- [Incorrect Index Type](incorrect-index-type.md)
-<br/>  List queries that rely on incorrectly typed indexes experience slow response times due to inefficient data retrieval.
-- [Poor Caching Strategy](poor-caching-strategy.md)
-<br/>  List pages that aggregate data from multiple sources are especially impacted by poor caching, as each item may trigger separate uncached queries.
-- [Resource Contention](resource-contention.md)
-<br/>  Resource contention causes data-intensive operations like list queries to slow down significantly as processes compete for I/O and CPU.
-
 ## Detection Methods ○
 - **Application Performance Monitoring (APM):** APM tools can often detect and flag slow response times for lists.
 - **Browser Developer Tools:** Use the browser developer tools to see how long it takes to load a page.

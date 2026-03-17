@@ -41,17 +41,18 @@ Capacity mismatch occurs when the available capacity at different stages of the 
 <br/>  Team members at stages with excess capacity sit idle while constrained stages are overloaded.
 - [Work Queue Buildup](work-queue-buildup.md)
 <br/>  Work accumulates at under-capacity stages, creating growing queues that delay delivery.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Developers become frustrated when they are either overloaded or idle due to misaligned capacity across stages.
 - [Cascade Delays](cascade-delays.md)
 <br/>  Capacity-constrained stages cause delays that propagate to downstream work and dependent projects.
-
 ## Causes ▼
+
 - [Poor Planning](poor-planning.md)
 <br/>  Failure to analyze demand patterns leads to capacity allocation that doesn't match actual workflow needs.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  Specialized knowledge concentrated in few people creates capacity constraints at stages requiring that expertise.
 - [Organizational Structure Mismatch](organizational-structure-mismatch.md)
 <br/>  Team structures that don't align with process demands create inherent capacity imbalances across workflow stages.
-
 ## Detection Methods ○
 
 - **Capacity Utilization Analysis:** Monitor utilization rates across different roles and process stages

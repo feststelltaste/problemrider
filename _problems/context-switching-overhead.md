@@ -44,8 +44,8 @@ Context switching overhead occurs when developers are forced to frequently switc
 <br/>  The cumulative overhead of frequent context switches reduces the team's overall throughput and delivery pace.
 - [Cognitive Overload](cognitive-overload.md)
 <br/>  Managing multiple different mental models, tools, and workflows simultaneously overwhelms developers' working memory.
-
 ## Causes ▼
+
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Being pulled away from planned work to handle emergencies is a major source of forced context switches.
 - [Competing Priorities](competing-priorities.md)
@@ -54,25 +54,6 @@ Context switching overhead occurs when developers are forced to frequently switc
 <br/>  Maintaining systems across many different technology stacks forces developers to switch between different languages, frameworks, and tools.
 - [Priority Thrashing](priority-thrashing.md)
 <br/>  Frequently changing work priorities force developers to abandon current tasks and switch to new ones repeatedly.
-- [Approval Dependencies](approval-dependencies.md)
-<br/>  Developers forced to switch to other tasks while waiting for approvals lose focus and efficiency.
-- [Bottleneck Formation](bottleneck-formation.md)
-<br/>  Developers forced to switch between tasks while waiting for bottleneck resolution lose productivity to context switching.
-- [Extended Review Cycles](extended-review-cycles.md)
-<br/>  Multiple review rounds force authors to repeatedly switch back to code they wrote days or weeks ago, losing context each time.
-- [Inefficient Development Environment](inefficient-development-environment.md)
-<br/>  Long build or test times force developers to switch to other tasks while waiting, increasing cognitive overhead.
-- [Interrupt Overhead](interrupt-overhead.md)
-<br/>  Each interrupt requires saving and restoring execution context, creating significant context switching overhead.
-- [Long Build and Test Times](long-build-and-test-times.md)
-<br/>  While waiting for builds, developers switch to other tasks, losing mental context and reducing effectiveness.
-- [Tool Limitations](tool-limitations.md)
-<br/>  Poor tool integration forces developers to constantly switch between multiple applications for basic tasks.
-- [Work Blocking](work-blocking.md)
-<br/>  When developers are blocked waiting for approvals, they switch to lower-priority tasks, incurring cognitive overhead from frequent context changes.
-- [Work Queue Buildup](work-queue-buildup.md)
-<br/>  Developers forced to switch to other tasks while their primary work waits in queues lose productivity to context switching.
-
 ## Detection Methods ○
 
 - **Time Tracking Analysis:** Monitor how often developers switch between different types of tasks

@@ -36,7 +36,6 @@ Superficial code reviews occur when the review process consistently focuses on s
 
 ## Symptoms ▲
 
-
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
 <br/>  Logic, design, and security bugs pass through superficial reviews undetected and reach production.
 - [Regression Bugs](regression-bugs.md)
@@ -47,8 +46,8 @@ Superficial code reviews occur when the review process consistently focuses on s
 <br/>  Poor design decisions pass review unchallenged, accumulating technical debt that compounds over time.
 - [Inconsistent Quality](inconsistent-quality.md)
 <br/>  Without thorough design review, code quality varies wildly depending on individual developer skill rather than team standards.
-
 ## Causes ▼
+
 - [Fear of Conflict](fear-of-conflict.md)
 <br/>  Reviewers avoid challenging complex logic or design decisions because it's easier and less confrontational to comment on style.
 - [Deadline Pressure](deadline-pressure.md)
@@ -57,11 +56,6 @@ Superficial code reviews occur when the review process consistently focuses on s
 <br/>  Reviewers lacking domain or architectural knowledge default to commenting on style because they cannot evaluate deeper design issues.
 - [Nitpicking Culture](nitpicking-culture.md)
 <br/>  A culture that rewards finding minor issues trains reviewers to focus on surface details rather than substantive problems.
-- [Large Pull Requests](large-pull-requests.md)
-<br/>  Reviewers faced with oversized pull requests resort to surface-level checks, missing important design and logic issues.
-- [Style Arguments in Code Reviews](style-arguments-in-code-reviews.md)
-<br/>  When reviews are dominated by style arguments, reviewers have less capacity to analyze deeper logic and design issues.
-
 ## Detection Methods ○
 
 - **Review Comment Classification:** Categorize review comments to identify focus areas

@@ -45,8 +45,8 @@ Lower code quality occurs when various pressures and circumstances cause develop
 <br/>  Code written without proper care, testing, or design is more fragile and likely to cause regressions when modified.
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  Poor quality code with missing error handling, weak abstractions, and poor structure becomes increasingly fragile over time.
-
 ## Causes ▼
+
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Burned-out developers lack the motivation and mental energy to write high-quality code, leading to shortcuts and mistakes.
 - [Time Pressure](time-pressure.md)
@@ -57,29 +57,6 @@ Lower code quality occurs when various pressures and circumstances cause develop
 <br/>  Loss of experienced developers leaves less experienced team members producing lower quality code without adequate guidance.
 - [Superficial Code Reviews](superficial-code-reviews.md)
 <br/>  When code reviews fail to catch quality issues, lower quality code gets merged unchallenged, normalizing poor standards.
-- [Automated Tooling Ineffectiveness](automated-tooling-ineffectiveness.md)
-<br/>  Without effective automated tooling to catch issues, overall code quality decreases.
-- [Development Disruption](development-disruption.md)
-<br/>  Frequent interruptions break developer concentration, leading to more mistakes and lower quality code.
-- [Fear of Conflict](fear-of-conflict.md)
-<br/>  When significant issues go unchallenged in reviews, code quality degrades as flawed designs and implementations enter the codebase.
-- [Review Process Breakdown](inadequate-code-reviews.md)
-<br/>  Without meaningful review feedback, code quality steadily degrades as poor patterns go unchallenged.
-- [Review Process Breakdown](insufficient-code-review.md)
-<br/>  Insufficient review allows poor design patterns and code quality issues to accumulate in the codebase.
-- [Long Build and Test Times](long-build-and-test-times.md)
-<br/>  Developers skip running full test suites locally due to long times, leading to more defects reaching shared branches.
-- [Overworked Teams](overworked-teams.md)
-<br/>  Exhausted developers make more mistakes and take shortcuts, directly reducing the quality of code they produce.
-- [Quality Compromises](quality-compromises.md)
-<br/>  Skipped code reviews and testing produce code that is harder to maintain and more error-prone.
-- [Team Demoralization](team-demoralization.md)
-<br/>  When team members adopt a 'just do the minimum' attitude, code quality suffers as they stop investing extra effort in clean design.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md)
-<br/>  Without meaningful code review feedback, poor design decisions and bad practices slip into the codebase unchecked.
-- [Unmotivated Employees](unmotivated-employees.md)
-<br/>  Disengaged developers are less careful in their work, leading to more defects and poorly designed code.
-
 ## Detection Methods ○
 - **Static Code Analysis:** Use automated tools to measure code quality metrics over time
 - **Code Review Metrics:** Track the number and types of issues found during code reviews

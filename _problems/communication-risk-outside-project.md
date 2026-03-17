@@ -45,15 +45,14 @@ Communication risk outside the project occurs when there is inadequate informati
 <br/>  Stakeholders left uninformed become dissatisfied when project outcomes don't match their evolving expectations.
 - [Project Authority Vacuum](project-authority-vacuum.md)
 <br/>  Poor external communication reduces executive confidence and backing, weakening organizational support for the project.
-
 ## Causes ▼
+
 - [Communication Risk Within Project](communication-risk-within-project.md)
 <br/>  If internal project communication is already poor, external communication is even less likely to be effective.
 - [Feedback Isolation](feedback-isolation.md)
 <br/>  Teams operating without regular stakeholder input naturally fail to keep external parties informed.
 - [Poor Project Control](poor-project-control.md)
 <br/>  Without proper project monitoring, teams lack accurate status information to share with external stakeholders.
-
 ## Detection Methods ○
 
 - **Stakeholder Satisfaction Surveys:** Regular feedback from external stakeholders about communication effectiveness

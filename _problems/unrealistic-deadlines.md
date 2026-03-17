@@ -41,15 +41,22 @@ Unrealistic deadlines occur when project timelines are set without proper consid
 <br/>  When deadlines don't account for actual effort required, they are frequently missed despite team efforts.
 - [Quality Degradation](quality-degradation.md)
 <br/>  Teams cut corners on testing, code reviews, and design to meet unrealistic timelines, directly degrading quality.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Sustained overtime work required to meet unrealistic deadlines leads to developer burnout and exhaustion.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Tight deadlines force developers to implement quick workarounds rather than proper solutions.
-
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Rushing to meet unrealistic deadlines causes developers to skip testing and introduce more bugs.
 ## Causes ▼
+
 - [Poor Planning](poor-planning.md)
 <br/>  Deadlines set without proper estimation or understanding of actual work required lead to unrealistic timelines.
-- [Planning Credibility Issues](planning-credibility-issues.md)
-<br/>  When stakeholders don't trust team estimates, they impose their own deadlines that are disconnected from actual effort required.
-
+- [Micromanagement Culture](micromanagement-culture.md)
+<br/>  Management that is disconnected from technical realities sets deadlines without understanding development complexity.
+- [Requirements Ambiguity](requirements-ambiguity.md)
+<br/>  When requirements are vague, effort estimation is inaccurate, making any deadline based on those estimates unrealistic.
+- [Time Pressure](time-pressure.md)
+<br/>  External business pressures from stakeholders push management to commit to aggressive timelines regardless of technical feasibility.
 ## Detection Methods ○
 
 - **Estimate vs. Deadline Analysis:** Compare development estimates with imposed deadlines

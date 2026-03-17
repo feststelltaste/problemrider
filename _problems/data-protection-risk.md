@@ -45,8 +45,8 @@ Data protection risk occurs when systems inadequately safeguard personal, sensit
 <br/>  Data protection incidents erode stakeholder trust in the development team's ability to handle sensitive data responsibly.
 - [Declining Business Metrics](declining-business-metrics.md)
 <br/>  Data breaches and privacy violations lead to user churn, reputational damage, and declining revenue metrics.
-
 ## Causes ▼
+
 - [Insufficient Audit Logging](insufficient-audit-logging.md)
 <br/>  Without proper audit logging, organizations cannot track who accesses sensitive data, making it impossible to detect or prevent data protection violations.
 - [Authorization Flaws](authorization-flaws.md)
@@ -55,27 +55,6 @@ Data protection risk occurs when systems inadequately safeguard personal, sensit
 <br/>  Development teams lacking understanding of privacy regulations and data governance practices fail to implement adequate safeguards.
 - [Quality Compromises](quality-compromises.md)
 <br/>  Deliberately lowering quality standards to meet deadlines leads to skipping data protection reviews and proper data governance implementation.
-- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
-<br/>  Bypassed authentication exposes sensitive data to unauthorized access, creating serious data protection risks.
-- [Cross-Site Scripting Vulnerabilities](cross-site-scripting-vulnerabilities.md)
-<br/>  XSS vulnerabilities allow attackers to steal personal and sensitive data from users' browsers, creating data protection violations.
-- [Error Message Information Disclosure](error-message-information-disclosure.md)
-<br/>  Disclosure of system internals through error messages creates legal and compliance risks around data protection.
-- [Insecure Data Transmission](insecure-data-transmission.md)
-<br/>  Transmitting data without encryption directly creates regulatory and legal data protection risks.
-- [Log Injection Vulnerabilities](log-injection-vulnerabilities.md)
-<br/>  Log injection can be used to hide attack traces or inject content that compromises systems processing those logs, creating data protection risks.
-- [Logging Configuration Issues](logging-configuration-issues.md)
-<br/>  Misconfigured logging that inadvertently captures passwords, personal data, or API keys creates security and compliance exposure.
-- [Password Security Weaknesses](password-security-weaknesses.md)
-<br/>  Weak password security exposes user accounts to unauthorized access, creating risks for personal data protection and regulatory compliance.
-- [Secret Management Problems](secret-management-problems.md)
-<br/>  Inadequate secret management exposes sensitive data access credentials, creating risks of unauthorized data access and privacy violations.
-- [Session Management Issues](session-management-issues.md)
-<br/>  Compromised sessions expose user data and sensitive information to unauthorized access through session hijacking.
-- [Shadow Systems](shadow-systems.md)
-<br/>  Shadow systems often store sensitive data outside organizational security controls, creating compliance and data protection risks.
-
 ## Detection Methods ○
 
 - Conduct regular data protection impact assessments (DPIAs)

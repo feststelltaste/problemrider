@@ -44,8 +44,8 @@ Deployment environment inconsistencies occur when applications are deployed acro
 <br/>  Applications behave differently across environments, making it impossible to guarantee consistent user experiences.
 - [Release Instability](release-instability.md)
 <br/>  Releases become unstable because testing in inconsistent environments fails to catch production-specific issues.
-
 ## Causes ▼
+
 - [Configuration Chaos](configuration-chaos.md)
 <br/>  Poorly managed configurations across environments lead to divergent settings and inconsistencies.
 - [Manual Deployment Processes](manual-deployment-processes.md)
@@ -54,21 +54,6 @@ Deployment environment inconsistencies occur when applications are deployed acro
 <br/>  Without proper configuration management, environments gradually diverge as ad-hoc changes accumulate.
 - [Configuration Drift](configuration-drift.md)
 <br/>  Environments that were once identical gradually diverge through untracked changes and patches.
-- [ABI Compatibility Issues](abi-compatibility-issues.md)
-<br/>  ABI issues cause applications to work in development but fail in production where different library versions are installed.
-- [Dependency Version Conflicts](dependency-version-conflicts.md)
-<br/>  Different dependency resolutions across environments cause the application to behave differently in dev vs production.
-- [Environment Variable Issues](environment-variable-issues.md)
-<br/>  Inconsistent environment variables across environments cause applications to behave differently in development, staging, and production.
-- [Hardcoded Values](hardcoded-values.md)
-<br/>  Hardcoded values that are correct for one environment cause failures when the application is deployed to different environments.
-- [Legacy Configuration Management Chaos](legacy-configuration-management-chaos.md)
-<br/>  Configurations that cannot be reliably replicated cause environments to diverge, leading to inconsistent application behavior.
-- [Poor System Environment](poor-system-environment.md)
-<br/>  Differences between development and production environments cause unexpected behavior after deployment.
-- [Secret Management Problems](secret-management-problems.md)
-<br/>  Using the same secrets across environments or hardcoding environment-specific credentials leads to inconsistencies between deployment environments.
-
 ## Detection Methods ○
 
 - **Environment Comparison Auditing:** Regularly compare configurations and setups across environments

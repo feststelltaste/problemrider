@@ -41,19 +41,18 @@ Information fragmentation occurs when critical system knowledge, decisions, and 
 <br/>  New team members struggle to find the information they need when it is scattered across multiple disconnected systems.
 - [Wasted Development Effort](wasted-development-effort.md)
 <br/>  Developers waste time searching for information or duplicating research that was already done but stored in an unfindable location.
+- [Delayed Decision Making](delayed-decision-making.md)
+<br/>  When team members cannot find prior decisions, they make new decisions that may contradict earlier ones.
 - [Information Decay](information-decay.md)
 <br/>  Fragmented information is harder to maintain and update, accelerating its decay into inaccuracy.
-
 ## Causes ▼
-- [Poor Documentation](poor-documentation.md)
-<br/>  Lack of documentation standards and practices leads to information being recorded inconsistently across multiple locations.
-- [Duplicated Research Effort](duplicated-research-effort.md)
-<br/>  When multiple people research independently, their findings end up scattered across different documents and personal notes rather than consolidated.
-- [Shadow Systems](shadow-systems.md)
-<br/>  Critical business data becomes scattered between official systems and shadow alternatives, making it difficult to maintain a single source of truth.
-- [Unclear Documentation Ownership](unclear-documentation-ownership.md)
-<br/>  When no one owns documentation, different people create it in different places, scattering knowledge across multiple locations.
 
+- [Information Decay](poor-documentation.md)
+<br/>  Lack of documentation standards and practices leads to information being recorded inconsistently across multiple locations.
+- [Tool Limitations](tool-limitations.md)
+<br/>  Using many different tools for documentation and communication naturally scatters information across systems.
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Without standards for where and how information should be documented, team members store knowledge wherever is convenient.
 ## Detection Methods ○
 
 - **Information Audit:** Survey what critical information exists and where it's located

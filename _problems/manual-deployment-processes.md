@@ -50,8 +50,8 @@ Manual deployment processes require human intervention to release software chang
 <br/>  The high risk and effort of manual deployments creates stress and anxiety around each release event.
 - [Maintenance Bottlenecks](maintenance-bottlenecks.md)
 <br/>  Deployments depend on specific individuals with specialized knowledge of the manual process, creating bottlenecks.
-
 ## Causes ▼
+
 - [Immature Delivery Strategy](immature-delivery-strategy.md)
 <br/>  Organizations without a mature delivery strategy have not invested in deployment automation.
 - [Legacy Configuration Management Chaos](legacy-configuration-management-chaos.md)
@@ -60,7 +60,6 @@ Manual deployment processes require human intervention to release software chang
 <br/>  Overly complex deployment procedures resist automation because they involve many conditional steps and human judgment calls.
 - [Resistance to Change](resistance-to-change.md)
 <br/>  Teams comfortable with existing manual processes resist adopting automated deployment pipelines.
-
 ## Detection Methods ○
 
 - Review deployment procedures to identify manual intervention points

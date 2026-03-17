@@ -40,13 +40,12 @@ Alignment and padding issues occur when data structures are organized in ways th
 <br/>  Oversized structures due to padding waste memory and contribute to fragmentation when many instances are allocated.
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Poor memory layout from alignment issues reduces cache utilization and increases memory bandwidth, slowing performance.
-
 ## Causes ▼
+
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers unfamiliar with hardware memory alignment requirements unknowingly create inefficient structure layouts.
 - [Cargo Culting](cargo-culting.md)
 <br/>  Copying struct definitions without understanding their memory implications leads to suboptimal field ordering and layout.
-
 ## Detection Methods ○
 
 - **Structure Size Analysis:** Compare actual structure sizes with theoretical minimum sizes

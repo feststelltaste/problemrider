@@ -46,8 +46,8 @@ Difficult to test code refers to software components that cannot be easily or ef
 <br/>  Without tests to catch regressions, previously fixed bugs resurface when code is modified.
 - [Increased Manual Testing Effort](increased-manual-testing-effort.md)
 <br/>  When automated testing is impractical, teams fall back on expensive and slow manual testing.
-
 ## Causes ▼
+
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Tightly coupled components cannot be isolated for unit testing, requiring complex setup of the entire dependency chain.
 - [Global State and Side Effects](global-state-and-side-effects.md)
@@ -56,23 +56,6 @@ Difficult to test code refers to software components that cannot be easily or ef
 <br/>  God objects with many responsibilities and dependencies require extensive mocking to test even simple functionality.
 - [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
 <br/>  Large functions that do many things require testing entire workflows rather than individual behaviors.
-- [Circular Dependency Problems](circular-dependency-problems.md)
-<br/>  Circular dependencies prevent components from being tested in isolation, requiring complex mocking setups.
-- [Excessive Class Size](excessive-class-size.md)
-<br/>  Large classes with many responsibilities and dependencies are extremely hard to test in isolation.
-- [Hidden Side Effects](hidden-side-effects.md)
-<br/>  Functions with hidden side effects require extensive mocking of databases, services, and caches to test even simple calculations.
-- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
-<br/>  Tightly coupled components cannot be tested in isolation because they depend heavily on other components.
-- [Over-Reliance on Utility Classes](over-reliance-on-utility-classes.md)
-<br/>  Static utility methods create hard dependencies that cannot be easily mocked or substituted, making unit testing difficult.
-- [Poor Encapsulation](poor-encapsulation.md)
-<br/>  Without encapsulation, components are hard to test in isolation because they depend on and expose shared mutable state.
-- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
-<br/>  Components handling multiple unrelated concerns are difficult to test in isolation due to complex dependencies.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md)
-<br/>  Business logic intertwined with cross-cutting concerns cannot be tested in isolation without also exercising logging, security, etc.
-
 ## Detection Methods ○
 - **Test Coverage Analysis:** Low coverage in specific modules often indicates testing difficulties
 - **Test Complexity Metrics:** Measure the number of setup steps or mock objects required for tests

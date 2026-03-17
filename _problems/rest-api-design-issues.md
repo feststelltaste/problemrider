@@ -41,15 +41,14 @@ REST API design issues occur when APIs violate REST architectural principles, us
 <br/>  Developers spend excessive time understanding and working around inconsistent API conventions, slowing down feature delivery.
 - [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md)
 <br/>  Poor initial API design compounds over time as backward compatibility requirements make it increasingly difficult to fix design flaws.
-
 ## Causes ▼
+
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers lacking experience with REST principles create APIs that violate conventions and create usability problems.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Lack of uniform coding and design standards allows different developers to create APIs with conflicting conventions.
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
 <br/>  Insufficient analysis of API consumer needs leads to resource modeling that doesn't match how clients actually use the API.
-
 ## Detection Methods ○
 
 - **API Design Review:** Review API endpoints against REST principles and consistency guidelines

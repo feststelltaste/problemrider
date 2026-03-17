@@ -48,8 +48,8 @@ Extended research time occurs when developers must spend disproportionate amount
 <br/>  Spending most of the day researching rather than building can be demoralizing, especially when the same questions recur.
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
 <br/>  Developers give large estimates even for seemingly simple changes because they know significant research will be needed first.
-
 ## Causes ▼
+
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  Lack of understanding about the system, domain, or technology forces developers to spend extensive time researching before they can implement.
 - [Information Decay](information-decay.md)
@@ -60,13 +60,6 @@ Extended research time occurs when developers must spend disproportionate amount
 <br/>  Difficult-to-understand code requires extensive investigation before developers can safely make changes.
 - [Legacy System Documentation Archaeology](legacy-system-documentation-archaeology.md)
 <br/>  When system knowledge exists only in obsolete formats and departed employees' memories, extensive research is needed for every change.
-- [Complex Domain Model](complex-domain-model.md)
-<br/>  Developers spend significant time researching and understanding complex domain concepts before they can implement features.
-- [Duplicated Research Effort](duplicated-research-effort.md)
-<br/>  When research is duplicated across team members rather than shared, the total time spent researching increases dramatically.
-- [Information Decay](poor-documentation.md)
-<br/>  Developers spend excessive time reverse-engineering system behavior that should be documented.
-
 ## Detection Methods ○
 
 - **Time Tracking Analysis:** Monitor percentage of time spent on research vs. implementation activities

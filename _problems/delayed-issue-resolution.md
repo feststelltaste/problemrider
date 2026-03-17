@@ -46,8 +46,8 @@ Delayed issue resolution occurs when identified problems remain unfixed for exte
 <br/>  Unresolved performance issues like memory leaks compound over time, causing steadily worsening system behavior.
 - [Increased Customer Support Load](increased-customer-support-load.md)
 <br/>  Persistent unresolved issues generate recurring support requests as users continue to encounter the same problems.
-
 ## Causes ▼
+
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  Without clear ownership of system components, issues get passed between people without anyone taking responsibility to fix them.
 - [Feature Factory](feature-factory.md)
@@ -56,11 +56,6 @@ Delayed issue resolution occurs when identified problems remain unfixed for exte
 <br/>  Management focus on immediate deliverables means issue resolution is perpetually deprioritized in favor of new work.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  Issues that are difficult to diagnose tend to be avoided and deferred, with developers reluctant to tackle complex problems.
-- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
-<br/>  Bug fixes and improvements are delayed because they must wait for the limited bottleneck developers to be available.
-- [Procrastination on Complex Tasks](procrastination-on-complex-tasks.md)
-<br/>  Complex issues sit unaddressed in the backlog for months because they are consistently deferred.
-
 ## Detection Methods ○
 
 - **Issue Age Analysis:** Track how long problems remain in different states without resolution

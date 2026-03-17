@@ -42,53 +42,14 @@ High maintenance costs are a common problem for legacy systems. As a system ages
 <br/>  Developers become frustrated working primarily on maintenance of aging systems rather than building new things, leading them to leave.
 - [Maintenance Paralysis](maintenance-paralysis.md)
 <br/>  When maintenance costs dominate the budget, the system enters a state where meaningful improvements become impossible.
-
 ## Causes ▼
+
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated design shortcuts and code quality issues make every change more expensive and time-consuming.
-- [Brittle Codebase](brittle-codebase.md)
-<br/>  Maintaining a brittle codebase requires disproportionate effort as small changes demand extensive testing and fixing.
-- [Cargo Culting](cargo-culting.md)
-<br/>  Adopted technologies and patterns that the team doesn't understand become expensive to maintain and troubleshoot.
-- [Cascade Failures](cascade-failures.md)
-<br/>  Diagnosing and fixing cascade failure patterns requires extensive investigation across multiple components, increasing costs.
-- [CV Driven Development](cv-driven-development.md)
-<br/>  Unnecessarily complex technology choices driven by resume building create systems that are expensive to maintain after the original developer leaves.
-- [Dependency on Supplier](dependency-on-supplier.md)
-<br/>  Vendor-controlled components often come with escalating licensing and support costs that the organization cannot negotiate away.
-- [Difficult Code Reuse](difficult-code-reuse.md)
-<br/>  Maintaining multiple copies of similar code multiplies the effort needed for bug fixes and updates.
-- [Feature Bloat](feature-bloat.md)
-<br/>  Maintaining a large number of features, many rarely used, consumes disproportionate development resources.
-- [High Defect Rate in Production](high-defect-rate-in-production.md)
-<br/>  Constant production bug fixing diverts development resources from new features, increasing overall maintenance burden.
-- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
-<br/>  Without modernization investment, legacy systems accumulate technical debt that drives maintenance costs ever higher.
-- [Modernization Strategy Paralysis](modernization-strategy-paralysis.md)
-<br/>  Delayed modernization decisions allow technical debt to compound, steadily increasing the cost of maintaining deteriorating systems.
-- [Obsolete Technologies](obsolete-technologies.md)
-<br/>  Maintaining systems built on obsolete technologies requires specialized knowledge and custom workarounds, driving up costs.
-- [Poor Encapsulation](poor-encapsulation.md)
-<br/>  Poor encapsulation makes the system more expensive to maintain because any internal change can break external consumers.
-- [Ripple Effect of Changes](ripple-effect-of-changes.md)
-<br/>  The amplified effort required for every change drives up the cost of maintaining and evolving the system.
-- [Scaling Inefficiencies](scaling-inefficiencies.md)
-<br/>  When systems cannot be scaled independently, organizations must overprovision resources, leading to disproportionately high infrastructure and maintenance costs.
-- [Strangler Fig Pattern Failures](strangler-fig-pattern-failures.md)
-<br/>  Managing both legacy and new components simultaneously doubles operational overhead and maintenance effort.
-- [Suboptimal Solutions](suboptimal-solutions.md)
-<br/>  Suboptimal designs require ongoing workarounds, patches, and support that inflate maintenance costs.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md)
-<br/>  Maintaining cross-cutting logic scattered throughout the codebase requires disproportionate effort for any change.
-- [Technology Isolation](technology-isolation.md)
-<br/>  Custom solutions must be built for problems that have standard solutions in modern ecosystems, increasing maintenance costs.
-- [Technology Lock-In](technology-lock-in.md)
-<br/>  Proprietary or outdated locked-in technologies often have high licensing and support costs.
-- [Technology Stack Fragmentation](technology-stack-fragmentation.md)
-<br/>  Maintaining multiple incompatible technology stacks with separate tools, processes, and expertise is significantly more expensive than a standardized environment.
-- [Workaround Culture](workaround-culture.md)
-<br/>  Maintaining multiple layers of workarounds requires significantly more effort than maintaining properly designed solutions.
-
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  High coupling between components means changes in one area cascade throughout the system, multiplying maintenance effort.
+- [Information Decay](poor-documentation.md)
+<br/>  Without proper documentation, developers spend excessive time understanding system behavior before they can make changes.
 ## Detection Methods ○
 - **Cost of Ownership Analysis:** Calculate the total cost of owning and maintaining the system over its lifetime. This will give you a clear picture of the financial impact of the system.
 - **Maintenance vs. New Development Ratio:** Track the percentage of the development budget that is spent on maintenance versus new development. A high ratio is a clear sign of a problem.

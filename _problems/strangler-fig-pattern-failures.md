@@ -48,8 +48,8 @@ Strangler fig pattern failures occur when attempts to gradually replace legacy s
 <br/>  The unexpected complexity of completing the migration causes costs to significantly exceed original estimates.
 - [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
 <br/>  Repeated delays and escalating costs in the modernization effort erode stakeholder trust in the technical approach.
-
 ## Causes ▼
+
 - [Hidden Dependencies](hidden-dependencies.md)
 <br/>  Undiscovered dependencies between legacy components make it impossible to cleanly separate and replace individual parts.
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
@@ -58,7 +58,6 @@ Strangler fig pattern failures occur when attempts to gradually replace legacy s
 <br/>  Data consistency challenges between legacy and modern components undermine the incremental migration approach.
 - [Complex Domain Model](complex-domain-model.md)
 <br/>  Inherently complex business domains make it difficult to identify clean boundaries for incremental replacement.
-
 ## Detection Methods ○
 
 - Track progress metrics for strangler fig implementation against original timeline estimates

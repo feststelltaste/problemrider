@@ -42,8 +42,8 @@ Excessive logging can have a significant impact on application performance and m
 <br/>  When logs contain too much noise, finding the relevant information for debugging becomes like searching for a needle in a haystack.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As log volumes accumulate over time, disk space fills up and I/O overhead grows, progressively degrading system performance.
-
 ## Causes ▼
+
 - [Logging Configuration Issues](logging-configuration-issues.md)
 <br/>  Misconfigured log levels, such as leaving DEBUG enabled in production, directly cause excessive log output.
 - [Inexperienced Developers](inexperienced-developers.md)
@@ -52,7 +52,6 @@ Excessive logging can have a significant impact on application performance and m
 <br/>  Poor error handling that logs full stack traces for every exception contributes to log volume explosion.
 - [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md)
 <br/>  When logging is interleaved throughout business logic rather than managed as a cross-cutting concern, logging statements proliferate uncontrollably.
-
 ## Detection Methods ○
 
 - **Disk Usage Monitoring:** Monitor disk space consumption on servers where logs are stored.

@@ -37,15 +37,24 @@ Inexperienced developers refers to a situation where team members lack the knowl
 
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Developers lacking experience are more likely to introduce defects through misunderstanding of code or business logic.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Inexperienced developers often produce code with anti-patterns, poor structure, and inconsistent practices.
 - [Increased Technical Shortcuts](increased-technical-shortcuts.md)
 <br/>  Lack of experience leads developers to choose expedient solutions without understanding long-term consequences.
+- [SQL Injection Vulnerabilities](sql-injection-vulnerabilities.md)
+<br/>  Developers unaware of security best practices introduce vulnerabilities such as plain-text password storage or weak authentication.
 - [Inefficient Code](inefficient-code.md)
 <br/>  Without knowledge of performance optimization, inexperienced developers write computationally expensive code.
-
 ## Causes ▼
+
+- [High Turnover](high-turnover.md)
+<br/>  High turnover means experienced developers leave and are replaced by less experienced ones, reducing overall team expertise.
+- [Skill Development Gaps](skill-development-gaps.md)
+<br/>  Lack of training programs and mentorship opportunities prevents junior developers from developing their skills.
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
 <br/>  Poor onboarding processes fail to bring new developers up to speed on the system and its practices.
-
+- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md)
+<br/>  Without experienced mentors to guide them, junior developers have no pathway to develop proper engineering skills.
 ## Detection Methods ○
 - **Code Quality Metrics:** Monitor metrics like cyclomatic complexity, code coverage, and bug density by developer
 - **Code Review Patterns:** Track frequency and types of issues found during code reviews

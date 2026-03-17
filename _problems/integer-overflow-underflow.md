@@ -36,15 +36,14 @@ Integer overflow and underflow occur when arithmetic operations produce results 
 <br/>  Wrapped values cause unexpected program behavior that is difficult to reproduce and diagnose.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Integer overflow conditions create subtle bugs that only manifest with specific input values.
-
 ## Causes ▼
+
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Developers without awareness of data type limits fail to implement proper bounds checking.
 - [Quality Blind Spots](insufficient-testing.md)
 <br/>  Insufficient testing with boundary values fails to detect overflow conditions before production.
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Lack of validation and error handling for arithmetic operations allows overflows to occur silently.
-
 ## Detection Methods ○
 
 - **Static Analysis Tools:** Use tools that can identify potential integer overflow conditions in arithmetic operations

@@ -41,23 +41,20 @@ Spaghetti code refers to source code that has become tangled, unstructured, and 
 <br/>  Spaghetti code's tangled dependencies mean changes in one area frequently break unrelated functionality.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Adding features to spaghetti code requires extensive time to understand the tangled logic and safely integrate changes.
+- [High Bug Introduction Rate](high-bug-introduction-rate.md)
+<br/>  The unpredictable control flow and hidden dependencies in spaghetti code make it a constant source of bugs.
 - [Fear of Change](fear-of-change.md)
 <br/>  Developers become reluctant to modify spaghetti code because changes have unpredictable and far-reaching consequences.
-
 ## Causes ▼
+
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Without enforced coding standards, developers write unstructured code that accumulates into spaghetti.
+- [Review Process Breakdown](insufficient-code-review.md)
+<br/>  Without code review, poorly structured code goes unchecked and accumulates over time.
 - [Time Pressure](time-pressure.md)
 <br/>  Under pressure to deliver quickly, developers take shortcuts that result in tangled, poorly structured code.
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
-<br/>  Continuous feature additions without structural improvement create tangled, unstructured code that is nearly impossible to maintain.
-- [Insufficient Design Skills](insufficient-design-skills.md)
-<br/>  Lack of design skills leads to poorly structured code with tangled control flow and unclear organization.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md)
-<br/>  Misunderstanding encapsulation and proper object design leads to tangled, unstructured code with unclear control flow.
-- [Procedural Programming in OOP Languages](procedural-programming-in-oop-languages.md)
-<br/>  Without OOP structure, procedural code grows into tangled sequences that are difficult to follow and modify.
-- [Uncontrolled Codebase Growth](uncontrolled-codebase-growth.md)
-<br/>  Growth without structural planning leads to tangled, unstructured code that is difficult to understand or modify.
-
+<br/>  Without regular refactoring, code structure degrades over time as quick fixes and patches create tangled logic.
 ## Detection Methods ○
 
 - **Cyclomatic Complexity Analysis:** Use tools to measure code complexity and identify tangled methods

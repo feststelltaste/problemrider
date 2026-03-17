@@ -36,8 +36,8 @@ Password security weaknesses occur when systems implement inadequate password po
 <br/>  Weak password security combined with poor session handling compounds vulnerabilities, as compromised credentials grant persistent unauthorized access.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Account compromises resulting from weak password security erode user trust and lead to customer complaints and churn.
-
 ## Causes ▼
+
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Legacy systems may use outdated hashing algorithms and authentication patterns that predate modern security standards.
 - [Inexperienced Developers](inexperienced-developers.md)
@@ -46,7 +46,6 @@ Password security weaknesses occur when systems implement inadequate password po
 <br/>  Under pressure to deliver quickly, proper password security practices are skipped in favor of simpler but insecure implementations.
 - [Secret Management Problems](secret-management-problems.md)
 <br/>  Poor overall secret management practices extend to password handling, with inadequate protection of stored credentials.
-
 ## Detection Methods ○
 
 - **Password Policy Analysis:** Review password requirements and enforcement mechanisms

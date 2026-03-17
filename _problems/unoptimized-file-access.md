@@ -37,15 +37,14 @@ Unoptimized file access refers to inefficient methods of reading from or writing
 <br/>  Applications that read and write files inefficiently experience sluggish performance, especially for I/O-heavy operations.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As data volumes grow, inefficient file access patterns cause progressively worse performance over time.
-
 ## Causes ▼
+
 - [Inefficient Code](inefficient-code.md)
 <br/>  General coding inefficiency includes not using buffered I/O, reading entire files when only parts are needed, and other poor file access patterns.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Legacy code lacking tests often contains outdated file access patterns that haven't been optimized because changes are risky.
 - [Tool Limitations](tool-limitations.md)
 <br/>  Inadequate profiling tools may prevent developers from identifying and addressing file access inefficiencies.
-
 ## Detection Methods ○
 
 - **System Monitoring Tools:** Use `iostat`, `vmstat`, `sar` (Linux) or Performance Monitor (Windows) to track disk I/O metrics and identify processes with high I/O.

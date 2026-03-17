@@ -35,15 +35,22 @@ A formal change control process is essential for managing the evolution of a pro
 <br/>  Without formal evaluation of changes, new requests are continuously added without assessing their impact, causing uncontrolled scope expansion.
 - [Missed Deadlines](missed-deadlines.md)
 <br/>  Unevaluated changes consume development capacity that was allocated to planned work, causing schedule slippage.
+- [Context Switching Overhead](context-switching-overhead.md)
+<br/>  Ad hoc change requests interrupt developers' focus as they are pulled between planned work and unmanaged requests.
+- [Resource Waste](resource-waste.md)
+<br/>  Significant rework occurs when uncontrolled changes conflict with each other or invalidate previously completed work.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Constantly shifting priorities and growing backlogs from unmanaged changes lead to team exhaustion and frustration.
-
 ## Causes ▼
+
 - [Poor Project Control](poor-project-control.md)
 <br/>  Weak project governance structures fail to establish and enforce formal processes for managing changes.
-- [Eager-to-Please Stakeholders](eager-to-please-stakeholders.md)
+- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
 <br/>  A desire to accommodate all stakeholder requests leads teams to accept changes without formal evaluation of impact.
-
+- [Inefficient Processes](inefficient-processes.md)
+<br/>  Organizations with immature development processes often lack the discipline to implement and follow formal change control.
+- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
+<br/>  When no one is clearly responsible for approving or rejecting changes, all requests flow directly to the development team unchecked.
 ## Detection Methods ○
 
 - **Project Audits:** Review project documentation, meeting minutes, and communication logs to see how changes are being managed.

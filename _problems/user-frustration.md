@@ -44,37 +44,18 @@ User frustration occurs when software systems consistently fail to meet user exp
 <br/>  User frustration translates directly into overall customer dissatisfaction and potential churn.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  When users are frustrated, stakeholders who depend on user adoption become frustrated with the product team.
-
 ## Causes ▼
+
 - [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
 <br/>  Poorly designed interfaces that are difficult to navigate or understand directly frustrate users.
 - [Inconsistent Behavior](inconsistent-behavior.md)
 <br/>  Unpredictable system behavior frustrates users who cannot rely on consistent functionality.
+- [Release Instability](release-instability.md)
+<br/>  Frequent crashes and errors directly frustrate users who lose work or cannot complete tasks.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Sluggish system response times frustrate users who must wait for basic operations to complete.
 - [User Confusion](user-confusion.md)
 <br/>  Users who are confused by the system become frustrated when they cannot accomplish their goals.
-- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
-<br/>  Users experience long wait times for operations that should be fast, leading to frustration with the application.
-- [Deadlock Conditions](deadlock-conditions.md)
-<br/>  Application freezes caused by deadlocks create an unpredictable and unreliable user experience.
-- [Delayed Bug Fixes](delayed-bug-fixes.md)
-<br/>  Users experiencing the same known bugs over extended periods become increasingly frustrated with the application.
-- [Delayed Issue Resolution](delayed-issue-resolution.md)
-<br/>  Users experiencing the same unresolved problems repeatedly lose confidence in the system and become dissatisfied.
-- [Gradual Performance Degradation](gradual-performance-degradation.md)
-<br/>  Users become increasingly frustrated as tasks that once were fast now take noticeably longer to complete.
-- [High API Latency](high-api-latency.md)
-<br/>  Consistently slow API responses lead to poor user experience and growing dissatisfaction.
-- [High Client-Side Resource Consumption](high-client-side-resource-consumption.md)
-<br/>  Users become dissatisfied when the application makes their device slow, hot, or drains battery quickly.
-- [Inadequate Onboarding](inadequate-onboarding.md)
-<br/>  New users who cannot understand core features become frustrated and stop using the application.
-- [Partial Bug Fixes](partial-bug-fixes.md)
-<br/>  Users experience the same bug repeatedly after being told it was fixed, causing frustration and loss of trust.
-- [Suboptimal Solutions](suboptimal-solutions.md)
-<br/>  Users become frustrated when solutions are cumbersome, inefficient, or fail to fully address their needs.
-- [Upstream Timeouts](upstream-timeouts.md)
-<br/>  End users experience slow responses or errors caused by upstream timeouts, leading to dissatisfaction.
-
 ## Detection Methods ○
 
 - **User Satisfaction Surveys:** Regular surveys about user experience and satisfaction

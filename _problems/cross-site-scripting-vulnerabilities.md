@@ -33,7 +33,6 @@ Cross-Site Scripting (XSS) vulnerabilities occur when web applications fail to p
 
 ## Symptoms ▲
 
-
 - [Session Management Issues](session-management-issues.md)
 <br/>  XSS attacks enable session hijacking by stealing session cookies, directly compromising session security.
 - [Data Protection Risk](data-protection-risk.md)
@@ -42,8 +41,8 @@ Cross-Site Scripting (XSS) vulnerabilities occur when web applications fail to p
 <br/>  Users who experience account compromise or data theft due to XSS attacks lose confidence in the application.
 - [Negative Brand Perception](negative-brand-perception.md)
 <br/>  Public disclosure of XSS vulnerabilities damages the organization's reputation for security and reliability.
-
 ## Causes ▼
+
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers lacking security knowledge may not understand the need for input validation and output encoding.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
@@ -52,9 +51,6 @@ Cross-Site Scripting (XSS) vulnerabilities occur when web applications fail to p
 <br/>  When quality standards are lowered to meet deadlines, security practices like proper input sanitization are skipped.
 - [Review Process Breakdown](inadequate-code-reviews.md)
 <br/>  Code reviews that fail to identify security issues allow XSS-vulnerable code to reach production.
-- [Error Message Information Disclosure](error-message-information-disclosure.md)
-<br/>  Stack traces and debug output revealing application structure help attackers identify injection points for XSS attacks.
-
 ## Detection Methods ○
 
 - **Input Validation Testing:** Test all input fields and parameters for script injection

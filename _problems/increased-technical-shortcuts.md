@@ -39,12 +39,14 @@ Increased technical shortcuts occurs when development teams consistently choose 
 <br/>  Each shortcut adds to the system's technical debt, compounding maintenance burden over time.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Shortcuts manifest as workarounds that pile up and make the codebase increasingly complex.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Quick fixes and expedient solutions degrade code quality as proper design and standards are bypassed.
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  Shortcuts create fragile code with hidden dependencies and incomplete implementations, making the system more prone to breaking.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Hastily written code without proper design or testing increases the likelihood of defects.
-
 ## Causes ▼
+
 - [Time Pressure](time-pressure.md)
 <br/>  Tight deadlines force developers to prioritize speed over quality, leading to shortcuts.
 - [Short-Term Focus](short-term-focus.md)
@@ -53,23 +55,6 @@ Increased technical shortcuts occurs when development teams consistently choose 
 <br/>  Exhausted developers lack the energy to implement proper solutions and default to quick fixes.
 - [Workaround Culture](workaround-culture.md)
 <br/>  An organizational culture that normalizes quick fixes makes shortcuts the expected approach rather than the exception.
-- [Budget Overruns](budget-overruns.md)
-<br/>  Budget pressure forces teams to cut corners on quality and take technical shortcuts to reduce costs.
-- [Constant Firefighting](constant-firefighting.md)
-<br/>  Under constant urgency, developers take shortcuts to resolve issues quickly, which creates more technical debt and future fires.
-- [Deadline Pressure](deadline-pressure.md)
-<br/>  Teams implement quick fixes and workarounds instead of proper solutions to meet tight deadlines.
-- [Inexperienced Developers](inexperienced-developers.md)
-<br/>  Lack of experience leads developers to choose expedient solutions without understanding long-term consequences.
-- [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
-<br/>  When there is no budget for addressing debt, developers resort to more shortcuts, compounding the problem.
-- [Premature Technology Introduction](premature-technology-introduction.md)
-<br/>  Teams unfamiliar with the new technology take shortcuts to meet deadlines, accumulating technical debt.
-- [Project Resource Constraints](project-resource-constraints.md)
-<br/>  Teams take technical shortcuts to compensate for insufficient personnel and time.
-- [Quality Compromises](quality-compromises.md)
-<br/>  Once quality shortcuts become acceptable, more shortcuts follow as the precedent normalizes cutting corners.
-
 ## Detection Methods ○
 
 - **Code Review Analysis:** Monitor comments and patterns indicating shortcuts in code reviews

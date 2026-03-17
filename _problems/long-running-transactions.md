@@ -43,8 +43,8 @@ Long-running transactions are database transactions that remain open for an exte
 <br/>  Transactions that run for extended periods tie up connection pool resources, and abandoned transactions may leak connections entirely.
 - [Service Timeouts](service-timeouts.md)
 <br/>  Operations blocked by long-running transaction locks can exceed application timeout thresholds, causing failures.
-
 ## Causes ▼
+
 - [Slow Database Queries](slow-database-queries.md)
 <br/>  Slow queries within a transaction directly extend its duration, keeping locks held longer.
 - [Inefficient Database Indexing](inefficient-database-indexing.md)
@@ -53,7 +53,6 @@ Long-running transactions are database transactions that remain open for an exte
 <br/>  Application logic that calls slow external services while holding an open transaction extends its lifetime.
 - [Incorrect Max Connection Pool Size](incorrect-max-connection-pool-size.md)
 <br/>  Undersized connection pools under load can cause transactions to queue, and when finally executed, their effective duration spans the wait time.
-
 ## Detection Methods ○
 
 - **Database Monitoring Tools:** Use database-specific commands (e.g., `pg_stat_activity` in PostgreSQL, `SHOW PROCESSLIST` in MySQL) to identify active transactions and their duration.

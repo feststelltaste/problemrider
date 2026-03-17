@@ -41,19 +41,16 @@ Mixed coding styles is a situation where different parts of the codebase use dif
 <br/>  New developers joining the project are confused by inconsistent conventions and struggle to know which style to follow.
 - [Inconsistent Codebase](inconsistent-codebase.md)
 <br/>  Mixed coding styles directly contribute to an overall inconsistent codebase that lacks coherence across modules.
-
 ## Causes ▼
+
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
 <br/>  Without defined and enforced style guidelines, each developer applies their own preferred conventions.
 - [High Turnover](high-turnover.md)
 <br/>  Frequent developer turnover brings in new people with different coding habits, each leaving their stylistic imprint on the codebase.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Lack of agreed-upon or enforced coding standards directly leads to different parts of the codebase using different styles.
-- [Insufficient Code Review](insufficient-code-review.md)
+- [Review Process Breakdown](insufficient-code-review.md)
 <br/>  Without thorough code reviews that enforce consistency, style deviations accumulate unchecked over time.
-- [Procedural Programming in OOP Languages](procedural-programming-in-oop-languages.md)
-<br/>  Procedural code mixed with OOP code from other developers creates inconsistent coding patterns across the codebase.
-
 ## Detection Methods ○
 - **Manual Code Inspection:** The inconsistency is often obvious from simply browsing the codebase.
 - **Run a Linter or Formatter:** Run a tool like ESLint, Prettier, RuboCop, or Black on the codebase and observe the large number of reported violations.

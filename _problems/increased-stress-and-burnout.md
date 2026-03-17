@@ -36,37 +36,26 @@ Increased stress and burnout occurs when team members experience sustained high 
 
 ## Symptoms ▲
 
+- [High Turnover](high-turnover.md)
+<br/>  Chronic stress and burnout drive team members to leave the organization in search of better working conditions.
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  Burned-out team members produce less output and lower quality work due to mental and physical exhaustion.
 - [Increased Technical Shortcuts](increased-technical-shortcuts.md)
 <br/>  Exhausted developers take shortcuts to cope with workload, choosing quick fixes over proper solutions.
 - [Quality Degradation](quality-degradation.md)
 <br/>  Stressed and fatigued developers make more mistakes and cut corners, leading to declining code and system quality.
-
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Persistent stress erodes team spirit and motivation, creating a negative work environment.
 ## Causes ▼
+
 - [Time Pressure](time-pressure.md)
 <br/>  Unrealistic deadlines and constant urgency create sustained stress that leads to burnout.
 - [Overworked Teams](overworked-teams.md)
 <br/>  Teams consistently working beyond sustainable capacity directly causes physical and mental exhaustion.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Always responding to urgent production issues prevents planned work and creates chronic stress from unpredictability.
-- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
-<br/>  The uncertainty and frustration of constantly changing targets creates sustained stress for the development team.
-- [Deadline Pressure](deadline-pressure.md)
-<br/>  Sustained deadline pressure causes team members to work overtime and experience chronic stress, leading to burnout.
-- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
-<br/>  The few developers who are bottlenecks become overloaded with work, leading to stress and eventual burnout.
-- [Missed Deadlines](missed-deadlines.md)
-<br/>  The pressure and frustration from repeatedly missing commitments contributes to team stress and burnout.
-- [Poor Planning](poor-planning.md)
-<br/>  Unrealistic plans create sustained pressure on teams trying to meet impossible timelines.
-- [Scope Creep](scope-creep.md)
-<br/>  Teams face mounting pressure as expanding scope must be delivered within original timelines and resources, leading to overwork.
-- [Uneven Work Flow](uneven-work-flow.md)
-<br/>  Alternating between idle periods and intense rush creates stress and unsustainable working patterns.
-- [Uneven Workload Distribution](uneven-workload-distribution.md)
-<br/>  Overloaded team members experience chronic stress and burnout from consistently carrying disproportionate workloads.
-
+- [Staff Availability Issues](staff-availability-issues.md)
+<br/>  Too few team members for the workload means each person bears an unsustainable burden, accelerating burnout.
 ## Detection Methods ○
 
 - **Stress Level Surveys:** Regular anonymous surveys about team member stress and satisfaction levels

@@ -42,8 +42,8 @@ Delayed value delivery is the gap between when a feature is ready and when it is
 <br/>  Users provide negative feedback when they must wait extended periods for improvements and fixes.
 - [Declining Business Metrics](declining-business-metrics.md)
 <br/>  Slow value delivery leads to declining engagement, retention, and revenue metrics as users find alternatives.
-
 ## Causes ▼
+
 - [Long Release Cycles](long-release-cycles.md)
 <br/>  Infrequent releases mean completed features sit unreleased for extended periods before reaching users.
 - [Deployment Coupling](deployment-coupling.md)
@@ -54,39 +54,6 @@ Delayed value delivery is the gap between when a feature is ready and when it is
 <br/>  Projects running behind schedule directly delay when their value reaches users.
 - [Immature Delivery Strategy](immature-delivery-strategy.md)
 <br/>  Lack of mature continuous delivery practices creates bottlenecks between development completion and user delivery.
-- [Analysis Paralysis](analysis-paralysis.md)
-<br/>  Business value cannot be delivered while teams remain stuck in analysis phases.
-- [Dependency on Supplier](dependency-on-supplier.md)
-<br/>  Changes and improvements must wait on the supplier's schedule and priorities, delaying delivery of value to users.
-- [Deployment Risk](deployment-risk.md)
-<br/>  Fear of risky deployments delays getting completed features into production and to users.
-- [Extended Cycle Times](extended-cycle-times.md)
-<br/>  When cycle times are extended, users wait much longer to receive features and fixes, reducing the product's responsiveness to needs.
-- [Extended Review Cycles](extended-review-cycles.md)
-<br/>  Features and fixes that are already implemented sit in review for extended periods before reaching users.
-- [Increased Time to Market](increased-time-to-market.md)
-<br/>  When time to market increases, the value of features reaching customers is delayed, reducing business impact.
-- [Large Feature Scope](large-feature-scope.md)
-<br/>  When features cannot be delivered incrementally, users must wait for the entire large feature to be complete before receiving any value.
-- [Misaligned Deliverables](misaligned-deliverables.md)
-<br/>  Rework cycles from misaligned deliverables delay the delivery of actual business value to users.
-- [Missed Deadlines](missed-deadlines.md)
-<br/>  Missed deadlines directly delay the delivery of business value to users and the organization.
-- [Operational Overhead](operational-overhead.md)
-<br/>  Operational demands divert the team from planned feature work, delaying delivery of new value to users.
-- [Perfectionist Culture](perfectionist-culture.md)
-<br/>  Users wait longer for features because the team spends excessive time perfecting before release.
-- [Perfectionist Review Culture](perfectionist-review-culture.md)
-<br/>  Features that are complete and functional sit in review for weeks while reviewers suggest increasingly marginal improvements.
-- [Review Bottlenecks](review-bottlenecks.md)
-<br/>  Features and fixes that are ready but stuck in review queues cannot reach users, delaying value delivery.
-- [Slow Development Velocity](slow-development-velocity.md)
-<br/>  When development velocity drops, business value reaches users much later than expected.
-- [Slow Feature Development](slow-feature-development.md)
-<br/>  When features take too long to build, business value is delivered late, reducing competitive advantage.
-- [Work Queue Buildup](work-queue-buildup.md)
-<br/>  Completed features waiting in deployment or review queues delay the delivery of business value to users.
-
 ## Detection Methods ○
 - **Lead Time for Changes:** Measure the time it takes for a change to go from code commit to production.
 - **Deployment Frequency:** Measure how often the team deploys to production.

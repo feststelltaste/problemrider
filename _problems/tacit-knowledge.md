@@ -42,8 +42,8 @@ Tacit knowledge is knowledge that is difficult to transfer to another person by 
 <br/>  Holders of tacit knowledge become bottlenecks as others must wait for their guidance on decisions and changes.
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  Team productivity suffers when only a few members can effectively work on parts of the system due to unshared tacit knowledge.
-
 ## Causes ▼
+
 - [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
 <br/>  Ineffective knowledge sharing practices fail to externalize tacit knowledge into documented, transferable forms.
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
@@ -52,7 +52,6 @@ Tacit knowledge is knowledge that is difficult to transfer to another person by 
 <br/>  Even when knowledge is documented, documentation that becomes outdated forces developers to rely on tacit knowledge instead.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
 <br/>  Code that is hard to understand cannot serve as documentation, forcing understanding to remain tacit in developers' minds.
-
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers if they feel like they have the knowledge they need to do their jobs.
 - **Code Reviews:** Look for code that is difficult to understand.

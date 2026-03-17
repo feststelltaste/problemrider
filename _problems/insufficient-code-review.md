@@ -48,8 +48,8 @@ Insufficient code review occurs when the code review process fails to effectivel
 <br/>  Design flaws and shortcuts that pass through inadequate reviews accumulate as technical debt.
 - [Regression Bugs](regression-bugs.md)
 <br/>  Reviews that miss side effects and coupling issues lead to regression bugs when code changes.
-
 ## Causes ▼
+
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Time pressure leads reviewers to rush through reviews or skip them entirely.
 - [Overworked Teams](overworked-teams.md)
@@ -60,7 +60,6 @@ Insufficient code review occurs when the code review process fails to effectivel
 <br/>  Disengaged reviewers treat reviews as a formality rather than a meaningful quality gate.
 - [Large Pull Requests](large-pull-requests.md)
 <br/>  Very large code changes overwhelm reviewers and make thorough review practically impossible.
-
 ## Detection Methods ○
 
 - **Review Depth Analysis:** Measure time spent on reviews relative to code complexity

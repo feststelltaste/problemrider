@@ -43,8 +43,8 @@ A maintenance bottleneck occurs when a small number of developers, or even a sin
 <br/>  Bug fixes and improvements are delayed because they must wait for the limited bottleneck developers to be available.
 - [Work Blocking](work-blocking.md)
 <br/>  Other team members are blocked from making progress on tasks that touch the bottlenecked system components.
-
 ## Causes ▼
+
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  Knowledge concentrated in a few individuals about critical system parts creates the bottleneck condition.
 - [Implicit Knowledge](implicit-knowledge.md)
@@ -53,21 +53,6 @@ A maintenance bottleneck occurs when a small number of developers, or even a sin
 <br/>  When a system uses obsolete technologies, few developers have the required skills to maintain it.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Complex, poorly documented code discourages other developers from learning and working on the system.
-- [Clever Code](clever-code.md)
-<br/>  Only the original author or similarly skilled developers can safely modify clever code, creating bottleneck dependencies.
-- [Manual Deployment Processes](manual-deployment-processes.md)
-<br/>  Deployments depend on specific individuals with specialized knowledge of the manual process, creating bottlenecks.
-- [Mentor Burnout](mentor-burnout.md)
-<br/>  When burned-out mentors disengage or leave, the knowledge gaps they leave behind create maintenance bottlenecks.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
-<br/>  Changes in one area of the monolith can unexpectedly affect other areas, creating bottlenecks where modifications require broad system understanding.
-- [Shared Dependencies](shared-dependencies.md)
-<br/>  Changes to shared libraries require coordination across all consuming teams, creating bottlenecks in the maintenance process.
-- [Single Entry Point Design](single-entry-point-design.md)
-<br/>  All changes must flow through the single entry point, creating a bottleneck where modifications queue up and slow down development.
-- [Single Points of Failure](single-points-of-failure.md)
-<br/>  When only one person or component can handle certain tasks, maintenance queues up and creates bottlenecks.
-
 ## Detection Methods ○
 - **Bus Factor Analysis:** Identify the key developers who are the only ones who know how to work on a critical part of the system.
 - **Code Ownership Analysis:** Use tools to identify the developers who have made the most changes to a specific part of the system.

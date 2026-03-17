@@ -45,8 +45,8 @@ Deadlock conditions occur when two or more threads or processes are blocked inde
 <br/>  Deadlocks are notoriously difficult to reproduce and diagnose because they depend on specific timing and ordering of concurrent operations.
 - [User Frustration](user-frustration.md)
 <br/>  Application freezes caused by deadlocks create an unpredictable and unreliable user experience.
-
 ## Causes ▼
+
 - [Race Conditions](race-conditions.md)
 <br/>  Improper synchronization that leads to race conditions often results in overly aggressive locking strategies that create deadlock potential.
 - [Lock Contention](lock-contention.md)
@@ -55,9 +55,6 @@ Deadlock conditions occur when two or more threads or processes are blocked inde
 <br/>  Transactions that hold locks for extended periods increase the window during which circular wait conditions can form.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without concurrency expertise may not understand lock ordering discipline or deadlock prevention strategies.
-- [Long-Running Database Transactions](long-running-database-transactions.md)
-<br/>  Transactions holding locks for extended periods increase the window for circular lock dependencies to form.
-
 ## Detection Methods ○
 
 - **Deadlock Detection Tools:** Use debugging tools and profilers that can identify circular wait conditions

@@ -48,8 +48,8 @@ Declining business metrics represents the measurable deterioration of key busine
 <br/>  Poor business metrics make it harder to secure funding and resources for development initiatives, creating a downward spiral.
 - [Increased Customer Support Load](increased-customer-support-load.md)
 <br/>  As business metrics decline due to technical issues, more users contact support with complaints and problems.
-
 ## Causes ▼
+
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Sluggish application performance drives users away, directly causing drops in engagement, conversion, and revenue metrics.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
@@ -60,25 +60,6 @@ Declining business metrics represents the measurable deterioration of key busine
 <br/>  Confusing or frustrating user interfaces drive down user engagement, conversion rates, and retention metrics.
 - [Missed Deadlines](missed-deadlines.md)
 <br/>  Consistently missing delivery commitments erodes stakeholder confidence and delays revenue-generating features.
-- [Competitive Disadvantage](competitive-disadvantage.md)
-<br/>  Loss of customers to competitors directly manifests as declining revenue, engagement, and market share metrics.
-- [Customer Dissatisfaction](customer-dissatisfaction.md)
-<br/>  Customer dissatisfaction directly impacts engagement, conversion, and revenue metrics as users reduce usage or leave.
-- [Data Protection Risk](data-protection-risk.md)
-<br/>  Data breaches and privacy violations lead to user churn, reputational damage, and declining revenue metrics.
-- [Delayed Bug Fixes](delayed-bug-fixes.md)
-<br/>  Persistent bugs degrade user experience, leading to declining engagement and retention metrics over time.
-- [Increased Cost of Development](increased-cost-of-development.md)
-<br/>  Rising development costs reduce the ability to invest in features that drive business growth, impacting key metrics.
-- [Increased Customer Support Load](increased-customer-support-load.md)
-<br/>  High support load correlates with poor user experience, which drives down engagement, conversion, and revenue metrics.
-- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
-<br/>  Reduced stakeholder support leads to decreased investment, fewer approved projects, and ultimately declining business outcomes.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
-<br/>  Reduced stakeholder engagement and support leads to fewer approved initiatives and declining business performance.
-- [System Outages](system-outages.md)
-<br/>  Outages directly reduce revenue, user engagement, and other business metrics during downtime periods.
-
 ## Detection Methods ○
 
 - **Business Intelligence (BI) Dashboards:** Monitor key performance indicators (KPIs) such as conversion rates, daily active users (DAU), session duration, and revenue.

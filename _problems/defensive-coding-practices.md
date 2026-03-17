@@ -44,8 +44,8 @@ Defensive coding practices occur when developers modify their coding style not t
 <br/>  Unnecessary validation checks and defensive error handling for impossible scenarios add computational overhead.
 - [Reduced Code Submission Frequency](reduced-code-submission-frequency.md)
 <br/>  Developers spend extra time adding defensive code to preempt review criticism, delaying their submissions.
-
 ## Causes ▼
+
 - [Nitpicking Culture](nitpicking-culture.md)
 <br/>  When reviews focus on minor details, developers learn to preemptively address trivial concerns through overly verbose and defensive code.
 - [Perfectionist Review Culture](perfectionist-review-culture.md)
@@ -54,9 +54,6 @@ Defensive coding practices occur when developers modify their coding style not t
 <br/>  When mistakes are punished, developers write overly cautious code to minimize any possible criticism or blame.
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
 <br/>  Without clear coding standards, developers cannot predict what reviewers will criticize, leading them to over-document and over-defend their choices.
-- [Unpredictable System Behavior](unpredictable-system-behavior.md)
-<br/>  Developers write overly defensive code to guard against unexpected side effects from hidden dependencies.
-
 ## Detection Methods ○
 
 - **Code Complexity Analysis:** Compare code complexity before and after review experiences

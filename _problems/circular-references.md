@@ -41,15 +41,14 @@ Circular references occur when two or more objects hold references to each other
 <br/>  Objects retained by circular references increase heap size, forcing more frequent and longer garbage collection cycles.
 - [High Client-Side Resource Consumption](high-client-side-resource-consumption.md)
 <br/>  In browser-based applications, circular references between DOM and JavaScript objects lead to excessive memory consumption on the client.
-
 ## Causes ▼
+
 - [Poor Encapsulation](poor-encapsulation.md)
 <br/>  Lack of proper data hiding leads to objects holding direct references to each other instead of using proper abstraction layers.
 - [Improper Event Listener Management](improper-event-listener-management.md)
 <br/>  Event listeners that capture references to their parent objects create circular reference chains that prevent garbage collection.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers unfamiliar with memory management patterns unknowingly create bidirectional references between objects.
-
 ## Detection Methods ○
 
 - **Memory Profilers:** Use heap analysis tools to identify object reference chains and detect circular patterns

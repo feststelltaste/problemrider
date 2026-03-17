@@ -45,8 +45,8 @@ Algorithmic complexity problems occur when code uses algorithms or data structur
 <br/>  Inefficient algorithms processing database results consume excessive CPU and memory resources.
 - [User Frustration](user-frustration.md)
 <br/>  Users experience long wait times for operations that should be fast, leading to frustration with the application.
-
 ## Causes ▼
+
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers lacking computer science fundamentals may not recognize poor algorithmic choices or know better alternatives.
 - [Quality Blind Spots](insufficient-testing.md)
@@ -55,7 +55,6 @@ Algorithmic complexity problems occur when code uses algorithms or data structur
 <br/>  Time pressure leads developers to implement the first working solution without considering its algorithmic efficiency.
 - [Cargo Culting](cargo-culting.md)
 <br/>  Developers copying code patterns without understanding their performance characteristics can introduce inefficient algorithms.
-
 ## Detection Methods ○
 - **Performance Profiling:** Use profiling tools to identify methods that consume disproportionate CPU time
 - **Complexity Analysis:** Review code to identify algorithms with poor Big O complexity characteristics

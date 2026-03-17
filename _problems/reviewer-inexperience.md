@@ -41,15 +41,14 @@ Reviewer inexperience occurs when team members tasked with code review do not ha
 <br/>  Inexperienced reviewers who cannot identify real issues tend to quickly approve changes rather than admitting they don't understand the code.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
 <br/>  Reviews by inexperienced reviewers miss critical bugs and design flaws that then reach production.
-
 ## Causes ▼
+
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  A generally inexperienced development team naturally has inexperienced reviewers who lack depth to assess code quality.
 - [Inadequate Mentoring Structure](inadequate-mentoring-structure.md)
 <br/>  Without mentoring programs to develop reviewing skills, team members remain inexperienced at conducting effective reviews.
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  Gaps in domain knowledge or technical understanding prevent reviewers from recognizing deeper issues in unfamiliar code areas.
-
 ## Detection Methods ○
 - **Analyze Review Comments:** Look for patterns of superficial or non-substantive comments from specific reviewers.
 - **Track Bug Origins:** Trace production bugs back to the code changes that introduced them and examine the corresponding code reviews.

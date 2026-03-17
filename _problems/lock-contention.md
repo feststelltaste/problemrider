@@ -45,19 +45,14 @@ Lock contention occurs when multiple threads frequently compete for the same syn
 <br/>  Adding more threads or cores provides diminishing or negative returns when they all contend for the same locks.
 - [Resource Contention](resource-contention.md)
 <br/>  Lock contention is a direct form of resource contention where threads compete for synchronization primitives rather than doing productive work.
-
 ## Causes ▼
+
 - [God Object Anti-Pattern](god-object-anti-pattern.md)
 <br/>  A god object that centralizes state forces all threads to synchronize through a single lock protecting that shared state.
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
 <br/>  Tightly coupled components that share mutable state require coarse-grained locking, increasing contention.
 - [Global State and Side Effects](global-state-and-side-effects.md)
 <br/>  Global mutable state requires locks for thread safety, and widely accessed globals become natural contention hotspots.
-- [Long-Running Database Transactions](long-running-database-transactions.md)
-<br/>  Long-held database locks block other queries trying to access the same rows or tables, creating contention.
-- [Long-Running Transactions](long-running-transactions.md)
-<br/>  Transactions holding locks for extended periods cause other operations to block, waiting for those locks to be released.
-
 ## Detection Methods ○
 
 - **Lock Profiling:** Use profiling tools that can identify lock contention and wait times

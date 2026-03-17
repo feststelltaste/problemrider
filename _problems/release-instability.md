@@ -43,8 +43,8 @@ Release instability is a state where software releases are consistently unreliab
 <br/>  Unstable releases force the team into reactive firefighting mode, disrupting planned development work.
 - [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
 <br/>  Business stakeholders lose trust in the development team's ability to deliver reliable software when releases consistently cause problems.
-
 ## Causes ▼
+
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Insufficient testing allows defects to reach production undetected, directly causing unstable releases.
 - [Large, Risky Releases](large-risky-releases.md)
@@ -53,17 +53,6 @@ Release instability is a state where software releases are consistently unreliab
 <br/>  Manual deployment steps introduce human error that causes inconsistencies and failures during releases.
 - [Review Process Breakdown](review-process-breakdown.md)
 <br/>  When code reviews fail to catch defects and design issues, poor quality code reaches production and causes instability.
-- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
-<br/>  Releases become unstable because testing in inconsistent environments fails to catch production-specific issues.
-- [Inadequate Integration Tests](inadequate-integration-tests.md)
-<br/>  Releases that pass unit tests but lack integration coverage frequently cause production instability.
-- [Inconsistent Execution](inconsistent-execution.md)
-<br/>  When deployment and release processes are executed inconsistently, production releases become unreliable.
-- [Increased Bug Count](increased-bug-count.md)
-<br/>  Frequent new defects make each release less stable and more likely to cause production problems.
-- [Increased Error Rates](increased-error-rates.md)
-<br/>  Spikes in error rates after deployments indicate releases are unstable and causing production problems.
-
 ## Detection Methods ○
 - **Release Failure Rate:** Track the percentage of releases that result in a critical failure.
 - **Mean Time to Failure (MTTF):** Measure the average time between releases.

@@ -44,17 +44,16 @@ Premature technology introduction occurs when teams adopt new technologies, fram
 <br/>  Teams unfamiliar with the new technology take shortcuts to meet deadlines, accumulating technical debt.
 - [Wasted Development Effort](wasted-development-effort.md)
 <br/>  Teams may need to rewrite or migrate away from unsuitable technologies, wasting prior development work.
-
+- [Skill Development Gaps](skill-development-gaps.md)
+<br/>  Introducing unfamiliar technology creates immediate knowledge deficits that hinder productivity.
 ## Causes ▼
+
 - [Cargo Culting](cargo-culting.md)
 <br/>  Teams copy technology choices from successful companies without understanding whether those choices fit their context.
 - [Assumption-Based Development](assumption-based-development.md)
 <br/>  Technology is adopted based on assumptions about its benefits rather than validated evaluation of suitability.
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Lack of architectural evaluation skills means teams cannot properly assess whether a new technology fits their needs.
-- [CV Driven Development](cv-driven-development.md)
-<br/>  Technologies are adopted based on resume value rather than project fit, introducing immature or inappropriate tools into the stack.
-
 ## Detection Methods ○
 
 - **Technology Adoption Timeline Analysis:** Track how quickly new technologies are introduced after release

@@ -46,21 +46,16 @@ Single points of failure occur when critical system knowledge, capabilities, or 
 <br/>  When a single point of failure becomes unavailable, dependent work items cascade into delays across multiple teams and projects.
 - [Staff Availability Issues](staff-availability-issues.md)
 <br/>  When critical work depends on specific individuals, their unavailability creates effective staffing gaps even when the team is otherwise fully staffed.
-
 ## Causes ▼
+
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When knowledge is concentrated in individuals rather than shared across the team, those individuals become single points of failure.
 - [Knowledge Dependency](knowledge-dependency.md)
 <br/>  Critical system knowledge residing with specific individuals creates dependencies that make them irreplaceable.
+- [Information Decay](poor-documentation.md)
+<br/>  Without documentation, knowledge stays locked in individuals' heads, making the organization dependent on their availability.
 - [Skill Development Gaps](skill-development-gaps.md)
 <br/>  When team members fail to develop breadth of skills, expertise concentrates in few individuals who become single points of failure.
-- [Legacy Skill Shortage](legacy-skill-shortage.md)
-<br/>  When only one or two people understand a legacy system, their unavailability blocks all progress on that system.
-- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
-<br/>  When only one or two people can maintain a critical system, their unavailability creates a direct single point of failure.
-- [Shadow Systems](shadow-systems.md)
-<br/>  Shadow systems are typically maintained by a single person and run on personal infrastructure, creating critical single points of failure.
-
 ## Detection Methods ○
 
 - **Bus Factor Analysis:** Identify what would happen if key individuals were unavailable

@@ -43,8 +43,8 @@ Poor encapsulation is a common design problem in object-oriented programming. It
 <br/>  Poor encapsulation makes the system more expensive to maintain because any internal change can break external consumers.
 - [Brittle Codebase](brittle-codebase.md)
 <br/>  Lack of data hiding makes the codebase fragile, as many components depend on implementation details that may change.
-
 ## Causes ▼
+
 - [Misunderstanding of OOP](misunderstanding-of-oop.md)
 <br/>  Developers who don't understand object-oriented principles fail to properly encapsulate data and behavior.
 - [Procedural Programming in OOP Languages](procedural-programming-in-oop-languages.md)
@@ -53,9 +53,6 @@ Poor encapsulation is a common design problem in object-oriented programming. It
 <br/>  Less experienced developers often default to public fields and getters/setters without understanding encapsulation benefits.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Under time pressure, developers take shortcuts by making fields public rather than designing proper interfaces.
-- [Procedural Background](procedural-background.md)
-<br/>  Procedural habits lead to exposing data and separating it from behavior, violating encapsulation principles.
-
 ## Detection Methods ○
 - **Code Reviews:** Code reviews are a great way to identify problems with encapsulation.
 - **Static Analysis:** Use static analysis tools to identify classes with a large number of public fields or getters and setters.

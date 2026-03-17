@@ -46,13 +46,12 @@ Language barriers occur when team members speak different native languages or us
 <br/>  Different interpretations of technical terms and requirements due to language differences create confusion about project goals and priorities.
 - [Slow Knowledge Transfer](slow-knowledge-transfer.md)
 <br/>  Language differences slow down the process of sharing system knowledge between team members, as explanations require more time and effort.
-
 ## Causes ▼
+
 - [Rapid Team Growth](rapid-team-growth.md)
 <br/>  Rapid hiring from diverse geographies brings team members with different native languages and communication styles without time to establish shared terminology.
 - [Team Silos](team-silos.md)
 <br/>  When teams work in isolation, they develop their own terminology and jargon, creating language barriers when they need to collaborate across silos.
-
 ## Detection Methods ○
 
 - **Communication Effectiveness Surveys:** Anonymous feedback about language-related communication challenges

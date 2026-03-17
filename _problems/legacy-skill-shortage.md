@@ -37,7 +37,6 @@ Legacy skill shortage occurs when organizations face a critical scarcity of deve
 
 ## Symptoms ▲
 
-
 - [Maintenance Bottlenecks](maintenance-bottlenecks.md)
 <br/>  With only a few people capable of maintaining legacy systems, all maintenance work funnels through them, creating severe bottlenecks.
 - [Single Points of Failure](single-points-of-failure.md)
@@ -48,21 +47,14 @@ Legacy skill shortage occurs when organizations face a critical scarcity of deve
 <br/>  When incidents occur in legacy systems, resolution is delayed because few people have the expertise to diagnose problems.
 - [Modernization Strategy Paralysis](modernization-strategy-paralysis.md)
 <br/>  Without enough skilled people to both maintain the legacy system and build a replacement, organizations cannot commit to a modernization path.
-
 ## Causes ▼
+
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Systems built on outdated technologies that are no longer taught or widely used create a shrinking pool of qualified developers.
 - [Technology Isolation](technology-isolation.md)
 <br/>  Systems isolated from modern technology stacks are unattractive to developers, making it hard to recruit new talent.
 - [High Turnover](high-turnover.md)
 <br/>  Experienced legacy developers leaving the organization accelerates the skill shortage as institutional knowledge departs with them.
-- [Skill Development Gaps](skill-development-gaps.md)
-<br/>  Avoiding learning legacy technologies creates a shortage of people who can maintain and evolve older systems.
-- [Technology Stack Fragmentation](technology-stack-fragmentation.md)
-<br/>  Each fragmented technology stack requires specialized expertise, making it difficult to find and retain qualified staff across all stacks.
-- [Vendor Dependency Entrapment](vendor-dependency-entrapment.md)
-<br/>  As vendor products are discontinued, fewer professionals maintain skills in those technologies, making talent scarce.
-
 ## Detection Methods ○
 
 - Conduct skills inventory assessments for all critical legacy technologies in the organization

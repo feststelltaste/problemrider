@@ -25,7 +25,6 @@ Insecure data transmission occurs when sensitive information is sent over networ
 
 ## Symptoms ▲
 
-
 - [Data Protection Risk](data-protection-risk.md)
 <br/>  Transmitting data without encryption directly creates regulatory and legal data protection risks.
 - [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
@@ -36,15 +35,14 @@ Insecure data transmission occurs when sensitive information is sent over networ
 <br/>  Insecure data transmission causes the system to fall out of compliance with security regulations like PCI-DSS and GDPR.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Security breaches resulting from insecure transmission erode customer trust and satisfaction.
-
 ## Causes ▼
+
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Legacy systems using outdated protocols may lack support for modern encryption standards.
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Developers lacking security design knowledge may fail to implement proper encryption for data in transit.
 - [Configuration Chaos](configuration-chaos.md)
 <br/>  Poor configuration management can lead to SSL/TLS being misconfigured or disabled in certain environments.
-
 ## Detection Methods ○
 
 - **Network Traffic Analysis:** Monitor network communications for unencrypted sensitive data

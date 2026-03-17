@@ -43,15 +43,14 @@ Procrastination on complex tasks occurs when developers consistently delay or av
 <br/>  Deferred architectural work makes the system more fragile as changes accumulate around problematic areas.
 - [Time Pressure](time-pressure.md)
 <br/>  Postponed complex work eventually becomes urgent, creating last-minute deadline pressure.
-
 ## Causes ▼
+
 - [Cognitive Overload](cognitive-overload.md)
 <br/>  Mental exhaustion from system complexity makes developers avoid additional cognitive burden of hard tasks.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  When code is hard to understand, the perceived difficulty of complex tasks increases, encouraging avoidance.
 - [Avoidance Behaviors](avoidance-behaviors.md)
 <br/>  Procrastination is a specific manifestation of broader avoidance behavior patterns in the team.
-
 ## Detection Methods ○
 
 - **Task Start Delay Analysis:** Measure time between task assignment and when work actually begins

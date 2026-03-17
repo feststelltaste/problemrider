@@ -49,8 +49,8 @@ Knowledge gaps occur when team members lack sufficient understanding of the syst
 <br/>  Developers working without sufficient understanding of the system introduce more defects.
 - [Cargo Culting](cargo-culting.md)
 <br/>  Developers copy patterns without understanding them because they lack the knowledge to evaluate alternatives.
-
 ## Causes ▼
+
 - [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
 <br/>  Ineffective knowledge sharing leaves team members without access to information held by others.
 - [Information Decay](information-decay.md)
@@ -61,17 +61,6 @@ Knowledge gaps occur when team members lack sufficient understanding of the syst
 <br/>  Poor onboarding processes fail to transfer essential knowledge to new team members.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  Critical knowledge isolated in individuals becomes a gap for everyone else on the team.
-- [Complex Domain Model](complex-domain-model.md)
-<br/>  The inherent complexity of the domain makes it difficult for developers to fully understand business rules, creating persistent knowledge gaps.
-- [CV Driven Development](cv-driven-development.md)
-<br/>  When technologies are chosen for resume value rather than team expertise, most team members lack the knowledge to work with them effectively.
-- [Legacy System Documentation Archaeology](legacy-system-documentation-archaeology.md)
-<br/>  Critical system knowledge gaps form when documentation becomes obsolete and the people who wrote it have departed.
-- [Rapid System Changes](rapid-system-changes.md)
-<br/>  Team members cannot keep up with the pace of changes, creating gaps in understanding of the current system state.
-- [Slow Knowledge Transfer](slow-knowledge-transfer.md)
-<br/>  Slow transfer means new members develop incomplete understanding, leaving persistent gaps in their knowledge.
-
 ## Detection Methods ○
 - **Learning Time Tracking:** Measure time spent researching versus implementing during development tasks
 - **Question Frequency Analysis:** Monitor how often team members ask for help understanding system components

@@ -45,27 +45,14 @@ Resource allocation failures occur when applications acquire system resources su
 <br/>  Threads that are never returned to the pool due to improper resource management eventually exhaust all available threads.
 - [Resource Contention](resource-contention.md)
 <br/>  Leaked resources reduce the pool of available resources, forcing remaining processes to compete more intensely for what remains.
-
 ## Causes ▼
+
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Poor error handling fails to clean up resources in exception paths, causing resources to leak when errors occur.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers unfamiliar with resource management patterns fail to properly implement resource cleanup, especially in complex error scenarios.
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Lack of tests for error conditions and long-running scenarios means resource leaks go undetected until they cause production failures.
-- [Database Connection Leaks](database-connection-leaks.md)
-<br/>  When the connection pool is exhausted by leaked connections, new database operations fail because no resources can be allocated.
-- [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
-<br/>  Resources are allocated to visible features rather than invisible but critical technical improvements.
-- [Memory Fragmentation](memory-fragmentation.md)
-<br/>  Fragmented memory prevents allocation of large contiguous blocks despite sufficient total free memory, causing allocation failures.
-- [Memory Leaks](memory-leaks.md)
-<br/>  As leaked memory consumes available resources, new allocation requests eventually fail due to memory exhaustion.
-- [Poor Planning](poor-planning.md)
-<br/>  Poor planning leads to mismatched resource allocation that doesn't reflect actual project needs.
-- [Unreleased Resources](unreleased-resources.md)
-<br/>  As unreleased resources accumulate, the system eventually cannot allocate new resources, causing failures.
-
 ## Detection Methods ○
 
 - **Resource Monitoring Tools:** Use system monitoring to track file handles, connections, and other resource usage over time

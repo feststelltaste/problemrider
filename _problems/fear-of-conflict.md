@@ -41,15 +41,14 @@ Fear of conflict in code reviews is the reluctance of reviewers to provide criti
 <br/>  Unchallenged logic flaws and design problems in reviews lead to more bugs being introduced into production.
 - [Rushed Approvals](rushed-approvals.md)
 <br/>  Reviewers approve pull requests quickly to avoid the discomfort of providing critical feedback.
-
 ## Causes ▼
+
 - [Blame Culture](blame-culture.md)
 <br/>  A culture that punishes mistakes makes reviewers afraid to challenge others for fear of creating tension or retaliation.
 - [Reviewer Anxiety](reviewer-anxiety.md)
 <br/>  Reviewers who feel uncertain about their own abilities avoid confrontation because they doubt their standing to challenge others.
 - [Inadequate Mentoring Structure](inadequate-mentoring-structure.md)
 <br/>  Without proper mentoring, reviewers never learn how to deliver constructive criticism effectively, defaulting to avoidance.
-
 ## Detection Methods ○
 - **Observe Code Review Dynamics:** Pay attention to the tone and content of code review discussions. Look for a lack of critical feedback or a tendency to avoid difficult topics.
 - **Team Surveys:** Anonymously survey team members about their comfort level with giving and receiving critical feedback.

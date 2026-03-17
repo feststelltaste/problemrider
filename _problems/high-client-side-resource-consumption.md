@@ -39,8 +39,8 @@ High client-side resource consumption can lead to a poor user experience. This c
 <br/>  Users become dissatisfied when the application makes their device slow, hot, or drains battery quickly.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Users switch to competitor products that perform better and consume fewer device resources.
-
 ## Causes ▼
+
 - [Inefficient Frontend Code](inefficient-frontend-code.md)
 <br/>  Unoptimized JavaScript, excessive DOM manipulation, and complex CSS animations consume excessive client CPU and memory.
 - [Memory Leaks](memory-leaks.md)
@@ -49,15 +49,6 @@ High client-side resource consumption can lead to a poor user experience. This c
 <br/>  Event listeners that are never removed accumulate over time, consuming memory and CPU resources on the client.
 - [Inefficient Code](inefficient-code.md)
 <br/>  Computationally expensive client-side code, such as large loops or complex rendering logic, consumes excessive CPU resources.
-- [Circular References](circular-references.md)
-<br/>  In browser-based applications, circular references between DOM and JavaScript objects lead to excessive memory consumption on the client.
-- [Endianness Conversion Overhead](endianness-conversion-overhead.md)
-<br/>  Client applications processing binary data from different architectures consume excessive CPU on byte-order conversions.
-- [Excessive Object Allocation](excessive-object-allocation.md)
-<br/>  Client applications with excessive object allocation consume more memory and CPU than necessary for GC overhead.
-- [Rate Limiting Issues](rate-limiting-issues.md)
-<br/>  Overly restrictive rate limiting forces clients to implement retry logic that consumes additional client-side resources.
-
 ## Detection Methods ○
 
 - **Browser Developer Tools:** Use the Performance, Memory, and Network tabs in browser developer tools to profile CPU usage, memory consumption, and network activity.

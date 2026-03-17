@@ -42,8 +42,8 @@ Refactoring avoidance is the phenomenon where a development team consistently po
 <br/>  Instead of refactoring problematic code, developers build workarounds that add further complexity.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Working around structural problems instead of fixing them makes each new change progressively slower to implement.
-
 ## Causes ▼
+
 - [Fear of Change](fear-of-change.md)
 <br/>  Fear that modifications will break working functionality prevents teams from attempting structural improvements.
 - [Fear of Breaking Changes](fear-of-breaking-changes.md)
@@ -54,23 +54,6 @@ Refactoring avoidance is the phenomenon where a development team consistently po
 <br/>  Lack of test coverage means there is no safety net to catch regressions during refactoring, making it too risky to attempt.
 - [Unrealistic Schedule](unrealistic-schedule.md)
 <br/>  Tight deadlines leave no time allocated for refactoring work, prioritizing feature delivery over code improvement.
-- [Blame Culture](blame-culture.md)
-<br/>  Developers avoid refactoring because any regression resulting from code changes could lead to individual blame.
-- [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
-<br/>  When technical improvements cannot be justified with measurable benefits, they are consistently deprioritized in favor of feature work.
-- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
-<br/>  Without clear ownership, refactoring is avoided because no one feels responsible for improving shared code.
-- [Past Negative Experiences](past-negative-experiences.md)
-<br/>  Past incidents caused by changes make developers avoid refactoring even when they acknowledge it is necessary.
-- [Poor Test Coverage](poor-test-coverage.md)
-<br/>  Without tests to verify correctness, developers avoid refactoring for fear of introducing undetected bugs.
-- [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
-<br/>  Teams fear touching fragile prototype-turned-production code because they don't understand its full behavior and lack test safety nets.
-- [Regression Bugs](regression-bugs.md)
-<br/>  Frequent regressions reinforce fear of making changes, leading teams to avoid refactoring or modifying code.
-- [Tight Coupling Issues](tight-coupling-issues.md)
-<br/>  The high risk and effort of refactoring tightly coupled code leads teams to avoid necessary improvements.
-
 ## Detection Methods ○
 - **Code Churn Analysis:** Analyze the history of the codebase to see which files are being modified most frequently. If the same files are being churned over and over again without any improvement in their structure, it is a sign of refactoring avoidance.
 - **Technical Debt Backlog:** If the team has a backlog of technical debt items that is constantly growing and never shrinking, it is a clear sign that they are avoiding refactoring.

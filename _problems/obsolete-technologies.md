@@ -46,8 +46,8 @@ Obsolete technologies refer to the use of outdated programming languages, framew
 <br/>  Systems on obsolete technologies cannot implement modern features and capabilities, causing the organization to fall behind competitors.
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
 <br/>  New developers face steep learning curves when systems use obsolete technologies with limited documentation and community support.
-
 ## Causes ▼
+
 - [System Stagnation](system-stagnation.md)
 <br/>  When systems fail to evolve over extended periods, their technology stack becomes obsolete as the industry moves forward.
 - [Short-Term Focus](short-term-focus.md)
@@ -56,9 +56,6 @@ Obsolete technologies refer to the use of outdated programming languages, framew
 <br/>  Deep dependence on specific vendor technologies makes it prohibitively expensive to migrate, trapping the system on obsolete platforms.
 - [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
 <br/>  Inability to justify the cost of modernization means technology upgrades are perpetually deferred, allowing the stack to become obsolete.
-- [Modernization Strategy Paralysis](modernization-strategy-paralysis.md)
-<br/>  While teams remain paralyzed by indecision, legacy systems continue aging and their technology stacks become increasingly obsolete.
-
 ## Detection Methods ○
 - **Technology Audit:** Regular assessment of all components in the technology stack for currency and support status
 - **Security Scanning:** Automated tools that identify known vulnerabilities in outdated dependencies

@@ -45,8 +45,8 @@ Stakeholder dissatisfaction occurs when business stakeholders, executives, or pr
 <br/>  Unhappy stakeholders demand more oversight and control over development decisions, creating micromanagement.
 - [Declining Business Metrics](declining-business-metrics.md)
 <br/>  Reduced stakeholder engagement and support leads to fewer approved initiatives and declining business performance.
-
 ## Causes ▼
+
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Consistently late deliveries frustrate stakeholders who depend on timely results for business planning.
 - [Misaligned Deliverables](misaligned-deliverables.md)
@@ -57,35 +57,6 @@ Stakeholder dissatisfaction occurs when business stakeholders, executives, or pr
 <br/>  Frequent production bugs undermine stakeholder satisfaction with development quality.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Consistently slow delivery speed frustrates stakeholders who expect faster turnaround on business needs.
-- [Breaking Changes](breaking-changes.md)
-<br/>  Integration partners and customers lose trust when their systems break due to unexpected API changes.
-- [Budget Overruns](budget-overruns.md)
-<br/>  Stakeholders lose confidence and become frustrated as costs exceed expectations without corresponding value delivery.
-- [Cascade Delays](cascade-delays.md)
-<br/>  Business stakeholders lose confidence as delays in one area visibly impact multiple dependent deliverables.
-- [Cascade Failures](cascade-failures.md)
-<br/>  System-wide outages caused by cascade failures severely impact user experience and business operations.
-- [Communication Risk Outside Project](communication-risk-outside-project.md)
-<br/>  Stakeholders left uninformed become dissatisfied when project outcomes don't match their evolving expectations.
-- [Feedback Isolation](feedback-isolation.md)
-<br/>  Stakeholders become unhappy when they finally see the product and it does not match their expectations.
-- [Missed Deadlines](missed-deadlines.md)
-<br/>  Repeatedly missing deadlines erodes stakeholder confidence and creates friction between business and development teams.
-- [System Integration Blindness](missing-end-to-end-tests.md)
-<br/>  Users encountering broken workflows despite individual features working leads to loss of trust and dissatisfaction.
-- [Project Authority Vacuum](project-authority-vacuum.md)
-<br/>  Projects fail to deliver expected benefits due to lack of organizational support, disappointing stakeholders.
-- [Quality Blind Spots](quality-blind-spots.md)
-<br/>  Production failures from untested scenarios erode stakeholder confidence in the system.
-- [Quality Degradation](quality-degradation.md)
-<br/>  Declining reliability and usability erodes user and stakeholder confidence in the system.
-- [Scope Change Resistance](scope-change-resistance.md)
-<br/>  Stakeholders become unhappy when they see the delivered solution doesn't meet current needs because necessary changes were resisted.
-- [Suboptimal Solutions](suboptimal-solutions.md)
-<br/>  Stakeholders are disappointed when delivered solutions don't fully meet the underlying business needs they were meant to solve.
-- [System Stagnation](system-stagnation.md)
-<br/>  Stakeholders grow unhappy as the system falls behind business needs and modern user experience standards.
-
 ## Detection Methods ○
 
 - **Stakeholder Satisfaction Surveys:** Regular assessment of stakeholder satisfaction with project progress

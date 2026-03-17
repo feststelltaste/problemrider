@@ -48,8 +48,8 @@ Overworked teams consistently operate beyond their sustainable capacity, working
 <br/>  Despite working more hours, exhausted teams produce less effective output due to fatigue-induced inefficiency.
 - [Quality Compromises](quality-compromises.md)
 <br/>  Overworked teams deliberately cut corners on quality practices like testing and code reviews to keep up with workload demands.
-
 ## Causes ▼
+
 - [Unrealistic Deadlines](unrealistic-deadlines.md)
 <br/>  Management-imposed deadlines that don't account for actual effort required force teams to work excessive hours.
 - [Competing Priorities](competing-priorities.md)
@@ -60,13 +60,6 @@ Overworked teams consistently operate beyond their sustainable capacity, working
 <br/>  Unfilled roles and understaffing mean existing team members must absorb additional work, leading to overwork.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Perpetual urgent production issues on top of planned work create an unsustainable total workload for teams.
-- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
-<br/>  The team takes on more and more work by saying yes to everything, leading to unsustainable workloads and burnout.
-- [Planning Credibility Issues](planning-credibility-issues.md)
-<br/>  When management imposes tighter deadlines due to distrust of estimates, teams are forced to work excessive hours to compensate.
-- [Planning Dysfunction](planning-dysfunction.md)
-<br/>  Unrealistic plans force teams to work excessive hours to compensate for poor resource allocation and underestimated complexity.
-
 ## Detection Methods ○
 
 - **Time Tracking Analysis:** Monitor actual hours worked versus standard work weeks

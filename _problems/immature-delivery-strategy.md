@@ -35,6 +35,8 @@ An immature delivery strategy reflects the absence of well-defined, tested, and 
 
 ## Symptoms ▲
 
+- [System Outages](system-outages.md)
+<br/>  Ad-hoc deployment procedures increase the likelihood of errors during deployment that cause service disruptions.
 - [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
 <br/>  Poorly planned deployments often require immediate corrective actions when issues are discovered post-release.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
@@ -43,15 +45,16 @@ An immature delivery strategy reflects the absence of well-defined, tested, and 
 <br/>  Immature delivery processes produce repeated deployment failures that accumulate into a pattern of failed changes.
 - [Deployment Risk](deployment-risk.md)
 <br/>  Without standardized, tested delivery processes, each deployment carries unpredictable risk of failure.
-
 ## Causes ▼
+
 - [Manual Deployment Processes](manual-deployment-processes.md)
 <br/>  Reliance on manual steps instead of automation makes deployments error-prone and inconsistent.
+- [Information Decay](poor-documentation.md)
+<br/>  Without documented deployment procedures, each release depends on individual knowledge and memory.
 - [Poor Operational Concept](poor-operational-concept.md)
 <br/>  A weak understanding of operational requirements leads to delivery processes that don't account for production needs.
-- [Missing Rollback Strategy](missing-rollback-strategy.md)
+- [Deployment Risk](missing-rollback-strategy.md)
 <br/>  Without planned rollback procedures, teams have no safety net when deployments fail, worsening the impact.
-
 ## Detection Methods ○
 
 - **Deployment Success Rate Tracking:** Monitor percentage of deployments that complete without issues

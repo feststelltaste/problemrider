@@ -37,17 +37,22 @@ Vendor dependency entrapment occurs when legacy systems become critically depend
 
 ## Symptoms ▲
 
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  Custom support contracts for discontinued products become increasingly expensive as fewer specialists remain available.
 - [Technology Isolation](technology-isolation.md)
 <br/>  The system becomes isolated on discontinued technology that cannot integrate with modern tools and platforms.
 - [Legacy Skill Shortage](legacy-skill-shortage.md)
 <br/>  As vendor products are discontinued, fewer professionals maintain skills in those technologies, making talent scarce.
-
+- [SQL Injection Vulnerabilities](sql-injection-vulnerabilities.md)
+<br/>  Discontinued vendor products no longer receive security patches, leaving the system exposed to vulnerabilities.
 ## Causes ▼
+
 - [Vendor Lock-In](vendor-lock-in.md)
 <br/>  Deep integration with vendor-specific technologies makes it impossible to adapt when the vendor discontinues products.
 - [Vendor Dependency](vendor-dependency.md)
 <br/>  Excessive reliance on a single vendor creates vulnerability when that vendor changes strategy or discontinues products.
-
+- [Data Migration Complexities](data-migration-complexities.md)
+<br/>  Without planned migration paths, organizations are caught off guard when vendor products reach end of life.
 ## Detection Methods ○
 
 - Monitor vendor product roadmaps and end-of-life announcements for all critical system dependencies

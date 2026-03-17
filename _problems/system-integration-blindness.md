@@ -35,7 +35,6 @@ System integration blindness occurs when teams lack visibility into how individu
 
 ## Symptoms ▲
 
-
 - [System Outages](system-outages.md)
 <br/>  Integration issues that go undetected until deployment cause service failures when components interact under real conditions.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
@@ -46,8 +45,8 @@ System integration blindness occurs when teams lack visibility into how individu
 <br/>  Integration failures discovered after deployment require emergency fixes or rollbacks to restore service.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  Integration bugs that span multiple components are extremely difficult to trace and diagnose.
-
 ## Causes ▼
+
 - [Inadequate Integration Tests](inadequate-integration-tests.md)
 <br/>  Without thorough integration testing, component interaction issues remain hidden until deployment.
 - [System Integration Blindness](missing-end-to-end-tests.md)
@@ -56,7 +55,6 @@ System integration blindness occurs when teams lack visibility into how individu
 <br/>  Undocumented dependencies between components create unexpected interactions that teams cannot anticipate.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When teams only understand their own components, no one has the cross-cutting knowledge to identify integration risks.
-
 ## Detection Methods ○
 
 - **End-to-End User Journey Testing:** Verify complete workflows across all system components

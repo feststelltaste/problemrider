@@ -43,17 +43,16 @@ Process design flaws occur when development processes are structured in ways tha
 <br/>  Developers spend time on process overhead and rework caused by illogical process steps.
 - [Uneven Work Flow](uneven-work-flow.md)
 <br/>  Process bottlenecks cause work to pile up at certain stages while other stages sit idle.
-- [Delayed Decision-Making](delayed-decision-making.md)
+- [Delayed Decision Making](delayed-decision-making.md)
 <br/>  Excessive approval requirements and bureaucratic steps delay critical decisions.
-
 ## Causes ▼
+
 - [Poor Planning](poor-planning.md)
 <br/>  Processes designed without systematic analysis of workflow needs result in flawed structures.
 - [Cargo Culting](cargo-culting.md)
 <br/>  Processes copied from other organizations without understanding their context may not fit the team's actual needs.
 - [Accumulated Decision Debt](accumulated-decision-debt.md)
 <br/>  Deferred decisions about process improvements allow flaws to compound over time.
-
 ## Detection Methods ○
 
 - **Process Mapping:** Document actual process steps and identify inefficiencies or redundancies

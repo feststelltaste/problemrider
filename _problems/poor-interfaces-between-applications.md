@@ -48,8 +48,8 @@ Poor interfaces between applications occur when systems communicate through poor
 <br/>  Poorly defined interfaces produce frequent integration errors from mismatched data formats and inconsistent contracts.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  New features requiring cross-system integration take much longer due to unreliable and inconsistent interfaces.
-
 ## Causes ▼
+
 - [Information Decay](poor-documentation.md)
 <br/>  Lack of up-to-date interface documentation leads to misunderstandings about API contracts and data formats.
 - [Team Silos](team-silos.md)
@@ -58,11 +58,6 @@ Poor interfaces between applications occur when systems communicate through poor
 <br/>  Legacy systems with architectures that haven't evolved accumulate poorly designed integration points over time.
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Lack of API and interface design expertise results in inconsistent, poorly structured integration points.
-- [System Integration Blindness](missing-end-to-end-tests.md)
-<br/>  Without end-to-end tests verifying integration points, interface mismatches between components go undetected until production.
-- [REST API Design Issues](rest-api-design-issues.md)
-<br/>  Poorly designed REST APIs create fragile and inconsistent integration points between applications.
-
 ## Detection Methods ○
 
 - Audit existing integration patterns and identify inconsistencies

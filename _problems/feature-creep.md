@@ -45,8 +45,8 @@ Feature creep is the tendency for the scope of a feature or component to expand 
 <br/>  Feature creep at the component level contributes to overall project scope expanding beyond original plans.
 - [User Confusion](user-confusion.md)
 <br/>  Users encounter an increasingly complex interface with too many options, making it harder to accomplish their goals.
-
 ## Causes ▼
+
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
 <br/>  Constantly changing requirements provide a steady stream of new feature requests that expand scope.
 - [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
@@ -55,7 +55,6 @@ Feature creep is the tendency for the scope of a feature or component to expand 
 <br/>  Without formal evaluation of scope changes, new features get added without assessing their impact on the overall system.
 - [Product Direction Chaos](product-direction-chaos.md)
 <br/>  Lack of clear product vision means there is no framework for deciding which features belong and which do not.
-
 ## Detection Methods ○
 - **Feature Request Backlog:** Analyze the feature request backlog to identify trends and patterns.
 - **Product Roadmap:** Review the product roadmap to see if it is focused and realistic.

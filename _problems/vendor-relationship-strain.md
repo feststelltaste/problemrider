@@ -41,19 +41,18 @@ Vendor relationship strain occurs when tensions, conflicts, or dissatisfaction d
 <br/>  When vendor relationships deteriorate, deliverable quality suffers as vendors provide minimal effort.
 - [Legal Disputes](legal-disputes.md)
 <br/>  Escalating tensions with vendors can lead to formal legal disputes over contract terms and deliverables.
-
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  Strained relationships lead to renegotiation demands and additional costs to resolve conflicts.
 ## Causes ▼
+
+- [Requirements Ambiguity](requirements-ambiguity.md)
+<br/>  Vague requirements lead to misaligned expectations between the organization and vendor about deliverables.
 - [Unrealistic Deadlines](unrealistic-deadlines.md)
 <br/>  Imposing unrealistic deadlines on vendors creates tension and adversarial dynamics in the relationship.
 - [Vendor Dependency](vendor-dependency.md)
 <br/>  Heavy dependency on a vendor creates power imbalances and friction when expectations are not met.
-- [Poor Communication](poor-communication.md)
+- [Communication Breakdown](poor-communication.md)
 <br/>  Inadequate communication between the organization and vendor leads to misunderstandings and growing tensions.
-- [Legal Disputes](legal-disputes.md)
-<br/>  Legal disputes directly damage the working relationship between organizations and their vendors or partners.
-- [Poor Contract Design](poor-contract-design.md)
-<br/>  Contracts with misaligned incentives or unrealistic terms create friction between contracting parties.
-
 ## Detection Methods ○
 
 - **Vendor Satisfaction Surveys:** Regular assessment of vendor satisfaction with the relationship

@@ -33,19 +33,22 @@ A bloated class is a class that has accumulated too many responsibilities over t
 
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Oversized classes with too many responsibilities become extremely hard for developers to understand and reason about.
+- [Superficial Code Reviews](superficial-code-reviews.md)
+<br/>  Changes to bloated classes require reviewers to understand extensive context, making reviews time-consuming.
 - [Regression Bugs](regression-bugs.md)
 <br/>  Modifying one part of a bloated class frequently breaks unrelated functionality within the same class.
 - [Merge Conflicts](merge-conflicts.md)
 <br/>  Multiple developers working on different features within the same bloated class frequently create merge conflicts.
-
 ## Causes ▼
+
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Without standards enforcing single responsibility and class size limits, classes grow unchecked over time.
 - [Feature Creep](feature-creep.md)
 <br/>  Continuously adding features without refactoring leads to responsibilities piling up in existing classes.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Avoiding the effort of splitting classes into smaller, focused components allows bloating to continue unchecked.
 - [Time Pressure](time-pressure.md)
 <br/>  Under deadline pressure, developers add functionality to existing classes rather than properly designing new ones.
-
 ## Detection Methods ○
 - **Code Metrics Tools:** Use tools to measure class size, number of methods, and cyclomatic complexity.
 - **Code Reviews:** Look for classes that are difficult to understand and review.

@@ -39,25 +39,16 @@ Slow database queries are a primary cause of poor application performance. When 
 <br/>  Inefficient queries consume excessive CPU, memory, and I/O on the database server.
 - [High API Latency](high-api-latency.md)
 <br/>  API endpoints that depend on database queries inherit the slowness, increasing overall API response times.
-
 ## Causes ▼
+
+- [Inefficient Database Indexing](inefficient-database-indexing.md)
+<br/>  Without proper indexes, the database performs full table scans, making queries dramatically slower.
 - [High Number of Database Queries](high-number-of-database-queries.md)
 <br/>  N+1 query patterns and excessive query counts compound into significant performance problems.
 - [Imperative Data Fetching Logic](imperative-data-fetching-logic.md)
 <br/>  Manually constructed data fetching logic often produces inefficient query patterns instead of leveraging optimized database operations.
 - [Lazy Loading](lazy-loading.md)
 <br/>  Lazy loading triggers additional database queries on demand, leading to unpredictable and often excessive query execution.
-- [High Database Resource Utilization](high-database-resource-utilization.md)
-<br/>  When the database is under heavy resource load, query execution times increase significantly as CPU and memory contention delays processing.
-- [Index Fragmentation](index-fragmentation.md)
-<br/>  Fragmented indexes require more I/O operations to traverse, directly causing queries to execute more slowly.
-- [Inefficient Database Indexing](inefficient-database-indexing.md)
-<br/>  Missing or inappropriate indexes force full-table scans, directly causing slow query execution times.
-- [Long-Running Database Transactions](long-running-database-transactions.md)
-<br/>  Other queries are forced to wait for locks held by long-running transactions, increasing their execution time.
-- [Queries That Prevent Index Usage](queries-that-prevent-index-usage.md)
-<br/>  Queries that bypass indexes force full table scans, directly causing slow query execution times.
-
 ## Detection Methods ○
 
 - **Database query logging:** Enable logging of slow queries in the database configuration.

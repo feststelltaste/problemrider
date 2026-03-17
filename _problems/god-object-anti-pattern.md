@@ -47,8 +47,8 @@ The God Object anti-pattern occurs when single classes or components accumulate 
 <br/>  Understanding a god object requires holding many unrelated concepts in mind simultaneously.
 - [Ripple Effect of Changes](ripple-effect-of-changes.md)
 <br/>  Modifying one responsibility within a god object often requires changes to other parts of the same object and its consumers.
-
 ## Causes ▼
+
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
 <br/>  Without clear responsibility boundaries, new functionality gets added to existing large objects rather than properly separated.
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
@@ -57,9 +57,6 @@ The God Object anti-pattern occurs when single classes or components accumulate 
 <br/>  Lack of understanding of the single responsibility principle and proper OO design leads to monolithic class structures.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Teams avoid breaking apart growing classes because of the perceived risk, allowing god objects to grow unchecked.
-- [Single Entry Point Design](single-entry-point-design.md)
-<br/>  The single entry point accumulates responsibilities over time, becoming a god object that handles too many concerns.
-
 ## Detection Methods ○
 
 - **Code Metrics Analysis:** Monitor class size, method count, and complexity metrics

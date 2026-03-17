@@ -38,9 +38,12 @@ Index fragmentation is a problem that occurs in database indexes over time as da
 <br/>  Index fragmentation degrades query plan efficiency, causing overall database query performance degradation.
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Slower database queries due to fragmented indexes translate into slower response times at the application level.
-
+- [High Database Resource Utilization](high-database-resource-utilization.md)
+<br/>  Fragmented indexes cause the database to consume more CPU, memory, and disk I/O than necessary.
 ## Causes ▼
 
+- [Database Schema Design Problems](database-schema-design-problems.md)
+<br/>  Without regular index rebuilding or reorganization, fragmentation naturally accumulates over time.
 ## Detection Methods ○
 
 - **Database Management System (DBMS) Tools:** Most DBMS provide tools or views to check index fragmentation levels (e.g., `sys.dm_db_index_physical_stats` in SQL Server, `pg_stat_user_tables` and `pg_stat_user_indexes` in PostgreSQL, `ANALYZE TABLE` in MySQL).

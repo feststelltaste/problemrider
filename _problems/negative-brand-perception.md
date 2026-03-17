@@ -39,23 +39,16 @@ Negative brand perception occurs when technical problems and poor software quali
 <br/>  Users switch to competitors perceived as more reliable, eroding market position.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Persistent negative brand perception manifests as ongoing customer dissatisfaction even after technical issues are resolved.
-
 ## Causes ▼
+
+- [System Outages](system-outages.md)
+<br/>  Repeated service outages create a strong association between the brand and unreliability in users' minds.
 - [Negative User Feedback](negative-user-feedback.md)
 <br/>  Accumulated negative feedback on public platforms amplifies and reinforces poor brand perception.
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Consistently slow performance makes users perceive the product as low quality, damaging the brand.
 - [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
 <br/>  Frustrating user interfaces cause users to associate the brand with poor quality regardless of backend capabilities.
-- [Competitive Disadvantage](competitive-disadvantage.md)
-<br/>  Users and the market associate the brand with outdated technology and inferior user experience.
-- [Cross-Site Scripting Vulnerabilities](cross-site-scripting-vulnerabilities.md)
-<br/>  Public disclosure of XSS vulnerabilities damages the organization's reputation for security and reliability.
-- [Customer Dissatisfaction](customer-dissatisfaction.md)
-<br/>  Persistent customer dissatisfaction leads users to associate the brand with poor quality, damaging reputation.
-- [Declining Business Metrics](declining-business-metrics.md)
-<br/>  Sustained decline in business metrics reflects poorly on the brand, as users associate the product with poor quality.
-
 ## Detection Methods ○
 - **Brand Sentiment Analysis:** Monitor social media, reviews, and customer feedback for brand perception trends
 - **Net Promoter Score (NPS):** Track user willingness to recommend the product or service

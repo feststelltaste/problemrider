@@ -47,8 +47,8 @@ Poor documentation occurs when the written information about a system, its archi
 <br/>  Without accurate documentation of business rules and system behavior, developers are more likely to introduce bugs from misunderstanding.
 - [Extended Research Time](extended-research-time.md)
 <br/>  Developers spend excessive time reverse-engineering system behavior that should be documented.
-
 ## Causes ▼
+
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Under time pressure, documentation is the first activity to be cut, leading to growing documentation gaps.
 - [Unclear Documentation Ownership](unclear-documentation-ownership.md)
@@ -57,7 +57,6 @@ Poor documentation occurs when the written information about a system, its archi
 <br/>  Frequent system changes outpace documentation updates, causing it to become stale quickly.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Teams focused on short-term delivery deprioritize documentation maintenance as a long-term investment.
-
 ## Detection Methods ○
 
 - **Documentation Currency Analysis:** Compare documentation dates with recent system changes

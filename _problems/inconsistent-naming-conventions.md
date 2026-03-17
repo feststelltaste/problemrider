@@ -37,7 +37,6 @@ Inconsistent naming conventions occur when different parts of a codebase use var
 
 ## Symptoms ▲
 
-
 - [Increased Cognitive Load](increased-cognitive-load.md)
 <br/>  Developers must maintain a mental mapping of multiple naming styles when reading and writing code, increasing mental burden.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
@@ -48,15 +47,14 @@ Inconsistent naming conventions occur when different parts of a codebase use var
 <br/>  Refactoring and renaming operations become error-prone when multiple naming conventions must be accounted for, leading to missed references.
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
 <br/>  New developers struggle to navigate and find code because they cannot predict the naming patterns used in different parts of the codebase.
-
 ## Causes ▼
+
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
 <br/>  Without agreed-upon naming standards, each developer uses their personal naming preferences.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Inconsistent naming is a direct manifestation of broader inconsistent coding standards across the project.
 - [Conflicting Reviewer Opinions](conflicting-reviewer-opinions.md)
 <br/>  When reviewers give contradictory naming guidance, developers receive mixed signals about which conventions to follow.
-
 ## Detection Methods ○
 
 - Use static analysis tools to identify naming pattern inconsistencies

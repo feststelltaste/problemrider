@@ -46,8 +46,8 @@ Data migration complexities occur when moving data between systems, upgrading da
 <br/>  Unexpectedly complex migrations frequently take longer than planned, pushing back project delivery schedules.
 - [Increased Manual Work](increased-manual-work.md)
 <br/>  Complex migrations often require manual intervention to handle edge cases, data inconsistencies, and verification steps.
-
 ## Causes ▼
+
 - [Database Schema Design Problems](database-schema-design-problems.md)
 <br/>  Poor schema design in source or target systems creates complex transformation requirements that make migration difficult.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
@@ -56,7 +56,6 @@ Data migration complexities occur when moving data between systems, upgrading da
 <br/>  Critical business rules buried in legacy code must be understood and preserved during migration, adding significant complexity.
 - [Information Decay](poor-documentation.md)
 <br/>  Outdated or missing documentation about data formats, relationships, and business rules makes planning and executing migrations much harder.
-
 ## Detection Methods ○
 
 - **Migration Process Analysis:** Review migration procedures for complexity and risk factors

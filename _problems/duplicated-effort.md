@@ -46,8 +46,8 @@ Duplicated effort occurs when multiple team members work on the same problems, i
 <br/>  Different developers implementing the same functionality independently often produce solutions with subtly different behavior.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Duplicated effort directly reduces the team's effective velocity since capacity is consumed on redundant work.
-
 ## Causes ▼
+
 - [Communication Breakdown](communication-breakdown.md)
 <br/>  Poor communication prevents team members from knowing what others are working on, leading to uncoordinated parallel efforts.
 - [Team Silos](team-silos.md)
@@ -58,13 +58,6 @@ Duplicated effort occurs when multiple team members work on the same problems, i
 <br/>  Insufficient sprint planning and task breakdown means work assignments overlap without anyone noticing.
 - [Team Confusion](team-confusion.md)
 <br/>  When team members are unclear about responsibilities and who is working on what, duplicated effort naturally follows.
-- [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
-<br/>  Without sharing, different team members independently solve the same problems.
-- [Organizational Structure Mismatch](organizational-structure-mismatch.md)
-<br/>  Teams working in misaligned structures unknowingly duplicate work because ownership boundaries are unclear.
-- [Communication Breakdown](poor-communication.md)
-<br/>  Without effective communication, multiple developers unknowingly work on the same or overlapping tasks.
-
 ## Detection Methods ○
 
 - **Work Overlap Analysis:** Regularly review team assignments to identify potential overlaps

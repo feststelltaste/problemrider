@@ -42,15 +42,14 @@ Atomic operation overhead occurs when applications overuse atomic operations (co
 <br/>  Atomic operation contention prevents performance from scaling with additional CPU cores.
 - [Resource Contention](resource-contention.md)
 <br/>  Multiple threads competing for atomic variables create CPU-level resource contention through cache coherency traffic.
-
 ## Causes ▼
+
 - [False Sharing](false-sharing.md)
 <br/>  False sharing causes atomic operations on independent data to contend on the same cache line, amplifying overhead.
 - [Lock Contention](lock-contention.md)
 <br/>  Developers trying to avoid lock contention may over-use atomic operations, shifting the bottleneck rather than eliminating it.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers unfamiliar with concurrent programming nuances may overuse atomic operations without understanding their performance cost.
-
 ## Detection Methods ○
 
 - **Atomic Operation Profiling:** Profile frequency and performance impact of atomic operations

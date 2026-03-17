@@ -48,8 +48,8 @@ System stagnation occurs when software systems fail to evolve and improve over t
 <br/>  Stakeholders grow unhappy as the system falls behind business needs and modern user experience standards.
 - [Increased Time to Market](increased-time-to-market.md)
 <br/>  Outdated system capabilities force complex workarounds for new features, slowing delivery significantly.
-
 ## Causes ▼
+
 - [Fear of Breaking Changes](fear-of-breaking-changes.md)
 <br/>  Reluctance to modify working code prevents evolution, as teams avoid changes that might introduce regressions.
 - [Resistance to Change](resistance-to-change.md)
@@ -60,11 +60,6 @@ System stagnation occurs when software systems fail to evolve and improve over t
 <br/>  Teams unable to verify that changes won't break existing functionality avoid making improvements entirely.
 - [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
 <br/>  Inability to demonstrate ROI of modernization efforts prevents investment in system evolution.
-- [Past Negative Experiences](past-negative-experiences.md)
-<br/>  When developers are too cautious to make changes due to past failures, the system fails to evolve and stagnates.
-- [Technology Lock-In](technology-lock-in.md)
-<br/>  The inability to evolve the technology stack causes the system to stagnate and fall behind competitors.
-
 ## Detection Methods ○
 
 - **Technology Currency Assessment:** Compare system technologies with current industry standards

@@ -41,8 +41,8 @@ High API latency is a common problem in distributed systems, where services ofte
 <br/>  Consistently slow API responses lead to poor user experience and growing dissatisfaction.
 - [Cascade Failures](cascade-failures.md)
 <br/>  In distributed systems, high latency in one API cascades to all dependent services, causing widespread slowdowns.
-
 ## Causes ▼
+
 - [Database Query Performance Issues](database-query-performance-issues.md)
 <br/>  Slow database queries are a primary contributor to API latency, especially for data-heavy endpoints.
 - [N+1 Query Problem](n-plus-one-query-problem.md)
@@ -53,23 +53,6 @@ High API latency is a common problem in distributed systems, where services ofte
 <br/>  Fetching data from the source on every request instead of caching adds unnecessary overhead to API response times.
 - [Network Latency](network-latency.md)
 <br/>  Network transmission delays between API components and data sources directly increase API response times.
-- [Garbage Collection Pressure](garbage-collection-pressure.md)
-<br/>  GC pause times add directly to API response times, causing unpredictable latency spikes during garbage collection cycles.
-- [Gradual Performance Degradation](gradual-performance-degradation.md)
-<br/>  API response times gradually increase as the system accumulates inefficiencies and resource issues.
-- [GraphQL Complexity Issues](graphql-complexity-issues.md)
-<br/>  Complex GraphQL queries with deep nesting and large result sets cause API response times to spike significantly.
-- [High Database Resource Utilization](high-database-resource-utilization.md)
-<br/>  API endpoints that depend on database queries experience increased latency when the database server is resource-constrained.
-- [High Number of Database Queries](high-number-of-database-queries.md)
-<br/>  API endpoints that trigger excessive database queries experience increased response times due to accumulated query overhead.
-- [Serialization/Deserialization Bottlenecks](serialization-deserialization-bottlenecks.md)
-<br/>  Inefficient serialization adds significant overhead to API response times, making APIs slow to respond.
-- [Slow Database Queries](slow-database-queries.md)
-<br/>  API endpoints that depend on database queries inherit the slowness, increasing overall API response times.
-- [Slow Response Times for Lists](slow-response-times-for-lists.md)
-<br/>  List endpoints that fetch large amounts of data contribute significantly to API latency.
-
 ## Detection Methods ○
 
 - **Application Performance Monitoring (APM):** Use APM tools to trace requests, measure the duration of each operation (e.g., database calls, external service calls), and pinpoint the exact source of the delay.

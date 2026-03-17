@@ -43,8 +43,8 @@ Increased cost of development occurs when the total expense of building and main
 <br/>  As costs rise from technical debt, it becomes harder to justify the ROI of improvement efforts versus feature work.
 - [Competing Priorities](competing-priorities.md)
 <br/>  Higher costs force trade-offs between maintenance and new development, creating competition for limited resources.
-
 ## Causes ▼
+
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated technical debt makes every change more expensive as developers must work around shortcuts and poor design.
 - [Increased Bug Count](increased-bug-count.md)
@@ -53,37 +53,6 @@ Increased cost of development occurs when the total expense of building and main
 <br/>  Rising maintenance burden consumes development budget that would otherwise go to productive feature work.
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  A fragile codebase requires extensive testing and risk mitigation for even simple changes, driving up costs.
-- [Architectural Mismatch](architectural-mismatch.md)
-<br/>  Working around architectural limitations significantly increases the cost of implementing new features.
-- [Complex Implementation Paths](complex-implementation-paths.md)
-<br/>  The mismatch between simple requirements and complex implementations inflates development costs well beyond what the business value warrants.
-- [Difficult Code Reuse](difficult-code-reuse.md)
-<br/>  Building the same functionality repeatedly instead of reusing it increases development time and cost.
-- [Feature Creep](feature-creep.md)
-<br/>  The growing complexity from feature creep increases the cost of developing, testing, and maintaining each additional feature.
-- [Gold Plating](gold-plating.md)
-<br/>  Every unnecessary feature adds maintenance burden and testing requirements that increase ongoing development costs.
-- [Hardcoded Values](hardcoded-values.md)
-<br/>  What should be simple configuration changes become multi-week development projects requiring code changes and full testing.
-- [Implementation Rework](implementation-rework.md)
-<br/>  Rework doubles or triples the effective cost of features since they must be built multiple times.
-- [Increased Manual Testing Effort](increased-manual-testing-effort.md)
-<br/>  Manual testing requires significant human resources that could be better spent on development, raising overall costs.
-- [Increased Risk of Bugs](increased-risk-of-bugs.md)
-<br/>  More bugs mean more time spent on debugging and fixing, driving up development costs.
-- [Integration Difficulties](integration-difficulties.md)
-<br/>  Building and maintaining complex integration adapter code significantly increases development costs.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
-<br/>  The high effort required for even minor modifications directly drives up the total cost of development work.
-- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md)
-<br/>  Every API change requires coordinated updates across all dependent systems, dramatically increasing the cost of development.
-- [Legacy Business Logic Extraction Difficulty](legacy-business-logic-extraction-difficulty.md)
-<br/>  Every change requires extensive analysis to understand embedded business rules, significantly increasing development costs.
-- [Legacy Skill Shortage](legacy-skill-shortage.md)
-<br/>  Scarce legacy skills command premium rates, and the few available specialists take longer due to lack of peer support.
-- [Second-System Effect](second-system-effect.md)
-<br/>  Overengineered replacement systems require significantly more development resources than necessary to deliver core functionality.
-
 ## Detection Methods ○
 - **Cost Per Feature Tracking:** Monitor the total cost to deliver similar features over time
 - **Maintenance vs. Development Ratio:** Track what percentage of resources goes to maintenance vs. new development

@@ -47,15 +47,14 @@ Inadequate configuration management occurs when organizations lack proper system
 <br/>  Without configuration audit trails, diagnosing which configuration change caused an issue becomes extremely difficult.
 - [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
 <br/>  Configuration errors that escape tracking require emergency fixes and rollbacks to restore service.
-
 ## Causes ▼
+
 - [Manual Deployment Processes](manual-deployment-processes.md)
 <br/>  Manual deployments encourage ad-hoc configuration changes that bypass tracking and version control systems.
 - [Information Decay](poor-documentation.md)
 <br/>  Without documentation practices, configuration decisions and changes are not recorded, making tracking impossible.
 - [Process Design Flaws](process-design-flaws.md)
 <br/>  Poorly designed operational processes lack configuration change control steps, allowing untracked modifications.
-
 ## Detection Methods ○
 
 - Audit configuration management practices across all system components

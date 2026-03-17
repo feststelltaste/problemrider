@@ -46,8 +46,8 @@ Copy-paste programming is a development practice where developers duplicate exis
 <br/>  Every duplicated code block multiplies the maintenance burden since changes must be replicated across all copies.
 - [Testing Complexity](testing-complexity.md)
 <br/>  Quality assurance must verify the same functionality in multiple locations, increasing testing effort and the risk of missing bugs.
-
 ## Causes ▼
+
 - [Time Pressure](time-pressure.md)
 <br/>  Under pressure to deliver quickly, developers copy existing code rather than investing time to create reusable components.
 - [Difficult Code Reuse](difficult-code-reuse.md)
@@ -56,7 +56,6 @@ Copy-paste programming is a development practice where developers duplicate exis
 <br/>  Developers lacking experience with proper abstraction techniques default to copying code as the most straightforward approach.
 - [Convenience-Driven Development](convenience-driven-development.md)
 <br/>  The practice of choosing the easiest solution naturally leads to copying existing code rather than designing proper abstractions.
-
 ## Detection Methods ○
 - **Code Similarity Analysis:** Use tools like PMD's Copy-Paste Detector (CPD) to find duplicated code blocks
 - **Version Control Analysis:** Examine commit history for patterns of copying files or large code sections

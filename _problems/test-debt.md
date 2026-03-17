@@ -35,25 +35,24 @@ Test Debt is the accumulated risk resulting from inadequate or neglected quality
 
 ## Symptoms ▲
 
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Inadequate test coverage allows bugs to reach production that should have been caught during quality assurance.
 - [Fear of Change](fear-of-change.md)
 <br/>  Without adequate tests, developers are afraid to refactor or modify code because they cannot verify they haven't broken anything.
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  Lengthy manual regression testing and lack of automated verification slow down the release cycle.
 - [Quality Degradation](quality-degradation.md)
 <br/>  The accumulated lack of testing leads to progressive quality decline as undetected issues compound over time.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Test debt is a major component of overall technical debt, contributing to the system becoming increasingly fragile and costly to maintain.
-
 ## Causes ▼
-- [Insufficient Testing](insufficient-testing.md)
-<br/>  A pattern of not writing adequate tests accumulates into test debt over time.
-- [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
-<br/>  Prototypes are typically written without tests, so production systems end up with little or no test coverage.
-- [Testing Complexity](testing-complexity.md)
-<br/>  When testing is too complex, teams take shortcuts and skip tests, accumulating test debt over time.
-- [Testing Environment Fragility](testing-environment-fragility.md)
-<br/>  Developers skip or disable tests to avoid dealing with fragile infrastructure, accumulating test debt.
-- [Time Pressure](time-pressure.md)
-<br/>  Testing is often the first activity sacrificed when teams are under time pressure, leading to accumulated test debt.
 
+- [Time Pressure](time-pressure.md)
+<br/>  Pressure to deliver features quickly leads teams to skip or defer testing activities to meet deadlines.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  A pattern of not writing adequate tests accumulates into test debt over time.
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Prioritizing immediate delivery over long-term quality leads to consistently cutting corners on testing.
 ## Detection Methods ○
 
 - **Test Coverage Analysis:** Use tools to measure line, branch, and function coverage, but interpret the results critically.

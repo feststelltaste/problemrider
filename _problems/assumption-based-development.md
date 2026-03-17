@@ -36,7 +36,6 @@ Assumption-based development occurs when developers make decisions about functio
 
 ## Symptoms ▲
 
-
 - [Implementation Rework](implementation-rework.md)
 <br/>  When assumptions about requirements prove wrong, completed work must be reworked to match actual needs.
 - [Misaligned Deliverables](misaligned-deliverables.md)
@@ -47,8 +46,8 @@ Assumption-based development occurs when developers make decisions about functio
 <br/>  Users provide negative feedback when delivered features don't match their actual needs and workflows.
 - [Feature Gaps](feature-gaps.md)
 <br/>  Assumptions about user needs lead to building the wrong features while actual needs remain unaddressed.
-
 ## Causes ▼
+
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
 <br/>  When requirements are not properly gathered, developers fill in gaps with their own assumptions.
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
@@ -57,13 +56,6 @@ Assumption-based development occurs when developers make decisions about functio
 <br/>  Time pressure causes developers to proceed with assumptions rather than taking time to validate requirements.
 - [Feedback Isolation](feedback-isolation.md)
 <br/>  When developers are isolated from user feedback, they must rely on assumptions about user needs.
-- [Communication Breakdown](poor-communication.md)
-<br/>  When developers don't communicate, they make assumptions about requirements instead of verifying them with colleagues or stakeholders.
-- [Information Decay](poor-documentation.md)
-<br/>  When documentation is unreliable, developers resort to guessing about system behavior rather than looking it up.
-- [Requirements Ambiguity](requirements-ambiguity.md)
-<br/>  When requirements are unclear, developers are forced to fill in the gaps with their own assumptions about intended behavior.
-
 ## Detection Methods ○
 
 - **Assumption Documentation:** Track what assumptions developers are making during development

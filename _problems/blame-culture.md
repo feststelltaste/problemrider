@@ -38,20 +38,22 @@ Blame culture exists when organizations respond to mistakes, failures, or proble
 
 ## Symptoms ▲
 
-
 - [Fear of Failure](fear-of-failure.md)
 <br/>  When mistakes are punished, team members develop a pervasive fear of making any error, stifling initiative.
 - [Avoidance Behaviors](avoidance-behaviors.md)
 <br/>  Team members avoid challenging or risky tasks to minimize their exposure to potential blame.
 - [Reduced Innovation](reduced-innovation.md)
 <br/>  Fear of blame for failed experiments kills willingness to try new approaches or technologies.
+- [Knowledge Silos](knowledge-silos.md)
+<br/>  People withhold information defensively to protect themselves, rather than sharing knowledge openly.
+- [High Turnover](high-turnover.md)
+<br/>  Talented developers leave organizations where blame culture creates a toxic and stressful work environment.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Developers avoid refactoring because any regression resulting from code changes could lead to individual blame.
-
 ## Causes ▼
+
 - [Individual Recognition Culture](individual-recognition-culture.md)
 <br/>  Reward systems based on individual performance create competitive dynamics where others' failures become advantageous.
-
 ## Detection Methods ○
 
 - Conduct anonymous surveys about psychological safety and fear of repercussions

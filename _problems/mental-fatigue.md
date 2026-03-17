@@ -42,15 +42,18 @@ Mental fatigue in development occurs when developers experience cognitive exhaus
 <br/>  Chronic mental fatigue from unproductive cognitive drain leads to frustration and eventual burnout.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  When developers are mentally exhausted, they work more slowly and avoid complex tasks, reducing team velocity.
-
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Cognitive exhaustion leads to more mistakes and less careful coding, increasing the rate of bugs introduced.
 ## Causes ▼
+
 - [Cognitive Overload](cognitive-overload.md)
 <br/>  Excessive cognitive demands from complex systems, tools, and processes directly deplete mental energy and cause fatigue.
 - [Increased Cognitive Load](increased-cognitive-load.md)
 <br/>  High cognitive load from maintaining multiple mental models and navigating complex workflows drains developer energy.
 - [Context Switching Overhead](context-switching-overhead.md)
 <br/>  Frequent switching between different tasks, technologies, and codebases rapidly depletes cognitive resources.
-
+- [Unproductive Meetings](unproductive-meetings.md)
+<br/>  Too many meetings fragment the workday and consume mental energy that could be used for productive development work.
 ## Detection Methods ○
 
 - **Energy Level Surveys:** Regular check-ins about developer energy and mental state throughout the day

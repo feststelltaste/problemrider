@@ -44,8 +44,8 @@ Poorly defined responsibilities occur when software components lack clear, singl
 <br/>  Components handling multiple unrelated concerns are difficult to test in isolation due to complex dependencies.
 - [Ripple Effect of Changes](ripple-effect-of-changes.md)
 <br/>  Modifications to multi-responsibility components have unexpected effects on seemingly unrelated functionality.
-
 ## Causes ▼
+
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Developers lacking design skills fail to identify and enforce clear single-responsibility boundaries.
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
@@ -54,7 +54,6 @@ Poorly defined responsibilities occur when software components lack clear, singl
 <br/>  Starting coding without upfront design leads to ad-hoc responsibility assignments that blur over time.
 - [Convenience-Driven Development](convenience-driven-development.md)
 <br/>  Developers add functionality to the nearest available component for convenience rather than creating properly scoped modules.
-
 ## Detection Methods ○
 - **Responsibility Mapping:** Document what each component does and identify those with multiple unrelated responsibilities
 - **Change Impact Analysis:** Track which components need modification for different types of changes

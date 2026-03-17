@@ -47,8 +47,8 @@ Tight coupling issues occur when system components are overly dependent on each 
 <br/>  The high risk and effort of refactoring tightly coupled code leads teams to avoid necessary improvements.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  Tight coupling makes it hard to isolate bugs because issues can propagate through coupled components in non-obvious ways.
-
 ## Causes ▼
+
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
 <br/>  Continuously adding features without refactoring the design leads to components growing interdependencies over time.
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
@@ -57,11 +57,6 @@ Tight coupling issues occur when system components are overly dependent on each 
 <br/>  Monolithic architectures naturally encourage tight coupling as all components share the same deployment unit and codebase.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated shortcuts and deferred design improvements erode component boundaries and increase coupling over time.
-- [Poor Encapsulation](poor-encapsulation.md)
-<br/>  Exposing internal data directly creates dependencies between components, making them tightly coupled.
-- [Shared Database](shared-database.md)
-<br/>  Services become tightly coupled through their shared data model, making it impossible to change one without considering all others.
-
 ## Detection Methods ○
 
 - **Dependency Analysis:** Analyze component dependencies and identify tight coupling patterns

@@ -40,19 +40,18 @@ Team coordination issues arise when multiple developers or teams have to work on
 <br/>  Developers blocked waiting for others and time spent resolving conflicts directly reduces team output.
 - [Inconsistent Codebase](inconsistent-codebase.md)
 <br/>  Uncoordinated development leads to different approaches and patterns being used for similar problems across the codebase.
-
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  Coordination overhead, blocking dependencies, and conflict resolution slow down the overall delivery pace.
 ## Causes ▼
+
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  A monolithic architecture forces all teams to work in the same codebase, making coordination essential but difficult.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  When components are tightly coupled, changes in one area frequently affect others, requiring careful coordination between developers.
 - [Team Silos](team-silos.md)
 <br/>  Teams working in isolation lack awareness of what others are doing, making coordination on shared codebases difficult.
-- [Communication Breakdown](communication-breakdown.md)
-<br/>  Failure to share information about ongoing work makes it difficult for developers to coordinate their efforts.
-- [Organizational Structure Mismatch](organizational-structure-mismatch.md)
-<br/>  When organizational boundaries don't align with system architecture, teams must constantly coordinate across mismatched boundaries.
-- [Shared Database](shared-database.md)
-<br/>  Teams owning different services must coordinate database changes, creating communication overhead and cross-team dependencies.
-
+- [Unclear Documentation Ownership](unclear-documentation-ownership.md)
+<br/>  When code ownership boundaries are undefined, developers don't know who to coordinate with about changes.
 ## Detection Methods ○
 - **Version Control Metrics:** Use tools to measure the number of merge conflicts and the amount of time that developers spend resolving them.
 - **Developer Surveys:** Ask developers if they feel like they are able to work effectively with other developers on the team.

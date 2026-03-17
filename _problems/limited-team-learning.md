@@ -42,8 +42,8 @@ Limited team learning is a situation where a team does not learn from its mistak
 <br/>  Without continuous learning and improvement, code quality steadily deteriorates over time.
 - [Resistance to Change](resistance-to-change.md)
 <br/>  Teams that don't learn become entrenched in existing patterns and resist adopting better practices.
-
 ## Causes ▼
+
 - [Blame Culture](blame-culture.md)
 <br/>  When mistakes are punished rather than analyzed constructively, team members hide failures instead of learning from them.
 - [Time Pressure](time-pressure.md)
@@ -52,9 +52,6 @@ Limited team learning is a situation where a team does not learn from its mistak
 <br/>  When knowledge sharing mechanisms are broken, lessons learned by individuals are not disseminated to the wider team.
 - [Overworked Teams](overworked-teams.md)
 <br/>  Overworked teams have no bandwidth for reflection, learning activities, or process improvement.
-- [Review Process Breakdown](inadequate-code-reviews.md)
-<br/>  Superficial reviews eliminate the knowledge-sharing benefit of code reviews, reducing team learning opportunities.
-
 ## Detection Methods ○
 - **Retrospectives:** Use retrospectives to identify what went well and what went wrong.
 - **Developer Surveys:** Ask developers if they feel like they are learning and growing on the team.

@@ -39,29 +39,20 @@ Merge conflicts occur when multiple developers simultaneously modify the same po
 <br/>  Time spent resolving merge conflicts reduces the time available for actual feature development, slowing overall velocity.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Constantly fighting merge conflicts is tedious and frustrating, contributing to developer dissatisfaction.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Manual conflict resolution is error-prone and can introduce bugs when changes are incorrectly merged.
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Complex merge conflicts create integration bottlenecks that delay feature delivery and project completion.
-
 ## Causes ▼
+
+- [Bloated Class](bloated-class.md)
+<br/>  Oversized classes that handle too many responsibilities force multiple developers to modify the same files, causing frequent conflicts.
 - [Long-Lived Feature Branches](long-lived-feature-branches.md)
 <br/>  Branches that diverge from main for extended periods accumulate more differences, making conflicts more likely and complex.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  When functionality is not properly separated, unrelated changes touch the same files and create conflicts.
 - [Team Coordination Issues](team-coordination-issues.md)
 <br/>  Poor coordination between team members leads to overlapping work on the same code areas without awareness.
-- [Bloated Class](bloated-class.md)
-<br/>  Multiple developers working on different features within the same bloated class frequently create merge conflicts.
-- [Communication Breakdown](communication-breakdown.md)
-<br/>  Teams unaware of each other's work modify the same code areas, creating frequent version control conflicts.
-- [God Object Anti-Pattern](god-object-anti-pattern.md)
-<br/>  Multiple developers frequently need to modify the same god object for different reasons, causing constant version control conflicts.
-- [Large Feature Scope](large-feature-scope.md)
-<br/>  Long-lived branches created by large features accumulate merge conflicts as the main branch evolves independently.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
-<br/>  Multiple teams working in the same codebase frequently encounter merge conflicts when modifying shared code.
-- [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
-<br/>  Large functions and classes modified by multiple developers for different features frequently result in merge conflicts.
-- [Organizational Structure Mismatch](organizational-structure-mismatch.md)
-<br/>  Multiple teams working on the same monolithic codebase due to structural mismatch leads to frequent version control conflicts.
-
 ## Detection Methods ○
 - **Version Control Analytics:** Monitor merge conflict frequency and resolution time through git statistics
 - **Hotspot Analysis:** Identify files and functions that are modified most frequently across different branches

@@ -46,8 +46,8 @@ Feedback isolation occurs when development teams work for extended periods witho
 <br/>  Development work done without feedback validation often turns out to be wrong, representing wasted effort.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Stakeholders become unhappy when they finally see the product and it does not match their expectations.
-
 ## Causes ▼
+
 - [Team Silos](team-silos.md)
 <br/>  Development teams working in isolation naturally become cut off from stakeholder and user feedback channels.
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
@@ -56,7 +56,6 @@ Feedback isolation occurs when development teams work for extended periods witho
 <br/>  Poor workflow design may not include regular feedback checkpoints, allowing teams to work for long periods without input.
 - [Poor Planning](poor-planning.md)
 <br/>  Plans that do not include regular stakeholder reviews and feedback sessions lead to extended periods of isolation.
-
 ## Detection Methods ○
 
 - **Feedback Frequency Analysis:** Track how often stakeholders and users provide input

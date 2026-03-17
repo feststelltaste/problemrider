@@ -34,22 +34,26 @@ Monolithic functions and classes are code components that have grown to handle m
 
 ## Symptoms ▲
 
-
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Functions and classes handling many responsibilities are extremely difficult to understand, as developers must grasp all concerns simultaneously.
 - [Merge Conflicts](merge-conflicts.md)
 <br/>  Large functions and classes modified by multiple developers for different features frequently result in merge conflicts.
 - [Difficult Code Reuse](difficult-code-reuse.md)
 <br/>  When functionality is bundled into monolithic units, extracting and reusing individual pieces becomes impractical.
-
+- [High Bug Introduction Rate](high-bug-introduction-rate.md)
+<br/>  Complex, multi-responsibility functions are prone to bugs because changes to one concern can inadvertently affect others.
+- [Difficult to Test Code](difficult-to-test-code.md)
+<br/>  Testing monolithic functions requires extensive setup and mocking of many dependencies, making thorough testing impractical.
 ## Causes ▼
+
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
 <br/>  Without clear responsibility assignment, developers keep adding functionality to existing components rather than creating focused new ones.
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Developers lacking design skills fail to recognize when a function or class should be decomposed into smaller, focused units.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Under pressure to deliver quickly, developers extend existing functions rather than investing time in proper decomposition.
-
+- [Fear of Change](fear-of-change.md)
+<br/>  Developers avoid breaking up large functions due to the risk of introducing bugs in already working code, allowing them to grow further.
 ## Detection Methods ○
 - **Code Metrics Tools:** Use static analysis tools to measure function length, cyclomatic complexity, and class size
 - **Responsibility Analysis:** Identify functions or classes that handle multiple distinct business or technical concerns

@@ -44,8 +44,8 @@ Development disruption is a state where the development team is unable to focus 
 <br/>  Unplanned work from disruptions consumes time allocated to planned deliverables, causing deadline misses.
 - [Increased Bug Count](increased-bug-count.md)
 <br/>  Developers who are constantly interrupted make more errors, introducing more bugs into the codebase.
-
 ## Causes ▼
+
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Recurring production emergencies constantly pull developers away from their planned work.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
@@ -54,15 +54,6 @@ Development disruption is a state where the development team is unable to focus 
 <br/>  Constantly shifting priorities force developers to abandon current tasks and switch to new ones.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
 <br/>  Frequent requirement changes invalidate in-progress work and force developers to context-switch repeatedly.
-- [Bikeshedding](bikeshedding.md)
-<br/>  Excessive back-and-forth on trivial review comments disrupts developers' focus and workflow.
-- [Reduced Team Flexibility](reduced-team-flexibility.md)
-<br/>  Inability to adapt to changing priorities causes significant workflow disruption when changes are forced.
-- [Release Instability](release-instability.md)
-<br/>  Unstable releases force the team into reactive firefighting mode, disrupting planned development work.
-- [Unproductive Meetings](unproductive-meetings.md)
-<br/>  Frequent meetings interrupt focused development work, breaking flow and reducing the quality of deep technical work.
-
 ## Detection Methods ○
 - **Interruption Rate:** Track the number of times that the development team is interrupted during the day.
 - **Time in Flow:** Survey the team to find out how much time they are able to spend in a state of deep focus.

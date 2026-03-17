@@ -42,8 +42,8 @@ Difficult code comprehension is a situation where developers have a hard time un
 <br/>  Developers avoid modifying code they do not understand, leading to stagnation and workarounds.
 - [Increased Cognitive Load](increased-cognitive-load.md)
 <br/>  Hard-to-comprehend code forces developers to hold excessive context in memory, increasing mental burden.
-
 ## Causes ▼
+
 - [Inconsistent Codebase](inconsistent-codebase.md)
 <br/>  Mixed styles and conventions across the codebase make it harder to form mental models and understand patterns.
 - [Spaghetti Code](spaghetti-code.md)
@@ -54,35 +54,6 @@ Difficult code comprehension is a situation where developers have a hard time un
 <br/>  Overly complex business logic embedded in convoluted code structures makes comprehension extremely difficult.
 - [Information Decay](information-decay.md)
 <br/>  Outdated or missing documentation means developers must rely solely on reading code to understand intent.
-- [Accumulation of Workarounds](accumulation-of-workarounds.md)
-<br/>  Multiple alternative code paths and conditional workarounds make the code extremely hard to understand.
-- [Bloated Class](bloated-class.md)
-<br/>  Oversized classes with too many responsibilities become extremely hard for developers to understand and reason about.
-- [Cargo Culting](cargo-culting.md)
-<br/>  Code using patterns the team doesn't truly understand becomes hard to read, modify, and debug.
-- [Clever Code](clever-code.md)
-<br/>  Clever implementations using advanced language features create significant barriers to understanding for other developers.
-- [Convenience-Driven Development](convenience-driven-development.md)
-<br/>  Convenient shortcuts like poor naming, missing abstractions, and ad hoc solutions make the codebase harder to understand over time.
-- [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
-<br/>  The codebase becomes progressively harder to understand as features are added without improving the underlying design.
-- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
-<br/>  Mixed formatting, naming, and structural conventions make it harder for developers to read and understand unfamiliar code sections.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md)
-<br/>  Unpredictable naming patterns make it harder to understand what code elements represent and how they relate to each other.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md)
-<br/>  Code that misuses or ignores OOP principles lacks the natural abstraction boundaries that make code understandable.
-- [Mixed Coding Styles](mixed-coding-styles.md)
-<br/>  Inconsistent formatting, naming, and patterns force developers to mentally context-switch, making code harder to read and understand.
-- [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
-<br/>  Functions and classes handling many responsibilities are extremely difficult to understand, as developers must grasp all concerns simultaneously.
-- [Procedural Programming in OOP Languages](procedural-programming-in-oop-languages.md)
-<br/>  Long procedural methods with sequential logic are harder to understand than well-structured OOP code.
-- [Quality Degradation](quality-degradation.md)
-<br/>  Accumulated technical debt and shortcuts make the codebase increasingly hard to understand and modify.
-- [Workaround Culture](workaround-culture.md)
-<br/>  Workaround-laden code is harder to understand because the logic reflects patches around problems rather than clean design.
-
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers if they find the codebase easy to read and understand.
 - **Code Reviews:** Look for code that is difficult to understand and review.

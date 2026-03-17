@@ -45,8 +45,8 @@ A poor domain model occurs when the software system fails to accurately represen
 <br/>  Scattered business logic means changes in one area inadvertently break business rules enforced elsewhere.
 - [Database Schema Design Problems](database-schema-design-problems.md)
 <br/>  A poor domain model leads to database schemas that don't reflect natural business relationships.
-
 ## Causes ▼
+
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
 <br/>  When developers and business experts don't communicate effectively, the software model diverges from business reality.
 - [Insufficient Design Skills](insufficient-design-skills.md)
@@ -55,7 +55,6 @@ A poor domain model occurs when the software system fails to accurately represen
 <br/>  Incomplete understanding of business processes results in a domain model that misses critical concepts and relationships.
 - [Convenience-Driven Development](convenience-driven-development.md)
 <br/>  Developers model the domain based on what's easy to implement rather than what accurately represents the business.
-
 ## Detection Methods ○
 
 - Conduct domain modeling workshops with business experts and development teams

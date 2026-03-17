@@ -47,13 +47,12 @@ Market pressure occurs when competitive forces, regulatory changes, economic con
 <br/>  Frequent priority shifts driven by competitor actions and market changes create chaos in product direction and roadmap stability.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Constant pressure to deliver quickly at the expense of quality leads to developer frustration and eventual burnout.
-
 ## Causes ▼
+
 - [Competing Priorities](competing-priorities.md)
 <br/>  When multiple market demands compete for attention, the resulting priority conflicts amplify market pressure on development teams.
-- [Eager-to-Please Stakeholders](eager-to-please-stakeholders.md)
+- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
 <br/>  Stakeholders who commit to customer demands without consulting engineering create artificial market pressure on teams.
-
 ## Detection Methods ○
 
 - **Market Response Time Analysis:** Track how quickly organization responds to market changes

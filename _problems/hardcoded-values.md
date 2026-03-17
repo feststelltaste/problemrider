@@ -41,15 +41,14 @@ Hardcoded values are literal numbers, strings, or other constants embedded direc
 <br/>  Code with embedded literal values cannot be easily reused in different contexts or configurations.
 - [Increased Cost of Development](increased-cost-of-development.md)
 <br/>  What should be simple configuration changes become multi-week development projects requiring code changes and full testing.
-
 ## Causes ▼
+
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Time pressure leads developers to embed values directly in code as the quickest path to a working solution.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers lacking experience with configuration management patterns default to hardcoding values directly in source code.
 - [Poor Planning](poor-planning.md)
 <br/>  Failure to anticipate future configuration needs leads to values being embedded in code rather than externalized.
-
 ## Detection Methods ○
 
 - Use static analysis tools to identify magic numbers and repeated string literals

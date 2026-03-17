@@ -41,8 +41,10 @@ Reduced predictability occurs when development work becomes difficult to estimat
 <br/>  Unpredictable development timelines force frequent deadline adjustments and rescheduling.
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Inability to predict work duration leads to underestimation and consequent project delays.
-
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  Repeated failure to deliver on predicted timelines erodes stakeholder confidence in the development team.
 ## Causes ▼
+
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated technical debt introduces hidden complexity that makes task duration unpredictable.
 - [Poor Planning](poor-planning.md)
@@ -51,9 +53,6 @@ Reduced predictability occurs when development work becomes difficult to estimat
 <br/>  Unknown dependencies between system components cause unexpected delays that undermine predictions.
 - [Brittle Codebase](brittle-codebase.md)
 <br/>  A fragile codebase means seemingly simple changes can trigger unexpected failures, making work duration unpredictable.
-- [Reduced Team Flexibility](reduced-team-flexibility.md)
-<br/>  Team inflexibility means unexpected changes cause disproportionate disruption, making outcomes unpredictable.
-
 ## Detection Methods ○
 
 - **Estimation Accuracy Tracking:** Compare actual completion times to estimates and measure variance

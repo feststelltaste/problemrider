@@ -42,8 +42,8 @@ Convenience-driven development is a development practice where developers choose
 <br/>  Convenient shortcuts like poor naming, missing abstractions, and ad hoc solutions make the codebase harder to understand over time.
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  Shortcuts and quick fixes make the codebase increasingly fragile as they bypass proper design principles.
-
 ## Causes ▼
+
 - [Time Pressure](time-pressure.md)
 <br/>  Pressure to deliver quickly pushes developers toward the fastest solution rather than the best-designed one.
 - [Inexperienced Developers](inexperienced-developers.md)
@@ -52,7 +52,6 @@ Convenience-driven development is a development practice where developers choose
 <br/>  When management prioritizes immediate delivery over long-term code health, developers are incentivized to take convenient shortcuts.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Intense deadline pressure leaves developers no time to pursue proper solutions, making convenience the only viable option.
-
 ## Detection Methods ○
 - **Code Reviews:** Look for code that is poorly designed and difficult to understand.
 - **Static Analysis Tools:** Use tools to identify code smells, such as duplicated code and large classes.

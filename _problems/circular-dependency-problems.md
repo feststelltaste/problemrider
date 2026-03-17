@@ -45,8 +45,8 @@ Circular dependency problems occur when components depend on each other in circu
 <br/>  Circular dependencies make it hard to trace execution flow and isolate issues to specific components.
 - [Difficult Code Reuse](difficult-code-reuse.md)
 <br/>  Components in circular dependency chains cannot be extracted and reused independently in other contexts.
-
 ## Causes ▼
+
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Excessive coupling between components leads to bidirectional dependencies that form circular patterns.
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
@@ -55,7 +55,6 @@ Circular dependency problems occur when components depend on each other in circu
 <br/>  Starting development without upfront architectural design allows circular dependencies to emerge organically.
 - [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
 <br/>  Large classes with mixed responsibilities tend to depend on many other classes, increasing the chance of circular dependency chains.
-
 ## Detection Methods ○
 
 - **Static Dependency Analysis:** Use tools to detect circular dependencies in codebase

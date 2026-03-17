@@ -43,55 +43,18 @@ Increased risk of bugs occurs when the structure, complexity, or clarity of code
 <br/>  More bugs mean more time spent on debugging and fixing, driving up development costs.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  A high risk of bugs leads to frequent production issues that require urgent attention, keeping the team in reactive mode.
-
 ## Causes ▼
-- [Difficult-to-Understand Code](difficult-to-understand-code.md)
+
+- [Difficult to Understand Code](difficult-to-understand-code.md)
 <br/>  Code that is hard to comprehend makes it much more likely that developers will introduce defects when making changes.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
 <br/>  Convoluted business logic with unclear intent creates conditions where bugs are easily introduced.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Without automated tests to catch regressions, any code change carries a higher risk of introducing bugs.
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Tightly coupled code means changes in one area can unpredictably affect other areas, increasing the risk of unintended bugs.
-- [Accumulation of Workarounds](accumulation-of-workarounds.md)
-<br/>  Layered workarounds create unexpected interactions and edge cases that increase the likelihood of bugs.
-- [Automated Tooling Ineffectiveness](automated-tooling-ineffectiveness.md)
-<br/>  Ineffective linters and analysis tools fail to catch common coding mistakes, increasing bug risk.
-- [Code Duplication](code-duplication.md)
-<br/>  Having the same logic in multiple places increases the surface area for defects and the chance of inconsistent fixes.
-- [Cognitive Overload](cognitive-overload.md)
-<br/>  When developers exceed working memory capacity, they miss important constraints and introduce defects.
-- [Context Switching Overhead](context-switching-overhead.md)
-<br/>  Developers who are constantly switching contexts are more likely to make mistakes because they cannot maintain deep focus on any single task.
-- [Database Schema Design Problems](database-schema-design-problems.md)
-<br/>  Data redundancy from poor normalization creates opportunities for data inconsistency bugs when updates miss some copies of the data.
-- [Difficult Code Comprehension](difficult-code-comprehension.md)
-<br/>  Developers who do not fully understand the code are more likely to introduce bugs when making changes.
-- [Excessive Class Size](excessive-class-size.md)
-<br/>  The complexity of large classes makes it more likely that changes will introduce unintended side effects and defects.
-- [Hidden Side Effects](hidden-side-effects.md)
-<br/>  Developers unaware of hidden side effects make changes that unintentionally trigger unwanted actions like emails or database writes.
-- [Incomplete Knowledge](incomplete-knowledge.md)
-<br/>  Developers working with incomplete understanding of the system are more likely to introduce defects.
-- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
-<br/>  When developers cannot rely on consistent patterns, they are more likely to misunderstand existing code and introduce defects.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md)
-<br/>  Refactoring and renaming operations become error-prone when multiple naming conventions must be accounted for, leading to missed references.
-- [Increased Cognitive Load](increased-cognitive-load.md)
-<br/>  Mental overload increases the likelihood that developers will misunderstand code and introduce defects.
-- [Increased Technical Shortcuts](increased-technical-shortcuts.md)
-<br/>  Hastily written code without proper design or testing increases the likelihood of defects.
-- [Inexperienced Developers](inexperienced-developers.md)
-<br/>  Developers lacking experience are more likely to introduce defects through misunderstanding of code or business logic.
-- [Information Decay](information-decay.md)
-<br/>  Developers working from outdated or inaccurate documentation are more likely to make incorrect assumptions and introduce bugs.
-- [Integer Overflow and Underflow](integer-overflow-underflow.md)
-<br/>  Integer overflow conditions create subtle bugs that only manifest with specific input values.
-- [Knowledge Gaps](knowledge-gaps.md)
-<br/>  Developers working without sufficient understanding of the system introduce more defects.
-- [Information Decay](poor-documentation.md)
-<br/>  Without accurate documentation of business rules and system behavior, developers are more likely to introduce bugs from misunderstanding.
-- [Poor Naming Conventions](poor-naming-conventions.md)
-<br/>  Misleading names cause developers to misunderstand code behavior, leading to incorrect usage and bugs.
-
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Low-quality code with inconsistent patterns and poor structure makes it harder to reason about correctness, raising bug risk.
 ## Detection Methods ○
 - **Bug Pattern Analysis:** Track which areas of code or types of changes are most likely to introduce bugs
 - **Developer-Specific Metrics:** Monitor bug introduction rates by individual developers to identify training needs

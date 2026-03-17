@@ -47,8 +47,8 @@ Competing priorities occur when multiple projects, initiatives, or tasks are all
 <br/>  Stretched thin across priorities, teams take shortcuts and lower quality standards to try to make progress on everything.
 - [Team Demoralization](team-demoralization.md)
 <br/>  The inability to make meaningful progress on any priority demoralizes teams who feel their efforts are futile.
-
 ## Causes ▼
+
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Lack of clear organizational direction leads to multiple initiatives being treated as equally urgent.
 - [Power Struggles](power-struggles.md)
@@ -57,9 +57,6 @@ Competing priorities occur when multiple projects, initiatives, or tasks are all
 <br/>  Inadequate planning fails to sequence initiatives appropriately, resulting in multiple critical projects overlapping.
 - [Market Pressure](market-pressure.md)
 <br/>  External competitive forces create genuinely urgent demands across multiple fronts simultaneously.
-- [Increased Cost of Development](increased-cost-of-development.md)
-<br/>  Higher costs force trade-offs between maintenance and new development, creating competition for limited resources.
-
 ## Detection Methods ○
 
 - **Priority Count Analysis:** Track how many initiatives are labeled as top priority simultaneously

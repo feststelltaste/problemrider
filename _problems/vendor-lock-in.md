@@ -39,21 +39,20 @@ Vendor lock-in occurs when a system becomes so tightly integrated with a specifi
 
 - [Vendor Dependency Entrapment](vendor-dependency-entrapment.md)
 <br/>  Deep vendor lock-in makes the organization vulnerable to entrapment when the vendor discontinues products.
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  The vendor can raise prices knowing migration is prohibitively expensive, leading to escalating costs.
+- [Reduced Team Flexibility](reduced-team-flexibility.md)
+<br/>  Lock-in to specific vendor technologies limits the organization's ability to adopt better alternatives.
 - [Technology Isolation](technology-isolation.md)
 <br/>  Proprietary vendor technologies isolate the system from the broader technology ecosystem.
-
 ## Causes ▼
+
 - [Poor Planning](poor-planning.md)
 <br/>  Failure to plan for long-term technology flexibility leads to architecture decisions that create vendor lock-in.
-- [Stagnant Architecture](stagnant-architecture.md)
-<br/>  A stagnant architecture cements dependency on older technology vendors, making migration increasingly difficult.
-- [Technology Isolation](technology-isolation.md)
-<br/>  Dependence on specialized or discontinued technology vendors limits options and increases dependency.
-- [Technology Lock-In](technology-lock-in.md)
-<br/>  Technology lock-in often manifests as vendor lock-in when the locked technology is proprietary.
-- [Vendor Dependency](vendor-dependency.md)
-<br/>  Over time, excessive vendor dependency deepens into lock-in as more systems integrate tightly with vendor technology.
-
+- [Quality Compromises](quality-compromises.md)
+<br/>  Using vendor-specific features and APIs as shortcuts rather than building abstraction layers deepens lock-in.
+- [Data Migration Complexities](data-migration-complexities.md)
+<br/>  Without migration planning, organizations fail to maintain portability and become increasingly locked into vendor ecosystems.
 ## Detection Methods ○
 
 - Conduct regular architecture reviews focused on vendor dependency analysis

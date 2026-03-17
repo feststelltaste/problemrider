@@ -46,35 +46,14 @@ Team demoralization occurs when team members experience a significant decline in
 <br/>  Demoralized teams stop suggesting improvements or experimenting with new approaches because they feel their efforts don't matter.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  When team members adopt a 'just do the minimum' attitude, code quality suffers as they stop investing extra effort in clean design.
-
 ## Causes ▼
+
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Persistent frustration from working with problematic systems or processes leads to burnout and eventual demoralization.
 - [Team Dysfunction](team-dysfunction.md)
 <br/>  Interpersonal conflicts, lack of trust, and structural problems create a toxic environment that demoralizes team members.
-- [Changing Project Scope](changing-project-scope.md)
-<br/>  Repeatedly discarding completed work due to scope changes erodes team motivation and confidence in leadership.
-- [Competing Priorities](competing-priorities.md)
-<br/>  The inability to make meaningful progress on any priority demoralizes teams who feel their efforts are futile.
-- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
-<br/>  Repeatedly moving deadlines erodes team confidence and motivation as developers feel their efforts and plans are meaningless.
-- [Decision Avoidance](decision-avoidance.md)
-<br/>  Team members lose motivation when they repeatedly cannot proceed with their work because critical decisions remain unmade.
-- [Decision Paralysis](decision-paralysis.md)
-<br/>  Persistent inability to make decisions frustrates team members and erodes their sense of autonomy and ownership.
-- [Incomplete Projects](incomplete-projects.md)
-<br/>  Repeatedly seeing their work abandoned demoralizes developers and reduces their motivation and engagement.
-- [Legal Disputes](legal-disputes.md)
-<br/>  The uncertainty and adversarial atmosphere created by legal disputes demoralizes team members working on the affected project.
-- [Planning Credibility Issues](planning-credibility-issues.md)
-<br/>  Teams lose motivation when their estimates are consistently overridden or questioned, creating an adversarial dynamic.
-- [Team Confusion](team-confusion.md)
-<br/>  Repeated experiences of wasted effort due to confusion erodes team morale and confidence in leadership.
-- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
-<br/>  Repeated abandonment of work due to shifting priorities creates a sense of futility that demoralizes team members.
-- [Unmotivated Employees](unmotivated-employees.md)
-<br/>  Unmotivated individuals negatively influence team morale, as their disengagement spreads to other team members.
-
+- [Micromanagement Culture](micromanagement-culture.md)
+<br/>  When management is disengaged from the team's concerns and challenges, team members feel unsupported and lose faith in leadership.
 ## Detection Methods ○
 
 - **Team Morale Surveys:** Regular anonymous surveys about job satisfaction and motivation

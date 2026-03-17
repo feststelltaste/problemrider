@@ -35,59 +35,22 @@ Cascade failures occur when a single change, bug, or failure in one component ca
 
 ## Symptoms ▲
 
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Cascade failures manifest as seemingly random outages across different system components that are hard to trace to a root cause.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  System-wide outages caused by cascade failures severely impact user experience and business operations.
 - [High Maintenance Costs](high-maintenance-costs.md)
 <br/>  Diagnosing and fixing cascade failure patterns requires extensive investigation across multiple components, increasing costs.
-
 ## Causes ▼
+
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Tightly coupled components propagate failures because they cannot operate independently when dependencies fail.
 - [Single Points of Failure](single-points-of-failure.md)
 <br/>  Critical shared components that lack redundancy become failure origins that affect all dependent systems.
-- [ABI Compatibility Issues](abi-compatibility-issues.md)
-<br/>  ABI incompatibilities can cause runtime crashes that propagate through dependent components, triggering cascade failures across the system.
-- [API Versioning Conflicts](api-versioning-conflicts.md)
-<br/>  An API version mismatch in one service can cause failures that cascade through dependent services.
-- [Breaking Changes](breaking-changes.md)
-<br/>  Breaking API changes cause dependent services to fail in chain reaction as each tries to use the modified interface.
-- [Buffer Overflow Vulnerabilities](buffer-overflow-vulnerabilities.md)
-<br/>  A buffer overflow crash in a shared service can trigger failures across dependent components.
-- [Change Management Chaos](change-management-chaos.md)
-<br/>  Uncoordinated changes cause unexpected interactions that trigger chain reactions of failures across the system.
-- [External Service Delays](external-service-delays.md)
-<br/>  A slow external service can cause thread pool exhaustion and resource starvation in the calling service, triggering cascading failures across the system.
-- [Growing Task Queues](growing-task-queues.md)
-<br/>  Queue buildup can exhaust system resources and create cascading failures across dependent services.
-- [Hidden Dependencies](hidden-dependencies.md)
-<br/>  A failure in one component propagates to others through hidden dependency chains that were not anticipated.
-- [High API Latency](high-api-latency.md)
-<br/>  In distributed systems, high latency in one API cascades to all dependent services, causing widespread slowdowns.
-- [High Connection Count](high-connection-count.md)
-<br/>  Database connection exhaustion causes failures that cascade to all services depending on that database.
 - [Inadequate Error Handling](inadequate-error-handling.md)
-<br/>  When errors are not properly caught and managed, a single failure can propagate through the system triggering chain reactions.
-- [Inadequate Integration Tests](inadequate-integration-tests.md)
-<br/>  Untested component interactions can trigger chain reactions of failures when assumptions at service boundaries are violated.
-- [Insufficient Worker Capacity](insufficient-worker-capacity.md)
-<br/>  Queue buildup from insufficient workers can cascade to upstream services that depend on timely processing.
-- [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
-<br/>  Fragile integration points without proper error handling allow failures to propagate across connected systems.
-- [Resource Contention](resource-contention.md)
-<br/>  When resources are exhausted, components begin failing in sequence as they cannot obtain the resources they need to function.
-- [Service Discovery Failures](service-discovery-failures.md)
-<br/>  When service discovery fails, dependent services cannot locate their dependencies, causing failures to cascade through the system.
-- [Service Timeouts](service-timeouts.md)
-<br/>  When one service times out, callers may also time out waiting for it, creating a chain reaction of failures across the system.
-- [System Integration Blindness](system-integration-blindness.md)
-<br/>  Undetected integration dependencies cause failures in one component to cascade through connected components.
-- [Task Queues Backing Up](task-queues-backing-up.md)
-<br/>  Queue buildup in one processing stage creates backpressure that cascades to upstream and downstream components.
-- [Unbounded Data Growth](unbounded-data-growth.md)
-<br/>  When storage or memory is exhausted due to unbounded growth, it can trigger cascading failures across dependent system components.
-- [Unbounded Data Structures](unbounded-data-structures.md)
-<br/>  When an unbounded data structure exhausts available memory, the resulting out-of-memory condition can cascade to other components.
-
+<br/>  Inadequate error handling means components crash rather than gracefully degrading when upstream services fail.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Lack of failure scenario testing means cascade failure paths are not discovered until they occur in production.
 ## Detection Methods ○
 - **Dependency Mapping:** Visualize component dependencies to identify potential cascade paths
 - **Failure Simulation:** Chaos engineering approaches that deliberately fail components to test cascade behavior

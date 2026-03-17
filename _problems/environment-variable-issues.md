@@ -45,8 +45,8 @@ Environment variable issues occur when applications rely on environment variable
 <br/>  Storing secrets in environment variables without proper access controls exposes sensitive credentials to unauthorized access.
 - [Increased Error Rates](increased-error-rates.md)
 <br/>  Missing or misconfigured environment variables lead to application failures and elevated error rates, especially after deployments.
-
 ## Causes ▼
+
 - [Inadequate Configuration Management](inadequate-configuration-management.md)
 <br/>  Lack of proper configuration management practices means environment variables are not tracked, versioned, or validated systematically.
 - [Configuration Chaos](configuration-chaos.md)
@@ -55,7 +55,6 @@ Environment variable issues occur when applications rely on environment variable
 <br/>  Outdated or missing documentation about required environment variables causes misconfiguration during deployments.
 - [Manual Deployment Processes](manual-deployment-processes.md)
 <br/>  Manual deployment steps increase the chance of environment variables being set incorrectly or forgotten entirely.
-
 ## Detection Methods ○
 
 - **Environment Variable Auditing:** Regularly audit environment variables across all environments

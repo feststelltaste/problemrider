@@ -44,8 +44,8 @@ Constant firefighting, also known as "reactive development," is a state where a 
 <br/>  Constant firefighting prevents the team from addressing root causes, so technical debt accumulates as quick fixes pile up.
 - [Quality Degradation](quality-degradation.md)
 <br/>  Rushed fixes under crisis conditions often introduce new issues, causing overall system quality to decline over time.
-
 ## Causes ▼
+
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
 <br/>  A high rate of production bugs generates the stream of urgent issues that keeps the team in constant firefighting mode.
 - [Poor Test Coverage](poor-test-coverage.md)
@@ -54,25 +54,6 @@ Constant firefighting, also known as "reactive development," is a state where a 
 <br/>  A fragile codebase where small changes break existing functionality generates a constant stream of production issues requiring urgent attention.
 - [Monitoring Gaps](monitoring-gaps.md)
 <br/>  Insufficient monitoring means issues are not caught early and escalate into emergencies requiring immediate firefighting response.
-- [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
-<br/>  The team spends significant time responding to production emergencies rather than working on planned development.
-- [High Bug Introduction Rate](high-bug-introduction-rate.md)
-<br/>  The team spends most of its time fixing the stream of newly introduced bugs rather than working on planned features.
-- [Increased Risk of Bugs](increased-risk-of-bugs.md)
-<br/>  A high risk of bugs leads to frequent production issues that require urgent attention, keeping the team in reactive mode.
-- [Increasing Brittleness](increasing-brittleness.md)
-<br/>  Frequent unexpected failures from brittleness keep teams in reactive mode, responding to cascading issues.
-- [Quality Blind Spots](insufficient-testing.md)
-<br/>  Teams spend significant time dealing with production issues that testing should have caught.
-- [Poor Operational Concept](poor-operational-concept.md)
-<br/>  Without proactive operational planning, teams spend most of their time reactively addressing production issues.
-- [Quality Degradation](quality-degradation.md)
-<br/>  Rising bug rates and system failures force teams into reactive mode, constantly addressing production issues.
-- [Regression Bugs](regression-bugs.md)
-<br/>  Regressions in production require urgent fixes, pulling the team into reactive firefighting mode.
-- [System Outages](system-outages.md)
-<br/>  Frequent outages keep the development team occupied with emergency response rather than planned development work.
-
 ## Detection Methods ○
 - **Track Unplanned Work:** Measure the percentage of the team's time that is spent on unplanned work. If this number is consistently high, it is a clear sign of a problem.
 - **Analyze Bug Reports:** Look for patterns in the bug reports. Are the same problems recurring over and over again? This is a sign that the team is not addressing the root causes of the problems.

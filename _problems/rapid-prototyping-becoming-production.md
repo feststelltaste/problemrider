@@ -48,8 +48,8 @@ Rapid prototyping becoming production occurs when code initially written as a qu
 <br/>  Prototype code without proper testing and structure leads to frequent regressions when changes are made.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Teams fear touching fragile prototype-turned-production code because they don't understand its full behavior and lack test safety nets.
-
 ## Causes ▼
+
 - [Unrealistic Schedule](unrealistic-schedule.md)
 <br/>  Tight deadlines pressure teams to ship prototypes directly to production rather than rebuilding them properly.
 - [Convenience-Driven Development](convenience-driven-development.md)
@@ -58,7 +58,6 @@ Rapid prototyping becoming production occurs when code initially written as a qu
 <br/>  A culture of taking shortcuts normalizes deploying prototype-quality code to production.
 - [Poor Planning](poor-planning.md)
 <br/>  Lack of proper project planning fails to allocate time for transitioning prototypes into production-quality code.
-
 ## Detection Methods ○
 
 - **Code Quality Analysis:** Analyze production systems for prototype-level code characteristics

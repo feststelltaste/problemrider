@@ -36,7 +36,6 @@ Analysis paralysis occurs when development teams become trapped in endless resea
 
 ## Symptoms ▲
 
-
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Extended research phases directly push back project timelines as implementation start dates slip.
 - [Slow Development Velocity](slow-development-velocity.md)
@@ -49,8 +48,8 @@ Analysis paralysis occurs when development teams become trapped in endless resea
 <br/>  Stakeholders become frustrated when teams spend months analyzing without producing tangible results.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  Business value cannot be delivered while teams remain stuck in analysis phases.
-
 ## Causes ▼
+
 - [Fear of Failure](fear-of-failure.md)
 <br/>  Teams afraid of making wrong technical choices continue analyzing to avoid the risk of a bad decision.
 - [Perfectionist Culture](perfectionist-culture.md)
@@ -59,7 +58,6 @@ Analysis paralysis occurs when development teams become trapped in endless resea
 <br/>  Inability to choose between competing options keeps teams in research mode indefinitely.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Without clear goals, teams lack criteria for when analysis is sufficient, leading to over-analysis.
-
 ## Detection Methods ○
 
 - **Research Duration Tracking:** Monitor how long teams spend in analysis phases vs. planned timelines

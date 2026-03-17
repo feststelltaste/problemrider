@@ -46,8 +46,8 @@ Knowledge silos occur when critical information, expertise, or research findings
 <br/>  Team members can only work in areas where they hold knowledge, reducing ability to reassign work.
 - [Slow Incident Resolution](slow-incident-resolution.md)
 <br/>  Cross-cutting issues are slow to resolve when each person only understands their own domain.
-
 ## Causes ▼
+
 - [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
 <br/>  Ineffective sharing mechanisms allow knowledge to remain isolated rather than being distributed.
 - [Implicit Knowledge](implicit-knowledge.md)
@@ -56,39 +56,6 @@ Knowledge silos occur when critical information, expertise, or research findings
 <br/>  Knowledge gained through experience that is difficult to articulate naturally creates silos.
 - [Team Silos](team-silos.md)
 <br/>  Organizational team boundaries reinforce knowledge silos by limiting cross-team interaction.
-- [High Turnover](high-turnover.md)
-<br/>  Frequent departures concentrate remaining knowledge in fewer people, creating dangerous single points of expertise.
-- [Inconsistent Knowledge Acquisition](inconsistent-knowledge-acquisition.md)
-<br/>  When team members learn different aspects of the system, knowledge becomes fragmented and siloed among individuals.
-- [Individual Recognition Culture](individual-recognition-culture.md)
-<br/>  When individual accomplishments are rewarded over teamwork, developers hoard knowledge as a competitive advantage rather than sharing it.
-- [Information Decay](information-decay.md)
-<br/>  When documentation becomes unreliable, knowledge concentrates in the heads of experienced team members rather than shared artifacts.
-- [Information Fragmentation](information-fragmentation.md)
-<br/>  When information is scattered, only those who know where to look can find it, creating de facto knowledge silos.
-- [Communication Breakdown](poor-communication.md)
-<br/>  When team members stop communicating, knowledge becomes trapped with individuals, creating dangerous information silos.
-- [Team Dysfunction](poor-teamwork.md)
-<br/>  When team members refuse to collaborate, critical knowledge becomes isolated with individual developers.
-- [Reduced Review Participation](reduced-review-participation.md)
-<br/>  Non-participating team members miss exposure to code changes, reinforcing knowledge isolation.
-- [Review Process Avoidance](review-process-avoidance.md)
-<br/>  Bypassing reviews eliminates a key knowledge-sharing mechanism, allowing code knowledge to remain siloed with the original author.
-- [Review Process Breakdown](review-process-breakdown.md)
-<br/>  Broken review processes eliminate the knowledge-sharing benefit of reviews, allowing expertise to remain siloed.
-- [Skill Development Gaps](skill-development-gaps.md)
-<br/>  Skill gaps cause knowledge to remain siloed with specialists rather than being distributed across the team.
-- [Team Churn Impact](team-churn-impact.md)
-<br/>  When experienced developers leave, critical system knowledge becomes concentrated in fewer people, creating dangerous knowledge silos.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md)
-<br/>  When only a few people review code, knowledge about the codebase remains concentrated rather than spread across the team.
-- [Unclear Documentation Ownership](unclear-documentation-ownership.md)
-<br/>  Without maintained documentation, critical knowledge remains locked in individual developers' heads rather than being shared.
-- [Unclear Sharing Expectations](unclear-sharing-expectations.md)
-<br/>  When team members don't know what to share, critical knowledge remains isolated with individual developers.
-- [Uneven Workload Distribution](uneven-workload-distribution.md)
-<br/>  When certain individuals always handle specific types of work, knowledge concentrates with them and doesn't spread to the team.
-
 ## Detection Methods ○
 
 - **Knowledge Mapping:** Identify who holds critical information about different system areas

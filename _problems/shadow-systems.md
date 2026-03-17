@@ -45,8 +45,8 @@ Shadow systems are informal, unofficial applications, tools, or processes that t
 <br/>  Shadow systems are typically maintained by a single person and run on personal infrastructure, creating critical single points of failure.
 - [Technology Stack Fragmentation](technology-stack-fragmentation.md)
 <br/>  Each shadow system introduces its own technology choices, fragmenting the overall technology landscape.
-
 ## Causes ▼
+
 - [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
 <br/>  Official systems that are difficult or frustrating to use drive teams to create their own alternative solutions.
 - [Slow Feature Development](slow-feature-development.md)
@@ -55,7 +55,6 @@ Shadow systems are informal, unofficial applications, tools, or processes that t
 <br/>  Bureaucratic processes for requesting changes to official systems push teams to bypass the process entirely with shadow solutions.
 - [Feature Gaps](feature-gaps.md)
 <br/>  Missing functionality in official systems creates legitimate needs that teams address by building unofficial alternatives.
-
 ## Detection Methods ○
 
 - **System Discovery Audits:** Regular surveys to identify unofficial tools and systems

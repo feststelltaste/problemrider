@@ -45,8 +45,8 @@ A knowledge sharing breakdown occurs when the mechanisms for distributing inform
 <br/>  Without shared standards and practices, quality varies across the codebase and team members.
 - [Knowledge Dependency](knowledge-dependency.md)
 <br/>  When sharing breaks down, team members become dependent on specific individuals who hold the information.
-
 ## Causes ▼
+
 - [Team Silos](team-silos.md)
 <br/>  Organizational silos between teams create barriers to cross-team knowledge sharing.
 - [Individual Recognition Culture](individual-recognition-culture.md)
@@ -55,7 +55,6 @@ A knowledge sharing breakdown occurs when the mechanisms for distributing inform
 <br/>  Teams under heavy workload have no time to document or share knowledge with colleagues.
 - [Unclear Sharing Expectations](unclear-sharing-expectations.md)
 <br/>  Without clear expectations around knowledge sharing, it becomes nobody's explicit responsibility.
-
 ## Detection Methods ○
 - **Knowledge Mapping:** Identify the key knowledge areas in the team and who the experts are.
 - **Information Flow Analysis:** Analyze how information moves through the team and identify any bottlenecks.

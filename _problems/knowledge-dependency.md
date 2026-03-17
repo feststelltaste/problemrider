@@ -46,8 +46,8 @@ Knowledge dependency occurs when team members, particularly those who are no lon
 <br/>  Critical knowledge concentrated in few individuals creates single points of failure for the team.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Development slows because dependent team members cannot proceed without consulting knowledge holders.
-
 ## Causes ▼
+
 - [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
 <br/>  Ineffective knowledge sharing mechanisms force team members to rely on individuals rather than documentation.
 - [Implicit Knowledge](implicit-knowledge.md)
@@ -56,21 +56,6 @@ Knowledge dependency occurs when team members, particularly those who are no lon
 <br/>  Poor onboarding fails to build sufficient foundation knowledge, leaving team members dependent on others.
 - [Information Decay](information-decay.md)
 <br/>  When documentation becomes outdated and unreliable, team members must rely on people instead of docs.
-- [Dependency on Supplier](dependency-on-supplier.md)
-<br/>  When critical knowledge resides with the supplier rather than the organization, internal teams cannot independently maintain or troubleshoot the system.
-- [Inappropriate Skillset](inappropriate-skillset.md)
-<br/>  Team members with skill gaps remain dependent on experienced colleagues for guidance and decision-making.
-- [Inconsistent Knowledge Acquisition](inconsistent-knowledge-acquisition.md)
-<br/>  Because each person only learned certain aspects, team members remain dependent on others for knowledge they never acquired.
-- [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md)
-<br/>  New hires who receive insufficient onboarding remain dependent on experienced team members for longer periods.
-- [Knowledge Gaps](knowledge-gaps.md)
-<br/>  Team members with knowledge gaps become dependent on the few who hold the necessary expertise.
-- [Knowledge Silos](knowledge-silos.md)
-<br/>  When knowledge is siloed, team members become dependent on the specific individuals who hold it.
-- [Information Decay](poor-documentation.md)
-<br/>  Without reliable documentation, teams become dependent on specific individuals who hold system knowledge in their heads.
-
 ## Detection Methods ○
 
 - **Question Dependency Tracking:** Monitor how often team members ask questions that they should be able to answer independently

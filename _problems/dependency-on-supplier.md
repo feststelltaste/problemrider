@@ -46,8 +46,8 @@ Dependency on supplier occurs when an organization becomes overly reliant on ext
 <br/>  When critical knowledge resides with the supplier rather than the organization, internal teams cannot independently maintain or troubleshoot the system.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  Changes and improvements must wait on the supplier's schedule and priorities, delaying delivery of value to users.
-
 ## Causes ▼
+
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Choosing vendor solutions for short-term convenience without evaluating long-term lock-in risks creates supplier dependency.
 - [Knowledge Gaps](knowledge-gaps.md)
@@ -56,7 +56,6 @@ Dependency on supplier occurs when an organization becomes overly reliant on ext
 <br/>  Contracts that fail to protect against lock-in or ensure knowledge transfer create conditions for deep supplier dependency.
 - [Accumulated Decision Debt](accumulated-decision-debt.md)
 <br/>  Deferring build-vs-buy decisions and not investing in internal capabilities compounds supplier dependency over time.
-
 ## Detection Methods ○
 
 - **Vendor Dependency Mapping:** Identify and assess all critical vendor dependencies

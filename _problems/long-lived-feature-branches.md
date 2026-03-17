@@ -42,8 +42,8 @@ Long-lived feature branches are a common problem in teams that use a branching m
 <br/>  When parallel development on mainline makes a branch's approach incompatible, significant rework is needed before merging.
 - [Large Pull Requests](large-pull-requests.md)
 <br/>  Long-lived branches accumulate many changes, resulting in large pull requests that are difficult to review effectively.
-
 ## Causes ▼
+
 - [Large Feature Scope](large-feature-scope.md)
 <br/>  Features with overly broad scope take longer to implement, naturally extending branch lifetimes.
 - [Long Build and Test Times](long-build-and-test-times.md)
@@ -52,7 +52,6 @@ Long-lived feature branches are a common problem in teams that use a branching m
 <br/>  Bottlenecks in the code review process delay merges, forcing branches to live longer than intended.
 - [Fear of Breaking Changes](fear-of-breaking-changes.md)
 <br/>  Teams delay merging because they fear introducing breaking changes, keeping branches separate longer.
-
 ## Detection Methods ○
 
 - **Version Control System Analysis:** Monitor the age and size of feature branches in your Git repository.

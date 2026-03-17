@@ -45,8 +45,8 @@ Inadequate code reviews are a major contributor to poor software quality. This e
 <br/>  Without meaningful review feedback, code quality steadily degrades as poor patterns go unchallenged.
 - [Limited Team Learning](limited-team-learning.md)
 <br/>  Superficial reviews eliminate the knowledge-sharing benefit of code reviews, reducing team learning opportunities.
-
 ## Causes ▼
+
 - [Time Pressure](time-pressure.md)
 <br/>  Deadline pressure forces reviewers to rush through reviews, resulting in superficial examination of code changes.
 - [Large Pull Requests](large-pull-requests.md)
@@ -55,13 +55,6 @@ Inadequate code reviews are a major contributor to poor software quality. This e
 <br/>  Inexperienced reviewers lack the expertise to identify deeper design, logic, or security issues during reviews.
 - [Overworked Teams](overworked-teams.md)
 <br/>  When teams are overloaded, code reviews are deprioritized and rushed to keep up with delivery demands.
-- [Fear of Conflict](fear-of-conflict.md)
-<br/>  The review process fails to identify critical issues because reviewers avoid providing the difficult feedback necessary for quality assurance.
-- [Reduced Code Submission Frequency](reduced-code-submission-frequency.md)
-<br/>  Large batched submissions are harder to review thoroughly, reducing the quality and effectiveness of code reviews.
-- [Reduced Review Participation](reduced-review-participation.md)
-<br/>  Fewer reviewers means less diverse perspectives and reduced thoroughness in catching issues.
-
 ## Detection Methods ○
 
 - **Track Bug Density:** A high number of bugs in a particular module or feature may indicate that the code was not reviewed properly.

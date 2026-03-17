@@ -32,7 +32,6 @@ A memory leak is a type of resource leak that occurs when a computer program inc
 
 ## Symptoms ▲
 
-
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As leaked memory accumulates over time, the application uses more resources and performs progressively worse.
 - [Memory Fragmentation](memory-fragmentation.md)
@@ -43,21 +42,16 @@ A memory leak is a type of resource leak that occurs when a computer program inc
 <br/>  Memory leaks in client-side applications cause excessive resource consumption on user devices, degrading their experience.
 - [Resource Allocation Failures](resource-allocation-failures.md)
 <br/>  As leaked memory consumes available resources, new allocation requests eventually fail due to memory exhaustion.
-
 ## Causes ▼
+
 - [Unreleased Resources](unreleased-resources.md)
 <br/>  Failure to properly release resources like event listeners, file handles, or database connections is a direct cause of memory leaks.
 - [Excessive Object Allocation](excessive-object-allocation.md)
 <br/>  Creating many objects without proper lifecycle management increases the likelihood that some will not be properly freed.
-- [Circular References](circular-references.md)
-<br/>  Circular references prevent garbage collection from reclaiming objects, causing memory to be consumed but never released.
-- [Improper Event Listener Management](improper-event-listener-management.md)
-<br/>  Unremoved event listeners maintain references to objects that should be garbage collected, causing progressive memory consumption.
-- [Resource Allocation Failures](resource-allocation-failures.md)
-<br/>  Failure to deallocate memory is a specific manifestation of resource allocation failures that causes growing memory consumption.
-- [Unbounded Data Structures](unbounded-data-structures.md)
-<br/>  Data structures that grow without bounds effectively leak memory as they consume more and more resources that are never reclaimed.
-
+- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
+<br/>  Without clear ownership, resource management responsibilities become unclear, and memory cleanup code is neglected.
+- [Review Process Breakdown](insufficient-code-review.md)
+<br/>  Inadequate code review processes fail to catch common memory leak patterns before they reach production.
 ## Detection Methods ○
 
 - **Memory Profilers:** Use language-specific memory profiling tools (e.g., Java VisualVM, .NET Memory Profiler, Chrome DevTools Memory tab, Valgrind for C/C++) to analyze heap dumps and track object allocations and references.

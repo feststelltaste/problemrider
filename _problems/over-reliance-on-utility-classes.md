@@ -42,15 +42,14 @@ An over-reliance on utility classes is a common design problem in object-oriente
 <br/>  When utility classes become unwieldy, developers create new utility methods rather than finding existing ones, leading to duplicated logic.
 - [Excessive Class Size](excessive-class-size.md)
 <br/>  Utility classes tend to grow unbounded as developers add more static methods, becoming bloated catch-all containers.
-
 ## Causes ▼
+
 - [Misunderstanding of OOP](misunderstanding-of-oop.md)
 <br/>  Developers who don't understand object-oriented design principles default to creating static utility methods instead of proper objects with behavior.
 - [Procedural Background](procedural-background.md)
 <br/>  Developers with procedural programming backgrounds naturally gravitate toward static utility functions rather than object-oriented design.
 - [Convenience-Driven Development](convenience-driven-development.md)
 <br/>  Adding a static method to a utility class is the quickest and easiest approach, even when proper OOP design would be more appropriate.
-
 ## Detection Methods ○
 - **Code Reviews:** Code reviews are a great way to identify an over-reliance on utility classes.
 - **Static Analysis:** Use static analysis tools to identify classes with a large number of static methods.

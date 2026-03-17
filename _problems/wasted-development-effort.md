@@ -43,8 +43,12 @@ Wasted development effort occurs when significant work completed by developers b
 <br/>  Discarded development work represents a direct waste of organizational resources including time and money.
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  Effort spent on work that is later abandoned reduces the team's overall productive output.
-
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  Rework and abandoned features increase project costs beyond original estimates.
 ## Causes ▼
+
+- [Requirements Ambiguity](requirements-ambiguity.md)
+<br/>  Vague or ambiguous requirements lead to development work that does not match actual needs and must be reworked.
 - [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
 <br/>  Shifting deadlines cause priority changes that abandon in-progress work in favor of new urgent items.
 - [Poor Planning](poor-planning.md)
@@ -53,55 +57,6 @@ Wasted development effort occurs when significant work completed by developers b
 <br/>  Uncontrolled scope expansion changes project direction, making previously completed work obsolete.
 - [Assumption-Based Development](assumption-based-development.md)
 <br/>  Building features based on assumptions rather than validated requirements leads to work that doesn't meet actual needs.
-- [Analysis Paralysis](analysis-paralysis.md)
-<br/>  Extensive analysis work that never leads to implementation represents wasted development effort.
-- [Changing Project Scope](changing-project-scope.md)
-<br/>  Frequent scope changes cause previously completed work to be discarded or reworked, directly wasting development effort.
-- [Duplicated Effort](duplicated-effort.md)
-<br/>  When multiple people unknowingly work on the same problem, the redundant work represents directly wasted development resources.
-- [Duplicated Research Effort](duplicated-research-effort.md)
-<br/>  Multiple people independently researching the same topic represents directly wasted development capacity.
-- [Duplicated Work](duplicated-work.md)
-<br/>  Redundant implementations represent directly wasted effort that could have been applied to other valuable work.
-- [Feature Factory](feature-factory.md)
-<br/>  Features shipped without validation often go unused, representing significant wasted development effort.
-- [Feedback Isolation](feedback-isolation.md)
-<br/>  Development work done without feedback validation often turns out to be wrong, representing wasted effort.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
-<br/>  Work completed against previous requirements becomes obsolete when requirements change, representing wasted effort.
-- [Implementation Rework](implementation-rework.md)
-<br/>  Work that must be discarded and redone represents direct waste of development resources and team effort.
-- [Incomplete Projects](incomplete-projects.md)
-<br/>  Work invested in unfinished features is effectively wasted, as partially completed code provides no user value.
-- [Inefficient Processes](inefficient-processes.md)
-<br/>  Redundant processes and unnecessary handoffs waste valuable development time on non-value-adding activities.
-- [Information Fragmentation](information-fragmentation.md)
-<br/>  Developers waste time searching for information or duplicating research that was already done but stored in an unfindable location.
-- [Misaligned Deliverables](misaligned-deliverables.md)
-<br/>  Features built to incorrect specifications represent wasted development time and resources.
-- [Planning Dysfunction](planning-dysfunction.md)
-<br/>  Poor planning leads to building the wrong things or doing work that must be abandoned when reality diverges from the plan.
-- [Power Struggles](power-struggles.md)
-<br/>  Work gets discarded when one authority overrules another's decisions, invalidating completed development.
-- [Premature Technology Introduction](premature-technology-introduction.md)
-<br/>  Teams may need to rewrite or migrate away from unsuitable technologies, wasting prior development work.
-- [Priority Thrashing](priority-thrashing.md)
-<br/>  Partially completed work is abandoned when priorities shift, wasting the effort already invested.
-- [Process Design Flaws](process-design-flaws.md)
-<br/>  Developers spend time on process overhead and rework caused by illogical process steps.
-- [Product Direction Chaos](product-direction-chaos.md)
-<br/>  Teams build features that are later deprioritized or contradicted by another stakeholder's requirements.
-- [Requirements Ambiguity](requirements-ambiguity.md)
-<br/>  Development work based on misinterpreted ambiguous requirements becomes throwaway effort when the misalignment is discovered.
-- [Scope Change Resistance](scope-change-resistance.md)
-<br/>  Development effort is wasted building features to an outdated scope that no longer aligns with actual requirements.
-- [Second-System Effect](second-system-effect.md)
-<br/>  Significant effort is invested in building advanced capabilities that users never actually use, representing pure waste.
-- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
-<br/>  Without clear priorities, teams invest effort in work that gets abandoned when direction shifts, wasting significant development time.
-- [Unproductive Meetings](unproductive-meetings.md)
-<br/>  Time spent in unproductive meetings directly reduces available development time, leading to wasted effort when rushed work must be reworked.
-
 ## Detection Methods ○
 
 - **Work Abandonment Tracking:** Monitor how much completed work is discarded or significantly reworked

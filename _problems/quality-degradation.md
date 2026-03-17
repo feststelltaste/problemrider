@@ -45,39 +45,16 @@ Quality degradation occurs when software systems experience a steady decline in 
 <br/>  Rising bug rates and system failures force teams into reactive mode, constantly addressing production issues.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Accumulated technical debt and shortcuts make the codebase increasingly hard to understand and modify.
-
 ## Causes ▼
+
 - [Quality Compromises](quality-compromises.md)
 <br/>  Deliberately lowering quality standards creates the shortcuts and debt that drive gradual quality decline.
-- [Insufficient Testing](insufficient-testing.md)
+- [Quality Blind Spots](insufficient-testing.md)
 <br/>  Inadequate testing allows defects to accumulate undetected, contributing to systematic quality erosion.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Poor code quality practices compound over time, creating a downward spiral of maintainability.
 - [Information Decay](information-decay.md)
 <br/>  Outdated documentation and lost knowledge lead to incorrect assumptions that further degrade quality.
-- [Constant Firefighting](constant-firefighting.md)
-<br/>  Rushed fixes under crisis conditions often introduce new issues, causing overall system quality to decline over time.
-- [Increased Stress and Burnout](increased-stress-and-burnout.md)
-<br/>  Stressed and fatigued developers make more mistakes and cut corners, leading to declining code and system quality.
-- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
-<br/>  System quality erodes over time when there is no ownership to maintain and improve it.
-- [Limited Team Learning](limited-team-learning.md)
-<br/>  Without continuous learning and improvement, code quality steadily deteriorates over time.
-- [Quality Blind Spots](quality-blind-spots.md)
-<br/>  Undetected defects accumulate over time, causing gradual decline in system reliability and quality.
-- [Reduced Feature Quality](reduced-feature-quality.md)
-<br/>  Consistently delivering underpolished features contributes to an overall decline in system quality over time.
-- [Short-Term Focus](short-term-focus.md)
-<br/>  System quality steadily declines as no time is allocated for refactoring, improvement, or addressing code health issues.
-- [Test Debt](test-debt.md)
-<br/>  The accumulated lack of testing leads to progressive quality decline as undetected issues compound over time.
-- [Unrealistic Deadlines](unrealistic-deadlines.md)
-<br/>  Teams cut corners on testing, code reviews, and design to meet unrealistic timelines, directly degrading quality.
-- [Unrealistic Schedule](unrealistic-schedule.md)
-<br/>  Schedule pressure forces teams to skip code reviews, testing, and proper design, degrading software quality.
-- [Vendor Relationship Strain](vendor-relationship-strain.md)
-<br/>  When vendor relationships deteriorate, deliverable quality suffers as vendors provide minimal effort.
-
 ## Detection Methods ○
 
 - **Quality Trend Analysis:** Track quality metrics over time to identify degradation patterns

@@ -43,8 +43,8 @@ Uncontrolled codebase growth is a situation where a codebase grows in size and c
 <br/>  A large, poorly structured codebase makes it significantly harder to locate and diagnose bugs.
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
 <br/>  New developers face a steep learning curve when the codebase has grown uncontrollably large and complex.
-
 ## Causes ▼
+
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
 <br/>  Continuously adding features without refactoring is a primary driver of uncontrolled codebase growth.
 - [Refactoring Avoidance](refactoring-avoidance.md)
@@ -53,7 +53,6 @@ Uncontrolled codebase growth is a situation where a codebase grows in size and c
 <br/>  Time pressure discourages cleanup and careful design, letting the codebase grow without structural improvement.
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  Without clear code ownership, no one takes responsibility for keeping the codebase clean and well-organized.
-
 ## Detection Methods ○
 - **Code Metrics Tools:** Use tools to measure code complexity, class size, and other metrics.
 - **Code Reviews:** Look for code that is difficult to understand and review.

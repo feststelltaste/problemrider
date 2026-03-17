@@ -42,8 +42,8 @@ Incomplete projects are a common problem in software development. They occur whe
 <br/>  Repeated failure to finish projects erodes stakeholder trust in the team's ability to deliver.
 - [Feature Gaps](feature-gaps.md)
 <br/>  Abandoned projects leave gaps in functionality that users need but never receive.
-
 ## Causes ▼
+
 - [Priority Thrashing](priority-thrashing.md)
 <br/>  Frequently changing priorities pull developers away from current work before it can be completed.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
@@ -52,17 +52,6 @@ Incomplete projects are a common problem in software development. They occur whe
 <br/>  Lack of project monitoring allows scope to expand and timelines to slip until projects are eventually abandoned.
 - [Changing Project Scope](changing-project-scope.md)
 <br/>  Constant scope changes make it impossible to finish projects as the target keeps moving.
-- [Competing Priorities](competing-priorities.md)
-<br/>  No project receives sufficient focus to reach completion when resources are spread across too many priorities.
-- [Decision Paralysis](decision-paralysis.md)
-<br/>  Projects stall and are eventually abandoned when teams cannot decide on fundamental implementation approaches.
-- [Reduced Team Productivity](reduced-team-productivity.md)
-<br/>  Reduced productivity means teams cannot finish all planned work, leaving projects incomplete.
-- [Scope Creep](scope-creep.md)
-<br/>  Projects overwhelmed by scope expansion may be abandoned or left incomplete as they become unmanageable.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
-<br/>  Dissatisfied stakeholders may withdraw support or cancel projects before completion.
-
 ## Detection Methods ○
 - **Work in Progress (WIP):** Track the amount of work that is in progress at any given time.
 - **Cycle Time:** Track the amount of time that it takes to complete a feature.

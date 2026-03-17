@@ -38,7 +38,6 @@ Legacy API versioning nightmare occurs when legacy systems expose APIs that were
 
 ## Symptoms ▲
 
-
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Teams create elaborate workarounds like duplicate endpoints and conditional logic to handle API versioning gaps rather than fixing the core issue.
 - [Integration Difficulties](integration-difficulties.md)
@@ -49,17 +48,14 @@ Legacy API versioning nightmare occurs when legacy systems expose APIs that were
 <br/>  Fear of breaking unknown dependents and the coordination overhead of API changes significantly slow new feature delivery.
 - [Breaking Changes](breaking-changes.md)
 <br/>  Without proper versioning strategies, API modifications inevitably break existing client integrations.
-
 ## Causes ▼
+
 - [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
 <br/>  APIs designed without versioning strategies originate from poorly planned interface design between systems.
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Legacy APIs built with outdated technologies lack modern versioning capabilities and patterns.
 - [Accumulated Decision Debt](accumulated-decision-debt.md)
 <br/>  Deferring decisions about API versioning strategy compounds over time into a nightmare of incompatible versions and undocumented behaviors.
-- [REST API Design Issues](rest-api-design-issues.md)
-<br/>  Poor initial API design compounds over time as backward compatibility requirements make it increasingly difficult to fix design flaws.
-
 ## Detection Methods ○
 
 - Audit existing APIs for versioning strategies and backward compatibility mechanisms

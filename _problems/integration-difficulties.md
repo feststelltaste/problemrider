@@ -46,8 +46,8 @@ Integration difficulties arise when systems cannot easily connect with external 
 <br/>  Inability to easily integrate with modern services puts the organization at a disadvantage against competitors with more flexible systems.
 - [Technology Isolation](technology-isolation.md)
 <br/>  Integration difficulties prevent the system from connecting with the broader technology ecosystem.
-
 ## Causes ▼
+
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Using outdated protocols and data formats creates fundamental incompatibilities with modern services.
 - [Architectural Mismatch](architectural-mismatch.md)
@@ -56,23 +56,6 @@ Integration difficulties arise when systems cannot easily connect with external 
 <br/>  Tightly coupled internal components make it difficult to add clean integration points for external services.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  An architecture that has not evolved over time falls behind modern integration standards and patterns.
-- [ABI Compatibility Issues](abi-compatibility-issues.md)
-<br/>  Binary interface mismatches between library versions make integrating components extremely difficult, as compiled artifacts are incompatible.
-- [API Versioning Conflicts](api-versioning-conflicts.md)
-<br/>  Version mismatches between services create integration failures as different systems expect different API contracts.
-- [Dependency Version Conflicts](dependency-version-conflicts.md)
-<br/>  Version conflicts between libraries make integrating new components or upgrading existing ones extremely difficult.
-- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md)
-<br/>  Poorly versioned APIs make it extremely difficult for new systems to integrate, requiring extensive compatibility research and custom handling.
-- [Long-Lived Feature Branches](long-lived-feature-branches.md)
-<br/>  Code developed in isolation for extended periods becomes structurally incompatible with mainline changes, making integration costly.
-- [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
-<br/>  Poorly designed interfaces make every new integration a complex, error-prone effort requiring custom solutions.
-- [Team Dysfunction](poor-teamwork.md)
-<br/>  Developers making incompatible assumptions in isolation produce modules that don't integrate well together.
-- [System Stagnation](system-stagnation.md)
-<br/>  Stagnant systems lack modern integration capabilities, making it increasingly difficult to connect with current technologies.
-
 ## Detection Methods ○
 
 - **Integration Time Tracking:** Monitor time required for integration projects vs. business value delivered

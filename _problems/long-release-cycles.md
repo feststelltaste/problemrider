@@ -47,8 +47,8 @@ Long release cycles occur when the time between software releases becomes excess
 <br/>  Competitors with faster release cadences can respond to market needs more quickly, gaining advantage.
 - [Release Anxiety](release-anxiety.md)
 <br/>  Infrequent, large releases become high-stakes events that create stress and anxiety around each deployment.
-
 ## Causes ▼
+
 - [Increased Manual Testing Effort](increased-manual-testing-effort.md)
 <br/>  Extensive manual testing requirements for each release directly extend the release cycle duration.
 - [Manual Deployment Processes](manual-deployment-processes.md)
@@ -57,17 +57,6 @@ Long release cycles occur when the time between software releases becomes excess
 <br/>  Without adequate automated tests, teams must rely on lengthy manual testing phases to validate releases.
 - [Long Build and Test Times](long-build-and-test-times.md)
 <br/>  Slow build and test pipelines extend the feedback loop, making it impractical to release more frequently.
-- [Complex Deployment Process](complex-deployment-process.md)
-<br/>  Manual, time-consuming deployment processes directly extend the time between releases.
-- [Deployment Coupling](deployment-coupling.md)
-<br/>  Coordinating deployments across coupled components extends the time between releases.
-- [Deployment Risk](deployment-risk.md)
-<br/>  Teams deploy infrequently to minimize risk exposure, but this extends release cycles.
-- [Perfectionist Culture](perfectionist-culture.md)
-<br/>  Reluctance to release anything that isn't perfect extends the time between releases as teams polish endlessly.
-- [Release Anxiety](release-anxiety.md)
-<br/>  Teams delay releases to reduce exposure to the stress of deployment, stretching release cycles as they try to ensure everything is perfect before shipping.
-
 ## Detection Methods ○
 - **Release Frequency Metrics:** Track time between releases and compare to industry standards or goals
 - **Release Preparation Time:** Measure how long teams spend preparing for each release

@@ -47,8 +47,8 @@ Increased bug count occurs when software changes consistently introduce new defe
 <br/>  When changes consistently introduce bugs, developers become hesitant to modify the codebase.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
 <br/>  More bugs introduced during development translate directly into more defects discovered in the live environment.
-
 ## Causes ▼
+
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  A brittle codebase means that small changes have unpredictable widespread effects, introducing more bugs.
 - [Quality Blind Spots](insufficient-testing.md)
@@ -57,27 +57,6 @@ Increased bug count occurs when software changes consistently introduce new defe
 <br/>  Tightly coupled components mean changes in one area inadvertently break others, multiplying bug introduction.
 - [Increased Cognitive Load](increased-cognitive-load.md)
 <br/>  When developers struggle to understand the code, they are more likely to make mistakes that introduce bugs.
-- [Development Disruption](development-disruption.md)
-<br/>  Developers who are constantly interrupted make more errors, introducing more bugs into the codebase.
-- [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
-<br/>  Without refactoring to maintain code quality, each new feature is more likely to introduce defects.
-- [Inconsistent Execution](inconsistent-execution.md)
-<br/>  Variations in how tasks are performed mean quality checks are applied unevenly, allowing more defects through.
-- [Inconsistent Quality](inconsistent-quality.md)
-<br/>  The low-quality parts of the system produce more defects, raising the overall bug count.
-- [Increased Risk of Bugs](increased-risk-of-bugs.md)
-<br/>  A higher risk of bugs directly leads to more bugs accumulating in the system over time.
-- [Large Pull Requests](large-pull-requests.md)
-<br/>  When large pull requests bypass effective review, more defects are introduced into the codebase undetected.
-- [Partial Bug Fixes](partial-bug-fixes.md)
-<br/>  Each partial fix only addresses one instance of the bug while leaving others open, keeping the defect count high.
-- [Regression Bugs](regression-bugs.md)
-<br/>  Regression bugs add to the total bug count as previously fixed issues resurface alongside new defects.
-- [Superficial Code Reviews](superficial-code-reviews.md)
-<br/>  The failure to catch design and logic issues during review leads to a steadily growing number of defects.
-- [Synchronization Problems](synchronization-problems.md)
-<br/>  Each unsynchronized copy of logic becomes a potential source of new bugs as copies diverge over time.
-
 ## Detection Methods ○
 
 - **Bug Tracking Analysis:** Monitor bug report trends, severity distributions, and time-to-resolution metrics

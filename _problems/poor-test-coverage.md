@@ -35,7 +35,6 @@ Poor test coverage occurs when significant portions of the codebase, particularl
 
 ## Symptoms ▲
 
-
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
 <br/>  Untested code paths allow bugs to reach production undetected, increasing production defect rates.
 - [Fear of Change](fear-of-change.md)
@@ -46,8 +45,8 @@ Poor test coverage occurs when significant portions of the codebase, particularl
 <br/>  Gaps in automated test coverage must be compensated by extensive manual testing, which is slow and error-prone.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Without tests to verify correctness, developers avoid refactoring for fear of introducing undetected bugs.
-
 ## Causes ▼
+
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Time pressure leads teams to skip writing tests in favor of delivering features faster.
 - [Difficult to Test Code](difficult-to-test-code.md)
@@ -56,7 +55,6 @@ Poor test coverage occurs when significant portions of the codebase, particularl
 <br/>  Inherited legacy codebases that lack tests make it very difficult to add coverage incrementally.
 - [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
 <br/>  Lack of proper testing tools and infrastructure makes writing and running tests prohibitively difficult.
-
 ## Detection Methods ○
 - **Code Coverage Analysis:** Use tools to measure what percentage of code is executed by tests
 - **Critical Path Identification:** Map business-critical functionality and assess its test coverage

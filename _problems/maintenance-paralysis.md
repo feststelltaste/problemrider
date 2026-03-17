@@ -44,8 +44,8 @@ Maintenance paralysis occurs when development teams become unable to perform nec
 <br/>  Fear of making changes causes the system to stagnate, falling behind on security patches, dependency updates, and improvements.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  When teams are paralyzed from making changes, the architecture cannot evolve to meet new requirements.
-
 ## Causes ▼
+
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Without automated tests, teams cannot verify that changes don't break existing functionality, creating the paralysis.
 - [Poor Test Coverage](poor-test-coverage.md)
@@ -56,15 +56,6 @@ Maintenance paralysis occurs when development teams become unable to perform nec
 <br/>  When only departed developers understood the system, current teams lack the confidence to make safe changes.
 - [History of Failed Changes](history-of-failed-changes.md)
 <br/>  A track record of changes causing production failures reinforces the belief that it's safer not to change anything.
-- [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
-<br/>  Teams cannot get approval for necessary maintenance work because they cannot quantify its value, leading to system deterioration.
-- [Fear of Change](fear-of-change.md)
-<br/>  The team becomes paralyzed and unable to perform necessary maintenance because they cannot verify changes are safe.
-- [High Maintenance Costs](high-maintenance-costs.md)
-<br/>  When maintenance costs dominate the budget, the system enters a state where meaningful improvements become impossible.
-- [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
-<br/>  Without stakeholder support for addressing technical debt, maintenance work stalls and the system becomes harder to change.
-
 ## Detection Methods ○
 - **Change Frequency Analysis:** Measure how often maintenance tasks are proposed versus completed
 - **Technical Debt Tracking:** Monitor accumulation of known issues that remain unaddressed

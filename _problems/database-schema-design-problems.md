@@ -45,8 +45,8 @@ Database schema design problems occur when database structures are poorly planne
 <br/>  Problematic schema designs create difficult migration challenges when schema changes are eventually needed to fix structural issues.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Data redundancy from poor normalization creates opportunities for data inconsistency bugs when updates miss some copies of the data.
-
 ## Causes ▼
+
 - [Implementation Starts Without Design](implementation-starts-without-design.md)
 <br/>  Starting development without proper database design leads to ad hoc schema decisions that accumulate into structural problems.
 - [Insufficient Design Skills](insufficient-design-skills.md)
@@ -55,9 +55,6 @@ Database schema design problems occur when database structures are poorly planne
 <br/>  Time pressure leads to quick-and-dirty schema designs that prioritize immediate needs over long-term data organization.
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
 <br/>  Continuously adding features without refactoring the schema causes tables to bloat with unrelated columns and poor structure.
-- [Poor Domain Model](poor-domain-model.md)
-<br/>  A poor domain model leads to database schemas that don't reflect natural business relationships.
-
 ## Detection Methods ○
 
 - **Schema Complexity Analysis:** Analyze table structures, relationships, and normalization levels

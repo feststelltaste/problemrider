@@ -43,15 +43,14 @@ An organizational structure mismatch is a situation where the structure of the o
 <br/>  Misalignment between organizational and system structure creates unclear communication channels, leading to information loss and miscoordination.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Teams stepping on each other's toes and excessive cross-team coordination slow down the overall pace of development.
-
 ## Causes ▼
+
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  A monolithic architecture forces multiple autonomous teams to work on the same codebase, creating the mismatch between team structure and system boundaries.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  When the system architecture doesn't evolve alongside organizational changes, the mismatch between structure and architecture grows.
 - [Rapid Team Growth](rapid-team-growth.md)
 <br/>  Rapid expansion of teams without corresponding architectural changes creates misalignment between organizational and system structure.
-
 ## Detection Methods ○
 - **Architectural Diagrams:** Create a diagram of the system architecture to identify how the system is structured.
 - **Organizational Charts:** Create a chart of the organization to identify how the teams are structured.

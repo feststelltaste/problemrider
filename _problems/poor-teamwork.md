@@ -46,8 +46,8 @@ Poor teamwork manifests when team members fail to collaborate effectively, work 
 <br/>  Dysfunctional team dynamics and interpersonal conflicts drive skilled developers to leave the organization.
 - [Integration Difficulties](integration-difficulties.md)
 <br/>  Developers making incompatible assumptions in isolation produce modules that don't integrate well together.
-
 ## Causes ▼
+
 - [Blame Culture](blame-culture.md)
 <br/>  A culture of blame discourages collaboration, as team members avoid working together to limit their exposure to blame.
 - [Individual Recognition Culture](individual-recognition-culture.md)
@@ -56,9 +56,6 @@ Poor teamwork manifests when team members fail to collaborate effectively, work 
 <br/>  Excessive micromanagement destroys team trust and autonomy, discouraging open collaboration.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Without shared goals, team members pursue different objectives, creating misalignment and conflict.
-- [Rapid Team Growth](rapid-team-growth.md)
-<br/>  Rapid expansion disrupts established team dynamics and communication patterns, reducing collaboration effectiveness.
-
 ## Detection Methods ○
 
 - **Team Collaboration Assessment:** Evaluate frequency and quality of team interactions

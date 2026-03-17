@@ -40,19 +40,20 @@ Rapid team growth occurs when development teams expand in size quickly, often do
 <br/>  Experienced team members are overwhelmed by onboarding duties, making knowledge transfer slow and incomplete for many new hires.
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  Senior developers spending most of their time on onboarding reduces the team's overall output despite having more people.
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Many new developers joining simultaneously without adequate mentoring leads to divergent coding practices.
 - [Review Bottlenecks](review-bottlenecks.md)
 <br/>  Code review queues become overwhelmed when too many new developers submit code with insufficient senior reviewers available.
-- [Poor Teamwork](poor-teamwork.md)
+- [Team Dysfunction](poor-teamwork.md)
 <br/>  Rapid expansion disrupts established team dynamics and communication patterns, reducing collaboration effectiveness.
-
 ## Causes ▼
+
 - [Scope Creep](scope-creep.md)
 <br/>  Expanding project scope drives the need for rapid hiring to meet increased workload demands.
 - [Poor Planning](poor-planning.md)
 <br/>  Lack of workforce planning leads to reactive bulk hiring instead of gradual, sustainable team growth.
 - [Unrealistic Schedule](unrealistic-schedule.md)
 <br/>  Aggressive deadlines drive management to rapidly expand teams in an attempt to accelerate delivery.
-
 ## Detection Methods ○
 
 - **Hiring Velocity Tracking:** Monitor the rate of new team member additions over time

@@ -35,7 +35,6 @@ Memory fragmentation occurs when the available memory space becomes divided into
 
 ## Symptoms ▲
 
-
 - [Resource Allocation Failures](resource-allocation-failures.md)
 <br/>  Fragmented memory prevents allocation of large contiguous blocks despite sufficient total free memory, causing allocation failures.
 - [Slow Application Performance](slow-application-performance.md)
@@ -44,15 +43,14 @@ Memory fragmentation occurs when the available memory space becomes divided into
 <br/>  Memory fragmentation forces the OS to use more virtual memory pages, increasing page faults and potentially causing thrashing.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  Fragmentation worsens over time in long-running applications, causing a steady decline in memory allocation and access performance.
-
 ## Causes ▼
+
 - [Memory Leaks](memory-leaks.md)
 <br/>  Memory leaks leave allocated blocks scattered throughout the heap, contributing to fragmentation patterns as freed surrounding memory becomes non-contiguous.
 - [Excessive Object Allocation](excessive-object-allocation.md)
 <br/>  Frequent allocation and deallocation of many objects of varying sizes is a primary driver of heap fragmentation.
 - [Alignment and Padding Issues](alignment-and-padding-issues.md)
 <br/>  Poor alignment and excessive padding waste memory space and create gaps that contribute to fragmentation.
-
 ## Detection Methods ○
 
 - **Memory Profiling Tools:** Use heap analysis tools to visualize memory layout and fragmentation levels

@@ -47,8 +47,8 @@ Lack of ownership and accountability occurs when no individual or team takes cle
 <br/>  System quality erodes over time when there is no ownership to maintain and improve it.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Without clear ownership, refactoring is avoided because no one feels responsible for improving shared code.
-
 ## Causes ▼
+
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
 <br/>  When roles and responsibilities are not clearly defined, ownership naturally becomes ambiguous.
 - [Team Churn Impact](team-churn-impact.md)
@@ -57,7 +57,6 @@ Lack of ownership and accountability occurs when no individual or team takes cle
 <br/>  Organizational boundaries that do not align with system architecture leave components without clear team ownership.
 - [Project Authority Vacuum](project-authority-vacuum.md)
 <br/>  Absence of clear project authority means no one assigns or enforces component ownership.
-
 ## Detection Methods ○
 - **Responsibility Mapping:** Create explicit matrices showing who owns what components and quality aspects
 - **Maintenance Task Tracking:** Monitor how long maintenance tasks remain unassigned or incomplete

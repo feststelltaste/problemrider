@@ -42,8 +42,8 @@ Review bottlenecks occur when the code review process consistently slows down th
 <br/>  Features and fixes that are ready but stuck in review queues cannot reach users, delaying value delivery.
 - [Author Frustration](author-frustration.md)
 <br/>  Developers become frustrated when their completed work sits idle in review queues for extended periods.
-
 ## Causes ▼
+
 - [Reduced Review Participation](reduced-review-participation.md)
 <br/>  When few team members participate in reviews, all review work falls on a small number of people, creating a bottleneck.
 - [Large Pull Requests](large-pull-requests.md)
@@ -52,19 +52,6 @@ Review bottlenecks occur when the code review process consistently slows down th
 <br/>  Requirements for specific individuals to approve changes create bottlenecks when those individuals are unavailable.
 - [Time Pressure](time-pressure.md)
 <br/>  Under time pressure, developers prioritize their own tasks over reviewing others' code, allowing review queues to grow.
-- [Code Review Inefficiency](code-review-inefficiency.md)
-<br/>  Slow and cumbersome review processes create bottlenecks that delay feature delivery.
-- [Flaky Tests](flaky-tests.md)
-<br/>  CI pipelines blocked by flaky test failures delay code review and merge processes.
-- [Perfectionist Review Culture](perfectionist-review-culture.md)
-<br/>  Perfectionist reviews take so long that the review process becomes a major bottleneck in the development pipeline.
-- [Rapid Team Growth](rapid-team-growth.md)
-<br/>  Code review queues become overwhelmed when too many new developers submit code with insufficient senior reviewers available.
-- [Reviewer Anxiety](reviewer-anxiety.md)
-<br/>  When anxious reviewers take excessively long on simple reviews or avoid reviewing entirely, review throughput drops and creates bottlenecks.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md)
-<br/>  When only a few team members actively review code, pull requests queue up waiting for their attention.
-
 ## Detection Methods ○
 - **Pull Request Lead Time:** Track the time it takes from when a pull request is created to when it is merged.
 - **Reviewer Load:** Analyze the number of pull requests that are assigned to each reviewer.

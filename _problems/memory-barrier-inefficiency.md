@@ -35,18 +35,20 @@ Memory barrier inefficiency occurs when applications use memory barriers (fences
 
 ## Symptoms ▲
 
-
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Excessive memory barriers cause CPU pipeline stalls that directly degrade application performance.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As more memory barriers are added over time to fix concurrency bugs, cumulative pipeline stalls progressively worsen performance.
 - [Resource Contention](resource-contention.md)
 <br/>  Memory barriers force serialization of memory operations, creating CPU resource contention in multi-threaded code.
-
 ## Causes ▼
+
+- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
+<br/>  Without clear ownership of concurrent code, developers add defensive memory barriers rather than understanding actual ordering requirements.
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Developers lacking deep understanding of CPU memory models and concurrency add excessive barriers as a safety measure.
 - [Fear of Change](fear-of-change.md)
 <br/>  Fear of introducing concurrency bugs leads developers to use overly conservative memory barrier placement rather than optimizing for correctness and performance.
-
 ## Detection Methods ○
 
 - **Memory Barrier Profiling:** Profile memory barrier frequency and impact on performance

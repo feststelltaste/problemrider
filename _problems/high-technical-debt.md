@@ -48,79 +48,18 @@ High technical debt is the implied cost of rework caused by choosing an easy (li
 <br/>  High technical debt makes changes risky, causing developers and management to resist modifications to the system.
 - [Inability to Innovate](inability-to-innovate.md)
 <br/>  Teams spend so much effort managing debt-laden code that they have no capacity to explore new approaches or technologies.
-
 ## Causes ▼
+
+- [Refactoring Avoidance](refactoring-avoidance.md)
+<br/>  When code is never improved or restructured, design shortcuts and complexity accumulate over time into significant debt.
 - [Time Pressure](time-pressure.md)
 <br/>  Tight deadlines push developers to take shortcuts and skip quality practices, directly creating technical debt.
-- [Insufficient Testing](insufficient-testing.md)
+- [Review Process Breakdown](insufficient-code-review.md)
+<br/>  Without peer review, poor design decisions and implementation shortcuts enter the codebase unchallenged.
+- [Quality Blind Spots](insufficient-testing.md)
 <br/>  Without tests, refactoring is risky, so debt-laden code remains untouched and accumulates further.
 - [Implementation Starts Without Design](implementation-starts-without-design.md)
 <br/>  Coding without upfront design leads to ad-hoc architecture and implementation shortcuts that become technical debt.
-- [Accumulated Decision Debt](accumulated-decision-debt.md)
-<br/>  Each deferred decision adds to the system's overall technical debt as temporary solutions become permanent.
-- [Accumulation of Workarounds](accumulation-of-workarounds.md)
-<br/>  Each workaround adds complexity and technical debt to the system, compounding over time.
-- [Architectural Mismatch](architectural-mismatch.md)
-<br/>  Forcing new requirements into an incompatible architecture creates significant technical debt through compromised designs.
-- [Constant Firefighting](constant-firefighting.md)
-<br/>  Constant firefighting prevents the team from addressing root causes, so technical debt accumulates as quick fixes pile up.
-- [Convenience-Driven Development](convenience-driven-development.md)
-<br/>  Consistently choosing the easiest solution over the best solution accumulates design shortcuts that become technical debt.
-- [Deadline Pressure](deadline-pressure.md)
-<br/>  Rushing to meet deadlines leads teams to take shortcuts and defer proper implementations, accumulating technical debt.
-- [Delayed Bug Fixes](delayed-bug-fixes.md)
-<br/>  Unfixed bugs compound over time as surrounding code evolves, making eventual fixes more complex and risky.
-- [Delayed Issue Resolution](delayed-issue-resolution.md)
-<br/>  Unresolved issues accumulate as technical debt, making the system progressively harder to maintain and evolve.
-- [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
-<br/>  Inability to justify technical improvements leads to systematic under-investment, causing technical debt to accumulate.
-- [Fear of Breaking Changes](fear-of-breaking-changes.md)
-<br/>  Avoiding necessary changes causes technical debt to accumulate as the codebase becomes increasingly outdated.
-- [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
-<br/>  Adding features without refactoring directly accumulates design and implementation shortcuts that increase long-term costs.
-- [Feature Factory](feature-factory.md)
-<br/>  Continuous feature delivery without time for quality work accumulates design shortcuts and technical debt.
-- [Review Process Breakdown](inadequate-code-reviews.md)
-<br/>  Superficial reviews allow shortcuts and poor design decisions to accumulate, increasing technical debt over time.
-- [Incomplete Projects](incomplete-projects.md)
-<br/>  Partially completed features leave behind dead code, half-implemented patterns, and architectural compromises that add to technical debt.
-- [Increased Technical Shortcuts](increased-technical-shortcuts.md)
-<br/>  Each shortcut adds to the system's technical debt, compounding maintenance burden over time.
-- [Review Process Breakdown](insufficient-code-review.md)
-<br/>  Design flaws and shortcuts that pass through inadequate reviews accumulate as technical debt.
-- [Insufficient Design Skills](insufficient-design-skills.md)
-<br/>  Poor design decisions accumulate technical debt that becomes increasingly expensive to address.
-- [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
-<br/>  When stakeholders cannot see technical debt, they do not allocate resources to address it, causing it to grow.
-- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
-<br/>  Without owners accountable for code quality, technical debt accumulates as no one prioritizes addressing it.
-- [Lower Code Quality](lower-code-quality.md)
-<br/>  Consistently lower code quality accumulates technical debt as shortcuts and poor implementations pile up.
-- [Maintenance Paralysis](maintenance-paralysis.md)
-<br/>  When teams cannot perform necessary maintenance and refactoring, technical debt accumulates unchecked.
-- [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
-<br/>  Deploying prototype code to production introduces massive technical debt from missing tests, documentation, and proper design.
-- [Refactoring Avoidance](refactoring-avoidance.md)
-<br/>  Avoiding refactoring allows technical debt to accumulate unchecked, as structural improvements are never made.
-- [Resistance to Change](resistance-to-change.md)
-<br/>  Avoiding necessary refactoring and improvements allows technical debt to accumulate unchecked over time.
-- [Review Process Breakdown](review-process-breakdown.md)
-<br/>  Without effective reviews to catch design shortcuts and poor patterns, technical debt accumulates faster in the codebase.
-- [Rushed Approvals](rushed-approvals.md)
-<br/>  Without thorough review, design shortcuts and poor patterns accumulate in the codebase as technical debt.
-- [Short-Term Focus](short-term-focus.md)
-<br/>  Consistently choosing quick solutions over proper engineering accumulates technical debt that compounds over time.
-- [Stagnant Architecture](stagnant-architecture.md)
-<br/>  Bolting new functionality onto an outdated architecture creates mounting technical debt.
-- [Superficial Code Reviews](superficial-code-reviews.md)
-<br/>  Poor design decisions pass review unchallenged, accumulating technical debt that compounds over time.
-- [Test Debt](test-debt.md)
-<br/>  Test debt is a major component of overall technical debt, contributing to the system becoming increasingly fragile and costly to maintain.
-- [Uncontrolled Codebase Growth](uncontrolled-codebase-growth.md)
-<br/>  Uncontrolled growth adds complexity without design consideration, steadily accumulating technical debt.
-- [Workaround Culture](workaround-culture.md)
-<br/>  Each workaround adds technical debt as temporary solutions accumulate without being replaced by proper implementations.
-
 ## Detection Methods ○
 
 - **Codebase Metrics:** Monitor metrics like cyclomatic complexity, coupling, and code coverage. High values often indicate technical debt.

@@ -46,17 +46,14 @@ Service discovery failures occur when distributed systems cannot reliably locate
 <br/>  Services unable to discover their dependencies generate connection errors and service-not-found errors at elevated rates.
 - [Slow Incident Resolution](slow-incident-resolution.md)
 <br/>  Service discovery failures are difficult to diagnose because they manifest as various downstream symptoms, making root cause identification slow.
-
 ## Causes ▼
+
 - [Network Latency](network-latency.md)
 <br/>  High network latency causes service registration and health check timeouts, leaving the discovery registry with stale information.
 - [Configuration Drift](configuration-drift.md)
 <br/>  Service discovery configurations drift across environments, causing inconsistent service registration and resolution behavior.
 - [Poor System Environment](poor-system-environment.md)
 <br/>  Unstable infrastructure hosting service discovery components leads to intermittent failures in service registration and resolution.
-- [Microservice Communication Overhead](microservice-communication-overhead.md)
-<br/>  High volumes of inter-service communication increase the load on service discovery mechanisms, making failures more likely.
-
 ## Detection Methods ○
 
 - **Service Discovery Monitoring:** Monitor service registry health and response times

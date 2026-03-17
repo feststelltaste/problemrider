@@ -46,8 +46,8 @@ Dependency version conflicts occur when applications or their dependencies requi
 <br/>  Incompatible dependency versions cause unexpected runtime errors and method-not-found exceptions in production.
 - [Integration Difficulties](integration-difficulties.md)
 <br/>  Version conflicts between libraries make integrating new components or upgrading existing ones extremely difficult.
-
 ## Causes ▼
+
 - [Hidden Dependencies](hidden-dependencies.md)
 <br/>  Transitive dependencies that are not explicitly tracked bring in unexpected version requirements that conflict with direct dependencies.
 - [Shared Dependencies](shared-dependencies.md)
@@ -56,7 +56,6 @@ Dependency version conflicts occur when applications or their dependencies requi
 <br/>  Monolithic systems force all components to share a single dependency tree, making version conflicts more likely.
 - [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md)
 <br/>  Poor API versioning in legacy libraries forces consumers to pin specific versions, creating conflicts with other dependencies.
-
 ## Detection Methods ○
 
 - **Dependency Auditing:** Regularly audit dependency trees for version conflicts

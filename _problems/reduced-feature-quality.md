@@ -36,7 +36,6 @@ Reduced feature quality occurs when delivered functionality lacks the polish, re
 
 ## Symptoms ▲
 
-
 - [Feature Gaps](feature-gaps.md)
 <br/>  Lower-quality features with rough edges and missing polish lead to perceived gaps in functionality from the user perspective.
 - [Quality Degradation](quality-degradation.md)
@@ -45,8 +44,8 @@ Reduced feature quality occurs when delivered functionality lacks the polish, re
 <br/>  Users and developers create workarounds to compensate for poorly implemented features that lack refinement.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Poorly polished features with usability issues directly result in frustrated users and lower satisfaction scores.
-
 ## Causes ▼
+
 - [Unrealistic Schedule](unrealistic-schedule.md)
 <br/>  Tight deadlines leave insufficient time for feature polish and refinement.
 - [Quality Compromises](quality-compromises.md)
@@ -55,9 +54,6 @@ Reduced feature quality occurs when delivered functionality lacks the polish, re
 <br/>  Expanding scope forces teams to spread effort across more features, reducing the quality achievable for each one.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Time spent resolving production emergencies leaves less time for thoughtful feature development and refinement.
-- [Feature Factory](feature-factory.md)
-<br/>  Pressure to ship many features means less time for polish and refinement of each individual feature.
-
 ## Detection Methods ○
 
 - **User Feedback Analysis:** Monitor user comments, support tickets, and feature adoption rates

@@ -44,13 +44,14 @@ Change management chaos occurs when modifications to systems, code, configuratio
 <br/>  Without coordinated change control, system configurations diverge from expected states across environments.
 - [Breaking Changes](breaking-changes.md)
 <br/>  API and interface changes made without coordination break existing client integrations.
-
 ## Causes ▼
+
 - [Team Coordination Issues](team-coordination-issues.md)
 <br/>  Poor communication and coordination between teams leads to conflicting changes being deployed simultaneously.
+- [Information Decay](poor-documentation.md)
+<br/>  Lack of documented change procedures and system dependencies means teams cannot assess the impact of their changes.
 - [Rapid System Changes](rapid-system-changes.md)
 <br/>  High pace of system modifications makes it difficult to coordinate and review changes properly.
-
 ## Detection Methods ○
 
 - **Change Impact Analysis:** Track how often changes cause unintended side effects

@@ -42,19 +42,18 @@ Power struggles occur when different individuals, teams, or departments compete 
 <br/>  Conflicting directions from competing authorities leave team members unsure about what to work on.
 - [Wasted Development Effort](wasted-development-effort.md)
 <br/>  Work gets discarded when one authority overrules another's decisions, invalidating completed development.
-- [Delayed Decision-Making](delayed-decision-making.md)
+- [Delayed Decision Making](delayed-decision-making.md)
 <br/>  Decisions require negotiation between competing parties, delaying progress on time-sensitive issues.
 - [Team Dysfunction](team-dysfunction.md)
 <br/>  Political factions form within teams as members align with competing authorities, damaging collaboration.
-
 ## Causes ▼
+
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Without clear organizational goals, departments fill the vacuum by asserting their own competing visions.
 - [Project Authority Vacuum](project-authority-vacuum.md)
 <br/>  Lack of clear executive sponsorship creates a void that multiple managers attempt to fill with competing authority.
 - [Competing Priorities](competing-priorities.md)
 <br/>  When organizational priorities conflict, departments fight for control to ensure their priorities win out.
-
 ## Detection Methods ○
 
 - **Decision Delay Analysis:** Track how long decisions take and identify causes of delays

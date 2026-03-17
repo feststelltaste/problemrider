@@ -34,37 +34,24 @@ Misaligned deliverables are a classic symptom of a breakdown in communication be
 
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  When delivered features do not match expectations, stakeholders lose confidence in the development team.
+- [Resource Waste](resource-waste.md)
+<br/>  Misaligned deliverables must be rebuilt or significantly modified to match actual requirements, creating rework.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  Rework cycles from misaligned deliverables delay the delivery of actual business value to users.
 - [Wasted Development Effort](wasted-development-effort.md)
 <br/>  Features built to incorrect specifications represent wasted development time and resources.
-
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  Repeated misalignment between what is delivered and what was expected erodes trust between development and business teams.
 ## Causes ▼
+
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
 <br/>  Poor communication between stakeholders and developers leads to misunderstanding of what needs to be built.
-- [No Continuous Feedback Loop](no-continuous-feedback-loop.md)
+- [Feedback Isolation](no-continuous-feedback-loop.md)
 <br/>  Without regular feedback during development, misalignment is not detected until delivery when it is costly to fix.
 - [Assumption-Based Development](assumption-based-development.md)
 <br/>  Developers making assumptions about requirements instead of validating them leads to deliverables that miss stakeholder expectations.
-- [Communication Breakdown](communication-breakdown.md)
-<br/>  Poor communication leads to different interpretations of requirements, producing deliverables that miss the mark.
-- [Communication Risk Outside Project](communication-risk-outside-project.md)
-<br/>  Without ongoing external communication, the delivered product diverges from evolving stakeholder needs.
-- [Feedback Isolation](feedback-isolation.md)
-<br/>  Without ongoing feedback, the delivered product diverges from stakeholder expectations and actual user needs.
-- [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
-<br/>  Delivered features do not match stakeholder expectations because requirements were not properly understood upfront.
-- [Language Barriers](language-barriers.md)
-<br/>  Misunderstandings caused by language differences lead to developers building features that don't match stakeholder expectations.
-- [Poor Contract Design](poor-contract-design.md)
-<br/>  Contract terms that don't match technical reality produce deliverables that meet contract specifications but fail actual needs.
-- [Product Direction Chaos](product-direction-chaos.md)
-<br/>  Without unified product direction, deliverables fail to meet any stakeholder's actual needs.
 - [Requirements Ambiguity](requirements-ambiguity.md)
-<br/>  Vague requirements allow different interpretations, resulting in delivered features that don't match what stakeholders actually needed.
-- [Scope Change Resistance](scope-change-resistance.md)
-<br/>  When necessary scope changes are resisted, the delivered product does not match evolving stakeholder needs and actual requirements.
-
+<br/>  Ambiguous or incomplete requirements leave room for misinterpretation and divergent expectations.
 ## Detection Methods ○
 
 - **Regular Demos and Feedback Sessions:** Frequent, iterative demonstrations of working software to stakeholders to gather early and continuous feedback.

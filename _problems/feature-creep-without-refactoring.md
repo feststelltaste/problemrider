@@ -44,8 +44,8 @@ Feature creep without refactoring is the process of continuously adding new feat
 <br/>  The codebase becomes progressively harder to understand as features are added without improving the underlying design.
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Continuous feature additions without structural improvement create tangled, unstructured code that is nearly impossible to maintain.
-
 ## Causes ▼
+
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Pressure to deliver features quickly leaves no time allocated for refactoring or design improvement.
 - [Short-Term Focus](short-term-focus.md)
@@ -54,7 +54,6 @@ Feature creep without refactoring is the process of continuously adding new feat
 <br/>  An organizational culture obsessed with feature output metrics discourages spending time on non-feature work like refactoring.
 - [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
 <br/>  When technical debt is not visible to stakeholders, there is no support for allocating time to refactoring alongside feature development.
-
 ## Detection Methods ○
 - **Code Metrics Tools:** Use tools to measure code complexity, class size, and other metrics.
 - **Code Reviews:** Look for code that is difficult to understand and review.

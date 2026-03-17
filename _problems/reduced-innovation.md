@@ -35,7 +35,6 @@ Reduced innovation occurs when development teams lose their drive to explore new
 
 ## Symptoms ▲
 
-
 - [Technology Isolation](technology-isolation.md)
 <br/>  Resistance to new ideas causes the team to fall behind on technology trends, becoming isolated from the broader ecosystem.
 - [Inability to Innovate](inability-to-innovate.md)
@@ -46,8 +45,8 @@ Reduced innovation occurs when development teams lose their drive to explore new
 <br/>  Failure to adopt better technologies and approaches causes the organization to fall behind competitors.
 - [Increased Manual Work](increased-manual-work.md)
 <br/>  Refusing to adopt modern automation tools forces teams to continue performing tasks manually.
-
 ## Causes ▼
+
 - [Fear of Failure](fear-of-failure.md)
 <br/>  Fear of negative consequences from trying new approaches makes teams default to safe, familiar solutions.
 - [Resistance to Change](resistance-to-change.md)
@@ -56,27 +55,6 @@ Reduced innovation occurs when development teams lose their drive to explore new
 <br/>  Teams consumed by production emergencies have no bandwidth to explore innovative solutions or improvements.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Heavy technical debt burden leaves no capacity for experimentation, as all effort goes to maintaining existing systems.
-- [Avoidance Behaviors](avoidance-behaviors.md)
-<br/>  When team members avoid challenging tasks, the team loses its ability to innovate and solve difficult problems.
-- [Blame Culture](blame-culture.md)
-<br/>  Fear of blame for failed experiments kills willingness to try new approaches or technologies.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
-<br/>  Burned-out teams lack the energy and motivation to explore new approaches or propose improvements.
-- [Inability to Innovate](inability-to-innovate.md)
-<br/>  The team's inability to innovate directly manifests as a measurable reduction in innovative output and improvements.
-- [Limited Team Learning](limited-team-learning.md)
-<br/>  Teams that don't learn from experience stop exploring new approaches and fall into repetitive patterns.
-- [Maintenance Cost Increase](maintenance-cost-increase.md)
-<br/>  When maintenance consumes the bulk of the budget, there is little left to invest in new features and innovation.
-- [Perfectionist Culture](perfectionist-culture.md)
-<br/>  Fear of releasing imperfect work stifles experimentation and innovation, as teams avoid risky but potentially valuable ideas.
-- [Team Demoralization](team-demoralization.md)
-<br/>  Demoralized teams stop suggesting improvements or experimenting with new approaches because they feel their efforts don't matter.
-- [Technology Isolation](technology-isolation.md)
-<br/>  Isolation from modern ecosystems prevents the team from leveraging current tools, libraries, and practices for innovation.
-- [Technology Lock-In](technology-lock-in.md)
-<br/>  Inability to adopt new technologies limits the team's ability to innovate and leverage modern capabilities.
-
 ## Detection Methods ○
 - **Technology Adoption Tracking:** Monitor whether team adopts new tools, frameworks, or practices over time
 - **Proposal Frequency:** Track how often team members suggest improvements or new approaches

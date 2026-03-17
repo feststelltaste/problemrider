@@ -42,8 +42,8 @@ Automated tooling ineffectiveness is a situation where automated tooling, such a
 <br/>  When automated formatters are ineffective, style disagreements must be resolved manually in code reviews.
 - [Increased Manual Work](increased-manual-work.md)
 <br/>  When automated tools cannot do their job, developers must manually perform checks that should be automated.
-
 ## Causes ▼
+
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Without consistent coding standards, automated tools cannot be configured effectively.
 - [Mixed Coding Styles](mixed-coding-styles.md)
@@ -52,9 +52,6 @@ Automated tooling ineffectiveness is a situation where automated tooling, such a
 <br/>  Without defined style guidelines, there is no baseline for configuring automated tools.
 - [Tool Limitations](tool-limitations.md)
 <br/>  The tools themselves may have limitations that prevent them from handling the codebase's complexity or patterns.
-- [Inconsistent Codebase](inconsistent-codebase.md)
-<br/>  Linters and formatters cannot be configured consistently when the codebase follows multiple conflicting conventions.
-
 ## Detection Methods ○
 - **Analyze the output of the automated tooling:** Look for a large number of violations.
 - **Team Surveys:** Ask developers if they are using the automated tooling consistently.

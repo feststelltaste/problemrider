@@ -33,21 +33,22 @@ Virtual memory thrashing occurs when the system's working set of active pages ex
 
 ## Symptoms ▲
 
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Thrashing causes the system to spend most of its time swapping pages rather than processing, leading to severe performance degradation.
 - [Excessive Disk I/O](excessive-disk-io.md)
 <br/>  Constant page swapping between RAM and disk generates extremely high disk I/O activity.
 - [Service Timeouts](service-timeouts.md)
 <br/>  Applications become so slow during thrashing that they fail to respond within timeout windows.
-
+- [Release Instability](release-instability.md)
+<br/>  Severe thrashing can render systems unresponsive and lead to crashes or forced restarts.
 ## Causes ▼
+
 - [Memory Leaks](memory-leaks.md)
 <br/>  Memory leaks gradually consume available RAM until the system must rely heavily on virtual memory, causing thrashing.
 - [Resource Contention](resource-contention.md)
 <br/>  Multiple processes competing for limited memory resources cause the system to exceed physical memory capacity.
 - [Unbounded Data Growth](unbounded-data-growth.md)
 <br/>  Growing datasets that are loaded into memory can exceed physical RAM capacity, triggering thrashing.
-- [Memory Fragmentation](memory-fragmentation.md)
-<br/>  Memory fragmentation forces the OS to use more virtual memory pages, increasing page faults and potentially causing thrashing.
-
 ## Detection Methods ○
 
 - **System Memory Monitoring:** Monitor physical memory usage, swap usage, and available memory

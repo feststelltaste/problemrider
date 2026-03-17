@@ -42,15 +42,14 @@ Tangled cross-cutting concerns is a situation where cross-cutting concerns, such
 <br/>  Maintaining cross-cutting logic scattered throughout the codebase requires disproportionate effort for any change.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
 <br/>  Business logic becomes hard to understand when interleaved with transaction management, security checks, and logging code.
-
 ## Causes ▼
+
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
 <br/>  Poor separation of concerns at the architectural level leads to cross-cutting logic being embedded directly in business components.
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
 <br/>  Continuously adding features without restructuring leads to cross-cutting concerns being mixed into business logic incrementally.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers lacking experience with separation-of-concerns patterns embed cross-cutting logic directly into business code.
-
 ## Detection Methods ○
 - **Code Reviews:** Look for code where cross-cutting concerns are mixed in with the business logic.
 - **Static Analysis Tools:** Use tools to identify duplicated code and other code smells.

@@ -36,19 +36,22 @@ Race conditions occur when multiple threads or processes access and manipulate s
 
 ## Symptoms ▲
 
-
+- [Silent Data Corruption](silent-data-corruption.md)
+<br/>  Unsynchronized concurrent writes corrupt shared data, producing inconsistent or invalid state.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Race conditions manifest as sporadic, timing-dependent failures that are difficult to reproduce.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  The timing-dependent nature of race conditions makes them extremely hard to reproduce and diagnose.
 ## Causes ▼
+
 - [Synchronization Problems](synchronization-problems.md)
 <br/>  Lack of proper synchronization mechanisms for shared resource access is the direct technical cause of race conditions.
-- [Insufficient Testing](insufficient-testing.md)
+- [Skill Development Gaps](skill-development-gaps.md)
+<br/>  Developers lacking concurrent programming expertise fail to identify and prevent race conditions.
+- [Quality Blind Spots](insufficient-testing.md)
 <br/>  Standard testing rarely exercises concurrent code paths adequately, allowing race conditions to persist undetected.
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Concurrency scenarios are rarely included in test suites, leaving race conditions untested.
-- [DMA Coherency Issues](dma-coherency-issues.md)
-<br/>  DMA coherency problems manifest as race conditions between the CPU cache and DMA device accessing the same memory regions concurrently.
-- [Global State and Side Effects](global-state-and-side-effects.md)
-<br/>  Mutable global state accessed by multiple threads without synchronization leads to data races and corruption.
-
 ## Detection Methods ○
 
 - **Stress Testing:** Run applications under high concurrency to increase the likelihood of race conditions manifesting

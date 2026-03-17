@@ -43,13 +43,12 @@ Lazy loading is a design pattern that is used to defer the initialization of an 
 <br/>  The excessive number of database round-trips caused by lazy loading makes the application feel sluggish to users.
 - [High Database Resource Utilization](high-database-resource-utilization.md)
 <br/>  The flood of small queries from lazy loading consumes excessive database CPU and connection resources.
-
 ## Causes ▼
+
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers unfamiliar with ORM behavior may use default lazy loading settings without understanding the performance implications.
 - [Convenience-Driven Development](convenience-driven-development.md)
 <br/>  Lazy loading is often the default and most convenient ORM option, and developers choose it without evaluating the performance trade-offs.
-
 ## Detection Methods ○
 - **Application Performance Monitoring (APM):** APM tools can often detect and flag the N+1 query problem, which is a common symptom of lazy loading.
 - **SQL Logging:** Enable SQL logging in your application or database and inspect the logs for a large number of similar-looking queries.

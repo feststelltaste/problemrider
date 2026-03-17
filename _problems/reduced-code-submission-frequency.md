@@ -37,12 +37,16 @@ Reduced code submission frequency occurs when developers intentionally batch mul
 
 - [Large Pull Requests](large-pull-requests.md)
 <br/>  Batching multiple changes together to avoid frequent review cycles directly produces oversized pull requests.
-- [Inadequate Code Reviews](inadequate-code-reviews.md)
+- [Review Process Breakdown](inadequate-code-reviews.md)
 <br/>  Large batched submissions are harder to review thoroughly, reducing the quality and effectiveness of code reviews.
+- [Integration Difficulties](integration-difficulties.md)
+<br/>  Infrequent code submissions increase the likelihood of merge conflicts and integration issues with teammates' work.
+- [Feedback Isolation](no-continuous-feedback-loop.md)
+<br/>  Less frequent submissions mean developers get feedback later, when design decisions are harder to change.
 - [Regression Bugs](regression-bugs.md)
 <br/>  Large, complex changes submitted infrequently are more likely to introduce regressions that are difficult to isolate.
-
 ## Causes ▼
+
 - [Review Bottlenecks](review-bottlenecks.md)
 <br/>  Slow review processes discourage frequent submissions as developers avoid waiting repeatedly for reviews.
 - [Review Process Avoidance](review-process-avoidance.md)
@@ -51,21 +55,6 @@ Reduced code submission frequency occurs when developers intentionally batch mul
 <br/>  Anxiety about submitting code that might be criticized causes developers to delay submissions until they feel everything is perfect.
 - [Code Review Inefficiency](code-review-inefficiency.md)
 <br/>  Inefficient review processes that focus on trivial issues discourage developers from submitting frequently.
-- [Author Frustration](author-frustration.md)
-<br/>  Developers submit code less frequently to avoid dealing with unpredictable and frustrating review feedback.
-- [Conflicting Reviewer Opinions](conflicting-reviewer-opinions.md)
-<br/>  Developers batch changes or delay submissions to avoid the frustrating experience of navigating contradictory reviewer feedback.
-- [Defensive Coding Practices](defensive-coding-practices.md)
-<br/>  Developers spend extra time adding defensive code to preempt review criticism, delaying their submissions.
-- [Extended Review Cycles](extended-review-cycles.md)
-<br/>  Developers batch changes to avoid frequent painful review cycles, reducing integration frequency.
-- [Long Build and Test Times](long-build-and-test-times.md)
-<br/>  When builds take too long, developers batch changes together to avoid waiting, submitting less frequently.
-- [Perfectionist Review Culture](perfectionist-review-culture.md)
-<br/>  Developers batch changes or delay submissions to avoid the lengthy review cycles that perfectionist culture creates.
-- [Reduced Review Participation](reduced-review-participation.md)
-<br/>  When few reviewers are available, developers delay submissions to avoid long review wait times.
-
 ## Detection Methods ○
 
 - **Submission Frequency Tracking:** Monitor how often individual developers submit code for review

@@ -46,8 +46,8 @@ Increased cognitive load occurs when developers must use excessive mental resour
 <br/>  Developers complete fewer tasks because much of their effort goes toward comprehending rather than creating code.
 - [Mental Fatigue](mental-fatigue.md)
 <br/>  Excessive cognitive demands drain developers mentally, leaving them exhausted without significant accomplishment.
-
 ## Causes ▼
+
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Inconsistent conventions force developers to constantly adapt to different patterns throughout the codebase.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
@@ -56,23 +56,6 @@ Increased cognitive load occurs when developers must use excessive mental resour
 <br/>  Tightly coupled components require developers to understand many interconnected parts simultaneously.
 - [Inconsistent Naming Conventions](inconsistent-naming-conventions.md)
 <br/>  Unpredictable naming patterns add unnecessary mental overhead when navigating and understanding code.
-- [Clever Code](clever-code.md)
-<br/>  Understanding clever code requires maintaining complex mental models of advanced patterns, increasing cognitive burden.
-- [Defensive Coding Practices](defensive-coding-practices.md)
-<br/>  Overly verbose code with excessive comments and unnecessary defensive logic increases the mental effort needed to understand the codebase.
-- [Difficult Code Comprehension](difficult-code-comprehension.md)
-<br/>  Hard-to-comprehend code forces developers to hold excessive context in memory, increasing mental burden.
-- [Excessive Class Size](excessive-class-size.md)
-<br/>  Developers must hold the entire large class in their working memory to safely make changes, increasing mental burden.
-- [Feature Bloat](feature-bloat.md)
-<br/>  Developers must understand and maintain an ever-growing set of features, increasing mental overhead for every change.
-- [God Object Anti-Pattern](god-object-anti-pattern.md)
-<br/>  Understanding a god object requires holding many unrelated concepts in mind simultaneously.
-- [Inconsistent Codebase](inconsistent-codebase.md)
-<br/>  Developers must mentally switch between different conventions and patterns when working across modules.
-- [Poor Naming Conventions](poor-naming-conventions.md)
-<br/>  Developers must expend extra mental effort to decode unclear names, reducing their capacity for problem-solving.
-
 ## Detection Methods ○
 - **Time Tracking:** Monitor how long simple tasks take compared to estimates or historical averages
 - **Developer Surveys:** Ask team members about their experience working with different parts of the codebase

@@ -45,8 +45,8 @@ Inconsistent quality occurs when different parts of a software system exhibit dr
 <br/>  Users encountering problems in the lower-quality parts of the system generate more support requests.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  The unreliable parts of the system frustrate users and damage their overall perception of the product.
-
 ## Causes ▼
+
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  Without clear ownership, some system areas receive attention while others are neglected and deteriorate.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
@@ -55,19 +55,6 @@ Inconsistent quality occurs when different parts of a software system exhibit dr
 <br/>  Accumulated technical debt concentrates in certain areas, causing those parts to deteriorate while maintained areas stay healthy.
 - [Quality Blind Spots](insufficient-testing.md)
 <br/>  Uneven test coverage means some parts of the system have comprehensive quality assurance while others have none.
-- [Communication Breakdown](communication-breakdown.md)
-<br/>  Without shared standards and communication about approaches, different parts of the system are built to different quality levels.
-- [Inconsistent Execution](inconsistent-execution.md)
-<br/>  When the same processes are performed differently each time, the quality of outputs varies unpredictably across the system.
-- [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
-<br/>  Without shared standards and practices, quality varies across the codebase and team members.
-- [Quality Compromises](quality-compromises.md)
-<br/>  Some parts of the system are well-built while areas developed under pressure have notably lower quality.
-- [Superficial Code Reviews](superficial-code-reviews.md)
-<br/>  Without thorough design review, code quality varies wildly depending on individual developer skill rather than team standards.
-- [Testing Complexity](testing-complexity.md)
-<br/>  Some instances of duplicated functionality get thoroughly tested while others are missed, resulting in uneven quality.
-
 ## Detection Methods ○
 
 - **Quality Metric Analysis:** Compare code quality metrics (complexity, test coverage, bug rates) across different system components

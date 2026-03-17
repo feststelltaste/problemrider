@@ -47,8 +47,8 @@ Schema evolution paralysis occurs when database schemas become so entrenched wit
 <br/>  When the database schema cannot evolve, the overall architecture stagnates because the data model is foundational to system design.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Business stakeholders become frustrated when seemingly simple feature requests take months due to database schema constraints.
-
 ## Causes ▼
+
 - [Database Schema Design Problems](database-schema-design-problems.md)
 <br/>  Poor initial schema design creates rigid structures with complex interdependencies that become increasingly difficult to modify over time.
 - [Shared Database](shared-database.md)
@@ -57,7 +57,6 @@ Schema evolution paralysis occurs when database schemas become so entrenched wit
 <br/>  Past failed schema migrations create anxiety about any database changes, reinforcing avoidance behavior that leads to paralysis.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Without automated tests, teams cannot verify that schema changes won't break existing functionality, making modifications too risky to attempt.
-
 ## Detection Methods ○
 
 - Track the frequency and success rate of database schema change requests

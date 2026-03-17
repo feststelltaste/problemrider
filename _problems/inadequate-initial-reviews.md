@@ -43,8 +43,8 @@ Inadequate initial reviews occur when the first round of code review fails to id
 <br/>  Multiple review cycles delay code merges and delivery, reducing overall team throughput.
 - [Code Review Inefficiency](code-review-inefficiency.md)
 <br/>  The review process wastes time as issues that should be caught once require multiple passes to fully identify.
-
 ## Causes ▼
+
 - [Reviewer Inexperience](reviewer-inexperience.md)
 <br/>  Inexperienced reviewers focus on surface-level issues like formatting because they lack expertise to identify deeper problems.
 - [Time Pressure](time-pressure.md)
@@ -53,7 +53,6 @@ Inadequate initial reviews occur when the first round of code review fails to id
 <br/>  Oversized pull requests make it cognitively difficult to identify all issues in a single pass.
 - [Nitpicking Culture](nitpicking-culture.md)
 <br/>  A culture focused on trivial style issues trains reviewers to look at surface details rather than substantive design and logic problems.
-
 ## Detection Methods ○
 
 - **Issue Discovery Pattern Analysis:** Track when different types of issues are identified across review rounds

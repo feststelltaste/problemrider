@@ -41,8 +41,8 @@ Excessive disk I/O can be a major cause of poor application performance. This ca
 <br/>  Excessive disk I/O from inefficient queries or poor indexing drives up database resource consumption.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As data volumes grow, inefficient disk access patterns cause progressively worsening performance.
-
 ## Causes ▼
+
 - [Excessive Logging](excessive-logging.md)
 <br/>  High-volume logging generates constant disk write operations that contribute significantly to disk I/O load.
 - [Poor Caching Strategy](poor-caching-strategy.md)
@@ -53,15 +53,6 @@ Excessive disk I/O can be a major cause of poor application performance. This ca
 <br/>  Inefficient algorithms that make unnecessary data passes or use poor access patterns generate excessive disk operations.
 - [Inefficient Code](inefficient-code.md)
 <br/>  Code that reads or writes data in small chunks instead of using buffered or batch operations multiplies disk I/O operations.
-- [Log Spam](log-spam.md)
-<br/>  Writing massive volumes of repetitive log messages consumes disk I/O bandwidth, potentially impacting application performance.
-- [Unbounded Data Growth](unbounded-data-growth.md)
-<br/>  Growing data volumes require more disk reads and writes, increasing I/O load beyond what the storage subsystem can efficiently handle.
-- [Unoptimized File Access](unoptimized-file-access.md)
-<br/>  Inefficient file access patterns directly cause excessive disk read/write operations.
-- [Virtual Memory Thrashing](virtual-memory-thrashing.md)
-<br/>  Constant page swapping between RAM and disk generates extremely high disk I/O activity.
-
 ## Detection Methods ○
 
 - **System Monitoring Tools:** Use tools like `iostat`, `vmstat`, `sar` (Linux) or Performance Monitor (Windows) to track disk I/O metrics (e.g., read/write operations per second, average queue length, I/O wait time).

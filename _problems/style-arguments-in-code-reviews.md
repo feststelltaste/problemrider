@@ -42,8 +42,8 @@ Style arguments in code reviews is a situation where a significant amount of tim
 <br/>  Developer time spent arguing about style is time not spent on productive development or meaningful code review.
 - [Superficial Code Reviews](superficial-code-reviews.md)
 <br/>  When reviews are dominated by style arguments, reviewers have less capacity to analyze deeper logic and design issues.
-
 ## Causes ▼
+
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
 <br/>  Without agreed-upon coding standards, every style choice becomes a matter of personal opinion and debate.
 - [Mixed Coding Styles](mixed-coding-styles.md)
@@ -52,9 +52,6 @@ Style arguments in code reviews is a situation where a significant amount of tim
 <br/>  A team culture that focuses on minor details encourages style-level debates over substantive code review.
 - [Automated Tooling Ineffectiveness](automated-tooling-ineffectiveness.md)
 <br/>  Ineffective or absent linters and formatters leave style enforcement to manual review, inviting human disagreements.
-- [Inconsistent Codebase](inconsistent-codebase.md)
-<br/>  Without agreed-upon standards, code reviews devolve into debates about stylistic preferences.
-
 ## Detection Methods ○
 - **Analyze Code Review Comments:** Look for a high frequency of comments related to style and formatting.
 - **Team Surveys:** Ask developers if they are happy with the code review process.

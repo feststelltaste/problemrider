@@ -49,8 +49,8 @@ Workaround culture develops when teams consistently choose to implement temporar
 <br/>  Maintaining multiple layers of workarounds requires significantly more effort than maintaining properly designed solutions.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  When bugs arise in workaround-heavy code, tracing the root cause through layers of patches and hacks is extremely difficult.
-
 ## Causes ▼
+
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Tight deadlines push teams to implement quick workarounds instead of investing time in proper solutions.
 - [Refactoring Avoidance](refactoring-avoidance.md)
@@ -61,9 +61,6 @@ Workaround culture develops when teams consistently choose to implement temporar
 <br/>  Organizational emphasis on short-term delivery over long-term quality encourages workarounds as the path of least resistance.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Without test coverage, teams cannot safely refactor code and resort to workarounds to avoid introducing regressions.
-- [Work Blocking](work-blocking.md)
-<br/>  When proper changes are blocked by approval processes, developers resort to workarounds that bypass the blocking process.
-
 ## Detection Methods ○
 - **Code Pattern Analysis:** Search for common workaround indicators in code comments and structure
 - **Technical Debt Tracking:** Monitor accumulation of temporary solutions that become permanent

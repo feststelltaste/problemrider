@@ -35,23 +35,24 @@ Thread pool exhaustion occurs when all available threads in an application's thr
 
 ## Symptoms ▲
 
+- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
+<br/>  Thread pool exhaustion creates severe performance bottlenecks as no new requests can be processed despite available system resources.
+- [Cascade Failures](cascade-failures.md)
+<br/>  When one service exhausts its thread pool, dependent services also fail as their requests time out, causing cascading failures.
+- [System Outages](system-outages.md)
+<br/>  Complete thread pool exhaustion effectively causes service outages as the application becomes entirely unresponsive.
 - [Unpredictable System Behavior](unpredictable-system-behavior.md)
 <br/>  The system appears to hang or behave unpredictably with low CPU usage, making the root cause difficult to diagnose.
-
 ## Causes ▼
+
 - [Resource Contention](resource-contention.md)
 <br/>  Competition for limited thread pool resources among different operations leads to exhaustion under load.
 - [Deadlock Conditions](deadlock-conditions.md)
 <br/>  Deadlocked threads permanently consume thread pool resources, gradually depleting the available pool.
 - [Unreleased Resources](unreleased-resources.md)
 <br/>  Threads that are not properly released after completing or timing out permanently reduce the available thread pool.
-- [Lock Contention](lock-contention.md)
-<br/>  Threads blocked waiting for contested locks remain occupied, eventually exhausting the available thread pool.
-- [Resource Allocation Failures](resource-allocation-failures.md)
-<br/>  Threads that are never returned to the pool due to improper resource management eventually exhaust all available threads.
 - [Service Timeouts](service-timeouts.md)
-<br/>  Threads waiting for timed-out downstream services remain blocked, gradually exhausting the thread pool and preventing new request processing.
-
+<br/>  Without proper timeout settings, threads block indefinitely waiting for slow or unresponsive external services.
 ## Detection Methods ○
 
 - **Thread Pool Monitoring:** Monitor thread pool utilization, active threads, and queue depths

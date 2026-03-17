@@ -42,8 +42,8 @@ A growing task queue is a clear sign that a system is not able to keep up with i
 <br/>  Queue buildup can exhaust system resources and create cascading failures across dependent services.
 - [Negative User Feedback](negative-user-feedback.md)
 <br/>  Users complain about delayed processing of operations like email confirmations and order processing.
-
 ## Causes ▼
+
 - [Insufficient Worker Capacity](insufficient-worker-capacity.md)
 <br/>  Not enough worker processes to consume tasks at the rate they are produced directly causes queue growth.
 - [Inefficient Code](inefficient-code.md)
@@ -52,7 +52,6 @@ A growing task queue is a clear sign that a system is not able to keep up with i
 <br/>  Workers competing for limited CPU, memory, or I/O resources process tasks more slowly, allowing queues to grow.
 - [External Service Delays](external-service-delays.md)
 <br/>  Workers blocked waiting for slow external services reduce processing throughput and cause queue accumulation.
-
 ## Detection Methods ○
 
 - **Queue Monitoring:** Use the monitoring tools provided by the message queue system (e.g., RabbitMQ Management, Kafka Metrics, AWS SQS/SNS metrics) to track queue size, message rates, and consumer lag.

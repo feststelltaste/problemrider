@@ -42,8 +42,8 @@ Difficult code reuse is a common problem in software development. It occurs when
 <br/>  Maintaining multiple copies of similar code multiplies the effort needed for bug fixes and updates.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Inability to reuse existing components means every new feature requires building common functionality from scratch.
-
 ## Causes ▼
+
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Tightly coupled code cannot be extracted and reused in different contexts because it depends on too many other components.
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
@@ -52,21 +52,6 @@ Difficult code reuse is a common problem in software development. It occurs when
 <br/>  God objects that contain too much functionality cannot be reused because consuming code must take on all the object's responsibilities.
 - [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
 <br/>  Large monolithic components bundle too much functionality together, making it impossible to reuse only the needed parts.
-- [Circular Dependency Problems](circular-dependency-problems.md)
-<br/>  Components in circular dependency chains cannot be extracted and reused independently in other contexts.
-- [Hardcoded Values](hardcoded-values.md)
-<br/>  Code with embedded literal values cannot be easily reused in different contexts or configurations.
-- [Insufficient Design Skills](insufficient-design-skills.md)
-<br/>  Poorly designed components are hard to reuse because they lack clear interfaces and proper abstractions.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md)
-<br/>  Poorly designed OOP code that doesn't leverage inheritance or polymorphism results in tightly coupled components that are hard to reuse.
-- [Over-Reliance on Utility Classes](over-reliance-on-utility-classes.md)
-<br/>  Procedural utility classes bundle unrelated methods together, making it hard to reuse specific functionality without pulling in unnecessary dependencies.
-- [Procedural Background](procedural-background.md)
-<br/>  Procedural code structures are harder to reuse across contexts compared to well-designed OOP components.
-- [Procedural Programming in OOP Languages](procedural-programming-in-oop-languages.md)
-<br/>  Procedural code tightly couples data and logic in monolithic functions, making reuse across contexts impractical.
-
 ## Detection Methods ○
 - **Code Duplication Analysis:** Use static analysis tools to identify duplicated code.
 - **Dependency Analysis:** Analyze the dependencies between the components of the system to identify areas of high coupling.

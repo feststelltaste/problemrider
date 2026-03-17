@@ -36,17 +36,20 @@ Imperative data fetching logic is a common performance problem in database-drive
 
 - [High Number of Database Queries](high-number-of-database-queries.md)
 <br/>  Fetching data in loops generates individual queries for each iteration, resulting in an excessive number of database calls.
-- [N Plus One Query Problem](n-plus-one-query-problem.md)
+- [N+1 Query Problem](n-plus-one-query-problem.md)
 <br/>  Imperative fetching patterns that load related data item-by-item are the direct implementation cause of N+1 query issues.
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  The accumulated latency of many sequential database round-trips significantly degrades application response times.
 - [High Database Resource Utilization](high-database-resource-utilization.md)
 <br/>  The excessive query volume from imperative fetching increases CPU and memory usage on the database server.
-
 ## Causes ▼
+
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers unfamiliar with declarative data access patterns and ORM best practices default to imperative loop-based fetching.
-
+- [Review Process Breakdown](insufficient-code-review.md)
+<br/>  Without code review, inefficient data fetching patterns go undetected and become established in the codebase.
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Without established data access patterns and standards, developers implement fetching logic inconsistently and inefficiently.
 ## Detection Methods ○
 - **Code Review:** During code reviews, specifically look for loops that contain database queries.
 - **Application Performance Monitoring (APM):** APM tools can often detect and flag the N+1 query problem, which is a common symptom of imperative data fetching logic.

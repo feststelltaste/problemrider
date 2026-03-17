@@ -48,8 +48,8 @@ Legacy business logic extraction difficulty occurs when critical business rules 
 <br/>  Developers become reluctant to modify code when they cannot determine which changes might break unknown business rules.
 - [Increased Cost of Development](increased-cost-of-development.md)
 <br/>  Every change requires extensive analysis to understand embedded business rules, significantly increasing development costs.
-
 ## Causes ▼
+
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Tangled, unstructured code makes it nearly impossible to identify where business logic begins and technical implementation ends.
 - [Information Decay](poor-documentation.md)
@@ -58,9 +58,6 @@ Legacy business logic extraction difficulty occurs when critical business rules 
 <br/>  Business rules exist as unwritten assumptions known only to departed employees, making extraction dependent on code archaeology.
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
 <br/>  Business logic intermingled with database access, UI, and utilities across many modules makes it impossible to isolate.
-- [Legacy System Documentation Archaeology](legacy-system-documentation-archaeology.md)
-<br/>  When documentation is lost or obsolete, understanding embedded business logic requires expensive code archaeology efforts.
-
 ## Detection Methods ○
 
 - Conduct business rule archaeology sessions with domain experts and legacy code review

@@ -45,8 +45,8 @@ Fear of breaking changes is a common problem in software development. It is the 
 <br/>  Fear of breaking changes slows development as teams take excessive precautions or implement features in roundabout ways.
 - [System Stagnation](system-stagnation.md)
 <br/>  The system remains unchanged and fails to evolve because the team avoids making modifications.
-
 ## Causes ▼
+
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Without automated tests, there is no safety net to verify that changes do not break existing functionality, making fear rational.
 - [History of Failed Changes](history-of-failed-changes.md)
@@ -57,13 +57,6 @@ Fear of breaking changes is a common problem in software development. It is the 
 <br/>  Tightly coupled code means changes in one area frequently affect other areas, making it genuinely risky to modify the system.
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Without sufficient test coverage, developers cannot verify their changes are safe, reinforcing the fear of making modifications.
-- [Breaking Changes](breaking-changes.md)
-<br/>  Repeated incidents of breaking changes create organizational anxiety about any future API modifications.
-- [Fear of Failure](fear-of-failure.md)
-<br/>  Fear of failure specifically manifests as reluctance to make changes that could break existing functionality.
-- [Ripple Effect of Changes](ripple-effect-of-changes.md)
-<br/>  The wide blast radius of changes makes developers afraid to modify code, knowing that seemingly local changes can break distant components.
-
 ## Detection Methods ○
 - **Code Churn:** Analyze the history of the codebase to see how often the code is being changed.
 - **Technical Debt:** Track the amount of technical debt in the system.

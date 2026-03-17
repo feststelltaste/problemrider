@@ -43,8 +43,8 @@ A high bug introduction rate means that for every new feature or fix, a signific
 <br/>  Constantly fixing bugs they or colleagues introduced demoralizes developers and leads to burnout.
 - [Maintenance Cost Increase](maintenance-cost-increase.md)
 <br/>  Each introduced bug requires investigation, fixing, testing, and deployment, increasing overall maintenance costs.
-
 ## Causes ▼
+
 - [Brittle Codebase](brittle-codebase.md)
 <br/>  Fragile code that breaks easily from small changes is the primary cause of new bugs being introduced with every modification.
 - [Poor Test Coverage](poor-test-coverage.md)
@@ -55,33 +55,6 @@ A high bug introduction rate means that for every new feature or fix, a signific
 <br/>  Undocumented dependencies between components cause developers to unknowingly break functionality when making changes.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Modifying untested legacy code is inherently risky and frequently introduces regressions that would have been caught by tests.
-- [Complex Domain Model](complex-domain-model.md)
-<br/>  Misunderstanding complex domain rules leads to frequent implementation errors and new defects.
-- [Deadline Pressure](deadline-pressure.md)
-<br/>  Rushing under pressure causes developers to make more mistakes and skip validation steps, introducing more bugs.
-- [Difficult to Test Code](difficult-to-test-code.md)
-<br/>  Without adequate tests as a safety net, changes frequently introduce new bugs.
-- [Fear of Conflict](fear-of-conflict.md)
-<br/>  Unchallenged logic flaws and design problems in reviews lead to more bugs being introduced into production.
-- [God Object Anti-Pattern](god-object-anti-pattern.md)
-<br/>  Changes to any responsibility within a god object risk breaking other unrelated responsibilities it handles.
-- [High Turnover](high-turnover.md)
-<br/>  New developers unfamiliar with the system are more likely to introduce bugs due to lack of domain knowledge and system understanding.
-- [Implicit Knowledge](implicit-knowledge.md)
-<br/>  Developers unaware of unwritten rules and assumptions make changes that violate implicit constraints, introducing bugs.
-- [Inappropriate Skillset](inappropriate-skillset.md)
-<br/>  Team members working outside their competency introduce more defects due to unfamiliarity with best practices.
-- [Increased Risk of Bugs](increased-risk-of-bugs.md)
-<br/>  When the risk of bugs is elevated due to code complexity, the actual rate at which bugs are introduced increases measurably.
-- [Review Process Breakdown](insufficient-code-review.md)
-<br/>  Without thorough reviews acting as a quality gate, new bugs are introduced at a higher rate.
-- [Limited Team Learning](limited-team-learning.md)
-<br/>  Without learning from past mistakes, teams keep introducing the same types of bugs repeatedly.
-- [Lower Code Quality](lower-code-quality.md)
-<br/>  Lower quality code contains more defects, directly increasing the rate at which new bugs are introduced into the system.
-- [Overworked Teams](overworked-teams.md)
-<br/>  Fatigued developers are more prone to errors, leading to a higher rate of bugs introduced with each change.
-
 ## Detection Methods ○
 - **Bug Tracking Metrics:** Monitor the number of new bugs reported after each release.
 - **Code Churn Analysis:** Analyze the number of times a file is changed. High churn can indicate problematic areas.

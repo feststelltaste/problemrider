@@ -46,8 +46,8 @@ Accumulated decision debt occurs when important architectural, design, or techni
 <br/>  Each deferred decision adds to the system's overall technical debt as temporary solutions become permanent.
 - [Suboptimal Solutions](suboptimal-solutions.md)
 <br/>  When accumulated deferred decisions must finally be resolved under pressure, the resulting solutions are often suboptimal due to constrained options.
-
 ## Causes ▼
+
 - [Decision Avoidance](decision-avoidance.md)
 <br/>  Systematic avoidance of making decisions is the direct behavior that causes decision debt to accumulate.
 - [Delayed Decision Making](delayed-decision-making.md)
@@ -56,7 +56,6 @@ Accumulated decision debt occurs when important architectural, design, or techni
 <br/>  Teams afraid of making wrong decisions defer them indefinitely, causing decision debt to accumulate.
 - [Decision Paralysis](decision-paralysis.md)
 <br/>  When teams cannot choose between options, decisions are never made, and the resulting debt compounds over time.
-
 ## Detection Methods ○
 
 - **Decision Dependency Mapping:** Visualize how deferred decisions constrain future choices

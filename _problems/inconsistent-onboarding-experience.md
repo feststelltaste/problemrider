@@ -36,7 +36,6 @@ Inconsistent onboarding experience occurs when new team members receive dramatic
 
 ## Symptoms ▲
 
-
 - [Inconsistent Knowledge Acquisition](inconsistent-knowledge-acquisition.md)
 <br/>  Different onboarding quality directly leads to new hires learning different aspects and depths of system knowledge.
 - [New Hire Frustration](new-hire-frustration.md)
@@ -47,15 +46,14 @@ Inconsistent onboarding experience occurs when new team members receive dramatic
 <br/>  Inconsistent onboarding leaves some new hires without the essential knowledge needed for their assigned roles.
 - [Knowledge Dependency](knowledge-dependency.md)
 <br/>  New hires who receive insufficient onboarding remain dependent on experienced team members for longer periods.
-
 ## Causes ▼
+
 - [Inadequate Mentoring Structure](inadequate-mentoring-structure.md)
 <br/>  Without a systematic mentoring program, onboarding quality depends on whichever mentor happens to be available.
 - [Overworked Teams](overworked-teams.md)
 <br/>  When teams are overloaded, there is less time and energy available to properly onboard new members.
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  When no one is clearly responsible for the onboarding process, its quality varies based on individual initiative.
-
 ## Detection Methods ○
 
 - **Onboarding Outcome Tracking:** Compare productivity metrics and satisfaction scores across new hires

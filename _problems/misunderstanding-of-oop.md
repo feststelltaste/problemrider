@@ -45,15 +45,16 @@ A misunderstanding of object-oriented programming (OOP) is a common problem in t
 <br/>  Poor OOP design leads to rigid structures that cannot be extended properly, forcing developers to create workarounds instead.
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Misunderstanding encapsulation and proper object design leads to tangled, unstructured code with unclear control flow.
-
 ## Causes ▼
+
 - [Procedural Background](procedural-background.md)
 <br/>  Developers with a procedural programming background often struggle to think in terms of objects, inheritance, and polymorphism.
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  A general lack of software design skills contributes to misunderstanding how to properly apply OOP principles.
+- [Skill Development Gaps](skill-development-gaps.md)
+<br/>  Without adequate training on OOP concepts and patterns, developers cannot properly apply them in practice.
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  Gaps in fundamental programming knowledge contribute to misunderstanding core OOP concepts like encapsulation and polymorphism.
-
 ## Detection Methods ○
 - **Code Reviews:** Code reviews are a great way to identify code that is not following object-oriented design principles.
 - **Static Analysis:** Use static analysis tools to identify code that is not following object-oriented design principles.

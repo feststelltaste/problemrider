@@ -46,8 +46,8 @@ Planning credibility issues occur when development teams lose stakeholder trust 
 <br/>  Teams lose motivation when their estimates are consistently overridden or questioned, creating an adversarial dynamic.
 - [Overworked Teams](overworked-teams.md)
 <br/>  When management imposes tighter deadlines due to distrust of estimates, teams are forced to work excessive hours to compensate.
-
 ## Causes ▼
+
 - [Missed Deadlines](missed-deadlines.md)
 <br/>  A history of consistently missing deadlines directly undermines the credibility of future estimates and plans.
 - [Planning Dysfunction](planning-dysfunction.md)
@@ -56,13 +56,6 @@ Planning credibility issues occur when development teams lose stakeholder trust 
 <br/>  Persistent poor planning that fails to account for complexity and risk creates the track record of inaccurate predictions.
 - [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
 <br/>  Agreeing to unrealistic timelines to please stakeholders sets up inevitable failures that damage planning credibility.
-- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
-<br/>  A history of shifted deadlines makes future estimates and plans unbelievable, undermining the planning process itself.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
-<br/>  When estimates seem disproportionate to the apparent work, stakeholders question the reliability of all future planning and estimates.
-- [Reduced Predictability](reduced-predictability.md)
-<br/>  When estimates are consistently wrong, stakeholders lose trust in the team's ability to plan accurately.
-
 ## Detection Methods ○
 
 - **Stakeholder Trust Surveys:** Assess stakeholder confidence in development team planning and estimates

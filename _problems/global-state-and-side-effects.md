@@ -43,8 +43,8 @@ Global state and side effects are a common source of complexity and bugs in soft
 <br/>  Mutable global state accessed by multiple threads without synchronization leads to data races and corruption.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  Tracing bugs is extremely difficult when any part of the codebase can modify shared global state unpredictably.
-
 ## Causes ▼
+
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers lacking experience with proper software design patterns default to using global variables as the simplest approach.
 - [Procedural Programming in OOP Languages](procedural-programming-in-oop-languages.md)
@@ -53,7 +53,6 @@ Global state and side effects are a common source of complexity and bugs in soft
 <br/>  Failure to properly encapsulate state within objects exposes it globally, inviting widespread mutations and side effects.
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Tangled, unstructured code naturally gravitates toward global state as a way to share data between poorly organized components.
-
 ## Detection Methods ○
 - **Static Analysis:** Use static analysis tools to identify the use of global variables and functions with side effects.
 - **Code Reviews:** Pay close attention to the use of global state and side effects during code reviews.

@@ -44,8 +44,8 @@ Difficult to understand code occurs when software components are implemented in 
 <br/>  When developers cannot understand existing code well enough to modify it correctly, they add workarounds instead.
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
 <br/>  Simple changes require large estimates because developers must spend significant time understanding the surrounding code first.
-
 ## Causes ▼
+
 - [Poor Naming Conventions](poor-naming-conventions.md)
 <br/>  Unclear variable and function names obscure the purpose and behavior of code.
 - [Clever Code](clever-code.md)
@@ -56,7 +56,6 @@ Difficult to understand code occurs when software components are implemented in 
 <br/>  Inconsistent coding patterns across the codebase prevent developers from forming reliable mental models.
 - [Information Decay](information-decay.md)
 <br/>  When documentation is outdated or missing, developers have no reference to understand the original design intent.
-
 ## Detection Methods ○
 
 - **Code Review Feedback Analysis:** Monitor how often reviewers request clarification about code functionality

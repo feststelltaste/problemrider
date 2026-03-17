@@ -41,8 +41,8 @@ An increased error rate is a clear sign that something is wrong with an applicat
 <br/>  Users experiencing frequent errors provide negative feedback about system reliability and quality.
 - [Release Instability](release-instability.md)
 <br/>  Spikes in error rates after deployments indicate releases are unstable and causing production problems.
-
 ## Causes ▼
+
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Poor error handling allows failures to propagate rather than being caught and managed gracefully.
 - [High Bug Introduction Rate](high-bug-introduction-rate.md)
@@ -51,39 +51,6 @@ An increased error rate is a clear sign that something is wrong with an applicat
 <br/>  Misconfigured connection pools cause connection exhaustion or rejection, generating application errors.
 - [Database Connection Leaks](database-connection-leaks.md)
 <br/>  Leaked connections exhaust the pool over time, causing increasing numbers of connection-related errors.
-- [ABI Compatibility Issues](abi-compatibility-issues.md)
-<br/>  Runtime failures from ABI mismatches lead to elevated error rates as function calls return unexpected values or crash.
-- [Data Migration Integrity Issues](data-migration-integrity-issues.md)
-<br/>  Migrated data with integrity issues triggers validation failures and application errors in the new system.
-- [Dependency Version Conflicts](dependency-version-conflicts.md)
-<br/>  Incompatible dependency versions cause unexpected runtime errors and method-not-found exceptions in production.
-- [DMA Coherency Issues](dma-coherency-issues.md)
-<br/>  Inconsistent memory views between CPU and DMA devices lead to sporadic errors in I/O operations, network processing, and data transfers.
-- [Environment Variable Issues](environment-variable-issues.md)
-<br/>  Missing or misconfigured environment variables lead to application failures and elevated error rates, especially after deployments.
-- [Growing Task Queues](growing-task-queues.md)
-<br/>  Tasks that age out or are retried excessively due to queue backlog generate elevated error rates.
-- [High Connection Count](high-connection-count.md)
-<br/>  Connection rejections when limits are reached cause application errors and failed requests.
-- [Inconsistent Execution](inconsistent-execution.md)
-<br/>  Manual, non-standardized execution leads to mistakes and omissions that produce more errors in the system.
-- [Increased Manual Work](increased-manual-work.md)
-<br/>  Manual execution of routine tasks is more error-prone than automated processes, leading to more mistakes.
-- [Load Balancing Problems](load-balancing-problems.md)
-<br/>  Overwhelmed instances from uneven load distribution start dropping requests or returning errors.
-- [Manual Deployment Processes](manual-deployment-processes.md)
-<br/>  Human execution of deployment steps inevitably introduces errors that automated processes would avoid.
-- [Null Pointer Dereferences](null-pointer-dereferences.md)
-<br/>  Null pointer exceptions manifest as runtime errors that increase the overall error rate of the application.
-- [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
-<br/>  Poorly defined interfaces produce frequent integration errors from mismatched data formats and inconsistent contracts.
-- [Service Discovery Failures](service-discovery-failures.md)
-<br/>  Services unable to discover their dependencies generate connection errors and service-not-found errors at elevated rates.
-- [Service Timeouts](service-timeouts.md)
-<br/>  Timeout errors contribute directly to elevated error rates across the system as requests fail to complete.
-- [Upstream Timeouts](upstream-timeouts.md)
-<br/>  Timeout errors directly increase the overall error rate of the system as requests fail without receiving responses.
-
 ## Detection Methods ○
 
 - **Application Performance Monitoring (APM):** APM tools track error rates and can often pinpoint the exact line of code or service causing the error.

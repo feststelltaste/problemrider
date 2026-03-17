@@ -32,7 +32,6 @@ A communication gap between stakeholders and developers is a common source of pr
 
 ## Symptoms ▲
 
-
 - [Misaligned Deliverables](misaligned-deliverables.md)
 <br/>  When stakeholders and developers miscommunicate, the delivered product consistently fails to match stakeholder expectations.
 - [Implementation Rework](implementation-rework.md)
@@ -43,8 +42,8 @@ A communication gap between stakeholders and developers is a common source of pr
 <br/>  Repeated delivery of misaligned work caused by communication gaps erodes stakeholder trust over time.
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Rework caused by miscommunication pushes project delivery dates back significantly.
-
 ## Causes ▼
+
 - [Feedback Isolation](feedback-isolation.md)
 <br/>  When development teams operate without regular stakeholder input, the communication gap widens over time.
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
@@ -53,7 +52,6 @@ A communication gap between stakeholders and developers is a common source of pr
 <br/>  Developers making decisions based on assumptions rather than validating with stakeholders directly creates misunderstandings.
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  Lack of domain knowledge prevents developers from understanding stakeholder terminology and business context.
-
 ## Detection Methods ○
 
 - **Regular Demos and Feedback Sessions:** Hold frequent sessions where the development team demos their work to stakeholders and gets immediate feedback.

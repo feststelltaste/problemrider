@@ -46,8 +46,8 @@ Author frustration occurs when developers become increasingly frustrated with th
 <br/>  Ongoing friction between authors and reviewers damages team relationships and creates dysfunction.
 - [Large Pull Requests](large-pull-requests.md)
 <br/>  Frustrated authors batch their changes into larger submissions to reduce the number of review cycles they endure.
-
 ## Causes ▼
+
 - [Conflicting Reviewer Opinions](conflicting-reviewer-opinions.md)
 <br/>  Receiving contradictory feedback from different reviewers is a direct source of author frustration.
 - [Nitpicking Culture](nitpicking-culture.md)
@@ -56,19 +56,6 @@ Author frustration occurs when developers become increasingly frustrated with th
 <br/>  Without defined style guidelines, review feedback becomes subjective and unpredictable, frustrating authors.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Inconsistent standards mean authors cannot predict what feedback they will receive, leading to frustration.
-- [Code Review Inefficiency](code-review-inefficiency.md)
-<br/>  Developers become frustrated with conflicting, superficial, or nitpicky review feedback that wastes their time.
-- [Extended Review Cycles](extended-review-cycles.md)
-<br/>  Developers become frustrated when simple changes require many rounds of revision, feeling their time is wasted on diminishing returns.
-- [Inadequate Initial Reviews](inadequate-initial-reviews.md)
-<br/>  Developers become frustrated when new issues emerge in each review round that should have been caught initially.
-- [Perfectionist Review Culture](perfectionist-review-culture.md)
-<br/>  Developers become frustrated when their functional, well-written code is subjected to endless rounds of theoretical improvements.
-- [Review Bottlenecks](review-bottlenecks.md)
-<br/>  Developers become frustrated when their completed work sits idle in review queues for extended periods.
-- [Style Arguments in Code Reviews](style-arguments-in-code-reviews.md)
-<br/>  Developers become frustrated when their code is held up by subjective style preferences rather than substantive feedback.
-
 ## Detection Methods ○
 
 - **Author Satisfaction Surveys:** Collect feedback about the review experience from code authors

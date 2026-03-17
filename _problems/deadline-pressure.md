@@ -48,8 +48,8 @@ Deadline pressure occurs when development teams face intense time constraints th
 <br/>  Rushed developers skip code reviews, testing, and proper design, resulting in more defects and harder-to-maintain code.
 - [High Bug Introduction Rate](high-bug-introduction-rate.md)
 <br/>  Rushing under pressure causes developers to make more mistakes and skip validation steps, introducing more bugs.
-
 ## Causes ▼
+
 - [Unrealistic Deadlines](unrealistic-deadlines.md)
 <br/>  Management sets deadlines that don't account for actual development effort, creating intense pressure on the team.
 - [Poor Planning](poor-planning.md)
@@ -58,11 +58,6 @@ Deadline pressure occurs when development teams face intense time constraints th
 <br/>  Expanding requirements without adjusting timelines creates increasing pressure as more work must be completed by the same deadline.
 - [Market Pressure](market-pressure.md)
 <br/>  External competitive forces drive organizations to set aggressive deadlines to beat competitors to market.
-- [Missed Deadlines](missed-deadlines.md)
-<br/>  After missing deadlines, teams face intensified pressure to deliver on subsequent commitments, creating a vicious cycle.
-- [Unrealistic Schedule](unrealistic-schedule.md)
-<br/>  Unrealistic schedules place constant pressure on teams to deliver faster than what is feasible.
-
 ## Detection Methods ○
 
 - **Overtime Hours Tracking:** Monitor team working hours and stress indicators

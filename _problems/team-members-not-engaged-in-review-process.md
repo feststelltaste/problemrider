@@ -32,22 +32,26 @@ When team members are disengaged from the code review process, it ceases to be a
 
 ## Symptoms ▲
 
-
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Without meaningful code review feedback, poor design decisions and bad practices slip into the codebase unchecked.
 - [Review Bottlenecks](review-bottlenecks.md)
 <br/>  When only a few team members actively review code, pull requests queue up waiting for their attention.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When only a few people review code, knowledge about the codebase remains concentrated rather than spread across the team.
-- [Insufficient Code Review](insufficient-code-review.md)
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  Review bottlenecks from disengaged reviewers delay the integration and release of completed work.
+- [Review Process Breakdown](insufficient-code-review.md)
 <br/>  Rubber-stamp approvals without meaningful examination result in effectively insufficient code review coverage.
-
 ## Causes ▼
+
+- [Increased Cognitive Load](increased-cognitive-load.md)
+<br/>  When developers are overloaded with feature work, code reviews are deprioritized as they aren't seen as directly productive.
 - [Team Silos](team-silos.md)
 <br/>  When developers work in isolation, they feel disconnected from code outside their area and lack motivation to review it.
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Without clear review standards and expectations, team members don't know what constitutes a good review and default to rubber-stamping.
 - [Team Dysfunction](team-dysfunction.md)
 <br/>  Interpersonal issues and lack of shared code ownership culture prevent meaningful engagement in the review process.
-
 ## Detection Methods ○
 
 - **Code Review Metrics:** Track metrics like review turnaround time, number of comments per review, and distribution of reviews among team members.

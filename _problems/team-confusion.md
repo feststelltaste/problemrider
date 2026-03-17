@@ -40,35 +40,22 @@ Team confusion occurs when team members lack clear understanding of what they sh
 <br/>  When team members are unclear about who is working on what, multiple people independently work on the same problem.
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  Misaligned efforts and wasted work from confusion directly reduce the team's overall output.
+- [Resource Waste](resource-waste.md)
+<br/>  Work built on incorrect assumptions about goals or requirements must be redone when the confusion is discovered.
 - [Missed Deadlines](missed-deadlines.md)
 <br/>  Time spent clarifying goals and redoing misaligned work causes the team to miss delivery targets.
 - [Team Demoralization](team-demoralization.md)
 <br/>  Repeated experiences of wasted effort due to confusion erodes team morale and confidence in leadership.
-
 ## Causes ▼
+
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  When project goals and priorities are not clearly defined or communicated, team members are left to interpret them differently.
-- [Poor Communication](poor-communication.md)
+- [Communication Breakdown](poor-communication.md)
 <br/>  Ineffective communication channels and practices prevent important information about goals and responsibilities from reaching all team members.
-- [Changing Project Scope](changing-project-scope.md)
-<br/>  Constantly shifting project direction leaves team members unclear about current goals and priorities.
-- [Communication Risk Within Project](communication-risk-within-project.md)
-<br/>  Ambiguous messages and missed information create confusion about project goals, priorities, and decisions.
+- [Unclear Documentation Ownership](unclear-documentation-ownership.md)
+<br/>  When responsibilities and ownership boundaries are not defined, team members don't know who is responsible for what.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
-<br/>  Constant changes leave team members unclear about current requirements and priorities.
-- [Inconsistent Execution](inconsistent-execution.md)
-<br/>  Different team members doing the same tasks in different ways creates confusion about what the correct process actually is.
-- [Language Barriers](language-barriers.md)
-<br/>  Different interpretations of technical terms and requirements due to language differences create confusion about project goals and priorities.
-- [Power Struggles](power-struggles.md)
-<br/>  Conflicting directions from competing authorities leave team members unsure about what to work on.
-- [Product Direction Chaos](product-direction-chaos.md)
-<br/>  Conflicting stakeholder demands leave the team unsure about what to build and for whom.
-- [Requirements Ambiguity](requirements-ambiguity.md)
-<br/>  Multiple valid interpretations of the same requirement cause team members to work at cross-purposes.
-- [Unclear Sharing Expectations](unclear-sharing-expectations.md)
-<br/>  Lack of shared information creates confusion about project status, decisions, and technical approaches.
-
+<br/>  Frequently shifting requirements without clear communication create confusion about what the team should be building.
 ## Detection Methods ○
 
 - **Understanding Assessment:** Survey team members about their understanding of project goals and priorities

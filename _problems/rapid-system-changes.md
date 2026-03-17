@@ -35,7 +35,7 @@ Rapid system changes occur when software systems undergo frequent architectural 
 
 ## Symptoms ▲
 
-- [Poor Documentation](poor-documentation.md)
+- [Information Decay](poor-documentation.md)
 <br/>  Documentation cannot keep pace with frequent system changes, becoming outdated and unreliable.
 - [Breaking Changes](breaking-changes.md)
 <br/>  Rapid modifications to APIs and architecture increase the likelihood of breaking existing integrations and functionality.
@@ -45,8 +45,8 @@ Rapid system changes occur when software systems undergo frequent architectural 
 <br/>  Team members cannot keep up with the pace of changes, creating gaps in understanding of the current system state.
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  Rapid changes without proper testing and documentation make the system increasingly fragile over time.
-
 ## Causes ▼
+
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
 <br/>  Constantly shifting requirements force rapid system modifications to keep up with new demands.
 - [Changing Project Scope](changing-project-scope.md)
@@ -55,7 +55,6 @@ Rapid system changes occur when software systems undergo frequent architectural 
 <br/>  Lack of structured change management processes allows changes to be introduced too rapidly without coordination.
 - [Poor Planning](poor-planning.md)
 <br/>  Insufficient planning leads to reactive changes rather than deliberate, well-paced system evolution.
-
 ## Detection Methods ○
 
 - **Change Frequency Analysis:** Track frequency and scope of system modifications over time

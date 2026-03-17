@@ -47,19 +47,14 @@ Modernization ROI justification failure occurs when organizations cannot build c
 <br/>  Failure to justify and fund modernization allows competitors with modern systems to outpace the organization in features and agility.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Technical teams become frustrated when they cannot get approval for modernization they know is needed, creating tension with management.
-
 ## Causes ▼
+
 - [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
 <br/>  The intangible nature of modernization benefits like improved agility and reduced risk makes building financial business cases extremely difficult.
-- [High Maintenance Costs](high-maintenance-costs.md)
-<br/>  High ongoing maintenance costs make it difficult to justify additional investment in modernization since budgets are already strained.
-- [Legacy Business Logic Extraction Difficulty](legacy-business-logic-extraction-difficulty.md)
-<br/>  The inability to extract and understand business logic makes it impossible to accurately estimate modernization costs and benefits.
-- [Legacy System Documentation Archaeology](legacy-system-documentation-archaeology.md)
-<br/>  Without clear documentation of system capabilities and behaviors, it is impossible to accurately scope modernization efforts.
-- [Maintenance Cost Increase](maintenance-cost-increase.md)
-<br/>  Paradoxically, high maintenance costs make modernization seem expensive compared to the status quo, even as costs keep rising.
-
+- [High Technical Debt](high-technical-debt.md)
+<br/>  When technical debt is not visible or measured, the true cost of maintaining legacy systems is underestimated, making modernization appear unnecessary.
+- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
+<br/>  When management does not understand the technical reality, they cannot appreciate why modernization investment is necessary.
 ## Detection Methods ○
 
 - Track modernization proposal approval rates and reasons for rejection

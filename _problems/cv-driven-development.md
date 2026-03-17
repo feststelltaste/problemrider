@@ -39,7 +39,6 @@ CV Driven Development occurs when technical decisions are made primarily to add 
 
 ## Symptoms ▲
 
-
 - [Premature Technology Introduction](premature-technology-introduction.md)
 <br/>  Technologies are adopted based on resume value rather than project fit, introducing immature or inappropriate tools into the stack.
 - [High Maintenance Costs](high-maintenance-costs.md)
@@ -50,15 +49,14 @@ CV Driven Development occurs when technical decisions are made primarily to add 
 <br/>  Different developers introducing their preferred resume-building technologies creates a fragmented stack with many incompatible tools.
 - [High Turnover](high-turnover.md)
 <br/>  Developers who chose technologies for their resumes leave once they have gained enough experience to list them, taking critical knowledge with them.
-
 ## Causes ▼
+
 - [Individual Recognition Culture](individual-recognition-culture.md)
 <br/>  A culture that values individual accomplishments over team success incentivizes developers to prioritize personal career advancement in technical decisions.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  When management does not consider long-term maintainability, developers face no pushback against choosing technologies for personal benefit.
 - [Market Pressure](market-pressure.md)
 <br/>  Competitive job market pressure motivates developers to build their resumes with trendy technologies to improve their career prospects.
-
 ## Detection Methods ○
 
 - Review technical decision documentation for business justification versus technology benefits

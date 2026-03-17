@@ -35,7 +35,6 @@ Poor project control occurs when project management lacks effective mechanisms t
 
 ## Symptoms ▲
 
-
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Without effective progress monitoring, schedule slips go undetected until they become severe delays.
 - [Budget Overruns](budget-overruns.md)
@@ -46,8 +45,8 @@ Poor project control occurs when project management lacks effective mechanisms t
 <br/>  Without early problem detection, projects drift so far from plan that they are abandoned or delivered incomplete.
 - [Cascade Delays](cascade-delays.md)
 <br/>  Undetected problems in one area compound and cascade to dependent work streams, amplifying delays.
-
 ## Causes ▼
+
 - [Poor Planning](poor-planning.md)
 <br/>  Without clear plans and milestones, there is nothing meaningful to track progress against.
 - [Communication Breakdown](poor-communication.md)
@@ -56,9 +55,6 @@ Poor project control occurs when project management lacks effective mechanisms t
 <br/>  Team members hide problems and report optimistic status due to fear of consequences, undermining project visibility.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Inexperienced project managers may lack the skills to set up effective monitoring and control mechanisms.
-- [Project Authority Vacuum](project-authority-vacuum.md)
-<br/>  Without executive authority, projects cannot enforce compliance or participation from other departments.
-
 ## Detection Methods ○
 
 - **Progress Variance Analysis:** Compare actual progress against planned milestones and budgets

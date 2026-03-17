@@ -47,15 +47,14 @@ The second-system effect occurs when architects and developers, having learned f
 <br/>  Complex, over-designed replacement systems create ongoing maintenance burden for features and abstractions that are rarely used.
 - [Wasted Development Effort](wasted-development-effort.md)
 <br/>  Significant effort is invested in building advanced capabilities that users never actually use, representing pure waste.
-
 ## Causes ▼
+
 - [Past Negative Experiences](past-negative-experiences.md)
 <br/>  Painful experiences with the limitations of the original system drive teams to overcompensate by trying to prevent every possible issue in the replacement.
 - [Gold Plating](gold-plating.md)
 <br/>  Developers add unnecessary features and complexity to the new system because they want to solve every conceivable problem they encountered in the old one.
 - [Assumption-Based Development](assumption-based-development.md)
 <br/>  Teams make assumptions about what the new system needs based on old system pain points rather than validating actual current requirements.
-
 ## Detection Methods ○
 
 - Regularly review feature-to-business-value ratios during planning

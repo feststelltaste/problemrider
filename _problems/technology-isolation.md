@@ -43,23 +43,16 @@ Technology isolation occurs when a system's technology stack becomes so outdated
 <br/>  Custom solutions must be built for problems that have standard solutions in modern ecosystems, increasing maintenance costs.
 - [Vendor Lock-In](vendor-lock-in.md)
 <br/>  Dependence on specialized or discontinued technology vendors limits options and increases dependency.
-
+- [Inadequate Onboarding](inadequate-onboarding.md)
+<br/>  New hires require extensive training on isolated technologies, dramatically extending time to productivity.
 ## Causes ▼
+
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Using technologies that are no longer actively developed or supported drives isolation from current ecosystems.
 - [Technology Lock-In](technology-lock-in.md)
 <br/>  Being locked into a specific technology stack prevents migration to modern alternatives, deepening isolation.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  An architecture that hasn't evolved prevents adoption of modern technologies and integration patterns.
-- [Integration Difficulties](integration-difficulties.md)
-<br/>  Integration difficulties prevent the system from connecting with the broader technology ecosystem.
-- [Reduced Innovation](reduced-innovation.md)
-<br/>  Resistance to new ideas causes the team to fall behind on technology trends, becoming isolated from the broader ecosystem.
-- [Vendor Dependency Entrapment](vendor-dependency-entrapment.md)
-<br/>  The system becomes isolated on discontinued technology that cannot integrate with modern tools and platforms.
-- [Vendor Lock-In](vendor-lock-in.md)
-<br/>  Proprietary vendor technologies isolate the system from the broader technology ecosystem.
-
 ## Detection Methods ○
 
 - **Technology Stack Analysis:** Compare current technologies with industry standards and trends

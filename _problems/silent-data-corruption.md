@@ -39,8 +39,8 @@ Silent data corruption occurs when data becomes altered, damaged, or lost withou
 <br/>  When data corruption is eventually discovered, users lose trust in the accuracy and reliability of the entire system.
 - [Data Migration Integrity Issues](data-migration-integrity-issues.md)
 <br/>  Silently corrupted data propagates into migrated systems, carrying integrity problems into new platforms.
-
 ## Causes ▼
+
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Poor error handling fails to detect and report data corruption when it occurs, allowing corrupted data to persist silently.
 - [Quality Blind Spots](insufficient-testing.md)
@@ -49,19 +49,6 @@ Silent data corruption occurs when data becomes altered, damaged, or lost withou
 <br/>  Concurrent access without proper synchronization can corrupt shared data in subtle ways that don't trigger explicit errors.
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Critical data processing paths lack tests that validate data integrity, allowing corruption-causing bugs to go undetected.
-- [Authorization Flaws](authorization-flaws.md)
-<br/>  Unauthorized users performing actions they should not can corrupt data without detection.
-- [Data Migration Integrity Issues](data-migration-integrity-issues.md)
-<br/>  Data integrity issues during migration can go undetected initially, with corrupted data producing incorrect results without triggering errors.
-- [DMA Coherency Issues](dma-coherency-issues.md)
-<br/>  When DMA and CPU cache views diverge, data can be silently corrupted without triggering errors, as the system processes stale or inconsistent memory contents.
-- [Insecure Data Transmission](insecure-data-transmission.md)
-<br/>  Man-in-the-middle attacks on unencrypted channels can modify data in transit without detection.
-- [Integer Overflow and Underflow](integer-overflow-underflow.md)
-<br/>  Value wrapping from overflow produces incorrect data that may propagate undetected through the system.
-- [Null Pointer Dereferences](null-pointer-dereferences.md)
-<br/>  In some cases, null pointer dereferences can corrupt adjacent memory rather than crashing immediately, leading to silent data corruption.
-
 ## Detection Methods ○
 
 - **Data Integrity Checksums:** Implement and regularly verify checksums for critical data

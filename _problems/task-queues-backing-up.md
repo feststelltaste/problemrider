@@ -38,8 +38,8 @@ Task queues are essential for asynchronous processing, but they can become a bot
 <br/>  Delayed processing of user-facing tasks like order confirmations and notifications frustrates customers.
 - [Cascade Failures](cascade-failures.md)
 <br/>  Queue buildup in one processing stage creates backpressure that cascades to upstream and downstream components.
-
 ## Causes ▼
+
 - [Insufficient Worker Capacity](insufficient-worker-capacity.md)
 <br/>  Not enough worker processes to handle the incoming volume of tasks is a direct cause of queue growth.
 - [Inefficient Code](inefficient-code.md)
@@ -48,7 +48,6 @@ Task queues are essential for asynchronous processing, but they can become a bot
 <br/>  Slow database queries within task processing reduce worker throughput, causing tasks to accumulate faster than they are processed.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  System performance that degrades over time gradually reduces processing capacity until queues begin backing up.
-
 ## Detection Methods ○
 
 - **Queue Monitoring Tools:** Use built-in monitoring dashboards or APIs of the message queue system to track queue size, message rates, and consumer lag.

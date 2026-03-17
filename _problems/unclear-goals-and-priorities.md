@@ -47,15 +47,14 @@ Unclear goals and priorities occur when development teams lack clear, consistent
 <br/>  When goals constantly change, developers lose motivation because they feel their work doesn't lead to meaningful outcomes.
 - [Priority Thrashing](priority-thrashing.md)
 <br/>  Unclear goals from leadership manifest as frequent priority changes that disrupt planned work.
-
 ## Causes ▼
+
 - [Product Direction Chaos](product-direction-chaos.md)
 <br/>  Conflicting stakeholder priorities without clear product leadership create ambiguity about goals and direction.
 - [Competing Priorities](competing-priorities.md)
 <br/>  Multiple urgent initiatives competing for the same resources make it impossible to establish clear, stable priorities.
 - [Changing Project Scope](changing-project-scope.md)
 <br/>  Frequent scope changes signal unclear initial goals and undermine any priorities that were established.
-
 ## Detection Methods ○
 - **Priority Change Frequency:** Track how often team priorities or project focus changes
 - **Work Abandonment Rate:** Monitor what percentage of started work is never completed

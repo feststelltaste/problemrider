@@ -40,15 +40,14 @@ Unclear sharing expectations is a situation where it is not clear what informati
 <br/>  When information isn't shared, team members independently solve problems that others have already addressed.
 - [Team Confusion](team-confusion.md)
 <br/>  Lack of shared information creates confusion about project status, decisions, and technical approaches.
-
 ## Causes ▼
+
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
 <br/>  When roles are unclear, team members don't know what falls within their responsibility to communicate.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Without clear goals, it's hard to determine what information is relevant and important enough to share.
 - [Team Silos](team-silos.md)
 <br/>  Siloed team structures naturally reduce cross-team communication and create unclear expectations about information sharing.
-
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers if they feel like they have the information they need to do their jobs.
 - **Communication Audits:** Audit the communication channels to see what information is being shared.

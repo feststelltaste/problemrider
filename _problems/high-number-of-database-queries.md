@@ -40,19 +40,16 @@ A high number of database queries is a common performance problem in database-dr
 <br/>  API endpoints that trigger excessive database queries experience increased response times due to accumulated query overhead.
 - [Slow Database Queries](slow-database-queries.md)
 <br/>  High query volume creates contention and lock waits that slow down individual query execution times.
-
 ## Causes ▼
-- [N Plus One Query Problem](n-plus-one-query-problem.md)
+
+- [N+1 Query Problem](n-plus-one-query-problem.md)
 <br/>  Loading related entities one at a time in a loop generates an additional query for each item, multiplying the total query count.
 - [Imperative Data Fetching Logic](imperative-data-fetching-logic.md)
 <br/>  Fetching data in loops rather than using batch or declarative approaches generates excessive individual queries.
 - [Lazy Loading](lazy-loading.md)
 <br/>  Lazy-loaded relationships trigger additional queries when accessed, often unexpectedly multiplying query counts.
-- [Database Schema Design Problems](database-schema-design-problems.md)
-<br/>  Over-normalized schemas require multiple queries to retrieve data that could be served by a single query with better schema design.
 - [Poor Caching Strategy](poor-caching-strategy.md)
-<br/>  Without caching, the same data is repeatedly queried from the database, inflating the total number of database requests.
-
+<br/>  Without caching, the same data is repeatedly fetched from the database instead of being served from memory.
 ## Detection Methods ○
 - **Application Performance Monitoring (APM):** APM tools can often detect and flag a high number of database queries.
 - **SQL Logging:** Enable SQL logging in your application or database and inspect the logs for a large number of queries being executed in a short period of time.

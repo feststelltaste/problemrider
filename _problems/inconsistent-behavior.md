@@ -42,8 +42,8 @@ Inconsistent behavior is a common problem in software systems. It occurs when th
 <br/>  Unpredictable behavior erodes user confidence in the system's reliability and correctness.
 - [Testing Complexity](testing-complexity.md)
 <br/>  Quality assurance must verify the same business process in multiple locations, multiplying testing effort.
-
 ## Causes ▼
+
 - [Code Duplication](code-duplication.md)
 <br/>  When the same business logic is implemented in multiple places, copies diverge over time causing different outcomes.
 - [Incomplete Knowledge](incomplete-knowledge.md)
@@ -52,31 +52,6 @@ Inconsistent behavior is a common problem in software systems. It occurs when th
 <br/>  Lack of uniform design patterns and standards leads to different implementations of the same business process.
 - [Information Decay](poor-documentation.md)
 <br/>  Without documentation of intended behavior, different developers implement the same process differently based on their own assumptions.
-- [Configuration Chaos](configuration-chaos.md)
-<br/>  Configuration inconsistencies across environments cause the same business process to produce different outcomes depending on where it runs.
-- [Configuration Drift](configuration-drift.md)
-<br/>  As configurations diverge from their intended state, the same operations produce different results across different environments or instances.
-- [Copy-Paste Programming](copy-paste-programming.md)
-<br/>  Duplicated code that diverges over time causes the same business logic to produce different results in different parts of the system.
-- [Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md)
-<br/>  When data falls out of sync between parallel systems, users experience different results depending on which system serves their request.
-- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
-<br/>  Applications behave differently across environments, making it impossible to guarantee consistent user experiences.
-- [Difficult Code Reuse](difficult-code-reuse.md)
-<br/>  Multiple implementations of similar functionality inevitably diverge over time, causing inconsistent behavior.
-- [Duplicated Effort](duplicated-effort.md)
-<br/>  Different developers implementing the same functionality independently often produce solutions with subtly different behavior.
-- [Duplicated Work](duplicated-work.md)
-<br/>  When different developers independently solve the same problem, their solutions may behave differently, creating system inconsistencies.
-- [Environment Variable Issues](environment-variable-issues.md)
-<br/>  Different environment variable values across deployments cause the same application to behave differently in different environments.
-- [Partial Bug Fixes](partial-bug-fixes.md)
-<br/>  The same business process works correctly in one context but fails in another because the fix was not applied uniformly across duplicated code.
-- [Silent Data Corruption](silent-data-corruption.md)
-<br/>  Corrupted data causes the same processes to produce different outcomes depending on whether they encounter corrupt or clean data.
-- [Synchronization Problems](synchronization-problems.md)
-<br/>  Different copies of the same logic producing different results creates unpredictable user experiences across the system.
-
 ## Detection Methods ○
 - **Integration Testing:** Use integration testing to verify that the system behaves consistently across different parts of the application.
 - **User Acceptance Testing:** Get feedback from users about the system's behavior.

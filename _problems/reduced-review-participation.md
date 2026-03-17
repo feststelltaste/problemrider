@@ -37,14 +37,14 @@ Reduced review participation occurs when many team members avoid or minimize the
 
 - [Review Bottlenecks](review-bottlenecks.md)
 <br/>  Concentrating review work on a few individuals creates bottlenecks when those reviewers are unavailable or overloaded.
-- [Inadequate Code Reviews](inadequate-code-reviews.md)
+- [Review Process Breakdown](inadequate-code-reviews.md)
 <br/>  Fewer reviewers means less diverse perspectives and reduced thoroughness in catching issues.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  Non-participating team members miss exposure to code changes, reinforcing knowledge isolation.
 - [Reduced Code Submission Frequency](reduced-code-submission-frequency.md)
 <br/>  When few reviewers are available, developers delay submissions to avoid long review wait times.
-
 ## Causes ▼
+
 - [Reviewer Anxiety](reviewer-anxiety.md)
 <br/>  Fear of giving wrong feedback or being perceived as unqualified discourages team members from participating in reviews.
 - [Reviewer Inexperience](reviewer-inexperience.md)
@@ -53,9 +53,6 @@ Reduced review participation occurs when many team members avoid or minimize the
 <br/>  General aversion to the review process leads team members to avoid both submitting and reviewing code.
 - [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md)
 <br/>  Disengagement from the review process as a cultural norm reduces overall participation rates.
-- [Unmotivated Employees](unmotivated-employees.md)
-<br/>  Unmotivated employees avoid voluntary activities like code reviews, concentrating the review burden on engaged team members.
-
 ## Detection Methods ○
 
 - **Review Participation Tracking:** Monitor how many team members actively participate in reviews over time

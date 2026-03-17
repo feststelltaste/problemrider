@@ -47,8 +47,8 @@ Hidden dependencies occur when system components become interdependent in ways t
 <br/>  Developers become hesitant to modify code because past hidden dependencies have caused unexpected breakages.
 - [High Bug Introduction Rate](high-bug-introduction-rate.md)
 <br/>  Developers unknowingly break hidden dependencies with routine changes, introducing new bugs at a high rate.
-
 ## Causes ▼
+
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Workarounds create informal connections between components that bypass the intended architecture and remain undocumented.
 - [Global State and Side Effects](global-state-and-side-effects.md)
@@ -57,11 +57,6 @@ Hidden dependencies occur when system components become interdependent in ways t
 <br/>  Components that expose internal implementation details allow other components to depend on those details in unexpected ways.
 - [Information Decay](information-decay.md)
 <br/>  As documentation becomes outdated, dependencies that were once documented become hidden from developers.
-- [Hidden Side Effects](hidden-side-effects.md)
-<br/>  Side effects create implicit dependencies between the function and external systems that are not visible from the interface.
-- [Shadow Systems](shadow-systems.md)
-<br/>  Shadow systems create undocumented dependencies that official system maps and architecture diagrams don't capture.
-
 ## Detection Methods ○
 
 - **Dependency Mapping:** Document and visualize actual runtime dependencies vs. apparent design dependencies

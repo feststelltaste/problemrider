@@ -44,19 +44,14 @@ Legal disputes occur when disagreements between parties in software development 
 <br/>  Legal disputes directly damage the working relationship between organizations and their vendors or partners.
 - [Team Demoralization](team-demoralization.md)
 <br/>  The uncertainty and adversarial atmosphere created by legal disputes demoralizes team members working on the affected project.
-
 ## Causes ▼
+
 - [Poor Contract Design](poor-contract-design.md)
 <br/>  Ambiguous contract terms and unclear deliverable definitions create disagreements that escalate to legal proceedings.
 - [Requirements Ambiguity](requirements-ambiguity.md)
 <br/>  Vague or undefined requirements lead to disputes about what was agreed upon, as each party interprets expectations differently.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Persistent dissatisfaction with project outcomes, when unresolved through normal channels, eventually escalates to formal legal action.
-- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
-<br/>  Data breaches resulting from authentication bypass can trigger legal action from affected parties.
-- [Vendor Relationship Strain](vendor-relationship-strain.md)
-<br/>  Escalating tensions with vendors can lead to formal legal disputes over contract terms and deliverables.
-
 ## Detection Methods ○
 
 - **Contract Risk Assessment:** Evaluate contracts for ambiguous terms that could lead to disputes

@@ -51,8 +51,8 @@ Scope creep is the insidious expansion of a project's goals and deliverables bey
 <br/>  As scope expands without additional time or resources, quality standards are lowered to accommodate the growing feature set.
 - [Incomplete Projects](incomplete-projects.md)
 <br/>  Projects overwhelmed by scope expansion may be abandoned or left incomplete as they become unmanageable.
-
 ## Causes ▼
+
 - [No Formal Change Control Process](no-formal-change-control-process.md)
 <br/>  Without a formal process to evaluate and approve changes, new requests are added informally without impact analysis.
 - [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
@@ -61,19 +61,6 @@ Scope creep is the insidious expansion of a project's goals and deliverables bey
 <br/>  Poor initial requirements definition leads to continuous discovery of missing requirements during development, driving scope expansion.
 - [Poor Project Control](poor-project-control.md)
 <br/>  Weak project monitoring fails to detect gradual scope expansion until it has already significantly impacted timelines and budgets.
-- [Feature Creep](feature-creep.md)
-<br/>  Feature creep at the component level contributes to overall project scope expanding beyond original plans.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
-<br/>  Frequent requirement changes often expand the overall project scope beyond original plans.
-- [Gold Plating](gold-plating.md)
-<br/>  Adding unrequested features expands project scope beyond original boundaries without proper change control.
-- [Feedback Isolation](no-continuous-feedback-loop.md)
-<br/>  Without ongoing feedback to validate direction, requirements accumulate unchecked as stakeholders add requests at the end.
-- [Poor Planning](poor-planning.md)
-<br/>  Poor upfront planning leaves requirements vague, allowing scope to expand uncontrollably during development.
-- [Requirements Ambiguity](requirements-ambiguity.md)
-<br/>  Ambiguous requirements leave room for expanding interpretation of what needs to be built, allowing scope to grow unchecked.
-
 ## Detection Methods ○
 
 - **Track Change Requests:** Keep a log of all new feature requests and changes to existing requirements

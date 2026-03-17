@@ -35,13 +35,16 @@ A single entry point design is a design where all requests to a system must go t
 <br/>  All changes must flow through the single entry point, creating a bottleneck where modifications queue up and slow down development.
 - [Brittle Codebase](brittle-codebase.md)
 <br/>  Changes to the single entry point risk breaking many unrelated features since all requests depend on it.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  All components become coupled through the single entry point, creating excessive interdependencies.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Adding new features requires modifying the single entry point, which is risky and time-consuming due to its complexity.
-
 ## Causes ▼
+
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  Monolithic designs naturally funnel all requests through centralized components rather than distributing responsibility.
-
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  Without a clear architectural plan, developers default to routing everything through a single well-known component rather than designing proper separation.
 ## Detection Methods ○
 - **Code Reviews:** Look for single classes or components that are responsible for handling all incoming requests.
 - **Static Analysis Tools:** Use tools to identify large classes and classes with a large number of dependencies.

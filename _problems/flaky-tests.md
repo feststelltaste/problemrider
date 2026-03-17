@@ -37,7 +37,6 @@ Flaky tests are automated tests that produce inconsistent results when run multi
 
 ## Symptoms ▲
 
-
 - [Increased Manual Testing Effort](increased-manual-testing-effort.md)
 <br/>  When automated tests are unreliable, teams compensate by increasing manual testing to catch regressions.
 - [Slow Development Velocity](slow-development-velocity.md)
@@ -48,8 +47,8 @@ Flaky tests are automated tests that produce inconsistent results when run multi
 <br/>  CI pipelines blocked by flaky test failures delay code review and merge processes.
 - [Fear of Change](fear-of-change.md)
 <br/>  Unreliable tests make developers uncertain whether test failures indicate real regressions, increasing anxiety around code changes.
-
 ## Causes ▼
+
 - [Testing Environment Fragility](testing-environment-fragility.md)
 <br/>  Unreliable testing infrastructure causes tests to produce different results depending on environment conditions.
 - [Tight Coupling Issues](tight-coupling-issues.md)
@@ -58,11 +57,6 @@ Flaky tests are automated tests that produce inconsistent results when run multi
 <br/>  Code that is hard to test in isolation forces tests to depend on timing, external services, or shared state, creating flakiness.
 - [Inadequate Test Data Management](inadequate-test-data-management.md)
 <br/>  Unrealistic or inconsistent test data causes tests to produce different results across runs.
-- [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
-<br/>  Unreliable test environments cause tests to fail due to infrastructure issues rather than actual bugs.
-- [Outdated Tests](outdated-tests.md)
-<br/>  Outdated tests that reference changed data or deprecated functionality fail intermittently, manifesting as flaky test behavior.
-
 ## Detection Methods ○
 
 - Track test failure rates and patterns over time to identify inconsistent tests

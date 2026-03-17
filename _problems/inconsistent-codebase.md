@@ -44,8 +44,8 @@ An inconsistent codebase lacks coherent and unified design, style, and standards
 <br/>  Developers must mentally switch between different conventions and patterns when working across modules.
 - [Automated Tooling Ineffectiveness](automated-tooling-ineffectiveness.md)
 <br/>  Linters and formatters cannot be configured consistently when the codebase follows multiple conflicting conventions.
-
 ## Causes ▼
+
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
 <br/>  Without clear coding standards, each developer follows their own preferences, resulting in inconsistent code.
 - [Team Churn Impact](team-churn-impact.md)
@@ -54,23 +54,6 @@ An inconsistent codebase lacks coherent and unified design, style, and standards
 <br/>  Superficial reviews fail to enforce consistent coding standards and allow style inconsistencies to persist.
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  Without clear ownership of code quality standards, no one takes responsibility for maintaining consistency.
-- [Automated Tooling Ineffectiveness](automated-tooling-ineffectiveness.md)
-<br/>  When automated tools are ineffective, they cannot enforce consistency, allowing the codebase to remain or become inconsistent.
-- [Convenience-Driven Development](convenience-driven-development.md)
-<br/>  When each developer takes their own convenient shortcuts, the codebase develops inconsistent patterns and design approaches.
-- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
-<br/>  Lack of uniform standards directly produces a codebase that lacks uniform style and design patterns.
-- [Review Process Breakdown](insufficient-code-review.md)
-<br/>  Without effective reviews enforcing standards, coding styles and patterns diverge across the codebase.
-- [Mixed Coding Styles](mixed-coding-styles.md)
-<br/>  Mixed coding styles directly contribute to an overall inconsistent codebase that lacks coherence across modules.
-- [Team Dysfunction](poor-teamwork.md)
-<br/>  Developers working in isolation without coordination produce code with inconsistent styles, patterns, and approaches.
-- [Team Coordination Issues](team-coordination-issues.md)
-<br/>  Uncoordinated development leads to different approaches and patterns being used for similar problems across the codebase.
-- [Team Silos](team-silos.md)
-<br/>  Isolated teams develop different approaches, patterns, and conventions, leading to an inconsistent codebase.
-
 ## Detection Methods ○
 
 - **Manual Code Inspection:** The inconsistency is often obvious from simply browsing the codebase. Manually inspect different parts of the codebase to identify stylistic variations.

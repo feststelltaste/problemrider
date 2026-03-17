@@ -44,25 +44,16 @@ Quality blind spots occur when testing practices fail to detect critical defects
 <br/>  Blind spots in testing often extend to monitoring, leaving production issues undetected as well.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Production failures from untested scenarios erode stakeholder confidence in the system.
-
 ## Causes ▼
+
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Gaps in test coverage directly create areas where defects can go undetected.
-- [Insufficient Testing](insufficient-testing.md)
+- [Quality Blind Spots](insufficient-testing.md)
 <br/>  Inadequate testing practices mean critical scenarios and edge cases are never verified.
-- [Missing End-to-End Tests](missing-end-to-end-tests.md)
+- [System Integration Blindness](missing-end-to-end-tests.md)
 <br/>  Without end-to-end tests, integration issues between components remain invisible until production.
 - [Quality Compromises](quality-compromises.md)
 <br/>  Deliberately skipping testing to meet deadlines creates systematic gaps in quality verification.
-- [Flaky Tests](flaky-tests.md)
-<br/>  When flaky tests are disabled or ignored, they create gaps in test coverage where real bugs can hide undetected.
-- [Inadequate Test Data Management](inadequate-test-data-management.md)
-<br/>  Insufficient test data leaves edge cases and real-world scenarios untested, creating blind spots in quality assurance.
-- [Nitpicking Culture](nitpicking-culture.md)
-<br/>  Focus on minor details diverts attention from important design flaws and security vulnerabilities that go unnoticed.
-- [Outdated Tests](outdated-tests.md)
-<br/>  Tests that verify outdated behavior provide false confidence while actual current functionality goes unverified, creating quality blind spots.
-
 ## Detection Methods ○
 
 - **Production Defect Analysis:** Map production issues back to testing coverage gaps

@@ -45,8 +45,8 @@ Increased manual work occurs when developers must perform repetitive, routine ta
 <br/>  Manual execution of routine tasks is more error-prone than automated processes, leading to more mistakes.
 - [Reduced Individual Productivity](reduced-individual-productivity.md)
 <br/>  Developers accomplish less meaningful work because a large portion of their time goes to repetitive manual tasks.
-
 ## Causes ▼
+
 - [Inefficient Processes](inefficient-processes.md)
 <br/>  Poor workflows that have not been optimized or automated create unnecessary manual work for developers.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
@@ -55,21 +55,6 @@ Increased manual work occurs when developers must perform repetitive, routine ta
 <br/>  Non-automated deployment processes are a major source of repetitive manual work for development teams.
 - [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
 <br/>  Missing automation tools force developers to perform testing and verification tasks manually.
-- [Automated Tooling Ineffectiveness](automated-tooling-ineffectiveness.md)
-<br/>  When automated tools cannot do their job, developers must manually perform checks that should be automated.
-- [Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md)
-<br/>  Synchronization failures require daily manual reconciliation to identify and correct data inconsistencies between systems.
-- [Data Migration Complexities](data-migration-complexities.md)
-<br/>  Complex migrations often require manual intervention to handle edge cases, data inconsistencies, and verification steps.
-- [Data Migration Integrity Issues](data-migration-integrity-issues.md)
-<br/>  Integrity issues require extensive manual data reconciliation and correction efforts after migration is completed.
-- [Legacy Configuration Management Chaos](legacy-configuration-management-chaos.md)
-<br/>  Configuration that cannot be automated forces developers and operators to perform repetitive manual configuration tasks.
-- [Reduced Innovation](reduced-innovation.md)
-<br/>  Refusing to adopt modern automation tools forces teams to continue performing tasks manually.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md)
-<br/>  Staff must perform manual compliance tasks that the legacy system cannot automate, increasing operational burden.
-
 ## Detection Methods ○
 
 - **Time Tracking Analysis:** Monitor how much time developers spend on repetitive tasks

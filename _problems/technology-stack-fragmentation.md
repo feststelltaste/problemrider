@@ -44,17 +44,18 @@ Technology stack fragmentation occurs when an organization accumulates multiple 
 <br/>  Each fragmented technology stack requires specialized expertise, making it difficult to find and retain qualified staff across all stacks.
 - [Team Silos](team-silos.md)
 <br/>  Specialists in different technology stacks naturally form silos as they cannot easily contribute to systems outside their expertise.
-
+- [Integration Difficulties](integration-difficulties.md)
+<br/>  Integrating systems built on incompatible technology stacks requires extensive translation layers and custom solutions.
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  Cross-system features require implementation across multiple incompatible stacks, dramatically increasing delivery time.
 ## Causes ▼
+
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Legacy systems built on now-obsolete technologies contribute to the fragmentation as they cannot be easily modernized.
-- [CV Driven Development](cv-driven-development.md)
-<br/>  Different developers introducing their preferred resume-building technologies creates a fragmented stack with many incompatible tools.
-- [Premature Technology Introduction](premature-technology-introduction.md)
-<br/>  Each premature adoption adds a new technology to the stack without consolidation, fragmenting the platform.
-- [Shadow Systems](shadow-systems.md)
-<br/>  Each shadow system introduces its own technology choices, fragmenting the overall technology landscape.
-
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  Without a unifying architectural vision, different teams and projects independently choose different technology stacks.
+- [Rapid Team Growth](rapid-team-growth.md)
+<br/>  Systems built at different times with different technology preferences naturally accumulate diverse and incompatible stacks.
 ## Detection Methods ○
 
 - Conduct technology inventory audits across all systems and business units

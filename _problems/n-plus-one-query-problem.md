@@ -41,17 +41,18 @@ The N+1 query problem is a common performance issue that occurs when an applicat
 <br/>  The flood of individual queries from N+1 patterns overloads the database, degrading overall query performance.
 - [Negative User Feedback](negative-user-feedback.md)
 <br/>  Users experience slow page loads and unresponsive interfaces as a direct result of excessive database queries.
-
+- [High Client-Side Resource Consumption](high-client-side-resource-consumption.md)
+<br/>  Each individual query consumes connection pool resources, network bandwidth, and database processing capacity unnecessarily.
 ## Causes ▼
+
 - [Lazy Loading](lazy-loading.md)
 <br/>  ORM lazy loading transparently triggers individual queries for each related object access, making the N+1 pattern easy to introduce unknowingly.
 - [Imperative Data Fetching Logic](imperative-data-fetching-logic.md)
 <br/>  Writing data fetching in loops rather than declarative batch queries naturally produces the N+1 pattern.
-- [Insufficient Code Review](insufficient-code-review.md)
+- [Review Process Breakdown](insufficient-code-review.md)
 <br/>  Without reviews that scrutinize database access patterns, N+1 queries slip into production undetected.
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  Developers unfamiliar with ORM behavior or database optimization techniques inadvertently introduce N+1 patterns.
-
 ## Detection Methods ○
 
 - **Application Performance Monitoring (APM):** APM tools can often detect and flag N+1 query patterns automatically.

@@ -45,15 +45,14 @@ Fear of failure is a powerful psychological barrier that can significantly hinde
 <br/>  Team members defer important decisions to avoid being blamed if the outcome is negative.
 - [Avoidance Behaviors](avoidance-behaviors.md)
 <br/>  Complex or risky tasks are postponed because team members fear the consequences of potential failure.
-
 ## Causes ▼
+
 - [Blame Culture](blame-culture.md)
 <br/>  When mistakes are punished rather than treated as learning opportunities, team members develop a deep-seated fear of failing.
 - [History of Failed Changes](history-of-failed-changes.md)
 <br/>  Past failures that led to negative consequences for individuals create lasting fear that discourages future risk-taking.
 - [Micromanagement Culture](micromanagement-culture.md)
 <br/>  Excessive oversight signals distrust and makes team members afraid that any mistake will be scrutinized and punished.
-
 ## Detection Methods ○
 - **Team Retrospectives:** Observe discussions around mistakes and failures; is there a focus on blame or learning?
 - **Decision-Making Speed:** Track how quickly the team makes decisions, especially for non-trivial matters.

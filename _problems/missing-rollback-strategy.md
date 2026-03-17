@@ -38,19 +38,22 @@ Deployment Risk occurs when teams deploy systems without having a reliable, test
 
 ## Symptoms ▲
 
-- [Large Risky Releases](large-risky-releases.md)
+- [Deployment Risk](deployment-risk.md)
+<br/>  Without rollback capability, teams become anxious about deployments since any problem requires fixing forward under pressure.
+- [Slow Incident Resolution](slow-incident-resolution.md)
+<br/>  When deployments go wrong and cannot be quickly reverted, incidents last longer and have greater impact.
+- [Large, Risky Releases](large-risky-releases.md)
 <br/>  Deployment anxiety from missing rollback leads teams to batch changes into fewer, larger releases that are even riskier.
 - [Slow Incident Resolution](slow-incident-resolution.md)
 <br/>  Without the option to quickly rollback, incident resolution requires debugging and fixing in production, which takes much longer.
-
 ## Causes ▼
+
 - [Manual Deployment Processes](manual-deployment-processes.md)
 <br/>  Manual deployment workflows make it difficult to implement and test reliable rollback procedures.
 - [Complex Deployment Process](complex-deployment-process.md)
 <br/>  Overly complex deployment processes make it impractical to define and test rollback steps for every component.
 - [Immature Delivery Strategy](immature-delivery-strategy.md)
 <br/>  Organizations with immature delivery practices often lack the discipline to plan and test rollback strategies as part of deployment.
-
 ## Detection Methods ○
 
 - Review deployment documentation for rollback procedure coverage

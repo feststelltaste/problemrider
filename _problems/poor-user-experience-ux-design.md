@@ -41,8 +41,8 @@ Poor user experience (UX) design is a critical problem that can render an applic
 <br/>  Confusing UX causes users to contact support frequently for help with basic tasks.
 - [Shadow Systems](shadow-systems.md)
 <br/>  Users frustrated with poor UX create their own workaround tools and spreadsheets outside the official system.
-
 ## Causes ▼
+
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
 <br/>  Not gathering user needs and workflows leads to interfaces designed without understanding how users actually work.
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
@@ -51,9 +51,6 @@ Poor user experience (UX) design is a critical problem that can render an applic
 <br/>  Uncontrolled feature additions clutter the interface and make it harder to use for core tasks.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Prioritizing quick feature delivery over usability creates interfaces that work technically but are hard to use.
-- [Feature Bloat](feature-bloat.md)
-<br/>  Cluttered interfaces with too many options overwhelm users and make core functionality hard to find.
-
 ## Detection Methods ○
 - **Usability Testing:** Observe real users as they interact with the application to identify areas of confusion and frustration.
 - **User Surveys:** Collect feedback from users about their experience with the application.

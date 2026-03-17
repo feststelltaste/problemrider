@@ -47,8 +47,8 @@ Poor planning occurs when development projects lack adequate forethought, realis
 <br/>  Poor planning leads to mismatched resource allocation that doesn't reflect actual project needs.
 - [Increased Stress and Burnout](increased-stress-and-burnout.md)
 <br/>  Unrealistic plans create sustained pressure on teams trying to meet impossible timelines.
-
 ## Causes ▼
+
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
 <br/>  Without thorough requirements analysis, plans are built on incomplete understanding of what needs to be built.
 - [Incomplete Knowledge](incomplete-knowledge.md)
@@ -57,7 +57,6 @@ Poor planning occurs when development projects lack adequate forethought, realis
 <br/>  External market pressure pushes teams to commit to aggressive timelines without adequate planning.
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
 <br/>  Disconnect between stakeholders and developers leads to plans that don't account for technical complexity.
-
 ## Detection Methods ○
 
 - **Plan vs. Actual Analysis:** Compare planned timelines, budgets, and scope with actual outcomes

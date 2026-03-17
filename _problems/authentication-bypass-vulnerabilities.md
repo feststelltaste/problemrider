@@ -43,8 +43,8 @@ Authentication bypass vulnerabilities occur when security flaws in authenticatio
 <br/>  Data breaches resulting from authentication bypass can trigger legal action from affected parties.
 - [User Trust Erosion](user-trust-erosion.md)
 <br/>  When users learn that authentication can be bypassed, trust in the system is severely damaged.
-
 ## Causes ▼
+
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Poor error handling in authentication logic can create fallback paths that bypass security checks.
 - [Quality Blind Spots](insufficient-testing.md)
@@ -53,17 +53,6 @@ Authentication bypass vulnerabilities occur when security flaws in authenticatio
 <br/>  Developer backdoors and simplified authentication in prototypes become security vulnerabilities when prototypes go to production.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without security expertise may implement authentication logic with subtle flaws that allow bypass.
-- [Error Message Information Disclosure](error-message-information-disclosure.md)
-<br/>  Error messages revealing authentication logic details help attackers identify weaknesses in the authentication mechanism.
-- [Insecure Data Transmission](insecure-data-transmission.md)
-<br/>  Unencrypted transmission of credentials enables interception and replay attacks that bypass authentication.
-- [Password Security Weaknesses](password-security-weaknesses.md)
-<br/>  Weak passwords and poor authentication practices make it trivial for attackers to bypass authentication through brute force or credential stuffing.
-- [Secret Management Problems](secret-management-problems.md)
-<br/>  Exposed or poorly managed credentials allow attackers to bypass authentication by using leaked secrets directly.
-- [Session Management Issues](session-management-issues.md)
-<br/>  Weak session management allows attackers to hijack or forge sessions, effectively bypassing authentication.
-
 ## Detection Methods ○
 
 - **Security Testing and Penetration Testing:** Test authentication mechanisms for bypass vulnerabilities

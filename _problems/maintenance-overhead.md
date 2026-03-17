@@ -42,8 +42,8 @@ Maintenance overhead is the excessive effort required to keep a software system 
 <br/>  High maintenance overhead directly translates to increasing costs as more developer time is consumed by upkeep.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Teams overwhelmed by maintenance cannot deliver new features, causing the product to fall behind competitors.
-
 ## Causes ▼
+
 - [Code Duplication](code-duplication.md)
 <br/>  Duplicated code multiplies the maintenance burden since identical fixes must be applied across all copies.
 - [High Technical Debt](high-technical-debt.md)
@@ -54,17 +54,6 @@ Maintenance overhead is the excessive effort required to keep a software system 
 <br/>  Without tests, developers must spend extra time manually verifying that maintenance changes don't break existing functionality.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Code that is hard to understand requires disproportionate time to maintain, as developers must first decipher it before making changes.
-- [API Versioning Conflicts](api-versioning-conflicts.md)
-<br/>  Supporting multiple incompatible API versions simultaneously creates significant maintenance burden.
-- [Copy-Paste Programming](copy-paste-programming.md)
-<br/>  Every duplicated code block multiplies the maintenance burden since changes must be replicated across all copies.
-- [Lower Code Quality](lower-code-quality.md)
-<br/>  Poorly written code requires more effort to understand, modify, and fix, increasing ongoing maintenance burden.
-- [Outdated Tests](outdated-tests.md)
-<br/>  Significant time is spent debugging and updating tests that fail for reasons unrelated to actual code defects.
-- [Second-System Effect](second-system-effect.md)
-<br/>  Complex, over-designed replacement systems create ongoing maintenance burden for features and abstractions that are rarely used.
-
 ## Detection Methods ○
 - **Time Tracking:** Track the amount of time that the team spends on maintenance tasks versus new development. A high ratio is a clear sign of a problem.
 - **Bug Density:** Measure the number of bugs per line of code. A high bug density is a sign that the codebase is difficult to maintain.

@@ -40,17 +40,22 @@ Implementation starts without design occurs when development teams begin coding 
 
 - [Implementation Rework](implementation-rework.md)
 <br/>  Without upfront design, structural problems are discovered during or after implementation, requiring significant rebuilding.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Without planned component boundaries, code grows organically with tight interdependencies between modules.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Ad-hoc design decisions made during coding accumulate as technical debt since they lack coherent architectural vision.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Without a clear design, developers create workarounds to patch structural issues that emerge during implementation.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  An organically evolved architecture without clear design becomes difficult to intentionally evolve or improve.
-
 ## Causes ▼
+
 - [Time Pressure](time-pressure.md)
 <br/>  Tight deadlines push teams to skip design phases and jump straight into coding to show progress quickly.
-
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Teams without architecture expertise may not recognize the value of upfront design or know how to conduct it effectively.
+- [Requirements Ambiguity](requirements-ambiguity.md)
+<br/>  When requirements are vague, teams may feel unable to design upfront and resort to exploratory coding instead.
 ## Detection Methods ○
 
 - Review project timelines for allocation of design and architecture activities

@@ -46,8 +46,8 @@ Maintenance cost increase occurs when the resources required to keep software sy
 <br/>  Paradoxically, high maintenance costs make modernization seem expensive compared to the status quo, even as costs keep rising.
 - [Increased Cost of Development](increased-cost-of-development.md)
 <br/>  Rising maintenance costs are a direct component of increasing overall development costs.
-
 ## Causes ▼
+
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated technical debt makes every change more expensive as developers must work around accumulated shortcuts and poor design.
 - [Increasing Brittleness](increasing-brittleness.md)
@@ -56,15 +56,6 @@ Maintenance cost increase occurs when the resources required to keep software sy
 <br/>  Duplicated code multiplies maintenance effort since the same fix or change must be applied in multiple places.
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Maintaining systems on obsolete technologies is expensive due to scarce expertise and lack of vendor support.
-- [Accumulation of Workarounds](accumulation-of-workarounds.md)
-<br/>  Each new feature or fix must navigate around existing workarounds, significantly increasing maintenance effort.
-- [High Bug Introduction Rate](high-bug-introduction-rate.md)
-<br/>  Each introduced bug requires investigation, fixing, testing, and deployment, increasing overall maintenance costs.
-- [Increased Customer Support Load](increased-customer-support-load.md)
-<br/>  More support tickets require more support staff and operational resources, increasing overall maintenance costs.
-- [Maintenance Overhead](maintenance-overhead.md)
-<br/>  High maintenance overhead directly translates to increasing costs as more developer time is consumed by upkeep.
-
 ## Detection Methods ○
 
 - **Cost Allocation Tracking:** Monitor percentage of development resources spent on maintenance versus new development

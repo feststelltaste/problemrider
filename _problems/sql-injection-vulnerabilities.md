@@ -29,14 +29,20 @@ SQL injection vulnerabilities occur when applications fail to properly sanitize 
 
 ## Symptoms ▲
 
-
+- [Silent Data Corruption](silent-data-corruption.md)
+<br/>  Attackers can use SQL injection to modify or delete data, causing corruption of database contents.
 - [System Outages](system-outages.md)
 <br/>  Destructive SQL injection attacks like DROP TABLE can cause system outages by destroying critical data.
-
 ## Causes ▼
-- [Error Message Information Disclosure](error-message-information-disclosure.md)
-<br/>  Detailed database error messages reveal schema information that attackers use to craft targeted SQL injection attacks.
 
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Without coding standards mandating parameterized queries, developers may use string concatenation for SQL.
+- [Review Process Breakdown](insufficient-code-review.md)
+<br/>  Without code review, insecure query construction patterns go undetected before reaching production.
+- [Password Security Weaknesses](password-security-weaknesses.md)
+<br/>  Lack of security awareness and secure coding practices allows SQL injection patterns to persist in the codebase.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Older code written before security best practices were established often contains SQL injection vulnerabilities.
 ## Detection Methods ○
 
 - **Input Validation Testing:** Test all input fields for SQL injection attack vectors

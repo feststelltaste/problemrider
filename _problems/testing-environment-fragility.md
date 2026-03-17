@@ -37,17 +37,24 @@ Testing environment fragility occurs when the infrastructure supporting automate
 
 - [Flaky Tests](flaky-tests.md)
 <br/>  Unreliable testing infrastructure causes tests to fail intermittently for infrastructure reasons rather than actual code issues.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  When testing environments don't accurately represent production, bugs pass through testing undetected.
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  Time spent diagnosing infrastructure failures and maintaining fragile test environments delays the delivery pipeline.
 - [Test Debt](test-debt.md)
 <br/>  Developers skip or disable tests to avoid dealing with fragile infrastructure, accumulating test debt.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Repeatedly debugging infrastructure issues instead of actual code problems is deeply frustrating for developers.
-
 ## Causes ▼
+
 - [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
 <br/>  Insufficient investment in testing infrastructure leads to unreliable and poorly maintained test environments.
+- [Configuration Drift](configuration-drift.md)
+<br/>  Testing environments that diverge from production configurations lead to unreliable test results.
+- [Inadequate Configuration Management](inadequate-configuration-management.md)
+<br/>  Poor configuration management leads to inconsistent environment setups and version mismatches between dependencies.
 - [Inadequate Test Data Management](inadequate-test-data-management.md)
 <br/>  Unreliable test data management causes database inconsistencies that produce random test failures.
-
 ## Detection Methods ○
 
 - **Test Failure Analysis:** Track what percentage of test failures are due to infrastructure vs. code issues

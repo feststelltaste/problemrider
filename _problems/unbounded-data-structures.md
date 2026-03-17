@@ -36,7 +36,6 @@ Unbounded data structures are collections, caches, logs, or other data container
 
 ## Symptoms ▲
 
-
 - [Memory Leaks](memory-leaks.md)
 <br/>  Data structures that grow without bounds effectively leak memory as they consume more and more resources that are never reclaimed.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
@@ -45,15 +44,14 @@ Unbounded data structures are collections, caches, logs, or other data container
 <br/>  Oversized data structures consume memory and increase processing time, directly degrading application responsiveness.
 - [Cascade Failures](cascade-failures.md)
 <br/>  When an unbounded data structure exhausts available memory, the resulting out-of-memory condition can cascade to other components.
-
 ## Causes ▼
+
 - [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
 <br/>  Poor algorithmic choices can lead to data structures that grow unnecessarily due to inefficient data management approaches.
 - [Poor Caching Strategy](poor-caching-strategy.md)
 <br/>  Caches implemented without eviction policies or size limits are a primary example of unbounded data structures.
 - [Inefficient Code](inefficient-code.md)
 <br/>  Code that appends to collections without considering cleanup or bounds checking leads directly to unbounded data structures.
-
 ## Detection Methods ○
 
 - **Memory Usage Monitoring:** Track memory consumption patterns over time to identify continuously growing structures

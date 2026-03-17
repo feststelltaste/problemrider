@@ -42,17 +42,14 @@ Team silos are a common organizational problem where different teams or individu
 <br/>  When teams don't share knowledge, critical information becomes trapped within specific teams or individuals.
 - [Team Coordination Issues](team-coordination-issues.md)
 <br/>  Teams that work in isolation lack the communication patterns needed to coordinate effectively when collaboration is required.
-
 ## Causes ▼
-- [Poor Communication](poor-communication.md)
+
+- [Communication Breakdown](poor-communication.md)
 <br/>  Lack of effective communication channels and practices between teams allows silos to form and persist.
+- [Organizational Structure Mismatch](organizational-structure-mismatch.md)
+<br/>  Complex organizational structures with many divisions and hierarchies naturally create barriers between teams.
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  Monolithic systems that assign different areas to different teams without clear interfaces encourage isolated working patterns.
-- [Team Dysfunction](team-dysfunction.md)
-<br/>  When collaboration is difficult or counterproductive, team members retreat into isolation and work independently.
-- [Technology Stack Fragmentation](technology-stack-fragmentation.md)
-<br/>  Specialists in different technology stacks naturally form silos as they cannot easily contribute to systems outside their expertise.
-
 ## Detection Methods ○
 - **Organizational Network Analysis:** Analyze the communication patterns within the organization to identify teams that are isolated from each other.
 - **Codebase Analysis:** Look for signs of team silos in the codebase, such as inconsistent coding styles, duplicated functionality, and a lack of reusable components.

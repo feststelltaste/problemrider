@@ -41,8 +41,8 @@ Gold plating is the practice of adding unnecessary features or complexity to a p
 <br/>  Unnecessary features accumulate, making the product overly complex and diluting its core value proposition.
 - [Increased Cost of Development](increased-cost-of-development.md)
 <br/>  Every unnecessary feature adds maintenance burden and testing requirements that increase ongoing development costs.
-
 ## Causes ▼
+
 - [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
 <br/>  Desire to impress stakeholders motivates developers to add extra features they believe will be appreciated.
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
@@ -51,9 +51,6 @@ Gold plating is the practice of adding unnecessary features or complexity to a p
 <br/>  Without formal scope control, developers can add unrequested features without approval or trade-off analysis.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Focus on immediate impressiveness over long-term product health drives developers to add flashy but unnecessary features.
-- [Perfectionist Culture](perfectionist-culture.md)
-<br/>  Perfectionist culture encourages developers to add unnecessary refinements and features beyond what was requested.
-
 ## Detection Methods ○
 - **Feature Request Backlog:** Analyze the feature request backlog to identify features that were not requested.
 - **Product Roadmap:** Review the product roadmap to see if it is focused and realistic.

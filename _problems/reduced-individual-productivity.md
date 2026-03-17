@@ -42,8 +42,10 @@ Reduced individual productivity occurs when developers find themselves completin
 <br/>  Individual developers completing fewer tasks directly contributes to slower overall development velocity.
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Individual productivity losses accumulate into missed deadlines and delayed project deliveries.
-
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Working harder but accomplishing less creates frustration and exhaustion that leads to burnout.
 ## Causes ▼
+
 - [Inefficient Development Environment](inefficient-development-environment.md)
 <br/>  Slow builds, poor tooling, and cumbersome development setups waste developer time on non-productive activities.
 - [Tool Limitations](tool-limitations.md)
@@ -52,21 +54,6 @@ Reduced individual productivity occurs when developers find themselves completin
 <br/>  Frequent interruptions and context switching prevent developers from achieving deep focus needed for productive work.
 - [Increased Manual Work](increased-manual-work.md)
 <br/>  Manual processes that should be automated consume developer time that could be spent on value-producing work.
-- [Cognitive Overload](cognitive-overload.md)
-<br/>  Developers complete fewer tasks because each change requires understanding far more context than the change itself.
-- [Context Switching Overhead](context-switching-overhead.md)
-<br/>  Each context switch incurs a mental ramp-up cost, directly reducing the amount of productive work developers can accomplish.
-- [Extended Research Time](extended-research-time.md)
-<br/>  Developers complete fewer tasks when a disproportionate amount of their time is consumed by research activities.
-- [Increased Cognitive Load](increased-cognitive-load.md)
-<br/>  Developers complete fewer tasks because much of their effort goes toward comprehending rather than creating code.
-- [Mental Fatigue](mental-fatigue.md)
-<br/>  Mentally fatigued developers produce less output as their cognitive capacity is depleted by non-productive overhead.
-- [Mentor Burnout](mentor-burnout.md)
-<br/>  Mentors overwhelmed by teaching responsibilities have less time and energy for their own development work.
-- [Micromanagement Culture](micromanagement-culture.md)
-<br/>  Developers spend significant time on approval workflows and justification documents instead of productive work.
-
 ## Detection Methods ○
 
 - **Individual Velocity Tracking:** Monitor story points or tasks completed per developer over time

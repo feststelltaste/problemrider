@@ -32,7 +32,6 @@ Frequent changes to requirements occur when the project's scope and specificatio
 
 ## Symptoms ▲
 
-
 - [Implementation Rework](implementation-rework.md)
 <br/>  Features must be rebuilt when requirements change after development has started, wasting previous effort.
 - [Missed Deadlines](missed-deadlines.md)
@@ -45,8 +44,8 @@ Frequent changes to requirements occur when the project's scope and specificatio
 <br/>  Frequent requirement changes often expand the overall project scope beyond original plans.
 - [Team Confusion](team-confusion.md)
 <br/>  Constant changes leave team members unclear about current requirements and priorities.
-
 ## Causes ▼
+
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
 <br/>  Poorly gathered initial requirements need frequent corrections as gaps and misunderstandings are discovered during development.
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
@@ -55,7 +54,6 @@ Frequent changes to requirements occur when the project's scope and specificatio
 <br/>  Conflicting priorities from multiple stakeholders without clear product leadership cause requirements to shift frequently.
 - [Market Pressure](market-pressure.md)
 <br/>  External competitive forces drive sudden changes in business strategy that cascade into changed requirements.
-
 ## Detection Methods ○
 
 - **Version Control System Analysis:** Track changes to requirements documents or user stories in your project management tool.

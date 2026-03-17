@@ -44,8 +44,8 @@ Ripple effect of changes occurs when modifying one component necessitates change
 <br/>  The amplified effort required for every change drives up the cost of maintaining and evolving the system.
 - [Resistance to Change](resistance-to-change.md)
 <br/>  Teams become reluctant to make improvements when they know that any change will cascade into extensive modifications across the codebase.
-
 ## Causes ▼
+
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Excessive dependencies between components mean that changes in one component directly require changes in its dependents.
 - [Hidden Dependencies](hidden-dependencies.md)
@@ -54,21 +54,6 @@ Ripple effect of changes occurs when modifying one component necessitates change
 <br/>  When internal details are exposed rather than encapsulated, external code depends on implementation specifics that force cascading changes.
 - [God Object Anti-Pattern](god-object-anti-pattern.md)
 <br/>  God objects that are referenced throughout the system create a central point where changes ripple outward to all dependent code.
-- [Circular Dependency Problems](circular-dependency-problems.md)
-<br/>  Changes to any component in the cycle require changes to other components due to mutual dependencies.
-- [Excessive Class Size](excessive-class-size.md)
-<br/>  Changes to an excessively large class affect many different functionalities, causing cascading modifications across the system.
-- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
-<br/>  Small changes in one module require modifications across many other modules due to tight coupling between components.
-- [Poor Domain Model](poor-domain-model.md)
-<br/>  Business rule changes require touching many unrelated parts of the system because business logic is scattered rather than centralized.
-- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
-<br/>  Modifications to multi-responsibility components have unexpected effects on seemingly unrelated functionality.
-- [Shared Dependencies](shared-dependencies.md)
-<br/>  Updating a shared dependency can have unexpected effects across all components that consume it, creating widespread ripple effects.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md)
-<br/>  Changing a cross-cutting concern like logging requires modifications across all components where it is embedded.
-
 ## Detection Methods ○
 - **Change Impact Analysis:** Track how many files or modules need modification for typical changes
 - **Dependency Analysis Tools:** Use static analysis to visualize and measure coupling between components

@@ -43,21 +43,14 @@ Resource waste occurs when available capacity, skills, or tools are not utilized
 <br/>  Poor resource utilization means some projects lack resources while equivalent capacity sits idle elsewhere in the organization.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Stakeholders become frustrated when they see investment in resources not translating to proportional productivity or output.
-
 ## Causes ▼
+
 - [Capacity Mismatch](capacity-mismatch.md)
 <br/>  Misalignment between available capacity and actual demand creates situations where some resources are idle while others are overloaded.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When expertise is siloed, available skilled people cannot be effectively deployed to where they are most needed.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Without clear priorities, resources get allocated to low-value activities while high-priority work remains understaffed.
-- [Delayed Decision Making](delayed-decision-making.md)
-<br/>  Teams spend time building throwaway prototypes, attending repetitive meetings, and researching options that may never be selected.
-- [Unused Indexes](unused-indexes.md)
-<br/>  Unused indexes consume disk space, memory, and CPU cycles during write operations without providing any query benefit.
-- [Wasted Development Effort](wasted-development-effort.md)
-<br/>  Discarded development work represents a direct waste of organizational resources including time and money.
-
 ## Detection Methods ○
 
 - **Resource Utilization Analysis:** Monitor how effectively different resources are being used

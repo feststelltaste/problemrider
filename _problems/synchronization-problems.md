@@ -44,8 +44,8 @@ Synchronization problems occur when similar or identical functionality exists in
 <br/>  Each unsynchronized copy of logic becomes a potential source of new bugs as copies diverge over time.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  Bugs that manifest differently depending on which code path is executed are extremely difficult to diagnose.
-
 ## Causes ▼
+
 - [Code Duplication](code-duplication.md)
 <br/>  Having identical logic in multiple places is the fundamental prerequisite for synchronization problems to occur.
 - [Copy-Paste Programming](copy-paste-programming.md)
@@ -54,7 +54,6 @@ Synchronization problems occur when similar or identical functionality exists in
 <br/>  Developers unaware of all locations where similar logic exists cannot propagate changes to all copies.
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  Without clear ownership of shared logic, no one ensures that changes are propagated across all instances.
-
 ## Detection Methods ○
 - **Differential Analysis:** Compare behavior of supposedly identical features across different system areas
 - **Bug Pattern Analysis:** Track bugs that appear to be fixed but reoccur in different locations

@@ -31,20 +31,20 @@ Even when appropriate indexes exist, certain query patterns can prevent the data
 
 ## Symptoms ▲
 
-
 - [Slow Database Queries](slow-database-queries.md)
 <br/>  Queries that bypass indexes force full table scans, directly causing slow query execution times.
 - [Database Query Performance Issues](database-query-performance-issues.md)
 <br/>  Non-index-friendly query patterns create performance bottlenecks in database operations.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As tables grow, queries that cannot use indexes degrade progressively because full scans take longer.
-
 ## Causes ▼
-- [Insufficient Code Review](insufficient-code-review.md)
+
+- [Skill Development Gaps](skill-development-gaps.md)
+<br/>  Developers lack knowledge of how database query optimizers work and what patterns prevent index usage.
+- [Review Process Breakdown](insufficient-code-review.md)
 <br/>  Code reviews that don't evaluate query performance miss patterns that prevent index usage.
 - [Inefficient Database Indexing](inefficient-database-indexing.md)
 <br/>  Poorly designed indexes may not match query patterns, compounding the effect of index-unfriendly queries.
-
 ## Detection Methods ○
 
 - **Query Execution Plan Analysis:** This is the primary method. Always use `EXPLAIN` or `EXPLAIN ANALYZE` to understand how the database is executing your queries. Look for `Seq Scan` or `Full Table Scan` on large tables where an index is expected.

@@ -39,11 +39,14 @@ Network latency is the time it takes for data to travel from one point to anothe
 <br/>  Users experience sluggish interactions due to network delays and complain about poor performance.
 - [High API Latency](high-api-latency.md)
 <br/>  Network transmission delays directly increase API response times measured at the client.
-
 ## Causes ▼
+
+- [Microservice Communication Overhead](microservice-communication-overhead.md)
+<br/>  APIs that require many round-trips to complete operations amplify the impact of network latency on overall performance.
+- [Resource Allocation Failures](resource-allocation-failures.md)
+<br/>  Deploying services in geographically distant or poorly connected data centers introduces unnecessary network latency.
 - [External Service Delays](external-service-delays.md)
 <br/>  Dependence on external services with poor network connectivity introduces latency that the application cannot control.
-
 ## Detection Methods ○
 
 - **Ping/Traceroute:** Use `ping` to measure round-trip time to a host and `traceroute` (or `tracert` on Windows) to identify the path and latency at each hop.

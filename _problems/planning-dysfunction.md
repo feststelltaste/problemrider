@@ -46,8 +46,8 @@ Planning dysfunction occurs when project planning processes systematically produ
 <br/>  Unrealistic plans force teams to work excessive hours to compensate for poor resource allocation and underestimated complexity.
 - [Wasted Development Effort](wasted-development-effort.md)
 <br/>  Poor planning leads to building the wrong things or doing work that must be abandoned when reality diverges from the plan.
-
 ## Causes ▼
+
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
 <br/>  Insufficient understanding of requirements means plans are built on incomplete information about what the project actually needs.
 - [Knowledge Gaps](knowledge-gaps.md)
@@ -56,7 +56,6 @@ Planning dysfunction occurs when project planning processes systematically produ
 <br/>  Teams agree to optimistic timelines to satisfy stakeholders rather than creating honest, realistic plans.
 - [Market Pressure](market-pressure.md)
 <br/>  External competitive forces drive planning to focus on desired delivery dates rather than realistic effort estimation.
-
 ## Detection Methods ○
 
 - **Plan vs. Actual Analysis:** Compare planned timelines and resource usage with actual results

@@ -39,15 +39,14 @@ Memory swapping is a process where the operating system moves a block of memory 
 <br/>  When database server memory is swapped to disk, query execution becomes extremely slow as data must be read from disk instead of memory.
 - [Service Timeouts](service-timeouts.md)
 <br/>  The dramatic slowdown from swapping causes services to exceed their timeout thresholds, leading to cascading failures.
-
 ## Causes ▼
+
 - [Memory Leaks](memory-leaks.md)
 <br/>  Memory leaks gradually consume physical RAM until the system is forced to swap, as illustrated in the example of a Java application pushing MySQL into swapping.
 - [High Database Resource Utilization](high-database-resource-utilization.md)
 <br/>  Overloaded database servers consuming excessive memory push the system beyond physical RAM limits into swap territory.
 - [Resource Contention](resource-contention.md)
 <br/>  Multiple processes competing for limited physical memory force the OS to swap less active pages to disk.
-
 ## Detection Methods ○
 
 - **System Monitoring Tools:** Use `free -h`, `vmstat`, `top`, or `htop` (Linux) to observe `swap` usage and `si`/`so` (swap in/out) rates.

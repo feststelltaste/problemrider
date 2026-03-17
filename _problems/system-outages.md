@@ -48,8 +48,8 @@ System outages occur when software systems become unavailable, unresponsive, or 
 <br/>  Users contact support during and after outages, significantly increasing support volume.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Unreliable systems drive users to more stable competitors who can provide consistent service availability.
-
 ## Causes ▼
+
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Poor error handling allows exceptions to cascade and crash systems rather than being gracefully managed.
 - [Memory Leaks](memory-leaks.md)
@@ -60,53 +60,6 @@ System outages occur when software systems become unavailable, unresponsive, or 
 <br/>  Systems that slowly degrade eventually reach tipping points where they fail completely under normal load.
 - [Database Connection Leaks](database-connection-leaks.md)
 <br/>  Leaked database connections exhaust connection pools, preventing the application from functioning.
-- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
-<br/>  Exploited authentication bypasses can lead to system compromise and subsequent outages.
-- [Configuration Chaos](configuration-chaos.md)
-<br/>  Misconfigured or drifted configurations can cause services to fail silently or crash, resulting in system outages.
-- [Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md)
-<br/>  Synchronization process failures during peak usage can cause cascading failures that bring down connected systems.
-- [Data Migration Complexities](data-migration-complexities.md)
-<br/>  Complex migrations requiring extended downtime or failing mid-process directly cause prolonged system unavailability.
-- [Data Migration Integrity Issues](data-migration-integrity-issues.md)
-<br/>  Severe data integrity issues discovered after migration may force emergency halts for re-migration, causing unplanned downtime.
-- [Data Protection Risk](data-protection-risk.md)
-<br/>  Data protection failures can trigger mandatory system shutdowns or service interruptions when breaches are discovered.
-- [Deadlock Conditions](deadlock-conditions.md)
-<br/>  Deadlocks cause parts or all of the application to freeze, effectively creating service outages that require manual intervention.
-- [Deployment Risk](deployment-risk.md)
-<br/>  Risky deployments that go wrong can cause extended outages due to lack of recovery mechanisms.
-- [Inadequate Configuration Management](inadequate-configuration-management.md)
-<br/>  Untracked configuration changes cause unexpected failures when inconsistent settings interact in production.
-- [Large, Risky Releases](large-risky-releases.md)
-<br/>  Failed large releases can cause significant service interruptions due to the complexity of the changes and difficulty of rollback.
-- [Load Balancing Problems](load-balancing-problems.md)
-<br/>  When overloaded instances fail completely due to poor load distribution, it can cascade into full service outages.
-- [Log Injection Vulnerabilities](log-injection-vulnerabilities.md)
-<br/>  Injected format strings or malicious content can crash log processing systems, causing service disruptions.
-- [Null Pointer Dereferences](null-pointer-dereferences.md)
-<br/>  Null pointer dereferences cause application crashes and segmentation faults, directly leading to service interruptions and system outages.
-- [Poor Operational Concept](poor-operational-concept.md)
-<br/>  Inadequate operational planning leads to avoidable outages from missing backup, recovery, or failover mechanisms.
-- [Poor System Environment](poor-system-environment.md)
-<br/>  Misconfigured or under-resourced environments cause frequent unexpected system crashes and outages.
-- [Service Discovery Failures](service-discovery-failures.md)
-<br/>  Widespread service discovery failures can bring down entire distributed systems as services lose the ability to communicate.
-- [Slow Application Performance](slow-application-performance.md)
-<br/>  Severe performance degradation can cascade into full outages when resources are exhausted.
-- [Slow Incident Resolution](slow-incident-resolution.md)
-<br/>  When incidents take too long to resolve, minor issues escalate into prolonged outages with wider impact.
-- [SQL Injection Vulnerabilities](sql-injection-vulnerabilities.md)
-<br/>  Destructive SQL injection attacks like DROP TABLE can cause system outages by destroying critical data.
-- [Stack Overflow Errors](stack-overflow-errors.md)
-<br/>  Stack overflow errors crash the application, potentially causing outages for users.
-- [Strangler Fig Pattern Failures](strangler-fig-pattern-failures.md)
-<br/>  Data synchronization failures and performance issues in the hybrid system cause service interruptions.
-- [System Integration Blindness](system-integration-blindness.md)
-<br/>  Integration issues that go undetected until deployment cause service failures when components interact under real conditions.
-- [Task Queues Backing Up](task-queues-backing-up.md)
-<br/>  If queues have size limits, backed-up queues can cause message loss or system failures when limits are exceeded.
-
 ## Detection Methods ○
 
 - **Availability Monitoring:** Track system uptime and availability percentages

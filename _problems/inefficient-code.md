@@ -33,17 +33,20 @@ Inefficient code is a broad problem that can have a wide range of causes, from t
 
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Computationally expensive code directly causes the application to respond slowly to user requests.
-
+- [High Database Resource Utilization](high-database-resource-utilization.md)
+<br/>  Inefficient code consumes excessive CPU, memory, and other resources beyond what is necessary.
+- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
+<br/>  Slow response times from inefficient code frustrate users and degrade the overall user experience.
 ## Causes ▼
+
 - [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
 <br/>  Use of inefficient algorithms and data structures is a primary cause of computationally expensive code.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers lacking performance optimization knowledge write code that is unnecessarily resource-intensive.
-- [Defensive Coding Practices](defensive-coding-practices.md)
-<br/>  Unnecessary validation checks and defensive error handling for impossible scenarios add computational overhead.
-- [Endianness Conversion Overhead](endianness-conversion-overhead.md)
-<br/>  Code peppered with endianness conversion calls in hot paths becomes computationally expensive relative to the actual business logic.
-
+- [Review Process Breakdown](insufficient-code-review.md)
+<br/>  Without code reviews, performance anti-patterns go undetected and accumulate in the codebase.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Low-quality code tends to include redundant operations, unnecessary allocations, and other inefficiencies.
 ## Detection Methods ○
 
 - **Profilers:** Use a profiler to analyze the application's CPU and memory usage and identify the exact lines of code that are causing the bottleneck.

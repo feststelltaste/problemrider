@@ -45,8 +45,8 @@ Decision avoidance occurs when development teams consistently postpone or defer 
 <br/>  Team members lose motivation when they repeatedly cannot proceed with their work because critical decisions remain unmade.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  Avoiding architectural decisions prevents the system from evolving to meet changing needs, causing it to fall further behind.
-
 ## Causes ▼
+
 - [Blame Culture](blame-culture.md)
 <br/>  When mistakes are punished rather than treated as learning opportunities, people avoid making decisions to avoid potential blame.
 - [Analysis Paralysis](analysis-paralysis.md)
@@ -55,9 +55,6 @@ Decision avoidance occurs when development teams consistently postpone or defer 
 <br/>  When management requires approval for routine decisions, team members learn to defer all decisions upward rather than taking ownership.
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  Lacking sufficient understanding of the technical domain makes people reluctant to commit to decisions they feel unqualified to make.
-- [Fear of Failure](fear-of-failure.md)
-<br/>  Team members defer important decisions to avoid being blamed if the outcome is negative.
-
 ## Detection Methods ○
 
 - **Decision Log Tracking:** Monitor how long important decisions remain unresolved

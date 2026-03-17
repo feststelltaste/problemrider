@@ -32,7 +32,6 @@ When a project lacks clearly defined and documented code style guidelines, devel
 
 ## Symptoms ▲
 
-
 - [Inconsistent Codebase](inconsistent-codebase.md)
 <br/>  Without defined style guidelines, each developer applies their own formatting and conventions, resulting in inconsistent code.
 - [Style Arguments in Code Reviews](style-arguments-in-code-reviews.md)
@@ -43,15 +42,14 @@ When a project lacks clearly defined and documented code style guidelines, devel
 <br/>  Without clear style rules, reviewers spend excessive time on subjective style issues instead of substantive logic review.
 - [Inconsistent Naming Conventions](inconsistent-naming-conventions.md)
 <br/>  Without naming convention guidelines, developers choose their own naming patterns, creating confusion in the codebase.
-
 ## Causes ▼
+
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  No one takes responsibility for establishing and maintaining code style standards for the team.
 - [Team Churn Impact](team-churn-impact.md)
 <br/>  Frequent team turnover makes it difficult to establish and maintain consistent coding standards as new members bring different habits.
 - [Time Pressure](time-pressure.md)
 <br/>  Under time pressure, establishing and documenting coding standards is seen as non-essential and gets deferred indefinitely.
-
 ## Detection Methods ○
 
 - **Code Review Analysis:** Observe the frequency and nature of style-related comments in pull requests.

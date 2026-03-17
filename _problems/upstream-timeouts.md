@@ -32,15 +32,18 @@ Upstream timeouts are a common issue in distributed systems where a service fail
 
 ## Symptoms ▲
 
-
+- [Cascade Failures](cascade-failures.md)
+<br/>  Upstream timeouts propagate through service chains, causing downstream services to also fail or time out.
 - [Increased Error Rates](increased-error-rates.md)
 <br/>  Timeout errors directly increase the overall error rate of the system as requests fail without receiving responses.
 - [User Frustration](user-frustration.md)
 <br/>  End users experience slow responses or errors caused by upstream timeouts, leading to dissatisfaction.
 - [High Connection Count](high-connection-count.md)
 <br/>  Waiting connections accumulate when upstream services are slow, as calling services hold connections open until timeout.
-
+- [Release Instability](release-instability.md)
+<br/>  Cascading timeouts across services can destabilize the entire system, causing widespread failures.
 ## Causes ▼
+
 - [High API Latency](high-api-latency.md)
 <br/>  Slow API response times are the direct cause of upstream timeouts when responses exceed configured timeout windows.
 - [External Service Delays](external-service-delays.md)
@@ -49,9 +52,6 @@ Upstream timeouts are a common issue in distributed systems where a service fail
 <br/>  Incorrectly configured connection pools can exhaust connections and cause delays that trigger upstream timeouts.
 - [Resource Contention](resource-contention.md)
 <br/>  Resource contention in the upstream service causes it to process requests slowly, exceeding caller timeout thresholds.
-- [Rate Limiting Issues](rate-limiting-issues.md)
-<br/>  Misconfigured rate limiting causes cascading timeouts when legitimate requests are blocked or when abuse is not prevented.
-
 ## Detection Methods ○
 
 - **Distributed Tracing:** Use distributed tracing to follow a request across multiple services and pinpoint where the timeout is occurring.

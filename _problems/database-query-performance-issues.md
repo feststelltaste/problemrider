@@ -46,8 +46,8 @@ Database query performance issues occur when SQL queries are inefficiently writt
 <br/>  Users experience slow page loads and timeouts caused by database performance issues, leading to complaints and negative reviews.
 - [Scaling Inefficiencies](scaling-inefficiencies.md)
 <br/>  Queries that perform full table scans or lack proper indexing become exponentially slower as data volumes grow, preventing effective scaling.
-
 ## Causes ▼
+
 - [Inefficient Database Indexing](inefficient-database-indexing.md)
 <br/>  Missing or poorly designed indexes force the database to perform full table scans instead of efficient index lookups.
 - [Database Schema Design Problems](database-schema-design-problems.md)
@@ -56,17 +56,6 @@ Database query performance issues occur when SQL queries are inefficiently writt
 <br/>  Application code that fetches related data in loops generates many individual queries instead of efficient batch operations.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without database optimization knowledge write naive queries that work for small datasets but fail at production scale.
-- [Incorrect Index Type](incorrect-index-type.md)
-<br/>  Using the wrong index type causes queries to perform slowly even though an index exists, degrading overall query performance.
-- [Index Fragmentation](index-fragmentation.md)
-<br/>  Index fragmentation degrades query plan efficiency, causing overall database query performance degradation.
-- [Memory Swapping](memory-swapping.md)
-<br/>  When database server memory is swapped to disk, query execution becomes extremely slow as data must be read from disk instead of memory.
-- [Misconfigured Connection Pools](misconfigured-connection-pools.md)
-<br/>  Too many active connections from oversized pools overwhelm the database server, degrading query performance for all users.
-- [Queries That Prevent Index Usage](queries-that-prevent-index-usage.md)
-<br/>  Non-index-friendly query patterns create performance bottlenecks in database operations.
-
 ## Detection Methods ○
 
 - **Query Performance Monitoring:** Monitor database query execution times and resource usage

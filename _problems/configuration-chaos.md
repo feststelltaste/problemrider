@@ -45,8 +45,8 @@ Configuration chaos occurs when system configurations are managed inconsistently
 <br/>  Misconfigured or drifted configurations can cause services to fail silently or crash, resulting in system outages.
 - [Slow Incident Resolution](slow-incident-resolution.md)
 <br/>  When configurations are inconsistent and undocumented, diagnosing production incidents takes much longer because the actual system state is unknown.
-
 ## Causes ▼
+
 - [Inadequate Configuration Management](inadequate-configuration-management.md)
 <br/>  Without proper version control and tracking of configurations, they inevitably become inconsistent and chaotic.
 - [Manual Deployment Processes](manual-deployment-processes.md)
@@ -55,11 +55,6 @@ Configuration chaos occurs when system configurations are managed inconsistently
 <br/>  When configuration decisions and changes are not documented, knowledge about the intended state is lost, enabling drift and chaos.
 - [Change Management Chaos](change-management-chaos.md)
 <br/>  Without coordinated change management, configuration changes happen ad hoc without oversight, creating inconsistencies across environments.
-- [Configuration Drift](configuration-drift.md)
-<br/>  Gradual drift in individual configurations accumulates into overall configuration chaos when left unaddressed across multiple systems.
-- [Secret Management Problems](secret-management-problems.md)
-<br/>  Hardcoded secrets and inconsistent secret handling across environments create configuration management chaos when secrets need rotation.
-
 ## Detection Methods ○
 
 - **Configuration Audit:** Compare configurations across environments to identify drift

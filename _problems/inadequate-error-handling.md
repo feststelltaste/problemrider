@@ -45,8 +45,8 @@ Inadequate error handling occurs when applications fail to properly anticipate, 
 <br/>  Users encounter cryptic error messages and application crashes, leading to frustration and loss of trust.
 - [Cascade Failures](cascade-failures.md)
 <br/>  When errors are not properly caught and managed, a single failure can propagate through the system triggering chain reactions.
-
 ## Causes ▼
+
 - [Time Pressure](time-pressure.md)
 <br/>  Under deadline pressure, developers skip error handling code to deliver features faster, treating it as non-essential.
 - [Inexperienced Developers](inexperienced-developers.md)
@@ -55,7 +55,6 @@ Inadequate error handling occurs when applications fail to properly anticipate, 
 <br/>  Superficial code reviews fail to catch missing error handling in critical code paths.
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
 <br/>  When requirements do not specify error conditions and edge cases, developers build only the happy path.
-
 ## Detection Methods ○
 
 - **Exception Monitoring:** Monitor application logs for unhandled exceptions and error patterns

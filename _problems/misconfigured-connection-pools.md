@@ -40,13 +40,14 @@ Connection pools are a vital tool for managing database connections, but they ca
 <br/>  Too many active connections from oversized pools overwhelm the database server, degrading query performance for all users.
 - [High Database Resource Utilization](high-database-resource-utilization.md)
 <br/>  Improperly sized connection pools lead to excessive resource consumption on the database server.
-
 ## Causes ▼
+
 - [Incorrect Max Connection Pool Size](incorrect-max-connection-pool-size.md)
 <br/>  Setting the maximum pool size too high or too low is a primary misconfiguration that leads to connection pool problems.
 - [Database Connection Leaks](database-connection-leaks.md)
 <br/>  Connections that are not properly returned to the pool appear as exhaustion even when pool size is correctly configured.
-
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  Without load testing, connection pool configurations are not validated against actual production workloads.
 ## Detection Methods ○
 
 - **Application Metrics:** Monitor connection pool metrics (e.g., active connections, idle connections, wait times, connection acquisition rates) provided by the application framework or a monitoring agent.

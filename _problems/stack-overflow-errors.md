@@ -29,13 +29,18 @@ Stack overflow errors occur when a program's call stack exceeds the allocated st
 
 - [System Outages](system-outages.md)
 <br/>  Stack overflow errors crash the application, potentially causing outages for users.
-
+- [Silent Data Corruption](silent-data-corruption.md)
+<br/>  If a stack overflow crashes the application mid-transaction, it can leave data in an inconsistent state.
+- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
+<br/>  Application crashes from stack overflows disrupt user workflows and erode confidence in the system.
 ## Causes ▼
+
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Tangled code with unpredictable call chains can create deep or circular call hierarchies that exhaust the stack.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
 <br/>  Overly complex recursive logic without proper termination conditions leads to unbounded recursion.
-
+- [Review Process Breakdown](insufficient-code-review.md)
+<br/>  Without code review, unbounded recursion and excessive stack usage patterns go undetected.
 ## Detection Methods ○
 
 - **Stack Usage Monitoring:** Monitor stack usage during application execution to identify growth patterns

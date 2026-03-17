@@ -46,8 +46,8 @@ Extended cycle times occur when the total time from work initiation to completio
 <br/>  Long cycle times reduce the team's apparent velocity since work items sit in queues rather than being completed.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Slow delivery cycles prevent the team from responding quickly to market changes and user needs, giving competitors an edge.
-
 ## Causes ▼
+
 - [Extended Review Cycles](extended-review-cycles.md)
 <br/>  Multiple rounds of code review feedback and revision add significant waiting time to the overall cycle.
 - [Approval Dependencies](approval-dependencies.md)
@@ -58,11 +58,6 @@ Extended cycle times occur when the total time from work initiation to completio
 <br/>  Infrequent release windows mean completed work sits waiting for the next deployment opportunity.
 - [Complex Deployment Process](complex-deployment-process.md)
 <br/>  Manual and complicated deployment processes add significant time between code completion and production delivery.
-- [Extended Research Time](extended-research-time.md)
-<br/>  Research overhead adds substantial time to the overall cycle, as tasks take much longer than the actual implementation work.
-- [Work Queue Buildup](work-queue-buildup.md)
-<br/>  Tasks spend more time waiting in queues than being actively worked on, dramatically increasing total cycle time.
-
 ## Detection Methods ○
 
 - **Cycle Time Measurement:** Track total time from work start to completion

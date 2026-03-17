@@ -41,15 +41,14 @@ Inadequate onboarding is the failure to provide new users with the guidance and 
 <br/>  Users complain about the difficulty of getting started, generating negative reviews and feedback.
 - [User Frustration](user-frustration.md)
 <br/>  New users who cannot understand core features become frustrated and stop using the application.
-
 ## Causes ▼
+
 - [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
 <br/>  Poor overall UX design makes it difficult to create an intuitive onboarding flow that guides users effectively.
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
 <br/>  Without understanding new user needs and expectations, the onboarding experience is built on assumptions rather than real requirements.
 - [Feedback Isolation](feedback-isolation.md)
 <br/>  Development teams operating without regular user input fail to identify and fix onboarding pain points.
-
 ## Detection Methods ○
 - **User Testing:** Observe new users as they go through the onboarding process to identify areas of confusion and frustration.
 - **User Surveys:** Collect feedback from new users about their onboarding experience.

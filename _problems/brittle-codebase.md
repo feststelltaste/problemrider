@@ -44,31 +44,16 @@ A brittle codebase is one that is difficult and risky to change. When a small ch
 <br/>  Rather than modifying brittle code directly, developers add workarounds that further increase complexity.
 - [High Maintenance Costs](high-maintenance-costs.md)
 <br/>  Maintaining a brittle codebase requires disproportionate effort as small changes demand extensive testing and fixing.
-
 ## Causes ▼
+
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  High coupling between components means changes propagate unpredictably, making the codebase fragile.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Without adequate test coverage, there is no safety net to catch regressions introduced by changes.
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Tangled, unstructured code with unclear control flow makes changes risky and unpredictable.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Long-term avoidance of refactoring allows structural problems to accumulate, making the codebase increasingly brittle.
-- [Accumulation of Workarounds](accumulation-of-workarounds.md)
-<br/>  Interconnected workarounds create fragile code where modifying one workaround can break others.
-- [Hardcoded Values](hardcoded-values.md)
-<br/>  Code with hardcoded values breaks easily when business rules, URLs, or other parameters change.
-- [Insufficient Design Skills](insufficient-design-skills.md)
-<br/>  Without proper design, changes in one area frequently break other parts of the system.
-- [Poor Encapsulation](poor-encapsulation.md)
-<br/>  Lack of data hiding makes the codebase fragile, as many components depend on implementation details that may change.
-- [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
-<br/>  Prototype code lacks proper architecture and error handling, resulting in a fragile production system that breaks easily when modified.
-- [Single Entry Point Design](single-entry-point-design.md)
-<br/>  Changes to the single entry point risk breaking many unrelated features since all requests depend on it.
-- [Uncontrolled Codebase Growth](uncontrolled-codebase-growth.md)
-<br/>  As the codebase grows without control, interdependencies multiply and the code becomes fragile and prone to breaking.
-- [Workaround Culture](workaround-culture.md)
-<br/>  Layers of interconnected workarounds create a fragile system where changes in one area cause unexpected failures elsewhere.
-
 ## Detection Methods ○
 
 - **Code Coverage Tools:** Use tools to measure test coverage. Low coverage is a strong indicator of brittleness.

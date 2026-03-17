@@ -34,7 +34,6 @@ Procedural programming in OOP languages occurs when developers write code using 
 
 ## Symptoms ▲
 
-
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Long procedural methods with sequential logic are harder to understand than well-structured OOP code.
 - [Spaghetti Code](spaghetti-code.md)
@@ -45,15 +44,14 @@ Procedural programming in OOP languages occurs when developers write code using 
 <br/>  Data structures are passed between utility functions rather than encapsulated within meaningful objects.
 - [Mixed Coding Styles](mixed-coding-styles.md)
 <br/>  Procedural code mixed with OOP code from other developers creates inconsistent coding patterns across the codebase.
-
 ## Causes ▼
+
 - [Procedural Background](procedural-background.md)
 <br/>  Developers trained in procedural programming carry those habits into OOP languages.
 - [Misunderstanding of OOP](misunderstanding-of-oop.md)
 <br/>  Developers who don't understand OOP principles default to the procedural style they know.
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Lack of design skills prevents developers from recognizing when OOP patterns would be more appropriate.
-
 ## Detection Methods ○
 - **Static Method Analysis:** Identify classes with high percentages of static methods relative to instance methods
 - **Class Cohesion Metrics:** Measure how well methods and data within classes work together

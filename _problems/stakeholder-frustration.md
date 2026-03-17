@@ -46,8 +46,8 @@ Stakeholder frustration occurs when business stakeholders become dissatisfied wi
 <br/>  Teams respond to frustrated stakeholders by agreeing to everything without pushback, leading to overcommitment.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Dealing with frustrated stakeholders creates additional pressure and adversarial dynamics that burn out developers.
-
 ## Causes ▼
+
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Repeatedly missing delivery dates is a primary source of stakeholder frustration.
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
@@ -56,37 +56,6 @@ Stakeholder frustration occurs when business stakeholders become dissatisfied wi
 <br/>  Frequent bugs in delivered features frustrate stakeholders who expect reliable, working software.
 - [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
 <br/>  Repeated deadline extensions frustrate stakeholders and undermine their trust in development commitments.
-- [Analysis Paralysis](analysis-paralysis.md)
-<br/>  Stakeholders become frustrated when teams spend months analyzing without producing tangible results.
-- [Communication Risk Outside Project](communication-risk-outside-project.md)
-<br/>  External stakeholders become frustrated when they are surprised by project outcomes that don't match their expectations.
-- [Competitive Disadvantage](competitive-disadvantage.md)
-<br/>  Business stakeholders become frustrated as they watch the organization lose market position due to technical limitations.
-- [Customer Dissatisfaction](customer-dissatisfaction.md)
-<br/>  Business stakeholders become frustrated when customer complaints and churn rise due to system quality issues.
-- [Delayed Decision Making](delayed-decision-making.md)
-<br/>  Stakeholders become frustrated when project progress visibly stalls due to unresolved decisions.
-- [Delayed Value Delivery](delayed-value-delivery.md)
-<br/>  Business stakeholders become frustrated when their requested features take excessively long to reach users.
-- [Extended Cycle Times](extended-cycle-times.md)
-<br/>  Stakeholders become frustrated when small changes take weeks or months to reach production despite requiring only hours of work.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
-<br/>  Business stakeholders become frustrated when seemingly simple changes require disproportionate time and cost, eroding trust in the development team.
-- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
-<br/>  Technical teams become frustrated when they cannot get approval for modernization they know is needed, creating tension with management.
-- [Negative User Feedback](negative-user-feedback.md)
-<br/>  Business stakeholders become frustrated when user complaints highlight product quality issues they feel should have been prevented.
-- [Feedback Isolation](no-continuous-feedback-loop.md)
-<br/>  Stakeholders become frustrated when they see the final product and it does not match their expectations due to lack of involvement.
-- [Planning Credibility Issues](planning-credibility-issues.md)
-<br/>  Business stakeholders become frustrated when they cannot rely on development estimates for their own planning and commitments.
-- [Resource Waste](resource-waste.md)
-<br/>  Stakeholders become frustrated when they see investment in resources not translating to proportional productivity or output.
-- [Schema Evolution Paralysis](schema-evolution-paralysis.md)
-<br/>  Business stakeholders become frustrated when seemingly simple feature requests take months due to database schema constraints.
-- [User Frustration](user-frustration.md)
-<br/>  When users are frustrated, stakeholders who depend on user adoption become frustrated with the product team.
-
 ## Detection Methods ○
 
 - **Stakeholder Satisfaction Surveys:** Regular assessment of stakeholder satisfaction with development team performance

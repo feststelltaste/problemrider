@@ -44,8 +44,10 @@ Cascade delays occur when delays in one project or work stream trigger delays in
 <br/>  Delays cascading through dependency chains cause multiple downstream projects to miss their planned delivery dates.
 - [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
 <br/>  As delays propagate, project schedules must be repeatedly adjusted, creating an environment of unstable timelines.
-
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Teams blocked by upstream delays experience frustration and declining morale from inability to make progress.
 ## Causes ▼
+
 - [Bottleneck Formation](bottleneck-formation.md)
 <br/>  Bottlenecks in the development pipeline slow deliverables that multiple downstream teams depend on.
 - [Poor Planning](poor-planning.md)
@@ -54,19 +56,6 @@ Cascade delays occur when delays in one project or work stream trigger delays in
 <br/>  Tightly coupled project dependencies mean delays cannot be isolated and inevitably propagate to dependent work.
 - [Approval Dependencies](approval-dependencies.md)
 <br/>  Mandatory approvals from specific individuals create delay points that block entire chains of dependent work.
-- [Capacity Mismatch](capacity-mismatch.md)
-<br/>  Capacity-constrained stages cause delays that propagate to downstream work and dependent projects.
-- [Delayed Project Timelines](delayed-project-timelines.md)
-<br/>  Delayed timelines in one project propagate to dependent projects and business initiatives that were counting on the original schedule.
-- [Poor Project Control](poor-project-control.md)
-<br/>  Undetected problems in one area compound and cascade to dependent work streams, amplifying delays.
-- [Single Points of Failure](single-points-of-failure.md)
-<br/>  When a single point of failure becomes unavailable, dependent work items cascade into delays across multiple teams and projects.
-- [Staff Availability Issues](staff-availability-issues.md)
-<br/>  When staff are unavailable for key tasks, dependent work items are delayed across the project.
-- [Work Queue Buildup](work-queue-buildup.md)
-<br/>  When queues build up at one stage, downstream stages are starved of work, causing cascading delays across the entire pipeline.
-
 ## Detection Methods ○
 
 - **Dependency Impact Analysis:** Track how delays in one project affect other projects

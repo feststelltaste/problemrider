@@ -42,8 +42,8 @@ When small, seemingly simple changes are consistently estimated to take a long t
 <br/>  Repeated large estimates for small work erodes business confidence in the team's ability to deliver efficiently.
 - [Planning Credibility Issues](planning-credibility-issues.md)
 <br/>  When estimates seem disproportionate to the apparent work, stakeholders question the reliability of all future planning and estimates.
-
 ## Causes ▼
+
 - [Brittle Codebase](brittle-codebase.md)
 <br/>  A fragile codebase where changes risk breaking other parts forces teams to pad estimates to account for extensive testing and risk mitigation.
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
@@ -54,21 +54,6 @@ When small, seemingly simple changes are consistently estimated to take a long t
 <br/>  Accumulated shortcuts and design compromises make the codebase harder to work with, inflating the effort for even minor changes.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
 <br/>  When code is hard to understand, developers need extra time to comprehend the system before making changes, driving up estimates.
-- [Complex Implementation Paths](complex-implementation-paths.md)
-<br/>  Complex implementation paths directly cause developers to provide unexpectedly large estimates for what appear to be simple business requests.
-- [Difficult to Understand Code](difficult-to-understand-code.md)
-<br/>  Simple changes require large estimates because developers must spend significant time understanding the surrounding code first.
-- [Extended Research Time](extended-research-time.md)
-<br/>  Developers give large estimates even for seemingly simple changes because they know significant research will be needed first.
-- [Fear of Change](fear-of-change.md)
-<br/>  Fear inflates estimates as developers account for perceived risk, making simple changes appear disproportionately expensive.
-- [Legacy Business Logic Extraction Difficulty](legacy-business-logic-extraction-difficulty.md)
-<br/>  When business logic is deeply embedded, even small modifications require extensive analysis to understand the full impact.
-- [Past Negative Experiences](past-negative-experiences.md)
-<br/>  Teams provide inflated estimates for changes in areas where past modifications have caused problems, reflecting excessive caution.
-- [Poor Domain Model](poor-domain-model.md)
-<br/>  Simple business changes require disproportionate effort because the code structure doesn't align with business concepts.
-
 ## Detection Methods ○
 - **Analyze Estimation Trends:** Track the estimates for tasks of similar complexity over time. A consistent increase in estimates is a red flag.
 - **Compare Estimated vs. Actual Time:** If the actual time taken to complete tasks is consistently much higher than the estimates, it indicates that the team is struggling with unforeseen complexity.

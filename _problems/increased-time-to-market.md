@@ -36,12 +36,16 @@ Increased time to market occurs when the duration from concept to customer deliv
 
 ## Symptoms ▲
 
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Slow delivery allows competitors to capture market opportunities first, eroding the organization's market position.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  When time to market increases, the value of features reaching customers is delayed, reducing business impact.
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  Consistently missing market windows erodes stakeholder confidence in the development organization's ability to deliver.
 - [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
 <br/>  Longer development cycles lead to repeated deadline extensions as original timelines prove unachievable.
-
 ## Causes ▼
+
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated technical debt slows feature development as developers must work around existing problems.
 - [Slow Feature Development](slow-feature-development.md)
@@ -52,17 +56,6 @@ Increased time to market occurs when the duration from concept to customer deliv
 <br/>  Long development, testing, and deployment cycles directly increase the time from concept to customer delivery.
 - [Complex Deployment Process](complex-deployment-process.md)
 <br/>  Complicated release procedures add weeks to each release cycle, delaying market availability.
-- [Delayed Project Timelines](delayed-project-timelines.md)
-<br/>  Delayed project timelines directly increase the time it takes for new capabilities to reach the market.
-- [Increased Cost of Development](increased-cost-of-development.md)
-<br/>  Higher development costs correlate with slower delivery, as more resources are spent on maintenance rather than new features.
-- [Long Release Cycles](long-release-cycles.md)
-<br/>  Long release cycles directly extend the time from feature completion to user availability, harming competitive position.
-- [Market Pressure](market-pressure.md)
-<br/>  Paradoxically, the technical debt accumulated from rushed market-driven decisions eventually slows future delivery, increasing overall time to market.
-- [System Stagnation](system-stagnation.md)
-<br/>  Outdated system capabilities force complex workarounds for new features, slowing delivery significantly.
-
 ## Detection Methods ○
 
 - **Time to Market Tracking:** Measure duration from feature concept to customer availability

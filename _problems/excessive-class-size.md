@@ -44,8 +44,8 @@ Excessive class size is a code smell where a class has grown so large that it be
 <br/>  Changes to an excessively large class affect many different functionalities, causing cascading modifications across the system.
 - [Large Pull Requests](large-pull-requests.md)
 <br/>  Changes to large classes tend to produce large pull requests because the class touches many concerns simultaneously.
-
 ## Causes ▼
+
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
 <br/>  Continuously adding features without refactoring causes classes to absorb more and more responsibilities over time.
 - [Refactoring Avoidance](refactoring-avoidance.md)
@@ -56,9 +56,6 @@ Excessive class size is a code smell where a class has grown so large that it be
 <br/>  Prioritizing quick feature delivery over code structure leads developers to add to existing classes rather than designing proper abstractions.
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  Without clear code ownership, no one takes responsibility for maintaining class boundaries, allowing classes to grow unchecked.
-- [Over-Reliance on Utility Classes](over-reliance-on-utility-classes.md)
-<br/>  Utility classes tend to grow unbounded as developers add more static methods, becoming bloated catch-all containers.
-
 ## Detection Methods ○
 - **Code Metrics Tools:** Use static analysis tools to measure class size, cyclomatic complexity, and other metrics.
 - **Code Reviews:** Regularly review code for large classes and classes with multiple responsibilities.

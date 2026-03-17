@@ -42,8 +42,8 @@ Log spam is the excessive generation of log messages. This can be a major proble
 <br/>  When logs are stored in databases, log spam can consume significant storage and query resources.
 - [Slow Incident Resolution](slow-incident-resolution.md)
 <br/>  When critical incidents occur, teams waste time sifting through noise to find relevant log entries, delaying resolution.
-
 ## Causes ▼
+
 - [N+1 Query Problem](n-plus-one-query-problem.md)
 <br/>  N+1 query patterns generate a flood of similar query log entries, a classic cause of database-related log spam.
 - [Logging Configuration Issues](logging-configuration-issues.md)
@@ -52,7 +52,6 @@ Log spam is the excessive generation of log messages. This can be a major proble
 <br/>  A general practice of over-logging in application code produces the repetitive, high-volume messages that constitute log spam.
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Poor error handling that logs the same error repeatedly in tight loops or retry cycles generates massive volumes of duplicate messages.
-
 ## Detection Methods ○
 - **Log Analysis:** Analyze your logs to identify patterns and trends.
 - **Log Volume Monitoring:** Monitor the volume of your logs over time.

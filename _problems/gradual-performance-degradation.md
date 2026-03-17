@@ -44,8 +44,8 @@ Gradual performance degradation is the slow deterioration of application perform
 <br/>  API response times gradually increase as the system accumulates inefficiencies and resource issues.
 - [User Frustration](user-frustration.md)
 <br/>  Users become increasingly frustrated as tasks that once were fast now take noticeably longer to complete.
-
 ## Causes ▼
+
 - [Memory Leaks](memory-leaks.md)
 <br/>  Unreleased memory accumulates over time, consuming resources and forcing increased garbage collection or swapping.
 - [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
@@ -56,45 +56,6 @@ Gradual performance degradation is the slow deterioration of application perform
 <br/>  Data structures that grow without limits consume increasing memory and processing time as the system runs.
 - [Garbage Collection Pressure](garbage-collection-pressure.md)
 <br/>  Increasing GC pressure over time from growing object graphs and leaks causes progressive throughput reduction.
-- [Circular References](circular-references.md)
-<br/>  Accumulating unreleased memory from circular references causes application performance to deteriorate over time.
-- [Data Structure Cache Inefficiency](data-structure-cache-inefficiency.md)
-<br/>  As data volumes increase over time, cache miss rates worsen progressively, causing steadily declining throughput.
-- [Database Connection Leaks](database-connection-leaks.md)
-<br/>  Connection leaks cause performance to slowly worsen over time as the connection pool is gradually depleted.
-- [Delayed Issue Resolution](delayed-issue-resolution.md)
-<br/>  Unresolved performance issues like memory leaks compound over time, causing steadily worsening system behavior.
-- [DMA Coherency Issues](dma-coherency-issues.md)
-<br/>  Workarounds like excessive cache flushing or invalidation to address coherency issues progressively degrade system performance.
-- [Excessive Disk I/O](excessive-disk-io.md)
-<br/>  As data volumes grow, inefficient disk access patterns cause progressively worsening performance.
-- [Excessive Logging](excessive-logging.md)
-<br/>  As log volumes accumulate over time, disk space fills up and I/O overhead grows, progressively degrading system performance.
-- [Excessive Object Allocation](excessive-object-allocation.md)
-<br/>  As data volumes increase, excessive object allocation scales up proportionally, causing progressive performance worsening.
-- [False Sharing](false-sharing.md)
-<br/>  As more threads are added over time, false sharing effects compound, causing progressively worse performance degradation.
-- [Incorrect Index Type](incorrect-index-type.md)
-<br/>  As data volume grows, incorrectly typed indexes become increasingly inefficient, causing performance to degrade over time.
-- [Insufficient Worker Capacity](insufficient-worker-capacity.md)
-<br/>  As workload grows and worker capacity stays fixed, system performance degrades progressively over time.
-- [Memory Barrier Inefficiency](memory-barrier-inefficiency.md)
-<br/>  As more memory barriers are added over time to fix concurrency bugs, cumulative pipeline stalls progressively worsen performance.
-- [Memory Fragmentation](memory-fragmentation.md)
-<br/>  Fragmentation worsens over time in long-running applications, causing a steady decline in memory allocation and access performance.
-- [Quality Degradation](quality-degradation.md)
-<br/>  System performance steadily worsens as quality issues compound and inefficiencies accumulate.
-- [Queries That Prevent Index Usage](queries-that-prevent-index-usage.md)
-<br/>  As tables grow, queries that cannot use indexes degrade progressively because full scans take longer.
-- [Resource Allocation Failures](resource-allocation-failures.md)
-<br/>  As resources leak over time, application performance steadily worsens due to increasing resource scarcity.
-- [Resource Contention](resource-contention.md)
-<br/>  As resource competition intensifies over time, overall system performance steadily deteriorates.
-- [Unbounded Data Growth](unbounded-data-growth.md)
-<br/>  As data accumulates without bounds, query times increase and system performance steadily worsens over time.
-- [Unoptimized File Access](unoptimized-file-access.md)
-<br/>  As data volumes grow, inefficient file access patterns cause progressively worse performance over time.
-
 ## Detection Methods ○
 - **Performance Monitoring:** Continuous monitoring of response times, throughput, and resource usage over time
 - **Trend Analysis:** Statistical analysis of performance metrics to identify gradual deterioration patterns

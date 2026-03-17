@@ -44,8 +44,8 @@ Inability to innovate occurs when development teams become so consumed with main
 <br/>  Inability to deliver new features or improve the product causes customers to become dissatisfied as competitors advance.
 - [Reduced Innovation](reduced-innovation.md)
 <br/>  The team's inability to innovate directly manifests as a measurable reduction in innovative output and improvements.
-
 ## Causes ▼
+
 - [High Maintenance Costs](high-maintenance-costs.md)
 <br/>  When most resources are consumed by maintenance, no budget or time remains for innovation and exploration.
 - [High Technical Debt](high-technical-debt.md)
@@ -54,19 +54,6 @@ Inability to innovate occurs when development teams become so consumed with main
 <br/>  Teams trapped in maintenance-only mode cannot allocate any effort toward exploratory or innovative work.
 - [Fear of Change](fear-of-change.md)
 <br/>  A risk-averse culture discourages experimentation with new approaches and technologies.
-- [Constant Firefighting](constant-firefighting.md)
-<br/>  When all time is consumed by urgent fixes, there is no capacity left for exploring improvements or new approaches.
-- [History of Failed Changes](history-of-failed-changes.md)
-<br/>  Fear stemming from past failures prevents teams from trying new approaches or technologies.
-- [Maintenance Overhead](maintenance-overhead.md)
-<br/>  Teams consumed by maintenance work cannot dedicate time to exploring new approaches or building new capabilities.
-- [Operational Overhead](operational-overhead.md)
-<br/>  When teams are consumed by operational tasks, they have no capacity to explore improvements or innovative approaches.
-- [Reduced Innovation](reduced-innovation.md)
-<br/>  Persistent resistance to new approaches eventually solidifies into a structural inability to innovate at all.
-- [Resistance to Change](resistance-to-change.md)
-<br/>  Resistance to changing the existing system prevents adoption of new approaches, technologies, or architectural improvements.
-
 ## Detection Methods ○
 
 - **Time Allocation Analysis:** Track percentage of time spent on maintenance vs. new development vs. exploration

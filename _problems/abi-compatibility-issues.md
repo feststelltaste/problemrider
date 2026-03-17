@@ -42,15 +42,14 @@ ABI (Application Binary Interface) compatibility issues arise when applications 
 <br/>  Runtime failures from ABI mismatches lead to elevated error rates as function calls return unexpected values or crash.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  ABI issues cause subtle memory corruption and undefined behavior that are extremely hard to diagnose and debug.
-
 ## Causes ▼
+
 - [Dependency Version Conflicts](dependency-version-conflicts.md)
 <br/>  Different components depending on different versions of the same library is a primary cause of ABI incompatibilities.
 - [Breaking Changes](breaking-changes.md)
 <br/>  Library authors introducing breaking changes to function signatures or data layouts without proper versioning directly causes ABI compatibility issues.
 - [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
 <br/>  Poorly defined interfaces between components make it easy for binary-level incompatibilities to go undetected until runtime.
-
 ## Detection Methods ○
 
 - **Binary Analysis Tools:** Use tools to compare ABI compatibility between library versions

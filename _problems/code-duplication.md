@@ -46,8 +46,8 @@ Code duplication occurs when similar or identical functionality is implemented i
 <br/>  Quality assurance must verify the same functionality in multiple locations, increasing testing effort and bug escape risk.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Having the same logic in multiple places increases the surface area for defects and the chance of inconsistent fixes.
-
 ## Causes ▼
+
 - [Copy-Paste Programming](copy-paste-programming.md)
 <br/>  Developers copy and paste existing code rather than creating reusable abstractions, directly producing duplication.
 - [Difficult Code Reuse](difficult-code-reuse.md)
@@ -56,31 +56,6 @@ Code duplication occurs when similar or identical functionality is implemented i
 <br/>  Teams working in isolation are unaware of existing implementations, leading them to independently write similar code.
 - [Time Pressure](time-pressure.md)
 <br/>  Under deadline pressure, developers copy existing code rather than investing time in proper abstractions.
-- [Convenience-Driven Development](convenience-driven-development.md)
-<br/>  Taking the convenient path often means copying existing code rather than investing time in creating reusable abstractions.
-- [Difficult Code Comprehension](difficult-code-comprehension.md)
-<br/>  When code is hard to understand, developers may rewrite functionality rather than reuse existing code they cannot comprehend.
-- [Duplicated Effort](duplicated-effort.md)
-<br/>  Independent implementations of similar functionality result in duplicate code appearing in different parts of the codebase.
-- [Duplicated Work](duplicated-work.md)
-<br/>  Multiple independent implementations of the same functionality create duplicate code in the codebase.
-- [Fear of Change](fear-of-change.md)
-<br/>  Developers copy existing code rather than modifying shared components, leading to duplicated logic across the codebase.
-- [Hardcoded Values](hardcoded-values.md)
-<br/>  Different versions of similar code that vary only by hardcoded values create duplicated logic throughout the codebase.
-- [Incomplete Knowledge](incomplete-knowledge.md)
-<br/>  Developers unaware of existing implementations create duplicate code because they do not know solutions already exist.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md)
-<br/>  Developers may create duplicate code because inconsistent naming makes it difficult to find existing implementations through search.
-- [Over-Reliance on Utility Classes](over-reliance-on-utility-classes.md)
-<br/>  When utility classes become unwieldy, developers create new utility methods rather than finding existing ones, leading to duplicated logic.
-- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
-<br/>  Unclear responsibility boundaries lead to similar functionality being implemented in multiple places.
-- [Refactoring Avoidance](refactoring-avoidance.md)
-<br/>  Developers copy-paste code rather than refactoring shared functionality, leading to widespread duplication.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md)
-<br/>  Cross-cutting logic like logging and security gets copied into every component rather than being centralized.
-
 ## Detection Methods ○
 - **Static Analysis Tools:** Use tools that can identify duplicate or similar code blocks across the codebase
 - **Copy-Paste Detection:** Tools like CPD (Copy-Paste Detector) can find duplicated code segments

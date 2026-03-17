@@ -34,19 +34,22 @@ A continuous feedback loop is essential for agile development, allowing teams to
 
 - [Misaligned Deliverables](misaligned-deliverables.md)
 <br/>  Without regular feedback, development proceeds based on assumptions, producing deliverables that don't match stakeholder expectations.
+- [Resource Waste](resource-waste.md)
+<br/>  Significant development effort is wasted building features that must be redesigned or discarded due to late discovery of misalignment.
 - [Scope Creep](scope-creep.md)
 <br/>  Without ongoing feedback to validate direction, requirements accumulate unchecked as stakeholders add requests at the end.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Stakeholders become frustrated when they see the final product and it does not match their expectations due to lack of involvement.
 - [Regression Bugs](regression-bugs.md)
 <br/>  Late-stage changes driven by delayed feedback require rushed modifications that introduce regressions in previously working features.
-
 ## Causes ▼
+
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
 <br/>  Poor communication channels between developers and stakeholders prevent regular feedback exchange during development.
 - [Time Pressure](time-pressure.md)
 <br/>  Under tight deadlines, teams skip feedback sessions and demos to focus on development, eliminating opportunities for course correction.
-
+- [Team Silos](team-silos.md)
+<br/>  Organizational silos between business and development teams create structural barriers to ongoing collaboration and feedback.
 ## Detection Methods ○
 
 - **Project Audits:** Review project plans and communication logs to see the frequency of stakeholder engagement and feedback sessions.

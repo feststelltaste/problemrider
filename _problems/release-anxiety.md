@@ -43,8 +43,8 @@ Release anxiety is the feeling of stress and fear that developers experience whe
 <br/>  Anxiety causes teams to batch changes into fewer, larger releases to minimize the number of stressful deployment events, paradoxically increasing risk.
 - [Quality Compromises](quality-compromises.md)
 <br/>  Under the pressure of anxious deployments, teams may rush last-minute fixes or skip proper procedures, compromising quality to get through the stressful release event.
-
 ## Causes ▼
+
 - [Release Instability](release-instability.md)
 <br/>  A history of unstable releases creates justified fear and anxiety about future deployments, as teams expect things to go wrong.
 - [Blame Culture](blame-culture.md)
@@ -53,19 +53,6 @@ Release anxiety is the feeling of stress and fear that developers experience whe
 <br/>  Manual, error-prone deployment processes increase the chance of human mistakes, making every release a high-stakes event that generates anxiety.
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Without adequate test coverage, teams lack confidence that their changes work correctly, fueling anxiety about what might break in production.
-- [Complex Deployment Process](complex-deployment-process.md)
-<br/>  The high failure risk of complex manual deployments creates stress and anxiety for the team.
-- [Deployment Coupling](deployment-coupling.md)
-<br/>  Teams experience anxiety around deployments because coupled releases have more moving parts that can fail.
-- [Deployment Risk](deployment-risk.md)
-<br/>  High deployment risk creates significant anxiety and stress for teams responsible for releases.
-- [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
-<br/>  The pattern of frequent post-release issues creates anxiety and stress around every deployment.
-- [Large, Risky Releases](large-risky-releases.md)
-<br/>  The high stakes of large, infrequent releases create stress and anxiety among the development team around deployment events.
-- [Long Release Cycles](long-release-cycles.md)
-<br/>  Infrequent, large releases become high-stakes events that create stress and anxiety around each deployment.
-
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers about their feelings about the release process.
 - **Team Retrospectives:** Discuss the team's feelings about releases in your retrospectives.

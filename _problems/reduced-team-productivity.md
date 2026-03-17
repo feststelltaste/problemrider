@@ -36,15 +36,18 @@ Reduced team productivity occurs when a development team's collective output, ef
 
 ## Symptoms ▲
 
-
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Decreased team productivity directly manifests as slower feature delivery and development velocity.
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Lower team output leads to missed deadlines and extended project timelines.
 - [Incomplete Projects](incomplete-projects.md)
 <br/>  Reduced productivity means teams cannot finish all planned work, leaving projects incomplete.
-
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Teams working harder to compensate for systemic productivity loss experience exhaustion and burnout.
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  Consistently underdelivering erodes stakeholder confidence in the development team's capabilities.
 ## Causes ▼
+
 - [Reduced Individual Productivity](reduced-individual-productivity.md)
 <br/>  Individual productivity declines across team members aggregate into reduced team-wide output.
 - [Development Disruption](development-disruption.md)
@@ -53,71 +56,6 @@ Reduced team productivity occurs when a development team's collective output, ef
 <br/>  Poor team dynamics, conflicts, and lack of collaboration reduce the team's collective effectiveness.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  Knowledge concentration creates bottlenecks and idle time when experts are unavailable, reducing team throughput.
-- [Approval Dependencies](approval-dependencies.md)
-<br/>  Team members idle while waiting for approvals, directly reducing overall team productivity.
-- [Competing Priorities](competing-priorities.md)
-<br/>  Splitting attention across multiple urgent initiatives reduces overall team output across all projects.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
-<br/>  Burned-out developers produce less work and lower quality output, reducing overall team productivity.
-- [Difficult Developer Onboarding](difficult-developer-onboarding.md)
-<br/>  Senior developers spend significant time mentoring new hires instead of doing productive work, and new hires contribute little during the long ramp-up.
-- [Duplicated Effort](duplicated-effort.md)
-<br/>  Team output decreases when multiple members spend time solving problems that only needed to be solved once.
-- [Duplicated Research Effort](duplicated-research-effort.md)
-<br/>  Team throughput drops when multiple members spend time on research that could have been done once and shared.
-- [Duplicated Work](duplicated-work.md)
-<br/>  The team's effective output decreases when multiple members unknowingly work on the same tasks.
-- [Increased Stress and Burnout](increased-stress-and-burnout.md)
-<br/>  Burned-out team members produce less output and lower quality work due to mental and physical exhaustion.
-- [Inefficient Development Environment](inefficient-development-environment.md)
-<br/>  Environment friction directly reduces the team's overall output as developers spend time waiting and troubleshooting tools.
-- [Inefficient Processes](inefficient-processes.md)
-<br/>  Time wasted on bureaucratic overhead and unnecessary meetings directly reduces the team's productive output.
-- [Knowledge Dependency](knowledge-dependency.md)
-<br/>  Work stalls when knowledge holders are unavailable, reducing overall team throughput.
-- [Operational Overhead](operational-overhead.md)
-<br/>  Time spent on operational tasks like monitoring, incident response, and firefighting directly reduces time available for productive development work.
-- [Overworked Teams](overworked-teams.md)
-<br/>  Despite working more hours, exhausted teams produce less effective output due to fatigue-induced inefficiency.
-- [Team Dysfunction](poor-teamwork.md)
-<br/>  Lack of collaboration prevents synergistic benefits, making the team less productive than the sum of its parts.
-- [Rapid Team Growth](rapid-team-growth.md)
-<br/>  Senior developers spending most of their time on onboarding reduces the team's overall output despite having more people.
-- [Reduced Team Flexibility](reduced-team-flexibility.md)
-<br/>  Inability to reassign work or adapt to changes causes idle time and bottlenecks that reduce overall team output.
-- [Slow Knowledge Transfer](slow-knowledge-transfer.md)
-<br/>  Existing team members are pulled away from their work to help new members, reducing overall team productivity.
-- [Staff Availability Issues](staff-availability-issues.md)
-<br/>  Team output decreases when critical roles are unfilled or people are spread too thin.
-- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
-<br/>  Adversarial relationships and excessive scrutiny from distrustful stakeholders slow down the team through additional reporting and approval requirements.
-- [Style Arguments in Code Reviews](style-arguments-in-code-reviews.md)
-<br/>  Developer time spent arguing about style is time not spent on productive development or meaningful code review.
-- [Tacit Knowledge](tacit-knowledge.md)
-<br/>  Team productivity suffers when only a few members can effectively work on parts of the system due to unshared tacit knowledge.
-- [Team Churn Impact](team-churn-impact.md)
-<br/>  Long onboarding times and lost institutional knowledge slow the team down as new members struggle to become productive.
-- [Team Confusion](team-confusion.md)
-<br/>  Misaligned efforts and wasted work from confusion directly reduce the team's overall output.
-- [Team Coordination Issues](team-coordination-issues.md)
-<br/>  Developers blocked waiting for others and time spent resolving conflicts directly reduces team output.
-- [Team Demoralization](team-demoralization.md)
-<br/>  Loss of motivation leads to minimum-effort work and reduced initiative, directly impacting productivity.
-- [Uncontrolled Codebase Growth](uncontrolled-codebase-growth.md)
-<br/>  An excessively large and complex codebase slows down development as teams spend more time navigating and understanding code.
-- [Uneven Work Flow](uneven-work-flow.md)
-<br/>  The stop-and-go pattern of uneven flow wastes capacity during idle periods and overloads during bursts, reducing overall output.
-- [Unmotivated Employees](unmotivated-employees.md)
-<br/>  Unmotivated employees contribute minimal effort, directly reducing the team's overall output and effectiveness.
-- [Unproductive Meetings](unproductive-meetings.md)
-<br/>  Excessive unproductive meetings consume hours that could be spent on actual development work, directly reducing team output.
-- [Wasted Development Effort](wasted-development-effort.md)
-<br/>  Effort spent on work that is later abandoned reduces the team's overall productive output.
-- [Work Blocking](work-blocking.md)
-<br/>  Time spent waiting for approvals rather than producing code directly reduces team output.
-- [Work Queue Buildup](work-queue-buildup.md)
-<br/>  Team members waiting for queue-bound prerequisites cannot make progress, reducing overall team throughput.
-
 ## Detection Methods ○
 
 - **Velocity Tracking:** Monitor team velocity trends over multiple sprints or time periods

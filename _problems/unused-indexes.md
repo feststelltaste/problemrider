@@ -34,9 +34,16 @@ Unused indexes are database indexes that are not being utilized by any queries. 
 
 - [Resource Waste](resource-waste.md)
 <br/>  Unused indexes consume disk space, memory, and CPU cycles during write operations without providing any query benefit.
-
+- [Slow Database Queries](slow-database-queries.md)
+<br/>  The overhead of maintaining unused indexes slows down overall database operations, especially write-heavy workloads.
 ## Causes ▼
 
+- [Database Schema Design Problems](database-schema-design-problems.md)
+<br/>  Without regular database maintenance and auditing, unused indexes accumulate over time as queries change but indexes remain.
+- [Monitoring Gaps](monitoring-gaps.md)
+<br/>  Without monitoring of index usage statistics, teams have no visibility into which indexes are actually being used.
+- [Information Decay](poor-documentation.md)
+<br/>  Poor documentation of why indexes were created makes it difficult to determine if they are still needed.
 ## Detection Methods ○
 
 - **Database Monitoring Tools:** Most modern database systems provide statistics on index usage (e.g., `pg_stat_user_indexes` in PostgreSQL, `sys.dm_db_index_usage_stats` in SQL Server, `information_schema.statistics` in MySQL combined with query logs).

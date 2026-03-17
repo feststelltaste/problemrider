@@ -32,13 +32,20 @@ Cache invalidation problems occur when cached data is not properly updated or re
 
 ## Symptoms ▲
 
-
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Stale cache data causes intermittent and hard-to-reproduce bugs that appear and disappear as caches expire.
+- [Inconsistent Behavior](inconsistent-behavior.md)
+<br/>  Cached data diverges from source data, causing users to see outdated or contradictory information.
 ## Causes ▼
+
 - [Poor Caching Strategy](poor-caching-strategy.md)
 <br/>  Poorly designed caching approaches lack proper invalidation logic, leading to stale data problems.
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Tightly coupled systems make it hard to ensure all cache layers are properly invalidated when source data changes.
-
+- [Information Decay](poor-documentation.md)
+<br/>  Without documented data flow and caching dependencies, developers miss invalidation paths when modifying data sources.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Lack of tests for cache invalidation scenarios allows inconsistency bugs to reach production.
 ## Detection Methods ○
 
 - **Data Consistency Auditing:** Compare cached data with source data to identify discrepancies

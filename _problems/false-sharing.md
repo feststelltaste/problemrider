@@ -35,7 +35,6 @@ False sharing occurs when multiple CPU cores access different data elements that
 
 ## Symptoms ▲
 
-
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  False sharing causes unnecessary cache coherency traffic that degrades multi-threaded application performance, making the application noticeably slower.
 - [Resource Contention](resource-contention.md)
@@ -44,15 +43,14 @@ False sharing occurs when multiple CPU cores access different data elements that
 <br/>  False sharing prevents linear performance scaling with additional threads or cores, as adding more parallelism increases cache coherency overhead.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As more threads are added over time, false sharing effects compound, causing progressively worse performance degradation.
-
 ## Causes ▼
+
 - [Alignment and Padding Issues](alignment-and-padding-issues.md)
 <br/>  Poor data structure alignment places independent variables on the same cache line, directly causing false sharing between cores.
 - [Data Structure Cache Inefficiency](data-structure-cache-inefficiency.md)
 <br/>  Data structures organized without consideration for cache line boundaries lead to unrelated data sharing cache lines.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without knowledge of CPU cache architecture may inadvertently create data layouts that cause false sharing.
-
 ## Detection Methods ○
 
 - **Cache Performance Profiling:** Use profilers that can detect cache line contention and false sharing

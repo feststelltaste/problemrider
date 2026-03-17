@@ -45,8 +45,8 @@ Poor naming conventions occur when code elements such as variables, functions, c
 <br/>  Misleading names cause developers to misunderstand code behavior, leading to incorrect usage and bugs.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Time spent deciphering poor names across the codebase compounds into significant development slowdowns.
-
 ## Causes ▼
+
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
 <br/>  Without established naming standards, developers default to ad-hoc, inconsistent naming patterns.
 - [Inexperienced Developers](inexperienced-developers.md)
@@ -55,7 +55,6 @@ Poor naming conventions occur when code elements such as variables, functions, c
 <br/>  Under time pressure, developers choose quick, short names rather than investing in clear, descriptive ones.
 - [Superficial Code Reviews](superficial-code-reviews.md)
 <br/>  Code reviews that don't scrutinize naming allow poor naming patterns to enter and persist in the codebase.
-
 ## Detection Methods ○
 
 - **Code Review Pattern Analysis:** Track how often naming issues are raised during code reviews

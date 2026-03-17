@@ -40,8 +40,8 @@ Hidden side effects occur when functions or methods perform actions beyond their
 <br/>  Side effects create implicit dependencies between the function and external systems that are not visible from the interface.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Developers unaware of hidden side effects make changes that unintentionally trigger unwanted actions like emails or database writes.
-
 ## Causes ▼
+
 - [Global State and Side Effects](global-state-and-side-effects.md)
 <br/>  A codebase culture of using global state naturally leads to functions accumulating hidden side effects over time.
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
@@ -50,7 +50,6 @@ Hidden side effects occur when functions or methods perform actions beyond their
 <br/>  New requirements are bolted onto existing functions as side effects rather than being properly separated into distinct operations.
 - [Poor Encapsulation](poor-encapsulation.md)
 <br/>  Lack of proper encapsulation allows functions to reach out and modify state across module boundaries as undocumented side effects.
-
 ## Detection Methods ○
 - **Code Analysis:** Review function implementations to identify actions beyond their apparent purpose
 - **Side Effect Documentation:** Create a catalog of all the side effects each function produces

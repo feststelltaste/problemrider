@@ -37,7 +37,6 @@ An inefficient development environment creates friction in the daily workflow of
 
 ## Symptoms ▲
 
-
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Slow build times, test execution, and complex workflows reduce the amount of productive development time available.
 - [Reduced Team Productivity](reduced-team-productivity.md)
@@ -48,13 +47,16 @@ An inefficient development environment creates friction in the daily workflow of
 <br/>  Complex environment setup processes make it hard for new team members to become productive quickly.
 - [Context Switching Overhead](context-switching-overhead.md)
 <br/>  Long build or test times force developers to switch to other tasks while waiting, increasing cognitive overhead.
-
 ## Causes ▼
+
 - [Tool Limitations](tool-limitations.md)
 <br/>  Outdated or inadequate development tools create bottlenecks and friction in the development workflow.
+- [Automated Tooling Ineffectiveness](automated-tooling-ineffectiveness.md)
+<br/>  Organizations that underinvest in development infrastructure end up with slow and cumbersome environments.
+- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
+<br/>  Monolithic systems often require building and testing the entire application for any change, causing slow development cycles.
 - [Poor System Environment](poor-system-environment.md)
 <br/>  Underlying infrastructure issues such as slow hardware or unreliable networks contribute to an inefficient development environment.
-
 ## Detection Methods ○
 
 - Measure and track build times, test execution times, and deployment pipeline durations

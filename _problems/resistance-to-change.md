@@ -46,8 +46,8 @@ Resistance to change occurs when development teams consistently avoid making nec
 <br/>  Resistance to changing the existing system prevents adoption of new approaches, technologies, or architectural improvements.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Unwillingness to improve the codebase forces developers to work around existing problems, slowing feature delivery.
-
 ## Causes ▼
+
 - [Fear of Breaking Changes](fear-of-breaking-changes.md)
 <br/>  Legitimate fear of breaking existing functionality makes teams reluctant to touch working code, even when it needs improvement.
 - [Poor Test Coverage](poor-test-coverage.md)
@@ -56,21 +56,6 @@ Resistance to change occurs when development teams consistently avoid making nec
 <br/>  When mistakes are punished, team members avoid taking the risk of making changes that could fail and draw blame.
 - [Maintenance Paralysis](maintenance-paralysis.md)
 <br/>  Teams that cannot verify changes don't break functionality become paralyzed and resist making any improvements.
-- [History of Failed Changes](history-of-failed-changes.md)
-<br/>  Teams that have experienced failed changes develop organizational resistance to future modifications and modernization efforts.
-- [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
-<br/>  Management resists proposed technical improvements because the costs of inaction are not visible.
-- [Limited Team Learning](limited-team-learning.md)
-<br/>  Teams that don't learn become entrenched in existing patterns and resist adopting better practices.
-- [Past Negative Experiences](past-negative-experiences.md)
-<br/>  Teams with past negative experiences actively resist refactoring or improvements due to perceived risk based on prior failures.
-- [Release Anxiety](release-anxiety.md)
-<br/>  Anxiety about releases makes teams reluctant to make changes or improvements, preferring the safety of the status quo over the risk of a bad deployment.
-- [Ripple Effect of Changes](ripple-effect-of-changes.md)
-<br/>  Teams become reluctant to make improvements when they know that any change will cascade into extensive modifications across the codebase.
-- [Unmotivated Employees](unmotivated-employees.md)
-<br/>  Disengaged employees resist learning new practices or adopting improvements because they lack investment in the project's success.
-
 ## Detection Methods ○
 
 - **Improvement Proposal Tracking:** Monitor how many improvement initiatives are started vs. completed

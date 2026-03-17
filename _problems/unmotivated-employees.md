@@ -46,8 +46,8 @@ Unmotivated employees exhibit low engagement, minimal initiative, and reduced co
 <br/>  Unmotivated employees avoid voluntary activities like code reviews, concentrating the review burden on engaged team members.
 - [Resistance to Change](resistance-to-change.md)
 <br/>  Disengaged employees resist learning new practices or adopting improvements because they lack investment in the project's success.
-
 ## Causes ▼
+
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  When goals constantly shift, developers feel their work is meaningless, eroding their motivation.
 - [Increased Stress and Burnout](increased-stress-and-burnout.md)
@@ -56,13 +56,6 @@ Unmotivated employees exhibit low engagement, minimal initiative, and reduced co
 <br/>  Being micromanaged removes autonomy and creative ownership, which are key drivers of developer motivation.
 - [Uneven Workload Distribution](uneven-workload-distribution.md)
 <br/>  Being consistently assigned boring or unchallenging work while others get interesting tasks undermines motivation.
-- [Team Demoralization](team-demoralization.md)
-<br/>  Demoralization manifests as employees who no longer care about quality or outcomes, doing only the bare minimum.
-- [Unproductive Meetings](unproductive-meetings.md)
-<br/>  Repeatedly sitting through pointless meetings demoralizes team members who feel their time is not valued.
-- [Wasted Development Effort](wasted-development-effort.md)
-<br/>  Developers become demoralized when they see their work repeatedly thrown away or invalidated.
-
 ## Detection Methods ○
 
 - **Performance Review Analysis:** Track declining performance metrics over time

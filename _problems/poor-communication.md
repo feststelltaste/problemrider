@@ -47,8 +47,8 @@ Poor communication occurs when team members fail to effectively share informatio
 <br/>  Misaligned understanding due to poor communication leads to implementations that must be redone when incompatibilities are discovered.
 - [Suboptimal Solutions](suboptimal-solutions.md)
 <br/>  Without open discussion, developers miss opportunities for collective problem-solving, resulting in weaker solutions.
-
 ## Causes ▼
+
 - [Team Silos](team-silos.md)
 <br/>  Organizational silos create structural barriers to communication, preventing cross-team information flow.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
@@ -57,7 +57,6 @@ Poor communication occurs when team members fail to effectively share informatio
 <br/>  When individual achievement is rewarded over teamwork, people are discouraged from sharing knowledge and collaborating.
 - [Fear of Conflict](fear-of-conflict.md)
 <br/>  Team members who fear conflict avoid raising concerns or engaging in necessary technical discussions.
-
 ## Detection Methods ○
 - **Communication Frequency Analysis:** Monitor how often team members interact on shared tasks
 - **Knowledge Sharing Metrics:** Track information sharing through documentation, code reviews, or discussions

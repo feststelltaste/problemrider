@@ -45,8 +45,8 @@ Frequent hotfixes and rollbacks occur when teams regularly need to deploy emerge
 <br/>  Developer time spent on emergency fixes reduces time available for planned feature development.
 - [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
 <br/>  Repeated release failures and rollbacks erode business stakeholders' trust in the development team's ability to deliver.
-
 ## Causes ▼
+
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Insufficient test coverage allows bugs to reach production undetected, necessitating hotfixes after deployment.
 - [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
@@ -57,25 +57,6 @@ Frequent hotfixes and rollbacks occur when teams regularly need to deploy emerge
 <br/>  Lack of thorough integration testing means interactions between components are not verified before release, leading to production failures.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Pressure to release on schedule leads to cutting corners on testing and quality control, resulting in defective releases.
-- [Complex Deployment Process](complex-deployment-process.md)
-<br/>  Error-prone manual deployment processes lead to failed releases that require immediate hotfixes or rollbacks.
-- [High Defect Rate in Production](high-defect-rate-in-production.md)
-<br/>  A high number of production defects necessitates emergency patches and rollbacks to restore service stability.
-- [Immature Delivery Strategy](immature-delivery-strategy.md)
-<br/>  Poorly planned deployments often require immediate corrective actions when issues are discovered post-release.
-- [Inadequate Configuration Management](inadequate-configuration-management.md)
-<br/>  Configuration errors that escape tracking require emergency fixes and rollbacks to restore service.
-- [Quality Blind Spots](insufficient-testing.md)
-<br/>  Production defects from inadequate testing require emergency fixes and rollbacks.
-- [Manual Deployment Processes](manual-deployment-processes.md)
-<br/>  Errors from manual deployment steps often require emergency fixes or rollbacks to correct mistakes.
-- [Poor System Environment](poor-system-environment.md)
-<br/>  Environment-related failures force frequent emergency fixes and deployment rollbacks.
-- [Release Instability](release-instability.md)
-<br/>  Unstable releases require immediate emergency patches and rollbacks to restore system functionality.
-- [System Integration Blindness](system-integration-blindness.md)
-<br/>  Integration failures discovered after deployment require emergency fixes or rollbacks to restore service.
-
 ## Detection Methods ○
 - **Hotfix Frequency Tracking:** Monitor the rate of emergency deployments relative to planned releases
 - **Time Between Release and Issues:** Track how quickly problems are discovered after deployments

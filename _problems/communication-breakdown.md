@@ -46,8 +46,8 @@ Communication breakdown occurs when team members cannot effectively share inform
 <br/>  Failure to share information about ongoing work makes it difficult for developers to coordinate their efforts.
 - [Merge Conflicts](merge-conflicts.md)
 <br/>  Teams unaware of each other's work modify the same code areas, creating frequent version control conflicts.
-
 ## Causes ▼
+
 - [Team Silos](team-silos.md)
 <br/>  When teams work in isolation, natural information flow channels are absent, preventing effective communication.
 - [Language Barriers](language-barriers.md)
@@ -56,13 +56,6 @@ Communication breakdown occurs when team members cannot effectively share inform
 <br/>  Organizational structure that doesn't align with system architecture creates barriers to cross-team communication.
 - [Inefficient Processes](inefficient-processes.md)
 <br/>  Poor workflows and meeting structures fail to create effective channels for information sharing.
-- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
-<br/>  Loss of trust causes stakeholders to reduce collaborative communication, leading to directive-only interactions and information withholding.
-- [Stakeholder Frustration](stakeholder-frustration.md)
-<br/>  Frustrated stakeholders reduce their willingness to collaborate, leading to deteriorating communication.
-- [Unclear Sharing Expectations](unclear-sharing-expectations.md)
-<br/>  Without clear expectations about what should be communicated, important information fails to reach those who need it.
-
 ## Detection Methods ○
 
 - **Information Flow Analysis:** Track how effectively information moves through the team

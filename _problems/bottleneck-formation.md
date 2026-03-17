@@ -42,10 +42,12 @@ Bottleneck formation occurs when specific individuals, processes, or system comp
 <br/>  Work accumulates waiting for the bottleneck resource, creating growing queues that delay overall delivery.
 - [Missed Deadlines](missed-deadlines.md)
 <br/>  When throughput is constrained by bottlenecks, project timelines slip as work cannot proceed at the needed pace.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Team members become frustrated when they are idle waiting for bottleneck resources to become available.
 - [Context Switching Overhead](context-switching-overhead.md)
 <br/>  Developers forced to switch between tasks while waiting for bottleneck resolution lose productivity to context switching.
-
 ## Causes ▼
+
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When critical knowledge is concentrated in one person, they become a bottleneck for all decisions requiring that expertise.
 - [Single Points of Failure](single-points-of-failure.md)
@@ -54,17 +56,6 @@ Bottleneck formation occurs when specific individuals, processes, or system comp
 <br/>  Mandatory approval workflows from specific individuals create bottlenecks when those individuals are unavailable.
 - [Capacity Mismatch](capacity-mismatch.md)
 <br/>  When capacity at different process stages doesn't match demand, constrained stages become bottlenecks.
-- [Inconsistent Knowledge Acquisition](inconsistent-knowledge-acquisition.md)
-<br/>  Only specific people can handle certain tasks because knowledge was unevenly distributed during acquisition.
-- [Knowledge Dependency](knowledge-dependency.md)
-<br/>  Key knowledge holders become bottlenecks as team members queue up waiting for their guidance.
-- [Process Design Flaws](process-design-flaws.md)
-<br/>  Serial approval steps and poorly ordered processes create bottlenecks that slow delivery.
-- [Tacit Knowledge](tacit-knowledge.md)
-<br/>  Holders of tacit knowledge become bottlenecks as others must wait for their guidance on decisions and changes.
-- [Uneven Workload Distribution](uneven-workload-distribution.md)
-<br/>  Overloaded individuals become bottlenecks when critical work depends on their already-maxed capacity.
-
 ## Detection Methods ○
 
 - **Flow Analysis:** Track work items through the development process to identify where delays occur

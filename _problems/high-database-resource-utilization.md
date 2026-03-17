@@ -38,10 +38,12 @@ High database resource utilization can be a major cause of poor application perf
 <br/>  High database resource usage directly degrades application response times since most operations depend on database interactions.
 - [High API Latency](high-api-latency.md)
 <br/>  API endpoints that depend on database queries experience increased latency when the database server is resource-constrained.
+- [System Outages](system-outages.md)
+<br/>  Database instability from sustained high resource usage can lead to crashes and complete service outages.
 - [Resource Contention](resource-contention.md)
 <br/>  High database resource utilization creates contention where multiple queries compete for limited CPU and memory resources.
-
 ## Causes ▼
+
 - [High Number of Database Queries](high-number-of-database-queries.md)
 <br/>  A large volume of queries per request multiplies the load on database CPU and memory resources.
 - [Slow Database Queries](slow-database-queries.md)
@@ -50,35 +52,6 @@ High database resource utilization can be a major cause of poor application perf
 <br/>  Missing or poorly designed indexes force the database to perform full table scans, consuming excessive CPU and I/O.
 - [High Connection Count](high-connection-count.md)
 <br/>  Too many open database connections consume memory and CPU resources on the database server.
-- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
-<br/>  Inefficient algorithms processing database results consume excessive CPU and memory resources.
-- [Data Structure Cache Inefficiency](data-structure-cache-inefficiency.md)
-<br/>  Poor cache behavior forces the CPU to spend more cycles waiting for memory, driving up resource utilization for data-intensive operations.
-- [Database Query Performance Issues](database-query-performance-issues.md)
-<br/>  Poorly optimized queries consume excessive CPU and memory on the database server, pushing resource utilization to dangerous levels.
-- [Excessive Disk I/O](excessive-disk-io.md)
-<br/>  Excessive disk I/O from inefficient queries or poor indexing drives up database resource consumption.
-- [GraphQL Complexity Issues](graphql-complexity-issues.md)
-<br/>  Deeply nested GraphQL queries generate many database queries that consume excessive database CPU and memory.
-- [Imperative Data Fetching Logic](imperative-data-fetching-logic.md)
-<br/>  The excessive query volume from imperative fetching increases CPU and memory usage on the database server.
-- [Incorrect Index Type](incorrect-index-type.md)
-<br/>  Inefficient index usage forces the database to work harder, consuming more CPU and memory for the same queries.
-- [Incorrect Max Connection Pool Size](incorrect-max-connection-pool-size.md)
-<br/>  Too many connections from an oversized pool consume database memory and CPU resources.
-- [Lazy Loading](lazy-loading.md)
-<br/>  The flood of small queries from lazy loading consumes excessive database CPU and connection resources.
-- [Log Spam](log-spam.md)
-<br/>  When logs are stored in databases, log spam can consume significant storage and query resources.
-- [Long-Running Database Transactions](long-running-database-transactions.md)
-<br/>  Long-running transactions consume connection slots, memory, and transaction log space for extended periods.
-- [Long-Running Transactions](long-running-transactions.md)
-<br/>  Long-running transactions consume database connections, memory, and transaction log space over extended periods.
-- [Misconfigured Connection Pools](misconfigured-connection-pools.md)
-<br/>  Improperly sized connection pools lead to excessive resource consumption on the database server.
-- [Poor Caching Strategy](poor-caching-strategy.md)
-<br/>  Redundant database queries caused by missing or ineffective caching create excessive load on database servers.
-
 ## Detection Methods ○
 
 - **Database Monitoring Tools:** Use specialized database monitoring tools (e.g., pgAdmin for PostgreSQL, MySQL Workbench, or third-party tools like Percona Monitoring and Management) to inspect resource usage, running queries, and configuration.

@@ -46,8 +46,8 @@ Communication risk within projects occurs when team members cannot effectively s
 <br/>  Poor internal communication leads to different team members interpreting the same requirements differently.
 - [Communication Risk Outside Project](communication-risk-outside-project.md)
 <br/>  Internal miscommunication about project status propagates outward as inconsistent or inaccurate messaging to external stakeholders.
-
 ## Causes ▼
+
 - [Language Barriers](language-barriers.md)
 <br/>  Differences in language or technical terminology create misunderstandings in team communications.
 - [Team Silos](team-silos.md)
@@ -56,7 +56,6 @@ Communication risk within projects occurs when team members cannot effectively s
 <br/>  Without clear norms about what information should be shared, important details are frequently omitted.
 - [Inefficient Processes](inefficient-processes.md)
 <br/>  Poorly structured processes fail to create regular touchpoints for team members to share and align.
-
 ## Detection Methods ○
 
 - **Communication Pattern Analysis:** Track frequency and effectiveness of different communication methods

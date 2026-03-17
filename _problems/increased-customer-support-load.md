@@ -35,15 +35,14 @@ Increased customer support load occurs when technical problems, poor user experi
 
 ## Symptoms ▲
 
-
 - [Maintenance Cost Increase](maintenance-cost-increase.md)
 <br/>  More support tickets require more support staff and operational resources, increasing overall maintenance costs.
 - [Declining Business Metrics](declining-business-metrics.md)
 <br/>  High support load correlates with poor user experience, which drives down engagement, conversion, and revenue metrics.
 - [Operational Overhead](operational-overhead.md)
 <br/>  Support staff spends time on technical issues that should have been prevented, diverting resources from planned activities.
-
 ## Causes ▼
+
 - [Increased Bug Count](increased-bug-count.md)
 <br/>  More production bugs mean more users encounter problems and need to contact support.
 - [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
@@ -52,27 +51,6 @@ Increased customer support load occurs when technical problems, poor user experi
 <br/>  Unclear or missing error messages leave users unable to resolve issues on their own, forcing them to contact support.
 - [User Frustration](user-frustration.md)
 <br/>  Frustrated users who cannot complete tasks reach out to support as a last resort.
-- [Customer Dissatisfaction](customer-dissatisfaction.md)
-<br/>  Dissatisfied customers contact support more frequently to report issues and seek help, increasing support ticket volume.
-- [Declining Business Metrics](declining-business-metrics.md)
-<br/>  As business metrics decline due to technical issues, more users contact support with complaints and problems.
-- [Delayed Bug Fixes](delayed-bug-fixes.md)
-<br/>  Users repeatedly encountering known unfixed bugs generate ongoing support requests.
-- [Delayed Issue Resolution](delayed-issue-resolution.md)
-<br/>  Persistent unresolved issues generate recurring support requests as users continue to encounter the same problems.
-- [Feature Gaps](feature-gaps.md)
-<br/>  Users repeatedly contact support requesting the same missing features or seeking workarounds.
-- [Inadequate Onboarding](inadequate-onboarding.md)
-<br/>  New users who lack proper guidance contact support frequently with basic usage questions.
-- [Inconsistent Behavior](inconsistent-behavior.md)
-<br/>  Confused users contact support to understand why the system behaves differently in different contexts.
-- [Inconsistent Quality](inconsistent-quality.md)
-<br/>  Users encountering problems in the lower-quality parts of the system generate more support requests.
-- [Increased Error Rates](increased-error-rates.md)
-<br/>  Users encountering errors contact support, driving up ticket volume.
-- [System Outages](system-outages.md)
-<br/>  Users contact support during and after outages, significantly increasing support volume.
-
 ## Detection Methods ○
 - **Support Ticket Categorization:** Classify tickets to identify what percentage relate to technical issues vs. legitimate support needs
 - **Ticket Volume Trends:** Monitor support request volume relative to user base growth

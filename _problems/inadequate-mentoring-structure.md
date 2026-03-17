@@ -36,7 +36,6 @@ Inadequate mentoring structure occurs when organizations do not have a well-defi
 
 ## Symptoms ▲
 
-
 - [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md)
 <br/>  Without systematic mentoring, some new hires receive excellent guidance while others struggle with minimal support.
 - [Mentor Burnout](mentor-burnout.md)
@@ -47,15 +46,14 @@ Inadequate mentoring structure occurs when organizations do not have a well-defi
 <br/>  Ad-hoc mentoring means new hires learn different things at different depths depending on their informal mentor.
 - [Skill Development Gaps](skill-development-gaps.md)
 <br/>  Without structured mentoring, new team members develop uneven skills with significant blind spots.
-
 ## Causes ▼
+
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Management prioritizes immediate delivery over investing in mentoring programs that yield long-term benefits.
 - [Rapid Team Growth](rapid-team-growth.md)
 <br/>  When teams expand quickly, there is not enough time to establish proper mentoring structures before new hires arrive.
 - [Overworked Teams](overworked-teams.md)
 <br/>  When experienced developers are overloaded with work, they cannot dedicate time to structured mentoring activities.
-
 ## Detection Methods ○
 
 - **Mentoring Program Assessment:** Evaluate the existence and effectiveness of formal mentoring structures

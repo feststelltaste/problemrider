@@ -46,17 +46,14 @@ Product direction chaos occurs when there is no single authoritative voice for p
 <br/>  Without unified product direction, deliverables fail to meet any stakeholder's actual needs.
 - [Changing Project Scope](changing-project-scope.md)
 <br/>  Each stakeholder conversation adds or changes scope, creating constant requirement churn.
-
 ## Causes ▼
+
 - [Power Struggles](power-struggles.md)
 <br/>  Competing departments fight for control over product direction rather than collaborating on shared goals.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Absence of clear organizational goals means no framework exists for resolving conflicting stakeholder demands.
 - [Project Authority Vacuum](project-authority-vacuum.md)
 <br/>  Lack of executive sponsorship leaves no one empowered to make authoritative product decisions.
-- [Market Pressure](market-pressure.md)
-<br/>  Frequent priority shifts driven by competitor actions and market changes create chaos in product direction and roadmap stability.
-
 ## Detection Methods ○
 
 - **Decision Authority Audit:** Map who currently makes different types of product decisions

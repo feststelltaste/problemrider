@@ -40,13 +40,18 @@ Unreleased resources occur when applications acquire system resources such as me
 <br/>  Failing to close database connections is a specific form of unreleased resources that exhausts connection pools.
 - [Resource Allocation Failures](resource-allocation-failures.md)
 <br/>  As unreleased resources accumulate, the system eventually cannot allocate new resources, causing failures.
+- [Release Instability](release-instability.md)
+<br/>  Gradual resource exhaustion from unreleased resources leads to crashes and unpredictable system behavior.
 - [Service Timeouts](service-timeouts.md)
 <br/>  Resource exhaustion from unreleased connections and handles causes services to become unresponsive and time out.
-
 ## Causes ▼
-- [Insufficient Code Review](insufficient-code-review.md)
-<br/>  Lack of thorough code reviews allows resource management mistakes to reach production undetected.
 
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  When exception paths don't include proper cleanup code, resources allocated before the error are never released.
+- [Review Process Breakdown](insufficient-code-review.md)
+<br/>  Lack of thorough code reviews allows resource management mistakes to reach production undetected.
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Without coding standards mandating resource cleanup patterns, developers inconsistently manage resource lifecycles.
 ## Detection Methods ○
 - **Resource Monitoring Tools:** System-level monitoring of memory, file handles, network connections, and other resources
 - **Application Profiling:** Memory and resource profilers that can track resource allocation and deallocation

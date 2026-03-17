@@ -33,15 +33,14 @@ A shared database is a situation where multiple services or components share a s
 <br/>  Teams owning different services must coordinate database changes, creating communication overhead and cross-team dependencies.
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Services become tightly coupled through their shared data model, making it impossible to change one without considering all others.
-
 ## Causes ▼
+
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  Monolithic systems naturally use a single shared database, and this pattern persists even when services are extracted from the monolith.
 - [Convenience-Driven Development](convenience-driven-development.md)
 <br/>  Sharing a database is the easiest path for new services to access existing data, leading teams to choose convenience over proper decoupling.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Management prioritizes quick feature delivery over database decoupling, perpetuating shared database patterns that create long-term problems.
-
 ## Detection Methods ○
 - **Architectural Diagrams:** Create a diagram of the system architecture to identify which services or components are sharing a single database.
 - **Database Schema Analysis:** Analyze the database schema to identify which tables are being used by multiple services or components.

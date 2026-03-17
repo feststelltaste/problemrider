@@ -42,13 +42,14 @@ Unproductive meetings are gatherings that fail to achieve their intended purpose
 <br/>  Frequent meetings interrupt focused development work, breaking flow and reducing the quality of deep technical work.
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Time lost to unproductive meetings accumulates and contributes to project delays as less time is available for actual work.
-
 ## Causes ▼
+
 - [Inefficient Processes](inefficient-processes.md)
 <br/>  Poor organizational processes default to meetings as the primary mode of collaboration rather than using more efficient communication methods.
 - [Bikeshedding](bikeshedding.md)
 <br/>  Teams spend disproportionate time debating trivial issues in meetings while important topics are neglected, making meetings unproductive.
-
+- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
+<br/>  When roles are unclear, too many people attend meetings and discussions lack focus because ownership of decisions is ambiguous.
 ## Detection Methods ○
 
 - **Meeting Audits:** Periodically review meeting schedules, agendas, and outcomes to assess their effectiveness.

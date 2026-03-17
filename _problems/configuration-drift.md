@@ -45,8 +45,8 @@ Configuration drift occurs when system configurations gradually change from thei
 <br/>  Gradual drift in individual configurations accumulates into overall configuration chaos when left unaddressed across multiple systems.
 - [Unpredictable System Behavior](unpredictable-system-behavior.md)
 <br/>  Drifted configurations cause unexpected side effects since the actual system state no longer matches what developers and operators expect.
-
 ## Causes ▼
+
 - [Inadequate Configuration Management](inadequate-configuration-management.md)
 <br/>  Without proper configuration tracking and baselines, there is no mechanism to detect or prevent gradual drift.
 - [Manual Deployment Processes](manual-deployment-processes.md)
@@ -55,11 +55,6 @@ Configuration drift occurs when system configurations gradually change from thei
 <br/>  When no one is responsible for maintaining configuration standards, ad hoc changes accumulate without review or correction.
 - [Information Decay](information-decay.md)
 <br/>  As documentation about intended configurations becomes outdated, teams lose the baseline needed to detect and correct drift.
-- [Change Management Chaos](change-management-chaos.md)
-<br/>  Without coordinated change control, system configurations diverge from expected states across environments.
-- [Legacy Configuration Management Chaos](legacy-configuration-management-chaos.md)
-<br/>  Without automated configuration management, settings gradually diverge across environments over time.
-
 ## Detection Methods ○
 
 - **Configuration Monitoring:** Continuously monitor configuration files for changes

@@ -48,8 +48,8 @@ The invisible nature of technical debt occurs when the costs and impacts of accu
 <br/>  Developers become frustrated when their concerns about technical debt are consistently dismissed by management.
 - [Increased Technical Shortcuts](increased-technical-shortcuts.md)
 <br/>  When there is no budget for addressing debt, developers resort to more shortcuts, compounding the problem.
-
 ## Causes ▼
+
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
 <br/>  Poor communication between developers and business stakeholders prevents effective explanation of technical debt impacts.
 - [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
@@ -58,7 +58,6 @@ The invisible nature of technical debt occurs when the costs and impacts of accu
 <br/>  Organizations focused on short-term results naturally deprioritize long-term technical health concerns.
 - [Feature Factory](feature-factory.md)
 <br/>  A culture that values only feature output makes non-feature technical work invisible and undervalued.
-
 ## Detection Methods ○
 
 - **Stakeholder Understanding Surveys:** Assess how well non-technical stakeholders understand technical debt impacts

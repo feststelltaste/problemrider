@@ -36,19 +36,14 @@ Session management issues occur when applications improperly handle user session
 <br/>  Compromised sessions expose user data and sensitive information to unauthorized access through session hijacking.
 - [User Trust Erosion](user-trust-erosion.md)
 <br/>  Security breaches from session hijacking erode user confidence in the system's ability to protect their accounts.
-
 ## Causes ▼
+
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without security experience may implement predictable session tokens, skip encryption, or neglect proper session lifecycle management.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Session management code in legacy systems without test coverage makes it risky to fix vulnerabilities or update session handling practices.
 - [Quality Blind Spots](insufficient-testing.md)
 <br/>  Insufficient security testing fails to identify session management vulnerabilities like predictable tokens or missing invalidation.
-- [Cross-Site Scripting Vulnerabilities](cross-site-scripting-vulnerabilities.md)
-<br/>  XSS attacks enable session hijacking by stealing session cookies, directly compromising session security.
-- [Password Security Weaknesses](password-security-weaknesses.md)
-<br/>  Weak password security combined with poor session handling compounds vulnerabilities, as compromised credentials grant persistent unauthorized access.
-
 ## Detection Methods ○
 
 - **Session Security Testing:** Test session token strength, lifecycle, and security attributes

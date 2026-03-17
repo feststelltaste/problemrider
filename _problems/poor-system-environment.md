@@ -44,8 +44,8 @@ Poor system environment occurs when software systems are deployed to infrastruct
 <br/>  Differences between development and production environments cause unexpected behavior after deployment.
 - [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
 <br/>  Environment-related failures force frequent emergency fixes and deployment rollbacks.
-
 ## Causes ▼
+
 - [Poor Operational Concept](poor-operational-concept.md)
 <br/>  Lack of operational planning means environment requirements are not properly defined before deployment.
 - [Inadequate Configuration Management](inadequate-configuration-management.md)
@@ -54,7 +54,6 @@ Poor system environment occurs when software systems are deployed to infrastruct
 <br/>  Insufficient understanding of the application's resource needs leads to improperly provisioned environments.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Cost-cutting on infrastructure without considering long-term operational needs produces under-resourced environments.
-
 ## Detection Methods ○
 
 - **System Uptime Monitoring:** Track system availability and identify patterns in outages

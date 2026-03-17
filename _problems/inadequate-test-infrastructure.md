@@ -48,15 +48,14 @@ Inadequate test infrastructure refers to the lack of proper tools, environments,
 <br/>  Inadequate infrastructure makes test execution slow, extending feedback loops and build times.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Without adequate infrastructure to support test creation, legacy code remains untested as adding tests is too difficult.
-
 ## Causes ▼
+
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Management prioritizes feature delivery over investing in testing infrastructure that provides long-term quality benefits.
 - [Project Resource Constraints](project-resource-constraints.md)
 <br/>  Limited budget and resources prevent investment in proper test environments, tools, and automation frameworks.
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Outdated technology stacks lack support for modern testing tools and frameworks, making infrastructure upgrades difficult.
-
 ## Detection Methods ○
 
 - Audit current testing tools, environments, and automation capabilities

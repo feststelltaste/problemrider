@@ -46,8 +46,8 @@ Uneven workload distribution occurs when work assignments are not balanced acros
 <br/>  Underutilized team members miss opportunities to develop skills on challenging work that always goes to the same overloaded people.
 - [Reduced Team Flexibility](reduced-team-flexibility.md)
 <br/>  When work is concentrated on a few individuals, the team cannot easily reassign work or adapt when those people are unavailable.
-
 ## Causes ▼
+
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When only certain people have specific expertise, work that requires that expertise always flows to them, creating imbalance.
 - [Inappropriate Skillset](inappropriate-skillset.md)
@@ -56,9 +56,6 @@ Uneven workload distribution occurs when work assignments are not balanced acros
 <br/>  Without clear role definitions, some team members take on or are assigned more responsibility than others.
 - [Micromanagement Culture](micromanagement-culture.md)
 <br/>  Managers who control task assignments may inadvertently create imbalances by always routing work to trusted individuals.
-- [Inconsistent Knowledge Acquisition](inconsistent-knowledge-acquisition.md)
-<br/>  Tasks are assigned based on who knows what rather than availability, creating imbalanced workloads.
-
 ## Detection Methods ○
 
 - **Workload Metrics Tracking:** Monitor work assignments, hours worked, and task completion rates across team members

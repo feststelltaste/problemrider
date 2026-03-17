@@ -41,37 +41,18 @@ Implementation rework occurs when completed features or system components must b
 <br/>  Work that must be discarded and redone represents direct waste of development resources and team effort.
 - [Increased Cost of Development](increased-cost-of-development.md)
 <br/>  Rework doubles or triples the effective cost of features since they must be built multiple times.
-
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Repeatedly having work discarded and redone is demoralizing and frustrating for developers.
 ## Causes ▼
+
 - [Assumption-Based Development](assumption-based-development.md)
 <br/>  Building features based on unvalidated assumptions about requirements leads to implementations that miss actual needs.
 - [Implementation Starts Without Design](implementation-starts-without-design.md)
 <br/>  Starting to code without proper design means structural issues are discovered late, requiring significant rebuilding.
-- [Changing Project Scope](changing-project-scope.md)
-<br/>  Scope changes invalidate prior design decisions, forcing features to be rebuilt to match new requirements.
-- [Communication Risk Within Project](communication-risk-within-project.md)
-<br/>  Misunderstood requirements from unclear internal communication force features to be rebuilt.
-- [Duplicated Work](duplicated-work.md)
-<br/>  When duplicate implementations are discovered, one or both must be reworked to reconcile into a single approach.
-- [Feedback Isolation](feedback-isolation.md)
-<br/>  Features must be rebuilt when teams finally receive feedback and discover their initial understanding was incorrect.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
-<br/>  Features must be rebuilt when requirements change after development has started, wasting previous effort.
-- [Implicit Knowledge](implicit-knowledge.md)
-<br/>  Features must be rebuilt when developers discover implicit constraints or business rules they were not aware of during initial implementation.
-- [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
-<br/>  Features must be rebuilt when initial understanding proves incorrect due to insufficient requirements analysis.
-- [Long-Lived Feature Branches](long-lived-feature-branches.md)
-<br/>  When parallel development on mainline makes a branch's approach incompatible, significant rework is needed before merging.
-- [Communication Breakdown](poor-communication.md)
-<br/>  Misaligned understanding due to poor communication leads to implementations that must be redone when incompatibilities are discovered.
-- [Poor Planning](poor-planning.md)
-<br/>  Discovering unanticipated technical obstacles late in development forces significant rework of existing implementations.
 - [Requirements Ambiguity](requirements-ambiguity.md)
-<br/>  Ambiguous requirements lead to implementations that don't match stakeholder expectations, requiring costly rebuilds.
+<br/>  Ambiguous or incomplete requirements lead to misinterpretations that only surface when the implementation is reviewed or tested.
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
-<br/>  Misunderstood requirements lead to features that must be rebuilt once the communication gap is discovered.
-
+<br/>  Without regular stakeholder feedback during development, teams may build features that don't match actual business needs.
 ## Detection Methods ○
 
 - **Rework Tracking:** Monitor percentage of completed work that requires significant changes or rebuilding

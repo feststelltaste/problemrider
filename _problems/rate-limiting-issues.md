@@ -44,15 +44,14 @@ Rate limiting issues occur when mechanisms designed to control request frequency
 <br/>  Overly restrictive rate limiting forces clients to implement retry logic that consumes additional client-side resources.
 - [Load Balancing Problems](load-balancing-problems.md)
 <br/>  Rate limiting that doesn't account for load distribution can cause uneven traffic patterns across service instances.
-
 ## Causes ▼
+
 - [Configuration Drift](configuration-drift.md)
 <br/>  Rate limiting configurations gradually become outdated as traffic patterns evolve but settings are not updated.
-- [Poor Documentation](poor-documentation.md)
+- [Information Decay](poor-documentation.md)
 <br/>  Lack of documentation about expected traffic patterns and rate limiting rationale leads to misconfigured limits.
 - [Resource Allocation Failures](resource-allocation-failures.md)
 <br/>  Incorrect understanding of resource capacity leads to rate limits that don't match actual system capabilities.
-
 ## Detection Methods ○
 
 - **Rate Limit Hit Analysis:** Monitor frequency and patterns of rate limit violations

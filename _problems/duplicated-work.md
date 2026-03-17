@@ -46,8 +46,8 @@ Duplicated work occurs when multiple team members independently work on the same
 <br/>  When duplicate implementations are discovered, one or both must be reworked to reconcile into a single approach.
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  The team's effective output decreases when multiple members unknowingly work on the same tasks.
-
 ## Causes ▼
+
 - [Communication Breakdown](communication-breakdown.md)
 <br/>  Poor communication leaves team members unaware of what others are working on, enabling duplicate task execution.
 - [Team Coordination Issues](team-coordination-issues.md)
@@ -56,15 +56,6 @@ Duplicated work occurs when multiple team members independently work on the same
 <br/>  Unclear responsibilities and project goals cause team members to unknowingly pick up the same tasks.
 - [Poor Planning](poor-planning.md)
 <br/>  Inadequate task breakdown and assignment during planning allows the same work to be assigned or picked up by multiple people.
-- [Communication Risk Within Project](communication-risk-within-project.md)
-<br/>  Miscommunication about task assignments leads to multiple team members working on the same problems.
-- [Language Barriers](language-barriers.md)
-<br/>  When team members cannot communicate effectively due to language barriers, they may unknowingly work on the same problems independently.
-- [Unclear Documentation Ownership](unclear-documentation-ownership.md)
-<br/>  Without maintained documentation, team members may unknowingly solve the same problems others have already addressed.
-- [Unclear Sharing Expectations](unclear-sharing-expectations.md)
-<br/>  When information isn't shared, team members independently solve problems that others have already addressed.
-
 ## Detection Methods ○
 
 - **Work Assignment Tracking:** Monitor task assignments to identify potential overlaps

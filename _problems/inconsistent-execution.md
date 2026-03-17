@@ -46,19 +46,14 @@ Inconsistent execution occurs when the same tasks or processes are performed dif
 <br/>  Different team members doing the same tasks in different ways creates confusion about what the correct process actually is.
 - [Increased Bug Count](increased-bug-count.md)
 <br/>  Variations in how tasks are performed mean quality checks are applied unevenly, allowing more defects through.
-
 ## Causes ▼
+
 - [Manual Deployment Processes](manual-deployment-processes.md)
 <br/>  Reliance on manual steps rather than automation allows each person to execute tasks differently.
 - [Inefficient Processes](inefficient-processes.md)
 <br/>  Poor or undocumented workflows leave room for individual interpretation and variation in execution.
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  Without clear ownership of processes, no one ensures they are followed consistently.
-- [Increased Manual Testing Effort](increased-manual-testing-effort.md)
-<br/>  Human testers inevitably execute tests differently, leading to inconsistent coverage and missed defects.
-- [Increased Manual Work](increased-manual-work.md)
-<br/>  Manual processes are inherently prone to variation, producing inconsistent outcomes across team members and time.
-
 ## Detection Methods ○
 
 - **Output Quality Analysis:** Compare quality metrics across different team members and time periods

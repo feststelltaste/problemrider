@@ -34,28 +34,24 @@ Project authority vacuum occurs when important initiatives lack adequate executi
 
 ## Symptoms ▲
 
-
 - [Power Struggles](power-struggles.md)
 <br/>  Without clear authority, multiple managers compete to fill the leadership void with their own agendas.
 - [Project Resource Constraints](project-resource-constraints.md)
 <br/>  Without executive backing, projects cannot secure the budget and personnel they need.
-- [Delayed Decision-Making](delayed-decision-making.md)
+- [Delayed Decision Making](delayed-decision-making.md)
 <br/>  Decisions requiring executive authority are delayed indefinitely when no sponsor is available to make them.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Projects fail to deliver expected benefits due to lack of organizational support, disappointing stakeholders.
 - [Poor Project Control](poor-project-control.md)
 <br/>  Without executive authority, projects cannot enforce compliance or participation from other departments.
-
 ## Causes ▼
+
 - [Competing Priorities](competing-priorities.md)
 <br/>  Executives spread across many initiatives cannot give adequate sponsorship to each project.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  When organizational priorities are unclear, executives are reluctant to champion specific projects.
 - [Poor Planning](poor-planning.md)
 <br/>  Projects launched without securing proper executive sponsorship from the start lack organizational backing.
-- [Communication Risk Outside Project](communication-risk-outside-project.md)
-<br/>  Poor external communication reduces executive confidence and backing, weakening organizational support for the project.
-
 ## Detection Methods ○
 
 - **Executive Engagement Assessment:** Measure frequency and quality of executive participation in project governance

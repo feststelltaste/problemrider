@@ -43,17 +43,14 @@ Load balancing problems occur when traffic distribution mechanisms fail to effic
 <br/>  Poor load balancing causes some servers to compete for limited resources while others sit idle.
 - [System Outages](system-outages.md)
 <br/>  When overloaded instances fail completely due to poor load distribution, it can cascade into full service outages.
-
 ## Causes ▼
+
 - [Scaling Inefficiencies](scaling-inefficiencies.md)
 <br/>  Systems that cannot scale individual components independently make it harder to balance load across heterogeneous instances.
 - [Monitoring Gaps](monitoring-gaps.md)
 <br/>  Without adequate monitoring of load distribution and instance health, load balancing problems go undetected and unaddressed.
 - [Legacy Configuration Management Chaos](legacy-configuration-management-chaos.md)
 <br/>  Poorly managed configuration makes it difficult to properly tune load balancer settings and adapt to changing traffic patterns.
-- [Rate Limiting Issues](rate-limiting-issues.md)
-<br/>  Rate limiting that doesn't account for load distribution can cause uneven traffic patterns across service instances.
-
 ## Detection Methods ○
 
 - **Load Distribution Monitoring:** Monitor request distribution and resource utilization across instances

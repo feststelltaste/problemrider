@@ -45,33 +45,14 @@ Quality compromises occur when teams or organizations deliberately accept lower 
 <br/>  Untested and poorly reviewed code introduces hidden fragilities that compound over time.
 - [Inconsistent Quality](inconsistent-quality.md)
 <br/>  Some parts of the system are well-built while areas developed under pressure have notably lower quality.
-
 ## Causes ▼
+
 - [Time Pressure](time-pressure.md)
 <br/>  Tight deadlines force teams to choose between meeting schedules and maintaining quality standards.
 - [Project Resource Constraints](project-resource-constraints.md)
 <br/>  Insufficient resources make it impossible to maintain quality standards within given constraints.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Continuous urgent work leaves no time for quality practices, forcing teams to take shortcuts.
-- [Competing Priorities](competing-priorities.md)
-<br/>  Stretched thin across priorities, teams take shortcuts and lower quality standards to try to make progress on everything.
-- [Deadline Pressure](deadline-pressure.md)
-<br/>  Under deadline pressure, teams deliberately lower quality standards by skipping tests, reviews, and proper design.
-- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
-<br/>  Trying to deliver on all accepted requests forces the team to cut corners on quality to meet expanded commitments.
-- [Overworked Teams](overworked-teams.md)
-<br/>  Overworked teams deliberately cut corners on quality practices like testing and code reviews to keep up with workload demands.
-- [Poor Contract Design](poor-contract-design.md)
-<br/>  When contracts penalize deviations, teams deliver to contract spec rather than quality standards, compromising the actual product.
-- [Priority Thrashing](priority-thrashing.md)
-<br/>  Teams cut corners to produce something before the next priority change forces them to move on.
-- [Release Anxiety](release-anxiety.md)
-<br/>  Under the pressure of anxious deployments, teams may rush last-minute fixes or skip proper procedures, compromising quality to get through the stressful release event.
-- [Scope Creep](scope-creep.md)
-<br/>  As scope expands without additional time or resources, quality standards are lowered to accommodate the growing feature set.
-- [Uneven Work Flow](uneven-work-flow.md)
-<br/>  When work is compressed into bursts of activity, quality suffers because there isn't time for thorough work during peak periods.
-
 ## Detection Methods ○
 
 - **Quality Metrics Tracking:** Monitor trends in code quality, test coverage, and defect rates

@@ -36,9 +36,10 @@ Monolithic architecture constraints occur when applications are built as single,
 
 ## Symptoms ▲
 
-
 - [Scaling Inefficiencies](scaling-inefficiencies.md)
 <br/>  The entire monolith must be scaled together even when only one component needs additional resources, wasting infrastructure.
+- [Deployment Risk](deployment-risk.md)
+<br/>  Deploying the entire application as one unit requires full regression testing and coordination, significantly slowing deployment cycles.
 - [Merge Conflicts](merge-conflicts.md)
 <br/>  Multiple teams working in the same codebase frequently encounter merge conflicts when modifying shared code.
 - [Slow Feature Development](slow-feature-development.md)
@@ -47,15 +48,16 @@ Monolithic architecture constraints occur when applications are built as single,
 <br/>  Changes in one area of the monolith can unexpectedly affect other areas, creating bottlenecks where modifications require broad system understanding.
 - [Technology Lock-In](technology-lock-in.md)
 <br/>  Technology decisions affect the entire application, preventing individual components from adopting better-suited technologies.
-
 ## Causes ▼
+
 - [Uncontrolled Codebase Growth](uncontrolled-codebase-growth.md)
 <br/>  Continual addition of features without architectural refactoring causes the monolith to grow beyond manageable size.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Lack of clear module boundaries and excessive interdependencies between components reinforces the monolithic structure.
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Teams lacking architectural design skills fail to identify when a monolith should be decomposed into separate services.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Prioritizing quick feature delivery over architectural investment allows the monolith to grow without addressing structural concerns.
-
 ## Detection Methods ○
 
 - **Codebase Size Analysis:** Monitor codebase growth and complexity metrics

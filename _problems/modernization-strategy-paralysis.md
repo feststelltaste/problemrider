@@ -45,19 +45,16 @@ Modernization strategy paralysis occurs when organizations become overwhelmed by
 <br/>  Developers frustrated by endless analysis and inability to work with modern technologies leave for organizations with clearer technical direction.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  While the organization remains paralyzed, competitors modernize and gain market advantage through superior technical capabilities.
-
+- [Resource Waste](resource-waste.md)
+<br/>  Extensive analysis activities consume significant budget and personnel time without producing actionable outcomes.
 ## Causes ▼
+
 - [Analysis Paralysis](analysis-paralysis.md)
 <br/>  A general organizational tendency to over-analyze decisions directly manifests as inability to choose a modernization strategy.
 - [Decision Paralysis](decision-paralysis.md)
 <br/>  Fear of making wrong decisions and lack of clear decision-making authority prevents the organization from committing to a modernization path.
 - [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
 <br/>  Without a clear ROI justification, stakeholders hesitate to approve any modernization approach, prolonging the analysis phase.
-- [Legacy Business Logic Extraction Difficulty](legacy-business-logic-extraction-difficulty.md)
-<br/>  Teams cannot choose a modernization approach when they don't understand what business logic needs to be preserved.
-- [Legacy Skill Shortage](legacy-skill-shortage.md)
-<br/>  Without enough skilled people to both maintain the legacy system and build a replacement, organizations cannot commit to a modernization path.
-
 ## Detection Methods ○
 
 - Track time spent on modernization analysis versus implementation activities

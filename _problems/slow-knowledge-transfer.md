@@ -35,29 +35,24 @@ Slow knowledge transfer is a situation where it takes a long time for new team m
 
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  New team members remain unproductive for extended periods, reducing overall team velocity.
+- [Difficult Developer Onboarding](difficult-developer-onboarding.md)
+<br/>  Extended ramp-up times for new hires increase the cost and effort required to onboard team members.
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  Existing team members are pulled away from their work to help new members, reducing overall team productivity.
+- [High Turnover](high-turnover.md)
+<br/>  Frustrating onboarding experiences due to poor knowledge transfer can drive new team members to leave.
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  Slow transfer means new members develop incomplete understanding, leaving persistent gaps in their knowledge.
-
 ## Causes ▼
+
+- [Information Decay](poor-documentation.md)
+<br/>  Without documentation, new team members must learn everything through asking colleagues, which is slow and unreliable.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When knowledge is siloed, it can only be transferred through the specific individuals who hold it, creating bottlenecks.
 - [Tacit Knowledge](tacit-knowledge.md)
 <br/>  Undocumented tribal knowledge that exists only in people's heads is inherently difficult and slow to transfer.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Code that is hard to understand makes it much harder for new team members to learn the system independently.
-- [Clever Code](clever-code.md)
-<br/>  Clever code takes much longer to explain and teach to new team members, slowing onboarding and knowledge sharing.
-- [Language Barriers](language-barriers.md)
-<br/>  Language differences slow down the process of sharing system knowledge between team members, as explanations require more time and effort.
-- [Information Decay](poor-documentation.md)
-<br/>  Poor documentation forces knowledge transfer to happen through slow one-on-one conversations rather than self-service reading.
-- [Rapid Team Growth](rapid-team-growth.md)
-<br/>  Experienced team members are overwhelmed by onboarding duties, making knowledge transfer slow and incomplete for many new hires.
-- [Skill Development Gaps](skill-development-gaps.md)
-<br/>  When skills are not broadly developed, there are fewer people capable of mentoring and transferring knowledge effectively.
-
 ## Detection Methods ○
 - **Onboarding Time:** Measure the time it takes for new team members to become productive.
 - **Developer Surveys:** Ask new team members about their onboarding experience.

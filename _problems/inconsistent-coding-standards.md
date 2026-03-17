@@ -47,21 +47,14 @@ Inconsistent coding standards occur when different parts of a codebase follow di
 <br/>  New team members take longer to become productive because they must learn multiple coding styles and conventions used throughout the codebase.
 - [Inconsistent Codebase](inconsistent-codebase.md)
 <br/>  Lack of uniform standards directly produces a codebase that lacks uniform style and design patterns.
-
 ## Causes ▼
+
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
 <br/>  Without clear, agreed-upon coding standards, each developer defaults to their own preferred style.
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  When no one is responsible for enforcing consistent standards, coding conventions diverge over time.
 - [High Turnover](high-turnover.md)
 <br/>  Frequent developer turnover introduces new coding preferences without continuity of established conventions.
-- [Review Process Avoidance](review-process-avoidance.md)
-<br/>  Code that skips review doesn't get checked for standard compliance, leading to inconsistent coding practices across the codebase.
-- [Review Process Breakdown](review-process-breakdown.md)
-<br/>  Ineffective reviews fail to enforce coding standards, allowing inconsistencies to proliferate across the codebase.
-- [Rushed Approvals](rushed-approvals.md)
-<br/>  Quick approvals skip enforcement of coding standards, allowing inconsistent patterns to enter the codebase.
-
 ## Detection Methods ○
 
 - **Code Style Analysis:** Use automated tools to detect formatting and style inconsistencies

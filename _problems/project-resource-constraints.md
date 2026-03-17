@@ -45,19 +45,14 @@ Project resource constraints occur when projects cannot secure the human, financ
 <br/>  Resource-constrained teams resist scope additions because they already lack capacity for existing work.
 - [Increased Technical Shortcuts](increased-technical-shortcuts.md)
 <br/>  Teams take technical shortcuts to compensate for insufficient personnel and time.
-
 ## Causes ▼
+
 - [Competing Priorities](competing-priorities.md)
 <br/>  Multiple high-priority projects compete for the same limited pool of resources.
 - [Project Authority Vacuum](project-authority-vacuum.md)
 <br/>  Without executive sponsorship, resource requests are deprioritized or denied.
 - [Poor Planning](poor-planning.md)
 <br/>  Inadequate resource planning during project inception leads to chronic under-resourcing.
-- [Declining Business Metrics](declining-business-metrics.md)
-<br/>  Poor business metrics make it harder to secure funding and resources for development initiatives, creating a downward spiral.
-- [Resource Waste](resource-waste.md)
-<br/>  Poor resource utilization means some projects lack resources while equivalent capacity sits idle elsewhere in the organization.
-
 ## Detection Methods ○
 
 - **Resource Request Success Rate:** Track percentage of project resource requests that are approved

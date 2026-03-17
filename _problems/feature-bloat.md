@@ -48,8 +48,8 @@ Feature bloat occurs when products accumulate numerous features beyond their cor
 <br/>  Users switch to simpler, more focused competitors when the bloated product becomes too complex for their needs.
 - [Increased Cognitive Load](increased-cognitive-load.md)
 <br/>  Developers must understand and maintain an ever-growing set of features, increasing mental overhead for every change.
-
 ## Causes ▼
+
 - [Feature Creep](feature-creep.md)
 <br/>  The gradual, uncontrolled expansion of feature scope over time is the primary mechanism through which feature bloat accumulates.
 - [Feature Factory](feature-factory.md)
@@ -58,13 +58,6 @@ Feature bloat occurs when products accumulate numerous features beyond their cor
 <br/>  Agreeing to every stakeholder request without pushback or trade-off analysis leads to accumulation of unnecessary features.
 - [Feedback Isolation](feedback-isolation.md)
 <br/>  Without regular user feedback, teams cannot identify which features provide value and which add unnecessary complexity.
-- [Gold Plating](gold-plating.md)
-<br/>  Unnecessary features accumulate, making the product overly complex and diluting its core value proposition.
-- [Scope Creep](scope-creep.md)
-<br/>  The continuous addition of unplanned features results in an overly complex product that dilutes the core value proposition.
-- [Second-System Effect](second-system-effect.md)
-<br/>  The replacement system becomes bloated with features that address hypothetical problems from the old system rather than actual business needs.
-
 ## Detection Methods ○
 
 - **Feature Usage Analysis:** Track which features are actually used by what percentage of users

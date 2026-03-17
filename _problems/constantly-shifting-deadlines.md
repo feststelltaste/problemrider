@@ -42,8 +42,8 @@ Constantly shifting deadlines are a common problem in software development. They
 <br/>  Extended timelines from shifting deadlines directly increase project costs beyond original budgets.
 - [Increased Stress and Burnout](increased-stress-and-burnout.md)
 <br/>  The uncertainty and frustration of constantly changing targets creates sustained stress for the development team.
-
 ## Causes ▼
+
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
 <br/>  Constantly changing requirements force deadline adjustments as the team must accommodate new or altered work.
 - [Scope Creep](scope-creep.md)
@@ -54,15 +54,6 @@ Constantly shifting deadlines are a common problem in software development. They
 <br/>  Agreeing to every new stakeholder request without pushback adds work that forces deadline extensions.
 - [Poor Planning](poor-planning.md)
 <br/>  Inadequate initial planning fails to account for project complexity and risks, requiring repeated deadline adjustments.
-- [Cascade Delays](cascade-delays.md)
-<br/>  As delays propagate, project schedules must be repeatedly adjusted, creating an environment of unstable timelines.
-- [Increased Time to Market](increased-time-to-market.md)
-<br/>  Longer development cycles lead to repeated deadline extensions as original timelines prove unachievable.
-- [Missed Deadlines](missed-deadlines.md)
-<br/>  When deadlines are regularly missed, teams start pre-emptively adjusting timelines, creating a pattern of shifting commitments.
-- [Reduced Predictability](reduced-predictability.md)
-<br/>  Unpredictable development timelines force frequent deadline adjustments and rescheduling.
-
 ## Detection Methods ○
 - **Track Project Milestones:** Keep a log of all project milestones and see how often they are being missed.
 - **Velocity Tracking:** In an agile team, a decrease in velocity can be a sign that the team is being burdened with unplanned work.

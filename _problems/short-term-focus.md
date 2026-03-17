@@ -47,8 +47,8 @@ Short-term focus occurs when organizational decision-making consistently priorit
 <br/>  Developers become frustrated and burned out when their requests for time to address quality issues are consistently rejected.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  As accumulated debt grows, development velocity systematically declines because each change requires more effort to implement safely.
-
 ## Causes ▼
+
 - [Market Pressure](market-pressure.md)
 <br/>  Competitive market forces create urgency to deliver features quickly, pushing management to prioritize immediate delivery over sustainability.
 - [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
@@ -57,7 +57,6 @@ Short-term focus occurs when organizational decision-making consistently priorit
 <br/>  Technical debt is not visible to non-technical stakeholders, so management does not perceive the growing cost of neglecting code health.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Intense deadline pressure forces teams into a constant cycle of short-term delivery, leaving no room for long-term planning.
-
 ## Detection Methods ○
 
 - **Resource Allocation Analysis:** Track percentage of development time spent on improvement vs. new features

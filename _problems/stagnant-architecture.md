@@ -46,33 +46,14 @@ Stagnant architecture occurs when a system's fundamental design and structure re
 <br/>  Bolting new functionality onto an outdated architecture creates mounting technical debt.
 - [Vendor Lock-In](vendor-lock-in.md)
 <br/>  A stagnant architecture cements dependency on older technology vendors, making migration increasingly difficult.
-
 ## Causes ▼
+
 - [Fear of Change](fear-of-change.md)
 <br/>  Teams avoid architectural evolution because they fear the risks and disruption of major refactoring.
+- [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
+<br/>  Consistently deferring refactoring prevents the architecture from evolving to meet changing needs.
 - [Time Pressure](time-pressure.md)
 <br/>  Constant delivery pressure prevents teams from investing time in architectural improvements.
-- [Accumulated Decision Debt](accumulated-decision-debt.md)
-<br/>  Architecture cannot evolve when key decisions are perpetually deferred, leading to stagnation.
-- [Decision Avoidance](decision-avoidance.md)
-<br/>  Avoiding architectural decisions prevents the system from evolving to meet changing needs, causing it to fall further behind.
-- [Fear of Breaking Changes](fear-of-breaking-changes.md)
-<br/>  The system architecture fails to evolve because the team is too afraid to make the structural changes needed for improvement.
-- [History of Failed Changes](history-of-failed-changes.md)
-<br/>  Reluctance to change leads to architecture that remains frozen and unable to evolve with changing requirements.
-- [Implementation Starts Without Design](implementation-starts-without-design.md)
-<br/>  An organically evolved architecture without clear design becomes difficult to intentionally evolve or improve.
-- [Inability to Innovate](inability-to-innovate.md)
-<br/>  Without capacity for innovation, the system architecture remains frozen and cannot evolve to meet new requirements.
-- [Maintenance Paralysis](maintenance-paralysis.md)
-<br/>  When teams are paralyzed from making changes, the architecture cannot evolve to meet new requirements.
-- [Reduced Innovation](reduced-innovation.md)
-<br/>  Avoidance of new approaches means the system architecture remains unchanged despite known limitations.
-- [Schema Evolution Paralysis](schema-evolution-paralysis.md)
-<br/>  When the database schema cannot evolve, the overall architecture stagnates because the data model is foundational to system design.
-- [Short-Term Focus](short-term-focus.md)
-<br/>  Architecture never evolves because long-term improvement work is perpetually deprioritized in favor of immediate feature delivery.
-
 ## Detection Methods ○
 
 - **Architecture Review Sessions:** Regular assessment of how well current architecture serves business needs

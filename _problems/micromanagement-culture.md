@@ -36,7 +36,6 @@ Micromanagement culture occurs when organizational leadership requires detailed 
 
 ## Symptoms ▲
 
-
 - [Approval Dependencies](approval-dependencies.md)
 <br/>  Micromanagement directly creates approval bottlenecks as routine decisions require management sign-off.
 - [Slow Development Velocity](slow-development-velocity.md)
@@ -49,17 +48,14 @@ Micromanagement culture occurs when organizational leadership requires detailed 
 <br/>  Teams become unable to make decisions independently, defaulting to waiting for management approval on everything.
 - [Reduced Individual Productivity](reduced-individual-productivity.md)
 <br/>  Developers spend significant time on approval workflows and justification documents instead of productive work.
-
 ## Causes ▼
+
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  Fundamental distrust of team members' judgment drives management to require oversight on all decisions.
+- [Fear of Change](fear-of-change.md)
+<br/>  An organizational culture that prioritizes avoiding mistakes over empowering teams leads to excessive controls and approvals.
 - [Power Struggles](power-struggles.md)
 <br/>  Managers who feel the need to maintain control and authority create micromanagement patterns to preserve their position.
-- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
-<br/>  When stakeholders lose confidence, they impose excessive oversight and approval requirements on the development team, reducing autonomy.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
-<br/>  Unhappy stakeholders demand more oversight and control over development decisions, creating micromanagement.
-- [Stakeholder Frustration](stakeholder-frustration.md)
-<br/>  Frustrated stakeholders demand more control and oversight, creating a micromanagement dynamic.
-
 ## Detection Methods ○
 
 - **Decision Authority Audit:** Map what types of decisions require approval vs. those made independently

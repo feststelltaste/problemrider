@@ -39,15 +39,24 @@ Unrealistic schedules occur when project timelines are set based on wishful thin
 <br/>  Unrealistic schedules place constant pressure on teams to deliver faster than what is feasible.
 - [Missed Deadlines](missed-deadlines.md)
 <br/>  Schedules based on optimistic assumptions rather than reality inevitably lead to missed deadlines.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Teams working excessive hours to meet unrealistic schedules experience burnout and exhaustion.
 - [Quality Degradation](quality-degradation.md)
 <br/>  Schedule pressure forces teams to skip code reviews, testing, and proper design, degrading software quality.
-
+- [Quality Compromises](quality-compromises.md)
+<br/>  Unrealistic schedules force developers to take shortcuts that accumulate technical debt.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Rushing through development to meet unrealistic schedules leads to more bugs being introduced.
 ## Causes ▼
+
 - [Poor Planning](poor-planning.md)
 <br/>  Inadequate planning that fails to account for complexity, dependencies, and risks produces unrealistic schedules.
+- [Micromanagement Culture](micromanagement-culture.md)
+<br/>  Management disconnected from technical work underestimates effort required and creates optimistic schedules.
 - [Planning Dysfunction](planning-dysfunction.md)
 <br/>  Dysfunctional planning processes that ignore historical data and team input produce unrealistic schedules.
-
+- [Time Pressure](time-pressure.md)
+<br/>  Business stakeholders impose external deadlines that override realistic engineering estimates.
 ## Detection Methods ○
 
 - **Estimation Accuracy Analysis:** Compare actual completion times with original estimates

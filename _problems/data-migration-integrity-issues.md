@@ -48,8 +48,8 @@ Data migration integrity issues occur when transferring data from legacy systems
 <br/>  Severe data integrity issues discovered after migration may force emergency halts for re-migration, causing unplanned downtime.
 - [Increased Error Rates](increased-error-rates.md)
 <br/>  Migrated data with integrity issues triggers validation failures and application errors in the new system.
-
 ## Causes ▼
+
 - [Database Schema Design Problems](database-schema-design-problems.md)
 <br/>  Fundamental schema differences between legacy and modern systems create mapping challenges that risk data integrity during migration.
 - [Legacy Business Logic Extraction Difficulty](legacy-business-logic-extraction-difficulty.md)
@@ -60,11 +60,6 @@ Data migration integrity issues occur when transferring data from legacy systems
 <br/>  Missing or incomplete documentation about legacy data fields, formats, and their meanings leads to incorrect mapping and transformation during migration.
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Legacy systems using proprietary data formats, outdated encodings like EBCDIC, or custom serialization create conversion challenges that risk data integrity.
-- [Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md)
-<br/>  Synchronization failures between legacy and modern systems directly cause data to lose integrity and consistency during the transition period.
-- [Silent Data Corruption](silent-data-corruption.md)
-<br/>  Silently corrupted data propagates into migrated systems, carrying integrity problems into new platforms.
-
 ## Detection Methods ○
 
 - Implement comprehensive data validation and reconciliation testing before and after migration

@@ -46,17 +46,16 @@ Inefficient processes occur when the workflows, procedures, and organizational p
 <br/>  Developers become frustrated and demoralized when they spend more time on process overhead than actual development.
 - [Wasted Development Effort](wasted-development-effort.md)
 <br/>  Redundant processes and unnecessary handoffs waste valuable development time on non-value-adding activities.
-
 ## Causes ▼
+
 - [Process Design Flaws](process-design-flaws.md)
 <br/>  Poorly designed workflows with unnecessary steps and unclear handoffs are the root cause of process inefficiency.
 - [Approval Dependencies](approval-dependencies.md)
 <br/>  Requirements for multiple approvals create bottlenecks that slow down every decision and deployment.
 - [Micromanagement Culture](micromanagement-culture.md)
 <br/>  A culture of excessive oversight leads to unnecessary approval steps and check-ins that burden the development process.
-- [Tool Limitations](tool-limitations.md)
-<br/>  Tool limitations force manual steps and cumbersome workflows that make overall development processes inefficient.
-
+- [Automated Tooling Ineffectiveness](automated-tooling-ineffectiveness.md)
+<br/>  Manual processes that could be automated waste developer time on repetitive, low-value tasks.
 ## Detection Methods ○
 
 - **Time Tracking Analysis:** Measure how developers spend their time, identifying non-development activities

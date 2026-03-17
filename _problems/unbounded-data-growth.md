@@ -42,15 +42,14 @@ Unbounded data growth occurs when data structures, caches, logs, or databases co
 <br/>  Growing data volumes require more disk reads and writes, increasing I/O load beyond what the storage subsystem can efficiently handle.
 - [Cascade Failures](cascade-failures.md)
 <br/>  When storage or memory is exhausted due to unbounded growth, it can trigger cascading failures across dependent system components.
-
 ## Causes ▼
+
 - [Poor Caching Strategy](poor-caching-strategy.md)
 <br/>  Caches without eviction policies or size limits are a common source of unbounded data growth in applications.
 - [Excessive Logging](excessive-logging.md)
 <br/>  Applications that generate high volumes of logs without rotation or cleanup strategies contribute directly to unbounded data growth.
 - [Inadequate Configuration Management](inadequate-configuration-management.md)
 <br/>  Without proper configuration of data retention policies and cleanup schedules, data accumulates indefinitely.
-
 ## Detection Methods ○
 - **Storage Monitoring:** Track disk usage, database growth, and memory consumption over time
 - **Performance Trend Analysis:** Monitor query response times and application performance metrics

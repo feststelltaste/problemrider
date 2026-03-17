@@ -46,21 +46,14 @@ Inappropriate skillset occurs when team members are assigned tasks or roles that
 <br/>  Constantly struggling with tasks beyond their skill level leads to frustration and eventual burnout.
 - [Knowledge Dependency](knowledge-dependency.md)
 <br/>  Team members with skill gaps remain dependent on experienced colleagues for guidance and decision-making.
-
 ## Causes ▼
+
 - [Poor Planning](poor-planning.md)
 <br/>  Poor workforce planning assigns people to roles without assessing whether their skills match the requirements.
 - [Inadequate Mentoring Structure](inadequate-mentoring-structure.md)
 <br/>  Without structured mentoring, team members with skill gaps lack the support to develop required competencies.
 - [Rapid Team Growth](rapid-team-growth.md)
 <br/>  Rapid hiring may compromise skill-matching as teams prioritize filling positions over finding the right fit.
-- [Inconsistent Knowledge Acquisition](inconsistent-knowledge-acquisition.md)
-<br/>  Uneven learning paths leave team members with skill gaps that don't match their assigned responsibilities.
-- [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md)
-<br/>  Inconsistent onboarding leaves some new hires without the essential knowledge needed for their assigned roles.
-- [Skill Development Gaps](skill-development-gaps.md)
-<br/>  Failure to develop necessary skills means the team lacks the competencies required for their evolving work.
-
 ## Detection Methods ○
 
 - **Skill Assessment Reviews:** Regular evaluation of team member capabilities against role requirements

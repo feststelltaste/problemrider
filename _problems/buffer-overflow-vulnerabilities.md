@@ -33,13 +33,18 @@ Buffer overflow vulnerabilities occur when a program writes more data to a buffe
 
 ## Symptoms ▲
 
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Buffer overflows cause sporadic crashes and data corruption that manifest as hard-to-reproduce intermittent failures.
 - [Cascade Failures](cascade-failures.md)
 <br/>  A buffer overflow crash in a shared service can trigger failures across dependent components.
-
 ## Causes ▼
-- [Integer Overflow and Underflow](integer-overflow-underflow.md)
-<br/>  Integer overflow in size calculations can lead to undersized buffer allocations that are then overflowed.
 
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Without coding standards mandating bounds checking and safe string functions, unsafe buffer operations persist.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Lack of boundary condition testing and fuzz testing allows buffer overflow bugs to reach production.
+- [Review Process Breakdown](inadequate-code-reviews.md)
+<br/>  Code reviews that don't specifically check for memory safety issues allow buffer overflow vulnerabilities to pass through.
 ## Detection Methods ○
 
 - **Static Analysis Tools:** Use tools that can identify potential buffer overflow vulnerabilities in source code

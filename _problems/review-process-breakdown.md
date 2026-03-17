@@ -46,8 +46,8 @@ Review process breakdown occurs when code review practices systematically fail t
 <br/>  Reviews that don't examine code logic thoroughly miss regressions that break previously working functionality.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Without effective reviews to catch design shortcuts and poor patterns, technical debt accumulates faster in the codebase.
-
 ## Causes ▼
+
 - [Time Pressure](time-pressure.md)
 <br/>  Time pressure incentivizes fast approvals over thorough reviews, degrading review quality across the team.
 - [Reviewer Inexperience](reviewer-inexperience.md)
@@ -56,13 +56,6 @@ Review process breakdown occurs when code review practices systematically fail t
 <br/>  Oversized pull requests are impossible to review thoroughly, forcing reviewers into superficial examination.
 - [Reduced Review Participation](reduced-review-participation.md)
 <br/>  When few people participate in reviews, the remaining reviewers are overloaded and cannot provide quality feedback.
-- [Review Process Avoidance](review-process-avoidance.md)
-<br/>  Widespread avoidance undermines the review process systematically, causing it to fail at its quality assurance purpose.
-- [Reviewer Anxiety](reviewer-anxiety.md)
-<br/>  Anxiety leads to superficial reviews that focus on safe, surface-level issues, undermining the overall effectiveness of the review process.
-- [Rushed Approvals](rushed-approvals.md)
-<br/>  Widespread rushed approvals undermine the entire review process, making it ineffective as a quality gate.
-
 ## Detection Methods ○
 
 - **Review Quality Analysis:** Track whether issues found in production could have been caught in review

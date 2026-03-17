@@ -66,8 +66,8 @@ Difficult developer onboarding is a significant problem that can have a major im
 <br/>  Experienced developers become exhausted from constantly hand-holding new hires through a difficult onboarding process.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  The team's overall velocity drops each time a new member joins because of the extended unproductive onboarding period.
-
 ## Causes ▼
+
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  When the codebase is hard to understand, new developers cannot independently learn the system and need extensive hand-holding.
 - [Information Decay](information-decay.md)
@@ -78,43 +78,6 @@ Difficult developer onboarding is a significant problem that can have a major im
 <br/>  Lack of a structured onboarding program means new hires must figure things out on their own, extending ramp-up time.
 - [Inefficient Development Environment](inefficient-development-environment.md)
 <br/>  Complicated or poorly documented development environment setup wastes new developers' first weeks just trying to get running.
-- [Complex and Obscure Logic](complex-and-obscure-logic.md)
-<br/>  New developers take much longer to become productive in areas with complex and obscure logic.
-- [Complex Domain Model](complex-domain-model.md)
-<br/>  New team members require extensive time to learn the complex domain before they can contribute effectively.
-- [Difficult to Understand Code](difficult-to-understand-code.md)
-<br/>  Code that is hard to understand makes it take much longer for new developers to learn the system and become productive.
-- [High Technical Debt](high-technical-debt.md)
-<br/>  A codebase burdened with technical debt is harder for new developers to understand due to inconsistencies, workarounds, and complexity.
-- [Inconsistent Codebase](inconsistent-codebase.md)
-<br/>  New developers struggle to become productive because there are no consistent patterns to learn and apply across the codebase.
-- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
-<br/>  New team members take longer to become productive because they must learn multiple coding styles and conventions used throughout the codebase.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md)
-<br/>  New developers struggle to navigate and find code because they cannot predict the naming patterns used in different parts of the codebase.
-- [Increased Cognitive Load](increased-cognitive-load.md)
-<br/>  High cognitive load makes it especially difficult for new developers to become productive in the codebase.
-- [Information Fragmentation](information-fragmentation.md)
-<br/>  New team members struggle to find the information they need when it is scattered across multiple disconnected systems.
-- [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
-<br/>  New hires struggle to get up to speed when there are no effective mechanisms for transferring knowledge.
-- [Legacy System Documentation Archaeology](legacy-system-documentation-archaeology.md)
-<br/>  New team members struggle to become productive when system knowledge exists only in outdated or inaccessible formats.
-- [Obsolete Technologies](obsolete-technologies.md)
-<br/>  New developers face steep learning curves when systems use obsolete technologies with limited documentation and community support.
-- [Communication Breakdown](poor-communication.md)
-<br/>  Poor communication makes it harder for new team members to learn the system, as information isn't shared openly.
-- [Information Decay](poor-documentation.md)
-<br/>  New developers cannot ramp up independently when documentation is outdated or missing, requiring extensive hand-holding.
-- [Poor Naming Conventions](poor-naming-conventions.md)
-<br/>  New team members spend excessive time asking colleagues what poorly named variables and functions mean.
-- [Tacit Knowledge](tacit-knowledge.md)
-<br/>  New team members struggle to become productive when critical system knowledge exists only in experienced developers' heads.
-- [Unclear Documentation Ownership](unclear-documentation-ownership.md)
-<br/>  New developers struggle to get up to speed when documentation is outdated, scattered, or missing due to unclear ownership.
-- [Uncontrolled Codebase Growth](uncontrolled-codebase-growth.md)
-<br/>  New developers face a steep learning curve when the codebase has grown uncontrollably large and complex.
-
 ## Detection Methods ○
 
 - **Onboarding Time Tracking:** Monitor how long new team members take to become fully productive

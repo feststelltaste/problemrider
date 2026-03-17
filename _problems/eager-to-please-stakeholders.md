@@ -47,8 +47,8 @@ An eagerness to please stakeholders is a common problem in software development.
 <br/>  Uncritically accepting all feature requests causes the product to accumulate unnecessary features that dilute its core value.
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Continuously accepting new work without adjusting timelines causes projects to consistently deliver late.
-
 ## Causes ▼
+
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
 <br/>  Poor communication between stakeholders and the team means trade-offs are not properly explained, so the team defaults to agreement.
 - [Fear of Conflict](fear-of-conflict.md)
@@ -57,9 +57,6 @@ An eagerness to please stakeholders is a common problem in software development.
 <br/>  Without a formal process to evaluate change requests, there is no mechanism to say no or assess impact before accepting work.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Without clear project priorities, the team has no basis for declining requests that don't align with project goals.
-- [Stakeholder Frustration](stakeholder-frustration.md)
-<br/>  Teams respond to frustrated stakeholders by agreeing to everything without pushback, leading to overcommitment.
-
 ## Detection Methods ○
 - **Change Request Log:** Keep a log of all change requests and see how many of them are being approved.
 - **Team Retrospectives:** Discuss the team's relationship with the stakeholders in your retrospectives.

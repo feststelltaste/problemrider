@@ -43,9 +43,10 @@ A procedural background can be a major obstacle to writing good object-oriented 
 <br/>  Procedural habits lead to exposing data and separating it from behavior, violating encapsulation principles.
 - [Difficult Code Reuse](difficult-code-reuse.md)
 <br/>  Procedural code structures are harder to reuse across contexts compared to well-designed OOP components.
-
 ## Causes ▼
 
+- [Skill Development Gaps](skill-development-gaps.md)
+<br/>  Developers lack training in OOP principles, retaining their procedural programming habits.
 ## Detection Methods ○
 - **Code Reviews:** Code reviews are a great way to identify procedural-style code.
 - **Static Analysis:** Use static analysis tools to identify code that is not following object-oriented design principles.

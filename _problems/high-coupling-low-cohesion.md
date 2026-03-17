@@ -46,8 +46,8 @@ High coupling and low cohesion are two of the most common design problems in sof
 <br/>  Understanding any single component requires understanding many other components it is coupled to, overwhelming developers.
 - [Deployment Coupling](deployment-coupling.md)
 <br/>  Tightly coupled components must be deployed together because changes to one affect the others.
-
 ## Causes ▼
+
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
 <br/>  Without clear module responsibilities, functionality gets spread across multiple components creating unnecessary dependencies.
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
@@ -58,13 +58,6 @@ High coupling and low cohesion are two of the most common design problems in sof
 <br/>  Developers unfamiliar with design principles create tightly coupled code that mixes unrelated concerns within single modules.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Avoiding necessary refactoring allows coupling to accumulate as the system grows and evolves.
-- [Excessive Class Size](excessive-class-size.md)
-<br/>  Oversized classes typically mix unrelated responsibilities, resulting in low cohesion and high coupling to many other components.
-- [Insufficient Design Skills](insufficient-design-skills.md)
-<br/>  Developers without design skills create tightly coupled modules with poor separation of concerns.
-- [Over-Reliance on Utility Classes](over-reliance-on-utility-classes.md)
-<br/>  Utility classes create implicit dependencies across the codebase as many components depend on shared static methods, increasing coupling.
-
 ## Detection Methods ○
 
 - **Code Metrics Tools:** Use static analysis tools that measure coupling (e.g., afferent/efferent coupling, CBO - Coupling Between Objects) and cohesion (e.g., LCOM - Lack of Cohesion in Methods).

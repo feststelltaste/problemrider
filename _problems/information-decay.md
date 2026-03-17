@@ -45,19 +45,16 @@ Information decay occurs when documentation, specifications, and knowledge artif
 <br/>  Developers working from outdated or inaccurate documentation are more likely to make incorrect assumptions and introduce bugs.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Developers waste time discovering how the system actually works because documentation no longer reflects reality.
-
 ## Causes ▼
-- [Poor Documentation](poor-documentation.md)
+
+- [Information Decay](poor-documentation.md)
 <br/>  Systems with initially poor documentation practices are more susceptible to rapid information decay.
 - [Unclear Documentation Ownership](unclear-documentation-ownership.md)
 <br/>  When no one is responsible for maintaining documentation, it naturally becomes outdated as the system evolves.
 - [Time Pressure](time-pressure.md)
 <br/>  Under delivery pressure, documentation updates are deprioritized in favor of feature development, accelerating decay.
-- [Information Fragmentation](information-fragmentation.md)
-<br/>  Fragmented information is harder to maintain and update, accelerating its decay into inaccuracy.
-- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
-<br/>  Documentation decays when no one is responsible for keeping it current and accurate.
-
+- [High Turnover](high-turnover.md)
+<br/>  When knowledgeable team members leave, institutional knowledge about documentation accuracy and gaps is lost.
 ## Detection Methods ○
 
 - **Documentation Freshness Audit:** Track when documentation was last updated relative to system changes
