@@ -33,34 +33,27 @@ Poorly defined responsibilities occur when software components lack clear, singl
 - New features are difficult to implement because it's unclear where they belong
 
 ## Symptoms ▲
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.487, Strength: 0.694">ⓘ</span>
-<br/>  When modules lack clear responsibilities, it leads to a tangled architecture that exacerbates the inherent complexity of the business domain, making it harder to implement and understand the system correctly.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.449, Strength: 0.659">ⓘ</span>
-<br/>  When modules lack clear responsibilities, it becomes difficult to isolate and test specific functionalities, resulting in critical areas of the codebase being untested and creating blind spots in quality assurance.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.449, Strength: 0.671">ⓘ</span>
-<br/>  Poorly defined responsibilities within modules lead to interdependencies that make it difficult to implement changes, causing constant updates to requirements as stakeholders attempt to address the resulting confusion and misalignment during development.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.660">ⓘ</span>
-<br/>  When modules lack clear responsibilities, users encounter difficulties navigating the system, leading to confusion and increased reliance on customer support for assistance.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.414, Strength: 0.654">ⓘ</span>
-<br/>  When modules or classes lack clear responsibilities, it often leads to confusion in resource management, causing allocated resources to remain unreleased due to overlapping functionalities and insufficient oversight in cleanup processes.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.404, Strength: 0.726">ⓘ</span>
-<br/>  When modules or classes lack a clear responsibility, they become entangled and inefficient, leading to architectural constraints that hinder performance and scalability, thereby indicating deeper systemic issues within the legacy system.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.399, Strength: 0.661">ⓘ</span>
-<br/>  When modules or classes lack clear responsibilities, it leads to overlapping code areas that multiple developers need to touch, resulting in frequent merge conflicts as they attempt to integrate changes in the same large functions or files.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.757">ⓘ</span>
-<br/>  Conflicting priorities from multiple stakeholders lead to unclear product goals, which exacerbate the confusion in module responsibilities and tight coupling, ultimately manifesting as chaos in product direction.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.656">ⓘ</span>
-<br/>  The confusion and tight coupling resulting from unclear module responsibilities complicate the understanding and maintenance of legacy systems, exacerbating the shortage of knowledgeable developers and creating bottlenecks due to their inability to effectively navigate and modify interdependent components.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.380, Strength: 0.661">ⓘ</span>
-<br/>  Confusion and tight coupling from unclear responsibilities in modules lead to increased complexity and time spent on debugging and collaboration, ultimately decreasing the output and effectiveness of the development team.
-- [Project Authority Vacuum](project-authority-vacuum.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.634">ⓘ</span>
-<br/>  The lack of clear responsibilities within modules leads to disorganization and confusion, which diminishes accountability and support for critical projects, resulting in insufficient backing and resources as stakeholders are unclear on ownership and priorities.
-- [Assumption-Based Development](assumption-based-development.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.666">ⓘ</span>
-<br/>  When responsibilities are unclear, developers rely on assumptions about user needs and requirements, leading to decisions that may not align with actual system behavior, thereby indicating a deeper issue of poor design clarity.
 
-## Root Causes ▼
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.812">ⓘ</span>
-<br/>  The tendency to provide large time estimates for small changes reveals the complexity and interdependencies within the codebase, which stem from modules lacking clear responsibilities, thereby making even minor modifications risky and time-consuming.
+- [Code Duplication](code-duplication.md)
+<br/>  Unclear responsibility boundaries lead to similar functionality being implemented in multiple places.
+- [God Object Anti-Pattern](god-object-anti-pattern.md)
+<br/>  Components without clear single responsibilities accumulate unrelated functionality, becoming god objects.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  Overlapping responsibilities create tight coupling between components while reducing internal cohesion.
+- [Difficult to Test Code](difficult-to-test-code.md)
+<br/>  Components handling multiple unrelated concerns are difficult to test in isolation due to complex dependencies.
+- [Ripple Effect of Changes](ripple-effect-of-changes.md)
+<br/>  Modifications to multi-responsibility components have unexpected effects on seemingly unrelated functionality.
+
+## Causes ▼
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Developers lacking design skills fail to identify and enforce clear single-responsibility boundaries.
+- [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
+<br/>  New features are continually added to existing components without refactoring to maintain clear responsibilities.
+- [Implementation Starts Without Design](implementation-starts-without-design.md)
+<br/>  Starting coding without upfront design leads to ad-hoc responsibility assignments that blur over time.
+- [Convenience-Driven Development](convenience-driven-development.md)
+<br/>  Developers add functionality to the nearest available component for convenience rather than creating properly scoped modules.
 
 ## Detection Methods ○
 - **Responsibility Mapping:** Document what each component does and identify those with multiple unrelated responsibilities

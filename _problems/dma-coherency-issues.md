@@ -25,18 +25,25 @@ DMA coherency issues occur when Direct Memory Access devices and the CPU have di
 - Problems appear more frequently under high system load or specific timing conditions
 
 ## Symptoms ▲
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.434, Strength: 0.710">ⓘ</span>
-<br/>  Frequent merge conflicts arise from developers needing to repeatedly adjust code affected by data inconsistencies caused by direct memory access operations, indicating underlying issues with how the system manages CPU cache coherency.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.712">ⓘ</span>
-<br/>  The reliance on fetching data from the source on every request instead of utilizing cached data indicates a failure to maintain coherent views between the CPU and DMA devices, as the system avoids cache usage to prevent potential data corruption caused by inconsistent states.
-- [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.332, Strength: 0.837">ⓘ</span>
-<br/>  Conflicts between Direct Memory Access operations and CPU cache coherency can lead to data inconsistencies, which manifest as integrity issues during migration from legacy systems, as the corrupted data fails to align with expected schemas and formats.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.740">ⓘ</span>
-<br/>  Frequent hardware interrupts occur as a result of the system's attempts to resolve data inconsistencies caused by Direct Memory Access operations, leading to excessive context switching and degraded application performance in legacy systems.
 
-## Root Causes ▼
+- [Silent Data Corruption](silent-data-corruption.md)
+<br/>  When DMA and CPU cache views diverge, data can be silently corrupted without triggering errors, as the system processes stale or inconsistent memory contents.
+- [Race Conditions](race-conditions.md)
+<br/>  DMA coherency problems manifest as race conditions between the CPU cache and DMA device accessing the same memory regions concurrently.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  DMA coherency issues are timing-dependent and may not reproduce consistently, making them extremely difficult to diagnose and debug.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  Workarounds like excessive cache flushing or invalidation to address coherency issues progressively degrade system performance.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Inconsistent memory views between CPU and DMA devices lead to sporadic errors in I/O operations, network processing, and data transfers.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [False Sharing](false-sharing.md)
+<br/>  When DMA buffers share cache lines with CPU-accessed data, false sharing creates coherency conflicts between CPU cache and DMA operations.
+- [Poor Caching Strategy](poor-caching-strategy.md)
+<br/>  Failure to properly manage cache coherency for DMA-accessible memory regions, such as not using uncacheable mappings or proper flush/invalidate operations, leads to coherency issues.
+- [Alignment and Padding Issues](alignment-and-padding-issues.md)
+<br/>  Poor memory alignment of DMA buffers can cause them to share cache lines with non-DMA data, creating coherency conflicts.
 
 ## Detection Methods ○
 

@@ -38,26 +38,41 @@ Scope creep is the insidious expansion of a project's goals and deliverables bey
 - There is a lot of rework
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.603">ⓘ</span>
-<br/>  Constant updates to project requirements during development indicate a lack of proper control and impact analysis, revealing an underlying issue of unaddressed scope expansion that disrupts timelines and budgets.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.590">ⓘ</span>
-<br/>  The continuous expansion of project requirements leads to an increasingly intricate domain model, where additional features and changes create a convoluted system structure that complicates understanding and implementation, thus serving as a clear indicator of uncontrolled scope growth.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.641">ⓘ</span>
-<br/>  Frequent modifications by multiple developers on the same components arise from unclear and continually changing project requirements, leading to merge conflicts that indicate a lack of proper control over project scope.
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.653">ⓘ</span>
-<br/>  The continuous expansion of project requirements often leads to the implementation of data structures that are not adequately sized or managed, resulting in unbounded growth that causes memory exhaustion and performance issues as the system struggles to accommodate the ever-increasing data demands.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.614">ⓘ</span>
-<br/>  Continuous expansion of project requirements often leads to rushed development and inadequate resource management, resulting in system components and resources being allocated without proper deallocation, which serves as an indicator of underlying mismanagement and lack of control over project scope.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.609">ⓘ</span>
-<br/>  The continuous expansion of project requirements without adequate control often leads to legacy systems being unable to adapt to new regulatory standards, resulting in compliance gaps that highlight the underlying issues of uncontrolled scope changes.
 
-## Root Causes ▼
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.959">ⓘ</span>
-<br/>  The continuous increase in project costs due to unplanned additional work leads to inadequate funding and pressure to expedite deliverables, causing teams to accept more requirements without proper assessment, thereby exacerbating the initial scope issues.
-- [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.851">ⓘ</span>
-<br/>  A culture that prioritizes flawless outcomes can cause teams to excessively revisit and expand requirements in pursuit of perfection, leading to uncontrolled changes that undermine project timelines and objectives.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.878">ⓘ</span>
-<br/>  The continuous expansion of project requirements arises from the difficulty in managing tightly coupled cross-cutting concerns within legacy systems, leading to unplanned modifications and integrations that disrupt timelines and budgets.
+- [Delayed Project Timelines](delayed-project-timelines.md)
+<br/>  Continuously expanding requirements push project delivery dates further out as more work is added without timeline adjustments.
+- [Budget Overruns](budget-overruns.md)
+<br/>  Uncontrolled scope expansion consumes more resources than originally planned, causing the project to exceed its budget.
+- [Feature Bloat](feature-bloat.md)
+<br/>  The continuous addition of unplanned features results in an overly complex product that dilutes the core value proposition.
+- [Increased Stress and Burnout](increased-stress-and-burnout.md)
+<br/>  Teams face mounting pressure as expanding scope must be delivered within original timelines and resources, leading to overwork.
+- [Quality Compromises](quality-compromises.md)
+<br/>  As scope expands without additional time or resources, quality standards are lowered to accommodate the growing feature set.
+- [Incomplete Projects](incomplete-projects.md)
+<br/>  Projects overwhelmed by scope expansion may be abandoned or left incomplete as they become unmanageable.
+
+## Causes ▼
+- [No Formal Change Control Process](no-formal-change-control-process.md)
+<br/>  Without a formal process to evaluate and approve changes, new requests are added informally without impact analysis.
+- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
+<br/>  Teams agree to every stakeholder request without pushing back or explaining trade-offs, allowing requirements to expand unchecked.
+- [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
+<br/>  Poor initial requirements definition leads to continuous discovery of missing requirements during development, driving scope expansion.
+- [Poor Project Control](poor-project-control.md)
+<br/>  Weak project monitoring fails to detect gradual scope expansion until it has already significantly impacted timelines and budgets.
+- [Feature Creep](feature-creep.md)
+<br/>  Feature creep at the component level contributes to overall project scope expanding beyond original plans.
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
+<br/>  Frequent requirement changes often expand the overall project scope beyond original plans.
+- [Gold Plating](gold-plating.md)
+<br/>  Adding unrequested features expands project scope beyond original boundaries without proper change control.
+- [Feedback Isolation](no-continuous-feedback-loop.md)
+<br/>  Without ongoing feedback to validate direction, requirements accumulate unchecked as stakeholders add requests at the end.
+- [Poor Planning](poor-planning.md)
+<br/>  Poor upfront planning leaves requirements vague, allowing scope to expand uncontrollably during development.
+- [Requirements Ambiguity](requirements-ambiguity.md)
+<br/>  Ambiguous requirements leave room for expanding interpretation of what needs to be built, allowing scope to grow unchecked.
 
 ## Detection Methods ○
 

@@ -35,40 +35,29 @@ Difficulty quantifying benefits occurs when the value of technical improvements,
 - Management asks for quantified benefits that the team cannot provide
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.503, Strength: 0.731">ⓘ</span>
-<br/>  The lack of measurable ROI for technical improvements leads to underinvestment in refactoring, resulting in poor test coverage as critical areas of the codebase remain unaddressed and untested, ultimately increasing the risk of defects and system instability.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.736">ⓘ</span>
-<br/>  The inability to quantify the benefits of technical improvements leads to neglect in addressing underlying issues, such as unreliable tests, which further complicate the assessment of quality and maintainability in legacy systems.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.412, Strength: 0.639">ⓘ</span>
-<br/>  The inability to effectively quantify the benefits of technical improvements leads stakeholders to prioritize new features over necessary refactoring, resulting in a reactive development environment where changing requirements emerge as teams scramble to justify their decisions and adapt to perceived immediate needs.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.400, Strength: 0.724">ⓘ</span>
-<br/>  The inability to measure the ROI of technical improvements leads to unclear prioritization, resulting in conflicting stakeholder demands and confusion among teams, which ultimately detracts from effective product development in legacy systems.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.671">ⓘ</span>
-<br/>  The inability to effectively quantify the benefits of technical improvements leads to a lack of prioritization for necessary refactoring, resulting in accumulated inefficiencies that directly decrease the development team's overall productivity.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.620">ⓘ</span>
-<br/>  The inability to effectively quantify the benefits of technical improvements leads to underinvestment in legacy system maintenance, resulting in a critical shortage of skilled developers who can manage and support these outdated technologies, thereby creating bottlenecks and increasing the risk of system failures.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.702">ⓘ</span>
-<br/>  The lack of clear metrics to demonstrate the value of technical improvements leads to disengagement in the review process, as team members prioritize their efforts on features perceived to deliver immediate ROI, resulting in a bottleneck and diminished code quality.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.740">ⓘ</span>
-<br/>  The inability to effectively measure the ROI of refactoring leads to a deprioritization of technical improvements, resulting in insufficient time for refining features and ultimately compromising their quality and user experience.
-- [Test Debt](test-debt.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.777">ⓘ</span>
-<br/>  The inability to demonstrate the value of refactoring leads to a neglect of quality assurance practices, resulting in test debt that highlights the fragility of the product and further complicates the prioritization of necessary technical improvements.
 
-## Root Causes ▼
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.361, Strength: 0.803">ⓘ</span>
-<br/>  The tendency to provide large time estimates for minor changes highlights the underlying code complexity and risk, making it challenging to accurately assess the benefits of refactoring efforts compared to new features, ultimately skewing prioritization decisions against technical improvements.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.361, Strength: 0.891">ⓘ</span>
-<br/>  The tightly coupled nature of cross-cutting concerns with business logic obscures the individual impact of technical improvements, making it difficult to isolate their benefits and thus complicating the measurement of ROI for refactoring efforts.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.926">ⓘ</span>
-<br/>  The inability to effectively implement object-oriented principles due to a procedural programming background leads to suboptimal code structures that complicate the assessment of technical improvements, making it challenging to quantify their benefits against new features in legacy systems.
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.895">ⓘ</span>
-<br/>  Insufficient production monitoring and observability limit the ability to assess the impact of technical improvements on system performance, making it challenging to quantify their benefits and justify prioritization over new features.
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.913">ⓘ</span>
-<br/>  Budget overruns create pressure to prioritize immediate deliverables over technical improvements, making it challenging to justify the long-term benefits of refactoring efforts when funding is constrained.
-- [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.817">ⓘ</span>
-<br/>  As software systems become increasingly fragile, the unpredictable consequences of making changes obscure the tangible benefits of refactoring, making it difficult to justify the investment compared to the more immediate and measurable returns of new features.
-- [Data Migration Complexities](data-migration-complexities.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.830">ⓘ</span>
-<br/>  The challenges of complex data migration processes often lead to uncertainty about system stability and performance, making it difficult to quantify the positive impacts of refactoring efforts relative to new features, which in turn skews prioritization away from necessary technical improvements.
+- [Refactoring Avoidance](refactoring-avoidance.md)
+<br/>  When technical improvements cannot be justified with measurable benefits, they are consistently deprioritized in favor of feature work.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Inability to justify technical improvements leads to systematic under-investment, causing technical debt to accumulate.
+- [Maintenance Paralysis](maintenance-paralysis.md)
+<br/>  Teams cannot get approval for necessary maintenance work because they cannot quantify its value, leading to system deterioration.
+- [System Stagnation](system-stagnation.md)
+<br/>  Without the ability to justify modernization efforts, systems remain on outdated technologies and patterns.
+- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
+<br/>  The inability to quantify benefits directly causes failures in justifying modernization investments.
+
+## Causes ▼
+- [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
+<br/>  Technical debt is invisible to non-technical stakeholders, making its costs and the benefits of addressing it hard to measure.
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Organizational emphasis on short-term measurable outcomes makes it structurally difficult to justify long-term technical investments.
+- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
+<br/>  The gap between technical and business language makes it difficult to translate technical benefits into business terms that stakeholders understand.
+- [Feature Factory](feature-factory.md)
+<br/>  Organizations focused on feature output measure success by features shipped, making non-feature work impossible to justify.
+- [Increased Cost of Development](increased-cost-of-development.md)
+<br/>  As costs rise from technical debt, it becomes harder to justify the ROI of improvement efforts versus feature work.
 
 ## Detection Methods ○
 

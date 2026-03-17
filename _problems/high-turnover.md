@@ -34,50 +34,53 @@ High turnover occurs when developers frequently leave the team, often shortly af
 - Projects are delayed because new team members need extensive training
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.547, Strength: 0.770">ⓘ</span>
-<br/>  The high turnover of developers, driven by poor onboarding and system complexity, results in a legacy skill shortage as fewer knowledgeable individuals remain to maintain and support outdated technologies, creating significant operational risks.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.533, Strength: 0.740">ⓘ</span>
-<br/>  The inherent complexity of the domain model leads to a steep learning curve for new developers, resulting in frustration and confusion during onboarding, which ultimately contributes to their decision to leave the team.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.516, Strength: 0.790">ⓘ</span>
-<br/>  High turnover leads to reduced team productivity as new developers struggle to navigate the complex legacy systems without adequate onboarding, resulting in knowledge gaps and increased time spent on resolving issues rather than delivering features.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.505, Strength: 0.744">ⓘ</span>
-<br/>  High turnover leads to a loss of institutional knowledge and continuity, resulting in increased difficulty for remaining developers to understand and adapt legacy systems to meet evolving regulatory requirements, thereby creating compliance gaps that indicate the challenges faced by the team.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.485, Strength: 0.758">ⓘ</span>
-<br/>  High turnover leads to flaky tests as new developers, unfamiliar with the complex legacy system, struggle to implement reliable test cases, resulting in inconsistent test outcomes that further erode confidence and increase frustration.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.477, Strength: 0.684">ⓘ</span>
-<br/>  Frequent changes to requirements arise as frustrated new developers, unfamiliar with complex legacy systems, struggle to grasp the existing functionality and inadvertently prompt shifts in project scope, highlighting the underlying issue of high turnover.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.470, Strength: 0.680">ⓘ</span>
-<br/>  High turnover is driven by new developers experiencing frustration and burnout from inadequate onboarding and the complexity of the legacy system, which creates a demotivating environment that signals underlying issues with team integration and codebase manageability.
-- [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.464, Strength: 0.806">ⓘ</span>
-<br/>  High turnover leads to a lack of experienced developers who can effectively address and resolve complex data migration challenges, resulting in increased instances of integrity issues due to insufficient understanding of legacy system nuances and data schemas.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.425, Strength: 0.655">ⓘ</span>
-<br/>  High turnover leads to inexperienced developers who struggle to understand complex legacy systems, resulting in increased user frustration and a higher volume of support requests as customers encounter unresolved issues.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.412, Strength: 0.658">ⓘ</span>
-<br/>  The slow and cumbersome development environment frustrates new developers during onboarding, leading to decreased productivity and heightened dissatisfaction, which ultimately contributes to their decision to leave the team.
-- [Unmotivated Employees](unmotivated-employees.md) <span class="info-tooltip" title="Confidence: 0.406, Strength: 0.675">ⓘ</span>
-<br/>  High turnover leads to unmotivated employees as the constant influx of new developers, faced with a steep learning curve and inadequate onboarding, creates a demoralizing environment that discourages engagement and collaboration among remaining team members.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.610">ⓘ</span>
-<br/>  High turnover leads to incomplete knowledge transfer and insufficient understanding of the legacy system, resulting in developers neglecting to properly manage and deallocate system resources, which manifests as unreleased resources.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.757">ⓘ</span>
-<br/>  High turnover leads to insufficiently trained developers who struggle with complex legacy systems, resulting in inefficient handling of hardware resources and increased interrupt overhead as they attempt to manage and troubleshoot performance issues without adequate experience.
-- [Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.721">ⓘ</span>
-<br/>  High turnover results in a lack of experienced developers who can effectively navigate and resolve the complexities of cross-system data synchronization, leading to increased errors and frustrations that further exacerbate onboarding challenges for newcomers.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.725">ⓘ</span>
-<br/>  High turnover leads to a lack of experienced developers who can drive innovation, resulting in teams becoming risk-averse and focusing solely on maintaining outdated systems, thus stifling creativity and progress.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.332, Strength: 0.653">ⓘ</span>
-<br/>  Frustrated new developers struggle to manage an increasingly complex system, leading to decision-making shortcuts that neglect necessary data management practices, resulting in unbounded growth of data structures and caches as they lack the experience and support to implement effective pruning and archiving strategies.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.716">ⓘ</span>
-<br/>  The difficulty in maintaining and understanding a large, complex codebase leads to frustration among new developers during onboarding, ultimately contributing to high turnover as they struggle to navigate the system’s intricacies.
-- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.786">ⓘ</span>
-<br/>  The frustration new developers experience during onboarding is exacerbated by the complex and poorly versioned APIs of legacy systems, making it difficult for them to understand and contribute to the codebase, ultimately leading to higher turnover rates.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.707">ⓘ</span>
-<br/>  The intense pressure to meet deadlines, stemming from a lack of adequate onboarding and the complexities of the legacy system, forces remaining developers to make hasty decisions and take shortcuts, which ultimately perpetuates high turnover as new hires become disillusioned with the work environment.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.690">ⓘ</span>
-<br/>  High turnover leads to a lack of experienced team members who can effectively engage in the review process, resulting in an over-reliance on a few individuals for feedback and diminishing code quality as newer developers struggle to navigate the complexities of the legacy system without proper guidance.
 
-## Root Causes ▼
+- [Knowledge Silos](knowledge-silos.md)
+<br/>  Frequent departures concentrate remaining knowledge in fewer people, creating dangerous single points of expertise.
+- [Implicit Knowledge](implicit-knowledge.md)
+<br/>  When experienced developers leave without knowledge transfer, critical system understanding becomes lost or remains only with remaining individuals.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  Constant onboarding of new team members and loss of experienced developers reduces the team's overall productivity.
+- [Mentor Burnout](mentor-burnout.md)
+<br/>  Remaining senior developers become exhausted from continuously training new hires who may also leave soon.
+- [High Bug Introduction Rate](high-bug-introduction-rate.md)
+<br/>  New developers unfamiliar with the system are more likely to introduce bugs due to lack of domain knowledge and system understanding.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Difficult Developer Onboarding](difficult-developer-onboarding.md)
+<br/>  Poor onboarding experiences frustrate new hires and make them feel unsupported, contributing to early departures.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Working with debt-laden, complex code is demoralizing for developers who want to write quality software.
+- [CV Driven Development](cv-driven-development.md)
+<br/>  Developers who chose technologies for their resumes leave once they have gained enough experience to list them, taking critical knowledge with them.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Frustrated and burned-out developers leave the organization, leading to elevated attrition rates.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  Developers become frustrated working primarily on maintenance of aging systems rather than building new things, leading them to leave.
+- [Implicit Knowledge](implicit-knowledge.md)
+<br/>  New developers become frustrated when they cannot access the knowledge needed to be effective, contributing to early departures.
+- [Inability to Innovate](inability-to-innovate.md)
+<br/>  Developers who cannot grow professionally or work with modern technologies become frustrated and leave for better opportunities.
+- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md)
+<br/>  Poorly mentored developers become frustrated with lack of support and leave the organization.
+- [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md)
+<br/>  Poorly onboarded developers may become discouraged and leave the team due to inadequate initial support.
+- [Mentor Burnout](mentor-burnout.md)
+<br/>  Burned-out mentors eventually leave the organization, taking critical institutional knowledge with them.
+- [Micromanagement Culture](micromanagement-culture.md)
+<br/>  Talented developers leave organizations where they lack autonomy and decision-making authority.
+- [Modernization Strategy Paralysis](modernization-strategy-paralysis.md)
+<br/>  Developers frustrated by endless analysis and inability to work with modern technologies leave for organizations with clearer technical direction.
+- [New Hire Frustration](new-hire-frustration.md)
+<br/>  Frustrated new hires who cannot contribute effectively often leave within their first year, increasing turnover rates.
+- [Overworked Teams](overworked-teams.md)
+<br/>  Overworked team members leave for more sustainable work environments, causing increased turnover rates.
+- [Team Dysfunction](poor-teamwork.md)
+<br/>  Dysfunctional team dynamics and interpersonal conflicts drive skilled developers to leave the organization.
+- [Team Demoralization](team-demoralization.md)
+<br/>  Demoralized team members actively seek employment elsewhere, leading to increased departures.
+- [Team Dysfunction](team-dysfunction.md)
+<br/>  Team members leave the organization to escape the dysfunctional environment.
 
 ## Detection Methods ○
 - **Turnover Rate Tracking:** Monitor how long new hires stay and identify patterns in departures

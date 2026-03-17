@@ -30,18 +30,19 @@ Network latency is the time it takes for data to travel from one point to anothe
 - You are getting complaints from users about slow performance.
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.550, Strength: 0.754">ⓘ</span>
-<br/>  In legacy systems, increased delays in data transmission lead to prolonged response times that exceed the configured timeout thresholds of API-consuming services, resulting in failures to receive timely responses and indicating underlying network latency issues.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.350, Strength: 0.605">ⓘ</span>
-<br/>  The slow and cumbersome development environment indicates network latency, as delays in data transmission hinder developers' ability to efficiently access resources and tools, ultimately reducing productivity and increasing response times.
 
-## Root Causes ▼
-- [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.886">ⓘ</span>
-<br/>  Long-running transactions occupy database resources and locks, thereby delaying the completion of data requests and causing increased wait times that contribute to overall network latency.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.898">ⓘ</span>
-<br/>  Poorly designed code resulting from a lack of understanding of object-oriented programming principles can lead to inefficient data handling and excessive processing overhead, which exacerbates delays in data transmission and ultimately increases network latency.
-- [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.931">ⓘ</span>
-<br/>  Delays in data transmission are exacerbated when an API relies on external services that respond slowly, creating a cascading effect that increases overall network latency and degrades application performance.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Network delays add directly to request processing time, degrading overall application responsiveness.
+- [Service Timeouts](service-timeouts.md)
+<br/>  High network latency causes inter-service communication to exceed timeout thresholds, triggering timeout errors.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Users experience sluggish interactions due to network delays and complain about poor performance.
+- [High API Latency](high-api-latency.md)
+<br/>  Network transmission delays directly increase API response times measured at the client.
+
+## Causes ▼
+- [External Service Delays](external-service-delays.md)
+<br/>  Dependence on external services with poor network connectivity introduces latency that the application cannot control.
 
 ## Detection Methods ○
 

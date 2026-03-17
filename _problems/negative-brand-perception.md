@@ -34,14 +34,27 @@ Negative brand perception occurs when technical problems and poor software quali
 - Competitive comparisons highlight reliability as a differentiator against the organization
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.476, Strength: 0.746">ⓘ</span>
-<br/>  The association of the brand with poor quality stems from the inability to effectively maintain and update legacy systems, which is exacerbated by a lack of skilled developers familiar with these technologies, leading to increased technical issues and further tarnishing the brand's reputation.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.474, Strength: 0.735">ⓘ</span>
-<br/>  Frequent technical issues in legacy systems lead to user frustration and task completion difficulties, prompting an increase in support inquiries that reflect a broader perception of the brand's unreliability and poor quality.
 
-## Root Causes ▼
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Users switch to competitors perceived as more reliable, eroding market position.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Persistent negative brand perception manifests as ongoing customer dissatisfaction even after technical issues are resolved.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Accumulated negative feedback on public platforms amplifies and reinforces poor brand perception.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Consistently slow performance makes users perceive the product as low quality, damaging the brand.
+- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
+<br/>  Frustrating user interfaces cause users to associate the brand with poor quality regardless of backend capabilities.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Users and the market associate the brand with outdated technology and inferior user experience.
+- [Cross-Site Scripting Vulnerabilities](cross-site-scripting-vulnerabilities.md)
+<br/>  Public disclosure of XSS vulnerabilities damages the organization's reputation for security and reliability.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Persistent customer dissatisfaction leads users to associate the brand with poor quality, damaging reputation.
+- [Declining Business Metrics](declining-business-metrics.md)
+<br/>  Sustained decline in business metrics reflects poorly on the brand, as users associate the product with poor quality.
 
 ## Detection Methods ○
 - **Brand Sentiment Analysis:** Monitor social media, reviews, and customer feedback for brand perception trends

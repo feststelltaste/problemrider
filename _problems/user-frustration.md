@@ -35,34 +35,45 @@ User frustration occurs when software systems consistently fail to meet user exp
 - User satisfaction surveys show declining scores
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.596, Strength: 0.817">ⓘ</span>
-<br/>  Frequent updates to project requirements often arise from user dissatisfaction with the existing system, prompting stakeholders to seek changes in an attempt to address usability and performance issues, which in turn creates a cycle of rework and further frustration.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.550, Strength: 0.803">ⓘ</span>
-<br/>  A critical shortage of developers with expertise in outdated technologies leads to inefficient system maintenance and slow response to user issues, exacerbating dissatisfaction with system reliability and performance.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.548, Strength: 0.794">ⓘ</span>
-<br/>  Frequent user contacts to support services arise as they seek assistance to overcome challenges stemming from system unreliability, poor usability, or subpar performance, making this increased demand a direct indicator of underlying user dissatisfaction.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.544, Strength: 0.743">ⓘ</span>
-<br/>  In legacy systems, unreliable or slow responses from the API lead to frequent timeouts for services, directly contributing to user frustration over system performance and reliability, as these failures hinder their ability to complete tasks effectively.
-- [Negative User Feedback](negative-user-feedback.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.897">ⓘ</span>
-<br/>  Negative user feedback arises from the frustrations caused by slow performance and usability issues in legacy systems, serving as a direct indicator of underlying reliability problems that hinder user satisfaction and trust in the application.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.484, Strength: 0.702">ⓘ</span>
-<br/>  Persistent user dissatisfaction with system performance and reliability leads to increased pressure on developers to address issues quickly, resulting in frustration and burnout as they struggle to manage the technical debt and complexity of the legacy codebase.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.448, Strength: 0.881">ⓘ</span>
-<br/>  Misalignment between stakeholder expectations and developer outputs often leads to features that do not meet user needs, resulting in dissatisfaction and frustration with the system's reliability and usability.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.829">ⓘ</span>
-<br/>  User dissatisfaction with system reliability and performance leads teams to overanalyze solutions in an attempt to avoid further failures, resulting in prolonged indecision and stagnation in development efforts.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.888">ⓘ</span>
-<br/>  Decreased user satisfaction with system reliability and performance leads to a higher volume of support requests and bug reports, which in turn diverts the development team's focus and resources away from productive work, thereby diminishing their overall output and effectiveness.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.375, Strength: 0.648">ⓘ</span>
-<br/>  Inefficient resource management leads to system slowdowns and crashes, directly impacting user experience and satisfaction, thus serving as a clear indicator of underlying user frustration.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.837">ⓘ</span>
-<br/>  The decline in user satisfaction is often driven by the inadequate allocation of resources to refine features, leading to a noticeable drop in quality that directly frustrates users and perpetuates negative perceptions of system reliability and performance.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.842">ⓘ</span>
-<br/>  When users experience issues with system reliability and usability, their negative feedback and lower adoption rates directly impact project outcomes and stakeholder perceptions, leading to dissatisfaction among business stakeholders regarding development progress and communication.
 
-## Root Causes ▼
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  Persistent frustration with system issues erodes users' confidence in the system's reliability over time.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Frustrated users voice their dissatisfaction through reviews, complaints, and support tickets.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  User frustration translates directly into overall customer dissatisfaction and potential churn.
+- [Stakeholder Frustration](stakeholder-frustration.md)
+<br/>  When users are frustrated, stakeholders who depend on user adoption become frustrated with the product team.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
+<br/>  Poorly designed interfaces that are difficult to navigate or understand directly frustrate users.
+- [Inconsistent Behavior](inconsistent-behavior.md)
+<br/>  Unpredictable system behavior frustrates users who cannot rely on consistent functionality.
+- [User Confusion](user-confusion.md)
+<br/>  Users who are confused by the system become frustrated when they cannot accomplish their goals.
+- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
+<br/>  Users experience long wait times for operations that should be fast, leading to frustration with the application.
+- [Deadlock Conditions](deadlock-conditions.md)
+<br/>  Application freezes caused by deadlocks create an unpredictable and unreliable user experience.
+- [Delayed Bug Fixes](delayed-bug-fixes.md)
+<br/>  Users experiencing the same known bugs over extended periods become increasingly frustrated with the application.
+- [Delayed Issue Resolution](delayed-issue-resolution.md)
+<br/>  Users experiencing the same unresolved problems repeatedly lose confidence in the system and become dissatisfied.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  Users become increasingly frustrated as tasks that once were fast now take noticeably longer to complete.
+- [High API Latency](high-api-latency.md)
+<br/>  Consistently slow API responses lead to poor user experience and growing dissatisfaction.
+- [High Client-Side Resource Consumption](high-client-side-resource-consumption.md)
+<br/>  Users become dissatisfied when the application makes their device slow, hot, or drains battery quickly.
+- [Inadequate Onboarding](inadequate-onboarding.md)
+<br/>  New users who cannot understand core features become frustrated and stop using the application.
+- [Partial Bug Fixes](partial-bug-fixes.md)
+<br/>  Users experience the same bug repeatedly after being told it was fixed, causing frustration and loss of trust.
+- [Suboptimal Solutions](suboptimal-solutions.md)
+<br/>  Users become frustrated when solutions are cumbersome, inefficient, or fail to fully address their needs.
+- [Upstream Timeouts](upstream-timeouts.md)
+<br/>  End users experience slow responses or errors caused by upstream timeouts, leading to dissatisfaction.
 
 ## Detection Methods ○
 

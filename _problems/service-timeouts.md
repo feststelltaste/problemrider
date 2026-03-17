@@ -31,20 +31,65 @@ Service timeouts occur when a service fails to respond to a request within a spe
 - Your monitoring system is firing alerts for timeout errors.
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.687">ⓘ</span>
-<br/>  When services fail to complete requests in a timely manner, it leads to upstream services not receiving responses within their set timeout thresholds, indicating an underlying issue with overall service stability and performance.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.652">ⓘ</span>
-<br/>  Constantly updated requirements can lead to service timeouts as developers struggle to accommodate changes within tight deadlines, resulting in rushed implementations that exacerbate performance issues and system instability.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.703">ⓘ</span>
-<br/>  When requests exceed the allowable service time, the failure to properly release allocated resources can lead to exhaustion of available connections and memory, serving as an indicator of underlying performance issues in the system.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.779">ⓘ</span>
-<br/>  Excessive hardware interrupts signal that the system is struggling to manage requests effectively, leading to frequent context switches that exacerbate timeouts and hinder overall application performance in legacy systems.
-- [High Defect Rate in Production](high-defect-rate-in-production.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.802">ⓘ</span>
-<br/>  Frequent service timeouts can lead to rushed fixes and inadequate testing, resulting in a high defect rate in production as developers may overlook critical quality checks while trying to address performance issues.
 
-## Root Causes ▼
+- [Cascade Failures](cascade-failures.md)
+<br/>  When one service times out, callers may also time out waiting for it, creating a chain reaction of failures across the system.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Timeout errors contribute directly to elevated error rates across the system as requests fail to complete.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Users experience slow responses or error messages when services time out, leading to frustration and dissatisfaction.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Requests waiting for timed-out services contribute to overall application slowness as threads and connections are held open.
+- [Thread Pool Exhaustion](thread-pool-exhaustion.md)
+<br/>  Threads waiting for timed-out downstream services remain blocked, gradually exhausting the thread pool and preventing new request processing.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Network Latency](network-latency.md)
+<br/>  High network latency between services increases round-trip times, causing requests to exceed timeout thresholds.
+- [External Service Delays](external-service-delays.md)
+<br/>  Slow responses from external or third-party services propagate through the system as upstream services wait and eventually time out.
+- [Database Query Performance Issues](database-query-performance-issues.md)
+<br/>  Slow database queries in downstream services cause request processing to exceed timeout limits.
+- [Resource Contention](resource-contention.md)
+<br/>  Overloaded services competing for limited CPU, memory, or I/O resources process requests too slowly, causing timeouts.
+- [Excessive Disk I/O](excessive-disk-io.md)
+<br/>  Operations waiting for disk reads or writes may exceed timeout thresholds, causing service failures.
+- [Garbage Collection Pressure](garbage-collection-pressure.md)
+<br/>  Long GC pauses can cause requests to exceed timeout thresholds, resulting in failed service calls.
+- [GraphQL Complexity Issues](graphql-complexity-issues.md)
+<br/>  Complex queries that take too long to resolve exceed service timeout limits, causing request failures.
+- [Growing Task Queues](growing-task-queues.md)
+<br/>  Tasks waiting too long in queues exceed timeout thresholds before they can be processed.
+- [High API Latency](high-api-latency.md)
+<br/>  Downstream services that call the slow API exceed their timeout thresholds, causing cascading failures.
+- [High Connection Count](high-connection-count.md)
+<br/>  When the connection limit is reached, new connection attempts are rejected or queued, causing service timeouts.
+- [Incorrect Max Connection Pool Size](incorrect-max-connection-pool-size.md)
+<br/>  When the pool is too small, requests wait for available connections and eventually time out.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Elevated error rates often accompany cascading failures that cause service timeouts across dependent systems.
+- [Insufficient Worker Capacity](insufficient-worker-capacity.md)
+<br/>  Long queue wait times cause dependent services to time out waiting for task completion.
+- [Load Balancing Problems](load-balancing-problems.md)
+<br/>  Overloaded instances from poor load distribution fail to respond within timeout thresholds, causing service failures.
+- [Long-Running Database Transactions](long-running-database-transactions.md)
+<br/>  Application requests waiting for database operations blocked by long-running transactions exceed timeout thresholds.
+- [Long-Running Transactions](long-running-transactions.md)
+<br/>  Operations blocked by long-running transaction locks can exceed application timeout thresholds, causing failures.
+- [Memory Swapping](memory-swapping.md)
+<br/>  The dramatic slowdown from swapping causes services to exceed their timeout thresholds, leading to cascading failures.
+- [Microservice Communication Overhead](microservice-communication-overhead.md)
+<br/>  Network latency accumulation across multiple service calls causes requests to exceed timeout thresholds.
+- [Misconfigured Connection Pools](misconfigured-connection-pools.md)
+<br/>  When connection pools are exhausted, new requests wait for available connections and eventually time out.
+- [Service Discovery Failures](service-discovery-failures.md)
+<br/>  Failed service discovery causes services to attempt connections to stale or invalid endpoints, resulting in connection timeouts.
+- [Task Queues Backing Up](task-queues-backing-up.md)
+<br/>  Operations waiting for queue processing may exceed timeout thresholds as queue depth grows.
+- [Unreleased Resources](unreleased-resources.md)
+<br/>  Resource exhaustion from unreleased connections and handles causes services to become unresponsive and time out.
+- [Virtual Memory Thrashing](virtual-memory-thrashing.md)
+<br/>  Applications become so slow during thrashing that they fail to respond within timeout windows.
 
 ## Detection Methods ○
 

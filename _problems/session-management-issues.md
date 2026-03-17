@@ -27,14 +27,27 @@ Session management issues occur when applications improperly handle user session
 - Session data stored insecurely or transmitted without encryption
 
 ## Symptoms ▲
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.687">ⓘ</span>
-<br/>  Improper session management often leads to the failure to release associated resources, as lingering sessions can prevent timely deallocation of objects and connections, creating opportunities for security vulnerabilities and resource exhaustion in legacy systems.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.820">ⓘ</span>
-<br/>  The presence of unrealistic, outdated, or insufficient test data can lead to overlooked vulnerabilities in session management, as inadequate testing fails to simulate real-world scenarios where session hijacking and fixation risks manifest, thus serving as an indicator of broader security weaknesses in legacy systems.
 
-## Root Causes ▼
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Weak session management allows attackers to hijack or forge sessions, effectively bypassing authentication.
+- [Authorization Flaws](authorization-flaws.md)
+<br/>  Poor session handling can allow users to escalate privileges or access other users' sessions, creating authorization failures.
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  Compromised sessions expose user data and sensitive information to unauthorized access through session hijacking.
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  Security breaches from session hijacking erode user confidence in the system's ability to protect their accounts.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers without security experience may implement predictable session tokens, skip encryption, or neglect proper session lifecycle management.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Session management code in legacy systems without test coverage makes it risky to fix vulnerabilities or update session handling practices.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Insufficient security testing fails to identify session management vulnerabilities like predictable tokens or missing invalidation.
+- [Cross-Site Scripting Vulnerabilities](cross-site-scripting-vulnerabilities.md)
+<br/>  XSS attacks enable session hijacking by stealing session cookies, directly compromising session security.
+- [Password Security Weaknesses](password-security-weaknesses.md)
+<br/>  Weak password security combined with poor session handling compounds vulnerabilities, as compromised credentials grant persistent unauthorized access.
 
 ## Detection Methods ○
 

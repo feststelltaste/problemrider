@@ -31,18 +31,37 @@ User trust erosion is the gradual loss of confidence that users have in a softwa
 - A decline in the company's brand reputation.
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.601">ⓘ</span>
-<br/>  Persistent reliability issues and emergency fixes create a high-pressure environment for developers, leading to frustration and burnout, which in turn reflects the declining user trust and engagement in the system.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.642">ⓘ</span>
-<br/>  Frequent unreleased resources indicate poor maintenance and code quality, which can lead to system instabilities and crashes, further undermining user confidence in the system's reliability.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.609">ⓘ</span>
-<br/>  Frequent system issues lead to user frustration and confusion, prompting them to seek help from customer support, which serves as an indicator of declining user trust and engagement in the reliability of the legacy system.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.633">ⓘ</span>
-<br/>  Random test failures in legacy systems highlight underlying instability and unreliability, leading users to question the overall system quality and diminishing their trust in its performance.
 
-## Root Causes ▼
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Loss of trust leads to overall dissatisfaction as users no longer believe the system will meet their needs.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Users who have lost trust actively share negative experiences through reviews and word of mouth.
+- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
+<br/>  When users lose trust, stakeholders lose confidence in the product team's ability to deliver a reliable system.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [User Frustration](user-frustration.md)
+<br/>  Repeated frustrating experiences accumulate and erode user trust in the system over time.
+- [Quality Degradation](quality-degradation.md)
+<br/>  Declining software quality with increasing bugs and issues erodes user trust in the product.
+- [User Confusion](user-confusion.md)
+<br/>  Confusing system behavior makes users feel the system is unreliable, eroding their trust.
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  When users learn that authentication can be bypassed, trust in the system is severely damaged.
+- [Authorization Flaws](authorization-flaws.md)
+<br/>  Users lose trust when they discover others can access their data due to authorization flaws.
+- [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
+<br/>  Repeated hotfixes and rollbacks damage users' confidence in the system's reliability.
+- [Inconsistent Behavior](inconsistent-behavior.md)
+<br/>  Unpredictable behavior erodes user confidence in the system's reliability and correctness.
+- [Partial Bug Fixes](partial-bug-fixes.md)
+<br/>  Recurring bugs that were supposedly resolved damage user confidence in the system's reliability.
+- [Release Instability](release-instability.md)
+<br/>  Repeated release failures and disruptions erode user confidence in the system's reliability.
+- [Session Management Issues](session-management-issues.md)
+<br/>  Security breaches from session hijacking erode user confidence in the system's ability to protect their accounts.
+- [Silent Data Corruption](silent-data-corruption.md)
+<br/>  When data corruption is eventually discovered, users lose trust in the accuracy and reliability of the entire system.
 
 ## Detection Methods ○
 - **User Satisfaction Surveys:** Regularly survey users to gauge their satisfaction with the system.

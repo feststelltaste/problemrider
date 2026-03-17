@@ -27,14 +27,17 @@ Improper event listener management occurs when applications register event handl
 - Unexpected side effects occur from event handlers that should no longer be active
 
 ## Symptoms ▲
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.631">ⓘ</span>
-<br/>  The failure to remove event listeners when associated objects are destroyed leads to persistent references that prevent garbage collection, resulting in memory retention that contributes to unbounded growth of data structures and caches as they accumulate unnecessary objects and information over time.
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.694">ⓘ</span>
-<br/>  The failure to remove event listeners when objects are destroyed leads to persistent references that prevent garbage collection, causing data structures to accumulate unchecked and grow indefinitely, ultimately resulting in memory exhaustion and performance issues.
 
-## Root Causes ▼
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.887">ⓘ</span>
-<br/>  Insufficient monitoring and observability in legacy systems hinder the early detection of event listener mismanagement, allowing memory leaks to accumulate unchecked and exacerbating performance issues over time.
+- [Memory Leaks](memory-leaks.md)
+<br/>  Unremoved event listeners maintain references to objects that should be garbage collected, causing progressive memory consumption.
+- [High Resource Utilization on Client](high-resource-utilization-on-client.md)
+<br/>  Accumulated inactive event listeners consume both memory and CPU as they continue to execute on events.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  As inactive listeners accumulate, event dispatch overhead increases and memory pressure degrades overall application performance.
+
+## Causes ▼
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers unfamiliar with component lifecycle management may not understand the need to clean up event listeners.
 
 ## Detection Methods ○
 

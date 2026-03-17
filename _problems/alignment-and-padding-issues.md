@@ -33,12 +33,19 @@ Alignment and padding issues occur when data structures are organized in ways th
 - Performance varies significantly with minor structure field rearrangements
 
 ## Symptoms ▲
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.606">ⓘ</span>
-<br/>  Inefficient memory layouts can lead to increased complexity in resource management, often resulting in failure to properly deallocate or close system resources, thereby causing unreleased resources as a symptom of poor data structure alignment and excessive padding.
 
-## Root Causes ▼
+- [Data Structure Cache Inefficiency](data-structure-cache-inefficiency.md)
+<br/>  Wasted padding bytes reduce the amount of useful data per cache line, directly degrading cache efficiency.
+- [Memory Fragmentation](memory-fragmentation.md)
+<br/>  Oversized structures due to padding waste memory and contribute to fragmentation when many instances are allocated.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Poor memory layout from alignment issues reduces cache utilization and increases memory bandwidth, slowing performance.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers unfamiliar with hardware memory alignment requirements unknowingly create inefficient structure layouts.
+- [Cargo Culting](cargo-culting.md)
+<br/>  Copying struct definitions without understanding their memory implications leads to suboptimal field ordering and layout.
 
 ## Detection Methods ○
 

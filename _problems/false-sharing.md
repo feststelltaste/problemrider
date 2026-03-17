@@ -35,13 +35,23 @@ False sharing occurs when multiple CPU cores access different data elements that
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.403, Strength: 0.925">ⓘ</span>
-<br/>  Shared dependencies among components in legacy systems often lead to multiple CPU cores accessing closely located variables within the same cache line, resulting in increased cache coherency traffic and subsequent performance degradation.
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.891">ⓘ</span>
-<br/>  The use of a single database by multiple services can lead to each service modifying data that resides on the same cache line, resulting in increased cache coherency traffic and performance issues due to simultaneous access to closely related variables.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  False sharing causes unnecessary cache coherency traffic that degrades multi-threaded application performance, making the application noticeably slower.
+- [Resource Contention](resource-contention.md)
+<br/>  Cores compete for cache lines containing unrelated data, creating artificial resource contention at the hardware level.
+- [Scaling Inefficiencies](scaling-inefficiencies.md)
+<br/>  False sharing prevents linear performance scaling with additional threads or cores, as adding more parallelism increases cache coherency overhead.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  As more threads are added over time, false sharing effects compound, causing progressively worse performance degradation.
+
+## Causes ▼
+- [Alignment and Padding Issues](alignment-and-padding-issues.md)
+<br/>  Poor data structure alignment places independent variables on the same cache line, directly causing false sharing between cores.
+- [Data Structure Cache Inefficiency](data-structure-cache-inefficiency.md)
+<br/>  Data structures organized without consideration for cache line boundaries lead to unrelated data sharing cache lines.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers without knowledge of CPU cache architecture may inadvertently create data layouts that cause false sharing.
 
 ## Detection Methods ○
 

@@ -31,34 +31,13 @@ Cache invalidation problems occur when cached data is not properly updated or re
 - Manual cache clearing temporarily fixes data inconsistency issues
 
 ## Symptoms ▲
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.687">ⓘ</span>
-<br/>  Stale cached data can cause repeated requests for resource allocation without proper release, leading to unreleased system resources as a result of inconsistent states and application logic failures in legacy systems.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.410, Strength: 0.815">ⓘ</span>
-<br/>  Inefficient data retrieval practices lead to unnecessary fetching from the source, indicating issues with cache invalidation as the system struggles to maintain up-to-date information and optimize performance, resulting in increased latency and a higher likelihood of presenting outdated data to users.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.695">ⓘ</span>
-<br/>  Flaky tests often arise in legacy systems when cached data becomes stale or inconsistent, leading to unpredictable test outcomes that fail to accurately reflect the true state of the underlying data, thereby indicating issues with cache invalidation mechanisms.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.350, Strength: 0.855">ⓘ</span>
-<br/>  In legacy systems, improper tracking of code and data versions can exacerbate cache invalidation issues, as outdated configurations may lead to discrepancies between cached data and the actual state of the underlying data source, resulting in further inconsistencies and erroneous application behavior.
-- [Poor Domain Model](poor-domain-model.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.856">ⓘ</span>
-<br/>  When cached data does not accurately reflect poorly understood core business concepts, it results in fragile logic that exacerbates inconsistencies and contributes to stale information, indicating deeper issues in the system's domain modeling.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.795">ⓘ</span>
-<br/>  The reliance on outdated or unrealistic test data fails to trigger cache invalidation mechanisms, resulting in tests that do not expose inconsistencies between cached data and the underlying source, thereby highlighting the underlying cache invalidation issue.
 
-## Root Causes ▼
-- [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.500, Strength: 0.890">ⓘ</span>
-<br/>  Long-running transactions prevent timely updates to the underlying data source, causing the cached data to become outdated and leading to inconsistencies that confuse users and disrupt application functionality.
-- [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.899">ⓘ</span>
-<br/>  In legacy systems, incomplete bug fixes lead to inconsistent code paths that fail to properly manage cache updates, resulting in stale or incorrect data being served to users.
-- [Race Conditions](race-conditions.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.880">ⓘ</span>
-<br/>  Improper synchronization of multiple threads accessing shared resources can lead to updates being missed or overwritten in the caching mechanism, causing the cached data to diverge from the underlying data source and resulting in stale or inconsistent information.
-- [Atomic Operation Overhead](atomic-operation-overhead.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.860">ⓘ</span>
-<br/>  Excessive reliance on atomic operations for data consistency leads to increased memory synchronization delays and cache coherency traffic, causing cached data to become outdated and inconsistent with the underlying source, ultimately resulting in application errors and user confusion.
-- [Imperative Data Fetching Logic](imperative-data-fetching-logic.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.849">ⓘ</span>
-<br/>  Inefficient data fetching logic causes frequent updates to the cache without proper invalidation mechanisms, resulting in stale data persisting in the application and leading to inconsistent behavior.
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.928">ⓘ</span>
-<br/>  Insufficient production monitoring hampers the timely detection of stale or inconsistent cached data, preventing prompt remediation of cache invalidation issues and allowing them to escalate into significant application errors and user confusion.
-- [Silent Data Corruption](silent-data-corruption.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.851">ⓘ</span>
-<br/>  Corrupted data that goes undetected can be cached without validation, causing the cache to serve outdated or inaccurate information, which ultimately leads to application errors and user confusion.
+
+## Causes ▼
+- [Poor Caching Strategy](poor-caching-strategy.md)
+<br/>  Poorly designed caching approaches lack proper invalidation logic, leading to stale data problems.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Tightly coupled systems make it hard to ensure all cache layers are properly invalidated when source data changes.
 
 ## Detection Methods ○
 

@@ -30,14 +30,33 @@ Slow database queries are a primary cause of poor application performance. When 
 - You are getting complaints from users about slow performance.
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.511, Strength: 0.697">ⓘ</span>
-<br/>  Inefficient data retrieval leads to prolonged query execution times, causing API responses to exceed configured timeouts, which in turn results in service failures in dependent systems.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.649">ⓘ</span>
-<br/>  The constant fetching of data from the source rather than utilizing caching not only exacerbates query response times but also highlights underlying inefficiencies in data retrieval processes, indicating that the system is not optimized for performance.
 
-## Root Causes ▼
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Slow queries directly cause the application to respond slowly to user requests.
+- [Slow Response Times for Lists](slow-response-times-for-lists.md)
+<br/>  List pages are especially affected by slow queries because they execute multiple queries or process large result sets.
+- [High Database Resource Utilization](high-database-resource-utilization.md)
+<br/>  Inefficient queries consume excessive CPU, memory, and I/O on the database server.
+- [High API Latency](high-api-latency.md)
+<br/>  API endpoints that depend on database queries inherit the slowness, increasing overall API response times.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [High Number of Database Queries](high-number-of-database-queries.md)
+<br/>  N+1 query patterns and excessive query counts compound into significant performance problems.
+- [Imperative Data Fetching Logic](imperative-data-fetching-logic.md)
+<br/>  Manually constructed data fetching logic often produces inefficient query patterns instead of leveraging optimized database operations.
+- [Lazy Loading](lazy-loading.md)
+<br/>  Lazy loading triggers additional database queries on demand, leading to unpredictable and often excessive query execution.
+- [High Database Resource Utilization](high-database-resource-utilization.md)
+<br/>  When the database is under heavy resource load, query execution times increase significantly as CPU and memory contention delays processing.
+- [Index Fragmentation](index-fragmentation.md)
+<br/>  Fragmented indexes require more I/O operations to traverse, directly causing queries to execute more slowly.
+- [Inefficient Database Indexing](inefficient-database-indexing.md)
+<br/>  Missing or inappropriate indexes force full-table scans, directly causing slow query execution times.
+- [Long-Running Database Transactions](long-running-database-transactions.md)
+<br/>  Other queries are forced to wait for locks held by long-running transactions, increasing their execution time.
+- [Queries That Prevent Index Usage](queries-that-prevent-index-usage.md)
+<br/>  Queries that bypass indexes force full table scans, directly causing slow query execution times.
 
 ## Detection Methods ○
 

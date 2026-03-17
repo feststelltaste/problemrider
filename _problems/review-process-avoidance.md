@@ -35,20 +35,31 @@ Review process avoidance occurs when team members actively look for ways to bypa
 - Team members express desire to "just skip the review this time"
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.427, Strength: 0.662">ⓘ</span>
-<br/>  The tendency to bypass or minimize code review leads to inadequate oversight of the codebase, resulting in critical areas lacking necessary tests and exposing the system to unaddressed quality issues.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.678">ⓘ</span>
-<br/>  Team members may avoid the code review process due to frustration with a slow development environment, leading them to prioritize speed over quality and consequently undermining the effectiveness of quality assurance measures.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.651">ⓘ</span>
-<br/>  The tendency to bypass code reviews often stems from a lack of confidence in the team's familiarity with legacy technologies, leading to a critical shortage of skilled developers who can effectively navigate and maintain these systems, thus indicating a deeper issue with quality assurance practices.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.585">ⓘ</span>
-<br/>  The tendency to bypass code reviews leads to inadequate validation of evolving requirements, resulting in frequent updates and associated rework, as developers lack the necessary feedback loops to align their work with project expectations.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.638">ⓘ</span>
-<br/>  By bypassing code reviews, team members inadvertently introduce outdated practices and unchecked code changes, leading to a gradual misalignment with regulatory standards that legacy systems must adhere to, thus creating compliance gaps that highlight the consequences of neglecting quality assurance.
 
-## Root Causes ▼
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Changes that bypass review miss the quality gate, allowing more defects to reach production undetected.
+- [Review Process Breakdown](review-process-breakdown.md)
+<br/>  Widespread avoidance undermines the review process systematically, causing it to fail at its quality assurance purpose.
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Code that skips review doesn't get checked for standard compliance, leading to inconsistent coding practices across the codebase.
+- [Knowledge Silos](knowledge-silos.md)
+<br/>  Bypassing reviews eliminates a key knowledge-sharing mechanism, allowing code knowledge to remain siloed with the original author.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Review Bottlenecks](review-bottlenecks.md)
+<br/>  When the review process is a significant bottleneck, developers are motivated to find ways around it to deliver their work.
+- [Author Frustration](author-frustration.md)
+<br/>  Frustration with conflicting or seemingly arbitrary review feedback drives developers to avoid the process altogether.
+- [Time Pressure](time-pressure.md)
+<br/>  Deadline pressure makes the review process feel like an unaffordable delay, motivating developers to bypass it.
+- [Reviewer Anxiety](reviewer-anxiety.md)
+<br/>  When reviewers are anxious and provide superficial or unhelpful feedback, authors see little value in the review process and avoid it.
+- [Conflicting Reviewer Opinions](conflicting-reviewer-opinions.md)
+<br/>  The frustration of dealing with conflicting opinions motivates developers to seek ways to bypass the review process entirely.
+- [Extended Review Cycles](extended-review-cycles.md)
+<br/>  Lengthy and painful review cycles motivate developers to find ways to bypass or minimize the review process.
+- [Outdated Tests](outdated-tests.md)
+<br/>  When tests are unreliable, teams start ignoring or bypassing test results, undermining the quality assurance process.
 
 ## Detection Methods ○
 

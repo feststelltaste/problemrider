@@ -34,24 +34,25 @@ Priority thrashing occurs when work priorities change so frequently that team me
 - Emergency requests regularly disrupt planned work
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.556, Strength: 0.764">ⓘ</span>
-<br/>  Frequent updates to project requirements indicate priority thrashing as they reflect the instability in work priorities, forcing teams to constantly adjust their focus and resulting in a cycle of rework and delays in legacy systems.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.443, Strength: 0.699">ⓘ</span>
-<br/>  Frequent changes in work priorities lead to task switching that disrupts users' ability to complete their work, resulting in increased frustration and a higher volume of support inquiries as users seek assistance with unresolved issues.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.432, Strength: 0.651">ⓘ</span>
-<br/>  Frequent and unexpected changes in work priorities lead to constant context switching, which creates a chaotic work environment that overwhelms developers, resulting in frustration and burnout as they struggle to manage an ever-shifting workload while dealing with the inherent complexities of a legacy codebase.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.709">ⓘ</span>
-<br/>  Frequent and unexpected changes in work priorities lead to constant task switching, which disrupts focus and continuity, ultimately resulting in decreased output and effectiveness of the development team as they struggle to adapt to shifting demands.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.609">ⓘ</span>
-<br/>  Frequent changes in work priorities lead to interrupted workflows, causing developers to struggle with a slow and cumbersome environment as they constantly adapt to shifting tasks, thereby amplifying the inefficiencies inherent in legacy systems.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.750">ⓘ</span>
-<br/>  Frequent changes in work priorities lead to increased context switching, which manifests as excessive hardware interrupts that disrupt CPU execution flow and degrade application performance in legacy systems.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.727">ⓘ</span>
-<br/>  Frequent and unexpected changes in work priorities lead to misaligned expectations between stakeholders and developers, as the constant task switching hampers clear communication and understanding of project goals, ultimately resulting in rework and dissatisfaction.
 
-## Root Causes ▼
+- [Context-Switching Overhead](context-switching-overhead.md)
+<br/>  Frequent priority changes force developers to constantly switch between unrelated tasks, reducing cognitive efficiency.
+- [Wasted Development Effort](wasted-development-effort.md)
+<br/>  Partially completed work is abandoned when priorities shift, wasting the effort already invested.
+- [Development Disruption](development-disruption.md)
+<br/>  Planned development work is repeatedly interrupted by new urgent priorities, breaking flow and progress.
+- [Quality Compromises](quality-compromises.md)
+<br/>  Teams cut corners to produce something before the next priority change forces them to move on.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Product Direction Chaos](product-direction-chaos.md)
+<br/>  Multiple stakeholders with conflicting priorities cause constant reprioritization of development work.
+- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
+<br/>  Without clear strategic priorities, every request appears equally urgent, leading to constant shifting.
+- [Constant Firefighting](constant-firefighting.md)
+<br/>  Recurring production emergencies continually preempt planned work, forcing priority changes.
+- [Power Struggles](power-struggles.md)
+<br/>  Competing managers each impose their own priorities on the team, creating conflicting demands.
 
 ## Detection Methods ○
 

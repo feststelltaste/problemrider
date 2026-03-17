@@ -30,20 +30,17 @@ Microservice communication overhead occurs when the network communication betwee
 - Frequent timeout errors in service-to-service communication
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.609, Strength: 0.793">ⓘ</span>
-<br/>  Excessive network communication between microservices leads to increased latency, causing services that rely on timely API responses to exceed their timeout thresholds and fail, thereby indicating the underlying communication inefficiency.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.821">ⓘ</span>
-<br/>  Excessive network communication between microservices leads to increased context-switching and hardware interrupts as the system struggles to manage high traffic loads, thereby serving as an indicator of underlying performance bottlenecks.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.413, Strength: 0.733">ⓘ</span>
-<br/>  Increased latency and reduced reliability from excessive network communication between microservices lead to user frustration and task completion difficulties, resulting in a higher volume of customer support inquiries.
-- [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.825">ⓘ</span>
-<br/>  Excessive network communication between microservices can lead to inefficient code as the increased latency forces developers to implement complex logic or workarounds to manage the delays, ultimately creating performance bottlenecks in the system.
-- [Capacity Mismatch](capacity-mismatch.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.782">ⓘ</span>
-<br/>  Excessive network communication leads to increased latency, causing demand for processing resources to fluctuate unpredictably, which in turn creates mismatched capacity across the development process, resulting in bottlenecks and underutilization.
 
-## Root Causes ▼
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Cumulative network latency from excessive inter-service calls directly degrades end-to-end application performance.
+- [Service Timeouts](service-timeouts.md)
+<br/>  Network latency accumulation across multiple service calls causes requests to exceed timeout thresholds.
+- [Service Discovery Failures](service-discovery-failures.md)
+<br/>  High volumes of inter-service communication increase the load on service discovery mechanisms, making failures more likely.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  Applying a microservice architecture to workloads that require tight coupling creates unnecessary communication overhead.
 
 ## Detection Methods ○
 

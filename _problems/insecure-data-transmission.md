@@ -25,20 +25,25 @@ Insecure data transmission occurs when sensitive information is sent over networ
 
 ## Symptoms ▲
 
-- **Unencrypted Data Transmission:** Sensitive data sent over plain HTTP or other unencrypted protocols
-- **Weak Encryption Usage:** Using outdated or weak cryptographic protocols like SSL 2.0 or weak ciphers
-- **Certificate Validation Bypass:** Applications ignoring SSL certificate validation errors
-- **Mixed Content Issues:** HTTPS pages loading resources over HTTP
-- **Credential Exposure:** Login credentials transmitted without proper encryption
 
-## Root Causes ▼
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  Transmitting data without encryption directly creates regulatory and legal data protection risks.
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Unencrypted transmission of credentials enables interception and replay attacks that bypass authentication.
+- [Silent Data Corruption](silent-data-corruption.md)
+<br/>  Man-in-the-middle attacks on unencrypted channels can modify data in transit without detection.
+- [Regulatory Compliance Drift](regulatory-compliance-drift.md)
+<br/>  Insecure data transmission causes the system to fall out of compliance with security regulations like PCI-DSS and GDPR.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Security breaches resulting from insecure transmission erode customer trust and satisfaction.
 
-- **Missing HTTPS Implementation:** Web applications not implementing SSL/TLS encryption
-- **Weak Cryptographic Standards:** Using outdated encryption protocols or weak cipher suites
-- **Certificate Validation Issues:** Applications not properly validating SSL certificates
-- **Development Environment Configuration:** Using insecure settings from development in production
-- **Third-Party Integration Issues:** External services or APIs not supporting secure transmission
-- **Legacy System Constraints:** Older systems unable to support modern encryption standards
+## Causes ▼
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  Legacy systems using outdated protocols may lack support for modern encryption standards.
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Developers lacking security design knowledge may fail to implement proper encryption for data in transit.
+- [Configuration Chaos](configuration-chaos.md)
+<br/>  Poor configuration management can lead to SSL/TLS being misconfigured or disabled in certain environments.
 
 ## Detection Methods ○
 

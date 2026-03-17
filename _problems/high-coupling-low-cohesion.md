@@ -31,22 +31,39 @@ High coupling and low cohesion are two of the most common design problems in sof
 - Developers spend more time navigating dependencies and understanding complex interactions.
 
 ## Symptoms ▲
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.579">ⓘ</span>
-<br/>  The intricate dependencies among components lead to a convoluted representation of the business domain, where the lack of clear separation of concerns complicates the understanding and implementation of the system.
 
-## Root Causes ▼
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.360, Strength: 0.946">ⓘ</span>
-<br/>  The lack of necessary design skills among the development team leads to poorly structured software, resulting in components that are tightly coupled and lack a clear, cohesive purpose, making the system more complex and harder to maintain.
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.879">ⓘ</span>
-<br/>  By prioritizing trivial issues over more significant design and architectural concerns, reviewers inadvertently allow components to become tightly coupled and perform multiple unrelated functions, leading to a system that is harder to maintain and evolve.
-- [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.335, Strength: 0.896">ⓘ</span>
-<br/>  A culture that demands perfection can result in extended development times, leading teams to create tightly coupled components that attempt to satisfy all requirements at once, thereby sacrificing modularity and clarity in favor of an unattainable ideal.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.918">ⓘ</span>
-<br/>  A lack of understanding of object-oriented programming principles leads developers to create interdependent components that bundle unrelated functions together, resulting in a tightly coupled and poorly cohesive system that is challenging to maintain and modify.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.947">ⓘ</span>
-<br/>  Developers who favor procedural programming often create tightly-knit components that perform multiple roles, resulting in a system architecture characterized by high interdependence and a lack of clear functional separation, which complicates maintenance and evolution.
-- [Technology Lock-In](technology-lock-in.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.865">ⓘ</span>
-<br/>  The difficulty of transitioning to new technologies due to high costs and effort leads to reliance on outdated systems, which fosters excessive interdependencies among components and results in a proliferation of unrelated functions, thereby increasing coupling and decreasing cohesion.
+- [Ripple Effect of Changes](ripple-effect-of-changes.md)
+<br/>  Small changes in one module require modifications across many other modules due to tight coupling between components.
+- [Difficult to Test Code](difficult-to-test-code.md)
+<br/>  Tightly coupled components cannot be tested in isolation because they depend heavily on other components.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Developers must understand and modify multiple interdependent components for even simple feature additions.
+- [High Bug Introduction Rate](high-bug-introduction-rate.md)
+<br/>  Changes in tightly coupled code have unintended effects in dependent components, frequently introducing new bugs.
+- [Fear of Change](fear-of-change.md)
+<br/>  The unpredictable cascading effects of changes in coupled code makes developers hesitant to modify the system.
+- [Increased Cognitive Load](increased-cognitive-load.md)
+<br/>  Understanding any single component requires understanding many other components it is coupled to, overwhelming developers.
+- [Deployment Coupling](deployment-coupling.md)
+<br/>  Tightly coupled components must be deployed together because changes to one affect the others.
+
+## Causes ▼
+- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
+<br/>  Without clear module responsibilities, functionality gets spread across multiple components creating unnecessary dependencies.
+- [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
+<br/>  Adding features without restructuring the codebase causes responsibilities to bleed across module boundaries over time.
+- [Poor Encapsulation](poor-encapsulation.md)
+<br/>  Exposing internal implementation details allows other modules to depend on them, creating tight coupling.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers unfamiliar with design principles create tightly coupled code that mixes unrelated concerns within single modules.
+- [Refactoring Avoidance](refactoring-avoidance.md)
+<br/>  Avoiding necessary refactoring allows coupling to accumulate as the system grows and evolves.
+- [Excessive Class Size](excessive-class-size.md)
+<br/>  Oversized classes typically mix unrelated responsibilities, resulting in low cohesion and high coupling to many other components.
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Developers without design skills create tightly coupled modules with poor separation of concerns.
+- [Over-Reliance on Utility Classes](over-reliance-on-utility-classes.md)
+<br/>  Utility classes create implicit dependencies across the codebase as many components depend on shared static methods, increasing coupling.
 
 ## Detection Methods ○
 

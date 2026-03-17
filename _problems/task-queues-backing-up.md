@@ -27,44 +27,27 @@ Task queues are essential for asynchronous processing, but they can become a bot
 - You are getting alerts from your monitoring system about the queue size.
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.592, Strength: 0.825">ⓘ</span>
-<br/>  Frequent changes to requirements often arise as stakeholders respond to delays caused by backed-up task queues, prompting last-minute adjustments that exacerbate the existing backlog and hinder overall project progress.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.580, Strength: 0.785">ⓘ</span>
-<br/>  As the backlog of asynchronous jobs increases due to processing delays, the response times for API-consuming services extend beyond their configured timeouts, leading to failures in those services.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.550, Strength: 0.835">ⓘ</span>
-<br/>  The backup of asynchronous job queues leads to delayed processing times, creating bottlenecks that hinder the development team's ability to deliver features and fixes efficiently, ultimately reducing their overall productivity.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.532, Strength: 0.798">ⓘ</span>
-<br/>  As asynchronous job processing delays lead to longer wait times for users, their inability to complete tasks results in increased frustration, prompting a higher volume of support inquiries.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.529, Strength: 0.788">ⓘ</span>
-<br/>  As the processing of asynchronous jobs slows down, resources remain allocated longer than necessary, leading to a buildup of unreleased objects and connections that exacerbate the backlog and further hinder system performance.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.412, Strength: 0.838">ⓘ</span>
-<br/>  The delay in processing asynchronous jobs leads to an accumulation of tasks, which causes teams to become overwhelmed and hesitant, resulting in prolonged research phases instead of progressing to implementation.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.784">ⓘ</span>
-<br/>  The accumulation of unprocessed asynchronous jobs leads to increased wait times for necessary resources and functionality, ultimately hindering the team's ability to deliver new features and fixes efficiently, thereby reflecting a decline in overall productivity.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.765">ⓘ</span>
-<br/>  The accumulation of unprocessed asynchronous jobs leads to increased data retention in queues, resulting in unbounded growth of data structures that lack effective management, thereby indicating inefficiencies in processing and resource allocation within legacy systems.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.385, Strength: 0.823">ⓘ</span>
-<br/>  The increasing backlog of asynchronous jobs results in mounting pressure to meet deadlines, compelling teams to make hasty decisions and take shortcuts in software development, which in turn compromises overall quality and system reliability.
-- [Delayed Bug Fixes](delayed-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.802">ⓘ</span>
-<br/>  The slow processing of asynchronous jobs leads to a buildup in task queues, which in turn hampers the timely resolution of known issues, as limited resources and attention are diverted away from bug fixes to manage the backlog.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.776">ⓘ</span>
-<br/>  The prolonged processing times of asynchronous jobs result in increased workload and urgency for team members, leading to disengagement and a lack of meaningful participation in the review process, ultimately exacerbating the backlog issue.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.801">ⓘ</span>
-<br/>  The accumulation of unprocessed asynchronous jobs leads to insufficient and unrealistic test scenarios, as the legacy system struggles to simulate real-world conditions under the pressure of growing task queues.
-- [Delayed Value Delivery](delayed-value-delivery.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.862">ⓘ</span>
-<br/>  The prolonged processing times of asynchronous jobs lead to a backlog that delays the deployment of new features and bug fixes, resulting in users experiencing longer wait times and diminished satisfaction.
-- [Garbage Collection Pressure](garbage-collection-pressure.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.846">ⓘ</span>
-<br/>  The increase in task queue length leads to higher memory pressure from accumulating unprocessed jobs, resulting in frequent garbage collection cycles that exacerbate performance issues and further delay processing times.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.834">ⓘ</span>
-<br/>  In legacy systems, the accumulation of unprocessed jobs can lead to increased resource consumption, causing memory that should be released after task completion to remain allocated, thereby indicating a performance issue through observable memory leaks.
-- [Feature Creep](feature-creep.md) <span class="info-tooltip" title="Confidence: 0.315, Strength: 0.843">ⓘ</span>
-<br/>  When asynchronous jobs are delayed and queues back up, it often forces teams to add more features or modifications to work around the bottlenecks, leading to an expanded scope that complicates the system's architecture and maintenance.
-- [High Defect Rate in Production](high-defect-rate-in-production.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.802">ⓘ</span>
-<br/>  The accumulation of unprocessed asynchronous jobs due to prolonged queue delays can lead to rushed development cycles and insufficient testing, resulting in a higher volume of bugs detected in the production environment.
 
-## Root Causes ▼
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Backed-up queues cause delayed processing of user-facing operations, manifesting as slow response times.
+- [Service Timeouts](service-timeouts.md)
+<br/>  Operations waiting for queue processing may exceed timeout thresholds as queue depth grows.
+- [System Outages](system-outages.md)
+<br/>  If queues have size limits, backed-up queues can cause message loss or system failures when limits are exceeded.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Delayed processing of user-facing tasks like order confirmations and notifications frustrates customers.
+- [Cascade Failures](cascade-failures.md)
+<br/>  Queue buildup in one processing stage creates backpressure that cascades to upstream and downstream components.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Insufficient Worker Capacity](insufficient-worker-capacity.md)
+<br/>  Not enough worker processes to handle the incoming volume of tasks is a direct cause of queue growth.
+- [Inefficient Code](inefficient-code.md)
+<br/>  Slow task processing code, such as unoptimized database queries, reduces throughput and causes queue buildup.
+- [Database Query Performance Issues](database-query-performance-issues.md)
+<br/>  Slow database queries within task processing reduce worker throughput, causing tasks to accumulate faster than they are processed.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  System performance that degrades over time gradually reduces processing capacity until queues begin backing up.
 
 ## Detection Methods ○
 

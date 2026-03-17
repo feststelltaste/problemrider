@@ -30,20 +30,25 @@ Inadequate onboarding is the failure to provide new users with the guidance and 
 - New users are not using the key features of the application.
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.464, Strength: 0.701">ⓘ</span>
-<br/>  Frequent changes to requirements often arise from new users' misunderstanding of the application’s functionality, leading to continuous adjustments as they seek clarification, which indicates a lack of effective onboarding processes.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.464, Strength: 0.750">ⓘ</span>
-<br/>  The difficulty in onboarding new users to the application highlights a reliance on outdated technologies, which in turn exacerbates the shortage of skilled developers familiar with these systems, creating a cycle of inefficiency and increased user abandonment.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.428, Strength: 0.775">ⓘ</span>
-<br/>  The frequent need for customer support arises from users' confusion and inability to navigate the application due to insufficient onboarding, highlighting a lack of effective guidance that is critical in legacy systems with outdated interfaces and processes.
-- [Quality Blind Spots](quality-blind-spots.md) <span class="info-tooltip" title="Confidence: 0.391, Strength: 0.768">ⓘ</span>
-<br/>  Insufficient onboarding processes prevent new users from fully engaging with the application, resulting in overlooked critical behaviors and failure modes that go untested, thereby exposing quality blind spots in the legacy system.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.720">ⓘ</span>
-<br/>  The slow and cumbersome development environment indicates inadequate onboarding by revealing that developers lack familiarity with the tools and processes necessary to effectively build and maintain the application, leading to inefficiencies that hinder user experience and contribute to early abandonment.
 
-## Root Causes ▼
-- [Implicit Knowledge](implicit-knowledge.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.816">ⓘ</span>
-<br/>  The presence of unwritten assumptions and undocumented practices in legacy systems creates a knowledge gap for new users, making it difficult for them to access crucial information needed for effective application usage, ultimately leading to confusion and early abandonment.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Users who cannot figure out how to use the application become frustrated and dissatisfied.
+- [Increased Customer Support Load](increased-customer-support-load.md)
+<br/>  New users who lack proper guidance contact support frequently with basic usage questions.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Users abandon the application early and switch to competitors that offer a smoother getting-started experience.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Users complain about the difficulty of getting started, generating negative reviews and feedback.
+- [User Frustration](user-frustration.md)
+<br/>  New users who cannot understand core features become frustrated and stop using the application.
+
+## Causes ▼
+- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
+<br/>  Poor overall UX design makes it difficult to create an intuitive onboarding flow that guides users effectively.
+- [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
+<br/>  Without understanding new user needs and expectations, the onboarding experience is built on assumptions rather than real requirements.
+- [Feedback Isolation](feedback-isolation.md)
+<br/>  Development teams operating without regular user input fail to identify and fix onboarding pain points.
 
 ## Detection Methods ○
 - **User Testing:** Observe new users as they go through the onboarding process to identify areas of confusion and frustration.

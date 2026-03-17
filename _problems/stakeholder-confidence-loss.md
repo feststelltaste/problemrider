@@ -35,26 +35,57 @@ Stakeholder confidence loss occurs when business partners, customers, or managem
 - Stakeholders seek alternative solutions or vendors for future projects
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.726">ⓘ</span>
-<br/>  The erosion of stakeholder trust leads to increased pressure on developers to meet unrealistic expectations, resulting in frustration and burnout as they struggle to navigate the complexities and limitations of a legacy codebase.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.444, Strength: 0.713">ⓘ</span>
-<br/>  The critical shortage of developers with legacy technology expertise reveals the development team's inability to effectively maintain and enhance existing systems, thereby eroding business partners' trust in the team's overall capability to fulfill commitments.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.424, Strength: 0.736">ⓘ</span>
-<br/>  Constant updates to project requirements often stem from stakeholders' diminishing trust in the development team's ability to deliver, prompting them to micromanage and seek changes as a way to regain control, which ultimately leads to increased rework and project delays in legacy systems.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.417, Strength: 0.772">ⓘ</span>
-<br/>  The lack of engagement in the review process reflects a disengagement from quality assurance practices, signaling to stakeholders that the development team may not be fully committed or capable of meeting project standards, thus eroding their confidence in the team's reliability.
-- [Negative User Feedback](negative-user-feedback.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.770">ⓘ</span>
-<br/>  Negative user feedback serves as a clear indicator of stakeholder confidence loss, as persistent performance issues in legacy systems signal the development team's inability to effectively address technical debt and deliver reliable solutions, thereby eroding trust and collaboration with business partners.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.716">ⓘ</span>
-<br/>  The ongoing misunderstanding between stakeholder expectations and the development team's output, often exacerbated by outdated documentation and unclear requirements in legacy systems, serves as a visible indicator of diminishing trust in the team's reliability to fulfill commitments.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.690">ⓘ</span>
-<br/>  Intensified deadline pressure arises when stakeholders doubt the team's reliability, prompting rushed decisions and shortcuts that compromise quality, thereby further eroding trust in the development process.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.748">ⓘ</span>
-<br/>  As stakeholders become disillusioned with the development team's reliability, they may pressure for faster delivery, leading to insufficient time for testing and refinement, which directly results in lower-quality features that fail to meet user expectations.
 
-## Root Causes ▼
+- [Micromanagement Culture](micromanagement-culture.md)
+<br/>  When stakeholders lose confidence, they impose excessive oversight and approval requirements on the development team, reducing autonomy.
+- [Budget Overruns](budget-overruns.md)
+<br/>  Lost confidence leads stakeholders to impose additional oversight processes, external audits, or redundant work that increases project costs.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Adversarial relationships and excessive scrutiny from distrustful stakeholders slow down the team through additional reporting and approval requirements.
+- [Communication Breakdown](communication-breakdown.md)
+<br/>  Loss of trust causes stakeholders to reduce collaborative communication, leading to directive-only interactions and information withholding.
+- [Declining Business Metrics](declining-business-metrics.md)
+<br/>  Reduced stakeholder support leads to decreased investment, fewer approved projects, and ultimately declining business outcomes.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Delayed Project Timelines](delayed-project-timelines.md)
+<br/>  Consistently missing delivery dates erodes stakeholder trust in the team's ability to meet commitments.
+- [Misaligned Deliverables](misaligned-deliverables.md)
+<br/>  Delivering features that don't match stakeholder expectations demonstrates a lack of understanding and damages confidence.
+- [Planning Credibility Issues](planning-credibility-issues.md)
+<br/>  A history of inaccurate estimates and missed predictions directly undermines stakeholder faith in the team's planning capabilities.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Frequent production bugs visible to stakeholders signal poor quality and erode confidence in the team's technical competence.
+- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
+<br/>  Persistent misunderstandings between stakeholders and developers lead to unmet expectations that gradually destroy trust.
+- [Communication Risk Outside Project](communication-risk-outside-project.md)
+<br/>  Repeated surprises about project status erode stakeholder trust in the development team's reliability.
+- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
+<br/>  When deadlines keep shifting, stakeholders lose trust in the development team's ability to deliver on commitments.
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  Data protection incidents erode stakeholder trust in the development team's ability to handle sensitive data responsibly.
+- [Declining Business Metrics](declining-business-metrics.md)
+<br/>  Deteriorating business metrics directly erode stakeholder trust in the development team's ability to deliver value.
+- [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
+<br/>  Repeated release failures and rollbacks erode business stakeholders' trust in the development team's ability to deliver.
+- [Incomplete Projects](incomplete-projects.md)
+<br/>  Repeated failure to finish projects erodes stakeholder trust in the team's ability to deliver.
+- [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
+<br/>  Repeated large estimates for small work erodes business confidence in the team's ability to deliver efficiently.
+- [Poor Project Control](poor-project-control.md)
+<br/>  When problems surface late due to poor monitoring, stakeholders lose confidence in project management capability.
+- [Release Instability](release-instability.md)
+<br/>  Business stakeholders lose trust in the development team's ability to deliver reliable software when releases consistently cause problems.
+- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
+<br/>  Prolonged dissatisfaction leads stakeholders to lose trust in the development team's ability to deliver.
+- [Stakeholder Frustration](stakeholder-frustration.md)
+<br/>  Sustained frustration with the development team causes stakeholders to lose faith in the team's capabilities.
+- [Strangler Fig Pattern Failures](strangler-fig-pattern-failures.md)
+<br/>  Repeated delays and escalating costs in the modernization effort erode stakeholder trust in the technical approach.
+- [System Outages](system-outages.md)
+<br/>  Frequent outages cause business stakeholders to lose confidence in the technical team's ability to maintain reliable systems.
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  When users lose trust, stakeholders lose confidence in the product team's ability to deliver a reliable system.
 
 ## Detection Methods ○
 

@@ -33,36 +33,45 @@ Difficult to test code refers to software components that cannot be easily or ef
 - Test execution is slow due to complex dependencies
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.453, Strength: 0.665">ⓘ</span>
-<br/>  The inability to test components in isolation due to tight coupling and complex dependencies leads to gaps in test coverage, as developers are hindered from effectively writing tests for critical parts of the codebase, thereby exposing blind spots in quality assurance.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.684">ⓘ</span>
-<br/>  The inability to easily test code in isolation leads to a reliance on developers who are familiar with the legacy systems, thereby creating a critical shortage of skilled personnel as knowledge becomes concentrated and harder to disseminate.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.560">ⓘ</span>
-<br/>  The difficulty in testing code in isolation leads to a reliance on a slow and cumbersome development environment, as developers spend excessive time managing complex setups and debugging intertwined components rather than efficiently validating individual modules.
 
-## Root Causes ▼
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.440, Strength: 0.914">ⓘ</span>
-<br/>  The difficulty in testing code arises because developers accustomed to procedural programming often create tightly coupled, interdependent components, which complicates isolation for testing and undermines the advantages of object-oriented design principles.
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.926">ⓘ</span>
-<br/>  Shared libraries and frameworks create intertwined dependencies among components, making it challenging to isolate and test individual units due to their reliance on common elements that are difficult to mock or replicate in a testing environment.
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.933">ⓘ</span>
-<br/>  Insufficient production monitoring prevents the identification of tightly coupled components and their interdependencies, leading to a lack of understanding of the code's behavior and making it challenging to isolate and test individual elements effectively.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.920">ⓘ</span>
-<br/>  Tightly coupled cross-cutting concerns embed themselves within the business logic, creating dependencies that hinder isolation during testing and complicate the setup, thereby making the code difficult to test effectively.
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.911">ⓘ</span>
-<br/>  The reliance on a single database for multiple components creates tight coupling and hidden dependencies, making it challenging to isolate and test individual parts of the code effectively.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.902">ⓘ</span>
-<br/>  A lack of understanding of object-oriented programming principles leads to tightly coupled components with global dependencies, making it challenging to isolate and test individual units of code effectively.
-- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.858">ⓘ</span>
-<br/>  The lack of cohesive bundling of data and behavior increases reliance on shared state and global dependencies, making it challenging to isolate components for testing and thereby complicating the testing process in legacy systems.
-- [Data Migration Complexities](data-migration-complexities.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.823">ⓘ</span>
-<br/>  Complex data migration processes introduce tightly coupled dependencies and intricate setup requirements, making it challenging to isolate and effectively test individual components within the system.
-- [Hardcoded Values](hardcoded-values.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.790">ⓘ</span>
-<br/>  Hardcoded values create rigid dependencies within the code, making it challenging to isolate components for testing, as modifications in one area can inadvertently affect others, thereby complicating the testing process in legacy systems.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.928">ⓘ</span>
-<br/>  The lack of design skills leads to tightly coupled components and convoluted dependencies, resulting in a codebase that is difficult to test in isolation due to poor architectural choices and inadequate separation of concerns.
-- [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.863">ⓘ</span>
-<br/>  The inconsistent behavior experienced by end users often arises from tightly coupled components that cannot be tested in isolation, leading to unaddressed integration issues and contributing to a lack of trust in the system.
+- [Poor Test Coverage](poor-test-coverage.md)
+<br/>  When code is hard to test, developers skip writing tests, resulting in low test coverage.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Code that is difficult to test gradually accumulates into a large untested legacy codebase.
+- [High Bug Introduction Rate](high-bug-introduction-rate.md)
+<br/>  Without adequate tests as a safety net, changes frequently introduce new bugs.
+- [Fear of Change](fear-of-change.md)
+<br/>  Developers are reluctant to modify untested code because they cannot verify their changes don't break anything.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Without tests to catch regressions, previously fixed bugs resurface when code is modified.
+- [Increased Manual Testing Effort](increased-manual-testing-effort.md)
+<br/>  When automated testing is impractical, teams fall back on expensive and slow manual testing.
+
+## Causes ▼
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Tightly coupled components cannot be isolated for unit testing, requiring complex setup of the entire dependency chain.
+- [Global State and Side Effects](global-state-and-side-effects.md)
+<br/>  Global state and hidden side effects make it impossible to test components in isolation with predictable results.
+- [God Object Anti-Pattern](god-object-anti-pattern.md)
+<br/>  God objects with many responsibilities and dependencies require extensive mocking to test even simple functionality.
+- [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
+<br/>  Large functions that do many things require testing entire workflows rather than individual behaviors.
+- [Circular Dependency Problems](circular-dependency-problems.md)
+<br/>  Circular dependencies prevent components from being tested in isolation, requiring complex mocking setups.
+- [Excessive Class Size](excessive-class-size.md)
+<br/>  Large classes with many responsibilities and dependencies are extremely hard to test in isolation.
+- [Hidden Side Effects](hidden-side-effects.md)
+<br/>  Functions with hidden side effects require extensive mocking of databases, services, and caches to test even simple calculations.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  Tightly coupled components cannot be tested in isolation because they depend heavily on other components.
+- [Over-Reliance on Utility Classes](over-reliance-on-utility-classes.md)
+<br/>  Static utility methods create hard dependencies that cannot be easily mocked or substituted, making unit testing difficult.
+- [Poor Encapsulation](poor-encapsulation.md)
+<br/>  Without encapsulation, components are hard to test in isolation because they depend on and expose shared mutable state.
+- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
+<br/>  Components handling multiple unrelated concerns are difficult to test in isolation due to complex dependencies.
+- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md)
+<br/>  Business logic intertwined with cross-cutting concerns cannot be tested in isolation without also exercising logging, security, etc.
 
 ## Detection Methods ○
 - **Test Coverage Analysis:** Low coverage in specific modules often indicates testing difficulties

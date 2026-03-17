@@ -29,20 +29,13 @@ SQL injection vulnerabilities occur when applications fail to properly sanitize 
 
 ## Symptoms ▲
 
-- **Unauthorized Data Access:** Attackers retrieving sensitive data from database tables
-- **Data Manipulation:** Unauthorized modification or deletion of database records
-- **Authentication Bypass:** SQL injection used to bypass login mechanisms
-- **Database Schema Disclosure:** Attackers extracting database structure information
-- **Command Execution:** Advanced SQL injection leading to operating system command execution
 
-## Root Causes ▼
+- [System Outages](system-outages.md)
+<br/>  Destructive SQL injection attacks like DROP TABLE can cause system outages by destroying critical data.
 
-- **Dynamic Query Construction:** Building SQL queries through string concatenation with user input
-- **Missing Parameterized Queries:** Not using prepared statements or parameterized queries
-- **Inadequate Input Validation:** Insufficient validation and sanitization of user input
-- **Excessive Database Privileges:** Database connections using accounts with unnecessary privileges
-- **Error Information Disclosure:** Database error messages revealing query structure or data
-- **Second-Order SQL Injection:** Stored user input later used unsafely in SQL queries
+## Causes ▼
+- [Error Message Information Disclosure](error-message-information-disclosure.md)
+<br/>  Detailed database error messages reveal schema information that attackers use to craft targeted SQL injection attacks.
 
 ## Detection Methods ○
 

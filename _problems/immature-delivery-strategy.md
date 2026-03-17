@@ -34,30 +34,23 @@ An immature delivery strategy reflects the absence of well-defined, tested, and 
 - Production deployments often result in unexpected behavior or outages
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.505, Strength: 0.739">ⓘ</span>
-<br/>  Inconsistent and improvised software rollout processes lead to insufficient testing practices, resulting in critical code areas being left untested and creating vulnerabilities that manifest as increased downtime and user confusion.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.467, Strength: 0.678">ⓘ</span>
-<br/>  The lack of a mature delivery strategy leads to poorly defined project scopes and insufficient stakeholder alignment, resulting in frequent requirement changes as teams attempt to adapt to evolving needs, thereby exacerbating rework and delays.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.428, Strength: 0.726">ⓘ</span>
-<br/>  Improvised and inconsistent software rollout processes often lead to inadequate resource management, resulting in allocated system resources that are not properly deallocated or closed, which indicates a failure in delivery strategy execution.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.421, Strength: 0.695">ⓘ</span>
-<br/>  The lack of a structured and mature rollout process leads to inadequate documentation and knowledge transfer, resulting in a critical shortage of developers skilled in legacy technologies, which creates maintenance bottlenecks and increases the risk of system failures.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.410, Strength: 0.621">ⓘ</span>
-<br/>  The lack of a mature delivery strategy leads to poorly planned software rollouts that struggle to adequately address the inherent complexity of the business domain, resulting in a system that is both difficult to implement and confusing for users.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.361, Strength: 0.658">ⓘ</span>
-<br/>  Inconsistent and poorly planned software rollout processes lead to outdated legacy systems that fail to adapt to evolving regulatory requirements, resulting in compliance gaps that serve as clear indicators of an ineffective delivery strategy.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.685">ⓘ</span>
-<br/>  Inconsistent and poorly planned software rollout processes lead to confusion and frequent downtime, which in turn disrupts development workflows and decreases overall team productivity as they spend more time addressing urgent issues rather than focusing on effective development.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.725">ⓘ</span>
-<br/>  The pressure to meet tight deadlines often results in hasty development practices and poor planning, which reflect the underlying immaturity of the software delivery strategy, as the lack of structured processes leads teams to prioritize speed over quality and consistency.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.697">ⓘ</span>
-<br/>  The lack of a structured and mature rollout process leads to inconsistent requirements gathering and feedback loops, causing misunderstandings between stakeholders and developers that result in rework and user dissatisfaction.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.605">ⓘ</span>
-<br/>  Inconsistent and poorly planned software rollout processes hinder the effectiveness of code reviews, as lack of structured guidelines and communication leads to overlooked issues and insufficient feedback, ultimately degrading code quality and increasing the risk of defects in production.
 
-## Root Causes ▼
+- [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
+<br/>  Poorly planned deployments often require immediate corrective actions when issues are discovered post-release.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Inconsistent deployment processes lead to configuration errors and missed steps that introduce defects into production.
+- [History of Failed Changes](history-of-failed-changes.md)
+<br/>  Immature delivery processes produce repeated deployment failures that accumulate into a pattern of failed changes.
+- [Deployment Risk](deployment-risk.md)
+<br/>  Without standardized, tested delivery processes, each deployment carries unpredictable risk of failure.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Manual Deployment Processes](manual-deployment-processes.md)
+<br/>  Reliance on manual steps instead of automation makes deployments error-prone and inconsistent.
+- [Poor Operational Concept](poor-operational-concept.md)
+<br/>  A weak understanding of operational requirements leads to delivery processes that don't account for production needs.
+- [Missing Rollback Strategy](missing-rollback-strategy.md)
+<br/>  Without planned rollback procedures, teams have no safety net when deployments fail, worsening the impact.
 
 ## Detection Methods ○
 

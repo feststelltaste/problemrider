@@ -34,22 +34,33 @@ Rushed approvals occur when code reviews are completed hastily without adequate 
 - Review approval times are consistently short across all types of changes
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.644">ⓘ</span>
-<br/>  The lack of thorough examination during rapid approvals leads to overlooked nuances in the requirements, resulting in frequent updates and changes that necessitate rework and trigger delays in legacy systems.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.619">ⓘ</span>
-<br/>  The lack of thorough examination in code reviews can lead to the introduction of inefficient or faulty code, which, when deployed, may cause services to time out while waiting for responses from APIs that are not handling requests effectively.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.635">ⓘ</span>
-<br/>  The slow and cumbersome development environment hinders the team's ability to effectively review code changes, leading to rushed approvals as developers prioritize speed over thoroughness to mitigate delays.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.603">ⓘ</span>
-<br/>  The tendency to quickly approve pull requests without thorough review leads to inadequate coordination among developers, resulting in overlapping changes to the same code areas and subsequently causing frequent version control conflicts.
-- [Lower Code Quality](lower-code-quality.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.644">ⓘ</span>
-<br/>  Quick approvals driven by time constraints lead to insufficient code reviews, resulting in developers overlooking issues and increasing the likelihood of defects in the software.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.610">ⓘ</span>
-<br/>  The hurried approval of pull requests leads to a superficial review process that neglects critical assessments and constructive feedback, ultimately resulting in unresolved quality issues within the legacy codebase.
 
-## Root Causes ▼
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Hastily approved code bypasses quality scrutiny, allowing more bugs and design flaws to reach production.
+- [Review Process Breakdown](review-process-breakdown.md)
+<br/>  Widespread rushed approvals undermine the entire review process, making it ineffective as a quality gate.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Reviewers who don't carefully examine changes miss regressions that break existing functionality.
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Quick approvals skip enforcement of coding standards, allowing inconsistent patterns to enter the codebase.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Without thorough review, design shortcuts and poor patterns accumulate in the codebase as technical debt.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Time Pressure](time-pressure.md)
+<br/>  Deadline pressure forces reviewers to prioritize speed over thoroughness, leading to superficial approvals.
+- [Review Bottlenecks](review-bottlenecks.md)
+<br/>  When a large backlog of pull requests creates pressure, reviewers rush through approvals to clear the queue.
+- [Large Pull Requests](large-pull-requests.md)
+<br/>  Overwhelmingly large pull requests discourage thorough review, leading reviewers to skim and approve rather than invest the significant time needed.
+- [Reviewer Inexperience](reviewer-inexperience.md)
+<br/>  Inexperienced reviewers who cannot identify real issues default to quick approval rather than admitting they don't understand the code.
+- [Approval Dependencies](approval-dependencies.md)
+<br/>  Backlog pressure from accumulated approval requests leads approvers to rush through decisions.
+- [Fear of Conflict](fear-of-conflict.md)
+<br/>  Reviewers approve pull requests quickly to avoid the discomfort of providing critical feedback.
+- [Reviewer Anxiety](reviewer-anxiety.md)
+<br/>  Anxious reviewers may quickly approve changes to avoid the discomfort of providing potentially wrong or controversial feedback.
 
 ## Detection Methods ○
 - **Review Time Analysis:** Track how long reviewers spend examining code relative to change complexity

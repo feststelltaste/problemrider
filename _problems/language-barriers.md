@@ -35,24 +35,23 @@ Language barriers occur when team members speak different native languages or us
 - Non-native speakers struggle to express complex ideas in the working language
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.428, Strength: 0.701">ⓘ</span>
-<br/>  The inability to effectively communicate technical requirements and terminology in a shared language leads to a lack of collaboration and knowledge transfer, resulting in a diminished pool of developers proficient in outdated technologies, which ultimately creates critical maintenance bottlenecks.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.770">ⓘ</span>
-<br/>  Differences in language or terminology can lead to misinterpretation of requirements and unclear objectives, causing teams to become mired in extensive research and discussion without reaching consensus for implementation, thus stalling progress in development work.
-- [Unmotivated Employees](unmotivated-employees.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.691">ⓘ</span>
-<br/>  Ineffective communication due to differing language and terminology leads to misunderstandings and frustrations among team members, resulting in disengagement and decreased motivation, which ultimately hampers project success in legacy systems.
-- [New Hire Frustration](new-hire-frustration.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.724">ⓘ</span>
-<br/>  Differences in language or terminology create confusion and misinterpretation among team members, leading to new hires feeling isolated and unable to contribute effectively, thus highlighting the underlying communication issues within the legacy system.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.735">ⓘ</span>
-<br/>  Ineffective communication caused by differing language and terminology leads to misunderstandings and delays in task completion, resulting in diminished productivity and output within the development team.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.731">ⓘ</span>
-<br/>  Differences in language and terminology can lead to misinterpretations of requirements, causing a disconnect between stakeholder expectations and the actual output of the development team, which manifests as rework and dissatisfaction.
 
-## Root Causes ▼
-- [Implicit Knowledge](implicit-knowledge.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.661">ⓘ</span>
-<br/>  The reliance on unwritten assumptions and undocumented practices creates a gap in shared terminology and understanding, leading to language barriers that obstruct effective communication within the team.
-- [Scope Change Resistance](scope-change-resistance.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.738">ⓘ</span>
-<br/>  Resistance to necessary changes in project scope limits the adoption of standardized terminology and communication practices, exacerbating language barriers within the team and hindering effective collaboration on legacy systems.
+- [Communication Breakdown](communication-breakdown.md)
+<br/>  Language barriers directly cause breakdowns in team communication as members cannot effectively share information or coordinate work.
+- [Misaligned Deliverables](misaligned-deliverables.md)
+<br/>  Misunderstandings caused by language differences lead to developers building features that don't match stakeholder expectations.
+- [Duplicated Work](duplicated-work.md)
+<br/>  When team members cannot communicate effectively due to language barriers, they may unknowingly work on the same problems independently.
+- [Team Confusion](team-confusion.md)
+<br/>  Different interpretations of technical terms and requirements due to language differences create confusion about project goals and priorities.
+- [Slow Knowledge Transfer](slow-knowledge-transfer.md)
+<br/>  Language differences slow down the process of sharing system knowledge between team members, as explanations require more time and effort.
+
+## Causes ▼
+- [Rapid Team Growth](rapid-team-growth.md)
+<br/>  Rapid hiring from diverse geographies brings team members with different native languages and communication styles without time to establish shared terminology.
+- [Team Silos](team-silos.md)
+<br/>  When teams work in isolation, they develop their own terminology and jargon, creating language barriers when they need to collaborate across silos.
 
 ## Detection Methods ○
 

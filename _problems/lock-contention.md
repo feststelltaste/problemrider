@@ -34,14 +34,29 @@ Lock contention occurs when multiple threads frequently compete for the same syn
 - CPU utilization is low despite high thread activity
 
 ## Symptoms ▲
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.401, Strength: 0.802">ⓘ</span>
-<br/>  When multiple threads experience blocking due to competing for the same locks, it can lead to a slowdown in the decision-making process as teams become hesitant to proceed without clear direction, ultimately stalling progress in development efforts.
-- [Team Dysfunction](team-dysfunction.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.773">ⓘ</span>
-<br/>  When multiple threads are blocked due to competing for the same locks, it can lead to increased frustration and misalignment among team members, as they struggle to collaborate effectively in a system that is hindered by these technical bottlenecks.
 
-## Root Causes ▼
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Lock contention causes threads to block instead of doing useful work, directly degrading application response times and throughput.
+- [Thread Pool Exhaustion](thread-pool-exhaustion.md)
+<br/>  Threads blocked waiting for contested locks remain occupied, eventually exhausting the available thread pool.
+- [Deadlock Conditions](deadlock-conditions.md)
+<br/>  High lock contention increases the probability of circular lock dependencies, leading to deadlocks.
+- [Scaling Inefficiencies](scaling-inefficiencies.md)
+<br/>  Adding more threads or cores provides diminishing or negative returns when they all contend for the same locks.
+- [Resource Contention](resource-contention.md)
+<br/>  Lock contention is a direct form of resource contention where threads compete for synchronization primitives rather than doing productive work.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [God Object Anti-Pattern](god-object-anti-pattern.md)
+<br/>  A god object that centralizes state forces all threads to synchronize through a single lock protecting that shared state.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  Tightly coupled components that share mutable state require coarse-grained locking, increasing contention.
+- [Global State and Side Effects](global-state-and-side-effects.md)
+<br/>  Global mutable state requires locks for thread safety, and widely accessed globals become natural contention hotspots.
+- [Long-Running Database Transactions](long-running-database-transactions.md)
+<br/>  Long-held database locks block other queries trying to access the same rows or tables, creating contention.
+- [Long-Running Transactions](long-running-transactions.md)
+<br/>  Transactions holding locks for extended periods cause other operations to block, waiting for those locks to be released.
 
 ## Detection Methods ○
 

@@ -35,48 +35,77 @@ System outages occur when software systems become unavailable, unresponsive, or 
 - Recovery time from failures is consistently long
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.636, Strength: 0.821">ⓘ</span>
-<br/>  Frequent service interruptions lead to delayed responses from upstream APIs, causing timeouts that signal underlying system instability and contribute to overall operational disruptions.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.602, Strength: 0.797">ⓘ</span>
-<br/>  Constant system outages create a reactive environment where stakeholders frequently alter requirements to address immediate issues, leading to ongoing changes and rework as developers attempt to adapt to shifting priorities rather than a stable set of expectations.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.593, Strength: 0.857">ⓘ</span>
-<br/>  The frequent service interruptions and system failures are indicative of a critical shortage of developers skilled in maintaining legacy technologies, as the lack of expertise leads to inadequate support and increased vulnerability to outages.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.573, Strength: 0.904">ⓘ</span>
-<br/>  Frequent service interruptions can lead to inconsistent test environments and unpredictable behavior in dependencies, causing tests to fail sporadically and eroding confidence in the test suite's reliability.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.566, Strength: 0.818">ⓘ</span>
-<br/>  Frequent service interruptions lead to user frustration and inability to complete tasks, resulting in an increased volume of support inquiries as users seek assistance to resolve issues caused by the system's unreliability.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.508, Strength: 0.882">ⓘ</span>
-<br/>  Frequent service interruptions in legacy systems lead teams to overanalyze potential solutions and risks, resulting in prolonged indecision and stagnation in implementation efforts.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.471, Strength: 0.767">ⓘ</span>
-<br/>  Frequent system outages can be traced to unreleased resources, as the accumulation of allocated but unclosed objects and connections can lead to memory leaks and resource exhaustion, ultimately causing system instability and failures.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.468, Strength: 0.901">ⓘ</span>
-<br/>  Excessive hardware interrupts, which lead to frequent context switches and hinder CPU execution flow, often indicate underlying system instability, manifesting as frequent service interruptions and failures in legacy systems.
-- [Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.798">ⓘ</span>
-<br/>  Frequent system outages disrupt data flow and integrity, leading to inconsistencies that manifest as cross-system synchronization issues during migration efforts between legacy and modern systems.
-- [Negative User Feedback](negative-user-feedback.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.872">ⓘ</span>
-<br/>  Frequent system outages lead to performance degradation, resulting in slow loading times and application freezes that users experience, which in turn generates negative feedback as a direct response to their frustrations with the application’s reliability.
-- [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md) <span class="info-tooltip" title="Confidence: 0.417, Strength: 0.863">ⓘ</span>
-<br/>  Frequent service interruptions lead to reduced availability of experienced personnel for training new team members, resulting in inconsistent onboarding experiences that highlight the underlying instability of the system.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.898">ⓘ</span>
-<br/>  Frequent service interruptions are often a result of improperly tracked versions of code and infrastructure, which can lead to deployment errors and increase the likelihood of system failures in legacy environments.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.379, Strength: 0.885">ⓘ</span>
-<br/>  Frequent service interruptions consume the team's resources and focus on urgent maintenance, leaving little capacity for strategic innovation and long-term improvements in the legacy system.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.889">ⓘ</span>
-<br/>  Frequent service interruptions lead to unmet project timelines and unreliable system performance, causing stakeholders to lose confidence and become dissatisfied with the overall outcomes and communication regarding development efforts.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.842">ⓘ</span>
-<br/>  Frequent system outages can be traced back to memory leaks, as the accumulation of unreleased memory depletes system resources, leading to performance degradation that ultimately results in service interruptions and application crashes.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.841">ⓘ</span>
-<br/>  Frequent system outages divert development resources towards urgent fixes and recovery efforts, leaving less time for enhancing and refining features, which ultimately degrades the quality of user experiences and functionality.
-- [System Integration Blindness](system-integration-blindness.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.856">ⓘ</span>
-<br/>  Frequent service interruptions indicate that while individual components may perform well in isolation, their lack of cohesive integration exposes underlying system flaws and misalignments that contribute to overall system failures.
-- [Team Dysfunction](team-dysfunction.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.838">ⓘ</span>
-<br/>  Frequent system outages create a chaotic environment that hampers team collaboration, as frustration over unresolved technical issues leads to misaligned priorities and communication breakdowns, thereby highlighting underlying dysfunction within the team.
-- [Unclear Documentation Ownership](unclear-documentation-ownership.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.825">ⓘ</span>
-<br/>  Frequent system outages can stem from unclear ownership of documentation, as the lack of accountability leads to outdated or missing information that hinders troubleshooting and maintenance efforts, ultimately exacerbating service interruptions.
 
-## Root Causes ▼
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Repeated service interruptions frustrate users and erode their satisfaction with the product.
+- [Declining Business Metrics](declining-business-metrics.md)
+<br/>  Outages directly reduce revenue, user engagement, and other business metrics during downtime periods.
+- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
+<br/>  Frequent outages cause business stakeholders to lose confidence in the technical team's ability to maintain reliable systems.
+- [Constant Firefighting](constant-firefighting.md)
+<br/>  Frequent outages keep the development team occupied with emergency response rather than planned development work.
+- [Increased Customer Support Load](increased-customer-support-load.md)
+<br/>  Users contact support during and after outages, significantly increasing support volume.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Unreliable systems drive users to more stable competitors who can provide consistent service availability.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  Poor error handling allows exceptions to cascade and crash systems rather than being gracefully managed.
+- [Memory Leaks](memory-leaks.md)
+<br/>  Gradual memory consumption from leaks eventually exhausts system resources and causes crashes.
+- [Cascade Failures](cascade-failures.md)
+<br/>  A single component failure triggers chain reactions across dependent components, causing widespread outages.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  Systems that slowly degrade eventually reach tipping points where they fail completely under normal load.
+- [Database Connection Leaks](database-connection-leaks.md)
+<br/>  Leaked database connections exhaust connection pools, preventing the application from functioning.
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Exploited authentication bypasses can lead to system compromise and subsequent outages.
+- [Configuration Chaos](configuration-chaos.md)
+<br/>  Misconfigured or drifted configurations can cause services to fail silently or crash, resulting in system outages.
+- [Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md)
+<br/>  Synchronization process failures during peak usage can cause cascading failures that bring down connected systems.
+- [Data Migration Complexities](data-migration-complexities.md)
+<br/>  Complex migrations requiring extended downtime or failing mid-process directly cause prolonged system unavailability.
+- [Data Migration Integrity Issues](data-migration-integrity-issues.md)
+<br/>  Severe data integrity issues discovered after migration may force emergency halts for re-migration, causing unplanned downtime.
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  Data protection failures can trigger mandatory system shutdowns or service interruptions when breaches are discovered.
+- [Deadlock Conditions](deadlock-conditions.md)
+<br/>  Deadlocks cause parts or all of the application to freeze, effectively creating service outages that require manual intervention.
+- [Deployment Risk](deployment-risk.md)
+<br/>  Risky deployments that go wrong can cause extended outages due to lack of recovery mechanisms.
+- [Inadequate Configuration Management](inadequate-configuration-management.md)
+<br/>  Untracked configuration changes cause unexpected failures when inconsistent settings interact in production.
+- [Large, Risky Releases](large-risky-releases.md)
+<br/>  Failed large releases can cause significant service interruptions due to the complexity of the changes and difficulty of rollback.
+- [Load Balancing Problems](load-balancing-problems.md)
+<br/>  When overloaded instances fail completely due to poor load distribution, it can cascade into full service outages.
+- [Log Injection Vulnerabilities](log-injection-vulnerabilities.md)
+<br/>  Injected format strings or malicious content can crash log processing systems, causing service disruptions.
+- [Null Pointer Dereferences](null-pointer-dereferences.md)
+<br/>  Null pointer dereferences cause application crashes and segmentation faults, directly leading to service interruptions and system outages.
+- [Poor Operational Concept](poor-operational-concept.md)
+<br/>  Inadequate operational planning leads to avoidable outages from missing backup, recovery, or failover mechanisms.
+- [Poor System Environment](poor-system-environment.md)
+<br/>  Misconfigured or under-resourced environments cause frequent unexpected system crashes and outages.
+- [Service Discovery Failures](service-discovery-failures.md)
+<br/>  Widespread service discovery failures can bring down entire distributed systems as services lose the ability to communicate.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Severe performance degradation can cascade into full outages when resources are exhausted.
+- [Slow Incident Resolution](slow-incident-resolution.md)
+<br/>  When incidents take too long to resolve, minor issues escalate into prolonged outages with wider impact.
+- [SQL Injection Vulnerabilities](sql-injection-vulnerabilities.md)
+<br/>  Destructive SQL injection attacks like DROP TABLE can cause system outages by destroying critical data.
+- [Stack Overflow Errors](stack-overflow-errors.md)
+<br/>  Stack overflow errors crash the application, potentially causing outages for users.
+- [Strangler Fig Pattern Failures](strangler-fig-pattern-failures.md)
+<br/>  Data synchronization failures and performance issues in the hybrid system cause service interruptions.
+- [System Integration Blindness](system-integration-blindness.md)
+<br/>  Integration issues that go undetected until deployment cause service failures when components interact under real conditions.
+- [Task Queues Backing Up](task-queues-backing-up.md)
+<br/>  If queues have size limits, backed-up queues can cause message loss or system failures when limits are exceeded.
 
 ## Detection Methods ○
 

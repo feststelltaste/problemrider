@@ -34,78 +34,99 @@ Accumulation of workarounds occurs when developers consistently choose temporary
 - Simple changes require modifications in multiple, seemingly unrelated places
 
 ## Symptoms ▲
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.598, Strength: 0.814">ⓘ</span>
-<br/>  The reliance on complex workarounds to address immediate issues in legacy systems often leads to a neglect of necessary updates, resulting in compliance gaps as regulatory requirements evolve and are not properly integrated into the system.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.578, Strength: 0.807">ⓘ</span>
-<br/>  The accumulation of workarounds obscures the underlying complexities of the business domain, as developers resort to increasingly convoluted solutions that further complicate the system's architecture and hinder clear understanding and implementation.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.536, Strength: 0.775">ⓘ</span>
-<br/>  The increasing complexity from numerous workarounds hinders knowledge transfer and documentation efforts, leading to a critical shortage of developers capable of maintaining the system effectively.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.528, Strength: 0.777">ⓘ</span>
-<br/>  As developers implement complex workarounds instead of addressing underlying issues, users struggle to navigate the increasingly convoluted system, leading to a rise in support requests stemming from their frustrations and unmet needs.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.521, Strength: 0.744">ⓘ</span>
-<br/>  Frequent updates to project requirements often arise as developers attempt to compensate for unresolved core issues, leading to a cycle where workarounds become necessary, thus indicating a deeper problem with the system's foundational stability and design.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.517, Strength: 0.743">ⓘ</span>
-<br/>  The reliance on increasingly complex workarounds to address unresolved core issues leads to developer frustration and burnout, as they face a constantly evolving and convoluted codebase that hinders productivity and job satisfaction.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.507, Strength: 0.821">ⓘ</span>
-<br/>  The creation of elaborate workarounds to address unresolved core issues leads to increased complexity and technical debt, which in turn hampers the development team's efficiency and output, making reduced productivity a clear indicator of the underlying accumulation of these workarounds.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.507, Strength: 0.820">ⓘ</span>
-<br/>  The creation of elaborate workarounds to avoid addressing core issues leads to increased complexity in the codebase, ultimately hindering the team's ability to implement new features and fix bugs efficiently, which manifests as a decline in overall development velocity.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.708">ⓘ</span>
-<br/>  The creation of complex workarounds often leads to poor test coverage, as developers prioritize quick fixes over comprehensive testing, resulting in critical code paths remaining unverified and increasing the risk of undetected bugs in the legacy system.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.492, Strength: 0.769">ⓘ</span>
-<br/>  The reliance on complex workarounds diverts focus and resources from innovation, as teams become preoccupied with maintaining fragile solutions instead of exploring new ideas or improvements.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.479, Strength: 0.784">ⓘ</span>
-<br/>  The implementation of complex workarounds often introduces unpredictable interactions and dependencies within the codebase, leading to unstable test environments that result in flaky tests, which signal underlying issues that remain unaddressed.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.478, Strength: 0.737">ⓘ</span>
-<br/>  The creation of complex workarounds often leads to poor resource management practices, resulting in unreleased system resources that accumulate as developers prioritize temporary fixes over proper handling and cleanup.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.447, Strength: 0.831">ⓘ</span>
-<br/>  The reliance on complex workarounds often stems from inherent limitations in the system's architecture, leading to decreased performance and maintainability, which in turn highlights the need for a more robust underlying design to effectively address core issues.
-- [Knowledge Silos](knowledge-silos.md) <span class="info-tooltip" title="Confidence: 0.445, Strength: 0.770">ⓘ</span>
-<br/>  The creation of complex workarounds often leads to a reliance on individual expertise, resulting in knowledge silos that hinder collaborative problem-solving and the sharing of critical insights necessary for addressing core issues in legacy systems.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.429, Strength: 0.780">ⓘ</span>
-<br/>  The reliance on elaborate workarounds diverts focus from resolving underlying issues, leading teams to overanalyze potential solutions without progressing to implementation, thereby stalling development efforts.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.763">ⓘ</span>
-<br/>  The reliance on complex workarounds often leads to inefficient data management practices, resulting in unbounded data growth as developers neglect proper data handling in favor of short-term solutions that fail to address underlying issues.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.800">ⓘ</span>
-<br/>  Conflicting priorities from multiple stakeholders lead to confusion and misalignment within the development team, resulting in the creation of complex workarounds instead of addressing fundamental issues, thereby increasing technical debt and complicating the legacy system further.
-- [Large Pull Requests](large-pull-requests.md) <span class="info-tooltip" title="Confidence: 0.410, Strength: 0.678">ⓘ</span>
-<br/>  The creation of elaborate workarounds leads to increased complexity in the codebase, resulting in larger pull requests that are difficult to review thoroughly, thereby obscuring underlying issues and perpetuating technical debt.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.744">ⓘ</span>
-<br/>  The slow and cumbersome development environment arises as developers navigate through complex workarounds, which further hinders efficiency and slows down the resolution of core issues, creating a feedback loop that perpetuates both the technical debt and the inefficiencies in the system.
-- [New Hire Frustration](new-hire-frustration.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.801">ⓘ</span>
-<br/>  The accumulation of workarounds complicates the codebase and diminishes clarity, leading to new hires struggling to navigate the intricacies and effectively engage with the system, thereby highlighting the underlying issues that need resolution.
-- [Complex Implementation Paths](complex-implementation-paths.md) <span class="info-tooltip" title="Confidence: 0.387, Strength: 0.791">ⓘ</span>
-<br/>  The creation of elaborate workarounds to avoid addressing core issues leads to convoluted technical solutions for simple business requirements, indicating an underlying complexity and technical debt in the system's architecture.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.379, Strength: 0.786">ⓘ</span>
-<br/>  The reliance on complex workarounds diverts developers' focus from addressing core issues, leading to a continuous cycle of maintenance that consumes their bandwidth and stifles opportunities for innovation.
-- [Increased Manual Work](increased-manual-work.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.678">ⓘ</span>
-<br/>  The reliance on complex workarounds often necessitates repetitive manual tasks to accommodate the limitations of the legacy system, leading to a significant decrease in efficiency and further diverting developers' focus from essential improvements.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.793">ⓘ</span>
-<br/>  The failure to properly track code and configuration changes often arises from the reliance on complex workarounds, which obscure the original system architecture and make it difficult to maintain a clear version history, leading to errors and rollback challenges.
-- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.817">ⓘ</span>
-<br/>  The reliance on workarounds to address unresolved core issues leads to the creation of complex and inconsistent APIs, resulting in versioning challenges that highlight the underlying technical debt in legacy systems.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.800">ⓘ</span>
-<br/>  The accumulation of workarounds often stems from misaligned expectations between stakeholders and developers, causing the team to implement temporary fixes that fail to address the underlying issues, thereby indicating a deeper communication gap that perpetuates technical debt and rework.
-- [Author Frustration](author-frustration.md) <span class="info-tooltip" title="Confidence: 0.354, Strength: 0.809">ⓘ</span>
-<br/>  Frustration arises during code reviews as developers encounter unpredictable feedback stemming from the convoluted and inconsistent nature of workarounds, which obscure the original intent of the code and complicate the review process.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.821">ⓘ</span>
-<br/>  Intense deadline pressure forces developers to prioritize immediate functionality over long-term solutions, resulting in the creation of complex workarounds that obscure underlying issues and increase technical debt within legacy systems.
-- [Lower Code Quality](lower-code-quality.md) <span class="info-tooltip" title="Confidence: 0.344, Strength: 0.685">ⓘ</span>
-<br/>  The reliance on complex workarounds diverts developers' attention from addressing fundamental issues, resulting in rushed fixes and errors that degrade overall code quality.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.332, Strength: 0.837">ⓘ</span>
-<br/>  The reliance on complex workarounds to address unresolved core issues leads to an increasingly convoluted codebase, making maintenance and scalability more challenging, which in turn highlights the underlying difficulties posed by an unwieldy monolithic architecture.
-- [Integration Difficulties](integration-difficulties.md) <span class="info-tooltip" title="Confidence: 0.332, Strength: 0.814">ⓘ</span>
-<br/>  The extensive workarounds developed to address unresolved core issues lead to integration difficulties, as these makeshift solutions often rely on outdated architecture and patterns that hinder seamless connectivity with modern services.
-- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.765">ⓘ</span>
-<br/>  The lack of a systematic mentoring approach results in new developers relying on complex workarounds rather than understanding and addressing core issues, perpetuating technical debt and complicating system maintenance.
-- [Feature Factory](feature-factory.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.611">ⓘ</span>
-<br/>  The tendency to prioritize rapid feature delivery over resolving underlying issues leads to the creation of complex workarounds, as developers focus on temporary solutions rather than addressing the root causes of technical debt, which ultimately manifests as an accumulation of inefficient and convoluted system processes.
-- [Team Coordination Issues](team-coordination-issues.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.760">ⓘ</span>
-<br/>  The complexity and inconsistency introduced by numerous workarounds create confusion and misalignment among developers, leading to coordination issues as teams struggle to navigate an increasingly convoluted codebase.
 
-## Root Causes ▼
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Each workaround adds complexity and technical debt to the system, compounding over time.
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  Multiple alternative code paths and conditional workarounds make the code extremely hard to understand.
+- [Increased Risk of Bugs](increased-risk-of-bugs.md)
+<br/>  Layered workarounds create unexpected interactions and edge cases that increase the likelihood of bugs.
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  Each new feature or fix must navigate around existing workarounds, significantly increasing maintenance effort.
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  Interconnected workarounds create fragile code where modifying one workaround can break others.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  New features take longer because developers must understand and work around the existing web of workarounds.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Deadline Pressure](deadline-pressure.md)
+<br/>  Time pressure drives developers to implement quick workarounds rather than proper fixes.
+- [Fear of Breaking Changes](fear-of-breaking-changes.md)
+<br/>  Developers create workarounds instead of fixing root causes because they fear that modifying core logic will break the system.
+- [Refactoring Avoidance](refactoring-avoidance.md)
+<br/>  When teams avoid refactoring, problems are patched with workarounds instead of being properly resolved.
+- [Workaround Culture](workaround-culture.md)
+<br/>  An organizational culture that normalizes and rewards quick fixes over proper solutions directly drives workaround accumulation.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Without tests as a safety net, developers are afraid to modify existing code and resort to workarounds instead.
+- [Accumulated Decision Debt](accumulated-decision-debt.md)
+<br/>  When decisions are deferred, teams create temporary workarounds to proceed, and these accumulate over time.
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  When the architecture does not support new requirements, developers create workarounds to bridge the gap.
+- [Avoidance Behaviors](avoidance-behaviors.md)
+<br/>  When developers avoid tackling complex root issues, they create workarounds instead, leading to accumulated technical shortcuts.
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  Rather than modifying brittle code directly, developers add workarounds that further increase complexity.
+- [Cargo Culting](cargo-culting.md)
+<br/>  Ill-fitting adopted solutions require workarounds to adapt them to the actual problem context.
+- [Complex Implementation Paths](complex-implementation-paths.md)
+<br/>  When simple requirements demand complex technical solutions, developers resort to workarounds rather than proper implementations, accumulating shortcuts over time.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  When bugs are too difficult to properly debug and fix, teams implement workarounds that add complexity to the system.
+- [Delayed Bug Fixes](delayed-bug-fixes.md)
+<br/>  When bugs remain unfixed, users and developers create workarounds that add complexity and technical debt to the system.
+- [Delayed Issue Resolution](delayed-issue-resolution.md)
+<br/>  When issues remain unresolved, teams create workarounds that add layers of complexity to the system.
+- [Difficult to Understand Code](difficult-to-understand-code.md)
+<br/>  When developers cannot understand existing code well enough to modify it correctly, they add workarounds instead.
+- [Fear of Change](fear-of-change.md)
+<br/>  Rather than modifying existing code, developers implement workarounds that add complexity without addressing root issues.
+- [Implementation Starts Without Design](implementation-starts-without-design.md)
+<br/>  Without a clear design, developers create workarounds to patch structural issues that emerge during implementation.
+- [Inappropriate Skillset](inappropriate-skillset.md)
+<br/>  Developers lacking proper skills implement workarounds instead of proper solutions because they do not know the right approach.
+- [Increased Technical Shortcuts](increased-technical-shortcuts.md)
+<br/>  Shortcuts manifest as workarounds that pile up and make the codebase increasingly complex.
+- [Integration Difficulties](integration-difficulties.md)
+<br/>  Integration limitations force teams to build complex adapter layers and workarounds.
+- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md)
+<br/>  Teams create elaborate workarounds like duplicate endpoints and conditional logic to handle API versioning gaps rather than fixing the core issue.
+- [Maintenance Paralysis](maintenance-paralysis.md)
+<br/>  Unable to fix root issues properly, teams implement workarounds that add complexity instead of addressing problems directly.
+- [Market Pressure](market-pressure.md)
+<br/>  When market forces demand rapid delivery, teams implement workarounds instead of proper solutions to meet aggressive timelines.
+- [Misunderstanding of OOP](misunderstanding-of-oop.md)
+<br/>  Poor OOP design leads to rigid structures that cannot be extended properly, forcing developers to create workarounds instead.
+- [Poor Domain Model](poor-domain-model.md)
+<br/>  When the domain model doesn't match business reality, developers create workarounds to compensate for the mismatch.
+- [Procrastination on Complex Tasks](procrastination-on-complex-tasks.md)
+<br/>  Instead of tackling the hard fix, developers create workarounds that add complexity to the system.
+- [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
+<br/>  Teams patch prototype limitations with workarounds rather than rebuilding properly, compounding system complexity.
+- [Reduced Feature Quality](reduced-feature-quality.md)
+<br/>  Users and developers create workarounds to compensate for poorly implemented features that lack refinement.
+- [Regulatory Compliance Drift](regulatory-compliance-drift.md)
+<br/>  Manual processes and workarounds accumulate to compensate for the system's inability to meet current regulatory requirements.
+- [Resistance to Change](resistance-to-change.md)
+<br/>  When teams resist changing problematic code, they create workarounds instead of fixing root causes, adding complexity.
+- [Schema Evolution Paralysis](schema-evolution-paralysis.md)
+<br/>  When the database schema cannot be changed, developers create elaborate application-layer workarounds to compensate for schema limitations.
+- [Scope Change Resistance](scope-change-resistance.md)
+<br/>  Teams implement workarounds to address discovered requirements that cannot be formally incorporated into the project scope.
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  When the architecture can't accommodate new requirements naturally, developers create workarounds that accumulate over time.
+- [Suboptimal Solutions](suboptimal-solutions.md)
+<br/>  Users and developers create workarounds to compensate for the inefficiencies and gaps in suboptimal solutions.
+- [Team Churn Impact](team-churn-impact.md)
+<br/>  New developers who don't understand original design decisions create workarounds rather than proper solutions, adding complexity.
+- [Team Dysfunction](team-dysfunction.md)
+<br/>  Developers implement local workarounds instead of raising issues that require team-wide collaboration, as described in the example.
+- [Technical Architecture Limitations](technical-architecture-limitations.md)
+<br/>  Developers create workarounds to bypass architectural constraints rather than implementing straightforward solutions.
+- [Tool Limitations](tool-limitations.md)
+<br/>  When tools are insufficient, developers create ad-hoc scripts and workarounds that add complexity to the development process.
+- [Unrealistic Deadlines](unrealistic-deadlines.md)
+<br/>  Tight deadlines force developers to implement quick workarounds rather than proper solutions.
 
 ## Detection Methods ○
 

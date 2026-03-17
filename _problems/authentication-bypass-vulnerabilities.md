@@ -34,12 +34,35 @@ Authentication bypass vulnerabilities occur when security flaws in authenticatio
 - Security logs show successful access without corresponding authentication events
 
 ## Symptoms ▲
-- [Insufficient Audit Logging](insufficient-audit-logging.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.758">ⓘ</span>
-<br/>  Insufficient logging of security events may prevent the detection of unauthorized access attempts, allowing attackers to exploit authentication vulnerabilities without triggering alarms, thus highlighting the systemic weaknesses in the security posture of legacy systems.
 
-## Root Causes ▼
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  Bypassed authentication exposes sensitive data to unauthorized access, creating serious data protection risks.
+- [System Outages](system-outages.md)
+<br/>  Exploited authentication bypasses can lead to system compromise and subsequent outages.
+- [Legal Disputes](legal-disputes.md)
+<br/>  Data breaches resulting from authentication bypass can trigger legal action from affected parties.
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  When users learn that authentication can be bypassed, trust in the system is severely damaged.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  Poor error handling in authentication logic can create fallback paths that bypass security checks.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Lack of thorough security testing leaves authentication bypass vulnerabilities undetected.
+- [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
+<br/>  Developer backdoors and simplified authentication in prototypes become security vulnerabilities when prototypes go to production.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers without security expertise may implement authentication logic with subtle flaws that allow bypass.
+- [Error Message Information Disclosure](error-message-information-disclosure.md)
+<br/>  Error messages revealing authentication logic details help attackers identify weaknesses in the authentication mechanism.
+- [Insecure Data Transmission](insecure-data-transmission.md)
+<br/>  Unencrypted transmission of credentials enables interception and replay attacks that bypass authentication.
+- [Password Security Weaknesses](password-security-weaknesses.md)
+<br/>  Weak passwords and poor authentication practices make it trivial for attackers to bypass authentication through brute force or credential stuffing.
+- [Secret Management Problems](secret-management-problems.md)
+<br/>  Exposed or poorly managed credentials allow attackers to bypass authentication by using leaked secrets directly.
+- [Session Management Issues](session-management-issues.md)
+<br/>  Weak session management allows attackers to hijack or forge sessions, effectively bypassing authentication.
 
 ## Detection Methods ○
 

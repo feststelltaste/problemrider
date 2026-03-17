@@ -34,24 +34,29 @@ Poor planning occurs when development projects lack adequate forethought, realis
 - Dependencies and integration points are identified late in the process
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.692">ⓘ</span>
-<br/>  The lack of clear plans and realistic estimates leads to inadequate scoping of project requirements, resulting in ongoing adjustments and changes as teams struggle to align their work with evolving expectations, thus indicating poor planning practices.
-- [Quality Blind Spots](quality-blind-spots.md) <span class="info-tooltip" title="Confidence: 0.424, Strength: 0.779">ⓘ</span>
-<br/>  Inadequate planning leads to insufficient allocation of time and resources for comprehensive testing, resulting in undetected critical system behaviors and failure modes that indicate the underlying issues in project management and execution.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.875">ⓘ</span>
-<br/>  The lack of clear planning results in insufficient time and resources allocated for creating and maintaining realistic test data, leading to inadequate test data management that fails to simulate real-world conditions effectively.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.402, Strength: 0.660">ⓘ</span>
-<br/>  The lack of clear planning often leads to rushed or incomplete implementation, resulting in resources being allocated without a proper strategy for their management, which manifests as unreleased system resources that are neglected due to insufficient oversight and prioritization.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.711">ⓘ</span>
-<br/>  The lack of clear planning leads to a failure in implementing an effective caching strategy, as teams may overlook optimization opportunities due to inadequate time estimates and a disorganized approach to resource management, resulting in unnecessary data fetching that increases latency and system overhead.
-- [High Defect Rate in Production](high-defect-rate-in-production.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.688">ⓘ</span>
-<br/>  Inadequate planning often leads to rushed development cycles and insufficient testing, resulting in a higher number of defects in the production environment as teams fail to address critical issues before release.
-- [Capacity Mismatch](capacity-mismatch.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.683">ⓘ</span>
-<br/>  Insufficient planning leads to unrealistic workload estimates, resulting in mismatched capacity at various development stages, which manifests as bottlenecks and underutilization in the legacy system's workflow.
 
-## Root Causes ▼
+- [Missed Deadlines](missed-deadlines.md)
+<br/>  Without realistic planning, projects consistently fail to meet their target completion dates.
+- [Budget Overruns](budget-overruns.md)
+<br/>  Underestimated complexity and unanticipated obstacles cause projects to exceed their planned budgets.
+- [Scope Creep](scope-creep.md)
+<br/>  Poor upfront planning leaves requirements vague, allowing scope to expand uncontrollably during development.
+- [Implementation Rework](implementation-rework.md)
+<br/>  Discovering unanticipated technical obstacles late in development forces significant rework of existing implementations.
+- [Resource Allocation Failures](resource-allocation-failures.md)
+<br/>  Poor planning leads to mismatched resource allocation that doesn't reflect actual project needs.
+- [Increased Stress and Burnout](increased-stress-and-burnout.md)
+<br/>  Unrealistic plans create sustained pressure on teams trying to meet impossible timelines.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
+<br/>  Without thorough requirements analysis, plans are built on incomplete understanding of what needs to be built.
+- [Incomplete Knowledge](incomplete-knowledge.md)
+<br/>  Insufficient knowledge of the existing system and its complexity leads to wildly inaccurate estimates.
+- [Market Pressure](market-pressure.md)
+<br/>  External market pressure pushes teams to commit to aggressive timelines without adequate planning.
+- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
+<br/>  Disconnect between stakeholders and developers leads to plans that don't account for technical complexity.
 
 ## Detection Methods ○
 

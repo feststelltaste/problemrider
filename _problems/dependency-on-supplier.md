@@ -35,20 +35,27 @@ Dependency on supplier occurs when an organization becomes overly reliant on ext
 - Organization cannot operate effectively if vendor relationship ends
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.617, Strength: 0.881">ⓘ</span>
-<br/>  The reliance on external vendors for critical system components limits the development of in-house expertise, resulting in a shortage of skilled developers familiar with legacy technologies, which in turn creates maintenance bottlenecks and increases the risk of system failures.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.470, Strength: 0.829">ⓘ</span>
-<br/>  The reliance on external vendors for critical components leads to a rigid system architecture that is unable to adapt or evolve, thereby manifesting as limitations in performance, scalability, and maintainability.
-- [Project Authority Vacuum](project-authority-vacuum.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.797">ⓘ</span>
-<br/>  The reliance on external vendors for critical system components leads to a lack of internal authority and support for projects, as decision-makers prioritize vendor relationships over organizational initiatives, resulting in insufficient backing and resources for essential projects.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.669">ⓘ</span>
-<br/>  The reliance on external vendors for critical system components hinders the organization’s ability to adapt swiftly to changing regulatory requirements, leading to compliance drift as updates become dependent on the vendor's priorities and timelines.
-- [Vendor Lock-In](vendor-lock-in.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.827">ⓘ</span>
-<br/>  The reliance on external vendors for critical components leads to an over-dependence on their specific tools or APIs, which restricts the organization's ability to adapt or switch to alternative solutions, thus highlighting the risks of reduced flexibility and increased lock-in.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.945">ⓘ</span>
-<br/>  The reliance on a common set of libraries and frameworks among multiple components leads to an increased dependency on external vendors, as changes or updates to these shared resources can necessitate vendor involvement, thereby reducing flexibility and increasing lock-in risk.
+- [Technology Lock-In](technology-lock-in.md)
+<br/>  Reliance on a supplier's proprietary technology makes it prohibitively expensive to switch, locking the organization into their ecosystem.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  Vendor-controlled components often come with escalating licensing and support costs that the organization cannot negotiate away.
+- [Reduced Team Flexibility](reduced-team-flexibility.md)
+<br/>  Dependency on a supplier limits the team's ability to choose technologies or approaches that best fit their needs.
+- [Knowledge Dependency](knowledge-dependency.md)
+<br/>  When critical knowledge resides with the supplier rather than the organization, internal teams cannot independently maintain or troubleshoot the system.
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  Changes and improvements must wait on the supplier's schedule and priorities, delaying delivery of value to users.
+
+## Causes ▼
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Choosing vendor solutions for short-term convenience without evaluating long-term lock-in risks creates supplier dependency.
+- [Knowledge Gaps](knowledge-gaps.md)
+<br/>  Lack of internal expertise in critical technology areas forces reliance on external suppliers.
+- [Poor Contract Design](poor-contract-design.md)
+<br/>  Contracts that fail to protect against lock-in or ensure knowledge transfer create conditions for deep supplier dependency.
+- [Accumulated Decision Debt](accumulated-decision-debt.md)
+<br/>  Deferring build-vs-buy decisions and not investing in internal capabilities compounds supplier dependency over time.
 
 ## Detection Methods ○
 

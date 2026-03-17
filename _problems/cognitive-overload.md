@@ -35,34 +35,29 @@ Cognitive overload occurs when developers are required to understand and work wi
 - Frequent mistakes occur due to forgetting important context or constraints
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.483, Strength: 0.703">ⓘ</span>
-<br/>  Constant updates to project requirements exacerbate cognitive overload by forcing developers to juggle multiple shifting priorities, leading to confusion and inefficiency as they struggle to retain and adapt to the evolving context of legacy systems.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.441, Strength: 0.717">ⓘ</span>
-<br/>  The overwhelming complexity of maintaining numerous legacy systems forces developers to expend excessive cognitive resources on problem-solving and decision-making, leading to diminished focus and ultimately causing a drop in overall team productivity as they struggle to manage competing demands effectively.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.427, Strength: 0.657">ⓘ</span>
-<br/>  The intricacies of the business domain increase the cognitive load on developers, as they struggle to navigate and retain the numerous interrelated concepts and rules, thereby highlighting their difficulty in effectively managing the legacy systems.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.424, Strength: 0.657">ⓘ</span>
-<br/>  The slow and cumbersome development environment exacerbates cognitive overload by forcing developers to navigate complex legacy systems and tools, thereby increasing mental strain and reducing their ability to efficiently manage multiple tasks or concepts.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.416, Strength: 0.662">ⓘ</span>
-<br/>  When developers struggle to manage the complexity of legacy systems, it leads to inadequate understanding and communication of system functionalities, resulting in users facing challenges that prompt increased support requests as they seek assistance for tasks that should be straightforward.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.403, Strength: 0.643">ⓘ</span>
-<br/>  The overwhelming complexity and volume of legacy systems that developers must juggle leads to cognitive fatigue, which in turn manifests as frustration and burnout due to their inability to effectively manage and navigate these burdens, resulting in decreased motivation and engagement.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.376, Strength: 0.646">ⓘ</span>
-<br/>  The overwhelming complexity and volume of legacy systems force developers to focus on immediate issues, leading to a lack of deep knowledge in those technologies, which in turn results in a critical shortage of skilled personnel capable of effectively maintaining these systems.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.772">ⓘ</span>
-<br/>  The frequent context switches caused by excessive hardware interrupts reflect the developers' cognitive overload, as they struggle to manage and respond to multiple system demands, ultimately hindering application performance in legacy systems.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.360, Strength: 0.632">ⓘ</span>
-<br/>  Frequent modifications by multiple developers to the same large functions or files indicate cognitive overload, as the complexity of managing numerous legacy systems leads to overlapping changes and increased likelihood of version control conflicts.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.613">ⓘ</span>
-<br/>  The inability to effectively manage and track multiple complex systems in legacy software leads developers to overlook the proper deallocation of system resources, resulting in unreleased resources as a tangible indicator of cognitive overload.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.699">ⓘ</span>
-<br/>  The complexity and constraints imposed by outdated system architecture require developers to juggle multiple intricate components in their minds, leading to cognitive overload that diminishes their ability to effectively manage and innovate within the systems.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.666">ⓘ</span>
-<br/>  The inability to effectively manage multiple complex systems leads to confusion and mistakes, causing delays in delivering features and fixes, which manifests as a decline in the team's overall productivity and velocity.
 
-## Root Causes ▼
+- [Increased Risk of Bugs](increased-risk-of-bugs.md)
+<br/>  When developers exceed working memory capacity, they miss important constraints and introduce defects.
+- [Avoidance Behaviors](avoidance-behaviors.md)
+<br/>  Developers postpone or avoid working on cognitively demanding parts of the system.
+- [Mental Fatigue](mental-fatigue.md)
+<br/>  Sustained cognitive overload leads to exhaustion and reduced ability to perform productive work.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Understanding complex interconnected systems before making changes slows down feature implementation.
+- [Reduced Individual Productivity](reduced-individual-productivity.md)
+<br/>  Developers complete fewer tasks because each change requires understanding far more context than the change itself.
+- [Procrastination on Complex Tasks](procrastination-on-complex-tasks.md)
+<br/>  Overwhelmed developers defer cognitively demanding tasks in favor of simpler, less impactful work.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Highly coupled systems require understanding many interconnected components to make even simple changes.
+- [Complex and Obscure Logic](complex-and-obscure-logic.md)
+<br/>  Code that is hard to read and understand forces developers to expend excessive mental effort on comprehension.
+- [Context Switching Overhead](context-switching-overhead.md)
+<br/>  Frequent switching between different systems or problem domains fragments attention and overwhelms working memory.
+- [Complex Domain Model](complex-domain-model.md)
+<br/>  Inherently complex business domains require developers to hold extensive domain knowledge in working memory.
 
 ## Detection Methods ○
 

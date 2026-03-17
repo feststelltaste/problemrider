@@ -35,36 +35,23 @@ Staff availability issues occur when projects cannot access the human resources 
 - Team members consistently work overtime to compensate for insufficient staffing
 
 ## Symptoms ▲
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.562, Strength: 0.857">ⓘ</span>
-<br/>  Staff availability issues lead to overworked employees and unfilled roles, which directly result in diminished team productivity as critical tasks are delayed or inadequately managed within the constraints of outdated systems.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.556, Strength: 0.787">ⓘ</span>
-<br/>  Frequent changes to project requirements often arise from insufficient staff availability, as overbooked employees may lack the bandwidth to engage in thorough planning and communication, leading to reactive adjustments and an increased need for rework.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.510, Strength: 0.773">ⓘ</span>
-<br/>  The critical shortage of developers skilled in outdated technologies exacerbates staff availability issues by limiting the pool of qualified personnel to fill essential roles, thereby creating bottlenecks in system maintenance and hindering project execution capacity.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.460, Strength: 0.710">ⓘ</span>
-<br/>  When staff are overbooked or unfilled roles lead to inadequate personnel managing system resources, it results in the failure to properly deallocate or close allocated resources, causing inefficiencies and potential system instability.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.391, Strength: 0.781">ⓘ</span>
-<br/>  Unfilled roles and overbooked employees lead to insufficient manpower and expertise, causing delays in feature delivery and bug fixes, which directly manifests as a decline in development velocity in legacy systems.
-- [Unmotivated Employees](unmotivated-employees.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.755">ⓘ</span>
-<br/>  When roles remain unfilled or employees are overbooked, the resulting workload imbalance leads to increased stress and burnout, causing team members to disengage and display apathy towards their tasks, which diminishes overall project momentum and morale.
-- [Increased Manual Work](increased-manual-work.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.684">ⓘ</span>
-<br/>  The lack of available staff leads to an increased reliance on manual processes, as developers are forced to handle repetitive tasks without appropriate automation support, further diminishing their capacity for essential development work.
-- [New Hire Frustration](new-hire-frustration.md) <span class="info-tooltip" title="Confidence: 0.351, Strength: 0.752">ⓘ</span>
-<br/>  The frustration of recently hired developers stems from their inability to receive adequate mentorship and support due to overbooked teams and vacant roles, indicating that staff availability issues hinder effective onboarding and productivity.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.816">ⓘ</span>
-<br/>  Insufficient staffing and overbooking lead to a lack of focus and clarity in project execution, resulting in conflicting priorities from stakeholders and ultimately creating confusion and inefficiency within the team.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.756">ⓘ</span>
-<br/>  Staff shortages and overbooked employees lead to insufficient resources for decision-making, causing teams to remain in research phases without the capacity to transition to implementation, thereby stalling progress in development work.
-- [Capacity Mismatch](capacity-mismatch.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.731">ⓘ</span>
-<br/>  The unfilled roles and overbooked employees lead to inconsistent resource allocation, causing a misalignment between the available capacity and the actual demands at various stages of the development process, which manifests as bottlenecks and underutilization in the workflow.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.738">ⓘ</span>
-<br/>  Limited staff availability leads to rushed development cycles, resulting in misaligned expectations between stakeholders and developers, which manifests as rework and dissatisfaction.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.800">ⓘ</span>
-<br/>  The lack of available staff leads to an overwhelming focus on urgent maintenance tasks, which consumes time and resources that could otherwise be allocated to exploring innovative solutions and improvements within the legacy system.
 
-## Root Causes ▼
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  Insufficient available staff directly reduces the team's capacity to deliver features and fixes.
+- [Missed Deadlines](missed-deadlines.md)
+<br/>  When key people are unavailable or roles are unfilled, project timelines slip.
+- [Cascade Delays](cascade-delays.md)
+<br/>  When staff are unavailable for key tasks, dependent work items are delayed across the project.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Team output decreases when critical roles are unfilled or people are spread too thin.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Capacity Mismatch](capacity-mismatch.md)
+<br/>  Poor alignment between available staff and work demand creates availability problems.
+- [Project Resource Constraints](project-resource-constraints.md)
+<br/>  Budget or organizational constraints prevent hiring needed staff, leaving critical roles unfilled.
+- [Single Points of Failure](single-points-of-failure.md)
+<br/>  When critical work depends on specific individuals, their unavailability creates effective staffing gaps even when the team is otherwise fully staffed.
 
 ## Detection Methods ○
 

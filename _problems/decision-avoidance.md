@@ -34,26 +34,29 @@ Decision avoidance occurs when development teams consistently postpone or defer 
 - Decision-making responsibility is unclear or constantly deferred to others
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.607">ⓘ</span>
-<br/>  The ongoing deferral of critical technical decisions leads to unresolved issues in the legacy codebase, creating an environment of uncertainty and frustration that ultimately demotivates developers and contributes to their burnout.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.628">ⓘ</span>
-<br/>  The deferral of crucial technical decisions leads to the continuous use of outdated and inefficient tools and processes, which in turn hampers the development environment, creating a cycle of frustration and further avoidance of decision-making.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.593">ⓘ</span>
-<br/>  The continual deferral of crucial technical decisions leads to an unstable project scope, causing stakeholders to frequently revise requirements in an attempt to adapt to the lack of direction and clarity, which ultimately results in rework and delays.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.351, Strength: 0.618">ⓘ</span>
-<br/>  The reluctance to make timely technical decisions leads to a reliance on legacy systems, exacerbating the shortage of skilled developers capable of maintaining those systems, which in turn creates further delays and complications in the development process.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.624">ⓘ</span>
-<br/>  The deferral of critical technical decisions leads to uncertainty and confusion within the development team, resulting in misaligned priorities and inefficient workflows that ultimately diminish overall productivity.
 
-## Root Causes ▼
-- [Deadlock Conditions](deadlock-conditions.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.895">ⓘ</span>
-<br/>  The inability to reach critical decisions stems from the repeated system freezes caused by multiple processes waiting on each other, leading to a lack of clarity and direction in development priorities.
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.917">ⓘ</span>
-<br/>  The ongoing budget overruns create a climate of uncertainty and fear among decision-makers, leading them to postpone crucial technical choices in hopes of reducing costs, which ultimately stalls development progress.
-- [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.902">ⓘ</span>
-<br/>  The difficulty of modifying the existing code without introducing new bugs leads to hesitation in making necessary technical decisions, as stakeholders fear that changes could exacerbate existing issues, thereby causing delays and bottlenecks in development.
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.894">ⓘ</span>
-<br/>  Focusing on trivial issues diverts attention from critical technical decisions, leading to hesitation and indecision that ultimately stalls progress in legacy system development.
+- [Accumulated Decision Debt](accumulated-decision-debt.md)
+<br/>  Each deferred decision adds to the backlog of unmade choices, creating compound complexity that makes future decisions even harder.
+- [Work Blocking](work-blocking.md)
+<br/>  Development tasks that depend on unmade decisions cannot proceed, creating bottlenecks in the development workflow.
+- [Delayed Project Timelines](delayed-project-timelines.md)
+<br/>  Projects fall behind schedule as implementation work stalls waiting for deferred architectural and design decisions.
+- [Team Demoralization](team-demoralization.md)
+<br/>  Team members lose motivation when they repeatedly cannot proceed with their work because critical decisions remain unmade.
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  Avoiding architectural decisions prevents the system from evolving to meet changing needs, causing it to fall further behind.
+
+## Causes ▼
+- [Blame Culture](blame-culture.md)
+<br/>  When mistakes are punished rather than treated as learning opportunities, people avoid making decisions to avoid potential blame.
+- [Analysis Paralysis](analysis-paralysis.md)
+<br/>  Excessive analysis and research without reaching conclusions prevents teams from committing to decisions.
+- [Micromanagement Culture](micromanagement-culture.md)
+<br/>  When management requires approval for routine decisions, team members learn to defer all decisions upward rather than taking ownership.
+- [Knowledge Gaps](knowledge-gaps.md)
+<br/>  Lacking sufficient understanding of the technical domain makes people reluctant to commit to decisions they feel unqualified to make.
+- [Fear of Failure](fear-of-failure.md)
+<br/>  Team members defer important decisions to avoid being blamed if the outcome is negative.
 
 ## Detection Methods ○
 

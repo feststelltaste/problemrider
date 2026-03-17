@@ -32,12 +32,23 @@ Circular references occur when two or more objects hold references to each other
 - Reference counting shows non-zero counts for objects that should be unreachable
 
 ## Symptoms ▲
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.583">ⓘ</span>
-<br/>  Circular references prevent the effective garbage collection of objects, causing them to accumulate in memory, which in turn leads to unbounded data structures that grow uncontrollably and degrade system performance.
 
-## Root Causes ▼
+- [Memory Leaks](memory-leaks.md)
+<br/>  Circular references prevent garbage collection from reclaiming objects, causing memory to be consumed but never released.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  Accumulating unreleased memory from circular references causes application performance to deteriorate over time.
+- [Garbage Collection Pressure](garbage-collection-pressure.md)
+<br/>  Objects retained by circular references increase heap size, forcing more frequent and longer garbage collection cycles.
+- [High Client-Side Resource Consumption](high-client-side-resource-consumption.md)
+<br/>  In browser-based applications, circular references between DOM and JavaScript objects lead to excessive memory consumption on the client.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Poor Encapsulation](poor-encapsulation.md)
+<br/>  Lack of proper data hiding leads to objects holding direct references to each other instead of using proper abstraction layers.
+- [Improper Event Listener Management](improper-event-listener-management.md)
+<br/>  Event listeners that capture references to their parent objects create circular reference chains that prevent garbage collection.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers unfamiliar with memory management patterns unknowingly create bidirectional references between objects.
 
 ## Detection Methods ○
 

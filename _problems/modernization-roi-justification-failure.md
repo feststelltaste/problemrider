@@ -36,16 +36,29 @@ Modernization ROI justification failure occurs when organizations cannot build c
 - Risk assessments that highlight problems but cannot translate them into financial business cases
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.456, Strength: 0.663">ⓘ</span>
-<br/>  Constantly evolving requirements often stem from a lack of clarity around the existing system’s limitations and potential improvements, reflecting the inability to justify modernization investments and leading to increased rework and delays.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.430, Strength: 0.684">ⓘ</span>
-<br/>  The inability to effectively quantify the benefits of modernization leads to a lack of investment in training and hiring developers skilled in legacy technologies, resulting in a critical shortage of expertise that hampers system maintenance and exacerbates the challenges of justifying modernization efforts.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.521">ⓘ</span>
-<br/>  The inherent complexity of the business domain in legacy systems obscures the understanding of technical debt and benefits, making it difficult to quantify modernization ROI and ultimately hindering the ability to present a compelling business case for investment.
 
-## Root Causes ▼
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.354, Strength: 0.916">ⓘ</span>
-<br/>  The inability of developers to transition from procedural to object-oriented programming results in suboptimal code structures that obscure the true technical debt and potential benefits of modernization, thus undermining the ability to create strong business cases for legacy system upgrades.
+- [Modernization Strategy Paralysis](modernization-strategy-paralysis.md)
+<br/>  When ROI cannot be justified, teams cannot commit to any modernization approach, leading to decision paralysis.
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  Inability to justify modernization investment means legacy systems continue running on increasingly obsolete technology stacks.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  Without modernization investment, legacy systems accumulate technical debt that drives maintenance costs ever higher.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Failure to justify and fund modernization allows competitors with modern systems to outpace the organization in features and agility.
+- [Stakeholder Frustration](stakeholder-frustration.md)
+<br/>  Technical teams become frustrated when they cannot get approval for modernization they know is needed, creating tension with management.
+
+## Causes ▼
+- [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
+<br/>  The intangible nature of modernization benefits like improved agility and reduced risk makes building financial business cases extremely difficult.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  High ongoing maintenance costs make it difficult to justify additional investment in modernization since budgets are already strained.
+- [Legacy Business Logic Extraction Difficulty](legacy-business-logic-extraction-difficulty.md)
+<br/>  The inability to extract and understand business logic makes it impossible to accurately estimate modernization costs and benefits.
+- [Legacy System Documentation Archaeology](legacy-system-documentation-archaeology.md)
+<br/>  Without clear documentation of system capabilities and behaviors, it is impossible to accurately scope modernization efforts.
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  Paradoxically, high maintenance costs make modernization seem expensive compared to the status quo, even as costs keep rising.
 
 ## Detection Methods ○
 

@@ -33,20 +33,27 @@ Cross-Site Scripting (XSS) vulnerabilities occur when web applications fail to p
 
 ## Symptoms ▲
 
-- **Script Injection:** Malicious JavaScript code executed in user browsers
-- **Session Token Theft:** Attackers stealing session cookies through injected scripts
-- **Page Defacement:** Unauthorized modification of web page content
-- **Phishing Attacks:** Fake login forms or content injected to steal credentials
-- **Malicious Redirects:** Users redirected to attacker-controlled websites
 
-## Root Causes ▼
+- [Session Management Issues](session-management-issues.md)
+<br/>  XSS attacks enable session hijacking by stealing session cookies, directly compromising session security.
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  XSS vulnerabilities allow attackers to steal personal and sensitive data from users' browsers, creating data protection violations.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Users who experience account compromise or data theft due to XSS attacks lose confidence in the application.
+- [Negative Brand Perception](negative-brand-perception.md)
+<br/>  Public disclosure of XSS vulnerabilities damages the organization's reputation for security and reliability.
 
-- **Insufficient Input Validation:** User input not properly validated or sanitized before processing
-- **Missing Output Encoding:** Dynamic content not encoded appropriately for the output context
-- **Direct DOM Manipulation:** Client-side code directly inserting user data into the DOM
-- **Inadequate Content Security Policy:** Missing or weak CSP headers allowing script execution
-- **Server-Side Template Injection:** Template engines processing user input without proper escaping
-- **Third-Party Component Vulnerabilities:** Vulnerable JavaScript libraries or frameworks
+## Causes ▼
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers lacking security knowledge may not understand the need for input validation and output encoding.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Legacy code written without security testing often lacks proper input validation and output encoding that would prevent XSS.
+- [Quality Compromises](quality-compromises.md)
+<br/>  When quality standards are lowered to meet deadlines, security practices like proper input sanitization are skipped.
+- [Review Process Breakdown](inadequate-code-reviews.md)
+<br/>  Code reviews that fail to identify security issues allow XSS-vulnerable code to reach production.
+- [Error Message Information Disclosure](error-message-information-disclosure.md)
+<br/>  Stack traces and debug output revealing application structure help attackers identify injection points for XSS attacks.
 
 ## Detection Methods ○
 

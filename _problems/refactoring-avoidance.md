@@ -31,26 +31,45 @@ Refactoring avoidance is the phenomenon where a development team consistently po
 - The codebase is full of commented-out code, dead code, and other forms of cruft.
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.480, Strength: 0.707">ⓘ</span>
-<br/>  The development team's reluctance to refactor the codebase, stemming from a fear of introducing new bugs, leads to unresolved technical debt, which exacerbates frustrations and burnout as developers face increasingly complex and unmanageable code.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.473, Strength: 0.733">ⓘ</span>
-<br/>  The development team's fear of introducing new bugs through necessary code refactoring leads to a reliance on a dwindling pool of developers familiar with legacy systems, creating maintenance bottlenecks and highlighting the urgent need for modernization skills that are not being cultivated.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.467, Strength: 0.697">ⓘ</span>
-<br/>  The reluctance to refactor the codebase leads to a fragile architecture that cannot adapt easily to evolving requirements, causing frequent changes and necessitating rework as developers attempt to accommodate new demands without addressing underlying technical debt.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.455, Strength: 0.731">ⓘ</span>
-<br/>  The team's fear of introducing new bugs during code refactoring leads them to maintain an outdated codebase, resulting in a slow and cumbersome development environment that further hinders their ability to implement necessary changes.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.413, Strength: 0.748">ⓘ</span>
-<br/>  The development team's fear of introducing new bugs leads to excessive research and deliberation instead of action, causing a stagnation in progress as they overanalyze potential refactoring strategies without implementing necessary changes.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.405, Strength: 0.734">ⓘ</span>
-<br/>  The reluctance to refactor the codebase leads to increased technical debt and unresolved inefficiencies, which in turn hampers the team's productivity as they spend more time dealing with existing issues rather than improving the system.
-- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.716">ⓘ</span>
-<br/>  The lack of a systematic mentoring approach results in new developers not gaining the confidence or skills needed to effectively manage code changes, reinforcing the team's fear of refactoring due to the potential introduction of bugs.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.743">ⓘ</span>
-<br/>  The fear of introducing new bugs during necessary code refactoring leads to a stagnant codebase, which in turn stifles creativity and discourages teams from pursuing innovative solutions, as they prioritize maintaining the status quo over exploring new ideas.
 
-## Root Causes ▼
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Avoiding refactoring allows technical debt to accumulate unchecked, as structural improvements are never made.
+- [Increasing Brittleness](increasing-brittleness.md)
+<br/>  Without refactoring, the codebase becomes progressively more fragile as complexity compounds.
+- [Code Duplication](code-duplication.md)
+<br/>  Developers copy-paste code rather than refactoring shared functionality, leading to widespread duplication.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  Instead of refactoring problematic code, developers build workarounds that add further complexity.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  Working around structural problems instead of fixing them makes each new change progressively slower to implement.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Fear of Change](fear-of-change.md)
+<br/>  Fear that modifications will break working functionality prevents teams from attempting structural improvements.
+- [Fear of Breaking Changes](fear-of-breaking-changes.md)
+<br/>  Specific fear of introducing breaking changes in a fragile system makes developers avoid touching existing code.
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  A fragile codebase makes refactoring genuinely risky, reinforcing avoidance behavior.
+- [Test Debt](test-debt.md)
+<br/>  Lack of test coverage means there is no safety net to catch regressions during refactoring, making it too risky to attempt.
+- [Unrealistic Schedule](unrealistic-schedule.md)
+<br/>  Tight deadlines leave no time allocated for refactoring work, prioritizing feature delivery over code improvement.
+- [Blame Culture](blame-culture.md)
+<br/>  Developers avoid refactoring because any regression resulting from code changes could lead to individual blame.
+- [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
+<br/>  When technical improvements cannot be justified with measurable benefits, they are consistently deprioritized in favor of feature work.
+- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
+<br/>  Without clear ownership, refactoring is avoided because no one feels responsible for improving shared code.
+- [Past Negative Experiences](past-negative-experiences.md)
+<br/>  Past incidents caused by changes make developers avoid refactoring even when they acknowledge it is necessary.
+- [Poor Test Coverage](poor-test-coverage.md)
+<br/>  Without tests to verify correctness, developers avoid refactoring for fear of introducing undetected bugs.
+- [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
+<br/>  Teams fear touching fragile prototype-turned-production code because they don't understand its full behavior and lack test safety nets.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Frequent regressions reinforce fear of making changes, leading teams to avoid refactoring or modifying code.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  The high risk and effort of refactoring tightly coupled code leads teams to avoid necessary improvements.
 
 ## Detection Methods ○
 - **Code Churn Analysis:** Analyze the history of the codebase to see which files are being modified most frequently. If the same files are being churned over and over again without any improvement in their structure, it is a sign of refactoring avoidance.

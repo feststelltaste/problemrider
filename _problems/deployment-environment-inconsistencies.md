@@ -33,28 +33,41 @@ Deployment environment inconsistencies occur when applications are deployed acro
 - Different feature behavior or availability across environments
 
 ## Symptoms ▲
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.454, Strength: 0.761">ⓘ</span>
-<br/>  Random test failures often arise from discrepancies in environmental configurations, leading to inconsistent application behavior that highlights underlying deployment environment issues in legacy systems.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.440, Strength: 0.649">ⓘ</span>
-<br/>  Frequent updates to requirements often arise as teams attempt to address unexpected behaviors and failures caused by inconsistencies in deployment environments, leading to a cycle of rework and confusion in legacy systems.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.417, Strength: 0.680">ⓘ</span>
-<br/>  Frequent merge conflicts arise as developers attempt to integrate changes made in inconsistent deployment environments, leading to overlapping modifications that exacerbate discrepancies in application behavior across those environments.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.772">ⓘ</span>
-<br/>  Inconsistent deployment environments lead to uncertainty about how changes will affect application behavior, causing teams to overanalyze potential issues instead of proceeding with development, thereby stalling progress.
-- [Knowledge Dependency](knowledge-dependency.md) <span class="info-tooltip" title="Confidence: 0.344, Strength: 0.791">ⓘ</span>
-<br/>  The reliance on experienced individuals for knowledge arises from inconsistent deployment environments, as team members may struggle to understand and troubleshoot application behavior across different setups, leading to a prolonged dependency on those who possess the necessary expertise to navigate these discrepancies.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.670">ⓘ</span>
-<br/>  Differences in naming conventions across deployment environments can lead to confusion and misinterpretation of code, making it difficult to identify and resolve issues, thereby highlighting the underlying inconsistencies that affect application behavior.
-- [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.653">ⓘ</span>
-<br/>  Inconsistent deployment environments lead to unexpected application behavior, prompting the team to frequently deploy hotfixes or rollback releases as they scramble to address issues that arise from untested or misconfigured settings across different environments.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.687">ⓘ</span>
-<br/>  The slow and cumbersome development environment hampers the team's ability to quickly identify and resolve discrepancies between deployment environments, thereby serving as an indicator of underlying inconsistencies that can lead to application failures when transitioning between environments.
-- [Poor Contract Design](poor-contract-design.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.782">ⓘ</span>
-<br/>  Inconsistent deployment environments lead to unforeseen technical challenges that are inadequately addressed in legal agreements, resulting in contracts that fail to accommodate the necessary adaptability during development, thus highlighting the shortcomings of the overall project management approach.
 
-## Root Causes ▼
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Bugs that only appear in certain environments are extremely hard to reproduce and diagnose.
+- [Deployment Risk](deployment-risk.md)
+<br/>  Environment differences increase the probability that deployments will fail or cause unexpected behavior in production.
+- [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
+<br/>  Code that works in staging but fails in production due to environment differences requires emergency hotfixes.
+- [Inconsistent Behavior](inconsistent-behavior.md)
+<br/>  Applications behave differently across environments, making it impossible to guarantee consistent user experiences.
+- [Release Instability](release-instability.md)
+<br/>  Releases become unstable because testing in inconsistent environments fails to catch production-specific issues.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Configuration Chaos](configuration-chaos.md)
+<br/>  Poorly managed configurations across environments lead to divergent settings and inconsistencies.
+- [Manual Deployment Processes](manual-deployment-processes.md)
+<br/>  Manual environment setup introduces human error and drift between environments over time.
+- [Inadequate Configuration Management](inadequate-configuration-management.md)
+<br/>  Without proper configuration management, environments gradually diverge as ad-hoc changes accumulate.
+- [Configuration Drift](configuration-drift.md)
+<br/>  Environments that were once identical gradually diverge through untracked changes and patches.
+- [ABI Compatibility Issues](abi-compatibility-issues.md)
+<br/>  ABI issues cause applications to work in development but fail in production where different library versions are installed.
+- [Dependency Version Conflicts](dependency-version-conflicts.md)
+<br/>  Different dependency resolutions across environments cause the application to behave differently in dev vs production.
+- [Environment Variable Issues](environment-variable-issues.md)
+<br/>  Inconsistent environment variables across environments cause applications to behave differently in development, staging, and production.
+- [Hardcoded Values](hardcoded-values.md)
+<br/>  Hardcoded values that are correct for one environment cause failures when the application is deployed to different environments.
+- [Legacy Configuration Management Chaos](legacy-configuration-management-chaos.md)
+<br/>  Configurations that cannot be reliably replicated cause environments to diverge, leading to inconsistent application behavior.
+- [Poor System Environment](poor-system-environment.md)
+<br/>  Differences between development and production environments cause unexpected behavior after deployment.
+- [Secret Management Problems](secret-management-problems.md)
+<br/>  Using the same secrets across environments or hardcoding environment-specific credentials leads to inconsistencies between deployment environments.
 
 ## Detection Methods ○
 

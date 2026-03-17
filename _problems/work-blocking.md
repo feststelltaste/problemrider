@@ -34,22 +34,33 @@ Work blocking occurs when development tasks cannot move forward because they req
 - Multiple team members are dependent on the same person or process for approvals
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.443, Strength: 0.648">ⓘ</span>
-<br/>  Constantly changing requirements often arise from the inability to progress through development due to pending approvals, resulting in a cycle of rework and delays that highlights the underlying work blocking issue.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.651">ⓘ</span>
-<br/>  The inability to progress on development tasks due to pending approvals leads to frustration and burnout among developers, as they feel their efforts are stymied, causing disengagement and exhaustion in an already challenging legacy system environment.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.718">ⓘ</span>
-<br/>  The inability to progress on development tasks due to pending approvals creates urgency and pressure to meet deadlines, which in turn fosters a culture of rushed decision-making and compromises in quality, highlighting the detrimental impact of work blocking on the overall development process.
-- [New Hire Frustration](new-hire-frustration.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.674">ⓘ</span>
-<br/>  The inability to obtain necessary approvals not only stifles development progress but also leaves new hires feeling powerless and frustrated, as they are unable to engage in meaningful contributions, highlighting the impact of systemic delays on team morale and productivity.
 
-## Root Causes ▼
-- [Atomic Operation Overhead](atomic-operation-overhead.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.905">ⓘ</span>
-<br/>  Excessive use of atomic operations leads to increased memory synchronization overhead and cache coherency traffic, which in turn slows down the approval processes necessary for development tasks, resulting in work blocking and delays.
-- [Deadlock Conditions](deadlock-conditions.md) <span class="info-tooltip" title="Confidence: 0.355, Strength: 0.931">ⓘ</span>
-<br/>  The inability to progress on development tasks is caused by multiple processes being unable to release necessary resources due to interdependencies, leading to a situation where each task is effectively waiting on another, resulting in significant bottlenecks in the workflow.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.954">ⓘ</span>
-<br/>  Inefficient approval processes and reliance on specific team members create constraints that prevent timely decision-making, leading to work blocking and hindering the overall development flow in legacy systems.
+- [Context Switching Overhead](context-switching-overhead.md)
+<br/>  When developers are blocked waiting for approvals, they switch to lower-priority tasks, incurring cognitive overhead from frequent context changes.
+- [Delayed Project Timelines](delayed-project-timelines.md)
+<br/>  Tasks stuck in blocked status directly delay project milestones and delivery schedules.
+- [Work Queue Buildup](work-queue-buildup.md)
+<br/>  Blocked work items accumulate in queues, creating backlogs at approval and decision points.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Developers waiting idly for approvals on important work experience frustration and decreased morale over time.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Time spent waiting for approvals rather than producing code directly reduces team output.
+- [Workaround Culture](workaround-culture.md)
+<br/>  When proper changes are blocked by approval processes, developers resort to workarounds that bypass the blocking process.
+
+## Causes ▼
+- [Approval Dependencies](approval-dependencies.md)
+<br/>  Work blocking is directly caused by processes that require specific individuals to approve before work can proceed.
+- [Bottleneck Formation](bottleneck-formation.md)
+<br/>  Centralized decision-making or scarce reviewer availability creates bottlenecks that block work items.
+- [Decision Avoidance](decision-avoidance.md)
+<br/>  When decision-makers avoid or defer decisions, work that depends on those decisions remains blocked.
+- [Micromanagement Culture](micromanagement-culture.md)
+<br/>  Excessive management oversight requiring approval for routine decisions creates unnecessary blocking of development tasks.
+- [Delayed Decision Making](delayed-decision-making.md)
+<br/>  Development tasks that depend on unmade decisions cannot proceed, creating bottlenecks in the workflow.
+- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
+<br/>  Other team members are blocked from making progress on tasks that touch the bottlenecked system components.
 
 ## Detection Methods ○
 

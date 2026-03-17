@@ -34,27 +34,25 @@ Procedural programming in OOP languages occurs when developers write code using 
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
 
-## Root Causes ▼
-- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.507, Strength: 0.947">ⓘ</span>
-<br/>  The lack of bundling data with its associated behavior results in developers resorting to procedural coding practices, as they struggle to effectively manage and encapsulate functionality within the constraints of an object-oriented framework, leading to large, monolithic functions that undermine the principles of encapsulation.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.487, Strength: 0.937">ⓘ</span>
-<br/>  Developers accustomed to procedural programming often default to familiar coding practices, resulting in monolithic functions and inadequate encapsulation when using object-oriented languages, thus perpetuating legacy issues in software design.
-- [Bloated Class](bloated-class.md) <span class="info-tooltip" title="Confidence: 0.460, Strength: 0.837">ⓘ</span>
-<br/>  The tendency to create large, unwieldy classes results in excessive procedural coding practices, as developers struggle to manage complexity, leading to monolithic functions that defy the principles of encapsulation and modularity.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.457, Strength: 0.869">ⓘ</span>
-<br/>  Tightly coupled cross-cutting concerns force developers to implement procedural coding practices within object-oriented languages, resulting in large, monolithic functions that hinder proper encapsulation and modularity.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.447, Strength: 0.880">ⓘ</span>
-<br/>  The development team's lack of design skills leads to the implementation of procedural programming practices in object-oriented languages, as they struggle to create appropriate abstractions and modular designs, resulting in monolithic functions that compromise maintainability and encapsulation in legacy systems.
-- [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.401, Strength: 0.736">ⓘ</span>
-<br/>  The difficulty in modifying the code without introducing bugs leads developers to revert to procedural programming techniques in order to avoid the risks associated with refactoring, resulting in large, monolithic functions that lack proper encapsulation.
-- [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.385, Strength: 0.864">ⓘ</span>
-<br/>  The tendency to write code in a procedural style stems from applying partial bug fixes to duplicated code fragments, which reinforces monolithic function structures and hinders proper encapsulation in object-oriented programming.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.863">ⓘ</span>
-<br/>  A fundamental misunderstanding of object-oriented programming principles leads developers to apply procedural techniques, resulting in monolithic functions that violate encapsulation and hinder maintainability in legacy systems.
-- [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.830">ⓘ</span>
-<br/>  Developers' lack of awareness about the locations of similar logic leads them to write procedural code in an object-oriented context, resulting in large, monolithic functions that compromise encapsulation and maintainability in legacy systems.
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  Long procedural methods with sequential logic are harder to understand than well-structured OOP code.
+- [Spaghetti Code](spaghetti-code.md)
+<br/>  Without OOP structure, procedural code grows into tangled sequences that are difficult to follow and modify.
+- [Difficult Code Reuse](difficult-code-reuse.md)
+<br/>  Procedural code tightly couples data and logic in monolithic functions, making reuse across contexts impractical.
+- [Poor Encapsulation](poor-encapsulation.md)
+<br/>  Data structures are passed between utility functions rather than encapsulated within meaningful objects.
+- [Mixed Coding Styles](mixed-coding-styles.md)
+<br/>  Procedural code mixed with OOP code from other developers creates inconsistent coding patterns across the codebase.
+
+## Causes ▼
+- [Procedural Background](procedural-background.md)
+<br/>  Developers trained in procedural programming carry those habits into OOP languages.
+- [Misunderstanding of OOP](misunderstanding-of-oop.md)
+<br/>  Developers who don't understand OOP principles default to the procedural style they know.
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Lack of design skills prevents developers from recognizing when OOP patterns would be more appropriate.
 
 ## Detection Methods ○
 - **Static Method Analysis:** Identify classes with high percentages of static methods relative to instance methods

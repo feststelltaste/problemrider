@@ -30,46 +30,57 @@ A high bug introduction rate means that for every new feature or fix, a signific
 - There is a sense of "one step forward, two steps back" in the development process.
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.565, Strength: 0.817">ⓘ</span>
-<br/>  Constant updates to project requirements create instability in the codebase, increasing the likelihood of introducing new bugs as developers struggle to adapt and implement changes without a solid foundation, thereby signaling underlying quality issues in the software.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.539, Strength: 0.743">ⓘ</span>
-<br/>  The frequent introduction of new bugs leads to unstable code, causing delays and failures in API responses as dependencies struggle to process requests within their expected timeframes.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.502, Strength: 0.722">ⓘ</span>
-<br/>  The introduction of a high rate of new bugs is often driven by poor test coverage, as the lack of sufficient tests fails to identify existing issues and validate changes, allowing defects to proliferate unnoticed within the legacy codebase.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.478, Strength: 0.732">ⓘ</span>
-<br/>  The frequent introduction of new bugs with each code change leads to increased user frustration and task failures, resulting in a higher volume of support requests as users seek assistance to resolve issues that stem from the underlying quality problems in the legacy system.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.473, Strength: 0.703">ⓘ</span>
-<br/>  The persistent introduction of new bugs creates a challenging environment that demoralizes developers, leading to frustration and burnout as they struggle to manage the quality issues and constant firefighting associated with maintaining a fragile legacy codebase.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.470, Strength: 0.722">ⓘ</span>
-<br/>  The introduction of a high rate of new bugs is exacerbated by the critical shortage of developers familiar with legacy technologies, as their lack of expertise results in insufficient understanding of the existing codebase, leading to more errors during changes and maintenance.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.451, Strength: 0.742">ⓘ</span>
-<br/>  The slow and cumbersome development environment hampers the team's ability to thoroughly test and review code changes, leading to a higher likelihood of introducing new bugs as quality assurance processes become inefficient.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.445, Strength: 0.762">ⓘ</span>
-<br/>  The frequent introduction of new bugs leads to increased time spent on debugging and fixing issues, which in turn reduces the development team's overall productivity and effectiveness in delivering new features.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.758">ⓘ</span>
-<br/>  The frequent introduction of new bugs leads to increased time spent on debugging and rework, thereby hindering the team's ability to deliver features and fixes efficiently, which in turn manifests as a noticeable decline in overall development velocity.
-- [Large Pull Requests](large-pull-requests.md) <span class="info-tooltip" title="Confidence: 0.389, Strength: 0.628">ⓘ</span>
-<br/>  Large pull requests complicate the review process, resulting in superficial assessments that fail to catch potential issues, thereby contributing to the high rate of new bugs introduced with each code change.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.376, Strength: 0.690">ⓘ</span>
-<br/>  The random failure of tests due to unstable conditions reveals the fragile state of the codebase, as it highlights the introduction of new bugs during changes that compromise the reliability of the testing process itself.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.767">ⓘ</span>
-<br/>  The tendency to become mired in excessive research and deliberation stems from a fear of introducing new bugs, which leads to a lack of confidence in the codebase and hinders progress, thereby highlighting the underlying quality issues that contribute to the high rate of new bugs.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.353, Strength: 0.778">ⓘ</span>
-<br/>  Intense deadline pressure often forces developers to prioritize speed over thorough testing and code quality, resulting in rushed implementations that increase the likelihood of introducing new bugs into the legacy codebase.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.765">ⓘ</span>
-<br/>  The frequent introduction of new bugs can lead to inefficient code execution, resulting in excessive hardware interrupts that disrupt CPU flow and cause context switching, thus serving as an indicator of underlying quality issues in the codebase.
-- [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.843">ⓘ</span>
-<br/>  The introduction of new bugs often stems from inefficient code, as complex and poorly optimized logic increases the likelihood of errors during modifications, revealing underlying quality issues in the legacy system.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.764">ⓘ</span>
-<br/>  The frequent introduction of new bugs consumes the team's resources and focus, leaving little room for innovation, as they are preoccupied with fixing recurring issues instead of exploring new solutions or improvements.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.763">ⓘ</span>
-<br/>  Frequent merge conflicts arise from multiple developers working on the same large, poorly structured code sections, which increases the likelihood of introducing new bugs as changes are made without adequate isolation or testing.
-- [Complex Implementation Paths](complex-implementation-paths.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.694">ⓘ</span>
-<br/>  The introduction of complex technical solutions for simple business requirements increases the likelihood of errors, as convoluted code paths are harder to understand and maintain, thereby contributing to a higher rate of new bugs with each code change.
 
-## Root Causes ▼
+- [Constant Firefighting](constant-firefighting.md)
+<br/>  The team spends most of its time fixing the stream of newly introduced bugs rather than working on planned features.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  The continuous cycle of introducing and fixing bugs significantly reduces the team's net productive output.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  A high rate of bug introduction during development naturally leads to more defects reaching the production environment.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Users experience frequent bugs in releases, eroding their confidence in the product's reliability.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Constantly fixing bugs they or colleagues introduced demoralizes developers and leads to burnout.
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  Each introduced bug requires investigation, fixing, testing, and deployment, increasing overall maintenance costs.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  Fragile code that breaks easily from small changes is the primary cause of new bugs being introduced with every modification.
+- [Poor Test Coverage](poor-test-coverage.md)
+<br/>  Without adequate test coverage, bugs introduced by changes go undetected until they reach production.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  Tightly coupled code means changes in one area have unexpected effects in other areas, introducing bugs in seemingly unrelated parts.
+- [Hidden Dependencies](hidden-dependencies.md)
+<br/>  Undocumented dependencies between components cause developers to unknowingly break functionality when making changes.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Modifying untested legacy code is inherently risky and frequently introduces regressions that would have been caught by tests.
+- [Complex Domain Model](complex-domain-model.md)
+<br/>  Misunderstanding complex domain rules leads to frequent implementation errors and new defects.
+- [Deadline Pressure](deadline-pressure.md)
+<br/>  Rushing under pressure causes developers to make more mistakes and skip validation steps, introducing more bugs.
+- [Difficult to Test Code](difficult-to-test-code.md)
+<br/>  Without adequate tests as a safety net, changes frequently introduce new bugs.
+- [Fear of Conflict](fear-of-conflict.md)
+<br/>  Unchallenged logic flaws and design problems in reviews lead to more bugs being introduced into production.
+- [God Object Anti-Pattern](god-object-anti-pattern.md)
+<br/>  Changes to any responsibility within a god object risk breaking other unrelated responsibilities it handles.
+- [High Turnover](high-turnover.md)
+<br/>  New developers unfamiliar with the system are more likely to introduce bugs due to lack of domain knowledge and system understanding.
+- [Implicit Knowledge](implicit-knowledge.md)
+<br/>  Developers unaware of unwritten rules and assumptions make changes that violate implicit constraints, introducing bugs.
+- [Inappropriate Skillset](inappropriate-skillset.md)
+<br/>  Team members working outside their competency introduce more defects due to unfamiliarity with best practices.
+- [Increased Risk of Bugs](increased-risk-of-bugs.md)
+<br/>  When the risk of bugs is elevated due to code complexity, the actual rate at which bugs are introduced increases measurably.
+- [Review Process Breakdown](insufficient-code-review.md)
+<br/>  Without thorough reviews acting as a quality gate, new bugs are introduced at a higher rate.
+- [Limited Team Learning](limited-team-learning.md)
+<br/>  Without learning from past mistakes, teams keep introducing the same types of bugs repeatedly.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Lower quality code contains more defects, directly increasing the rate at which new bugs are introduced into the system.
+- [Overworked Teams](overworked-teams.md)
+<br/>  Fatigued developers are more prone to errors, leading to a higher rate of bugs introduced with each change.
 
 ## Detection Methods ○
 - **Bug Tracking Metrics:** Monitor the number of new bugs reported after each release.

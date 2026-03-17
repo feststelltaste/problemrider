@@ -31,46 +31,29 @@ Limited team learning is a situation where a team does not learn from its mistak
 - The team is not able to adapt to change.
 
 ## Symptoms ▲
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.601, Strength: 0.939">ⓘ</span>
-<br/>  When a team fails to learn from past mistakes, they continue to repeat inefficiencies and errors, leading to decreased output and effectiveness as the same problems hinder progress in legacy systems.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.591, Strength: 0.904">ⓘ</span>
-<br/>  A team that fails to learn from past mistakes tends to cling to outdated practices, stifling creativity and discouraging experimentation, which manifests as a lack of innovation in their work.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.554, Strength: 0.809">ⓘ</span>
-<br/>  The inability of a team to learn from past mistakes leads to a lack of knowledge transfer and skill development, resulting in a critical shortage of developers proficient in outdated technologies, which hinders system maintenance and exacerbates vulnerabilities.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.548, Strength: 0.752">ⓘ</span>
-<br/>  A team's failure to learn from past mistakes often leads to the continuation of inefficient practices and tools in a legacy development environment, resulting in a slow and cumbersome workflow that hinders progress and adaptation.
-- [Micromanagement Culture](micromanagement-culture.md) <span class="info-tooltip" title="Confidence: 0.444, Strength: 0.774">ⓘ</span>
-<br/>  A culture that enforces strict approval for routine decisions stifles team autonomy, preventing the team from experimenting, analyzing outcomes, and learning from mistakes, thus perpetuating a cycle of stagnation and limiting overall improvement.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.847">ⓘ</span>
-<br/>  When a team fails to learn from past experiences, it can lead to excessive deliberation and hesitation in decision-making, causing prolonged research phases that hinder progress and prevent the implementation of necessary improvements in legacy systems.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.416, Strength: 0.790">ⓘ</span>
-<br/>  The lack of meaningful feedback and engagement in the review process prevents team members from reflecting on past mistakes, thereby stalling knowledge transfer and continuous improvement essential for adapting and evolving legacy systems.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.403, Strength: 0.742">ⓘ</span>
-<br/>  The presence of flaky tests indicates a failure to effectively analyze and learn from past errors, as teams may neglect to address underlying issues with test reliability, resulting in a lack of improvement and adaptation in their development practices.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.395, Strength: 0.907">ⓘ</span>
-<br/>  The failure to learn from past mistakes leads to recurring issues in feature development, resulting in insufficient time for refinement and ultimately degrading the quality of user experiences in legacy systems.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.898">ⓘ</span>
-<br/>  The team's inability to learn from past mistakes leads to repeated errors and inefficiencies, causing delays in feature delivery and bug fixes, which ultimately results in a noticeable decline in overall productivity.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.380, Strength: 0.785">ⓘ</span>
-<br/>  The persistent misunderstanding between stakeholders and developers indicates a lack of learning from past feedback and failures, resulting in repeated misalignment and ineffective solutions in legacy systems.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.778">ⓘ</span>
-<br/>  The inability of a team to learn from past mistakes leads to the accumulation of technical debt and poor design decisions, resulting in a cumbersome codebase that hinders maintenance and scalability, thereby indicating a lack of adaptive improvement within the team.
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.798">ⓘ</span>
-<br/>  The inability to learn from past mistakes often leads teams to neglect proper management of data structures, resulting in unbounded growth that indicates a lack of improvement in system performance and resource management practices.
-- [Capacity Mismatch](capacity-mismatch.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.761">ⓘ</span>
-<br/>  The inability to adapt and learn from past mistakes leads to inefficient resource allocation and process execution, resulting in mismatched capacity across development stages that reveals the team's ongoing struggles to optimize performance and respond to varying demands effectively.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.782">ⓘ</span>
-<br/>  The lack of ongoing learning from past mistakes leads to an inability to establish cohesive product strategies, resulting in conflicting priorities from stakeholders that further complicate project execution and hinder team effectiveness.
-- [Inappropriate Skillset](inappropriate-skillset.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.892">ⓘ</span>
-<br/>  The team's inability to learn from past mistakes results in a stagnant knowledge base, leading to a mismatch between the skills required for tasks and the competencies of team members, ultimately hindering effective problem-solving in legacy systems.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.780">ⓘ</span>
-<br/>  Ineffective learning from past mistakes results in the persistence of outdated design decisions and architectural flaws, which in turn restrict the system's performance and adaptability, serving as a clear indicator of the team's failure to evolve and improve its practices.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.820">ⓘ</span>
-<br/>  When a team fails to learn from past mistakes, it becomes increasingly entrenched in routine maintenance tasks, leaving no bandwidth for innovative thinking or exploring new solutions, thus stifling progress and adaptation in legacy systems.
 
-## Root Causes ▼
+- [Reduced Innovation](reduced-innovation.md)
+<br/>  Teams that don't learn from experience stop exploring new approaches and fall into repetitive patterns.
+- [High Bug Introduction Rate](high-bug-introduction-rate.md)
+<br/>  Without learning from past mistakes, teams keep introducing the same types of bugs repeatedly.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  Teams that don't improve their practices over time see productivity stagnate or decline.
+- [Quality Degradation](quality-degradation.md)
+<br/>  Without continuous learning and improvement, code quality steadily deteriorates over time.
+- [Resistance to Change](resistance-to-change.md)
+<br/>  Teams that don't learn become entrenched in existing patterns and resist adopting better practices.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Blame Culture](blame-culture.md)
+<br/>  When mistakes are punished rather than analyzed constructively, team members hide failures instead of learning from them.
+- [Time Pressure](time-pressure.md)
+<br/>  Constant deadline pressure leaves no time for retrospectives, experimentation, or reflection on past mistakes.
+- [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
+<br/>  When knowledge sharing mechanisms are broken, lessons learned by individuals are not disseminated to the wider team.
+- [Overworked Teams](overworked-teams.md)
+<br/>  Overworked teams have no bandwidth for reflection, learning activities, or process improvement.
+- [Review Process Breakdown](inadequate-code-reviews.md)
+<br/>  Superficial reviews eliminate the knowledge-sharing benefit of code reviews, reducing team learning opportunities.
 
 ## Detection Methods ○
 - **Retrospectives:** Use retrospectives to identify what went well and what went wrong.

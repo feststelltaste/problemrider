@@ -30,25 +30,27 @@ Secret management problems occur when applications improperly handle sensitive i
 - Secrets transmitted or logged in plain text
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.426, Strength: 0.692">ⓘ</span>
-<br/>  The inadequate handling of sensitive credentials in legacy systems increases the complexity and risk of maintenance tasks, leading to a reliance on a diminishing pool of specialized developers, which in turn heightens the operational bottlenecks and risks associated with system upkeep.
-- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.866">ⓘ</span>
-<br/>  Inadequate secret management leads to hard-coded credentials within legacy APIs, resulting in versioning challenges and compatibility issues as updates are hindered by the need to protect sensitive information embedded in outdated interfaces.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.922">ⓘ</span>
-<br/>  The failure to properly manage sensitive credentials often leads to inconsistent configurations across systems, as outdated or incorrect secrets can prevent accurate version tracking and result in deployment errors or complications during rollback processes.
-- [Insufficient Audit Logging](insufficient-audit-logging.md) <span class="info-tooltip" title="Confidence: 0.353, Strength: 0.811">ⓘ</span>
-<br/>  Inadequate handling of sensitive credentials often leads to insufficient logging of security-relevant events, as legacy systems may lack the integration or capability to track access and changes to secrets, making it challenging to identify and respond to security incidents effectively.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.412, Strength: 0.889">ⓘ</span>
-<br/>  The reliance on shared libraries and frameworks in legacy systems can lead to inconsistent secret management practices across components, making it difficult to enforce proper security measures and increasing the risk of credential exposure.
-- **Large, Risky Releases**
-- [Hidden Side Effects](hidden-side-effects.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.813">ⓘ</span>
-<br/>  Undocumented side effects in functions can inadvertently alter or expose sensitive credentials, leading to security vulnerabilities and complicating the management of secrets in legacy systems.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.344, Strength: 0.849">ⓘ</span>
-<br/>  The tight coupling of security mechanisms with business logic in legacy systems prevents effective isolation and management of sensitive credentials, leading to inadequate secret handling and increased security vulnerabilities.
-- [Complex Deployment Process](complex-deployment-process.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.809">ⓘ</span>
-<br/>  The manual and error-prone nature of the deployment process increases the likelihood of misconfigurations and oversights in handling sensitive credentials, thereby exacerbating security vulnerabilities and operational challenges.
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Exposed or poorly managed credentials allow attackers to bypass authentication by using leaked secrets directly.
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  Inadequate secret management exposes sensitive data access credentials, creating risks of unauthorized data access and privacy violations.
+- [Configuration Chaos](configuration-chaos.md)
+<br/>  Hardcoded secrets and inconsistent secret handling across environments create configuration management chaos when secrets need rotation.
+- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
+<br/>  Using the same secrets across environments or hardcoding environment-specific credentials leads to inconsistencies between deployment environments.
+
+## Causes ▼
+- [Legacy Configuration Management Chaos](legacy-configuration-management-chaos.md)
+<br/>  Legacy systems with poor configuration management practices lack proper secret management infrastructure, leaving credentials hardcoded or in plain text.
+- [Inadequate Configuration Management](inadequate-configuration-management.md)
+<br/>  Without proper configuration management, secrets are stored in source code, config files, or environment variables without proper protection.
+- [Convenience-Driven Development](convenience-driven-development.md)
+<br/>  Developers hardcode secrets for convenience during development, and these shortcuts persist into production without being addressed.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers lacking security experience may not understand the risks of poor secret management practices like hardcoding credentials.
+- [Environment Variable Issues](environment-variable-issues.md)
+<br/>  Storing secrets in environment variables without proper access controls exposes sensitive credentials to unauthorized access.
 
 ## Detection Methods ○
 

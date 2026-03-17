@@ -31,20 +31,31 @@ A high connection count occurs when a database is overwhelmed by a large number 
 - You are seeing a high number of timeout errors in your logs.
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.560, Strength: 0.739">ⓘ</span>
-<br/>  An excessive number of open database connections can exhaust available resources, leading to increased latency and ultimately causing services that rely on timely API responses to fail due to upstream timeouts.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.511, Strength: 0.752">ⓘ</span>
-<br/>  The high number of idle database connections can overwhelm system resources, leading to slow response times or failures in processing user requests, which in turn causes users to seek support more frequently due to their inability to complete tasks effectively.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.794">ⓘ</span>
-<br/>  A high number of idle database connections can lead to increased network activity from the connection management process, generating excessive hardware interrupts that disrupt CPU execution and degrade overall application performance in legacy systems.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.695">ⓘ</span>
-<br/>  The presence of unreleased resources indicates a failure to properly manage the lifecycle of database connections, leading to an accumulation of open connections that strain memory resources and increase the likelihood of connection rejections in legacy systems.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.634">ⓘ</span>
-<br/>  Inefficient data retrieval practices that result in unnecessary database fetches exacerbate the strain on memory resources and connection limits, thereby indicating a deeper issue with excessive open connections in legacy systems.
 
-## Root Causes ▼
+- [High Database Resource Utilization](high-database-resource-utilization.md)
+<br/>  Each open connection consumes memory and CPU on the database server, driving up overall resource utilization.
+- [Service Timeouts](service-timeouts.md)
+<br/>  When the connection limit is reached, new connection attempts are rejected or queued, causing service timeouts.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Resource contention from too many connections degrades database response times, slowing the entire application.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Connection rejections when limits are reached cause application errors and failed requests.
+- [Cascade Failures](cascade-failures.md)
+<br/>  Database connection exhaustion causes failures that cascade to all services depending on that database.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Misconfigured Connection Pools](misconfigured-connection-pools.md)
+<br/>  Improperly configured connection pool settings allow too many connections to be created or kept idle.
+- [Database Connection Leaks](database-connection-leaks.md)
+<br/>  Connections that are opened but never properly closed accumulate over time, steadily increasing the connection count.
+- [Incorrect Max Connection Pool Size](incorrect-max-connection-pool-size.md)
+<br/>  Setting the maximum pool size too high allows each application instance to hold more connections than the database can efficiently handle.
+- [Resource Allocation Failures](resource-allocation-failures.md)
+<br/>  Code that fails to properly release database connections after use causes connections to accumulate without being returned to the pool.
+- [Database Query Performance Issues](database-query-performance-issues.md)
+<br/>  Slow queries hold connections open longer than necessary, causing connection pool pressure and high active connection counts.
+- [Upstream Timeouts](upstream-timeouts.md)
+<br/>  Waiting connections accumulate when upstream services are slow, as calling services hold connections open until timeout.
 
 ## Detection Methods ○
 

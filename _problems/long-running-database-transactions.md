@@ -31,20 +31,27 @@ Long-running database transactions are a specific type of long-running transacti
 - You are seeing a high number of timeout errors in your logs.
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.446, Strength: 0.674">ⓘ</span>
-<br/>  Extended database transactions can lead to delays in data availability, prompting frequent requirement changes as stakeholders react to incomplete or outdated information, thereby indicating inefficiencies in the system's responsiveness.
-- [Delayed Value Delivery](delayed-value-delivery.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.733">ⓘ</span>
-<br/>  Extended open database transactions consume critical resources and create locks that hinder the timely processing of updates and deployments, resulting in delayed delivery of new features and fixes to users.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.641">ⓘ</span>
-<br/>  Extended open database transactions lead to unreleased resources as they maintain locks and connections, causing the system to allocate resources without proper deallocation, ultimately indicating inefficient transaction management.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.335, Strength: 0.609">ⓘ</span>
-<br/>  Extended database transactions can lead to unbounded data growth as they prevent timely data deletion and archiving processes, resulting in an accumulation of stale data that further exacerbates resource consumption and operational inefficiencies.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.506">ⓘ</span>
-<br/>  Extended open database transactions lead to resource contention and increased latency, causing dependent services to exceed their response time limits and fail to complete successfully.
 
-## Root Causes ▼
-- [Deadlock Conditions](deadlock-conditions.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.861">ⓘ</span>
-<br/>  Extended database transactions can occur when deadlock conditions lead to processes waiting indefinitely for each other to release locks, thereby prolonging transaction durations and resource consumption.
+- [Lock Contention](lock-contention.md)
+<br/>  Long-held database locks block other queries trying to access the same rows or tables, creating contention.
+- [Deadlock Conditions](deadlock-conditions.md)
+<br/>  Transactions holding locks for extended periods increase the window for circular lock dependencies to form.
+- [Slow Database Queries](slow-database-queries.md)
+<br/>  Other queries are forced to wait for locks held by long-running transactions, increasing their execution time.
+- [High Database Resource Utilization](high-database-resource-utilization.md)
+<br/>  Long-running transactions consume connection slots, memory, and transaction log space for extended periods.
+- [Service Timeouts](service-timeouts.md)
+<br/>  Application requests waiting for database operations blocked by long-running transactions exceed timeout thresholds.
+
+## Causes ▼
+- [Slow Database Queries](slow-database-queries.md)
+<br/>  Inefficient queries within a transaction extend its duration, keeping the transaction open longer than necessary.
+- [Inefficient Database Indexing](inefficient-database-indexing.md)
+<br/>  Missing or poor indexes cause queries within transactions to take much longer, extending transaction duration.
+- [External Service Delays](external-service-delays.md)
+<br/>  Calling external services while a database transaction is open means the transaction waits for slow external responses.
+- [Database Schema Design Problems](database-schema-design-problems.md)
+<br/>  Poor schema design can lead to excessive locking scope or require complex multi-table operations that extend transaction duration.
 
 ## Detection Methods ○
 

@@ -34,42 +34,67 @@ Competitive disadvantage occurs when technical problems, poor system performance
 - Market share declines while competitors with superior technical capabilities gain share
 
 ## Symptoms ▲
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.561, Strength: 0.850">ⓘ</span>
-<br/>  Decreased productivity among the development team often arises from the constraints of outdated technology and processes, leading to slower feature development and bug resolution, which directly contributes to users opting for competitors that provide a more robust and efficient experience.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.511, Strength: 0.738">ⓘ</span>
-<br/>  Persistent technical shortcomings in the codebase lead to a frustrating work environment for developers, resulting in disengagement and burnout, which in turn hampers their ability to enhance the user experience and features, ultimately driving users to competitors.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.501, Strength: 0.779">ⓘ</span>
-<br/>  The critical shortage of developers skilled in outdated technologies leads to inefficient maintenance and slow adaptation to user demands, directly contributing to users migrating to competitors with superior offerings.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.493, Strength: 0.866">ⓘ</span>
-<br/>  Technical shortcomings lead to a lack of resources and motivation for development teams, causing them to prioritize immediate fixes over innovative solutions, which in turn exacerbates the competitive disadvantage as users seek alternatives with superior offerings.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.483, Strength: 0.758">ⓘ</span>
-<br/>  The frequent user frustrations and task completions failures stemming from technical shortcomings in the legacy system lead to an increased reliance on customer support, highlighting the users' dissatisfaction and contributing to their migration to competitors with superior offerings.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.471, Strength: 0.854">ⓘ</span>
-<br/>  The tendency for teams to become entrenched in prolonged analysis phases stems from a fear of falling further behind competitors, leading to indecision and stalling of development progress, which ultimately exacerbates the existing technical shortcomings that drive users away.
-- [Negative User Feedback](negative-user-feedback.md) <span class="info-tooltip" title="Confidence: 0.467, Strength: 0.858">ⓘ</span>
-<br/>  Users' complaints about performance issues directly reflect the technical shortcomings of the legacy system, which diminishes user satisfaction and drives them toward competitors, thereby indicating a competitive disadvantage.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.425, Strength: 0.875">ⓘ</span>
-<br/>  The team's overwhelming focus on maintaining outdated systems leaves no resources for innovation, directly contributing to the loss of users to competitors with superior offerings.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.801">ⓘ</span>
-<br/>  The persistent misunderstanding between stakeholder expectations and developer outputs often stems from outdated communication practices and legacy system limitations, resulting in features that fail to meet market demands and ultimately driving users to competitors.
-- [Capacity Mismatch](capacity-mismatch.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.789">ⓘ</span>
-<br/>  The inability to align development capacity with user demand leads to delays in delivering new features and improvements, directly contributing to user dissatisfaction and encouraging them to migrate to competitors offering superior experiences.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.860">ⓘ</span>
-<br/>  The inability to allocate adequate resources for refining and enhancing features in legacy systems directly leads to lower-quality user experiences, which in turn drives users to competitors that provide a more polished and feature-rich environment.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.755">ⓘ</span>
-<br/>  A slow and cumbersome development environment hampers the team's ability to rapidly implement new features and improvements, directly contributing to a decline in user satisfaction and driving them towards competitors.
-- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md) <span class="info-tooltip" title="Confidence: 0.335, Strength: 0.814">ⓘ</span>
-<br/>  Poorly designed APIs in legacy systems lead to versioning and backward compatibility issues, making it difficult to implement new features and enhancements that improve user experience, thereby driving users to competitors.
-- [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.753">ⓘ</span>
-<br/>  The variation in onboarding experiences highlights the lack of standardized processes and features in the legacy system, which directly contributes to user dissatisfaction and drives them towards competitors that provide a more cohesive and feature-rich environment.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.820">ⓘ</span>
-<br/>  Dissatisfaction among business stakeholders arises from the inability of the legacy system to deliver competitive features and improve development speed, leading to frustration over project outcomes that fail to meet market demands.
-- [Information Fragmentation](information-fragmentation.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.867">ⓘ</span>
-<br/>  The difficulty in accessing and maintaining critical system knowledge, due to its dispersion across various locations and formats, leads to inefficient development and support processes, ultimately resulting in a diminished user experience that drives customers to competitors.
 
-## Root Causes ▼
+- [Declining Business Metrics](declining-business-metrics.md)
+<br/>  Loss of customers to competitors directly manifests as declining revenue, engagement, and market share metrics.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Users become dissatisfied when the product falls behind competitors in features and experience quality.
+- [Negative Brand Perception](negative-brand-perception.md)
+<br/>  Users and the market associate the brand with outdated technology and inferior user experience.
+- [Stakeholder Frustration](stakeholder-frustration.md)
+<br/>  Business stakeholders become frustrated as they watch the organization lose market position due to technical limitations.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Increased Time to Market](increased-time-to-market.md)
+<br/>  Slow feature delivery allows competitors to reach the market first with capabilities customers demand.
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  Reliance on outdated technology stacks prevents implementing modern features that competitors already offer.
+- [Technical Architecture Limitations](technical-architecture-limitations.md)
+<br/>  Architectural constraints prevent the system from supporting capabilities that competitors can deliver.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  The slow pace of feature delivery means the product cannot keep up with competitor improvements.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Accumulated technical debt diverts resources from new capabilities to maintenance, slowing competitive response.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Unhappy customers switch to competitors who offer better experiences, eroding market position.
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  When value delivery is slow, competitors who ship faster capture market opportunities first.
+- [Extended Cycle Times](extended-cycle-times.md)
+<br/>  Slow delivery cycles prevent the team from responding quickly to market changes and user needs, giving competitors an edge.
+- [Feature Bloat](feature-bloat.md)
+<br/>  Users switch to simpler, more focused competitors when the bloated product becomes too complex for their needs.
+- [Feature Gaps](feature-gaps.md)
+<br/>  Users abandon the product for competitors that provide the missing functionality they need.
+- [High Client-Side Resource Consumption](high-client-side-resource-consumption.md)
+<br/>  Users switch to competitor products that perform better and consume fewer device resources.
+- [Inadequate Onboarding](inadequate-onboarding.md)
+<br/>  Users abandon the application early and switch to competitors that offer a smoother getting-started experience.
+- [Integration Difficulties](integration-difficulties.md)
+<br/>  Inability to easily integrate with modern services puts the organization at a disadvantage against competitors with more flexible systems.
+- [Long Release Cycles](long-release-cycles.md)
+<br/>  Competitors with faster release cadences can respond to market needs more quickly, gaining advantage.
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  Resources consumed by escalating maintenance costs cannot be invested in competitive features, eroding market position.
+- [Maintenance Overhead](maintenance-overhead.md)
+<br/>  Teams overwhelmed by maintenance cannot deliver new features, causing the product to fall behind competitors.
+- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
+<br/>  Failure to justify and fund modernization allows competitors with modern systems to outpace the organization in features and agility.
+- [Modernization Strategy Paralysis](modernization-strategy-paralysis.md)
+<br/>  While the organization remains paralyzed, competitors modernize and gain market advantage through superior technical capabilities.
+- [Negative Brand Perception](negative-brand-perception.md)
+<br/>  Users switch to competitors perceived as more reliable, eroding market position.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Publicly visible negative feedback pushes potential users toward competitors with better reputations.
+- [Reduced Innovation](reduced-innovation.md)
+<br/>  Failure to adopt better technologies and approaches causes the organization to fall behind competitors.
+- [Regulatory Compliance Drift](regulatory-compliance-drift.md)
+<br/>  Inability to meet regulatory requirements prevents offering new products or services that competitors with modern systems can provide.
+- [Scaling Inefficiencies](scaling-inefficiencies.md)
+<br/>  Inability to scale efficiently leads to slower response times and higher costs, putting the organization at a disadvantage against competitors with more scalable architectures.
+- [System Outages](system-outages.md)
+<br/>  Unreliable systems drive users to more stable competitors who can provide consistent service availability.
+- [System Stagnation](system-stagnation.md)
+<br/>  Failure to evolve leaves the system unable to match competitors who continuously improve their offerings.
 
 ## Detection Methods ○
 - **Competitive Feature Analysis:** Regular comparison of technical capabilities against competitors

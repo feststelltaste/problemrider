@@ -34,18 +34,21 @@ Team churn impact refers to the negative effects on code quality, consistency, a
 - Documentation gaps in areas where key contributors have left
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.529, Strength: 0.740">ⓘ</span>
-<br/>  The constant turnover of developers leads to inconsistent understanding and interpretation of project requirements, resulting in frequent updates and adjustments that disrupt the development process and indicate underlying issues with team stability and knowledge continuity.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.444, Strength: 0.656">ⓘ</span>
-<br/>  Frequent changes in team composition lead to inconsistent coding practices and knowledge gaps, which create a chaotic work environment that frustrates developers and contributes to their burnout.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.722">ⓘ</span>
-<br/>  As developers frequently leave and join the team, their varying levels of familiarity with legacy systems result in knowledge gaps that hinder effective maintenance, ultimately leading to a critical shortage of skilled personnel who can manage and update the outdated technologies.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.745">ⓘ</span>
-<br/>  Frequent changes in team composition lead to inconsistent coding practices and knowledge gaps, causing developers to spend less time on refining features, which directly results in diminished quality of the delivered user experience.
 
-## Root Causes ▼
-- [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.863">ⓘ</span>
-<br/>  The increasing fragility of the software system leads to a higher likelihood of errors during modifications, which, when compounded by the varying practices and knowledge of new team members, results in inconsistent implementations that further degrade code quality.
+- [Inconsistent Codebase](inconsistent-codebase.md)
+<br/>  As developers cycle through the team bringing different coding styles and practices, the codebase becomes inconsistent in patterns, conventions, and approaches.
+- [Knowledge Silos](knowledge-silos.md)
+<br/>  When experienced developers leave, critical system knowledge becomes concentrated in fewer people, creating dangerous knowledge silos.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  New team members unfamiliar with existing conventions and design decisions introduce code that doesn't follow established patterns, degrading overall quality.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Long onboarding times and lost institutional knowledge slow the team down as new members struggle to become productive.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  New developers who don't understand original design decisions create workarounds rather than proper solutions, adding complexity.
+
+## Causes ▼
+- [High Turnover](high-turnover.md)
+<br/>  Frequent departure of team members is the direct driver of team churn and the resulting knowledge loss and inconsistency.
 
 ## Detection Methods ○
 - **Turnover Rate Analysis:** Track the frequency of team member departures and their impact duration

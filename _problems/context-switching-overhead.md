@@ -33,40 +33,45 @@ Context switching overhead occurs when developers are forced to frequently switc
 - Productivity varies significantly based on the number of concurrent responsibilities
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.645">ⓘ</span>
-<br/>  Constantly switching between outdated tools and fragmented systems leads to increased cognitive load and diminished focus, resulting in developers feeling overwhelmed and ultimately contributing to their frustration and burnout.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.581">ⓘ</span>
-<br/>  The constant need to adapt to shifting requirements increases the frequency of context switching as developers must repeatedly adjust their focus and understanding, which in turn amplifies cognitive load and disrupts workflow, thereby reflecting the underlying issue of context switching overhead.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.555">ⓘ</span>
-<br/>  The constant need for developers to switch between various tools and systems leads to fragmented attention and slower response times, causing services that depend on timely API interactions to exceed their configured timeout limits.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.560">ⓘ</span>
-<br/>  Frequent context switching among developers leads to a fragmented understanding of the intricate business logic, resulting in a convoluted domain model that reflects the challenges of maintaining coherence and clarity in the legacy system.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.573">ⓘ</span>
-<br/>  Frequent context switching among developers leads to incomplete knowledge transfer and inconsistent system behavior, resulting in users facing obstacles and increased frustration, which manifests as a higher volume of customer support inquiries.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.572">ⓘ</span>
-<br/>  Frequent context switching among developers leads to overlapping modifications of the same code segments, resulting in merge conflicts that highlight the inefficiencies and cognitive strain caused by the need to navigate multiple systems and tools.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.918">ⓘ</span>
-<br/>  The reliance on shared libraries and frameworks necessitates frequent context switching as developers must adapt to varying interfaces and dependencies across different components, leading to increased cognitive overload and diminished productivity.
-- [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.921">ⓘ</span>
-<br/>  The slow response times from dependent services force developers to frequently halt their work to address latency issues, thereby increasing the need to switch contexts between troubleshooting and development tasks, which ultimately hampers productivity and heightens cognitive load.
-- [Increased Time to Market](increased-time-to-market.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.893">ⓘ</span>
-<br/>  The prolonged time to market forces developers to juggle multiple legacy systems and tools to meet deadlines, leading to frequent context switching that hampers productivity and increases cognitive load.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.920">ⓘ</span>
-<br/>  The lack of sufficient design skills leads to poorly structured and interdependent systems, forcing developers to frequently switch tools and contexts to manage inconsistencies and technical debt, which increases cognitive load and reduces overall productivity.
-- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.884">ⓘ</span>
-<br/>  The accumulation of design and implementation shortcuts forces developers to frequently navigate complex and inconsistent codebases, leading to constant context switching between tools and systems, which detracts from their overall productivity and increases cognitive load.
-- [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.911">ⓘ</span>
-<br/>  Excessive API response times force developers to frequently interrupt their workflow to diagnose and address performance issues, thereby increasing the cognitive load and time lost to context switching between problem domains.
-- [Slow Response Times for Lists](slow-response-times-for-lists.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.908">ⓘ</span>
-<br/>  Inefficient data fetching for lists results in prolonged wait times for developers when accessing necessary information, forcing them to frequently switch contexts to manage their tasks, thereby increasing cognitive load and reducing overall productivity.
-- [Legal Disputes](legal-disputes.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.874">ⓘ</span>
-<br/>  Frequent legal disputes force developers to divert their attention and resources to navigate complex contract negotiations and compliance issues, which disrupts their workflow and increases the frequency of context switching among various projects and tools.
-- [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.858">ⓘ</span>
-<br/>  The difficulty in modifying the fragile codebase without risking new bugs forces developers to frequently switch contexts to understand and navigate the complexities, thereby increasing cognitive load and reducing overall productivity.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.924">ⓘ</span>
-<br/>  Developers' difficulty in adapting to object-oriented principles leads to writing code that requires frequent context switches between procedural and object-oriented paradigms, thereby increasing cognitive load and reducing overall productivity in legacy systems.
+- [Reduced Individual Productivity](reduced-individual-productivity.md)
+<br/>  Each context switch incurs a mental ramp-up cost, directly reducing the amount of productive work developers can accomplish.
+- [Mental Fatigue](mental-fatigue.md)
+<br/>  Frequent switching between different tools, technologies, and problem domains drains cognitive energy, leaving developers mentally exhausted.
+- [Increased Risk of Bugs](increased-risk-of-bugs.md)
+<br/>  Developers who are constantly switching contexts are more likely to make mistakes because they cannot maintain deep focus on any single task.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  The cumulative overhead of frequent context switches reduces the team's overall throughput and delivery pace.
+- [Cognitive Overload](cognitive-overload.md)
+<br/>  Managing multiple different mental models, tools, and workflows simultaneously overwhelms developers' working memory.
+
+## Causes ▼
+- [Constant Firefighting](constant-firefighting.md)
+<br/>  Being pulled away from planned work to handle emergencies is a major source of forced context switches.
+- [Competing Priorities](competing-priorities.md)
+<br/>  When developers are assigned to multiple concurrent projects, they must constantly switch between different codebases and problem domains.
+- [Technology Stack Fragmentation](technology-stack-fragmentation.md)
+<br/>  Maintaining systems across many different technology stacks forces developers to switch between different languages, frameworks, and tools.
+- [Priority Thrashing](priority-thrashing.md)
+<br/>  Frequently changing work priorities force developers to abandon current tasks and switch to new ones repeatedly.
+- [Approval Dependencies](approval-dependencies.md)
+<br/>  Developers forced to switch to other tasks while waiting for approvals lose focus and efficiency.
+- [Bottleneck Formation](bottleneck-formation.md)
+<br/>  Developers forced to switch between tasks while waiting for bottleneck resolution lose productivity to context switching.
+- [Extended Review Cycles](extended-review-cycles.md)
+<br/>  Multiple review rounds force authors to repeatedly switch back to code they wrote days or weeks ago, losing context each time.
+- [Inefficient Development Environment](inefficient-development-environment.md)
+<br/>  Long build or test times force developers to switch to other tasks while waiting, increasing cognitive overhead.
+- [Interrupt Overhead](interrupt-overhead.md)
+<br/>  Each interrupt requires saving and restoring execution context, creating significant context switching overhead.
+- [Long Build and Test Times](long-build-and-test-times.md)
+<br/>  While waiting for builds, developers switch to other tasks, losing mental context and reducing effectiveness.
+- [Tool Limitations](tool-limitations.md)
+<br/>  Poor tool integration forces developers to constantly switch between multiple applications for basic tasks.
+- [Work Blocking](work-blocking.md)
+<br/>  When developers are blocked waiting for approvals, they switch to lower-priority tasks, incurring cognitive overhead from frequent context changes.
+- [Work Queue Buildup](work-queue-buildup.md)
+<br/>  Developers forced to switch to other tasks while their primary work waits in queues lose productivity to context switching.
 
 ## Detection Methods ○
 

@@ -24,12 +24,25 @@ Null pointer dereferences occur when a program attempts to access memory through
 - Stack traces point to memory access operations on null pointers
 
 ## Symptoms ▲
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.694">ⓘ</span>
-<br/>  In legacy systems, the failure to deallocate resources often leads to null pointer dereferences, as unhandled resource management can leave pointers pointing to freed memory, resulting in attempts to access invalid memory locations.
 
-## Root Causes ▼
+- [System Outages](system-outages.md)
+<br/>  Null pointer dereferences cause application crashes and segmentation faults, directly leading to service interruptions and system outages.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Null pointer exceptions manifest as runtime errors that increase the overall error rate of the application.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Null pointer dereferences that occur inconsistently depending on program state are notoriously difficult to reproduce and debug.
+- [Unpredictable System Behavior](unpredictable-system-behavior.md)
+<br/>  Null pointer dereferences cause crashes that occur inconsistently depending on input conditions and program state, making system behavior unpredictable.
+- [Silent Data Corruption](silent-data-corruption.md)
+<br/>  In some cases, null pointer dereferences can corrupt adjacent memory rather than crashing immediately, leading to silent data corruption.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  Failure to check return values and validate pointers before use is a direct cause of null pointer dereferences.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Without automated tests that exercise null pointer conditions, these defects go undetected until they cause production crashes.
+- [Poor Test Coverage](poor-test-coverage.md)
+<br/>  Insufficient test coverage means null pointer edge cases are not tested, allowing dereference bugs to reach production.
 
 ## Detection Methods ○
 

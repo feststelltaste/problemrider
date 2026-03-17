@@ -34,32 +34,29 @@ Spaghetti code refers to source code that has become tangled, unstructured, and 
 - Multiple exit points from functions make it hard to understand return conditions
 
 ## Symptoms ▲
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.738">ⓘ</span>
-<br/>  Unstructured and tangled code often leads to a convoluted representation of the complex business domain, resulting in a system that becomes increasingly difficult to interpret and implement correctly, thereby highlighting the underlying issues of poor code organization.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.739">ⓘ</span>
-<br/>  The tangled and unstructured nature of the code complicates understanding and maintenance, leading to a reliance on a shrinking pool of developers who possess the necessary legacy knowledge, thereby creating a bottleneck in system upkeep.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.482, Strength: 0.708">ⓘ</span>
-<br/>  The tangled and unstructured nature of the code makes it difficult to identify which parts require testing, leading to significant gaps in test coverage that expose critical areas to undetected bugs and failures.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.428, Strength: 0.723">ⓘ</span>
-<br/>  Tangled and unstructured logic in legacy code makes it difficult to implement effective data management practices, leading to uncontrolled growth of data structures and databases as developers struggle to modify or optimize the existing codebase.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.399, Strength: 0.710">ⓘ</span>
-<br/>  Unstructured logic leads to unpredictable interactions and dependencies within the code, causing tests to fail intermittently and eroding confidence in the reliability of the test suite.
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.374, Strength: 0.638">ⓘ</span>
-<br/>  The tangled and unstructured logic of poorly organized code can lead to improper management of data structures, resulting in them growing indefinitely without constraints, thereby indicating the presence of underlying code quality issues.
-- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md) <span class="info-tooltip" title="Confidence: 0.355, Strength: 0.771">ⓘ</span>
-<br/>  The tangled and unstructured nature of the code makes it difficult for new developers to grasp the system's logic without proper mentorship, resulting in a lack of consistent guidance that highlights the need for better support structures.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.697">ⓘ</span>
-<br/>  In legacy systems, unstructured and tangled logic often leads developers to adopt inconsistent naming conventions, as the lack of clear organization makes it difficult to maintain coherent and meaningful identifiers, thereby serving as an indicator of deeper code quality issues.
-- [Lower Code Quality](lower-code-quality.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.640">ⓘ</span>
-<br/>  Tangled and unstructured logic within the code creates an environment where developers, feeling overwhelmed and pressed for time, are more prone to making mistakes, resulting in a noticeable decline in code quality as they struggle to navigate and implement changes effectively.
-- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.774">ⓘ</span>
-<br/>  The lack of effective monitoring in a project leads to undetected complexities and issues within tangled, unstructured code, making it difficult to assess progress and identify problems until they escalate beyond control.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.769">ⓘ</span>
-<br/>  Tangled and unstructured logic in the codebase leads to poor architectural decisions, which in turn creates constraints that hinder the system's performance, scalability, and maintainability, making it a clear indicator of underlying design flaws.
 
-## Root Causes ▼
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  Tangled, unstructured code with unpredictable control flow is extremely difficult for developers to read and understand.
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  Spaghetti code's tangled dependencies mean changes in one area frequently break unrelated functionality.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Adding features to spaghetti code requires extensive time to understand the tangled logic and safely integrate changes.
+- [Fear of Change](fear-of-change.md)
+<br/>  Developers become reluctant to modify spaghetti code because changes have unpredictable and far-reaching consequences.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Time Pressure](time-pressure.md)
+<br/>  Under pressure to deliver quickly, developers take shortcuts that result in tangled, poorly structured code.
+- [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
+<br/>  Continuous feature additions without structural improvement create tangled, unstructured code that is nearly impossible to maintain.
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Lack of design skills leads to poorly structured code with tangled control flow and unclear organization.
+- [Misunderstanding of OOP](misunderstanding-of-oop.md)
+<br/>  Misunderstanding encapsulation and proper object design leads to tangled, unstructured code with unclear control flow.
+- [Procedural Programming in OOP Languages](procedural-programming-in-oop-languages.md)
+<br/>  Without OOP structure, procedural code grows into tangled sequences that are difficult to follow and modify.
+- [Uncontrolled Codebase Growth](uncontrolled-codebase-growth.md)
+<br/>  Growth without structural planning leads to tangled, unstructured code that is difficult to understand or modify.
 
 ## Detection Methods ○
 

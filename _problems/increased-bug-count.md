@@ -34,32 +34,49 @@ Increased bug count occurs when software changes consistently introduce new defe
 - Bug fix cycles are becoming longer and more complex
 
 ## Symptoms ▲
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.533, Strength: 0.805">ⓘ</span>
-<br/>  The frequent introduction of new defects requires developers to spend more time on debugging and fixing issues rather than implementing new features, leading to a noticeable decline in overall team productivity as they become increasingly reactive to quality problems.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.529, Strength: 0.746">ⓘ</span>
-<br/>  Constant updates to project requirements often lead to rushed or incomplete implementations, increasing the likelihood of defects and contributing to a higher bug count in production.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.526, Strength: 0.779">ⓘ</span>
-<br/>  The rise in defects leads to more user frustrations and unfinished tasks, resulting in an increased volume of support requests as users seek assistance with issues that stem directly from the software's declining quality.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.479, Strength: 0.716">ⓘ</span>
-<br/>  The frequent introduction of new defects in legacy systems creates a chaotic and stressful development environment, leading to frustration and burnout among developers as they struggle to manage the rising complexity and instability of the codebase.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.453, Strength: 0.690">ⓘ</span>
-<br/>  Insufficient test coverage allows untested areas of the codebase to remain vulnerable to defects, which contributes to a rising number of bugs in production as changes are made without adequate validation.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.450, Strength: 0.783">ⓘ</span>
-<br/>  The frequent introduction of new defects can lead to inefficient code paths and resource management issues, resulting in excessive hardware interrupts that disrupt CPU execution and manifest as performance degradation in legacy systems.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.435, Strength: 0.778">ⓘ</span>
-<br/>  The tendency to become mired in extensive research and deliberation indicates a lack of confidence in the codebase, often stemming from the frequent introduction of defects, which in turn slows down progress and exacerbates the overall bug count.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.421, Strength: 0.735">ⓘ</span>
-<br/>  The presence of flaky tests often indicates an increased bug count, as unstable test environments and dependencies can lead to inconsistent results, highlighting underlying defects introduced by recent changes and eroding confidence in the legacy system's reliability.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.795">ⓘ</span>
-<br/>  The frequent introduction of new defects disrupts the development process, causing increased time spent on bug fixing over feature delivery, which manifests as a decline in the team's overall productivity and ability to meet project timelines.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.797">ⓘ</span>
-<br/>  The pressure to meet tight deadlines often leads to hurried development practices, increasing the likelihood of introducing defects, which in turn results in a higher bug count in the legacy software system.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.574">ⓘ</span>
-<br/>  The failure of code review practices to effectively identify and address issues leads to the introduction of more defects in production, thus serving as an indicator of declining software quality and increased bug prevalence.
 
-## Root Causes ▼
+- [Increased Cost of Development](increased-cost-of-development.md)
+<br/>  More bugs mean more time and money spent on debugging and fixing rather than building new features.
+- [Increased Customer Support Load](increased-customer-support-load.md)
+<br/>  More production bugs lead to more users contacting support with issues.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  A higher defect rate degrades the user experience, leading to user frustration and complaints.
+- [Release Instability](release-instability.md)
+<br/>  Frequent new defects make each release less stable and more likely to cause production problems.
+- [Fear of Change](fear-of-change.md)
+<br/>  When changes consistently introduce bugs, developers become hesitant to modify the codebase.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  More bugs introduced during development translate directly into more defects discovered in the live environment.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Increasing Brittleness](increasing-brittleness.md)
+<br/>  A brittle codebase means that small changes have unpredictable widespread effects, introducing more bugs.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Insufficient test coverage allows more bugs to slip through to production undetected.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  Tightly coupled components mean changes in one area inadvertently break others, multiplying bug introduction.
+- [Increased Cognitive Load](increased-cognitive-load.md)
+<br/>  When developers struggle to understand the code, they are more likely to make mistakes that introduce bugs.
+- [Development Disruption](development-disruption.md)
+<br/>  Developers who are constantly interrupted make more errors, introducing more bugs into the codebase.
+- [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
+<br/>  Without refactoring to maintain code quality, each new feature is more likely to introduce defects.
+- [Inconsistent Execution](inconsistent-execution.md)
+<br/>  Variations in how tasks are performed mean quality checks are applied unevenly, allowing more defects through.
+- [Inconsistent Quality](inconsistent-quality.md)
+<br/>  The low-quality parts of the system produce more defects, raising the overall bug count.
+- [Increased Risk of Bugs](increased-risk-of-bugs.md)
+<br/>  A higher risk of bugs directly leads to more bugs accumulating in the system over time.
+- [Large Pull Requests](large-pull-requests.md)
+<br/>  When large pull requests bypass effective review, more defects are introduced into the codebase undetected.
+- [Partial Bug Fixes](partial-bug-fixes.md)
+<br/>  Each partial fix only addresses one instance of the bug while leaving others open, keeping the defect count high.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Regression bugs add to the total bug count as previously fixed issues resurface alongside new defects.
+- [Superficial Code Reviews](superficial-code-reviews.md)
+<br/>  The failure to catch design and logic issues during review leads to a steadily growing number of defects.
+- [Synchronization Problems](synchronization-problems.md)
+<br/>  Each unsynchronized copy of logic becomes a potential source of new bugs as copies diverge over time.
 
 ## Detection Methods ○
 

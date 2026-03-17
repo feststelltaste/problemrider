@@ -34,20 +34,27 @@ Scope change resistance occurs when organizations or teams avoid making necessar
 - Stakeholders express concern about scope but changes aren't pursued
 
 ## Symptoms ▲
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.762">ⓘ</span>
-<br/>  Resistance to necessary changes in project scope leads to excessive deliberation and hesitance in decision-making, causing teams to remain stuck in analysis phases without translating insights into actionable development steps.
-- [Language Barriers](language-barriers.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.738">ⓘ</span>
-<br/>  Differences in language or terminology create misunderstandings that complicate discussions around necessary changes, thereby reinforcing resistance to adjusting project scope in legacy systems.
-- [Team Dysfunction](team-dysfunction.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.764">ⓘ</span>
-<br/>  Resistance to necessary changes in project scope often leads to frustration and conflict among team members, as their inability to adapt to evolving requirements fosters dysfunction and hinders effective collaboration.
 
-## Root Causes ▼
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.354, Strength: 0.878">ⓘ</span>
-<br/>  Budget overruns create a fear of additional costs associated with changes, leading stakeholders to resist necessary modifications to project scope in legacy systems due to the perceived financial risks and constraints on available resources.
-- [Gold Plating](gold-plating.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.907">ⓘ</span>
-<br/>  The tendency to add unnecessary features leads to a bloated project scope, which creates a perception of increased risk and complexity, ultimately causing stakeholders to resist necessary changes to the original project requirements.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.790">ⓘ</span>
-<br/>  The tendency to give disproportionately large time estimates for minor modifications reflects the underlying complexity and risk of the legacy code, which fosters a culture of apprehension and reluctance to embrace necessary changes in project scope.
+- [Misaligned Deliverables](misaligned-deliverables.md)
+<br/>  When necessary scope changes are resisted, the delivered product does not match evolving stakeholder needs and actual requirements.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  Teams implement workarounds to address discovered requirements that cannot be formally incorporated into the project scope.
+- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
+<br/>  Stakeholders become unhappy when they see the delivered solution doesn't meet current needs because necessary changes were resisted.
+- [Suboptimal Solutions](suboptimal-solutions.md)
+<br/>  Solutions built to original specifications despite changed understanding fail to fully address the actual problems they were meant to solve.
+- [Wasted Development Effort](wasted-development-effort.md)
+<br/>  Development effort is wasted building features to an outdated scope that no longer aligns with actual requirements.
+
+## Causes ▼
+- [Poor Contract Design](poor-contract-design.md)
+<br/>  Rigid fixed-price contracts make scope changes expensive and procedurally difficult, discouraging necessary adaptations.
+- [Resistance to Change](resistance-to-change.md)
+<br/>  Organizational inertia and cultural resistance to change make teams reluctant to modify established project plans even when evidence supports it.
+- [Approval Dependencies](approval-dependencies.md)
+<br/>  Extensive approval processes required for scope changes create barriers that discourage teams from pursuing necessary modifications.
+- [Project Resource Constraints](project-resource-constraints.md)
+<br/>  Resource-constrained teams resist scope additions because they already lack capacity for existing work.
 
 ## Detection Methods ○
 

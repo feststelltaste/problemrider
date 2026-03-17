@@ -32,14 +32,21 @@ Virtual memory thrashing occurs when the system's working set of active pages ex
 - Swap file usage grows rapidly and remains high
 
 ## Symptoms ▲
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.456, Strength: 0.744">ⓘ</span>
-<br/>  Excessive paging activity leads to frequent data retrieval from the original source instead of utilizing cached data, resulting in increased latency and further exacerbating performance issues in systems with limited memory resources.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.378, Strength: 0.671">ⓘ</span>
-<br/>  Excessive allocation of unreleased resources increases memory pressure, leading to frequent page swaps between physical memory and disk, thereby exacerbating performance issues characteristic of thrashing in legacy systems.
 
-## Root Causes ▼
+- [Excessive Disk I/O](excessive-disk-io.md)
+<br/>  Constant page swapping between RAM and disk generates extremely high disk I/O activity.
+- [Service Timeouts](service-timeouts.md)
+<br/>  Applications become so slow during thrashing that they fail to respond within timeout windows.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Memory Leaks](memory-leaks.md)
+<br/>  Memory leaks gradually consume available RAM until the system must rely heavily on virtual memory, causing thrashing.
+- [Resource Contention](resource-contention.md)
+<br/>  Multiple processes competing for limited memory resources cause the system to exceed physical memory capacity.
+- [Unbounded Data Growth](unbounded-data-growth.md)
+<br/>  Growing datasets that are loaded into memory can exceed physical RAM capacity, triggering thrashing.
+- [Memory Fragmentation](memory-fragmentation.md)
+<br/>  Memory fragmentation forces the OS to use more virtual memory pages, increasing page faults and potentially causing thrashing.
 
 ## Detection Methods ○
 

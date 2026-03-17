@@ -33,60 +33,25 @@ Clever code refers to implementations that prioritize demonstrating the author's
 - Code reviews focus more on deciphering logic than evaluating correctness
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.532, Strength: 0.754">ⓘ</span>
-<br/>  Code that prioritizes cleverness over clarity often leads to a lack of understanding among developers, resulting in critical sections being overlooked during test creation, which in turn manifests as insufficient test coverage.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.501, Strength: 0.800">ⓘ</span>
-<br/>  The complexity and obscurity of code written for technical display can lead to a reliance on a limited pool of specialized developers for maintenance, thereby highlighting a critical shortage of expertise in legacy technologies.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.482, Strength: 0.827">ⓘ</span>
-<br/>  The complexity and obfuscation inherent in the code make it challenging for developers to comprehend and modify, leading to increased time spent on understanding and fixing issues, which ultimately results in a decline in development velocity.
-- [Lower Code Quality](lower-code-quality.md) <span class="info-tooltip" title="Confidence: 0.471, Strength: 0.799">ⓘ</span>
-<br/>  Code complexity stemming from a focus on showcasing technical skills leads to misunderstandings and increased cognitive load for developers, resulting in rushed or careless work that manifests as a higher frequency of defects.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.469, Strength: 0.772">ⓘ</span>
-<br/>  The complexity and obscurity of the code make it difficult for developers to quickly navigate and troubleshoot the system, leading to a slow and cumbersome development environment that hampers productivity.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.465, Strength: 0.698">ⓘ</span>
-<br/>  When code is overly clever and obfuscated, it exacerbates the inherent complexity of the business domain, leading to a convoluted understanding of the system that hinders accurate implementation and maintenance.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.446, Strength: 0.839">ⓘ</span>
-<br/>  Code that prioritizes cleverness over clarity often leads to tightly coupled, complex structures that hinder modularity, causing the resulting large monolithic codebase to become increasingly unwieldy and challenging to maintain as it scales.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.753">ⓘ</span>
-<br/>  Code that prioritizes cleverness over clarity often introduces complex timing and dependency issues, leading to tests that fail unpredictably and erode confidence in the reliability of the testing framework.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.403, Strength: 0.778">ⓘ</span>
-<br/>  The complexity and obscurity of the code discourage team members from actively participating in the review process, resulting in a lack of diverse input and constructive feedback, which further perpetuates the challenges of maintaining and improving the codebase.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.826">ⓘ</span>
-<br/>  Complex codebases that prioritize cleverness over clarity lead to increased maintenance burdens, consuming valuable time and resources that could otherwise be allocated to innovation and improvement initiatives.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.811">ⓘ</span>
-<br/>  When code is overly complex and lacks clarity, it creates barriers to understanding and collaboration, leading teams to become hesitant to explore innovative solutions and instead settle for minimal operational functionality.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.723">ⓘ</span>
-<br/>  The use of unstructured or conflicting names arises from a focus on demonstrating technical skill rather than prioritizing clarity, resulting in code that is difficult to read and maintain, which serves as an indicator of underlying complexity and poor readability in legacy systems.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.802">ⓘ</span>
-<br/>  Complex and opaque code reduces clarity in understanding version changes, leading to mismanagement of configurations and errors during updates or rollbacks due to the difficulty in tracking the true state of the software.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.353, Strength: 0.699">ⓘ</span>
-<br/>  The complexity and obscurity of the code hinder developers from effectively creating and managing realistic test data, resulting in tests that fail to simulate actual use cases, thereby exposing the inadequacies of the underlying implementation.
-- [Quality Degradation](quality-degradation.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.819">ⓘ</span>
-<br/>  Code that prioritizes cleverness over clarity often leads to misunderstandings and misimplementations, which accumulate technical debt and result in a gradual decline in system quality as maintenance becomes increasingly challenging and error-prone.
-- [Unclear Goals and Priorities](unclear-goals-and-priorities.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.766">ⓘ</span>
-<br/>  When code is overly complex and technical, it obscures the project's objectives, resulting in shifting priorities and confusion among team members about what is truly important, which manifests as a sense of futility in their efforts.
-- [Poor Operational Concept](poor-operational-concept.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.787">ⓘ</span>
-<br/>  The complexity and obscurity of cleverly crafted code hinder effective monitoring and maintenance planning, resulting in insufficient operational oversight and post-launch instability.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.780">ⓘ</span>
-<br/>  The tendency to prioritize technical complexity over clarity in code leads to a breakdown in review processes, as reviewers struggle to provide constructive feedback or identify critical issues in convoluted implementations.
-- [Team Coordination Issues](team-coordination-issues.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.769">ⓘ</span>
-<br/>  Code that prioritizes cleverness over clarity creates ambiguity and complexity, leading to misunderstandings and misalignments among developers, which manifests as coordination issues when attempting to collaborate on the same codebase.
-- [Large Pull Requests](large-pull-requests.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.591">ⓘ</span>
-<br/>  The use of complex and obscure coding practices leads to extensive and convoluted changes in the codebase, resulting in large pull requests that overwhelm reviewers and hinder the identification of potential issues.
-- [Author Frustration](author-frustration.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.759">ⓘ</span>
-<br/>  The lack of clarity in code, due to an emphasis on showcasing technical skill over readability, leads to inconsistent feedback during code reviews, as reviewers struggle to interpret the intent and logic behind complex implementations, resulting in developer frustration.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.635">ⓘ</span>
-<br/>  The use of overly complex and clever coding techniques often leads to inefficient data handling practices, such as failing to implement effective caching, which results in repeated data fetches and increased latency as developers struggle to understand and optimize the convoluted logic.
-- [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.771">ⓘ</span>
-<br/>  Code written for technical demonstration often lacks clarity, leading to an accumulation of technical debt that becomes invisible to non-technical stakeholders, who cannot easily recognize the need for maintenance or improvement efforts.
-- [Technology Isolation](technology-isolation.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.766">ⓘ</span>
-<br/>  Code that prioritizes complexity over clarity hinders comprehension and collaboration, leading to outdated practices and technologies that isolate the system from modern advancements and talent.
-- [Inconsistent Knowledge Acquisition](inconsistent-knowledge-acquisition.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.741">ⓘ</span>
-<br/>  The complexity and obscurity of the code limit the ability of mentors to effectively teach new team members, resulting in uneven skill distribution as individuals struggle to grasp different components based on their unique learning experiences.
 
-## Root Causes ▼
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  Clever implementations using advanced language features create significant barriers to understanding for other developers.
+- [Increased Cognitive Load](increased-cognitive-load.md)
+<br/>  Understanding clever code requires maintaining complex mental models of advanced patterns, increasing cognitive burden.
+- [Fear of Change](fear-of-change.md)
+<br/>  Developers avoid modifying clever code because they cannot fully understand its behavior and fear introducing bugs.
+- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
+<br/>  Only the original author or similarly skilled developers can safely modify clever code, creating bottleneck dependencies.
+- [Slow Knowledge Transfer](slow-knowledge-transfer.md)
+<br/>  Clever code takes much longer to explain and teach to new team members, slowing onboarding and knowledge sharing.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Individual Recognition Culture](individual-recognition-culture.md)
+<br/>  A culture that rewards individual technical prowess over team productivity encourages developers to write impressive rather than clear code.
+- [CV Driven Development](cv-driven-development.md)
+<br/>  Developers choose advanced techniques to showcase skills on their resume rather than writing straightforward solutions.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Less experienced developers may conflate complexity with quality, writing overly sophisticated code to prove their abilities.
 
 ## Detection Methods ○
 - **Code Complexity Metrics:** Use tools to measure cyclomatic complexity, nesting depth, and other complexity indicators

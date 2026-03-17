@@ -31,38 +31,63 @@ High maintenance costs are a common problem for legacy systems. As a system ages
 - The business is hesitant to approve any changes to the system because of the high cost and risk.
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.660, Strength: 0.872">ⓘ</span>
-<br/>  The high maintenance costs arise from the reliance on outdated technologies that require specialized knowledge, and the critical shortage of developers with these skills exacerbates the maintenance burden, leading to increased effort and budget allocation towards keeping the system operational rather than innovating or improving it.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.520, Strength: 0.752">ⓘ</span>
-<br/>  The high maintenance costs associated with legacy systems hinder timely updates and adaptations to regulatory requirements, resulting in compliance drift that signals the growing burden of maintaining outdated technology.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.641">ⓘ</span>
-<br/>  Frequent user frustrations and task completion issues arise from outdated functionalities and bugs in the system, which, due to high maintenance costs, divert resources away from necessary updates and improvements, leading to an increased customer support load.
-- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.806">ⓘ</span>
-<br/>  Poorly designed APIs in legacy systems lead to complex versioning and compatibility issues, which escalate maintenance efforts and costs, thereby diverting resources away from innovation and new development.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.606">ⓘ</span>
-<br/>  Frequent changes to requirements often arise in legacy systems due to outdated documentation and a lack of flexibility, which results in costly rework and inefficiencies, ultimately driving up maintenance costs as teams struggle to adapt to evolving needs without a stable foundation.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.388, Strength: 0.641">ⓘ</span>
-<br/>  The excessive allocation of system resources without proper deallocation indicates inefficient code management and technical debt, leading to increased time and costs for maintenance as developers must spend additional effort troubleshooting and resolving issues stemming from these unreleased resources.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.547">ⓘ</span>
-<br/>  The failure of code review practices to effectively identify and resolve issues leads to accumulating technical debt, which in turn increases maintenance efforts and costs, highlighting the inefficiencies within the legacy system.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.697">ⓘ</span>
-<br/>  The difficulty in maintaining, scaling, and deploying large monolithic codebases arises from their complexity, leading to increased time and resources spent on maintenance rather than innovation, thereby driving up overall maintenance costs.
-- [Legacy System Documentation Archaeology](legacy-system-documentation-archaeology.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.871">ⓘ</span>
-<br/>  The reliance on outdated documentation and fragmented knowledge leads to increased time spent deciphering system functions and troubleshooting issues, thereby driving up maintenance costs as teams struggle to understand and modify the legacy system effectively.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.692">ⓘ</span>
-<br/>  The excessive focus on maintaining outdated systems often leads to teams being overwhelmed by the complexity of required changes, resulting in prolonged research phases that hinder the transition to practical implementation and stifle innovation.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.595">ⓘ</span>
-<br/>  The high maintenance costs lead to an inefficient development environment because outdated tools and processes consume excessive time and resources, forcing the team to spend more effort on fixing issues rather than innovating or improving system performance.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.655">ⓘ</span>
-<br/>  The disproportionate allocation of resources to maintain a complex and outdated system leads to diminished team capacity and focus on new development, resulting in a predictable slowdown in feature delivery and bug resolution.
-- [Delayed Bug Fixes](delayed-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.693">ⓘ</span>
-<br/>  The high maintenance costs divert resources away from timely bug resolution, leading to prolonged unresolved issues that exacerbate user frustration and impede system performance.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.667">ⓘ</span>
-<br/>  The excessive resources devoted to maintaining outdated systems drain team capacity and morale, leading to a narrowed focus on immediate operational needs and a reluctance to pursue innovative solutions.
 
-## Root Causes ▼
+- [Inability to Innovate](inability-to-innovate.md)
+<br/>  When most of the budget is consumed by maintenance, teams have no capacity to explore new technologies or build new features.
+- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
+<br/>  High ongoing maintenance costs make it difficult to justify additional investment in modernization since budgets are already strained.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Lack of new features and slow response to change requests frustrates customers as competitors deliver improvements.
+- [High Turnover](high-turnover.md)
+<br/>  Developers become frustrated working primarily on maintenance of aging systems rather than building new things, leading them to leave.
+- [Maintenance Paralysis](maintenance-paralysis.md)
+<br/>  When maintenance costs dominate the budget, the system enters a state where meaningful improvements become impossible.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Accumulated design shortcuts and code quality issues make every change more expensive and time-consuming.
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  Maintaining a brittle codebase requires disproportionate effort as small changes demand extensive testing and fixing.
+- [Cargo Culting](cargo-culting.md)
+<br/>  Adopted technologies and patterns that the team doesn't understand become expensive to maintain and troubleshoot.
+- [Cascade Failures](cascade-failures.md)
+<br/>  Diagnosing and fixing cascade failure patterns requires extensive investigation across multiple components, increasing costs.
+- [CV Driven Development](cv-driven-development.md)
+<br/>  Unnecessarily complex technology choices driven by resume building create systems that are expensive to maintain after the original developer leaves.
+- [Dependency on Supplier](dependency-on-supplier.md)
+<br/>  Vendor-controlled components often come with escalating licensing and support costs that the organization cannot negotiate away.
+- [Difficult Code Reuse](difficult-code-reuse.md)
+<br/>  Maintaining multiple copies of similar code multiplies the effort needed for bug fixes and updates.
+- [Feature Bloat](feature-bloat.md)
+<br/>  Maintaining a large number of features, many rarely used, consumes disproportionate development resources.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Constant production bug fixing diverts development resources from new features, increasing overall maintenance burden.
+- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
+<br/>  Without modernization investment, legacy systems accumulate technical debt that drives maintenance costs ever higher.
+- [Modernization Strategy Paralysis](modernization-strategy-paralysis.md)
+<br/>  Delayed modernization decisions allow technical debt to compound, steadily increasing the cost of maintaining deteriorating systems.
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  Maintaining systems built on obsolete technologies requires specialized knowledge and custom workarounds, driving up costs.
+- [Poor Encapsulation](poor-encapsulation.md)
+<br/>  Poor encapsulation makes the system more expensive to maintain because any internal change can break external consumers.
+- [Ripple Effect of Changes](ripple-effect-of-changes.md)
+<br/>  The amplified effort required for every change drives up the cost of maintaining and evolving the system.
+- [Scaling Inefficiencies](scaling-inefficiencies.md)
+<br/>  When systems cannot be scaled independently, organizations must overprovision resources, leading to disproportionately high infrastructure and maintenance costs.
+- [Strangler Fig Pattern Failures](strangler-fig-pattern-failures.md)
+<br/>  Managing both legacy and new components simultaneously doubles operational overhead and maintenance effort.
+- [Suboptimal Solutions](suboptimal-solutions.md)
+<br/>  Suboptimal designs require ongoing workarounds, patches, and support that inflate maintenance costs.
+- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md)
+<br/>  Maintaining cross-cutting logic scattered throughout the codebase requires disproportionate effort for any change.
+- [Technology Isolation](technology-isolation.md)
+<br/>  Custom solutions must be built for problems that have standard solutions in modern ecosystems, increasing maintenance costs.
+- [Technology Lock-In](technology-lock-in.md)
+<br/>  Proprietary or outdated locked-in technologies often have high licensing and support costs.
+- [Technology Stack Fragmentation](technology-stack-fragmentation.md)
+<br/>  Maintaining multiple incompatible technology stacks with separate tools, processes, and expertise is significantly more expensive than a standardized environment.
+- [Workaround Culture](workaround-culture.md)
+<br/>  Maintaining multiple layers of workarounds requires significantly more effort than maintaining properly designed solutions.
 
 ## Detection Methods ○
 - **Cost of Ownership Analysis:** Calculate the total cost of owning and maintaining the system over its lifetime. This will give you a clear picture of the financial impact of the system.

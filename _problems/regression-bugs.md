@@ -34,37 +34,81 @@ Regression bugs are defects that occur when previously working functionality bre
 - The team regularly discusses whether changes might "break something else"
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.611, Strength: 0.837">ⓘ</span>
-<br/>  Insufficient test coverage creates gaps in quality assurance, allowing new changes to inadvertently disrupt previously functioning features without detection, thus leading to regression bugs.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.504, Strength: 0.769">ⓘ</span>
-<br/>  A critical shortage of developers with expertise in outdated technologies hinders the ability to effectively test and integrate new features, leading to unintentional disruptions of previously stable functionality.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.451, Strength: 0.697">ⓘ</span>
-<br/>  When new features or fixes introduce regression bugs in legacy systems, users experience unexpected failures in previously functional tasks, leading to increased frustration and a higher volume of support requests as they seek assistance to resolve these issues.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.627">ⓘ</span>
-<br/>  Flaky tests often arise in legacy systems due to tightly coupled components and outdated dependencies, which can mask regression bugs by failing unpredictably and making it difficult to determine whether existing functionality has been compromised.
 
-## Root Causes ▼
-- [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.444, Strength: 0.903">ⓘ</span>
-<br/>  Incomplete fixes in duplicated code lead to scenarios where existing functionality fails unexpectedly, as the overlooked instances retain their original defects, resulting in regression when new changes are introduced.
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.875">ⓘ</span>
-<br/>  Insufficient production monitoring and observability hinder the early detection of unintended side effects from new changes, allowing regression bugs to go unnoticed until they cause significant disruption in legacy systems.
-- [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.836">ⓘ</span>
-<br/>  As software systems evolve, the accumulation of outdated code and dependencies leads to increased fragility, where even minor modifications can disrupt interdependent functionalities, resulting in previously stable features breaking unexpectedly.
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.874">ⓘ</span>
-<br/>  Focusing on trivial issues during code reviews diverts attention from critical logic and design flaws, increasing the likelihood that new changes will unintentionally disrupt existing functionality in legacy systems.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.859">ⓘ</span>
-<br/>  The tendency to provide large time estimates for small changes reflects the underlying complexity and fragility of the legacy codebase, leading to increased risk of inadvertently breaking existing functionality when new features or fixes are implemented.
-- [Complex Deployment Process](complex-deployment-process.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.816">ⓘ</span>
-<br/>  The manual and error-prone nature of the software deployment process increases the likelihood of introducing unintended changes during updates, leading to existing functionality breaking as new features are added or fixes are applied.
-- [Debugging Difficulties](debugging-difficulties.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.780">ⓘ</span>
-<br/>  The challenges in identifying and resolving bugs due to a convoluted codebase and insufficient debugging tools lead to unintended consequences where new changes disrupt previously stable functionality, resulting in regression issues.
-- [Silent Data Corruption](silent-data-corruption.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.863">ⓘ</span>
-<br/>  Silent data corruption can lead to erroneous data being used in new features or fixes, causing previously functioning code to fail when it relies on compromised data integrity, thus introducing regression bugs in legacy systems.
-- **Large, Risky Releases**
-- [Incomplete Projects](incomplete-projects.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.894">ⓘ</span>
-<br/>  Incomplete projects lead to regression bugs because unfinished features often lack thorough testing and documentation, increasing the likelihood that new code will inadvertently disrupt existing functionality.
-- [Manual Deployment Processes](manual-deployment-processes.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.769">ⓘ</span>
-<br/>  The reliance on manual deployment processes introduces human error and oversight, leading to unintended consequences that disrupt previously stable functionalities during the release of new features or fixes in legacy systems.
+- [Increased Bug Count](increased-bug-count.md)
+<br/>  Regression bugs add to the total bug count as previously fixed issues resurface alongside new defects.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Users lose trust when features they relied on break after updates, leading to frustration and dissatisfaction.
+- [Refactoring Avoidance](refactoring-avoidance.md)
+<br/>  Frequent regressions reinforce fear of making changes, leading teams to avoid refactoring or modifying code.
+- [Fear of Change](fear-of-change.md)
+<br/>  Repeated experiences of changes breaking existing functionality creates a culture of fear around code modifications.
+- [Constant Firefighting](constant-firefighting.md)
+<br/>  Regressions in production require urgent fixes, pulling the team into reactive firefighting mode.
+
+## Causes ▼
+- [Test Debt](test-debt.md)
+<br/>  Insufficient test coverage fails to catch regressions before deployment, allowing them to reach production.
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  A fragile codebase with poor structure makes it easy for changes to inadvertently break existing functionality.
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
+<br/>  Poor code reviews fail to identify changes that could break existing functionality before they are merged.
+- [Bloated Class](bloated-class.md)
+<br/>  Modifying one part of a bloated class frequently breaks unrelated functionality within the same class.
+- [Breaking Changes](breaking-changes.md)
+<br/>  Previously working client integrations start exhibiting bugs after API changes break their assumptions.
+- [Change Management Chaos](change-management-chaos.md)
+<br/>  Changes deployed without impact assessment frequently break existing functionality that was previously working.
+- [Difficult to Test Code](difficult-to-test-code.md)
+<br/>  Without tests to catch regressions, previously fixed bugs resurface when code is modified.
+- [Global State and Side Effects](global-state-and-side-effects.md)
+<br/>  Changes to global state in one area break existing functionality elsewhere because the dependencies are not apparent.
+- [Hidden Dependencies](hidden-dependencies.md)
+<br/>  Modifications inadvertently break functionality in components that depend on hidden assumptions or undocumented interactions.
+- [Hidden Side Effects](hidden-side-effects.md)
+<br/>  Refactoring or reusing functions with hidden side effects inadvertently breaks functionality that depended on those side effects.
+- [Inadequate Integration Tests](inadequate-integration-tests.md)
+<br/>  Without integration tests, changes to one component can silently break interactions with other components.
+- [Incomplete Knowledge](incomplete-knowledge.md)
+<br/>  Changes made without awareness of all affected locations inadvertently break functionality in unknown parts of the system.
+- [Review Process Breakdown](insufficient-code-review.md)
+<br/>  Reviews that miss side effects and coupling issues lead to regression bugs when code changes.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Insufficient test coverage means changes frequently break existing functionality without detection before release.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Without automated tests to catch regressions, changes frequently break previously working functionality.
+- [Long-Lived Feature Branches](long-lived-feature-branches.md)
+<br/>  Large merges from long-lived branches introduce many changes at once, increasing the chance of subtle regressions.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Code written without proper care, testing, or design is more fragile and likely to cause regressions when modified.
+- [Feedback Isolation](no-continuous-feedback-loop.md)
+<br/>  Late-stage changes driven by delayed feedback require rushed modifications that introduce regressions in previously working features.
+- [Partial Bug Fixes](partial-bug-fixes.md)
+<br/>  Bugs that were supposedly fixed reappear in different contexts because the fix was only applied to some instances of the duplicated code.
+- [Poor Domain Model](poor-domain-model.md)
+<br/>  Scattered business logic means changes in one area inadvertently break business rules enforced elsewhere.
+- [Poor Test Coverage](poor-test-coverage.md)
+<br/>  Lack of automated tests means regressions are not caught during development, appearing later in production.
+- [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
+<br/>  Prototype code without proper testing and structure leads to frequent regressions when changes are made.
+- [Rapid System Changes](rapid-system-changes.md)
+<br/>  Frequent changes without adequate testing time lead to inadvertent breakage of previously working functionality.
+- [Reduced Code Submission Frequency](reduced-code-submission-frequency.md)
+<br/>  Large, complex changes submitted infrequently are more likely to introduce regressions that are difficult to isolate.
+- [Review Process Breakdown](review-process-breakdown.md)
+<br/>  Reviews that don't examine code logic thoroughly miss regressions that break previously working functionality.
+- [Ripple Effect of Changes](ripple-effect-of-changes.md)
+<br/>  Changes that ripple across components frequently introduce regressions in areas that developers didn't realize were affected.
+- [Rushed Approvals](rushed-approvals.md)
+<br/>  Reviewers who don't carefully examine changes miss regressions that break existing functionality.
+- [Superficial Code Reviews](superficial-code-reviews.md)
+<br/>  Without deep review of logic changes, regressions slip through and break previously working functionality.
+- [Synchronization Problems](synchronization-problems.md)
+<br/>  Updating one instance of duplicated logic without updating others causes regressions in the unchanged locations.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Tight coupling means changes in one component can silently break functionality in dependent components, causing regressions.
+- [Unpredictable System Behavior](unpredictable-system-behavior.md)
+<br/>  Hidden dependencies cause changes to break seemingly unrelated functionality, manifesting as regression bugs.
 
 ## Detection Methods ○
 - **Automated Regression Test Suites:** Comprehensive automated tests that verify existing functionality after every change

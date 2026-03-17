@@ -35,38 +35,31 @@ Delayed issue resolution occurs when identified problems remain unfixed for exte
 - Known issues are worked around rather than fixed
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.483, Strength: 0.677">ⓘ</span>
-<br/>  The failure to address underlying issues in the system leads to prolonged response times, causing services that rely on timely API interactions to exceed their timeout thresholds, thereby highlighting the consequences of unresolved problems.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.679">ⓘ</span>
-<br/>  The lack of developers skilled in outdated technologies hinders timely fixes for unresolved issues, resulting in prolonged system failures and increased technical debt.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.401, Strength: 0.732">ⓘ</span>
-<br/>  The lack of accountability in addressing issues leads to unresolved technical debt, which in turn burdens the development team with inefficiencies and distractions, ultimately reducing their overall productivity.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.582">ⓘ</span>
-<br/>  The lack of accountability in resolving existing issues leads to uncertainty and frustration among stakeholders, prompting them to frequently alter requirements in an attempt to address ongoing problems, which further exacerbates delays and complicates the development process in legacy systems.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.589">ⓘ</span>
-<br/>  The lack of accountability in resolving issues leads to a backlog of unresolved technical problems, causing developers to face constant firefighting and contributing to their disengagement and burnout as they struggle to maintain productivity in a perpetually broken environment.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.354, Strength: 0.613">ⓘ</span>
-<br/>  The prolonged lack of accountability for addressing issues often results in unmonitored resource management practices, causing system resources to remain allocated without proper deallocation, which exacerbates technical debt and hinders overall system performance.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.696">ⓘ</span>
-<br/>  The lack of accountability in addressing persistent issues leads to a focus on immediate survival rather than long-term improvements, causing teams to become resistant to innovation as they prioritize merely maintaining existing functionality over exploring new solutions.
-- [Delayed Value Delivery](delayed-value-delivery.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.715">ⓘ</span>
-<br/>  The lack of accountability in addressing issues results in unresolved bugs and unimplemented features, which directly extends the time users must wait for updates, highlighting the ongoing impact of unresolved technical debt on overall system performance and user satisfaction.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.679">ⓘ</span>
-<br/>  The lack of accountability in resolving issues leads teams to overanalyze problems without taking action, resulting in prolonged stagnation in development efforts and an inability to address accumulated technical debt.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.697">ⓘ</span>
-<br/>  The lack of accountability in addressing issues leads to unresolved bugs and technical debt, which in turn slows down development velocity as the team spends more time managing existing problems instead of delivering new features.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.740">ⓘ</span>
-<br/>  The lack of accountability in addressing issues leads to unresolved bugs, such as memory leaks, which accumulate over time and signify systemic neglect, ultimately resulting in performance degradation and user dissatisfaction.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.429, Strength: 0.907">ⓘ</span>
-<br/>  The presence of shared dependencies creates a complex interdependency among components, making it difficult for teams to identify ownership and accountability for issues, which ultimately leads to prolonged resolution times and increased technical debt.
-- [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.867">ⓘ</span>
-<br/>  Extended database transactions can monopolize system resources and locks, preventing timely issue resolution and contributing to a backlog of unresolved problems and user dissatisfaction in legacy systems.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.899">ⓘ</span>
-<br/>  The accumulation of unresolved issues arises from specific team members or processes acting as constraints, which hampers the timely identification and resolution of problems, thus exacerbating technical debt and user dissatisfaction in legacy systems.
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.876">ⓘ</span>
-<br/>  Insufficient production monitoring hinders timely detection and diagnosis of issues, resulting in unresolved problems that accumulate and lead to extended delays in resolution efforts.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  When issues remain unresolved, teams create workarounds that add layers of complexity to the system.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Unresolved issues accumulate as technical debt, making the system progressively harder to maintain and evolve.
+- [User Frustration](user-frustration.md)
+<br/>  Users experiencing the same unresolved problems repeatedly lose confidence in the system and become dissatisfied.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  Unresolved performance issues like memory leaks compound over time, causing steadily worsening system behavior.
+- [Increased Customer Support Load](increased-customer-support-load.md)
+<br/>  Persistent unresolved issues generate recurring support requests as users continue to encounter the same problems.
+
+## Causes ▼
+- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
+<br/>  Without clear ownership of system components, issues get passed between people without anyone taking responsibility to fix them.
+- [Feature Factory](feature-factory.md)
+<br/>  Prioritizing new feature delivery over fixing existing problems causes identified issues to languish in the backlog.
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Management focus on immediate deliverables means issue resolution is perpetually deprioritized in favor of new work.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Issues that are difficult to diagnose tend to be avoided and deferred, with developers reluctant to tackle complex problems.
+- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
+<br/>  Bug fixes and improvements are delayed because they must wait for the limited bottleneck developers to be available.
+- [Procrastination on Complex Tasks](procrastination-on-complex-tasks.md)
+<br/>  Complex issues sit unaddressed in the backlog for months because they are consistently deferred.
 
 ## Detection Methods ○
 

@@ -34,44 +34,37 @@ Resource allocation failures occur when applications acquire system resources su
 - System monitoring shows steadily increasing resource usage without corresponding deallocation
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.630, Strength: 0.819">ⓘ</span>
-<br/>  When system resources are not properly deallocated, it leads to exhaustion, causing delays in processing requests that result in timeouts for services relying on those resources.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.575, Strength: 0.827">ⓘ</span>
-<br/>  The lack of experienced developers in outdated technologies often leads to inadequate management of resource allocation, resulting in persistent failures, as these developers are less familiar with efficient deallocation practices, thereby exacerbating resource exhaustion issues.
-- [Project Authority Vacuum](project-authority-vacuum.md) <span class="info-tooltip" title="Confidence: 0.449, Strength: 0.832">ⓘ</span>
-<br/>  The failure to properly deallocate system resources leads to performance bottlenecks, causing critical projects to struggle for necessary support and ultimately creating a lack of organizational commitment to address the resource challenges.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.862">ⓘ</span>
-<br/>  Insufficient resource deallocation leads to system slowdowns and instability, causing teams to become mired in excessive analysis as they struggle to gather necessary insights without the operational capacity to proceed with implementation.
-- [Team Dysfunction](team-dysfunction.md) <span class="info-tooltip" title="Confidence: 0.399, Strength: 0.852">ⓘ</span>
-<br/>  Inefficient resource management often leads to system instability and slowdowns, which in turn frustrates team members and hampers their ability to collaborate effectively, revealing underlying dysfunction in team dynamics as they struggle to navigate the resulting technical limitations.
-- [Capacity Mismatch](capacity-mismatch.md) <span class="info-tooltip" title="Confidence: 0.387, Strength: 0.812">ⓘ</span>
-<br/>  Improperly managed resource allocation leads to a depletion of available resources, causing mismatches between capacity and demand at various stages of development, which in turn results in bottlenecks and underutilization as the system struggles to meet operational needs.
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.916">ⓘ</span>
-<br/>  The failure to properly deallocate system resources can lead to unbounded growth of data structures, as the accumulation of allocated but unused resources prevents effective memory management, ultimately resulting in resource exhaustion and degraded system performance.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.375, Strength: 0.840">ⓘ</span>
-<br/>  The failure to properly deallocate system resources can result in a lack of available capacity for generating or utilizing realistic test data, leading to tests that fail to adequately simulate real-world conditions and ultimately masking underlying allocation issues.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.374, Strength: 0.875">ⓘ</span>
-<br/>  Inefficient resource management leads to application slowdowns and increased bugs, which in turn frustrates stakeholders who expect timely and high-quality project deliverables.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.837">ⓘ</span>
-<br/>  Improperly deallocated resources, such as file handles or objects, lead to memory not being reclaimed by the system, causing a gradual increase in memory consumption that ultimately results in performance issues or crashes, thus indicating deeper allocation failures.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.797">ⓘ</span>
-<br/>  Improper deallocation of system resources leads to resource exhaustion, which in turn triggers excessive hardware interrupts as the system struggles to manage limited resources, resulting in frequent context switches that degrade application performance.
-- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.810">ⓘ</span>
-<br/>  Ineffective monitoring of project progress in legacy systems often masks ongoing resource allocation failures, resulting in unnoticed resource exhaustion that escalates issues to critical levels, making recovery challenging.
-- [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.780">ⓘ</span>
-<br/>  Inefficient code can lead to excessive resource allocation as it requires more system resources to handle prolonged processing times, thereby failing to release unused resources and exacerbating resource exhaustion in legacy systems.
-- [Incorrect Max Connection Pool Size](incorrect-max-connection-pool-size.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.864">ⓘ</span>
-<br/>  The failure to properly deallocate resources often leads to an incorrect configuration of maximum connection limits, as the system's inability to release unused connections results in either an overestimation or underestimation of the necessary pool size, indicating underlying resource management issues.
-- [Team Coordination Issues](team-coordination-issues.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.832">ⓘ</span>
-<br/>  When system resources are not properly deallocated, it can lead to performance degradation and increased complexity, making it challenging for multiple developers to effectively collaborate on the same codebase as they struggle to identify and resolve resource-related issues.
-- [Unoptimized File Access](unoptimized-file-access.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.811">ⓘ</span>
-<br/>  Inefficient file access occurs as a symptom of resource allocation failures because the failure to properly deallocate resources leads to increased contention and delays in accessing files, resulting in excessive disk I/O and degraded application performance.
-- [Delayed Bug Fixes](delayed-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.760">ⓘ</span>
-<br/>  When resources are not properly deallocated, it leads to system instability and performance degradation, making it difficult for developers to address known issues promptly, which in turn results in unresolved bugs persisting over time.
 
-## Root Causes ▼
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  As resources leak over time, application performance steadily worsens due to increasing resource scarcity.
+- [Memory Leaks](memory-leaks.md)
+<br/>  Failure to deallocate memory is a specific manifestation of resource allocation failures that causes growing memory consumption.
+- [Database Connection Leaks](database-connection-leaks.md)
+<br/>  Unreleased database connections are a specific form of resource allocation failure that exhausts connection pools.
+- [Thread Pool Exhaustion](thread-pool-exhaustion.md)
+<br/>  Threads that are never returned to the pool due to improper resource management eventually exhaust all available threads.
+- [Resource Contention](resource-contention.md)
+<br/>  Leaked resources reduce the pool of available resources, forcing remaining processes to compete more intensely for what remains.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  Poor error handling fails to clean up resources in exception paths, causing resources to leak when errors occur.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers unfamiliar with resource management patterns fail to properly implement resource cleanup, especially in complex error scenarios.
+- [Poor Test Coverage](poor-test-coverage.md)
+<br/>  Lack of tests for error conditions and long-running scenarios means resource leaks go undetected until they cause production failures.
+- [Database Connection Leaks](database-connection-leaks.md)
+<br/>  When the connection pool is exhausted by leaked connections, new database operations fail because no resources can be allocated.
+- [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
+<br/>  Resources are allocated to visible features rather than invisible but critical technical improvements.
+- [Memory Fragmentation](memory-fragmentation.md)
+<br/>  Fragmented memory prevents allocation of large contiguous blocks despite sufficient total free memory, causing allocation failures.
+- [Memory Leaks](memory-leaks.md)
+<br/>  As leaked memory consumes available resources, new allocation requests eventually fail due to memory exhaustion.
+- [Poor Planning](poor-planning.md)
+<br/>  Poor planning leads to mismatched resource allocation that doesn't reflect actual project needs.
+- [Unreleased Resources](unreleased-resources.md)
+<br/>  As unreleased resources accumulate, the system eventually cannot allocate new resources, causing failures.
 
 ## Detection Methods ○
 

@@ -31,32 +31,27 @@ Long-lived feature branches are a common problem in teams that use a branching m
 - The team is afraid to merge feature branches for fear of breaking something.
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.463, Strength: 0.677">ⓘ</span>
-<br/>  The prolonged existence of unmerged code leads to mounting technical debt and integration challenges, which frustrate developers as they grapple with an increasingly complex and unstable codebase, ultimately contributing to their disengagement and burnout.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.794">ⓘ</span>
-<br/>  The prolonged existence of unmerged code branches leads to multiple developers altering the same sections of the codebase, resulting in frequent merge conflicts that slow down development and signal the need for more timely code reviews and integration processes.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.451, Strength: 0.709">ⓘ</span>
-<br/>  Delayed code reviews and merges hinder timely updates to data management strategies, resulting in unaddressed data growth issues as legacy systems accumulate outdated or unnecessary data without effective oversight.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.443, Strength: 0.698">ⓘ</span>
-<br/>  The prolonged existence of unmerged code changes leads to an accumulation of unreleased resources, as developers may allocate system resources for features that are never finalized or integrated, resulting in inefficient resource management and increased technical debt.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.410, Strength: 0.628">ⓘ</span>
-<br/>  The prolonged duration of unmerged code increases the likelihood of requirements changing during development, as stakeholders may seek to adjust features based on evolving priorities, resulting in rework and integration challenges.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.405, Strength: 0.735">ⓘ</span>
-<br/>  The prolonged existence of unmerged code branches leads to frequent integration conflicts and technical debt, which in turn hampers the team's ability to deliver features and fixes efficiently, manifesting as a decline in development velocity.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.387, Strength: 0.647">ⓘ</span>
-<br/>  The slow and cumbersome development environment exacerbates integration issues by delaying code reviews and merges, leading to prolonged feature branches that hinder overall team efficiency and responsiveness.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.599">ⓘ</span>
-<br/>  The prolonged existence of feature branches hinders timely code reviews, resulting in a breakdown of review processes that fail to catch critical issues, thereby exacerbating integration problems and increasing technical debt in legacy systems.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.589">ⓘ</span>
-<br/>  When code remains unreviewed and merged for extended periods, it creates bottlenecks that hinder collaboration and progress, ultimately leading to decreased output and effectiveness within the development team.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.671">ⓘ</span>
-<br/>  The prolonged isolation of code in feature branches leads to a lack of collaborative naming standards and documentation, resulting in inconsistent naming conventions that further complicate code comprehension and maintenance within legacy systems.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.315, Strength: 0.701">ⓘ</span>
-<br/>  The accumulation of unmerged code leads to a backlog that stifles collaboration and experimentation, causing teams to prioritize immediate fixes over innovative solutions, ultimately hindering progress and adaptation in the system.
 
-## Root Causes ▼
-- [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.934">ⓘ</span>
-<br/>  Excessive API response times lead to delays in development and testing cycles, causing code changes to accumulate in feature branches without timely reviews or merges, ultimately resulting in integration challenges and increased risk.
+- [Merge Conflicts](merge-conflicts.md)
+<br/>  The longer a branch diverges from mainline, the more likely conflicting changes accumulate, creating painful merge conflicts.
+- [Integration Difficulties](integration-difficulties.md)
+<br/>  Code developed in isolation for extended periods becomes structurally incompatible with mainline changes, making integration costly.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Large merges from long-lived branches introduce many changes at once, increasing the chance of subtle regressions.
+- [Implementation Rework](implementation-rework.md)
+<br/>  When parallel development on mainline makes a branch's approach incompatible, significant rework is needed before merging.
+- [Large Pull Requests](large-pull-requests.md)
+<br/>  Long-lived branches accumulate many changes, resulting in large pull requests that are difficult to review effectively.
+
+## Causes ▼
+- [Large Feature Scope](large-feature-scope.md)
+<br/>  Features with overly broad scope take longer to implement, naturally extending branch lifetimes.
+- [Long Build and Test Times](long-build-and-test-times.md)
+<br/>  Slow CI pipelines discourage frequent integration, as developers avoid the long feedback cycles of merging often.
+- [Review Bottlenecks](review-bottlenecks.md)
+<br/>  Bottlenecks in the code review process delay merges, forcing branches to live longer than intended.
+- [Fear of Breaking Changes](fear-of-breaking-changes.md)
+<br/>  Teams delay merging because they fear introducing breaking changes, keeping branches separate longer.
 
 ## Detection Methods ○
 

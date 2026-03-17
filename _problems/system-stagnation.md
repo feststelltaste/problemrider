@@ -35,64 +35,35 @@ System stagnation occurs when software systems fail to evolve and improve over t
 - Integration capabilities lag behind current industry practices
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.559, Strength: 0.772">ⓘ</span>
-<br/>  The failure to evolve software systems leads to outdated architectures and inefficient processes, causing increased response times and resulting in services that time out when trying to access unoptimized APIs, thus indicating deeper issues of stagnation.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.516, Strength: 0.758">ⓘ</span>
-<br/>  When software systems fail to evolve, developers encounter repetitive challenges and limitations, leading to frustration and burnout as they struggle to maintain and innovate within a stagnant codebase.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.509, Strength: 0.871">ⓘ</span>
-<br/>  When software systems fail to evolve, developers face mounting challenges and inefficiencies that hinder their ability to deliver features and enhancements, resulting in decreased productivity as they grapple with outdated tools and processes.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.504, Strength: 0.740">ⓘ</span>
-<br/>  The inability of legacy systems to adapt to evolving needs results in stakeholders continuously altering requirements to compensate for outdated functionalities, thereby manifesting as frequent changes that indicate underlying system stagnation.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.466, Strength: 0.796">ⓘ</span>
-<br/>  The slow and cumbersome development environment indicates system stagnation as it reflects the inability to adopt modern tools and practices necessary for efficient software evolution, leading to prolonged maintenance challenges and a lack of responsiveness to new requirements.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.457, Strength: 0.750">ⓘ</span>
-<br/>  In legacy systems, the failure to evolve often leads to a lack of maintenance and oversight, resulting in allocated resources being neglected and left unreleased, which serves as a clear indicator of the system's stagnation and inability to adapt to changing operational demands.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.450, Strength: 0.672">ⓘ</span>
-<br/>  The inability to update or adapt software systems to evolving requirements often results in a convoluted representation of complex business domains, leading to misunderstandings and implementation challenges that highlight the stagnation of the system.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.449, Strength: 0.762">ⓘ</span>
-<br/>  The inability of systems to evolve leads to a reliance on outdated technologies, which in turn results in a diminishing pool of developers skilled in those technologies, creating maintenance bottlenecks that highlight the stagnation issue.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.400, Strength: 0.738">ⓘ</span>
-<br/>  The reliance on inefficient data retrieval methods, such as fetching data from the source on every request instead of utilizing caching, indicates a lack of adaptability in the software architecture to implement optimizations that meet current performance standards, highlighting the system's failure to evolve.
-- [Capacity Mismatch](capacity-mismatch.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.802">ⓘ</span>
-<br/>  When software systems stagnate and fail to evolve, they often lead to a misalignment between development capacity and the actual demand for updates or enhancements, resulting in bottlenecks and underutilization that signal the need for modernization efforts.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.730">ⓘ</span>
-<br/>  The lack of evolution in software systems leads to teams prioritizing immediate functionality over creative solutions, resulting in a culture that stifles innovation and ultimately reinforces the stagnation of the system.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.375, Strength: 0.787">ⓘ</span>
-<br/>  The inability of software systems to evolve often leads to outdated architecture that imposes constraints on performance and scalability, indicating a stagnation in development and responsiveness to changing requirements.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.755">ⓘ</span>
-<br/>  The failure to evolve software systems often stems from a lack of clear communication between stakeholders and developers, resulting in misaligned expectations that indicate the underlying stagnation of the system.
-- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.797">ⓘ</span>
-<br/>  Ineffective monitoring of project progress in legacy systems leads to a failure to identify and address evolving requirements, resulting in a lack of necessary updates and ultimately contributing to system stagnation.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.775">ⓘ</span>
-<br/>  The failure to evolve software systems often leads to a lack of attention to configuration management practices, resulting in improper tracking of code and infrastructure versions, which manifests as errors or challenges during updates and maintenance.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.364, Strength: 0.758">ⓘ</span>
-<br/>  When software systems fail to evolve, teams often become overwhelmed by the need to analyze numerous potential changes without a clear direction, leading to prolonged indecision and halting progress on necessary updates.
-- [Unclear Documentation Ownership](unclear-documentation-ownership.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.769">ⓘ</span>
-<br/>  The lack of clear responsibility for maintaining documentation reflects the system’s stagnation, as outdated and inconsistent information indicates a failure to evolve or adapt the software to meet current needs, thus highlighting the neglect in addressing necessary updates and improvements.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.790">ⓘ</span>
-<br/>  When software systems fail to evolve and adapt over time, stakeholders often experience frustration with stagnating project outcomes and diminishing responsiveness, leading to dissatisfaction that reflects the underlying lack of system progress.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.823">ⓘ</span>
-<br/>  The inability to adapt and enhance legacy systems leads to a lack of resources allocated for developing and refining new features, which in turn results in compromised quality and user experience.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.786">ⓘ</span>
-<br/>  The team's overwhelming focus on maintaining outdated functions prevents them from allocating resources to explore innovative solutions, thereby reinforcing the stagnation of the software system.
-- [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.772">ⓘ</span>
-<br/>  The presence of computationally expensive code and performance bottlenecks indicates a failure to refactor and optimize the software over time, highlighting the system's inability to adapt to evolving requirements and technologies.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.783">ⓘ</span>
-<br/>  The failure to evolve software systems often results in outdated codebases that cannot efficiently manage resources, leading to memory leaks as unaddressed inefficiencies accumulate over time, manifesting as performance issues.
-- [Poor Operational Concept](poor-operational-concept.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.806">ⓘ</span>
-<br/>  The failure to evolve software systems often results in inadequate planning for ongoing monitoring and maintenance, leading to instability that highlights the inability to adapt to changing operational needs.
-- [Poor Contract Design](poor-contract-design.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.838">ⓘ</span>
-<br/>  Poorly designed contracts often arise from the lack of ongoing system evolution, leading to rigid agreements that fail to accommodate changing technical requirements, which in turn reflects the stagnation of the software systems themselves.
-- [Team Dysfunction](team-dysfunction.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.765">ⓘ</span>
-<br/>  Ineffective collaboration among team members, driven by conflicting goals and interpersonal issues, often emerges as a direct consequence of a stagnant software environment that lacks the adaptability and innovation needed to engage and align team efforts towards evolving project requirements.
-- [Mentor Burnout](mentor-burnout.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.792">ⓘ</span>
-<br/>  The lack of system evolution leads to an increased reliance on experienced team members for mentoring, resulting in burnout as they struggle to transfer outdated knowledge and support less experienced colleagues in a stagnant environment.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.688">ⓘ</span>
-<br/>  As software systems stagnate, their monolithic architecture becomes increasingly cumbersome, leading to maintenance challenges and limiting scalability, which serves as an indicator of the system's inability to adapt to evolving requirements.
 
-## Root Causes ▼
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  A stagnant system's technology stack becomes outdated as it fails to adopt modern alternatives.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Failure to evolve leaves the system unable to match competitors who continuously improve their offerings.
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  New business requirements increasingly conflict with the unchanged architecture as the business evolves but the system does not.
+- [Integration Difficulties](integration-difficulties.md)
+<br/>  Stagnant systems lack modern integration capabilities, making it increasingly difficult to connect with current technologies.
+- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
+<br/>  Stakeholders grow unhappy as the system falls behind business needs and modern user experience standards.
+- [Increased Time to Market](increased-time-to-market.md)
+<br/>  Outdated system capabilities force complex workarounds for new features, slowing delivery significantly.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Fear of Breaking Changes](fear-of-breaking-changes.md)
+<br/>  Reluctance to modify working code prevents evolution, as teams avoid changes that might introduce regressions.
+- [Resistance to Change](resistance-to-change.md)
+<br/>  Organizational or cultural resistance prevents adoption of new technologies and approaches.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Accumulated technical debt makes changes so costly and risky that evolution becomes impractical.
+- [Maintenance Paralysis](maintenance-paralysis.md)
+<br/>  Teams unable to verify that changes won't break existing functionality avoid making improvements entirely.
+- [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
+<br/>  Inability to demonstrate ROI of modernization efforts prevents investment in system evolution.
+- [Past Negative Experiences](past-negative-experiences.md)
+<br/>  When developers are too cautious to make changes due to past failures, the system fails to evolve and stagnates.
+- [Technology Lock-In](technology-lock-in.md)
+<br/>  The inability to evolve the technology stack causes the system to stagnate and fall behind competitors.
 
 ## Detection Methods ○
 

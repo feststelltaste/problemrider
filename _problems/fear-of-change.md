@@ -33,26 +33,79 @@ Fear of change is a psychological and practical barrier that prevents developers
 - New features are implemented as additions rather than improvements to existing code
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.463, Strength: 0.700">ⓘ</span>
-<br/>  The hesitation to modify existing code increases the likelihood of frequent requirement changes, as developers seek to avoid potential disruptions, leading to ongoing project adjustments and rework that exacerbate their fear of making necessary updates.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.665">ⓘ</span>
-<br/>  The hesitance to modify existing code due to the perceived risks leads to a stagnant work environment, causing developers to feel demotivated and exhausted as they grapple with unresolved issues, ultimately resulting in frustration and burnout.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.417, Strength: 0.766">ⓘ</span>
-<br/>  The developers' reluctance to modify existing code due to the fear of unintended consequences leads to prolonged decision-making and avoidance of necessary changes, resulting in a significant slowdown in the team's ability to deliver features and fixes in a timely manner.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.414, Strength: 0.734">ⓘ</span>
-<br/>  Hesitance to modify existing code leads to a culture of risk aversion, resulting in fewer code updates and enhancements, which in turn causes systemic inefficiencies and a decline in the overall output and effectiveness of the development team.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.681">ⓘ</span>
-<br/>  The reluctance to modify legacy code due to the fear of introducing errors leads to a reliance on a diminishing pool of developers familiar with outdated technologies, creating maintenance bottlenecks and increasing the risk of failure in system support.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.675">ⓘ</span>
-<br/>  The developers' fear of modifying the legacy code leads to reliance on an inefficient and cumbersome development environment, which further exacerbates their hesitation to implement changes, creating a cycle of reduced productivity and increased risk aversion.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.332, Strength: 0.690">ⓘ</span>
-<br/>  The hesitation to modify existing code due to the fear of unintended consequences leads to excessive research and deliberation, causing teams to become immobilized in the planning phase instead of advancing to implementation.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.632">ⓘ</span>
-<br/>  The reluctance to modify legacy code stems from a fear of introducing errors, which in turn leads to a breakdown in the review process, as developers avoid thorough scrutiny and constructive feedback to mitigate perceived risks, ultimately resulting in lower code quality and increased technical debt.
 
-## Root Causes ▼
+- [Refactoring Avoidance](refactoring-avoidance.md)
+<br/>  Developers who fear change actively avoid refactoring, even when code quality demands it.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  Rather than modifying existing code, developers implement workarounds that add complexity without addressing root issues.
+- [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
+<br/>  Fear inflates estimates as developers account for perceived risk, making simple changes appear disproportionately expensive.
+- [Code Duplication](code-duplication.md)
+<br/>  Developers copy existing code rather than modifying shared components, leading to duplicated logic across the codebase.
+- [Maintenance Paralysis](maintenance-paralysis.md)
+<br/>  The team becomes paralyzed and unable to perform necessary maintenance because they cannot verify changes are safe.
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  Architecture stops evolving because the team avoids the structural changes needed for improvement.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  A fragile codebase where modifications frequently introduce bugs gives developers legitimate reasons to fear changes.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Without automated tests to verify behavior after modifications, every change carries unquantifiable risk.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  Tightly coupled components mean that changes have unpredictable ripple effects, justifying developer hesitancy.
+- [History of Failed Changes](history-of-failed-changes.md)
+<br/>  A track record of changes causing production incidents creates a culture of caution and anxiety around modifications.
+- [Blame Culture](blame-culture.md)
+<br/>  When mistakes are punished rather than treated as learning opportunities, developers become risk-averse and avoid making changes.
+- [Clever Code](clever-code.md)
+<br/>  Developers avoid modifying clever code because they cannot fully understand its behavior and fear introducing bugs.
+- [Complex and Obscure Logic](complex-and-obscure-logic.md)
+<br/>  Developers avoid modifying obscure code because they cannot confidently predict the consequences of changes.
+- [Deployment Coupling](deployment-coupling.md)
+<br/>  The complexity and risk of coupled deployments makes teams reluctant to make changes.
+- [Deployment Risk](deployment-risk.md)
+<br/>  When deployments are risky, teams become reluctant to make changes, leading to system stagnation.
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  Developers avoid modifying code they do not understand, leading to stagnation and workarounds.
+- [Difficult to Test Code](difficult-to-test-code.md)
+<br/>  Developers are reluctant to modify untested code because they cannot verify their changes don't break anything.
+- [Fear of Failure](fear-of-failure.md)
+<br/>  A pervasive fear of failure manifests as reluctance to modify code, since changes carry the risk of introducing mistakes.
+- [Flaky Tests](flaky-tests.md)
+<br/>  Unreliable tests make developers uncertain whether test failures indicate real regressions, increasing anxiety around code changes.
+- [Hidden Dependencies](hidden-dependencies.md)
+<br/>  Developers become hesitant to modify code because past hidden dependencies have caused unexpected breakages.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  When releases frequently introduce bugs, developers become reluctant to make changes, slowing development velocity.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  High technical debt makes changes risky, causing developers and management to resist modifications to the system.
+- [Inconsistent Quality](inconsistent-quality.md)
+<br/>  Developers become afraid to modify fragile, low-quality sections of the codebase because of the high risk of breaking things.
+- [Increased Bug Count](increased-bug-count.md)
+<br/>  When changes consistently introduce bugs, developers become hesitant to modify the codebase.
+- [Increased Risk of Bugs](increased-risk-of-bugs.md)
+<br/>  When developers know that changes are likely to introduce bugs, they become reluctant to modify the codebase.
+- [Increasing Brittleness](increasing-brittleness.md)
+<br/>  When small changes cause unpredictable failures, developers become afraid to modify the system.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Developers become afraid to modify code when there are no tests to verify their changes do not break anything.
+- [Legacy Business Logic Extraction Difficulty](legacy-business-logic-extraction-difficulty.md)
+<br/>  Developers become reluctant to modify code when they cannot determine which changes might break unknown business rules.
+- [Past Negative Experiences](past-negative-experiences.md)
+<br/>  Developers who have experienced production outages or blame from past changes become reluctant to modify the codebase.
+- [Poor Test Coverage](poor-test-coverage.md)
+<br/>  Without test coverage as a safety net, developers fear making changes that might break untested functionality.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Repeated experiences of changes breaking existing functionality creates a culture of fear around code modifications.
+- [Spaghetti Code](spaghetti-code.md)
+<br/>  Developers become reluctant to modify spaghetti code because changes have unpredictable and far-reaching consequences.
+- [Test Debt](test-debt.md)
+<br/>  Without adequate tests, developers are afraid to refactor or modify code because they cannot verify they haven't broken anything.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Developers become reluctant to modify code because tight coupling makes it impossible to predict the full impact of changes.
+- [Unpredictable System Behavior](unpredictable-system-behavior.md)
+<br/>  When changes cause unexpected side effects, developers become afraid to modify the system.
 
 ## Detection Methods ○
 - **Developer Surveys:** Ask team members about their confidence level when making changes to different parts of the system

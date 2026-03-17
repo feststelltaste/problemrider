@@ -34,34 +34,29 @@ Deadlock conditions occur when two or more threads or processes are blocked inde
 - System monitoring shows threads in waiting states that never progress
 
 ## Symptoms ▲
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.516, Strength: 0.758">ⓘ</span>
-<br/>  When system resources are not properly released, they can become contended, leading to multiple threads or processes waiting indefinitely for access, which ultimately results in a freeze and unresponsiveness of the application.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.510, Strength: 0.940">ⓘ</span>
-<br/>  When multiple teams are unable to make decisions due to conflicting priorities and dependencies, akin to processes waiting for each other in a system, they become trapped in endless analysis without progressing to implementation, thereby indicating underlying resource contention issues.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.488, Strength: 0.911">ⓘ</span>
-<br/>  Excessive hardware interrupts can exacerbate deadlock conditions by frequently triggering context switches that prevent threads from acquiring the necessary resources, thereby prolonging the wait times and making the system appear unresponsive.
-- [Delayed Bug Fixes](delayed-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.376, Strength: 0.814">ⓘ</span>
-<br/>  When multiple threads are trapped in a deadlock, the resulting system freeze prevents developers from effectively addressing and fixing existing issues, leading to prolonged unresolved bugs that frustrate users.
-- [Garbage Collection Pressure](garbage-collection-pressure.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.862">ⓘ</span>
-<br/>  Excessive object allocation in a system experiencing deadlock can lead to frequent garbage collection cycles, as threads are unable to complete their tasks, resulting in increased memory pressure and observable performance disturbances that indicate underlying resource contention issues.
-- [Work Blocking](work-blocking.md) <span class="info-tooltip" title="Confidence: 0.355, Strength: 0.931">ⓘ</span>
-<br/>  When multiple threads or processes are unable to progress due to waiting on each other for resource availability, this manifests as work blocking, where development tasks stall until necessary approvals are granted, highlighting the underlying deadlock conditions that impede system responsiveness.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.353, Strength: 0.838">ⓘ</span>
-<br/>  When multiple threads or processes are deadlocked, they may hold onto allocated memory without releasing it, resulting in memory that accumulates over time and serves as an indicator of underlying resource contention issues.
-- [Memory Fragmentation](memory-fragmentation.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.889">ⓘ</span>
-<br/>  When multiple threads are unable to proceed due to waiting on each other for resource releases, it can lead to inefficient memory usage where allocated memory becomes fragmented, making it difficult for the system to allocate larger blocks even when free memory exists, thus indicating underlying deadlock issues.
-- [Cascade Delays](cascade-delays.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.850">ⓘ</span>
-<br/>  When multiple threads are unable to proceed due to waiting on each other for resource release, it creates a standstill that leads to missed deadlines in dependent tasks, thereby manifesting as delays across interconnected projects and teams.
-- [Decision Avoidance](decision-avoidance.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.895">ⓘ</span>
-<br/>  The tendency to defer important technical decisions can manifest as a symptom of deadlock conditions, as teams become trapped in a cycle of indecision while waiting for resolution on resource allocation issues, ultimately halting progress and exacerbating existing bottlenecks in development.
-- [Memory Barrier Inefficiency](memory-barrier-inefficiency.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.896">ⓘ</span>
-<br/>  Inefficiently placed memory barriers can exacerbate resource contention among threads, leading to increased waiting times and contributing to deadlock conditions, as processes are unable to proceed while holding onto necessary resources.
-- [Long-Running Database Transactions](long-running-database-transactions.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.861">ⓘ</span>
-<br/>  When transactions remain open for extended periods, they hold onto locks that prevent other threads from accessing necessary resources, thereby increasing the likelihood of deadlocks as processes wait indefinitely for each other to proceed.
 
-## Root Causes ▼
+- [System Outages](system-outages.md)
+<br/>  Deadlocks cause parts or all of the application to freeze, effectively creating service outages that require manual intervention.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Even when deadlocks are detected and resolved via timeouts, the repeated blocking and retry cycles degrade application responsiveness.
+- [Thread Pool Exhaustion](thread-pool-exhaustion.md)
+<br/>  Deadlocked threads remain permanently occupied, gradually consuming all available threads in the pool.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Deadlocks are notoriously difficult to reproduce and diagnose because they depend on specific timing and ordering of concurrent operations.
+- [User Frustration](user-frustration.md)
+<br/>  Application freezes caused by deadlocks create an unpredictable and unreliable user experience.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Race Conditions](race-conditions.md)
+<br/>  Improper synchronization that leads to race conditions often results in overly aggressive locking strategies that create deadlock potential.
+- [Lock Contention](lock-contention.md)
+<br/>  Heavy lock contention with inconsistent lock ordering creates the circular wait conditions necessary for deadlocks.
+- [Long-Running Transactions](long-running-transactions.md)
+<br/>  Transactions that hold locks for extended periods increase the window during which circular wait conditions can form.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers without concurrency expertise may not understand lock ordering discipline or deadlock prevention strategies.
+- [Long-Running Database Transactions](long-running-database-transactions.md)
+<br/>  Transactions holding locks for extended periods increase the window for circular lock dependencies to form.
 
 ## Detection Methods ○
 

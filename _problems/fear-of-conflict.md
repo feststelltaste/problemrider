@@ -30,14 +30,25 @@ Fear of conflict in code reviews is the reluctance of reviewers to provide criti
 - Team members express concerns about code quality in private but not in public code reviews.
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.620">ⓘ</span>
-<br/>  The reluctance to challenge complex logic or design decisions leads to inadequate test coverage, as reviewers avoid addressing potential issues, resulting in critical areas of the codebase remaining untested and vulnerable.
 
-## Root Causes ▼
-- [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.837">ⓘ</span>
-<br/>  The emphasis on achieving flawless outcomes fosters an environment where reviewers hesitate to challenge complex decisions, fearing that any critique may jeopardize the perceived perfection, thereby stifling constructive feedback and prolonging development cycles in legacy systems.
-- [Release Anxiety](release-anxiety.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.878">ⓘ</span>
-<br/>  The anxiety surrounding deployments creates a high-pressure environment that discourages reviewers from questioning complex design choices, leading them to prioritize harmony over critical feedback, which ultimately hinders the identification of potential issues in legacy systems.
+- [Superficial Code Reviews](superficial-code-reviews.md)
+<br/>  Reviewers focus only on surface-level issues to avoid confrontation, missing important design and logic problems.
+- [Review Process Breakdown](inadequate-code-reviews.md)
+<br/>  The review process fails to identify critical issues because reviewers avoid providing the difficult feedback necessary for quality assurance.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  When significant issues go unchallenged in reviews, code quality degrades as flawed designs and implementations enter the codebase.
+- [High Bug Introduction Rate](high-bug-introduction-rate.md)
+<br/>  Unchallenged logic flaws and design problems in reviews lead to more bugs being introduced into production.
+- [Rushed Approvals](rushed-approvals.md)
+<br/>  Reviewers approve pull requests quickly to avoid the discomfort of providing critical feedback.
+
+## Causes ▼
+- [Blame Culture](blame-culture.md)
+<br/>  A culture that punishes mistakes makes reviewers afraid to challenge others for fear of creating tension or retaliation.
+- [Reviewer Anxiety](reviewer-anxiety.md)
+<br/>  Reviewers who feel uncertain about their own abilities avoid confrontation because they doubt their standing to challenge others.
+- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md)
+<br/>  Without proper mentoring, reviewers never learn how to deliver constructive criticism effectively, defaulting to avoidance.
 
 ## Detection Methods ○
 - **Observe Code Review Dynamics:** Pay attention to the tone and content of code review discussions. Look for a lack of critical feedback or a tendency to avoid difficult topics.

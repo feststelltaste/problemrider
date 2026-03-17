@@ -36,38 +36,27 @@ Legacy system documentation archaeology refers to the challenging process of rec
 - Historical decision rationale that is lost, making it unclear why systems work as they do
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.504, Strength: 0.739">ⓘ</span>
-<br/>  The reliance on outdated documentation and fragmented knowledge hinders the onboarding of new developers, leading to a critical shortage of skilled personnel capable of maintaining legacy systems.
 
-## Root Causes ▼
-- [Technology Lock-In](technology-lock-in.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.881">ⓘ</span>
-<br/>  The difficulty in transitioning away from outdated technologies leads to reliance on obsolete documentation and informal knowledge transfer, resulting in critical system information becoming fragmented and inaccessible.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.417, Strength: 0.941">ⓘ</span>
-<br/>  Poorly designed and difficult-to-maintain code resulting from a lack of understanding of object-oriented programming principles leads to obsolete documentation and fragmented knowledge, as developers struggle to accurately document the system's architecture and functionality, ultimately necessitating a laborious process to uncover critical system information.
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.413, Strength: 0.903">ⓘ</span>
-<br/>  The reliance on shared libraries and frameworks often leads to a lack of clear, up-to-date documentation for individual components, as changes in one area can impact multiple systems without corresponding updates, resulting in critical knowledge being lost or obscured.
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.400, Strength: 0.896">ⓘ</span>
-<br/>  Insufficient production monitoring prevents timely detection of issues, leading to prolonged outages that obscure system behavior and exacerbate reliance on outdated documentation and tribal knowledge for troubleshooting.
-- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.906">ⓘ</span>
-<br/>  The lack of encapsulation in legacy systems results in scattered and interdependent data and processes, making it difficult to document system knowledge coherently, thereby forcing reliance on outdated materials and informal sources to understand the system's functionality.
-- [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.885">ⓘ</span>
-<br/>  Inconsistent bug fixes in legacy systems often stem from incomplete documentation, leading to misunderstandings of code dependencies and functionality, which results in recurring issues that can only be properly addressed through comprehensive knowledge of the system's architecture and historical context.
-- [Over-Reliance on Utility Classes](over-reliance-on-utility-classes.md) <span class="info-tooltip" title="Confidence: 0.351, Strength: 0.870">ⓘ</span>
-<br/>  The use of excessive utility classes promotes a procedural programming style, resulting in poorly organized code and a lack of encapsulation, which hinders the creation of comprehensive documentation and makes it difficult to capture essential system knowledge effectively.
-- [Maintenance Overhead](maintenance-overhead.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.757">ⓘ</span>
-<br/>  The excessive time and resources spent on maintaining a convoluted and poorly documented system leads to a deterioration of knowledge transfer, as developers focus on immediate fixes rather than updating documentation, perpetuating reliance on outdated information and tribal knowledge.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.927">ⓘ</span>
-<br/>  The lack of design skills within the development team leads to poorly structured software, resulting in inadequate and inconsistent documentation practices that rely on outdated formats and informal knowledge transfer, ultimately causing the critical system knowledge to become inaccessible and fragmented over time.
-- [High Maintenance Costs](high-maintenance-costs.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.871">ⓘ</span>
-<br/>  The excessive resources allocated to maintaining outdated systems limit the investment in updating and consolidating documentation, perpetuating reliance on obsolete formats and fragmented knowledge.
-- [Customer Dissatisfaction](customer-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.916">ⓘ</span>
-<br/>  Poor system reliability and usability lead to user complaints, which highlight the need for accurate and accessible documentation, thereby revealing the inadequacies of outdated formats and incomplete knowledge repositories.
-- [Breaking Changes](breaking-changes.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.814">ⓘ</span>
-<br/>  Frequent API updates lead to outdated documentation and a reliance on informal knowledge transfer, as developers scramble to implement emergency fixes without access to accurate system information, exacerbating the challenges of understanding and maintaining legacy systems.
-- [Convenience-Driven Development](convenience-driven-development.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.780">ⓘ</span>
-<br/>  The tendency to prioritize the easiest solutions leads to the neglect of thorough documentation practices, resulting in critical system knowledge becoming fragmented and reliant on outdated materials or unwritten tribal knowledge, which exacerbates the challenges of understanding and maintaining legacy systems.
-- [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.804">ⓘ</span>
-<br/>  As software systems age and become increasingly fragile, the lack of accurate and up-to-date documentation exacerbates the difficulty of understanding the system's intricacies, leading to a reliance on outdated resources and informal knowledge, which hinders effective maintenance and increases the risk of errors during modifications.
+- [Extended Research Time](extended-research-time.md)
+<br/>  Developers spend excessive time piecing together system understanding from fragmented and obsolete documentation sources.
+- [Difficult Developer Onboarding](difficult-developer-onboarding.md)
+<br/>  New team members struggle to become productive when system knowledge exists only in outdated or inaccessible formats.
+- [Legacy Business Logic Extraction Difficulty](legacy-business-logic-extraction-difficulty.md)
+<br/>  When documentation is lost or obsolete, understanding embedded business logic requires expensive code archaeology efforts.
+- [Knowledge Gaps](knowledge-gaps.md)
+<br/>  Critical system knowledge gaps form when documentation becomes obsolete and the people who wrote it have departed.
+- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
+<br/>  Without clear documentation of system capabilities and behaviors, it is impossible to accurately scope modernization efforts.
+
+## Causes ▼
+- [Information Decay](information-decay.md)
+<br/>  Documentation that was once accurate degrades over time as the system evolves but documentation is not maintained.
+- [Implicit Knowledge](implicit-knowledge.md)
+<br/>  Critical system knowledge was never written down, existing only in the minds of developers who have since departed.
+- [High Turnover](high-turnover.md)
+<br/>  Departure of experienced developers takes irreplaceable system knowledge with them, leaving gaps that documentation cannot fill.
+- [Unclear Documentation Ownership](unclear-documentation-ownership.md)
+<br/>  Without clear responsibility for keeping documentation current, it becomes outdated and eventually obsolete.
 
 ## Detection Methods ○
 

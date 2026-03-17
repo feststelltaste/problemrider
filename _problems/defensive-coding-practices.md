@@ -35,20 +35,27 @@ Defensive coding practices occur when developers modify their coding style not t
 - Developers mention modifying code specifically to avoid review comments
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.634">ⓘ</span>
-<br/>  Overly verbose code and excessive defensive logic can obscure the underlying functionality, leading developers to neglect critical areas for testing, which results in poor test coverage and unaddressed quality assurance blind spots in legacy systems.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.669">ⓘ</span>
-<br/>  Excessive defensive coding often leads developers to prioritize immediate error handling and readability over performance optimization, resulting in a lack of effective caching strategies that would otherwise reduce overhead and latency in legacy systems.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.613">ⓘ</span>
-<br/>  The tendency to write overly verbose code and excessive comments can lead to a bloated codebase, which in turn makes the development environment slower and more cumbersome, as the increased complexity requires more resources and time for compilation and testing.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.571">ⓘ</span>
-<br/>  The tendency to write overly verbose code and excessive comments often leads developers to prioritize defensive logic over clarity, resulting in inconsistent naming conventions that further obscure code readability and complicate maintenance in legacy systems.
 
-## Root Causes ▼
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.903">ⓘ</span>
-<br/>  Developers' difficulty in adopting object-oriented principles often leads them to overcompensate with verbose and defensive coding practices, as they rely on familiar procedural techniques that prioritize extensive error handling and comments to mitigate perceived risks in code reviews.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.823">ⓘ</span>
-<br/>  The intertwining of cross-cutting concerns with business logic leads developers to implement excessive defensive coding practices as a misguided attempt to safeguard against potential failures or criticisms, resulting in bloated and convoluted code that obscures functionality in legacy systems.
+- [Increased Cognitive Load](increased-cognitive-load.md)
+<br/>  Overly verbose code with excessive comments and unnecessary defensive logic increases the mental effort needed to understand the codebase.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  Writing and maintaining unnecessarily verbose and defensive code takes more time than writing clean, focused implementations.
+- [Inefficient Code](inefficient-code.md)
+<br/>  Unnecessary validation checks and defensive error handling for impossible scenarios add computational overhead.
+- [Reduced Code Submission Frequency](reduced-code-submission-frequency.md)
+<br/>  Developers spend extra time adding defensive code to preempt review criticism, delaying their submissions.
+
+## Causes ▼
+- [Nitpicking Culture](nitpicking-culture.md)
+<br/>  When reviews focus on minor details, developers learn to preemptively address trivial concerns through overly verbose and defensive code.
+- [Perfectionist Review Culture](perfectionist-review-culture.md)
+<br/>  A culture demanding perfect code through reviews drives developers to add excessive defensive measures to avoid criticism.
+- [Blame Culture](blame-culture.md)
+<br/>  When mistakes are punished, developers write overly cautious code to minimize any possible criticism or blame.
+- [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
+<br/>  Without clear coding standards, developers cannot predict what reviewers will criticize, leading them to over-document and over-defend their choices.
+- [Unpredictable System Behavior](unpredictable-system-behavior.md)
+<br/>  Developers write overly defensive code to guard against unexpected side effects from hidden dependencies.
 
 ## Detection Methods ○
 

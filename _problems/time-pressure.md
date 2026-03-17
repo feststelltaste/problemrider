@@ -30,20 +30,33 @@ Time pressure is a pervasive problem in software development where the emphasis 
 - There is a general feeling of being in a constant state of "firefighting".
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.522, Strength: 0.718">ⓘ</span>
-<br/>  The constant pressure to meet tight deadlines often leads to an inadequate understanding of project scope, resulting in frequent updates to requirements as teams scramble to adapt, ultimately creating a cycle of rework and compounding technical debt in legacy systems.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.446, Strength: 0.632">ⓘ</span>
-<br/>  The rush to meet deadlines leads to inadequate testing and optimization of API calls, resulting in services failing to receive timely responses, which indicates underlying issues in the codebase that have been neglected due to time constraints.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.429, Strength: 0.641">ⓘ</span>
-<br/>  The constant urgency to deliver under tight deadlines leads developers to bypass essential practices, resulting in a deteriorating codebase and work environment that fosters frustration and burnout as they grapple with the consequences of compromised quality and increased technical debt.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.389, Strength: 0.633">ⓘ</span>
-<br/>  The urgent need to meet deadlines leads teams to prioritize speed over thoroughness, resulting in a weakened review process that fails to catch critical issues and maintain code quality, highlighting the detrimental effects of inadequate time allocation on system integrity.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.619">ⓘ</span>
-<br/>  The rush to meet deadlines often results in inadequate testing and poor code quality, leading to user frustration and an increased volume of support requests as customers encounter unresolved issues.
 
-## Root Causes ▼
+- [Increased Technical Shortcuts](increased-technical-shortcuts.md)
+<br/>  Under time pressure, teams take quick fixes and workarounds instead of implementing proper solutions.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Shortcuts taken under time pressure accumulate as technical debt that becomes increasingly expensive to address.
+- [Quality Compromises](quality-compromises.md)
+<br/>  Time pressure forces teams to deliberately lower quality standards to meet deadlines.
+- [Increased Stress and Burnout](increased-stress-and-burnout.md)
+<br/>  Persistent time pressure leads to overwork, stress, and eventual burnout among team members.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Rushed development under time pressure results in poorly designed, harder-to-maintain code.
+- [Test Debt](test-debt.md)
+<br/>  Testing is often the first activity sacrificed when teams are under time pressure, leading to accumulated test debt.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Unrealistic Deadlines](unrealistic-deadlines.md)
+<br/>  Management setting deadlines that don't account for actual effort required is a primary driver of time pressure.
+- [Market Pressure](market-pressure.md)
+<br/>  External competitive forces drive organizations to push teams to deliver faster, creating time pressure.
+- [Changing Project Scope](changing-project-scope.md)
+<br/>  When scope expands without adjusting timelines, the same amount of time must cover more work, intensifying time pressure.
+- [Constant Firefighting](constant-firefighting.md)
+<br/>  When teams spend most of their time on urgent fixes, planned work gets squeezed into less time, creating time pressure for feature delivery.
+- [Procrastination on Complex Tasks](procrastination-on-complex-tasks.md)
+<br/>  Postponed complex work eventually becomes urgent, creating last-minute deadline pressure.
+- [Project Resource Constraints](project-resource-constraints.md)
+<br/>  Fewer resources than needed creates constant deadline pressure as the same work must be done with less.
 
 ## Detection Methods ○
 - **Track Overtime Hours:** Monitor the number of hours the team is working beyond their normal schedule.

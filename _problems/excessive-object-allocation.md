@@ -33,20 +33,29 @@ Excessive object allocation occurs when code creates an unnecessarily large numb
 - Performance improves significantly when object pooling or reuse is implemented
 
 ## Symptoms ▲
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.488, Strength: 0.732">ⓘ</span>
-<br/>  The creation of numerous temporary objects leads to unbounded data structures that accumulate without proper management, causing increased memory usage and exacerbating the performance issues associated with frequent garbage collection in legacy systems.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.662">ⓘ</span>
-<br/>  The creation of numerous temporary objects without proper deallocation leads to unreleased resources, as the persistent demand for memory and system handles exacerbates the pressure on the garbage collector, ultimately resulting in degraded performance in legacy systems.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.661">ⓘ</span>
-<br/>  Inefficient caching practices lead to repeated object instantiation for the same data on each request, resulting in excessive temporary object allocation that burdens the garbage collector and impairs system performance.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.609">ⓘ</span>
-<br/>  The failure of code review practices to identify and rectify excessive temporary object creation indicates a lack of thorough analysis and attention to performance implications, allowing inefficient coding patterns to persist and degrade system performance over time.
 
-## Root Causes ▼
-- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.864">ⓘ</span>
-<br/>  Design and implementation shortcuts result in inefficient code that frequently generates temporary objects, leading to excessive allocations and increased pressure on the garbage collector, ultimately degrading system performance.
-- [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.891">ⓘ</span>
-<br/>  Long-running transactions hold resources and locks, which can lead to higher memory pressure as the system attempts to manage concurrent operations, resulting in the creation of excessive temporary objects that burden the garbage collector and degrade overall performance.
+- [Garbage Collection Pressure](garbage-collection-pressure.md)
+<br/>  Creating large numbers of temporary objects directly increases garbage collection frequency and duration.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Excessive allocation and garbage collection overhead reduces the CPU time available for actual application processing.
+- [Memory Fragmentation](memory-fragmentation.md)
+<br/>  Rapid allocation and deallocation of many objects of varying sizes fragments the heap memory.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  As data volumes increase, excessive object allocation scales up proportionally, causing progressive performance worsening.
+- [High Client-Side Resource Consumption](high-client-side-resource-consumption.md)
+<br/>  Client applications with excessive object allocation consume more memory and CPU than necessary for GC overhead.
+
+## Causes ▼
+- [Inefficient Code](inefficient-code.md)
+<br/>  Poorly written code that creates unnecessary temporary objects in hot paths is the direct cause of excessive allocation.
+- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
+<br/>  Algorithms that create new objects in inner loops rather than reusing them multiply allocation rates with data size.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers unfamiliar with memory management and GC implications write allocation-heavy code without considering performance impact.
+- [Misunderstanding of OOP](misunderstanding-of-oop.md)
+<br/>  Overuse of object creation patterns without understanding when value types or object pooling would be more appropriate leads to excessive allocation.
+- [Serialization/Deserialization Bottlenecks](serialization-deserialization-bottlenecks.md)
+<br/>  Serialization libraries often create many temporary objects during parsing and generation, leading to excessive memory allocation.
 
 ## Detection Methods ○
 - **Memory Profiling:** Use profiling tools to identify code areas with high object allocation rates

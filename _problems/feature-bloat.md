@@ -35,22 +35,35 @@ Feature bloat occurs when products accumulate numerous features beyond their cor
 - Users frequently ask "how do I just do [basic core function]?" despite extensive feature set
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.429, Strength: 0.648">ⓘ</span>
-<br/>  Constantly changing requirements often arise from an attempt to accommodate an overwhelming number of features, leading to confusion among stakeholders about priorities and functionality, which in turn triggers rework and delays in development.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.694">ⓘ</span>
-<br/>  The presence of excessive features leads to increased complexity in the codebase and user interfaces, which in turn creates inefficiencies and confusion within the development team, ultimately resulting in reduced productivity as they struggle to maintain and navigate the bloated system.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.611">ⓘ</span>
-<br/>  The overwhelming complexity of excessive features leads to user confusion and frustration, resulting in a higher volume of support inquiries as users struggle to navigate the system effectively.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.701">ⓘ</span>
-<br/>  As excessive features overwhelm teams and dilute focus, they become hesitant to explore innovative solutions, instead prioritizing maintenance of the existing complexity over pursuing new ideas.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.595">ⓘ</span>
-<br/>  The increasing complexity and number of features in a product lead to a fragmented codebase and cumbersome workflows, resulting in a slow development environment that hinders efficient updates and maintenance.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.631">ⓘ</span>
-<br/>  The overwhelming complexity of excessive features leads to unclear priorities and conflicting stakeholder demands, resulting in confusion and inefficiency within the team as they struggle to align on a coherent product vision.
 
-## Root Causes ▼
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.945">ⓘ</span>
-<br/>  Excessive spending on additional features, driven by the need to justify budget increases, leads to a complex product that strays from its core value, ultimately confusing users and diluting its effectiveness.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  The accumulated weight of many features degrades application performance as the system handles more complexity.
+- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
+<br/>  Cluttered interfaces with too many options overwhelm users and make core functionality hard to find.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  Maintaining a large number of features, many rarely used, consumes disproportionate development resources.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Users become frustrated when they cannot easily accomplish basic tasks due to interface clutter and complexity.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Users switch to simpler, more focused competitors when the bloated product becomes too complex for their needs.
+- [Increased Cognitive Load](increased-cognitive-load.md)
+<br/>  Developers must understand and maintain an ever-growing set of features, increasing mental overhead for every change.
+
+## Causes ▼
+- [Feature Creep](feature-creep.md)
+<br/>  The gradual, uncontrolled expansion of feature scope over time is the primary mechanism through which feature bloat accumulates.
+- [Feature Factory](feature-factory.md)
+<br/>  An organizational focus on shipping features over understanding business impact leads to accumulation of low-value features.
+- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
+<br/>  Agreeing to every stakeholder request without pushback or trade-off analysis leads to accumulation of unnecessary features.
+- [Feedback Isolation](feedback-isolation.md)
+<br/>  Without regular user feedback, teams cannot identify which features provide value and which add unnecessary complexity.
+- [Gold Plating](gold-plating.md)
+<br/>  Unnecessary features accumulate, making the product overly complex and diluting its core value proposition.
+- [Scope Creep](scope-creep.md)
+<br/>  The continuous addition of unplanned features results in an overly complex product that dilutes the core value proposition.
+- [Second-System Effect](second-system-effect.md)
+<br/>  The replacement system becomes bloated with features that address hypothetical problems from the old system rather than actual business needs.
 
 ## Detection Methods ○
 

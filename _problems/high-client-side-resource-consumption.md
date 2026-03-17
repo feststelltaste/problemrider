@@ -30,34 +30,33 @@ High client-side resource consumption can lead to a poor user experience. This c
 - You are getting complaints from users about slow performance.
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.652">ⓘ</span>
-<br/>  Excessive resource consumption in client applications leads to performance bottlenecks that frustrate developers, as they struggle to troubleshoot and optimize a codebase burdened by inefficiencies, ultimately contributing to their disengagement and burnout.
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.391, Strength: 0.659">ⓘ</span>
-<br/>  The unbounded growth of data structures leads to increased memory usage and CPU cycles as they consume resources without limits, directly contributing to sluggish performance and excessive resource consumption in client applications.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.388, Strength: 0.650">ⓘ</span>
-<br/>  Excessive CPU or memory usage in client applications leads to performance degradation, causing users to encounter frequent obstacles that prompt them to seek assistance from support, thereby increasing the support load.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.360, Strength: 0.685">ⓘ</span>
-<br/>  Excessive resource consumption often results from the failure to properly deallocate allocated resources, leading to memory leaks and increased CPU usage as the system struggles to manage the growing load of unreleased objects and connections.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.551">ⓘ</span>
-<br/>  Excessive resource consumption on the client side can lead to delayed processing of API requests, causing the services to exceed their timeout thresholds and fail to respond in a timely manner.
 
-## Root Causes ▼
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.379, Strength: 0.912">ⓘ</span>
-<br/>  Inefficient resource allocation and processing delays caused by bottlenecks in the development workflow lead to poorly optimized client applications, resulting in excessive CPU and memory consumption during execution.
-- [Atomic Operation Overhead](atomic-operation-overhead.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.903">ⓘ</span>
-<br/>  The excessive use of atomic operations leads to frequent memory synchronization and increased cache coherency traffic, which in turn depletes CPU and memory resources on client applications, resulting in sluggish performance and a poor user experience.
-- [Slow Response Times for Lists](slow-response-times-for-lists.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.929">ⓘ</span>
-<br/>  Inefficient data fetching for multiple items increases loading times, causing client applications to consume more CPU and memory as they struggle to render the delayed content, ultimately degrading performance and user experience.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.945">ⓘ</span>
-<br/>  The lack of design skills leads to inefficient algorithms and poor resource management in the application, resulting in excessive CPU and memory usage that degrades performance and user experience.
-- [Work Queue Buildup](work-queue-buildup.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.908">ⓘ</span>
-<br/>  The accumulation of tasks in queues leads to increased processing demands on client applications as they struggle to handle delayed requests, resulting in excessive CPU and memory usage that ultimately degrades performance and user experience.
-- [Lazy Loading](lazy-loading.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.890">ⓘ</span>
-<br/>  The use of lazy loading in an ORM framework generates excessive database queries that require significant client-side processing and memory allocation, leading to high resource consumption and degraded application performance.
-- [Misconfigured Connection Pools](misconfigured-connection-pools.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.857">ⓘ</span>
-<br/>  Improperly configured connection pools lead to frequent and unnecessary requests to backend services, resulting in increased CPU and memory usage on client applications as they struggle to manage excessive connections and timeouts, ultimately degrading performance and user experience.
-- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.856">ⓘ</span>
-<br/>  The accumulation of design or implementation shortcuts leads to inefficient code and architecture that require more CPU and memory resources to execute, resulting in sluggish performance in client applications.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Excessive CPU and memory usage on the client causes the application to feel sluggish and unresponsive.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Users complain about slow performance, hot devices, and battery drain caused by resource-heavy client applications.
+- [User Frustration](user-frustration.md)
+<br/>  Users become dissatisfied when the application makes their device slow, hot, or drains battery quickly.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Users switch to competitor products that perform better and consume fewer device resources.
+
+## Causes ▼
+- [Inefficient Frontend Code](inefficient-frontend-code.md)
+<br/>  Unoptimized JavaScript, excessive DOM manipulation, and complex CSS animations consume excessive client CPU and memory.
+- [Memory Leaks](memory-leaks.md)
+<br/>  Client-side memory leaks from unreleased DOM elements or event listeners cause continuously growing memory consumption.
+- [Improper Event Listener Management](improper-event-listener-management.md)
+<br/>  Event listeners that are never removed accumulate over time, consuming memory and CPU resources on the client.
+- [Inefficient Code](inefficient-code.md)
+<br/>  Computationally expensive client-side code, such as large loops or complex rendering logic, consumes excessive CPU resources.
+- [Circular References](circular-references.md)
+<br/>  In browser-based applications, circular references between DOM and JavaScript objects lead to excessive memory consumption on the client.
+- [Endianness Conversion Overhead](endianness-conversion-overhead.md)
+<br/>  Client applications processing binary data from different architectures consume excessive CPU on byte-order conversions.
+- [Excessive Object Allocation](excessive-object-allocation.md)
+<br/>  Client applications with excessive object allocation consume more memory and CPU than necessary for GC overhead.
+- [Rate Limiting Issues](rate-limiting-issues.md)
+<br/>  Overly restrictive rate limiting forces clients to implement retry logic that consumes additional client-side resources.
 
 ## Detection Methods ○
 

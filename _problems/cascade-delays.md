@@ -35,42 +35,37 @@ Cascade delays occur when delays in one project or work stream trigger delays in
 - Delays compound and grow larger as they propagate through dependent work
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.564">ⓘ</span>
-<br/>  Delays in project timelines hinder the processing of tasks, leading to unresponsive API services that exceed their timeout settings, thereby signaling the cascading impact of missed deadlines on system performance.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.575">ⓘ</span>
-<br/>  Delays in project timelines lead to incomplete or malfunctioning features in legacy systems, causing users to encounter issues that prompt increased contact with customer support for assistance.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.594">ⓘ</span>
-<br/>  Delays in meeting deadlines lead to rushed development cycles, resulting in a slow and cumbersome environment that hinders productivity and highlights inefficiencies in legacy systems.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.521">ⓘ</span>
-<br/>  Constantly changing requirements often arise as teams scramble to adapt to missed deadlines in dependent work streams, leading to rework and further delays, which highlights the cascading effects of initial project delays on overall development progress.
 
-## Root Causes ▼
-- [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.391, Strength: 0.944">ⓘ</span>
-<br/>  Slow responses from dependent services lead to delays in API processing, which in turn causes missed deadlines in related projects, creating a cascading effect of delays across multiple teams.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.374, Strength: 0.904">ⓘ</span>
-<br/>  When specific team members or processes become constraints, they slow down progress in critical areas, leading to missed deadlines that subsequently delay dependent work streams across multiple projects and teams.
-- [Unrealistic Deadlines](unrealistic-deadlines.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.915">ⓘ</span>
-<br/>  Unrealistic deadlines create a compressed timeline that forces teams to prioritize speed over thoroughness, resulting in incomplete or subpar work outputs that subsequently lead to missed deadlines in dependent projects, triggering a cascade of delays across the organization.
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.920">ⓘ</span>
-<br/>  The reliance on a common set of libraries and frameworks across multiple components in legacy systems leads to delays in one area due to compatibility or integration issues, which subsequently cascades into missed deadlines for dependent work streams, amplifying the impact across various projects and teams.
-- [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.937">ⓘ</span>
-<br/>  Excessive API response times slow down critical processes and data retrieval, causing delays in project timelines that depend on timely information and functionality, ultimately leading to missed deadlines across multiple teams and projects.
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.932">ⓘ</span>
-<br/>  The reliance on a single database by multiple services creates bottlenecks, as delays in data retrieval or updates can halt operations across interconnected systems, leading to missed deadlines and cascading delays in dependent workflows.
-- [Deadlock Conditions](deadlock-conditions.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.850">ⓘ</span>
-<br/>  Indefinite waiting for resource release among processes leads to application unresponsiveness, which prevents timely completion of tasks and causes subsequent work streams to miss deadlines, thereby triggering a cascade of delays across multiple projects.
-- [Service Discovery Failures](service-discovery-failures.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.888">ⓘ</span>
-<br/>  Failures in service discovery prevent timely communication between components, leading to incomplete or delayed responses that ultimately slow down dependent work streams and result in missed deadlines across projects.
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.861">ⓘ</span>
-<br/>  Focusing on minor code details during reviews diverts attention from critical design flaws, resulting in unresolved issues that lead to missed deadlines and subsequent delays across dependent projects and teams.
-- [Incomplete Projects](incomplete-projects.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.884">ⓘ</span>
-<br/>  Unfinished features due to shifting priorities lead to dependencies not being met, which in turn causes missed deadlines that trigger delays across interconnected projects and teams.
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.934">ⓘ</span>
-<br/>  In legacy systems, budget overruns lead to resource constraints that force teams to prioritize urgent fixes over scheduled tasks, resulting in missed deadlines that cascade delays across dependent work streams.
-- [Slow Application Performance](slow-application-performance.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.826">ⓘ</span>
-<br/>  Slow application performance leads to longer processing times for user requests, which in turn prolongs the completion of critical tasks and deliverables, thereby triggering delays in dependent work streams across multiple projects and teams.
-- [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.885">ⓘ</span>
-<br/>  User confusion about inconsistent system behavior leads to mistakes and inefficiencies in task execution, which results in missed deadlines that cascade through dependent work streams, ultimately delaying multiple projects and teams.
+- [Budget Overruns](budget-overruns.md)
+<br/>  Propagating delays increase costs as teams remain idle or require overtime to recover lost time across multiple projects.
+- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
+<br/>  Business stakeholders lose confidence as delays in one area visibly impact multiple dependent deliverables.
+- [Missed Deadlines](missed-deadlines.md)
+<br/>  Delays cascading through dependency chains cause multiple downstream projects to miss their planned delivery dates.
+- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
+<br/>  As delays propagate, project schedules must be repeatedly adjusted, creating an environment of unstable timelines.
+
+## Causes ▼
+- [Bottleneck Formation](bottleneck-formation.md)
+<br/>  Bottlenecks in the development pipeline slow deliverables that multiple downstream teams depend on.
+- [Poor Planning](poor-planning.md)
+<br/>  Inadequate planning fails to account for project interdependencies, leaving no buffer for delays to be absorbed.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Tightly coupled project dependencies mean delays cannot be isolated and inevitably propagate to dependent work.
+- [Approval Dependencies](approval-dependencies.md)
+<br/>  Mandatory approvals from specific individuals create delay points that block entire chains of dependent work.
+- [Capacity Mismatch](capacity-mismatch.md)
+<br/>  Capacity-constrained stages cause delays that propagate to downstream work and dependent projects.
+- [Delayed Project Timelines](delayed-project-timelines.md)
+<br/>  Delayed timelines in one project propagate to dependent projects and business initiatives that were counting on the original schedule.
+- [Poor Project Control](poor-project-control.md)
+<br/>  Undetected problems in one area compound and cascade to dependent work streams, amplifying delays.
+- [Single Points of Failure](single-points-of-failure.md)
+<br/>  When a single point of failure becomes unavailable, dependent work items cascade into delays across multiple teams and projects.
+- [Staff Availability Issues](staff-availability-issues.md)
+<br/>  When staff are unavailable for key tasks, dependent work items are delayed across the project.
+- [Work Queue Buildup](work-queue-buildup.md)
+<br/>  When queues build up at one stage, downstream stages are starved of work, causing cascading delays across the entire pipeline.
 
 ## Detection Methods ○
 

@@ -34,24 +34,27 @@ Circular dependency problems occur when components depend on each other in circu
 - Module loading systems encounter circular reference errors
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.566, Strength: 0.760">ⓘ</span>
-<br/>  Circular dependencies can lead to delays in service initialization and processing, causing downstream services to exceed their timeout settings when waiting for responses, thereby indicating the underlying issue with inter-component dependencies.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.465, Strength: 0.754">ⓘ</span>
-<br/>  Circular dependencies create unpredictable initialization sequences that lead to inconsistent test environments, causing tests to fail intermittently and eroding confidence in their reliability.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.460, Strength: 0.656">ⓘ</span>
-<br/>  Circular dependencies complicate the architecture of legacy systems, making it difficult to implement timely updates or modifications necessary for compliance with evolving regulatory requirements, thus revealing compliance drift as a direct consequence of these intertwined dependencies.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.452, Strength: 0.668">ⓘ</span>
-<br/>  Circular dependencies complicate the initialization and execution flow of components, leading to critical code paths being untested and resulting in poor test coverage as developers struggle to reliably set up test scenarios.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.437, Strength: 0.676">ⓘ</span>
-<br/>  Circular dependencies complicate the design and implementation of the domain model, leading to convoluted relationships and interactions that obscure the business logic, ultimately manifesting as a complex and challenging system to navigate and understand.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md) <span class="info-tooltip" title="Confidence: 0.420, Strength: 0.698">ⓘ</span>
-<br/>  The presence of circular dependencies often leads to a chaotic code structure where naming conventions become inconsistent, as developers struggle to navigate intertwined components, resulting in unclear and conflicting identifiers that hinder maintainability.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.315, Strength: 0.564">ⓘ</span>
-<br/>  Circular dependencies hinder the proper lifecycle management of components, leading to situations where resources are not released because the dependent objects cannot be initialized or finalized correctly, resulting in unreleased resources.
 
-## Root Causes ▼
+- [Difficult to Test Code](difficult-to-test-code.md)
+<br/>  Circular dependencies prevent components from being tested in isolation, requiring complex mocking setups.
+- [Long Build and Test Times](long-build-and-test-times.md)
+<br/>  Circular dependencies force unnecessary recompilation of dependent modules, increasing build times.
+- [Ripple Effect of Changes](ripple-effect-of-changes.md)
+<br/>  Changes to any component in the cycle require changes to other components due to mutual dependencies.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Circular dependencies make it hard to trace execution flow and isolate issues to specific components.
+- [Difficult Code Reuse](difficult-code-reuse.md)
+<br/>  Components in circular dependency chains cannot be extracted and reused independently in other contexts.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Excessive coupling between components leads to bidirectional dependencies that form circular patterns.
+- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
+<br/>  When module responsibilities are unclear, functionality ends up in wrong places, creating mutual dependencies.
+- [Implementation Starts Without Design](implementation-starts-without-design.md)
+<br/>  Starting development without upfront architectural design allows circular dependencies to emerge organically.
+- [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
+<br/>  Large classes with mixed responsibilities tend to depend on many other classes, increasing the chance of circular dependency chains.
 
 ## Detection Methods ○
 

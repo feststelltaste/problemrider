@@ -34,28 +34,37 @@ Reduced code submission frequency occurs when developers intentionally batch mul
 - Developers express reluctance to submit work-in-progress or incremental changes
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.502, Strength: 0.747">ⓘ</span>
-<br/>  The tendency to delay code submissions fosters an environment where requirements can shift frequently, as developers are less engaged in the iterative feedback process, resulting in unclear priorities and increased rework as adaptations to these changes become necessary.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.779">ⓘ</span>
-<br/>  The delay in code submissions leads to longer integration cycles and diminished feedback, which stifles collaboration and slows down the development process, ultimately manifesting as decreased overall productivity within the team.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.438, Strength: 0.661">ⓘ</span>
-<br/>  The tendency to batch changes and delay submissions leads to insufficient regular testing and feedback cycles, resulting in critical areas of the codebase lacking test coverage, which hinders overall quality assurance in legacy systems.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.619">ⓘ</span>
-<br/>  The infrequent code submissions lead to a backlog of unreviewed changes that can introduce compatibility issues or bugs, causing delays in response times from services that rely on the API, which in turn results in upstream timeouts as these services fail to receive timely responses.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.670">ⓘ</span>
-<br/>  The infrequent code submissions lead to prolonged periods without updates or enhancements, resulting in unresolved issues that frustrate users and increase their reliance on support services.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.703">ⓘ</span>
-<br/>  The infrequent code submissions lead to prolonged periods without integration and feedback, causing tests to become outdated or unrepresentative, which manifests as flaky tests that fail unpredictably due to unresolved timing and dependency issues.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.771">ⓘ</span>
-<br/>  When developers delay code submissions to minimize review cycles, it limits opportunities for timely feedback and iterative improvements, ultimately leading to less polished features and diminished overall quality in user experience.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.718">ⓘ</span>
-<br/>  The infrequent submission of code leads to a lack of engagement in the review process, as developers become accustomed to batching changes, resulting in a repetitive assignment of reviewers who may not feel compelled to provide thorough feedback, thus creating a cycle of reduced integration and quality.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.645">ⓘ</span>
-<br/>  The practice of batching code changes and delaying submissions leads to reduced feedback and integration opportunities, causing frustration and burnout as developers feel overwhelmed and unsupported in navigating a legacy codebase riddled with persistent issues.
 
-## Root Causes ▼
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.935">ⓘ</span>
-<br/>  Developers' difficulties in adopting an object-oriented mindset lead them to produce less modular and more complex code, which in turn results in longer preparation times for submissions and a tendency to batch changes to avoid cumbersome reviews, ultimately decreasing the frequency of code submissions.
+- [Large Pull Requests](large-pull-requests.md)
+<br/>  Batching multiple changes together to avoid frequent review cycles directly produces oversized pull requests.
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
+<br/>  Large batched submissions are harder to review thoroughly, reducing the quality and effectiveness of code reviews.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Large, complex changes submitted infrequently are more likely to introduce regressions that are difficult to isolate.
+
+## Causes ▼
+- [Review Bottlenecks](review-bottlenecks.md)
+<br/>  Slow review processes discourage frequent submissions as developers avoid waiting repeatedly for reviews.
+- [Review Process Avoidance](review-process-avoidance.md)
+<br/>  Frustration with the review process leads developers to minimize their exposure to it by batching changes.
+- [Fear of Change](fear-of-change.md)
+<br/>  Anxiety about submitting code that might be criticized causes developers to delay submissions until they feel everything is perfect.
+- [Code Review Inefficiency](code-review-inefficiency.md)
+<br/>  Inefficient review processes that focus on trivial issues discourage developers from submitting frequently.
+- [Author Frustration](author-frustration.md)
+<br/>  Developers submit code less frequently to avoid dealing with unpredictable and frustrating review feedback.
+- [Conflicting Reviewer Opinions](conflicting-reviewer-opinions.md)
+<br/>  Developers batch changes or delay submissions to avoid the frustrating experience of navigating contradictory reviewer feedback.
+- [Defensive Coding Practices](defensive-coding-practices.md)
+<br/>  Developers spend extra time adding defensive code to preempt review criticism, delaying their submissions.
+- [Extended Review Cycles](extended-review-cycles.md)
+<br/>  Developers batch changes to avoid frequent painful review cycles, reducing integration frequency.
+- [Long Build and Test Times](long-build-and-test-times.md)
+<br/>  When builds take too long, developers batch changes together to avoid waiting, submitting less frequently.
+- [Perfectionist Review Culture](perfectionist-review-culture.md)
+<br/>  Developers batch changes or delay submissions to avoid the lengthy review cycles that perfectionist culture creates.
+- [Reduced Review Participation](reduced-review-participation.md)
+<br/>  When few reviewers are available, developers delay submissions to avoid long review wait times.
 
 ## Detection Methods ○
 

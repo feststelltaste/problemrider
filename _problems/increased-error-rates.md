@@ -30,26 +30,59 @@ An increased error rate is a clear sign that something is wrong with an applicat
 - Your application is slow or unavailable.
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.529, Strength: 0.719">ⓘ</span>
-<br/>  The rise in error rates often leads to increased response times for requests, causing downstream services to exceed their timeout thresholds and fail to receive timely responses, thereby indicating a deterioration in system performance.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.505, Strength: 0.763">ⓘ</span>
-<br/>  A rise in error rates often leads to user frustration and task failures, prompting users to seek support more frequently as they struggle to navigate the application or service effectively.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.457, Strength: 0.682">ⓘ</span>
-<br/>  Constantly updated requirements in legacy systems often lead to confusion among development teams, resulting in misalignment with original specifications and increased chances of errors as teams struggle to adapt their work to shifting expectations.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.408, Strength: 0.779">ⓘ</span>
-<br/>  Excessive hardware interrupts can lead to frequent context switches and degraded performance, which may manifest as an increase in error rates as the application struggles to manage its processing workload effectively.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.661">ⓘ</span>
-<br/>  The rise in error rates often correlates with unreleased resources, as the accumulation of unclosed connections and allocated objects can exhaust system limits, leading to failures and increased error reporting in legacy applications.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.666">ⓘ</span>
-<br/>  The sustained rise in error rates typically leads to increased time spent on troubleshooting and fixing issues, which in turn hampers the team's ability to deliver new features and improvements at a consistent pace, thereby indicating declining productivity in legacy systems.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.711">ⓘ</span>
-<br/>  The sustained rise in error rates often arises from unbounded data growth, as excessive data can overwhelm legacy application limits, leading to performance degradation and increased likelihood of failures.
-- [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.673">ⓘ</span>
-<br/>  The constant need for small fixes and rollbacks indicates inadequate testing and quality control processes, which directly contributes to the rise in error rates as unaddressed issues accumulate in the legacy system's codebase.
 
-## Root Causes ▼
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Frequent errors degrade the user experience, leading to frustration and loss of trust in the system.
+- [Increased Customer Support Load](increased-customer-support-load.md)
+<br/>  Users encountering errors contact support, driving up ticket volume.
+- [Service Timeouts](service-timeouts.md)
+<br/>  Elevated error rates often accompany cascading failures that cause service timeouts across dependent systems.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Users experiencing frequent errors provide negative feedback about system reliability and quality.
+- [Release Instability](release-instability.md)
+<br/>  Spikes in error rates after deployments indicate releases are unstable and causing production problems.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  Poor error handling allows failures to propagate rather than being caught and managed gracefully.
+- [High Bug Introduction Rate](high-bug-introduction-rate.md)
+<br/>  A high rate of new bugs being introduced with changes directly contributes to more runtime errors.
+- [Incorrect Max Connection Pool Size](incorrect-max-connection-pool-size.md)
+<br/>  Misconfigured connection pools cause connection exhaustion or rejection, generating application errors.
+- [Database Connection Leaks](database-connection-leaks.md)
+<br/>  Leaked connections exhaust the pool over time, causing increasing numbers of connection-related errors.
+- [ABI Compatibility Issues](abi-compatibility-issues.md)
+<br/>  Runtime failures from ABI mismatches lead to elevated error rates as function calls return unexpected values or crash.
+- [Data Migration Integrity Issues](data-migration-integrity-issues.md)
+<br/>  Migrated data with integrity issues triggers validation failures and application errors in the new system.
+- [Dependency Version Conflicts](dependency-version-conflicts.md)
+<br/>  Incompatible dependency versions cause unexpected runtime errors and method-not-found exceptions in production.
+- [DMA Coherency Issues](dma-coherency-issues.md)
+<br/>  Inconsistent memory views between CPU and DMA devices lead to sporadic errors in I/O operations, network processing, and data transfers.
+- [Environment Variable Issues](environment-variable-issues.md)
+<br/>  Missing or misconfigured environment variables lead to application failures and elevated error rates, especially after deployments.
+- [Growing Task Queues](growing-task-queues.md)
+<br/>  Tasks that age out or are retried excessively due to queue backlog generate elevated error rates.
+- [High Connection Count](high-connection-count.md)
+<br/>  Connection rejections when limits are reached cause application errors and failed requests.
+- [Inconsistent Execution](inconsistent-execution.md)
+<br/>  Manual, non-standardized execution leads to mistakes and omissions that produce more errors in the system.
+- [Increased Manual Work](increased-manual-work.md)
+<br/>  Manual execution of routine tasks is more error-prone than automated processes, leading to more mistakes.
+- [Load Balancing Problems](load-balancing-problems.md)
+<br/>  Overwhelmed instances from uneven load distribution start dropping requests or returning errors.
+- [Manual Deployment Processes](manual-deployment-processes.md)
+<br/>  Human execution of deployment steps inevitably introduces errors that automated processes would avoid.
+- [Null Pointer Dereferences](null-pointer-dereferences.md)
+<br/>  Null pointer exceptions manifest as runtime errors that increase the overall error rate of the application.
+- [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
+<br/>  Poorly defined interfaces produce frequent integration errors from mismatched data formats and inconsistent contracts.
+- [Service Discovery Failures](service-discovery-failures.md)
+<br/>  Services unable to discover their dependencies generate connection errors and service-not-found errors at elevated rates.
+- [Service Timeouts](service-timeouts.md)
+<br/>  Timeout errors contribute directly to elevated error rates across the system as requests fail to complete.
+- [Upstream Timeouts](upstream-timeouts.md)
+<br/>  Timeout errors directly increase the overall error rate of the system as requests fail without receiving responses.
 
 ## Detection Methods ○
 

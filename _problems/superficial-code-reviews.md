@@ -36,17 +36,31 @@ Superficial code reviews occur when the review process consistently focuses on s
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
 
-## Root Causes ▼
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.835">ⓘ</span>
-<br/>  Developers accustomed to procedural programming may prioritize superficial aspects of code during reviews due to their limited understanding of object-oriented principles, resulting in overlooked design and security flaws in legacy systems.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.806">ⓘ</span>
-<br/>  A lack of understanding of object-oriented programming principles leads reviewers to prioritize superficial aspects of code, resulting in missed critical design and logic flaws that contribute to the long-term maintainability issues in legacy systems.
-- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.788">ⓘ</span>
-<br/>  The lack of proper data encapsulation leads to tightly coupled components that obscure the underlying logic and design flaws during code reviews, causing reviewers to overlook critical issues in favor of superficial style corrections.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.815">ⓘ</span>
-<br/>  The development team's lack of design skills leads to superficial code reviews, as they are unable to identify and address deeper structural and logical flaws, resulting in a failure to improve the maintainability and security of legacy systems.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Logic, design, and security bugs pass through superficial reviews undetected and reach production.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Without deep review of logic changes, regressions slip through and break previously working functionality.
+- [Increased Bug Count](increased-bug-count.md)
+<br/>  The failure to catch design and logic issues during review leads to a steadily growing number of defects.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Poor design decisions pass review unchallenged, accumulating technical debt that compounds over time.
+- [Inconsistent Quality](inconsistent-quality.md)
+<br/>  Without thorough design review, code quality varies wildly depending on individual developer skill rather than team standards.
+
+## Causes ▼
+- [Fear of Conflict](fear-of-conflict.md)
+<br/>  Reviewers avoid challenging complex logic or design decisions because it's easier and less confrontational to comment on style.
+- [Deadline Pressure](deadline-pressure.md)
+<br/>  Time pressure causes reviewers to do quick surface-level scans rather than thorough analysis of logic and design.
+- [Knowledge Gaps](knowledge-gaps.md)
+<br/>  Reviewers lacking domain or architectural knowledge default to commenting on style because they cannot evaluate deeper design issues.
+- [Nitpicking Culture](nitpicking-culture.md)
+<br/>  A culture that rewards finding minor issues trains reviewers to focus on surface details rather than substantive problems.
+- [Large Pull Requests](large-pull-requests.md)
+<br/>  Reviewers faced with oversized pull requests resort to surface-level checks, missing important design and logic issues.
+- [Style Arguments in Code Reviews](style-arguments-in-code-reviews.md)
+<br/>  When reviews are dominated by style arguments, reviewers have less capacity to analyze deeper logic and design issues.
 
 ## Detection Methods ○
 

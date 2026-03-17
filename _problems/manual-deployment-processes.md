@@ -37,32 +37,29 @@ Manual deployment processes require human intervention to release software chang
 - Reluctance to deploy frequently due to the overhead of manual coordination
 
 ## Symptoms ▲
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.519, Strength: 0.791">ⓘ</span>
-<br/>  The reliance on manual deployment processes leads to inconsistent application of updates and patches, which in turn causes legacy systems to lag in meeting evolving regulatory requirements, resulting in compliance gaps.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.480, Strength: 0.817">ⓘ</span>
-<br/>  The reliance on manual deployment processes leads to inconsistent integration of code changes, which increases the likelihood of multiple developers working on the same areas of the codebase simultaneously, thereby resulting in frequent merge conflicts that hinder development efficiency.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.450, Strength: 0.773">ⓘ</span>
-<br/>  The reliance on manual deployment processes highlights the lack of automated tools and expertise, leading to a dependency on a dwindling pool of skilled developers familiar with outdated technologies, which exacerbates operational inefficiencies and increases the risk of errors during releases.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.376, Strength: 0.604">ⓘ</span>
-<br/>  The reliance on manual deployment processes can lead to slower feedback loops and inadequate communication, resulting in frequent updates to requirements as stakeholders react to deployment issues and inconsistencies that arise from human error.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.344, Strength: 0.730">ⓘ</span>
-<br/>  The reliance on manual intervention for deployments creates uncertainty and fear of errors, leading teams to overanalyze their decisions and stall progress in development work.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.715">ⓘ</span>
-<br/>  The reliance on manual intervention for deployments often leads to inconsistent environments that compound inefficiencies in development, as developers must navigate and adapt to the unpredictable variations introduced by human errors and oversight during deployment.
-- [Regression Bugs](regression-bugs.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.769">ⓘ</span>
-<br/>  The reliance on human intervention during releases can lead to errors in the deployment process, resulting in new code that inadvertently disrupts previously functional features, thereby manifesting as regression bugs.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.420, Strength: 0.920">ⓘ</span>
-<br/>  The reliance on a common set of libraries and frameworks creates complex interdependencies that complicate the deployment process, necessitating manual oversight to ensure compatibility and mitigate the risk of errors across shared components.
-- [Rapid System Changes](rapid-system-changes.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.737">ⓘ</span>
-<br/>  Frequent modifications to the system create a constantly shifting landscape that leaves deployment procedures outdated and unclear, necessitating manual intervention to navigate the inconsistencies and increasing the likelihood of errors during releases.
-- [Deployment Coupling](deployment-coupling.md) <span class="info-tooltip" title="Confidence: 0.376, Strength: 0.827">ⓘ</span>
-<br/>  The requirement to deploy multiple tightly coupled components together forces manual intervention for each release, thereby increasing the likelihood of human error and inconsistencies in the deployment process.
-- [Inconsistent Quality](inconsistent-quality.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.699">ⓘ</span>
-<br/>  The need for manual intervention in deployment arises from the varying levels of maintenance across different system components, leading to inconsistent quality that complicates automated processes and heightens the risk of errors during releases.
-- [Implicit Knowledge](implicit-knowledge.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.659">ⓘ</span>
-<br/>  The reliance on unwritten assumptions and undocumented practices in legacy systems leads to inconsistent manual deployment processes, as team members must fill knowledge gaps through human intervention, increasing the likelihood of errors and variations in releases.
+- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
+<br/>  Manual steps performed differently by different people or at different times create inconsistencies across environments.
+- [Long Release Cycles](long-release-cycles.md)
+<br/>  The overhead and coordination required for manual deployments discourages frequent releases, extending release cycles.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Human execution of deployment steps inevitably introduces errors that automated processes would avoid.
+- [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
+<br/>  Errors from manual deployment steps often require emergency fixes or rollbacks to correct mistakes.
+- [Release Anxiety](release-anxiety.md)
+<br/>  The high risk and effort of manual deployments creates stress and anxiety around each release event.
+- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
+<br/>  Deployments depend on specific individuals with specialized knowledge of the manual process, creating bottlenecks.
+
+## Causes ▼
+- [Immature Delivery Strategy](immature-delivery-strategy.md)
+<br/>  Organizations without a mature delivery strategy have not invested in deployment automation.
+- [Legacy Configuration Management Chaos](legacy-configuration-management-chaos.md)
+<br/>  Chaotic configuration management makes automation difficult, as environments are too inconsistent to script reliably.
+- [Complex Deployment Process](complex-deployment-process.md)
+<br/>  Overly complex deployment procedures resist automation because they involve many conditional steps and human judgment calls.
+- [Resistance to Change](resistance-to-change.md)
+<br/>  Teams comfortable with existing manual processes resist adopting automated deployment pipelines.
 
 ## Detection Methods ○
 

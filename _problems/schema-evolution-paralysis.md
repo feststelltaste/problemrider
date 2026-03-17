@@ -36,24 +36,27 @@ Schema evolution paralysis occurs when database schemas become so entrenched wit
 - Feature requests that require denormalization or data duplication to implement
 
 ## Symptoms ▲
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.607, Strength: 0.810">ⓘ</span>
-<br/>  The inability to modify the database schema due to extensive dependencies leads to an overly complex domain model, as developers must implement workarounds and convoluted logic to accommodate new requirements without proper structural changes.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.564, Strength: 0.773">ⓘ</span>
-<br/>  The inability to modify the database schema due to extensive dependencies limits opportunities for modernization, leading to a reliance on a shrinking pool of developers with legacy skills, which in turn creates maintenance bottlenecks and increases the risk of system failures.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.529, Strength: 0.742">ⓘ</span>
-<br/>  The inability to modify the database schema due to complex dependencies and inadequate migration tools results in a rigid system that cannot adapt to evolving project requirements, thus prompting frequent changes and rework as stakeholders seek to accommodate new needs within existing limitations.
-- [Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md) <span class="info-tooltip" title="Confidence: 0.412, Strength: 0.767">ⓘ</span>
-<br/>  The inability to modify the database schema due to extensive dependencies impedes necessary updates, leading to challenges in synchronizing data between legacy and modern systems, which often results in data inconsistencies and corruption during migration efforts.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.807">ⓘ</span>
-<br/>  The inability to modify the database schema due to extensive dependencies limits the flexibility and adaptability of the codebase, resulting in a rigid monolithic structure that complicates maintenance, scaling, and deployment as new requirements arise.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.716">ⓘ</span>
-<br/>  The inability to modify the database schema due to extensive dependencies leads teams to overanalyze potential impacts and solutions, resulting in prolonged research phases that hinder progress in development work.
-- [Capacity Mismatch](capacity-mismatch.md) <span class="info-tooltip" title="Confidence: 0.344, Strength: 0.777">ⓘ</span>
-<br/>  The inability to modify the database schema due to extensive dependencies leads to inflexible development processes, resulting in mismatched capacity at various stages as teams struggle to adapt to changing requirements, thereby creating bottlenecks and underutilization.
 
-## Root Causes ▼
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  When the database schema cannot be changed, developers create elaborate application-layer workarounds to compensate for schema limitations.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Features requiring database changes take much longer to implement when schema modifications are avoided, slowing overall delivery pace.
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  A frozen schema increasingly diverges from evolving business requirements, creating a growing mismatch between system capabilities and business needs.
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  When the database schema cannot evolve, the overall architecture stagnates because the data model is foundational to system design.
+- [Stakeholder Frustration](stakeholder-frustration.md)
+<br/>  Business stakeholders become frustrated when seemingly simple feature requests take months due to database schema constraints.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Database Schema Design Problems](database-schema-design-problems.md)
+<br/>  Poor initial schema design creates rigid structures with complex interdependencies that become increasingly difficult to modify over time.
+- [Shared Database](shared-database.md)
+<br/>  Multiple services sharing the same database multiply the dependencies on any schema element, making changes risky and difficult to coordinate.
+- [Fear of Breaking Changes](fear-of-breaking-changes.md)
+<br/>  Past failed schema migrations create anxiety about any database changes, reinforcing avoidance behavior that leads to paralysis.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Without automated tests, teams cannot verify that schema changes won't break existing functionality, making modifications too risky to attempt.
 
 ## Detection Methods ○
 

@@ -31,26 +31,23 @@ Unproductive meetings are gatherings that fail to achieve their intended purpose
 - Meetings often run over their scheduled time.
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.409, Strength: 0.659">ⓘ</span>
-<br/>  Unproductive meetings often fail to establish clear objectives and consensus, resulting in ongoing ambiguity that leads to frequent requirement changes as stakeholders attempt to clarify expectations, thereby exacerbating rework and delays in legacy systems.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.591">ⓘ</span>
-<br/>  Unproductive meetings lead to unclear priorities and unresolved issues, causing developers to feel overwhelmed and frustrated as they struggle to navigate a chaotic work environment, ultimately contributing to their burnout.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.740">ⓘ</span>
-<br/>  Inefficient meetings lead to wasted time and unclear action items, causing delays and frustrations that diminish the overall productivity and effectiveness of the development team working within legacy systems.
 
-## Root Causes ▼
-- [Unclear Sharing Expectations](unclear-sharing-expectations.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.900">ⓘ</span>
-<br/>  Unclear guidelines on information sharing lead to misaligned agendas and lack of focus in discussions, causing meetings to drift without achieving actionable outcomes, particularly in legacy systems where established communication protocols may be outdated or insufficient.
-- [Code Review Inefficiency](code-review-inefficiency.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.926">ⓘ</span>
-<br/>  Inefficient code reviews lead to delays in project progress, resulting in meetings that are filled with unresolved issues and lack clear outcomes, ultimately wasting time and hindering decision-making.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.344, Strength: 0.905">ⓘ</span>
-<br/>  The presence of tightly coupled cross-cutting concerns within legacy systems leads to confusion and misalignment during discussions, as team members struggle to address intertwined issues without clear distinctions, resulting in meetings that lack focus and actionable outcomes.
-- [Legal Disputes](legal-disputes.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.903">ⓘ</span>
-<br/>  Conflicts arising from ambiguous contracts and unclear responsibilities often lead to lengthy discussions in meetings, where time is wasted on trying to resolve legal disputes instead of making progress on project objectives.
-- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.898">ⓘ</span>
-<br/>  Constantly shifting deadlines create a sense of urgency and confusion during meetings, as team members struggle to prioritize tasks and address an ever-changing scope, ultimately leading to indecisiveness and wasted time.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.881">ⓘ</span>
-<br/>  Inefficient workflows and resource constraints in legacy systems lead to critical team members being overwhelmed, resulting in stalled decision-making and prolonged discussions during meetings that ultimately fail to drive progress.
+- [Wasted Development Effort](wasted-development-effort.md)
+<br/>  Time spent in unproductive meetings directly reduces available development time, leading to wasted effort when rushed work must be reworked.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Excessive unproductive meetings consume hours that could be spent on actual development work, directly reducing team output.
+- [Unmotivated Employees](unmotivated-employees.md)
+<br/>  Repeatedly sitting through pointless meetings demoralizes team members who feel their time is not valued.
+- [Development Disruption](development-disruption.md)
+<br/>  Frequent meetings interrupt focused development work, breaking flow and reducing the quality of deep technical work.
+- [Delayed Project Timelines](delayed-project-timelines.md)
+<br/>  Time lost to unproductive meetings accumulates and contributes to project delays as less time is available for actual work.
+
+## Causes ▼
+- [Inefficient Processes](inefficient-processes.md)
+<br/>  Poor organizational processes default to meetings as the primary mode of collaboration rather than using more efficient communication methods.
+- [Bikeshedding](bikeshedding.md)
+<br/>  Teams spend disproportionate time debating trivial issues in meetings while important topics are neglected, making meetings unproductive.
 
 ## Detection Methods ○
 

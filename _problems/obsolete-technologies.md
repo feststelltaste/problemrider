@@ -33,22 +33,31 @@ Obsolete technologies refer to the use of outdated programming languages, framew
 - Modern development tools and practices cannot be applied to the existing system
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.606, Strength: 0.888">ⓘ</span>
-<br/>  The reliance on outdated tools and languages not only hampers the ability to attract new talent but also limits the existing workforce's proficiency, leading to a critical shortage of developers skilled in maintaining these systems, which ultimately results in operational bottlenecks.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.561, Strength: 0.867">ⓘ</span>
-<br/>  Outdated tools and frameworks hinder the ability to adapt to new regulatory requirements, resulting in compliance gaps that expose the system to legal risks and costly remediation efforts.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.467, Strength: 0.727">ⓘ</span>
-<br/>  The reliance on outdated tools and frameworks hampers the ability to quickly adapt to new requirements, resulting in frequent changes as stakeholders seek to compensate for the limitations of the legacy system, which in turn leads to increased rework and delays.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.685">ⓘ</span>
-<br/>  The reliance on outdated tools and frameworks often leads to inadequate resource management practices, resulting in allocated resources that are not properly deallocated or closed, thus indicating underlying inefficiencies in the system's architecture and maintenance capabilities.
-- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.874">ⓘ</span>
-<br/>  Outdated tools and frameworks hinder the development and maintenance of APIs, leading to poorly designed interfaces that struggle with versioning and backward compatibility, which exacerbate overall system complexity and technical debt.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.702">ⓘ</span>
-<br/>  The reliance on outdated tools and frameworks hinders the development team's ability to effectively implement modern features and communicate their capabilities, resulting in mismatched expectations from stakeholders and leading to increased rework and dissatisfaction.
 
-## Root Causes ▼
+- [Legacy Skill Shortage](legacy-skill-shortage.md)
+<br/>  When a system relies on obsolete technologies, it becomes increasingly difficult to find developers with the required expertise.
+- [Technology Isolation](technology-isolation.md)
+<br/>  Obsolete technologies cannot integrate with modern stacks, causing the system to become isolated from current development ecosystems.
+- [Integration Difficulties](integration-difficulties.md)
+<br/>  Outdated technologies lack support for modern protocols and standards, making integration with contemporary services extremely difficult.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  Maintaining systems built on obsolete technologies requires specialized knowledge and custom workarounds, driving up costs.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Systems on obsolete technologies cannot implement modern features and capabilities, causing the organization to fall behind competitors.
+- [Difficult Developer Onboarding](difficult-developer-onboarding.md)
+<br/>  New developers face steep learning curves when systems use obsolete technologies with limited documentation and community support.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [System Stagnation](system-stagnation.md)
+<br/>  When systems fail to evolve over extended periods, their technology stack becomes obsolete as the industry moves forward.
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Prioritizing immediate feature delivery over technology upgrades causes the technology stack to fall further behind over time.
+- [Technology Lock-In](technology-lock-in.md)
+<br/>  Deep dependence on specific vendor technologies makes it prohibitively expensive to migrate, trapping the system on obsolete platforms.
+- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
+<br/>  Inability to justify the cost of modernization means technology upgrades are perpetually deferred, allowing the stack to become obsolete.
+- [Modernization Strategy Paralysis](modernization-strategy-paralysis.md)
+<br/>  While teams remain paralyzed by indecision, legacy systems continue aging and their technology stacks become increasingly obsolete.
 
 ## Detection Methods ○
 - **Technology Audit:** Regular assessment of all components in the technology stack for currency and support status

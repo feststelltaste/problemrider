@@ -35,56 +35,95 @@ Customer dissatisfaction occurs when users experience frustration, disappointmen
 - Negative feedback about system reliability or usability
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.640, Strength: 0.877">ⓘ</span>
-<br/>  A shortage of developers skilled in outdated technologies leads to inadequate system updates and maintenance, exacerbating reliability and usability issues that ultimately frustrate users and drive customer dissatisfaction.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.564, Strength: 0.764">ⓘ</span>
-<br/>  Frequent upstream timeouts indicate that the system's performance issues are causing delays in response times, directly contributing to user frustration and dissatisfaction with the overall reliability and usability of the software.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.559, Strength: 0.776">ⓘ</span>
-<br/>  Constantly updated requirements often stem from end-user frustration with unreliable or poorly performing features, indicating a lack of alignment between user expectations and the system’s capabilities, thus serving as a symptom of deeper customer dissatisfaction.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.516, Strength: 0.744">ⓘ</span>
-<br/>  Persistent system issues create a stressful work environment for developers, leading to frustration and burnout, which in turn hampers their ability to resolve user complaints and improve system reliability, thereby perpetuating customer dissatisfaction.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.512, Strength: 0.788">ⓘ</span>
-<br/>  The frequent need for support arises from users encountering reliability, performance, or usability issues in the legacy system, prompting them to seek help when they are unable to complete tasks effectively, thus indicating underlying dissatisfaction.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.507, Strength: 0.768">ⓘ</span>
-<br/>  The accumulation of unreleased resources leads to system slowdowns and crashes, directly impacting reliability and performance, which in turn frustrates users and contributes to their dissatisfaction.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.466, Strength: 0.876">ⓘ</span>
-<br/>  As users experience frustration with system reliability and usability, their dissatisfaction often manifests in heightened scrutiny of compliance, revealing gaps that legacy systems struggle to address due to outdated architecture and inflexible processes.
-- [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.448, Strength: 0.870">ⓘ</span>
-<br/>  Data migration integrity issues arise from the failure to accurately transfer legacy data into modern systems, leading to inconsistencies and user errors that directly contribute to frustration and dissatisfaction with system performance and reliability.
-- [Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md) <span class="info-tooltip" title="Confidence: 0.437, Strength: 0.786">ⓘ</span>
-<br/>  Data synchronization issues between legacy and modern systems often lead to inconsistencies and errors that directly impact user experience, causing frustration and dissatisfaction among customers.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.431, Strength: 0.873">ⓘ</span>
-<br/>  Ineffective communication between stakeholders and developers often results in misaligned expectations that manifest as system reliability and usability issues, ultimately contributing to user frustration and dissatisfaction.
-- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md) <span class="info-tooltip" title="Confidence: 0.406, Strength: 0.932">ⓘ</span>
-<br/>  Poorly designed APIs in legacy systems lead to versioning and compatibility issues that hinder user experience, directly fueling frustrations with system reliability and usability, which ultimately drives customer dissatisfaction.
-- [Delayed Bug Fixes](delayed-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.350, Strength: 0.764">ⓘ</span>
-<br/>  Unresolved issues in legacy systems lead to persistent user frustrations, as the lack of timely bug fixes exacerbates reliability and performance concerns, ultimately amplifying overall customer dissatisfaction.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.788">ⓘ</span>
-<br/>  Decreased team productivity often arises from the need to address frequent user complaints and system issues, diverting developers' focus from new feature development to urgent bug fixes, thus indicating underlying customer dissatisfaction with system performance and reliability.
-- [Negative User Feedback](negative-user-feedback.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.777">ⓘ</span>
-<br/>  Negative user feedback serves as an indicator of customer dissatisfaction because issues like slow loading times and application freezes directly impact user experience, revealing underlying performance and usability flaws in legacy systems that hinder user engagement and trust.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.810">ⓘ</span>
-<br/>  When applications experience memory leaks, they progressively consume more resources, resulting in slower performance and reliability issues that directly frustrate users and contribute to overall dissatisfaction with the system.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.827">ⓘ</span>
-<br/>  The constraints imposed by outdated system architecture directly lead to performance and usability issues, which in turn frustrate users and contribute to overall dissatisfaction with the system.
-- [Legacy System Documentation Archaeology](legacy-system-documentation-archaeology.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.916">ⓘ</span>
-<br/>  The presence of outdated documentation and reliance on tribal knowledge in legacy systems hampers effective troubleshooting and system improvements, directly contributing to reliability and usability issues that frustrate users and lead to dissatisfaction.
-- [Test Debt](test-debt.md) <span class="info-tooltip" title="Confidence: 0.317, Strength: 0.921">ⓘ</span>
-<br/>  In legacy systems, inadequate quality assurance practices lead to test debt, which results in a fragile codebase that frequently fails or performs poorly, directly contributing to user frustration and dissatisfaction.
-- [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.917">ⓘ</span>
-<br/>  The frustration users experience due to system reliability and performance issues often stems from unaddressed technical debt, which remains hidden from non-technical stakeholders, preventing necessary improvements and perpetuating customer dissatisfaction.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.866">ⓘ</span>
-<br/>  Dissatisfaction among stakeholders arises as they observe declining customer satisfaction and increased complaints, reflecting the direct impact of unreliable legacy systems on project success and communication, thereby serving as a clear indicator of underlying issues affecting end-user experience.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.858">ⓘ</span>
-<br/>  The ongoing customer dissatisfaction with system reliability and performance diverts the team's focus to immediate maintenance tasks, thereby stifling their capacity to pursue innovative solutions or enhancements.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.829">ⓘ</span>
-<br/>  Conflicting priorities from stakeholders arise as a reaction to unresolved user frustrations, leading to a lack of clear product direction that exacerbates system issues and further diminishes customer satisfaction.
-- [Technology Isolation](technology-isolation.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.848">ⓘ</span>
-<br/>  As users experience frustrations with system reliability and performance, the organization's failure to modernize its technology stack becomes evident, indicating a disconnect that hinders attracting skilled talent and adopting innovative solutions, ultimately exacerbating customer dissatisfaction.
 
-## Root Causes ▼
+- [Increased Customer Support Load](increased-customer-support-load.md)
+<br/>  Dissatisfied customers contact support more frequently to report issues and seek help, increasing support ticket volume.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Unhappy customers switch to competitors who offer better experiences, eroding market position.
+- [Negative Brand Perception](negative-brand-perception.md)
+<br/>  Persistent customer dissatisfaction leads users to associate the brand with poor quality, damaging reputation.
+- [Declining Business Metrics](declining-business-metrics.md)
+<br/>  Customer dissatisfaction directly impacts engagement, conversion, and revenue metrics as users reduce usage or leave.
+- [Stakeholder Frustration](stakeholder-frustration.md)
+<br/>  Business stakeholders become frustrated when customer complaints and churn rise due to system quality issues.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Sluggish application response times directly frustrate users who expect responsive interactions.
+- [System Outages](system-outages.md)
+<br/>  Frequent service interruptions prevent customers from using the system, generating frustration and complaints.
+- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
+<br/>  Confusing interfaces and unintuitive workflows make the system difficult to use, directly causing customer frustration.
+- [Quality Degradation](quality-degradation.md)
+<br/>  Declining system quality manifests as bugs, inconsistencies, and unreliability that customers directly experience.
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  When customers must wait extended periods for needed features or bug fixes, their satisfaction with the product declines.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Users become dissatisfied when the product falls behind competitors in features and experience quality.
+- [Cross-Site Scripting Vulnerabilities](cross-site-scripting-vulnerabilities.md)
+<br/>  Users who experience account compromise or data theft due to XSS attacks lose confidence in the application.
+- [Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md)
+<br/>  Users who see different or incorrect data depending on which system they interact with become frustrated and lose trust.
+- [Data Migration Integrity Issues](data-migration-integrity-issues.md)
+<br/>  Users who encounter incorrect data, missing records, or corrupted information after migration become frustrated and lose trust in the system.
+- [External Service Delays](external-service-delays.md)
+<br/>  Users experience slow or failing operations due to external service delays, leading to frustration and complaints.
+- [Feature Bloat](feature-bloat.md)
+<br/>  Users become frustrated when they cannot easily accomplish basic tasks due to interface clutter and complexity.
+- [Feature Factory](feature-factory.md)
+<br/>  Shipping features that do not solve real user problems leads to user frustration and declining satisfaction.
+- [Feature Gaps](feature-gaps.md)
+<br/>  Users become frustrated when they cannot complete common tasks due to missing features, leading to dissatisfaction.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  Steadily worsening performance erodes user trust and satisfaction over time.
+- [High Bug Introduction Rate](high-bug-introduction-rate.md)
+<br/>  Users experience frequent bugs in releases, eroding their confidence in the product's reliability.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Users experience bugs in the live environment, leading to frustration and loss of trust in the product.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  Lack of new features and slow response to change requests frustrates customers as competitors deliver improvements.
+- [High Resource Utilization on Client](high-resource-utilization-on-client.md)
+<br/>  Users experience poor performance, battery drain, and device overheating, leading to frustration and abandonment.
+- [Inability to Innovate](inability-to-innovate.md)
+<br/>  Inability to deliver new features or improve the product causes customers to become dissatisfied as competitors advance.
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  Users encounter cryptic error messages and application crashes, leading to frustration and loss of trust.
+- [Inadequate Onboarding](inadequate-onboarding.md)
+<br/>  Users who cannot figure out how to use the application become frustrated and dissatisfied.
+- [Inconsistent Quality](inconsistent-quality.md)
+<br/>  The unreliable parts of the system frustrate users and damage their overall perception of the product.
+- [Increased Bug Count](increased-bug-count.md)
+<br/>  A higher defect rate degrades the user experience, leading to user frustration and complaints.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Frequent errors degrade the user experience, leading to frustration and loss of trust in the system.
+- [Insecure Data Transmission](insecure-data-transmission.md)
+<br/>  Security breaches resulting from insecure transmission erode customer trust and satisfaction.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Frequent production bugs caused by insufficient testing directly impact user experience and satisfaction.
+- [Large, Risky Releases](large-risky-releases.md)
+<br/>  Large risky releases that fail or introduce bugs directly impact users, causing frustration and dissatisfaction.
+- [Long Release Cycles](long-release-cycles.md)
+<br/>  Users become frustrated waiting for requested features and bug fixes through prolonged release cycles.
+- [Negative Brand Perception](negative-brand-perception.md)
+<br/>  Persistent negative brand perception manifests as ongoing customer dissatisfaction even after technical issues are resolved.
+- [Password Security Weaknesses](password-security-weaknesses.md)
+<br/>  Account compromises resulting from weak password security erode user trust and lead to customer complaints and churn.
+- [Reduced Feature Quality](reduced-feature-quality.md)
+<br/>  Poorly polished features with usability issues directly result in frustrated users and lower satisfaction scores.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Users lose trust when features they relied on break after updates, leading to frustration and dissatisfaction.
+- [Service Timeouts](service-timeouts.md)
+<br/>  Users experience slow responses or error messages when services time out, leading to frustration and dissatisfaction.
+- [Silent Data Corruption](silent-data-corruption.md)
+<br/>  Users discover data inaccuracies in their accounts, reports, or records, leading to frustration and loss of confidence.
+- [Task Queues Backing Up](task-queues-backing-up.md)
+<br/>  Delayed processing of user-facing tasks like order confirmations and notifications frustrates customers.
+- [User Confusion](user-confusion.md)
+<br/>  Persistent confusion leads to overall customer dissatisfaction with the product.
+- [User Frustration](user-frustration.md)
+<br/>  User frustration translates directly into overall customer dissatisfaction and potential churn.
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  Loss of trust leads to overall dissatisfaction as users no longer believe the system will meet their needs.
 
 ## Detection Methods ○
 

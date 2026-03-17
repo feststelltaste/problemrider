@@ -34,30 +34,27 @@ Inadequate integration tests occur when the testing strategy focuses primarily o
 - Deployment to integrated environments reveals issues not caught in isolated testing
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.494, Strength: 0.730">ⓘ</span>
-<br/>  In legacy systems, insufficient integration tests often lead to poor test coverage because critical interactions between modules go unverified, resulting in untested code paths that contribute to undetected integration failures.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.480, Strength: 0.669">ⓘ</span>
-<br/>  Inadequate integration testing fails to identify issues in the interactions between modules, leading to unexpected failures and delays in responses from services, which manifests as upstream timeouts when those services are unable to complete requests within the expected time frame.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.722">ⓘ</span>
-<br/>  Inadequate integration tests lead to frequent integration failures, causing developers to spend excessive time troubleshooting and resolving issues instead of focusing on new feature development, which ultimately results in reduced team productivity.
 
-## Root Causes ▼
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.941">ⓘ</span>
-<br/>  The reliance on a shared database leads to inadequate integration tests because changes in one service can inadvertently affect others without thorough testing of their interactions, resulting in undetected integration failures.
-- [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.929">ⓘ</span>
-<br/>  The slow response times of external services lead to insufficient test coverage in integration scenarios, as the testing processes cannot effectively simulate or account for these delays, resulting in unaddressed integration failures.
-- [Duplicated Effort](duplicated-effort.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.932">ⓘ</span>
-<br/>  The lack of coordination among team members results in overlapping implementations that fail to align, leading to insufficient coverage of integration tests for the combined functionality of the system.
-- [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.909">ⓘ</span>
-<br/>  The presence of partial bug fixes leads to inadequate integration tests because unresolved issues in duplicated code create unpredictable interactions that are not captured during testing, resulting in failures when modules are integrated.
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.916">ⓘ</span>
-<br/>  The tendency to prioritize trivial code reviews over substantive design discussions leads to insufficient attention on critical integration tests, resulting in undetected failures during module interactions in legacy systems.
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.951">ⓘ</span>
-<br/>  The reliance on shared libraries across multiple components often leads to inconsistent behavior and versioning issues, making it difficult to establish comprehensive integration tests that account for all interactions, thereby resulting in inadequate testing coverage.
-- [Complex Deployment Process](complex-deployment-process.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.843">ⓘ</span>
-<br/>  The manual and error-prone nature of the deployment process leads to insufficient time and resources allocated for thorough integration testing, resulting in undetected failures when different modules or services interact in production.
-- [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.844">ⓘ</span>
-<br/>  The increasing fragility of legacy systems makes it difficult to anticipate the impact of changes, resulting in inadequate integration tests that fail to account for unforeseen interactions and dependencies between modules.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Integration bugs that are not caught in testing escape to production, increasing the defect rate.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Without integration tests, changes to one component can silently break interactions with other components.
+- [Release Instability](release-instability.md)
+<br/>  Releases that pass unit tests but lack integration coverage frequently cause production instability.
+- [Cascade Failures](cascade-failures.md)
+<br/>  Untested component interactions can trigger chain reactions of failures when assumptions at service boundaries are violated.
+- [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
+<br/>  Integration issues discovered in production require emergency fixes and rollbacks to restore service.
+
+## Causes ▼
+- [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
+<br/>  Lack of proper test environments and tools makes it difficult or impossible to run meaningful integration tests.
+- [Inadequate Test Data Management](inadequate-test-data-management.md)
+<br/>  Without realistic test data representing multi-component interactions, integration tests cannot effectively validate system behavior.
+- [Time Pressure](time-pressure.md)
+<br/>  Integration tests are more complex and time-consuming to write, so they are often skipped under deadline pressure.
+- [Team Silos](team-silos.md)
+<br/>  When teams work in isolation on individual components, nobody takes responsibility for testing cross-component interactions.
 
 ## Detection Methods ○
 - **Integration Test Coverage Analysis:** Measure what percentage of component interactions are covered by integration tests

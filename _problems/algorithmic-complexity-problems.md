@@ -34,58 +34,27 @@ Algorithmic complexity problems occur when code uses algorithms or data structur
 - Users report that certain features become unusably slow over time
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.576, Strength: 0.797">ⓘ</span>
-<br/>  Inefficient algorithms and data structures often lead to complex and convoluted code paths, making it difficult to effectively cover critical areas with tests, thus indicating potential performance issues that remain unaddressed.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.557, Strength: 0.775">ⓘ</span>
-<br/>  Inefficient algorithms and data structures can lead to slow performance, prompting stakeholders to frequently change requirements in an attempt to adapt to the system's limitations, resulting in ongoing rework and delays.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.508, Strength: 0.762">ⓘ</span>
-<br/>  Inefficient algorithms and data structures lead to slow application performance, causing user frustration and increased inquiries to customer support as users struggle to complete tasks efficiently.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.498, Strength: 0.836">ⓘ</span>
-<br/>  The presence of inefficient algorithms and data structures can lead to slower execution times and resource consumption, which in turn creates a sluggish development environment, hindering the team's ability to iterate and implement changes effectively.
-- [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.494, Strength: 0.781">ⓘ</span>
-<br/>  Inefficient algorithms and data structures can lead to slow processing times during data migration, causing schema mismatches and format incompatibilities that result in the loss of data integrity and consistency.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.475, Strength: 0.755">ⓘ</span>
-<br/>  The reliance on inefficient algorithms and data structures in legacy systems often leads to complex and convoluted codebases, which in turn discourages developers with modern skills from engaging with the system, thereby highlighting a critical shortage of knowledgeable personnel needed for effective maintenance.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.472, Strength: 0.748">ⓘ</span>
-<br/>  Inefficient algorithms and complex data structures often lead to larger, more convoluted functions, which in turn increases the likelihood of multiple developers needing to work on the same code, resulting in frequent version control conflicts that hinder development progress.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.465, Strength: 0.668">ⓘ</span>
-<br/>  Inefficient algorithms and data structures can lead to prolonged processing times, causing API calls to exceed their timeout thresholds and resulting in service failures.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.831">ⓘ</span>
-<br/>  Inefficient algorithms and data structures create performance bottlenecks that hinder the speed and effectiveness of development tasks, resulting in decreased productivity for the team as they spend more time troubleshooting and optimizing rather than building new features.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.408, Strength: 0.793">ⓘ</span>
-<br/>  Inefficient algorithms and data structures can lead to excessive time spent analyzing potential solutions due to concerns over performance implications, causing teams to become paralyzed in decision-making and unable to advance to implementation.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.404, Strength: 0.639">ⓘ</span>
-<br/>  Inefficient algorithms and data structures can exacerbate the challenges posed by an already complex business domain, leading to a tangled codebase that is difficult to navigate and maintain, thereby highlighting the underlying performance issues.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.763">ⓘ</span>
-<br/>  Inefficient algorithms often fail to leverage caching effectively, resulting in repeated data fetches that exacerbate performance issues and highlight the underlying complexity problems within the system.
-- [Queries That Prevent Index Usage](queries-that-prevent-index-usage.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.674">ⓘ</span>
-<br/>  Inefficient algorithms can lead to poorly structured queries that ignore available indexes, resulting in performance degradation manifesting as slow database response times.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.377, Strength: 0.822">ⓘ</span>
-<br/>  Rushed development to meet tight deadlines often results in the adoption of suboptimal algorithms and data structures, which can exacerbate performance issues and resource inefficiencies in legacy systems.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.805">ⓘ</span>
-<br/>  Inefficient algorithms and data structures can exacerbate the constraints imposed by a system's architecture, as they fail to optimize resource utilization and exacerbate performance limitations, thus indicating underlying issues in algorithmic efficiency.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.354, Strength: 0.813">ⓘ</span>
-<br/>  Inefficient algorithms and data structures in legacy systems can lead to inadequate test data management because they often result in unrealistic performance expectations, causing the tests to be based on outdated or insufficient data that fails to replicate real-world conditions accurately.
-- [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.832">ⓘ</span>
-<br/>  The presence of computationally expensive code and performance bottlenecks indicates underlying inefficiencies in algorithms and data structures, as legacy systems often struggle to optimize operations due to outdated design choices.
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.762">ⓘ</span>
-<br/>  Inefficient algorithms often fail to manage memory effectively, resulting in data structures that can grow without constraints, which in turn leads to memory exhaustion and performance issues in legacy systems.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.624">ⓘ</span>
-<br/>  Inefficient algorithms and data structures often lead to prolonged execution times and excessive resource allocation, causing system resources to remain in use without being released, which serves as a clear indicator of underlying performance issues.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.770">ⓘ</span>
-<br/>  Inefficient algorithms and data structures increase the time required for feature development and bug fixes, causing the team to struggle with meeting deadlines and ultimately leading to a decline in overall productivity.
-- [Incorrect Max Connection Pool Size](incorrect-max-connection-pool-size.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.827">ⓘ</span>
-<br/>  Inefficient algorithms can lead to slower processing times, causing the database connection pool to mismanage available connections due to prolonged query execution, which manifests as incorrect settings for the maximum connection pool size.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.797">ⓘ</span>
-<br/>  Inefficient algorithms and data structures consume excessive time and resources for maintenance, leaving the team overwhelmed and unable to dedicate time to exploring innovative solutions or improvements.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.811">ⓘ</span>
-<br/>  Inefficient algorithms and data structures can lead to excessive object creation and retention, causing the application to fail in releasing memory that is no longer needed, which manifests as gradual memory consumption and performance degradation.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.799">ⓘ</span>
-<br/>  Inefficient algorithms and data structures can lead to unpredictable performance issues that complicate version tracking and rollback processes, making it difficult to manage and maintain consistent configurations in legacy systems.
 
-## Root Causes ▼
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Inefficient algorithms directly cause slow application performance, especially as data volumes grow.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  Poor algorithmic complexity causes performance to degrade gradually as data grows over time.
+- [Scaling Inefficiencies](scaling-inefficiencies.md)
+<br/>  Algorithms with poor complexity characteristics prevent the system from scaling efficiently with increased load.
+- [High Database Resource Utilization](high-database-resource-utilization.md)
+<br/>  Inefficient algorithms processing database results consume excessive CPU and memory resources.
+- [User Frustration](user-frustration.md)
+<br/>  Users experience long wait times for operations that should be fast, leading to frustration with the application.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers lacking computer science fundamentals may not recognize poor algorithmic choices or know better alternatives.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Testing only with small data sets fails to reveal algorithmic complexity issues that appear at production scale.
+- [Deadline Pressure](deadline-pressure.md)
+<br/>  Time pressure leads developers to implement the first working solution without considering its algorithmic efficiency.
+- [Cargo Culting](cargo-culting.md)
+<br/>  Developers copying code patterns without understanding their performance characteristics can introduce inefficient algorithms.
 
 ## Detection Methods ○
 - **Performance Profiling:** Use profiling tools to identify methods that consume disproportionate CPU time

@@ -35,20 +35,25 @@ Reviewer anxiety occurs when team members feel uncertain, intimidated, or anxiou
 - Team members express discomfort or stress about their reviewing responsibilities
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.432, Strength: 0.681">ⓘ</span>
-<br/>  The anxiety surrounding code reviews leads to insufficient feedback and unresolved issues in the codebase, creating a frustrating environment for developers who feel their work is not adequately evaluated or improved, ultimately resulting in demotivation and burnout.
-- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.756">ⓘ</span>
-<br/>  The lack of a systematic approach to mentoring new developers results in inconsistent guidance, exacerbating feelings of uncertainty and anxiety during code reviews, which in turn leads to avoidance and superficial review practices.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.778">ⓘ</span>
-<br/>  The uncertainty and anxiety surrounding code reviews can lead team members to prioritize meeting tight deadlines over thorough evaluations, resulting in rushed decisions and shortcuts that compromise software quality in legacy systems.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.578">ⓘ</span>
-<br/>  The anxiety surrounding code reviews leads to team members rushing through their assessments in a slow and cumbersome development environment, which exacerbates their uncertainty and reinforces avoidance behavior, creating a cycle of inefficiency and superficial engagement with the code.
-- [Nitpicking Culture](nitpicking-culture.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.816">ⓘ</span>
-<br/>  The anxiety experienced by team members during code reviews leads them to focus on minor details as a defensive mechanism to avoid addressing more complex and critical design and functionality issues, resulting in a superficial review process that fails to enhance code quality in legacy systems.
 
-## Root Causes ▼
+- [Reduced Review Participation](reduced-review-participation.md)
+<br/>  Anxious reviewers avoid volunteering for reviews, reducing the pool of active participants.
+- [Review Bottlenecks](review-bottlenecks.md)
+<br/>  When anxious reviewers take excessively long on simple reviews or avoid reviewing entirely, review throughput drops and creates bottlenecks.
+- [Rushed Approvals](rushed-approvals.md)
+<br/>  Anxious reviewers may quickly approve changes to avoid the discomfort of providing potentially wrong or controversial feedback.
+- [Review Process Breakdown](review-process-breakdown.md)
+<br/>  Anxiety leads to superficial reviews that focus on safe, surface-level issues, undermining the overall effectiveness of the review process.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Reviewer Inexperience](reviewer-inexperience.md)
+<br/>  Lack of experience and domain knowledge makes reviewers uncertain about their ability to provide valuable feedback.
+- [Fear of Conflict](fear-of-conflict.md)
+<br/>  Fear of creating interpersonal conflict by challenging others' code contributes to anxiety about the review process.
+- [Blame Culture](blame-culture.md)
+<br/>  In a blame culture, reviewers fear being held responsible for approving code that later causes problems, heightening their anxiety.
+- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md)
+<br/>  Without mentoring to build reviewing skills and confidence, team members remain anxious about their review capabilities.
 
 ## Detection Methods ○
 

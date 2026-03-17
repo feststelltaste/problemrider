@@ -37,24 +37,23 @@ Technology stack fragmentation occurs when an organization accumulates multiple 
 - Integration projects that require extensive translation layers between incompatible technology stacks
 
 ## Symptoms ▲
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.434, Strength: 0.646">ⓘ</span>
-<br/>  The isolation of technology islands leads to inconsistent implementations and fragmented understanding of the business domain, resulting in a convoluted domain model that is challenging to navigate and maintain.
-- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md) <span class="info-tooltip" title="Confidence: 0.361, Strength: 0.742">ⓘ</span>
-<br/>  The lack of a systematic mentoring approach arises from the fragmented technology landscape, as new developers struggle to receive consistent guidance due to the diverse and isolated systems, making it difficult to establish a cohesive learning environment.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.615">ⓘ</span>
-<br/>  The fragmentation of technology stacks leads to the use of diverse and outdated programming languages and frameworks, resulting in a critical shortage of developers familiar with these legacy systems, which manifests as bottlenecks in system maintenance and increased risk of failure.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.658">ⓘ</span>
-<br/>  The presence of isolated technology islands leads to inconsistent environments and dependencies, causing tests to fail unpredictably and eroding confidence in the overall testing process.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.682">ⓘ</span>
-<br/>  The presence of isolated technology islands leads to uncertainty and confusion among teams regarding the best tools and practices to adopt, causing them to overanalyze options and delaying implementation, which manifests as a lack of progress in development work.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.937">ⓘ</span>
-<br/>  Shared dependencies among legacy systems lead to technology stack fragmentation by forcing isolated components to rely on different versions of the same libraries, resulting in inconsistencies and operational complexity that hinder standardization efforts across the organization.
-- [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.927">ⓘ</span>
-<br/>  Slow response times from dependent services force legacy systems to implement unique workarounds, leading to disparate technology solutions that hinder standardization and increase operational complexity.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.903">ⓘ</span>
-<br/>  Bottlenecks arise when certain team members or processes are overwhelmed, leading to delayed decision-making and inconsistent technology adoption, which ultimately fosters isolated systems and prevents the organization from achieving standardization across its technology stack.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  Maintaining multiple incompatible technology stacks with separate tools, processes, and expertise is significantly more expensive than a standardized environment.
+- [Legacy Skill Shortage](legacy-skill-shortage.md)
+<br/>  Each fragmented technology stack requires specialized expertise, making it difficult to find and retain qualified staff across all stacks.
+- [Team Silos](team-silos.md)
+<br/>  Specialists in different technology stacks naturally form silos as they cannot easily contribute to systems outside their expertise.
+
+## Causes ▼
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  Legacy systems built on now-obsolete technologies contribute to the fragmentation as they cannot be easily modernized.
+- [CV Driven Development](cv-driven-development.md)
+<br/>  Different developers introducing their preferred resume-building technologies creates a fragmented stack with many incompatible tools.
+- [Premature Technology Introduction](premature-technology-introduction.md)
+<br/>  Each premature adoption adds a new technology to the stack without consolidation, fragmenting the platform.
+- [Shadow Systems](shadow-systems.md)
+<br/>  Each shadow system introduces its own technology choices, fragmenting the overall technology landscape.
 
 ## Detection Methods ○
 

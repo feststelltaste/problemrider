@@ -55,52 +55,65 @@ Difficult developer onboarding is a significant problem that can have a major im
 - New team members remain heavily dependent on mentors for extended periods
 
 ## Symptoms ▲
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.448, Strength: 0.696">ⓘ</span>
-<br/>  The prolonged time for new developers to become productive leads to incomplete features and unresolved bugs in the software, resulting in increased user frustration and a higher frequency of support requests.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.614">ⓘ</span>
-<br/>  The prolonged time required for new developers to gain proficiency in complex legacy systems, compounded by inadequate documentation and onboarding processes, leads to increased frustration and burnout as they struggle to navigate and contribute effectively to a challenging work environment.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.567">ⓘ</span>
-<br/>  Frequent changes to requirements often arise from new developers struggling to grasp the existing system's complexities and nuances due to insufficient onboarding, leading them to seek clarification or make assumptions that result in shifting project goals.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.642">ⓘ</span>
-<br/>  The lengthy onboarding process for new developers, exacerbated by complex systems and insufficient documentation, leads to a slower ramp-up to productivity, which in turn causes a decline in the team's overall development velocity as they struggle to effectively contribute to ongoing projects.
 
-## Root Causes ▼
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.463, Strength: 0.927">ⓘ</span>
-<br/>  A lack of understanding of object-oriented programming principles leads to poorly structured legacy code, making it challenging for new developers to navigate and understand the system, thereby prolonging their onboarding and productivity ramp-up.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.919">ⓘ</span>
-<br/>  The struggle of developers trained in procedural programming to transition to an object-oriented paradigm hampers their ability to navigate and contribute effectively to complex legacy systems, exacerbating onboarding challenges due to a misalignment between their coding style and the system's design principles.
-- [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.427, Strength: 0.900">ⓘ</span>
-<br/>  The insistence on delivering flawlessly polished features slows down the release cycle, resulting in a backlog of complex systems and insufficiently updated documentation, which hinders new developers from efficiently onboarding and becoming productive.
-- [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.420, Strength: 0.896">ⓘ</span>
-<br/>  Slow responses from dependent services lead to frustrating delays during development and testing, hindering new team members' ability to grasp the system effectively and diminishing their productivity due to inadequate real-time feedback.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.406, Strength: 0.850">ⓘ</span>
-<br/>  The presence of bottlenecks in the development process, caused by specific team members or outdated components, hampers the onboarding experience by slowing down access to necessary resources and support, which in turn prolongs the time it takes for new developers to become productive.
-- [Eager to Please Stakeholders](eager-to-please-stakeholders.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.858">ⓘ</span>
-<br/>  The tendency to accommodate every stakeholder request without assessing the impact leads to an ever-expanding system complexity and inconsistent documentation, making it significantly harder for new developers to navigate and become productive in the legacy environment.
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.933">ⓘ</span>
-<br/>  Budget overruns often lead to reduced resources and time allocated for comprehensive onboarding and training, resulting in insufficient documentation and support for new developers in complex legacy systems.
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.877">ⓘ</span>
-<br/>  Insufficient production monitoring and observability hinder the identification of systemic issues within the complex legacy systems, resulting in new developers facing unresolved problems and unclear workflows that prolong their ramp-up time and diminish their productivity.
-- [Past Negative Experiences](past-negative-experiences.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.810">ⓘ</span>
-<br/>  Developers' reluctance to engage with the codebase due to previous failures creates a culture of caution that hinders the onboarding process, as new team members struggle to navigate complex systems without guidance and support.
-- [Incomplete Projects](incomplete-projects.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.918">ⓘ</span>
-<br/>  The frequent initiation of unfinished features creates a confusing and fragmented codebase that hinders new developers' ability to understand system functionality, leading to longer onboarding times and decreased productivity.
-- [Increased Stress and Burnout](increased-stress-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.332, Strength: 0.880">ⓘ</span>
-<br/>  Overworked team members facing unrealistic expectations struggle to provide adequate support and mentorship to new hires, resulting in prolonged onboarding times and a steep learning curve due to the intricate nature of legacy systems.
-- [Code Review Inefficiency](code-review-inefficiency.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.799">ⓘ</span>
-<br/>  Inefficient code reviews prolong the feedback loop for new developers, hindering their ability to learn from real-time examples and slowing their integration into the team's workflow within complex legacy systems.
-- [Testing Complexity](testing-complexity.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.837">ⓘ</span>
-<br/>  The intricate testing requirements across multiple locations create a convoluted codebase that discourages new developers from navigating the system effectively, thereby prolonging their onboarding process and hindering their productivity.
-- [Approval Dependencies](approval-dependencies.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.782">ⓘ</span>
-<br/>  Frequent approval bottlenecks slow down the onboarding process for new developers, as they must wait for necessary authorizations to access critical resources and documentation, hindering their ability to quickly become effective in complex legacy systems.
-- [Work Queue Buildup](work-queue-buildup.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.863">ⓘ</span>
-<br/>  The accumulation of tasks in queues leads to delays in resource allocation and process execution, which hinders timely access to critical systems and information for new developers, ultimately prolonging their onboarding and productivity ramp-up.
-- [Tacit Knowledge](tacit-knowledge.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.808">ⓘ</span>
-<br/>  The presence of tacit knowledge within legacy systems hinders effective knowledge transfer, leading to confusion and inefficiencies that extend the time required for new developers to adapt and become productive.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.917">ⓘ</span>
-<br/>  The lack of design skills results in poorly structured and complex systems, making it difficult for new developers to understand the architecture and navigate the codebase, thereby prolonging their onboarding process.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.801">ⓘ</span>
-<br/>  The tendency to provide large time estimates for small changes reflects the underlying code complexity, which not only hinders efficient modifications but also overwhelms new developers, making it difficult for them to navigate and understand the system effectively during their onboarding process.
+- [High Turnover](high-turnover.md)
+<br/>  New hires who struggle through a painful onboarding process are more likely to leave early.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Senior developers spend significant time mentoring new hires instead of doing productive work, and new hires contribute little during the long ramp-up.
+- [New Hire Frustration](new-hire-frustration.md)
+<br/>  New team members become frustrated when they cannot understand the system or become productive in a reasonable timeframe.
+- [Mentor Burnout](mentor-burnout.md)
+<br/>  Experienced developers become exhausted from constantly hand-holding new hires through a difficult onboarding process.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  The team's overall velocity drops each time a new member joins because of the extended unproductive onboarding period.
+
+## Causes ▼
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  When the codebase is hard to understand, new developers cannot independently learn the system and need extensive hand-holding.
+- [Information Decay](information-decay.md)
+<br/>  Outdated or missing documentation forces new developers to rely entirely on asking team members for information.
+- [Implicit Knowledge](implicit-knowledge.md)
+<br/>  Critical system knowledge that exists only in people's heads cannot be transferred efficiently to new team members.
+- [Inadequate Onboarding](inadequate-onboarding.md)
+<br/>  Lack of a structured onboarding program means new hires must figure things out on their own, extending ramp-up time.
+- [Inefficient Development Environment](inefficient-development-environment.md)
+<br/>  Complicated or poorly documented development environment setup wastes new developers' first weeks just trying to get running.
+- [Complex and Obscure Logic](complex-and-obscure-logic.md)
+<br/>  New developers take much longer to become productive in areas with complex and obscure logic.
+- [Complex Domain Model](complex-domain-model.md)
+<br/>  New team members require extensive time to learn the complex domain before they can contribute effectively.
+- [Difficult to Understand Code](difficult-to-understand-code.md)
+<br/>  Code that is hard to understand makes it take much longer for new developers to learn the system and become productive.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  A codebase burdened with technical debt is harder for new developers to understand due to inconsistencies, workarounds, and complexity.
+- [Inconsistent Codebase](inconsistent-codebase.md)
+<br/>  New developers struggle to become productive because there are no consistent patterns to learn and apply across the codebase.
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  New team members take longer to become productive because they must learn multiple coding styles and conventions used throughout the codebase.
+- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md)
+<br/>  New developers struggle to navigate and find code because they cannot predict the naming patterns used in different parts of the codebase.
+- [Increased Cognitive Load](increased-cognitive-load.md)
+<br/>  High cognitive load makes it especially difficult for new developers to become productive in the codebase.
+- [Information Fragmentation](information-fragmentation.md)
+<br/>  New team members struggle to find the information they need when it is scattered across multiple disconnected systems.
+- [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
+<br/>  New hires struggle to get up to speed when there are no effective mechanisms for transferring knowledge.
+- [Legacy System Documentation Archaeology](legacy-system-documentation-archaeology.md)
+<br/>  New team members struggle to become productive when system knowledge exists only in outdated or inaccessible formats.
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  New developers face steep learning curves when systems use obsolete technologies with limited documentation and community support.
+- [Communication Breakdown](poor-communication.md)
+<br/>  Poor communication makes it harder for new team members to learn the system, as information isn't shared openly.
+- [Information Decay](poor-documentation.md)
+<br/>  New developers cannot ramp up independently when documentation is outdated or missing, requiring extensive hand-holding.
+- [Poor Naming Conventions](poor-naming-conventions.md)
+<br/>  New team members spend excessive time asking colleagues what poorly named variables and functions mean.
+- [Tacit Knowledge](tacit-knowledge.md)
+<br/>  New team members struggle to become productive when critical system knowledge exists only in experienced developers' heads.
+- [Unclear Documentation Ownership](unclear-documentation-ownership.md)
+<br/>  New developers struggle to get up to speed when documentation is outdated, scattered, or missing due to unclear ownership.
+- [Uncontrolled Codebase Growth](uncontrolled-codebase-growth.md)
+<br/>  New developers face a steep learning curve when the codebase has grown uncontrollably large and complex.
 
 ## Detection Methods ○
 

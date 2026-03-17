@@ -34,22 +34,29 @@ Resource waste occurs when available capacity, skills, or tools are not utilized
 - Investment in resources doesn't translate to proportional productivity gains
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.431, Strength: 0.714">ⓘ</span>
-<br/>  The ineffective utilization of resources in legacy systems leads to a reliance on a diminishing pool of skilled developers, resulting in bottlenecks that highlight the overall inefficiency and resource waste within system maintenance processes.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.414, Strength: 0.745">ⓘ</span>
-<br/>  Inefficient resource allocation leads to a reliance on fetching data from the source for every request, which not only heightens latency but also indicates an inability to leverage existing resources effectively, thus showcasing the underlying issue of wasted capacity.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.643">ⓘ</span>
-<br/>  Inefficient management of allocated resources leads to unreleased resources, which signals a failure to optimize utilization and contributes to overall resource waste in legacy systems.
-- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.763">ⓘ</span>
-<br/>  Ineffective utilization of available resources leads to a lack of oversight on project progress, as teams become unaware of resource allocation discrepancies, resulting in undetected issues that escalate over time.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.315, Strength: 0.718">ⓘ</span>
-<br/>  The underutilization of resources results in a slow and cumbersome development environment, as inadequate allocation of tools and support hinders the team's efficiency and productivity in legacy systems.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.749">ⓘ</span>
-<br/>  Inefficient resource allocation often stems from architectural constraints that prevent optimal performance and scalability, resulting in underutilized resources while other components of the system struggle to meet demand.
 
-## Root Causes ▼
+- [Budget Overruns](budget-overruns.md)
+<br/>  Paying for underutilized resources while needing to acquire additional resources for constrained areas drives costs above budget.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  When skilled developers are allocated to low-value tasks while critical work is understaffed, overall team velocity suffers.
+- [Project Resource Constraints](project-resource-constraints.md)
+<br/>  Poor resource utilization means some projects lack resources while equivalent capacity sits idle elsewhere in the organization.
+- [Stakeholder Frustration](stakeholder-frustration.md)
+<br/>  Stakeholders become frustrated when they see investment in resources not translating to proportional productivity or output.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Capacity Mismatch](capacity-mismatch.md)
+<br/>  Misalignment between available capacity and actual demand creates situations where some resources are idle while others are overloaded.
+- [Knowledge Silos](knowledge-silos.md)
+<br/>  When expertise is siloed, available skilled people cannot be effectively deployed to where they are most needed.
+- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
+<br/>  Without clear priorities, resources get allocated to low-value activities while high-priority work remains understaffed.
+- [Delayed Decision Making](delayed-decision-making.md)
+<br/>  Teams spend time building throwaway prototypes, attending repetitive meetings, and researching options that may never be selected.
+- [Unused Indexes](unused-indexes.md)
+<br/>  Unused indexes consume disk space, memory, and CPU cycles during write operations without providing any query benefit.
+- [Wasted Development Effort](wasted-development-effort.md)
+<br/>  Discarded development work represents a direct waste of organizational resources including time and money.
 
 ## Detection Methods ○
 

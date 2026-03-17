@@ -32,20 +32,13 @@ Buffer overflow vulnerabilities occur when a program writes more data to a buffe
 - Stack traces show corruption or unexpected function call sequences
 
 ## Symptoms ▲
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.481, Strength: 0.770">ⓘ</span>
-<br/>  When data is written beyond allocated memory boundaries, it can corrupt the management of system resources, leading to objects or connections remaining allocated without proper deallocation, which serves as an indicator of underlying memory handling issues.
-- [Logging Configuration Issues](logging-configuration-issues.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.884">ⓘ</span>
-<br/>  Improper logging configuration can obscure the detection of buffer overflow vulnerabilities by failing to capture critical error messages or anomalous behavior that indicate memory corruption, thus making it difficult to identify and remediate security risks in legacy systems.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.414, Strength: 0.894">ⓘ</span>
-<br/>  When programs experience memory writes beyond allocated boundaries, it can lead to corruption of memory management structures, which in turn causes failure to release memory, resulting in gradual resource exhaustion and performance issues.
-- [Delayed Bug Fixes](delayed-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.823">ⓘ</span>
-<br/>  The unresolved security vulnerabilities caused by improper memory management often lead to an accumulation of known issues, as legacy systems struggle to prioritize and implement fixes for complex, foundational problems, resulting in prolonged user frustration.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.335, Strength: 0.808">ⓘ</span>
-<br/>  Unbounded data growth often indicates buffer overflow vulnerabilities in legacy systems, as unchecked data accumulation can lead to memory being overwritten or corrupted, exposing the system to security risks and instability.
 
-## Root Causes ▼
+- [Cascade Failures](cascade-failures.md)
+<br/>  A buffer overflow crash in a shared service can trigger failures across dependent components.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Integer Overflow and Underflow](integer-overflow-underflow.md)
+<br/>  Integer overflow in size calculations can lead to undersized buffer allocations that are then overflowed.
 
 ## Detection Methods ○
 

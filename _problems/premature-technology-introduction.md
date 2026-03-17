@@ -35,26 +35,25 @@ Premature technology introduction occurs when teams adopt new technologies, fram
 - Decisions are driven by individual preferences rather than project needs
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.456, Strength: 0.696">ⓘ</span>
-<br/>  The introduction of new frameworks or tools without thorough evaluation often leads to unclear or shifting expectations, resulting in frequent requirement changes as teams struggle to adapt to unfamiliar technology and its implications on project scope.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.444, Strength: 0.680">ⓘ</span>
-<br/>  The introduction of untested technologies often leads to architectural decisions that impose constraints on performance and scalability, reflecting the risks and learning overhead that arise when these tools are not properly evaluated in the context of existing system capabilities.
-- [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.387, Strength: 0.701">ⓘ</span>
-<br/>  The introduction of new frameworks and tools without thorough evaluation increases the likelihood of data migration integrity issues, as mismatches in schemas and formats arise from inadequate understanding of legacy system structures and their compatibility with modern technologies.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.678">ⓘ</span>
-<br/>  The introduction of unvetted technologies creates confusion and fear of failure among teams, leading them to prioritize stability over experimentation, which stifles creativity and discourages the pursuit of innovative solutions.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.652">ⓘ</span>
-<br/>  The introduction of unproven technologies increases complexity and knowledge gaps within the development team, leading to ineffective code reviews that fail to catch critical issues and perpetuate poor code quality in legacy systems.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.617">ⓘ</span>
-<br/>  The introduction of new technologies without thorough assessment leads to an increased reliance on modern frameworks, which exacerbates the existing shortage of developers skilled in legacy systems, creating maintenance bottlenecks and vulnerabilities.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.708">ⓘ</span>
-<br/>  Introducing new technologies without thorough evaluation can lead to a complex, tightly-coupled codebase that hinders maintainability and scalability, effectively manifesting as difficulties in managing an ever-growing monolithic system.
-- [Increased Technical Shortcuts](increased-technical-shortcuts.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.743">ⓘ</span>
-<br/>  The introduction of unvetted technologies creates uncertainty and complexity, prompting teams to resort to quick fixes and workarounds to meet deadlines, which ultimately leads to increased maintenance challenges in legacy systems.
 
-## Root Causes ▼
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.934">ⓘ</span>
-<br/>  The pressure to control costs often leads to hasty adoption of untested technologies, resulting in increased project complexity and risk, which ultimately escalates expenses and contributes to budget overruns.
+- [Technology Stack Fragmentation](technology-stack-fragmentation.md)
+<br/>  Each premature adoption adds a new technology to the stack without consolidation, fragmenting the platform.
+- [Technology Lock-In](technology-lock-in.md)
+<br/>  Once a premature technology choice is integrated, switching costs make it difficult to move to a better alternative.
+- [Increased Technical Shortcuts](increased-technical-shortcuts.md)
+<br/>  Teams unfamiliar with the new technology take shortcuts to meet deadlines, accumulating technical debt.
+- [Wasted Development Effort](wasted-development-effort.md)
+<br/>  Teams may need to rewrite or migrate away from unsuitable technologies, wasting prior development work.
+
+## Causes ▼
+- [Cargo Culting](cargo-culting.md)
+<br/>  Teams copy technology choices from successful companies without understanding whether those choices fit their context.
+- [Assumption-Based Development](assumption-based-development.md)
+<br/>  Technology is adopted based on assumptions about its benefits rather than validated evaluation of suitability.
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Lack of architectural evaluation skills means teams cannot properly assess whether a new technology fits their needs.
+- [CV Driven Development](cv-driven-development.md)
+<br/>  Technologies are adopted based on resume value rather than project fit, introducing immature or inappropriate tools into the stack.
 
 ## Detection Methods ○
 

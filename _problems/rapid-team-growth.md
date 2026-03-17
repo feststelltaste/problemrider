@@ -35,18 +35,23 @@ Rapid team growth occurs when development teams expand in size quickly, often do
 - Code review queues become bottlenecked with insufficient senior reviewers
 
 ## Symptoms ▲
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.547">ⓘ</span>
-<br/>  The rapid expansion of team size leads to inadequate training and resources for new members, resulting in increased user frustration and support inquiries as they struggle to navigate the legacy systems without sufficient guidance or support.
 
-## Root Causes ▼
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.909">ⓘ</span>
-<br/>  As teams expand rapidly, the increased workload often exposes and exacerbates existing constraints in processes or system components, leading to bottlenecks that hinder overall productivity and further strain the already inadequate infrastructure.
-- [Deployment Risk](deployment-risk.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.745">ⓘ</span>
-<br/>  Rapid team growth exacerbates deployment risk by increasing the frequency and scale of changes made to legacy systems without sufficient infrastructure support, leading to a higher likelihood of failure due to inadequate recovery mechanisms.
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.315, Strength: 0.829">ⓘ</span>
-<br/>  Insufficient budget leads to rushed hiring and scaling efforts to meet project demands, resulting in an expanded team that overwhelms outdated infrastructure and support systems.
-- [Gold Plating](gold-plating.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.890">ⓘ</span>
-<br/>  The tendency to add unnecessary features increases the complexity of the software, leading to a steeper learning curve and greater demand for support resources, which becomes unsustainable as teams rapidly expand.
+- [Slow Knowledge Transfer](slow-knowledge-transfer.md)
+<br/>  Experienced team members are overwhelmed by onboarding duties, making knowledge transfer slow and incomplete for many new hires.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Senior developers spending most of their time on onboarding reduces the team's overall output despite having more people.
+- [Review Bottlenecks](review-bottlenecks.md)
+<br/>  Code review queues become overwhelmed when too many new developers submit code with insufficient senior reviewers available.
+- [Poor Teamwork](poor-teamwork.md)
+<br/>  Rapid expansion disrupts established team dynamics and communication patterns, reducing collaboration effectiveness.
+
+## Causes ▼
+- [Scope Creep](scope-creep.md)
+<br/>  Expanding project scope drives the need for rapid hiring to meet increased workload demands.
+- [Poor Planning](poor-planning.md)
+<br/>  Lack of workforce planning leads to reactive bulk hiring instead of gradual, sustainable team growth.
+- [Unrealistic Schedule](unrealistic-schedule.md)
+<br/>  Aggressive deadlines drive management to rapidly expand teams in an attempt to accelerate delivery.
 
 ## Detection Methods ○
 

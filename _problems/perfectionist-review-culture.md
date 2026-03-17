@@ -36,21 +36,27 @@ Perfectionist review culture occurs when teams develop an expectation that code 
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
 
-## Root Causes ▼
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.487, Strength: 0.898">ⓘ</span>
-<br/>  The team's lack of design skills leads to poorly structured code, which necessitates excessive revisions during reviews as they strive for perfection instead of addressing fundamental issues, thus perpetuating a culture of perfectionism in the review process.
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.719">ⓘ</span>
-<br/>  The tendency to nitpick minor details during code reviews diverts attention from critical improvements, fostering a culture where the pursuit of perfection in trivial matters hinders meaningful progress and increases revision cycles in legacy software systems.
-- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.809">ⓘ</span>
-<br/>  The emphasis on achieving perfection in code reviews stems from the high technical debt present in legacy systems, which necessitates excessive revisions to address underlying design flaws and implementation shortcuts, ultimately stalling meaningful progress and innovation.
-- [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.809">ⓘ</span>
-<br/>  A culture that prioritizes flawless outcomes fosters an environment where code revisions are excessively scrutinized, resulting in prolonged review cycles and hindering timely improvements in legacy systems.
-- [Work Queue Buildup](work-queue-buildup.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.836">ⓘ</span>
-<br/>  The accumulation of tasks in queues forces teams to overly focus on perfecting code during reviews as a coping mechanism for delays, which perpetuates excessive revision cycles and hinders meaningful progress in legacy systems.
-- [Code Review Inefficiency](code-review-inefficiency.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.702">ⓘ</span>
-<br/>  The prolonged and often unproductive nature of the review process fosters a culture that prioritizes perfection over meaningful improvements, causing teams to engage in excessive revisions that further delay progress and stifle innovation.
+- [Extended Review Cycles](extended-review-cycles.md)
+<br/>  Continuous pursuit of perfection in reviews causes multiple rounds of feedback that significantly extend the review timeline.
+- [Author Frustration](author-frustration.md)
+<br/>  Developers become frustrated when their functional, well-written code is subjected to endless rounds of theoretical improvements.
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  Features that are complete and functional sit in review for weeks while reviewers suggest increasingly marginal improvements.
+- [Reduced Code Submission Frequency](reduced-code-submission-frequency.md)
+<br/>  Developers batch changes or delay submissions to avoid the lengthy review cycles that perfectionist culture creates.
+- [Review Bottlenecks](review-bottlenecks.md)
+<br/>  Perfectionist reviews take so long that the review process becomes a major bottleneck in the development pipeline.
+
+## Causes ▼
+- [Perfectionist Culture](perfectionist-culture.md)
+<br/>  A broader organizational culture of perfectionism naturally manifests in the code review process as demand for perfect code.
+- [Nitpicking Culture](nitpicking-culture.md)
+<br/>  A culture focused on finding every possible minor improvement drives reviewers to continuously find new things to change.
+- [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
+<br/>  Without clear standards for when code is 'good enough', reviewers default to subjective perfectionist standards.
+- [Fear of Failure](fear-of-failure.md)
+<br/>  Reviewers fear that approving imperfect code will lead to production issues, driving them to demand excessive polish.
 
 ## Detection Methods ○
 

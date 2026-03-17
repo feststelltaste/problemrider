@@ -33,26 +33,85 @@ Delayed project timelines occur when software projects consistently take longer 
 - Dependencies on other projects are impacted by delays
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.573, Strength: 0.767">ⓘ</span>
-<br/>  The consistent delays in project timelines often lead to inadequate performance optimization and testing of APIs, causing increased response times that trigger timeouts for services relying on those APIs, thus indicating systemic inefficiencies in legacy systems.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.561, Strength: 0.787">ⓘ</span>
-<br/>  Constant updates to project requirements often arise from the need to address unanticipated issues and delays in delivery, revealing a lack of clarity and stability in initial planning, which consequently leads to rework and further extends timelines.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.469, Strength: 0.716">ⓘ</span>
-<br/>  The slow and cumbersome development environment hampers productivity and increases the time required for coding, testing, and deployment, thereby contributing to missed deadlines and extended project timelines in legacy systems.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.814">ⓘ</span>
-<br/>  The consistent failure to meet project deadlines often leads to increased stress and burnout among team members, resulting in decreased productivity as systemic inefficiencies take root in the legacy systems they are struggling to manage.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.409, Strength: 0.813">ⓘ</span>
-<br/>  Misaligned expectations between stakeholders and developers often result in frequent revisions and rework, which exacerbate delays in project timelines as the development team struggles to meet shifting requirements and rectify misunderstandings.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.792">ⓘ</span>
-<br/>  The consistent failure to deliver features and bug fixes at a predictable pace indicates that the underlying complexities and inefficiencies of the legacy systems are hindering development progress, which in turn causes project timelines to extend beyond original estimates.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.781">ⓘ</span>
-<br/>  The consistent failure to meet project deadlines creates an environment of urgency that pressures teams to make hasty decisions and skip essential quality checks, ultimately revealing the underlying inefficiencies and complexities of legacy systems that hinder timely delivery.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.781">ⓘ</span>
-<br/>  The tendency for teams to become mired in extensive research and deliberation, rather than advancing to implementation, often arises from the uncertainty and complexity inherent in legacy systems, leading to prolonged project timelines as critical decisions are delayed and development stalled.
 
-## Root Causes ▼
+- [Budget Overruns](budget-overruns.md)
+<br/>  When projects take longer than planned, the additional time directly increases costs beyond the original budget.
+- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
+<br/>  Repeatedly missing deadlines erodes stakeholder trust in the development team's ability to deliver.
+- [Cascade Delays](cascade-delays.md)
+<br/>  Delayed timelines in one project propagate to dependent projects and business initiatives that were counting on the original schedule.
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  When projects run late, users must wait longer for features and bug fixes, delaying the business value.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Chronic timeline overruns create pressure and overtime that lead to team exhaustion and demoralization.
+- [Increased Time to Market](increased-time-to-market.md)
+<br/>  Delayed project timelines directly increase the time it takes for new capabilities to reach the market.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Poor Planning](poor-planning.md)
+<br/>  Inadequate estimation, unclear scope, and insufficient risk assessment lead to unrealistic project timelines.
+- [Scope Creep](scope-creep.md)
+<br/>  Uncontrolled expansion of project scope adds unplanned work that pushes timelines beyond original estimates.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Accumulated technical debt makes changes take longer than expected, causing timeline overruns.
+- [Development Disruption](development-disruption.md)
+<br/>  Constant interruptions from production issues pull developers away from planned work, delaying project progress.
+- [Unrealistic Schedule](unrealistic-schedule.md)
+<br/>  Schedules that don't account for actual complexity and risk set projects up for inevitable delays.
+- [Analysis Paralysis](analysis-paralysis.md)
+<br/>  Extended research phases directly push back project timelines as implementation start dates slip.
+- [Approval Dependencies](approval-dependencies.md)
+<br/>  Work blocked by pending approvals directly delays project timelines as tasks cannot proceed.
+- [Avoidance Behaviors](avoidance-behaviors.md)
+<br/>  Consistently postponing complex tasks causes project schedules to slip as critical work remains undone.
+- [Changing Project Scope](changing-project-scope.md)
+<br/>  Each scope change requires re-planning and rework, pushing delivery dates further out.
+- [Competing Priorities](competing-priorities.md)
+<br/>  All competing projects experience delays because none receives the focused attention needed for timely completion.
+- [Data Migration Complexities](data-migration-complexities.md)
+<br/>  Unexpectedly complex migrations frequently take longer than planned, pushing back project delivery schedules.
+- [Decision Avoidance](decision-avoidance.md)
+<br/>  Projects fall behind schedule as implementation work stalls waiting for deferred architectural and design decisions.
+- [Decision Paralysis](decision-paralysis.md)
+<br/>  Prolonged indecision causes project schedules to slip as work remains blocked waiting for choices to be made.
+- [Delayed Decision Making](delayed-decision-making.md)
+<br/>  Projects slip their schedules as implementation work stalls while waiting for decisions to be made.
+- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
+<br/>  Continuously accepting new work without adjusting timelines causes projects to consistently deliver late.
+- [Extended Research Time](extended-research-time.md)
+<br/>  Consistently underestimated research phases cause projects to take longer than planned.
+- [Feature Creep](feature-creep.md)
+<br/>  Continuously expanding scope pushes delivery dates further out as the team tries to accommodate more features.
+- [Legal Disputes](legal-disputes.md)
+<br/>  Legal proceedings stall project work as resources are diverted and decisions are deferred pending legal outcomes.
+- [Merge Conflicts](merge-conflicts.md)
+<br/>  Complex merge conflicts create integration bottlenecks that delay feature delivery and project completion.
+- [Planning Dysfunction](planning-dysfunction.md)
+<br/>  Poor resource allocation and unidentified dependencies during planning cause projects to take significantly longer than planned.
+- [Poor Project Control](poor-project-control.md)
+<br/>  Without effective progress monitoring, schedule slips go undetected until they become severe delays.
+- [Reduced Individual Productivity](reduced-individual-productivity.md)
+<br/>  Individual productivity losses accumulate into missed deadlines and delayed project deliveries.
+- [Reduced Predictability](reduced-predictability.md)
+<br/>  Inability to predict work duration leads to underestimation and consequent project delays.
+- [Reduced Team Flexibility](reduced-team-flexibility.md)
+<br/>  When key personnel are unavailable and work cannot be reassigned, project timelines slip.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Lower team output leads to missed deadlines and extended project timelines.
+- [Second-System Effect](second-system-effect.md)
+<br/>  Overambitious designs for the replacement system take much longer to implement than planned, pushing timelines well beyond estimates.
+- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
+<br/>  Rework caused by miscommunication pushes project delivery dates back significantly.
+- [Strangler Fig Pattern Failures](strangler-fig-pattern-failures.md)
+<br/>  The stalled strangler fig migration causes the modernization project to miss deadlines repeatedly as complexity escalates.
+- [Unproductive Meetings](unproductive-meetings.md)
+<br/>  Time lost to unproductive meetings accumulates and contributes to project delays as less time is available for actual work.
+- [Vendor Relationship Strain](vendor-relationship-strain.md)
+<br/>  Strained vendor relationships lead to delays as vendors become unresponsive or reduce service levels.
+- [Wasted Development Effort](wasted-development-effort.md)
+<br/>  When development work must be discarded and redone, project timelines inevitably slip.
+- [Work Blocking](work-blocking.md)
+<br/>  Tasks stuck in blocked status directly delay project milestones and delivery schedules.
 
 ## Detection Methods ○
 

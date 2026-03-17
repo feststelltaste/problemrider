@@ -35,28 +35,37 @@ Overworked teams consistently operate beyond their sustainable capacity, working
 - High turnover rate with employees citing workload as a primary reason for leaving
 
 ## Symptoms ▲
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.656, Strength: 0.909">ⓘ</span>
-<br/>  High workloads create stress and fatigue among team members, leading to mistakes and inefficiencies that directly reduce the overall output and effectiveness of the development process in legacy systems.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.578, Strength: 0.798">ⓘ</span>
-<br/>  High workloads in legacy systems often result in teams rushing to meet deadlines, leading to unclear or incomplete understanding of project needs, which manifests as frequent changes to requirements as issues arise during development.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.499, Strength: 0.877">ⓘ</span>
-<br/>  High workloads drain teams' cognitive resources, leading them to prioritize immediate tasks over creative thinking, thus stifling innovation and making them resistant to exploring new solutions within legacy systems.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.463, Strength: 0.796">ⓘ</span>
-<br/>  High workloads lead to team burnout, which diminishes focus and efficiency, resulting in inconsistent delivery timelines and a decline in overall productivity that reflects the strain on resources and capabilities inherent in legacy systems.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.448, Strength: 0.657">ⓘ</span>
-<br/>  High workloads in legacy systems lead to inadequate time for effective problem-solving and code maintenance, resulting in developer frustration and burnout as they struggle to manage persistent technical debt and inefficient processes.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.388, Strength: 0.793">ⓘ</span>
-<br/>  High workloads strain teams' capacity to manage conflicting priorities effectively, leading to confusion and inefficiency that signal a breakdown in clear product leadership and direction.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.868">ⓘ</span>
-<br/>  High workloads prevent teams from dedicating sufficient time to thoroughly test and refine features, leading to a decline in quality and user experience as they rush to meet deadlines.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.355, Strength: 0.761">ⓘ</span>
-<br/>  High workloads lead to fatigue and disengagement, resulting in fewer team members participating in the review process and diminishing the quality of feedback, which further exacerbates the overall system's performance issues.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.589">ⓘ</span>
-<br/>  High workloads often force teams to work with outdated tools and processes, leading to a slow and cumbersome development environment that exacerbates stress and reduces overall productivity.
 
-## Root Causes ▼
-- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.895">ⓘ</span>
-<br/>  The accumulation of design and implementation shortcuts increases the complexity and maintenance burden of legacy systems, resulting in overworked teams that face constant firefighting rather than focusing on productive development.
+- [Increased Stress and Burnout](increased-stress-and-burnout.md)
+<br/>  Sustained excessive workloads directly cause team members to experience chronic stress and eventual burnout.
+- [High Turnover](high-turnover.md)
+<br/>  Overworked team members leave for more sustainable work environments, causing increased turnover rates.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Exhausted developers make more mistakes and take shortcuts, directly reducing the quality of code they produce.
+- [High Bug Introduction Rate](high-bug-introduction-rate.md)
+<br/>  Fatigued developers are more prone to errors, leading to a higher rate of bugs introduced with each change.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Despite working more hours, exhausted teams produce less effective output due to fatigue-induced inefficiency.
+- [Quality Compromises](quality-compromises.md)
+<br/>  Overworked teams deliberately cut corners on quality practices like testing and code reviews to keep up with workload demands.
+
+## Causes ▼
+- [Unrealistic Deadlines](unrealistic-deadlines.md)
+<br/>  Management-imposed deadlines that don't account for actual effort required force teams to work excessive hours.
+- [Competing Priorities](competing-priorities.md)
+<br/>  Multiple urgent projects competing for the same team's attention creates an unsustainable workload.
+- [Uneven Workload Distribution](uneven-workload-distribution.md)
+<br/>  When work is not distributed fairly, some team members bear disproportionate loads leading to overwork.
+- [Staff Availability Issues](staff-availability-issues.md)
+<br/>  Unfilled roles and understaffing mean existing team members must absorb additional work, leading to overwork.
+- [Constant Firefighting](constant-firefighting.md)
+<br/>  Perpetual urgent production issues on top of planned work create an unsustainable total workload for teams.
+- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
+<br/>  The team takes on more and more work by saying yes to everything, leading to unsustainable workloads and burnout.
+- [Planning Credibility Issues](planning-credibility-issues.md)
+<br/>  When management imposes tighter deadlines due to distrust of estimates, teams are forced to work excessive hours to compensate.
+- [Planning Dysfunction](planning-dysfunction.md)
+<br/>  Unrealistic plans force teams to work excessive hours to compensate for poor resource allocation and underestimated complexity.
 
 ## Detection Methods ○
 

@@ -37,54 +37,31 @@ Poor interfaces between applications occur when systems communicate through poor
 - New system integrations requiring custom, one-off solutions
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.546, Strength: 0.798">ⓘ</span>
-<br/>  The lack of clear and stable interfaces in legacy systems complicates maintenance and integration tasks, leading to a reliance on a diminishing pool of specialized developers, which in turn creates critical bottlenecks in addressing system issues.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.522, Strength: 0.710">ⓘ</span>
-<br/>  Disconnected or poorly defined interfaces can result in slow or unreliable responses from APIs, causing services that rely on timely data to experience timeouts, thereby indicating the fragility of the system's integrations.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.458, Strength: 0.675">ⓘ</span>
-<br/>  In legacy systems, poorly defined interfaces create unpredictable behavior and data flow, leading to critical code segments being inadequately tested, as developers often lack the confidence to create comprehensive tests in the face of integration fragility.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.400, Strength: 0.734">ⓘ</span>
-<br/>  Flaky tests arise from fragile integrations and unpredictable data flows between applications, where poorly defined interfaces create timing and dependency issues that lead to inconsistent test results.
-- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.865">ⓘ</span>
-<br/>  Poorly defined interfaces lead to fragile integrations that hinder the proper evolution of APIs, causing versioning issues and backward compatibility challenges to accumulate over time as the systems attempt to adapt without coherent structure.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.616">ⓘ</span>
-<br/>  Poorly defined interfaces exacerbate the challenges of a complex business domain by obscuring the relationships and interactions between data entities, leading to misunderstandings and errors in implementation that manifest as difficulties in system comprehension and maintenance.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.392, Strength: 0.720">ⓘ</span>
-<br/>  Disconnected interfaces hinder timely updates and data flow across systems, making it difficult for legacy applications to adapt to new regulatory requirements, thereby creating compliance gaps that signal underlying integration issues.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.391, Strength: 0.837">ⓘ</span>
-<br/>  Disconnected or poorly defined interfaces create uncertainty and complexity in data flows, causing teams to overanalyze integration challenges rather than progressing to implementation, which stalls development efforts.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.771">ⓘ</span>
-<br/>  Poorly defined interfaces result in tightly coupled components within a large codebase, making it increasingly challenging to maintain and evolve the system, which in turn highlights the limitations imposed by the monolithic structure.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.618">ⓘ</span>
-<br/>  Disconnected or poorly defined interfaces can result in incomplete or erroneous resource management, leading to scenarios where allocated resources remain unreleased due to the inability of applications to effectively communicate and coordinate their lifecycle.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.747">ⓘ</span>
-<br/>  Disconnected or poorly defined interfaces often lead to unclear requirements and expectations, resulting in a communication gap between stakeholders and developers that manifests as rework and dissatisfaction in the development process.
-- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.752">ⓘ</span>
-<br/>  The lack of a systematic approach to mentoring new developers results in inconsistent understanding of the fragile integrations and data management practices within the legacy systems, making it difficult for them to effectively navigate and address the challenges posed by poorly defined application interfaces.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.763">ⓘ</span>
-<br/>  Poorly defined interfaces create technical debt and integration challenges that consume development resources, leading teams to prioritize immediate fixes over innovative solutions, thus stifling creativity and adaptability in legacy systems.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.817">ⓘ</span>
-<br/>  Disconnected or poorly defined interfaces create a constant need for troubleshooting and maintenance, which diverts team resources away from innovation and improvement initiatives, thereby stifacing potential advancements in the system.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.792">ⓘ</span>
-<br/>  Poorly defined interfaces result in unreliable data flow and integration issues, leading to project delays and miscommunication that ultimately frustrate stakeholders.
-- [Insufficient Audit Logging](insufficient-audit-logging.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.777">ⓘ</span>
-<br/>  Disconnected or poorly defined interfaces often result in incomplete or inconsistent data being logged, leading to inadequate documentation of security events, which impairs the ability to detect breaches and maintain compliance in legacy systems.
 
-## Root Causes ▼
-- [Scaling Inefficiencies](scaling-inefficiencies.md) <span class="info-tooltip" title="Confidence: 0.391, Strength: 0.880">ⓘ</span>
-<br/>  Scaling inefficiencies create rigid dependencies between system components, making it challenging to adapt or redefine interfaces, which in turn leads to fragile integrations and inconsistent data across applications.
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.942">ⓘ</span>
-<br/>  Shared dependencies create a lack of clear ownership and version control over common libraries, leading to inconsistencies in how applications interact with each other and ultimately resulting in fragile integrations and unreliable data exchange.
-- [Duplicated Research Effort](duplicated-research-effort.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.863">ⓘ</span>
-<br/>  When team members independently research the same topics, it often results in inconsistent understanding and implementation of application interfaces, leading to fragile integrations and unreliable data across the legacy systems.
-- [Difficult Code Reuse](difficult-code-reuse.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.829">ⓘ</span>
-<br/>  The lack of modularity in the code prevents effective reuse across applications, leading to poorly defined interfaces and fragile integrations that struggle to maintain consistent data.
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.912">ⓘ</span>
-<br/>  The reliance on a single database for multiple applications creates tight coupling and unclear boundaries, resulting in poorly defined interfaces that lead to fragile integrations and inconsistent data across the system.
-- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.315, Strength: 0.937">ⓘ</span>
-<br/>  Ineffective bundling of data with its associated behavior creates intertwined dependencies that complicate the definition of clear interfaces, resulting in fragile integrations and inconsistent data across applications.
-- [Duplicated Effort](duplicated-effort.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.888">ⓘ</span>
-<br/>  The lack of coordination among team members leads to multiple independent implementations of interfaces, resulting in inconsistencies and fragile connections between applications in legacy systems.
+- [Integration Difficulties](integration-difficulties.md)
+<br/>  Poorly designed interfaces make every new integration a complex, error-prone effort requiring custom solutions.
+- [Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md)
+<br/>  Inconsistent interfaces lead to data synchronization failures and inconsistencies between connected systems.
+- [Cascade Failures](cascade-failures.md)
+<br/>  Fragile integration points without proper error handling allow failures to propagate across connected systems.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Poorly defined interfaces produce frequent integration errors from mismatched data formats and inconsistent contracts.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  New features requiring cross-system integration take much longer due to unreliable and inconsistent interfaces.
+
+## Causes ▼
+- [Information Decay](poor-documentation.md)
+<br/>  Lack of up-to-date interface documentation leads to misunderstandings about API contracts and data formats.
+- [Team Silos](team-silos.md)
+<br/>  Teams developing systems in isolation create incompatible interfaces without cross-team coordination.
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  Legacy systems with architectures that haven't evolved accumulate poorly designed integration points over time.
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Lack of API and interface design expertise results in inconsistent, poorly structured integration points.
+- [System Integration Blindness](missing-end-to-end-tests.md)
+<br/>  Without end-to-end tests verifying integration points, interface mismatches between components go undetected until production.
+- [REST API Design Issues](rest-api-design-issues.md)
+<br/>  Poorly designed REST APIs create fragile and inconsistent integration points between applications.
 
 ## Detection Methods ○
 

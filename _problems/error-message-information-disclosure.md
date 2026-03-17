@@ -34,20 +34,25 @@ Error message information disclosure occurs when applications reveal sensitive t
 
 ## Symptoms ▲
 
-- **Database Schema Exposure:** Database error messages revealing table and column names
-- **System Path Disclosure:** File system paths exposed through error messages
-- **Stack Trace Information Leakage:** Full stack traces visible to end users
-- **Version Information Exposure:** Software versions and library details revealed in errors
-- **Internal Logic Revelation:** Error messages exposing business logic or validation rules
 
-## Root Causes ▼
+- [SQL Injection Vulnerabilities](sql-injection-vulnerabilities.md)
+<br/>  Detailed database error messages reveal schema information that attackers use to craft targeted SQL injection attacks.
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Error messages revealing authentication logic details help attackers identify weaknesses in the authentication mechanism.
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  Disclosure of system internals through error messages creates legal and compliance risks around data protection.
+- [Cross-Site Scripting Vulnerabilities](cross-site-scripting-vulnerabilities.md)
+<br/>  Stack traces and debug output revealing application structure help attackers identify injection points for XSS attacks.
 
-- **Development Error Handling in Production:** Debug-level error handling not changed for production
-- **Generic Exception Display:** Displaying full exception details to end users
-- **Insufficient Error Message Sanitization:** Not filtering sensitive information from error responses
-- **Missing Custom Error Pages:** Using default framework error pages that expose system details
-- **Inadequate Error Classification:** Not distinguishing between internal and user-facing errors
-- **Debug Mode Enabled in Production:** Development debugging features active in production
+## Causes ▼
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  Poor error handling passes raw exceptions and stack traces to users instead of displaying sanitized error messages.
+- [Logging Configuration Issues](logging-configuration-issues.md)
+<br/>  Misconfigured logging levels in production environments cause debug-level information to be displayed to end users.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers without security awareness may not realize that detailed error messages in production pose a security risk.
+- [Quality Blind Spots](insufficient-testing.md)
+<br/>  Lack of security testing for error conditions means information disclosure through error messages goes undetected before production.
 
 ## Detection Methods ○
 

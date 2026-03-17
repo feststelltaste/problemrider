@@ -35,24 +35,19 @@ Race conditions occur when multiple threads or processes access and manipulate s
 - Debugging shows variables with unexpected values that don't match the intended logic flow
 
 ## Symptoms ▲
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.490, Strength: 0.757">ⓘ</span>
-<br/>  Frequent version control conflicts arise when multiple developers attempt to modify the same sections of legacy code that are not properly synchronized, reflecting underlying race conditions where shared resources are accessed simultaneously, leading to unpredictable behavior and data integrity issues.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md) <span class="info-tooltip" title="Confidence: 0.486, Strength: 0.771">ⓘ</span>
-<br/>  Unstructured or conflicting naming conventions often arise in legacy systems where multiple developers work on shared resources without coordination, making it difficult to identify and manage critical sections of code, which can exacerbate synchronization issues and lead to unpredictable behavior.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.426, Strength: 0.757">ⓘ</span>
-<br/>  Flaky tests occur when multiple threads access shared resources without proper synchronization, causing unpredictable timing issues that lead to intermittent test failures, thereby indicating underlying race conditions in the codebase.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.785">ⓘ</span>
-<br/>  Excessive hardware interrupts can exacerbate race conditions by causing frequent context switches that disrupt thread execution and increase the likelihood of simultaneous access to shared resources, thereby highlighting potential synchronization issues within legacy systems.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.757">ⓘ</span>
-<br/>  The chaotic prioritization from multiple stakeholders leads to erratic project direction, mirroring how unsynchronized access to shared resources in legacy systems results in unpredictable outcomes, thus serving as an indicator of deeper systemic issues in resource management and decision-making processes.
-- [Cache Invalidation Problems](cache-invalidation-problems.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.880">ⓘ</span>
-<br/>  When multiple threads access shared resources without proper synchronization, it can lead to inconsistent updates in cached data, resulting in stale information that misleads users and indicates underlying synchronization issues.
-- [Memory Barrier Inefficiency](memory-barrier-inefficiency.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.775">ⓘ</span>
-<br/>  Improper synchronization due to simultaneous access by multiple threads can lead to excessive or misaligned memory barriers, which in turn disrupt CPU optimization and serve as an indicator of underlying race conditions in legacy systems.
 
-## Root Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Synchronization Problems](synchronization-problems.md)
+<br/>  Lack of proper synchronization mechanisms for shared resource access is the direct technical cause of race conditions.
+- [Insufficient Testing](insufficient-testing.md)
+<br/>  Standard testing rarely exercises concurrent code paths adequately, allowing race conditions to persist undetected.
+- [Poor Test Coverage](poor-test-coverage.md)
+<br/>  Concurrency scenarios are rarely included in test suites, leaving race conditions untested.
+- [DMA Coherency Issues](dma-coherency-issues.md)
+<br/>  DMA coherency problems manifest as race conditions between the CPU cache and DMA device accessing the same memory regions concurrently.
+- [Global State and Side Effects](global-state-and-side-effects.md)
+<br/>  Mutable global state accessed by multiple threads without synchronization leads to data races and corruption.
 
 ## Detection Methods ○
 

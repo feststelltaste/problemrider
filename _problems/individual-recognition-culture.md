@@ -29,24 +29,19 @@ An individual recognition culture is a culture where individual accomplishments 
 - There is a lack of trust on the team.
 
 ## Symptoms ▲
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.631, Strength: 0.900">ⓘ</span>
-<br/>  A culture that prioritizes individual accomplishments over team efforts fosters competition rather than collaboration, leading to communication breakdowns and inefficiencies that directly diminish the overall productivity and effectiveness of the development team in legacy software systems.
-- [Knowledge Silos](knowledge-silos.md) <span class="info-tooltip" title="Confidence: 0.469, Strength: 0.892">ⓘ</span>
-<br/>  A culture that prioritizes individual achievements over collective efforts fosters an environment where team members hoard knowledge for personal recognition, leading to isolated expertise and diminished collaborative problem-solving in legacy systems.
-- [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md) <span class="info-tooltip" title="Confidence: 0.452, Strength: 0.909">ⓘ</span>
-<br/>  The emphasis on individual accomplishments over team collaboration leads to varying onboarding experiences, as new members rely on the availability and personal approach of individual team members rather than a standardized, collaborative process, resulting in unequal outcomes that reflect the prevailing culture.
-- [Team Coordination Issues](team-coordination-issues.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.906">ⓘ</span>
-<br/>  A culture that prioritizes individual accomplishments fosters competition over collaboration, leading to fragmented efforts and communication breakdowns among developers, which manifests as coordination issues when working on a shared codebase in legacy systems.
-- [Technology Isolation](technology-isolation.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.881">ⓘ</span>
-<br/>  A culture that prioritizes individual achievements over team collaboration often leads to a reluctance in adopting modern technologies, as teams focus on personal accolades rather than collective innovation, resulting in technological isolation that hampers the organization's ability to attract talent and integrate new capabilities.
-- [Team Dysfunction](team-dysfunction.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.863">ⓘ</span>
-<br/>  A culture that prioritizes individual accomplishments over teamwork fosters competition rather than collaboration, leading to misaligned objectives and interpersonal friction among team members, which manifests as dysfunction in their collective efforts.
-- [Information Fragmentation](information-fragmentation.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.921">ⓘ</span>
-<br/>  A culture that prioritizes individual accomplishments over team efforts leads to information fragmentation, as individuals hoard critical system knowledge for personal recognition rather than collaborating to document and share insights, resulting in scattered and inaccessible resources within legacy systems.
 
-## Root Causes ▼
+- [Knowledge Silos](knowledge-silos.md)
+<br/>  When individual accomplishments are rewarded over teamwork, developers hoard knowledge as a competitive advantage rather than sharing it.
+- [Poor Teamwork](poor-teamwork.md)
+<br/>  Emphasis on individual recognition creates competition rather than collaboration, undermining team cooperation.
+- [Poor Communication](poor-communication.md)
+<br/>  Competition between team members discourages open communication and information sharing.
+- [Team Dysfunction](team-dysfunction.md)
+<br/>  A culture of individual competition erodes trust and cooperation, leading to broader team dysfunction.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Blame Culture](blame-culture.md)
+<br/>  When individuals are blamed for failures, the culture shifts toward protecting individual reputation rather than collective success.
 
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers if they feel like they are part of a team.

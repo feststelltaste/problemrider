@@ -30,36 +30,37 @@ Excessive disk I/O can be a major cause of poor application performance. This ca
 - Your application is slow, even though the CPU and memory usage are low.
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.625, Strength: 0.803">ⓘ</span>
-<br/>  High disk read/write operations can lead to increased response times for API calls, causing services to exceed their timeout thresholds and fail to receive timely responses.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.594, Strength: 0.868">ⓘ</span>
-<br/>  The slow and cumbersome development environment arises from excessive disk I/O, as inefficient data access leads to increased latency in file operations, hindering the team’s productivity and response times during development tasks.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.540, Strength: 0.840">ⓘ</span>
-<br/>  High disk I/O can be exacerbated by unreleased resources, as lingering file handles and connections require repeated access to storage for data retrieval and processing, leading to inefficient data management and increased read/write operations.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.456, Strength: 0.804">ⓘ</span>
-<br/>  Inefficient data access caused by a lack of caching leads to repeated disk reads and writes for the same information, exacerbating excessive disk I/O and resulting in increased latency and resource consumption.
-- [Queries That Prevent Index Usage](queries-that-prevent-index-usage.md) <span class="info-tooltip" title="Confidence: 0.431, Strength: 0.768">ⓘ</span>
-<br/>  Inefficiently written queries can lead to the failure of the database to utilize available indexes, resulting in full-table scans that generate excessive disk read/write operations, thereby indicating a direct correlation between query optimization and disk I/O performance in legacy systems.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.844">ⓘ</span>
-<br/>  The high frequency of disk read/write operations generates numerous hardware interrupts, which necessitate frequent context switches in the CPU, thereby serving as an indicator of underlying inefficiencies in data access and processing.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.388, Strength: 0.825">ⓘ</span>
-<br/>  Intense deadline pressure often leads to rushed development practices that overlook optimization, resulting in inefficient data handling that manifests as excessive disk I/O due to increased read/write operations and poor resource management.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.379, Strength: 0.856">ⓘ</span>
-<br/>  The reliance on unrealistic or outdated test data can lead to inefficient data access patterns that exacerbate excessive disk read/write operations, as the system struggles to process invalid inputs and scenarios not reflective of actual usage, thus highlighting the underlying inefficiencies in data handling.
-- [Negative User Feedback](negative-user-feedback.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.815">ⓘ</span>
-<br/>  The high frequency of disk read/write operations leads to delays in data retrieval and processing, which directly causes slow loading times and application freezes, resulting in user dissatisfaction with performance.
-- [Unoptimized File Access](unoptimized-file-access.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.891">ⓘ</span>
-<br/>  Inefficient file access methods increase the frequency and duration of disk read/write operations, serving as a clear indicator of the underlying issue of excessive disk I/O in legacy systems that rely on outdated data handling practices.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.860">ⓘ</span>
-<br/>  Inefficient data access and processing can result in increased reliance on disk operations, causing applications to hold onto memory longer than necessary, which manifests as gradual memory consumption and contributes to performance degradation.
-- [Inefficient Database Indexing](inefficient-database-indexing.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.828">ⓘ</span>
-<br/>  The high frequency of disk read/write operations is exacerbated by the lack of appropriate indexing, which forces the system to perform inefficient full-table scans instead of utilizing quick lookups, leading to increased I/O activity and degraded performance.
-- [High Defect Rate in Production](high-defect-rate-in-production.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.764">ⓘ</span>
-<br/>  Excessive disk I/O can lead to performance bottlenecks that hinder the timely execution of tests and deployment processes, causing undetected issues to accumulate and result in a high number of bugs in the live environment post-release.
 
-## Root Causes ▼
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  High disk I/O causes the application to become I/O-bound, making user-facing operations feel sluggish even when CPU and memory usage are low.
+- [Resource Contention](resource-contention.md)
+<br/>  Heavy disk I/O saturates storage bandwidth, creating contention that affects all applications and services sharing the same storage.
+- [Service Timeouts](service-timeouts.md)
+<br/>  Operations waiting for disk reads or writes may exceed timeout thresholds, causing service failures.
+- [High Database Resource Utilization](high-database-resource-utilization.md)
+<br/>  Excessive disk I/O from inefficient queries or poor indexing drives up database resource consumption.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  As data volumes grow, inefficient disk access patterns cause progressively worsening performance.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Excessive Logging](excessive-logging.md)
+<br/>  High-volume logging generates constant disk write operations that contribute significantly to disk I/O load.
+- [Poor Caching Strategy](poor-caching-strategy.md)
+<br/>  Without proper caching, data that could be served from memory is repeatedly read from disk.
+- [Memory Swapping](memory-swapping.md)
+<br/>  When the system runs out of physical memory and swaps to disk, it generates massive additional disk I/O.
+- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
+<br/>  Inefficient algorithms that make unnecessary data passes or use poor access patterns generate excessive disk operations.
+- [Inefficient Code](inefficient-code.md)
+<br/>  Code that reads or writes data in small chunks instead of using buffered or batch operations multiplies disk I/O operations.
+- [Log Spam](log-spam.md)
+<br/>  Writing massive volumes of repetitive log messages consumes disk I/O bandwidth, potentially impacting application performance.
+- [Unbounded Data Growth](unbounded-data-growth.md)
+<br/>  Growing data volumes require more disk reads and writes, increasing I/O load beyond what the storage subsystem can efficiently handle.
+- [Unoptimized File Access](unoptimized-file-access.md)
+<br/>  Inefficient file access patterns directly cause excessive disk read/write operations.
+- [Virtual Memory Thrashing](virtual-memory-thrashing.md)
+<br/>  Constant page swapping between RAM and disk generates extremely high disk I/O activity.
 
 ## Detection Methods ○
 

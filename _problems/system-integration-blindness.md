@@ -35,41 +35,27 @@ System integration blindness occurs when teams lack visibility into how individu
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
 
-## Root Causes ▼
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.903">ⓘ</span>
-<br/>  Insufficient production monitoring obscures real-time insights into component interactions, preventing the early detection of integration issues and contributing to failures that only emerge when disparate parts are combined.
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.944">ⓘ</span>
-<br/>  The reliance on a common set of libraries and frameworks can lead to conflicts and unforeseen interactions between components, resulting in a lack of visibility into how they will perform when integrated, ultimately causing failures that were not apparent during isolated testing.
-- [Silent Data Corruption](silent-data-corruption.md) <span class="info-tooltip" title="Confidence: 0.374, Strength: 0.894">ⓘ</span>
-<br/>  Silent data corruption creates undetected discrepancies in data as it flows between components, leading to unexpected failures during integration due to a lack of visibility into the integrity of the underlying data being shared.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.911">ⓘ</span>
-<br/>  The presence of specific constraints within teams or processes leads to insufficient communication and coordination, resulting in a fragmented understanding of how individual components interact, which ultimately causes failures during system integration.
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.371, Strength: 0.921">ⓘ</span>
-<br/>  The reliance on a single shared database can lead to discrepancies in data handling and assumptions between components, resulting in integration failures that expose a lack of comprehensive understanding of the system's end-to-end behavior.
-- [Incomplete Projects](incomplete-projects.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.848">ⓘ</span>
-<br/>  The failure to complete features due to shifting priorities leads to an underdeveloped understanding of how components interact, resulting in integration issues when these components are eventually brought together.
-- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.927">ⓘ</span>
-<br/>  The lack of cohesive data and behavior management leads to tightly coupled components that fail to communicate effectively during integration, ultimately resulting in an incomplete understanding of system interactions and behaviors.
-- [Cascade Failures](cascade-failures.md) <span class="info-tooltip" title="Confidence: 0.332, Strength: 0.794">ⓘ</span>
-<br/>  The inability to anticipate how a single change affects interdependent components leads to a lack of comprehensive understanding of the system's behavior as a whole, causing seemingly isolated components to fail when integrated.
-- [System Outages](system-outages.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.856">ⓘ</span>
-<br/>  Frequent service interruptions and system failures hinder the comprehensive understanding of how components interact within the legacy system, leading to a lack of awareness about integration issues that only emerge when these components are combined.
-- [Unclear Sharing Expectations](unclear-sharing-expectations.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.925">ⓘ</span>
-<br/>  The lack of clarity around necessary information sharing leads to incomplete integration requirements, which hinders the comprehensive understanding of system interactions, ultimately causing components to function correctly in isolation but fail to work together as intended.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.840">ⓘ</span>
-<br/>  The failure to properly manage cross-cutting concerns leads to tightly coupled components that obscure their interdependencies, resulting in a lack of comprehensive understanding during integration and ultimately causing functional discrepancies in the system.
-- [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.903">ⓘ</span>
-<br/>  User confusion arises when end users observe inconsistent behavior across components, which obscures their understanding of the system's integration, ultimately leading to overlooked flaws during the integration process that would otherwise be evident through user interactions.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.897">ⓘ</span>
-<br/>  A lack of understanding of object-oriented programming principles often results in tightly coupled components and unclear interfaces, leading to integration failures as individual parts do not effectively communicate or collaborate within the overall system architecture.
-- [Hidden Side Effects](hidden-side-effects.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.838">ⓘ</span>
-<br/>  Undocumented side effects in legacy components can alter the state or behavior of integrated systems in unexpected ways, leading to failures when these components are combined, as the original developers may not have accounted for these interactions in their isolated testing.
-- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.812">ⓘ</span>
-<br/>  In legacy systems, a confusing user interface and unmet user needs hinder comprehensive understanding of component interactions, leading to integration failures as users cannot accurately communicate functional requirements or identify dependencies during development.
-- [Breaking Changes](breaking-changes.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.814">ⓘ</span>
-<br/>  API updates introduce breaking changes that disrupt established client integrations, leading to a lack of awareness about how components interact in a complete system, ultimately exposing integration failures that were previously unnoticed.
+- [System Outages](system-outages.md)
+<br/>  Integration issues that go undetected until deployment cause service failures when components interact under real conditions.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Bugs that only manifest during component integration escape testing and appear in production.
+- [Cascade Failures](cascade-failures.md)
+<br/>  Undetected integration dependencies cause failures in one component to cascade through connected components.
+- [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
+<br/>  Integration failures discovered after deployment require emergency fixes or rollbacks to restore service.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Integration bugs that span multiple components are extremely difficult to trace and diagnose.
+
+## Causes ▼
+- [Inadequate Integration Tests](inadequate-integration-tests.md)
+<br/>  Without thorough integration testing, component interaction issues remain hidden until deployment.
+- [System Integration Blindness](missing-end-to-end-tests.md)
+<br/>  Lack of end-to-end tests means complete user workflows across components are never validated before production.
+- [Hidden Dependencies](hidden-dependencies.md)
+<br/>  Undocumented dependencies between components create unexpected interactions that teams cannot anticipate.
+- [Knowledge Silos](knowledge-silos.md)
+<br/>  When teams only understand their own components, no one has the cross-cutting knowledge to identify integration risks.
 
 ## Detection Methods ○
 

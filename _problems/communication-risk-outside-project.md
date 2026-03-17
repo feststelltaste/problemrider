@@ -34,24 +34,25 @@ Communication risk outside the project occurs when there is inadequate informati
 - Stakeholder feedback is not incorporated into project planning and execution
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.511, Strength: 0.747">ⓘ</span>
-<br/>  Frequent updates to project requirements often stem from external stakeholders' lack of awareness about the current project status, leading to miscommunication and the need for adjustments that create rework and delays.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.391, Strength: 0.689">ⓘ</span>
-<br/>  A slow and cumbersome development environment can lead to incomplete or delayed updates being communicated to external stakeholders, resulting in misaligned expectations and surprises about project progress.
-- [Project Authority Vacuum](project-authority-vacuum.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.698">ⓘ</span>
-<br/>  The lack of clear communication with external stakeholders creates an authority vacuum, as insufficiently informed executives are less likely to advocate for the project, resulting in inadequate support and resources necessary for overcoming resistance.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.671">ⓘ</span>
-<br/>  The lack of effective communication with external stakeholders exacerbates the legacy skill shortage by preventing the identification of critical knowledge gaps and the allocation of resources needed to bridge them, leading to increased project risks and system maintenance challenges.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.623">ⓘ</span>
-<br/>  Poor communication with external stakeholders can lead to a lack of clarity regarding resource allocation and usage, resulting in unreleased resources as teams may not be aware of dependencies or changes needed to properly deallocate system components, ultimately indicating a breakdown in project oversight and coordination.
-- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.795">ⓘ</span>
-<br/>  Ineffective monitoring of project progress due to inadequate communication with external stakeholders results in a lack of timely updates, ultimately allowing issues to escalate unnoticed and jeopardizing project alignment and recovery efforts.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.782">ⓘ</span>
-<br/>  Poor communication with external stakeholders often results in outdated or insufficient test data being utilized, as stakeholders may not provide relevant real-world scenarios or requirements, leading to misaligned expectations in project outcomes.
 
-## Root Causes ▼
+- [Stakeholder Frustration](stakeholder-frustration.md)
+<br/>  External stakeholders become frustrated when they are surprised by project outcomes that don't match their expectations.
+- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
+<br/>  Repeated surprises about project status erode stakeholder trust in the development team's reliability.
+- [Misaligned Deliverables](misaligned-deliverables.md)
+<br/>  Without ongoing external communication, the delivered product diverges from evolving stakeholder needs.
+- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
+<br/>  Stakeholders left uninformed become dissatisfied when project outcomes don't match their evolving expectations.
+- [Project Authority Vacuum](project-authority-vacuum.md)
+<br/>  Poor external communication reduces executive confidence and backing, weakening organizational support for the project.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Communication Risk Within Project](communication-risk-within-project.md)
+<br/>  If internal project communication is already poor, external communication is even less likely to be effective.
+- [Feedback Isolation](feedback-isolation.md)
+<br/>  Teams operating without regular stakeholder input naturally fail to keep external parties informed.
+- [Poor Project Control](poor-project-control.md)
+<br/>  Without proper project monitoring, teams lack accurate status information to share with external stakeholders.
 
 ## Detection Methods ○
 

@@ -34,24 +34,19 @@ Testing environment fragility occurs when the infrastructure supporting automate
 - Maintaining testing infrastructure consumes significant developer time
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.496, Strength: 0.720">ⓘ</span>
-<br/>  The unreliability of the testing infrastructure discourages experienced developers from engaging with legacy technologies, leading to a shortage of skilled personnel and creating critical maintenance bottlenecks.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.490, Strength: 0.707">ⓘ</span>
-<br/>  The unreliable and inconsistent testing environment hampers the ability to create and run comprehensive tests, leading to insufficient test coverage and leaving critical parts of the codebase unverified.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.445, Strength: 0.652">ⓘ</span>
-<br/>  The unreliable testing infrastructure fails to provide accurate feedback on the impact of changes, causing stakeholders to continuously adjust requirements in response to unforeseen issues that arise during development.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.580">ⓘ</span>
-<br/>  The unreliability of the testing infrastructure leads to frequent misconfigurations and delays in the development environment, as developers are forced to spend excessive time troubleshooting issues that arise from a lack of accurate and stable testing conditions.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.752">ⓘ</span>
-<br/>  When the testing infrastructure is unreliable and fails to mirror production conditions, teams may become overly cautious and spend excessive time analyzing potential issues instead of implementing solutions, leading to stagnation in development progress.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.644">ⓘ</span>
-<br/>  Unreliable testing infrastructure leads to inconsistent test setups and unpredictable timing, causing tests to fail sporadically and eroding confidence in the overall testing process.
 
-## Root Causes ▼
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.351, Strength: 0.915">ⓘ</span>
-<br/>  The tightly coupled nature of cross-cutting concerns with business logic complicates the testing environment, leading to unreliable simulations of production conditions and making maintenance difficult, which ultimately undermines the effectiveness of tests.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.935">ⓘ</span>
-<br/>  The reliance on procedural programming practices leads to poorly structured and less modular code, which complicates the development and maintenance of the testing environment, ultimately resulting in an unreliable system that fails to mimic production conditions.
+- [Flaky Tests](flaky-tests.md)
+<br/>  Unreliable testing infrastructure causes tests to fail intermittently for infrastructure reasons rather than actual code issues.
+- [Test Debt](test-debt.md)
+<br/>  Developers skip or disable tests to avoid dealing with fragile infrastructure, accumulating test debt.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Repeatedly debugging infrastructure issues instead of actual code problems is deeply frustrating for developers.
+
+## Causes ▼
+- [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
+<br/>  Insufficient investment in testing infrastructure leads to unreliable and poorly maintained test environments.
+- [Inadequate Test Data Management](inadequate-test-data-management.md)
+<br/>  Unreliable test data management causes database inconsistencies that produce random test failures.
 
 ## Detection Methods ○
 

@@ -35,18 +35,37 @@ Database query performance issues occur when SQL queries are inefficiently writt
 - Query execution plans showing full table scans or inefficient operations
 
 ## Symptoms ▲
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.560, Strength: 0.809">ⓘ</span>
-<br/>  Slow database query performance leads to delays in task completion for users, resulting in increased frustration and a higher volume of support requests as they seek assistance for issues stemming from unresponsive or inefficient system interactions.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.497, Strength: 0.702">ⓘ</span>
-<br/>  Slow response times from poorly optimized database queries lead to upstream services exceeding their timeout thresholds, resulting in failed API calls.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.406, Strength: 0.801">ⓘ</span>
-<br/>  The slow and cumbersome development environment results from the team's inability to efficiently test and iterate on queries, as performance issues in the database hinder rapid feedback and debugging, effectively indicating underlying query optimization problems.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.602">ⓘ</span>
-<br/>  Poorly optimized queries can lead to excessive resource allocation that isn't released, as prolonged processing times prevent timely deallocation of objects and connections, thereby indicating underlying performance issues in the system.
 
-## Root Causes ▼
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Inefficient queries directly cause user-facing features to respond slowly as they wait for database results.
+- [High Database Resource Utilization](high-database-resource-utilization.md)
+<br/>  Poorly optimized queries consume excessive CPU and memory on the database server, pushing resource utilization to dangerous levels.
+- [High Connection Count](high-connection-count.md)
+<br/>  Slow queries hold connections open longer than necessary, causing connection pool pressure and high active connection counts.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Users experience slow page loads and timeouts caused by database performance issues, leading to complaints and negative reviews.
+- [Scaling Inefficiencies](scaling-inefficiencies.md)
+<br/>  Queries that perform full table scans or lack proper indexing become exponentially slower as data volumes grow, preventing effective scaling.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Inefficient Database Indexing](inefficient-database-indexing.md)
+<br/>  Missing or poorly designed indexes force the database to perform full table scans instead of efficient index lookups.
+- [Database Schema Design Problems](database-schema-design-problems.md)
+<br/>  Poor schema design forces queries to perform complex multi-table joins and scan unnecessarily wide rows, degrading performance.
+- [N+1 Query Problem](n-plus-one-query-problem.md)
+<br/>  Application code that fetches related data in loops generates many individual queries instead of efficient batch operations.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers without database optimization knowledge write naive queries that work for small datasets but fail at production scale.
+- [Incorrect Index Type](incorrect-index-type.md)
+<br/>  Using the wrong index type causes queries to perform slowly even though an index exists, degrading overall query performance.
+- [Index Fragmentation](index-fragmentation.md)
+<br/>  Index fragmentation degrades query plan efficiency, causing overall database query performance degradation.
+- [Memory Swapping](memory-swapping.md)
+<br/>  When database server memory is swapped to disk, query execution becomes extremely slow as data must be read from disk instead of memory.
+- [Misconfigured Connection Pools](misconfigured-connection-pools.md)
+<br/>  Too many active connections from oversized pools overwhelm the database server, degrading query performance for all users.
+- [Queries That Prevent Index Usage](queries-that-prevent-index-usage.md)
+<br/>  Non-index-friendly query patterns create performance bottlenecks in database operations.
 
 ## Detection Methods ○
 

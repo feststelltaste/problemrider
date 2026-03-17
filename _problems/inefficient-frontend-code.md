@@ -31,28 +31,17 @@ Inefficient frontend code can have a significant impact on the user experience. 
 - You are getting complaints from users about slow performance.
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.426, Strength: 0.634">ⓘ</span>
-<br/>  Constantly changing requirements often stem from performance issues caused by inefficient frontend code, as stakeholders may request modifications to enhance user experience or speed, revealing underlying deficiencies in the system that necessitate rework and iterative adjustments.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.425, Strength: 0.614">ⓘ</span>
-<br/>  Inefficient frontend code can lead to increased processing times and delays in rendering, which may cause the API response times to exceed their configured limits, resulting in timeouts for dependent services.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.623">ⓘ</span>
-<br/>  Frustrating user experiences caused by slow and unresponsive interfaces lead to increased customer inquiries, as users struggle to complete tasks efficiently due to performance bottlenecks in the frontend code.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.651">ⓘ</span>
-<br/>  Inefficient frontend code can lead to excessive and prolonged execution of scripts that fail to release allocated resources, resulting in unreleased objects and connections that compound performance issues in legacy systems.
-- [Quality Blind Spots](quality-blind-spots.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.778">ⓘ</span>
-<br/>  Inefficient frontend code often leads to performance bottlenecks that obscure system behaviors, making it difficult to identify critical failure modes, thereby creating blind spots in testing coverage and verification practices.
-- [High Defect Rate in Production](high-defect-rate-in-production.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.774">ⓘ</span>
-<br/>  The presence of unoptimized JavaScript and excessive DOM manipulation can lead to unpredictable behavior and performance issues in the user interface, resulting in a higher frequency of bugs being reported in production as developers struggle to account for complex interactions and edge cases during testing.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.656">ⓘ</span>
-<br/>  Inefficient frontend code increases the time developers spend debugging and optimizing performance issues, leading to delays in feature delivery and a noticeable decline in overall productivity.
 
-## Root Causes ▼
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.928">ⓘ</span>
-<br/>  Developers accustomed to procedural programming may inadvertently write inefficient, non-optimized code in an object-oriented environment due to a lack of understanding of best practices, leading to performance issues like excessive DOM manipulation and unoptimized JavaScript.
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.889">ⓘ</span>
-<br/>  The tendency to prioritize trivial code reviews leads to overlooked performance issues in the frontend, resulting in unoptimized JavaScript and inefficient rendering practices that degrade the overall user experience.
-- [Atomic Operation Overhead](atomic-operation-overhead.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.884">ⓘ</span>
-<br/>  The excessive use of atomic operations leads to performance bottlenecks that slow down the execution of JavaScript and increase the time required for DOM manipulations and complex CSS animations, thereby contributing to inefficient frontend code in legacy systems.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Unoptimized frontend code causes sluggish page loads and UI interactions visible to end users.
+- [High Client-Side Resource Consumption](high-client-side-resource-consumption.md)
+<br/>  Inefficient DOM manipulation and unoptimized JavaScript consume excessive CPU and memory on user devices.
+- [High Resource Utilization on Client](high-resource-utilization-on-client.md)
+<br/>  Computationally expensive frontend operations cause high CPU usage, battery drain, and device heating on client machines.
+
+## Causes ▼
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers unfamiliar with browser rendering pipelines and performance optimization create inefficient frontend code.
 
 ## Detection Methods ○
 

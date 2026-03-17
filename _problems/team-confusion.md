@@ -35,30 +35,39 @@ Team confusion occurs when team members lack clear understanding of what they sh
 - Multiple team members work on the same problems without coordination
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.490, Strength: 0.721">ⓘ</span>
-<br/>  Constantly changing requirements indicate a lack of clarity and consensus among team members about project goals and processes, resulting in ongoing confusion that disrupts alignment and leads to frequent adjustments in development efforts.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.590">ⓘ</span>
-<br/>  Unclear project goals and priorities lead to misaligned efforts, causing developers to repeatedly address conflicting tasks and inefficient processes, which fosters frustration and burnout as they struggle to find purpose and effectiveness in their work.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.344, Strength: 0.688">ⓘ</span>
-<br/>  Unclear project goals and responsibilities lead to inconsistent test implementations and inadequate setup practices, resulting in unreliable test outcomes that reflect the team's disorganization and miscommunication.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.705">ⓘ</span>
-<br/>  The lack of clarity in project goals and responsibilities can create a sense of urgency that pushes team members to prioritize quick fixes over thorough solutions, resulting in rushed decisions and a decline in software quality as they scramble to meet unclear expectations.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.959">ⓘ</span>
-<br/>  The reliance on shared libraries and frameworks creates ambiguous expectations and interactions among team members, leading to confusion about project goals, priorities, and responsibilities as they struggle to navigate interdependencies without clear guidance.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.924">ⓘ</span>
-<br/>  Inefficiencies and delays caused by constrained processes or team members lead to a lack of clarity regarding project goals and responsibilities, resulting in confusion and misalignment among the team.
-- [Vendor Relationship Strain](vendor-relationship-strain.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.930">ⓘ</span>
-<br/>  Misaligned expectations and poor communication with external vendors can lead to unclear project goals and roles for team members, causing confusion and inefficiencies in legacy systems where dependencies on vendor deliverables are critical for progress.
-- [Legal Disputes](legal-disputes.md) <span class="info-tooltip" title="Confidence: 0.317, Strength: 0.911">ⓘ</span>
-<br/>  Conflicts arising from contractual ambiguities disrupt communication and clarity around project goals and responsibilities, leading to team members being misaligned and uncertain about their roles and priorities.
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.939">ⓘ</span>
-<br/>  The tendency to excessively focus on trivial technical details diverts attention from clarifying essential project goals and responsibilities, resulting in team members operating with differing priorities and contributing to confusion and inefficiency in legacy software development.
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.954">ⓘ</span>
-<br/>  Budget overruns divert attention and resources from clearly defining project goals and processes, resulting in team members working without proper guidance and increasing confusion about their roles and priorities.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.857">ⓘ</span>
-<br/>  The tendency to provide large time estimates for minor changes stems from the inherent complexity and risk in the legacy codebase, which leads to uncertainty about the scope of work, thereby creating confusion among team members regarding project goals and responsibilities.
+- [Duplicated Effort](duplicated-effort.md)
+<br/>  When team members are unclear about who is working on what, multiple people independently work on the same problem.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Misaligned efforts and wasted work from confusion directly reduce the team's overall output.
+- [Missed Deadlines](missed-deadlines.md)
+<br/>  Time spent clarifying goals and redoing misaligned work causes the team to miss delivery targets.
+- [Team Demoralization](team-demoralization.md)
+<br/>  Repeated experiences of wasted effort due to confusion erodes team morale and confidence in leadership.
+
+## Causes ▼
+- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
+<br/>  When project goals and priorities are not clearly defined or communicated, team members are left to interpret them differently.
+- [Poor Communication](poor-communication.md)
+<br/>  Ineffective communication channels and practices prevent important information about goals and responsibilities from reaching all team members.
+- [Changing Project Scope](changing-project-scope.md)
+<br/>  Constantly shifting project direction leaves team members unclear about current goals and priorities.
+- [Communication Risk Within Project](communication-risk-within-project.md)
+<br/>  Ambiguous messages and missed information create confusion about project goals, priorities, and decisions.
+- [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
+<br/>  Constant changes leave team members unclear about current requirements and priorities.
+- [Inconsistent Execution](inconsistent-execution.md)
+<br/>  Different team members doing the same tasks in different ways creates confusion about what the correct process actually is.
+- [Language Barriers](language-barriers.md)
+<br/>  Different interpretations of technical terms and requirements due to language differences create confusion about project goals and priorities.
+- [Power Struggles](power-struggles.md)
+<br/>  Conflicting directions from competing authorities leave team members unsure about what to work on.
+- [Product Direction Chaos](product-direction-chaos.md)
+<br/>  Conflicting stakeholder demands leave the team unsure about what to build and for whom.
+- [Requirements Ambiguity](requirements-ambiguity.md)
+<br/>  Multiple valid interpretations of the same requirement cause team members to work at cross-purposes.
+- [Unclear Sharing Expectations](unclear-sharing-expectations.md)
+<br/>  Lack of shared information creates confusion about project status, decisions, and technical approaches.
 
 ## Detection Methods ○
 

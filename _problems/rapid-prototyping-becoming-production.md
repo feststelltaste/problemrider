@@ -35,42 +35,29 @@ Rapid prototyping becoming production occurs when code initially written as a qu
 - Performance and scalability were not considered in system design
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.499, Strength: 0.719">ⓘ</span>
-<br/>  The lack of proper engineering practices in quickly developed prototypes leads to insufficient test coverage, as the urgency to deliver functionality often results in overlooking comprehensive quality assurance measures, thereby exposing critical areas of the legacy codebase to undetected issues.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.483, Strength: 0.769">ⓘ</span>
-<br/>  The influx of poorly engineered prototype code into production leads to increased technical debt and system complexity, resulting in inefficiencies and distractions that ultimately decrease the overall productivity of the development team.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.473, Strength: 0.738">ⓘ</span>
-<br/>  The influx of hastily developed code into production systems often leads to complex legacy environments that require specialized knowledge, thereby exacerbating the shortage of skilled developers needed for maintenance and increasing the risk of system failures.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.782">ⓘ</span>
-<br/>  The lack of proper engineering practices in rapidly developed prototypes leads to architectural decisions that are not optimized for long-term performance and scalability, causing inherent limitations that manifest as technical constraints in legacy systems.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.438, Strength: 0.809">ⓘ</span>
-<br/>  The inclusion of hastily developed prototype code in production leads to technical debt and increased complexity, which in turn causes frequent issues and inefficiencies that slow down the team's ability to deliver features and fixes at a consistent pace.
-- [Lower Code Quality](lower-code-quality.md) <span class="info-tooltip" title="Confidence: 0.406, Strength: 0.700">ⓘ</span>
-<br/>  The rushed transition of hastily developed prototype code into production environments often leads to insufficient testing and oversight, resulting in lower code quality as developers, under pressure, are more prone to introduce defects and technical debt.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.404, Strength: 0.725">ⓘ</span>
-<br/>  The lack of rigorous engineering practices in quickly developed code leads to insufficient testing and unreliable dependencies, resulting in tests that fail unpredictably and erode confidence in the system's stability.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.399, Strength: 0.647">ⓘ</span>
-<br/>  The presence of a slow and cumbersome development environment indicates that hastily developed prototypes are being integrated into production without adequate optimization and engineering practices, leading to inefficiencies that hamper the team's ability to maintain and enhance the system effectively.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.740">ⓘ</span>
-<br/>  The practice of deploying hastily developed prototype code into production leads to a sprawling monolithic codebase that becomes increasingly unmanageable, as the lack of proper engineering practices prevents effective modularization and scalability.
-- [Reduced Individual Productivity](reduced-individual-productivity.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.675">ⓘ</span>
-<br/>  The presence of poorly-engineered code in production systems leads to increased complexity and technical debt, causing individual developers to spend more time troubleshooting and resolving issues, which ultimately reduces their overall productivity.
-- [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md) <span class="info-tooltip" title="Confidence: 0.355, Strength: 0.709">ⓘ</span>
-<br/>  The tendency to deploy hastily developed code directly into production leads to inadequate testing, resulting in a cycle of frequent hotfixes and rollbacks as teams attempt to address the emergent issues stemming from this lack of proper engineering practices.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.787">ⓘ</span>
-<br/>  The lack of proper engineering practices in rapidly developed prototypes often leads to inadequate tracking of code and infrastructure versions, resulting in configuration management failures that manifest as errors and difficulties during deployment in legacy systems.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.734">ⓘ</span>
-<br/>  The hurried development of prototypes without thorough communication leads to misaligned expectations between stakeholders and developers, resulting in dissatisfaction and rework when these inadequately engineered solutions are deployed in production.
-- [Technology Isolation](technology-isolation.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.781">ⓘ</span>
-<br/>  The use of hastily developed code in production leads to outdated practices and technologies, causing the system to drift away from modern stacks and making it difficult to integrate new tools or attract skilled talent.
-- [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.772">ⓘ</span>
-<br/>  The quick transition of prototype code into production often leads to accumulated technical debt that goes unnoticed by non-technical stakeholders, making it difficult to highlight the need for necessary improvements and allocate resources effectively.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.769">ⓘ</span>
-<br/>  The rapid transition of hastily developed code into production often results in a lack of proper test data management, as the focus on speed overlooks the need for realistic and comprehensive test scenarios, leading to insufficient validation of the system's functionality in real-world conditions.
 
-## Root Causes ▼
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  Prototype code lacks proper architecture and error handling, resulting in a fragile production system that breaks easily when modified.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Deploying prototype code to production introduces massive technical debt from missing tests, documentation, and proper design.
+- [Test Debt](test-debt.md)
+<br/>  Prototypes are typically written without tests, so production systems end up with little or no test coverage.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  Teams patch prototype limitations with workarounds rather than rebuilding properly, compounding system complexity.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Prototype code without proper testing and structure leads to frequent regressions when changes are made.
+- [Refactoring Avoidance](refactoring-avoidance.md)
+<br/>  Teams fear touching fragile prototype-turned-production code because they don't understand its full behavior and lack test safety nets.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
+- [Unrealistic Schedule](unrealistic-schedule.md)
+<br/>  Tight deadlines pressure teams to ship prototypes directly to production rather than rebuilding them properly.
+- [Convenience-Driven Development](convenience-driven-development.md)
+<br/>  Taking the easiest path forward leads teams to ship prototype code rather than investing time in proper engineering.
+- [Increased Technical Shortcuts](increased-technical-shortcuts.md)
+<br/>  A culture of taking shortcuts normalizes deploying prototype-quality code to production.
+- [Poor Planning](poor-planning.md)
+<br/>  Lack of proper project planning fails to allocate time for transitioning prototypes into production-quality code.
 
 ## Detection Methods ○
 

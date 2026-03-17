@@ -32,18 +32,23 @@ Reviewer inexperience occurs when team members tasked with code review do not ha
 - There is no formal training or mentorship program for improving code review skills.
 
 ## Symptoms ▲
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.717">ⓘ</span>
-<br/>  The lack of experience among reviewers leads them to rely on familiar, simplistic test data, which in turn results in inadequate test scenarios that fail to uncover deeper issues within the legacy system.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.578">ⓘ</span>
-<br/>  The lack of experience among reviewers leads to an inability to identify critical areas of the codebase that require testing, resulting in insufficient test coverage and leaving potential quality issues unaddressed.
 
-## Root Causes ▼
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.917">ⓘ</span>
-<br/>  The lack of familiarity with object-oriented concepts in developers leads to the creation of code that reviewers cannot effectively analyze, as they are only equipped to address the more superficial procedural elements rather than the underlying architectural flaws.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.914">ⓘ</span>
-<br/>  The lack of adequate design skills within the development team leads to poorly structured software, making it difficult for inexperienced reviewers to identify deeper issues, as they are only able to recognize problems that align with their limited understanding of the system's architecture.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.317, Strength: 0.919">ⓘ</span>
-<br/>  The lack of understanding of object-oriented programming principles leads to poorly structured code, which in turn complicates the review process for inexperienced reviewers, preventing them from identifying and addressing deeper systemic issues.
+- [Reviewer Anxiety](reviewer-anxiety.md)
+<br/>  Inexperienced reviewers feel uncertain and anxious about their ability to provide meaningful feedback.
+- [Review Process Breakdown](review-process-breakdown.md)
+<br/>  When reviewers lack experience to identify real issues, reviews become superficial and fail to improve code quality.
+- [Rushed Approvals](rushed-approvals.md)
+<br/>  Inexperienced reviewers who cannot identify real issues tend to quickly approve changes rather than admitting they don't understand the code.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Reviews by inexperienced reviewers miss critical bugs and design flaws that then reach production.
+
+## Causes ▼
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  A generally inexperienced development team naturally has inexperienced reviewers who lack depth to assess code quality.
+- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md)
+<br/>  Without mentoring programs to develop reviewing skills, team members remain inexperienced at conducting effective reviews.
+- [Knowledge Gaps](knowledge-gaps.md)
+<br/>  Gaps in domain knowledge or technical understanding prevent reviewers from recognizing deeper issues in unfamiliar code areas.
 
 ## Detection Methods ○
 - **Analyze Review Comments:** Look for patterns of superficial or non-substantive comments from specific reviewers.

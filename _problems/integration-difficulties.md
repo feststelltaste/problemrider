@@ -35,34 +35,43 @@ Integration difficulties arise when systems cannot easily connect with external 
 - Integration code is significantly more complex than the business logic it supports
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.528, Strength: 0.727">ⓘ</span>
-<br/>  The need for extensive workarounds to connect with modern services often leads to unclear or evolving requirements, as teams struggle to adapt their development efforts to the limitations of outdated integration patterns, resulting in frequent updates and rework.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.425, Strength: 0.701">ⓘ</span>
-<br/>  The need for extensive workarounds to integrate modern services highlights a reliance on outdated technologies, leading to a critical shortage of knowledgeable developers, which in turn creates bottlenecks that hinder effective system maintenance and evolution.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.598">ⓘ</span>
-<br/>  The extensive workarounds required to connect with modern services often lead to inefficient data handling and increased latency, causing upstream services to exceed their timeout thresholds and fail to receive timely responses.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.344, Strength: 0.796">ⓘ</span>
-<br/>  The extensive workarounds required to connect with modern services create frustration and resource drain, leading teams to prioritize immediate, minimal tasks over innovative solutions, thereby stifling creativity and progress.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.946">ⓘ</span>
-<br/>  The reliance on shared libraries and frameworks across multiple components limits flexibility and innovation in integration approaches, resulting in extensive workarounds to connect with modern services due to outdated architectural constraints.
-- [Data Migration Complexities](data-migration-complexities.md) <span class="info-tooltip" title="Confidence: 0.413, Strength: 0.881">ⓘ</span>
-<br/>  The complexities involved in migrating data from legacy systems often lead to incomplete or corrupted datasets, making it challenging to establish reliable connections with modern services, thereby necessitating extensive workarounds.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.886">ⓘ</span>
-<br/>  The tight coupling of cross-cutting concerns with business logic in legacy systems complicates integration efforts by forcing extensive modifications to accommodate new services, leading to cumbersome workarounds and increased technical debt.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.911">ⓘ</span>
-<br/>  The reliance on procedural programming approaches hinders developers from effectively utilizing object-oriented principles, resulting in inefficient code structures that complicate integration with modern services and necessitate cumbersome workarounds.
-- [Accumulation of Workarounds](accumulation-of-workarounds.md) <span class="info-tooltip" title="Confidence: 0.332, Strength: 0.814">ⓘ</span>
-<br/>  The reliance on complex workarounds to address existing architectural limitations not only obscures the underlying issues but also exacerbates integration challenges with modern services, as these makeshift solutions introduce additional layers of complexity that complicate connectivity and hinder effective communication.
-- [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.891">ⓘ</span>
-<br/>  Excessive API latency forces developers to implement complex workarounds to mitigate performance issues when integrating with modern services, as the outdated architecture struggles to handle real-time data exchanges effectively.
-- [Deployment Coupling](deployment-coupling.md) <span class="info-tooltip" title="Confidence: 0.317, Strength: 0.847">ⓘ</span>
-<br/>  The need for multiple components to be deployed together limits the ability to update or integrate individual services independently, resulting in extensive workarounds when attempting to connect with modern systems due to the reliance on outdated integration patterns.
-- [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.891">ⓘ</span>
-<br/>  The reliance on slow external services for data retrieval imposes latency on the integration process, necessitating cumbersome workarounds in legacy systems that struggle to adapt to modern service demands.
-- [Complex Deployment Process](complex-deployment-process.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.800">ⓘ</span>
-<br/>  The manual and error-prone deployment process hinders timely updates and adaptations to integration frameworks, resulting in reliance on outdated patterns that complicate connections with modern services.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  Integration limitations force teams to build complex adapter layers and workarounds.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  New features requiring integration with external services take much longer due to architectural barriers.
+- [Increased Cost of Development](increased-cost-of-development.md)
+<br/>  Building and maintaining complex integration adapter code significantly increases development costs.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Inability to easily integrate with modern services puts the organization at a disadvantage against competitors with more flexible systems.
+- [Technology Isolation](technology-isolation.md)
+<br/>  Integration difficulties prevent the system from connecting with the broader technology ecosystem.
+
+## Causes ▼
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  Using outdated protocols and data formats creates fundamental incompatibilities with modern services.
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  The system architecture was designed for different integration patterns than what modern services require.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Tightly coupled internal components make it difficult to add clean integration points for external services.
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  An architecture that has not evolved over time falls behind modern integration standards and patterns.
+- [ABI Compatibility Issues](abi-compatibility-issues.md)
+<br/>  Binary interface mismatches between library versions make integrating components extremely difficult, as compiled artifacts are incompatible.
+- [API Versioning Conflicts](api-versioning-conflicts.md)
+<br/>  Version mismatches between services create integration failures as different systems expect different API contracts.
+- [Dependency Version Conflicts](dependency-version-conflicts.md)
+<br/>  Version conflicts between libraries make integrating new components or upgrading existing ones extremely difficult.
+- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md)
+<br/>  Poorly versioned APIs make it extremely difficult for new systems to integrate, requiring extensive compatibility research and custom handling.
+- [Long-Lived Feature Branches](long-lived-feature-branches.md)
+<br/>  Code developed in isolation for extended periods becomes structurally incompatible with mainline changes, making integration costly.
+- [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
+<br/>  Poorly designed interfaces make every new integration a complex, error-prone effort requiring custom solutions.
+- [Team Dysfunction](poor-teamwork.md)
+<br/>  Developers making incompatible assumptions in isolation produce modules that don't integrate well together.
+- [System Stagnation](system-stagnation.md)
+<br/>  Stagnant systems lack modern integration capabilities, making it increasingly difficult to connect with current technologies.
 
 ## Detection Methods ○
 

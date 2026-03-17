@@ -34,18 +34,39 @@ Long release cycles occur when the time between software releases becomes excess
 - The team spends weeks preparing for each release
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.625">ⓘ</span>
-<br/>  Constant updates to project requirements often arise from the need to address issues discovered during prolonged manual testing phases, resulting in a cycle of rework and further delays that exacerbate release timelines.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.601">ⓘ</span>
-<br/>  Frequent merge conflicts arise from developers needing to wait for lengthy manual testing to conclude, leading them to modify the same code areas simultaneously, which ultimately contributes to the delays in release cycles.
 
-## Root Causes ▼
-- [External Service Delays](external-service-delays.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.919">ⓘ</span>
-<br/>  Delays in external services lead to slower API responses, resulting in extended manual testing phases and increased likelihood of last-minute bug discoveries, ultimately prolonging release cycles in legacy systems.
-- [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.836">ⓘ</span>
-<br/>  The fragility of legacy systems leads to increased complexity in testing and debugging, as minor changes can introduce unforeseen issues that require extensive examination, ultimately extending the release cycle.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.938">ⓘ</span>
-<br/>  Bottlenecks in specific team members or processes lead to delays in manual testing and unresolved bugs, which in turn extend overall release cycles in legacy software systems.
+- [Large, Risky Releases](large-risky-releases.md)
+<br/>  Long cycles cause changes to accumulate, resulting in larger releases that carry more risk and are harder to test.
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  Users and customers wait months for features and fixes that are already complete but trapped in unreleased code.
+- [Increased Time to Market](increased-time-to-market.md)
+<br/>  Long release cycles directly extend the time from feature completion to user availability, harming competitive position.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Users become frustrated waiting for requested features and bug fixes through prolonged release cycles.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Competitors with faster release cadences can respond to market needs more quickly, gaining advantage.
+- [Release Anxiety](release-anxiety.md)
+<br/>  Infrequent, large releases become high-stakes events that create stress and anxiety around each deployment.
+
+## Causes ▼
+- [Increased Manual Testing Effort](increased-manual-testing-effort.md)
+<br/>  Extensive manual testing requirements for each release directly extend the release cycle duration.
+- [Manual Deployment Processes](manual-deployment-processes.md)
+<br/>  Manual deployment procedures add overhead and coordination time to each release, discouraging frequent releases.
+- [Poor Test Coverage](poor-test-coverage.md)
+<br/>  Without adequate automated tests, teams must rely on lengthy manual testing phases to validate releases.
+- [Long Build and Test Times](long-build-and-test-times.md)
+<br/>  Slow build and test pipelines extend the feedback loop, making it impractical to release more frequently.
+- [Complex Deployment Process](complex-deployment-process.md)
+<br/>  Manual, time-consuming deployment processes directly extend the time between releases.
+- [Deployment Coupling](deployment-coupling.md)
+<br/>  Coordinating deployments across coupled components extends the time between releases.
+- [Deployment Risk](deployment-risk.md)
+<br/>  Teams deploy infrequently to minimize risk exposure, but this extends release cycles.
+- [Perfectionist Culture](perfectionist-culture.md)
+<br/>  Reluctance to release anything that isn't perfect extends the time between releases as teams polish endlessly.
+- [Release Anxiety](release-anxiety.md)
+<br/>  Teams delay releases to reduce exposure to the stress of deployment, stretching release cycles as they try to ensure everything is perfect before shipping.
 
 ## Detection Methods ○
 - **Release Frequency Metrics:** Track time between releases and compare to industry standards or goals
