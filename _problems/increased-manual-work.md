@@ -41,8 +41,6 @@ Increased manual work occurs when developers must perform repetitive, routine ta
 <br/>  Spending significant time on tedious busywork rather than meaningful development leads to frustration and disengagement.
 - [Inconsistent Execution](inconsistent-execution.md)
 <br/>  Manual processes are inherently prone to variation, producing inconsistent outcomes across team members and time.
-- [Increased Error Rates](increased-error-rates.md)
-<br/>  Manual execution of routine tasks is more error-prone than automated processes, leading to more mistakes.
 - [Reduced Individual Productivity](reduced-individual-productivity.md)
 <br/>  Developers accomplish less meaningful work because a large portion of their time goes to repetitive manual tasks.
 ## Causes ▼

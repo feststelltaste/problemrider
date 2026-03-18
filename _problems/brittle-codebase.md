@@ -54,6 +54,8 @@ A brittle codebase is one that is difficult and risky to change. When a small ch
 <br/>  Tangled, unstructured code with unclear control flow makes changes risky and unpredictable.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Long-term avoidance of refactoring allows structural problems to accumulate, making the codebase increasingly brittle.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Legacy code without tests is a major contributor to brittle codebases because there is no safety net to catch regress....
 ## Detection Methods ○
 
 - **Code Coverage Tools:** Use tools to measure test coverage. Low coverage is a strong indicator of brittleness.

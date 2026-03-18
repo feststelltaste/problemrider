@@ -41,6 +41,8 @@ Thread pool exhaustion occurs when all available threads in an application's thr
 <br/>  Complete thread pool exhaustion effectively causes service outages as the application becomes entirely unresponsive.
 - [Unpredictable System Behavior](unpredictable-system-behavior.md)
 <br/>  The system appears to hang or behave unpredictably with low CPU usage, making the root cause difficult to diagnose.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Before complete exhaustion, partial thread pool depletion causes slow application performance as fewer threads are av....
 ## Causes ▼
 
 - [Resource Contention](resource-contention.md)

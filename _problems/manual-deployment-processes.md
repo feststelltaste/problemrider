@@ -48,6 +48,8 @@ Manual deployment processes require human intervention to release software chang
 <br/>  Errors from manual deployment steps often require emergency fixes or rollbacks to correct mistakes.
 - [Release Anxiety](release-anxiety.md)
 <br/>  The high risk and effort of manual deployments creates stress and anxiety around each release event.
+- [Deployment Risk](deployment-risk.md)
+<br/>  Manual deployment processes directly increase deployment risk through human error and inconsistency, making each depl....
 ## Causes ▼
 
 - [Immature Delivery Strategy](immature-delivery-strategy.md)

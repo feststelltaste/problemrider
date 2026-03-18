@@ -53,8 +53,6 @@ Team dysfunction occurs when structural, cultural, or interpersonal problems pre
 <br/>  When team goals conflict or are unclear, team members work at cross-purposes, creating dysfunction.
 - [Misaligned Deliverables](misaligned-deliverables.md)
 <br/>  Individual performance metrics that emphasize personal contributions over team outcomes create competition instead of collaboration.
-- [Micromanagement Culture](micromanagement-culture.md)
-<br/>  Without active management to address interpersonal issues and structural problems, dysfunction festers and grows.
 ## Detection Methods ○
 
 - **Team Health Assessments:** Survey team members about collaboration, trust, and satisfaction

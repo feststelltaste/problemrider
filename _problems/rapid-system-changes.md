@@ -41,8 +41,6 @@ Rapid system changes occur when software systems undergo frequent architectural 
 <br/>  Rapid modifications to APIs and architecture increase the likelihood of breaking existing integrations and functionality.
 - [Regression Bugs](regression-bugs.md)
 <br/>  Frequent changes without adequate testing time lead to inadvertent breakage of previously working functionality.
-- [Knowledge Gaps](knowledge-gaps.md)
-<br/>  Team members cannot keep up with the pace of changes, creating gaps in understanding of the current system state.
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  Rapid changes without proper testing and documentation make the system increasingly fragile over time.
 ## Causes ▼

@@ -41,6 +41,10 @@ Cross-Site Scripting (XSS) vulnerabilities occur when web applications fail to p
 <br/>  Users who experience account compromise or data theft due to XSS attacks lose confidence in the application.
 - [Negative Brand Perception](negative-brand-perception.md)
 <br/>  Public disclosure of XSS vulnerabilities damages the organization's reputation for security and reliability.
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  Users who experience account compromise through XSS attacks lose trust in the application.
+- [Legal Disputes](legal-disputes.md)
+<br/>  XSS vulnerabilities that lead to data breaches or account compromise can trigger legal action from affected users.
 ## Causes ▼
 
 - [Inexperienced Developers](inexperienced-developers.md)

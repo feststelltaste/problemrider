@@ -41,8 +41,6 @@ The N+1 query problem is a common performance issue that occurs when an applicat
 <br/>  The flood of individual queries from N+1 patterns overloads the database, degrading overall query performance.
 - [Negative User Feedback](negative-user-feedback.md)
 <br/>  Users experience slow page loads and unresponsive interfaces as a direct result of excessive database queries.
-- [GraphQL Complexity Issues](graphql-complexity-issues.md)
-<br/>  GraphQL query complexity grows unchecked, causing performance issues.
 
 ## Causes ▼
 

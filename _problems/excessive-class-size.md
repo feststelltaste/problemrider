@@ -44,6 +44,8 @@ Excessive class size is a code smell where a class has grown so large that it be
 <br/>  Changes to an excessively large class affect many different functionalities, causing cascading modifications across the system.
 - [Large Pull Requests](large-pull-requests.md)
 <br/>  Changes to large classes tend to produce large pull requests because the class touches many concerns simultaneously.
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  Excessively large classes are inherently hard to comprehend.
 ## Causes ▼
 
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)

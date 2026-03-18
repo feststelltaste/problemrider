@@ -40,14 +40,10 @@ Declining business metrics represents the measurable deterioration of key busine
 
 - [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
 <br/>  Deteriorating business metrics directly erode stakeholder trust in the development team's ability to deliver value.
-- [Budget Overruns](budget-overruns.md)
-<br/>  Declining metrics trigger reactive spending on emergency fixes and additional oversight that exceed planned budgets.
 - [Negative Brand Perception](negative-brand-perception.md)
 <br/>  Sustained decline in business metrics reflects poorly on the brand, as users associate the product with poor quality.
 - [Project Resource Constraints](project-resource-constraints.md)
 <br/>  Poor business metrics make it harder to secure funding and resources for development initiatives, creating a downward spiral.
-- [Increased Customer Support Load](increased-customer-support-load.md)
-<br/>  As business metrics decline due to technical issues, more users contact support with complaints and problems.
 ## Causes ▼
 
 - [Slow Application Performance](slow-application-performance.md)

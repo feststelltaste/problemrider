@@ -34,8 +34,6 @@ Error message information disclosure occurs when applications reveal sensitive t
 
 ## Symptoms ▲
 
-- [Data Protection Risk](data-protection-risk.md)
-<br/>  Disclosure of system internals through error messages creates legal and compliance risks around data protection.
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)

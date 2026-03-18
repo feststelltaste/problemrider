@@ -46,6 +46,10 @@ Knowledge silos occur when critical information, expertise, or research findings
 <br/>  Team members can only work in areas where they hold knowledge, reducing ability to reassign work.
 - [Slow Incident Resolution](slow-incident-resolution.md)
 <br/>  Cross-cutting issues are slow to resolve when each person only understands their own domain.
+- [Difficult Developer Onboarding](difficult-developer-onboarding.md)
+<br/>  When knowledge is siloed in specific individuals, new developers cannot access the information they need to onboard e....
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Knowledge silos create bottlenecks that reduce team productivity.
 ## Causes ▼
 
 - [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)

@@ -36,8 +36,6 @@ Bikeshedding, also known as Parkinson's law of triviality, is a phenomenon where
 <br/>  Excessive back-and-forth on trivial review comments disrupts developers' focus and workflow.
 - [Quality Blind Spots](quality-blind-spots.md)
 <br/>  While reviewers fixate on style and naming, critical logic bugs and design flaws pass through undetected.
-- [Code Review Inefficiency](code-review-inefficiency.md)
-<br/>  Without clear guidelines on what reviews should focus on, reviewers default to commenting on trivial matters.
 ## Causes ▼
 
 - [Incomplete Knowledge](incomplete-knowledge.md)

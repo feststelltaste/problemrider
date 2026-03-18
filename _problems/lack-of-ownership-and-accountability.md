@@ -47,6 +47,8 @@ Lack of ownership and accountability occurs when no individual or team takes cle
 <br/>  System quality erodes over time when there is no ownership to maintain and improve it.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Without clear ownership, refactoring is avoided because no one feels responsible for improving shared code.
+- [Maintenance Paralysis](maintenance-paralysis.md)
+<br/>  Without clear ownership, maintenance work stalls because no one takes responsibility for improvements.
 
 ## Causes ▼
 

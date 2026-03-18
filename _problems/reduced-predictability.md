@@ -41,8 +41,8 @@ Reduced predictability occurs when development work becomes difficult to estimat
 <br/>  Unpredictable development timelines force frequent deadline adjustments and rescheduling.
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Inability to predict work duration leads to underestimation and consequent project delays.
-- [User Trust Erosion](user-trust-erosion.md)
-<br/>  Repeated failure to deliver on predicted timelines erodes stakeholder confidence in the development team.
+- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
+<br/>  When development timelines are unpredictable, stakeholders lose confidence in the team's ability to plan and deliver.
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)

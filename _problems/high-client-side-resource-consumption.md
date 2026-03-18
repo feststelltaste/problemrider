@@ -37,8 +37,6 @@ High client-side resource consumption can lead to a poor user experience. This c
 <br/>  Users complain about slow performance, hot devices, and battery drain caused by resource-heavy client applications.
 - [User Frustration](user-frustration.md)
 <br/>  Users become dissatisfied when the application makes their device slow, hot, or drains battery quickly.
-- [Competitive Disadvantage](competitive-disadvantage.md)
-<br/>  Users switch to competitor products that perform better and consume fewer device resources.
 ## Causes ▼
 
 - [Inefficient Frontend Code](inefficient-frontend-code.md)

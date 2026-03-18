@@ -54,6 +54,8 @@ Outdated tests occur when test code is not maintained alongside production code 
 <br/>  Without clear ownership of test maintenance, tests deteriorate as no one takes responsibility for keeping them current.
 - [Inadequate Test Data Management](inadequate-test-data-management.md)
 <br/>  Unrealistic or outdated test data causes tests to become misaligned with actual system behavior over time.
+- [Insufficient Code Review](insufficient-code-review.md)
+<br/>  Without thorough code reviews that check whether tests are updated alongside production code changes, outdated tests ....
 ## Detection Methods ○
 - **Test Reliability Metrics:** Track the frequency of test failures and their correlation with actual bugs
 - **Test Maintenance Time:** Monitor how much time is spent fixing tests versus improving functionality

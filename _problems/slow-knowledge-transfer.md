@@ -53,6 +53,8 @@ Slow knowledge transfer is a situation where it takes a long time for new team m
 <br/>  Undocumented tribal knowledge that exists only in people's heads is inherently difficult and slow to transfer.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Code that is hard to understand makes it much harder for new team members to learn the system independently.
+- [Inadequate Onboarding](inadequate-onboarding.md)
+<br/>  Inadequate onboarding processes directly cause slow knowledge transfer as new team members lack structured pathways t....
 ## Detection Methods ○
 - **Onboarding Time:** Measure the time it takes for new team members to become productive.
 - **Developer Surveys:** Ask new team members about their onboarding experience.

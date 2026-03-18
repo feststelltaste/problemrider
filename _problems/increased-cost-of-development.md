@@ -39,10 +39,6 @@ Increased cost of development occurs when the total expense of building and main
 <br/>  Higher development costs correlate with slower delivery, as more resources are spent on maintenance rather than new features.
 - [Declining Business Metrics](declining-business-metrics.md)
 <br/>  Rising development costs reduce the ability to invest in features that drive business growth, impacting key metrics.
-- [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
-<br/>  As costs rise from technical debt, it becomes harder to justify the ROI of improvement efforts versus feature work.
-- [Competing Priorities](competing-priorities.md)
-<br/>  Higher costs force trade-offs between maintenance and new development, creating competition for limited resources.
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)

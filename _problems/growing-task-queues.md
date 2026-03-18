@@ -42,6 +42,8 @@ A growing task queue is a clear sign that a system is not able to keep up with i
 <br/>  Queue buildup can exhaust system resources and create cascading failures across dependent services.
 - [Negative User Feedback](negative-user-feedback.md)
 <br/>  Users complain about delayed processing of operations like email confirmations and order processing.
+- [User Frustration](user-frustration.md)
+<br/>  Users experience delays when their requests sit in growing queues.
 ## Causes ▼
 
 - [Insufficient Worker Capacity](insufficient-worker-capacity.md)

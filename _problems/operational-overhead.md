@@ -42,8 +42,6 @@ Operational overhead is the indirect cost of running a software system. This inc
 <br/>  High operational overhead consumes resources that were budgeted for development, leading to cost overruns.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  Operational demands divert the team from planned feature work, delaying delivery of new value to users.
-- [System Outages](system-outages.md)
-<br/>  Frequent system outages require emergency response and incident management, directly driving operational overhead.
 ## Causes ▼
 
 - [Poor Operational Concept](poor-operational-concept.md)
@@ -52,6 +50,10 @@ Operational overhead is the indirect cost of running a software system. This inc
 <br/>  Insufficient monitoring means issues are detected late, requiring more effort to diagnose and resolve, increasing operational overhead.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated technical debt creates a fragile system that generates frequent production issues, increasing operational burden.
+- [System Outages](system-outages.md)
+<br/>  Frequent system outages require emergency response and incident management, directly driving operational overhead.
+- [Constant Firefighting](constant-firefighting.md)
+<br/>  Constant firefighting is a direct driver of operational overhead, consuming team resources on reactive work rather th....
 ## Detection Methods ○
 - **On-Call Load:** Track the number of pages that the on-call team receives.
 - **Time Spent on Operational Tasks:** Track the amount of time that the development team spends on operational tasks.

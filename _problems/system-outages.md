@@ -60,6 +60,8 @@ System outages occur when software systems become unavailable, unresponsive, or 
 <br/>  Systems that slowly degrade eventually reach tipping points where they fail completely under normal load.
 - [Database Connection Leaks](database-connection-leaks.md)
 <br/>  Leaked database connections exhaust connection pools, preventing the application from functioning.
+- [Monitoring Gaps](monitoring-gaps.md)
+<br/>  Lack of monitoring allows problems to escalate into full outages because degrading conditions are not detected early ....
 ## Detection Methods ○
 
 - **Availability Monitoring:** Track system uptime and availability percentages

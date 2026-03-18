@@ -52,8 +52,6 @@ Uneven workload distribution occurs when work assignments are not balanced acros
 <br/>  When team members lack skills for certain work types, managers route complex tasks to the few who are capable, creating imbalance.
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
 <br/>  Without clear role definitions, some team members take on or are assigned more responsibility than others.
-- [Micromanagement Culture](micromanagement-culture.md)
-<br/>  Managers who control task assignments may inadvertently create imbalances by always routing work to trusted individuals.
 ## Detection Methods ○
 
 - **Workload Metrics Tracking:** Monitor work assignments, hours worked, and task completion rates across team members

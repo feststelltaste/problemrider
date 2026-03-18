@@ -45,6 +45,10 @@ Poor planning occurs when development projects lack adequate forethought, realis
 <br/>  Discovering unanticipated technical obstacles late in development forces significant rework of existing implementations.
 - [Increased Stress and Burnout](increased-stress-and-burnout.md)
 <br/>  Unrealistic plans create sustained pressure on teams trying to meet impossible timelines.
+- [Planning Credibility Issues](planning-credibility-issues.md)
+<br/>  Poor planning leads to missed deadlines which erode trust in future estimates.
+- [Poor Project Control](poor-project-control.md)
+<br/>  Poor planning produces no clear milestones to track against, directly enabling poor project control.
 ## Causes ▼
 
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)

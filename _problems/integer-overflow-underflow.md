@@ -34,8 +34,6 @@ Integer overflow and underflow occur when arithmetic operations produce results 
 <br/>  Value wrapping from overflow produces incorrect data that may propagate undetected through the system.
 - [Unpredictable System Behavior](unpredictable-system-behavior.md)
 <br/>  Wrapped values cause unexpected program behavior that is difficult to reproduce and diagnose.
-- [Increased Risk of Bugs](increased-risk-of-bugs.md)
-<br/>  Integer overflow conditions create subtle bugs that only manifest with specific input values.
 ## Causes ▼
 
 - [Insufficient Design Skills](insufficient-design-skills.md)

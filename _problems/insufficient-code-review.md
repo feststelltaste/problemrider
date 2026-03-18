@@ -48,6 +48,8 @@ Insufficient code review occurs when the code review process fails to effectivel
 <br/>  Design flaws and shortcuts that pass through inadequate reviews accumulate as technical debt.
 - [Regression Bugs](regression-bugs.md)
 <br/>  Reviews that miss side effects and coupling issues lead to regression bugs when code changes.
+- [Increased Risk of Bugs](increased-risk-of-bugs.md)
+<br/>  Insufficient code review directly increases the risk of bugs because the quality gate that catches defects is weakened.
 ## Causes ▼
 
 - [Deadline Pressure](deadline-pressure.md)

@@ -35,12 +35,8 @@ An increased error rate is a clear sign that something is wrong with an applicat
 <br/>  Frequent errors degrade the user experience, leading to frustration and loss of trust in the system.
 - [Increased Customer Support Load](increased-customer-support-load.md)
 <br/>  Users encountering errors contact support, driving up ticket volume.
-- [Service Timeouts](service-timeouts.md)
-<br/>  Elevated error rates often accompany cascading failures that cause service timeouts across dependent systems.
 - [Negative User Feedback](negative-user-feedback.md)
 <br/>  Users experiencing frequent errors provide negative feedback about system reliability and quality.
-- [Release Instability](release-instability.md)
-<br/>  Spikes in error rates after deployments indicate releases are unstable and causing production problems.
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
@@ -51,6 +47,10 @@ An increased error rate is a clear sign that something is wrong with an applicat
 <br/>  Misconfigured connection pools cause connection exhaustion or rejection, generating application errors.
 - [Database Connection Leaks](database-connection-leaks.md)
 <br/>  Leaked connections exhaust the pool over time, causing increasing numbers of connection-related errors.
+- [Service Timeouts](service-timeouts.md)
+<br/>  Elevated error rates often accompany cascading failures that cause service timeouts across dependent systems.
+- [Release Instability](release-instability.md)
+<br/>  Spikes in error rates after deployments indicate releases are unstable and causing production problems.
 ## Detection Methods ○
 
 - **Application Performance Monitoring (APM):** APM tools track error rates and can often pinpoint the exact line of code or service causing the error.

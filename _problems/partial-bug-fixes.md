@@ -39,8 +39,6 @@ Partial bug fixes are a common problem in software systems with a high degree of
 <br/>  The same business process works correctly in one context but fails in another because the fix was not applied uniformly across duplicated code.
 - [Increased Bug Count](increased-bug-count.md)
 <br/>  Each partial fix only addresses one instance of the bug while leaving others open, keeping the defect count high.
-- [User Trust Erosion](user-trust-erosion.md)
-<br/>  Recurring bugs that were supposedly resolved damage user confidence in the system's reliability.
 ## Causes ▼
 
 - [Code Duplication](code-duplication.md)

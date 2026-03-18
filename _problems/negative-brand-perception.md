@@ -34,6 +34,10 @@ Negative brand perception occurs when technical problems and poor software quali
 - Competitive comparisons highlight reliability as a differentiator against the organization
 
 ## Symptoms ▲
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Negative brand perception directly leads to competitive disadvantage as users choose competitors with better reputations.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Negative brand perception reinforces and amplifies customer dissatisfaction as users' expectations become colored by ....
 
 ## Causes ▼
 

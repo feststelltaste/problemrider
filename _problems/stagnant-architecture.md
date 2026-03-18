@@ -52,6 +52,10 @@ Stagnant architecture occurs when a system's fundamental design and structure re
 <br/>  Consistently deferring refactoring prevents the architecture from evolving to meet changing needs.
 - [Time Pressure](time-pressure.md)
 <br/>  Constant delivery pressure prevents teams from investing time in architectural improvements.
+- [Resistance to Change](resistance-to-change.md)
+<br/>  Resistance to change directly causes architecture to stagnate, as teams avoid the modernization and refactoring neede....
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Short-term focus already lists stagnant architecture as a symptom, and management prioritizing features over architec....
 ## Detection Methods ○
 
 - **Architecture Review Sessions:** Regular assessment of how well current architecture serves business needs

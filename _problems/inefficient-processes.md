@@ -46,6 +46,8 @@ Inefficient processes occur when the workflows, procedures, and organizational p
 <br/>  Developers become frustrated and demoralized when they spend more time on process overhead than actual development.
 - [Wasted Development Effort](wasted-development-effort.md)
 <br/>  Redundant processes and unnecessary handoffs waste valuable development time on non-value-adding activities.
+- [Increased Manual Work](increased-manual-work.md)
+<br/>  Inefficient processes that haven't been optimized or automated create unnecessary manual work for developers.
 ## Causes ▼
 
 - [Process Design Flaws](process-design-flaws.md)

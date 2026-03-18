@@ -55,6 +55,8 @@ Legacy skill shortage occurs when organizations face a critical scarcity of deve
 <br/>  Systems isolated from modern technology stacks are unattractive to developers, making it hard to recruit new talent.
 - [High Turnover](high-turnover.md)
 <br/>  Experienced legacy developers leaving the organization accelerates the skill shortage as institutional knowledge departs with them.
+- [Knowledge Silos](knowledge-silos.md)
+<br/>  Knowledge concentrated in a few developers who leave takes irreplaceable legacy expertise with them, directly contrib....
 ## Detection Methods ○
 
 - Conduct skills inventory assessments for all critical legacy technologies in the organization

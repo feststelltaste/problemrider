@@ -44,8 +44,6 @@ When team members are disengaged from the code review process, it ceases to be a
 <br/>  Rubber-stamp approvals without meaningful examination result in effectively insufficient code review coverage.
 ## Causes ▼
 
-- [Increased Cognitive Load](increased-cognitive-load.md)
-<br/>  When developers are overloaded with feature work, code reviews are deprioritized as they aren't seen as directly productive.
 - [Team Silos](team-silos.md)
 <br/>  When developers work in isolation, they feel disconnected from code outside their area and lack motivation to review it.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)

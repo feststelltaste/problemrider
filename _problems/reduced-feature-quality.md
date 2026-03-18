@@ -36,8 +36,6 @@ Reduced feature quality occurs when delivered functionality lacks the polish, re
 
 ## Symptoms ▲
 
-- [Feature Gaps](feature-gaps.md)
-<br/>  Lower-quality features with rough edges and missing polish lead to perceived gaps in functionality from the user perspective.
 - [Quality Degradation](quality-degradation.md)
 <br/>  Consistently delivering underpolished features contributes to an overall decline in system quality over time.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)

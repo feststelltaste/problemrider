@@ -53,6 +53,8 @@ Merge conflicts occur when multiple developers simultaneously modify the same po
 <br/>  When functionality is not properly separated, unrelated changes touch the same files and create conflicts.
 - [Team Coordination Issues](team-coordination-issues.md)
 <br/>  Poor coordination between team members leads to overlapping work on the same code areas without awareness.
+- [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
+<br/>  Large monolithic functions and classes force multiple developers to modify the same files, directly causing merge con....
 ## Detection Methods ○
 - **Version Control Analytics:** Monitor merge conflict frequency and resolution time through git statistics
 - **Hotspot Analysis:** Identify files and functions that are modified most frequently across different branches

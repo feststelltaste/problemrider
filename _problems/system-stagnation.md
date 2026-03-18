@@ -60,6 +60,8 @@ System stagnation occurs when software systems fail to evolve and improve over t
 <br/>  Teams unable to verify that changes won't break existing functionality avoid making improvements entirely.
 - [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
 <br/>  Inability to demonstrate ROI of modernization efforts prevents investment in system evolution.
+- [Technology Lock-In](technology-lock-in.md)
+<br/>  Technology lock-in directly prevents system evolution by making it prohibitively expensive to adopt new technologies ....
 ## Detection Methods ○
 
 - **Technology Currency Assessment:** Compare system technologies with current industry standards

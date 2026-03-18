@@ -44,8 +44,6 @@ Planning credibility issues occur when development teams lose stakeholder trust 
 <br/>  Business stakeholders become frustrated when they cannot rely on development estimates for their own planning and commitments.
 - [Team Demoralization](team-demoralization.md)
 <br/>  Teams lose motivation when their estimates are consistently overridden or questioned, creating an adversarial dynamic.
-- [Overworked Teams](overworked-teams.md)
-<br/>  When management imposes tighter deadlines due to distrust of estimates, teams are forced to work excessive hours to compensate.
 ## Causes ▼
 
 - [Missed Deadlines](missed-deadlines.md)

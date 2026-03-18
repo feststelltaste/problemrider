@@ -45,6 +45,8 @@ Quality compromises occur when teams or organizations deliberately accept lower 
 <br/>  Untested and poorly reviewed code introduces hidden fragilities that compound over time.
 - [Inconsistent Quality](inconsistent-quality.md)
 <br/>  Some parts of the system are well-built while areas developed under pressure have notably lower quality.
+- [Quality Blind Spots](quality-blind-spots.md)
+<br/>  Deliberately skipping testing creates systematic gaps in quality verification.
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)

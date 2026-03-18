@@ -47,6 +47,8 @@ Poor communication occurs when team members fail to effectively share informatio
 <br/>  Misaligned understanding due to poor communication leads to implementations that must be redone when incompatibilities are discovered.
 - [Suboptimal Solutions](suboptimal-solutions.md)
 <br/>  Without open discussion, developers miss opportunities for collective problem-solving, resulting in weaker solutions.
+- [Team Dysfunction](team-dysfunction.md)
+<br/>  Poor communication is a direct cause of team dysfunction.
 ## Causes ▼
 
 - [Team Silos](team-silos.md)

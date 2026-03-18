@@ -47,6 +47,8 @@ The God Object anti-pattern occurs when single classes or components accumulate 
 <br/>  Understanding a god object requires holding many unrelated concepts in mind simultaneously.
 - [Ripple Effect of Changes](ripple-effect-of-changes.md)
 <br/>  Modifying one responsibility within a god object often requires changes to other parts of the same object and its consumers.
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  God objects with thousands of lines and dozens of methods are inherently difficult to comprehend, making this a direc....
 ## Causes ▼
 
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)

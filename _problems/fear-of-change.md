@@ -46,6 +46,8 @@ Fear of change is a psychological and practical barrier that prevents developers
 <br/>  The team becomes paralyzed and unable to perform necessary maintenance because they cannot verify changes are safe.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  Architecture stops evolving because the team avoids the structural changes needed for improvement.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Fear of change directly slows feature development as teams take excessive precautions or implement workarounds.
 ## Causes ▼
 
 - [Brittle Codebase](brittle-codebase.md)

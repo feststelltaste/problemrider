@@ -52,6 +52,8 @@ Inability to innovate occurs when development teams become so consumed with main
 <br/>  Teams trapped in maintenance-only mode cannot allocate any effort toward exploratory or innovative work.
 - [Fear of Change](fear-of-change.md)
 <br/>  A risk-averse culture discourages experimentation with new approaches and technologies.
+- [Resistance to Change](resistance-to-change.md)
+<br/>  Organizational resistance to change directly prevents innovation by blocking the adoption of new approaches, technolo....
 ## Detection Methods ○
 
 - **Time Allocation Analysis:** Track percentage of time spent on maintenance vs. new development vs. exploration

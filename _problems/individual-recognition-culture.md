@@ -32,8 +32,6 @@ An individual recognition culture is a culture where individual accomplishments 
 
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When individual accomplishments are rewarded over teamwork, developers hoard knowledge as a competitive advantage rather than sharing it.
-- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
-<br/>  Individual focus leads to territorial behavior where developers only care about their own code, creating gaps in collective ownership.
 - [Poor Communication](poor-communication.md)
 <br/>  Competition between team members discourages open communication and information sharing.
 - [Team Dysfunction](team-dysfunction.md)

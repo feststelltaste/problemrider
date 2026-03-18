@@ -46,8 +46,6 @@ Obsolete technologies refer to the use of outdated programming languages, framew
 <br/>  Systems on obsolete technologies cannot implement modern features and capabilities, causing the organization to fall behind competitors.
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
 <br/>  New developers face steep learning curves when systems use obsolete technologies with limited documentation and community support.
-- [Insecure Data Transmission](insecure-data-transmission.md)
-<br/>  Data transmission remains unencrypted or inadequately secured.
 
 ## Causes ▼
 

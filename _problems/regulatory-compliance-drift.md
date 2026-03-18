@@ -54,6 +54,8 @@ Regulatory compliance drift occurs when legacy systems gradually fall behind evo
 <br/>  Dependence on vendors who no longer update compliance features leaves the system unable to meet new regulations.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Avoiding system modernization and restructuring prevents the updates needed to maintain regulatory compliance.
+- [Fear of Change](fear-of-change.md)
+<br/>  Fear of change prevents teams from updating systems to meet new regulatory requirements, directly contributing to com....
 ## Detection Methods ○
 
 - Conduct regular compliance gap analyses comparing current system capabilities with regulatory requirements

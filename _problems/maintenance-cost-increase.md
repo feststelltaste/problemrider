@@ -42,10 +42,6 @@ Maintenance cost increase occurs when the resources required to keep software sy
 <br/>  When maintenance consumes the bulk of the budget, there is little left to invest in new features and innovation.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Resources consumed by escalating maintenance costs cannot be invested in competitive features, eroding market position.
-- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
-<br/>  Paradoxically, high maintenance costs make modernization seem expensive compared to the status quo, even as costs keep rising.
-- [Increased Cost of Development](increased-cost-of-development.md)
-<br/>  Rising maintenance costs are a direct component of increasing overall development costs.
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)

@@ -40,6 +40,8 @@ Scaling inefficiencies occur when it is difficult or impossible to scale differe
 <br/>  When all components share the same scaling unit, high-demand components compete with low-demand ones for limited CPU, memory, and I/O resources.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Inability to scale efficiently leads to slower response times and higher costs, putting the organization at a disadvantage against competitors with more scalable architectures.
+- [System Outages](system-outages.md)
+<br/>  Inability to scale under load spikes can lead to system outages when demand exceeds the capacity of the monolithicall....
 ## Causes ▼
 
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)

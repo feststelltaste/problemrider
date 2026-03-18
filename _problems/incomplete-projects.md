@@ -40,8 +40,6 @@ Incomplete projects are a common problem in software development. They occur whe
 <br/>  Partially completed features leave behind dead code, half-implemented patterns, and architectural compromises that add to technical debt.
 - [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
 <br/>  Repeated failure to finish projects erodes stakeholder trust in the team's ability to deliver.
-- [Feature Gaps](feature-gaps.md)
-<br/>  Abandoned projects leave gaps in functionality that users need but never receive.
 ## Causes ▼
 
 - [Priority Thrashing](priority-thrashing.md)

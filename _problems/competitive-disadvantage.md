@@ -43,6 +43,8 @@ Competitive disadvantage occurs when technical problems, poor system performance
 <br/>  Users and the market associate the brand with outdated technology and inferior user experience.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Business stakeholders become frustrated as they watch the organization lose market position due to technical limitations.
+- [High Turnover](high-turnover.md)
+<br/>  When a company falls behind competitively due to technical problems, talented developers leave for organizations with....
 ## Causes ▼
 
 - [Increased Time to Market](increased-time-to-market.md)

@@ -45,6 +45,8 @@ High turnover occurs when developers frequently leave the team, often shortly af
 <br/>  Remaining senior developers become exhausted from continuously training new hires who may also leave soon.
 - [High Bug Introduction Rate](high-bug-introduction-rate.md)
 <br/>  New developers unfamiliar with the system are more likely to introduce bugs due to lack of domain knowledge and system understanding.
+- [Increased Cost of Development](increased-cost-of-development.md)
+<br/>  Constant recruitment, onboarding, and lost productivity from frequent departures directly increase the overall cost o....
 ## Causes ▼
 
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)

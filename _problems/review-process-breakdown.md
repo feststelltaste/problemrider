@@ -56,6 +56,8 @@ Review process breakdown occurs when code review practices systematically fail t
 <br/>  Oversized pull requests are impossible to review thoroughly, forcing reviewers into superficial examination.
 - [Reduced Review Participation](reduced-review-participation.md)
 <br/>  When few people participate in reviews, the remaining reviewers are overloaded and cannot provide quality feedback.
+- [Superficial Code Reviews](superficial-code-reviews.md)
+<br/>  Superficial code reviews are a direct cause and form of review process breakdown - when reviews focus only on surface....
 ## Detection Methods ○
 
 - **Review Quality Analysis:** Track whether issues found in production could have been caught in review

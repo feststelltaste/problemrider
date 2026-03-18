@@ -36,6 +36,8 @@ Cache invalidation problems occur when cached data is not properly updated or re
 <br/>  Stale cache data causes intermittent and hard-to-reproduce bugs that appear and disappear as caches expire.
 - [Inconsistent Behavior](inconsistent-behavior.md)
 <br/>  Cached data diverges from source data, causing users to see outdated or contradictory information.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Cache invalidation problems create bugs that depend on cache state and timing, making them extremely hard to reproduc....
 ## Causes ▼
 
 - [Poor Caching Strategy](poor-caching-strategy.md)

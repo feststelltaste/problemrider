@@ -61,6 +61,8 @@ Workaround culture develops when teams consistently choose to implement temporar
 <br/>  Organizational emphasis on short-term delivery over long-term quality encourages workarounds as the path of least resistance.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Without test coverage, teams cannot safely refactor code and resort to workarounds to avoid introducing regressions.
+- [Time Pressure](time-pressure.md)
+<br/>  Time pressure is a fundamental driver of workaround culture.
 ## Detection Methods ○
 - **Code Pattern Analysis:** Search for common workaround indicators in code comments and structure
 - **Technical Debt Tracking:** Monitor accumulation of temporary solutions that become permanent

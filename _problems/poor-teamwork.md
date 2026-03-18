@@ -44,8 +44,6 @@ Poor teamwork manifests when team members fail to collaborate effectively, work 
 <br/>  Lack of collaboration prevents synergistic benefits, making the team less productive than the sum of its parts.
 - [High Turnover](high-turnover.md)
 <br/>  Dysfunctional team dynamics and interpersonal conflicts drive skilled developers to leave the organization.
-- [Integration Difficulties](integration-difficulties.md)
-<br/>  Developers making incompatible assumptions in isolation produce modules that don't integrate well together.
 ## Causes ▼
 
 - [Blame Culture](blame-culture.md)

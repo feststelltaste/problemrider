@@ -57,6 +57,8 @@ Lower code quality occurs when various pressures and circumstances cause develop
 <br/>  Loss of experienced developers leaves less experienced team members producing lower quality code without adequate guidance.
 - [Superficial Code Reviews](superficial-code-reviews.md)
 <br/>  When code reviews fail to catch quality issues, lower quality code gets merged unchallenged, normalizing poor standards.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Inexperienced developers lacking knowledge of best practices naturally produce lower quality code with more defects a....
 ## Detection Methods ○
 - **Static Code Analysis:** Use automated tools to measure code quality metrics over time
 - **Code Review Metrics:** Track the number and types of issues found during code reviews

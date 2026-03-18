@@ -55,6 +55,8 @@ Regression bugs are defects that occur when previously working functionality bre
 <br/>  A fragile codebase with poor structure makes it easy for changes to inadvertently break existing functionality.
 - [Inadequate Code Reviews](inadequate-code-reviews.md)
 <br/>  Poor code reviews fail to identify changes that could break existing functionality before they are merged.
+- [Partial Bug Fixes](partial-bug-fixes.md)
+<br/>  Partial bug fixes that don't address root causes are a direct cause of regression bugs, as the underlying issue resur....
 ## Detection Methods ○
 - **Automated Regression Test Suites:** Comprehensive automated tests that verify existing functionality after every change
 - **User Acceptance Testing:** Systematic testing of key user workflows before releases

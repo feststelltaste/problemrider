@@ -47,6 +47,8 @@ Work blocking occurs when development tasks cannot move forward because they req
 <br/>  Time spent waiting for approvals rather than producing code directly reduces team output.
 - [Workaround Culture](workaround-culture.md)
 <br/>  When proper changes are blocked by approval processes, developers resort to workarounds that bypass the blocking process.
+- [Wasted Development Effort](wasted-development-effort.md)
+<br/>  When developers are blocked, they switch to lower-priority tasks or do work that may be invalidated once the blocking....
 ## Causes ▼
 
 - [Approval Dependencies](approval-dependencies.md)

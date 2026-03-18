@@ -39,12 +39,8 @@ Reduced code submission frequency occurs when developers intentionally batch mul
 <br/>  Batching multiple changes together to avoid frequent review cycles directly produces oversized pull requests.
 - [Inadequate Code Reviews](inadequate-code-reviews.md)
 <br/>  Large batched submissions are harder to review thoroughly, reducing the quality and effectiveness of code reviews.
-- [Integration Difficulties](integration-difficulties.md)
-<br/>  Infrequent code submissions increase the likelihood of merge conflicts and integration issues with teammates' work.
 - [No Continuous Feedback Loop](no-continuous-feedback-loop.md)
 <br/>  Less frequent submissions mean developers get feedback later, when design decisions are harder to change.
-- [Regression Bugs](regression-bugs.md)
-<br/>  Large, complex changes submitted infrequently are more likely to introduce regressions that are difficult to isolate.
 ## Causes ▼
 
 - [Review Bottlenecks](review-bottlenecks.md)

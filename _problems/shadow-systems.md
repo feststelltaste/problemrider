@@ -55,6 +55,8 @@ Shadow systems are informal, unofficial applications, tools, or processes that t
 <br/>  Bureaucratic processes for requesting changes to official systems push teams to bypass the process entirely with shadow solutions.
 - [Feature Gaps](feature-gaps.md)
 <br/>  Missing functionality in official systems creates legitimate needs that teams address by building unofficial alternatives.
+- [Stakeholder Frustration](stakeholder-frustration.md)
+<br/>  Frustrated stakeholders with official systems drive them to create or support shadow systems as alternatives.
 ## Detection Methods ○
 
 - **System Discovery Audits:** Regular surveys to identify unofficial tools and systems

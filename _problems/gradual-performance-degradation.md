@@ -56,6 +56,8 @@ Gradual performance degradation is the slow deterioration of application perform
 <br/>  Data structures that grow without limits consume increasing memory and processing time as the system runs.
 - [Garbage Collection Pressure](garbage-collection-pressure.md)
 <br/>  Increasing GC pressure over time from growing object graphs and leaks causes progressive throughput reduction.
+- [Inefficient Database Indexing](inefficient-database-indexing.md)
+<br/>  As data volumes grow over time, poorly designed indexes cause progressively worse query performance, directly contrib....
 ## Detection Methods ○
 - **Performance Monitoring:** Continuous monitoring of response times, throughput, and resource usage over time
 - **Trend Analysis:** Statistical analysis of performance metrics to identify gradual deterioration patterns

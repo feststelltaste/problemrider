@@ -49,8 +49,6 @@ Scope change resistance occurs when organizations or teams avoid making necessar
 
 - [Poor Contract Design](poor-contract-design.md)
 <br/>  Rigid fixed-price contracts make scope changes expensive and procedurally difficult, discouraging necessary adaptations.
-- [Resistance to Change](resistance-to-change.md)
-<br/>  Organizational inertia and cultural resistance to change make teams reluctant to modify established project plans even when evidence supports it.
 - [Approval Dependencies](approval-dependencies.md)
 <br/>  Extensive approval processes required for scope changes create barriers that discourage teams from pursuing necessary modifications.
 ## Detection Methods ○

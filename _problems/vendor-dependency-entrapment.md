@@ -49,8 +49,6 @@ Vendor dependency entrapment occurs when legacy systems become critically depend
 <br/>  Deep integration with vendor-specific technologies makes it impossible to adapt when the vendor discontinues products.
 - [Vendor Dependency](vendor-dependency.md)
 <br/>  Excessive reliance on a single vendor creates vulnerability when that vendor changes strategy or discontinues products.
-- [Data Migration Complexities](data-migration-complexities.md)
-<br/>  Without planned migration paths, organizations are caught off guard when vendor products reach end of life.
 ## Detection Methods ○
 
 - Monitor vendor product roadmaps and end-of-life announcements for all critical system dependencies

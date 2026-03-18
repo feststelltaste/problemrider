@@ -37,16 +37,10 @@ Interrupt overhead occurs when hardware devices generate interrupts at such a hi
 
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  CPU time spent handling interrupts reduces time available for application processing, degrading performance.
-- [Context Switching Overhead](context-switching-overhead.md)
-<br/>  Each interrupt requires saving and restoring execution context, creating significant context switching overhead.
-- [High Resource Utilization on Client](high-resource-utilization-on-client.md)
-<br/>  High interrupt rates cause elevated CPU utilization that is consumed by interrupt handling rather than useful work.
 ## Causes ▼
 
 - [Poor System Environment](poor-system-environment.md)
 <br/>  Poorly configured hardware environments with suboptimal interrupt settings contribute to excessive interrupt rates.
-- [Inefficient Code](inefficient-code.md)
-<br/>  Application code that triggers excessive I/O operations increases the hardware interrupt frequency.
 ## Detection Methods ○
 
 - **Interrupt Rate Monitoring:** Monitor system interrupt rates using OS performance tools

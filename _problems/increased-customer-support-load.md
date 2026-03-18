@@ -47,8 +47,6 @@ Increased customer support load occurs when technical problems, poor user experi
 <br/>  Confusing or difficult interfaces cause users to seek help for tasks they should be able to complete independently.
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Unclear or missing error messages leave users unable to resolve issues on their own, forcing them to contact support.
-- [User Frustration](user-frustration.md)
-<br/>  Frustrated users who cannot complete tasks reach out to support as a last resort.
 ## Detection Methods ○
 - **Support Ticket Categorization:** Classify tickets to identify what percentage relate to technical issues vs. legitimate support needs
 - **Ticket Volume Trends:** Monitor support request volume relative to user base growth

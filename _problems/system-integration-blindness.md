@@ -55,6 +55,8 @@ System integration blindness occurs when teams lack visibility into how individu
 <br/>  Undocumented dependencies between components create unexpected interactions that teams cannot anticipate.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When teams only understand their own components, no one has the cross-cutting knowledge to identify integration risks.
+- [Team Silos](team-silos.md)
+<br/>  Team silos prevent cross-component understanding and integration awareness.
 ## Detection Methods ○
 
 - **End-to-End User Journey Testing:** Verify complete workflows across all system components

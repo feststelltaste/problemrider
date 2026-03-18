@@ -41,6 +41,8 @@ Index fragmentation is a problem that occurs in database indexes over time as da
 - [High Database Resource Utilization](high-database-resource-utilization.md)
 <br/>  Fragmented indexes cause the database to consume more CPU, memory, and disk I/O than necessary.
 ## Causes ▼
+- [Unbounded Data Growth](unbounded-data-growth.md)
+<br/>  Index fragmentation is primarily caused by ongoing data modifications (inserts, updates, deletes).
 
 ## Detection Methods ○
 

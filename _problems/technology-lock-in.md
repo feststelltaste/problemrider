@@ -38,8 +38,6 @@ Technology lock-in is a situation where it is difficult or impossible to switch 
 <br/>  Proprietary or outdated locked-in technologies often have high licensing and support costs.
 - [Reduced Innovation](reduced-innovation.md)
 <br/>  Inability to adopt new technologies limits the team's ability to innovate and leverage modern capabilities.
-- [Vendor Lock-In](vendor-lock-in.md)
-<br/>  Technology lock-in often manifests as vendor lock-in when the locked technology is proprietary.
 - [System Stagnation](system-stagnation.md)
 <br/>  The inability to evolve the technology stack causes the system to stagnate and fall behind competitors.
 ## Causes ▼

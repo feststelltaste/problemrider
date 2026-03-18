@@ -44,6 +44,8 @@ Increased stress and burnout occurs when team members experience sustained high 
 <br/>  Exhausted developers take shortcuts to cope with workload, choosing quick fixes over proper solutions.
 - [Quality Degradation](quality-degradation.md)
 <br/>  Stressed and fatigued developers make more mistakes and cut corners, leading to declining code and system quality.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Burned-out developers make more mistakes and have less mental capacity for quality work, directly leading to lower co....
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)

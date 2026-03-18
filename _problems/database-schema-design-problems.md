@@ -45,6 +45,8 @@ Database schema design problems occur when database structures are poorly planne
 <br/>  Problematic schema designs create difficult migration challenges when schema changes are eventually needed to fix structural issues.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Data redundancy from poor normalization creates opportunities for data inconsistency bugs when updates miss some copies of the data.
+- [Data Migration Integrity Issues](data-migration-integrity-issues.md)
+<br/>  Poor schema design creates mapping challenges during migration that risk data integrity.
 
 ## Causes ▼
 

@@ -48,6 +48,8 @@ Implementation starts without design occurs when development teams begin coding 
 <br/>  Without a clear design, developers create workarounds to patch structural issues that emerge during implementation.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  An organically evolved architecture without clear design becomes difficult to intentionally evolve or improve.
+- [Spaghetti Code](spaghetti-code.md)
+<br/>  Starting to code without design leads directly to tangled, unstructured code as there is no architectural blueprint t....
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)

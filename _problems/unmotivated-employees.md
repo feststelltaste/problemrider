@@ -42,8 +42,6 @@ Unmotivated employees exhibit low engagement, minimal initiative, and reduced co
 <br/>  Disengaged developers are less careful in their work, leading to more defects and poorly designed code.
 - [Reduced Review Participation](reduced-review-participation.md)
 <br/>  Unmotivated employees avoid voluntary activities like code reviews, concentrating the review burden on engaged team members.
-- [Resistance to Change](resistance-to-change.md)
-<br/>  Disengaged employees resist learning new practices or adopting improvements because they lack investment in the project's success.
 ## Causes ▼
 
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)

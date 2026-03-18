@@ -47,6 +47,8 @@ Modernization strategy paralysis occurs when organizations become overwhelmed by
 <br/>  While the organization remains paralyzed, competitors modernize and gain market advantage through superior technical capabilities.
 - [Resource Waste](resource-waste.md)
 <br/>  Extensive analysis activities consume significant budget and personnel time without producing actionable outcomes.
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  While paralyzed by indecision, legacy systems continue deteriorating and maintenance costs keep rising as technical d....
 ## Causes ▼
 
 - [Analysis Paralysis](analysis-paralysis.md)

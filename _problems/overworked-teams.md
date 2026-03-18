@@ -48,6 +48,8 @@ Overworked teams consistently operate beyond their sustainable capacity, working
 <br/>  Despite working more hours, exhausted teams produce less effective output due to fatigue-induced inefficiency.
 - [Quality Compromises](quality-compromises.md)
 <br/>  Overworked teams deliberately cut corners on quality practices like testing and code reviews to keep up with workload demands.
+- [Team Demoralization](team-demoralization.md)
+<br/>  Sustained overwork directly causes team demoralization as team members lose motivation and feel exploited.
 ## Causes ▼
 
 - [Unrealistic Deadlines](unrealistic-deadlines.md)

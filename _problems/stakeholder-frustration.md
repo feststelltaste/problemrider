@@ -42,8 +42,6 @@ Stakeholder frustration occurs when business stakeholders become dissatisfied wi
 <br/>  Frustrated stakeholders demand more control and oversight, creating a micromanagement dynamic.
 - [Communication Breakdown](communication-breakdown.md)
 <br/>  Frustrated stakeholders reduce their willingness to collaborate, leading to deteriorating communication.
-- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
-<br/>  Teams respond to frustrated stakeholders by agreeing to everything without pushback, leading to overcommitment.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Dealing with frustrated stakeholders creates additional pressure and adversarial dynamics that burn out developers.
 ## Causes ▼

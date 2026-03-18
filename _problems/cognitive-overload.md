@@ -58,6 +58,8 @@ Cognitive overload occurs when developers are required to understand and work wi
 <br/>  Frequent switching between different systems or problem domains fragments attention and overwhelms working memory.
 - [Complex Domain Model](complex-domain-model.md)
 <br/>  Inherently complex business domains require developers to hold extensive domain knowledge in working memory.
+- [Spaghetti Code](spaghetti-code.md)
+<br/>  Spaghetti code with tangled, unstructured control flow forces developers to trace complex execution paths, directly c....
 ## Detection Methods ○
 
 - **Complexity Metrics:** Measure cyclomatic complexity, coupling, and other architectural complexity indicators

@@ -44,6 +44,8 @@ Debugging difficulties arise when developers struggle to identify, isolate, and 
 <br/>  When bugs are too difficult to properly debug and fix, teams implement workarounds that add complexity to the system.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Prolonged and frustrating debugging sessions drain developer morale and contribute to burnout over time.
+- [Delayed Issue Resolution](delayed-issue-resolution.md)
+<br/>  When debugging is difficult, issues take longer to resolve.
 ## Causes ▼
 
 - [Spaghetti Code](spaghetti-code.md)

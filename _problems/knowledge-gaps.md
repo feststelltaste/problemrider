@@ -47,10 +47,6 @@ Knowledge gaps occur when team members lack sufficient understanding of the syst
 <br/>  Team members with knowledge gaps become dependent on the few who hold the necessary expertise.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Developers working without sufficient understanding of the system introduce more defects.
-- [Cargo Culting](cargo-culting.md)
-<br/>  Developers copy patterns without understanding them because they lack the knowledge to evaluate alternatives.
-- [Dependency on Supplier](dependency-on-supplier.md)
-<br/>  Heavy dependency on external suppliers creates risk.
 
 ## Causes ▼
 

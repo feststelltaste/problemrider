@@ -45,6 +45,8 @@ Frequent hotfixes and rollbacks occur when teams regularly need to deploy emerge
 <br/>  Developer time spent on emergency fixes reduces time available for planned feature development.
 - [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
 <br/>  Repeated release failures and rollbacks erode business stakeholders' trust in the development team's ability to deliver.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Constant emergency fixes and rollbacks create stress and interrupt planned work, directly leading to developer frustr....
 ## Causes ▼
 
 - [Poor Test Coverage](poor-test-coverage.md)

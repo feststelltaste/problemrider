@@ -29,8 +29,6 @@ SQL injection vulnerabilities occur when applications fail to properly sanitize 
 
 ## Symptoms ▲
 
-- [Silent Data Corruption](silent-data-corruption.md)
-<br/>  Attackers can use SQL injection to modify or delete data, causing corruption of database contents.
 - [System Outages](system-outages.md)
 <br/>  Destructive SQL injection attacks like DROP TABLE can cause system outages by destroying critical data.
 ## Causes ▼

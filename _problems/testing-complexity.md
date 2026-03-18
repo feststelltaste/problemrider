@@ -32,8 +32,6 @@ Testing complexity is a common problem in software systems with a high degree of
 
 ## Symptoms ▲
 
-- [Test Debt](test-debt.md)
-<br/>  When testing is too complex, teams take shortcuts and skip tests, accumulating test debt over time.
 - [Insufficient Testing](insufficient-testing.md)
 <br/>  The high effort required to test duplicated functionality leads to insufficient test coverage overall.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
@@ -52,6 +50,8 @@ Testing complexity is a common problem in software systems with a high degree of
 <br/>  Code that is inherently difficult to test due to poor design adds to overall testing complexity.
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Tightly coupled components cannot be tested in isolation, requiring complex integration test setups.
+- [Test Debt](test-debt.md)
+<br/>  When testing is too complex, teams take shortcuts and skip tests, accumulating test debt over time.
 ## Detection Methods ○
 - **Test Case Analysis:** Analyze your test cases to identify duplicated tests.
 - **Code Coverage Analysis:** Analyze your code coverage to identify areas of the system that are not being tested.

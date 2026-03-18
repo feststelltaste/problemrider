@@ -56,6 +56,8 @@ Code duplication occurs when similar or identical functionality is implemented i
 <br/>  Teams working in isolation are unaware of existing implementations, leading them to independently write similar code.
 - [Time Pressure](time-pressure.md)
 <br/>  Under deadline pressure, developers copy existing code rather than investing time in proper abstractions.
+- [Convenience-Driven Development](convenience-driven-development.md)
+<br/>  Convenience-driven development directly leads to code duplication since copying existing code is the most convenient ....
 ## Detection Methods ○
 - **Static Analysis Tools:** Use tools that can identify duplicate or similar code blocks across the codebase
 - **Copy-Paste Detection:** Tools like CPD (Copy-Paste Detector) can find duplicated code segments

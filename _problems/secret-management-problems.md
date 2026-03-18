@@ -49,6 +49,8 @@ Secret management problems occur when applications improperly handle sensitive i
 <br/>  Developers hardcode secrets for convenience during development, and these shortcuts persist into production without being addressed.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers lacking security experience may not understand the risks of poor secret management practices like hardcoding credentials.
+- [Hardcoded Values](hardcoded-values.md)
+<br/>  Hardcoded values (including secrets in source code) are a direct and common cause of secret management problems.
 ## Detection Methods ○
 
 - **Source Code Scanning:** Scan code repositories for hardcoded secrets and credentials

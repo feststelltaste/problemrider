@@ -39,8 +39,6 @@ Market pressure occurs when competitive forces, regulatory changes, economic con
 <br/>  Market pressure directly creates deadline pressure as teams are pushed to deliver features quickly to match competitor timelines or satisfy urgent customer demands.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  When market forces demand rapid delivery, teams implement workarounds instead of proper solutions to meet aggressive timelines.
-- [Increased Time to Market](increased-time-to-market.md)
-<br/>  Paradoxically, the technical debt accumulated from rushed market-driven decisions eventually slows future delivery, increasing overall time to market.
 - [Missed Deadlines](missed-deadlines.md)
 <br/>  Unrealistic expectations driven by market competition lead to commitments that teams cannot realistically meet.
 - [Product Direction Chaos](product-direction-chaos.md)

@@ -44,8 +44,8 @@ High coupling and low cohesion are two of the most common design problems in sof
 <br/>  The unpredictable cascading effects of changes in coupled code makes developers hesitant to modify the system.
 - [Increased Cognitive Load](increased-cognitive-load.md)
 <br/>  Understanding any single component requires understanding many other components it is coupled to, overwhelming developers.
-- [Deployment Coupling](deployment-coupling.md)
-<br/>  Tightly coupled components must be deployed together because changes to one affect the others.
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  Highly coupled code with low cohesion requires understanding many interconnected modules to comprehend any single par....
 ## Causes ▼
 
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)

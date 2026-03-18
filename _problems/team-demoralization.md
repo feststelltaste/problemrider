@@ -52,8 +52,8 @@ Team demoralization occurs when team members experience a significant decline in
 <br/>  Persistent frustration from working with problematic systems or processes leads to burnout and eventual demoralization.
 - [Team Dysfunction](team-dysfunction.md)
 <br/>  Interpersonal conflicts, lack of trust, and structural problems create a toxic environment that demoralizes team members.
-- [Micromanagement Culture](micromanagement-culture.md)
-<br/>  When management is disengaged from the team's concerns and challenges, team members feel unsupported and lose faith in leadership.
+- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
+<br/>  Unclear Goals and Priorities directly demoralizes teams through the sense of futility when goals shift and work is ab....
 ## Detection Methods ○
 
 - **Team Morale Surveys:** Regular anonymous surveys about job satisfaction and motivation

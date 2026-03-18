@@ -42,6 +42,8 @@ Long-running database transactions are a specific type of long-running transacti
 <br/>  Long-running transactions consume connection slots, memory, and transaction log space for extended periods.
 - [Service Timeouts](service-timeouts.md)
 <br/>  Application requests waiting for database operations blocked by long-running transactions exceed timeout thresholds.
+- [Database Connection Leaks](database-connection-leaks.md)
+<br/>  Long-running database transactions tie up connections for extended periods, and abandoned transactions can leak conne....
 ## Causes ▼
 
 - [Inefficient Database Indexing](inefficient-database-indexing.md)

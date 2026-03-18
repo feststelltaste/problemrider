@@ -57,6 +57,8 @@ Long release cycles occur when the time between software releases becomes excess
 <br/>  Without adequate automated tests, teams must rely on lengthy manual testing phases to validate releases.
 - [Long Build and Test Times](long-build-and-test-times.md)
 <br/>  Slow build and test pipelines extend the feedback loop, making it impractical to release more frequently.
+- [Missing Rollback Strategy](missing-rollback-strategy.md)
+<br/>  Without rollback capabilities, teams batch more changes into fewer releases to minimize the risk of irreversible fail....
 ## Detection Methods ○
 - **Release Frequency Metrics:** Track time between releases and compare to industry standards or goals
 - **Release Preparation Time:** Measure how long teams spend preparing for each release

@@ -48,8 +48,8 @@ Monolithic architecture constraints occur when applications are built as single,
 <br/>  Changes in one area of the monolith can unexpectedly affect other areas, creating bottlenecks where modifications require broad system understanding.
 - [Technology Lock-In](technology-lock-in.md)
 <br/>  Technology decisions affect the entire application, preventing individual components from adopting better-suited technologies.
-- [Single Entry Point Design](single-entry-point-design.md)
-<br/>  Single entry point design creates a bottleneck and coupling hub.
+- [Long Build and Test Times](long-build-and-test-times.md)
+<br/>  Monolithic architectures require building and testing the entire application together, directly leading to long build....
 
 ## Causes ▼
 

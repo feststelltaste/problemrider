@@ -40,8 +40,6 @@ Alignment and padding issues occur when data structures are organized in ways th
 <br/>  Oversized structures due to padding waste memory and contribute to fragmentation when many instances are allocated.
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Poor memory layout from alignment issues reduces cache utilization and increases memory bandwidth, slowing performance.
-- [DMA Coherency Issues](dma-coherency-issues.md)
-<br/>  DMA coherency problems manifest at the hardware-software boundary.
 
 ## Causes ▼
 

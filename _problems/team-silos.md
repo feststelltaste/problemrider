@@ -42,6 +42,8 @@ Team silos are a common organizational problem where different teams or individu
 <br/>  When teams don't share knowledge, critical information becomes trapped within specific teams or individuals.
 - [Team Coordination Issues](team-coordination-issues.md)
 <br/>  Teams that work in isolation lack the communication patterns needed to coordinate effectively when collaboration is required.
+- [Reduced Team Flexibility](reduced-team-flexibility.md)
+<br/>  When teams work in silos, the organization loses flexibility to reassign work across teams because knowledge is conce....
 ## Causes ▼
 
 - [Poor Communication](poor-communication.md)

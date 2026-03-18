@@ -34,8 +34,6 @@ High maintenance costs are a common problem for legacy systems. As a system ages
 
 - [Inability to Innovate](inability-to-innovate.md)
 <br/>  When most of the budget is consumed by maintenance, teams have no capacity to explore new technologies or build new features.
-- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
-<br/>  High ongoing maintenance costs make it difficult to justify additional investment in modernization since budgets are already strained.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Lack of new features and slow response to change requests frustrates customers as competitors deliver improvements.
 - [High Turnover](high-turnover.md)

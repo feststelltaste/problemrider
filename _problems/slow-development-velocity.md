@@ -57,6 +57,8 @@ Slow development velocity represents a sustained reduction in the team's ability
 <br/>  Slow build times, poor tooling, and cumbersome development workflows waste developer time on non-productive activities.
 - [Context Switching Overhead](context-switching-overhead.md)
 <br/>  Frequent context switching between tasks fragments developer attention and reduces effective output.
+- [Review Bottlenecks](review-bottlenecks.md)
+<br/>  Review bottlenecks directly slow development velocity by blocking code from being merged and deployed.
 ## Detection Methods ○
 - **Velocity Tracking:** Track the team's velocity over time to see if it is improving or declining. Monitor sprint velocity, story points completed, or features delivered over time.
 - **Cycle Time Analysis:** Analyze the time it takes to get a task from start to finish. Measure time from feature request to deployment for similar types of work.

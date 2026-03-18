@@ -53,6 +53,8 @@ A high defect rate in production is a clear sign that there are serious problems
 <br/>  Without peer review of code changes, logical errors and quality issues go undetected before they reach production.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated shortcuts and complexity make the codebase fragile and prone to unintended side effects when changes are made.
+- [Inadequate Integration Tests](inadequate-integration-tests.md)
+<br/>  Lack of integration testing allows integration-level bugs to reach production, directly contributing to a high defect....
 ## Detection Methods ○
 
 - **Bug Tracking Metrics:** Monitor metrics like the number of new bugs per release, the time it takes to resolve them, and the number of critical bugs.

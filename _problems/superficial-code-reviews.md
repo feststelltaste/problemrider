@@ -56,6 +56,8 @@ Superficial code reviews occur when the review process consistently focuses on s
 <br/>  Reviewers lacking domain or architectural knowledge default to commenting on style because they cannot evaluate deeper design issues.
 - [Nitpicking Culture](nitpicking-culture.md)
 <br/>  A culture that rewards finding minor issues trains reviewers to focus on surface details rather than substantive problems.
+- [Reviewer Inexperience](reviewer-inexperience.md)
+<br/>  Inexperienced reviewers default to surface-level comments because they cannot evaluate deeper design issues.
 ## Detection Methods ○
 
 - **Review Comment Classification:** Categorize review comments to identify focus areas

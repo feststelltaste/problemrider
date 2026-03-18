@@ -56,6 +56,8 @@ Difficult to test code refers to software components that cannot be easily or ef
 <br/>  God objects with many responsibilities and dependencies require extensive mocking to test even simple functionality.
 - [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
 <br/>  Large functions that do many things require testing entire workflows rather than individual behaviors.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  High coupling and low cohesion directly makes code difficult to test because components cannot be isolated.
 ## Detection Methods ○
 - **Test Coverage Analysis:** Low coverage in specific modules often indicates testing difficulties
 - **Test Complexity Metrics:** Measure the number of setup steps or mock objects required for tests

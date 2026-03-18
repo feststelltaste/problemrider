@@ -55,6 +55,8 @@ Developer frustration and burnout is a state of emotional, physical, and mental 
 <br/>  Maintaining untested legacy code is frustrating because every change carries high risk and requires excessive caution.
 - [Micromanagement Culture](micromanagement-culture.md)
 <br/>  Being micromanaged strips developers of autonomy and professional satisfaction, contributing to frustration.
+- [Development Disruption](development-disruption.md)
+<br/>  Constant development disruptions frustrate developers and contribute to burnout.
 ## Detection Methods ○
 - **One-on-One Meetings:** Managers should have regular, open, and honest conversations with their team members to gauge their well-being.
 - **Team Retrospectives:** Use retrospectives as a safe space for the team to voice their frustrations and concerns.

@@ -56,6 +56,8 @@ Customer dissatisfaction occurs when users experience frustration, disappointmen
 <br/>  Declining system quality manifests as bugs, inconsistencies, and unreliability that customers directly experience.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  When customers must wait extended periods for needed features or bug fixes, their satisfaction with the product declines.
+- [Inconsistent Behavior](inconsistent-behavior.md)
+<br/>  Inconsistent system behavior directly frustrates users and causes dissatisfaction.
 ## Detection Methods ○
 
 - **Customer Satisfaction Surveys:** Regular assessment of user satisfaction with system experience

@@ -32,8 +32,6 @@ Slow application performance is a broad problem that can have a wide range of ca
 
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Users become dissatisfied when the application is slow and unresponsive, leading to complaints and churn.
-- [System Outages](system-outages.md)
-<br/>  Severe performance degradation can cascade into full outages when resources are exhausted.
 ## Causes ▼
 
 - [Slow Database Queries](slow-database-queries.md)

@@ -43,6 +43,8 @@ Modernization ROI justification failure occurs when organizations cannot build c
 <br/>  Failure to justify and fund modernization allows competitors with modern systems to outpace the organization in features and agility.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Technical teams become frustrated when they cannot get approval for modernization they know is needed, creating tension with management.
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  Inability to justify modernization investment means legacy systems continue running on increasingly obsolete technology stacks.
 ## Causes ▼
 
 - [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
@@ -51,8 +53,6 @@ Modernization ROI justification failure occurs when organizations cannot build c
 <br/>  When technical debt is not visible or measured, the true cost of maintaining legacy systems is underestimated, making modernization appear unnecessary.
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
 <br/>  When management does not understand the technical reality, they cannot appreciate why modernization investment is necessary.
-- [Obsolete Technologies](obsolete-technologies.md)
-<br/>  Inability to justify modernization investment means legacy systems continue running on increasingly obsolete technology stacks.
 ## Detection Methods ○
 
 - Track modernization proposal approval rates and reasons for rejection

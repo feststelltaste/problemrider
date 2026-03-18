@@ -37,6 +37,10 @@ A bloated class is a class that has accumulated too many responsibilities over t
 <br/>  Modifying one part of a bloated class frequently breaks unrelated functionality within the same class.
 - [Merge Conflicts](merge-conflicts.md)
 <br/>  Multiple developers working on different features within the same bloated class frequently create merge conflicts.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Bloated classes are a clear form of technical debt.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Bloated classes with many responsibilities slow down feature development because developers must understand the entir....
 ## Causes ▼
 
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)

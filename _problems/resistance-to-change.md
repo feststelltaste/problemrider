@@ -56,6 +56,8 @@ Resistance to change occurs when development teams consistently avoid making nec
 <br/>  When mistakes are punished, team members avoid taking the risk of making changes that could fail and draw blame.
 - [Maintenance Paralysis](maintenance-paralysis.md)
 <br/>  Teams that cannot verify changes don't break functionality become paralyzed and resist making any improvements.
+- [Past Negative Experiences](past-negative-experiences.md)
+<br/>  Past negative experiences with changes (failed deployments, broken systems) are a direct cause of teams becoming resi....
 ## Detection Methods ○
 
 - **Improvement Proposal Tracking:** Monitor how many improvement initiatives are started vs. completed

@@ -52,8 +52,6 @@ Cascade delays occur when delays in one project or work stream trigger delays in
 <br/>  Bottlenecks in the development pipeline slow deliverables that multiple downstream teams depend on.
 - [Poor Planning](poor-planning.md)
 <br/>  Inadequate planning fails to account for project interdependencies, leaving no buffer for delays to be absorbed.
-- [Tight Coupling Issues](tight-coupling-issues.md)
-<br/>  Tightly coupled project dependencies mean delays cannot be isolated and inevitably propagate to dependent work.
 - [Approval Dependencies](approval-dependencies.md)
 <br/>  Mandatory approvals from specific individuals create delay points that block entire chains of dependent work.
 ## Detection Methods ○

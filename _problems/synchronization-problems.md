@@ -40,8 +40,6 @@ Synchronization problems occur when similar or identical functionality exists in
 <br/>  Bug fixes applied to one copy of duplicated logic don't reach other copies, causing the bug to persist in some workflows.
 - [Regression Bugs](regression-bugs.md)
 <br/>  Updating one instance of duplicated logic without updating others causes regressions in the unchanged locations.
-- [Increased Bug Count](increased-bug-count.md)
-<br/>  Each unsynchronized copy of logic becomes a potential source of new bugs as copies diverge over time.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  Bugs that manifest differently depending on which code path is executed are extremely difficult to diagnose.
 ## Causes ▼

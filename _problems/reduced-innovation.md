@@ -39,8 +39,6 @@ Reduced innovation occurs when development teams lose their drive to explore new
 <br/>  Avoidance of new approaches means the system architecture remains unchanged despite known limitations.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Failure to adopt better technologies and approaches causes the organization to fall behind competitors.
-- [Increased Manual Work](increased-manual-work.md)
-<br/>  Refusing to adopt modern automation tools forces teams to continue performing tasks manually.
 ## Causes ▼
 
 - [Fear of Failure](fear-of-failure.md)

@@ -45,8 +45,6 @@ Spaghetti code refers to source code that has become tangled, unstructured, and 
 <br/>  The unpredictable control flow and hidden dependencies in spaghetti code make it a constant source of bugs.
 - [Fear of Change](fear-of-change.md)
 <br/>  Developers become reluctant to modify spaghetti code because changes have unpredictable and far-reaching consequences.
-- [Stack Overflow Errors](stack-overflow-errors.md)
-<br/>  Stack overflow errors crash the application unexpectedly.
 
 ## Causes ▼
 

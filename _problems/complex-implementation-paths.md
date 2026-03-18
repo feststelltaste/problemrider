@@ -44,8 +44,6 @@ Complex implementation paths occur when straightforward business requirements mu
 <br/>  When straightforward features require convoluted multi-step implementations, the pace of feature delivery slows significantly.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Developers become demoralized when they must build elaborate solutions for simple requirements, feeling their effort is disproportionate to the business value delivered.
-- [Avoidance Behaviors](avoidance-behaviors.md)
-<br/>  Developers avoid working on features that require navigating complex implementation paths, postponing difficult tasks in favor of simpler ones.
 - [Increased Cost of Development](increased-cost-of-development.md)
 <br/>  The mismatch between simple requirements and complex implementations inflates development costs well beyond what the business value warrants.
 ## Causes ▼

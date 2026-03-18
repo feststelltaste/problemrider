@@ -46,6 +46,8 @@ Increasing brittleness occurs when software systems become progressively more fr
 <br/>  Developers must proceed cautiously in brittle systems, extensively testing every change, which slows development.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Frequent unexpected failures from brittleness keep teams in reactive mode, responding to cascading issues.
+- [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
+<br/>  A brittle codebase where small changes have unpredictable effects directly leads to developers providing large estima....
 ## Causes ▼
 
 - [Tight Coupling Issues](tight-coupling-issues.md)

@@ -38,8 +38,6 @@ Skill development gaps occur when team members fail to develop necessary experti
 <br/>  When only a few team members develop certain skills, they become the sole experts and single points of failure for those areas.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  Skill gaps cause knowledge to remain siloed with specialists rather than being distributed across the team.
-- [Inappropriate Skillset](inappropriate-skillset.md)
-<br/>  Failure to develop necessary skills means the team lacks the competencies required for their evolving work.
 - [Slow Knowledge Transfer](slow-knowledge-transfer.md)
 <br/>  When skills are not broadly developed, there are fewer people capable of mentoring and transferring knowledge effectively.
 - [Legacy Skill Shortage](legacy-skill-shortage.md)

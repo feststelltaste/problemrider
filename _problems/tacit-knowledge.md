@@ -52,6 +52,8 @@ Tacit knowledge is knowledge that is difficult to transfer to another person by 
 <br/>  Even when knowledge is documented, documentation that becomes outdated forces developers to rely on tacit knowledge instead.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
 <br/>  Code that is hard to understand cannot serve as documentation, forcing understanding to remain tacit in developers' minds.
+- [Poor Documentation](poor-documentation.md)
+<br/>  Poor documentation directly forces knowledge to remain tacit.
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers if they feel like they have the knowledge they need to do their jobs.
 - **Code Reviews:** Look for code that is difficult to understand.

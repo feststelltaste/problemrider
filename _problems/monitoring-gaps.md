@@ -43,8 +43,6 @@ Monitoring gaps are blind spots in a system's observability. They are areas of t
 
 - [Poor Operational Concept](poor-operational-concept.md)
 <br/>  Systems designed without considering operational needs naturally lack the instrumentation and monitoring needed for production observability.
-- [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
-<br/>  Underinvestment in monitoring tools and infrastructure leaves teams without the resources to achieve adequate observability.
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  Teams that lack experience with production operations may not know what metrics and alerts are important to monitor.
 - [Time Pressure](time-pressure.md)

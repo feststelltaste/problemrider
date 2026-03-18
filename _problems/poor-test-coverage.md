@@ -45,6 +45,10 @@ Poor test coverage occurs when significant portions of the codebase, particularl
 <br/>  Gaps in automated test coverage must be compensated by extensive manual testing, which is slow and error-prone.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Without tests to verify correctness, developers avoid refactoring for fear of introducing undetected bugs.
+- [Constant Firefighting](constant-firefighting.md)
+<br/>  Poor test coverage allows bugs to reach production, which causes constant firefighting.
+- [Quality Blind Spots](quality-blind-spots.md)
+<br/>  Gaps in test coverage directly create areas where defects go undetected.
 ## Causes ▼
 
 - [Deadline Pressure](deadline-pressure.md)

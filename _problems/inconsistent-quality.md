@@ -55,6 +55,8 @@ Inconsistent quality occurs when different parts of a software system exhibit dr
 <br/>  Accumulated technical debt concentrates in certain areas, causing those parts to deteriorate while maintained areas stay healthy.
 - [Insufficient Testing](insufficient-testing.md)
 <br/>  Uneven test coverage means some parts of the system have comprehensive quality assurance while others have none.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Teams with inexperienced developers produce inconsistent quality because skill levels vary, and less experienced deve....
 ## Detection Methods ○
 
 - **Quality Metric Analysis:** Compare code quality metrics (complexity, test coverage, bug rates) across different system components

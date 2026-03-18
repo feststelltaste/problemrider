@@ -44,6 +44,10 @@ Insufficient testing is a major cause of poor software quality. When a product i
 <br/>  Teams spend significant time dealing with production issues that testing should have caught.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Frequent production bugs caused by insufficient testing directly impact user experience and satisfaction.
+- [Increased Bug Count](increased-bug-count.md)
+<br/>  Insufficient testing directly leads to more bugs reaching production, which is a more natural symptom than some curre....
+- [Increased Risk of Bugs](increased-risk-of-bugs.md)
+<br/>  Without tests as a safety net, the risk of introducing bugs with any change increases significantly.
 
 ## Causes ▼
 

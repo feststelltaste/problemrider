@@ -54,6 +54,8 @@ Single points of failure occur when critical system knowledge, capabilities, or 
 <br/>  Without documentation, knowledge stays locked in individuals' heads, making the organization dependent on their availability.
 - [Skill Development Gaps](skill-development-gaps.md)
 <br/>  When team members fail to develop breadth of skills, expertise concentrates in few individuals who become single points of failure.
+- [Inadequate Onboarding](inadequate-onboarding.md)
+<br/>  Inadequate onboarding prevents new team members from developing the knowledge to serve as backup for critical functio....
 ## Detection Methods ○
 
 - **Bus Factor Analysis:** Identify what would happen if key individuals were unavailable

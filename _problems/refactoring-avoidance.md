@@ -42,6 +42,8 @@ Refactoring avoidance is the phenomenon where a development team consistently po
 <br/>  Instead of refactoring problematic code, developers build workarounds that add further complexity.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Working around structural problems instead of fixing them makes each new change progressively slower to implement.
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  When teams avoid refactoring, the architecture cannot evolve.
 ## Causes ▼
 
 - [Fear of Change](fear-of-change.md)

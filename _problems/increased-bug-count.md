@@ -57,6 +57,8 @@ Increased bug count occurs when software changes consistently introduce new defe
 <br/>  Tightly coupled components mean changes in one area inadvertently break others, multiplying bug introduction.
 - [Increased Cognitive Load](increased-cognitive-load.md)
 <br/>  When developers struggle to understand the code, they are more likely to make mistakes that introduce bugs.
+- [Insufficient Code Review](insufficient-code-review.md)
+<br/>  Insufficient code review allows bugs to pass through the development process undetected, directly contributing to inc....
 ## Detection Methods ○
 
 - **Bug Tracking Analysis:** Monitor bug report trends, severity distributions, and time-to-resolution metrics

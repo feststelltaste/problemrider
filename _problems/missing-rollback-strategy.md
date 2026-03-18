@@ -42,6 +42,8 @@ Deployment Risk occurs when teams deploy systems without having a reliable, test
 <br/>  When deployments go wrong and cannot be quickly reverted, incidents last longer and have greater impact.
 - [Large, Risky Releases](large-risky-releases.md)
 <br/>  Deployment anxiety from missing rollback leads teams to batch changes into fewer, larger releases that are even riskier.
+- [Release Anxiety](release-anxiety.md)
+<br/>  Without a tested rollback strategy, every deployment becomes a high-stakes event since problems cannot be easily reve....
 ## Causes ▼
 
 - [Manual Deployment Processes](manual-deployment-processes.md)

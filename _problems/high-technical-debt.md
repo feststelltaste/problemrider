@@ -48,6 +48,8 @@ High technical debt is the implied cost of rework caused by choosing an easy (li
 <br/>  High technical debt makes changes risky, causing developers and management to resist modifications to the system.
 - [Inability to Innovate](inability-to-innovate.md)
 <br/>  Teams spend so much effort managing debt-laden code that they have no capacity to explore new approaches or technologies.
+- [Increased Cost of Development](increased-cost-of-development.md)
+<br/>  Technical debt directly increases the cost of all development work as developers must navigate complexity, work aroun....
 ## Causes ▼
 
 - [Refactoring Avoidance](refactoring-avoidance.md)

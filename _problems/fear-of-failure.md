@@ -53,6 +53,8 @@ Fear of failure is a powerful psychological barrier that can significantly hinde
 <br/>  Past failures that led to negative consequences for individuals create lasting fear that discourages future risk-taking.
 - [Micromanagement Culture](micromanagement-culture.md)
 <br/>  Excessive oversight signals distrust and makes team members afraid that any mistake will be scrutinized and punished.
+- [Past Negative Experiences](past-negative-experiences.md)
+<br/>  Past negative experiences (beyond just failed changes) are a direct cause of fear of failure.
 ## Detection Methods ○
 - **Team Retrospectives:** Observe discussions around mistakes and failures; is there a focus on blame or learning?
 - **Decision-Making Speed:** Track how quickly the team makes decisions, especially for non-trivial matters.

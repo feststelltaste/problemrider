@@ -45,8 +45,6 @@ Vendor dependency occurs when organizations become excessively reliant on extern
 <br/>  Vendors with significant leverage can raise prices knowing the organization cannot easily switch.
 - [Reduced Team Flexibility](reduced-team-flexibility.md)
 <br/>  Dependence on vendor timelines and roadmaps limits the organization's ability to respond quickly to changing needs.
-- [Data Migration Complexities](data-migration-complexities.md)
-<br/>  Without a migration strategy, organizations deepen vendor dependency over time without evaluating alternatives.
 ## Causes ▼
 
 - [Poor Planning](poor-planning.md)

@@ -45,8 +45,6 @@ An inefficient development environment creates friction in the daily workflow of
 <br/>  Constantly fighting with slow and unreliable development tools creates frustration and contributes to burnout.
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
 <br/>  Complex environment setup processes make it hard for new team members to become productive quickly.
-- [Context Switching Overhead](context-switching-overhead.md)
-<br/>  Long build or test times force developers to switch to other tasks while waiting, increasing cognitive overhead.
 ## Causes ▼
 
 - [Tool Limitations](tool-limitations.md)

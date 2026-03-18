@@ -50,8 +50,8 @@ Team coordination issues arise when multiple developers or teams have to work on
 <br/>  When components are tightly coupled, changes in one area frequently affect others, requiring careful coordination between developers.
 - [Team Silos](team-silos.md)
 <br/>  Teams working in isolation lack awareness of what others are doing, making coordination on shared codebases difficult.
-- [Unclear Documentation Ownership](unclear-documentation-ownership.md)
-<br/>  When code ownership boundaries are undefined, developers don't know who to coordinate with about changes.
+- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
+<br/>  When code ownership boundaries and team responsibilities are poorly defined, coordination becomes difficult because d....
 ## Detection Methods ○
 - **Version Control Metrics:** Use tools to measure the number of merge conflicts and the amount of time that developers spend resolving them.
 - **Developer Surveys:** Ask developers if they feel like they are able to work effectively with other developers on the team.

@@ -33,6 +33,8 @@ A shared database is a situation where multiple services or components share a s
 <br/>  Teams owning different services must coordinate database changes, creating communication overhead and cross-team dependencies.
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Services become tightly coupled through their shared data model, making it impossible to change one without considering all others.
+- [Resource Contention](resource-contention.md)
+<br/>  A shared database creates resource contention as all services compete for the same database CPU, memory, and I/O reso....
 ## Causes ▼
 
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)

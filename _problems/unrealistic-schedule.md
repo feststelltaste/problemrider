@@ -53,8 +53,6 @@ Unrealistic schedules occur when project timelines are set based on wishful thin
 
 - [Poor Planning](poor-planning.md)
 <br/>  Inadequate planning that fails to account for complexity, dependencies, and risks produces unrealistic schedules.
-- [Micromanagement Culture](micromanagement-culture.md)
-<br/>  Management disconnected from technical work underestimates effort required and creates optimistic schedules.
 - [Planning Dysfunction](planning-dysfunction.md)
 <br/>  Dysfunctional planning processes that ignore historical data and team input produce unrealistic schedules.
 ## Detection Methods ○

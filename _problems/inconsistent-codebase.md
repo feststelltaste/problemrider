@@ -42,6 +42,8 @@ An inconsistent codebase lacks coherent and unified design, style, and standards
 <br/>  Without agreed-upon standards, code reviews devolve into debates about stylistic preferences.
 - [Increased Cognitive Load](increased-cognitive-load.md)
 <br/>  Developers must mentally switch between different conventions and patterns when working across modules.
+- [Inconsistent Behavior](inconsistent-behavior.md)
+<br/>  An inconsistent codebase where different patterns are used for the same concerns directly leads to inconsistent syste....
 ## Causes ▼
 
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)

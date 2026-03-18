@@ -55,6 +55,8 @@ Decision avoidance occurs when development teams consistently postpone or defer 
 <br/>  When management requires approval for routine decisions, team members learn to defer all decisions upward rather than taking ownership.
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  Lacking sufficient understanding of the technical domain makes people reluctant to commit to decisions they feel unqualified to make.
+- [Fear of Conflict](fear-of-conflict.md)
+<br/>  Fear of conflict can cause people to avoid making decisions that might lead to disagreements or confrontation with co....
 ## Detection Methods ○
 
 - **Decision Log Tracking:** Monitor how long important decisions remain unresolved

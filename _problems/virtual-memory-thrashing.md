@@ -39,6 +39,8 @@ Virtual memory thrashing occurs when the system's working set of active pages ex
 <br/>  Constant page swapping between RAM and disk generates extremely high disk I/O activity.
 - [Service Timeouts](service-timeouts.md)
 <br/>  Applications become so slow during thrashing that they fail to respond within timeout windows.
+- [System Outages](system-outages.md)
+<br/>  Severe thrashing can make a system completely unresponsive, effectively causing a system outage when the application ....
 ## Causes ▼
 
 - [Memory Leaks](memory-leaks.md)

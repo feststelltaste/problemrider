@@ -47,12 +47,12 @@ Changing project scope occurs when project requirements, goals, or deliverables 
 <br/>  Scope changes invalidate prior design decisions, forcing features to be rebuilt to match new requirements.
 - [Budget Overruns](budget-overruns.md)
 <br/>  Uncontrolled scope changes increase the total work required, causing projects to exceed their budgets.
+- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
+<br/>  Changing project scope directly causes deadlines to shift as the team must accommodate new or altered requirements.
 ## Causes ▼
 
 - [No Formal Change Control Process](no-formal-change-control-process.md)
 <br/>  Without a formal process to evaluate and approve changes, scope modifications happen without impact assessment.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
-<br/>  Constantly evolving requirements are the direct driver of scope changes during development.
 - [Product Direction Chaos](product-direction-chaos.md)
 <br/>  Conflicting stakeholder priorities and lack of clear product leadership cause the project direction to shift repeatedly.
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)

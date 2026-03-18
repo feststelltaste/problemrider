@@ -45,6 +45,8 @@ Inadequate code reviews are a major contributor to poor software quality. This e
 <br/>  Without meaningful review feedback, code quality steadily degrades as poor patterns go unchallenged.
 - [Limited Team Learning](limited-team-learning.md)
 <br/>  Superficial reviews eliminate the knowledge-sharing benefit of code reviews, reducing team learning opportunities.
+- [Increased Risk of Bugs](increased-risk-of-bugs.md)
+<br/>  When code reviews fail to catch issues, the risk of bugs reaching production increases directly.
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)

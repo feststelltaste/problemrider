@@ -45,6 +45,8 @@ Information decay occurs when documentation, specifications, and knowledge artif
 <br/>  Developers working from outdated or inaccurate documentation are more likely to make incorrect assumptions and introduce bugs.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Developers waste time discovering how the system actually works because documentation no longer reflects reality.
+- [Knowledge Gaps](knowledge-gaps.md)
+<br/>  When documentation becomes outdated, team members develop knowledge gaps because they cannot learn from reliable writ....
 ## Causes ▼
 
 - [Poor Documentation](poor-documentation.md)

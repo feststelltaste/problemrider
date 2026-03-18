@@ -50,6 +50,8 @@ High database resource utilization can be a major cause of poor application perf
 <br/>  Missing or poorly designed indexes force the database to perform full table scans, consuming excessive CPU and I/O.
 - [High Connection Count](high-connection-count.md)
 <br/>  Too many open database connections consume memory and CPU resources on the database server.
+- [Database Query Performance Issues](database-query-performance-issues.md)
+<br/>  Poorly optimized queries consume excessive CPU and I/O on the database server, directly contributing to high resource....
 ## Detection Methods ○
 
 - **Database Monitoring Tools:** Use specialized database monitoring tools (e.g., pgAdmin for PostgreSQL, MySQL Workbench, or third-party tools like Percona Monitoring and Management) to inspect resource usage, running queries, and configuration.

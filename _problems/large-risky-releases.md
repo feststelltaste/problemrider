@@ -43,6 +43,8 @@ Large, risky releases are a common problem in organizations with long release cy
 <br/>  Failed large releases can cause significant service interruptions due to the complexity of the changes and difficulty of rollback.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Large risky releases that fail or introduce bugs directly impact users, causing frustration and dissatisfaction.
+- [Increased Bug Count](increased-bug-count.md)
+<br/>  Large releases with many bundled changes are more likely to introduce bugs due to complex interactions between change....
 ## Causes ▼
 
 - [Long Release Cycles](long-release-cycles.md)

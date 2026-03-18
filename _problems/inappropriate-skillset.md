@@ -46,6 +46,8 @@ Inappropriate skillset occurs when team members are assigned tasks or roles that
 <br/>  Constantly struggling with tasks beyond their skill level leads to frustration and eventual burnout.
 - [Knowledge Dependency](knowledge-dependency.md)
 <br/>  Team members with skill gaps remain dependent on experienced colleagues for guidance and decision-making.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Team members working outside their competency produce lower quality code, as they lack knowledge of best practices an....
 ## Causes ▼
 
 - [Poor Planning](poor-planning.md)

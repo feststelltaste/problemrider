@@ -45,6 +45,8 @@ Inadequate error handling occurs when applications fail to properly anticipate, 
 <br/>  Users encounter cryptic error messages and application crashes, leading to frustration and loss of trust.
 - [Cascade Failures](cascade-failures.md)
 <br/>  When errors are not properly caught and managed, a single failure can propagate through the system triggering chain reactions.
+- [Slow Incident Resolution](slow-incident-resolution.md)
+<br/>  Poor error handling with generic messages and swallowed exceptions makes it much harder and slower to diagnose and re....
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)

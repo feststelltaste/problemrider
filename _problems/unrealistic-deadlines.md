@@ -53,10 +53,10 @@ Unrealistic deadlines occur when project timelines are set without proper consid
 
 - [Poor Planning](poor-planning.md)
 <br/>  Deadlines set without proper estimation or understanding of actual work required lead to unrealistic timelines.
-- [Micromanagement Culture](micromanagement-culture.md)
-<br/>  Management that is disconnected from technical realities sets deadlines without understanding development complexity.
 - [Requirements Ambiguity](requirements-ambiguity.md)
 <br/>  When requirements are vague, effort estimation is inaccurate, making any deadline based on those estimates unrealistic.
+- [Market Pressure](market-pressure.md)
+<br/>  Market pressure is already listed as a cause of Time Pressure but is also a direct cause of unrealistic deadlines whe....
 ## Detection Methods ○
 
 - **Estimate vs. Deadline Analysis:** Compare development estimates with imposed deadlines

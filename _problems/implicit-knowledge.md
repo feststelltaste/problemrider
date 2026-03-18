@@ -49,8 +49,6 @@ Implicit knowledge refers to critical information about system behavior, busines
 <br/>  When documentation practices are poor, knowledge that should be written down remains only in people's heads.
 - [Time Pressure](time-pressure.md)
 <br/>  Under time pressure, teams skip knowledge capture and documentation in favor of delivering features faster.
-- [High Turnover](high-turnover.md)
-<br/>  When experienced team members leave without transferring knowledge, their understanding becomes lost implicit knowledge.
 ## Detection Methods ○
 
 - **Knowledge Dependency Mapping:** Identify which team members are consulted for specific types of problems

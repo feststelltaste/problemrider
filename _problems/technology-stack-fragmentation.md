@@ -48,6 +48,8 @@ Technology stack fragmentation occurs when an organization accumulates multiple 
 <br/>  Integrating systems built on incompatible technology stacks requires extensive translation layers and custom solutions.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  Cross-system features require implementation across multiple incompatible stacks, dramatically increasing delivery time.
+- [Difficult Developer Onboarding](difficult-developer-onboarding.md)
+<br/>  When an organization has many fragmented technology stacks, onboarding new developers becomes significantly more diff....
 ## Causes ▼
 
 - [Obsolete Technologies](obsolete-technologies.md)

@@ -47,10 +47,6 @@ Hidden dependencies occur when system components become interdependent in ways t
 <br/>  Developers become hesitant to modify code because past hidden dependencies have caused unexpected breakages.
 - [High Bug Introduction Rate](high-bug-introduction-rate.md)
 <br/>  Developers unknowingly break hidden dependencies with routine changes, introducing new bugs at a high rate.
-- [Strangler Fig Pattern Failures](strangler-fig-pattern-failures.md)
-<br/>  The strangler fig migration stalls, leaving a fragmented system.
-- [System Integration Blindness](system-integration-blindness.md)
-<br/>  Integration blind spots cause failures at system boundaries.
 
 ## Causes ▼
 
@@ -62,6 +58,8 @@ Hidden dependencies occur when system components become interdependent in ways t
 <br/>  Components that expose internal implementation details allow other components to depend on those details in unexpected ways.
 - [Information Decay](information-decay.md)
 <br/>  As documentation becomes outdated, dependencies that were once documented become hidden from developers.
+- [System Integration Blindness](system-integration-blindness.md)
+<br/>  Integration blind spots cause failures at system boundaries.
 ## Detection Methods ○
 
 - **Dependency Mapping:** Document and visualize actual runtime dependencies vs. apparent design dependencies

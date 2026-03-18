@@ -47,6 +47,8 @@ Release anxiety is the feeling of stress and fear that developers experience whe
 <br/>  Manual, error-prone deployment processes increase the chance of human mistakes, making every release a high-stakes event that generates anxiety.
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Without adequate test coverage, teams lack confidence that their changes work correctly, fueling anxiety about what might break in production.
+- [Large, Risky Releases](large-risky-releases.md)
+<br/>  Large, risky releases directly cause anxiety because bigger releases have more potential failure points.
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers about their feelings about the release process.
 - **Team Retrospectives:** Discuss the team's feelings about releases in your retrospectives.

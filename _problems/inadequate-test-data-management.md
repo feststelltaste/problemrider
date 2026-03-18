@@ -34,8 +34,6 @@ Inadequate test data management is the practice of using test data that is not r
 
 - [Flaky Tests](flaky-tests.md)
 <br/>  Inconsistent or unreliable test data causes tests to pass or fail unpredictably, undermining trust in the test suite.
-- [High Defect Rate in Production](high-defect-rate-in-production.md)
-<br/>  Tests that use unrealistic data fail to catch bugs that only manifest with real-world data patterns.
 - [Quality Blind Spots](quality-blind-spots.md)
 <br/>  Insufficient test data leaves edge cases and real-world scenarios untested, creating blind spots in quality assurance.
 - [Increased Manual Testing Effort](increased-manual-testing-effort.md)

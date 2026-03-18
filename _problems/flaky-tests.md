@@ -45,6 +45,8 @@ Flaky tests are automated tests that produce inconsistent results when run multi
 <br/>  When flaky tests are disabled or ignored, they create gaps in test coverage where real bugs can hide undetected.
 - [Review Bottlenecks](review-bottlenecks.md)
 <br/>  CI pipelines blocked by flaky test failures delay code review and merge processes.
+- [Long Build and Test Times](long-build-and-test-times.md)
+<br/>  Flaky tests lead to longer build times because developers re-run test suites multiple times and CI pipelines get bloc....
 ## Causes ▼
 
 - [Testing Environment Fragility](testing-environment-fragility.md)

@@ -53,6 +53,8 @@ Slow incident resolution occurs when system problems, outages, or critical issue
 <br/>  Tangled code makes it extremely difficult to trace the root cause of incidents through the system.
 - [Single Points of Failure](single-points-of-failure.md)
 <br/>  When only specific individuals can resolve certain types of incidents, resolution depends on their availability.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Debugging difficulties (hard to trace code, unclear error messages) directly contribute to slow incident resolution b....
 ## Detection Methods ○
 
 - **Mean Time to Resolution (MTTR) Tracking:** Monitor average time to resolve different types of incidents

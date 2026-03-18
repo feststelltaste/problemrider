@@ -46,6 +46,8 @@ Delayed project timelines occur when software projects consistently take longer 
 <br/>  Chronic timeline overruns create pressure and overtime that lead to team exhaustion and demoralization.
 - [Increased Time to Market](increased-time-to-market.md)
 <br/>  Delayed project timelines directly increase the time it takes for new capabilities to reach the market.
+- [Missed Deadlines](missed-deadlines.md)
+<br/>  Delayed project timelines directly lead to missed deadlines.
 ## Causes ▼
 
 - [Poor Planning](poor-planning.md)

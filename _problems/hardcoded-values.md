@@ -41,6 +41,8 @@ Hardcoded values are literal numbers, strings, or other constants embedded direc
 <br/>  Code with embedded literal values cannot be easily reused in different contexts or configurations.
 - [Increased Cost of Development](increased-cost-of-development.md)
 <br/>  What should be simple configuration changes become multi-week development projects requiring code changes and full testing.
+- [Inconsistent Behavior](inconsistent-behavior.md)
+<br/>  Hardcoded values in different parts of the codebase that should be the same but diverge over time directly cause inco....
 ## Causes ▼
 
 - [Deadline Pressure](deadline-pressure.md)

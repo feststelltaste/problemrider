@@ -51,8 +51,6 @@ Inconsistent naming conventions occur when different parts of a codebase use var
 
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
 <br/>  Without agreed-upon naming standards, each developer uses their personal naming preferences.
-- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
-<br/>  Inconsistent naming is a direct manifestation of broader inconsistent coding standards across the project.
 - [Conflicting Reviewer Opinions](conflicting-reviewer-opinions.md)
 <br/>  When reviewers give contradictory naming guidance, developers receive mixed signals about which conventions to follow.
 ## Detection Methods ○

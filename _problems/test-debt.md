@@ -43,6 +43,8 @@ Test Debt is the accumulated risk resulting from inadequate or neglected quality
 <br/>  Lengthy manual regression testing and lack of automated verification slow down the release cycle.
 - [Quality Degradation](quality-degradation.md)
 <br/>  The accumulated lack of testing leads to progressive quality decline as undetected issues compound over time.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Without adequate tests, code changes frequently introduce regression bugs that go undetected, which is a direct and o....
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)

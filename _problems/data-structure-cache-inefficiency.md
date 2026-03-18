@@ -38,8 +38,6 @@ Data structure cache inefficiency occurs when data is organized in memory layout
 
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Cache-inefficient data structures cause excessive memory latency, making user-facing operations feel sluggish and unresponsive.
-- [High Database Resource Utilization](high-database-resource-utilization.md)
-<br/>  Poor cache behavior forces the CPU to spend more cycles waiting for memory, driving up resource utilization for data-intensive operations.
 - [Scaling Inefficiencies](scaling-inefficiencies.md)
 <br/>  Cache-inefficient data layouts cause performance to degrade non-linearly as data grows, making the system difficult to scale.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
