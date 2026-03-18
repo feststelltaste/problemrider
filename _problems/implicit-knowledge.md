@@ -45,6 +45,8 @@ Implicit knowledge refers to critical information about system behavior, busines
 <br/>  Features must be rebuilt when developers discover implicit constraints or business rules they were not aware of during initial implementation.
 ## Causes ▼
 
+- [Tacit Knowledge](tacit-knowledge.md)
+<br/>  Knowledge that is inherently difficult to articulate or transfer naturally becomes implicit rather than being captured in documentation.
 - [Poor Documentation](poor-documentation.md)
 <br/>  When documentation practices are poor, knowledge that should be written down remains only in people's heads.
 - [Time Pressure](time-pressure.md)

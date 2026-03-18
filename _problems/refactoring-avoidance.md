@@ -44,14 +44,14 @@ Refactoring avoidance is the phenomenon where a development team consistently po
 <br/>  Working around structural problems instead of fixing them makes each new change progressively slower to implement.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  When teams avoid refactoring, the architecture cannot evolve.
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  Long-term avoidance of refactoring allows structural problems to accumulate, making the codebase increasingly brittle and fragile.
 ## Causes ▼
 
 - [Fear of Change](fear-of-change.md)
 <br/>  Fear that modifications will break working functionality prevents teams from attempting structural improvements.
 - [Fear of Breaking Changes](fear-of-breaking-changes.md)
 <br/>  Specific fear of introducing breaking changes in a fragile system makes developers avoid touching existing code.
-- [Brittle Codebase](brittle-codebase.md)
-<br/>  A fragile codebase makes refactoring genuinely risky, reinforcing avoidance behavior.
 - [Test Debt](test-debt.md)
 <br/>  Lack of test coverage means there is no safety net to catch regressions during refactoring, making it too risky to attempt.
 - [Unrealistic Schedule](unrealistic-schedule.md)

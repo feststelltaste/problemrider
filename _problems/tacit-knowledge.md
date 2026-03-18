@@ -42,6 +42,8 @@ Tacit knowledge is knowledge that is difficult to transfer to another person by 
 <br/>  Holders of tacit knowledge become bottlenecks as others must wait for their guidance on decisions and changes.
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  Team productivity suffers when only a few members can effectively work on parts of the system due to unshared tacit knowledge.
+- [Implicit Knowledge](implicit-knowledge.md)
+<br/>  Tacit knowledge that cannot be easily articulated becomes implicit knowledge embedded in team practices and assumptions.
 ## Causes ▼
 
 - [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)

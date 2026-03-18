@@ -47,6 +47,8 @@ Inadequate code reviews are a major contributor to poor software quality. This e
 <br/>  Superficial reviews eliminate the knowledge-sharing benefit of code reviews, reducing team learning opportunities.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  When code reviews fail to catch issues, the risk of bugs reaching production increases directly.
+- [Inadequate Initial Reviews](inadequate-initial-reviews.md)
+<br/>  When code reviews are generally inadequate, first-round reviews become superficial, missing critical issues that must be caught in later rounds.
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)

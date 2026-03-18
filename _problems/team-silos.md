@@ -44,10 +44,10 @@ Team silos are a common organizational problem where different teams or individu
 <br/>  Teams that work in isolation lack the communication patterns needed to coordinate effectively when collaboration is required.
 - [Reduced Team Flexibility](reduced-team-flexibility.md)
 <br/>  When teams work in silos, the organization loses flexibility to reassign work across teams because knowledge is conce....
+- [Poor Communication](poor-communication.md)
+<br/>  Teams working in isolation naturally develop poor communication patterns, as structural barriers prevent cross-team information flow.
 ## Causes ▼
 
-- [Poor Communication](poor-communication.md)
-<br/>  Lack of effective communication channels and practices between teams allows silos to form and persist.
 - [Organizational Structure Mismatch](organizational-structure-mismatch.md)
 <br/>  Complex organizational structures with many divisions and hierarchies naturally create barriers between teams.
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)

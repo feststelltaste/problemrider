@@ -45,6 +45,8 @@ Inadequate initial reviews occur when the first round of code review fails to id
 <br/>  The review process wastes time as issues that should be caught once require multiple passes to fully identify.
 ## Causes ▼
 
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
+<br/>  A general culture of inadequate code reviews sets the pattern for superficial initial reviews where critical issues are overlooked.
 - [Reviewer Inexperience](reviewer-inexperience.md)
 <br/>  Inexperienced reviewers focus on surface-level issues like formatting because they lack expertise to identify deeper problems.
 - [Time Pressure](time-pressure.md)

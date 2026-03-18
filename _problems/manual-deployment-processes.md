@@ -50,14 +50,14 @@ Manual deployment processes require human intervention to release software chang
 <br/>  The high risk and effort of manual deployments creates stress and anxiety around each release event.
 - [Deployment Risk](deployment-risk.md)
 <br/>  Manual deployment processes directly increase deployment risk through human error and inconsistency, making each depl....
+- [Complex Deployment Process](complex-deployment-process.md)
+<br/>  Manual deployment steps make the overall deployment process increasingly complex as more manual procedures and coordination overhead accumulate.
 ## Causes ▼
 
 - [Immature Delivery Strategy](immature-delivery-strategy.md)
 <br/>  Organizations without a mature delivery strategy have not invested in deployment automation.
 - [Legacy Configuration Management Chaos](legacy-configuration-management-chaos.md)
 <br/>  Chaotic configuration management makes automation difficult, as environments are too inconsistent to script reliably.
-- [Complex Deployment Process](complex-deployment-process.md)
-<br/>  Overly complex deployment procedures resist automation because they involve many conditional steps and human judgment calls.
 - [Resistance to Change](resistance-to-change.md)
 <br/>  Teams comfortable with existing manual processes resist adopting automated deployment pipelines.
 ## Detection Methods ○

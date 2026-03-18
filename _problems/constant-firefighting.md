@@ -40,8 +40,6 @@ Constant firefighting, also known as "reactive development," is a state where a 
 <br/>  Under constant urgency, developers take shortcuts to resolve issues quickly, which creates more technical debt and future fires.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Planned feature work is consistently deprioritized in favor of urgent bug fixes, slowing the delivery of new functionality.
-- [High Technical Debt](high-technical-debt.md)
-<br/>  Constant firefighting prevents the team from addressing root causes, so technical debt accumulates as quick fixes pile up.
 - [Quality Degradation](quality-degradation.md)
 <br/>  Rushed fixes under crisis conditions often introduce new issues, causing overall system quality to decline over time.
 ## Causes ▼

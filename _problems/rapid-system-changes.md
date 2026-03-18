@@ -43,14 +43,14 @@ Rapid system changes occur when software systems undergo frequent architectural 
 <br/>  Frequent changes without adequate testing time lead to inadvertent breakage of previously working functionality.
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  Rapid changes without proper testing and documentation make the system increasingly fragile over time.
+- [Change Management Chaos](change-management-chaos.md)
+<br/>  Rapid system modifications overwhelm existing change management processes, leading to uncoordinated and conflicting changes.
 ## Causes ▼
 
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
 <br/>  Constantly shifting requirements force rapid system modifications to keep up with new demands.
 - [Changing Project Scope](changing-project-scope.md)
 <br/>  Expanding or shifting project scope drives frequent architectural and feature changes.
-- [Change Management Chaos](change-management-chaos.md)
-<br/>  Lack of structured change management processes allows changes to be introduced too rapidly without coordination.
 - [Poor Planning](poor-planning.md)
 <br/>  Insufficient planning leads to reactive changes rather than deliberate, well-paced system evolution.
 ## Detection Methods ○

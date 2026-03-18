@@ -45,6 +45,8 @@ Inadequate requirements gathering occurs when teams begin development without su
 <br/>  Missing requirements are discovered during development, continuously expanding the project scope beyond original estimates.
 - [Budget Overruns](budget-overruns.md)
 <br/>  Rework and scope expansion from poor requirements drives costs beyond original budgets.
+- [Assumption-Based Development](assumption-based-development.md)
+<br/>  Developers make assumptions about what users need instead of validating requirements through proper analysis.
 ## Causes ▼
 
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
@@ -53,8 +55,6 @@ Inadequate requirements gathering occurs when teams begin development without su
 <br/>  Pressure to start development quickly leads teams to rush through or skip thorough requirements analysis.
 - [Feedback Isolation](feedback-isolation.md)
 <br/>  Teams that do not regularly engage with stakeholders and users miss critical requirements and context.
-- [Assumption-Based Development](assumption-based-development.md)
-<br/>  Developers make assumptions about what users need instead of validating requirements through proper analysis.
 ## Detection Methods ○
 
 - **Requirements Quality Assessment:** Evaluate completeness, clarity, and testability of requirements

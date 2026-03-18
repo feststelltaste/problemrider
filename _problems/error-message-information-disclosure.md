@@ -34,6 +34,10 @@ Error message information disclosure occurs when applications reveal sensitive t
 
 ## Symptoms ▲
 
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Disclosed system architecture details and internal paths help attackers identify authentication weaknesses to exploit.
+- [SQL Injection Vulnerabilities](sql-injection-vulnerabilities.md)
+<br/>  Exposed database schema information like table names and column names enables attackers to craft targeted SQL injection attacks.
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)

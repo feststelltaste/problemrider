@@ -50,13 +50,13 @@ Monolithic architecture constraints occur when applications are built as single,
 <br/>  Technology decisions affect the entire application, preventing individual components from adopting better-suited technologies.
 - [Long Build and Test Times](long-build-and-test-times.md)
 <br/>  Monolithic architectures require building and testing the entire application together, directly leading to long build....
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Monolithic architectures naturally encourage tight coupling as all components share the same deployment unit and codebase without enforced boundaries.
 
 ## Causes ▼
 
 - [Uncontrolled Codebase Growth](uncontrolled-codebase-growth.md)
 <br/>  Continual addition of features without architectural refactoring causes the monolith to grow beyond manageable size.
-- [Tight Coupling Issues](tight-coupling-issues.md)
-<br/>  Lack of clear module boundaries and excessive interdependencies between components reinforces the monolithic structure.
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Teams lacking architectural design skills fail to identify when a monolith should be decomposed into separate services.
 - [Short-Term Focus](short-term-focus.md)

@@ -50,10 +50,10 @@ Product direction chaos occurs when there is no single authoritative voice for p
 
 - [Power Struggles](power-struggles.md)
 <br/>  Competing departments fight for control over product direction rather than collaborating on shared goals.
-- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
-<br/>  Absence of clear organizational goals means no framework exists for resolving conflicting stakeholder demands.
 - [Project Authority Vacuum](project-authority-vacuum.md)
 <br/>  Lack of executive sponsorship leaves no one empowered to make authoritative product decisions.
+- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
+<br/>  Conflicting stakeholder demands without clear product leadership create ambiguity about what the team's goals and priorities actually are.
 ## Detection Methods ○
 
 - **Decision Authority Audit:** Map who currently makes different types of product decisions

@@ -40,6 +40,8 @@ Inefficient frontend code can have a significant impact on the user experience. 
 <br/>  Computationally expensive frontend operations cause high CPU usage, battery drain, and device heating on client machines.
 ## Causes ▼
 
+- [Inefficient Code](inefficient-code.md)
+<br/>  General code inefficiency practices carry over into frontend development, producing unoptimized rendering logic and wasteful computations.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers unfamiliar with browser rendering pipelines and performance optimization create inefficient frontend code.
 - [Insufficient Code Review](insufficient-code-review.md)

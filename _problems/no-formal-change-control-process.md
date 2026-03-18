@@ -41,12 +41,12 @@ A formal change control process is essential for managing the evolution of a pro
 <br/>  Significant rework occurs when uncontrolled changes conflict with each other or invalidate previously completed work.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Constantly shifting priorities and growing backlogs from unmanaged changes lead to team exhaustion and frustration.
+- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
+<br/>  Without formal change evaluation processes, teams default to agreeing to every stakeholder request to avoid conflict.
 ## Causes ▼
 
 - [Poor Project Control](poor-project-control.md)
 <br/>  Weak project governance structures fail to establish and enforce formal processes for managing changes.
-- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
-<br/>  A desire to accommodate all stakeholder requests leads teams to accept changes without formal evaluation of impact.
 - [Inefficient Processes](inefficient-processes.md)
 <br/>  Organizations with immature development processes often lack the discipline to implement and follow formal change control.
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)

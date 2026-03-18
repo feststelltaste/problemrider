@@ -35,6 +35,10 @@ Inefficient code is a broad problem that can have a wide range of causes, from t
 <br/>  Computationally expensive code directly causes the application to respond slowly to user requests.
 - [Task Queues Backing Up](task-queues-backing-up.md)
 <br/>  Task queues back up, causing cascading delays across the system.
+- [Inefficient Frontend Code](inefficient-frontend-code.md)
+<br/>  When general code inefficiency extends to frontend components, it manifests as sluggish UI interactions and high client-side resource consumption.
+- [Unoptimized File Access](unoptimized-file-access.md)
+<br/>  File access patterns are unoptimized, causing I/O bottlenecks.
 
 ## Causes ▼
 
@@ -46,8 +50,6 @@ Inefficient code is a broad problem that can have a wide range of causes, from t
 <br/>  Without code reviews, performance anti-patterns go undetected and accumulate in the codebase.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Low-quality code tends to include redundant operations, unnecessary allocations, and other inefficiencies.
-- [Unoptimized File Access](unoptimized-file-access.md)
-<br/>  File access patterns are unoptimized, causing I/O bottlenecks.
 ## Detection Methods ○
 
 - **Profilers:** Use a profiler to analyze the application's CPU and memory usage and identify the exact lines of code that are causing the bottleneck.

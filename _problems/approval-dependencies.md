@@ -48,6 +48,8 @@ Approval dependencies occur when work cannot proceed without explicit approval f
 <br/>  Developers forced to switch to other tasks while waiting for approvals lose focus and efficiency.
 - [Rushed Approvals](rushed-approvals.md)
 <br/>  Backlog pressure from accumulated approval requests leads approvers to rush through decisions.
+- [Bottleneck Formation](bottleneck-formation.md)
+<br/>  Concentrating approval authority in a few individuals creates structural bottlenecks that block work.
 ## Causes ▼
 
 - [Micromanagement Culture](micromanagement-culture.md)
@@ -56,8 +58,6 @@ Approval dependencies occur when work cannot proceed without explicit approval f
 <br/>  Unclear responsibility boundaries mean decisions get escalated to approvers unnecessarily.
 - [Fear of Failure](fear-of-failure.md)
 <br/>  Organizations fearful of mistakes create excessive approval requirements as a risk mitigation strategy.
-- [Bottleneck Formation](bottleneck-formation.md)
-<br/>  Concentrating approval authority in a few individuals creates structural bottlenecks that block work.
 ## Detection Methods ○
 
 - **Approval Queue Tracking:** Monitor how many approval requests are pending and for how long

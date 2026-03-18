@@ -59,7 +59,7 @@ Hidden dependencies occur when system components become interdependent in ways t
 - [Information Decay](information-decay.md)
 <br/>  As documentation becomes outdated, dependencies that were once documented become hidden from developers.
 - [System Integration Blindness](system-integration-blindness.md)
-<br/>  Integration blind spots cause failures at system boundaries.
+<br/>  Hidden dependencies create blind spots in system integration, causing unexpected failures when components interact.
 ## Detection Methods ○
 
 - **Dependency Mapping:** Document and visualize actual runtime dependencies vs. apparent design dependencies

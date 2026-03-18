@@ -46,14 +46,14 @@ Power struggles occur when different individuals, teams, or departments compete 
 <br/>  Decisions require negotiation between competing parties, delaying progress on time-sensitive issues.
 - [Team Dysfunction](team-dysfunction.md)
 <br/>  Political factions form within teams as members align with competing authorities, damaging collaboration.
+- [Competing Priorities](competing-priorities.md)
+<br/>  Different departments or managers pushing their own agendas creates conflicting demands on shared resources.
 ## Causes ▼
 
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Without clear organizational goals, departments fill the vacuum by asserting their own competing visions.
 - [Project Authority Vacuum](project-authority-vacuum.md)
 <br/>  Lack of clear executive sponsorship creates a void that multiple managers attempt to fill with competing authority.
-- [Competing Priorities](competing-priorities.md)
-<br/>  When organizational priorities conflict, departments fight for control to ensure their priorities win out.
 ## Detection Methods ○
 
 - **Decision Delay Analysis:** Track how long decisions take and identify causes of delays

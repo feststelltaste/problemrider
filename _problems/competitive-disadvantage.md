@@ -39,8 +39,6 @@ Competitive disadvantage occurs when technical problems, poor system performance
 <br/>  Loss of customers to competitors directly manifests as declining revenue, engagement, and market share metrics.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Users become dissatisfied when the product falls behind competitors in features and experience quality.
-- [Negative Brand Perception](negative-brand-perception.md)
-<br/>  Users and the market associate the brand with outdated technology and inferior user experience.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Business stakeholders become frustrated as they watch the organization lose market position due to technical limitations.
 - [High Turnover](high-turnover.md)
@@ -57,6 +55,8 @@ Competitive disadvantage occurs when technical problems, poor system performance
 <br/>  The slow pace of feature delivery means the product cannot keep up with competitor improvements.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated technical debt diverts resources from new capabilities to maintenance, slowing competitive response.
+- [Negative Brand Perception](negative-brand-perception.md)
+<br/>  Users and the market associating the brand with poor quality drives customers to competitors.
 ## Detection Methods ○
 - **Competitive Feature Analysis:** Regular comparison of technical capabilities against competitors
 - **Customer Exit Interview Analysis:** Understand why customers choose competitors
