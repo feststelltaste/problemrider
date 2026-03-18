@@ -45,14 +45,14 @@ Vendor lock-in occurs when a system becomes so tightly integrated with a specifi
 <br/>  Lock-in to specific vendor technologies limits the organization's ability to adopt better alternatives.
 - [Technology Isolation](technology-isolation.md)
 <br/>  Proprietary vendor technologies isolate the system from the broader technology ecosystem.
+- [Data Migration Complexities](data-migration-complexities.md)
+<br/>  Without migration planning, organizations fail to maintain portability and become increasingly locked into vendor ecosystems.
 ## Causes ▼
 
 - [Poor Planning](poor-planning.md)
 <br/>  Failure to plan for long-term technology flexibility leads to architecture decisions that create vendor lock-in.
 - [Quality Compromises](quality-compromises.md)
 <br/>  Using vendor-specific features and APIs as shortcuts rather than building abstraction layers deepens lock-in.
-- [Data Migration Complexities](data-migration-complexities.md)
-<br/>  Without migration planning, organizations fail to maintain portability and become increasingly locked into vendor ecosystems.
 ## Detection Methods ○
 
 - Conduct regular architecture reviews focused on vendor dependency analysis

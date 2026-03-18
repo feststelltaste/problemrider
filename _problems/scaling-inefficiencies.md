@@ -38,8 +38,6 @@ Scaling inefficiencies occur when it is difficult or impossible to scale differe
 <br/>  Inability to scale bottleneck components independently means the system cannot handle load spikes, resulting in degraded user-facing performance.
 - [Resource Contention](resource-contention.md)
 <br/>  When all components share the same scaling unit, high-demand components compete with low-demand ones for limited CPU, memory, and I/O resources.
-- [Deployment Coupling](deployment-coupling.md)
-<br/>  Systems that cannot scale independently typically must also deploy together, creating deployment coupling between unrelated components.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Inability to scale efficiently leads to slower response times and higher costs, putting the organization at a disadvantage against competitors with more scalable architectures.
 ## Causes ▼

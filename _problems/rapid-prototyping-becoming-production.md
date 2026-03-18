@@ -48,14 +48,14 @@ Rapid prototyping becoming production occurs when code initially written as a qu
 <br/>  Prototype code without proper testing and structure leads to frequent regressions when changes are made.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Teams fear touching fragile prototype-turned-production code because they don't understand its full behavior and lack test safety nets.
+- [Increased Technical Shortcuts](increased-technical-shortcuts.md)
+<br/>  A culture of taking shortcuts normalizes deploying prototype-quality code to production.
 ## Causes ▼
 
 - [Unrealistic Schedule](unrealistic-schedule.md)
 <br/>  Tight deadlines pressure teams to ship prototypes directly to production rather than rebuilding them properly.
 - [Convenience-Driven Development](convenience-driven-development.md)
 <br/>  Taking the easiest path forward leads teams to ship prototype code rather than investing time in proper engineering.
-- [Increased Technical Shortcuts](increased-technical-shortcuts.md)
-<br/>  A culture of taking shortcuts normalizes deploying prototype-quality code to production.
 - [Poor Planning](poor-planning.md)
 <br/>  Lack of proper project planning fails to allocate time for transitioning prototypes into production-quality code.
 ## Detection Methods ○

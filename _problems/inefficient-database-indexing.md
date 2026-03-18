@@ -40,10 +40,6 @@ Inefficient database indexing is a common cause of slow database queries. This c
 <br/>  Slow database queries caused by missing indexes cascade into slow application response times.
 - [High Database Resource Utilization](high-database-resource-utilization.md)
 <br/>  Full-table scans consume far more CPU and I/O resources than indexed lookups, straining database server resources.
-- [Incorrect Index Type](incorrect-index-type.md)
-<br/>  Incorrect database index types degrade query performance.
-- [Queries That Prevent Index Usage](queries-that-prevent-index-usage.md)
-<br/>  Query patterns bypass available indexes, causing full table scans.
 
 ## Causes ▼
 
@@ -53,6 +49,8 @@ Inefficient database indexing is a common cause of slow database queries. This c
 <br/>  Developers unfamiliar with database performance tuning fail to create appropriate indexes for their query patterns.
 - [Poor Documentation](poor-documentation.md)
 <br/>  Without documentation of query patterns and indexing strategies, proper indexing decisions are difficult to make as the system evolves.
+- [Incorrect Index Type](incorrect-index-type.md)
+<br/>  Incorrect database index types degrade query performance.
 ## Detection Methods ○
 
 - **Query Execution Plan Analysis:** Use the `EXPLAIN` or `EXPLAIN ANALYZE` command to see how the database is executing a query. Look for "Sequential Scan" or "Table Scan" on large tables, which indicates a missing index.

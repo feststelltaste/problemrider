@@ -38,8 +38,6 @@ Missed deadlines occur when development teams consistently fail to deliver work 
 
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Repeatedly missing deadlines erodes stakeholder confidence and creates friction between business and development teams.
-- [Deadline Pressure](deadline-pressure.md)
-<br/>  After missing deadlines, teams face intensified pressure to deliver on subsequent commitments, creating a vicious cycle.
 - [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
 <br/>  When deadlines are regularly missed, teams start pre-emptively adjusting timelines, creating a pattern of shifting commitments.
 - [Delayed Value Delivery](delayed-value-delivery.md)
@@ -58,6 +56,8 @@ Missed deadlines occur when development teams consistently fail to deliver work 
 <br/>  Ambiguous requirements lead to rework and discovery of unstated needs, consuming time not accounted for in estimates.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  When development velocity is lower than expected due to technical debt or process issues, deadlines are missed.
+- [Deadline Pressure](deadline-pressure.md)
+<br/>  After missing deadlines, teams face intensified pressure to deliver on subsequent commitments, creating a vicious cycle.
 ## Detection Methods ○
 
 - **Sprint Completion Rate Tracking:** Monitor percentage of sprint goals achieved over time

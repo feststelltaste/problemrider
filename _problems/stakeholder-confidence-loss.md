@@ -38,8 +38,6 @@ Stakeholder confidence loss occurs when business partners, customers, or managem
 
 - [Micromanagement Culture](micromanagement-culture.md)
 <br/>  When stakeholders lose confidence, they impose excessive oversight and approval requirements on the development team, reducing autonomy.
-- [Budget Overruns](budget-overruns.md)
-<br/>  Lost confidence leads stakeholders to impose additional oversight processes, external audits, or redundant work that increases project costs.
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  Adversarial relationships and excessive scrutiny from distrustful stakeholders slow down the team through additional reporting and approval requirements.
 - [Communication Breakdown](communication-breakdown.md)
@@ -56,6 +54,8 @@ Stakeholder confidence loss occurs when business partners, customers, or managem
 <br/>  Frequent production bugs visible to stakeholders signal poor quality and erode confidence in the team's technical competence.
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
 <br/>  Persistent misunderstandings between stakeholders and developers lead to unmet expectations that gradually destroy trust.
+- [Budget Overruns](budget-overruns.md)
+<br/>  Lost confidence leads stakeholders to impose additional oversight processes, external audits, or redundant work that increases project costs.
 ## Detection Methods ○
 
 - **Stakeholder Satisfaction Surveys:** Regular assessment of stakeholder confidence and satisfaction levels

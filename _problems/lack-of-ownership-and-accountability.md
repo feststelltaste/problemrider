@@ -47,10 +47,6 @@ Lack of ownership and accountability occurs when no individual or team takes cle
 <br/>  System quality erodes over time when there is no ownership to maintain and improve it.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Without clear ownership, refactoring is avoided because no one feels responsible for improving shared code.
-- [Memory Barrier Inefficiency](memory-barrier-inefficiency.md)
-<br/>  Memory barrier inefficiencies cause hidden performance losses.
-- [Outdated Tests](outdated-tests.md)
-<br/>  Test suites become outdated and no longer verify current behavior.
 
 ## Causes ▼
 

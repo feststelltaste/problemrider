@@ -43,8 +43,6 @@ Inexperienced developers refers to a situation where team members lack the knowl
 <br/>  Lack of experience leads developers to choose expedient solutions without understanding long-term consequences.
 - [Inefficient Code](inefficient-code.md)
 <br/>  Without knowledge of performance optimization, inexperienced developers write computationally expensive code.
-- [Error Message Information Disclosure](error-message-information-disclosure.md)
-<br/>  Error messages inadvertently expose sensitive system details.
 
 ## Causes ▼
 

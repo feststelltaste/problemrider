@@ -46,8 +46,6 @@ Assumption-based development occurs when developers make decisions about functio
 <br/>  Users provide negative feedback when delivered features don't match their actual needs and workflows.
 - [Feature Gaps](feature-gaps.md)
 <br/>  Assumptions about user needs lead to building the wrong features while actual needs remain unaddressed.
-- [Second-System Effect](second-system-effect.md)
-<br/>  The second-system effect leads to an overengineered replacement.
 
 ## Causes ▼
 

@@ -47,6 +47,8 @@ Unrealistic schedules occur when project timelines are set based on wishful thin
 <br/>  Unrealistic schedules force developers to take shortcuts that accumulate technical debt.
 - [Increased Error Rates](increased-error-rates.md)
 <br/>  Rushing through development to meet unrealistic schedules leads to more bugs being introduced.
+- [Time Pressure](time-pressure.md)
+<br/>  Business stakeholders impose external deadlines that override realistic engineering estimates.
 ## Causes ▼
 
 - [Poor Planning](poor-planning.md)
@@ -55,8 +57,6 @@ Unrealistic schedules occur when project timelines are set based on wishful thin
 <br/>  Management disconnected from technical work underestimates effort required and creates optimistic schedules.
 - [Planning Dysfunction](planning-dysfunction.md)
 <br/>  Dysfunctional planning processes that ignore historical data and team input produce unrealistic schedules.
-- [Time Pressure](time-pressure.md)
-<br/>  Business stakeholders impose external deadlines that override realistic engineering estimates.
 ## Detection Methods ○
 
 - **Estimation Accuracy Analysis:** Compare actual completion times with original estimates

@@ -35,12 +35,8 @@ Inefficient code is a broad problem that can have a wide range of causes, from t
 <br/>  Computationally expensive code directly causes the application to respond slowly to user requests.
 - [High Database Resource Utilization](high-database-resource-utilization.md)
 <br/>  Inefficient code consumes excessive CPU, memory, and other resources beyond what is necessary.
-- [Interrupt Overhead](interrupt-overhead.md)
-<br/>  Interrupt handling overhead impacts system responsiveness.
 - [Task Queues Backing Up](task-queues-backing-up.md)
 <br/>  Task queues back up, causing cascading delays across the system.
-- [Unoptimized File Access](unoptimized-file-access.md)
-<br/>  File access patterns are unoptimized, causing I/O bottlenecks.
 
 ## Causes ▼
 
@@ -52,6 +48,8 @@ Inefficient code is a broad problem that can have a wide range of causes, from t
 <br/>  Without code reviews, performance anti-patterns go undetected and accumulate in the codebase.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Low-quality code tends to include redundant operations, unnecessary allocations, and other inefficiencies.
+- [Unoptimized File Access](unoptimized-file-access.md)
+<br/>  File access patterns are unoptimized, causing I/O bottlenecks.
 ## Detection Methods ○
 
 - **Profilers:** Use a profiler to analyze the application's CPU and memory usage and identify the exact lines of code that are causing the bottleneck.

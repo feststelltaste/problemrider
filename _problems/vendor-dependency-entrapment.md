@@ -43,8 +43,6 @@ Vendor dependency entrapment occurs when legacy systems become critically depend
 <br/>  The system becomes isolated on discontinued technology that cannot integrate with modern tools and platforms.
 - [Legacy Skill Shortage](legacy-skill-shortage.md)
 <br/>  As vendor products are discontinued, fewer professionals maintain skills in those technologies, making talent scarce.
-- [SQL Injection Vulnerabilities](sql-injection-vulnerabilities.md)
-<br/>  Discontinued vendor products no longer receive security patches, leaving the system exposed to vulnerabilities.
 ## Causes ▼
 
 - [Vendor Lock-In](vendor-lock-in.md)
