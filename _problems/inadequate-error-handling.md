@@ -34,21 +34,29 @@ Inadequate error handling occurs when applications fail to properly anticipate, 
 - Error handling code missing from critical application paths
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.525, Strength: 0.717">ⓘ</span>
-<br/>  When error handling is inadequate, failed API requests can lead to prolonged response times without appropriate fallback mechanisms, resulting in upstream services timing out as they await responses that never come.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.738">ⓘ</span>
-<br/>  The lack of thorough testing in critical code sections often results in unhandled exceptions being overlooked, which directly contributes to the inadequate management of errors and ultimately leads to application instability.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.378, Strength: 0.740">ⓘ</span>
-<br/>  Flaky tests often arise from inadequate error handling, as unhandled exceptions during test execution can lead to inconsistent test outcomes, obscuring the reliability of the test suite in legacy systems.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.668">ⓘ</span>
-<br/>  The lack of robust error handling in legacy systems often leads to frequent application failures, which in turn increases the demand for skilled developers to troubleshoot and maintain these systems, thus highlighting the critical shortage of personnel familiar with outdated technologies.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.792">ⓘ</span>
-<br/>  The lack of robust error handling often leads to insufficiently tested scenarios, where unrealistic or outdated test data is used, resulting in a failure to uncover critical exceptions and vulnerabilities that would otherwise be addressed during testing.
 
-## Root Causes ▼
-- [Scaling Inefficiencies](scaling-inefficiencies.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.889">ⓘ</span>
-<br/>  Inefficient scaling prevents the independent enhancement of error handling capabilities across system components, resulting in inadequate mechanisms to manage exceptions effectively, which ultimately leads to application crashes and poor user experiences.
+- [System Outages](system-outages.md)
+<br/>  Unhandled exceptions cause entire services to crash, resulting in system-wide outages.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Without graceful error management, errors cascade and multiply rather than being contained.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Generic error messages and swallowed exceptions make it extremely difficult to diagnose root causes of failures.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Users encounter cryptic error messages and application crashes, leading to frustration and loss of trust.
+- [Cascade Failures](cascade-failures.md)
+<br/>  When errors are not properly caught and managed, a single failure can propagate through the system triggering chain reactions.
+- [Slow Incident Resolution](slow-incident-resolution.md)
+<br/>  Poor error handling with generic messages and swallowed exceptions makes it much harder and slower to diagnose and re....
+## Causes ▼
 
+- [Time Pressure](time-pressure.md)
+<br/>  Under deadline pressure, developers skip error handling code to deliver features faster, treating it as non-essential.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Junior developers often lack understanding of failure modes and error handling patterns, resulting in missing or naive error handling.
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
+<br/>  Superficial code reviews fail to catch missing error handling in critical code paths.
+- [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
+<br/>  When requirements do not specify error conditions and edge cases, developers build only the happy path.
 ## Detection Methods ○
 
 - **Exception Monitoring:** Monitor application logs for unhandled exceptions and error patterns

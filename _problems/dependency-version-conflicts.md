@@ -35,19 +35,27 @@ Dependency version conflicts occur when applications or their dependencies requi
 - Different behavior between development and production due to dependency variations
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.601">ⓘ</span>
-<br/>  Conflicting dependency versions can lead to incompatible API calls or altered response formats, causing services to exceed their configured timeout periods when attempting to retrieve data from those APIs.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.688">ⓘ</span>
-<br/>  Conflicting versions of dependencies can lead to unpredictable behavior in the application, causing tests to fail intermittently as the environment changes unexpectedly, thus undermining confidence in test reliability within legacy systems.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md) <span class="info-tooltip" title="Confidence: 0.378, Strength: 0.717">ⓘ</span>
-<br/>  Conflicting dependency versions can lead to unstructured naming in code as developers attempt to accommodate multiple versions, resulting in inconsistent conventions that hinder readability and maintenance.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.953">ⓘ</span>
-<br/>  When multiple components within a legacy system rely on the same libraries, differing version requirements can lead to conflicts that compromise application stability and functionality.
-- [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.861">ⓘ</span>
-<br/>  As software systems age and accumulate complexity, their increasing brittleness leads to tighter coupling and reliance on specific dependency versions, making it more likely that conflicts will arise when updates or changes are made, resulting in runtime errors and build failures.
+- [Long Build and Test Times](long-build-and-test-times.md)
+<br/>  Resolving version conflicts adds complexity to the build process, increasing build times and requiring additional testing.
+- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
+<br/>  Different dependency resolutions across environments cause the application to behave differently in dev vs production.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Runtime errors from version conflicts are hard to trace because the root cause is in the dependency tree, not in application code.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Incompatible dependency versions cause unexpected runtime errors and method-not-found exceptions in production.
+- [Integration Difficulties](integration-difficulties.md)
+<br/>  Version conflicts between libraries make integrating new components or upgrading existing ones extremely difficult.
+## Causes ▼
 
+- [Hidden Dependencies](hidden-dependencies.md)
+<br/>  Transitive dependencies that are not explicitly tracked bring in unexpected version requirements that conflict with direct dependencies.
+- [Shared Dependencies](shared-dependencies.md)
+<br/>  Multiple components sharing the same dependency but requiring different versions creates the version conflict scenario.
+- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
+<br/>  Monolithic systems force all components to share a single dependency tree, making version conflicts more likely.
+- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md)
+<br/>  Poor API versioning in legacy libraries forces consumers to pin specific versions, creating conflicts with other dependencies.
 ## Detection Methods ○
 
 - **Dependency Auditing:** Regularly audit dependency trees for version conflicts

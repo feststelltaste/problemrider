@@ -35,27 +35,30 @@ Architectural mismatch occurs when the current system architecture is fundamenta
 - Features that should be simple become multi-month projects due to architectural constraints
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.493, Strength: 0.720">ⓘ</span>
-<br/>  Constant updates to project requirements indicate an architectural mismatch, as the inability of the existing system to accommodate new needs forces stakeholders to frequently revise expectations, leading to rework and delays.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.676">ⓘ</span>
-<br/>  The inability to adapt legacy systems to new business requirements exacerbates the reliance on a dwindling pool of developers skilled in outdated technologies, highlighting critical gaps in maintenance capability and increasing the risk of system failures.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.698">ⓘ</span>
-<br/>  The constraints imposed by the system's design lead to difficulties in meeting new business requirements, manifesting as limitations in performance, scalability, maintainability, and development velocity, thereby indicating an underlying architectural mismatch.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.745">ⓘ</span>
-<br/>  When new business requirements clash with existing architectural constraints, teams often become mired in prolonged research and analysis to find feasible solutions, which hinders progress and indicates the extent of the architectural mismatch.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.542">ⓘ</span>
-<br/>  The need for extensive workarounds due to architectural constraints leads to an overly intricate domain model, as developers attempt to fit complex business requirements into a rigid structure, resulting in confusion and implementation challenges within the legacy system.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.617">ⓘ</span>
-<br/>  The inability of legacy systems to adapt to new architectural requirements often leads to outdated compliance measures, as the inflexibility in the system architecture hinders timely updates to meet evolving regulatory standards, resulting in gaps that become increasingly costly and risky to rectify.
-- [New Hire Frustration](new-hire-frustration.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.727">ⓘ</span>
-<br/>  The difficulty new hires face in effectively contributing to the team highlights the architectural mismatch, as their inability to navigate outdated frameworks and convoluted workarounds serves as a clear indicator of the constraints imposed by legacy systems on meeting evolving business needs.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.946">ⓘ</span>
-<br/>  The reliance on a common set of libraries and frameworks leads to tightly coupled components, restricting flexibility in adapting to new business requirements and resulting in significant architectural constraints.
-- [Data Migration Complexities](data-migration-complexities.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.911">ⓘ</span>
-<br/>  Complex data migration processes hinder the ability to adapt the existing architectural framework to new business requirements, resulting in compromises and extensive workarounds due to the risks of data loss and system instability during updates.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  When the architecture does not support new requirements, developers create workarounds to bridge the gap.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Features that don't align with the architecture take much longer to implement due to the need for extensive adaptations.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Forcing new requirements into an incompatible architecture creates significant technical debt through compromised designs.
+- [Increased Cost of Development](increased-cost-of-development.md)
+<br/>  Working around architectural limitations significantly increases the cost of implementing new features.
+- [Scaling Inefficiencies](scaling-inefficiencies.md)
+<br/>  An architecture designed for different scale assumptions cannot efficiently handle new load requirements.
+- [Complex Implementation Paths](complex-implementation-paths.md)
+<br/>  Implementation paths become unnecessarily complex.
 
+## Causes ▼
+
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  An architecture that has not evolved alongside changing business needs becomes increasingly mismatched.
+- [Feature Creep](feature-creep.md)
+<br/>  Continuous addition of features beyond the original scope pushes the system beyond its architectural design intent.
+- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
+<br/>  Monolithic architectures are particularly prone to mismatch as they are harder to adapt to diverse new requirements.
+- [Accumulated Decision Debt](accumulated-decision-debt.md)
+<br/>  Deferred architectural decisions constrain the system until it can no longer accommodate evolving requirements.
 ## Detection Methods ○
 
 - **Feature Complexity Analysis:** Compare implementation complexity of new features vs. historical norms

@@ -31,29 +31,27 @@ High database resource utilization can be a major cause of poor application perf
 - You are getting complaints from users about slow performance.
 
 ## Symptoms ▲
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.621, Strength: 0.842">ⓘ</span>
-<br/>  Unreleased resources lead to increased memory and CPU consumption as the database server struggles to manage the growing number of allocated but unused objects, ultimately exacerbating performance issues and risking system stability in legacy environments.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.605, Strength: 0.751">ⓘ</span>
-<br/>  High database resource utilization leads to slower query processing times, causing services consuming the API to exceed their timeout thresholds and fail to receive timely responses.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.498, Strength: 0.850">ⓘ</span>
-<br/>  Unbounded data growth leads to excessive resource consumption as the database struggles to manage increasingly large volumes of data, resulting in heightened CPU and memory usage that threatens system stability.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.450, Strength: 0.683">ⓘ</span>
-<br/>  High resource utilization in the database leads to slow query responses and application performance issues, causing users to experience frustration and seek support more frequently.
-- [Negative User Feedback](negative-user-feedback.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.776">ⓘ</span>
-<br/>  High resource utilization in the database leads to slower query response times and processing delays, resulting in user complaints about performance issues like slow loading and application freezes.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.743">ⓘ</span>
-<br/>  Excessive resource utilization in the database leads to a backlog of pending operations, causing increased hardware interrupts as the system struggles to manage multiple context switches to handle the workload, ultimately degrading overall application performance.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.868">ⓘ</span>
-<br/>  Inefficient memory management in applications can lead to unbounded memory consumption, ultimately increasing the load on the database server by exhausting available resources, which in turn manifests as high CPU or memory usage and threatens overall system stability.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.658">ⓘ</span>
-<br/>  Inefficient data retrieval due to a lack of caching leads to repeated database queries, which exacerbates CPU and memory consumption, ultimately contributing to system instability and slower response times across all services.
-- [Index Fragmentation](index-fragmentation.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.851">ⓘ</span>
-<br/>  As data changes over time, disorganized database indexes lead to inefficient query processing, which in turn causes excessive CPU and memory consumption, highlighting a degradation in resource utilization.
 
-## Root Causes ▼
+- [Slow Database Queries](slow-database-queries.md)
+<br/>  When the database is under heavy resource load, query execution times increase significantly as CPU and memory contention delays processing.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  High database resource usage directly degrades application response times since most operations depend on database interactions.
+- [High API Latency](high-api-latency.md)
+<br/>  API endpoints that depend on database queries experience increased latency when the database server is resource-constrained.
+- [System Outages](system-outages.md)
+<br/>  Database instability from sustained high resource usage can lead to crashes and complete service outages.
+- [Resource Contention](resource-contention.md)
+<br/>  High database resource utilization creates contention where multiple queries compete for limited CPU and memory resources.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [High Number of Database Queries](high-number-of-database-queries.md)
+<br/>  A large volume of queries per request multiplies the load on database CPU and memory resources.
+- [Inefficient Database Indexing](inefficient-database-indexing.md)
+<br/>  Missing or poorly designed indexes force the database to perform full table scans, consuming excessive CPU and I/O.
+- [High Connection Count](high-connection-count.md)
+<br/>  Too many open database connections consume memory and CPU resources on the database server.
+- [Database Query Performance Issues](database-query-performance-issues.md)
+<br/>  Poorly optimized queries consume excessive CPU and I/O on the database server, directly contributing to high resource....
 ## Detection Methods ○
 
 - **Database Monitoring Tools:** Use specialized database monitoring tools (e.g., pgAdmin for PostgreSQL, MySQL Workbench, or third-party tools like Percona Monitoring and Management) to inspect resource usage, running queries, and configuration.

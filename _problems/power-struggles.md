@@ -33,23 +33,27 @@ Power struggles occur when different individuals, teams, or departments compete 
 - Important decisions are delayed while different parties vie for control
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.594, Strength: 0.798">ⓘ</span>
-<br/>  Internal conflicts lead to unclear priorities and misaligned objectives, causing stakeholders to frequently alter requirements as they attempt to assert their influence, resulting in constant revisions that disrupt development and hinder project progress.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.649">ⓘ</span>
-<br/>  Internal conflicts hinder effective communication and resource allocation, leading to unresolved technical issues and increasing pressure on developers, which ultimately results in their frustration and burnout.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.790">ⓘ</span>
-<br/>  Internal conflicts lead to fragmented decision-making, resulting in stakeholders issuing conflicting priorities that create confusion and inefficiency within the project teams.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.738">ⓘ</span>
-<br/>  Internal conflicts lead to a lack of consensus on priorities, causing teams to excessively deliberate and analyze options instead of progressing to implementation, which stalls development efforts in legacy systems.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.713">ⓘ</span>
-<br/>  Internal conflicts lead to indecision and fragmented priorities, causing delays in resource allocation and tools necessary for an efficient development environment, which ultimately hampers productivity and project momentum.
-- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.740">ⓘ</span>
-<br/>  Internal conflicts lead to a lack of cohesive oversight and communication, resulting in ineffective monitoring of project progress and the inability to address issues promptly within legacy systems.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.952">ⓘ</span>
-<br/>  Conflicting priorities arise when teams rely on shared libraries and frameworks, leading to power struggles as departments compete to influence decisions that impact their dependencies and project outcomes.
+- [Decision Paralysis](decision-paralysis.md)
+<br/>  Competing authorities block each other, causing decisions to stall as neither side concedes control.
+- [Priority Thrashing](priority-thrashing.md)
+<br/>  Rival managers each push different priorities onto the same team, causing constant reprioritization.
+- [Team Confusion](team-confusion.md)
+<br/>  Conflicting directions from competing authorities leave team members unsure about what to work on.
+- [Wasted Development Effort](wasted-development-effort.md)
+<br/>  Work gets discarded when one authority overrules another's decisions, invalidating completed development.
+- [Delayed Decision Making](delayed-decision-making.md)
+<br/>  Decisions require negotiation between competing parties, delaying progress on time-sensitive issues.
+- [Team Dysfunction](team-dysfunction.md)
+<br/>  Political factions form within teams as members align with competing authorities, damaging collaboration.
+- [Competing Priorities](competing-priorities.md)
+<br/>  Different departments or managers pushing their own agendas creates conflicting demands on shared resources.
+## Causes ▼
 
+- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
+<br/>  Without clear organizational goals, departments fill the vacuum by asserting their own competing visions.
+- [Project Authority Vacuum](project-authority-vacuum.md)
+<br/>  Lack of clear executive sponsorship creates a void that multiple managers attempt to fill with competing authority.
 ## Detection Methods ○
 
 - **Decision Delay Analysis:** Track how long decisions take and identify causes of delays

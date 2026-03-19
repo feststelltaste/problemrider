@@ -35,31 +35,23 @@ Maintenance cost increase occurs when the resources required to keep software sy
 - Support costs grow faster than user base or system usage
 
 ## Symptoms ▲
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.443, Strength: 0.688">ⓘ</span>
-<br/>  As maintenance costs escalate due to outdated technology and lack of updates, legacy systems struggle to adapt to new regulatory requirements, resulting in compliance gaps that further inflate maintenance expenses and risk management efforts.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.638">ⓘ</span>
-<br/>  The constant updates to project requirements in legacy systems often arise from outdated documentation and understanding, resulting in increased rework and resource allocation, which in turn drives up maintenance costs as teams struggle to adapt to evolving demands.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.353, Strength: 0.626">ⓘ</span>
-<br/>  The continuous and unchecked accumulation of data in legacy systems leads to increased complexity and resource demands for maintenance and updates, directly driving up overall maintenance costs.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.350, Strength: 0.670">ⓘ</span>
-<br/>  As maintenance costs rise, the outdated technical architecture often reveals its inadequacies, leading to constraints that hinder performance and scalability, thereby escalating the resources needed for ongoing support and updates.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.686">ⓘ</span>
-<br/>  As maintenance costs rise due to the complexities and outdated technologies of legacy systems, the development team's capacity is consumed by routine upkeep, leaving no resources for innovative projects or strategic advancements.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.610">ⓘ</span>
-<br/>  As legacy systems age and require more resources for maintenance, the resulting inefficiencies and unresolved issues lead to user frustration, manifesting as an increased frequency of support requests.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.595">ⓘ</span>
-<br/>  The rising maintenance costs are exacerbated by a dwindling pool of developers skilled in outdated technologies, resulting in increased reliance on a limited number of experts, which further inflates costs and complicates system upkeep.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.655">ⓘ</span>
-<br/>  As maintenance costs rise due to the increasing complexity and age of legacy systems, development teams are forced to allocate more time and resources to support and updates, resulting in a decreased capacity to deliver new features and fixes at a consistent pace.
-- [Changing Project Scope](changing-project-scope.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.674">ⓘ</span>
-<br/>  Frequent shifts in project direction arise from the increased complexity and resource demands of aging software systems, leading to confusion among the team and hindering consistent progress, thereby indicating the rising maintenance costs associated with legacy systems.
 
-## Root Causes ▼
-- [Increased Cost of Development](increased-cost-of-development.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.782">ⓘ</span>
-<br/>  The escalating costs of maintaining legacy systems stem from the heightened expenses associated with repairing complex, poorly structured code, which leads to more frequent and costly updates, thereby consuming larger portions of development budgets over time.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.759">ⓘ</span>
-<br/>  The tendency to provide large time estimates for minor changes reflects the increased code complexity and technical debt inherent in legacy systems, leading to more resources being needed for maintenance and support, which ultimately drives up overall maintenance costs.
+- [Budget Overruns](budget-overruns.md)
+<br/>  Growing maintenance costs consume more budget than planned, leading to cost overruns in development projects.
+- [Reduced Innovation](reduced-innovation.md)
+<br/>  When maintenance consumes the bulk of the budget, there is little left to invest in new features and innovation.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Resources consumed by escalating maintenance costs cannot be invested in competitive features, eroding market position.
+## Causes ▼
 
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Accumulated technical debt makes every change more expensive as developers must work around accumulated shortcuts and poor design.
+- [Increasing Brittleness](increasing-brittleness.md)
+<br/>  A brittle codebase requires more careful and time-consuming changes, driving up the cost of each maintenance task.
+- [Code Duplication](code-duplication.md)
+<br/>  Duplicated code multiplies maintenance effort since the same fix or change must be applied in multiple places.
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  Maintaining systems on obsolete technologies is expensive due to scarce expertise and lack of vendor support.
 ## Detection Methods ○
 
 - **Cost Allocation Tracking:** Monitor percentage of development resources spent on maintenance versus new development

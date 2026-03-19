@@ -31,29 +31,29 @@ A growing task queue is a clear sign that a system is not able to keep up with i
 - You are getting alerts from your monitoring system about the queue size.
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.434, Strength: 0.641">ⓘ</span>
-<br/>  The accumulation of unprocessed tasks in the asynchronous processing queues leads to longer response times for API calls, causing services to exceed their timeout configurations and fail to receive timely responses.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.680">ⓘ</span>
-<br/>  The accumulation of unprocessed tasks in asynchronous processing queues creates delays in project timelines, leading to frustration and reduced morale among team members, ultimately manifesting as decreased productivity due to the team's inability to effectively manage workload and meet deadlines.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.421, Strength: 0.680">ⓘ</span>
-<br/>  The accumulation of unprocessed tasks in asynchronous processing queues directly leads to user frustration and increased support inquiries, as customers struggle to complete actions in the system, highlighting the inefficiencies within the legacy processing pipeline.
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.420, Strength: 0.669">ⓘ</span>
-<br/>  The accumulation of unprocessed tasks in asynchronous processing queues can lead to unbounded data structures, as the system's failure to efficiently manage task completion results in continuous growth of queued data, ultimately causing memory exhaustion and performance issues in legacy systems.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.706">ⓘ</span>
-<br/>  The accumulation of unprocessed tasks in asynchronous queues often leads to unbounded data growth due to the inability to efficiently manage or purge stale data, exacerbating the backlog and overwhelming system resources in legacy environments.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.409, Strength: 0.726">ⓘ</span>
-<br/>  The accumulation of unprocessed tasks in asynchronous queues leads to delays in feature delivery and bug fixes, as developers are increasingly diverted to address the backlog rather than progressing on new work, thereby signaling a critical bottleneck in the system’s processing capabilities.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.395, Strength: 0.633">ⓘ</span>
-<br/>  Constantly changing requirements often lead to rework and task reassignment, which exacerbate the backlog in processing queues as developers are pulled away from completing existing tasks to accommodate new demands, highlighting inefficiencies in the processing pipeline.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.629">ⓘ</span>
-<br/>  Accumulating unprocessed tasks in asynchronous processing queues often leads to unreleased system resources, as the continuous influx of tasks overwhelms the processing capacity, preventing the proper deallocation of objects and connections that are held by pending operations.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.667">ⓘ</span>
-<br/>  The accumulation of unprocessed tasks in asynchronous processing queues leads to teams overanalyzing requirements in an attempt to avoid further delays, ultimately causing stagnation in development efforts.
 
-## Root Causes ▼
+- [Service Timeouts](service-timeouts.md)
+<br/>  Tasks waiting too long in queues exceed timeout thresholds before they can be processed.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Users experience delays as their requests wait in growing queues before being processed.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Tasks that age out or are retried excessively due to queue backlog generate elevated error rates.
+- [Cascade Failures](cascade-failures.md)
+<br/>  Queue buildup can exhaust system resources and create cascading failures across dependent services.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Users complain about delayed processing of operations like email confirmations and order processing.
+- [User Frustration](user-frustration.md)
+<br/>  Users experience delays when their requests sit in growing queues.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Insufficient Worker Capacity](insufficient-worker-capacity.md)
+<br/>  Not enough worker processes to consume tasks at the rate they are produced directly causes queue growth.
+- [Inefficient Code](inefficient-code.md)
+<br/>  Slow task processing code means each worker takes longer per task, reducing overall consumption throughput.
+- [Resource Contention](resource-contention.md)
+<br/>  Workers competing for limited CPU, memory, or I/O resources process tasks more slowly, allowing queues to grow.
+- [External Service Delays](external-service-delays.md)
+<br/>  Workers blocked waiting for slow external services reduce processing throughput and cause queue accumulation.
 ## Detection Methods ○
 
 - **Queue Monitoring:** Use the monitoring tools provided by the message queue system (e.g., RabbitMQ Management, Kafka Metrics, AWS SQS/SNS metrics) to track queue size, message rates, and consumer lag.

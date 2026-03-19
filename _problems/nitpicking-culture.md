@@ -35,19 +35,21 @@ Nitpicking culture occurs when code reviews become dominated by excessive focus 
 - Team members express frustration with excessive focus on trivial issues
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.569">ⓘ</span>
-<br/>  Excessive focus on trivial code details during reviews diverts attention and resources away from identifying and addressing critical functionality and design issues, resulting in inadequate test coverage for important code paths.
 
-## Root Causes ▼
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.861">ⓘ</span>
-<br/>  The development team's inadequate design skills lead to a lack of confidence in addressing complex functionality, resulting in a focus on trivial details during code reviews as a misguided attempt to exert quality control over the software.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.822">ⓘ</span>
-<br/>  A lack of understanding of object-oriented programming principles leads developers to focus on trivial code aspects, as they may not recognize the significance of design and functionality flaws, perpetuating a culture that prioritizes nitpicking over meaningful code quality improvements in legacy systems.
-- [Reviewer Anxiety](reviewer-anxiety.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.816">ⓘ</span>
-<br/>  The fear of making incorrect judgments during code reviews leads team members to focus on trivial issues, thereby neglecting critical design and functionality flaws, which perpetuates a cycle of superficial assessments in legacy systems.
-- [Unclear Sharing Expectations](unclear-sharing-expectations.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.850">ⓘ</span>
-<br/>  The tendency to fixate on trivial details during code reviews stems from a lack of clarity about essential information to prioritize, leading teams to compensate by scrutinizing minor issues while neglecting critical design and functionality concerns.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Excessive review cycles focused on trivial details delay code merges and slow down feature delivery.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Developers become demoralized when their work is critiqued for inconsequential details while substantive contributions are overlooked.
+- [Code Review Inefficiency](code-review-inefficiency.md)
+<br/>  Review time is consumed by trivial comments, reducing the overall effectiveness and throughput of the review process.
+- [Quality Blind Spots](quality-blind-spots.md)
+<br/>  Focus on minor details diverts attention from important design flaws and security vulnerabilities that go unnoticed.
+## Causes ▼
 
+- [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
+<br/>  Without automated style enforcement, reviewers fill the void by manually policing formatting and naming conventions.
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Reviewers who lack design expertise default to commenting on surface-level style issues because they cannot evaluate deeper architectural concerns.
 ## Detection Methods ○
 
 - **Comment Impact Analysis:** Classify review comments by their potential impact on code quality

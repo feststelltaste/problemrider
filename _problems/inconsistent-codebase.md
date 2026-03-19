@@ -33,41 +33,27 @@ An inconsistent codebase lacks coherent and unified design, style, and standards
 - There are frequent arguments about style in code reviews.
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.595">ⓘ</span>
-<br/>  The lack of a uniform style, coding standards, and design patterns leads to increased complexity and confusion for developers, resulting in frustration and burnout as they struggle to navigate and maintain an inconsistent codebase.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.542">ⓘ</span>
-<br/>  Frequent changes to requirements often arise from the challenges posed by a lack of uniformity in the codebase, as unclear or inconsistent code makes it difficult for developers to accurately interpret existing functionality, leading to misunderstandings and an increased likelihood of altering requirements during development.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.609">ⓘ</span>
-<br/>  The lack of uniform coding standards and design patterns leads to a fragmented codebase that complicates the development environment, causing inefficiencies as developers struggle to navigate and integrate disparate code elements.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.581">ⓘ</span>
-<br/>  Frequent modifications to the same large functions or files by multiple developers stem from the absence of uniform coding standards and design patterns, leading to confusion and an increased likelihood of version control conflicts that hinder development progress.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.537">ⓘ</span>
-<br/>  The lack of uniform style and standards in the codebase exacerbates the challenges of navigating and implementing the inherently complex business domain, leading to misunderstandings and errors in the system's functionality.
 
-## Root Causes ▼
-- [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.946">ⓘ</span>
-<br/>  User confusion arises from the inconsistent implementation of similar features across the codebase, leading to varied behavior that developers struggle to standardize, ultimately perpetuating the lack of cohesion and clarity in the overall system design.
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.928">ⓘ</span>
-<br/>  The presence of shared dependencies leads to varying implementations across components, as developers may adopt different versions or usage patterns of the same libraries, resulting in a lack of cohesive coding standards and design patterns that contribute to an inconsistent codebase.
-- [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.924">ⓘ</span>
-<br/>  Excessive API latency forces developers to implement quick fixes and workarounds in the codebase to mitigate performance issues, resulting in a haphazard style and lack of adherence to coding standards, which ultimately leads to an inconsistent codebase that is difficult to maintain.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.933">ⓘ</span>
-<br/>  The presence of developers accustomed to procedural programming leads to the implementation of inconsistent coding practices within an object-oriented codebase, as they apply familiar paradigms that conflict with the intended design principles, resulting in a lack of uniformity and coherence.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.919">ⓘ</span>
-<br/>  A lack of understanding of fundamental object-oriented programming principles results in the creation of disorganized and varied coding practices, which ultimately leads to an inconsistent codebase that hinders maintenance and developer onboarding.
-- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.924">ⓘ</span>
-<br/>  The lack of cohesive bundling of data and behavior results in scattered implementations and varying approaches across the codebase, leading to inconsistent styles and standards that hinder readability and maintenance.
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.928">ⓘ</span>
-<br/>  Insufficient funding leads to rushed development and inadequate attention to coding standards, resulting in a chaotic and inconsistent codebase that hinders long-term maintainability and onboarding.
-- [Incomplete Projects](incomplete-projects.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.899">ⓘ</span>
-<br/>  The frequent abandonment of features leads to fragmented implementations and varied coding approaches, resulting in a disorganized codebase that hinders readability and maintainability.
-- [Over-Reliance on Utility Classes](over-reliance-on-utility-classes.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.870">ⓘ</span>
-<br/>  The reliance on utility classes with static methods promotes a procedural programming style that undermines consistent application of object-oriented principles, leading to a fragmented and disorganized codebase that lacks uniformity in style and design.
-- [Inconsistent Behavior](inconsistent-behavior.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.909">ⓘ</span>
-<br/>  The lack of standardized coding practices leads to varied implementations of business processes, resulting in different outcomes depending on the trigger point, which in turn complicates the codebase and hinders maintainability and consistency for developers.
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.834">ⓘ</span>
-<br/>  The tendency of reviewers to concentrate on trivial formatting and naming issues diverts attention from essential coding practices and architectural consistency, leading to a fragmented and chaotic codebase that becomes increasingly hard to manage and scale.
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  Mixed styles and patterns make it harder for developers to read and understand code across different modules.
+- [Difficult Developer Onboarding](difficult-developer-onboarding.md)
+<br/>  New developers struggle to become productive because there are no consistent patterns to learn and apply across the codebase.
+- [Style Arguments in Code Reviews](style-arguments-in-code-reviews.md)
+<br/>  Without agreed-upon standards, code reviews devolve into debates about stylistic preferences.
+- [Increased Cognitive Load](increased-cognitive-load.md)
+<br/>  Developers must mentally switch between different conventions and patterns when working across modules.
+- [Inconsistent Behavior](inconsistent-behavior.md)
+<br/>  An inconsistent codebase where different patterns are used for the same concerns directly leads to inconsistent syste....
+## Causes ▼
 
+- [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
+<br/>  Without clear coding standards, each developer follows their own preferences, resulting in inconsistent code.
+- [Team Churn Impact](team-churn-impact.md)
+<br/>  As developers join and leave over time, each brings different coding conventions that accumulate in the codebase.
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
+<br/>  Superficial reviews fail to enforce consistent coding standards and allow style inconsistencies to persist.
+- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
+<br/>  Without clear ownership of code quality standards, no one takes responsibility for maintaining consistency.
 ## Detection Methods ○
 
 - **Manual Code Inspection:** The inconsistency is often obvious from simply browsing the codebase. Manually inspect different parts of the codebase to identify stylistic variations.

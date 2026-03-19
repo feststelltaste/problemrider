@@ -4,7 +4,7 @@ description: Poor database schema design creates performance issues, data integr
   problems, and maintenance difficulties.
 category:
 - Architecture
-- Data
+- Database
 related_problems:
 - slug: schema-evolution-paralysis
   similarity: 0.7
@@ -34,23 +34,30 @@ Database schema design problems occur when database structures are poorly planne
 - Performance issues that can't be resolved through indexing alone
 
 ## Symptoms ▲
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.817">ⓘ</span>
-<br/>  Inefficient database schema design leads to complex queries that fail to optimize data retrieval, resulting in a reliance on fetching data from the source for each request, which serves as an indicator of underlying performance issues.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.371, Strength: 0.879">ⓘ</span>
-<br/>  Poor database schema design often leads to complex and convoluted data structures that make it difficult to generate realistic and comprehensive test data, resulting in inadequate test data management that fails to reveal underlying issues in the system.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.724">ⓘ</span>
-<br/>  Inefficient database schema design leads to tightly coupled data access patterns that complicate the codebase, making it challenging to maintain and scale the application as it evolves.
-- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.785">ⓘ</span>
-<br/>  Poorly designed database schemas lead to inefficient data structures that make API interactions cumbersome, resulting in challenges with versioning and backward compatibility as changes are made to accommodate evolving data requirements.
-- [Poor Domain Model](poor-domain-model.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.871">ⓘ</span>
-<br/>  Ineffective database schema design can lead to a misalignment between the system's structure and core business concepts, resulting in a poor reflection of the domain model that manifests as fragile logic and miscommunication within the application.
 
-## Root Causes ▼
-- [Imperative Data Fetching Logic](imperative-data-fetching-logic.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.887">ⓘ</span>
-<br/>  Inefficient data fetching in a loop exacerbates performance issues and increases the complexity of schema interactions, ultimately leading to greater data integrity problems and maintenance challenges in legacy systems.
-- [Data Migration Complexities](data-migration-complexities.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.935">ⓘ</span>
-<br/>  Complex data migration processes often lead to inadequate schema adjustments, resulting in performance issues and data integrity challenges that stem from the inability to effectively map legacy data structures to optimized designs.
+- [Database Query Performance Issues](database-query-performance-issues.md)
+<br/>  Poor schema design forces complex joins and inefficient access patterns, directly causing query performance degradation.
+- [High Number of Database Queries](high-number-of-database-queries.md)
+<br/>  Over-normalized schemas require multiple queries to retrieve data that could be served by a single query with better schema design.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Poorly designed schemas make adding new features difficult as developers must work around structural limitations.
+- [Data Migration Complexities](data-migration-complexities.md)
+<br/>  Problematic schema designs create difficult migration challenges when schema changes are eventually needed to fix structural issues.
+- [Increased Risk of Bugs](increased-risk-of-bugs.md)
+<br/>  Data redundancy from poor normalization creates opportunities for data inconsistency bugs when updates miss some copies of the data.
+- [Data Migration Integrity Issues](data-migration-integrity-issues.md)
+<br/>  Poor schema design creates mapping challenges during migration that risk data integrity.
 
+## Causes ▼
+
+- [Implementation Starts Without Design](implementation-starts-without-design.md)
+<br/>  Starting development without proper database design leads to ad hoc schema decisions that accumulate into structural problems.
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Teams lacking database design expertise create schemas that are poorly normalized or that don't match application access patterns.
+- [Deadline Pressure](deadline-pressure.md)
+<br/>  Time pressure leads to quick-and-dirty schema designs that prioritize immediate needs over long-term data organization.
+- [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
+<br/>  Continuously adding features without refactoring the schema causes tables to bloat with unrelated columns and poor structure.
 ## Detection Methods ○
 
 - **Schema Complexity Analysis:** Analyze table structures, relationships, and normalization levels

@@ -28,15 +28,21 @@ A single entry point design is a design where all requests to a system must go t
 - The single entry point is a common source of bugs.
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.621">ⓘ</span>
-<br/>  The reliance on a single component for all system requests amplifies the impact of a legacy skill shortage, as the limited pool of developers familiar with that component leads to increased maintenance bottlenecks and potential failures.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.883">ⓘ</span>
-<br/>  The reliance on shared libraries and frameworks among multiple components often leads to a single entry point design as a means to manage and coordinate access to these dependencies, simplifying integration and reducing the risk of version conflicts in legacy systems.
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.909">ⓘ</span>
-<br/>  The requirement for all requests to funnel through a single component arises from the need to manage concurrent access and data integrity in a scenario where multiple services rely on a shared database, leading to a tightly coupled architecture that can hinder scalability and flexibility.
+- [God Object Anti-Pattern](god-object-anti-pattern.md)
+<br/>  The single entry point accumulates responsibilities over time, becoming a god object that handles too many concerns.
+- [Maintenance Bottlenecks](maintenance-bottlenecks.md)
+<br/>  All changes must flow through the single entry point, creating a bottleneck where modifications queue up and slow down development.
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  Changes to the single entry point risk breaking many unrelated features since all requests depend on it.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  All components become coupled through the single entry point, creating excessive interdependencies.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Adding new features requires modifying the single entry point, which is risky and time-consuming due to its complexity.
+## Causes ▼
 
+- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
+<br/>  Monolithic designs naturally funnel all requests through centralized components rather than distributing responsibility.
 ## Detection Methods ○
 - **Code Reviews:** Look for single classes or components that are responsible for handling all incoming requests.
 - **Static Analysis Tools:** Use tools to identify large classes and classes with a large number of dependencies.

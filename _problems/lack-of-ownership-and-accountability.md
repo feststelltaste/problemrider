@@ -34,35 +34,32 @@ Lack of ownership and accountability occurs when no individual or team takes cle
 - Technical debt issues are identified but never prioritized or addressed
 
 ## Symptoms ▲
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.481, Strength: 0.767">ⓘ</span>
-<br/>  The absence of clear responsibility for code quality and maintenance leads to unaddressed technical debt and miscommunication within the team, resulting in inefficiencies and a decline in overall productivity as developers struggle to navigate poorly maintained systems.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.467, Strength: 0.707">ⓘ</span>
-<br/>  The absence of designated responsibility for code quality leads to unresolved technical debt and chaotic maintenance, causing developers to face continual frustrations and burnout as they grapple with a deteriorating work environment and mounting pressure to fix unresolved issues.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.466, Strength: 0.690">ⓘ</span>
-<br/>  The absence of designated responsibility for code quality leads to insufficient prioritization of testing efforts, resulting in critical areas of the codebase lacking adequate test coverage and exposing the system to undetected issues.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.688">ⓘ</span>
-<br/>  The absence of clear responsibility for maintaining code quality leads to inconsistent understanding and documentation of requirements, resulting in frequent changes as developers lack a stable reference point, which causes rework and project delays.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.460, Strength: 0.731">ⓘ</span>
-<br/>  The absence of clear responsibility for code maintenance leads to neglect in resource management, resulting in unreleased resources that indicate a lack of oversight and accountability in legacy systems.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.733">ⓘ</span>
-<br/>  The absence of clear responsibility for maintaining code quality leads to a reliance on a diminishing pool of knowledgeable developers, resulting in critical bottlenecks and vulnerabilities in system maintenance when those few individuals are unavailable.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.404, Strength: 0.692">ⓘ</span>
-<br/>  The absence of clear ownership leads to neglect in optimizing the development environment, resulting in inefficiencies that manifest as slow and cumbersome processes, ultimately hindering code quality and team productivity.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.888">ⓘ</span>
-<br/>  The absence of clear ownership leads to neglect in maintaining code quality and documentation, resulting in increased technical debt and confusion that slows down development velocity and hinders timely delivery of features and fixes.
-- [Feature Factory](feature-factory.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.850">ⓘ</span>
-<br/>  The absence of clear responsibility for maintaining code quality leads to a focus on rapidly delivering features without assessing their long-term impact, resulting in a culture that prioritizes quantity over the sustainable value of the software.
-- [Project Authority Vacuum](project-authority-vacuum.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.757">ⓘ</span>
-<br/>  The absence of clear ownership and accountability within the legacy system leads to a lack of organizational support and executive sponsorship for critical projects, as stakeholders are hesitant to allocate resources when no one is responsible for the system's ongoing maintenance and improvement.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.739">ⓘ</span>
-<br/>  The absence of clear responsibility for code quality results in neglecting proper test data management, leading to the use of outdated or unrealistic test data that fails to represent actual usage scenarios in legacy systems.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.721">ⓘ</span>
-<br/>  The absence of clear responsibility for code quality and documentation leads to inconsistent understanding and expectations between stakeholders and developers, resulting in communication gaps that manifest as rework and dissatisfaction.
 
-## Root Causes ▼
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Without owners accountable for code quality, technical debt accumulates as no one prioritizes addressing it.
+- [Information Decay](information-decay.md)
+<br/>  Documentation decays when no one is responsible for keeping it current and accurate.
+- [Inconsistent Quality](inconsistent-quality.md)
+<br/>  Quality varies dramatically across the system when no one is accountable for maintaining standards.
+- [Delayed Issue Resolution](delayed-issue-resolution.md)
+<br/>  Issues linger unresolved because no one takes responsibility for addressing them.
+- [Quality Degradation](quality-degradation.md)
+<br/>  System quality erodes over time when there is no ownership to maintain and improve it.
+- [Refactoring Avoidance](refactoring-avoidance.md)
+<br/>  Without clear ownership, refactoring is avoided because no one feels responsible for improving shared code.
+- [Maintenance Paralysis](maintenance-paralysis.md)
+<br/>  Without clear ownership, maintenance work stalls because no one takes responsibility for improvements.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
 
+- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
+<br/>  When roles and responsibilities are not clearly defined, ownership naturally becomes ambiguous.
+- [Team Churn Impact](team-churn-impact.md)
+<br/>  Frequent team changes disrupt ownership continuity as departing members leave unowned components behind.
+- [Organizational Structure Mismatch](organizational-structure-mismatch.md)
+<br/>  Organizational boundaries that do not align with system architecture leave components without clear team ownership.
+- [Project Authority Vacuum](project-authority-vacuum.md)
+<br/>  Absence of clear project authority means no one assigns or enforces component ownership.
 ## Detection Methods ○
 - **Responsibility Mapping:** Create explicit matrices showing who owns what components and quality aspects
 - **Maintenance Task Tracking:** Monitor how long maintenance tasks remain unassigned or incomplete

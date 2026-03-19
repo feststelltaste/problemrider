@@ -4,7 +4,7 @@ description: Data structures are organized in ways that cause poor cache perform
   leading to excessive memory access latency and reduced throughput.
 category:
 - Code
-- Data
+- Database
 - Performance
 related_problems:
 - slug: alignment-and-padding-issues
@@ -36,14 +36,20 @@ Data structure cache inefficiency occurs when data is organized in memory layout
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Cache-inefficient data structures cause excessive memory latency, making user-facing operations feel sluggish and unresponsive.
+- [Scaling Inefficiencies](scaling-inefficiencies.md)
+<br/>  Cache-inefficient data layouts cause performance to degrade non-linearly as data grows, making the system difficult to scale.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  As data volumes increase over time, cache miss rates worsen progressively, causing steadily declining throughput.
+## Causes ▼
 
-## Root Causes ▼
-- [Slow Response Times for Lists](slow-response-times-for-lists.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.933">ⓘ</span>
-<br/>  Inefficient data fetching for lists leads to non-contiguous memory access patterns, which exacerbate cache misses and degrade performance, ultimately causing increased memory access latency and reduced throughput in legacy systems.
-- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.942">ⓘ</span>
-<br/>  Inefficient data structure organization arises from a lack of cohesive bundling of related data and behavior, resulting in high coupling that disrupts optimal memory locality and cache utilization, ultimately leading to increased access latency and reduced throughput.
-
+- [Alignment and Padding Issues](alignment-and-padding-issues.md)
+<br/>  Poor memory alignment and excessive padding waste space within cache lines, reducing the useful data density per cache line fetch.
+- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
+<br/>  Choosing data structures based solely on algorithmic complexity without considering memory access patterns leads to cache-unfriendly layouts.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers without knowledge of hardware-level performance characteristics design data structures that work against CPU cache behavior.
 ## Detection Methods ○
 
 - **Cache Performance Profiling:** Analyze cache hit/miss rates for specific data structure operations

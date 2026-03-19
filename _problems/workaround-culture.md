@@ -34,39 +34,35 @@ Workaround culture develops when teams consistently choose to implement temporar
 - Developers routinely discuss "the proper way" versus "the way that works"
 
 ## Symptoms ▲
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.498, Strength: 0.802">ⓘ</span>
-<br/>  The reliance on increasingly complex workarounds to avoid addressing underlying issues leads to confusion, inefficiencies, and miscommunication within the team, ultimately resulting in a slowdown of development velocity as more time is spent navigating these temporary solutions rather than delivering new features or fixes.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.497, Strength: 0.703">ⓘ</span>
-<br/>  The reliance on complex workarounds to avoid addressing underlying issues leads to inefficiencies and confusion within the development process, ultimately diminishing the team's overall productivity and effectiveness.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.674">ⓘ</span>
-<br/>  The reliance on increasingly complex workarounds leads to a convoluted understanding of the inherently complex business domain, as teams prioritize short-term fixes over comprehensive solutions, resulting in a system that is difficult to comprehend and implement effectively.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.450, Strength: 0.680">ⓘ</span>
-<br/>  The failure of code review practices to address critical issues reflects a workaround culture where teams prioritize quick fixes over thorough evaluations, leading to a lack of accountability and the persistence of technical debt in legacy systems.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.439, Strength: 0.656">ⓘ</span>
-<br/>  The reliance on increasingly complex workarounds to address persistent issues leads to a degraded work environment, causing developers to feel overwhelmed and disengaged as they struggle with unresolved technical debt.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.661">ⓘ</span>
-<br/>  The reliance on complex workarounds leads to user frustration and task incompletion, resulting in an increased volume of support requests as users seek assistance with issues that could have been resolved by addressing the underlying technical problems.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.413, Strength: 0.687">ⓘ</span>
-<br/>  The reliance on increasingly complex workarounds to manage legacy systems diverts teams' focus from exploring innovative solutions, leading to a culture that prioritizes minimal compliance over creative problem-solving, thereby stifling new ideas and reinforcing the cycle of technical debt.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.385, Strength: 0.601">ⓘ</span>
-<br/>  The reliance on increasingly complex workarounds to address unresolved issues leads to a reactive development environment where requirements frequently change to accommodate quick fixes, resulting in ongoing rework and technical friction.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.637">ⓘ</span>
-<br/>  The reliance on complex workarounds diverts attention from addressing underlying issues, leading to a decline in legacy system expertise as experienced developers become less engaged in problem-solving, thereby exacerbating the skills gap and creating maintenance bottlenecks.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.698">ⓘ</span>
-<br/>  The tendency to rely on complex workarounds leads teams to overanalyze issues instead of addressing them directly, resulting in prolonged research phases that hinder progress and exacerbate technical debt.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.684">ⓘ</span>
-<br/>  The reliance on complex workarounds limits teams' ability to address underlying issues, leading to unbounded data growth as accumulated temporary solutions fail to manage data efficiently, resulting in overflow and a lack of systematic data maintenance.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.796">ⓘ</span>
-<br/>  The relentless pursuit of meeting deadlines drives teams to prioritize quick fixes over thorough solutions, perpetuating a cycle of complex workarounds that obscure underlying issues and increase technical debt in legacy systems.
-- [Complex Implementation Paths](complex-implementation-paths.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.780">ⓘ</span>
-<br/>  The tendency to create intricate technical solutions for straightforward business needs arises from a reliance on temporary fixes, highlighting a failure to address underlying architectural issues and resulting in increased complexity and inefficiency within legacy systems.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.697">ⓘ</span>
-<br/>  The reliance on complex workarounds to address immediate issues consumes valuable resources and time, leaving teams trapped in a cycle of maintenance that hinders their ability to focus on innovative solutions and improvements.
 
-## Root Causes ▼
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  A culture that normalizes workarounds directly produces an ever-growing collection of temporary fixes that become permanent.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Each workaround adds technical debt as temporary solutions accumulate without being replaced by proper implementations.
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  Layers of interconnected workarounds create a fragile system where changes in one area cause unexpected failures elsewhere.
+- [Increasing Brittleness](increasing-brittleness.md)
+<br/>  As workarounds pile up over time, the system becomes progressively more fragile and harder to change safely.
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  Workaround-laden code is harder to understand because the logic reflects patches around problems rather than clean design.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  Maintaining multiple layers of workarounds requires significantly more effort than maintaining properly designed solutions.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  When bugs arise in workaround-heavy code, tracing the root cause through layers of patches and hacks is extremely difficult.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Deadline Pressure](deadline-pressure.md)
+<br/>  Tight deadlines push teams to implement quick workarounds instead of investing time in proper solutions.
+- [Refactoring Avoidance](refactoring-avoidance.md)
+<br/>  When teams avoid refactoring existing code, workarounds become the default approach to dealing with design problems.
+- [Fear of Change](fear-of-change.md)
+<br/>  Teams afraid of modifying existing systems prefer adding workarounds on top rather than fixing root causes.
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Organizational emphasis on short-term delivery over long-term quality encourages workarounds as the path of least resistance.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Without test coverage, teams cannot safely refactor code and resort to workarounds to avoid introducing regressions.
+- [Time Pressure](time-pressure.md)
+<br/>  Time pressure is a fundamental driver of workaround culture.
 ## Detection Methods ○
 - **Code Pattern Analysis:** Search for common workaround indicators in code comments and structure
 - **Technical Debt Tracking:** Monitor accumulation of temporary solutions that become permanent

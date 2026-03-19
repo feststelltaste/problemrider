@@ -34,37 +34,31 @@ Frequent hotfixes and rollbacks occur when teams regularly need to deploy emerge
 - Release notes frequently contain entries like "hotfix for critical issue" or "emergency rollback"
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.549, Strength: 0.759">ⓘ</span>
-<br/>  Constantly changing requirements lead to inadequate planning and testing in legacy systems, resulting in frequent hotfixes and rollbacks as the team struggles to adapt to evolving expectations without a stable foundation.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.533, Strength: 0.837">ⓘ</span>
-<br/>  The occurrence of frequent hotfixes and rollbacks is often driven by flaky tests that fail intermittently due to environmental inconsistencies, leading to a lack of confidence in the testing process and resulting in rushed deployments to address unresolved issues.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.388, Strength: 0.731">ⓘ</span>
-<br/>  The constant need for hotfixes and rollbacks leads teams to overanalyze potential issues, causing them to remain in a prolonged research phase instead of implementing necessary changes, ultimately stalling development progress in legacy systems.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.344, Strength: 0.778">ⓘ</span>
-<br/>  The lack of proper tracking for code and infrastructure versions increases the likelihood of errors during deployments, directly contributing to the need for frequent hotfixes and rollbacks as teams struggle to manage inconsistencies and revert to stable states.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.582">ⓘ</span>
-<br/>  The consistent need for frequent hotfixes and rollbacks indicates a breakdown in the code review process, as inadequate feedback and failure to identify critical issues lead to poor code quality that necessitates ongoing emergency fixes.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.315, Strength: 0.647">ⓘ</span>
-<br/>  The frequent need for hotfixes and rollbacks leads to a chaotic development environment where multiple developers alter the same large functions or files without adequate coordination, resulting in merge conflicts that further disrupt the already fragile release process.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.746">ⓘ</span>
-<br/>  The constant need for frequent fixes and rollbacks due to inadequate testing diverts resources away from thorough feature development, leading to a decline in the overall quality of user experiences and functionality.
 
-## Root Causes ▼
-- [Deployment Coupling](deployment-coupling.md) <span class="info-tooltip" title="Confidence: 0.413, Strength: 0.814">ⓘ</span>
-<br/>  The need to deploy multiple interdependent components simultaneously leads to insufficient testing of individual changes, resulting in frequent hotfixes and rollbacks when any component fails to perform as expected.
-- [Complex Deployment Process](complex-deployment-process.md) <span class="info-tooltip" title="Confidence: 0.389, Strength: 0.750">ⓘ</span>
-<br/>  The manual and error-prone nature of the deployment process leads to inadequate testing and oversight, resulting in frequent production failures that necessitate hotfixes and rollbacks to restore system stability.
-- [Inconsistent Execution](inconsistent-execution.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.691">ⓘ</span>
-<br/>  Inconsistent execution of manual processes across team members leads to variations in testing and deployment practices, resulting in undetected issues that necessitate frequent hotfixes and rollbacks to stabilize the legacy system.
-- [Increased Manual Testing Effort](increased-manual-testing-effort.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.784">ⓘ</span>
-<br/>  The reliance on extensive manual testing in legacy systems leads to incomplete coverage and oversight, resulting in undetected issues that necessitate frequent hotfixes and rollbacks to address the quality gaps.
-- [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md) <span class="info-tooltip" title="Confidence: 0.355, Strength: 0.709">ⓘ</span>
-<br/>  The frequent deployment of inadequately tested prototype code into production systems leads to unforeseen errors and instabilities, necessitating constant hotfixes and rollbacks to maintain operational integrity.
-- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.653">ⓘ</span>
-<br/>  Inconsistent deployment environments lead to unforeseen application behavior during releases, resulting in the need for frequent hotfixes and rollbacks as the team attempts to address issues that were not detected in the testing phases.
-- [Increased Error Rates](increased-error-rates.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.673">ⓘ</span>
-<br/>  The rise in error rates leads to frequent hotfixes and rollbacks as the legacy system's outdated architecture and inadequate testing processes fail to catch defects early, necessitating constant adjustments to maintain functionality.
+- [Constant Firefighting](constant-firefighting.md)
+<br/>  The team spends significant time responding to production emergencies rather than working on planned development.
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  Repeated hotfixes and rollbacks damage users' confidence in the system's reliability.
+- [Release Anxiety](release-anxiety.md)
+<br/>  The pattern of frequent post-release issues creates anxiety and stress around every deployment.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Developer time spent on emergency fixes reduces time available for planned feature development.
+- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
+<br/>  Repeated release failures and rollbacks erode business stakeholders' trust in the development team's ability to deliver.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Constant emergency fixes and rollbacks create stress and interrupt planned work, directly leading to developer frustr....
+## Causes ▼
 
+- [Poor Test Coverage](poor-test-coverage.md)
+<br/>  Insufficient test coverage allows bugs to reach production undetected, necessitating hotfixes after deployment.
+- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
+<br/>  Differences between testing and production environments cause issues that only appear after deployment.
+- [Large, Risky Releases](large-risky-releases.md)
+<br/>  Large, infrequent releases bundle many changes together, increasing the likelihood that something will break and require a hotfix or rollback.
+- [Inadequate Integration Tests](inadequate-integration-tests.md)
+<br/>  Lack of thorough integration testing means interactions between components are not verified before release, leading to production failures.
+- [Deadline Pressure](deadline-pressure.md)
+<br/>  Pressure to release on schedule leads to cutting corners on testing and quality control, resulting in defective releases.
 ## Detection Methods ○
 - **Hotfix Frequency Tracking:** Monitor the rate of emergency deployments relative to planned releases
 - **Time Between Release and Issues:** Track how quickly problems are discovered after deployments

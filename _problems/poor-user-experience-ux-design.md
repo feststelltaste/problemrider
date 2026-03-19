@@ -30,43 +30,27 @@ Poor user experience (UX) design is a critical problem that can render an applic
 - The application is not accessible to users with disabilities.
 
 ## Symptoms ▲
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.473, Strength: 0.747">ⓘ</span>
-<br/>  When the application is poorly designed and fails to align with user needs, it leads to confusion and frustration, prompting users to seek help more frequently from customer support as they struggle to complete tasks.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.460, Strength: 0.728">ⓘ</span>
-<br/>  The difficulty in navigation and understanding of the application leads users to inadvertently leave resources allocated, resulting in unreleased system resources that indicate poor design and usability issues.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.414, Strength: 0.716">ⓘ</span>
-<br/>  Inefficient data retrieval processes, such as fetching data from the source on every request instead of using cached data, lead to increased latency and frustration for users, ultimately contributing to a challenging and unsatisfactory interaction with the application.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.400, Strength: 0.764">ⓘ</span>
-<br/>  A slow and cumbersome development environment hinders the team's ability to effectively implement and iterate on improvements to the user interface, resulting in persistent usability issues that reflect a failure to address user needs.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.757">ⓘ</span>
-<br/>  A lack of clear communication between stakeholders and developers often leads to misaligned expectations, resulting in features that do not address user needs, which directly contributes to a frustrating and ineffective user experience in legacy systems.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.797">ⓘ</span>
-<br/>  When user interfaces are poorly designed and fail to align with user needs, teams may become overwhelmed by the complexity of requirements and options, leading to prolonged analysis phases without actionable steps, which hinders development progress in legacy systems.
-- [Negative User Feedback](negative-user-feedback.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.814">ⓘ</span>
-<br/>  Negative user feedback arises from the application's cumbersome interface and inefficient performance, acting as a direct symptom of inadequate design choices that fail to address user needs and expectations in legacy systems.
-- [High Defect Rate in Production](high-defect-rate-in-production.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.755">ⓘ</span>
-<br/>  The presence of a high defect rate in production often signals inadequate understanding of user requirements and interactions, leading to poorly designed features that fail to function as intended, thereby highlighting deficiencies in both the development and quality assurance processes within legacy systems.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.351, Strength: 0.853">ⓘ</span>
-<br/>  Reduced time for refining features in legacy systems often leads to poorly designed interfaces and inadequate functionality, which directly contributes to a frustrating user experience.
-- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.807">ⓘ</span>
-<br/>  Ineffective monitoring of project progress can lead to unnoticed usability issues in legacy systems, resulting in a user experience that fails to meet needs and exacerbating confusion and difficulty in application use.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.335, Strength: 0.796">ⓘ</span>
-<br/>  When an application is challenging to use and fails to align with user needs, it leads to frustration among users, which in turn prompts stakeholders to express dissatisfaction with the overall project outcomes, as they perceive the development efforts as not delivering value or quality.
-- [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.317, Strength: 0.736">ⓘ</span>
-<br/>  Inefficient code often arises from poorly designed user interactions that lead to unnecessary complexity and resource consumption, thus serving as an indicator of a user experience that fails to align with user needs.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.764">ⓘ</span>
-<br/>  The use of inadequate test data results in ineffective testing practices that fail to capture user interactions and pain points, ultimately leading to a design that does not align with actual user needs and expectations.
-- [Quality Blind Spots](quality-blind-spots.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.687">ⓘ</span>
-<br/>  The difficulty in navigating and utilizing the application often stems from a lack of thorough testing and validation, leading to undetected behaviors that compromise usability, thereby revealing blind spots in quality assurance processes.
-- [System Integration Blindness](system-integration-blindness.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.812">ⓘ</span>
-<br/>  When components of a legacy system operate correctly in isolation but fail to function cohesively during integration, it highlights a lack of holistic user-centered design, indicating that the overall user experience is compromised due to insufficient understanding of how users interact with the system as a whole.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.772">ⓘ</span>
-<br/>  Inefficient and unclear user interactions often lead to excessive and unnecessary resource allocation in legacy systems, resulting in memory not being freed properly, which in turn signals a poor overall user experience.
 
-## Root Causes ▼
+- [User Frustration](user-frustration.md)
+<br/>  Confusing or difficult-to-use interfaces directly cause user frustration and dissatisfaction.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Poor UX generates complaints, negative reviews, and low satisfaction scores from users.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  When the application doesn't meet user needs, customers become dissatisfied with the product.
+- [Increased Customer Support Load](increased-customer-support-load.md)
+<br/>  Confusing UX causes users to contact support frequently for help with basic tasks.
+- [Shadow Systems](shadow-systems.md)
+<br/>  Users frustrated with poor UX create their own workaround tools and spreadsheets outside the official system.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
+<br/>  Not gathering user needs and workflows leads to interfaces designed without understanding how users actually work.
+- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
+<br/>  Disconnect between developers and end users means the UI is built based on assumptions rather than actual needs.
+- [Feature Creep](feature-creep.md)
+<br/>  Uncontrolled feature additions clutter the interface and make it harder to use for core tasks.
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Prioritizing quick feature delivery over usability creates interfaces that work technically but are hard to use.
 ## Detection Methods ○
 - **Usability Testing:** Observe real users as they interact with the application to identify areas of confusion and frustration.
 - **User Surveys:** Collect feedback from users about their experience with the application.

@@ -34,27 +34,25 @@ Inconsistent coding standards occur when different parts of a codebase follow di
 - Varying levels of documentation and commenting
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.430, Strength: 0.666">ⓘ</span>
-<br/>  Inconsistent coding practices lead to fragmented logic and unclear structures, making it challenging to identify and implement comprehensive tests, which in turn results in inadequate coverage of critical code areas.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.686">ⓘ</span>
-<br/>  The lack of uniform coding standards leads to fragmented code structures and varying practices, which complicate the development environment, resulting in slower build times and increased debugging efforts that hinder overall team productivity.
-- [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.756">ⓘ</span>
-<br/>  The lack of uniform coding standards leads to varied interpretations and practices among team members, resulting in inconsistent guidance during onboarding, which manifests as a disparity in the new members' experiences and understanding of the codebase.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.360, Strength: 0.576">ⓘ</span>
-<br/>  Inconsistent coding practices hinder clear communication among developers, leading to misunderstandings about requirements and resulting in frequent changes as teams struggle to align on the evolving project goals.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.654">ⓘ</span>
-<br/>  The lack of uniform coding standards leads to unpredictable code behavior and improper test setups, resulting in flaky tests that compromise the reliability of the overall test suite.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.904">ⓘ</span>
-<br/>  The presence of shared dependencies often leads to varying interpretations and implementations of coding standards among developers, resulting in inconsistencies that degrade code quality and complicate maintenance in legacy systems.
-- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.800">ⓘ</span>
-<br/>  The accumulation of design and implementation shortcuts leads to a fragmented approach to coding practices, resulting in varied and inconsistent standards that hinder maintenance and degrade code quality.
-- [Mixed Coding Styles](mixed-coding-styles.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.898">ⓘ</span>
-<br/>  The presence of varying formatting, naming conventions, and design patterns throughout the codebase leads to a lack of uniformity in coding standards, making it difficult for developers to maintain and improve the system effectively.
-- [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.862">ⓘ</span>
-<br/>  The difficulty in modifying the existing code without introducing new bugs leads developers to avoid making necessary updates to coding standards, resulting in a lack of uniformity that hinders maintenance and reduces overall code quality.
+- [Increased Cognitive Load](increased-cognitive-load.md)
+<br/>  Developers must spend extra mental energy deciphering different coding conventions across the codebase instead of focusing on business logic.
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  Mixed formatting, naming, and structural conventions make it harder for developers to read and understand unfamiliar code sections.
+- [Code Review Inefficiency](code-review-inefficiency.md)
+<br/>  Reviews become bogged down with style and convention discussions rather than focusing on logic and design issues.
+- [Increased Risk of Bugs](increased-risk-of-bugs.md)
+<br/>  When developers cannot rely on consistent patterns, they are more likely to misunderstand existing code and introduce defects.
+- [Difficult Developer Onboarding](difficult-developer-onboarding.md)
+<br/>  New team members take longer to become productive because they must learn multiple coding styles and conventions used throughout the codebase.
+## Causes ▼
 
+- [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
+<br/>  Without clear, agreed-upon coding standards, each developer defaults to their own preferred style.
+- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
+<br/>  When no one is responsible for enforcing consistent standards, coding conventions diverge over time.
+- [High Turnover](high-turnover.md)
+<br/>  Frequent developer turnover introduces new coding preferences without continuity of established conventions.
 ## Detection Methods ○
 
 - **Code Style Analysis:** Use automated tools to detect formatting and style inconsistencies

@@ -34,29 +34,25 @@ Logging configuration issues occur when applications have improperly configured 
 - Performance issues related to excessive logging operations
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.660, Strength: 0.880">ⓘ</span>
-<br/>  In legacy systems, inadequate logging configuration often leads to insufficient visibility into untested code paths, which in turn results in critical areas of the codebase being overlooked during testing and validation processes.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.535, Strength: 0.869">ⓘ</span>
-<br/>  Inefficient logging configuration can lead to a lack of visibility into data access patterns, causing developers to overlook optimization opportunities like caching, which results in excessive data fetching and increased latency in legacy systems.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.803">ⓘ</span>
-<br/>  When logging configurations are improperly managed, it leads to insufficient tracking of system changes and dependencies, which in turn results in inadequate configuration management that fails to capture the necessary context for debugging and version control in legacy systems.
-- [Poor Operational Concept](poor-operational-concept.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.888">ⓘ</span>
-<br/>  Improper logging configuration creates gaps in monitoring and maintenance capabilities, leading to an inability to proactively address issues, which manifests as instability in the system post-launch.
 
-## Root Causes ▼
-- [Excessive Logging](excessive-logging.md) <span class="info-tooltip" title="Confidence: 0.464, Strength: 0.695">ⓘ</span>
-<br/>  Excessive log generation due to misconfigured applications leads to an overwhelming volume of log data, which obscures critical information, increases the risk of missing important events, and creates security vulnerabilities by overwhelming monitoring systems in legacy environments.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.445, Strength: 0.908">ⓘ</span>
-<br/>  The tight coupling of logging with business logic in legacy systems complicates configuration management, leading to improper settings that cause critical information to be missed, generate excessive logs, or expose security vulnerabilities.
-- [Buffer Overflow Vulnerabilities](buffer-overflow-vulnerabilities.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.884">ⓘ</span>
-<br/>  Exploiting buffer overflow vulnerabilities can lead to unauthorized code execution that alters logging configurations, resulting in missing critical information and creating excessive log volume or security vulnerabilities in legacy systems.
-- [Log Spam](log-spam.md) <span class="info-tooltip" title="Confidence: 0.388, Strength: 0.860">ⓘ</span>
-<br/>  The flooding of logs with repetitive queries overwhelms the logging system, preventing the capture of essential information and obscuring critical events, which leads to improper configuration and management of logging settings in legacy systems.
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.889">ⓘ</span>
-<br/>  Insufficient production monitoring leads to a lack of visibility into logging configurations, causing critical information to be overlooked, excessive log volume to go unaddressed, and security vulnerabilities to remain undetected in legacy systems.
-- [Misconfigured Connection Pools](misconfigured-connection-pools.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.857">ⓘ</span>
-<br/>  Improperly configured connection pools can lead to application instability and resource exhaustion, resulting in incomplete or delayed logging events that compromise the integrity and security of the logging system in legacy environments.
+- [Log Spam](log-spam.md)
+<br/>  Misconfigured log levels (e.g., DEBUG in production) directly cause excessive log volume that floods log files.
+- [Insufficient Audit Logging](insufficient-audit-logging.md)
+<br/>  When logging is configured too restrictively, critical audit events are missed, leaving gaps in compliance and forensic records.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Missing log entries due to overly restrictive configuration or inconsistent formats make it very difficult to diagnose production issues.
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  Misconfigured logging that inadvertently captures passwords, personal data, or API keys creates security and compliance exposure.
+- [Log Injection Vulnerabilities](log-injection-vulnerabilities.md)
+<br/>  Logging configurations that don't enforce structured logging or input sanitization enable injection attacks.
+## Causes ▼
 
+- [Inadequate Configuration Management](inadequate-configuration-management.md)
+<br/>  Poor configuration management practices lead to logging settings that drift between environments or aren't properly reviewed.
+- [Configuration Chaos](configuration-chaos.md)
+<br/>  General configuration disorganization makes it easy for logging settings to be inconsistent or incorrect across services.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers without experience in production operations may not understand the implications of logging configuration choices.
 ## Detection Methods ○
 
 - **Log Volume Monitoring:** Monitor log generation rates and storage consumption

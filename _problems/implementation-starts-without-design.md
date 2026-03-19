@@ -37,21 +37,27 @@ Implementation starts without design occurs when development teams begin coding 
 - Technology choices made individually by developers during implementation
 
 ## Symptoms ▲
-- [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.439, Strength: 0.759">ⓘ</span>
-<br/>  When development begins without a clear design, it leads to poorly defined data structures that exacerbate schema mismatches and format incompatibilities during migration, resulting in integrity issues as the legacy data fails to align with the new system's expectations.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.765">ⓘ</span>
-<br/>  The lack of a clear design framework during development leads to chaotic code that stifles creativity and discourages teams from exploring innovative solutions, as they become preoccupied with maintaining functionality over improvement.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.688">ⓘ</span>
-<br/>  When development begins without a clear design, it results in haphazard coding practices that fail to adhere to architectural principles, ultimately revealing limitations in the system's architecture that hinder performance and maintainability.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.745">ⓘ</span>
-<br/>  The lack of a coherent design leads to inconsistent coding practices and undocumented changes, which directly results in poor tracking and management of code versions, making configuration management failures more likely to occur as a symptom of the initial disorganization.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.719">ⓘ</span>
-<br/>  The lack of a clear design before development leads to poor code organization and architectural drift, which in turn complicates feature implementation and bug fixes, resulting in a noticeable decline in development velocity.
 
-## Root Causes ▼
+- [Implementation Rework](implementation-rework.md)
+<br/>  Without upfront design, structural problems are discovered during or after implementation, requiring significant rebuilding.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Without planned component boundaries, code grows organically with tight interdependencies between modules.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Ad-hoc design decisions made during coding accumulate as technical debt since they lack coherent architectural vision.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  Without a clear design, developers create workarounds to patch structural issues that emerge during implementation.
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  An organically evolved architecture without clear design becomes difficult to intentionally evolve or improve.
+- [Spaghetti Code](spaghetti-code.md)
+<br/>  Starting to code without design leads directly to tangled, unstructured code as there is no architectural blueprint t....
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Time Pressure](time-pressure.md)
+<br/>  Tight deadlines push teams to skip design phases and jump straight into coding to show progress quickly.
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Teams without architecture expertise may not recognize the value of upfront design or know how to conduct it effectively.
+- [Requirements Ambiguity](requirements-ambiguity.md)
+<br/>  When requirements are vague, teams may feel unable to design upfront and resort to exploratory coding instead.
 ## Detection Methods ○
 
 - Review project timelines for allocation of design and architecture activities

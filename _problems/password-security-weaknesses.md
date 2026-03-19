@@ -27,13 +27,25 @@ Password security weaknesses occur when systems implement inadequate password po
 - Default or shared passwords used across systems or accounts
 
 ## Symptoms ▲
-- [Insufficient Audit Logging](insufficient-audit-logging.md) <span class="info-tooltip" title="Confidence: 0.425, Strength: 0.850">ⓘ</span>
-<br/>  In legacy systems, weak password policies and poor authentication practices often lead to a lack of comprehensive audit logging, as inadequate security measures fail to capture and record relevant security events, hindering breach detection and incident investigation.
 
-## Root Causes ▼
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Weak passwords and poor authentication practices make it trivial for attackers to bypass authentication through brute force or credential stuffing.
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  Weak password security exposes user accounts to unauthorized access, creating risks for personal data protection and regulatory compliance.
+- [Session Management Issues](session-management-issues.md)
+<br/>  Weak password security combined with poor session handling compounds vulnerabilities, as compromised credentials grant persistent unauthorized access.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Account compromises resulting from weak password security erode user trust and lead to customer complaints and churn.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  Legacy systems may use outdated hashing algorithms and authentication patterns that predate modern security standards.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers without security expertise may implement naive password storage and validation without understanding the vulnerabilities.
+- [Quality Compromises](quality-compromises.md)
+<br/>  Under pressure to deliver quickly, proper password security practices are skipped in favor of simpler but insecure implementations.
+- [Secret Management Problems](secret-management-problems.md)
+<br/>  Poor overall secret management practices extend to password handling, with inadequate protection of stored credentials.
 ## Detection Methods ○
 
 - **Password Policy Analysis:** Review password requirements and enforcement mechanisms

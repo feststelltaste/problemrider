@@ -31,21 +31,25 @@ Service timeouts occur when a service fails to respond to a request within a spe
 - Your monitoring system is firing alerts for timeout errors.
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.495, Strength: 0.687">ⓘ</span>
-<br/>  When services fail to complete requests in a timely manner, it leads to upstream services not receiving responses within their set timeout thresholds, indicating an underlying issue with overall service stability and performance.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.436, Strength: 0.652">ⓘ</span>
-<br/>  Constantly updated requirements can lead to service timeouts as developers struggle to accommodate changes within tight deadlines, resulting in rushed implementations that exacerbate performance issues and system instability.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.703">ⓘ</span>
-<br/>  When requests exceed the allowable service time, the failure to properly release allocated resources can lead to exhaustion of available connections and memory, serving as an indicator of underlying performance issues in the system.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.779">ⓘ</span>
-<br/>  Excessive hardware interrupts signal that the system is struggling to manage requests effectively, leading to frequent context switches that exacerbate timeouts and hinder overall application performance in legacy systems.
-- [High Defect Rate in Production](high-defect-rate-in-production.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.802">ⓘ</span>
-<br/>  Frequent service timeouts can lead to rushed fixes and inadequate testing, resulting in a high defect rate in production as developers may overlook critical quality checks while trying to address performance issues.
 
-## Root Causes ▼
+- [Cascade Failures](cascade-failures.md)
+<br/>  When one service times out, callers may also time out waiting for it, creating a chain reaction of failures across the system.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Users experience slow responses or error messages when services time out, leading to frustration and dissatisfaction.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Requests waiting for timed-out services contribute to overall application slowness as threads and connections are held open.
+- [Thread Pool Exhaustion](thread-pool-exhaustion.md)
+<br/>  Threads waiting for timed-out downstream services remain blocked, gradually exhausting the thread pool and preventing new request processing.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Network Latency](network-latency.md)
+<br/>  High network latency between services increases round-trip times, causing requests to exceed timeout thresholds.
+- [External Service Delays](external-service-delays.md)
+<br/>  Slow responses from external or third-party services propagate through the system as upstream services wait and eventually time out.
+- [Database Query Performance Issues](database-query-performance-issues.md)
+<br/>  Slow database queries in downstream services cause request processing to exceed timeout limits.
+- [Resource Contention](resource-contention.md)
+<br/>  Overloaded services competing for limited CPU, memory, or I/O resources process requests too slowly, causing timeouts.
 ## Detection Methods ○
 
 - **Distributed Tracing:** Use tools like Jaeger or Zipkin to trace requests across service boundaries and identify which service call is timing out.

@@ -35,43 +35,29 @@ Duplicated research effort occurs when multiple team members independently inves
 - Research findings are not shared or accessible to other team members
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.425, Strength: 0.656">ⓘ</span>
-<br/>  The lack of coordinated research leads to multiple interpretations of project goals, resulting in frequent requirement changes as teams fail to align on a shared understanding, ultimately triggering rework and delays.
-- [Poor Interfaces Between Applications](poor-interfaces-between-applications.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.863">ⓘ</span>
-<br/>  Disconnected or poorly defined interfaces hinder effective collaboration and information sharing, causing team members to unknowingly pursue the same research topics in isolation, thereby exacerbating duplicated efforts.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.556">ⓘ</span>
-<br/>  The inefficiency of independently researching the same topics leads to wasted time and resources, creating a stressful work environment that contributes to developer frustration and burnout as they grapple with the lack of collaboration and clarity in a legacy system.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.649">ⓘ</span>
-<br/>  The pressure to meet deadlines exacerbates duplicated research efforts, as team members, feeling rushed, independently investigate the same topics without coordinating, leading to inefficiencies and missed opportunities for collaboration in legacy software systems.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.650">ⓘ</span>
-<br/>  In legacy systems, the lack of shared knowledge and collaboration can lead to inconsistent approaches in test design and implementation, resulting in flaky tests that reflect the underlying issue of redundant individual efforts rather than a unified strategy.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.879">ⓘ</span>
-<br/>  The reliance on a common set of libraries and frameworks often leads to team members independently researching the same topics to understand how to work with these shared dependencies, resulting in duplicated efforts and a lack of efficient knowledge sharing.
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.883">ⓘ</span>
-<br/>  The lack of a centralized knowledge-sharing mechanism due to reliance on a single shared database prevents team members from accessing existing research, leading them to independently duplicate efforts without awareness of each other's work.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.793">ⓘ</span>
-<br/>  The presence of bottlenecks in processes or team dynamics restricts efficient communication and collaboration, leading to isolated research efforts as team members independently attempt to overcome these constraints, ultimately resulting in duplicated work and wasted resources.
-- [Approval Dependencies](approval-dependencies.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.766">ⓘ</span>
-<br/>  Frequent approval bottlenecks hinder collaboration and communication among team members, leading them to independently research the same topics instead of sharing insights and pooling their knowledge effectively.
-- [Difficult Code Reuse](difficult-code-reuse.md) <span class="info-tooltip" title="Confidence: 0.354, Strength: 0.879">ⓘ</span>
-<br/>  The lack of modular and reusable code leads to team members independently researching solutions, as they are unable to leverage existing resources or collaborate effectively, resulting in duplicated efforts.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.917">ⓘ</span>
-<br/>  The tight coupling of cross-cutting concerns with business logic in legacy systems leads to fragmented knowledge and unclear responsibilities, causing multiple team members to independently research the same topics instead of collaborating effectively.
-- [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.859">ⓘ</span>
-<br/>  The presence of unresolved issues in multiple instances of duplicated code leads team members to independently research the same topics in an effort to address recurring problems, resulting in duplicated research efforts and a lack of shared knowledge.
-- [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.820">ⓘ</span>
-<br/>  The fragility of legacy systems leads to uncertainty in existing knowledge and processes, prompting team members to independently research the same topics to avoid potential issues, thus resulting in duplicated efforts.
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.924">ⓘ</span>
-<br/>  The lack of adequate funding and resources leads to insufficient coordination among team members, resulting in overlapping research efforts that inflate project costs and undermine collaborative knowledge building.
-- [Technology Lock-In](technology-lock-in.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.790">ⓘ</span>
-<br/>  The inability to adopt new technologies leads to isolated research efforts as team members rely on outdated systems that lack collaborative tools, resulting in redundant work and missed opportunities for shared insights.
-- [Incomplete Projects](incomplete-projects.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.905">ⓘ</span>
-<br/>  The failure to complete projects leads to a lack of centralized knowledge and clear direction, causing team members to independently research the same topics without leveraging existing insights or collaboration.
-- [Code Review Inefficiency](code-review-inefficiency.md) <span class="info-tooltip" title="Confidence: 0.303, Strength: 0.871">ⓘ</span>
-<br/>  Inefficient code reviews lead to prolonged feedback loops that prevent team members from collaborating effectively and sharing knowledge, resulting in individuals independently researching the same topics instead of leveraging collective insights.
+- [Extended Research Time](extended-research-time.md)
+<br/>  When research is duplicated across team members rather than shared, the total time spent researching increases dramatically.
+- [Wasted Development Effort](wasted-development-effort.md)
+<br/>  Multiple people independently researching the same topic represents directly wasted development capacity.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Team throughput drops when multiple members spend time on research that could have been done once and shared.
+- [Information Fragmentation](information-fragmentation.md)
+<br/>  When multiple people research independently, their findings end up scattered across different documents and personal notes rather than consolidated.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  The multiplied research overhead directly slows the team's ability to deliver features and fixes.
+## Causes ▼
 
+- [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
+<br/>  When knowledge sharing processes are ineffective, research findings are not disseminated, causing others to repeat the same investigations.
+- [Knowledge Silos](knowledge-silos.md)
+<br/>  Research expertise trapped in individual silos means others cannot access prior findings and must redo the research.
+- [Communication Breakdown](communication-breakdown.md)
+<br/>  Poor communication prevents team members from knowing that others have already researched the same topics.
+- [Team Silos](team-silos.md)
+<br/>  Isolated teams naturally duplicate research because they lack visibility into what other teams have already investigated.
+- [Unclear Sharing Expectations](unclear-sharing-expectations.md)
+<br/>  When it is not clear what information should be shared with the team, research findings go unshared and get duplicated.
 ## Detection Methods ○
 
 - **Research Topic Tracking:** Monitor which topics team members are researching to identify overlaps

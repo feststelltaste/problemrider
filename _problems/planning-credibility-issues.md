@@ -35,21 +35,25 @@ Planning credibility issues occur when development teams lose stakeholder trust 
 - Teams are asked to "commit" to timelines rather than estimate them
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.427, Strength: 0.695">ⓘ</span>
-<br/>  Inaccurate past estimates undermine stakeholder trust, prompting ongoing adjustments to requirements as teams attempt to compensate for perceived planning failures, which in turn leads to increased rework and project delays in legacy systems.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.414, Strength: 0.766">ⓘ</span>
-<br/>  Inaccurate predictions and missed commitments undermine stakeholder trust, leading to a lack of support and resources for the development team, which in turn results in decreased productivity and effectiveness as they struggle to meet unrealistic expectations and navigate inefficiencies.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.701">ⓘ</span>
-<br/>  Intense pressure to meet deadlines often arises from a lack of trust in future planning, leading teams to make hasty decisions that compromise software quality, thereby reinforcing the cycle of credibility issues in project estimates.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.725">ⓘ</span>
-<br/>  Teams hesitate to move from research to implementation due to a lack of trust in the accuracy of future estimates, leading to prolonged analysis without actionable outcomes in development work.
-- [New Hire Frustration](new-hire-frustration.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.730">ⓘ</span>
-<br/>  The skepticism surrounding future estimates and plans diminishes team morale and confidence, leading to barriers that hinder new hires from effectively integrating and contributing to projects in a legacy environment.
 
-## Root Causes ▼
-- [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.860">ⓘ</span>
-<br/>  A culture that prioritizes perfection over timely delivery results in prolonged development cycles, leading to a track record of missed deadlines and unreliable forecasts that ultimately erode trust in future planning efforts.
+- [Unrealistic Deadlines](unrealistic-deadlines.md)
+<br/>  When stakeholders don't trust team estimates, they impose their own deadlines that are disconnected from actual effort required.
+- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
+<br/>  Repeated inaccurate predictions erode stakeholder trust in the development team's ability to plan and deliver.
+- [Stakeholder Frustration](stakeholder-frustration.md)
+<br/>  Business stakeholders become frustrated when they cannot rely on development estimates for their own planning and commitments.
+- [Team Demoralization](team-demoralization.md)
+<br/>  Teams lose motivation when their estimates are consistently overridden or questioned, creating an adversarial dynamic.
+## Causes ▼
 
+- [Missed Deadlines](missed-deadlines.md)
+<br/>  A history of consistently missing deadlines directly undermines the credibility of future estimates and plans.
+- [Planning Dysfunction](planning-dysfunction.md)
+<br/>  Systematically flawed planning processes produce unrealistic plans that are missed, eroding trust in all future planning.
+- [Poor Planning](poor-planning.md)
+<br/>  Persistent poor planning that fails to account for complexity and risk creates the track record of inaccurate predictions.
+- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
+<br/>  Agreeing to unrealistic timelines to please stakeholders sets up inevitable failures that damage planning credibility.
 ## Detection Methods ○
 
 - **Stakeholder Trust Surveys:** Assess stakeholder confidence in development team planning and estimates

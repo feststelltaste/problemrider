@@ -31,39 +31,27 @@ Resource contention occurs when multiple processes or threads compete for the sa
 - You are getting complaints from users about slow performance.
 
 ## Symptoms ▲
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.565, Strength: 0.805">ⓘ</span>
-<br/>  Unbounded data structures exacerbate resource contention by continuously consuming memory without release, ultimately leading to increased server load and diminished performance as the application struggles to manage limited resources.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.553, Strength: 0.825">ⓘ</span>
-<br/>  In legacy systems, the failure to properly deallocate resources leads to their accumulation, which exacerbates resource contention as the application continually competes for an already limited pool of available resources, ultimately resulting in performance degradation.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.609">ⓘ</span>
-<br/>  Persistent resource contention leads to slow application performance and frequent disruptions, which frustrate developers as they struggle to meet deadlines and resolve issues, ultimately causing disengagement and burnout.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.380, Strength: 0.566">ⓘ</span>
-<br/>  The server's overloaded state leads to insufficient resources for processing requests, causing delays that result in upstream services exceeding their timeout thresholds and failing to receive timely responses.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.621">ⓘ</span>
-<br/>  When the server experiences resource contention due to limited CPU, memory, or I/O capacity, it leads to slower application performance and increased wait times for development tasks, ultimately causing a decline in the overall productivity and effectiveness of the development team.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.553">ⓘ</span>
-<br/>  Constantly changing requirements can lead to increased workload and complexity, exacerbating resource contention as development teams struggle to manage competing priorities and limited capacity, ultimately resulting in delays and inefficiencies.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.545">ⓘ</span>
-<br/>  As the server struggles to allocate sufficient resources due to overload, users experience slow performance and task failures, leading to an increase in support inquiries as they seek assistance for issues arising from the system's inefficiency.
 
-## Root Causes ▼
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.352, Strength: 0.911">ⓘ</span>
-<br/>  Insufficient funding due to escalating project costs limits investment in necessary infrastructure upgrades, leading to an overloaded server as the application struggles to operate effectively within constrained resources.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.342, Strength: 0.883">ⓘ</span>
-<br/>  Inefficient allocation of limited resources occurs when specific components or team members create constraints in the workflow, leading to high demand and competition for those resources, ultimately overloading the server and degrading application performance.
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.934">ⓘ</span>
-<br/>  The competition for limited server resources arises because multiple components rely on the same libraries and frameworks, leading to inefficient resource allocation and increased load due to simultaneous demands on the shared dependencies.
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.901">ⓘ</span>
-<br/>  The competition for limited resources arises because multiple services accessing a single database simultaneously can lead to increased load and contention, resulting in performance degradation and resource bottlenecks in the server.
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.853">ⓘ</span>
-<br/>  Inefficient use of developer time on trivial code issues leads to insufficient attention on optimizing resource management in legacy systems, ultimately causing server overload and contention for critical resources.
-- [Resistance to Change](resistance-to-change.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.808">ⓘ</span>
-<br/>  The reluctance to refactor outdated components results in inefficient code and architecture that cannot effectively scale, ultimately leading to increased resource competition on the server as the application struggles to handle demand.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.894">ⓘ</span>
-<br/>  The lack of design skills leads to poorly optimized code and inefficient resource management, which increases the load on the server and results in resource contention as the application struggles to operate within constrained system capabilities.
-- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.873">ⓘ</span>
-<br/>  The ongoing pressure to accommodate new feature requests within an unrealistic timeline leads to insufficient resource allocation and prioritization, causing the application to compete for limited CPU, memory, and I/O, ultimately resulting in server overload and resource contention.
+- [Slow Response Times for Lists](slow-response-times-for-lists.md)
+<br/>  Resource contention causes data-intensive operations like list queries to slow down significantly as processes compete for I/O and CPU.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  As resource competition intensifies over time, overall system performance steadily deteriorates.
+- [Cascade Failures](cascade-failures.md)
+<br/>  When resources are exhausted, components begin failing in sequence as they cannot obtain the resources they need to function.
+- [Memory Swapping](memory-swapping.md)
+<br/>  Heavy memory contention forces the OS to swap memory to disk, dramatically degrading system performance.
+- [Unpredictable System Behavior](unpredictable-system-behavior.md)
+<br/>  Resource contention causes timing-dependent behavior where system performance varies unpredictably based on concurrent load patterns.
+## Causes ▼
 
+- [Resource Allocation Failures](resource-allocation-failures.md)
+<br/>  Leaked resources reduce available capacity, intensifying competition among processes for the remaining resources.
+- [N+1 Query Problem](n-plus-one-query-problem.md)
+<br/>  Excessive database queries from N+1 patterns consume database resources and create I/O contention.
+- [Capacity Mismatch](capacity-mismatch.md)
+<br/>  Infrastructure that doesn't match actual demand patterns leads to resource contention during peak usage periods.
+- [Scaling Inefficiencies](scaling-inefficiencies.md)
+<br/>  Inability to scale components independently means bottlenecked components create resource contention for the entire system.
 ## Detection Methods ○
 
 - **System Monitoring Tools:** Use tools like `top`, `htop`, `vmstat`, `iostat` (Linux) or Task Manager (Windows) to monitor CPU, memory, and I/O usage.

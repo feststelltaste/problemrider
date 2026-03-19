@@ -34,13 +34,27 @@ Authentication bypass vulnerabilities occur when security flaws in authenticatio
 - Security logs show successful access without corresponding authentication events
 
 ## Symptoms ▲
-- [Insufficient Audit Logging](insufficient-audit-logging.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.758">ⓘ</span>
-<br/>  Insufficient logging of security events may prevent the detection of unauthorized access attempts, allowing attackers to exploit authentication vulnerabilities without triggering alarms, thus highlighting the systemic weaknesses in the security posture of legacy systems.
 
-## Root Causes ▼
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  Bypassed authentication exposes sensitive data to unauthorized access, creating serious data protection risks.
+- [System Outages](system-outages.md)
+<br/>  Exploited authentication bypasses can lead to system compromise and subsequent outages.
+- [Legal Disputes](legal-disputes.md)
+<br/>  Data breaches resulting from authentication bypass can trigger legal action from affected parties.
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  When users learn that authentication can be bypassed, trust in the system is severely damaged.
+- [Regulatory Compliance Drift](regulatory-compliance-drift.md)
+<br/>  Authentication bypass vulnerabilities violate security compliance requirements (GDPR, HIPAA, PCI-DSS), directly pushi....
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  Poor error handling in authentication logic can create fallback paths that bypass security checks.
+- [Insufficient Testing](insufficient-testing.md)
+<br/>  Lack of thorough security testing leaves authentication bypass vulnerabilities undetected.
+- [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
+<br/>  Developer backdoors and simplified authentication in prototypes become security vulnerabilities when prototypes go to production.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers without security expertise may implement authentication logic with subtle flaws that allow bypass.
 ## Detection Methods ○
 
 - **Security Testing and Penetration Testing:** Test authentication mechanisms for bypass vulnerabilities

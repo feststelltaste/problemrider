@@ -32,45 +32,29 @@ A knowledge sharing breakdown occurs when the mechanisms for distributing inform
 - New team members have a difficult time getting up to speed.
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.567, Strength: 0.843">ⓘ</span>
-<br/>  Ineffective knowledge sharing among team members leads to a lack of documentation and mentorship for legacy technologies, resulting in a critical shortage of skilled developers and increasing reliance on a few individuals, which creates maintenance bottlenecks and potential failures.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.479, Strength: 0.852">ⓘ</span>
-<br/>  Ineffective knowledge sharing leads to a lack of diverse perspectives during code reviews, causing repeated assignments to the same reviewers who may be uninspired to provide substantial feedback, ultimately creating a bottleneck and diminishing code quality.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.443, Strength: 0.905">ⓘ</span>
-<br/>  Ineffective knowledge sharing among team members leads to a lack of collaboration and understanding of best practices, resulting in inadequate time and attention for feature refinement, which ultimately compromises quality and user experience in legacy systems.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.439, Strength: 0.827">ⓘ</span>
-<br/>  The breakdown in knowledge sharing leads to a lack of shared best practices and solutions within the team, resulting in an inefficient development environment where outdated tools and processes persist, ultimately hindering overall productivity.
-- [Capacity Mismatch](capacity-mismatch.md) <span class="info-tooltip" title="Confidence: 0.401, Strength: 0.831">ⓘ</span>
-<br/>  Ineffective knowledge sharing leads to a lack of alignment in team members' understanding of project demands and capabilities, resulting in mismatched capacity across development stages that manifests as bottlenecks and underutilization.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.811">ⓘ</span>
-<br/>  Ineffective knowledge sharing among team members leads to a lack of shared understanding regarding stakeholder requirements, resulting in communication gaps that manifest as rework and stakeholder dissatisfaction in the development process.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.379, Strength: 0.898">ⓘ</span>
-<br/>  Ineffective knowledge sharing leads to a lack of diverse ideas and collaboration among team members, resulting in a stagnant mindset that prioritizes minimal compliance over innovative solutions, which is indicative of deeper systemic issues within legacy systems.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.828">ⓘ</span>
-<br/>  Ineffective knowledge sharing creates information silos that hinder collaboration and decision-making, leading teams to overanalyze situations without reaching conclusions or taking action, which stalls development progress.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.366, Strength: 0.873">ⓘ</span>
-<br/>  The ineffective sharing of knowledge among team members prevents collaboration and the exchange of innovative ideas, resulting in a focus on routine maintenance tasks at the expense of exploring new solutions, thereby stifling innovation.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.950">ⓘ</span>
-<br/>  Ineffective knowledge sharing creates information silos that hinder collaboration and learning, ultimately leading to systemic inefficiencies that reduce the overall productivity and output of the development team.
-- [Project Authority Vacuum](project-authority-vacuum.md) <span class="info-tooltip" title="Confidence: 0.355, Strength: 0.787">ⓘ</span>
-<br/>  Ineffective knowledge sharing hampers team alignment and understanding of project goals, leading to a lack of organizational support and executive sponsorship for critical initiatives, which manifests as an inability to secure necessary resources.
-- [Inadequate Mentoring Structure](inadequate-mentoring-structure.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.840">ⓘ</span>
-<br/>  The lack of an effective mentoring structure highlights the breakdown in knowledge sharing, as new developers are not receiving consistent guidance from experienced team members, which exacerbates information silos and hinders collaborative learning in legacy systems.
-- [Unclear Documentation Ownership](unclear-documentation-ownership.md) <span class="info-tooltip" title="Confidence: 0.332, Strength: 0.779">ⓘ</span>
-<br/>  The lack of clear responsibility for maintaining documentation arises from ineffective knowledge sharing practices, resulting in outdated and inconsistent information that hinders team learning and perpetuates information silos.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.833">ⓘ</span>
-<br/>  Ineffective knowledge sharing among team members leads to misalignment on project goals and execution, resulting in slower development cycles and poor communication that ultimately frustrates stakeholders.
-- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.328, Strength: 0.843">ⓘ</span>
-<br/>  Ineffective knowledge sharing leads to a lack of visibility into team dynamics and project status, resulting in unaddressed issues that escalate into significant project control problems.
-- [Fear of Failure](fear-of-failure.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.837">ⓘ</span>
-<br/>  The breakdown in effective knowledge sharing fosters a climate where team members hesitate to voice uncertainties or mistakes, exacerbating a fear of failure that stifles innovation and discourages risk-taking, particularly in the context of managing and evolving legacy systems.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.868">ⓘ</span>
-<br/>  Ineffective knowledge sharing among team members leads to inadequate communication about versioning and updates, resulting in poor tracking of code and infrastructure changes, which manifests as configuration management issues.
 
-## Root Causes ▼
+- [Knowledge Silos](knowledge-silos.md)
+<br/>  When sharing mechanisms fail, knowledge naturally becomes isolated in the individuals who hold it.
+- [Knowledge Gaps](knowledge-gaps.md)
+<br/>  Team members develop gaps in understanding because information is not effectively distributed.
+- [Duplicated Effort](duplicated-effort.md)
+<br/>  Without sharing, different team members independently solve the same problems.
+- [Difficult Developer Onboarding](difficult-developer-onboarding.md)
+<br/>  New hires struggle to get up to speed when there are no effective mechanisms for transferring knowledge.
+- [Inconsistent Quality](inconsistent-quality.md)
+<br/>  Without shared standards and practices, quality varies across the codebase and team members.
+- [Knowledge Dependency](knowledge-dependency.md)
+<br/>  When sharing breaks down, team members become dependent on specific individuals who hold the information.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Team Silos](team-silos.md)
+<br/>  Organizational silos between teams create barriers to cross-team knowledge sharing.
+- [Individual Recognition Culture](individual-recognition-culture.md)
+<br/>  A culture that rewards individual achievement discourages sharing knowledge that could benefit others.
+- [Overworked Teams](overworked-teams.md)
+<br/>  Teams under heavy workload have no time to document or share knowledge with colleagues.
+- [Unclear Sharing Expectations](unclear-sharing-expectations.md)
+<br/>  Without clear expectations around knowledge sharing, it becomes nobody's explicit responsibility.
 ## Detection Methods ○
 - **Knowledge Mapping:** Identify the key knowledge areas in the team and who the experts are.
 - **Information Flow Analysis:** Analyze how information moves through the team and identify any bottlenecks.

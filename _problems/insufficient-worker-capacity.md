@@ -31,27 +31,25 @@ Insufficient worker capacity is a common problem in systems that use a worker mo
 - You are getting alerts from your monitoring system about the queue size.
 
 ## Symptoms ▲
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.464, Strength: 0.728">ⓘ</span>
-<br/>  The inability to process tasks efficiently due to limited worker capacity leads to delayed responses and unmet user needs, causing frustration that drives an increase in customer support inquiries.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.666">ⓘ</span>
-<br/>  The lack of sufficient worker processes leads to increased task queues, causing delays in processing requests, which in turn results in upstream services timing out due to their inability to receive timely responses.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.421, Strength: 0.672">ⓘ</span>
-<br/>  A slow and cumbersome development environment can arise from insufficient worker capacity, as developers may face delays in testing and deploying code due to overwhelmed processes, resulting in increased wait times for task completion and hindering overall productivity.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.414, Strength: 0.662">ⓘ</span>
-<br/>  The constant need to adjust project requirements arises from the inability of the limited worker processes to keep pace with task completion, creating a perception of inadequacy that prompts stakeholders to frequently revise expectations, thereby compounding delays and rework in the development lifecycle.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.405, Strength: 0.695">ⓘ</span>
-<br/>  The lack of sufficient worker processes leads to tasks being queued and not completed, resulting in resources remaining allocated without being released, which serves as an indicator of the system's inability to process and manage workload efficiently.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.374, Strength: 0.675">ⓘ</span>
-<br/>  The inability to process tasks efficiently due to limited worker resources leads to increased bottlenecks, causing delays and frustrations that ultimately diminish the development team's productivity and effectiveness.
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.709">ⓘ</span>
-<br/>  The lack of sufficient worker processes leads to unprocessed tasks accumulating in queues, causing data structures to grow unchecked and resulting in memory exhaustion and performance issues as they are unable to be efficiently managed or cleared.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.717">ⓘ</span>
-<br/>  The inability to efficiently process incoming tasks due to a lack of worker capacity leads to prolonged backlogs, which in turn hampers the team's ability to deliver features and fixes on time, thereby manifesting as a decline in development velocity.
 
-## Root Causes ▼
+- [Growing Task Queues](growing-task-queues.md)
+<br/>  When workers cannot keep up with incoming tasks, queues grow continuously.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Tasks waiting in backed-up queues cause noticeable delays in application response and processing times.
+- [Service Timeouts](service-timeouts.md)
+<br/>  Long queue wait times cause dependent services to time out waiting for task completion.
+- [Cascade Failures](cascade-failures.md)
+<br/>  Queue buildup from insufficient workers can cascade to upstream services that depend on timely processing.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  As workload grows and worker capacity stays fixed, system performance degrades progressively over time.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Capacity Mismatch](capacity-mismatch.md)
+<br/>  A fundamental mismatch between provisioned capacity and actual demand leads to insufficient workers.
+- [Scaling Inefficiencies](scaling-inefficiencies.md)
+<br/>  Inability to scale worker pools dynamically in response to load means capacity cannot adapt to demand.
+- [Poor Planning](poor-planning.md)
+<br/>  Failure to plan for workload growth results in worker pools that are undersized for actual demand.
 ## Detection Methods ○
 
 - **Queue Monitoring:** Track queue size, message rates, and consumer lag using the message queue system's monitoring tools.

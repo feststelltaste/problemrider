@@ -34,21 +34,25 @@ Garbage collection pressure occurs when applications create and discard objects 
 - Memory usage patterns show rapid allocation and collection cycles
 
 ## Symptoms ▲
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.566">ⓘ</span>
-<br/>  Frequent performance pauses caused by excessive garbage collection lead to user frustration and task completion issues, resulting in an increased volume of customer support inquiries.
 
-## Root Causes ▼
-- [Deadlock Conditions](deadlock-conditions.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.862">ⓘ</span>
-<br/>  When multiple threads become deadlocked and cannot release resources, it leads to an accumulation of uncollectible objects in memory, which increases allocation rates and triggers more frequent garbage collection cycles, ultimately degrading performance and throughput in legacy systems.
-- [High Number of Database Queries](high-number-of-database-queries.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.865">ⓘ</span>
-<br/>  The excessive number of database queries generates a high volume of transient objects that are quickly allocated and deallocated, leading to increased garbage collection cycles that disrupt application performance and throughput.
-- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.908">ⓘ</span>
-<br/>  Frequent changes in project scope lead to rushed implementations and increased object creation, resulting in excessive allocation and deallocation that intensifies garbage collection cycles and hampers application performance.
-- [Task Queues Backing Up](task-queues-backing-up.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.846">ⓘ</span>
-<br/>  The accumulation of unprocessed asynchronous jobs leads to increased object retention in memory, causing excessive allocation and deallocation cycles that trigger frequent garbage collection events and degrade overall application performance.
-- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.855">ⓘ</span>
-<br/>  Design and implementation shortcuts often lead to inefficient memory management and excessive object creation, which in turn results in increased garbage collection frequency and performance degradation.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Frequent GC pauses directly cause user-facing sluggishness and unresponsive behavior in the application.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  As object allocation patterns worsen over time, GC pressure increases gradually, causing slow but steady performance deterioration.
+- [High API Latency](high-api-latency.md)
+<br/>  GC pause times add directly to API response times, causing unpredictable latency spikes during garbage collection cycles.
+- [Service Timeouts](service-timeouts.md)
+<br/>  Long GC pauses can cause requests to exceed timeout thresholds, resulting in failed service calls.
+## Causes ▼
 
+- [Excessive Object Allocation](excessive-object-allocation.md)
+<br/>  Creating large numbers of temporary objects directly increases the rate at which the garbage collector must run to reclaim memory.
+- [Inefficient Code](inefficient-code.md)
+<br/>  Poorly written code that creates unnecessary intermediate objects or fails to reuse objects puts excessive pressure on the garbage collector.
+- [Circular References](circular-references.md)
+<br/>  Circular object references prevent efficient garbage collection and can cause the GC to work harder to identify reclaimable memory.
+- [Memory Leaks](memory-leaks.md)
+<br/>  Memory leaks reduce available heap space, forcing more frequent garbage collection cycles on the remaining memory.
 ## Detection Methods ○
 
 - **GC Logging:** Enable garbage collector logging to analyze collection frequency and duration

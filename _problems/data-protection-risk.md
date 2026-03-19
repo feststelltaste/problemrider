@@ -34,17 +34,23 @@ Data protection risk occurs when systems inadequately safeguard personal, sensit
 - Audit trails for data access and modifications that are incomplete or missing
 
 ## Symptoms ▲
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.815">ⓘ</span>
-<br/>  The lack of proper safeguards for personal or sensitive data often results in the use of inadequate test data, as legacy systems fail to prioritize realistic data scenarios, thereby masking vulnerabilities and increasing exposure to legal and ethical issues during testing processes.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.647">ⓘ</span>
-<br/>  The failure of legacy systems to adapt to new regulatory requirements results in compliance gaps that directly expose the handling of personal or sensitive data to legal and ethical risks.
-- [Insufficient Audit Logging](insufficient-audit-logging.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.802">ⓘ</span>
-<br/>  Insufficient logging of security-relevant events in legacy systems hinders the ability to track access and changes to sensitive data, thereby masking potential breaches and exacerbating the risk of legal and ethical violations.
 
-## Root Causes ▼
+- [Regulatory Compliance Drift](regulatory-compliance-drift.md)
+<br/>  Inadequate data protection safeguards cause the system to fall behind evolving privacy regulations, creating widening compliance gaps.
+- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
+<br/>  Data protection incidents erode stakeholder trust in the development team's ability to handle sensitive data responsibly.
+- [Declining Business Metrics](declining-business-metrics.md)
+<br/>  Data breaches and privacy violations lead to user churn, reputational damage, and declining revenue metrics.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Insufficient Audit Logging](insufficient-audit-logging.md)
+<br/>  Without proper audit logging, organizations cannot track who accesses sensitive data, making it impossible to detect or prevent data protection violations.
+- [Authorization Flaws](authorization-flaws.md)
+<br/>  Weak access control mechanisms allow unauthorized access to personal or sensitive data, directly creating data protection exposure.
+- [Knowledge Gaps](knowledge-gaps.md)
+<br/>  Development teams lacking understanding of privacy regulations and data governance practices fail to implement adequate safeguards.
+- [Quality Compromises](quality-compromises.md)
+<br/>  Deliberately lowering quality standards to meet deadlines leads to skipping data protection reviews and proper data governance implementation.
 ## Detection Methods ○
 
 - Conduct regular data protection impact assessments (DPIAs)

@@ -26,19 +26,17 @@ Stack overflow errors occur when a program's call stack exceeds the allocated st
 - Memory profiling shows rapid stack growth during specific operations
 
 ## Symptoms ▲
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.613, Strength: 0.898">ⓘ</span>
-<br/>  Excessive growth of data structures without constraints can lead to increased memory usage, which exacerbates stack overflow errors by consuming available stack space more rapidly during recursive function calls or when allocating large local variables.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.562, Strength: 0.755">ⓘ</span>
-<br/>  Excessive recursion or large local variables can lead to stack overflow errors that disrupt the execution flow, causing delayed responses from services and ultimately resulting in timeouts for upstream consumers.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.541, Strength: 0.845">ⓘ</span>
-<br/>  Excessive recursion can lead to stack overflow errors, which may cause the program to fail to release allocated resources before crashing, thereby serving as an indicator of underlying memory management issues in legacy systems.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.732">ⓘ</span>
-<br/>  Excessive hardware interrupts can lead to frequent context switches that increase the likelihood of stack overflow errors, as the disrupted execution flow prevents proper stack management and can exacerbate issues with recursive calls or large local variables.
 
-## Root Causes ▼
+- [System Outages](system-outages.md)
+<br/>  Stack overflow errors crash the application, potentially causing outages for users.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Spaghetti Code](spaghetti-code.md)
+<br/>  Tangled code with unpredictable call chains can create deep or circular call hierarchies that exhaust the stack.
+- [Complex and Obscure Logic](complex-and-obscure-logic.md)
+<br/>  Overly complex recursive logic without proper termination conditions leads to unbounded recursion.
+- [Insufficient Code Review](insufficient-code-review.md)
+<br/>  Without code review, unbounded recursion and excessive stack usage patterns go undetected.
 ## Detection Methods ○
 
 - **Stack Usage Monitoring:** Monitor stack usage during application execution to identify growth patterns

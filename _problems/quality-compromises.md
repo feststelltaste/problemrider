@@ -34,27 +34,27 @@ Quality compromises occur when teams or organizations deliberately accept lower 
 - Known quality issues are accepted rather than addressed
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.510, Strength: 0.744">ⓘ</span>
-<br/>  Deliberate lowering of quality standards often leads to insufficient testing practices, resulting in critical code segments being left untested and creating significant blind spots in the quality assurance process.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.592">ⓘ</span>
-<br/>  The constant updating of project requirements indicates a reactive response to identified deficiencies in the initial quality, as shortcuts taken during development lead to incomplete or unsatisfactory features that necessitate ongoing adjustments.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.639">ⓘ</span>
-<br/>  When quality standards are compromised to meet constraints, it often leads to unstable code and inadequate testing practices, resulting in tests that fail intermittently due to unreliable conditions, thereby eroding confidence in the overall test suite.
 
-## Root Causes ▼
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.431, Strength: 0.887">ⓘ</span>
-<br/>  When certain team members or processes become bottlenecks, they force others to rush their work and cut corners in order to maintain deadlines, which ultimately leads to a decline in overall quality and introduces long-term technical debt in legacy systems.
-- [Data Migration Complexities](data-migration-complexities.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.811">ⓘ</span>
-<br/>  Complex data migration processes often lead to rushed implementations and inadequate testing, forcing teams to compromise on quality standards to meet tight deadlines and mitigate the risks of system failures.
-- [Project Resource Constraints](project-resource-constraints.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.783">ⓘ</span>
-<br/>  Insufficient budget and resource allocation due to poor planning lead teams to prioritize meeting deadlines over maintaining quality standards, resulting in compromises that hinder long-term system performance and maintainability.
-- [Legal Disputes](legal-disputes.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.831">ⓘ</span>
-<br/>  Legal disputes over deliverables create pressure to cut corners and compromise quality standards in order to meet contractual obligations and avoid further complications, ultimately leading to long-term systemic issues in legacy systems.
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.893">ⓘ</span>
-<br/>  Shared dependencies can lead to quality compromises because when multiple components rely on the same libraries or frameworks, any shortcuts or defects in those shared resources can propagate across the system, forcing teams to lower quality standards to maintain compatibility and meet deadlines.
-- [Single Points of Failure](single-points-of-failure.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.767">ⓘ</span>
-<br/>  When critical knowledge holders or system components become unavailable, teams are forced to cut corners or lower quality standards to maintain progress, leading to long-term issues in the software's reliability and functionality.
+- [Quality Degradation](quality-degradation.md)
+<br/>  Repeated shortcuts and skipped quality practices cause cumulative decline in system quality over time.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Skipped code reviews and testing produce code that is harder to maintain and more error-prone.
+- [Increased Technical Shortcuts](increased-technical-shortcuts.md)
+<br/>  Once quality shortcuts become acceptable, more shortcuts follow as the precedent normalizes cutting corners.
+- [Increasing Brittleness](increasing-brittleness.md)
+<br/>  Untested and poorly reviewed code introduces hidden fragilities that compound over time.
+- [Inconsistent Quality](inconsistent-quality.md)
+<br/>  Some parts of the system are well-built while areas developed under pressure have notably lower quality.
+- [Quality Blind Spots](quality-blind-spots.md)
+<br/>  Deliberately skipping testing creates systematic gaps in quality verification.
+## Causes ▼
 
+- [Time Pressure](time-pressure.md)
+<br/>  Tight deadlines force teams to choose between meeting schedules and maintaining quality standards.
+- [Project Resource Constraints](project-resource-constraints.md)
+<br/>  Insufficient resources make it impossible to maintain quality standards within given constraints.
+- [Constant Firefighting](constant-firefighting.md)
+<br/>  Continuous urgent work leaves no time for quality practices, forcing teams to take shortcuts.
 ## Detection Methods ○
 
 - **Quality Metrics Tracking:** Monitor trends in code quality, test coverage, and defect rates

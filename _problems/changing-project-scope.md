@@ -34,31 +34,29 @@ Changing project scope occurs when project requirements, goals, or deliverables 
 - Development estimates become unreliable due to shifting targets
 
 ## Symptoms ▲
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.470, Strength: 0.777">ⓘ</span>
-<br/>  Frequent shifts in project direction lead to confusion and rework among team members, resulting in diminished productivity as they struggle to adapt to changing requirements and prioritize tasks effectively.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.461, Strength: 0.777">ⓘ</span>
-<br/>  Frequent shifts in project direction stem from conflicting priorities among stakeholders, leading to confusion and misaligned efforts that hinder the team's ability to maintain a consistent focus on legacy system objectives.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.404, Strength: 0.754">ⓘ</span>
-<br/>  Frequent shifts in project direction lead to unclear priorities and constant rework, which disrupt the team's workflow and hinder their ability to maintain a consistent pace in delivering features and bug fixes.
-- [Unclear Goals and Priorities](unclear-goals-and-priorities.md) <span class="info-tooltip" title="Confidence: 0.392, Strength: 0.873">ⓘ</span>
-<br/>  Frequent changes in project direction create confusion around objectives, resulting in shifting priorities and a lack of clarity, which manifests as diminished motivation and productivity among team members in legacy systems.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.601">ⓘ</span>
-<br/>  Constantly updated requirements signal an unstable project direction, as they reflect the team's struggle to align on a cohesive vision, resulting in confusion, rework, and impeded progress in legacy systems.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.722">ⓘ</span>
-<br/>  Frequent shifts in project direction lead to teams becoming overwhelmed by the need to reassess requirements and conduct additional research, which hinders their ability to move forward with implementation and results in stagnation in development efforts.
 
-## Root Causes ▼
-- [Gold Plating](gold-plating.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.888">ⓘ</span>
-<br/>  The tendency to introduce unnecessary features leads to shifts in project direction as developers prioritize unrequested enhancements over established requirements, causing confusion and hindering progress in legacy systems.
-- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.843">ⓘ</span>
-<br/>  The accumulation of design and implementation shortcuts leads to an unstable codebase, making it difficult for the team to adapt to new requirements without introducing further complications, thereby resulting in frequent changes to the project direction.
-- [Eager to Please Stakeholders](eager-to-please-stakeholders.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.863">ⓘ</span>
-<br/>  The project team's tendency to accommodate every stakeholder request without assessing the implications leads to continuous adjustments in project direction, ultimately resulting in confusion and hindering overall progress.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.819">ⓘ</span>
-<br/>  The team's tendency to provide large time estimates for small changes reflects the underlying complexity and fragility of the legacy codebase, leading to uncertainty and frequent changes in project scope as stakeholders respond to perceived risks and delays.
-- [Maintenance Cost Increase](maintenance-cost-increase.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.674">ⓘ</span>
-<br/>  The escalating resources needed for maintaining and updating legacy systems divert attention and budget from planned project objectives, leading to frequent shifts in project direction and confusion among the team.
+- [Wasted Development Effort](wasted-development-effort.md)
+<br/>  Frequent scope changes cause previously completed work to be discarded or reworked, directly wasting development effort.
+- [Team Confusion](team-confusion.md)
+<br/>  Constantly shifting project direction leaves team members unclear about current goals and priorities.
+- [Delayed Project Timelines](delayed-project-timelines.md)
+<br/>  Each scope change requires re-planning and rework, pushing delivery dates further out.
+- [Team Demoralization](team-demoralization.md)
+<br/>  Repeatedly discarding completed work due to scope changes erodes team motivation and confidence in leadership.
+- [Implementation Rework](implementation-rework.md)
+<br/>  Scope changes invalidate prior design decisions, forcing features to be rebuilt to match new requirements.
+- [Budget Overruns](budget-overruns.md)
+<br/>  Uncontrolled scope changes increase the total work required, causing projects to exceed their budgets.
+- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
+<br/>  Changing project scope directly causes deadlines to shift as the team must accommodate new or altered requirements.
+## Causes ▼
 
+- [No Formal Change Control Process](no-formal-change-control-process.md)
+<br/>  Without a formal process to evaluate and approve changes, scope modifications happen without impact assessment.
+- [Product Direction Chaos](product-direction-chaos.md)
+<br/>  Conflicting stakeholder priorities and lack of clear product leadership cause the project direction to shift repeatedly.
+- [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
+<br/>  Poor initial requirements gathering means the true scope is discovered incrementally, forcing repeated changes.
 ## Detection Methods ○
 
 - **Change Request Frequency Analysis:** Track how often and how significantly requirements change

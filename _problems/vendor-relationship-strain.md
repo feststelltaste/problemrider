@@ -34,37 +34,23 @@ Vendor relationship strain occurs when tensions, conflicts, or dissatisfaction d
 - Communication becomes formal and adversarial rather than collaborative
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.596, Strength: 0.819">ⓘ</span>
-<br/>  Persistent misalignment and conflicts with external vendors can lead to unclear requirements and inadequate support, causing developers to struggle with outdated technologies and inefficient processes, ultimately resulting in frustration and burnout.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.567, Strength: 0.847">ⓘ</span>
-<br/>  Inadequate vendor support and misaligned expectations lead to unresolved issues in legacy systems, causing users to struggle with functionality and increasing their reliance on customer support for assistance.
-- [Project Authority Vacuum](project-authority-vacuum.md) <span class="info-tooltip" title="Confidence: 0.515, Strength: 0.885">ⓘ</span>
-<br/>  The lack of clear communication and aligned expectations with external vendors can lead to diminished organizational support for critical projects, creating a void in authority and sponsorship necessary to navigate resource constraints and resistance effectively.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.466, Strength: 0.881">ⓘ</span>
-<br/>  Misaligned expectations and ineffective communication between stakeholders and the development team may result from existing tensions with external vendors, leading to persistent misunderstandings that manifest as rework and dissatisfaction in project outcomes.
-- [New Hire Frustration](new-hire-frustration.md) <span class="info-tooltip" title="Confidence: 0.399, Strength: 0.909">ⓘ</span>
-<br/>  New hires struggle to integrate and contribute effectively due to inadequate resources and support stemming from unresolved conflicts with vendors, indicating that the underlying relationship strain is hindering the team's operational capabilities.
-- [Mentor Burnout](mentor-burnout.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.903">ⓘ</span>
-<br/>  In legacy systems, the strain in vendor relationships often leads to excessive reliance on experienced team members for mentoring, as unresolved issues and communication gaps with vendors result in knowledge silos and a lack of support, ultimately causing burnout among those tasked with transferring essential system knowledge.
-- [Team Dysfunction](team-dysfunction.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.874">ⓘ</span>
-<br/>  Poor communication and misaligned expectations with external vendors often lead to increased stress and conflicting priorities within the team, resulting in dysfunction that hampers collaboration and effective problem-solving in legacy systems.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.918">ⓘ</span>
-<br/>  Poor communication and misaligned expectations with external vendors lead to delays and subpar deliverables, resulting in dissatisfaction among business stakeholders regarding project outcomes and overall performance.
-- [Market Pressure](market-pressure.md) <span class="info-tooltip" title="Confidence: 0.335, Strength: 0.918">ⓘ</span>
-<br/>  External competitive forces create urgency and unrealistic expectations, which exacerbate communication breakdowns and misalignments with vendors, highlighting the underlying strain in the relationship.
-- [Team Coordination Issues](team-coordination-issues.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.885">ⓘ</span>
-<br/>  Poor communication and misaligned expectations with external vendors can lead to inconsistent guidelines and unclear responsibilities, causing multiple developers or teams to struggle with coordination on the same codebase as they lack a unified vision and direction.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.890">ⓘ</span>
-<br/>  Conflicting priorities from multiple stakeholders often emerge when external vendors fail to meet expectations, leading to confusion and inefficiencies within the team as they struggle to align their efforts with unclear product direction stemming from strained vendor relationships.
-- [Team Confusion](team-confusion.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.930">ⓘ</span>
-<br/>  The unclear communication and misaligned expectations between the organization and external vendors lead to confusion among team members about project goals and responsibilities, thereby resulting in misaligned efforts and inefficiencies in legacy systems.
-- [Vendor Lock-In](vendor-lock-in.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.886">ⓘ</span>
-<br/>  The over-dependence on a specific vendor's tools or APIs often stems from strained relationships that limit negotiation flexibility, resulting in a lack of viable alternatives and reinforcing reliance on that vendor amidst unresolved expectations and communication issues.
 
-## Root Causes ▼
+- [Delayed Project Timelines](delayed-project-timelines.md)
+<br/>  Strained vendor relationships lead to delays as vendors become unresponsive or reduce service levels.
+- [Quality Degradation](quality-degradation.md)
+<br/>  When vendor relationships deteriorate, deliverable quality suffers as vendors provide minimal effort.
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  Strained relationships lead to renegotiation demands and additional costs to resolve conflicts.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Requirements Ambiguity](requirements-ambiguity.md)
+<br/>  Vague requirements lead to misaligned expectations between the organization and vendor about deliverables.
+- [Unrealistic Deadlines](unrealistic-deadlines.md)
+<br/>  Imposing unrealistic deadlines on vendors creates tension and adversarial dynamics in the relationship.
+- [Vendor Dependency](vendor-dependency.md)
+<br/>  Heavy dependency on a vendor creates power imbalances and friction when expectations are not met.
+- [Poor Communication](poor-communication.md)
+<br/>  Inadequate communication between the organization and vendor leads to misunderstandings and growing tensions.
 ## Detection Methods ○
 
 - **Vendor Satisfaction Surveys:** Regular assessment of vendor satisfaction with the relationship

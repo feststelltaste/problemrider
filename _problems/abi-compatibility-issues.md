@@ -31,19 +31,25 @@ ABI (Application Binary Interface) compatibility issues arise when applications 
 - Applications work in development but fail in production with different library versions
 
 ## Symptoms ▲
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.354, Strength: 0.629">ⓘ</span>
-<br/>  In legacy systems, ABI compatibility issues can lead to outdated libraries that fail to support new regulatory requirements, resulting in compliance gaps that signal deeper technical deficiencies in the software architecture.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.351, Strength: 0.762">ⓘ</span>
-<br/>  Teams facing compatibility issues often become overwhelmed by the need to thoroughly investigate and validate the correct library versions and dependencies, leading to prolonged analysis phases that hinder progress on actual implementation.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.949">ⓘ</span>
-<br/>  The presence of shared libraries across multiple components in legacy systems often leads to ABI compatibility issues when updates are made, as differing versions of a library can introduce changes that break the expected binary interface, ultimately resulting in runtime failures or undefined behavior.
-- [Breaking Changes](breaking-changes.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.812">ⓘ</span>
-<br/>  Updates that introduce breaking changes to APIs often alter the underlying data structures or calling conventions, resulting in application binary interface incompatibilities that lead to runtime failures in legacy systems relying on previous versions.
-- [Increasing Brittleness](increasing-brittleness.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.825">ⓘ</span>
-<br/>  As software systems evolve, accumulated complexity and interdependencies lead to fragile architectures where minor updates can disrupt the delicate balance of ABI, resulting in compatibility issues that manifest as runtime failures or unpredictable behavior.
+- [Cascade Failures](cascade-failures.md)
+<br/>  ABI incompatibilities can cause runtime crashes that propagate through dependent components, triggering cascade failures across the system.
+- [Integration Difficulties](integration-difficulties.md)
+<br/>  Binary interface mismatches between library versions make integrating components extremely difficult, as compiled artifacts are incompatible.
+- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
+<br/>  ABI issues cause applications to work in development but fail in production where different library versions are installed.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Runtime failures from ABI mismatches lead to elevated error rates as function calls return unexpected values or crash.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  ABI issues cause subtle memory corruption and undefined behavior that are extremely hard to diagnose and debug.
+## Causes ▼
 
+- [Dependency Version Conflicts](dependency-version-conflicts.md)
+<br/>  Different components depending on different versions of the same library is a primary cause of ABI incompatibilities.
+- [Breaking Changes](breaking-changes.md)
+<br/>  Library authors introducing breaking changes to function signatures or data layouts without proper versioning directly causes ABI compatibility issues.
+- [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
+<br/>  Poorly defined interfaces between components make it easy for binary-level incompatibilities to go undetected until runtime.
 ## Detection Methods ○
 
 - **Binary Analysis Tools:** Use tools to compare ABI compatibility between library versions

@@ -31,33 +31,21 @@ Connection pools are a vital tool for managing database connections, but they ca
 - You are seeing a high number of timeout errors in your logs.
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.687, Strength: 0.868">ⓘ</span>
-<br/>  Improperly configured connection pools can lead to a shortage of available connections, causing delays in response times that exceed the configured timeout limits for upstream services, resulting in their failure to receive timely responses.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.567, Strength: 0.854">ⓘ</span>
-<br/>  Improperly configured connection pools can lead to connections being held indefinitely without release, resulting in unreleased resources that indicate the underlying misconfiguration and potential for resource exhaustion in legacy systems.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.429, Strength: 0.767">ⓘ</span>
-<br/>  Inefficient connection pools lead to increased response times, causing the application to repeatedly fetch data from the source instead of utilizing cached results, which highlights the underlying configuration issue.
-- [Inefficient Database Indexing](inefficient-database-indexing.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.874">ⓘ</span>
-<br/>  Improperly configured connection pools can lead to a surge in concurrent database requests that overwhelm the system, resulting in inefficient query execution and slow full-table scans due to inadequate indexing for the increased load.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.355, Strength: 0.908">ⓘ</span>
-<br/>  Improperly tracked versions of code and configuration settings can lead to misalignment in connection pool parameters, resulting in inefficient resource allocation and potential connection exhaustion in legacy systems.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.344, Strength: 0.888">ⓘ</span>
-<br/>  Improperly configured connection pools can lead to incomplete closure of database connections, resulting in excessive resource consumption and memory leaks as the application fails to release memory associated with those lingering connections.
-- [Delayed Bug Fixes](delayed-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.337, Strength: 0.837">ⓘ</span>
-<br/>  Improperly configured connection pools can lead to performance bottlenecks that hinder development and testing processes, resulting in delays in addressing and fixing known issues.
-- [Memory Barrier Inefficiency](memory-barrier-inefficiency.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.861">ⓘ</span>
-<br/>  Improperly configured connection pools can lead to increased contention and delays in resource allocation, causing excessive memory barriers as threads wait for connections, which in turn disrupts CPU pipeline optimization and degrades overall application performance.
-- [Unoptimized File Access](unoptimized-file-access.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.864">ⓘ</span>
-<br/>  Improperly configured connection pools can lead to delayed database interactions, causing applications to resort to inefficient file I/O operations as a fallback, which manifests as excessive disk activity and degraded performance.
-- [High Client-Side Resource Consumption](high-client-side-resource-consumption.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.857">ⓘ</span>
-<br/>  Improperly configured connection pools can lead to an overwhelming number of requests on the client side due to inefficient database interactions, causing excessive CPU and memory usage that degrades performance and user experience.
-- [Logging Configuration Issues](logging-configuration-issues.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.857">ⓘ</span>
-<br/>  Improperly configured connection pools can lead to unexpected application behavior and overloads, resulting in insufficient logging information or excessive log entries that obscure critical events, thereby highlighting the connection pool issues as the root cause.
 
-## Root Causes ▼
+- [High Connection Count](high-connection-count.md)
+<br/>  Oversized connection pools create more database connections than necessary, consuming server resources.
+- [Service Timeouts](service-timeouts.md)
+<br/>  When connection pools are exhausted, new requests wait for available connections and eventually time out.
+- [Database Query Performance Issues](database-query-performance-issues.md)
+<br/>  Too many active connections from oversized pools overwhelm the database server, degrading query performance for all users.
+- [High Database Resource Utilization](high-database-resource-utilization.md)
+<br/>  Improperly sized connection pools lead to excessive resource consumption on the database server.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Incorrect Max Connection Pool Size](incorrect-max-connection-pool-size.md)
+<br/>  Setting the maximum pool size too high or too low is a primary misconfiguration that leads to connection pool problems.
+- [Database Connection Leaks](database-connection-leaks.md)
+<br/>  Connections that are not properly returned to the pool appear as exhaustion even when pool size is correctly configured.
 ## Detection Methods ○
 
 - **Application Metrics:** Monitor connection pool metrics (e.g., active connections, idle connections, wait times, connection acquisition rates) provided by the application framework or a monitoring agent.

@@ -31,25 +31,19 @@ Unused indexes are database indexes that are not being utilized by any queries. 
 - The database is using a lot of memory, even when it is not under heavy load.
 
 ## Symptoms ▲
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.343, Strength: 0.581">ⓘ</span>
-<br/>  The presence of unused database indexes can lead to unreleased resources, as the overhead from maintaining these indexes can cause connections and other resources to remain open longer than necessary, preventing proper deallocation and resulting in resource leakage within legacy systems.
 
-## Root Causes ▼
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.870">ⓘ</span>
-<br/>  A lack of understanding of object-oriented programming principles often leads to inefficient database schema design, resulting in unnecessary indexes that are never utilized by queries, thereby causing wasted storage and increased write operation overhead.
-- [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.887">ⓘ</span>
-<br/>  The excessive time taken for API responses can lead developers to overlook or ignore optimizing database queries, resulting in the creation of unused indexes that unnecessarily consume resources and hinder overall system performance.
-- [Lazy Loading](lazy-loading.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.854">ⓘ</span>
-<br/>  The reliance on lazy loading in the ORM framework results in numerous small, inefficient queries that bypass the need for certain indexes, leading to their accumulation and eventual redundancy in the database.
-- [High Number of Database Queries](high-number-of-database-queries.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.801">ⓘ</span>
-<br/>  The excessive number of database queries leads to the creation of numerous indexes in an attempt to optimize performance, but as these queries often do not utilize the additional indexes, they become redundant and contribute to unnecessary storage consumption and overhead.
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.880">ⓘ</span>
-<br/>  The presence of multiple services or components sharing a single database often leads to the creation of indexes that are tailored for specific queries from some services, while remaining unused by others, resulting in unnecessary storage consumption and overhead in write operations.
-- [Slow Response Times for Lists](slow-response-times-for-lists.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.854">ⓘ</span>
-<br/>  Inefficient data fetching for list displays can lead developers to create unnecessary indexes in an attempt to optimize performance, which ultimately remain unused and contribute to wasted storage and overhead during write operations.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.844">ⓘ</span>
-<br/>  The lack of experience in the development team leads to poorly designed database schemas that result in unnecessary indexes being created without proper analysis of query patterns, causing these unused indexes to accumulate and burden the system.
+- [Resource Waste](resource-waste.md)
+<br/>  Unused indexes consume disk space, memory, and CPU cycles during write operations without providing any query benefit.
+- [Slow Database Queries](slow-database-queries.md)
+<br/>  The overhead of maintaining unused indexes slows down overall database operations, especially write-heavy workloads.
+## Causes ▼
 
+- [Database Schema Design Problems](database-schema-design-problems.md)
+<br/>  Without regular database maintenance and auditing, unused indexes accumulate over time as queries change but indexes remain.
+- [Monitoring Gaps](monitoring-gaps.md)
+<br/>  Without monitoring of index usage statistics, teams have no visibility into which indexes are actually being used.
+- [Poor Documentation](poor-documentation.md)
+<br/>  Poor documentation of why indexes were created makes it difficult to determine if they are still needed.
 ## Detection Methods ○
 
 - **Database Monitoring Tools:** Most modern database systems provide statistics on index usage (e.g., `pg_stat_user_indexes` in PostgreSQL, `sys.dm_db_index_usage_stats` in SQL Server, `information_schema.statistics` in MySQL combined with query logs).

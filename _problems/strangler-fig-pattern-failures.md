@@ -37,25 +37,27 @@ Strangler fig pattern failures occur when attempts to gradually replace legacy s
 - Growing operational complexity from managing both legacy and new system components simultaneously
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.476, Strength: 0.668">ⓘ</span>
-<br/>  The failure to modernize incrementally leads to increased complexity and delays in service responses, resulting in upstream timeouts as dependent services are unable to receive timely data from the legacy components.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.440, Strength: 0.641">ⓘ</span>
-<br/>  The stalling of incremental modernization due to complex interdependencies and data consistency issues leads to a lack of clarity and stability in project goals, prompting constant changes to requirements as stakeholders attempt to adapt to the evolving challenges.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.431, Strength: 0.645">ⓘ</span>
-<br/>  The inherent complexity of the business domain leads to intricate interdependencies in the legacy system, making it difficult to implement incremental modernization effectively, thereby manifesting as stalled progress in the modernization efforts.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.653">ⓘ</span>
-<br/>  The stalling of incremental modernization due to complex interdependencies leads to situations where resources are allocated for new components but not properly deallocated, resulting in unreleased resources that indicate underlying issues in the modernization process.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.643">ⓘ</span>
-<br/>  The stalling of incremental modernization due to complex interdependencies and data consistency issues highlights a reliance on legacy technologies, which in turn exacerbates the shortage of skilled developers capable of maintaining these systems, creating a cycle of technical debt and increasing risk of failure.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.688">ⓘ</span>
-<br/>  Random test failures arise from the intricate dependencies and inconsistent data states inherent in the legacy system, indicating that the incremental modernization efforts are struggling to maintain reliability and coherence amidst complex integration challenges.
 
-## Root Causes ▼
-- [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.902">ⓘ</span>
-<br/>  The difficulty in modifying the existing code without introducing new bugs leads to hesitance in implementing incremental changes, which stalls the modernization effort due to the complex interdependencies and data consistency challenges inherent in legacy systems.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.375, Strength: 0.846">ⓘ</span>
-<br/>  The tendency to provide large time estimates for small changes reflects the underlying code complexity and interdependencies in legacy systems, which in turn creates uncertainty and stalls incremental modernization efforts due to fears of unintended consequences and data integrity issues.
+- [Delayed Project Timelines](delayed-project-timelines.md)
+<br/>  The stalled strangler fig migration causes the modernization project to miss deadlines repeatedly as complexity escalates.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  Managing both legacy and new components simultaneously doubles operational overhead and maintenance effort.
+- [System Outages](system-outages.md)
+<br/>  Data synchronization failures and performance issues in the hybrid system cause service interruptions.
+- [Budget Overruns](budget-overruns.md)
+<br/>  The unexpected complexity of completing the migration causes costs to significantly exceed original estimates.
+- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
+<br/>  Repeated delays and escalating costs in the modernization effort erode stakeholder trust in the technical approach.
+## Causes ▼
 
+- [Hidden Dependencies](hidden-dependencies.md)
+<br/>  Undiscovered dependencies between legacy components make it impossible to cleanly separate and replace individual parts.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  Tightly coupled legacy components resist clean boundary identification needed for incremental replacement.
+- [Cross-System Data Synchronization Problems](cross-system-data-synchronization-problems.md)
+<br/>  Data consistency challenges between legacy and modern components undermine the incremental migration approach.
+- [Complex Domain Model](complex-domain-model.md)
+<br/>  Inherently complex business domains make it difficult to identify clean boundaries for incremental replacement.
 ## Detection Methods ○
 
 - Track progress metrics for strangler fig implementation against original timeline estimates

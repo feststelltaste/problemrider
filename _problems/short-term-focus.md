@@ -34,25 +34,29 @@ Short-term focus occurs when organizational decision-making consistently priorit
 - Quality improvement initiatives are seen as non-essential overhead
 
 ## Symptoms ▲
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.744">ⓘ</span>
-<br/>  The prioritization of immediate feature delivery leads to technical debt and code rot, which in turn creates systemic inefficiencies that reduce the overall productivity and effectiveness of the development team.
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.423, Strength: 0.747">ⓘ</span>
-<br/>  The prioritization of immediate feature delivery leads to neglect in implementing necessary data management practices, resulting in uncontrolled data growth that signals underlying sustainability issues in the system's architecture.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.402, Strength: 0.642">ⓘ</span>
-<br/>  The prioritization of immediate feature delivery leads to a reactive development environment where requirements are frequently altered in response to urgent needs, resulting in constant rework and highlighting the lack of attention to sustainable code practices.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.374, Strength: 0.601">ⓘ</span>
-<br/>  The prioritization of immediate feature delivery over long-term code health leads to a deteriorating codebase, causing persistent technical debt that frustrates developers and ultimately results in their disengagement and exhaustion.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.645">ⓘ</span>
-<br/>  The prioritization of immediate feature delivery over long-term sustainability leads to insufficient investment in training or hiring developers skilled in legacy technologies, resulting in a critical shortage of expertise that hampers system maintenance and exacerbates existing technical debt.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.699">ⓘ</span>
-<br/>  The prioritization of immediate feature delivery over long-term code health leads to a stagnation in creative problem-solving, as teams become overly focused on meeting short-term goals rather than exploring innovative solutions, resulting in a culture that resists change and limits progress.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.668">ⓘ</span>
-<br/>  The prioritization of immediate feature delivery leads to neglecting necessary architectural improvements, resulting in a constrained system design that hampers performance, scalability, and maintainability, thereby revealing the unsustainable nature of the development approach.
 
-## Root Causes ▼
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Consistently choosing quick solutions over proper engineering accumulates technical debt that compounds over time.
+- [Increased Technical Shortcuts](increased-technical-shortcuts.md)
+<br/>  Pressure to deliver features immediately drives developers to take more shortcuts and implement quick fixes rather than proper solutions.
+- [Quality Degradation](quality-degradation.md)
+<br/>  System quality steadily declines as no time is allocated for refactoring, improvement, or addressing code health issues.
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  Architecture never evolves because long-term improvement work is perpetually deprioritized in favor of immediate feature delivery.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Developers become frustrated and burned out when their requests for time to address quality issues are consistently rejected.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  As accumulated debt grows, development velocity systematically declines because each change requires more effort to implement safely.
+- [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
+<br/>  Short-term thinking creates an environment where only immediately measurable outcomes are valued, making it harder to quantify long-term technical benefits.
+- [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
+<br/>  Technical debt is not visible to non-technical stakeholders, so management does not perceive the growing cost of neglecting code health.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Market Pressure](market-pressure.md)
+<br/>  Competitive market forces create urgency to deliver features quickly, pushing management to prioritize immediate delivery over sustainability.
+- [Deadline Pressure](deadline-pressure.md)
+<br/>  Intense deadline pressure forces teams into a constant cycle of short-term delivery, leaving no room for long-term planning.
 ## Detection Methods ○
 
 - **Resource Allocation Analysis:** Track percentage of development time spent on improvement vs. new features

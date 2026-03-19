@@ -39,18 +39,24 @@ CV Driven Development occurs when technical decisions are made primarily to add 
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+- [Premature Technology Introduction](premature-technology-introduction.md)
+<br/>  Technologies are adopted based on resume value rather than project fit, introducing immature or inappropriate tools into the stack.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  Unnecessarily complex technology choices driven by resume building create systems that are expensive to maintain after the original developer leaves.
+- [Knowledge Gaps](knowledge-gaps.md)
+<br/>  When technologies are chosen for resume value rather than team expertise, most team members lack the knowledge to work with them effectively.
+- [Technology Stack Fragmentation](technology-stack-fragmentation.md)
+<br/>  Different developers introducing their preferred resume-building technologies creates a fragmented stack with many incompatible tools.
+## Causes ▼
 
-## Root Causes ▼
-- [Decision Paralysis](decision-paralysis.md) <span class="info-tooltip" title="Confidence: 0.435, Strength: 0.758">ⓘ</span>
-<br/>  When developers face indecision due to a lack of clear guidelines, they may resort to selecting technologies that enhance their resumes instead of addressing actual business needs, thereby prioritizing personal advancement over practical solutions in legacy systems.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.428, Strength: 0.775">ⓘ</span>
-<br/>  The development team's lack of design skills leads them to prioritize trendy technologies over effective solutions, resulting in a focus on enhancing personal resumes rather than addressing the actual needs of the legacy systems.
-- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.705">ⓘ</span>
-<br/>  The pressure of repeatedly pushed back deadlines prompts developers to prioritize trendy technologies that enhance their resumes over pragmatic solutions, diverting focus from addressing the core business problems inherent in legacy systems.
-- [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.383, Strength: 0.721">ⓘ</span>
-<br/>  Developers' lack of awareness of existing similar logic across the system leads them to prioritize trendy technologies for resume enhancement, rather than addressing the actual business needs, resulting in fragmented solutions that exacerbate synchronization issues in legacy systems.
-
+- [Individual Recognition Culture](individual-recognition-culture.md)
+<br/>  A culture that values individual accomplishments over team success incentivizes developers to prioritize personal career advancement in technical decisions.
+- [Short-Term Focus](short-term-focus.md)
+<br/>  When management does not consider long-term maintainability, developers face no pushback against choosing technologies for personal benefit.
+- [Market Pressure](market-pressure.md)
+<br/>  Competitive job market pressure motivates developers to build their resumes with trendy technologies to improve their career prospects.
+- [High Turnover](high-turnover.md)
+<br/>  Developers who chose technologies for their resumes leave once they have gained enough experience to list them, taking critical knowledge with them.
 ## Detection Methods ○
 
 - Review technical decision documentation for business justification versus technology benefits

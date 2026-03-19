@@ -34,19 +34,30 @@ Legacy code without tests refers to existing production systems that were built 
 - Production systems have been running for years without comprehensive test suites
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.578">ⓘ</span>
-<br/>  The absence of automated tests in legacy systems leads to insufficient test coverage, as critical code paths remain untested due to the difficulty of safely modifying and incrementally adding tests to a fragile codebase.
 
-## Root Causes ▼
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.881">ⓘ</span>
-<br/>  The lack of sufficient design skills leads to poorly structured legacy systems, making it difficult to implement automated tests, as the code is not modular or understandable enough for safe modifications.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.385, Strength: 0.897">ⓘ</span>
-<br/>  Developers' difficulty in adopting object-oriented principles results in procedural-style code that is harder to test, ultimately contributing to the absence of automated tests in legacy systems.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.859">ⓘ</span>
-<br/>  A lack of understanding of object-oriented programming leads to poorly structured legacy code that is difficult to test, creating a cycle where the absence of tests further complicates maintenance and modifications.
-- [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.825">ⓘ</span>
-<br/>  The lack of complete knowledge about existing code logic prevents developers from identifying areas that require testing, resulting in a failure to implement automated tests in legacy systems and increasing the risk of introducing errors during modifications.
+- [Fear of Change](fear-of-change.md)
+<br/>  Without tests to verify changes are safe, developers become hesitant to modify code for fear of introducing regressions.
+- [Maintenance Paralysis](maintenance-paralysis.md)
+<br/>  Teams avoid necessary improvements because they cannot verify that changes don't break existing functionality without test coverage.
+- [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
+<br/>  Without automated tests, developers must account for extensive manual verification in their estimates for any code change.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Without automated tests to catch regressions, changes frequently break previously working functionality.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Lack of test coverage means defects go undetected during development and only surface in production.
+- [Increased Manual Testing Effort](increased-manual-testing-effort.md)
+<br/>  Without automated tests, all verification must be done manually, directly increasing manual testing effort.
 
+## Causes ▼
+
+- [Difficult to Test Code](difficult-to-test-code.md)
+<br/>  Tightly coupled legacy code with hidden dependencies makes it structurally difficult to add tests without major refactoring.
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Management historically prioritized feature delivery over writing tests, resulting in large untested codebases.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  Overly coupled components cannot be tested in isolation, making it impractical to add tests to legacy code.
+- [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
+<br/>  Prototype code that was never intended to be permanent entered production without tests and was never retroactively tested.
 ## Detection Methods ○
 - **Code Coverage Analysis:** Measure test coverage for different parts of the system to identify untested legacy areas
 - **Code Age Analysis:** Identify older code sections that were written before testing practices were established

@@ -38,18 +38,28 @@ A Feature Factory is an anti-pattern where organizations become obsessed with ou
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Feature Bloat](feature-bloat.md)
+<br/>  Prioritizing feature output over value leads to accumulation of low-impact features that bloat the product.
+- [Reduced Feature Quality](reduced-feature-quality.md)
+<br/>  Pressure to ship many features means less time for polish and refinement of each individual feature.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Continuous feature delivery without time for quality work accumulates design shortcuts and technical debt.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Developers become demotivated when they feel disconnected from the impact of their work and are treated as feature assembly lines.
+- [Wasted Development Effort](wasted-development-effort.md)
+<br/>  Features shipped without validation often go unused, representing significant wasted development effort.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Shipping features that do not solve real user problems leads to user frustration and declining satisfaction.
 ## Causes ▼
 
-- **Output-Focused Metrics:** Organizations measure success by velocity, story points, or features shipped rather than business outcomes or user value.
-- **Disconnected Development Teams:** Teams lack direct access to customers, market feedback, or business context needed to understand feature impact.
-- **Pressure for Visible Progress:** Stakeholders demand continuous visible output, creating pressure to ship features regardless of their value.
-- **Lack of Product Strategy:** Absence of clear product vision or strategic direction leads teams to focus on activity rather than outcomes.
-- **Siloed Organization Structure:** Departmental boundaries prevent collaboration between development, product, marketing, and customer success teams.
-- **Risk Aversion Culture:** Organizations avoid the uncertainty of experimentation and validation, preferring the perceived safety of continuous feature delivery.
-- **Legacy IT Mindset:** Traditional project-based thinking treats development as order fulfillment rather than problem-solving partnerships.
-
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Management focus on immediate delivery metrics rather than long-term value drives the feature factory pattern.
+- [Feedback Isolation](feedback-isolation.md)
+<br/>  Teams operating without user feedback cannot assess whether features deliver value, reinforcing output-focused metrics.
+- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
+<br/>  Without clear strategic goals, teams default to measuring success by feature volume rather than business outcomes.
+- [Market Pressure](market-pressure.md)
+<br/>  Competitive pressure drives organizations to prioritize shipping features quickly over validating their value.
 ## Detection Methods ○
 
 - **Outcome vs Output Analysis:** Compare feature release frequency against business metrics like user engagement, revenue growth, or customer satisfaction scores.
@@ -64,12 +74,3 @@ A Feature Factory is an anti-pattern where organizations become obsessed with ou
 
 A large enterprise software company operates multiple development teams delivering new features every sprint across their suite of products. Management proudly reports that teams are hitting 95% of their story point commitments and shipping an average of 8 new features per quarter. However, customer churn has been steadily increasing, support ticket volume is growing, and user surveys indicate frustration with product complexity. When the product team analyzes feature usage data, they discover that 60% of features released in the past year have less than 15% user adoption. Development teams report feeling disconnected from the impact of their work, with many developers unable to explain how their recent features solve customer problems. The organization has fallen into a feature factory pattern, optimizing for delivery speed while losing sight of customer value and business outcomes.
 
-## Root Causes ▼
-- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.433, Strength: 0.740">ⓘ</span>
-<br/>  The accumulation of design and implementation shortcuts creates a fragile codebase that prioritizes quick feature delivery over thorough analysis, ultimately leading to a lack of understanding of business impact and user value.
-- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.850">ⓘ</span>
-<br/>  The absence of clear responsibility for code quality and documentation leads to a chaotic development environment where features are rapidly deployed without assessing their long-term impact or user value, perpetuating a cycle of superficial enhancements over meaningful improvements.
-- [Increased Time to Market](increased-time-to-market.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.631">ⓘ</span>
-<br/>  The prolonged development cycles inherent in legacy systems create pressure to prioritize rapid feature delivery, often at the expense of thorough analysis of business impact and user value, leading to a culture focused on quantity over quality.
-- [Accumulation of Workarounds](accumulation-of-workarounds.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.611">ⓘ</span>
-<br/>  The creation of elaborate workarounds to avoid addressing core issues leads to increased complexity and technical debt, which in turn distracts the organization from understanding the true business impact and user value of new features, resulting in a prioritization of feature delivery over meaningful improvements.

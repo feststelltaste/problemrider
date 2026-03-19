@@ -28,21 +28,29 @@ Hardcoded values are literal numbers, strings, or other constants embedded direc
 - Test files that duplicate production code just to change embedded values
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.525, Strength: 0.788">ⓘ</span>
-<br/>  The reliance on hardcoded values in legacy systems often necessitates specialized knowledge for modification, leading to a critical shortage of developers familiar with these outdated practices, which in turn creates bottlenecks in system maintenance.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.728">ⓘ</span>
-<br/>  Hardcoded values limit the ability to modularize and adapt components, leading to increased interdependencies that make the codebase rigid and challenging to maintain, thereby manifesting as difficulties in scaling and deploying the entire system.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.741">ⓘ</span>
-<br/>  The presence of hardcoded values limits the ability to track and manage different configurations effectively, resulting in inadequate configuration management that manifests as errors or difficulties during version control and rollback processes in legacy systems.
-- [Inconsistent Naming Conventions](inconsistent-naming-conventions.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.654">ⓘ</span>
-<br/>  The use of hardcoded values often leads to inconsistent naming conventions, as developers may resort to arbitrary or unclear identifiers when trying to manage fixed strings and numbers, further complicating code comprehension and maintenance in legacy systems.
-- [Difficult to Test Code](difficult-to-test-code.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.790">ⓘ</span>
-<br/>  Hardcoded values create tight coupling and global dependencies within the code, making it difficult to isolate components for testing, as any change in one area can impact multiple parts of the system, leading to complex setup requirements.
 
-## Root Causes ▼
+- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
+<br/>  Hardcoded values that are correct for one environment cause failures when the application is deployed to different environments.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Simple configuration changes require code modifications, testing, and redeployment instead of just updating a configuration file.
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  Code with hardcoded values breaks easily when business rules, URLs, or other parameters change.
+- [Code Duplication](code-duplication.md)
+<br/>  Different versions of similar code that vary only by hardcoded values create duplicated logic throughout the codebase.
+- [Difficult Code Reuse](difficult-code-reuse.md)
+<br/>  Code with embedded literal values cannot be easily reused in different contexts or configurations.
+- [Increased Cost of Development](increased-cost-of-development.md)
+<br/>  What should be simple configuration changes become multi-week development projects requiring code changes and full testing.
+- [Inconsistent Behavior](inconsistent-behavior.md)
+<br/>  Hardcoded values in different parts of the codebase that should be the same but diverge over time directly cause inco....
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Deadline Pressure](deadline-pressure.md)
+<br/>  Time pressure leads developers to embed values directly in code as the quickest path to a working solution.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers lacking experience with configuration management patterns default to hardcoding values directly in source code.
+- [Poor Planning](poor-planning.md)
+<br/>  Failure to anticipate future configuration needs leads to values being embedded in code rather than externalized.
 ## Detection Methods ○
 
 - Use static analysis tools to identify magic numbers and repeated string literals

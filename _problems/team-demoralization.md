@@ -35,25 +35,25 @@ Team demoralization occurs when team members experience a significant decline in
 - General attitude shifts from optimistic to pessimistic about outcomes
 
 ## Symptoms ▲
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.479, Strength: 0.830">ⓘ</span>
-<br/>  As team members become demoralized by ongoing challenges within legacy systems, their decreased motivation leads to a reluctance to explore innovative solutions, resulting in a stagnation of ideas and a focus on merely maintaining existing processes rather than improving them.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.455, Strength: 0.882">ⓘ</span>
-<br/>  Persistent organizational issues lead to a lack of motivation and engagement among team members, resulting in decreased effectiveness and output, which serves as a clear indicator of underlying team morale problems in the context of legacy systems.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.447, Strength: 0.684">ⓘ</span>
-<br/>  Persistent issues in the legacy codebase lead to increased technical debt and inefficiencies, causing developers to experience frustration and burnout, which in turn reflects the overall demoralization of the team as they struggle to find motivation in an unproductive work environment.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.427, Strength: 0.823">ⓘ</span>
-<br/>  Persistent issues within the organization lead to disengagement and apathy among team members, resulting in a lack of initiative to participate in the review process, where minimal feedback and repetitive assignments further exacerbate feelings of frustration and disconnection, ultimately reflecting the underlying morale crisis.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.399, Strength: 0.862">ⓘ</span>
-<br/>  When team morale declines due to ongoing challenges, it often leads to reduced engagement and effort in the development process, resulting in less attention to detail and lower quality in the features delivered.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.789">ⓘ</span>
-<br/>  When team members are demoralized due to ongoing issues in legacy systems, their decreased engagement and productivity directly lead to slower project delivery and lower quality outputs, resulting in dissatisfaction among stakeholders.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.729">ⓘ</span>
-<br/>  Persistent communication gaps between stakeholders and developers in legacy systems lead to repeated misunderstandings and rework, which erode team morale and confidence, creating a cycle of demoralization as frustrations mount over unmet expectations and ongoing issues.
 
-## Root Causes ▼
+- [High Turnover](high-turnover.md)
+<br/>  Demoralized team members actively seek employment elsewhere, leading to increased departures.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Loss of motivation leads to minimum-effort work and reduced initiative, directly impacting productivity.
+- [Unmotivated Employees](unmotivated-employees.md)
+<br/>  Demoralization manifests as employees who no longer care about quality or outcomes, doing only the bare minimum.
+- [Reduced Innovation](reduced-innovation.md)
+<br/>  Demoralized teams stop suggesting improvements or experimenting with new approaches because they feel their efforts don't matter.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  When team members adopt a 'just do the minimum' attitude, code quality suffers as they stop investing extra effort in clean design.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Persistent frustration from working with problematic systems or processes leads to burnout and eventual demoralization.
+- [Team Dysfunction](team-dysfunction.md)
+<br/>  Interpersonal conflicts, lack of trust, and structural problems create a toxic environment that demoralizes team members.
+- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
+<br/>  Unclear Goals and Priorities directly demoralizes teams through the sense of futility when goals shift and work is ab....
 ## Detection Methods ○
 
 - **Team Morale Surveys:** Regular anonymous surveys about job satisfaction and motivation

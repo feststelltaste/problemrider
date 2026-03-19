@@ -31,19 +31,33 @@ Excessive class size is a code smell where a class has grown so large that it be
 - The class has a large number of methods and instance variables.
 
 ## Symptoms ▲
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.432, Strength: 0.673">ⓘ</span>
-<br/>  When classes grow excessively large and complex, they often manage unbounded data structures, leading to uncontrolled memory usage and performance issues that indicate a lack of proper organization and maintenance in the codebase.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.640">ⓘ</span>
-<br/>  When classes become excessively large, they often attempt to encapsulate the complexities of the domain model, leading to convoluted logic and interdependencies that exacerbate the difficulties in understanding and implementing the system correctly.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.588">ⓘ</span>
-<br/>  The complexity and size of classes overwhelm the review process, making it difficult for reviewers to effectively identify critical issues and provide constructive feedback, thereby indicating a breakdown in quality assurance practices within the legacy system.
 
-## Root Causes ▼
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.932">ⓘ</span>
-<br/>  Insufficient monitoring and observability prevent timely detection of issues, allowing classes to grow excessively large and complex as developers add more functionality without addressing underlying problems, ultimately making the system harder to understand and maintain.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.950">ⓘ</span>
-<br/>  The tendency to write procedural-style code within an object-oriented framework leads to the accumulation of excessive responsibilities and functionality within single classes, resulting in overly complex and unwieldy class structures that are difficult to maintain and test.
+- [Difficult to Test Code](difficult-to-test-code.md)
+<br/>  Large classes with many responsibilities and dependencies are extremely hard to test in isolation.
+- [Increased Cognitive Load](increased-cognitive-load.md)
+<br/>  Developers must hold the entire large class in their working memory to safely make changes, increasing mental burden.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  Oversized classes typically mix unrelated responsibilities, resulting in low cohesion and high coupling to many other components.
+- [Increased Risk of Bugs](increased-risk-of-bugs.md)
+<br/>  The complexity of large classes makes it more likely that changes will introduce unintended side effects and defects.
+- [Ripple Effect of Changes](ripple-effect-of-changes.md)
+<br/>  Changes to an excessively large class affect many different functionalities, causing cascading modifications across the system.
+- [Large Pull Requests](large-pull-requests.md)
+<br/>  Changes to large classes tend to produce large pull requests because the class touches many concerns simultaneously.
+- [Difficult Code Comprehension](difficult-code-comprehension.md)
+<br/>  Excessively large classes are inherently hard to comprehend.
+## Causes ▼
 
+- [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
+<br/>  Continuously adding features without refactoring causes classes to absorb more and more responsibilities over time.
+- [Refactoring Avoidance](refactoring-avoidance.md)
+<br/>  Avoiding refactoring means oversized classes are never broken down into smaller, more focused components.
+- [Misunderstanding of OOP](misunderstanding-of-oop.md)
+<br/>  Lack of understanding of SOLID principles, particularly single responsibility, leads developers to pile all related logic into one class.
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Prioritizing quick feature delivery over code structure leads developers to add to existing classes rather than designing proper abstractions.
+- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
+<br/>  Without clear code ownership, no one takes responsibility for maintaining class boundaries, allowing classes to grow unchecked.
 ## Detection Methods ○
 - **Code Metrics Tools:** Use static analysis tools to measure class size, cyclomatic complexity, and other metrics.
 - **Code Reviews:** Regularly review code for large classes and classes with multiple responsibilities.

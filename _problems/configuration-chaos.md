@@ -34,27 +34,27 @@ Configuration chaos occurs when system configurations are managed inconsistently
 - Configuration files exist in multiple locations with unclear precedence
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.416, Strength: 0.645">ⓘ</span>
-<br/>  Inconsistent and chaotic system configurations lead to environments that behave unpredictably, making it challenging to establish reliable test scenarios, which ultimately results in critical code sections remaining untested and contributing to blind spots in quality assurance.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.414, Strength: 0.609">ⓘ</span>
-<br/>  Inconsistent and poorly managed system configurations lead to misinterpretations of requirements, resulting in frequent updates and changes as stakeholders attempt to reconcile discrepancies, ultimately causing rework and delays.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.385, Strength: 0.607">ⓘ</span>
-<br/>  The inconsistency and difficulty in managing system configurations lead to a convoluted representation of the complex business domain, resulting in implementation challenges and further exacerbating the unpredictability of system behavior.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.604">ⓘ</span>
-<br/>  Inconsistent and poorly managed system configurations lead to outdated and misaligned regulatory settings, resulting in compliance gaps that indicate a failure to maintain alignment with evolving requirements.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.660">ⓘ</span>
-<br/>  Inconsistent and poorly managed system configurations lead to unpredictable environments, which cause tests to fail randomly due to variations in timing, setup, or dependencies, thereby indicating underlying configuration issues.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.314, Strength: 0.590">ⓘ</span>
-<br/>  Inconsistent configurations lead to improper resource management practices, resulting in allocated system resources remaining unreleased due to the lack of standardized deallocation procedures across environments.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.568">ⓘ</span>
-<br/>  The inconsistencies and complexity of system configurations lead to prolonged setup times and difficulties in replicating environments, which in turn hinders the development team's efficiency and responsiveness.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.527">ⓘ</span>
-<br/>  The inconsistency and difficulty in managing system configurations lead to a breakdown in code review processes, as reviewers are unable to effectively evaluate and provide feedback on code that may behave unpredictably across different environments, thereby serving as an indicator of underlying configuration chaos.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.932">ⓘ</span>
-<br/>  The presence of shared libraries and frameworks across multiple components leads to version mismatches and configuration inconsistencies, as updates to one service can inadvertently alter the behavior of others, resulting in chaotic system configurations.
+- [Inconsistent Behavior](inconsistent-behavior.md)
+<br/>  Configuration inconsistencies across environments cause the same business process to produce different outcomes depending on where it runs.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  When configurations differ unpredictably between environments, reproducing and diagnosing bugs becomes extremely challenging.
+- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
+<br/>  Chaotic configuration management directly causes environments to diverge, leading to deployment failures and unexpected behavior.
+- [System Outages](system-outages.md)
+<br/>  Misconfigured or drifted configurations can cause services to fail silently or crash, resulting in system outages.
+- [Slow Incident Resolution](slow-incident-resolution.md)
+<br/>  When configurations are inconsistent and undocumented, diagnosing production incidents takes much longer because the actual system state is unknown.
+## Causes ▼
 
+- [Inadequate Configuration Management](inadequate-configuration-management.md)
+<br/>  Without proper version control and tracking of configurations, they inevitably become inconsistent and chaotic.
+- [Manual Deployment Processes](manual-deployment-processes.md)
+<br/>  Manual deployments introduce human error and inconsistency in how configurations are applied across environments.
+- [Poor Documentation](poor-documentation.md)
+<br/>  When configuration decisions and changes are not documented, knowledge about the intended state is lost, enabling drift and chaos.
+- [Change Management Chaos](change-management-chaos.md)
+<br/>  Without coordinated change management, configuration changes happen ad hoc without oversight, creating inconsistencies across environments.
 ## Detection Methods ○
 
 - **Configuration Audit:** Compare configurations across environments to identify drift

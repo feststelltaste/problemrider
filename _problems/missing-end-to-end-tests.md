@@ -1,5 +1,5 @@
 ---
-title: System Integration Blindness
+title: Missing End-to-End Tests
 description: Complete user flows are not tested from start to finish, allowing workflow-breaking
   bugs to reach production.
 category:
@@ -35,42 +35,20 @@ Missing end-to-end tests occur when testing strategies focus on individual compo
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Without end-to-end testing, workflow-breaking bugs reach production, increasing the overall defect rate.
+- [Slow Incident Resolution](slow-incident-resolution.md)
+<br/>  Integration issues that are not caught by end-to-end tests cause production incidents when users attempt complete workflows.
+- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
+<br/>  Users encountering broken workflows despite individual features working leads to loss of trust and dissatisfaction.
+## Causes ▼
 
-## Root Causes ▼
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.903">ⓘ</span>
-<br/>  Insufficient production monitoring hinders the early detection of integration issues, allowing undetected workflow-breaking bugs to propagate through the system and reach production without comprehensive end-to-end testing.
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.398, Strength: 0.944">ⓘ</span>
-<br/>  The reliance on shared libraries and frameworks across multiple components often leads to untested interactions and dependencies, which can obscure the visibility of critical end-to-end user flows and allow disruptive bugs to slip into production, thereby undermining comprehensive system integration testing.
-- [Silent Data Corruption](silent-data-corruption.md) <span class="info-tooltip" title="Confidence: 0.374, Strength: 0.894">ⓘ</span>
-<br/>  The inability to detect corrupted data during isolated testing phases leads to flawed assumptions about data integrity, resulting in incomplete user flow assessments that overlook critical integration points and allow workflow-breaking bugs to persist in production.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.911">ⓘ</span>
-<br/>  Bottlenecks in specific team members or processes slow down the testing and integration phases, preventing comprehensive end-to-end user flow testing and allowing critical bugs to escape into production.
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.371, Strength: 0.921">ⓘ</span>
-<br/>  The reliance on a shared database creates interdependencies between services that are not adequately tested in isolation, leading to undetected integration issues and workflow-breaking bugs in production.
-- [Incomplete Projects](incomplete-projects.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.848">ⓘ</span>
-<br/>  The failure to complete features due to shifting priorities results in fragmented functionality, preventing comprehensive end-to-end testing and allowing undetected workflow-breaking bugs to enter production.
-- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.927">ⓘ</span>
-<br/>  The lack of cohesive data and behavior bundling results in tightly coupled components that are difficult to test in isolation, leading to undetected workflow-breaking bugs during integration and ultimately allowing defects to reach production.
-- [Cascade Failures](cascade-failures.md) <span class="info-tooltip" title="Confidence: 0.332, Strength: 0.794">ⓘ</span>
-<br/>  The failure to comprehensively test user workflows leads to undetected issues that cascade through interconnected components, ultimately resulting in critical bugs reaching production without proper oversight.
-- [System Outages](system-outages.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.856">ⓘ</span>
-<br/>  Frequent service interruptions prevent comprehensive testing of user flows, leading to undetected workflow-breaking bugs that compromise system integration.
-- [Unclear Sharing Expectations](unclear-sharing-expectations.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.925">ⓘ</span>
-<br/>  Insufficient clarity on information sharing leads to critical gaps in communication among team members, resulting in incomplete testing of user flows and allowing workflow-breaking bugs to be deployed into production.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.840">ⓘ</span>
-<br/>  The tight coupling of cross-cutting concerns with business logic prevents clear visibility and isolation of individual components during testing, leading to incomplete user flow validation and allowing critical bugs to escape into production.
-- [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.903">ⓘ</span>
-<br/>  In legacy systems, inconsistent user experiences across similar operations lead to misunderstandings about expected behavior, which prevents comprehensive testing of complete user flows and allows critical workflow-breaking bugs to escape into production.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.897">ⓘ</span>
-<br/>  A lack of understanding of object-oriented programming principles leads to poorly structured code that complicates system integration testing, resulting in incomplete user flow assessments and the introduction of critical bugs into production.
-- [Hidden Side Effects](hidden-side-effects.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.838">ⓘ</span>
-<br/>  Undocumented side effects in functions can lead to unexpected state changes and actions, causing complete user flows to fail during integration testing and allowing critical bugs to escape into production.
-- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.812">ⓘ</span>
-<br/>  The lack of intuitive design leads to user confusion and incomplete understanding of workflows, resulting in critical user flows being overlooked during testing and allowing integration issues to go undetected in production.
-- [Breaking Changes](breaking-changes.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.814">ⓘ</span>
-<br/>  API updates introduce unexpected changes that disrupt existing client integrations, leading to incomplete testing of user flows and allowing critical workflow-breaking bugs to go unnoticed in production.
-
+- [Testing Complexity](testing-complexity.md)
+<br/>  The inherent complexity of setting up and maintaining end-to-end test environments discourages teams from creating comprehensive tests.
+- [Difficult to Test Code](difficult-to-test-code.md)
+<br/>  Tightly coupled or poorly structured code makes it impractical to create end-to-end tests that exercise complete workflows.
+- [Deadline Pressure](deadline-pressure.md)
+<br/>  Under time pressure, end-to-end tests are often the first testing activity to be cut since they are the most time-consuming to create.
 ## Detection Methods ○
 - **User Journey Mapping:** Document complete user workflows and assess test coverage for each journey
 - **Production Issue Analysis:** Track bugs that span multiple system components or user workflow steps

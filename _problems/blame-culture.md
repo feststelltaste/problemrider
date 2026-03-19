@@ -38,16 +38,22 @@ Blame culture exists when organizations respond to mistakes, failures, or proble
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+- [Fear of Failure](fear-of-failure.md)
+<br/>  When mistakes are punished, team members develop a pervasive fear of making any error, stifling initiative.
+- [Avoidance Behaviors](avoidance-behaviors.md)
+<br/>  Team members avoid challenging or risky tasks to minimize their exposure to potential blame.
+- [Reduced Innovation](reduced-innovation.md)
+<br/>  Fear of blame for failed experiments kills willingness to try new approaches or technologies.
+- [Knowledge Silos](knowledge-silos.md)
+<br/>  People withhold information defensively to protect themselves, rather than sharing knowledge openly.
+- [High Turnover](high-turnover.md)
+<br/>  Talented developers leave organizations where blame culture creates a toxic and stressful work environment.
+- [Refactoring Avoidance](refactoring-avoidance.md)
+<br/>  Developers avoid refactoring because any regression resulting from code changes could lead to individual blame.
+## Causes ▼
 
-## Root Causes ▼
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.351, Strength: 0.904">ⓘ</span>
-<br/>  Focusing on trivial issues during code reviews creates an environment where team members feel their contributions are undervalued, leading to fear of punishment for mistakes instead of fostering a culture of learning and improvement.
-- [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.333, Strength: 0.874">ⓘ</span>
-<br/>  The difficulty in modifying a fragile codebase without introducing errors fosters a fear of making changes, leading to a culture where mistakes are met with blame rather than constructive feedback, thereby stifling innovation and learning.
-- [Unclear Sharing Expectations](unclear-sharing-expectations.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.867">ⓘ</span>
-<br/>  The lack of clarity around information sharing leads to misunderstandings and mistakes being hidden rather than discussed openly, fostering a punitive environment that stifles innovation and learning in legacy systems.
-
+- [Individual Recognition Culture](individual-recognition-culture.md)
+<br/>  Reward systems based on individual performance create competitive dynamics where others' failures become advantageous.
 ## Detection Methods ○
 
 - Conduct anonymous surveys about psychological safety and fear of repercussions

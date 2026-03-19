@@ -34,25 +34,29 @@ Competing priorities occur when multiple projects, initiatives, or tasks are all
 - Management cannot clearly articulate which priority should take precedence
 
 ## Symptoms ▲
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.437, Strength: 0.666">ⓘ</span>
-<br/>  When multiple urgent projects vie for the same limited resources, the resulting context-switching and lack of focus lead to systemic inefficiencies that diminish the overall output and effectiveness of the development team.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.648">ⓘ</span>
-<br/>  The constant pressure to address multiple urgent initiatives results in shifting project priorities, causing ongoing changes to requirements that disrupt development and necessitate rework, thereby serving as a clear indicator of resource allocation conflicts within legacy systems.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.563">ⓘ</span>
-<br/>  The pressure of managing multiple urgent projects often leads to oversight in resource management, resulting in system resources being allocated without proper deallocation, which serves as a clear indicator of the underlying prioritization conflicts and resource allocation inefficiencies.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.880">ⓘ</span>
-<br/>  The reliance on a common set of libraries and frameworks creates bottlenecks in resource allocation, as multiple projects must wait for the same foundational components to be updated or maintained, leading to conflicts and inefficiencies in prioritizing urgent initiatives.
-- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.834">ⓘ</span>
-<br/>  The accumulation of design and implementation shortcuts leads to inefficiencies and increased maintenance costs, forcing teams to divert resources from strategic initiatives to address urgent technical issues, thereby intensifying competition for limited resources.
-- [Approval Dependencies](approval-dependencies.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.730">ⓘ</span>
-<br/>  The frequent need for approvals from specific individuals slows down project progress, causing delays that force teams to shift focus to other initiatives, thereby exacerbating resource competition and inefficiencies in legacy systems.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.848">ⓘ</span>
-<br/>  The tight coupling of cross-cutting concerns with business logic in legacy systems leads to increased complexity and maintenance overhead, forcing teams to divert resources to address these intertwined issues instead of focusing on urgent projects, thereby creating competing priorities.
-- [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.828">ⓘ</span>
-<br/>  A culture that insists on flawless outcomes can delay project completions and backlog decisions, resulting in multiple urgent initiatives vying for the same resources and ultimately causing conflicts and inefficiencies in legacy systems.
+- [Context Switching Overhead](context-switching-overhead.md)
+<br/>  Developers constantly switch between competing projects, losing productivity to context switching.
+- [Incomplete Projects](incomplete-projects.md)
+<br/>  No project receives sufficient focus to reach completion when resources are spread across too many priorities.
+- [Reduced Team Productivity](reduced-team-productivity.md)
+<br/>  Splitting attention across multiple urgent initiatives reduces overall team output across all projects.
+- [Delayed Project Timelines](delayed-project-timelines.md)
+<br/>  All competing projects experience delays because none receives the focused attention needed for timely completion.
+- [Quality Compromises](quality-compromises.md)
+<br/>  Stretched thin across priorities, teams take shortcuts and lower quality standards to try to make progress on everything.
+- [Team Demoralization](team-demoralization.md)
+<br/>  The inability to make meaningful progress on any priority demoralizes teams who feel their efforts are futile.
+## Causes ▼
 
+- [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
+<br/>  Lack of clear organizational direction leads to multiple initiatives being treated as equally urgent.
+- [Power Struggles](power-struggles.md)
+<br/>  Different departments or managers compete to have their projects prioritized, creating conflicting demands on shared resources.
+- [Poor Planning](poor-planning.md)
+<br/>  Inadequate planning fails to sequence initiatives appropriately, resulting in multiple critical projects overlapping.
+- [Market Pressure](market-pressure.md)
+<br/>  External competitive forces create genuinely urgent demands across multiple fronts simultaneously.
 ## Detection Methods ○
 
 - **Priority Count Analysis:** Track how many initiatives are labeled as top priority simultaneously

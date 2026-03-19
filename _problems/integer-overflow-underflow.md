@@ -4,7 +4,7 @@ description: Arithmetic operations produce results that exceed the maximum or mi
   values representable by integer data types, leading to unexpected behavior.
 category:
 - Code
-- Data
+- Database
 - Security
 related_problems:
 - slug: buffer-overflow-vulnerabilities
@@ -27,13 +27,21 @@ Integer overflow and underflow occur when arithmetic operations produce results 
 - Financial or measurement calculations produce obviously incorrect results
 
 ## Symptoms ▲
-- [Unbounded Data Growth](unbounded-data-growth.md) <span class="info-tooltip" title="Confidence: 0.380, Strength: 0.633">ⓘ</span>
-<br/>  When arithmetic operations in legacy systems exceed integer limits due to unbounded data accumulation, they can lead to overflow or underflow, causing erroneous calculations and system instability, which manifests as unbounded data growth as the system fails to manage or constrain data effectively.
 
-## Root Causes ▼
+- [Buffer Overflow Vulnerabilities](buffer-overflow-vulnerabilities.md)
+<br/>  Integer overflow in size calculations can lead to undersized buffer allocations that are then overflowed.
+- [Silent Data Corruption](silent-data-corruption.md)
+<br/>  Value wrapping from overflow produces incorrect data that may propagate undetected through the system.
+- [Unpredictable System Behavior](unpredictable-system-behavior.md)
+<br/>  Wrapped values cause unexpected program behavior that is difficult to reproduce and diagnose.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Developers without awareness of data type limits fail to implement proper bounds checking.
+- [Insufficient Testing](insufficient-testing.md)
+<br/>  Insufficient testing with boundary values fails to detect overflow conditions before production.
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  Lack of validation and error handling for arithmetic operations allows overflows to occur silently.
 ## Detection Methods ○
 
 - **Static Analysis Tools:** Use tools that can identify potential integer overflow conditions in arithmetic operations

@@ -31,21 +31,22 @@ Endianness conversion overhead occurs when applications frequently convert data 
 
 ## Symptoms ▲
 
-- **CPU Processing Overhead:** Significant CPU cycles consumed by byte order conversions
-- **[Network Latency](network-latency.md):** Network data processing slowed by endianness conversion overhead
-- **Data Processing Bottlenecks:** Binary data processing becomes CPU-bound due to conversion overhead
-- **Cross-Platform Performance Issues:** Applications perform differently on different endianness architectures
-- **Serialization Performance Impact:** Data serialization/deserialization slowed by endianness handling
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Frequent byte-swapping operations consume CPU cycles that would otherwise be used for application logic, making the application feel sluggish.
+- [Inefficient Code](inefficient-code.md)
+<br/>  Code peppered with endianness conversion calls in hot paths becomes computationally expensive relative to the actual business logic.
+- [High Client-Side Resource Consumption](high-client-side-resource-consumption.md)
+<br/>  Client applications processing binary data from different architectures consume excessive CPU on byte-order conversions.
+- [Resource Contention](resource-contention.md)
+<br/>  CPU time consumed by endianness conversions competes with actual application processing, especially under high load.
+## Causes ▼
 
-## Root Causes ▼
-
-- **Architecture Mismatches:** Applications running on architectures with different native endianness
-- **Network Protocol Requirements:** Network protocols specifying endianness different from host architecture
-- **File Format Constraints:** Binary file formats using endianness different from processing architecture
-- **Excessive Conversion Frequency:** Converting the same data multiple times unnecessarily
-- **Lack of Native Format Processing:** Not leveraging native endianness when possible
-- **Protocol Design Issues:** Communication protocols not designed with endianness efficiency in mind
-
+- [Serialization/Deserialization Bottlenecks](serialization-deserialization-bottlenecks.md)
+<br/>  Inefficient serialization that does not handle endianness natively forces additional conversion steps during data processing.
+- [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
+<br/>  Poorly designed interfaces that do not standardize byte order force each side to perform redundant conversions.
+- [Technical Architecture Limitations](technical-architecture-limitations.md)
+<br/>  Architecture decisions that mix big-endian and little-endian systems without a clear data format standard create ongoing conversion overhead.
 ## Detection Methods ○
 
 - **CPU Profiling:** Profile applications to identify time spent in endianness conversion functions

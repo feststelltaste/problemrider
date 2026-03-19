@@ -33,25 +33,29 @@ Planning dysfunction occurs when project planning processes systematically produ
 - Resource conflicts are discovered during execution rather than planning
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.558, Strength: 0.772">ⓘ</span>
-<br/>  Frequent changes to requirements indicate planning dysfunction because inadequate initial assessments fail to capture project complexities, leading to an unstable foundation that necessitates ongoing adjustments as development progresses.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.493, Strength: 0.831">ⓘ</span>
-<br/>  Inaccurate project timelines and ineffective resource allocation lead to insufficient test environments and inadequate handling of dependencies, resulting in unreliable tests that fail intermittently and erode confidence in the testing process.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.381, Strength: 0.804">ⓘ</span>
-<br/>  Ineffective project planning leads to unclear expectations, misallocated resources, and unaddressed complexities, which in turn create systemic inefficiencies that diminish the development team's overall productivity.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.679">ⓘ</span>
-<br/>  Ineffective project planning often leads to inadequate resource management, resulting in system resources being allocated without a clear strategy for their release, which manifests as unreleased resources within the software.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.757">ⓘ</span>
-<br/>  The failure to create realistic project plans results in inadequate resource allocation and risk assessment, which in turn generates intense deadline pressure as teams rush to compensate for mismanaged timelines, ultimately compromising software quality in legacy systems.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.737">ⓘ</span>
-<br/>  Ineffective project planning leads to inadequate time allocation for development and testing phases, causing rushed implementations that compromise the quality and usability of features in legacy systems.
-- [Unmotivated Employees](unmotivated-employees.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.719">ⓘ</span>
-<br/>  When project planning fails to establish clear goals, timelines, and resource allocations, it creates a sense of chaos and uncertainty that demotivates team members, leading to disengagement and reduced contributions to project outcomes.
 
-## Root Causes ▼
+- [Missed Deadlines](missed-deadlines.md)
+<br/>  Unrealistic plans that don't account for complexity and risk inevitably result in missed delivery dates.
+- [Delayed Project Timelines](delayed-project-timelines.md)
+<br/>  Poor resource allocation and unidentified dependencies during planning cause projects to take significantly longer than planned.
+- [Budget Overruns](budget-overruns.md)
+<br/>  Plans that underestimate effort and fail to account for risks lead to projects exceeding their budgets.
+- [Planning Credibility Issues](planning-credibility-issues.md)
+<br/>  Repeated planning failures erode stakeholder trust in the team's ability to create accurate estimates.
+- [Overworked Teams](overworked-teams.md)
+<br/>  Unrealistic plans force teams to work excessive hours to compensate for poor resource allocation and underestimated complexity.
+- [Wasted Development Effort](wasted-development-effort.md)
+<br/>  Poor planning leads to building the wrong things or doing work that must be abandoned when reality diverges from the plan.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
+<br/>  Insufficient understanding of requirements means plans are built on incomplete information about what the project actually needs.
+- [Knowledge Gaps](knowledge-gaps.md)
+<br/>  Lack of understanding about technical complexity and system dependencies leads to plans that miss critical factors.
+- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
+<br/>  Teams agree to optimistic timelines to satisfy stakeholders rather than creating honest, realistic plans.
+- [Market Pressure](market-pressure.md)
+<br/>  External competitive forces drive planning to focus on desired delivery dates rather than realistic effort estimation.
 ## Detection Methods ○
 
 - **Plan vs. Actual Analysis:** Compare planned timelines and resource usage with actual results

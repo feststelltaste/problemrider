@@ -32,25 +32,25 @@ Load balancing problems occur when traffic distribution mechanisms fail to effic
 - Connection pooling issues or connection exhaustion
 
 ## Symptoms ▲
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.424, Strength: 0.685">ⓘ</span>
-<br/>  Inefficient traffic distribution leads to performance degradation and service instability, resulting in user frustration and an increased frequency of support inquiries as customers struggle to complete tasks.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.421, Strength: 0.624">ⓘ</span>
-<br/>  Inefficient traffic distribution by load balancing mechanisms leads to prolonged response times for upstream services, which in turn triggers timeouts when the responses exceed their configured limits, indicating underlying load balancing issues.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.775">ⓘ</span>
-<br/>  Inefficient traffic distribution can lead to frequent data requests from the source instead of utilizing cached data, resulting in increased latency and resource strain, thereby highlighting the underlying load balancing issues.
-- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.379, Strength: 0.852">ⓘ</span>
-<br/>  Inefficient traffic distribution and failure to adapt to changing conditions lead to performance issues that result in poor project oversight, as unresolved load balancing problems prevent timely identification of critical issues within the system.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.825">ⓘ</span>
-<br/>  Inefficient or inflexible traffic distribution in legacy systems often leads to a reliance on outdated or unrealistic test data, as the inability to adapt to actual usage patterns results in inadequate test scenarios that fail to reveal underlying performance issues.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.662">ⓘ</span>
-<br/>  Inefficient traffic distribution can lead to prolonged resource allocation without proper deallocation, as the system struggles to manage connections under uneven load, resulting in unreleased resources that indicate underlying load balancing issues.
-- [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.790">ⓘ</span>
-<br/>  Inefficient distribution of resources and support in legacy systems leads to varying levels of assistance for new team members, resulting in inconsistent onboarding experiences that reflect underlying load balancing issues.
 
-## Root Causes ▼
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Uneven traffic distribution causes some instances to be overloaded, resulting in slow response times for users hitting those instances.
+- [Service Timeouts](service-timeouts.md)
+<br/>  Overloaded instances from poor load distribution fail to respond within timeout thresholds, causing service failures.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Overwhelmed instances from uneven load distribution start dropping requests or returning errors.
+- [Resource Contention](resource-contention.md)
+<br/>  Poor load balancing causes some servers to compete for limited resources while others sit idle.
+- [System Outages](system-outages.md)
+<br/>  When overloaded instances fail completely due to poor load distribution, it can cascade into full service outages.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Scaling Inefficiencies](scaling-inefficiencies.md)
+<br/>  Systems that cannot scale individual components independently make it harder to balance load across heterogeneous instances.
+- [Monitoring Gaps](monitoring-gaps.md)
+<br/>  Without adequate monitoring of load distribution and instance health, load balancing problems go undetected and unaddressed.
+- [Legacy Configuration Management Chaos](legacy-configuration-management-chaos.md)
+<br/>  Poorly managed configuration makes it difficult to properly tune load balancer settings and adapt to changing traffic patterns.
 ## Detection Methods ○
 
 - **Load Distribution Monitoring:** Monitor request distribution and resource utilization across instances

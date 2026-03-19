@@ -1,5 +1,5 @@
 ---
-title: Feedback Isolation
+title: No Continuous Feedback Loop
 description: Stakeholders are not involved throughout the development process, and
   feedback is only gathered at the very end, leading to misaligned deliverables.
 category:
@@ -31,37 +31,23 @@ A continuous feedback loop is essential for agile development, allowing teams to
 - The team is not doing regular demos or reviews.
 
 ## Symptoms ▲
-- [Quality Degradation](quality-degradation.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.691">ⓘ</span>
-<br/>  The lack of ongoing stakeholder feedback leads to a misalignment of requirements and expectations, resulting in rushed development decisions that accumulate technical debt and undermine quality practices over time.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.389, Strength: 0.606">ⓘ</span>
-<br/>  The lack of ongoing stakeholder feedback leads to a disconnect between development and user needs, causing requirements to be frequently revised as issues and misalignments are only discovered late in the process.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.371, Strength: 0.661">ⓘ</span>
-<br/>  The lack of continuous stakeholder engagement throughout the development process leads to inadequate understanding of legacy system requirements, which exacerbates the shortage of skilled developers who can effectively maintain and enhance these systems, ultimately resulting in delayed feedback and increased risk of misaligned deliverables.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.364, Strength: 0.597">ⓘ</span>
-<br/>  The lack of ongoing stakeholder feedback during development results in a misalignment between user needs and the final product, causing users to encounter issues that lead to increased frustration and, consequently, a higher volume of support requests.
 
-## Root Causes ▼
-- [Budget Overruns](budget-overruns.md) <span class="info-tooltip" title="Confidence: 0.409, Strength: 0.842">ⓘ</span>
-<br/>  The lack of ongoing stakeholder involvement stems from budget overruns that force teams to prioritize immediate cost control over iterative feedback processes, resulting in misaligned deliverables that only surface at project completion.
-- [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.816">ⓘ</span>
-<br/>  The lack of awareness about where similar logic exists prevents developers from seeking timely stakeholder input on critical system areas, resulting in a disconnect between project deliverables and stakeholder expectations.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.389, Strength: 0.840">ⓘ</span>
-<br/>  The reliance on procedural programming practices leads to a lack of modularity and flexibility in the codebase, preventing effective stakeholder feedback integration during development, as the developers struggle to implement an object-oriented design that accommodates iterative input.
-- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.371, Strength: 0.803">ⓘ</span>
-<br/>  Frequent changes to the project timeline limit opportunities for stakeholder engagement, resulting in feedback being postponed until the end of development, which misaligns deliverables with actual user needs.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.360, Strength: 0.818">ⓘ</span>
-<br/>  The development team's lack of design skills results in poorly structured software that does not facilitate iterative feedback, leading to stakeholders being disconnected from the process until the end, which ultimately misaligns the final deliverables.
-- [Misunderstanding of OOP](misunderstanding-of-oop.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.819">ⓘ</span>
-<br/>  A lack of understanding of object-oriented programming principles results in poorly structured code that complicates stakeholder engagement and feedback integration, leading to misaligned deliverables at the end of the development process.
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.356, Strength: 0.768">ⓘ</span>
-<br/>  The tendency to prioritize trivial issues during reviews detracts from meaningful stakeholder engagement, resulting in feedback that is only sought at the end of the development process, ultimately leading to misalignment between deliverables and stakeholder expectations.
-- [Slow Application Performance](slow-application-performance.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.738">ⓘ</span>
-<br/>  Slow application performance undermines stakeholder engagement during the development process, as the frustration with unresponsive features leads to reduced involvement and ultimately results in feedback being collected only at the end, creating misalignment in deliverables.
-- [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.767">ⓘ</span>
-<br/>  Excessive API latency hampers timely data retrieval and response during development, preventing stakeholders from effectively engaging and providing feedback throughout the process, ultimately resulting in misaligned deliverables.
-- [Decision Paralysis](decision-paralysis.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.739">ⓘ</span>
-<br/>  The lack of clear guidance leads to indecision among developers, resulting in delayed progress and insufficient stakeholder engagement, which ultimately prevents timely feedback and alignment on project deliverables.
+- [Misaligned Deliverables](misaligned-deliverables.md)
+<br/>  Without regular feedback, development proceeds based on assumptions, producing deliverables that don't match stakeholder expectations.
+- [Resource Waste](resource-waste.md)
+<br/>  Significant development effort is wasted building features that must be redesigned or discarded due to late discovery of misalignment.
+- [Scope Creep](scope-creep.md)
+<br/>  Without ongoing feedback to validate direction, requirements accumulate unchecked as stakeholders add requests at the end.
+- [Stakeholder Frustration](stakeholder-frustration.md)
+<br/>  Stakeholders become frustrated when they see the final product and it does not match their expectations due to lack of involvement.
+## Causes ▼
 
+- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
+<br/>  Poor communication channels between developers and stakeholders prevent regular feedback exchange during development.
+- [Time Pressure](time-pressure.md)
+<br/>  Under tight deadlines, teams skip feedback sessions and demos to focus on development, eliminating opportunities for course correction.
+- [Team Silos](team-silos.md)
+<br/>  Organizational silos between business and development teams create structural barriers to ongoing collaboration and feedback.
 ## Detection Methods ○
 
 - **Project Audits:** Review project plans and communication logs to see the frequency of stakeholder engagement and feedback sessions.

@@ -30,17 +30,27 @@ A formal change control process is essential for managing the evolution of a pro
 - There is a lot of rework.
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.535, Strength: 0.767">ⓘ</span>
-<br/>  The absence of a structured evaluation and approval mechanism for changes allows for ongoing modifications to project requirements, which manifests as frequent updates during development, ultimately leading to increased rework and delays in legacy systems.
-- [Product Direction Chaos](product-direction-chaos.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.807">ⓘ</span>
-<br/>  The lack of a formal process for evaluating and approving changes allows stakeholders to introduce conflicting priorities without accountability, leading to confusion and inefficiency in the development team as they struggle to align on project goals amidst ongoing scope adjustments.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.649">ⓘ</span>
-<br/>  The lack of a formal evaluation and approval process for changes leads to frequent, unanticipated alterations in project scope, causing confusion and inefficiencies that slow down development velocity as the team struggles to adapt to shifting requirements without clear guidance.
 
-## Root Causes ▼
+- [Scope Creep](scope-creep.md)
+<br/>  Without formal evaluation of changes, new requests are continuously added without assessing their impact, causing uncontrolled scope expansion.
+- [Missed Deadlines](missed-deadlines.md)
+<br/>  Unevaluated changes consume development capacity that was allocated to planned work, causing schedule slippage.
+- [Context Switching Overhead](context-switching-overhead.md)
+<br/>  Ad hoc change requests interrupt developers' focus as they are pulled between planned work and unmanaged requests.
+- [Resource Waste](resource-waste.md)
+<br/>  Significant rework occurs when uncontrolled changes conflict with each other or invalidate previously completed work.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Constantly shifting priorities and growing backlogs from unmanaged changes lead to team exhaustion and frustration.
+- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
+<br/>  Without formal change evaluation processes, teams default to agreeing to every stakeholder request to avoid conflict.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Poor Project Control](poor-project-control.md)
+<br/>  Weak project governance structures fail to establish and enforce formal processes for managing changes.
+- [Inefficient Processes](inefficient-processes.md)
+<br/>  Organizations with immature development processes often lack the discipline to implement and follow formal change control.
+- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
+<br/>  When no one is clearly responsible for approving or rejecting changes, all requests flow directly to the development team unchecked.
 ## Detection Methods ○
 
 - **Project Audits:** Review project documentation, meeting minutes, and communication logs to see how changes are being managed.

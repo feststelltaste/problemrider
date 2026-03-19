@@ -31,53 +31,23 @@ Slow feature development is the consistent inability of a development team to de
 - There is a general sense of frustration and impatience from both the business and the development team.
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.473, Strength: 0.703">ⓘ</span>
-<br/>  The slow pace of feature development in legacy systems often leads to a reactive environment where stakeholders feel compelled to frequently alter requirements to adapt to ongoing challenges, thus indicating underlying complexities and fragilities in the codebase that hinder progress.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.449, Strength: 0.670">ⓘ</span>
-<br/>  The slow pace of developing and delivering new features leads to increased complexity and fragility within the codebase, causing developers to face persistent challenges that result in frustration and burnout as they struggle to navigate and mitigate these issues.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.669">ⓘ</span>
-<br/>  The slow pace of feature development is exacerbated by a critical shortage of developers skilled in legacy technologies, leading to increased reliance on a limited pool of expertise that struggles to navigate the complexities of the fragile codebase, thereby creating maintenance bottlenecks and hindering innovation.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.402, Strength: 0.610">ⓘ</span>
-<br/>  The complexity and fragility of the existing codebase hinder efficient feature development, leading to slower response times from the API that ultimately result in upstream timeouts when services attempt to access it.
-- [Unmotivated Employees](unmotivated-employees.md) <span class="info-tooltip" title="Confidence: 0.389, Strength: 0.667">ⓘ</span>
-<br/>  The slow pace of feature development due to a complex and fragile codebase leads to frustration among team members, resulting in decreased motivation and engagement as they feel their contributions are less impactful in overcoming the challenges presented by the legacy system.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.378, Strength: 0.603">ⓘ</span>
-<br/>  The slow pace of feature development often leads to rushed coding practices that neglect proper resource management, resulting in unreleased system resources that indicate underlying issues with code quality and complexity.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.617">ⓘ</span>
-<br/>  The slow and cumbersome development environment exacerbates the challenges posed by the complexity and fragility of the existing codebase, making it difficult for developers to efficiently implement new features, thereby serving as a clear indicator of the underlying issues affecting feature development speed.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.350, Strength: 0.614">ⓘ</span>
-<br/>  The slow pace of feature development leads to a rushed and ineffective code review process, where critical issues are overlooked and feedback is minimal, further exacerbating the fragility and complexity of the legacy codebase.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.315, Strength: 0.691">ⓘ</span>
-<br/>  The complexity and fragility of a growing monolithic codebase hinder the ability to implement changes efficiently, resulting in slower feature development as the interdependencies and tight coupling make it increasingly challenging to introduce new functionality without risking system stability.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.716">ⓘ</span>
-<br/>  The complexity and fragility of the existing codebase create uncertainty and fear of making changes, leading teams to overanalyze potential solutions instead of progressing to implementation, which ultimately hinders feature development.
 
-## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.473, Strength: 0.703">ⓘ</span>
-<br/>  The slow pace of feature development in legacy systems often leads to a reactive environment where stakeholders feel compelled to frequently alter requirements to adapt to ongoing challenges, thus indicating underlying complexities and fragilities in the codebase that hinder progress.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.449, Strength: 0.670">ⓘ</span>
-<br/>  The slow pace of developing and delivering new features leads to increased complexity and fragility within the codebase, causing developers to face persistent challenges that result in frustration and burnout as they struggle to navigate and mitigate these issues.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.419, Strength: 0.669">ⓘ</span>
-<br/>  The slow pace of feature development is exacerbated by a critical shortage of developers skilled in legacy technologies, leading to increased reliance on a limited pool of expertise that struggles to navigate the complexities of the fragile codebase, thereby creating maintenance bottlenecks and hindering innovation.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.402, Strength: 0.610">ⓘ</span>
-<br/>  The complexity and fragility of the existing codebase hinder efficient feature development, leading to slower response times from the API that ultimately result in upstream timeouts when services attempt to access it.
-- [Unmotivated Employees](unmotivated-employees.md) <span class="info-tooltip" title="Confidence: 0.389, Strength: 0.667">ⓘ</span>
-<br/>  The slow pace of feature development due to a complex and fragile codebase leads to frustration among team members, resulting in decreased motivation and engagement as they feel their contributions are less impactful in overcoming the challenges presented by the legacy system.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.378, Strength: 0.603">ⓘ</span>
-<br/>  The slow pace of feature development often leads to rushed coding practices that neglect proper resource management, resulting in unreleased system resources that indicate underlying issues with code quality and complexity.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.617">ⓘ</span>
-<br/>  The slow and cumbersome development environment exacerbates the challenges posed by the complexity and fragility of the existing codebase, making it difficult for developers to efficiently implement new features, thereby serving as a clear indicator of the underlying issues affecting feature development speed.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.350, Strength: 0.614">ⓘ</span>
-<br/>  The slow pace of feature development leads to a rushed and ineffective code review process, where critical issues are overlooked and feedback is minimal, further exacerbating the fragility and complexity of the legacy codebase.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.315, Strength: 0.691">ⓘ</span>
-<br/>  The complexity and fragility of a growing monolithic codebase hinder the ability to implement changes efficiently, resulting in slower feature development as the interdependencies and tight coupling make it increasingly challenging to introduce new functionality without risking system stability.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.716">ⓘ</span>
-<br/>  The complexity and fragility of the existing codebase create uncertainty and fear of making changes, leading teams to overanalyze potential solutions instead of progressing to implementation, which ultimately hinders feature development.
+- [Missed Deadlines](missed-deadlines.md)
+<br/>  Slow feature development directly causes delivery dates to be missed.
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  When features take too long to build, business value is delivered late, reducing competitive advantage.
+## Causes ▼
 
-## Root Causes ▼
-- [Tacit Knowledge](tacit-knowledge.md) <span class="info-tooltip" title="Confidence: 0.307, Strength: 0.968">ⓘ</span>
-<br/>  The slow pace of feature development is exacerbated by the presence of tacit knowledge within the legacy codebase, as the undocumented intricacies and undocumented practices make it challenging for new developers to understand and modify the system efficiently, leading to delays in delivering new features.
-
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Technical debt in the codebase forces developers to spend excessive time working around existing problems before implementing new features.
+- [Brittle Codebase](brittle-codebase.md)
+<br/>  A fragile codebase requires extensive testing and caution for any change, significantly slowing feature development.
+- [Spaghetti Code](spaghetti-code.md)
+<br/>  Tangled code makes it extremely difficult to understand where and how to add new functionality safely.
+- [Poor Documentation](poor-documentation.md)
+<br/>  Without documentation, developers must reverse-engineer the codebase before they can add features.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  Tightly coupled code means adding a feature in one area requires changes across many unrelated components.
 ## Detection Methods ○
 - **Cycle Time:** Measure the time it takes for a feature to go from idea to production. A long cycle time is a clear indicator of slow feature development.
 - **Lead Time:** Measure the time it takes for a feature to be delivered after it has been requested. A long lead time is a sign that the team is not responsive to the needs of the business.

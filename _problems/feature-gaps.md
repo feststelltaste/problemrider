@@ -34,17 +34,27 @@ Feature gaps occur when software is delivered without functionality that users c
 - User adoption is slower than expected due to incomplete functionality
 
 ## Symptoms ▲
-- [Assumption-Based Development](assumption-based-development.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.843">ⓘ</span>
-<br/>  The presence of important missing functionality indicates that developers failed to validate user requirements, leading to decisions based on unverified assumptions that ultimately result in incomplete solutions.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.806">ⓘ</span>
-<br/>  The presence of missing functionality leads teams to overanalyze user requirements in an attempt to compensate for the gaps, causing a paralysis that halts progress on development work within legacy systems.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.360, Strength: 0.594">ⓘ</span>
-<br/>  The absence of essential functionality often leads developers to overlook testing scenarios for critical code segments, resulting in poor test coverage that highlights gaps in user requirements and system capabilities.
 
-## Root Causes ▼
-- [Rapid System Changes](rapid-system-changes.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.808">ⓘ</span>
-<br/>  Frequent modifications to the system's architecture and APIs lead to insufficient documentation and team familiarity, resulting in developers overlooking critical user needs and creating incomplete functionality that fails to address essential requirements.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Users complain about missing functionality they consider essential for their workflows.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Users become frustrated when they cannot complete common tasks due to missing features, leading to dissatisfaction.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Users abandon the product for competitors that provide the missing functionality they need.
+- [Increased Customer Support Load](increased-customer-support-load.md)
+<br/>  Users repeatedly contact support requesting the same missing features or seeking workarounds.
+- [Shadow Systems](shadow-systems.md)
+<br/>  Users develop unofficial workarounds or use external tools to fill functionality gaps, creating hidden dependencies.
+## Causes ▼
 
+- [Assumption-Based Development](assumption-based-development.md)
+<br/>  Developers make incorrect assumptions about what users need without validating their understanding, leading to missing functionality.
+- [Feedback Isolation](feedback-isolation.md)
+<br/>  Working without regular user input means teams do not learn about essential missing functionality until too late.
+- [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
+<br/>  Insufficient analysis of user needs and workflows fails to identify essential functionality requirements.
+- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
+<br/>  Misunderstanding between stakeholders and developers about what is needed leads to incomplete solutions.
 ## Detection Methods ○
 
 - **User Feedback Analysis:** Systematic collection and analysis of user requests and complaints

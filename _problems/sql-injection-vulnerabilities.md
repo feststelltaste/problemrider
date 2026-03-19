@@ -3,7 +3,7 @@ title: SQL Injection Vulnerabilities
 description: Inadequate input sanitization allows attackers to inject malicious SQL
   code, potentially compromising database security and data integrity.
 category:
-- Data
+- Database
 - Security
 related_problems:
 - slug: cross-site-scripting-vulnerabilities
@@ -29,21 +29,16 @@ SQL injection vulnerabilities occur when applications fail to properly sanitize 
 
 ## Symptoms ▲
 
-- **Unauthorized Data Access:** Attackers retrieving sensitive data from database tables
-- **Data Manipulation:** Unauthorized modification or deletion of database records
-- **Authentication Bypass:** SQL injection used to bypass login mechanisms
-- **Database Schema Disclosure:** Attackers extracting database structure information
-- **Command Execution:** Advanced SQL injection leading to operating system command execution
+- [System Outages](system-outages.md)
+<br/>  Destructive SQL injection attacks like DROP TABLE can cause system outages by destroying critical data.
+## Causes ▼
 
-## Root Causes ▼
-
-- **Dynamic Query Construction:** Building SQL queries through string concatenation with user input
-- **Missing Parameterized Queries:** Not using prepared statements or parameterized queries
-- **Inadequate Input Validation:** Insufficient validation and sanitization of user input
-- **Excessive Database Privileges:** Database connections using accounts with unnecessary privileges
-- **Error Information Disclosure:** Database error messages revealing query structure or data
-- **Second-Order SQL Injection:** Stored user input later used unsafely in SQL queries
-
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Without coding standards mandating parameterized queries, developers may use string concatenation for SQL.
+- [Insufficient Code Review](insufficient-code-review.md)
+<br/>  Without code review, insecure query construction patterns go undetected before reaching production.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Older code written before security best practices were established often contains SQL injection vulnerabilities.
 ## Detection Methods ○
 
 - **Input Validation Testing:** Test all input fields for SQL injection attack vectors

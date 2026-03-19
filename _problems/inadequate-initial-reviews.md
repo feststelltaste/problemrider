@@ -34,19 +34,27 @@ Inadequate initial reviews occur when the first round of code review fails to id
 - Review quality improves significantly in later rounds compared to initial reviews
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.439, Strength: 0.668">ⓘ</span>
-<br/>  Inadequate initial reviews lead to overlooked code issues, resulting in critical areas of the codebase lacking test coverage, which ultimately exposes the system to undetected defects and compromises quality assurance.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.345, Strength: 0.737">ⓘ</span>
-<br/>  The slow and cumbersome development environment exacerbates incomplete code reviews by discouraging thorough analysis, as developers rush to meet performance demands, leading to critical issues being overlooked until later stages.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.686">ⓘ</span>
-<br/>  Incomplete or superficial first-round code reviews fail to catch critical issues in the code, leading to unstable test environments and unreliable tests that reflect underlying quality problems in the software.
 
-## Root Causes ▼
-- [Duplicated Effort](duplicated-effort.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.857">ⓘ</span>
-<br/>  The superficiality of first-round code reviews arises from team members duplicating efforts on similar issues, leading to a lack of thorough examination as reviewers may focus on their own contributions rather than collaboratively identifying critical problems.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.813">ⓘ</span>
-<br/>  The tendency to provide large time estimates for seemingly small changes highlights the underlying complexity of the legacy code, which leads reviewers to overlook critical issues during initial reviews due to a lack of clarity and understanding of potential risks.
+- [Extended Review Cycles](extended-review-cycles.md)
+<br/>  Issues missed in initial reviews force multiple review rounds, significantly extending the time from submission to approval.
+- [Author Frustration](author-frustration.md)
+<br/>  Developers become frustrated when new issues emerge in each review round that should have been caught initially.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  Multiple review cycles delay code merges and delivery, reducing overall team throughput.
+- [Code Review Inefficiency](code-review-inefficiency.md)
+<br/>  The review process wastes time as issues that should be caught once require multiple passes to fully identify.
+## Causes ▼
 
+- [Inadequate Code Reviews](inadequate-code-reviews.md)
+<br/>  A general culture of inadequate code reviews sets the pattern for superficial initial reviews where critical issues are overlooked.
+- [Reviewer Inexperience](reviewer-inexperience.md)
+<br/>  Inexperienced reviewers focus on surface-level issues like formatting because they lack expertise to identify deeper problems.
+- [Time Pressure](time-pressure.md)
+<br/>  Reviewers under time pressure skim code rather than conducting thorough initial analysis.
+- [Large Pull Requests](large-pull-requests.md)
+<br/>  Oversized pull requests make it cognitively difficult to identify all issues in a single pass.
+- [Nitpicking Culture](nitpicking-culture.md)
+<br/>  A culture focused on trivial style issues trains reviewers to look at surface details rather than substantive design and logic problems.
 ## Detection Methods ○
 
 - **Issue Discovery Pattern Analysis:** Track when different types of issues are identified across review rounds

@@ -35,32 +35,16 @@ Memory barrier inefficiency occurs when applications use memory barriers (fences
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Excessive memory barriers cause CPU pipeline stalls that directly degrade application performance.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  As more memory barriers are added over time to fix concurrency bugs, cumulative pipeline stalls progressively worsen performance.
+- [Resource Contention](resource-contention.md)
+<br/>  Memory barriers force serialization of memory operations, creating CPU resource contention in multi-threaded code.
+## Causes ▼
 
-## Root Causes ▼
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.455, Strength: 0.914">ⓘ</span>
-<br/>  Insufficient monitoring in legacy systems prevents the timely identification of inefficient memory barrier placements, leading to performance degradation in multi-threaded applications due to unoptimized CPU pipeline execution.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.901">ⓘ</span>
-<br/>  Inefficient memory barrier placement often arises from constrained development workflows, where delays in decision-making and resource allocation lead to suboptimal coding practices that hinder CPU performance in multi-threaded applications.
-- [Organizational Structure Mismatch](organizational-structure-mismatch.md) <span class="info-tooltip" title="Confidence: 0.353, Strength: 0.852">ⓘ</span>
-<br/>  The misalignment of organizational structure with system architecture leads to poor communication and understanding among development teams, resulting in inadequate design choices for memory management that improperly place memory barriers, ultimately degrading multi-threaded application performance.
-- [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.864">ⓘ</span>
-<br/>  Inefficient memory barriers arise in multi-threaded applications when partial fixes fail to address all instances of duplicated code, leading to inconsistent synchronization that disrupts CPU optimization across the system.
-- [Deadlock Conditions](deadlock-conditions.md) <span class="info-tooltip" title="Confidence: 0.325, Strength: 0.896">ⓘ</span>
-<br/>  Excessive memory barriers can be introduced as threads attempt to manage resource allocation during deadlock situations, leading to suboptimal CPU performance as the barriers force unnecessary synchronization and stifle parallel execution.
-- [Misconfigured Connection Pools](misconfigured-connection-pools.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.861">ⓘ</span>
-<br/>  Improperly configured connection pools can lead to frequent context switching and thread contention, which in turn causes excessive memory barriers to be introduced as the system struggles to manage resource allocation efficiently, ultimately degrading performance in multi-threaded applications.
-- [Memory Swapping](memory-swapping.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.868">ⓘ</span>
-<br/>  When a legacy database server resorts to disk swapping due to insufficient physical memory, the resulting latency in data access exacerbates the impact of improperly placed memory barriers, leading to inefficient CPU pipeline execution and overall reduced performance in multi-threaded applications.
-- [Database Connection Leaks](database-connection-leaks.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.860">ⓘ</span>
-<br/>  Improperly managed database connections consume system resources and can trigger excessive thread contention, leading to increased memory barrier usage that hinders CPU pipeline efficiency in multi-threaded applications.
-- [Race Conditions](race-conditions.md) <span class="info-tooltip" title="Confidence: 0.308, Strength: 0.775">ⓘ</span>
-<br/>  Improper synchronization from simultaneous access to shared resources forces developers to insert excessive memory barriers to prevent data corruption, ultimately hindering CPU pipeline optimization and degrading performance in multi-threaded legacy applications.
-- [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.865">ⓘ</span>
-<br/>  Developers' lack of awareness of all locations where synchronization logic is implemented can lead to inefficient placement of memory barriers, causing disruptions in CPU pipeline optimization and ultimately degrading performance in multi-threaded applications.
-- [Difficult Code Comprehension](difficult-code-comprehension.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.897">ⓘ</span>
-<br/>  Difficult code comprehension leads to inefficient placement of memory barriers, as developers struggle to grasp the intricate interactions within the code, resulting in performance degradation due to disrupted CPU pipeline optimization in multi-threaded applications.
-
+- [Insufficient Design Skills](insufficient-design-skills.md)
+<br/>  Developers lacking deep understanding of CPU memory models and concurrency add excessive barriers as a safety measure.
 ## Detection Methods ○
 
 - **Memory Barrier Profiling:** Profile memory barrier frequency and impact on performance

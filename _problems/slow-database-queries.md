@@ -30,15 +30,23 @@ Slow database queries are a primary cause of poor application performance. When 
 - You are getting complaints from users about slow performance.
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.511, Strength: 0.697">ⓘ</span>
-<br/>  Inefficient data retrieval leads to prolonged query execution times, causing API responses to exceed configured timeouts, which in turn results in service failures in dependent systems.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.649">ⓘ</span>
-<br/>  The constant fetching of data from the source rather than utilizing caching not only exacerbates query response times but also highlights underlying inefficiencies in data retrieval processes, indicating that the system is not optimized for performance.
 
-## Root Causes ▼
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Slow queries directly cause the application to respond slowly to user requests.
+- [Slow Response Times for Lists](slow-response-times-for-lists.md)
+<br/>  List pages are especially affected by slow queries because they execute multiple queries or process large result sets.
+- [High API Latency](high-api-latency.md)
+<br/>  API endpoints that depend on database queries inherit the slowness, increasing overall API response times.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Inefficient Database Indexing](inefficient-database-indexing.md)
+<br/>  Without proper indexes, the database performs full table scans, making queries dramatically slower.
+- [High Number of Database Queries](high-number-of-database-queries.md)
+<br/>  N+1 query patterns and excessive query counts compound into significant performance problems.
+- [Imperative Data Fetching Logic](imperative-data-fetching-logic.md)
+<br/>  Manually constructed data fetching logic often produces inefficient query patterns instead of leveraging optimized database operations.
+- [Lazy Loading](lazy-loading.md)
+<br/>  Lazy loading triggers additional database queries on demand, leading to unpredictable and often excessive query execution.
 ## Detection Methods ○
 
 - **Database query logging:** Enable logging of slow queries in the database configuration.

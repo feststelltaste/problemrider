@@ -35,21 +35,22 @@ Log injection vulnerabilities occur when applications include unsanitized user i
 
 ## Symptoms ▲
 
-- **Log Entry Corruption:** Malicious input causing log parsing errors or corruption
-- **False Log Entries:** Attackers creating fake log entries to hide malicious activity
-- **Log Processing System Exploitation:** Log analysis tools vulnerable to malicious log content
-- **Log File Manipulation:** Attackers modifying apparent log content through input injection
-- **Denial of Service on Logging:** Malicious log entries causing logging system failures
+- [Insufficient Audit Logging](insufficient-audit-logging.md)
+<br/>  Injected fake log entries corrupt audit trails, making legitimate audit logging unreliable and untrustworthy.
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  Log injection can be used to hide attack traces or inject content that compromises systems processing those logs, creating data protection risks.
+- [System Outages](system-outages.md)
+<br/>  Injected format strings or malicious content can crash log processing systems, causing service disruptions.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Corrupted or tampered log files make it extremely difficult to diagnose real issues when fake entries obscure genuine log data.
+## Causes ▼
 
-## Root Causes ▼
-
-- **Unsanitized User Input in Logs:** Including raw user input in log messages without validation
-- **Improper Log Message Formatting:** Not properly escaping special characters in log entries
-- **Insufficient Input Validation:** Failing to validate user input before logging
-- **Log Format Vulnerabilities:** Using log formats that can be exploited through injection
-- **Lack of Log Input Sanitization:** No mechanisms to sanitize data before logging
-- **Vulnerable Log Processing Tools:** Log analysis tools susceptible to injection attacks
-
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  Poor error handling practices that dump unsanitized user input into log messages create injection opportunities.
+- [Logging Configuration Issues](logging-configuration-issues.md)
+<br/>  Improperly configured logging that doesn't enforce input sanitization or structured logging formats enables injection attacks.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers unfamiliar with security best practices may not realize that user input in log messages needs sanitization.
 ## Detection Methods ○
 
 - **Log Content Analysis:** Regularly analyze log files for suspicious or malformed entries

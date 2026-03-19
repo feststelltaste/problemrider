@@ -37,25 +37,25 @@ Legacy configuration management chaos occurs when legacy systems store configura
 - Environment-specific configuration that cannot be easily externalized or parameterized
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.558, Strength: 0.753">ⓘ</span>
-<br/>  The difficulty in managing and deploying configuration settings due to hardcoded and undocumented elements leads to a reliance on a diminishing pool of developers familiar with outdated technologies, thereby creating maintenance bottlenecks and increasing the risk of system failures.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.539, Strength: 0.765">ⓘ</span>
-<br/>  The lack of clear and accessible configuration settings in legacy systems hampers the ability to adapt to new regulatory requirements, leading to compliance gaps that manifest as increased risk and costs.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.716">ⓘ</span>
-<br/>  The hardcoded and undocumented configuration settings create inflexible dependencies in the system architecture, which in turn restricts performance, scalability, and maintainability, thereby revealing the underlying chaos in configuration management.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.364, Strength: 0.612">ⓘ</span>
-<br/>  The chaotic state of configuration management leads to improper resource allocation and management practices, resulting in unreleased system resources as developers struggle to navigate undocumented settings and proprietary formats, causing them to overlook proper deallocation processes.
-- [Capacity Mismatch](capacity-mismatch.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.755">ⓘ</span>
-<br/>  The difficulty in accessing and adapting configuration settings due to hardcoding and undocumented practices leads to unpredictable resource allocation, resulting in mismatched capacity across development stages as teams struggle to align their efforts with the constraints of the legacy system.
-- [Inability to Innovate](inability-to-innovate.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.801">ⓘ</span>
-<br/>  The overwhelming complexity and time-consuming nature of managing hardcoded and undocumented configuration settings divert the team's focus from innovation and improvement, making it difficult to allocate resources for future development initiatives.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.704">ⓘ</span>
-<br/>  The difficulty in managing configuration settings—due to hardcoding and undocumented formats—leads to inflexible deployment practices that exacerbate the complexity and maintenance challenges of increasingly large and intertwined codebases.
 
-## Root Causes ▼
+- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
+<br/>  Configurations that cannot be reliably replicated cause environments to diverge, leading to inconsistent application behavior.
+- [Complex Deployment Process](complex-deployment-process.md)
+<br/>  Manual configuration steps and proprietary tools make the deployment process complex, error-prone, and time-consuming.
+- [Configuration Drift](configuration-drift.md)
+<br/>  Without automated configuration management, settings gradually diverge across environments over time.
+- [Slow Incident Resolution](slow-incident-resolution.md)
+<br/>  When configuration is undocumented and scattered across multiple locations, diagnosing and recovering from configuration-related incidents takes much longer.
+- [Increased Manual Work](increased-manual-work.md)
+<br/>  Configuration that cannot be automated forces developers and operators to perform repetitive manual configuration tasks.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Hardcoded Values](hardcoded-values.md)
+<br/>  Configuration values embedded directly in code or compiled binaries are a primary driver of configuration management chaos.
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  Legacy platforms and proprietary tools lack modern configuration externalization capabilities, forcing outdated configuration approaches.
+- [Poor Documentation](poor-documentation.md)
+<br/>  Configuration settings that were never documented become tribal knowledge, and as people leave, the understanding of configuration is lost.
 ## Detection Methods ○
 
 - Audit legacy systems for configuration storage methods and externalization capabilities

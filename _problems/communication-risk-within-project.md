@@ -35,27 +35,27 @@ Communication risk within projects occurs when team members cannot effectively s
 - Team meetings frequently involve confusion about what was previously agreed upon
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.471, Strength: 0.683">ⓘ</span>
-<br/>  Frequent updates to project requirements often stem from miscommunication and unclear messaging among team members, which leads to misunderstandings about project goals and priorities, ultimately resulting in increased rework and delays.
-- [Poor Project Control](poor-project-control.md) <span class="info-tooltip" title="Confidence: 0.415, Strength: 0.886">ⓘ</span>
-<br/>  Ineffective communication leads to a lack of clarity in project objectives and status updates, resulting in inadequate monitoring and oversight of project progress, which allows issues to escalate unnoticed in legacy systems.
-- [Review Process Breakdown](review-process-breakdown.md) <span class="info-tooltip" title="Confidence: 0.387, Strength: 0.625">ⓘ</span>
-<br/>  Ineffective communication among team members leads to misunderstandings about coding standards and expectations, causing the review process to break down as reviewers fail to provide relevant feedback or identify critical issues due to a lack of clarity and trust in the project's objectives.
-- [Poor Contract Design](poor-contract-design.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.939">ⓘ</span>
-<br/>  The lack of clear communication leads to misunderstandings about project requirements, resulting in poorly designed contracts that fail to capture the technical needs and flexibility necessary for effective collaboration in legacy systems.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.904">ⓘ</span>
-<br/>  Poor communication among team members leads to inconsistent understanding and documentation of system configurations, resulting in inadequate tracking of code and infrastructure versions, which manifests as errors and rollback issues in legacy systems.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.652">ⓘ</span>
-<br/>  The lack of clear communication leads to team members feeling unaligned and disengaged, resulting in insufficient participation in the review process and ineffective feedback, which ultimately hampers the quality of the legacy system's code.
 
-## Root Causes ▼
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.316, Strength: 0.817">ⓘ</span>
-<br/>  The tendency to provide large time estimates for minor changes highlights the underlying complexity and unpredictability of the legacy code, leading to misunderstandings and diminished trust among team members as they struggle to communicate effectively about the true scope and risks involved in the project.
-- [Increased Time to Market](increased-time-to-market.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.921">ⓘ</span>
-<br/>  The prolonged time to market creates pressure on teams to rush communication and decision-making, leading to misunderstandings and unclear messages that hinder coordination and trust among project members.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.302, Strength: 0.938">ⓘ</span>
-<br/>  Tangled cross-cutting concerns create ambiguity in the system's architecture, leading to unclear communication and misunderstandings among team members as they struggle to navigate the intertwined complexities of business logic and technical requirements.
+- [Duplicated Work](duplicated-work.md)
+<br/>  Miscommunication about task assignments leads to multiple team members working on the same problems.
+- [Implementation Rework](implementation-rework.md)
+<br/>  Misunderstood requirements from unclear internal communication force features to be rebuilt.
+- [Team Confusion](team-confusion.md)
+<br/>  Ambiguous messages and missed information create confusion about project goals, priorities, and decisions.
+- [Requirements Ambiguity](requirements-ambiguity.md)
+<br/>  Poor internal communication leads to different team members interpreting the same requirements differently.
+- [Communication Risk Outside Project](communication-risk-outside-project.md)
+<br/>  Internal miscommunication about project status propagates outward as inconsistent or inaccurate messaging to external stakeholders.
+## Causes ▼
 
+- [Language Barriers](language-barriers.md)
+<br/>  Differences in language or technical terminology create misunderstandings in team communications.
+- [Team Silos](team-silos.md)
+<br/>  Isolated teams lack natural communication channels, reducing information flow within the project.
+- [Unclear Sharing Expectations](unclear-sharing-expectations.md)
+<br/>  Without clear norms about what information should be shared, important details are frequently omitted.
+- [Inefficient Processes](inefficient-processes.md)
+<br/>  Poorly structured processes fail to create regular touchpoints for team members to share and align.
 ## Detection Methods ○
 
 - **Communication Pattern Analysis:** Track frequency and effectiveness of different communication methods

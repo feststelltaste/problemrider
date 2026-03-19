@@ -4,7 +4,7 @@ description: Database connections are opened but not properly closed, leading to
   pool exhaustion and application failures.
 category:
 - Code
-- Data
+- Database
 - Performance
 related_problems:
 - slug: misconfigured-connection-pools
@@ -35,29 +35,27 @@ Database connection leaks occur when applications open database connections but 
 - Connection pool metrics show high utilization with low throughput
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.638, Strength: 0.830">ⓘ</span>
-<br/>  The failure to properly close database connections leads to exhaustion of the connection pool, causing delays in response times that exceed the configured timeout limits for services relying on API interactions, thereby resulting in upstream timeouts.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.468, Strength: 0.799">ⓘ</span>
-<br/>  The failure to properly close database connections leads to a depletion of available resources, forcing the application to repeatedly fetch data from the source instead of utilizing cached results, which in turn exacerbates latency and operational inefficiencies.
-- [Negative User Feedback](negative-user-feedback.md) <span class="info-tooltip" title="Confidence: 0.406, Strength: 0.830">ⓘ</span>
-<br/>  The failure to close database connections leads to exhaustion of the connection pool, resulting in slow application response times and freezes, which users experience as negative performance, thus serving as an indicator of underlying resource management issues.
-- [Data Migration Integrity Issues](data-migration-integrity-issues.md) <span class="info-tooltip" title="Confidence: 0.401, Strength: 0.852">ⓘ</span>
-<br/>  Improperly closed database connections can lead to resource exhaustion, causing timeouts and failures during data migration processes, which in turn result in integrity issues due to incomplete or interrupted data transfers.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.388, Strength: 0.770">ⓘ</span>
-<br/>  The failure to properly close database connections results in unreleased resources, as each unclosed connection occupies a slot in the connection pool, leading to resource exhaustion and subsequent application errors in legacy systems.
-- [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.339, Strength: 0.813">ⓘ</span>
-<br/>  Inefficient code can exacerbate database connection leaks by prolonging the time each connection remains open, as prolonged processing delays the closure of connections, ultimately leading to exhaustion of the connection pool and increasing the likelihood of application failures.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.831">ⓘ</span>
-<br/>  The failure to properly close database connections can lead to an accumulation of unused resources, which in turn prevents the release of memory, resulting in memory leaks that signal underlying connection management issues in legacy systems.
-- [Incorrect Max Connection Pool Size](incorrect-max-connection-pool-size.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.829">ⓘ</span>
-<br/>  When database connections are not properly closed, it can lead to a situation where the actual number of active connections exceeds the incorrectly configured maximum pool size, resulting in connection exhaustion that indicates the presence of leaks in the connection management process.
-- [Memory Barrier Inefficiency](memory-barrier-inefficiency.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.860">ⓘ</span>
-<br/>  Connection leaks lead to increased pressure on system resources, which can cause excessive synchronization and inefficient memory barriers as threads struggle to manage the limited pool of connections, ultimately degrading performance in multi-threaded environments.
 
-## Root Causes ▼
+- [System Outages](system-outages.md)
+<br/>  Connection pool exhaustion from leaked connections causes complete application failures requiring restarts to restore service.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  As available connections diminish, database operations queue up and timeout, making the application progressively slower.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  Connection leaks cause performance to slowly worsen over time as the connection pool is gradually depleted.
+- [High Connection Count](high-connection-count.md)
+<br/>  Leaked connections accumulate as open but unused connections, driving up the total connection count on the database server.
+- [Resource Allocation Failures](resource-allocation-failures.md)
+<br/>  When the connection pool is exhausted by leaked connections, new database operations fail because no resources can be allocated.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  Connections opened in try blocks but not properly closed in exception paths leak when errors occur during database operations.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers unfamiliar with connection lifecycle management fail to use try-with-resources patterns or proper cleanup logic.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Without tests that exercise error paths and long-running scenarios, connection leak patterns go undetected until production.
+- [Insufficient Testing](insufficient-testing.md)
+<br/>  Connection leaks typically only manifest under sustained load or error conditions that are not covered by superficial testing.
 ## Detection Methods ○
 
 - **Connection Pool Monitoring:** Monitor database connection pool usage, active connections, and pool exhaustion events

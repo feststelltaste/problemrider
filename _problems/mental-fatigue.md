@@ -35,23 +35,27 @@ Mental fatigue in development occurs when developers experience cognitive exhaus
 - Developers avoid complex tasks when mentally tired
 
 ## Symptoms ▲
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.526, Strength: 0.817">ⓘ</span>
-<br/>  Mental fatigue among developers leads to cognitive overload and inefficient workflows, resulting in decreased overall team productivity as the inability to effectively manage tasks and collaborate exacerbates systemic issues within legacy systems.
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.522, Strength: 0.739">ⓘ</span>
-<br/>  The persistent cognitive overhead and inefficient workflows inherent in legacy systems lead to a lack of meaningful progress, causing developers to feel mentally drained, which in turn manifests as frustration and disengagement in their work environment.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.845">ⓘ</span>
-<br/>  Cognitive overload from outdated processes and systems leads to mental fatigue, which stifles creativity and innovation as teams prioritize minimal compliance over exploration of new solutions.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.741">ⓘ</span>
-<br/>  The slow and cumbersome development environment increases cognitive overhead, leading to mental fatigue as developers struggle to navigate and utilize outdated tools effectively, resulting in a sense of exhaustion without significant progress.
-- [Memory Leaks](memory-leaks.md) <span class="info-tooltip" title="Confidence: 0.326, Strength: 0.806">ⓘ</span>
-<br/>  The inability to efficiently manage resources in legacy systems often stems from developers' cognitive overload, resulting in overlooked memory management practices that manifest as memory leaks, indicative of their diminished capacity to maintain code quality.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.317, Strength: 0.753">ⓘ</span>
-<br/>  Inefficient workflows and cognitive overload from legacy systems hinder clear communication, causing misunderstandings between stakeholders and developers that lead to rework and contribute to developers' mental fatigue.
 
-## Root Causes ▼
+- [Reduced Individual Productivity](reduced-individual-productivity.md)
+<br/>  Mentally fatigued developers produce less output as their cognitive capacity is depleted by non-productive overhead.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Chronic mental fatigue from unproductive cognitive drain leads to frustration and eventual burnout.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  When developers are mentally exhausted, they work more slowly and avoid complex tasks, reducing team velocity.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Cognitive exhaustion leads to more mistakes and less careful coding, increasing the rate of bugs introduced.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Mentally fatigued developers write lower quality code as their cognitive resources are depleted, leading to more shor....
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Cognitive Overload](cognitive-overload.md)
+<br/>  Excessive cognitive demands from complex systems, tools, and processes directly deplete mental energy and cause fatigue.
+- [Increased Cognitive Load](increased-cognitive-load.md)
+<br/>  High cognitive load from maintaining multiple mental models and navigating complex workflows drains developer energy.
+- [Context Switching Overhead](context-switching-overhead.md)
+<br/>  Frequent switching between different tasks, technologies, and codebases rapidly depletes cognitive resources.
+- [Unproductive Meetings](unproductive-meetings.md)
+<br/>  Too many meetings fragment the workday and consume mental energy that could be used for productive development work.
 ## Detection Methods ○
 
 - **Energy Level Surveys:** Regular check-ins about developer energy and mental state throughout the day

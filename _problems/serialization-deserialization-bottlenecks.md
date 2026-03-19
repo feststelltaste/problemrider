@@ -30,21 +30,23 @@ Serialization and deserialization bottlenecks occur when applications use ineffi
 - Serialization libraries consume significant application resources
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.634, Strength: 0.821">ⓘ</span>
-<br/>  Inefficient serialization and deserialization processes increase response times for API communications, leading to upstream services exceeding their timeout thresholds and failing to receive timely data responses.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.620, Strength: 0.842">ⓘ</span>
-<br/>  Inefficient serialization and deserialization processes can exacerbate architectural constraints by increasing latency and resource consumption, thus revealing limitations in the system's design that hinder overall performance and scalability.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.491, Strength: 0.902">ⓘ</span>
-<br/>  Inefficient serialization and deserialization lead to prolonged data processing times, which in turn generate excessive hardware interrupts as the system struggles to manage delayed responses, ultimately resulting in frequent context switches and diminished overall application performance.
-- [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.827">ⓘ</span>
-<br/>  Inefficient serialization and deserialization processes can lead to excessive computational overhead in the code handling requests, making it a clear indicator of performance issues stemming from data handling inefficiencies in legacy systems.
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.787">ⓘ</span>
-<br/>  Inefficient serialization and deserialization processes can lead to the accumulation of unbounded data structures, as the inability to effectively manage data size during these operations causes excessive memory usage and performance degradation in legacy systems.
 
-## Root Causes ▼
+- [High API Latency](high-api-latency.md)
+<br/>  Inefficient serialization adds significant overhead to API response times, making APIs slow to respond.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Heavy serialization overhead during data processing and API communication degrades overall application performance.
+- [Resource Contention](resource-contention.md)
+<br/>  CPU-intensive serialization operations consume processing resources that could be used for business logic, creating resource contention.
+- [Excessive Object Allocation](excessive-object-allocation.md)
+<br/>  Serialization libraries often create many temporary objects during parsing and generation, leading to excessive memory allocation.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
+<br/>  Inefficient serialization algorithms with poor time or space complexity create bottlenecks when processing large datasets.
+- [REST API Design Issues](rest-api-design-issues.md)
+<br/>  APIs that return overly large or deeply nested response objects force unnecessary serialization of data clients don't need.
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  Legacy systems using verbose serialization formats like XML or outdated libraries miss performance improvements available in modern alternatives.
 ## Detection Methods ○
 
 - **Serialization Performance Profiling:** Profile CPU and memory usage during serialization operations

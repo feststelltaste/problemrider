@@ -36,29 +36,19 @@ Vendor dependency entrapment occurs when legacy systems become critically depend
 - Hardware or software components that are no longer manufactured or developed by the original vendor
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.310, Strength: 0.563">ⓘ</span>
-<br/>  The reliance on discontinued vendor products limits the pool of available developers to those with specific legacy knowledge, creating a skill shortage that exacerbates maintenance challenges and increases the risk of system failure.
 
-## Root Causes ▼
-- [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.397, Strength: 0.864">ⓘ</span>
-<br/>  Long-running transactions in legacy systems can lead to resource bottlenecks and performance degradation, causing reliance on outdated vendor products for support, which ultimately traps organizations in costly maintenance contracts or necessitates complete system overhauls.
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.380, Strength: 0.912">ⓘ</span>
-<br/>  Shared dependencies among legacy system components create a reliance on specific vendor products, making it difficult to replace or update any single part without incurring additional costs and complexities, ultimately leading to entrapment in outdated technology and costly custom support arrangements.
-- [High Technical Debt](high-technical-debt.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.826">ⓘ</span>
-<br/>  The accumulation of design and implementation shortcuts in legacy systems leads to reliance on outdated vendor products, as these shortcuts limit flexibility and increase the difficulty of integrating newer solutions, ultimately creating a cycle of dependency on costly custom support.
-- [Breaking Changes](breaking-changes.md) <span class="info-tooltip" title="Confidence: 0.361, Strength: 0.874">ⓘ</span>
-<br/>  API updates that introduce breaking changes disrupt the compatibility of legacy systems with vendor products, leading organizations to rely on costly custom support or forcing them to replace the entire system due to lack of viable alternatives.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.359, Strength: 0.904">ⓘ</span>
-<br/>  Tightly coupled cross-cutting concerns in legacy systems hinder modularity and flexibility, making it difficult to replace outdated vendor components without extensive rewrites, ultimately leading to reliance on costly custom support or necessitating a complete system overhaul.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.897">ⓘ</span>
-<br/>  Inefficient processes and limited team capacity lead to delays in addressing software updates and vendor changes, ultimately resulting in reliance on outdated products and costly support contracts.
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.888">ⓘ</span>
-<br/>  Insufficient production monitoring prevents timely detection of issues, leading to prolonged outages that force organizations to rely on discontinued vendor products for support, ultimately entrenching them in costly custom contracts or necessitating complete system overhauls.
-- [Brittle Codebase](brittle-codebase.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.836">ⓘ</span>
-<br/>  The difficulty in modifying the existing code without introducing new bugs leads to a reliance on outdated vendor products, as the risk of breaking functionality prevents necessary updates or replacements, thus trapping the system in costly support contracts.
-- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.898">ⓘ</span>
-<br/>  Repeatedly pushed back project deadlines hinder timely upgrades and maintenance of legacy systems, resulting in reliance on discontinued vendor products and ultimately leading to costly support contracts or the need for complete system replacement.
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  Custom support contracts for discontinued products become increasingly expensive as fewer specialists remain available.
+- [Technology Isolation](technology-isolation.md)
+<br/>  The system becomes isolated on discontinued technology that cannot integrate with modern tools and platforms.
+- [Legacy Skill Shortage](legacy-skill-shortage.md)
+<br/>  As vendor products are discontinued, fewer professionals maintain skills in those technologies, making talent scarce.
+## Causes ▼
 
+- [Vendor Lock-In](vendor-lock-in.md)
+<br/>  Deep integration with vendor-specific technologies makes it impossible to adapt when the vendor discontinues products.
+- [Vendor Dependency](vendor-dependency.md)
+<br/>  Excessive reliance on a single vendor creates vulnerability when that vendor changes strategy or discontinues products.
 ## Detection Methods ○
 
 - Monitor vendor product roadmaps and end-of-life announcements for all critical system dependencies

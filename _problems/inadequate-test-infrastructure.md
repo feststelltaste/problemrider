@@ -37,17 +37,25 @@ Inadequate test infrastructure refers to the lack of proper tools, environments,
 - Test results that are hard to analyze or lack clear reporting and visualization
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.476, Strength: 0.717">ⓘ</span>
-<br/>  The lack of necessary tools and automation hinders the ability to implement comprehensive testing, resulting in critical areas of the codebase remaining untested and creating significant gaps in quality assurance.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.424, Strength: 0.711">ⓘ</span>
-<br/>  The lack of effective testing tools and automation hampers developers' ability to efficiently work with outdated systems, leading to a reliance on a diminishing pool of specialists who understand the legacy technologies, thereby creating maintenance bottlenecks and increasing the risk of system failure.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.369, Strength: 0.770">ⓘ</span>
-<br/>  The lack of essential testing tools and automation leads to a slow and cumbersome development environment, as developers are forced to work around inadequate infrastructure, ultimately hindering productivity and efficiency.
 
-## Root Causes ▼
+- [Insufficient Testing](insufficient-testing.md)
+<br/>  Without proper tools and environments, thorough testing becomes impractical and critical areas go untested.
+- [Flaky Tests](flaky-tests.md)
+<br/>  Unreliable test environments cause tests to fail due to infrastructure issues rather than actual bugs.
+- [Increased Manual Testing Effort](increased-manual-testing-effort.md)
+<br/>  Lack of test automation forces teams to rely heavily on time-consuming manual testing processes.
+- [Long Build and Test Times](long-build-and-test-times.md)
+<br/>  Inadequate infrastructure makes test execution slow, extending feedback loops and build times.
+- [Legacy Code Without Tests](legacy-code-without-tests.md)
+<br/>  Without adequate infrastructure to support test creation, legacy code remains untested as adding tests is too difficult.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Management prioritizes feature delivery over investing in testing infrastructure that provides long-term quality benefits.
+- [Project Resource Constraints](project-resource-constraints.md)
+<br/>  Limited budget and resources prevent investment in proper test environments, tools, and automation frameworks.
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  Outdated technology stacks lack support for modern testing tools and frameworks, making infrastructure upgrades difficult.
 ## Detection Methods ○
 
 - Audit current testing tools, environments, and automation capabilities

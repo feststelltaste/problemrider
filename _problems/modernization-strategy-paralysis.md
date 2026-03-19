@@ -36,31 +36,27 @@ Modernization strategy paralysis occurs when organizations become overwhelmed by
 - Fear of making the "wrong" modernization choice leading to avoidance of any choice
 
 ## Symptoms ▲
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.492, Strength: 0.721">ⓘ</span>
-<br/>  The inability to choose a clear modernization path leads to uncertainty and indecision, causing stakeholders to frequently revise requirements in an attempt to adapt to evolving expectations, which ultimately results in chaos and project delays.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.459, Strength: 0.709">ⓘ</span>
-<br/>  The inability to make modernization decisions leads to prolonged system usage without proactive resource management, resulting in accumulated unreleased resources as teams neglect cleanup tasks in the face of uncertainty.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.455, Strength: 0.686">ⓘ</span>
-<br/>  The inability to make timely modernization decisions leads to a reliance on outdated technologies, which in turn exacerbates the shortage of skilled developers familiar with those technologies, creating critical maintenance bottlenecks.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.447, Strength: 0.669">ⓘ</span>
-<br/>  The overwhelming complexity of the business domain increases uncertainty and indecision among teams regarding modernization options, as they struggle to fully grasp the system's intricacies, resulting in stagnation and a failure to progress.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.385, Strength: 0.688">ⓘ</span>
-<br/>  The team's indecision regarding modernization options leads to prolonged use of outdated tools and processes, resulting in a slow and cumbersome development environment that hinders productivity and exacerbates the paralysis.
-- [Project Authority Vacuum](project-authority-vacuum.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.728">ⓘ</span>
-<br/>  The lack of decisive action on modernization options creates uncertainty and indecision, which in turn leads to insufficient organizational support and executive sponsorship for critical projects, as stakeholders are hesitant to commit resources without a clear direction.
-- [Inadequate Test Data Management](inadequate-test-data-management.md) <span class="info-tooltip" title="Confidence: 0.320, Strength: 0.746">ⓘ</span>
-<br/>  The inability to choose a clear modernization path results in teams relying on outdated or irrelevant test data, which undermines testing accuracy and further perpetuates uncertainty in system evolution.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.662">ⓘ</span>
-<br/>  The failure to make timely modernization decisions leads to stagnation in system improvements, such that teams neglect optimizing performance through efficient caching, resulting in excessive data retrieval and increased latency.
-- [Quality Blind Spots](quality-blind-spots.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.655">ⓘ</span>
-<br/>  The inability to choose a clear modernization path leads to insufficient investment in testing and verification practices, resulting in critical behaviors and failure modes remaining undetected in legacy systems.
-- [Inadequate Configuration Management](inadequate-configuration-management.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.775">ⓘ</span>
-<br/>  The inability to commit to a modernization path leads to inconsistent tracking and management of code and infrastructure versions, resulting in configuration errors and difficulties in maintaining system stability.
 
-## Root Causes ▼
+- [Obsolete Technologies](obsolete-technologies.md)
+<br/>  While teams remain paralyzed by indecision, legacy systems continue aging and their technology stacks become increasingly obsolete.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  Delayed modernization decisions allow technical debt to compound, steadily increasing the cost of maintaining deteriorating systems.
+- [High Turnover](high-turnover.md)
+<br/>  Developers frustrated by endless analysis and inability to work with modern technologies leave for organizations with clearer technical direction.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  While the organization remains paralyzed, competitors modernize and gain market advantage through superior technical capabilities.
+- [Resource Waste](resource-waste.md)
+<br/>  Extensive analysis activities consume significant budget and personnel time without producing actionable outcomes.
+- [Maintenance Cost Increase](maintenance-cost-increase.md)
+<br/>  While paralyzed by indecision, legacy systems continue deteriorating and maintenance costs keep rising as technical d....
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Analysis Paralysis](analysis-paralysis.md)
+<br/>  A general organizational tendency to over-analyze decisions directly manifests as inability to choose a modernization strategy.
+- [Decision Paralysis](decision-paralysis.md)
+<br/>  Fear of making wrong decisions and lack of clear decision-making authority prevents the organization from committing to a modernization path.
+- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
+<br/>  Without a clear ROI justification, stakeholders hesitate to approve any modernization approach, prolonging the analysis phase.
 ## Detection Methods ○
 
 - Track time spent on modernization analysis versus implementation activities

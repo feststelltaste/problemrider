@@ -34,15 +34,20 @@ Negative brand perception occurs when technical problems and poor software quali
 - Competitive comparisons highlight reliability as a differentiator against the organization
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.476, Strength: 0.746">ⓘ</span>
-<br/>  The association of the brand with poor quality stems from the inability to effectively maintain and update legacy systems, which is exacerbated by a lack of skilled developers familiar with these technologies, leading to increased technical issues and further tarnishing the brand's reputation.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.474, Strength: 0.735">ⓘ</span>
-<br/>  Frequent technical issues in legacy systems lead to user frustration and task completion difficulties, prompting an increase in support inquiries that reflect a broader perception of the brand's unreliability and poor quality.
+- [Competitive Disadvantage](competitive-disadvantage.md)
+<br/>  Negative brand perception directly leads to competitive disadvantage as users choose competitors with better reputations.
+## Causes ▼
 
-## Root Causes ▼
-
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [System Outages](system-outages.md)
+<br/>  Repeated service outages create a strong association between the brand and unreliability in users' minds.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Accumulated negative feedback on public platforms amplifies and reinforces poor brand perception.
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Consistently slow performance makes users perceive the product as low quality, damaging the brand.
+- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
+<br/>  Frustrating user interfaces cause users to associate the brand with poor quality regardless of backend capabilities.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Persistent customer dissatisfaction with the product leads users to associate the brand with poor quality.
 ## Detection Methods ○
 - **Brand Sentiment Analysis:** Monitor social media, reviews, and customer feedback for brand perception trends
 - **Net Promoter Score (NPS):** Track user willingness to recommend the product or service

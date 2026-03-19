@@ -34,21 +34,23 @@ Market pressure occurs when competitive forces, regulatory changes, economic con
 - Regulatory changes force rapid system modifications
 
 ## Symptoms ▲
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.627">ⓘ</span>
-<br/>  Rushed decisions and scope changes driven by external market pressures often lead to incomplete or poorly implemented features in legacy systems, resulting in user frustration and an increased frequency of support requests as users struggle to navigate the inadequacies.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.610">ⓘ</span>
-<br/>  External competitive forces lead stakeholders to impose hurried changes to project requirements, resulting in constant updates that create rework and delays in legacy systems.
 
-## Root Causes ▼
-- [Vendor Relationship Strain](vendor-relationship-strain.md) <span class="info-tooltip" title="Confidence: 0.335, Strength: 0.918">ⓘ</span>
-<br/>  Tensions and conflicts with external vendors over misaligned expectations and poor communication lead to rushed decisions and scope changes in legacy systems, exacerbating market pressures and hindering timely, effective responses to competitive forces.
-- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.318, Strength: 0.898">ⓘ</span>
-<br/>  The repeated postponement of project deadlines to incorporate new feature requests creates a chaotic environment where development teams struggle to meet ever-changing expectations, ultimately heightening external market pressures as stakeholders demand immediate results despite the declining feasibility of the project scope.
-- [Unrealistic Deadlines](unrealistic-deadlines.md) <span class="info-tooltip" title="Confidence: 0.317, Strength: 0.882">ⓘ</span>
-<br/>  Aggressive deadlines imposed by management create a demand for rapid deliverables, which forces teams to make hasty decisions and compromises on quality, thereby intensifying the pressure to meet market expectations in legacy systems that are often already burdened by outdated processes and constraints.
-- [Technology Lock-In](technology-lock-in.md) <span class="info-tooltip" title="Confidence: 0.306, Strength: 0.827">ⓘ</span>
-<br/>  The difficulty and high cost of migrating away from outdated technologies lead organizations to make hasty decisions under external market pressures, as they are forced to adapt quickly without the flexibility to implement better solutions.
+- [Deadline Pressure](deadline-pressure.md)
+<br/>  Market pressure directly creates deadline pressure as teams are pushed to deliver features quickly to match competitor timelines or satisfy urgent customer demands.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  When market forces demand rapid delivery, teams implement workarounds instead of proper solutions to meet aggressive timelines.
+- [Missed Deadlines](missed-deadlines.md)
+<br/>  Unrealistic expectations driven by market competition lead to commitments that teams cannot realistically meet.
+- [Product Direction Chaos](product-direction-chaos.md)
+<br/>  Frequent priority shifts driven by competitor actions and market changes create chaos in product direction and roadmap stability.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Constant pressure to deliver quickly at the expense of quality leads to developer frustration and eventual burnout.
+- [Competing Priorities](competing-priorities.md)
+<br/>  External competitive forces create genuinely urgent demands across multiple fronts, leading to conflicting priorities for development teams.
+## Causes ▼
 
+- [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
+<br/>  Stakeholders who commit to customer demands without consulting engineering create artificial market pressure on teams.
 ## Detection Methods ○
 
 - **Market Response Time Analysis:** Track how quickly organization responds to market changes

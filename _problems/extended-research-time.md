@@ -35,29 +35,31 @@ Extended research time occurs when developers must spend disproportionate amount
 - Similar research questions are repeatedly asked by different team members
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.479, Strength: 0.710">ⓘ</span>
-<br/>  The prolonged time spent on research due to knowledge gaps and the complexities of outdated systems leads to frustration and burnout among developers, as constant struggles to navigate and understand the codebase diminish their motivation and well-being.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.424, Strength: 0.619">ⓘ</span>
-<br/>  The prolonged research time needed to navigate complex legacy systems delays developers in implementing necessary changes, which in turn causes upstream services to exceed their response timeouts due to unaddressed issues or missing functionality.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.646">ⓘ</span>
-<br/>  Constantly evolving project requirements arise from developers' extended research time, as their lack of familiarity with complex legacy systems leads to misunderstandings and misalignments, prompting frequent adjustments throughout the development process.
-- [Merge Conflicts](merge-conflicts.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.651">ⓘ</span>
-<br/>  Frequent research due to knowledge gaps in complex legacy systems leads developers to alter the same code sections independently, resulting in merge conflicts that hinder overall progress.
-- [Deadline Pressure](deadline-pressure.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.770">ⓘ</span>
-<br/>  The significant time developers spend on research due to knowledge gaps in complex legacy systems creates a backlog in implementation, leading to heightened deadline pressure that results in rushed decisions and compromised software quality.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.341, Strength: 0.702">ⓘ</span>
-<br/>  Frequent context switches caused by excessive hardware interrupts can lead developers to divert their attention away from implementation tasks, exacerbating knowledge gaps and extending the time required for research in complex legacy systems.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.684">ⓘ</span>
-<br/>  Extended research time consumes valuable hours that could be spent on coding, directly leading to diminished output and effectiveness of the development team as they struggle to overcome knowledge gaps and complexities inherent in legacy systems.
-- [Legacy Business Logic Extraction Difficulty](legacy-business-logic-extraction-difficulty.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.741">ⓘ</span>
-<br/>  The difficulty in extracting critical business rules from deeply embedded legacy code structures forces developers to invest excessive time in research to understand the existing system, thereby significantly prolonging their implementation efforts.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.305, Strength: 0.706">ⓘ</span>
-<br/>  The extended time developers spend researching due to knowledge gaps in complex legacy systems leads to misaligned expectations with stakeholders, as insufficient understanding of the system results in inaccurate feature implementation and increased rework.
 
-## Root Causes ▼
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  When developers spend most of their time researching rather than coding, the team's delivery rate drops significantly.
+- [Extended Cycle Times](extended-cycle-times.md)
+<br/>  Research overhead adds substantial time to the overall cycle, as tasks take much longer than the actual implementation work.
+- [Reduced Individual Productivity](reduced-individual-productivity.md)
+<br/>  Developers complete fewer tasks when a disproportionate amount of their time is consumed by research activities.
+- [Delayed Project Timelines](delayed-project-timelines.md)
+<br/>  Consistently underestimated research phases cause projects to take longer than planned.
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Spending most of the day researching rather than building can be demoralizing, especially when the same questions recur.
+- [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
+<br/>  Developers give large estimates even for seemingly simple changes because they know significant research will be needed first.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Knowledge Gaps](knowledge-gaps.md)
+<br/>  Lack of understanding about the system, domain, or technology forces developers to spend extensive time researching before they can implement.
+- [Information Decay](information-decay.md)
+<br/>  Outdated or incomplete documentation forces developers to research system behavior from scratch rather than relying on existing docs.
+- [Implicit Knowledge](implicit-knowledge.md)
+<br/>  When critical system knowledge exists only as tribal knowledge rather than being documented, developers must spend time discovering it through research.
+- [Complex and Obscure Logic](complex-and-obscure-logic.md)
+<br/>  Difficult-to-understand code requires extensive investigation before developers can safely make changes.
+- [Legacy System Documentation Archaeology](legacy-system-documentation-archaeology.md)
+<br/>  When system knowledge exists only in obsolete formats and departed employees' memories, extensive research is needed for every change.
 ## Detection Methods ○
 
 - **Time Tracking Analysis:** Monitor percentage of time spent on research vs. implementation activities

@@ -32,17 +32,23 @@ REST API design issues occur when APIs violate REST architectural principles, us
 - API documentation doesn't match actual implementation
 
 ## Symptoms ▲
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.532, Strength: 0.722">ⓘ</span>
-<br/>  Inefficient client-server interactions due to poor API design can lead to prolonged response times, causing consuming services to exceed their timeout thresholds and fail to receive the necessary data.
-- [Inefficient Code](inefficient-code.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.836">ⓘ</span>
-<br/>  Inefficient code often arises from poorly designed APIs that lead to excessive data processing or unnecessary resource usage, as clients may need to handle more data than required or make multiple round trips due to lack of clear endpoints, thus indicating flaws in the API's structure and efficiency.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.335, Strength: 0.717">ⓘ</span>
-<br/>  Inefficient client-server interactions in poorly designed APIs often lead to the failure to implement effective caching strategies, resulting in redundant data retrieval for each request and subsequently increasing response times and server load.
 
-## Root Causes ▼
+- [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
+<br/>  Poorly designed REST APIs create fragile and inconsistent integration points between applications.
+- [API Versioning Conflicts](api-versioning-conflicts.md)
+<br/>  Inconsistent API design makes versioning difficult, as there are no clear conventions to evolve the API without breaking clients.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Developers spend excessive time understanding and working around inconsistent API conventions, slowing down feature delivery.
+- [Legacy API Versioning Nightmare](legacy-api-versioning-nightmare.md)
+<br/>  Poor initial API design compounds over time as backward compatibility requirements make it increasingly difficult to fix design flaws.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers lacking experience with REST principles create APIs that violate conventions and create usability problems.
+- [Inconsistent Coding Standards](inconsistent-coding-standards.md)
+<br/>  Lack of uniform coding and design standards allows different developers to create APIs with conflicting conventions.
+- [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
+<br/>  Insufficient analysis of API consumer needs leads to resource modeling that doesn't match how clients actually use the API.
 ## Detection Methods ○
 
 - **API Design Review:** Review API endpoints against REST principles and consistency guidelines

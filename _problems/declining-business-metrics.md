@@ -37,31 +37,25 @@ Declining business metrics represents the measurable deterioration of key busine
 - Team estimates and recommendations are frequently questioned or overruled.
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.480, Strength: 0.743">ⓘ</span>
-<br/>  Persistent technical issues in legacy systems create a frustrating work environment for developers, leading to demotivation and burnout, which in turn hampers productivity and innovation, thereby contributing to the decline in key business performance indicators.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.464, Strength: 0.744">ⓘ</span>
-<br/>  The declining business metrics highlight the critical shortage of developers skilled in legacy technologies, as the inability to efficiently maintain and update outdated systems exacerbates operational inefficiencies and undermines user engagement and revenue.
-- [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md) <span class="info-tooltip" title="Confidence: 0.394, Strength: 0.777">ⓘ</span>
-<br/>  The lack of engagement in the code review process indicates declining business metrics, as insufficient feedback and repeated assignments to a limited number of reviewers hinder quality improvements and innovation, ultimately impacting user satisfaction and conversion rates.
-- [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md) <span class="info-tooltip" title="Confidence: 0.370, Strength: 0.762">ⓘ</span>
-<br/>  Deteriorating key business indicators due to technical issues lead to delays and poor project outcomes, which in turn frustrate stakeholders and reflect their dissatisfaction as a direct consequence of the declining performance of the legacy systems.
-- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.751">ⓘ</span>
-<br/>  A persistent misunderstanding between stakeholder expectations and the development team's output often results in misaligned features and deficiencies in product quality, which directly contributes to declining user engagement and overall business performance.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.336, Strength: 0.740">ⓘ</span>
-<br/>  As key business indicators decline due to technical issues, teams may prioritize maintaining existing systems over exploring innovative solutions, leading to a stifled creative environment that reflects the broader deterioration of business performance.
-- [Reduced Feature Quality](reduced-feature-quality.md) <span class="info-tooltip" title="Confidence: 0.332, Strength: 0.773">ⓘ</span>
-<br/>  The deterioration of key business indicators leads to increased pressure on development teams to deliver features quickly, leaving insufficient time for thorough testing and refinement, which manifests as reduced quality in user experiences and functionality.
-- [Negative User Feedback](negative-user-feedback.md) <span class="info-tooltip" title="Confidence: 0.331, Strength: 0.732">ⓘ</span>
-<br/>  Negative user feedback serves as a symptom of deteriorating business metrics, as performance issues in legacy systems—such as slow loading times and application freezes—directly undermine user satisfaction and engagement, leading to lower conversion rates and diminished stakeholder confidence.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.741">ⓘ</span>
-<br/>  Constantly changing requirements often arise as stakeholders react to declining user engagement and revenue, leading to a reactive development cycle that exacerbates technical debt and further undermines business performance.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.749">ⓘ</span>
-<br/>  As technical issues hinder system performance and reliability, teams become overwhelmed by the need for extensive research and analysis to address these problems, leading to stalled development efforts that further exacerbate declining user engagement and overall business performance.
 
-## Root Causes ▼
+- [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
+<br/>  Deteriorating business metrics directly erode stakeholder trust in the development team's ability to deliver value.
+- [Negative Brand Perception](negative-brand-perception.md)
+<br/>  Sustained decline in business metrics reflects poorly on the brand, as users associate the product with poor quality.
+- [Project Resource Constraints](project-resource-constraints.md)
+<br/>  Poor business metrics make it harder to secure funding and resources for development initiatives, creating a downward spiral.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  Sluggish application performance drives users away, directly causing drops in engagement, conversion, and revenue metrics.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Frequent bugs in production degrade user experience, leading to churn and declining business indicators.
+- [Delayed Value Delivery](delayed-value-delivery.md)
+<br/>  Slow delivery of features and fixes causes users to seek alternatives, eroding engagement and revenue metrics.
+- [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
+<br/>  Confusing or frustrating user interfaces drive down user engagement, conversion rates, and retention metrics.
+- [Missed Deadlines](missed-deadlines.md)
+<br/>  Consistently missing delivery commitments erodes stakeholder confidence and delays revenue-generating features.
 ## Detection Methods ○
 
 - **Business Intelligence (BI) Dashboards:** Monitor key performance indicators (KPIs) such as conversion rates, daily active users (DAU), session duration, and revenue.

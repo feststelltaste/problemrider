@@ -31,33 +31,20 @@ Even when appropriate indexes exist, certain query patterns can prevent the data
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+- [Slow Database Queries](slow-database-queries.md)
+<br/>  Queries that bypass indexes force full table scans, directly causing slow query execution times.
+- [Database Query Performance Issues](database-query-performance-issues.md)
+<br/>  Non-index-friendly query patterns create performance bottlenecks in database operations.
+- [Gradual Performance Degradation](gradual-performance-degradation.md)
+<br/>  As tables grow, queries that cannot use indexes degrade progressively because full scans take longer.
+## Causes ▼
 
-## Root Causes ▼
-- [High Number of Database Queries](high-number-of-database-queries.md) <span class="info-tooltip" title="Confidence: 0.578, Strength: 0.930">ⓘ</span>
-<br/>  An unexpectedly high number of database queries can lead to inefficient query structures that bypass index utilization, as the complexity and volume of requests may force the system to resort to full-table scans instead of leveraging available indexes for optimized performance in legacy systems.
-- [Slow Application Performance](slow-application-performance.md) <span class="info-tooltip" title="Confidence: 0.533, Strength: 0.824">ⓘ</span>
-<br/>  The sluggishness of user-facing features often leads developers to write complex queries without optimizing for index usage, resulting in full-table scans that further degrade application performance.
-- [Imperative Data Fetching Logic](imperative-data-fetching-logic.md) <span class="info-tooltip" title="Confidence: 0.514, Strength: 0.871">ⓘ</span>
-<br/>  Inefficient data-fetching logic that processes records in a loop often leads to dynamically constructed queries which lack the necessary structure to leverage existing indexes, resulting in full-table scans or suboptimal index usage.
-- [Slow Response Times for Lists](slow-response-times-for-lists.md) <span class="info-tooltip" title="Confidence: 0.511, Strength: 0.917">ⓘ</span>
-<br/>  Inefficient data fetching for lists often leads to complex query structures that bypass available indexes, resulting in slower execution times due to reliance on full-table scans instead of optimized index lookups.
-- [Log Spam](log-spam.md) <span class="info-tooltip" title="Confidence: 0.492, Strength: 0.822">ⓘ</span>
-<br/>  The excessive logging of similar queries obscures performance analysis, making it challenging to identify inefficient query structures that fail to utilize available indexes, thereby perpetuating slower database operations.
-- [Lazy Loading](lazy-loading.md) <span class="info-tooltip" title="Confidence: 0.485, Strength: 0.828">ⓘ</span>
-<br/>  The reliance on lazy loading in ORM frameworks generates numerous individual queries that often bypass available indexes, leading to inefficient database access patterns and full-table scans that degrade performance.
-- **Excessive Disk I/O**
-- [Index Fragmentation](index-fragmentation.md) <span class="info-tooltip" title="Confidence: 0.396, Strength: 0.686">ⓘ</span>
-<br/>  Index fragmentation leads to inefficient data retrieval paths, causing queries to bypass available indexes in favor of slower full-table scans due to the disorganization of index structures, ultimately hindering performance in legacy systems.
-- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.674">ⓘ</span>
-<br/>  Inefficient algorithms and data structures can generate poorly structured queries that fail to leverage existing indexes, resulting in unnecessary full-table scans and degraded performance in legacy systems.
-- [Unoptimized File Access](unoptimized-file-access.md) <span class="info-tooltip" title="Confidence: 0.368, Strength: 0.704">ⓘ</span>
-<br/>  Inefficient file access patterns can lead to excessive locking or contention in legacy systems, which in turn forces developers to write queries that avoid index usage to mitigate performance issues, thus compounding the problem of slow database operations.
-- [GraphQL Complexity Issues](graphql-complexity-issues.md) <span class="info-tooltip" title="Confidence: 0.363, Strength: 0.670">ⓘ</span>
-<br/>  Complex and inefficient GraphQL queries often lead to non-optimal query structures that bypass available indexes, resulting in slower performance due to full-table scans in legacy systems.
-- [Memory Swapping](memory-swapping.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.800">ⓘ</span>
-<br/>  When the database server resorts to disk swap space due to insufficient physical memory, it exacerbates performance issues, leading to inefficient query execution plans that prevent optimal index usage.
-
+- [Skill Development Gaps](skill-development-gaps.md)
+<br/>  Developers lack knowledge of how database query optimizers work and what patterns prevent index usage.
+- [Insufficient Code Review](insufficient-code-review.md)
+<br/>  Code reviews that don't evaluate query performance miss patterns that prevent index usage.
+- [Inefficient Database Indexing](inefficient-database-indexing.md)
+<br/>  Poorly designed indexes may not match query patterns, compounding the effect of index-unfriendly queries.
 ## Detection Methods ○
 
 - **Query Execution Plan Analysis:** This is the primary method. Always use `EXPLAIN` or `EXPLAIN ANALYZE` to understand how the database is executing your queries. Look for `Seq Scan` or `Full Table Scan` on large tables where an index is expected.

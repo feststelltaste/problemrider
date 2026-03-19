@@ -4,7 +4,7 @@ description: An application makes numerous unnecessary database calls to fetch r
   data where a single, more efficient query would suffice, causing significant performance
   degradation.
 category:
-- Data
+- Database
 - Performance
 related_problems:
 - slug: high-number-of-database-queries
@@ -32,23 +32,26 @@ The N+1 query problem is a common performance issue that occurs when an applicat
 - Your application is making a lot of small, fast queries instead of a few larger, slower queries.
 
 ## Symptoms ▲
-- [Unbounded Data Structures](unbounded-data-structures.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.654">ⓘ</span>
-<br/>  Excessive database calls due to inefficient querying can lead to the accumulation of unbounded data structures in memory, as each call generates more data without proper management, ultimately exhausting resources and degrading performance in legacy systems.
-- [Upstream Timeouts](upstream-timeouts.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.582">ⓘ</span>
-<br/>  Excessive database calls lead to slower response times, causing services that depend on timely API responses to exceed their configured timeouts, thereby indicating underlying inefficiencies in data retrieval.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.656">ⓘ</span>
-<br/>  The excessive database calls due to inefficient querying lead to slow response times, which in turn frustrates developers and hinders their productivity within the development environment, making the performance issues more apparent.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.354, Strength: 0.619">ⓘ</span>
-<br/>  Excessive database calls lead to slower application response times, frustrating users as they struggle to complete tasks efficiently, which in turn results in a higher volume of support requests.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.609">ⓘ</span>
-<br/>  Excessive database calls from inefficient querying can lead to a backlog of open connections and unreleased resources as the system struggles to manage the high volume of requests, indicating performance issues rooted in the query design.
-- [Slow Development Velocity](slow-development-velocity.md) <span class="info-tooltip" title="Confidence: 0.317, Strength: 0.638">ⓘ</span>
-<br/>  The excessive database calls lead to slower response times and increased debugging complexity, ultimately hindering the team's ability to efficiently implement new features and resolve issues, thereby reducing overall development velocity.
 
-## Root Causes ▼
+- [Slow Application Performance](slow-application-performance.md)
+<br/>  The excessive number of database round-trips directly degrades application response times, especially on pages displaying lists of related data.
+- [High Number of Database Queries](high-number-of-database-queries.md)
+<br/>  The N+1 pattern generates a large volume of individual queries where fewer, optimized queries would suffice.
+- [Database Query Performance Issues](database-query-performance-issues.md)
+<br/>  The flood of individual queries from N+1 patterns overloads the database, degrading overall query performance.
+- [Negative User Feedback](negative-user-feedback.md)
+<br/>  Users experience slow page loads and unresponsive interfaces as a direct result of excessive database queries.
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+## Causes ▼
 
+- [Lazy Loading](lazy-loading.md)
+<br/>  ORM lazy loading transparently triggers individual queries for each related object access, making the N+1 pattern easy to introduce unknowingly.
+- [Imperative Data Fetching Logic](imperative-data-fetching-logic.md)
+<br/>  Writing data fetching in loops rather than declarative batch queries naturally produces the N+1 pattern.
+- [Insufficient Code Review](insufficient-code-review.md)
+<br/>  Without reviews that scrutinize database access patterns, N+1 queries slip into production undetected.
+- [Knowledge Gaps](knowledge-gaps.md)
+<br/>  Developers unfamiliar with ORM behavior or database optimization techniques inadvertently introduce N+1 patterns.
 ## Detection Methods ○
 
 - **Application Performance Monitoring (APM):** APM tools can often detect and flag N+1 query patterns automatically.

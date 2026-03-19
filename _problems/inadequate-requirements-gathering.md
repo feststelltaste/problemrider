@@ -34,35 +34,27 @@ Inadequate requirements gathering occurs when teams begin development without su
 - User workflows and business processes are not thoroughly understood
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.654, Strength: 0.888">ⓘ</span>
-<br/>  Insufficiently defined requirements often result in unclear acceptance criteria, leading to inadequate test coverage as critical functionalities may not be identified or prioritized for validation, thus exposing blind spots in the quality assurance process of legacy systems.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.478, Strength: 0.752">ⓘ</span>
-<br/>  Insufficient requirements gathering often leads to poorly defined legacy systems that are difficult to maintain and understand, resulting in a shortage of knowledgeable developers who can effectively manage and update these systems.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.437, Strength: 0.755">ⓘ</span>
-<br/>  The lack of clear and complete requirements results in frequent changes and rework during development, leading to a slow and cumbersome environment as the team struggles to adapt to evolving needs and fix issues that arise from misunderstood specifications.
-- [Poor Caching Strategy](poor-caching-strategy.md) <span class="info-tooltip" title="Confidence: 0.414, Strength: 0.812">ⓘ</span>
-<br/>  The lack of clear requirements often leads to inefficient design decisions, such as failing to implement effective caching mechanisms, resulting in excessive data retrieval that degrades system performance and responsiveness.
 
-## Root Causes ▼
-- [Eager to Please Stakeholders](eager-to-please-stakeholders.md) <span class="info-tooltip" title="Confidence: 0.407, Strength: 0.908">ⓘ</span>
-<br/>  The project team's tendency to accommodate every stakeholder request without critical evaluation results in a lack of clear priorities and focus, ultimately leading to poorly defined requirements that fail to address the core needs of the system.
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.386, Strength: 0.830">ⓘ</span>
-<br/>  The tendency to provide large time estimates for small changes reveals the underlying code complexity and risk, which discourages thorough exploration and clarification of requirements, ultimately leading to inadequate analysis and documentation that fails to capture actual needs.
-- [Perfectionist Culture](perfectionist-culture.md) <span class="info-tooltip" title="Confidence: 0.365, Strength: 0.888">ⓘ</span>
-<br/>  A perfectionist culture fosters analysis paralysis, causing teams to overanalyze and delay requirements gathering, resulting in incomplete or unclear specifications that fail to address the actual needs of legacy systems.
-- [Implicit Knowledge](implicit-knowledge.md) <span class="info-tooltip" title="Confidence: 0.330, Strength: 0.804">ⓘ</span>
-<br/>  The absence of documented knowledge leads to reliance on unwritten assumptions, resulting in a failure to capture complete and accurate requirements, which ultimately causes the developed solutions to misalign with user needs.
-- [Bottleneck Formation](bottleneck-formation.md) <span class="info-tooltip" title="Confidence: 0.327, Strength: 0.901">ⓘ</span>
-<br/>  Bottlenecks in team communication and workflow can prevent thorough analysis and discussion of requirements, resulting in incomplete documentation that fails to capture the true needs of stakeholders in legacy systems.
-- [Constantly Shifting Deadlines](constantly-shifting-deadlines.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.931">ⓘ</span>
-<br/>  Constantly shifting deadlines create a reactive environment where the development team is forced to prioritize immediate feature requests over thorough requirements analysis, resulting in incomplete understanding of user needs and ultimately leading to solutions that fail to meet actual requirements.
-- [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.319, Strength: 0.928">ⓘ</span>
-<br/>  In legacy systems, the failure to comprehensively address bugs due to incomplete fixes obscures the true requirements needed for the system, leading to a misunderstanding of user needs and resulting in inadequate documentation and analysis of those requirements.
-- [Gold Plating](gold-plating.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.891">ⓘ</span>
-<br/>  The tendency to add unnecessary features stems from a lack of clear and prioritized requirements, resulting in solutions that diverge from user needs and further complicate the system, making it harder to address the actual requirements effectively.
-- [Monitoring Gaps](monitoring-gaps.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.914">ⓘ</span>
-<br/>  Insufficient production monitoring limits the ability to identify and understand user needs and system behaviors, resulting in a lack of critical insights that inform and shape the requirements gathering process, ultimately causing solutions that fail to address actual user demands.
+- [Implementation Rework](implementation-rework.md)
+<br/>  Features must be rebuilt when initial understanding proves incorrect due to insufficient requirements analysis.
+- [Misaligned Deliverables](misaligned-deliverables.md)
+<br/>  Delivered features do not match stakeholder expectations because requirements were not properly understood upfront.
+- [Feature Gaps](feature-gaps.md)
+<br/>  Important functionality is missing because it was never identified during requirements gathering.
+- [Scope Creep](scope-creep.md)
+<br/>  Missing requirements are discovered during development, continuously expanding the project scope beyond original estimates.
+- [Budget Overruns](budget-overruns.md)
+<br/>  Rework and scope expansion from poor requirements drives costs beyond original budgets.
+- [Assumption-Based Development](assumption-based-development.md)
+<br/>  Developers make assumptions about what users need instead of validating requirements through proper analysis.
+## Causes ▼
 
+- [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
+<br/>  Poor communication between stakeholders and developers prevents effective requirements elicitation and validation.
+- [Time Pressure](time-pressure.md)
+<br/>  Pressure to start development quickly leads teams to rush through or skip thorough requirements analysis.
+- [Feedback Isolation](feedback-isolation.md)
+<br/>  Teams that do not regularly engage with stakeholders and users miss critical requirements and context.
 ## Detection Methods ○
 
 - **Requirements Quality Assessment:** Evaluate completeness, clarity, and testability of requirements

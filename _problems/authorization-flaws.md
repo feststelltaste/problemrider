@@ -30,13 +30,25 @@ Authorization flaws occur when access control mechanisms fail to properly restri
 - Inconsistent permission enforcement across different system components
 
 ## Symptoms ▲
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.727">ⓘ</span>
-<br/>  Inadequate access control mechanisms can lead to inconsistent test outcomes, as unauthorized actions may inadvertently pass or fail tests due to unpredictable user permissions, highlighting underlying flaws in the system.
 
-## Root Causes ▼
-- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.322, Strength: 0.915">ⓘ</span>
-<br/>  The lack of data encapsulation allows unauthorized access to sensitive information and functionality, as it fails to properly restrict user interactions with the system's internal components, thereby enabling actions outside of intended permissions.
+- [Data Protection Risk](data-protection-risk.md)
+<br/>  Flawed authorization allows unauthorized access to sensitive data, creating significant data protection risks.
+- [Regulatory Compliance Drift](regulatory-compliance-drift.md)
+<br/>  Authorization flaws violate compliance requirements for access control, pushing the system out of regulatory compliance.
+- [User Trust Erosion](user-trust-erosion.md)
+<br/>  Users lose trust when they discover others can access their data due to authorization flaws.
+- [Legal Disputes](legal-disputes.md)
+<br/>  Authorization flaws allowing unauthorized access to sensitive data can trigger legal action from affected parties.
+## Causes ▼
 
+- [Inadequate Error Handling](inadequate-error-handling.md)
+<br/>  Poor error handling can silently bypass authorization checks, allowing unauthorized access.
+- [Complex and Obscure Logic](complex-and-obscure-logic.md)
+<br/>  Complex authorization logic is more likely to contain flaws that allow unintended access.
+- [Insufficient Testing](insufficient-testing.md)
+<br/>  Without thorough authorization testing, access control flaws go undetected until exploited.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers without security experience may implement incomplete or incorrect authorization checks.
 ## Detection Methods ○
 
 - **Access Control Testing:** Test all protected resources and functions for proper authorization

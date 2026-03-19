@@ -32,26 +32,22 @@ Setting the maximum size of a connection pool is a delicate balancing act. If th
 
 ## Symptoms ▲
 
-*No significant relationships within the scope of legacy systems identified (yet).*
+- [Service Timeouts](service-timeouts.md)
+<br/>  When the pool is too small, requests wait for available connections and eventually time out.
+- [High Connection Count](high-connection-count.md)
+<br/>  An oversized pool creates unnecessarily many connections to the database, wasting resources.
+- [High Database Resource Utilization](high-database-resource-utilization.md)
+<br/>  Too many connections from an oversized pool consume database memory and CPU resources.
+- [Increased Error Rates](increased-error-rates.md)
+<br/>  Connection exhaustion from an undersized pool or database rejection from an oversized pool both produce application errors.
+- [Misconfigured Connection Pools](misconfigured-connection-pools.md)
+<br/>  An incorrectly sized connection pool is a key contributor to overall connection pool misconfiguration problems.
+## Causes ▼
 
-## Root Causes ▼
-- [Long-Running Transactions](long-running-transactions.md) <span class="info-tooltip" title="Confidence: 0.411, Strength: 0.899">ⓘ</span>
-<br/>  Long-running transactions can occupy database connections for extended periods, preventing other requests from being processed, which can lead to an incorrect configuration of the maximum connection pool size as the system struggles to manage the limited available connections effectively.
-- [High API Latency](high-api-latency.md) <span class="info-tooltip" title="Confidence: 0.382, Strength: 0.884">ⓘ</span>
-<br/>  Excessive API latency leads to prolonged open connections in the pool as requests take longer to complete, causing the maximum connection pool size to be incorrectly exceeded or underutilized based on the application's demand.
-- [Thread Pool Exhaustion](thread-pool-exhaustion.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.901">ⓘ</span>
-<br/>  The exhaustion of available threads due to long-running or blocked operations prevents timely release of database connections, resulting in an insufficient number of connections being available for new tasks, which ultimately leads to incorrect configuration of the connection pool size.
-- [Slow Response Times for Lists](slow-response-times-for-lists.md) <span class="info-tooltip" title="Confidence: 0.349, Strength: 0.903">ⓘ</span>
-<br/>  Inefficient data fetching for lists increases the number of simultaneous requests to the database, leading to an excessive demand on the connection pool that exceeds its incorrectly configured maximum size, resulting in connection exhaustion or resource wastage.
-- [Lazy Loading](lazy-loading.md) <span class="info-tooltip" title="Confidence: 0.348, Strength: 0.878">ⓘ</span>
-<br/>  The use of lazy loading generates excessive database queries that rapidly consume available connections, leading to an incorrect configuration of the maximum connection pool size and ultimately resulting in resource wastage or connection exhaustion.
-- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md) <span class="info-tooltip" title="Confidence: 0.334, Strength: 0.827">ⓘ</span>
-<br/>  Inefficient algorithms and data structures lead to increased response times and resource consumption, causing the connection pool to reach its maximum limit more quickly and ultimately resulting in connection exhaustion or resource wastage.
-- [Resource Allocation Failures](resource-allocation-failures.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.864">ⓘ</span>
-<br/>  Improper deallocation of system resources results in a shortage of available connections, causing the connection pool to be set incorrectly, either over-allocating or exhausting connections in legacy systems.
-- [Database Connection Leaks](database-connection-leaks.md) <span class="info-tooltip" title="Confidence: 0.323, Strength: 0.829">ⓘ</span>
-<br/>  Improperly closed database connections accumulate over time, resulting in a depletion of available connections in the pool, which, when combined with an incorrectly set maximum size, can trigger resource exhaustion or application failures.
-
+- [Incomplete Knowledge](incomplete-knowledge.md)
+<br/>  Developers may not understand the relationship between application concurrency, database capacity, and optimal pool sizing.
+- [Inadequate Configuration Management](inadequate-configuration-management.md)
+<br/>  Poor configuration management means pool sizes are not properly tuned or tracked across environments.
 ## Detection Methods ○
 
 - **Application Metrics:** Monitor connection pool metrics (e.g., active connections, idle connections, wait times, connection acquisition rates, pool size) provided by the application framework or a monitoring agent.

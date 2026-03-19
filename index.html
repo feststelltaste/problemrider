@@ -15,11 +15,10 @@ layout: default
 
   <div class="home-sections">
     <section class="featured-problems">
-      <h2>Featured Problems</h2>
-      <div class="problem-grid">
-        {% assign featured_problems = site.problems | sample: 6 %}
-        {% for problem in featured_problems %}
-          <div class="problem-card">
+      <h2>Random Problems</h2>
+      <div class="problem-grid" id="featured-grid">
+        {% for problem in site.problems %}
+          <div class="problem-card" style="display:none;">
             <h3><a href="{{ problem.url | relative_url }}">{{ problem.title }}</a></h3>
             {% if problem.description %}
               <p class="problem-description">{{ problem.description }}</p>
@@ -34,6 +33,22 @@ layout: default
           </div>
         {% endfor %}
       </div>
+      <script>
+        (function() {
+          var grid = document.getElementById('featured-grid');
+          var cards = Array.from(grid.children);
+          for (var i = cards.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = cards[i];
+            cards[i] = cards[j];
+            cards[j] = temp;
+          }
+          cards.slice(0, 6).forEach(function(card) {
+            card.style.display = '';
+            grid.appendChild(card);
+          });
+        })();
+      </script>
     </section>
 
     <section class="quick-stats">

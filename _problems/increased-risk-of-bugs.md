@@ -32,21 +32,29 @@ Increased risk of bugs occurs when the structure, complexity, or clarity of code
 - Testing reveals bugs that should have been obvious during development
 
 ## Symptoms ▲
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.459, Strength: 0.684">ⓘ</span>
-<br/>  The inherent complexity of the business domain leads to convoluted code structures and logic, which increases the likelihood of misunderstandings and mistakes by developers, thereby heightening the risk of introducing bugs during modifications.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.425, Strength: 0.634">ⓘ</span>
-<br/>  Constantly updating requirements in a project often leads to increased code modifications, which, in the context of legacy systems characterized by code complexity and lack of clarity, heightens the likelihood of introducing defects during development.
-- [Increased Customer Support Load](increased-customer-support-load.md) <span class="info-tooltip" title="Confidence: 0.401, Strength: 0.644">ⓘ</span>
-<br/>  The complexity and ambiguity of the legacy code lead to more bugs during updates, resulting in users facing issues that prompt them to seek support, thereby indicating the underlying risk of defects in the system.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.399, Strength: 0.629">ⓘ</span>
-<br/>  The lack of thorough tests in critical areas of the codebase exacerbates the likelihood of defects, as developers are unaware of potential issues when modifying complex and unclear code, thereby increasing the overall risk of introducing bugs.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.358, Strength: 0.643">ⓘ</span>
-<br/>  The increased code complexity and ambiguity often lead to unreliable test scenarios, which in turn produce flaky tests that obscure the actual reliability of the system and increase the likelihood of undetected bugs.
 
-## Root Causes ▼
+- [High Bug Introduction Rate](high-bug-introduction-rate.md)
+<br/>  When the risk of bugs is elevated due to code complexity, the actual rate at which bugs are introduced increases measurably.
+- [Increased Bug Count](increased-bug-count.md)
+<br/>  A higher risk of bugs directly leads to more bugs accumulating in the system over time.
+- [Fear of Change](fear-of-change.md)
+<br/>  When developers know that changes are likely to introduce bugs, they become reluctant to modify the codebase.
+- [Increased Cost of Development](increased-cost-of-development.md)
+<br/>  More bugs mean more time spent on debugging and fixing, driving up development costs.
+- [Constant Firefighting](constant-firefighting.md)
+<br/>  A high risk of bugs leads to frequent production issues that require urgent attention, keeping the team in reactive mode.
+## Causes ▼
 
-*No significant relationships within the scope of legacy systems identified (yet).*
-
+- [Difficult to Understand Code](difficult-to-understand-code.md)
+<br/>  Code that is hard to comprehend makes it much more likely that developers will introduce defects when making changes.
+- [Complex and Obscure Logic](complex-and-obscure-logic.md)
+<br/>  Convoluted business logic with unclear intent creates conditions where bugs are easily introduced.
+- [Insufficient Testing](insufficient-testing.md)
+<br/>  Without automated tests to catch regressions, any code change carries a higher risk of introducing bugs.
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Tightly coupled code means changes in one area can unpredictably affect other areas, increasing the risk of unintended bugs.
+- [Lower Code Quality](lower-code-quality.md)
+<br/>  Low-quality code with inconsistent patterns and poor structure makes it harder to reason about correctness, raising bug risk.
 ## Detection Methods ○
 - **Bug Pattern Analysis:** Track which areas of code or types of changes are most likely to introduce bugs
 - **Developer-Specific Metrics:** Monitor bug introduction rates by individual developers to identify training needs

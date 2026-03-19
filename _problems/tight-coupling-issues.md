@@ -34,35 +34,27 @@ Tight coupling issues occur when system components are overly dependent on each 
 - Difficulty replacing or upgrading individual components
 
 ## Symptoms ▲
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.455, Strength: 0.703">ⓘ</span>
-<br/>  The excessive interdependence of components in legacy systems complicates updates and maintenance, leading to a reliance on a shrinking pool of skilled developers, who become bottlenecks, thereby highlighting the challenges of managing such tightly coupled architectures.
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.447, Strength: 0.678">ⓘ</span>
-<br/>  The excessive interdependence of components leads to a lack of modularity, making it challenging to isolate and test individual parts of the codebase, which results in critical areas remaining untested and creating blind spots in quality assurance.
-- [Technical Architecture Limitations](technical-architecture-limitations.md) <span class="info-tooltip" title="Confidence: 0.444, Strength: 0.672">ⓘ</span>
-<br/>  Excessive interdependencies among components create rigid architectural constraints that hinder performance and scalability, thereby serving as a clear indicator of underlying coupling issues within legacy systems.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.412, Strength: 0.701">ⓘ</span>
-<br/>  Overly dependent components lead to inconsistent test scenarios where changes in one part of the system can unpredictably affect others, causing tests to fail intermittently and eroding confidence in the reliability of the test suite.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.393, Strength: 0.632">ⓘ</span>
-<br/>  Overly dependent components hinder the ability to adapt to evolving regulatory requirements, resulting in compliance gaps that reflect the rigidity and inflexibility inherent in the system's architecture.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.379, Strength: 0.595">ⓘ</span>
-<br/>  The reliance of components on one another means that any change in requirements necessitates adjustments across multiple interconnected parts, causing cascading rework and delays that highlight the inflexibility and maintainability issues inherent in the system.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.372, Strength: 0.607">ⓘ</span>
-<br/>  Overly dependent components lead to a convoluted representation of the business domain, as changes in one part of the system necessitate extensive alterations in others, obscuring the overall complexity and hindering accurate implementation.
-- [Reduced Team Productivity](reduced-team-productivity.md) <span class="info-tooltip" title="Confidence: 0.362, Strength: 0.645">ⓘ</span>
-<br/>  The excessive interdependence of components leads to increased complexity and time spent on coordination during changes, which in turn hampers the development team's efficiency and output.
-- [Unreleased Resources](unreleased-resources.md) <span class="info-tooltip" title="Confidence: 0.355, Strength: 0.623">ⓘ</span>
-<br/>  Excessive interdependencies among components often lead to inadequate resource management, causing allocated resources to remain unreleased as changes to one part of the system inadvertently impact others, making it challenging to implement proper deallocation routines.
-- [Analysis Paralysis](analysis-paralysis.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.708">ⓘ</span>
-<br/>  Overly dependent components create uncertainty and fear of unintended consequences when making changes, leading teams to overanalyze rather than implement solutions, thereby stalling progress in development.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.357, Strength: 0.970">ⓘ</span>
-<br/>  The reliance on a common set of libraries and frameworks among multiple components creates interdependencies that hinder individual component modifications, leading to inflexible and tightly coupled system architecture.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.958">ⓘ</span>
-<br/>  Developers accustomed to procedural programming often create tightly coupled code by failing to utilize encapsulation and abstraction principles, resulting in interdependent components that hinder system flexibility and maintainability.
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.311, Strength: 0.959">ⓘ</span>
-<br/>  The reliance on a single database for multiple components creates tight coupling, as changes to the database schema or data structure necessitate simultaneous updates across all dependent services, thereby hindering flexibility and maintainability in legacy systems.
+- [Ripple Effect of Changes](ripple-effect-of-changes.md)
+<br/>  When components are tightly coupled, modifying one component forces changes in many others, creating a ripple effect across the codebase.
+- [Fear of Change](fear-of-change.md)
+<br/>  Developers become reluctant to modify code because tight coupling makes it impossible to predict the full impact of changes.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Tight coupling means changes in one component can silently break functionality in dependent components, causing regressions.
+- [Deployment Coupling](deployment-coupling.md)
+<br/>  When components are tightly coupled at the code level, they must be deployed together even when only one has changed.
+- [Refactoring Avoidance](refactoring-avoidance.md)
+<br/>  The high risk and effort of refactoring tightly coupled code leads teams to avoid necessary improvements.
+- [Debugging Difficulties](debugging-difficulties.md)
+<br/>  Tight coupling makes it hard to isolate bugs because issues can propagate through coupled components in non-obvious ways.
+## Causes ▼
 
+- [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
+<br/>  Continuously adding features without refactoring the design leads to components growing interdependencies over time.
+- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
+<br/>  When modules lack clear single responsibilities, they tend to reach into other components for functionality, creating tight coupling.
+- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
+<br/>  Monolithic architectures naturally encourage tight coupling as all components share the same deployment unit and codebase.
 ## Detection Methods ○
 
 - **Dependency Analysis:** Analyze component dependencies and identify tight coupling patterns

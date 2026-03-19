@@ -33,27 +33,27 @@ Ripple effect of changes occurs when modifying one component necessitates change
 - Impact analysis for changes consistently reveals more affected components than expected
 
 ## Symptoms ▲
-- [Poor Test Coverage](poor-test-coverage.md) <span class="info-tooltip" title="Confidence: 0.400, Strength: 0.608">ⓘ</span>
-<br/>  The interdependence of tightly coupled components leads to changes in one area often affecting others, resulting in critical code sections being overlooked during testing, which in turn manifests as insufficient test coverage and increases the risk of undetected issues in the system.
-- [Interrupt Overhead](interrupt-overhead.md) <span class="info-tooltip" title="Confidence: 0.390, Strength: 0.778">ⓘ</span>
-<br/>  Frequent context switches and excessive hardware interrupts arise as a symptom of tightly coupled components in legacy systems, where minor changes necessitate widespread alterations that disrupt the CPU's execution flow, ultimately degrading application performance.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.373, Strength: 0.600">ⓘ</span>
-<br/>  The need for frequent updates to project requirements often arises from the high coupling in legacy systems, where small changes trigger extensive modifications across various interconnected components, resulting in ongoing rework and delays.
-- [Complex Domain Model](complex-domain-model.md) <span class="info-tooltip" title="Confidence: 0.346, Strength: 0.572">ⓘ</span>
-<br/>  The inherent complexity of the business domain leads to tightly coupled components, where a minor change in one area necessitates extensive adjustments in others, thereby highlighting the challenges in understanding and properly implementing the system.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.309, Strength: 0.570">ⓘ</span>
-<br/>  The need for extensive modifications across multiple system components due to high coupling can lead to overlooked regulatory updates, resulting in compliance gaps that indicate the system's inability to adapt efficiently to new requirements.
 
-## Root Causes ▼
-- [Shared Dependencies](shared-dependencies.md) <span class="info-tooltip" title="Confidence: 0.442, Strength: 0.906">ⓘ</span>
-<br/>  The requirement for modifications across multiple parts of the system arises because shared libraries and frameworks create tight coupling, where a change in one module can inadvertently affect others that rely on the same dependencies, complicating maintenance and increasing the risk of unintended consequences.
-- [Shared Database](shared-database.md) <span class="info-tooltip" title="Confidence: 0.408, Strength: 0.920">ⓘ</span>
-<br/>  The reliance on a shared database creates tight coupling between components, so that a minor change in one area necessitates adjustments in others to maintain data integrity and consistency, leading to widespread modifications across the system.
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.909">ⓘ</span>
-<br/>  The tendency of developers trained in procedural programming to write tightly coupled, procedural-style code within an object-oriented framework leads to a lack of modularity, causing small changes in one part of the system to necessitate extensive modifications across many other areas.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.304, Strength: 0.838">ⓘ</span>
-<br/>  The tightly coupled nature of cross-cutting concerns with the business logic in legacy systems forces changes in one area to necessitate modifications in multiple other areas, creating a ripple effect that complicates maintenance and increases the risk of unintended side effects.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  When every change requires modifications across many components, even simple features take disproportionately long to implement.
+- [Fear of Breaking Changes](fear-of-breaking-changes.md)
+<br/>  The wide blast radius of changes makes developers afraid to modify code, knowing that seemingly local changes can break distant components.
+- [Regression Bugs](regression-bugs.md)
+<br/>  Changes that ripple across components frequently introduce regressions in areas that developers didn't realize were affected.
+- [High Maintenance Costs](high-maintenance-costs.md)
+<br/>  The amplified effort required for every change drives up the cost of maintaining and evolving the system.
+- [Resistance to Change](resistance-to-change.md)
+<br/>  Teams become reluctant to make improvements when they know that any change will cascade into extensive modifications across the codebase.
+## Causes ▼
 
+- [Tight Coupling Issues](tight-coupling-issues.md)
+<br/>  Excessive dependencies between components mean that changes in one component directly require changes in its dependents.
+- [Hidden Dependencies](hidden-dependencies.md)
+<br/>  Undocumented and non-obvious dependencies between components cause changes to propagate through unexpected pathways.
+- [Poor Encapsulation](poor-encapsulation.md)
+<br/>  When internal details are exposed rather than encapsulated, external code depends on implementation specifics that force cascading changes.
+- [God Object Anti-Pattern](god-object-anti-pattern.md)
+<br/>  God objects that are referenced throughout the system create a central point where changes ripple outward to all dependent code.
 ## Detection Methods ○
 - **Change Impact Analysis:** Track how many files or modules need modification for typical changes
 - **Dependency Analysis Tools:** Use static analysis to visualize and measure coupling between components

@@ -37,49 +37,27 @@ Legacy business logic extraction difficulty occurs when critical business rules 
 - System behaviors that cannot be reproduced in test environments due to missing business context
 
 ## Symptoms ▲
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.300, Strength: 0.569">ⓘ</span>
-<br/>  The difficulty in extracting critical business rules from deeply embedded legacy code leads to outdated compliance practices, as organizations struggle to adapt to new regulatory requirements without a clear understanding of the underlying logic.
 
-## Root Causes ▼
-- [Procedural Background](procedural-background.md) <span class="info-tooltip" title="Confidence: 0.437, Strength: 0.932">ⓘ</span>
-<br/>  The difficulty in extracting critical business rules arises because developers accustomed to procedural programming often write convoluted, procedural-style code within object-oriented frameworks, obscuring the logic and making it challenging to isolate essential business rules.
-- [Poor Encapsulation](poor-encapsulation.md) <span class="info-tooltip" title="Confidence: 0.429, Strength: 0.880">ⓘ</span>
-<br/>  The entanglement of data and behavior due to insufficient encapsulation creates a complex codebase where business rules are interwoven with other functionalities, making it challenging to isolate and extract critical business logic effectively.
-- [Insufficient Design Skills](insufficient-design-skills.md) <span class="info-tooltip" title="Confidence: 0.428, Strength: 0.924">ⓘ</span>
-<br/>  The lack of essential design skills leads to poorly structured code, causing critical business rules to become entangled and obscured within the legacy system, making their extraction exceedingly difficult.
-- [Implicit Knowledge](implicit-knowledge.md) <span class="info-tooltip" title="Confidence: 0.408, Strength: 0.738">ⓘ</span>
-<br/>  The difficulty in extracting critical business rules from legacy systems arises because the essential knowledge needed to understand and identify these rules is often not documented, relying instead on unwritten assumptions and informal practices, which obscures the logic within the code.
-- [Partial Bug Fixes](partial-bug-fixes.md) <span class="info-tooltip" title="Confidence: 0.406, Strength: 0.881">ⓘ</span>
-<br/>  The difficulty in extracting critical business rules from legacy code arises because partial fixes to duplicated code lead to inconsistent implementations of business logic, obscuring its identification and complicating the extraction process.
-- [Bikeshedding](bikeshedding.md) <span class="info-tooltip" title="Confidence: 0.384, Strength: 0.814">ⓘ</span>
-<br/>  The tendency to concentrate on superficial coding details diverts attention away from identifying and documenting critical embedded business rules, leading to increased difficulty in extracting essential logic from complex legacy code.
-- [Hidden Side Effects](hidden-side-effects.md) <span class="info-tooltip" title="Confidence: 0.380, Strength: 0.737">ⓘ</span>
-<br/>  Undocumented side effects within functions obscure the underlying business logic by altering application state or triggering unintended actions, complicating the extraction process and making it difficult to isolate critical business rules from the legacy code.
-- [Shadow Systems](shadow-systems.md) <span class="info-tooltip" title="Confidence: 0.378, Strength: 0.769">ⓘ</span>
-<br/>  The presence of unofficial alternative solutions creates complex, undocumented dependencies that obscure critical business rules within legacy code, making extraction efforts increasingly difficult.
-- [User Confusion](user-confusion.md) <span class="info-tooltip" title="Confidence: 0.367, Strength: 0.864">ⓘ</span>
-<br/>  End users experiencing inconsistent system behavior are unable to provide accurate feedback on business rules, obscuring the identification of critical logic within the legacy code and complicating extraction efforts.
-- [Rapid System Changes](rapid-system-changes.md) <span class="info-tooltip" title="Confidence: 0.347, Strength: 0.722">ⓘ</span>
-<br/>  Frequent modifications to system architecture and functionality lead to a lack of updated documentation and team familiarity, which obscures the critical business rules embedded in legacy code, making them challenging to identify and extract.
-- [Organizational Structure Mismatch](organizational-structure-mismatch.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.780">ⓘ</span>
-<br/>  The misalignment between the organization's structure and the system's architecture complicates the identification of critical business rules within the legacy code, as the rules are often organized around outdated organizational processes that no longer align with current operational needs, thus obscuring their extraction.
-- [Inconsistent Behavior](inconsistent-behavior.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.856">ⓘ</span>
-<br/>  The presence of inconsistent behavior in business processes obscures the identification of critical business rules within legacy code, as varying outcomes complicate the mapping of logic to specific functionalities, thus hindering effective extraction efforts.
-- [Imperative Data Fetching Logic](imperative-data-fetching-logic.md) <span class="info-tooltip" title="Confidence: 0.324, Strength: 0.853">ⓘ</span>
-<br/>  The inefficient looping structure for data fetching obscures the underlying business rules within the code, making it challenging to isolate and extract critical logic, thus complicating the overall process of understanding and refactoring the legacy system.
-- [Breaking Changes](breaking-changes.md) <span class="info-tooltip" title="Confidence: 0.321, Strength: 0.769">ⓘ</span>
-<br/>  Frequent API updates introduce breaking changes that lead to rushed modifications in the legacy code, obscuring the critical business rules embedded within, which hinders their identification and extraction.
-- [Incomplete Knowledge](incomplete-knowledge.md) <span class="info-tooltip" title="Confidence: 0.315, Strength: 0.900">ⓘ</span>
-<br/>  The difficulty in extracting critical business rules from legacy code arises because developers lack comprehensive awareness of all locations where similar logic is implemented, leading to fragmented understanding and hindering successful identification and extraction.
-- [Tangled Cross-Cutting Concerns](tangled-cross-cutting-concerns.md) <span class="info-tooltip" title="Confidence: 0.313, Strength: 0.875">ⓘ</span>
-<br/>  The difficulty in extracting critical business rules arises because tightly coupled cross-cutting concerns obscure the logic within the legacy code, making it challenging to isolate and identify the essential business functionalities.
-- [Extended Research Time](extended-research-time.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.741">ⓘ</span>
-<br/>  Developers face prolonged research periods to navigate complex and poorly documented legacy systems, which hinders their ability to identify and extract critical business rules embedded within the code.
-- [Past Negative Experiences](past-negative-experiences.md) <span class="info-tooltip" title="Confidence: 0.312, Strength: 0.830">ⓘ</span>
-<br/>  Developers' reluctance to modify the complex and fragile codebase due to past negative experiences leads to a failure to investigate and extract critical business rules, further entrenching them within the legacy system.
-- [Debugging Difficulties](debugging-difficulties.md) <span class="info-tooltip" title="Confidence: 0.301, Strength: 0.722">ⓘ</span>
-<br/>  The intricate and poorly documented code structure complicates the debugging process, making it difficult to isolate and understand the embedded business rules, which in turn hinders their extraction from the legacy system.
+- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
+<br/>  The inability to extract and understand business logic makes it impossible to accurately estimate modernization costs and benefits.
+- [Modernization Strategy Paralysis](modernization-strategy-paralysis.md)
+<br/>  Teams cannot choose a modernization approach when they don't understand what business logic needs to be preserved.
+- [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
+<br/>  When business logic is deeply embedded, even small modifications require extensive analysis to understand the full impact.
+- [Fear of Change](fear-of-change.md)
+<br/>  Developers become reluctant to modify code when they cannot determine which changes might break unknown business rules.
+- [Increased Cost of Development](increased-cost-of-development.md)
+<br/>  Every change requires extensive analysis to understand embedded business rules, significantly increasing development costs.
+## Causes ▼
 
+- [Spaghetti Code](spaghetti-code.md)
+<br/>  Tangled, unstructured code makes it nearly impossible to identify where business logic begins and technical implementation ends.
+- [Poor Documentation](poor-documentation.md)
+<br/>  Lack of documentation about business rules forces teams to reverse-engineer logic from code rather than referencing specifications.
+- [Implicit Knowledge](implicit-knowledge.md)
+<br/>  Business rules exist as unwritten assumptions known only to departed employees, making extraction dependent on code archaeology.
+- [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
+<br/>  Business logic intermingled with database access, UI, and utilities across many modules makes it impossible to isolate.
 ## Detection Methods ○
 
 - Conduct business rule archaeology sessions with domain experts and legacy code review

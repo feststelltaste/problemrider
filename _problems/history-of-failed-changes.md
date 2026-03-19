@@ -31,29 +31,27 @@ A history of failed changes can create a lasting negative impact on a team's cul
 - The team has a history of long and stressful release cycles.
 
 ## Symptoms ▲
-- [Developer Frustration and Burnout](developer-frustration-and-burnout.md) <span class="info-tooltip" title="Confidence: 0.457, Strength: 0.681">ⓘ</span>
-<br/>  A history of failed deployments cultivates a culture of apprehension that leads to increased pressure and uncertainty among developers, resulting in frustration and burnout as they navigate a challenging environment filled with unresolved issues and a lack of confidence in making changes.
-- [Frequent Changes to Requirements](frequent-changes-to-requirements.md) <span class="info-tooltip" title="Confidence: 0.453, Strength: 0.670">ⓘ</span>
-<br/>  A history of failed deployments fosters a lack of trust in the stability of the existing system, prompting stakeholders to frequently modify requirements in an attempt to mitigate risk and adapt, which in turn leads to increased rework and project delays.
-- [Reduced Innovation](reduced-innovation.md) <span class="info-tooltip" title="Confidence: 0.449, Strength: 0.838">ⓘ</span>
-<br/>  A history of failed deployments instills a fear of risk in teams, leading them to prioritize minimal compliance over innovative solutions, thereby stifling creativity and adaptation in legacy systems.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md) <span class="info-tooltip" title="Confidence: 0.432, Strength: 0.714">ⓘ</span>
-<br/>  A history of failed deployments fosters a culture of risk aversion, leading to reluctance in updating legacy systems, which in turn results in those systems becoming misaligned with current regulatory requirements and creating compliance gaps.
-- [Legacy Skill Shortage](legacy-skill-shortage.md) <span class="info-tooltip" title="Confidence: 0.422, Strength: 0.665">ⓘ</span>
-<br/>  A history of failed deployments fosters a culture of fear that discourages developers from engaging with legacy systems, leading to a critical shortage of skilled personnel capable of maintaining these technologies, which in turn exacerbates the risk of future failures.
-- [Inefficient Development Environment](inefficient-development-environment.md) <span class="info-tooltip" title="Confidence: 0.418, Strength: 0.698">ⓘ</span>
-<br/>  A history of failed deployments fosters a culture of caution, leading to an inefficient and cumbersome development environment as teams avoid making swift changes for fear of repeating past mistakes.
-- [Flaky Tests](flaky-tests.md) <span class="info-tooltip" title="Confidence: 0.389, Strength: 0.695">ⓘ</span>
-<br/>  The history of failed deployments fosters a lack of confidence in the system, leading to the introduction of unreliable tests that fail intermittently, further eroding trust and complicating future changes.
-- [Project Authority Vacuum](project-authority-vacuum.md) <span class="info-tooltip" title="Confidence: 0.340, Strength: 0.686">ⓘ</span>
-<br/>  A history of failed deployments instills a culture of fear that undermines leadership support and resource allocation for critical projects, leading to an authority vacuum that further hinders necessary changes in legacy systems.
-- [Monolithic Architecture Constraints](monolithic-architecture-constraints.md) <span class="info-tooltip" title="Confidence: 0.329, Strength: 0.690">ⓘ</span>
-<br/>  The history of failed deployments fosters a culture of fear that leads to overly cautious development practices, resulting in a large, rigid codebase that becomes increasingly difficult to maintain and adapt, thereby indicating systemic issues in the software's architecture.
 
-## Root Causes ▼
-- [Large Estimates for Small Changes](large-estimates-for-small-changes.md) <span class="info-tooltip" title="Confidence: 0.338, Strength: 0.857">ⓘ</span>
-<br/>  The tendency to provide large time estimates for small changes stems from the complex and fragile nature of the legacy code, which fosters a culture of fear and resistance to modifications due to the heightened risk of failure seen in past deployments.
+- [Fear of Change](fear-of-change.md)
+<br/>  Past deployment failures create a lasting emotional resistance to making modifications, even when changes are necessary.
+- [Resistance to Change](resistance-to-change.md)
+<br/>  Teams that have experienced failed changes develop organizational resistance to future modifications and modernization efforts.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  Excessive caution and bureaucratic approval processes born from past failures slow down the pace of development.
+- [Inability to Innovate](inability-to-innovate.md)
+<br/>  Fear stemming from past failures prevents teams from trying new approaches or technologies.
+- [Stagnant Architecture](stagnant-architecture.md)
+<br/>  Reluctance to change leads to architecture that remains frozen and unable to evolve with changing requirements.
+## Causes ▼
 
+- [Insufficient Testing](insufficient-testing.md)
+<br/>  Inadequate testing allowed defects to reach production in past deployments, causing the failures that created this fear.
+- [Large, Risky Releases](large-risky-releases.md)
+<br/>  Large, infrequent releases carry higher risk of failure, and when they fail, the impact is severe enough to create lasting fear.
+- [High Defect Rate in Production](high-defect-rate-in-production.md)
+<br/>  Repeated production bugs from releases build a record of failed changes that reinforces risk-averse culture.
+- [Missing Rollback Strategy](missing-rollback-strategy.md)
+<br/>  Without rollback capability, failed deployments cause extended outages that amplify the negative impact and fear.
 ## Detection Methods ○
 - **Deployment Frequency:** Track how often the team deploys changes to production. A low deployment frequency can be a sign of fear.
 - **Lead Time for Changes:** Measure the time it takes from a code commit to a production deployment.
