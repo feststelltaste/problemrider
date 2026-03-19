@@ -10,7 +10,7 @@
           },
           {
             "type": "command",
-            "command": "scripts/convert_titles.py --fix"PostT
+            "command": "scripts/convert_titles.py --fix"
           }
         ]
       }
