@@ -1,10 +1,10 @@
 ---
 title: Containerization
-description: Bundle applications with their exact dependency tree into lightweight, reproducible units
+description: Encapsulating applications and their dependencies in containers
 category:
 - Operations
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/containerization
+quality_tactics_url: https://qualitytactics.de/en/maintainability/containerization
 problems:
 - deployment-environment-inconsistencies
 - configuration-drift
