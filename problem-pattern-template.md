@@ -4,9 +4,11 @@ description: Brief one-line description of the problem
 category:
 - <a fitting name for one or more categories where the problem belongs to e.g. 'Technical', 'Process', 'Communication', 'Design', 'Performance', 'Security', 'Maintenance', 'and others'>
 related_problems:
-# NOTE: The related_problems section with similarity scores is automatically generated 
-# by scripts/calculate_related_problems.py. You can initially leave this empty or 
+# NOTE: The related_problems section with similarity scores is automatically generated
+# by scripts/calculate_related_problems.py. You can initially leave this empty or
 # add manual slugs that will be replaced with semantic relationships and scores.
+solutions:
+- <solution-slug>
 layout: problem
 ---
 

@@ -1,0 +1,93 @@
+---
+layout: default
+title: All Solutions
+permalink: /solutions/
+---
+
+<div class="solutions-page">
+  <h1>All Solutions</h1>
+
+  <p class="page-description">
+    Browse {{ site.solutions.size }} solutions for common legacy system problems.
+    Solutions marked <sup>QT</sup> link to the <a href="https://qualitytactics.de/en/" target="_blank" rel="noopener">Quality Tactics</a> book.
+  </p>
+
+  <div class="search-filter">
+    <input type="text" id="solution-search" placeholder="Search solutions..." />
+    <select id="category-filter">
+      <option value="">All Categories</option>
+      {% assign all_categories = site.solutions | map: 'category' | join: ',' | split: ',' | uniq | sort %}
+      {% for category in all_categories %}
+        {% if category != "" %}
+          <option value="{{ category }}">{{ category }}</option>
+        {% endif %}
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="solutions-list" id="solutions-list">
+    {% assign sorted_solutions = site.solutions | sort: 'title' %}
+    {% for solution in sorted_solutions %}
+      <article class="solution-item" data-categories="{{ solution.category | join: ',' | downcase }}" data-title="{{ solution.title | downcase }}" data-description="{{ solution.description | downcase }}">
+        <header class="solution-header">
+          <h2>
+            <a href="{{ solution.url | relative_url }}">{{ solution.title }}</a>
+            {% if solution.quality_tactics_url %}
+              <sup><a href="{{ solution.quality_tactics_url }}" target="_blank" rel="noopener" class="qt-link">QT</a></sup>
+            {% endif %}
+          </h2>
+          {% if solution.description %}
+            <p class="solution-description">{{ solution.description }}</p>
+          {% endif %}
+        </header>
+        {% if solution.category %}
+          <div class="solution-meta">
+            <div class="solution-categories">
+              {% for category in solution.category %}
+                <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag">{{ category }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+        {% if solution.problems and solution.problems.size > 0 %}
+          <div class="solution-problems">
+            <small class="problems-label">Addresses:</small>
+            {% for problem_slug in solution.problems limit: 5 %}
+              {% assign problem = site.problems | where: "slug", problem_slug | first %}
+              {% if problem %}
+                <small class="problem-tag"><a href="{{ problem.url | relative_url }}">{{ problem.title }}</a></small>{% unless forloop.last %},{% endunless %}
+              {% endif %}
+            {% endfor %}
+            {% if solution.problems.size > 5 %}<small class="more-indicator">+{{ solution.problems.size | minus: 5 }} more</small>{% endif %}
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('solution-search');
+  const categoryFilter = document.getElementById('category-filter');
+  const solutionsList = document.getElementById('solutions-list');
+  const solutionItems = solutionsList.querySelectorAll('.solution-item');
+
+  function filterSolutions() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const selectedCategory = categoryFilter.value.toLowerCase();
+
+    solutionItems.forEach(item => {
+      const matchesSearch = !searchTerm ||
+        item.dataset.title.includes(searchTerm) ||
+        item.dataset.description.includes(searchTerm);
+      const matchesCategory = !selectedCategory ||
+        item.dataset.categories.includes(selectedCategory);
+      item.style.display = (matchesSearch && matchesCategory) ? 'block' : 'none';
+    });
+  }
+
+  searchInput.addEventListener('input', filterSolutions);
+  categoryFilter.addEventListener('change', filterSolutions);
+});
+</script>

@@ -13,6 +13,9 @@ collections:
   problems:
     output: true
     permalink: /:collection/:name.html
+  solutions:
+    output: true
+    permalink: /:collection/:name.html
 
 # Defaults
 defaults:
@@ -21,6 +24,11 @@ defaults:
       type: "problems"
     values:
       layout: "problem"
+  - scope:
+      path: ""
+      type: "solutions"
+    values:
+      layout: "solution"
   - scope:
       path: ""
       type: "posts"
@@ -44,6 +52,8 @@ navigation:
     url: /
   - title: Problems
     url: /problems/
+  - title: Solutions
+    url: /solutions/
   - title: Categories
     url: /categories/
 
@@ -53,6 +63,8 @@ exclude:
   - Gemfile.lock
   - vendor/
   - problem-pattern-template.md
+  - solution-pattern-template.md
+  - SOLUTIONS_PLAN.md
   - neo4j_simple/
   - scripts/*
   - CLAUDE.md
