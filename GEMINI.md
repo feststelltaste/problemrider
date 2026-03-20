@@ -28,7 +28,8 @@ The scope of the problem area ends at the requirements and management level (for
 
 * Solutions live in the `_solutions/` directory, one file per solution.
 * Each problem links to its solutions via a `solutions:` list of solution slugs in its front matter.
-* Solutions that correspond to a tactic in the [Quality Tactics](https://qualitytactics.de/en/) book carry a `quality_tactics_url` field. Their `title` and `description` are automatically synced from the Quality Tactics tactic files by running `scripts/sync_quality_tactics.py` (requires the `qualitaetstaktiken` repo as a sibling directory). The body content (How to Apply, Tradeoffs, Examples) is never overwritten by the sync.
+* Solutions that correspond to a tactic in the [Quality Tactics](https://qualitytactics.de/en/) book carry a `quality_tactics_url` field. Their `title` and `description` are automatically synced from the Quality Tactics tactic files by running `scripts/sync_quality_tactics.py`. The body content (How to Apply, Tradeoffs, Examples) is never overwritten by the sync.
+* A standalone reference of all 539 Quality Tactics (title, short description, URL, category) is available in `quality-tactics-reference.md`. Use this file to look up or pick tactics without needing the `qualitaetstaktiken` repo. The sync script also falls back to this file automatically when the sibling repo is absent.
 * Solutions without a Quality Tactics equivalent omit `quality_tactics_url` and include a `## Description` section in the body.
 * The `solution-pattern-template.md` file defines the format for solution files.
 
@@ -69,7 +70,7 @@ The `scripts/` directory contains more utility scripts for maintaining the catal
 
 * `calculate_related_problems.py`: Generates semantic similarity scores for related_problems sections using sentence-transformers. Updates all problem files with automatically calculated relationships based on content similarity.
 * `backlog_refinement.py`: Takes ideas withing the file `scripts/backlog/candidates.md` and sorts them into different files depending on already existing or similar problems.
-* `sync_quality_tactics.py`: Syncs `title` and `description` from the Quality Tactics tactic files into `_solutions/` front matter for solutions that have a `quality_tactics_url`. Requires `qualitaetstaktiken` repo as a sibling directory. Use `--dry-run` to preview.
+* `sync_quality_tactics.py`: Syncs `title` and `description` from the Quality Tactics tactic files into `_solutions/` front matter for solutions that have a `quality_tactics_url`. Uses the `qualitaetstaktiken` sibling repo when available, otherwise falls back to `quality-tactics-reference.md`. Use `--dry-run` to preview.
 * `check_links.py`: Checks for broken markdown links in the `_problems` directory. Use `--fix` flag to automatically remove broken links while preserving the title and description text.
 * `convert_titles.py`: Converts titles to proper title case using New York Times Manual of Style rules. Works on YAML front matter titles, H1 headers, and markdown link text. Use `--fix` flag to actually modify files.
 * `consolidate_categories.py`: Consolidates problem categories from ~200+ categories down to 15 core categories to improve organization and navigation.
