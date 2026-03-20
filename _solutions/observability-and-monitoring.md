@@ -58,7 +58,7 @@ layout: solution
 - Alert fatigue is a particular risk when adding monitoring to a system that was previously unmonitored. Initial alert thresholds are often wrong, producing floods of false positives that teams learn to ignore — including alerts that eventually represent real problems.
 - Teams need training on observability tools and investigation techniques. Adding Grafana dashboards and a Jaeger instance does not automatically improve incident response if the team does not know how to use them effectively under pressure.
 
-## Examples
+## How It Could Be
 
 > Legacy systems are often the environments where observability delivers the most immediate operational value, precisely because they have historically been operated with the least visibility.
 

@@ -41,7 +41,7 @@ layout: solution
 - Not all workloads benefit from hardware acceleration; misapplication wastes investment
 - Hardware refresh cycles add a dimension of planning that software-only solutions avoid
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

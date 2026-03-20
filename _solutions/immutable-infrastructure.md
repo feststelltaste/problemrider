@@ -43,7 +43,7 @@ layout: solution
 - Requires investment in automation tooling and container or image management infrastructure
 - Teams accustomed to SSH-and-fix workflows need cultural and process adaptation
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

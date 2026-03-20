@@ -44,7 +44,7 @@ layout: solution
 - May create a false sense of completeness: not every design problem has a matching pattern
 - Requires investment in team education to be effective
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

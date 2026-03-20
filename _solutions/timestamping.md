@@ -47,7 +47,7 @@ layout: solution
 - Storage overhead increases, particularly for high-volume tables where every row gains two or more timestamp columns.
 - Clock synchronization across legacy infrastructure components may be imperfect, especially in environments with older hardware or network configurations.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how timestamping resolves data integrity and debugging challenges in legacy systems.
 

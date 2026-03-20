@@ -45,7 +45,7 @@ layout: solution
 - Teams may disagree on where bubble boundaries should be drawn, leading to inconsistent application of the pattern.
 - The bubble's clean model and the legacy model can drift apart, making the translation layer increasingly complex over time.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates how bubble context enables clean development within a legacy codebase.
 

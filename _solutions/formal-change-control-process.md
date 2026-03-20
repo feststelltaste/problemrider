@@ -60,7 +60,7 @@ A formal change control process is a structured mechanism for evaluating, approv
 - Legacy modernization projects that genuinely require frequent scope adjustment because of constant discovery of undocumented requirements may find a rigid change control process counterproductive — the process must distinguish between discovery (expected) and expansion (requiring evaluation).
 - Teams accustomed to informal, flexible working arrangements may resist the introduction of formal process, perceiving it as distrust or bureaucracy rather than as protection against the chaos they have been experiencing.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how formal change control processes address scope management challenges in legacy system contexts.
 

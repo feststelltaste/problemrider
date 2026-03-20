@@ -46,7 +46,7 @@ layout: solution
 - Users may form strong attachments to specific prototype designs, making it difficult to incorporate feedback from other user groups.
 - The effort required for prototyping may be seen as wasteful by stakeholders who expect linear progress toward delivery.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates how prototyping guides decision-making in legacy modernization.
 

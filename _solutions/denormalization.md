@@ -42,7 +42,7 @@ layout: solution
 - Storage requirements increase due to duplicated data
 - Schema complexity grows with additional columns and tables
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

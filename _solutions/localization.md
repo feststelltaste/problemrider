@@ -47,7 +47,7 @@ layout: solution
 - Right-to-left language support may require significant layout changes that are difficult to retrofit into legacy CSS and component structures.
 - Cultural localization goes beyond translation and includes considerations like icon meanings, color associations, and content appropriateness that require domain expertise.
 
-## Examples
+## How It Could Be
 
 > Localization failures in legacy systems range from comical to costly, and they become urgent when the organization expands internationally.
 

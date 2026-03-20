@@ -55,7 +55,7 @@ layout: solution
 - Refactoring legacy code toward SOLID principles without adequate test coverage carries the same risk as any refactoring: behavior may change in ways that are not detected until production.
 - In some legacy contexts, the procedural style is actually appropriate — batch processing scripts, data migration utilities, and simple CRUD operations may not benefit from full SOLID treatment, and forcing OOP patterns onto them adds complexity without value.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how SOLID principles address concrete design problems encountered in legacy systems.
 

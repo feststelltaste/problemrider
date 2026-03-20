@@ -42,7 +42,7 @@ layout: solution
 - Idempotency key storage requires cleanup to avoid unbounded growth
 - Caching results of operations increases storage requirements
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

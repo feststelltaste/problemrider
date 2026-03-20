@@ -46,7 +46,7 @@ layout: solution
 - The knowledge base can create a false sense of documentation completeness, causing teams to neglect keeping it updated as the system evolves.
 - Without analytics and feedback mechanisms, the team cannot tell which articles are helpful and which are missing or inadequate.
 
-## Examples
+## How It Could Be
 
 > When knowledge about a legacy system exists only as tribal knowledge, every departure of an experienced team member creates a knowledge crisis.
 

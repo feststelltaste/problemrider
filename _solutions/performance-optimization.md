@@ -45,7 +45,7 @@ layout: solution
 - Optimizing perceived performance may reduce pressure to fix underlying backend performance issues, allowing them to worsen over time.
 - Implementing lazy loading and virtual scrolling in legacy frontend frameworks that do not natively support them can be technically challenging.
 
-## Examples
+## How It Could Be
 
 > Users judge application speed by what they see, not by what the server logs say. Optimizing perceived performance can transform a sluggish legacy system without touching the backend.
 

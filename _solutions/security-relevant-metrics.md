@@ -42,7 +42,7 @@ layout: solution
 - Over-reliance on metrics can create blind spots for risks that are not easily quantified
 - Metric programs require ongoing curation to remain relevant as the threat landscape evolves
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

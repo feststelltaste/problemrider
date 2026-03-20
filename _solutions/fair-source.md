@@ -45,7 +45,7 @@ layout: solution
 - Security-sensitive legacy code may not be appropriate for broad visibility.
 - Maintaining open development infrastructure and responding to community contributions requires dedicated effort.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates how open development practices improve a legacy system.
 

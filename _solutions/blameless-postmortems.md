@@ -55,7 +55,7 @@ layout: solution
 - "Blameless" can become a superficial label while blame continues through tone, framing, or organizational consequences. Engineers in legacy teams with traumatic incident histories are skilled at detecting when blamelessness is genuine versus performative.
 - Postmortem fatigue sets in quickly if every minor incident triggers a full review. Legacy systems with high incident frequency need clear severity thresholds — not every pager alert warrants a structured postmortem.
 
-## Examples
+## How It Could Be
 
 > The combination of aging systems, underdocumented behavior, and accumulated technical debt makes legacy environments both the most challenging context for blameless postmortems and the context where they deliver the greatest value.
 

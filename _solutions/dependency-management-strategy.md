@@ -56,7 +56,7 @@ layout: solution
 - Major version upgrades of foundational frameworks (Spring Boot 2 to 3, Angular 9 to 17) in legacy systems can require changes across hundreds of files and constitute projects in their own right, not just dependency bumps.
 - Dependency on external maintainers whose priorities do not align with the legacy system's needs is an irreducible risk; a popular library abandoning support for an older Java version can force an upgrade cascade that the team is not prepared for.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate what dependency management looks like when applied to real legacy system conditions.
 

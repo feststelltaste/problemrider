@@ -46,7 +46,7 @@ layout: solution
 - Internal PKI infrastructure (Certificate Authority, CRL distribution, OCSP responder) introduces additional components that must be maintained and kept highly available.
 - Over-rotation of certificates without proper testing can break integrations with external systems that cache or pin the previous certificate.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how certificate management prevents outages and strengthens security in legacy systems.
 

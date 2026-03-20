@@ -47,7 +47,7 @@ layout: solution
 - Error budget policies can create tension between teams when reliability work competes with feature delivery, requiring strong organizational buy-in.
 - Measuring SLIs accurately in legacy systems with complex, opaque architectures is non-trivial and may produce misleading metrics if instrumentation is incomplete.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how SLOs help legacy systems manage reliability expectations and prioritize improvement work.
 

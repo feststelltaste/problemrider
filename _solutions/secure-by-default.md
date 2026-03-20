@@ -43,7 +43,7 @@ layout: solution
 - Legacy systems often have undocumented dependencies on insecure default behaviors
 - Changing defaults in production systems requires careful rollout and testing
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

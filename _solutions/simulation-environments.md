@@ -39,6 +39,6 @@ layout: solution
 - Complex legacy systems with many integrations are difficult to simulate faithfully.
 - Data generation for realistic test scenarios can be time-consuming.
 
-## Examples
+## How It Could Be
 
 A healthcare organization needs to modernize a legacy claims processing system but cannot test against production due to regulatory constraints. They build a simulation environment that replicates the legacy database schema, populates it with anonymized data, and stubs out external partner APIs. Developers run integration tests locally against this simulated stack, catching compatibility issues early. When a major schema migration is planned, the team rehearses it repeatedly in the simulation environment, identifying and fixing data conversion edge cases before the actual migration window. This approach reduces migration risk and gives the team confidence to proceed with changes they would otherwise avoid.

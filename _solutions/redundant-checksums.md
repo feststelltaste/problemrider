@@ -40,7 +40,7 @@ layout: solution
 - Increases code complexity at data handling boundaries
 - Legacy data formats may need modification to accommodate checksum fields
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -38,6 +38,6 @@ layout: solution
 - Decision tables can become unwieldy if the number of conditions and combinations is very large.
 - Introducing a rules engine adds a dependency and learning curve.
 
-## Examples
+## How It Could Be
 
 A legacy insurance pricing system contains over 2,000 lines of nested conditional logic that calculates premiums based on age, location, coverage type, claim history, and policy tenure. No one fully understands all the interactions between conditions. The team extracts the pricing logic into decision tables, with one table per coverage type. Each row specifies a combination of input conditions and the resulting premium modifier. Business analysts review the tables and discover three condition combinations that produce incorrect pricing (the errors had been in production for years). The decision tables are then implemented using a lightweight rules engine, reducing the pricing code from 2,000 lines to 200 lines plus the externalized tables, and making future pricing changes a matter of editing a table rather than modifying code.

@@ -41,7 +41,7 @@ layout: solution
 - Manual checklists do not scale well for large codebases or frequent changes
 - May create a false sense of security if important portability aspects are not covered
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

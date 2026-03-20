@@ -45,7 +45,7 @@ layout: solution
 - Migrating keys from legacy storage to a KMS requires careful handling during the transition to avoid both key exposure and key loss.
 - Overly complex key management processes can lead to workarounds where developers bypass the system and embed keys directly in code.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how key management protects legacy system cryptography.
 

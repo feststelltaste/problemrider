@@ -50,7 +50,7 @@ layout: solution
 - A vault compromise exposes all secrets simultaneously — the concentration of credentials that makes management easier also makes the vault a high-value target requiring its own rigorous protection.
 - Legacy systems may have credentials shared across multiple applications with no clear ownership; untangling this sharing to apply per-service policies requires careful analysis before migration can proceed.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how secret management surfaces in real legacy system modernization efforts.
 

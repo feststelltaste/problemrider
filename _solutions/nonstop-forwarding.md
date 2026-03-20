@@ -40,7 +40,7 @@ layout: solution
 - Debugging routing issues becomes harder when forwarding operates independently of control
 - Not all legacy architectures can cleanly separate control and data planes
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

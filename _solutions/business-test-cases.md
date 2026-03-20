@@ -38,6 +38,6 @@ layout: solution
 - Keeping business test cases updated requires ongoing collaboration as requirements change.
 - Translation between business language and automated tests can introduce discrepancies.
 
-## Examples
+## How It Could Be
 
 A legacy HR system handles payroll calculations with complex rules for overtime, benefits, and tax deductions. Developers have written unit tests based on their understanding of the rules, but payroll errors persist. The team engages payroll specialists to create business test cases with real-world scenarios including edge cases they encounter regularly: employees who change benefit plans mid-pay-period, retroactive salary adjustments, and multi-state tax situations. The payroll specialists review automated test results monthly, and several of their edge-case scenarios reveal calculation errors that have been producing incorrect pay stubs for years. These business-validated test cases become the authoritative verification suite for any changes to payroll logic.

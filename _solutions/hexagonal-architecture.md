@@ -44,7 +44,7 @@ layout: solution
 - Retrofitting onto a deeply coupled legacy system can be a large upfront investment
 - Over-engineering risk if applied to simple systems that do not benefit from the separation
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

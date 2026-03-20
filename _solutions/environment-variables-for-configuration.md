@@ -46,7 +46,7 @@ layout: solution
 - Environment variables are visible to all processes in the same environment, posing a security risk for secrets
 - Legacy applications with deeply embedded configuration loading may require significant refactoring
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

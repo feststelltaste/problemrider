@@ -47,7 +47,7 @@ layout: solution
 - Instrumenting legacy systems with limited APIs or closed-source components may require creative workarounds that are fragile and difficult to maintain.
 - Comprehensive monitoring generates significant data volumes that require storage, retention policies, and potentially additional infrastructure costs.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how status monitoring prevents and shortens outages in legacy systems.
 

@@ -43,7 +43,7 @@ layout: solution
 - Can become a straightjacket if enforced too rigidly, preventing pragmatic shortcuts
 - Retrofitting layers onto deeply entangled legacy code requires substantial effort
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

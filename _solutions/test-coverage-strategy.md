@@ -59,7 +59,7 @@ layout: solution
 - Poorly written tests — testing implementation details rather than behavior, or making assertions so broad they never fail — create false confidence while adding maintenance overhead without providing real protection.
 - Slow test suites that take hours to run are common in legacy systems where integration tests accumulate against real databases and external systems; without active management, the pipeline becomes a bottleneck that teams work around rather than through.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how a deliberate test coverage strategy brings a legacy system under control without requiring a disruptive stop-the-world testing effort.
 

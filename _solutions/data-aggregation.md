@@ -41,7 +41,7 @@ layout: solution
 - Errors in aggregation can go undetected and produce misleading reports
 - Changing aggregation dimensions after the fact requires reprocessing historical data
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

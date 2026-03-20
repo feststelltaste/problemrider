@@ -41,6 +41,6 @@ layout: solution
 - Requires comprehensive automated testing to maintain confidence in frequent releases.
 - Cultural shift from infrequent "big bang" releases requires team adaptation and management support.
 
-## Examples
+## How It Could Be
 
 A legacy content management system is deployed quarterly through a manual, two-day process involving multiple teams and handoff documents. Each release bundles months of changes, and rollbacks require restoring from backup. The team invests three months in building a CI/CD pipeline: automated builds, database migration scripts, environment provisioning, and smoke tests. They begin releasing weekly, then twice weekly. Deployment incidents drop dramatically because each release contains fewer changes, and the automated pipeline eliminates the human errors that plagued manual deployments. The team discovers and fixes bugs within days instead of accumulating them for months, and stakeholders gain confidence in the delivery process.

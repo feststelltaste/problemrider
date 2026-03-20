@@ -46,7 +46,7 @@ layout: solution
 - Error messages must be updated when system behavior changes, or they will provide incorrect guidance.
 - Internationalizing error messages adds translation effort for every supported language.
 
-## Examples
+## How It Could Be
 
 > Cryptic error messages are among the most universally frustrating aspects of legacy systems and one of the easiest to improve incrementally.
 

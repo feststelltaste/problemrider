@@ -40,7 +40,7 @@ layout: solution
 - Inconsistent adoption across teams undermines the strategy's value
 - Some versioning mechanisms (e.g., URL path) can lead to code duplication in service implementations
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

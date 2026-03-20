@@ -46,7 +46,7 @@ layout: solution
 - Enforcing style guide compliance in a large team working on a legacy system requires vigilance, as legacy code that predates the guide will continue to violate it until refactored.
 - Maintaining the style guide as a living document requires ongoing effort; an abandoned style guide quickly becomes a misleading artifact.
 
-## Examples
+## How It Could Be
 
 > Without a style guide, every developer makes independent design decisions, resulting in a system that feels like multiple applications stitched together.
 

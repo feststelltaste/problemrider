@@ -54,7 +54,7 @@ layout: solution
 - A poorly designed ACL that accumulates state or grows too large can itself become a legacy problem, inheriting the complexity it was supposed to shield against.
 - Latency is added for every cross-boundary call; in high-throughput integration scenarios this overhead must be measured and managed.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how the ACL pattern resolves real integration pressures in legacy modernization programs.
 

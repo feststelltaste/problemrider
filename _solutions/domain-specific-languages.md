@@ -39,6 +39,6 @@ layout: solution
 - DSLs require maintenance: the language itself, its tooling, and its documentation.
 - Debugging DSL-expressed logic can be challenging if error messages map poorly to the domain language.
 
-## Examples
+## How It Could Be
 
 A legacy insurance company has premium calculation rules embedded in thousands of lines of Java code with deeply nested conditionals. Business analysts cannot verify whether the code correctly implements their pricing models. The team creates an internal DSL using a fluent API that reads like natural language: `when(driver.age().isBelow(25)).and(vehicle.type().is("sports")).then(applyMultiplier(1.8))`. The existing Java rules are migrated to DSL expressions one by one, with tests verifying equivalent behavior. Actuaries can now read the pricing rules directly and spot errors. When a regulatory change requires new pricing factors, the change is expressed in the DSL and implemented in hours rather than the weeks it previously took to modify and test the legacy Java code.

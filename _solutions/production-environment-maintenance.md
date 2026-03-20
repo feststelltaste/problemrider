@@ -42,7 +42,7 @@ layout: solution
 - Skipping maintenance due to schedule pressure creates compounding technical debt
 - Maintenance procedures for legacy systems may require specialized knowledge
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

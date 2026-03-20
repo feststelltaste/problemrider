@@ -42,7 +42,7 @@ layout: solution
 - Some architectural improvements are impossible without breaking backward compatibility
 - Testing the full matrix of old and new combinations increases CI costs
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

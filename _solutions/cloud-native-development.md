@@ -44,7 +44,7 @@ layout: solution
 - Legacy applications with assumptions about local file systems, static IPs, or persistent instances require significant refactoring
 - Team skills gap between traditional infrastructure management and cloud-native operations
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

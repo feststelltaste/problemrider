@@ -37,6 +37,6 @@ layout: solution
 - Retrofitting versions onto legacy components without prior versioning requires careful analysis.
 - Different versioning schemes across the portfolio can reduce the intended clarity.
 
-## Examples
+## How It Could Be
 
 A large enterprise maintains over fifty internal libraries used by legacy applications. Historically, libraries were versioned with arbitrary build numbers that conveyed no compatibility information. The architecture team introduces a uniform versioning scheme: semver for libraries, calendar versioning for data schemas, and URL-path versioning for REST APIs. Each team documents their versioning policy in a shared wiki. Build pipelines enforce that pull requests include a version bump and a changelog entry. Within a few months, developers across the organization can assess upgrade risk at a glance, and automated tools handle patch-level updates without human intervention.

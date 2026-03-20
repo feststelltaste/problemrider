@@ -41,7 +41,7 @@ layout: solution
 - Flaky results can occur if properties are not deterministic or if seed management is neglected
 - Not all legacy code has easily expressible properties, limiting applicability
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

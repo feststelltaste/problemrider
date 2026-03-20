@@ -44,7 +44,7 @@ layout: solution
 - Undo history consumes storage and must be bounded to prevent unbounded growth, especially in high-volume systems.
 - Multi-user environments create complications: undoing a change that another user has subsequently modified can create conflicts.
 
-## Examples
+## How It Could Be
 
 > The absence of undo in legacy systems creates a culture of cautious, slow interaction where users are afraid to explore or experiment.
 

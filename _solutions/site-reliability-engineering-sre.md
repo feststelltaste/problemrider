@@ -50,7 +50,7 @@ layout: solution
 - On-call rotations for legacy systems can be burdensome if the system has many failure modes and few runbooks, leading to burnout during the transition period.
 - Automation of legacy operational tasks may require substantial investment in tooling and infrastructure that the legacy system was not designed to support.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how SRE principles stabilize legacy system operations.
 

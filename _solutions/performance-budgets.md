@@ -44,7 +44,7 @@ layout: solution
 - Measuring performance accurately requires investment in monitoring infrastructure
 - Teams may optimize for the metric rather than actual user experience
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -44,7 +44,7 @@ layout: solution
 - Maintaining rollback capability adds effort to every deployment
 - Frequent reliance on rollback can indicate deeper quality issues that need addressing
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

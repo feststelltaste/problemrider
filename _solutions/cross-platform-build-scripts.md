@@ -44,7 +44,7 @@ layout: solution
 - Legacy build processes with deep OS dependencies may resist cross-platform conversion
 - The chosen cross-platform language or tool becomes a dependency itself
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

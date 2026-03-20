@@ -59,7 +59,7 @@ Product strategy alignment is the practice of explicitly connecting every develo
 - Stakeholders accustomed to requesting features directly may resist an approach that requires them to articulate business problems and accept solutions they did not prescribe.
 - Measuring business outcomes of technical initiatives like debt reduction or architecture improvements can be difficult, risking underinvestment in technical health if the framework is applied too rigidly.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how product strategy alignment addresses common legacy system challenges.
 

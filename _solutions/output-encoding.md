@@ -45,7 +45,7 @@ layout: solution
 - Double-encoding (encoding data that is already encoded) produces garbled output, which is a common issue when retrofitting encoding into legacy systems with inconsistent encoding practices.
 - Output encoding does not help for rich content where HTML is intentionally rendered (CMS systems, email templates), requiring sanitization rather than encoding.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how output encoding prevents injection attacks in legacy systems.
 

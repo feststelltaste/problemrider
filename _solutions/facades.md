@@ -41,7 +41,7 @@ layout: solution
 - A poorly designed facade can oversimplify the interface, limiting necessary functionality
 - Maintaining both the facade and direct access paths increases the surface area
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

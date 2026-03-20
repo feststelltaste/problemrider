@@ -47,7 +47,7 @@ layout: solution
 - Implementing crash-safe logging correctly is complex and subtle; bugs in the logging or recovery logic can cause the very data corruption it is designed to prevent.
 - Recovery replay time after a crash depends on the amount of uncompacted log, which can delay system restart if checkpointing is infrequent.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how write-ahead logging prevents data loss and corruption in legacy systems.
 

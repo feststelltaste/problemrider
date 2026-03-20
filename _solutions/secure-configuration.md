@@ -44,7 +44,7 @@ layout: solution
 - Strict configuration management can slow down troubleshooting when developers need temporary relaxed settings
 - Some legacy components may not support externalized or automated configuration
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

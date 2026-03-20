@@ -42,7 +42,7 @@ layout: solution
 - Foreign key constraints can impact write performance on high-throughput tables
 - Retroactively enforcing integrity on historical data can be extremely time-consuming
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

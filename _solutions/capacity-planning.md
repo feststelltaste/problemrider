@@ -50,7 +50,7 @@ layout: solution
 - Maintaining and updating the capacity model requires ongoing effort from engineers who understand both the system internals and the business context, which competes with feature development time.
 - In legacy systems with opaque or poorly understood resource consumption patterns, building an accurate model may require significant upfront investigation and profiling effort.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how capacity planning addresses resource management problems in legacy systems.
 

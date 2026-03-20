@@ -45,7 +45,7 @@ layout: solution
 - Over-reliance on code generation can lead to generated code that does not fit well in all contexts, requiring workarounds.
 - Developers may not understand the generated code well enough to debug issues or recognize when generation is producing suboptimal output.
 
-## Examples
+## How It Could Be
 
 > The following scenario shows how code generation accelerates legacy system migration.
 

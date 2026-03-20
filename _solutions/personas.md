@@ -44,7 +44,7 @@ layout: solution
 - Personas can become stale if not updated as the modernization changes user workflows and expectations.
 - Teams may over-optimize for one persona at the expense of others if persona priorities are not well balanced.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates how personas guide legacy system modernization decisions.
 

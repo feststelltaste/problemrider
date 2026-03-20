@@ -46,7 +46,7 @@ layout: solution
 - The watchdog itself is a component that must be monitored, maintained, and kept highly available — a failed watchdog creates a false sense of safety.
 - Overly aggressive restart policies can cause thrashing where a process repeatedly starts, fails, restarts, and fails again, potentially worsening the situation.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how watchdog processes detect and recover from failures in legacy systems.
 

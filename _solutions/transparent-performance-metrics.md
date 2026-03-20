@@ -44,7 +44,7 @@ layout: solution
 - Over-exposure of internal metrics can create pressure to optimize for visible numbers rather than user experience
 - Legacy systems may lack the instrumentation needed to produce meaningful public metrics
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

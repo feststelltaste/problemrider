@@ -47,7 +47,7 @@ layout: solution
 - Overly strict fitness functions can slow development by flagging too many violations in a legacy codebase with many existing issues.
 - Some architectural qualities (conceptual integrity, appropriate abstraction levels) are difficult to express as automated fitness functions.
 
-## Examples
+## How It Could Be
 
 > The following scenario demonstrates how fitness functions guide and protect legacy system modernization.
 

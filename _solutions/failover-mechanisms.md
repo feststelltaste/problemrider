@@ -44,7 +44,7 @@ layout: solution
 - Masking underlying problems can delay necessary architectural fixes
 - Requires ongoing testing to ensure failover paths remain functional
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

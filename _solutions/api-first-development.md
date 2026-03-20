@@ -45,7 +45,7 @@ layout: solution
 - Over-specifying APIs can constrain implementation flexibility
 - Maintaining consistency between specification and implementation requires tooling and discipline
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -44,7 +44,7 @@ layout: solution
 - Focus trapping in modals requires careful handling of edge cases such as modals within modals and dynamically loaded content within dialogs.
 - Maintaining focus management as the UI evolves requires ongoing attention and cannot be treated as a one-time fix.
 
-## Examples
+## How It Could Be
 
 > Focus management problems in legacy systems are often invisible to developers using a mouse but create significant barriers for keyboard and screen reader users.
 

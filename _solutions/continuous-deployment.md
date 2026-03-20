@@ -48,7 +48,7 @@ layout: solution
 - Organizational culture may resist fully automated deployments, especially for systems that handle sensitive data or financial transactions.
 - Database schema changes in legacy systems can be particularly challenging to automate safely.
 
-## Examples
+## How It Could Be
 
 > The following scenario shows the journey from manual to continuous deployment for a legacy system.
 

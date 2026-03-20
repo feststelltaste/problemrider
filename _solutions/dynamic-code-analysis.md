@@ -46,7 +46,7 @@ layout: solution
 - DAST tools can generate significant load and may trigger security controls (WAF, IDS) that interfere with testing.
 - Legacy systems may be fragile and could crash or behave unpredictably under the unusual inputs that dynamic analysis generates.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how dynamic code analysis uncovers security vulnerabilities in legacy systems.
 

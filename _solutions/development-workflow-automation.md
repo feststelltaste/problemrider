@@ -59,7 +59,7 @@ Development workflow automation addresses the accumulated friction in legacy dev
 - Legacy systems with complex, undocumented deployment procedures may resist automation because the manual steps contain implicit knowledge about system quirks that is difficult to encode in scripts.
 - Teams that have worked manually for years may resist adopting automated workflows, particularly if past automation attempts failed or created new problems.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how development workflow automation addresses the specific productivity drains found in legacy development environments.
 

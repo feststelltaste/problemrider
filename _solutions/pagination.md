@@ -45,7 +45,7 @@ layout: solution
 - Users may not find specific items easily if search or filtering is not also improved
 - Legacy reports that depend on processing all records at once require rework
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

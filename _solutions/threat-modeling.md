@@ -45,7 +45,7 @@ layout: solution
 - Incomplete threat models can create false confidence about security coverage
 - Analysis paralysis can occur if threat modeling becomes too detailed or academic
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

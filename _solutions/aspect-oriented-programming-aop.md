@@ -45,7 +45,7 @@ layout: solution
 - AOP introduces a dependency on the AOP framework, which may complicate future technology migrations.
 - Excessive use of AOP can make the system harder to understand than the original duplicated code, especially when multiple aspects interact at the same join point.
 
-## Examples
+## How It Could Be
 
 > The following scenario demonstrates how AOP reduces duplication in a legacy codebase.
 

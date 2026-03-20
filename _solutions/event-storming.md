@@ -38,6 +38,6 @@ layout: solution
 - Facilitation skills are important; poorly facilitated sessions can be unproductive.
 - Large legacy systems may require multiple sessions to cover adequately.
 
-## Examples
+## How It Could Be
 
 A legacy order fulfillment system needs to be decomposed for modernization, but no one has a complete picture of how all the pieces fit together. The team runs a two-day event storming workshop with warehouse managers, customer service representatives, and developers. They discover over sixty domain events and identify three distinct bounded contexts: order intake, warehouse operations, and shipping coordination. The workshop reveals that the legacy system handles returns through an undocumented side channel that bypasses the main order flow, a critical business process that was unknown to the development team. The event storming output becomes the blueprint for the decomposition effort, and the discovered bounded contexts guide both the technical architecture and the team structure for the modernization project.

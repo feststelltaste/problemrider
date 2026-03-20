@@ -43,7 +43,7 @@ layout: solution
 - Policy enforcement in legacy systems may require additional tooling that the platform does not natively support
 - Compliance monitoring for user behavior policies requires investment in auditing capabilities
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

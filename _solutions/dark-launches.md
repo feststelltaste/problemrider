@@ -44,7 +44,7 @@ layout: solution
 - Shadow traffic approaches require careful handling to avoid unintended writes or state changes
 - Testing becomes more complex with multiple feature flag combinations
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -45,7 +45,7 @@ layout: solution
 - Over-splitting stories to fit sprint timeslots can fragment user workflows into pieces too small to validate meaningfully.
 - Teams may write stories that are thinly disguised technical tasks rather than genuine user-value expressions.
 
-## Examples
+## How It Could Be
 
 > The following scenario demonstrates how user stories guide legacy modernization decisions.
 

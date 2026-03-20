@@ -43,7 +43,7 @@ layout: solution
 - Retrofitting 2FA into legacy authentication systems may require significant code changes
 - Service accounts and automated processes may not easily support 2FA workflows
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

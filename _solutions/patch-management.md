@@ -47,7 +47,7 @@ layout: solution
 - Patching may require downtime, which is difficult to schedule for systems with high availability requirements.
 - End-of-life software that no longer receives patches cannot be remediated through patching, requiring migration or compensating controls.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how patch management reduces risk in legacy systems.
 

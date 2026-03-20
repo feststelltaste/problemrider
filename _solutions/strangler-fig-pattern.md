@@ -54,7 +54,7 @@ layout: solution
 - The migration can stall after early quick wins: the first capabilities to migrate are typically the cleanest, while deeply entangled modules at the core of the legacy system may prove extremely difficult to extract cleanly.
 - Without a strong decommission mandate, teams may lose urgency to complete the migration once immediate pain is relieved, leaving both systems running indefinitely.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how the Strangler Fig Pattern plays out in real legacy modernization situations, from simple routing changes to complex data migrations.
 

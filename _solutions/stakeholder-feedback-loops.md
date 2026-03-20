@@ -59,7 +59,7 @@ Stakeholder feedback loops are structured, recurring mechanisms that ensure busi
 - Teams accustomed to operating without stakeholder oversight may perceive regular demos and reviews as unwelcome scrutiny, particularly when the legacy codebase makes progress slow and difficult to demonstrate.
 - In organizations with deeply damaged trust, initial feedback sessions may be adversarial and uncomfortable; facilitators must be prepared for difficult conversations and resist the temptation to cancel sessions when they become tense.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how structured stakeholder feedback loops address communication gaps, trust deficits, and alignment problems in legacy system contexts.
 

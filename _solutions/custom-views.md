@@ -44,7 +44,7 @@ layout: solution
 - Users may create views that omit important information and then miss critical data, requiring safeguards such as mandatory columns for certain roles.
 - Persisting view configuration requires additional database storage and API endpoints that the legacy system may not have.
 
-## Examples
+## How It Could Be
 
 > One-size-fits-all interfaces in legacy systems drive users to create shadow systems where they can see the data the way they need it.
 

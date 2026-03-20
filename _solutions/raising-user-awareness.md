@@ -44,7 +44,7 @@ layout: solution
 - Awareness alone does not prevent all attacks; technical controls remain essential
 - Measuring the ROI of awareness programs is inherently difficult
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

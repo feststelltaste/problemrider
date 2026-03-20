@@ -43,7 +43,7 @@ layout: solution
 - Container-based builds may introduce additional startup latency compared to native agents
 - Some advanced pipeline features like matrix builds or approval gates differ significantly across platforms
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

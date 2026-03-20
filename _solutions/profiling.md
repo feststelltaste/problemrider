@@ -54,7 +54,7 @@ layout: solution
 - Production profiling carries a small risk of impacting live users, and some organizations' security policies prohibit capturing heap dumps that may contain sensitive data.
 - Profiling is a point-in-time observation; performance characteristics change as data grows, features are added, and usage patterns shift. A single profiling session does not replace ongoing performance monitoring.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how profiling uncovers and resolves performance problems in legacy systems.
 

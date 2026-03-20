@@ -52,7 +52,7 @@ layout: solution
 - Teams unfamiliar with Design by Contract may write trivially obvious contracts (precondition: parameter is not null) that add clutter without value, rather than the meaningful behavioral contracts that provide real protection.
 - Retrofitting contracts to legacy code requires understanding the code's actual behavior, which is the very problem contracts are meant to solve — bootstrapping contracts in poorly understood code requires careful characterization testing first.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how Design by Contract has been applied to bring clarity and correctness guarantees to legacy systems where implicit assumptions caused recurring problems.
 

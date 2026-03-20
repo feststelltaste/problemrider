@@ -43,7 +43,7 @@ layout: solution
 - Over-isolation can make legitimate cross-cutting operations more complex
 - Teams need monitoring to detect and respond to contained faults that users may not notice
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

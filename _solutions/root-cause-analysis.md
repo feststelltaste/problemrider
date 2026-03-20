@@ -43,7 +43,7 @@ layout: solution
 - Root cause analysis can lead to analysis paralysis if not time-boxed
 - Not all root causes are practical to fix in legacy systems, requiring risk acceptance decisions
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

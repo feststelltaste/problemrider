@@ -41,7 +41,7 @@ layout: solution
 - Buffer overflow under heavy load may require dropping log messages or blocking
 - Timestamps in logs may not perfectly reflect the order of events due to buffering
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

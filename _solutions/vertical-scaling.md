@@ -44,7 +44,7 @@ layout: solution
 - Can mask underlying problems, delaying necessary refactoring
 - Creates a single point of failure with higher blast radius as more load concentrates on one machine
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -44,7 +44,7 @@ layout: solution
 - Debugging issues related to probabilistic behavior is inherently more complex
 - Not suitable for operations requiring exact results or audit trails
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

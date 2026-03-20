@@ -36,6 +36,6 @@ layout: solution
 - Automated verification of quality scenarios may require specialized testing infrastructure.
 - Scenarios need regular review to stay aligned with evolving business needs.
 
-## Examples
+## How It Could Be
 
 A legacy banking application must meet strict availability and performance requirements, but these are expressed only as vague statements like "the system should be fast and reliable." The team works with business stakeholders to define concrete quality scenarios: "During month-end processing, when 200 concurrent users run balance reports, each report must complete within 5 seconds" and "If the primary database fails, the system must failover to the standby within 30 seconds with no data loss." These scenarios guide the modernization effort by making it clear which quality improvements deliver business value and which are merely technical preferences. The team builds automated tests that verify these scenarios in staging environments before each release.

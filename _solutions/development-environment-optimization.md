@@ -57,7 +57,7 @@ Development environment optimization is the systematic effort to remove friction
 - Over-optimization of the development environment can become a form of yak-shaving where the team spends more time perfecting their tools than delivering value; the goal is to remove meaningful friction, not achieve a perfect setup.
 - Some environment improvements require organizational buy-in for infrastructure spending that may be difficult to obtain when budgets are focused on feature delivery.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how development environment optimization addresses productivity and workflow problems in legacy system teams.
 

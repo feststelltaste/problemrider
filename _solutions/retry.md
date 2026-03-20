@@ -43,7 +43,7 @@ layout: solution
 - Retrying persistently failing operations wastes resources and delays error reporting
 - Masking transient failures can hide systemic issues that need investigation
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

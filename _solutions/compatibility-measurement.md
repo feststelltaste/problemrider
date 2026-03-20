@@ -41,7 +41,7 @@ layout: solution
 - Metrics can be gamed or misinterpreted if not carefully designed
 - Over-measurement can create dashboard fatigue without driving action
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

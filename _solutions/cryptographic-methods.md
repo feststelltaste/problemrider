@@ -44,7 +44,7 @@ layout: solution
 - Cryptographic migration can break integrations with external systems that expect the legacy algorithm or data format.
 - Incorrect implementation of even strong algorithms (wrong mode, predictable IVs, improper padding) can negate their security benefits.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how upgrading cryptographic methods strengthens legacy system security.
 

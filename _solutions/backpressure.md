@@ -53,7 +53,7 @@ layout: solution
 - Implementing backpressure across service boundaries in a legacy system with many integration points requires coordinated changes across multiple components, which is difficult when different teams own different services.
 - Load shedding decisions require clear business rules about which operations are expendable and which are critical, and getting these priorities wrong can cause more harm than the overload itself.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how backpressure mechanisms prevent system failures in legacy systems under overload.
 

@@ -45,7 +45,7 @@ layout: solution
 - Supporting both mobile and desktop in a legacy codebase increases testing complexity and the number of layouts to maintain.
 - Mobile-first design may require a modern responsive frontend framework, which conflicts with legacy frontend technologies.
 
-## Examples
+## How It Could Be
 
 > Field workers using legacy systems on mobile devices often resort to paper-based workarounds because the system is unusable on their phones.
 

@@ -37,6 +37,6 @@ layout: solution
 - Refactoring existing code to match a pattern requires effort and careful testing.
 - Some domain patterns may not map cleanly to the legacy system's existing structure.
 
-## Examples
+## How It Could Be
 
 A legacy accounting system implements double-entry bookkeeping through scattered validation checks and reconciliation scripts rather than using the well-established accounting entry pattern. Discrepancies between accounts are a recurring problem, and debugging requires tracing through multiple code paths. The team refactors the core transaction handling to use the standard accounting entry pattern, where every financial event produces balanced debit and credit entries as an atomic operation. The pattern makes it structurally impossible to create unbalanced entries, eliminating an entire category of bugs. New developers with accounting domain knowledge immediately recognize the pattern and can work productively without studying the custom implementation that it replaced.

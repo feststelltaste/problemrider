@@ -49,7 +49,7 @@ layout: solution
 - Pipeline infrastructure requires ongoing maintenance and operational support
 - Fast delivery cadence requires mature monitoring to catch issues that slip through automated checks
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

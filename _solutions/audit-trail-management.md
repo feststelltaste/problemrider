@@ -46,7 +46,7 @@ layout: solution
 - Audit logs themselves may contain sensitive information (user identifiers, accessed record details) that requires protection and access control.
 - Retrofitting comprehensive audit trails into legacy systems requires changes to many code paths, which is time-consuming and carries its own risk of introducing bugs.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how audit trail management enables compliance and investigation in legacy systems.
 

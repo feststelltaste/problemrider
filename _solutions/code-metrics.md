@@ -47,7 +47,7 @@ layout: solution
 - Setting metric thresholds too aggressively on a legacy codebase can overwhelm the team with violations that cannot all be addressed.
 - Some important quality attributes (naming quality, design appropriateness, business alignment) cannot be captured by automated metrics.
 
-## Examples
+## How It Could Be
 
 > The following scenario demonstrates how code metrics guide legacy modernization priorities.
 

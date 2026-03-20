@@ -57,7 +57,7 @@ layout: solution
 - Without genuine stakeholder engagement at iteration boundaries, short cycles become short waterfalls: the team delivers work that nobody reviews until a larger milestone, losing the primary benefit of rapid feedback.
 - Iteration overhead — planning, review, retrospective — consumes a fixed percentage of each cycle. For very short iterations on large legacy systems, this overhead can feel disproportionate until the team becomes efficient at these ceremonies.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how short iteration cycles address planning, scheduling, and control problems in legacy system contexts.
 

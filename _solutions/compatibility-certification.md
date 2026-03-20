@@ -41,7 +41,7 @@ layout: solution
 - Passing certification does not guarantee real-world compatibility in all environments
 - Recertification adds recurring cost to every major release
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -48,7 +48,7 @@ layout: solution
 - Over-optimization can waste developer time on code paths that are not actual bottlenecks. Always profile before optimizing to ensure effort is directed at real problems.
 - Some algorithmic improvements trade space for time (e.g., hash tables require additional memory), which may not be viable in memory-constrained environments.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how choosing efficient algorithms resolves performance problems in legacy systems.
 

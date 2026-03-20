@@ -41,7 +41,7 @@ layout: solution
 - Debugging issues caused by approximation errors can be subtle and difficult
 - Some approximation techniques require specialized knowledge to implement correctly
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -44,7 +44,7 @@ layout: solution
 - Over-reliance on models can lead to false confidence if assumptions are wrong
 - Maintaining models as the system changes requires ongoing investment
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

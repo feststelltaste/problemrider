@@ -44,7 +44,7 @@ layout: solution
 - Build configuration complexity increases with tree shaking rules and exceptions
 - Some libraries are not tree-shakeable, requiring replacement or manual exclusion
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

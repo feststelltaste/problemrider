@@ -44,7 +44,7 @@ layout: solution
 - First-use guidance may become annoying for users who create new projects or accounts frequently, requiring a mechanism to skip or dismiss.
 - Localizing empty state content into multiple languages adds to the translation workload.
 
-## Examples
+## How It Could Be
 
 > The first impression of a legacy system for new users is often a screen with no data and no guidance, setting a negative tone from the start.
 

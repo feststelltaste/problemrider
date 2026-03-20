@@ -45,7 +45,7 @@ layout: solution
 - Oversimplifying technical concepts in an expert-facing system can feel patronizing to experienced users who prefer precise terminology.
 - Maintaining plain language standards requires vigilance during code reviews, as developers tend to revert to technical language without guidance.
 
-## Examples
+## How It Could Be
 
 > Legacy systems often feel hostile to users not because of poor functionality but because of impenetrable language.
 

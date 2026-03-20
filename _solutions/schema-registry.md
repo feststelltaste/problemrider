@@ -39,6 +39,6 @@ layout: solution
 - Strict compatibility modes can slow down schema evolution when rapid changes are needed.
 - Teams must learn new tooling and adapt their development workflows.
 
-## Examples
+## How It Could Be
 
 A financial services company runs a legacy message broker where twelve services exchange Avro-encoded events. After several production incidents caused by uncoordinated schema changes, they deploy a schema registry and register all existing schemas. Each service's CI build now validates new schema versions against the registry's backward-compatibility rules. Within three months, integration-related incidents drop significantly because incompatible changes are caught at build time rather than at runtime. Teams that previously spent hours debugging deserialization errors can now focus on feature work, and the registry's version history serves as living documentation of how data contracts have evolved over the years.

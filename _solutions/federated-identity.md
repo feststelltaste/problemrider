@@ -46,7 +46,7 @@ layout: solution
 - Token handling introduces new security considerations (token storage, refresh token rotation, token revocation) that the team must implement correctly.
 - Legacy applications with embedded user databases may have authorization logic tightly coupled to their user model, making identity migration complex.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how federated identity modernizes legacy system authentication.
 

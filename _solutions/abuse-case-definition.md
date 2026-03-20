@@ -46,7 +46,7 @@ layout: solution
 - Abuse cases become outdated as attack techniques evolve, requiring periodic review and update.
 - Without corresponding security tests and remediation, abuse case documentation provides awareness but not protection.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how abuse case definition uncovers security vulnerabilities in legacy systems.
 

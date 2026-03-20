@@ -43,7 +43,7 @@ layout: solution
 - Maintaining plausibility rules requires ongoing updates as business rules evolve
 - Legacy data may contain historical values that violate newly introduced rules
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

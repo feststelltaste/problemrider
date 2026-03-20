@@ -42,7 +42,7 @@ layout: solution
 - Benefits are hardware-dependent and may not transfer across different processor architectures
 - Over-optimization can make code brittle and difficult to evolve
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

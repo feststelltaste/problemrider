@@ -43,7 +43,7 @@ layout: solution
 - Alert fatigue from poorly tuned thresholds can cause teams to ignore real issues
 - Large volumes of monitoring data require storage and management
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

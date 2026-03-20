@@ -40,6 +40,6 @@ layout: solution
 - Can create bottlenecks if reviewer availability is limited.
 - Interpersonal dynamics (nitpicking, conflicting opinions) can make reviews counterproductive.
 
-## Examples
+## How It Could Be
 
 A legacy financial system has critical calculation logic that only two senior developers fully understand. The team institutes mandatory code reviews with a rotation policy ensuring every developer reviews code across different modules over time. Within six months, three additional developers gain sufficient understanding of the calculation engine to make changes confidently. Reviews also catch several instances where new developers inadvertently break undocumented business rules embedded in the legacy code. The review process becomes the primary mechanism for transferring institutional knowledge about the legacy system's quirks and conventions to newer team members.

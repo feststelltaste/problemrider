@@ -42,7 +42,7 @@ layout: solution
 - Contracts only test the interface shape, not full integration behavior
 - Stale contracts can give false confidence if consumer teams do not update them
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

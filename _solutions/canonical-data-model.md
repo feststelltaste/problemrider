@@ -42,7 +42,7 @@ layout: solution
 - Changes to the canonical model ripple across all connected systems
 - Risk of creating an overly generic model that serves no system well
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

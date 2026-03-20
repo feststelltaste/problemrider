@@ -42,7 +42,7 @@ layout: solution
 - False positives from overly strict rules can cause alert fatigue
 - Verification discovers problems but does not fix them, requiring additional remediation processes
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

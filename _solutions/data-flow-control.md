@@ -46,7 +46,7 @@ layout: solution
 - Data masking and tokenization add processing overhead and complexity, particularly when downstream components occasionally need the original values.
 - Legacy integration patterns (shared databases, flat-file exchanges) make it difficult to enforce data flow controls at component boundaries.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how data flow control prevents data exposure in legacy systems.
 

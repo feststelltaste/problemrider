@@ -40,7 +40,7 @@ layout: solution
 - Network-level pings may not detect application-level failures
 - False positives from network congestion can trigger unnecessary alerts
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

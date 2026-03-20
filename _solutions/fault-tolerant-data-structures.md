@@ -42,7 +42,7 @@ layout: solution
 - Over-reliance on self-healing can mask systemic problems that need root cause fixes
 - Added complexity in data access layers increases maintenance burden
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

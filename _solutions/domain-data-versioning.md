@@ -36,6 +36,6 @@ layout: solution
 - Querying historical data adds complexity to the data access layer.
 - Retrofitting versioning into a legacy system with no existing audit trail requires schema changes and migration.
 
-## Examples
+## How It Could Be
 
 A legacy contract management system has no audit trail, making it impossible to determine when or why a contract's terms were modified. After a dispute where a customer claims their pricing was changed without authorization, the team adds domain data versioning using temporal tables. Every contract modification is now recorded with a timestamp, the user who made the change, and the previous values. When a similar dispute arises six months later, the team can show the exact history of changes, who authorized them, and when they occurred. The versioning system also proves invaluable during a data migration, where the team uses version histories to verify that the migration preserved all contract terms correctly.

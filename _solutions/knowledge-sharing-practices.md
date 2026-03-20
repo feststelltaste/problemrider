@@ -60,7 +60,7 @@ layout: solution
 - Legacy systems often contain knowledge that is politically sensitive — decisions made for reasons that reflect organizational failures, workarounds for management decisions that cannot be questioned — and this knowledge is frequently omitted from documentation even when it is critical to understanding the system.
 - Choosing tooling that does not integrate with the team's existing workflow results in a knowledge system that is maintained during documentation sprints and ignored the rest of the time.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how knowledge management practices have reduced the fragility of legacy system operations.
 

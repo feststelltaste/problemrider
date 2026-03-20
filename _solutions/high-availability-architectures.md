@@ -45,7 +45,7 @@ layout: solution
 - Legacy applications may need substantial refactoring to become stateless or cluster-aware
 - Diminishing returns as availability targets approach 100%
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

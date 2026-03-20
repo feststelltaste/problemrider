@@ -43,7 +43,7 @@ layout: solution
 - Self-test maintenance adds ongoing effort as the system evolves
 - False positive self-test failures can prevent healthy instances from starting
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

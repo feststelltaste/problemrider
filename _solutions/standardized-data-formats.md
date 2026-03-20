@@ -43,7 +43,7 @@ layout: solution
 - Schema evolution must be managed deliberately to maintain backward compatibility
 - Some domain-specific data may not map cleanly to generic standardized formats
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

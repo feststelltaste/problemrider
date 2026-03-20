@@ -45,7 +45,7 @@ layout: solution
 - Tool licenses and maintenance represent ongoing costs
 - Tests verify known vulnerability patterns but cannot guarantee absence of novel attacks
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

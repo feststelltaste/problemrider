@@ -40,7 +40,7 @@ layout: solution
 - Adds implementation complexity that must be correctly implemented to be effective
 - Over-reliance on error correction can mask underlying infrastructure problems that should be fixed
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

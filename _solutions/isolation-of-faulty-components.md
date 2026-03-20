@@ -41,7 +41,7 @@ layout: solution
 - Legacy monoliths may require significant refactoring to support component isolation
 - Isolated components may leave dependent workflows in an incomplete state
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

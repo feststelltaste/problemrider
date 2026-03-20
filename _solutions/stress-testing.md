@@ -45,7 +45,7 @@ layout: solution
 - Results may be alarming to stakeholders if not communicated with context
 - Running stress tests requires significant infrastructure resources
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

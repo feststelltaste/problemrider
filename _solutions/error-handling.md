@@ -45,7 +45,7 @@ layout: solution
 - Verbose error messages may inadvertently expose sensitive system details
 - Consistent error handling requires team discipline and ongoing code review attention
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

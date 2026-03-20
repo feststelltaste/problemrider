@@ -45,7 +45,7 @@ layout: solution
 - Incorrect advice from community members can mislead other users, requiring moderation to flag or correct inaccurate information.
 - The development team must be prepared to act on community feedback, or users will lose trust in the channel.
 
-## Examples
+## How It Could Be
 
 > Legacy systems often have small groups of power users who have developed deep expertise but have no way to share it broadly.
 

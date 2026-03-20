@@ -41,7 +41,7 @@ layout: solution
 - Supporting very old browsers can constrain modern framework adoption
 - Polyfills increase bundle size and may introduce subtle behavioral differences
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

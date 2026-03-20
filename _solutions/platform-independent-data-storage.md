@@ -43,7 +43,7 @@ layout: solution
 - Maintaining compatibility across multiple databases increases testing complexity
 - Some legacy applications have deep dependencies on specific database features that are costly to abstract
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

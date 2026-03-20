@@ -44,7 +44,7 @@ layout: solution
 - Large legacy databases may be impractical to containerize for development if the dataset cannot be reasonably subsetted
 - Database licensing terms may restrict or complicate container deployment
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

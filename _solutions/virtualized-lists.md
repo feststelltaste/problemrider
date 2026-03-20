@@ -43,7 +43,7 @@ layout: solution
 - Scroll position management becomes complex when list items are inserted, removed, or resized dynamically
 - Integration with legacy DOM-manipulating code may conflict with the virtualization library's assumptions
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

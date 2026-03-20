@@ -46,7 +46,7 @@ layout: solution
 - Stakeholders may focus on wireframe aesthetics rather than structure and interaction flow, derailing discussions about what matters.
 - Wireframes can become outdated quickly if not maintained as the design evolves during implementation, becoming misleading artifacts.
 
-## Examples
+## How It Could Be
 
 > Many legacy modernization projects fail because the team builds an interface that nobody reviewed or validated before implementation.
 

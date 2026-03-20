@@ -53,7 +53,7 @@ layout: solution
 - Legacy systems with no existing API documentation require significant effort to discover and codify current behavior before contract tests can be written, and the discovery process itself may reveal inconsistencies that are difficult to resolve.
 - Over-reliance on contract testing can create a false sense of safety if the contracts do not cover the full range of real-world usage patterns, including edge cases and error scenarios that are common in legacy integrations.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how contract testing addresses the specific integration challenges found in legacy systems with poorly documented and inconsistently designed interfaces.
 

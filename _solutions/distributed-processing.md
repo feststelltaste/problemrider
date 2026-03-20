@@ -42,7 +42,7 @@ layout: solution
 - Data transfer between nodes can become a bottleneck if not managed
 - Debugging distributed processing failures is significantly harder than debugging local processing
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

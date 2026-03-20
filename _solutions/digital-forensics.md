@@ -44,7 +44,7 @@ layout: solution
 - Logging detailed information for forensic purposes may inadvertently capture sensitive data that requires its own protection.
 - Evidence collection procedures must be carefully followed to maintain legal admissibility, and mistakes can invalidate evidence.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how digital forensics preparedness enables effective incident investigation in legacy systems.
 

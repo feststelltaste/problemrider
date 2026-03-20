@@ -46,7 +46,7 @@ layout: solution
 - Teams need training on IaC tooling and cloud-agnostic design patterns
 - Not all services have equivalent offerings across cloud providers
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

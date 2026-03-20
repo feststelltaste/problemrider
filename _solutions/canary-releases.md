@@ -46,7 +46,7 @@ layout: solution
 - Small canary populations may not surface issues that only appear at scale
 - Adds operational complexity to the deployment process
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -44,7 +44,7 @@ layout: solution
 - SLAs can become politicized and used as blame instruments rather than improvement tools
 - Narrow SLA focus may neglect important quality dimensions not covered by the agreement
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

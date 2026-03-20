@@ -44,7 +44,7 @@ layout: solution
 - Focusing solely on measurable indicators can neglect important qualitative aspects
 - SLI data without context can lead to misguided optimization efforts
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

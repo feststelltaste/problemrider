@@ -44,7 +44,7 @@ layout: solution
 - State management complexity increases when functions must be stateless
 - Cost can exceed traditional hosting for consistently high-traffic workloads
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -59,7 +59,7 @@ layout: solution
 - Partitioning large legacy tables to improve query performance introduces cross-partition query complexity and requires careful coordination with any foreign key relationships and application queries that span the partition boundary.
 - Optimization effort can become a substitute for addressing the underlying architectural problems (e.g., shared databases, missing caching layers) that cause excessive database load in the first place.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate query optimization applied in realistic legacy system contexts.
 

@@ -47,7 +47,7 @@ layout: solution
 - Some legacy code may not be compatible with modern formatters, requiring exceptions or manual intervention.
 - Overly prescriptive conventions can constrain developers unnecessarily in situations where the convention does not apply well.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates how code conventions improve a legacy codebase.
 

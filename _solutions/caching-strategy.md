@@ -59,7 +59,7 @@ layout: solution
 - Caching masks underlying performance problems rather than fixing them. Developers may accept a cache as a permanent solution and never address the root cause (inefficient queries, poor data models, excessive serialization), creating technical debt that compounds over time.
 - Debugging becomes harder because application behavior depends on cache state. Issues that only manifest with specific cache contents or timing are difficult to reproduce in development environments where caches are frequently cleared.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how caching addresses performance problems commonly found in legacy systems.
 

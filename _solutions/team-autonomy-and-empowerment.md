@@ -55,7 +55,7 @@ Team autonomy and empowerment is the practice of pushing decision-making authori
 - Without adequate competence, autonomous teams can make costly mistakes. Empowerment must be paired with ongoing skill development and clear quality constraints — autonomy over "how" does not mean autonomy over "whether to test" or "whether to review."
 - In regulated industries, certain approvals may be legally required regardless of organizational preference. The decision authority matrix must account for compliance requirements that cannot be delegated.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how team autonomy and empowerment have addressed motivation, bottleneck, and cultural problems in legacy system contexts.
 

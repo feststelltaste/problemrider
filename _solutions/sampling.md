@@ -44,7 +44,7 @@ layout: solution
 - Teams may not understand the limitations of sampled data and treat it as exact
 - Debugging specific production issues is harder when the relevant trace was not sampled
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

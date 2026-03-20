@@ -44,7 +44,7 @@ layout: solution
 - Legacy systems may lack the instrumentation needed for effective incident investigation
 - On-call responsibilities add burden to already stretched legacy maintenance teams
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -42,7 +42,7 @@ layout: solution
 - Some platform-specific features may not be accessible through cross-platform language abstractions
 - Team productivity drops during the transition period while developers learn the new language
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

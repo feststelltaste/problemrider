@@ -44,7 +44,7 @@ layout: solution
 - Adding confirmation steps to bulk operations in legacy workflows may slow down power users who process large volumes of actions routinely.
 - Implementing soft deletes in a legacy database schema can require significant changes to queries and reports that assume hard deletes.
 
-## Examples
+## How It Could Be
 
 > In legacy systems where undo is unavailable, confirmation dialogs are the last line of defense against irreversible mistakes.
 

@@ -43,7 +43,7 @@ layout: solution
 - Connection pools add configuration complexity that must be tuned for the specific workload
 - Pool exhaustion under load can cause cascading failures if not handled with proper timeouts
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

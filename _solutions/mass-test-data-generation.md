@@ -43,7 +43,7 @@ layout: solution
 - Maintaining generators as the schema evolves adds ongoing effort
 - Very large datasets require significant storage and can slow down test environment provisioning
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

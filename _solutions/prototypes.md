@@ -46,7 +46,7 @@ layout: solution
 - Building prototypes requires design skills and tooling that legacy-focused teams may not have readily available.
 - Over-prototyping can delay actual development if the team cycles through too many iterations without committing to an implementation.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates how prototypes prevent costly mistakes during legacy replacement.
 

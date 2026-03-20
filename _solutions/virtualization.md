@@ -40,6 +40,6 @@ layout: solution
 - Requires operational skills in virtualization platforms that teams may need to acquire.
 - Licensing costs for operating systems and virtualization platforms can be significant.
 
-## Examples
+## How It Could Be
 
 A government agency runs multiple legacy applications on shared Windows servers where conflicting .NET Framework versions and DLL dependencies cause frequent deployment failures. By virtualizing each application into its own VM with a fixed OS image, dependency conflicts are eliminated. The infrastructure team uses Ansible to provision VMs from versioned templates, ensuring that development environments match production exactly. When a critical legacy application needs an older runtime that conflicts with security patches required by another application, the isolation provided by virtualization allows both to coexist without compromise. The VM snapshot capability also gives the team confidence to attempt upgrades, knowing they can roll back within minutes.

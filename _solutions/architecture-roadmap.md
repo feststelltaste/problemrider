@@ -55,7 +55,7 @@ layout: solution
 - Without regular review and adjustment, a roadmap becomes shelfware that teams ignore, providing no value while consuming the effort invested in its creation.
 - Roadmap governance can introduce bureaucratic overhead if review processes become too heavy, slowing down the very teams the roadmap is meant to help.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how architecture roadmaps address common legacy system challenges by providing structured, incremental paths toward modernization.
 

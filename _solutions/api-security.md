@@ -48,7 +48,7 @@ layout: solution
 - Overly restrictive rate limits or schema validation rules can break legitimate usage patterns, especially for legacy clients with non-standard request formats.
 - The API gateway itself becomes a critical infrastructure component that must be highly available and properly secured.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how API security protects legacy systems from modern threats.
 

@@ -43,7 +43,7 @@ layout: solution
 - Stateful legacy applications require careful handling of persistent storage in containers
 - Teams need new skills in container tooling and orchestration platforms
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

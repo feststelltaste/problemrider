@@ -45,7 +45,7 @@ layout: solution
 - Without clear delegation rules, teams may be unsure whether they need board approval, leading to either unnecessary delays or unapproved changes.
 - The board may develop a bias toward conservatism, resisting necessary changes because they introduce short-term risk.
 
-## Examples
+## How It Could Be
 
 > The following scenario shows how an architecture review board coordinates legacy modernization across teams.
 

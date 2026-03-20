@@ -39,6 +39,6 @@ layout: solution
 - Retrofitting DDD onto a legacy system is a gradual process that may take years.
 - Over-applying DDD to simple or generic subdomains wastes effort without proportional benefit.
 
-## Examples
+## How It Could Be
 
 A legacy insurance company has a core policy management system where business logic is scattered across stored procedures, service classes, and UI code. The term "policy" means different things in different parts of the system, leading to frequent misunderstandings between underwriters and developers. The team engages domain experts in workshops to establish a ubiquitous language and identify bounded contexts: underwriting, claims, and billing each have their own notion of a policy. Within the underwriting context, they refactor the anemic data model into rich domain objects with behavior, replacing hundreds of lines of procedural validation code with expressive domain rules. The resulting code reads like business documentation, and new underwriting features that previously took weeks to implement can now be delivered in days because the code structure matches how the business thinks about the domain.

@@ -42,7 +42,7 @@ layout: solution
 - Managing replication topology adds operational complexity
 - Legacy applications may not handle read/write splitting without modification
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -41,7 +41,7 @@ layout: solution
 - A component can send heartbeats while being functionally broken (alive but not working correctly)
 - The monitoring system itself becomes a dependency that must be kept available
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -55,7 +55,7 @@ layout: solution
 - Exception management for legacy applications that cannot comply with specific hardening recommendations adds administrative overhead and creates a documented list of accepted risks that must be reviewed and re-justified periodically.
 - Development and test environments for legacy systems typically cannot be hardened to the same degree as production, creating a configuration gap that means issues are not caught until deployment — increasing the risk of hardening-induced regressions reaching production.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate system hardening applied in realistic legacy system modernization efforts.
 

@@ -55,7 +55,7 @@ layout: solution
 - Investing heavily in UX design for a system that may be replaced creates a tension between improving the current experience and planning for a future platform.
 - Organizations without design expertise must either hire UX professionals or train existing staff, both of which require investment before benefits materialize.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how user-centered design practices address the specific UX challenges found in legacy systems.
 

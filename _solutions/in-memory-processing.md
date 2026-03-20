@@ -41,7 +41,7 @@ layout: solution
 - Garbage collection pauses in managed-memory runtimes can cause latency spikes
 - Memory capacity limits require careful data lifecycle management
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

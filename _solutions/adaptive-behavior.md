@@ -45,7 +45,7 @@ layout: solution
 - Legacy systems with rigid UI architectures may resist the addition of adaptive components
 - Over-adaptation can make it difficult for users to discover features hidden by the personalization logic
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

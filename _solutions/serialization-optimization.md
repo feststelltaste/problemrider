@@ -53,7 +53,7 @@ layout: solution
 - Compression adds CPU overhead that may not be justified for small payloads or on CPU-constrained systems; the break-even point between compression cost and network savings must be measured for each use case.
 - Changing serialization libraries in legacy code can introduce subtle behavioral differences in how null values, dates, numeric precision, and character encoding are handled, requiring thorough compatibility testing.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how serialization optimization addresses performance problems in legacy systems.
 

@@ -59,7 +59,7 @@ layout: solution
 - The Product Owner must have sufficient domain expertise and availability to serve the role effectively; a part-time Product Owner who splits attention between this role and other responsibilities often becomes the bottleneck they were meant to eliminate.
 - In large-scale legacy modernization involving multiple teams, a single Product Owner may not have sufficient bandwidth to manage all teams effectively, requiring a Product Owner hierarchy that introduces its own coordination challenges.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how a dedicated Product Owner role addresses scope, authority, and communication problems in legacy system contexts.
 

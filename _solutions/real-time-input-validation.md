@@ -45,7 +45,7 @@ layout: solution
 - Validations that require server-side checks, such as uniqueness constraints, add network round-trips that must be debounced to avoid excessive server load.
 - Complex cross-field validations may produce confusing errors if the user has not yet filled in all related fields.
 
-## Examples
+## How It Could Be
 
 > The traditional submit-and-reload validation pattern in legacy systems is one of the most universally frustrating user experiences.
 

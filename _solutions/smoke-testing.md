@@ -48,7 +48,7 @@ layout: solution
 - Smoke tests in production require careful design to avoid side effects — creating test data, triggering notifications, or affecting real users.
 - Maintaining smoke tests for rapidly evolving systems requires ongoing effort to keep them aligned with current functionality.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how smoke tests catch critical failures in legacy systems.
 

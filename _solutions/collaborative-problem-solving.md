@@ -46,7 +46,7 @@ layout: solution
 - Fatigue from sustained group focus can reduce effectiveness in long sessions.
 - Not all tasks benefit from ensemble programming — routine work is often more efficiently done individually.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates how ensemble programming unlocks understanding of legacy code.
 

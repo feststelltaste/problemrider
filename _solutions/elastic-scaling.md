@@ -54,7 +54,7 @@ layout: solution
 - Service discovery failures during scaling events can cause traffic to be routed to instances that are not yet ready or have already been terminated, creating transient errors.
 - Cold start latency for new instances (JVM warm-up, cache population, connection establishment) means that recently scaled instances operate at reduced capacity initially, and scaling decisions must account for this warm-up period.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how elastic scaling addresses capacity and queue management problems in legacy systems.
 

@@ -43,7 +43,7 @@ layout: solution
 - Batch size tuning requires experimentation to balance throughput and latency
 - Legacy systems may not support bulk operations, requiring workarounds
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -38,6 +38,6 @@ layout: solution
 - Long-lived parallel versions can lead to divergence that becomes increasingly difficult to manage.
 - Requires governance to enforce deprecation timelines and prevent version proliferation.
 
-## Examples
+## How It Could Be
 
 A legacy payment processing platform provides APIs consumed by dozens of merchant integrations, each on different upgrade cycles. The team adopts a version control strategy where two major API versions are supported simultaneously, with a twelve-month deprecation window. Each version has its own branch, and the CI pipeline runs compatibility tests against both. When a security fix is needed, it is applied to both supported versions. Merchants receive deprecation notices with migration guides six months before an old version is retired. This structured approach replaces the previous ad-hoc practice where breaking changes were deployed without warning, causing integration failures for merchants who could not update immediately.

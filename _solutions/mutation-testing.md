@@ -41,7 +41,7 @@ layout: solution
 - May overwhelm teams if applied to large legacy codebases without scoping
 - Requires test suites that are already reasonably fast and stable
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

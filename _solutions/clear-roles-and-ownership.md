@@ -57,7 +57,7 @@ Clear roles and ownership is the practice of explicitly defining who is responsi
 - The process of aligning organizational structure with system architecture (applying Conway's Law) can require significant reorganization, which is disruptive and politically sensitive. Incremental alignment is usually more practical than wholesale restructuring.
 - Small teams or organizations may find that formal RACI matrices and ownership registries feel bureaucratic relative to their size. The formality should scale with team size — a 5-person team needs a shared understanding of responsibilities, not a 50-page governance document.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how establishing clear roles and ownership has resolved coordination and accountability problems in legacy system environments.
 

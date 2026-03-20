@@ -43,7 +43,7 @@ layout: solution
 - Exposing health endpoints without authentication can leak internal system information
 - Adding endpoints to legacy applications may require framework modifications
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

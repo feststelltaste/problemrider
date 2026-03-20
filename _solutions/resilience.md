@@ -43,7 +43,7 @@ layout: solution
 - Over-engineering resilience for non-critical components wastes resources
 - Resilience mechanisms themselves can fail or cause unexpected behavior
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

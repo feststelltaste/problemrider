@@ -43,7 +43,7 @@ layout: solution
 - Security scanning tools may produce many false positives for legacy code patterns
 - Some legacy vulnerabilities may require significant architectural changes to resolve
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

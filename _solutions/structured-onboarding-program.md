@@ -58,7 +58,7 @@ A structured onboarding program is a deliberate sequence of activities, introduc
 - Structured programs can create a false sense of completeness — new joiners who have completed the 30-day program may believe they understand the system more deeply than they do, leading to overconfident changes in parts of the codebase the program did not cover.
 - Legacy systems with genuinely complex or poorly understood internals expose the limits of any onboarding program; some knowledge can only be transferred through months of paired working, and no document or milestone plan fully substitutes for that experience.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate what structured onboarding looks like when applied to teams working on legacy systems.
 

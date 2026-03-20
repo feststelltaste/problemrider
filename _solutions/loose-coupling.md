@@ -55,7 +55,7 @@ layout: solution
 - In legacy systems, introducing loose coupling incrementally means the codebase will temporarily contain both tightly coupled and loosely coupled sections, which can confuse developers during the transition period.
 - Performance-sensitive paths may not tolerate the overhead of indirection layers, message serialization, or network calls introduced by decoupling patterns.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how loose coupling techniques address common legacy system problems.
 

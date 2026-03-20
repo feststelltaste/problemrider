@@ -46,7 +46,7 @@ layout: solution
 - Domain experts may not understand the technical constraints that influenced design decisions, leading to feedback that is difficult to act on.
 - Over-reliance on a small number of domain experts creates a knowledge bottleneck and single point of failure in the review process.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates the value of subject matter reviews during legacy modernization.
 

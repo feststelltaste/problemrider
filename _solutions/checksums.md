@@ -41,7 +41,7 @@ layout: solution
 - False sense of security if using weak checksum algorithms that do not detect certain error patterns
 - Retrofitting checksum verification into existing data flows requires modifying both sender and receiver
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

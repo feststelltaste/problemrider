@@ -44,7 +44,7 @@ layout: solution
 - Performance-critical operations may need to bypass the abstraction, creating inconsistency
 - Migrating a large legacy codebase with thousands of raw SQL statements is a multi-year effort
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

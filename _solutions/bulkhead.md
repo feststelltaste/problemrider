@@ -42,7 +42,7 @@ layout: solution
 - Under-provisioned partitions may throttle legitimate traffic while other partitions sit idle
 - Requires careful analysis to draw partition boundaries at the right places
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -49,7 +49,7 @@ layout: solution
 - Legacy databases may have limited transaction support or unexpected behavior under certain isolation levels, requiring careful testing.
 - Transaction retries after failures can cause duplicate side effects (sending emails, calling external APIs) unless idempotency is explicitly designed in.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how proper transaction management prevents data corruption in legacy systems.
 

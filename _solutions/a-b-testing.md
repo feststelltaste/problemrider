@@ -45,7 +45,7 @@ layout: solution
 - Running multiple concurrent experiments can produce interaction effects that confound results
 - Some changes in legacy systems are too deeply embedded to be easily toggled between variants
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -43,7 +43,7 @@ layout: solution
 - Over-specification can constrain implementation flexibility unnecessarily
 - Legacy systems may be unable to meet certain security requirements without significant rework
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

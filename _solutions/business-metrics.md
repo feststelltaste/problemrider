@@ -38,6 +38,6 @@ layout: solution
 - Poorly chosen metrics can incentivize the wrong behaviors or optimizations.
 - Metric collection adds overhead to the system, though typically minimal.
 
-## Examples
+## How It Could Be
 
 A legacy e-commerce platform suffers from slow page loads and frequent checkout failures, but the development team struggles to justify modernization investment because they cannot quantify the impact. They define business metrics: conversion rate, cart abandonment rate, average page load time, and revenue per session. After instrumenting the legacy system, they discover that checkout failures cost the business significant revenue monthly and that slow product page loads correlate with higher bounce rates. Armed with these numbers, the team secures funding for targeted performance improvements and can demonstrate measurable business improvement after each sprint of modernization work.

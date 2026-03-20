@@ -46,7 +46,7 @@ layout: solution
 - Some legacy UI patterns, such as custom drag-and-drop interfaces or complex data grids, are inherently difficult to make accessible and may require alternative interaction modes.
 - Ongoing testing with assistive technologies adds to the QA workload because automated tools catch only about 30% of accessibility issues.
 
-## Examples
+## How It Could Be
 
 > Legacy systems frequently exhibit deep accessibility deficits that become urgent when regulatory requirements change or the user base expands.
 

@@ -44,7 +44,7 @@ layout: solution
 - Can increase resource contention (memory, database connections, I/O) if not properly managed
 - Diminishing returns beyond a certain degree of parallelism due to synchronization overhead
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

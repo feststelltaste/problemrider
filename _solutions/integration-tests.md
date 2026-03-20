@@ -44,7 +44,7 @@ layout: solution
 - Flaky tests due to timing, network, or state issues can erode trust in the test suite
 - May create a false sense of security if only happy paths are tested
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

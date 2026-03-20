@@ -44,7 +44,7 @@ layout: solution
 - Degradation logic can mask systemic problems that worsen over time
 - Legacy systems may lack the architectural flexibility to support clean degradation boundaries
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

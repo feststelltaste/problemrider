@@ -50,7 +50,7 @@ layout: solution
 - Legacy systems with long-running transactions, persistent connections, or stateful protocols complicate the traffic switch. Draining active sessions gracefully while switching routing requires understanding the system's connection model — knowledge that may not be documented or even well understood.
 - The organizational change required is significant. Legacy teams accustomed to infrequent, high-ceremony deployments must adapt to a different operational model. The processes, roles, and tooling for managing two environments simultaneously require investment to establish.
 
-## Examples
+## How It Could Be
 
 > Legacy systems most benefit from blue-green deployment when their release history is dominated by painful rollbacks, lengthy outage windows, or a culture of avoiding releases because each one is too risky.
 

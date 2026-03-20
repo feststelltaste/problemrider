@@ -36,6 +36,6 @@ layout: solution
 - Privacy and compliance considerations may limit which external data can be integrated.
 - Incorrect enrichment can introduce errors that are difficult to distinguish from original data.
 
-## Examples
+## How It Could Be
 
 A legacy customer database contains millions of records accumulated over twenty years, many with incomplete addresses, missing industry classifications, and outdated contact information. The team builds an enrichment pipeline that matches customer records against a commercial business data provider, filling in missing fields and flagging records where stored information conflicts with external sources. The enrichment results are stored in a separate table linked to the original records, preserving the ability to audit what came from the legacy system versus what was enriched. Sales teams immediately benefit from improved targeting, and the data quality improvements enable a customer segmentation feature that was previously impossible due to incomplete data.

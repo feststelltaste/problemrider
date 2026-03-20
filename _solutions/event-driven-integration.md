@@ -41,7 +41,7 @@ layout: solution
 - Debugging asynchronous flows is harder than tracing synchronous request-response chains
 - Message ordering and exactly-once delivery guarantees vary by broker and require careful design
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

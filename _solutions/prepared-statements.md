@@ -44,7 +44,7 @@ layout: solution
 - Developers unfamiliar with prepared statements may introduce workarounds that bypass protections
 - ORM adoption may introduce its own complexity and performance overhead in certain scenarios
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

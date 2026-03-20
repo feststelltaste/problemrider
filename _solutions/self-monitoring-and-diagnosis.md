@@ -43,7 +43,7 @@ layout: solution
 - Self-monitoring has blind spots for issues that affect the monitoring code itself
 - Legacy systems may lack extensibility points for adding internal monitoring
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

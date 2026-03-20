@@ -43,7 +43,7 @@ layout: solution
 - Refresh operations themselves can be resource-intensive and must be scheduled carefully
 - Adding materialized views increases the surface area of schema changes during migrations
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

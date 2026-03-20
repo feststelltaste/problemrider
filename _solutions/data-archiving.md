@@ -42,7 +42,7 @@ layout: solution
 - Improper archival can violate regulatory retention requirements
 - Application logic may need updates to query both active and archived data transparently
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -58,7 +58,7 @@ layout: solution
 - Static analysis metrics can create perverse incentives — teams optimize for debt ratio scores by suppressing findings or restructuring code superficially without addressing the underlying quality problems.
 - Allocating sprint capacity to debt reduction reduces feature throughput in the short term, which is especially visible when the team is under pressure from business stakeholders who do not yet see the connection between debt and delivery speed.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how technical debt backlogs are created and used in legacy system modernization programs.
 

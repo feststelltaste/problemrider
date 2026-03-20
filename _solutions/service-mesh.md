@@ -40,6 +40,6 @@ layout: solution
 - Requires container orchestration (typically Kubernetes), which legacy environments may not have.
 - Steep learning curve for operations teams unfamiliar with mesh concepts.
 
-## Examples
+## How It Could Be
 
 An e-commerce platform runs a mix of legacy Java services and newer microservices. Inter-service communication is unreliable, with frequent timeouts and no encryption. The team deploys Linkerd as a service mesh, starting with the most critical communication paths. The mesh automatically provides mTLS, retries with backoff, and detailed latency metrics. During a subsequent migration phase, they use traffic splitting to route 10% of requests to a rewritten service while 90% still go to the legacy version, allowing safe validation before full cutover. The observability data from the mesh also reveals previously unknown dependency chains between legacy services.

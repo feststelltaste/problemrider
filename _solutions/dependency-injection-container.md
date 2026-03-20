@@ -45,7 +45,7 @@ layout: solution
 - Teams unfamiliar with DI containers may misuse them, creating overly complex configurations or falling into the service locator anti-pattern.
 - Container startup time can become significant in legacy systems with thousands of registered components.
 
-## Examples
+## How It Could Be
 
 > The following scenario shows how a DI container enables testability in a legacy application.
 

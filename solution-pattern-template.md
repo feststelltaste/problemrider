@@ -24,8 +24,8 @@ layout: solution
 
 <a markdown list of pros and cons>
 
-## Examples
+## How It Could Be
 
-> Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
+> Hypothetical scenarios from legacy system contexts that illustrate this solution in practice.
 
 <a narrative text, 3-10 sentences long>

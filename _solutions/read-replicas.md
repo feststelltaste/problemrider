@@ -44,7 +44,7 @@ layout: solution
 - Failover logic between primary and replicas adds complexity
 - Schema changes must be coordinated across primary and all replicas
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

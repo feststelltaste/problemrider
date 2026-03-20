@@ -44,7 +44,7 @@ layout: solution
 - Threshold tuning requires ongoing attention to avoid noise or missed alerts
 - Historical data alone does not predict non-linear growth patterns
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

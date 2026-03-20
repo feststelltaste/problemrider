@@ -37,6 +37,6 @@ layout: solution
 - Written quizzes may not capture the nuanced understanding needed for complex domain decisions.
 - Maintaining quiz content requires updates as the domain and system evolve.
 
-## Examples
+## How It Could Be
 
 A legacy freight management system has complex rules for calculating shipping rates that depend on carrier contracts, hazmat classifications, and seasonal surcharges. New developers frequently introduce pricing bugs because they do not understand these domain nuances. The team creates a domain quiz covering the twenty most commonly misunderstood business rules, including questions like "What happens to the base rate when a shipment crosses a zone boundary during a seasonal surcharge period?" New developers take the quiz during their second week, and results are discussed in a follow-up session with a senior developer. The quiz reveals that even experienced team members have gaps in their understanding of hazmat classification rules, prompting a focused knowledge-sharing session that prevents a class of bugs that had been recurring quarterly.

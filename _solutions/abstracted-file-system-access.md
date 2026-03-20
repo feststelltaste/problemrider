@@ -44,7 +44,7 @@ layout: solution
 - Performance-sensitive file operations may be impacted by the additional abstraction layer
 - The abstraction must evolve as new storage backends introduce different semantics
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

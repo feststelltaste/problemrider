@@ -43,7 +43,7 @@ layout: solution
 - Additional tooling and infrastructure for configuration management adds operational overhead
 - Teams accustomed to platform-native configuration tools may resist adopting new approaches
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

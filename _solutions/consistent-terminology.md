@@ -46,7 +46,7 @@ layout: solution
 - Achieving team-wide agreement on canonical terms can be time-consuming when different groups have strong preferences for their established vocabulary.
 - Partial terminology updates create a transition period where both old and new terms coexist, potentially increasing confusion before it decreases.
 
-## Examples
+## How It Could Be
 
 > Terminology inconsistency is one of the most common and most overlooked usability problems in legacy systems.
 

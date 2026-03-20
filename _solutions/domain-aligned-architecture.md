@@ -38,6 +38,6 @@ layout: solution
 - Requires deep understanding of the business domain to draw correct boundaries.
 - May conflict with existing team structures and require organizational changes.
 
-## Examples
+## How It Could Be
 
 A legacy logistics system is organized by technical layer: all database access in one module, all business logic in another, all UI code in a third. A change to the shipment tracking feature requires modifications across all three layers and coordination between three teams. The architecture team restructures the system so that shipment tracking, warehouse management, and carrier integration each become vertical domain modules containing their own data access, logic, and UI components. Teams are aligned to these domains. After the restructuring, the shipment tracking team can deliver features independently without cross-team coordination. The average time to deliver a domain-specific feature drops from three weeks to one week because changes no longer require synchronized releases across multiple teams.

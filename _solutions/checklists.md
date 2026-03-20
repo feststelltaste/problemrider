@@ -42,7 +42,7 @@ layout: solution
 - Overly detailed checklists slow down processes and encourage shortcuts
 - Does not replace expertise and judgment for complex decisions
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

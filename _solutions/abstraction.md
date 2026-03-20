@@ -44,7 +44,7 @@ layout: solution
 - Requires team discipline to keep contracts stable and well-documented
 - Performance-sensitive paths may suffer from the overhead of additional layers
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

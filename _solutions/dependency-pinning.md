@@ -41,7 +41,7 @@ layout: solution
 - Teams may use pinning as an excuse to avoid necessary dependency updates
 - Different pinning strategies across teams can create inconsistency
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

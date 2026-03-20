@@ -39,7 +39,7 @@ layout: solution
 - Not all HTTP clients handle content negotiation correctly, especially older ones
 - Caching behavior becomes more complex with Vary headers
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

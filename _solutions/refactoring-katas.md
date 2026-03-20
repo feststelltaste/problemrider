@@ -43,7 +43,7 @@ layout: solution
 - May feel academic if katas are not connected to real codebase challenges
 - Risk of diminishing returns if the same exercises are repeated without progression
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

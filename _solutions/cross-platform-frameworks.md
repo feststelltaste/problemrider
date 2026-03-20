@@ -44,7 +44,7 @@ layout: solution
 - Developers may need to learn framework-specific patterns in addition to platform knowledge
 - Not all legacy codebases can be cleanly separated into shareable and platform-specific layers
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -47,7 +47,7 @@ layout: solution
 - Running aggressive negative tests against legacy systems can cause crashes or data corruption in test environments, requiring careful isolation.
 - The space of possible invalid inputs is infinite; negative testing reduces risk but cannot eliminate all error handling vulnerabilities.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how negative testing uncovers security weaknesses in legacy systems.
 

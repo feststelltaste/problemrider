@@ -46,7 +46,7 @@ layout: solution
 - Building interactive tours requires frontend development effort that competes with other priorities, especially in legacy systems with constrained development budgets.
 - Onboarding that covers too much at once overwhelms new users rather than helping them, requiring careful scoping of what to include.
 
-## Examples
+## How It Could Be
 
 > New users of legacy systems often describe their first experience as being dropped into the cockpit of an airplane with no training.
 

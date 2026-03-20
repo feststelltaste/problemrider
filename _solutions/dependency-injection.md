@@ -46,7 +46,7 @@ layout: solution
 - Constructor parameter lists can become unwieldy if too many dependencies are injected (indicating the class needs decomposition)
 - Runtime wiring errors may not be caught until the application starts, unlike compile-time dependencies
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -42,7 +42,7 @@ layout: solution
 - Memory costs for caching large datasets can be significant
 - Distributed cache adds network latency compared to local in-process caches
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

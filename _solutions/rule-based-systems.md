@@ -45,7 +45,7 @@ layout: solution
 - Performance overhead of rule evaluation may be significant for systems with large rule sets executing in real-time.
 - Over-enthusiastic adoption can lead to moving logic into rules that would be better expressed in conventional code, making the system harder to understand.
 
-## Examples
+## How It Could Be
 
 > The following scenario shows how rule-based extraction tames legacy business logic complexity.
 

@@ -42,7 +42,7 @@ layout: solution
 - Overuse can hide important details and make the API feel magical rather than transparent
 - Return-type tricks for enforcing order can complicate the type hierarchy
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

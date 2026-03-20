@@ -41,7 +41,7 @@ layout: solution
 - Relying too heavily on users shifts testing burden to unpaid labor
 - Feedback quality varies significantly across users
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

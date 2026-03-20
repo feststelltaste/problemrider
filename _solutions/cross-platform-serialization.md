@@ -41,7 +41,7 @@ layout: solution
 - Migration from proprietary serialization formats requires careful backward compatibility handling
 - Some complex object graphs may be difficult to represent in simpler cross-platform formats
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

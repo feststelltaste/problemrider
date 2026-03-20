@@ -43,7 +43,7 @@ layout: solution
 - Adds infrastructure complexity: load balancers, service discovery, instance management
 - Distributed coordination problems (cache coherence, leader election) increase with instance count
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

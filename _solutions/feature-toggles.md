@@ -44,7 +44,7 @@ layout: solution
 - Testing all toggle combinations is impractical, increasing the risk of untested paths
 - Adds conditional branching that can make legacy code harder to understand
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

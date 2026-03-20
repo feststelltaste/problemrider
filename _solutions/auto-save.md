@@ -43,7 +43,7 @@ layout: solution
 - Conflict resolution between auto-saved drafts and concurrent edits adds complexity, especially in multi-user legacy systems without optimistic locking.
 - Users who are accustomed to explicit saves may be confused by auto-save behavior if it is not clearly communicated through the interface.
 
-## Examples
+## How It Could Be
 
 > Data loss is a persistent source of frustration in legacy systems, and auto-save directly addresses the most common scenarios.
 

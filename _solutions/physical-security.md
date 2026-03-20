@@ -45,7 +45,7 @@ layout: solution
 - Legacy systems in remote locations (branch offices, factory floors, customer sites) may be difficult to secure physically to the same standard as a data center.
 - Decommissioning legacy hardware with sensitive data requires secure destruction procedures that add cost and complexity.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how physical security protects legacy system infrastructure.
 

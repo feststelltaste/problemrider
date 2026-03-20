@@ -42,7 +42,7 @@ layout: solution
 - Over-splitting creates too many small network requests, which can worsen performance
 - Legacy bundling configurations may require significant rework to support code splitting
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

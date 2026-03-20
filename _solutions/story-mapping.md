@@ -46,7 +46,7 @@ layout: solution
 - Without regular updates, the map becomes stale and loses its value as a planning tool.
 - Teams unfamiliar with the technique may struggle to find the right level of granularity for stories.
 
-## Examples
+## How It Could Be
 
 > The following scenario shows how story mapping guides a phased legacy replacement.
 

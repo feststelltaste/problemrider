@@ -43,7 +43,7 @@ layout: solution
 - Capacity planning requires ongoing data collection and analysis effort
 - Legacy system scaling may require architectural changes, not just more hardware
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

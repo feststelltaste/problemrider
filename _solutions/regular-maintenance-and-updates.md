@@ -43,7 +43,7 @@ layout: solution
 - Legacy systems with outdated dependencies may face complex upgrade paths
 - Staff time spent on maintenance reduces availability for feature work
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

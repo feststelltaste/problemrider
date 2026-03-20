@@ -44,7 +44,7 @@ layout: solution
 - Backups that are never tested may fail when restoration is actually needed
 - Legacy database formats may require special tooling for consistent backups
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

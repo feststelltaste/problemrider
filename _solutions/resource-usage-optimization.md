@@ -55,7 +55,7 @@ layout: solution
 - Establishing accurate resource baselines and monitoring requires instrumentation that may not exist in the legacy system, and adding it has its own resource cost.
 - Optimization effort applied to the wrong resource is wasted — teams must identify the actual binding constraint before optimizing, which requires profiling and analysis.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how resource usage optimization resolves performance and stability problems in legacy systems.
 

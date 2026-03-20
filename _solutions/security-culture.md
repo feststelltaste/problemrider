@@ -44,7 +44,7 @@ layout: solution
 - Without genuine leadership commitment, security culture initiatives feel performative
 - Overemphasis on security culture without matching technical controls creates false confidence
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

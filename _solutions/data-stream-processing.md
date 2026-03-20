@@ -42,7 +42,7 @@ layout: solution
 - Debugging streaming pipelines is harder than debugging batch jobs with clear inputs and outputs
 - Legacy systems may not produce events natively, requiring change data capture or polling adapters
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

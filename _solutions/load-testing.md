@@ -45,7 +45,7 @@ layout: solution
 - Running load tests against shared environments can disrupt other teams
 - Legacy database state after load tests requires cleanup
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

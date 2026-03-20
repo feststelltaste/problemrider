@@ -41,7 +41,7 @@ layout: solution
 - Teams need to agree on and enforce the chosen format standard
 - Standardized formats may be more verbose than platform-native alternatives
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

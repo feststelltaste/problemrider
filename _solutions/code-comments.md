@@ -45,7 +45,7 @@ layout: solution
 - Comments cannot be tested or compiled — there is no automated way to detect when a comment has become inaccurate.
 - Relying on comments instead of improving code clarity through refactoring can perpetuate poor code quality.
 
-## Examples
+## How It Could Be
 
 > The following scenario shows how strategic comments preserve critical knowledge in legacy systems.
 

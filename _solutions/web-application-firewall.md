@@ -44,7 +44,7 @@ layout: solution
 - Over-reliance on WAFs as a substitute for fixing underlying vulnerabilities creates a false sense of security
 - WAF rules require ongoing tuning and maintenance as attack techniques evolve
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

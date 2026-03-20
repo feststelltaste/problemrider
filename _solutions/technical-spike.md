@@ -44,7 +44,7 @@ layout: solution
 - Spike results may be misinterpreted if the prototype conditions do not match production reality
 - Teams may become dependent on spikes and reluctant to commit without one
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

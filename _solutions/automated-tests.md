@@ -49,7 +49,7 @@ layout: solution
 - Teams unfamiliar with testing practices need training and mentoring
 - Slow test suites can become a bottleneck if not properly structured and maintained
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

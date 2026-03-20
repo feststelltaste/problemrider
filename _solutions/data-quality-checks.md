@@ -38,6 +38,6 @@ layout: solution
 - Automated checks add processing overhead and may impact database performance.
 - False positives in quality checks can create alert fatigue.
 
-## Examples
+## How It Could Be
 
 A legacy accounting system accumulated twenty years of transaction data with various quality issues: duplicate customer records, transactions with missing reference numbers, and amounts stored in inconsistent decimal formats. Before migrating to a new ERP system, the team implements a suite of data quality checks that scan the entire database and categorize issues by severity. They discover that 8% of customer records are duplicates and that thousands of transactions reference deleted accounts. The team builds cleansing scripts that merge duplicate customers (preserving transaction history) and reconcile orphaned transactions. Running these checks before migration prevents carrying years of data quality problems into the new system and avoids the costly task of fixing them after go-live.

@@ -41,7 +41,7 @@ layout: solution
 - Build pipeline changes may require tooling updates in the legacy project
 - Responsive image implementation adds HTML complexity
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

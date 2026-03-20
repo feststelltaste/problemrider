@@ -43,7 +43,7 @@ layout: solution
 - Legacy code with tightly coupled sequential steps requires significant refactoring to pipeline
 - Increases latency for individual items even as throughput increases
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

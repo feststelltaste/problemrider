@@ -45,7 +45,7 @@ layout: solution
 - Integration with external systems that rely on the legacy authentication mechanism may break when authentication is modernized.
 - Account lockout mechanisms can be exploited for denial-of-service if not implemented with rate limiting rather than hard lockouts.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how authentication modernization addresses security gaps in legacy systems.
 

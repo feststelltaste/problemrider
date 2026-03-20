@@ -45,7 +45,7 @@ layout: solution
 - Stale runbooks can provide incorrect guidance that worsens incidents
 - Writing comprehensive runbooks takes significant initial effort
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

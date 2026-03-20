@@ -46,7 +46,7 @@ layout: solution
 - Overly detailed matrices create maintenance overhead that teams may abandon under delivery pressure.
 - The matrix is only as good as the team's understanding of the legacy system's requirements, which may itself be incomplete or incorrect.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates how a traceability matrix supports legacy modernization in a regulated environment.
 

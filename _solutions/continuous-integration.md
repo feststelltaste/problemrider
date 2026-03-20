@@ -43,7 +43,7 @@ layout: solution
 - CI infrastructure requires ongoing maintenance and scaling
 - Fast feedback loops may be hard to achieve with slow legacy build and test processes
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

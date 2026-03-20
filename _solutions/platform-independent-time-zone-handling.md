@@ -43,7 +43,7 @@ layout: solution
 - UTC-everywhere approaches require careful conversion at every user-facing boundary
 - Some legacy integrations may depend on local time assumptions that are difficult to change
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

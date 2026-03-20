@@ -41,7 +41,7 @@ layout: solution
 - Legacy systems with licensed software may face licensing constraints for multiple environments
 - Complex legacy dependencies may be difficult to replicate in isolated environments
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -45,7 +45,7 @@ layout: solution
 - Environment definitions require ongoing maintenance as dependencies and services evolve
 - Performance of volume-mounted source code can be slow on some platforms
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

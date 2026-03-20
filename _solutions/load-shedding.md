@@ -42,7 +42,7 @@ layout: solution
 - Incorrect priority assignments can shed important traffic
 - Legacy systems may lack the instrumentation needed to measure load accurately
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

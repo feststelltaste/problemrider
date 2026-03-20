@@ -45,7 +45,7 @@ layout: solution
 - Post-incident reviews take time away from feature development
 - Over-bureaucratic incident processes can discourage reporting of minor issues
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

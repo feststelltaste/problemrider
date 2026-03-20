@@ -43,7 +43,7 @@ layout: solution
 - Does not provide independent scaling or deployment of individual modules
 - Teams may treat it as a halfway measure and not invest enough in boundary enforcement
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

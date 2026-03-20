@@ -44,7 +44,7 @@ layout: solution
 - Script failures in production require operational staff to understand the automation tooling
 - Maintaining scripts requires ongoing effort as the application and infrastructure evolve
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -46,7 +46,7 @@ layout: solution
 - Late-stage UAT discoveries can derail migration timelines if they reveal fundamental design issues that require extensive rework.
 - Users may use UAT as an opportunity to request new features rather than validating agreed-upon requirements, leading to scope creep.
 
-## Examples
+## How It Could Be
 
 > The following scenario demonstrates the importance of structured UAT in legacy system replacement.
 

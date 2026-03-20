@@ -44,7 +44,7 @@ layout: solution
 - Findings may reveal fundamental design issues that are expensive to remediate
 - Analysis results can become outdated quickly if the system undergoes rapid changes
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

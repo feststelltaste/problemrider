@@ -41,7 +41,7 @@ layout: solution
 - Overly strict rules may frustrate teams that need to make intentional breaking changes
 - False positives in compatibility checks can erode trust in the process
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

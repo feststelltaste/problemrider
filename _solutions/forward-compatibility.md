@@ -40,7 +40,7 @@ layout: solution
 - Forward-compatible systems may accumulate stale data or behaviors that confuse users
 - Testing forward compatibility is inherently speculative and cannot cover all scenarios
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

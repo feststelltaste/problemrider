@@ -44,7 +44,7 @@ layout: solution
 - Feedback that contradicts the actual system state, such as showing "saved successfully" when the save actually failed silently, is worse than no feedback at all.
 - Acoustic feedback can be disruptive in shared workspaces and should always be optional.
 
-## Examples
+## How It Could Be
 
 > Lack of feedback is a defining characteristic of many legacy systems, and adding it can transform the user experience with relatively modest effort.
 

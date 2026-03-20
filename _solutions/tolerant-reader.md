@@ -38,6 +38,6 @@ layout: solution
 - Makes it harder to detect when a consumer's understanding of a contract has drifted from reality.
 - Requires discipline to ensure consumers validate the fields they do use.
 
-## Examples
+## How It Could Be
 
 A legacy ERP system publishes order events consumed by five downstream services. Each time the ERP team adds a field to the order payload, at least one consumer breaks because its strict deserialization rejects the unknown property. After adopting the tolerant reader pattern, consumers are configured to ignore unrecognized fields and extract only the data they need. The ERP team can now enrich order events with new attributes (shipping metadata, compliance flags) without filing cross-team change requests. Consumers that need the new data opt in by updating their extraction logic on their own schedule, while those that do not need it continue operating without any changes.

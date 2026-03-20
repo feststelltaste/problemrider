@@ -47,7 +47,7 @@ layout: solution
 - Black-box fuzzing of legacy applications can cause instability, data corruption, or resource exhaustion in the target system, requiring isolated test environments.
 - Some vulnerability classes (logic errors, authorization bypasses, business logic flaws) are not discoverable through input fuzzing.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how fuzz testing uncovers vulnerabilities in legacy systems.
 

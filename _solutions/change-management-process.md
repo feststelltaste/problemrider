@@ -55,7 +55,7 @@ A change management process provides a structured but pragmatic framework for ha
 - May create tension with stakeholders who are accustomed to having their requests immediately acted upon, requiring clear communication about why the evaluation step exists.
 - In resource-constrained environments, the time spent on change evaluation and documentation competes with the limited capacity available for actual development work.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how a change management process addresses uncontrolled change in legacy system contexts.
 

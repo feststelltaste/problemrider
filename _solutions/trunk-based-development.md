@@ -43,7 +43,7 @@ layout: solution
 - Teams must develop discipline to commit small, complete increments rather than large batches
 - Partially complete features on main require careful management to avoid exposing them to users
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

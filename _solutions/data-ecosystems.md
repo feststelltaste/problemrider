@@ -41,7 +41,7 @@ layout: solution
 - Data quality issues in source systems propagate through the ecosystem
 - Organizational resistance from teams accustomed to owning their data in isolation
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

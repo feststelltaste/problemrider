@@ -47,7 +47,7 @@ layout: solution
 - The simplified implementation may not expose problems that only manifest under production-scale load or data volumes.
 - Tracer bullets validate the chosen architecture but may create commitment bias — the team may be reluctant to change architectural decisions even when later evidence suggests they should.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates how a tracer bullet validates architecture in a legacy modernization context.
 

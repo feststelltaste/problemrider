@@ -51,7 +51,7 @@ layout: solution
 - Teams accustomed to ad-hoc SQL scripts need to internalize the discipline of never editing applied migrations — violations cause schema divergence across environments that are difficult to diagnose.
 - Existing legacy databases often have undocumented manual changes, triggers, and stored procedures that do not appear in any migration history; the initial baseline migration must be constructed by inspection, which is time-consuming and error-prone.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate the value and challenges of introducing evolutionary database design into legacy system contexts.
 

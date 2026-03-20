@@ -40,7 +40,7 @@ layout: solution
 - Some version combinations may produce flaky results due to known upstream bugs
 - Diminishing returns when testing very old or rarely used version combinations
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

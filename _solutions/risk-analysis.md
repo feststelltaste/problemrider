@@ -45,7 +45,7 @@ layout: solution
 - Risk registers become stale if not actively maintained and reviewed
 - Over-reliance on risk scores can create false precision and misguided priorities
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

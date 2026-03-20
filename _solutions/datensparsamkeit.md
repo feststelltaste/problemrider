@@ -45,7 +45,7 @@ layout: solution
 - Implementing data retention policies in legacy databases with no temporal metadata requires adding expiration tracking infrastructure.
 - Stakeholders may resist data minimization due to concerns about losing future analytics or reporting capabilities.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how data minimization reduces risk in legacy systems.
 

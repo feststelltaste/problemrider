@@ -44,7 +44,7 @@ layout: solution
 - Maintaining keyboard support as new features are added requires awareness and discipline from all developers.
 - Complex custom controls such as drag-and-drop interfaces may need entirely alternative interaction modes for keyboard users, increasing development effort.
 
-## Examples
+## How It Could Be
 
 > Keyboard accessibility is often the most impactful accessibility improvement because it enables not only keyboard-only users but also screen reader users who depend on keyboard navigation.
 

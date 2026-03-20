@@ -55,7 +55,7 @@ layout: solution
 - Teams under pressure to deliver legacy maintenance and modernization simultaneously may treat ADR writing as overhead and deprioritize it until the practice fades.
 - ADRs that document constraints that have since become irrelevant can mislead new developers if statuses are not kept current, potentially causing them to preserve unnecessary complexity.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how ADRs address the specific knowledge problems that accumulate in long-lived legacy systems.
 

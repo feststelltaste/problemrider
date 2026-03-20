@@ -44,7 +44,7 @@ layout: solution
 - Adds infrastructure and operational complexity for each message queue
 - Stale dead letter messages may become invalid if the system has changed since the original failure
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

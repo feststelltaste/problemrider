@@ -47,7 +47,7 @@ layout: solution
 - Validation rules must be maintained as business requirements change — outdated rules may block new valid inputs or fail to catch new invalid ones.
 - Input validation alone does not prevent all injection attacks — it must be combined with output encoding, parameterized queries, and other defense-in-depth measures.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how input validation prevents attacks and data corruption in legacy systems.
 

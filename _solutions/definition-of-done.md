@@ -55,7 +55,7 @@ layout: solution
 - An overly ambitious DoD in a legacy context can stall progress if teams feel that almost nothing can be "done" given the state of the surrounding system — the DoD must be calibrated to what is achievable now, not what would be ideal.
 - Without management support for the time required to meet DoD criteria, teams experience the DoD as an additional unfunded mandate on top of an already demanding delivery schedule.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how teams introduced a Definition of Done into legacy environments and what impact it had.
 

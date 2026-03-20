@@ -38,6 +38,6 @@ layout: solution
 - Integration introduces latency; real-time consistency across systems may not be achievable.
 - Integration layer becomes critical infrastructure; its failure impacts all connected systems.
 
-## Examples
+## How It Could Be
 
 A hospital runs separate legacy systems for patient registration, billing, lab results, and pharmacy. Clinicians must log into multiple systems and manually cross-reference patient information, leading to delays and occasional errors. The IT team implements a data integration platform using Apache NiFi, creating pipelines that synchronize patient demographics across systems and provide a unified patient record view. Change data capture on the registration system's database feeds updates to downstream systems in near-real-time. The integration layer normalizes data formats and resolves conflicts (such as different date formats and name representations) before delivering data to consumers. Clinicians now see a consolidated patient view, and the integration layer provides the foundation for eventually replacing individual legacy systems.

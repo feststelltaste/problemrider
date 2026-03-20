@@ -44,7 +44,7 @@ layout: solution
 - Least privilege requires ongoing enforcement as the system evolves — new features may require new permissions, and old permissions may need to be revoked.
 - Just-in-time privilege elevation adds friction to administrative workflows and requires supporting infrastructure.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how least privilege reduces risk in legacy systems.
 

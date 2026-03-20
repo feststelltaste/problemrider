@@ -47,7 +47,7 @@ layout: solution
 - Teams may resist documenting APIs that they plan to replace soon, creating a gap during the transition period.
 - Auto-generated documentation without narrative context may be technically accurate but unhelpful for developers trying to understand usage patterns.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates the impact of API documentation on legacy system integration.
 

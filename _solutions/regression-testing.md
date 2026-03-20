@@ -54,7 +54,7 @@ layout: solution
 - Characterization tests that capture buggy behavior create a tension when the team later wants to fix those bugs: the tests must be updated alongside the fixes, which requires understanding which test assertions represent intentional behavior and which represent bugs.
 - Over-reliance on end-to-end regression tests without complementary unit and integration tests creates a test suite that is slow to run, expensive to maintain, and provides poor diagnostic information when failures occur.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how regression testing enables confident modification of legacy systems where fear of breaking things has previously paralyzed improvement efforts.
 

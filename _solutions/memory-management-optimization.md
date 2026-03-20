@@ -55,7 +55,7 @@ Memory management optimization is the practice of systematically analyzing and i
 - Memory optimization changes can mask underlying architectural problems. Fixing a leak without addressing the design that caused it may lead to similar leaks reappearing elsewhere.
 - Aggressive memory optimization in one area may shift pressure to another — for example, reducing heap allocations by using stack-allocated buffers can increase the risk of stack overflows.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how systematic memory management optimization resolves performance problems in legacy systems.
 

@@ -43,7 +43,7 @@ layout: solution
 - Audit fatigue can lead teams to treat findings as routine rather than actionable
 - Legacy systems with poor documentation make audits more time-consuming and less thorough
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

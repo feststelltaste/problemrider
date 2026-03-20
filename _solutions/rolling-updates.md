@@ -42,7 +42,7 @@ layout: solution
 - Debugging issues during mixed-version states can be challenging
 - Legacy applications with shared state or singleton patterns may not support gradual rollout
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

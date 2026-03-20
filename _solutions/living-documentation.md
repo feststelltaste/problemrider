@@ -45,7 +45,7 @@ layout: solution
 - Executable specifications add maintenance overhead when system behavior changes frequently
 - Risk of documentation bloat if there is no curation or pruning discipline
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

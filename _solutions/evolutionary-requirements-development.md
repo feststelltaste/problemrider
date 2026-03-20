@@ -56,7 +56,7 @@ layout: solution
 - Stakeholders who expect predictable long-term roadmaps may struggle with a process that deliberately defers detailed requirements until closer to implementation, creating planning credibility concerns at the organizational level.
 - In fixed-price or regulated contexts, evolutionary requirements conflict with contractual or compliance expectations for upfront specification, requiring careful negotiation of how requirements baselines are managed.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how evolutionary requirements development addresses the challenges of incomplete or changing requirements in legacy system contexts.
 

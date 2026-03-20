@@ -39,6 +39,6 @@ layout: solution
 - Enforcing standards across autonomous teams requires governance and buy-in.
 - Over-standardization can reduce flexibility for specialized use cases.
 
-## Examples
+## How It Could Be
 
 A logistics company has dozens of internal systems communicating through a mix of SOAP, FTP file drops, and custom TCP protocols. New consumer teams spend weeks building bespoke adapters for each integration. The architecture team introduces an API gateway that exposes RESTful OpenAPI-documented endpoints in front of the most critical legacy systems. Consumer teams now integrate using standard HTTP clients and auto-generated SDKs. Over time, the legacy backends are replaced with modern implementations behind the same standardized interfaces, and consumers experience no disruption during the transition.

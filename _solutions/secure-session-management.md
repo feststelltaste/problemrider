@@ -42,7 +42,7 @@ layout: solution
 - Session migration during deployments requires careful handling to avoid user disruption
 - Legacy applications with custom session handling may require significant refactoring
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

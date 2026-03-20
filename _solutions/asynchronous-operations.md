@@ -46,7 +46,7 @@ layout: solution
 - Testing asynchronous flows is more complex than testing synchronous ones, requiring consideration of timing, race conditions, and failure scenarios.
 - Users accustomed to synchronous feedback may initially be confused by the change in interaction pattern and need clear communication about what is happening.
 
-## Examples
+## How It Could Be
 
 > Background processing can transform the most frustrating aspects of a legacy system into responsive, user-friendly experiences.
 

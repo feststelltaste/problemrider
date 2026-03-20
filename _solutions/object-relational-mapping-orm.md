@@ -45,7 +45,7 @@ layout: solution
 - Legacy schemas with unconventional structures may not map cleanly to ORM models
 - Learning curve for teams unfamiliar with ORM concepts and configuration
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

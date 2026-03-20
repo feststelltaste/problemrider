@@ -56,7 +56,7 @@ layout: solution
 - Boundary enforcement requires governance: without regular dependency checks and a culture that treats boundary violations as seriously as bugs, the boundaries erode faster than they were established.
 - Performance overhead from interface-mediated communication between modules — particularly where the legacy system previously used direct in-process calls across what are now module boundaries — may require measurement and optimization.
 
-## Examples
+## How It Could Be
 
 > The following scenarios show how modularization has been applied in practice to bring structure to systems where none previously existed.
 

@@ -42,7 +42,7 @@ layout: solution
 - Deploying honeypots introduces additional systems that must be monitored, patched (or deliberately left unpatched in a controlled manner), and managed.
 - Legal and ethical considerations may apply to recording attacker activity, depending on jurisdiction.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how honeypots detect threats targeting legacy systems.
 

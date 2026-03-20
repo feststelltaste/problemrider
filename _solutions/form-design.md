@@ -45,7 +45,7 @@ layout: solution
 - Multi-step forms hide the total scope of required information, which can frustrate users who prefer to see everything at once and fill fields in their preferred order.
 - Converting existing form layouts requires coordination with backend validation logic that may expect all fields to be submitted simultaneously.
 
-## Examples
+## How It Could Be
 
 > Legacy data entry forms are often the most painful part of the user experience because they were designed for the database, not the user.
 

@@ -43,7 +43,7 @@ layout: solution
 - Integrity monitoring adds processing overhead to the system
 - Complex legacy environments with many components generate large volumes of integrity data
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

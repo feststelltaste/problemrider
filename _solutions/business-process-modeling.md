@@ -38,6 +38,6 @@ layout: solution
 - Stakeholders may describe idealized rather than actual processes, requiring observation to validate.
 - Over-detailed models can become as hard to understand as the code they describe.
 
-## Examples
+## How It Could Be
 
 A government agency plans to replace a legacy case management system but discovers that no one fully understands the current business processes. The team conducts workshops with case workers, creating BPMN diagrams of how cases actually flow through the system. They discover that the real process diverges significantly from the official procedures manual: case workers have developed numerous workarounds to compensate for system limitations. These workarounds represent genuine business needs that must be addressed in the replacement system. The process models become the authoritative requirements source for the modernization project, preventing the common mistake of building a new system that replicates old software behavior rather than actual business needs.

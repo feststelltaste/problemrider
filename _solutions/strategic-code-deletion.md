@@ -43,7 +43,7 @@ layout: solution
 - Developers may resist deleting code they invested effort in writing
 - In legacy systems, it can be hard to determine whether code is truly unused
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

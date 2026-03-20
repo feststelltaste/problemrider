@@ -46,7 +46,7 @@ layout: solution
 - Users may use the feedback channel to report urgent production issues, requiring clear guidance on when to use feedback versus when to contact support.
 - Feedback may be dominated by vocal minorities whose needs do not represent the broader user base, skewing priorities if not balanced with usage analytics.
 
-## Examples
+## How It Could Be
 
 > Without formal feedback channels, user frustration with legacy systems builds silently until it manifests as shadow systems, complaints to management, or outright system abandonment.
 

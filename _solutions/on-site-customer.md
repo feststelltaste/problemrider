@@ -46,7 +46,7 @@ layout: solution
 - The customer representative may become a bottleneck if the team relies on them for every decision rather than building their own domain understanding.
 - Organizational politics may prevent the right person from being assigned to the role, resulting in a representative who lacks authority or knowledge.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate the impact of on-site customer involvement in legacy modernization.
 

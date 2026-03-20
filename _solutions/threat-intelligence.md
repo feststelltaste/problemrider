@@ -42,7 +42,7 @@ layout: solution
 - Information overload can occur without proper filtering and prioritization
 - Threat intelligence is perishable and requires continuous updates to remain valuable
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

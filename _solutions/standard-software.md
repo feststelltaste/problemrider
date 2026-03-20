@@ -46,7 +46,7 @@ layout: solution
 - Migration from custom to standard software requires careful data migration and integration work that is often underestimated.
 - Over-reliance on standard software for core business logic can limit competitive differentiation and flexibility.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates the benefits and challenges of replacing custom legacy components with standard software.
 

@@ -46,7 +46,7 @@ layout: solution
 - Writing effective help content requires understanding user tasks at a detailed level, which may require collaboration with domain experts.
 - Translating contextual help into multiple languages adds to the localization burden in internationally deployed legacy systems.
 
-## Examples
+## How It Could Be
 
 > Legacy systems often suffer from a documentation gap where the only people who understand the interface are those who built it years ago.
 

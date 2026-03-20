@@ -48,7 +48,7 @@ layout: solution
 - Quality gates measure what tools can detect but miss design quality, naming clarity, and architectural fitness.
 - Maintaining quality gate infrastructure and tool configurations requires ongoing effort.
 
-## Examples
+## How It Could Be
 
 > The following scenario demonstrates how quality gates halt quality degradation in a legacy system.
 

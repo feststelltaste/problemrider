@@ -44,7 +44,7 @@ layout: solution
 - Circuit breaker state can mask underlying issues if monitoring is insufficient
 - Half-open probing logic must be tested to ensure proper recovery detection
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

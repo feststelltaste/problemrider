@@ -46,7 +46,7 @@ layout: solution
 - Testing a legacy system with severe usability problems can produce an overwhelming number of findings, requiring discipline to prioritize rather than trying to fix everything at once.
 - There is a risk of over-indexing on the behavior of a small number of test participants, making it important to distinguish between individual preferences and genuine design problems.
 
-## Examples
+## How It Could Be
 
 > Organizations that have never conducted usability tests on their legacy systems are consistently surprised by what they discover.
 

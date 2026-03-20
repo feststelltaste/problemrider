@@ -38,6 +38,6 @@ layout: solution
 - The gap between the domain model and the legacy implementation may be too large to bridge incrementally.
 - Over-modeling can slow down development if the team spends too much time perfecting the model.
 
-## Examples
+## How It Could Be
 
 A legacy supply chain management system uses technical abstractions ("Record," "Transaction," "Item") that do not map to how logistics managers think about their domain ("Purchase Order," "Shipment," "Stock Keeping Unit"). The development team conducts domain modeling workshops with logistics managers and creates a domain model using business terminology. Comparing this model with the legacy code reveals that a single "Transaction" table stores purchase orders, shipment records, and inventory adjustments, distinguished only by a type code. This insight guides a refactoring effort that separates these concepts into distinct domain objects, making the code comprehensible to new developers and enabling the logistics team to communicate requirements using terms that map directly to code structures.

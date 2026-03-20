@@ -42,7 +42,7 @@ layout: solution
 - Teams need new skills in software-defined networking and cloud networking concepts
 - Some legacy applications assume specific network topologies that are difficult to virtualize
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

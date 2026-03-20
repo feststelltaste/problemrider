@@ -37,6 +37,6 @@ layout: solution
 - Can lead to feature bloat if customization requests are not prioritized carefully.
 - Custom configurations can conflict with each other in unexpected ways.
 
-## Examples
+## How It Could Be
 
 A legacy CRM system serves both inside sales and field service teams, but its rigid workflow forces field service technicians to navigate screens designed for sales representatives. Rather than building a separate system, the team introduces role-based UI configurations and customizable workflow templates. Field service technicians see only the fields and steps relevant to their work, while sales representatives retain their current experience. The configuration is stored separately from core code, so system upgrades do not overwrite customizations. User satisfaction surveys show marked improvement for the field service team, and the workaround spreadsheets they previously maintained to compensate for the rigid UI are no longer needed.

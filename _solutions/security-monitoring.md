@@ -45,7 +45,7 @@ layout: solution
 - False positives can lead to alert fatigue and missed genuine threats
 - Storing and processing security logs at scale requires significant infrastructure investment
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

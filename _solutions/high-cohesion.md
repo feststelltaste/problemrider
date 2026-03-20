@@ -44,7 +44,7 @@ layout: solution
 - Intermediate refactoring states may temporarily increase complexity before the full benefit is realized
 - May surface hidden dependencies that were masked by the monolithic structure
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -46,7 +46,7 @@ layout: solution
 - Rules defined without input from development teams may be impractical or misaligned with actual development challenges.
 - Governance that focuses only on preventing violations without providing guidance and support becomes perceived as policing rather than enabling.
 
-## Examples
+## How It Could Be
 
 > The following scenario demonstrates how architecture governance prevents further decay during legacy modernization.
 

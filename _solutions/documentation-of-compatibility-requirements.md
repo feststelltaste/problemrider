@@ -41,7 +41,7 @@ layout: solution
 - Teams may deprioritize documentation work in favor of feature development
 - Overly detailed compatibility documentation can be difficult to navigate
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

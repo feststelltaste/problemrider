@@ -59,7 +59,7 @@ Technical skills development is the deliberate, ongoing investment in raising th
 - The benefits of skill development are gradual and difficult to measure directly, making it hard to demonstrate ROI to management in the short term.
 - Over-investment in training without corresponding changes to code review standards and team norms can result in developers who know better practices but continue old habits due to time pressure.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how technical skills development addresses recurring design and implementation problems in legacy system teams.
 

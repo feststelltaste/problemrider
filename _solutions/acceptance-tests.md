@@ -39,6 +39,6 @@ layout: solution
 - Maintaining a large suite of acceptance tests requires ongoing effort as requirements evolve.
 - Slow execution times for comprehensive acceptance test suites can delay feedback.
 
-## Examples
+## How It Could Be
 
 A retail company inherits a legacy order management system with no automated tests. Before beginning modernization, the team collaborates with business analysts to identify the twenty most critical order workflows and writes acceptance tests for each using Cucumber. These tests verify end-to-end behavior including order creation, payment processing, inventory updates, and notification delivery. When the team later extracts the payment module into a separate service, the acceptance tests catch three subtle regressions in discount calculation logic that unit tests would not have detected. The test suite becomes the definitive specification of correct behavior, referenced by both developers and business stakeholders during planning discussions.

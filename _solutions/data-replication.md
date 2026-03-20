@@ -44,7 +44,7 @@ layout: solution
 - Monitoring and managing replication health adds operational complexity
 - Schema changes must be coordinated carefully across all replicas
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

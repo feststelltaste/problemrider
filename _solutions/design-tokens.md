@@ -45,7 +45,7 @@ layout: solution
 - Over-engineering the token hierarchy with too many abstraction layers can make the system harder to understand than the hardcoded values it replaced.
 - Teams must adopt the discipline of using tokens for all new work, or the system will gradually return to inconsistency.
 
-## Examples
+## How It Could Be
 
 > Legacy systems with long histories accumulate dozens of slightly different shades of the same color and inconsistent spacing, creating visual noise that undermines professionalism.
 

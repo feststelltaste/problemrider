@@ -41,7 +41,7 @@ layout: solution
 - Requirements may become outdated if not regularly reviewed
 - Stakeholders may resist making implicit assumptions explicit because it creates accountability
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

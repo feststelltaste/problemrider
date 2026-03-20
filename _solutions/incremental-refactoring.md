@@ -64,7 +64,7 @@ layout: solution
 - Poorly executed refactoring — changing structure and behavior simultaneously, or making steps too large to reverse safely — can make legacy code harder to understand and maintain than before.
 - Stakeholders who measure progress in visible features may perceive refactoring as non-productive, creating friction when developers advocate for structural improvements to a system that "already works."
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how incremental refactoring addresses the structural decay found in real legacy systems without requiring a disruptive overhaul.
 

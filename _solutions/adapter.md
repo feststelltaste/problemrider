@@ -42,7 +42,7 @@ layout: solution
 - Poorly designed adapters may introduce subtle data-loss or semantic mismatches
 - Proliferation of adapters can create its own complexity if not governed
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

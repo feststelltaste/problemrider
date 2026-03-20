@@ -47,7 +47,7 @@ layout: solution
 - Storage costs for metrics and logs can grow significantly over time
 - Poorly configured monitoring provides false confidence
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

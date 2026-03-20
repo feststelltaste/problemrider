@@ -48,7 +48,7 @@ layout: solution
 - Overly rigid procedures can impede response to novel incidents that do not fit predefined scenarios.
 - Incident response tools and automation require maintenance and may need updates as the legacy system changes.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how structured incident response measures improve outcomes for legacy system security incidents.
 

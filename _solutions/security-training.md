@@ -44,7 +44,7 @@ layout: solution
 - Generic training content may not address the specific security challenges of legacy systems
 - Training competes with delivery work for developer time and attention
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

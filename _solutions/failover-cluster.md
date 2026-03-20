@@ -44,7 +44,7 @@ layout: solution
 - Legacy applications may require modifications to support session sharing or stateless operation
 - Failover testing requires careful planning to avoid accidental production outages
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

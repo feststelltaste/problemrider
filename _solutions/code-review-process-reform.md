@@ -62,7 +62,7 @@ layout: solution
 - A superficial review culture — rubber-stamping approvals to meet process requirements — provides false confidence while adding calendar delay, which is worse than no process.
 - Introducing mandatory review into a team accustomed to direct commits can create resistance; phasing in the requirement by module or risk level reduces friction.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how code review reform plays out in typical legacy modernization contexts.
 

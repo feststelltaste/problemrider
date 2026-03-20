@@ -46,7 +46,7 @@ layout: solution
 - Over-aggressive canonicalization (stripping or replacing characters) can reject or corrupt legitimate international input.
 - Performance overhead from canonicalization is typically small but can be noticeable for high-volume input processing in legacy systems.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how canonicalization prevents security bypasses in legacy systems.
 

@@ -43,7 +43,7 @@ layout: solution
 - Increased code complexity from maintaining multiple execution paths
 - Some features cannot be meaningfully probed at runtime and still require conditional compilation
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -44,7 +44,7 @@ layout: solution
 - Users may rely exclusively on the FAQ and not report genuine bugs if their question is tangentially addressed by an existing entry.
 - A poorly organized FAQ with hundreds of entries becomes as difficult to navigate as the system itself.
 
-## Examples
+## How It Could Be
 
 > The same questions are asked repeatedly about legacy systems because the answers live only in the heads of experienced users and developers.
 

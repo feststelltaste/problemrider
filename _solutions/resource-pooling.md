@@ -52,7 +52,7 @@ layout: solution
 - Adding pooling to legacy code requires careful refactoring of resource lifecycle management, which is risky in codebases without test coverage for resource handling paths.
 - Pool configuration must be tuned per environment and workload; settings that work in development with 5 concurrent users may be entirely wrong for production with 500.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how resource pooling addresses resource management problems in legacy systems.
 

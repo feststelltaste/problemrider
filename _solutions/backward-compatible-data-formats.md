@@ -41,7 +41,7 @@ layout: solution
 - Default values for new fields may not always represent correct business semantics
 - Schema registries and validation infrastructure add operational overhead
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

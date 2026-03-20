@@ -41,7 +41,7 @@ layout: solution
 - Premature deprecation can damage trust and drive consumers to competing platforms
 - Monitoring and communication infrastructure adds operational overhead
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

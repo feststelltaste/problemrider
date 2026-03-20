@@ -45,7 +45,7 @@ layout: solution
 - Redesigning information architecture in a legacy system may require changes to backend APIs if the current API structure mirrors the old UI layout.
 - Incremental cognitive load improvements can create inconsistency between modernized and unmodernized sections, temporarily increasing confusion.
 
-## Examples
+## How It Could Be
 
 > Legacy systems accumulate interface complexity over decades as features are added without holistic design consideration.
 

@@ -42,7 +42,7 @@ layout: solution
 - Prefetched data may become stale if underlying data changes frequently
 - Can interfere with rate limiting or authentication token management
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

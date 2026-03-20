@@ -47,7 +47,7 @@ layout: solution
 - Stakeholders unfamiliar with the practice may view spikes as wasted time rather than risk reduction.
 - Repeated spikes without follow-through on actual implementation can erode team motivation and stakeholder trust.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how functional spikes reduce risk in legacy modernization contexts.
 

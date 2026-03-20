@@ -45,7 +45,7 @@ layout: solution
 - Responsive design increases CSS and testing complexity because every screen must look correct at multiple sizes.
 - Legacy JavaScript that relies on fixed pixel positions for dropdown menus, popups, and drag-and-drop may break when the layout reflows.
 
-## Examples
+## How It Could Be
 
 > Users increasingly expect to access work systems from multiple devices, and legacy systems that fail to adapt are perceived as outdated and frustrating.
 

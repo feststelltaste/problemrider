@@ -44,7 +44,7 @@ layout: solution
 - Log infrastructure requires its own monitoring and maintenance
 - Teams may rely on logs as a substitute for proper monitoring and alerting
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

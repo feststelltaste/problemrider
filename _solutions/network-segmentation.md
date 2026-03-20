@@ -46,7 +46,7 @@ layout: solution
 - Performance may be impacted if segmentation introduces additional network hops or firewall processing for high-volume inter-component communication.
 - Improperly implemented segmentation can create a false sense of security if exceptions and bypass rules are too permissive.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how network segmentation protects legacy systems.
 

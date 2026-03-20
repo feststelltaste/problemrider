@@ -44,7 +44,7 @@ layout: solution
 - Tutorials that are too lengthy or too detailed lose users' attention. Each tutorial should be completable in five to ten minutes.
 - Building tutorials for a legacy system with an inconsistent UI may require different tutorial mechanisms for different parts of the application.
 
-## Examples
+## How It Could Be
 
 > Complex legacy system workflows that require specific sequences of actions across multiple screens are prime candidates for interactive tutorials.
 

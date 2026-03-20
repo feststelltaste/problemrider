@@ -44,7 +44,7 @@ layout: solution
 - Too many metrics can create noise and alert fatigue
 - Teams may over-index on measurable metrics while missing user-perceived issues
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

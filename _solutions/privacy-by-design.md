@@ -44,7 +44,7 @@ layout: solution
 - Anonymization and pseudonymization can complicate debugging and support workflows
 - Consent management adds complexity to user-facing interfaces and backend logic
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

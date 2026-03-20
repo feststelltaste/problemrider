@@ -45,7 +45,7 @@ layout: solution
 - Maintaining value range definitions as business rules change requires ongoing governance.
 - Validation logic can become scattered across the codebase if not centralized in a validation layer.
 
-## Examples
+## How It Could Be
 
 > The following scenario shows how value range definition prevents data quality issues during legacy migration.
 

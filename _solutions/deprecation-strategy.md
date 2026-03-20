@@ -46,7 +46,7 @@ layout: solution
 - Tracking usage of deprecated features requires instrumentation that may not exist in legacy systems.
 - The deprecation process itself requires coordination effort across teams and organizational boundaries.
 
-## Examples
+## How It Could Be
 
 > The following scenario demonstrates how a deprecation strategy reduces legacy maintenance burden.
 

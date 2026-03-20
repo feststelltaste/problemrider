@@ -43,7 +43,7 @@ layout: solution
 - Poorly structured logs are difficult to query and can be worse than no logs
 - Retrofitting logging into a legacy codebase requires touching many files
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

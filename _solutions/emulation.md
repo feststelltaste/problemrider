@@ -41,7 +41,7 @@ layout: solution
 - Relying on emulation indefinitely increases technical debt and operational risk
 - Emulation tools themselves may become unsupported or obsolete
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -43,7 +43,7 @@ layout: solution
 - Transitioning from individual permissions to roles may temporarily disrupt user workflows
 - Legacy integrations using shared credentials may resist migration to role-based models
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

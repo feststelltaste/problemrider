@@ -55,7 +55,7 @@ Cross-functional skill development is the deliberate practice of training team m
 - Learning time budgets are vulnerable to being raided when delivery pressure increases, which happens frequently in legacy environments dealing with production issues. Strong management commitment is needed to protect these allocations consistently.
 - Skills matrix transparency can create anxiety in team members who feel exposed by having their skill gaps documented publicly. The matrix must be framed as a planning tool for team improvement, not an evaluation tool for individual performance.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how cross-functional skill development has addressed skill concentration and team resilience challenges in legacy system environments.
 

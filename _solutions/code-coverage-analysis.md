@@ -45,7 +45,7 @@ layout: solution
 - Coverage analysis adds time to the build process, which may be unwelcome in legacy systems with already-long build times.
 - Focus on coverage metrics can divert attention from test quality — a few well-designed tests often provide more protection than many superficial ones.
 
-## Examples
+## How It Could Be
 
 > The following scenario demonstrates how coverage analysis guides testing investment in a legacy codebase.
 

@@ -42,7 +42,7 @@ layout: solution
 - AOT compilation may not support all runtime features used by legacy applications (reflection, dynamic proxies)
 - Warm-up requests add operational complexity and must be distinguished from real traffic in monitoring
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

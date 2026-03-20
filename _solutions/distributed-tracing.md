@@ -43,7 +43,7 @@ layout: solution
 - Incomplete instrumentation (missing spans in some services) produces misleading traces
 - Requires team education to interpret trace data effectively
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -46,7 +46,7 @@ layout: solution
 - Workshop decisions may not be implemented if there is no follow-up mechanism to track and prioritize resulting work items.
 - Participants without sufficient context may contribute noise rather than signal, making the workshop less productive for experienced architects.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates how architecture workshops advance legacy modernization.
 

@@ -40,7 +40,7 @@ layout: solution
 - Developers unfamiliar with the pattern may find the indirection confusing
 - Retrofitting the pattern into a deeply entangled legacy hierarchy can be risky without good test coverage
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

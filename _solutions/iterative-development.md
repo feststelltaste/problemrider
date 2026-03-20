@@ -62,7 +62,7 @@ layout: solution
 - Breaking legacy features into thin slices can be genuinely difficult when the existing architecture is monolithic and tightly coupled, sometimes requiring architectural investment before iterative delivery becomes practical.
 - The overhead of iteration ceremonies — planning, review, retrospective — can feel burdensome for small teams, and must be kept proportional to the iteration length to avoid consuming too much development time.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how iterative development addresses schedule, planning, and scope challenges in legacy system contexts.
 

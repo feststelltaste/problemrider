@@ -41,7 +41,7 @@ layout: solution
 - Centralized data governance may conflict with team autonomy in decentralized organizations
 - Keeping the strategy current requires ongoing investment
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

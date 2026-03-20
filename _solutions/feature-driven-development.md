@@ -38,6 +38,6 @@ layout: solution
 - Individual feature ownership can create knowledge silos if not combined with code reviews and knowledge sharing.
 - Legacy modernization often involves foundational work that is not directly feature-visible.
 
-## Examples
+## How It Could Be
 
 A legacy warehouse management system modernization effort stalls because the team is working on broad, undefined tasks like "improve the inventory module." The team switches to feature-driven development, creating a feature list of 120 specific features organized by business capability. Each two-week iteration, the team selects features to implement, designs them briefly, and builds them to completion. Stakeholders can see that 45% of warehouse receiving features are modernized, 20% of put-away features, and 0% of cycle counting features. This visibility allows the business to reprioritize: cycle counting is more urgent than put-away, so the team shifts focus. Within six months, the most business-critical features are modernized while lower-priority areas remain on the legacy system, maximizing the value delivered within the available budget.

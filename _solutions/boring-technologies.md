@@ -51,7 +51,7 @@ layout: solution
 - The definition of "boring" is subjective and context-dependent: what is boring and well-understood for one team may be novel and risky for another, so the policy must be calibrated to each team's actual expertise.
 - Legacy systems already built on now-obsolete technologies may need migrations to more modern (but still boring) alternatives, and the boring technology principle should not be used to justify staying on unsupported platforms.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how the boring technology principle has been applied to prevent common anti-patterns in legacy system modernization.
 

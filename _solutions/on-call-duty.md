@@ -44,7 +44,7 @@ layout: solution
 - Teams with limited legacy system knowledge may struggle during on-call shifts
 - Under-staffed on-call rotations concentrate burden on too few people
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

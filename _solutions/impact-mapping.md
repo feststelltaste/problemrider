@@ -53,7 +53,7 @@ layout: solution
 - In highly regulated industries or contractual environments, the flexibility to pivot based on impact measurement may conflict with fixed-scope commitments and compliance requirements.
 - Impact mapping adds a planning step that can feel slow to teams accustomed to jumping directly from stakeholder request to implementation, and the initial learning curve may temporarily reduce the pace of delivery.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how impact mapping reconnects legacy system development with business outcomes in organizations where that connection has been lost.
 

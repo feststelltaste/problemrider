@@ -57,7 +57,7 @@ layout: solution
 - Teams accustomed to manual deployments may resist the discipline of routing all changes through the pipeline, especially under pressure, creating the risk of out-of-band production changes that undermine the pipeline's audit trail.
 - Pipeline maintenance becomes a new ongoing responsibility: pipeline configurations, container images, and environment definitions age alongside the legacy code and require regular updates to remain functional.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how CI/CD pipelines address the deployment fragility that accumulates in long-lived legacy systems.
 

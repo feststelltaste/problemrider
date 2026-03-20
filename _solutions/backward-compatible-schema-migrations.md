@@ -41,7 +41,7 @@ layout: solution
 - Teams must track which migration phase each environment is in
 - Complex migrations may require backfill jobs that run against large datasets
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

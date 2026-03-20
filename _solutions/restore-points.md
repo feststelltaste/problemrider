@@ -42,7 +42,7 @@ layout: solution
 - Point-in-time recovery may not capture all system state (external integrations, message queues)
 - Teams may use restore points as a crutch instead of investing in proper testing
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

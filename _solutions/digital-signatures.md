@@ -43,7 +43,7 @@ layout: solution
 - Transitioning legacy systems to signed artifacts requires tooling changes in build pipelines, deployment processes, and data exchange interfaces.
 - Digital signatures prove integrity and authenticity but not correctness — signed malware is still malware.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how digital signatures protect legacy system integrity.
 

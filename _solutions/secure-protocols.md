@@ -42,7 +42,7 @@ layout: solution
 - Some legacy hardware or embedded devices may be incapable of supporting current protocols
 - Cipher suite configuration requires expertise to avoid both insecure and incompatible choices
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

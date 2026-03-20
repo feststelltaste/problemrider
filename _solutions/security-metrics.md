@@ -43,7 +43,7 @@ layout: solution
 - Security metrics can create false confidence if they measure activity rather than effectiveness
 - Legacy systems may lack the instrumentation needed for automated metric collection
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

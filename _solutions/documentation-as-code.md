@@ -55,7 +55,7 @@ layout: solution
 - Build pipelines and static site generator toolchains add complexity that the team must maintain. For legacy organizations with limited DevOps maturity, this is a non-trivial operational burden.
 - Plain text formats lack the diagram embedding and rich formatting that some legacy documentation genuinely needs. Teams may need additional tooling (e.g., PlantUML, Mermaid) to replace diagram-heavy documentation previously maintained in tools like Confluence or Visio.
 
-## Examples
+## How It Could Be
 
 > Legacy modernization projects succeed or fail on institutional knowledge transfer, and Docs as Code provides a durable mechanism for capturing what the team learns along the way.
 

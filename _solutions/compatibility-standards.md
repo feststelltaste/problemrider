@@ -41,7 +41,7 @@ layout: solution
 - Teams may view standards as bureaucracy if the rationale is not well communicated
 - Enforcement without buy-in leads to workarounds rather than compliance
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

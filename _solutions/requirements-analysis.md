@@ -58,7 +58,7 @@ layout: solution
 - Requirements analysis requires access to knowledgeable stakeholders and domain experts, who are often the same people maintaining the legacy system they are too busy to analyze — scheduling their time for analysis sessions competes with operational demands.
 - Formal requirements documentation can create a false sense of completeness that discourages the ongoing refinement needed as understanding deepens during development.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how systematic requirements analysis prevents common failure patterns in legacy system modernization.
 

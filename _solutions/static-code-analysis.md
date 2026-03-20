@@ -50,7 +50,7 @@ layout: solution
 - Tool configuration and maintenance requires ongoing effort and expertise
 - Some legacy languages or frameworks may have limited static analysis tool support
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

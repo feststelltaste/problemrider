@@ -47,7 +47,7 @@ layout: solution
 - Retrofitting security logging into legacy systems requires code changes at many points, with risk of missing critical event types.
 - Logs containing sensitive data (if sanitization is incomplete) create a secondary data protection risk.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how security logging and monitoring detect threats in legacy systems.
 

@@ -42,7 +42,7 @@ layout: solution
 - Not suitable for all workloads: tabular data and aggregations are better handled by relational databases
 - Team needs to learn new query languages and data modeling paradigms
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

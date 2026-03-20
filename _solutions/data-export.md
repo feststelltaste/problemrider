@@ -44,7 +44,7 @@ layout: solution
 - Format standardization may not capture all nuances of the legacy data model
 - Competitors could benefit from easy data portability if it reduces switching costs
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

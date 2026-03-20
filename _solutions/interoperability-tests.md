@@ -40,7 +40,7 @@ layout: solution
 - Test failures may be caused by partner system issues, making diagnosis harder
 - Maintaining realistic test data across multiple systems is challenging
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

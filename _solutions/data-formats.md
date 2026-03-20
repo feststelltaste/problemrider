@@ -39,7 +39,7 @@ layout: solution
 - Generic formats like JSON lack built-in schema enforcement, requiring additional tooling
 - Some legacy systems may not have libraries available for modern standard formats
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

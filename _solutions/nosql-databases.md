@@ -44,7 +44,7 @@ layout: solution
 - Lack of schema enforcement can lead to data quality issues over time
 - Query capabilities are often more limited than SQL, pushing complexity into application code
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

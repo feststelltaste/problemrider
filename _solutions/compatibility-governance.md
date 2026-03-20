@@ -41,7 +41,7 @@ layout: solution
 - Requires organizational buy-in, which can be difficult to obtain for a non-feature concern
 - Risk of governance becoming ceremonial without enforcement mechanisms
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

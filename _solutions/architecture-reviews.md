@@ -56,7 +56,7 @@ layout: solution
 - Reviews can become gatekeeping mechanisms that concentrate architectural decision-making in a small group, creating bottlenecks and disempowering the broader team rather than building their skills.
 - In fast-moving environments, the delay introduced by architecture reviews may conflict with market pressures, and teams may bypass reviews for "urgent" work, which is often exactly the work that most needs review.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how architecture reviews have been used to prevent and correct design problems in legacy system environments.
 

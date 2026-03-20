@@ -46,7 +46,7 @@ layout: solution
 - Examples that are too detailed can become brittle tests that break with minor implementation changes.
 - Teams may struggle to find the right level of abstraction — too few examples miss critical edge cases, while too many become unmanageable.
 
-## Examples
+## How It Could Be
 
 > The following scenario demonstrates specification by example during a legacy system migration.
 

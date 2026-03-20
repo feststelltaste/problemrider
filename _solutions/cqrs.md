@@ -43,7 +43,7 @@ layout: solution
 - Requires careful handling of projection failures and rebuild scenarios
 - May be over-engineering for systems where read and write patterns are similar
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -47,7 +47,7 @@ layout: solution
 - Teams may over-invest in detailed documentation that quickly becomes stale rather than maintaining a smaller set of high-value documents.
 - Documentation alone does not prevent architectural decay — it must be combined with governance and enforcement mechanisms.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates the impact of architecture documentation on legacy system understanding.
 

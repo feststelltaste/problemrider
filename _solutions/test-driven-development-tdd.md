@@ -44,7 +44,7 @@ layout: solution
 - Can lead to over-testing of implementation details if properties are not well chosen
 - Teams under heavy deadline pressure may abandon the practice before realizing benefits
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

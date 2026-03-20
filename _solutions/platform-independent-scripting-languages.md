@@ -42,7 +42,7 @@ layout: solution
 - Migrating a large body of existing shell scripts requires significant effort
 - Some system-level tasks may still require platform-specific commands underneath
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

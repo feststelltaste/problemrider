@@ -44,7 +44,7 @@ layout: solution
 - High false-positive rates on legacy systems with unusual but legitimate behavior patterns can overwhelm the security team.
 - Automated response actions (endpoint isolation) can cause unplanned outages if triggered incorrectly on critical legacy system servers.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how EDR protects legacy system environments.
 

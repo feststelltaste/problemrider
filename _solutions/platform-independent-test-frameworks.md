@@ -42,7 +42,7 @@ layout: solution
 - Cross-platform test frameworks may lack features available in platform-specific alternatives
 - Flaky tests caused by subtle platform differences can erode trust in the test suite
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

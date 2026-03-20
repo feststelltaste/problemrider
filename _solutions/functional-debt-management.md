@@ -39,6 +39,6 @@ layout: solution
 - Balancing functional debt remediation against new feature demand requires ongoing negotiation.
 - Some functional debt may be deeply embedded and expensive to fix.
 
-## Examples
+## How It Could Be
 
 A legacy CRM system has accumulated years of functional debt: search results do not include recently added contacts, the export feature silently truncates large datasets, and the reporting module calculates quarterly totals incorrectly when transactions span time zones. Users have developed workarounds for each issue, but these workarounds consume hours of staff time weekly. The team creates a functional debt register, assessing each item's business impact and remediation cost. The timezone calculation bug is prioritized first because it affects financial reporting accuracy. The truncation issue is second because it wastes significant staff time. Over four quarters, the team systematically addresses the highest-impact items, and user satisfaction surveys show marked improvement as long-standing frustrations are finally resolved.

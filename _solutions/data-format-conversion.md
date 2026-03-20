@@ -40,7 +40,7 @@ layout: solution
 - Performance overhead of conversion can be significant for high-volume data flows
 - Converters become a maintenance burden if the source or target format changes frequently
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

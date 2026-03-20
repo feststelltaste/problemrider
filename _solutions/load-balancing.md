@@ -44,7 +44,7 @@ layout: solution
 - Configuration complexity increases with SSL termination, routing rules, and rate limiting
 - Load balancer misconfiguration can cause uneven distribution or dropped connections
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

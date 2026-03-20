@@ -44,7 +44,7 @@ layout: solution
 - Over-reliance on automation without verification can propagate errors at scale
 - Legacy systems with undocumented data constraints may cause migration scripts to fail in unexpected ways
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

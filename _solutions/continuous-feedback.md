@@ -52,7 +52,7 @@ layout: solution
 - Adds ceremony and coordination overhead that competes with development time, particularly in small teams where every hour counts.
 - In legacy contexts, feedback from users deeply habituated to the existing system may resist necessary improvements, biasing the product toward replicating outdated workflows rather than genuinely improving them.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how continuous feedback transforms the relationship between development teams and their stakeholders in legacy system contexts.
 

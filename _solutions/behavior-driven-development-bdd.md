@@ -45,7 +45,7 @@ layout: solution
 - The step definition layer between scenarios and code can become a maintenance burden if not kept clean and well-organized.
 - Teams may focus on writing scenarios for easy cases and avoid the complex edge cases where BDD provides the most value.
 
-## Examples
+## How It Could Be
 
 > The following scenario shows how BDD supports legacy system migration.
 

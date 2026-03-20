@@ -56,7 +56,7 @@ Psychological safety practices are deliberate interventions that create an envir
 - Blameless post-incident reviews require discipline to maintain when incidents are severe or costly. The pressure to identify and punish a responsible individual increases with the severity of the incident, and resisting this pressure requires strong leadership commitment.
 - Anonymous feedback channels can be misused for personal attacks or complaints that are not actionable. Clear guidelines about what constitutes constructive anonymous feedback versus inappropriate use are necessary.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how psychological safety practices have changed team dynamics in legacy system environments.
 

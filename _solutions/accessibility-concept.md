@@ -43,7 +43,7 @@ layout: solution
 - Comprehensive accessibility compliance requires ongoing testing and maintenance
 - Some legacy visual designs may need significant rework to meet contrast and layout requirements
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

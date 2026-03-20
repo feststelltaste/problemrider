@@ -44,7 +44,7 @@ layout: solution
 - Cold start times for new instances may be too slow for latency-sensitive applications
 - Increased complexity in monitoring and troubleshooting distributed instances
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

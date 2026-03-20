@@ -36,6 +36,6 @@ layout: solution
 - Over-restrictive authorization can impede legitimate workflows if business roles are too narrowly defined.
 - Centralized authorization becomes a critical component that must be highly available.
 
-## Examples
+## How It Could Be
 
 A legacy hospital information system grants database-level permissions to users, resulting in nurses having access to billing data and administrative staff seeing clinical records. Over the years, permissions accumulated without review, and no one is sure who has access to what. The team introduces a domain-based authorization model where access is controlled by clinical role (physician, nurse, pharmacist) and patient relationship (treating team, consulting, no relationship). Authorization rules are expressed in business terms: "Nurses on the patient's care team can view vital signs and medication orders but not billing information." The legacy system's scattered permission checks are consolidated into an authorization service. A comprehensive audit reveals and revokes hundreds of excessive permissions, significantly improving the hospital's compliance posture.

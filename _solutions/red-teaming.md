@@ -46,7 +46,7 @@ layout: solution
 - Without proper follow-up, red team findings become just another backlog of unfixed issues
 - May create tension between security and development teams if not managed diplomatically
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

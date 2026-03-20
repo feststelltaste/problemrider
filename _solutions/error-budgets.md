@@ -45,7 +45,7 @@ layout: solution
 - Cultural resistance from teams not accustomed to quantified reliability targets
 - Gaming the metrics is possible if measurement points are not comprehensive
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

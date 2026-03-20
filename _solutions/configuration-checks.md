@@ -46,7 +46,7 @@ layout: solution
 - The baseline must be updated whenever legitimate configuration changes are made, creating an ongoing maintenance burden.
 - Configuration checks may not cover application-level security settings in custom legacy code, focusing primarily on infrastructure and platform configuration.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how configuration checks detect and prevent security issues in legacy systems.
 

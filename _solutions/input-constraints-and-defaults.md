@@ -45,7 +45,7 @@ layout: solution
 - Migrating from free-text fields to constrained controls in a legacy database may require cleaning up existing dirty data first.
 - Custom input controls such as date pickers and autocomplete fields must be accessible to keyboard and screen reader users, adding implementation complexity.
 
-## Examples
+## How It Could Be
 
 > Free-text fields in legacy systems are often the source of persistent data quality problems that propagate through downstream processes.
 

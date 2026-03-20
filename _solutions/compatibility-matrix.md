@@ -41,7 +41,7 @@ layout: solution
 - Consumers using unsupported configurations may feel abandoned
 - The matrix requires ongoing maintenance to stay accurate
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

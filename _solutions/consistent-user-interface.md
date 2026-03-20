@@ -46,7 +46,7 @@ layout: solution
 - Long-time users who have adapted to the inconsistencies may experience temporary disruption when familiar screens change.
 - Enforcing consistency across autonomous teams requires governance and collaboration that may not exist in organizations with strong team silos.
 
-## Examples
+## How It Could Be
 
 > Interface inconsistency in legacy systems is often invisible to the development team but painfully obvious to users who work across multiple modules.
 

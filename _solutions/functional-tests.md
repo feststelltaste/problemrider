@@ -48,7 +48,7 @@ layout: solution
 - Over-reliance on functional tests without unit tests can lead to long test execution times that slow down the development feedback loop.
 - Tests that are too tightly coupled to implementation details rather than business behavior become maintenance burdens when the system is refactored.
 
-## Examples
+## How It Could Be
 
 > The following scenarios show how functional tests enable safe evolution of legacy systems.
 

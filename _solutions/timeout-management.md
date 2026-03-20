@@ -50,7 +50,7 @@ layout: solution
 - Timeout values need ongoing tuning as system load patterns, data volumes, and dependency performance change over time.
 - Retry logic combined with short timeouts can amplify load on already-struggling dependencies if not implemented with backoff and jitter.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how timeout management prevents cascading failures in legacy systems.
 

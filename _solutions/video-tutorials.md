@@ -44,7 +44,7 @@ layout: solution
 - Videos are not searchable in the same way text is, making it harder for users to find the specific information they need within a video.
 - Hosting and streaming video content requires infrastructure and bandwidth that may not be available in all deployment environments.
 
-## Examples
+## How It Could Be
 
 > Visual learners and users in time-pressured environments benefit enormously from video tutorials that show rather than tell.
 

@@ -44,7 +44,7 @@ layout: solution
 - Frequent dependency updates can introduce regressions if not properly tested
 - Updating one dependency in a legacy system can trigger cascading version conflicts
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

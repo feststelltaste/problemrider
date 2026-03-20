@@ -46,7 +46,7 @@ layout: solution
 - Backups that are not regularly tested may fail when needed due to corruption, incompatible formats, or incomplete capture of all required data.
 - Recovery procedures for complex legacy systems with multiple interdependent data stores are error-prone and time-consuming without thorough documentation and practice.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how backup and recovery practices protect legacy systems from data loss.
 

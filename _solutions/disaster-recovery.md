@@ -44,7 +44,7 @@ layout: solution
 - Legacy systems with undocumented dependencies are particularly difficult to plan DR for
 - Keeping DR environments synchronized with production requires ongoing effort
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

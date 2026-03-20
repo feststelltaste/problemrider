@@ -44,7 +44,7 @@ layout: solution
 - Premature abstraction can add unnecessary complexity when portability is not actually needed
 - Performance-critical paths may suffer from the additional indirection
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

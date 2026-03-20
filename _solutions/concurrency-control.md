@@ -49,7 +49,7 @@ layout: solution
 - Lock-free and wait-free data structures offer better performance under contention but are significantly harder to implement correctly and verify for correctness.
 - Transitioning from synchronous to asynchronous processing changes the programming model substantially, requiring rework of error handling, transaction management, and result propagation patterns.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how concurrency control addresses problems in legacy systems.
 

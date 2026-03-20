@@ -40,7 +40,7 @@ layout: solution
 - Maintaining backward-compatible behavior in business logic adds implementation complexity
 - Eventually requires cleanup through a formal deprecation cycle
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -51,7 +51,7 @@ layout: solution
 - Tooling investment for code generation, contract testing, and API catalogs adds infrastructure complexity that must be maintained alongside the legacy systems being modernized.
 - In organizations with many autonomous teams, achieving agreement on shared API standards and specification formats can be politically difficult and time-consuming.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how API-first design has been applied to address interface problems in legacy system modernization.
 

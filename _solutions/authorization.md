@@ -44,7 +44,7 @@ layout: solution
 - Authorization logic must be maintained as the system evolves; new features that bypass the authorization layer reintroduce vulnerabilities.
 - Complex permission models (hundreds of roles with fine-grained permissions) become difficult to manage and audit, creating their own security risks through misconfiguration.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how authorization controls address access vulnerabilities in legacy systems.
 

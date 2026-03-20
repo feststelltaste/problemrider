@@ -43,7 +43,7 @@ layout: solution
 - Testing reactive code requires specialized patterns and tools
 - Not all legacy libraries and frameworks support non-blocking operation, limiting adoption scope
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

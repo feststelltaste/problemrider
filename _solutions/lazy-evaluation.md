@@ -43,7 +43,7 @@ layout: solution
 - Debugging becomes harder because initialization happens at unpredictable times
 - Thread safety of lazy initialization requires careful implementation in concurrent environments
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

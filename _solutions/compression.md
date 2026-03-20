@@ -40,7 +40,7 @@ layout: solution
 - Compressed data is harder to inspect and debug without decompression tools
 - Some data types (already compressed images, encrypted data) do not compress well and waste CPU
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -47,7 +47,7 @@ layout: solution
 - Overlapping controls can create a false sense of security if each layer assumes another layer handles a particular threat.
 - Managing and maintaining multiple security layers requires more operational effort and expertise than a single control.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how defense in depth prevents complete compromise in legacy systems.
 

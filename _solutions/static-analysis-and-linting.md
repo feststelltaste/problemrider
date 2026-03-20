@@ -54,7 +54,7 @@ layout: solution
 - Teams that optimize for analysis scores rather than actual quality will suppress findings or restructure code to satisfy the metric without improving the underlying behavior.
 - Static analysis cannot detect business logic errors, incorrect domain assumptions, or the kind of design-level debt (wrong abstractions, inappropriate coupling) that dominates many legacy systems.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how static analysis is introduced and used in real legacy modernization efforts.
 

@@ -45,7 +45,7 @@ layout: solution
 - Implementing progressive disclosure in legacy frontends with rigid layouts may require significant restructuring of page templates and components.
 - The line between essential and advanced features varies by user role, potentially requiring role-based progressive disclosure configurations.
 
-## Examples
+## How It Could Be
 
 > Legacy systems that grew feature-by-feature over the years often present every feature as equally important, creating an interface that serves no one well.
 

@@ -43,7 +43,7 @@ layout: solution
 - Legacy codebases may have extensive policy violations that require pragmatic remediation timelines
 - Policy maintenance requires ongoing attention to remain relevant and effective
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -44,7 +44,7 @@ layout: solution
 - Teams may treat security activities as checkbox exercises without genuine engagement
 - Balancing security rigor with delivery speed requires ongoing calibration
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

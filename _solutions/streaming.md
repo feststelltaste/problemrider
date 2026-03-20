@@ -43,7 +43,7 @@ layout: solution
 - Legacy systems designed around batch paradigms may need significant refactoring to produce events
 - Ordering guarantees across partitions require careful design
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

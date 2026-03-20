@@ -43,7 +43,7 @@ layout: solution
 - Alert fatigue can develop if too many non-actionable patterns are flagged
 - Historical logs in legacy systems may lack the structure needed for effective analysis
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

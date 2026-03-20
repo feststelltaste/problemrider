@@ -47,7 +47,7 @@ layout: solution
 - Aggressive testing techniques can cause service disruptions, data corruption, or denial of service in legacy systems that are not designed to handle adversarial input gracefully.
 - Penetration test findings can be overwhelming for teams with limited security remediation capacity, requiring careful prioritization.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how penetration testing uncovers critical vulnerabilities in legacy systems.
 

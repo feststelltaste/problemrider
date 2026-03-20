@@ -45,7 +45,7 @@ layout: solution
 - Compliance without understanding can lead to cargo-cult security practices
 - Legacy codebases may have extensive violations that are costly to remediate retroactively
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

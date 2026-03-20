@@ -38,6 +38,6 @@ layout: solution
 - Over-automation of simple processes can add unnecessary complexity.
 - Process engines have their own learning curve and maintenance requirements.
 
-## Examples
+## How It Could Be
 
 A legacy loan processing system has business rules spread across stored procedures, application code, and manual workflows involving email and spreadsheets. Processing a single loan application takes days due to manual handoffs. The team models the loan approval process in BPMN, extracting decision rules into DMN tables that loan officers can review. The process engine orchestrates the workflow, automatically routing applications through credit checks, document verification, and approval steps. Manual intervention is required only for exceptions. Processing time drops from days to hours, and the business can modify approval thresholds without requesting code changes.

@@ -52,7 +52,7 @@ layout: solution
 - Legacy systems were rarely designed to publish events; retrofitting event publication often means adding outbox tables, log-based change data capture, or polling bridges, each of which carries its own fragility.
 - Event schema changes in a legacy-produced feed are difficult to coordinate because the team that owns the legacy system may not be aware of all downstream consumers.
 
-## Examples
+## How It Could Be
 
 > The following scenarios show how event-driven architecture has been used to relieve the coupling pressure of legacy systems in real modernization programs.
 

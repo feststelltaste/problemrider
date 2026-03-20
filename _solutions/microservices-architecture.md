@@ -48,7 +48,7 @@ layout: solution
 - Cross-service refactoring and schema changes become more difficult to coordinate
 - Teams need strong DevOps capabilities to manage independent service lifecycles
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

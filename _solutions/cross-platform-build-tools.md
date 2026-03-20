@@ -44,7 +44,7 @@ layout: solution
 - Build tool choice creates a long-term dependency that affects the entire development workflow
 - Not all legacy dependencies and libraries support cross-platform compilation
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

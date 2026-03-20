@@ -42,7 +42,7 @@ layout: solution
 - Debugging failed sagas across multiple services is challenging
 - Some operations are difficult or impossible to compensate (emails sent, physical goods shipped)
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

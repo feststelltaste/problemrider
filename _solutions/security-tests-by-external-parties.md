@@ -43,7 +43,7 @@ layout: solution
 - Testing can cause disruptions if scope and safeguards are not properly defined
 - Findings from external tests can overwhelm teams if there is no plan for systematic remediation
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -43,7 +43,7 @@ layout: solution
 - May cause N+1 query problems in ORMs if lazy associations are accessed in loops
 - Complicates testing because behavior depends on when resources are actually loaded
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

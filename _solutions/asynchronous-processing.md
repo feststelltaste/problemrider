@@ -45,7 +45,7 @@ layout: solution
 - Error handling and retry logic require careful design to avoid data corruption
 - Legacy code tightly coupled to synchronous patterns may require significant refactoring
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

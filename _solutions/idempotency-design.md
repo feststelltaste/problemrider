@@ -43,7 +43,7 @@ layout: solution
 - Key expiration policies must balance storage costs against retry window requirements
 - Some operations are inherently non-idempotent and need alternative strategies
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

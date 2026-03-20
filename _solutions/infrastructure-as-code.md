@@ -53,7 +53,7 @@ layout: solution
 - Legacy teams with limited IaC experience face a significant learning curve. Tools like Terraform have their own language, state model, and failure modes. In teams already stretched by maintenance work, training takes time that is not always available.
 - Compliance and change management processes in legacy organizations may require formal approval workflows that do not map cleanly onto pull-request-based IaC practices. Reconciling IaC velocity with change advisory board requirements is a common friction point.
 
-## Examples
+## How It Could Be
 
 > The organizations that gain the most from Infrastructure as Code on legacy systems are those where years of manual provisioning have produced environments that nobody fully understands.
 

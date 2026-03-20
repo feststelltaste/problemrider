@@ -44,7 +44,7 @@ layout: solution
 - Over-optimization can reduce API flexibility, making it harder for new consumers to use the API
 - Requires coordination between frontend and backend teams to agree on optimal API contracts
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

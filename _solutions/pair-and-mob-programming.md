@@ -57,7 +57,7 @@ layout: solution
 - In organizations that measure individual developer productivity, pair programming is invisible at the individual level — two developers closing one ticket looks like half the productivity even when quality outcomes are better.
 - Remote pairing introduces additional friction when dealing with legacy code that requires local environment setup, proprietary tooling, or access to institutional systems that are difficult to share over screen-sharing tools.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how pair and mob programming address knowledge concentration and quality problems in legacy system contexts.
 

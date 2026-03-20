@@ -42,7 +42,7 @@ layout: solution
 - Testing becomes more complex as each loading stage needs to be verified independently
 - Content priority decisions may not align with all user workflows
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

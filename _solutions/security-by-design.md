@@ -44,7 +44,7 @@ layout: solution
 - Can lead to over-engineering if every design decision is treated as security-critical
 - Initial design phases take longer when security is a primary concern
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -45,7 +45,7 @@ layout: solution
 - Misconfigured external sources can cause hard-to-diagnose failures if validation is insufficient
 - Legacy code with deeply embedded hardcoded values requires significant refactoring effort to externalize
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

@@ -42,7 +42,7 @@ layout: solution
 - Community advice may not account for the specific constraints of legacy environments
 - Without structure, community activities can become social events without tangible security outcomes
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

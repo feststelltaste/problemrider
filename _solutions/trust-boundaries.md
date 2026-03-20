@@ -43,7 +43,7 @@ layout: solution
 - Over-segmentation can create operational overhead and complicate legitimate cross-boundary communication
 - Maintaining consistent trust boundary enforcement requires ongoing governance
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

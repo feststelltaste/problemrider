@@ -62,7 +62,7 @@ Sustainable pace practices are a collection of explicit policies, workflow const
 - In organizations with deeply ingrained overwork culture, sustainable pace practices may be perceived as laziness or lack of commitment, requiring significant cultural change management to implement successfully.
 - Capacity-limited teams may need to make difficult scope or timeline tradeoffs that expose uncomfortable truths about how much work the organization can actually sustain.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how sustainable pace practices have addressed workload and burnout problems in legacy system contexts.
 

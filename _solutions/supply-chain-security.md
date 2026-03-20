@@ -44,7 +44,7 @@ layout: solution
 - Strict supply chain controls can slow down dependency updates and development velocity
 - Provenance verification may not be feasible for older dependencies that predate modern signing practices
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

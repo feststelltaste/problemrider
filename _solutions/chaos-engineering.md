@@ -46,7 +46,7 @@ layout: solution
 - Legacy systems without proper failover mechanisms may fail catastrophically during experiments
 - Requires organizational buy-in since experiments temporarily degrade system behavior
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

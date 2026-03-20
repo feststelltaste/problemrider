@@ -44,7 +44,7 @@ layout: solution
 - Inconsistent application of visual hierarchy across different parts of the legacy system can create a jarring experience as users move between modules.
 - Cultural and accessibility considerations affect color meaning and contrast requirements, adding complexity to visual design decisions.
 
-## Examples
+## How It Could Be
 
 > Legacy systems that treat all content as equally important end up making nothing feel important, overwhelming users with visual noise.
 

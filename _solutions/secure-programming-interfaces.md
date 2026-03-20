@@ -42,7 +42,7 @@ layout: solution
 - Library vulnerabilities can affect all applications that depend on them
 - Migration from custom security code to framework features requires careful testing to ensure equivalent protection
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

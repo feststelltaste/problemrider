@@ -44,7 +44,7 @@ layout: solution
 - Maintaining certification requires ongoing effort and periodic re-assessment
 - Certification does not guarantee security; it only validates adherence to a standard
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

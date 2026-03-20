@@ -45,7 +45,7 @@ layout: solution
 - Conformity analysis tools may require configuration effort and may not support all languages or frameworks used in legacy systems.
 - Focusing solely on structural conformity can miss higher-level architectural issues like inappropriate technology choices or missing quality attributes.
 
-## Examples
+## How It Could Be
 
 > The following scenario shows how conformity analysis reveals and prevents architectural erosion.
 

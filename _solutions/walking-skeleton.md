@@ -43,7 +43,7 @@ layout: solution
 - Requires discipline to keep the skeleton minimal rather than prematurely adding features
 - May delay visible feature delivery in the short term
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

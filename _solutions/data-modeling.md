@@ -37,6 +37,6 @@ layout: solution
 - May reveal uncomfortable truths about the gap between the ideal model and reality.
 - Over-detailed models can be as hard to understand as the schemas they describe.
 
-## Examples
+## How It Could Be
 
 A legacy inventory management system has a database with over 400 tables, many with cryptic names and undocumented relationships. Before attempting a migration to a modern platform, the team creates a conceptual data model by reverse-engineering the schema and interviewing warehouse staff. They discover that thirty tables represent different versions of the same concept accumulated over years of ad-hoc extensions, and that critical business rules (such as minimum stock thresholds) are enforced only in application code, not in database constraints. The data model becomes the migration blueprint, guiding which tables to consolidate, which relationships to formalize, and which business rules to extract into the new system's domain layer.

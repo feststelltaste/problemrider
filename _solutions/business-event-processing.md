@@ -38,6 +38,6 @@ layout: solution
 - Requires infrastructure for reliable event delivery and processing.
 - Retrofitting event processing into a legacy system requires careful identification of implicit events.
 
-## Examples
+## How It Could Be
 
 A legacy retail system processes orders through a monolithic transaction that spans inventory, billing, and shipping in a single database transaction. When any step fails, the entire order fails. The team introduces an event-driven approach: order placement emits an "OrderCreated" event, and inventory, billing, and shipping each subscribe independently. Each service handles its part asynchronously and emits its own completion event. Compensating transactions handle failures. This decoupling allows the shipping module to be replaced with a new implementation without touching the billing code, and the system can handle peak loads by buffering events rather than rejecting orders.

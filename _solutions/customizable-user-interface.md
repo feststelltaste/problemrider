@@ -46,7 +46,7 @@ layout: solution
 - Building customization infrastructure into a legacy system with a rigid frontend architecture may require substantial refactoring.
 - Users who over-customize may inadvertently hide important functionality and then report it as missing.
 
-## Examples
+## How It Could Be
 
 > When users cannot customize the official system, they build their own solutions, fragmenting data and workflows.
 

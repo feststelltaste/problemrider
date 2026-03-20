@@ -38,6 +38,6 @@ layout: solution
 - The analysis represents a point in time; business requirements continue to evolve.
 - Gap analysis alone does not solve problems; it must be followed by action.
 
-## Examples
+## How It Could Be
 
 A legacy supply chain system serves a growing business, but leadership is unsure whether to invest in extending the legacy system or replacing it entirely. The team conducts a functional gap analysis, comparing the system's capabilities against current business requirements gathered from warehouse managers, procurement teams, and logistics coordinators. The analysis reveals that the system handles domestic shipping well but completely lacks support for international logistics (customs documentation, multi-currency pricing, cross-border compliance), which represents the business's primary growth area. This finding makes the modernization decision clear: the gap is too large to close with incremental legacy extensions, and the company proceeds with a targeted replacement of the international logistics components while keeping the domestic shipping module. The gap analysis saves months of debate and prevents investment in extending legacy functionality that would soon be replaced.

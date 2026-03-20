@@ -44,7 +44,7 @@ layout: solution
 - Anonymizing production data for non-production environments requires careful handling
 - Environment synchronization requires ongoing discipline and tooling investment
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

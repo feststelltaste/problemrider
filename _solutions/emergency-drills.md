@@ -47,7 +47,7 @@ layout: solution
 - Drills that interact with production-adjacent systems carry a small risk of causing unintended impact if isolation is incomplete.
 - Drill fatigue can develop if exercises are too frequent or repetitive, reducing engagement and learning.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how emergency drills improve incident response for legacy systems.
 

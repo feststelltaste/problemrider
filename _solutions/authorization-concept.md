@@ -45,7 +45,7 @@ layout: solution
 - The authorization concept must be maintained as the system and organization evolve; an outdated concept provides false assurance.
 - Overly complex role hierarchies can become difficult to understand and manage, creating new risks through misconfiguration.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how an authorization concept brings order to access control in legacy systems.
 

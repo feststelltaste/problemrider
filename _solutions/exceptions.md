@@ -44,7 +44,7 @@ layout: solution
 - Migrating from error codes to exceptions in a legacy codebase requires careful testing to preserve behavior
 - Teams may disagree on what conditions warrant exceptions vs. return values
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

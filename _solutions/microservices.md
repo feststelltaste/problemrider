@@ -48,7 +48,7 @@ layout: solution
 - Data consistency across service boundaries requires careful design and often introduces eventual consistency patterns that the team may not be experienced with.
 - Operational overhead increases substantially — each service needs its own deployment pipeline, monitoring, and on-call rotation.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate both successful and cautionary microservices adoption in legacy contexts.
 

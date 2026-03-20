@@ -52,7 +52,7 @@ layout: solution
 - In legacy systems with no test coverage, even "safe" clean code changes like renaming variables or extracting functions carry a risk of introducing regressions, especially in languages with dynamic dispatch or reflection.
 - Developers from procedural backgrounds may initially resist clean code practices that emphasize OOP idioms, and the team needs to balance clean code principles with practical respect for working code that is simply written in a different style.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how clean code practices have been applied to improve comprehension and reduce cognitive burden in real legacy systems.
 

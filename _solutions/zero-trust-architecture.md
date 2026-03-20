@@ -45,7 +45,7 @@ layout: solution
 - Legacy protocols and integrations may not support the identity and encryption requirements of zero trust
 - Full zero trust implementation is a multi-year journey, not a single project
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

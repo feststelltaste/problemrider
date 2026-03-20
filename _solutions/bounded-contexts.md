@@ -38,6 +38,6 @@ layout: solution
 - Data duplication across contexts requires synchronization mechanisms.
 - Over-decomposition can lead to excessive inter-context communication overhead.
 
-## Examples
+## How It Could Be
 
 A legacy university management system uses a single "Student" entity across enrollment, grading, financial aid, and housing. Each department has different rules and attributes for what a "student" means, leading to a bloated model with hundreds of fields and complex conditional logic. The team identifies four bounded contexts and creates separate student models for each, connected through a shared student identifier. An anti-corruption layer translates between contexts when they need to exchange information. The enrollment context can now add new registration workflows without affecting the financial aid module's complex eligibility calculations, and each team can reason about their domain model independently.

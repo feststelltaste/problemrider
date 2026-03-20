@@ -43,7 +43,7 @@ layout: solution
 - Redundant components that are never tested may fail when actually needed
 - Legacy applications may not support multi-instance deployment without modification
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

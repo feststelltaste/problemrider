@@ -44,7 +44,7 @@ layout: solution
 - Encrypted data cannot be searched, indexed, or processed without decryption, which may require application changes and impacts query performance.
 - Debugging and monitoring become more difficult when data is encrypted, as log analysis and data inspection require additional steps.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how encryption protects legacy system data.
 

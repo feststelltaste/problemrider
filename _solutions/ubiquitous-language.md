@@ -46,7 +46,7 @@ layout: solution
 - Some technical concepts (caches, queues, connection pools) have no natural domain equivalent and should retain their technical names.
 - Maintaining language consistency across a large team requires ongoing vigilance and may need a living glossary that someone owns.
 
-## Examples
+## How It Could Be
 
 > The following scenario illustrates the impact of establishing ubiquitous language during legacy modernization.
 

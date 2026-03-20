@@ -54,7 +54,7 @@ layout: solution
 - Teams accustomed to convenience-driven shortcuts may resist concern separation because it requires more upfront thought about where new code belongs, even though it saves time in the long run.
 - Separating concerns in a system without adequate test coverage is risky because the refactoring itself may subtly change behavior in ways that are not caught until production.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how separation of concerns has been applied to bring clarity and maintainability to entangled legacy systems.
 

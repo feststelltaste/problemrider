@@ -38,6 +38,6 @@ layout: solution
 - Over-reliance on a single domain expert creates a knowledge bottleneck.
 - Domain experts may describe idealized processes rather than the actual implemented behavior.
 
-## Examples
+## How It Could Be
 
 A legacy tax calculation system contains hundreds of business rules accumulated over two decades, but the original developers have left the company. A tax specialist is embedded in the development team during a modernization project. She identifies numerous cases where the legacy code implements rules that were superseded by regulatory changes years ago, as well as several edge cases where the code diverges from correct tax law. Her involvement prevents the team from faithfully replicating bugs into the new system and ensures that the modernized system correctly implements current regulations. The domain expert also helps the team establish a shared vocabulary for tax concepts, eliminating misunderstandings that had previously led to weeks of rework per sprint.

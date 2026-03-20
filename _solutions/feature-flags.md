@@ -53,7 +53,7 @@ layout: solution
 - The business and operations staff who need to manage toggle state during incidents often lack tooling for it in legacy environments, leading to toggle changes being routed through developers as ad-hoc requests.
 - Nesting toggles — where one toggled code path contains another conditional on a second toggle — creates interaction complexity that is nearly impossible to reason about, a risk that grows in systems where multiple modernization streams are in flight simultaneously.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how feature toggles have enabled safer, more controlled change in legacy system modernization.
 

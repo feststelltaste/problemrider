@@ -46,7 +46,7 @@ layout: solution
 - Instrumenting legacy code for error reporting may require touching many files
 - Privacy concerns if error reports capture user data
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

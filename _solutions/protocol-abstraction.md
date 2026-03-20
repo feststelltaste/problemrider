@@ -40,7 +40,7 @@ layout: solution
 - Maintaining multiple protocol implementations increases the testing surface
 - Over-abstraction can lead to a lowest-common-denominator interface that underutilizes protocol capabilities
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

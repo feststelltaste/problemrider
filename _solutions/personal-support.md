@@ -44,7 +44,7 @@ layout: solution
 - Support staff turnover creates knowledge loss, requiring continuous training investment and thorough documentation.
 - Users who receive inconsistent or incorrect advice from support lose trust in both the support team and the system.
 
-## Examples
+## How It Could Be
 
 > For legacy systems with steep learning curves and limited documentation, personal support is often the only effective way to help users through complex workflows.
 

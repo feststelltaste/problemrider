@@ -44,7 +44,7 @@ layout: solution
 - Tests may give false confidence if they do not accurately reproduce the original attack conditions
 - Legacy systems with poor testability may require significant refactoring before tests can be added
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

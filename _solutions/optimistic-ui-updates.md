@@ -43,7 +43,7 @@ layout: solution
 - Increases the gap between displayed state and actual server state, which can cause subtle inconsistencies
 - Not suitable for operations where failure is common or consequences are significant
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

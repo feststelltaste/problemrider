@@ -43,7 +43,7 @@ layout: solution
 - Incorrectly set limits can either fail to protect the system or unnecessarily reject valid traffic
 - Rate limiting at the edge does not protect against internal amplification patterns
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

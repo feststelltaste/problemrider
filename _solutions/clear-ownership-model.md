@@ -56,7 +56,7 @@ A clear ownership model is a formally documented assignment of responsibility fo
 - Assigning ownership to understaffed teams can overburden them with responsibility they cannot realistically fulfill, creating frustration rather than clarity.
 - Ownership changes during reorganizations require careful handoff processes. Poorly managed transitions leave components in a worse state than ambiguous ownership.
 
-## Examples
+## How It Could Be
 
 > The following scenarios illustrate how a clear ownership model addresses ownership ambiguity in legacy system contexts.
 

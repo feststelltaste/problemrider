@@ -44,7 +44,7 @@ layout: solution
 - Poor search relevance that returns too many irrelevant results undermines trust in the search function and drives users back to manual navigation.
 - Search must respect authorization boundaries, showing users only results they are permitted to access, which adds complexity in systems with role-based access control.
 
-## Examples
+## How It Could Be
 
 > The absence of search in a legacy system forces users to develop memorized navigation paths and personal lookup systems that fragment knowledge and waste time.
 

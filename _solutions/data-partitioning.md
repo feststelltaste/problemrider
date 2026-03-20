@@ -42,7 +42,7 @@ layout: solution
 - Application logic may need updates to be partition-aware
 - Cross-partition transactions and joins are more complex and potentially slower
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 

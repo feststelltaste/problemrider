@@ -42,7 +42,7 @@ layout: solution
 - Framework abstraction adds a layer that may complicate advanced logging scenarios
 - Legacy code with extensive custom logging requires significant refactoring effort
 
-## Examples
+## How It Could Be
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 
