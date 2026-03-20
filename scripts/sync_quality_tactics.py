@@ -7,6 +7,9 @@ matching tactic file in ../qualitaetstaktiken/tactics/, extracts its title and s
 description, and updates those two fields in the solution's front matter. The body
 (How to Apply, Tradeoffs, Examples) is never touched.
 
+When the sibling qualitaetstaktiken repo is not available, falls back to reading from
+quality-tactics-reference.md in the repo root.
+
 Usage:
     python scripts/sync_quality_tactics.py           # update files
     python scripts/sync_quality_tactics.py --dry-run # preview only
@@ -19,6 +22,7 @@ import sys
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TACTICS_DIR = os.path.join(REPO_ROOT, '..', 'qualitaetstaktiken', 'tactics')
 SOLUTIONS_DIR = os.path.join(REPO_ROOT, '_solutions')
+REFERENCE_FILE = os.path.join(REPO_ROOT, 'quality-tactics-reference.md')
 
 
 def parse_tactic(filepath):
@@ -40,11 +44,19 @@ def build_tactic_index():
     Walk ../qualitaetstaktiken/tactics/ and build a mapping:
         url -> {title, description}
     where url is the canonical qualitytactics.de URL for that tactic.
+    Falls back to quality-tactics-reference.md if the sibling repo is absent.
     """
-    index = {}
+    if os.path.isdir(TACTICS_DIR):
+        return _build_index_from_repo()
+    elif os.path.isfile(REFERENCE_FILE):
+        print(f'  qualitaetstaktiken repo not found — falling back to {os.path.basename(REFERENCE_FILE)}')
+        return _build_index_from_reference()
+    else:
+        return {}
 
-    if not os.path.isdir(TACTICS_DIR):
-        return index
+
+def _build_index_from_repo():
+    index = {}
 
     for chapter_dir in sorted(os.listdir(TACTICS_DIR)):
         chapter_path = os.path.join(TACTICS_DIR, chapter_dir)
@@ -69,6 +81,20 @@ def build_tactic_index():
             if title and description:
                 index[url] = {'title': title, 'description': description}
 
+    return index
+
+
+def _build_index_from_reference():
+    """Parse quality-tactics-reference.md table rows into a url->tactic mapping."""
+    index = {}
+    with open(REFERENCE_FILE, encoding='utf-8') as f:
+        for line in f:
+            # Match table rows: | Title | Short Description | URL |
+            m = re.match(r'^\|\s*(.+?)\s*\|\s*(.+?)\s*\|\s*(https://\S+?)\s*\|', line)
+            if m:
+                title, description, url = m.group(1), m.group(2), m.group(3)
+                if title != 'Title':  # skip header row
+                    index[url] = {'title': title, 'description': description}
     return index
 
 
@@ -128,9 +154,10 @@ def update_frontmatter(filepath, title, description, dry_run):
 def main():
     dry_run = '--dry-run' in sys.argv
 
-    if not os.path.isdir(TACTICS_DIR):
+    if not os.path.isdir(TACTICS_DIR) and not os.path.isfile(REFERENCE_FILE):
         print(f'ERROR: qualitaetstaktiken not found at {TACTICS_DIR}')
-        print('Clone it as a sibling directory of this repo.')
+        print(f'       and no fallback at {REFERENCE_FILE}')
+        print('Clone qualitaetstaktiken as a sibling directory, or ensure quality-tactics-reference.md exists.')
         sys.exit(1)
 
     if not os.path.isdir(SOLUTIONS_DIR):
