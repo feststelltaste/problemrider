@@ -1,44 +1,52 @@
 ---
 title: Behavior-Driven Development (BDD)
-description: Formulating requirements as executable scenarios in natural language
+description: Development based on expected system behaviors
 category:
 - Testing
-- Requirements
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/behavior-driven-development-bdd
+- Process
+quality_tactics_url: https://qualitytactics.de/en/maintainability/behavior-driven-development-bdd
 problems:
 - requirements-ambiguity
-- stakeholder-developer-communication-gap
-- inadequate-requirements-gathering
 - insufficient-testing
-- poor-test-coverage
-- regression-bugs
 - legacy-code-without-tests
+- stakeholder-developer-communication-gap
+- misaligned-deliverables
+- poor-test-coverage
+- implementation-rework
 layout: solution
 ---
 
 ## How to Apply ◆
 
-- Write requirements as Given-When-Then scenarios collaboratively with developers, testers, and business stakeholders.
-- Use BDD frameworks (Cucumber, SpecFlow, Behave) to make scenarios executable as automated tests.
-- Start by capturing existing legacy behavior in BDD scenarios before modifying the system, creating a living specification.
-- Hold "three amigos" sessions (developer, tester, business analyst) to refine scenarios and uncover ambiguities before implementation.
-- Organize scenarios by business capability rather than by technical component to maintain business relevance.
-- Integrate BDD scenarios into the CI pipeline so they run on every build.
+> In legacy modernization, BDD creates a shared specification language that captures legacy system behavior in a format both domain experts and developers can verify.
+
+- Use Given-When-Then scenarios to document the legacy system's current behavior before modifying it, creating executable specifications that serve as both documentation and regression tests.
+- Conduct "three amigos" sessions (developer, tester, domain expert) to write BDD scenarios for each legacy feature being migrated, capturing edge cases that only domain experts know about.
+- Choose a BDD framework appropriate for the legacy system's technology stack (Cucumber, SpecFlow, Behave) and integrate it into the continuous integration pipeline.
+- Write scenarios at the business behavior level rather than the UI or technical level, so they remain valid even when the underlying implementation changes during modernization.
+- Use BDD scenarios as acceptance criteria for migration stories — a feature is considered successfully migrated when all its BDD scenarios pass against the new implementation.
+- Build a scenario library organized by business capability to create a living documentation system that replaces outdated specification documents.
 
 ## Tradeoffs ⇄
 
-**Benefits:**
-- Reduces misunderstandings between business and technical teams through shared, readable specifications.
-- Creates living documentation that stays in sync with the actual system behavior.
-- Catches requirements gaps early through collaborative scenario discovery.
-- Provides a regression safety net for legacy system modernization.
+> BDD creates living documentation and aligns teams around behavior but requires consistent participation from domain experts.
 
-**Costs:**
-- Writing and maintaining Gherkin scenarios adds overhead to the development process.
-- Poorly written scenarios (too detailed or too vague) can become a maintenance burden.
-- Requires buy-in from business stakeholders to participate in scenario authoring.
-- Step definition code can become complex and duplicated without careful management.
+**Benefits:**
+
+- Creates executable specifications that serve as both tests and documentation, solving the problem of specifications that drift from implementation.
+- Bridges the communication gap between technical and business stakeholders by using a shared language that both can read and validate.
+- Provides a clear migration completion metric — the percentage of BDD scenarios passing against the new system.
+- Catches behavioral regressions during modernization that unit tests might miss because they test implementation rather than behavior.
+
+**Costs and Risks:**
+
+- BDD scenarios require ongoing access to domain experts, who may not be available for the sustained engagement needed.
+- Poorly written scenarios that are too detailed or too technical lose their value as a communication tool and become just another test format.
+- The step definition layer between scenarios and code can become a maintenance burden if not kept clean and well-organized.
+- Teams may focus on writing scenarios for easy cases and avoid the complex edge cases where BDD provides the most value.
 
 ## Examples
 
-A legacy insurance claims system has requirements scattered across emails, outdated Word documents, and tribal knowledge. The team introduces BDD by holding workshops with claims adjusters to express the current business rules as Given-When-Then scenarios. These scenarios are automated using Cucumber and serve as both tests and documentation. When a regulatory change requires modifying the claims adjudication logic, the team updates the affected scenarios first, gets business sign-off on the new expected behavior, and then modifies the code until all scenarios pass. This approach eliminates the previous pattern of developers guessing at requirements and business users discovering incorrect behavior only after deployment.
+> The following scenario shows how BDD supports legacy system migration.
+
+A logistics company migrating its shipment tracking system used BDD to capture the complex business rules around delivery time window calculations. The legacy system computed delivery windows differently based on carrier, destination zone, package weight, and service level — rules that existed only in procedural code and the memory of two senior developers. Through structured BDD workshops, the team wrote 180 Given-When-Then scenarios covering all combinations. When the first implementation of the new calculation engine was tested against these scenarios, 23 failed — revealing edge cases where the new implementation diverged from legacy behavior. Twelve of these were genuine bugs in the new code, and eleven turned out to be bugs in the legacy system that the business decided to fix rather than replicate. The BDD scenarios became the authoritative specification for delivery window calculations, outliving both the legacy system and the original developers' tenure.

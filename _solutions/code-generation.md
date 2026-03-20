@@ -12,7 +12,7 @@ problems:
 - maintenance-overhead
 - slow-feature-development
 - increased-cost-of-development
-- boilerplate-related-bugs
+- increased-risk-of-bugs
 layout: solution
 ---
 

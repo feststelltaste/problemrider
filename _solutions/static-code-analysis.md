@@ -1,18 +1,22 @@
 ---
 title: Static Code Analysis
-description: Automated review of source code for performance issues
+description: Automatically check source code for programming errors and security vulnerabilities
 category:
+- Security
 - Code
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/static-code-analysis
+quality_tactics_url: https://qualitytactics.de/en/security/static-code-analysis
 problems:
+- sql-injection-vulnerabilities
+- cross-site-scripting-vulnerabilities
+- buffer-overflow-vulnerabilities
+- lower-code-quality
+- inconsistent-coding-standards
+- high-bug-introduction-rate
+- legacy-code-without-tests
+- inadequate-code-reviews
 - inefficient-code
 - gradual-performance-degradation
-- code-review-inefficiency
-- high-bug-introduction-rate
-- lower-code-quality
-- inadequate-code-reviews
-- difficult-code-comprehension
 layout: solution
 ---
 
@@ -20,33 +24,34 @@ layout: solution
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
 
-- Select static analysis tools appropriate to the technology stack (e.g., SonarQube, ESLint, PMD, FindBugs, Checkstyle)
-- Start with a baseline scan of the legacy codebase to understand the current state without attempting to fix everything immediately
-- Configure rules focused on performance issues: unnecessary object creation, inefficient algorithms, resource leaks, N+1 patterns
-- Integrate the analysis into the CI/CD pipeline to prevent new performance issues from being introduced
+- Select static analysis tools that support the languages and frameworks used in the legacy codebase (e.g., SonarQube, ESLint, PMD, FindBugs)
+- Configure tool rules to focus on high-severity security findings before expanding to style and quality rules
+- Integrate static analysis into the CI/CD pipeline as a required check for pull requests
+- Establish a baseline of existing findings and create a plan to reduce them incrementally rather than fixing all at once
+- Tune rules to minimize false positives, which erode developer trust in the tooling
 - Use incremental analysis to check only changed files, reducing scan time for large legacy codebases
-- Establish a policy of zero new violations while gradually reducing existing ones through dedicated cleanup sprints
-- Customize rules to match the project's specific patterns and suppress false positives that erode team trust in the tool
+- Train developers to interpret and act on static analysis findings effectively
+- Track finding trends over time to measure the impact of the static analysis program
 
 ## Tradeoffs ⇄
 
 > What you gain and what you give up by applying this solution.
 
 **Benefits:**
-- Catches performance anti-patterns early, before they reach production
-- Scales code review capacity by automating detection of common issues
-- Provides consistent enforcement of performance-related coding standards
-- Creates visibility into code quality trends over time through metrics dashboards
+- Catches common vulnerability patterns and performance anti-patterns automatically without manual review effort
+- Provides consistent, objective code quality feedback regardless of reviewer expertise
+- Scales to large legacy codebases where manual security review is impractical
+- Creates a continuous feedback loop that educates developers about secure coding patterns
 
 **Costs and Risks:**
-- Legacy codebases often produce an overwhelming number of initial findings, which can demoralize the team
-- False positives reduce trust in the tool and waste developer time investigating non-issues
-- Static analysis cannot detect runtime performance issues that depend on data volume or concurrency
-- Tool configuration and maintenance requires ongoing effort
-- Over-reliance on static analysis can give a false sense of quality if dynamic testing is neglected
+- Legacy codebases often produce overwhelming numbers of initial findings that require triage
+- False positives can lead to alert fatigue and developers ignoring genuine findings
+- Static analysis cannot detect runtime vulnerabilities, business logic flaws, or data-dependent performance issues
+- Tool configuration and maintenance requires ongoing effort and expertise
+- Some legacy languages or frameworks may have limited static analysis tool support
 
 ## Examples
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 
-A legacy Java enterprise application had accumulated performance issues over 12 years of development. The team integrated SonarQube with custom rules targeting their most common performance patterns: unclosed database connections, string concatenation in loops, and synchronized blocks holding I/O operations. The initial scan identified over 3,000 issues, so the team adopted a "boy scout rule" policy: fix at least one issue in any file you touch. Combined with the CI gate preventing new violations, they reduced the issue count by 60 percent in six months. Several fixes directly resolved production performance complaints that had been open for years.
+A financial services company deployed SonarQube with security-focused rules on their 500,000-line legacy Java codebase. The initial scan produced over 3,000 findings, which the team triaged into 180 genuine security issues, 800 quality improvements, and the rest as false positives or low-priority items. They configured the tool to enforce a "zero new findings" policy on all new code while creating a quarterly sprint to reduce the legacy backlog. After one year, the legacy finding count had dropped by 65%, and no new critical security findings were introduced in code that had passed the static analysis gate.
