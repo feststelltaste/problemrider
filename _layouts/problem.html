@@ -58,22 +58,20 @@ layout: default
   {% if page.solutions and page.solutions.size > 0 %}
   <section class="related-solutions">
     <h2>Solutions (Beta)</h2>
-    <ul class="related-solutions-list">
+    <div class="related-solutions-list">
       {% for sol_slug in page.solutions %}
         {% assign solution = site.solutions | where: "slug", sol_slug | first %}
         {% if solution %}
-          <li>
+          <span class="solution-item">
             <a href="{{ solution.url | relative_url }}">{{ solution.title }}</a>
             {% if solution.quality_tactics_url %}
               <sup><a href="{{ solution.quality_tactics_url }}" target="_blank" rel="noopener" class="qt-link">QT</a></sup>
             {% endif %}
-            {% if solution.description %}
-              <p class="related-description">{{ solution.description }}</p>
-            {% endif %}
-          </li>
+          </span>
+          {% unless forloop.last %} · {% endunless %}
         {% endif %}
       {% endfor %}
-    </ul>
+    </div>
   </section>
   {% endif %}
 
