@@ -19,6 +19,11 @@ related_problems:
   similarity: 0.65
 - slug: inefficient-database-indexing
   similarity: 0.55
+solutions:
+- efficient-algorithms
+- api-calls-optimization
+- denormalization
+- object-relational-mapping-orm
 layout: problem
 ---
 

@@ -19,6 +19,12 @@ related_problems:
   similarity: 0.6
 - slug: change-management-chaos
   similarity: 0.6
+solutions:
+- infrastructure-as-code
+- externalized-configuration
+- platform-independent-configuration-files
+- platform-independent-configuration-management
+- secure-configuration
 layout: problem
 ---
 

@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.55
 - slug: long-running-transactions
   similarity: 0.5
+solutions:
+- query-optimization-process
+- timeout-management
+- transactions
 layout: problem
 ---
 

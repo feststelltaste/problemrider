@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: resistance-to-change
   similarity: 0.6
+solutions:
+- blameless-postmortems
 layout: problem
 ---
 

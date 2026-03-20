@@ -18,6 +18,16 @@ related_problems:
   similarity: 0.6
 - slug: increased-error-rates
   similarity: 0.55
+solutions:
+- blue-green-canary-deployments
+- event-driven-architecture
+- circuit-breaker
+- cold-start-mitigation
+- failover-mechanisms
+- nonstop-forwarding
+- retry
+- service-mesh
+- timeout-management
 layout: problem
 ---
 

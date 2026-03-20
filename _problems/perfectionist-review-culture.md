@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.65
 - slug: fear-of-conflict
   similarity: 0.6
+solutions:
+- code-review-process-reform
 layout: problem
 ---
 

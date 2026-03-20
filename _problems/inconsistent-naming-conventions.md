@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: conflicting-reviewer-opinions
   similarity: 0.6
+solutions:
+- static-analysis-and-linting
+- ubiquitous-language
 layout: problem
 ---
 

@@ -19,6 +19,12 @@ related_problems:
   similarity: 0.6
 - slug: slow-application-performance
   similarity: 0.6
+solutions:
+- efficient-algorithms
+- profiling
+- serialization-optimization
+- approximation-methods
+- graph-databases
 layout: problem
 ---
 

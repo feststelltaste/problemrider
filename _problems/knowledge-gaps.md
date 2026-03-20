@@ -19,6 +19,24 @@ related_problems:
   similarity: 0.6
 - slug: inconsistent-knowledge-acquisition
   similarity: 0.6
+solutions:
+- architecture-decision-records
+- documentation-as-code
+- knowledge-sharing-practices
+- structured-onboarding-program
+- api-documentation
+- code-comments
+- consistent-terminology
+- contextual-help
+- frequently-asked-questions-faq
+- pattern-language
+- raising-user-awareness
+- security-community
+- security-culture
+- security-policies-for-users
+- security-tests-by-external-parties
+- security-training
+- ubiquitous-language
 layout: problem
 ---
 

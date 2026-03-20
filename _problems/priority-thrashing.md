@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: time-pressure
   similarity: 0.6
+solutions:
+- sustainable-pace-practices
 layout: problem
 ---
 

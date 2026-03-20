@@ -18,6 +18,19 @@ related_problems:
   similarity: 0.6
 - slug: maintenance-bottlenecks
   similarity: 0.6
+solutions:
+- strangler-fig-pattern
+- technical-debt-backlog
+- api-deprecation-policy
+- cross-platform-frameworks
+- design-tokens
+- failover-cluster
+- redundancy
+- regular-maintenance-and-updates
+- serverless-computing
+- site-reliability-engineering-sre
+- standard-software
+- strategic-code-deletion
 layout: problem
 ---
 

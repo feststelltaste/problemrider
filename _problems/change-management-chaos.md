@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.6
 - slug: team-coordination-issues
   similarity: 0.6
+solutions:
+- change-management-process
+- version-control
+- versioning-scheme
 layout: problem
 ---
 

@@ -19,6 +19,16 @@ related_problems:
   similarity: 0.55
 - slug: poor-contract-design
   similarity: 0.5
+solutions:
+- evolutionary-requirements-development
+- requirements-analysis
+- checklists
+- secure-software-development
+- security-by-design
+- security-requirements-definition
+- technical-spike
+- tracer-bullets
+- walking-skeleton
 layout: problem
 ---
 

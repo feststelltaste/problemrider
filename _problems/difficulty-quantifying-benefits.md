@@ -19,6 +19,18 @@ related_problems:
   similarity: 0.55
 - slug: complex-and-obscure-logic
   similarity: 0.55
+solutions:
+- technical-debt-backlog
+- business-metrics
+- business-quality-scenarios
+- compatibility-measurement
+- functional-spike
+- performance-modeling
+- prototyping
+- risk-analysis
+- security-certification
+- security-metrics
+- security-relevant-metrics
 layout: problem
 ---
 

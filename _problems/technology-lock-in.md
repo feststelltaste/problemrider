@@ -18,6 +18,42 @@ related_problems:
   similarity: 0.6
 - slug: obsolete-technologies
   similarity: 0.6
+solutions:
+- anti-corruption-layer
+- dependency-management-strategy
+- strangler-fig-pattern
+- abstracted-file-system-access
+- abstraction
+- abstraction-layers
+- bridges
+- browser-compatibility
+- cloud-native-development
+- cross-platform-build-scripts
+- cross-platform-build-tools
+- cross-platform-frameworks
+- data-export
+- emulation
+- feature-detection
+- forward-compatibility
+- hexagonal-architecture
+- microservices-architecture
+- multi-cloud-iac
+- object-relational-mapping-orm
+- platform-independence
+- platform-independent-build-pipelines
+- platform-independent-data-storage
+- platform-independent-programming-languages
+- platform-independent-scripting-languages
+- portability-checklists
+- protocol-abstraction
+- secure-programming-interfaces
+- secure-protocols
+- standard-software
+- standardized-data-formats
+- standardized-interfaces
+- standardized-protocols
+- virtual-networks
+- virtualization
 layout: problem
 ---
 

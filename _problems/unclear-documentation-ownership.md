@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.55
 - slug: unclear-sharing-expectations
   similarity: 0.55
+solutions:
+- documentation-as-code
+- living-documentation
 layout: problem
 ---
 

@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.5
 - slug: decision-paralysis
   similarity: 0.5
+solutions:
+- team-autonomy-and-empowerment
 layout: problem
 ---
 

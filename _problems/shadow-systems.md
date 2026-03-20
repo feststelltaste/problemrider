@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.55
 - slug: vendor-dependency-entrapment
   similarity: 0.55
+solutions:
+- user-centered-design
+- cognitive-load-minimization
+- consistent-user-interface
+- custom-views
+- customizable-user-interface
 layout: problem
 ---
 

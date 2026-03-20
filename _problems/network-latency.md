@@ -17,6 +17,17 @@ related_problems:
   similarity: 0.6
 - slug: service-timeouts
   similarity: 0.6
+solutions:
+- caching-strategy
+- serialization-optimization
+- api-calls-optimization
+- compression
+- optimistic-ui-updates
+- predictive-loading
+- predictive-prefetching
+- progressive-loading
+- service-mesh
+- virtual-networks
 layout: problem
 ---
 

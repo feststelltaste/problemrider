@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.55
 - slug: modernization-roi-justification-failure
   similarity: 0.55
+solutions:
+- architecture-reviews
+- architecture-roadmap
+- boring-technologies
 layout: problem
 ---
 

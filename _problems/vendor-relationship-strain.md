@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: stakeholder-dissatisfaction
   similarity: 0.5
+solutions:
+- dependency-management-strategy
 layout: problem
 ---
 

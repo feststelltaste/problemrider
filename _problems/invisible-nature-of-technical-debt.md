@@ -19,6 +19,14 @@ related_problems:
   similarity: 0.6
 - slug: decision-avoidance
   similarity: 0.6
+solutions:
+- technical-debt-backlog
+- business-metrics
+- code-metrics
+- compatibility-measurement
+- risk-analysis
+- security-metrics
+- security-relevant-metrics
 layout: problem
 ---
 

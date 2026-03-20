@@ -17,6 +17,13 @@ related_problems:
   similarity: 0.6
 - slug: brittle-codebase
   similarity: 0.6
+solutions:
+- contract-testing
+- development-workflow-automation
+- regression-testing
+- functional-tests
+- property-based-testing
+- value-range-definition
 layout: problem
 ---
 

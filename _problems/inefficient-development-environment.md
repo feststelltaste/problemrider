@@ -18,6 +18,13 @@ related_problems:
   similarity: 0.65
 - slug: context-switching-overhead
   similarity: 0.6
+solutions:
+- development-environment-optimization
+- development-workflow-automation
+- containerized-databases
+- cross-platform-build-tools
+- platform-independent-build-pipelines
+- virtual-development-environments
 layout: problem
 ---
 

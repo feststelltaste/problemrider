@@ -18,6 +18,16 @@ related_problems:
   similarity: 0.5
 - slug: thread-pool-exhaustion
   similarity: 0.5
+solutions:
+- backpressure
+- capacity-planning
+- elastic-scaling
+- asynchronous-processing
+- batch-processing
+- data-stream-processing
+- parallelization
+- pipelining
+- streaming
 layout: problem
 ---
 

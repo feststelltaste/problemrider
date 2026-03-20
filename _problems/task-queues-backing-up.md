@@ -14,6 +14,14 @@ related_problems:
   similarity: 0.7
 - slug: maintenance-overhead
   similarity: 0.5
+solutions:
+- backpressure
+- capacity-planning
+- elastic-scaling
+- asynchronous-processing
+- data-stream-processing
+- dead-letter-queue
+- load-shedding
 layout: problem
 ---
 

@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: excessive-class-size
   similarity: 0.55
+solutions:
+- code-review-process-reform
+- trunk-based-development
 layout: problem
 ---
 

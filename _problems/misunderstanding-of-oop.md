@@ -19,6 +19,12 @@ related_problems:
   similarity: 0.65
 - slug: inconsistent-codebase
   similarity: 0.65
+solutions:
+- architecture-reviews
+- clean-code
+- solid-principles
+- technical-skills-development
+- pattern-language
 layout: problem
 ---
 

@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.65
 - slug: fear-of-breaking-changes
   similarity: 0.6
+solutions:
+- strangler-fig-pattern
 layout: problem
 ---
 

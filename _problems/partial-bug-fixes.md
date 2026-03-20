@@ -17,6 +17,10 @@ related_problems:
   similarity: 0.6
 - slug: synchronization-problems
   similarity: 0.6
+solutions:
+- definition-of-done
+- regression-tests
+- root-cause-analysis
 layout: problem
 ---
 

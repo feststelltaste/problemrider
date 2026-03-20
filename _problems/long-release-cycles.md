@@ -19,6 +19,11 @@ related_problems:
   similarity: 0.6
 - slug: delayed-bug-fixes
   similarity: 0.6
+solutions:
+- ci-cd-pipeline
+- continuous-delivery
+- continuous-integration-and-delivery
+- feature-toggles
 layout: problem
 ---
 

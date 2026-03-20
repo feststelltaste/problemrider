@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.6
 - slug: ripple-effect-of-changes
   similarity: 0.6
+solutions:
+- modularization-and-bounded-contexts
+- abstraction-layers
+- feature-detection
+- platform-independence
+- platform-independent-time-zone-handling
 layout: problem
 ---
 

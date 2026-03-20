@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.55
 - slug: inadequate-integration-tests
   similarity: 0.55
+solutions:
+- test-coverage-strategy
+- isolated-test-environments
+- platform-independent-test-frameworks
 layout: problem
 ---
 

@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.6
 - slug: increased-bug-count
   similarity: 0.6
+solutions:
+- incremental-refactoring
+- technical-debt-backlog
+- dependency-pinning
 layout: problem
 ---
 

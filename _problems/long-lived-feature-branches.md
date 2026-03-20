@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.55
 - slug: feature-creep
   similarity: 0.55
+solutions:
+- feature-flags
+- continuous-integration
+- trunk-based-development
 layout: problem
 ---
 

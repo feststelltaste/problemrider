@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.65
 - slug: uneven-work-flow
   similarity: 0.6
+solutions:
+- backpressure
+- capacity-planning
+- elastic-scaling
+- pipelining
+- streaming
 layout: problem
 ---
 

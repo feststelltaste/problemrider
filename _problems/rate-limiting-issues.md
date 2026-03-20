@@ -19,6 +19,13 @@ related_problems:
   similarity: 0.5
 - slug: database-query-performance-issues
   similarity: 0.5
+solutions:
+- api-first-design
+- contract-testing
+- api-gateway
+- api-security
+- load-shedding
+- rate-limiting
 layout: problem
 ---
 

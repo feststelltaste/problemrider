@@ -18,6 +18,11 @@ related_problems:
   similarity: 0.6
 - slug: tangled-cross-cutting-concerns
   similarity: 0.55
+solutions:
+- event-driven-architecture
+- incremental-refactoring
+- modularization-and-bounded-contexts
+- mediator
 layout: problem
 ---
 

@@ -20,6 +20,22 @@ related_problems:
   similarity: 0.6
 - slug: inefficient-development-environment
   similarity: 0.6
+solutions:
+- documentation-as-code
+- knowledge-sharing-practices
+- pair-and-mob-programming
+- structured-onboarding-program
+- api-documentation
+- architecture-documentation
+- cognitive-load-minimization
+- consistent-terminology
+- containerized-databases
+- contextual-help
+- documentation-of-compatibility-requirements
+- empty-states-and-first-use-guidance
+- frequently-asked-questions-faq
+- living-documentation
+- virtual-development-environments
 layout: problem
 ---
 

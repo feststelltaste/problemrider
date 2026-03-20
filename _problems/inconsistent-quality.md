@@ -18,6 +18,14 @@ related_problems:
   similarity: 0.65
 - slug: reduced-feature-quality
   similarity: 0.65
+solutions:
+- definition-of-done
+- checklists
+- portability-checklists
+- secure-software-development
+- security-certification
+- security-frameworks
+- security-policies-for-development
 layout: problem
 ---
 

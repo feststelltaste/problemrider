@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.65
 - slug: poor-teamwork
   similarity: 0.65
+solutions:
+- knowledge-sharing-practices
+- security-community
 layout: problem
 ---
 

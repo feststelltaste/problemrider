@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.65
 - slug: approval-dependencies
   similarity: 0.6
+solutions:
+- code-review-process-reform
+- checklists
 layout: problem
 ---
 

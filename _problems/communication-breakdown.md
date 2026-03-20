@@ -19,6 +19,12 @@ related_problems:
   similarity: 0.65
 - slug: team-confusion
   similarity: 0.65
+solutions:
+- clear-roles-and-ownership
+- psychological-safety-practices
+- structured-communication-protocols
+- incident-management
+- security-incident-handling
 layout: problem
 ---
 

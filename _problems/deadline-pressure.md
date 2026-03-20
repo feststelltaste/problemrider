@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.6
 - slug: decision-paralysis
   similarity: 0.55
+solutions:
+- formal-change-control-process
+- iterative-development
+- short-iteration-cycles
 layout: problem
 ---
 

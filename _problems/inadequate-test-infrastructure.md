@@ -19,6 +19,12 @@ related_problems:
   similarity: 0.6
 - slug: insufficient-testing
   similarity: 0.55
+solutions:
+- test-coverage-strategy
+- containerized-databases
+- isolated-test-environments
+- mass-test-data-generation
+- platform-independent-test-frameworks
 layout: problem
 ---
 

@@ -20,6 +20,13 @@ related_problems:
   similarity: 0.6
 - slug: development-disruption
   similarity: 0.6
+solutions:
+- architecture-roadmap
+- development-environment-optimization
+- development-workflow-automation
+- regression-testing
+- microservices-architecture
+- trunk-based-development
 layout: problem
 ---
 

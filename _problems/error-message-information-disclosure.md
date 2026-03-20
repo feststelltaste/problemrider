@@ -17,6 +17,13 @@ related_problems:
   similarity: 0.55
 - slug: silent-data-corruption
   similarity: 0.55
+solutions:
+- secret-management
+- security-hardening-process
+- authentication
+- authorization
+- secure-by-default
+- secure-configuration
 layout: problem
 ---
 

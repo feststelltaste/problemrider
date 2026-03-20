@@ -19,6 +19,11 @@ related_problems:
   similarity: 0.65
 - slug: tool-limitations
   similarity: 0.65
+solutions:
+- development-environment-optimization
+- development-workflow-automation
+- business-process-automation
+- platform-independent-scripting-languages
 layout: problem
 ---
 

@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.6
 - slug: synchronization-problems
   similarity: 0.6
+solutions:
+- clear-ownership-model
+- clear-roles-and-ownership
+- structured-communication-protocols
 layout: problem
 ---
 

@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.55
 - slug: memory-barrier-inefficiency
   similarity: 0.55
+solutions:
+- memory-management-optimization
+- profiling
+- resource-pooling
+- resource-usage-optimization
+- memory-hierarchy
 layout: problem
 ---
 

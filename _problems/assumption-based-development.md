@@ -19,6 +19,15 @@ related_problems:
   similarity: 0.5
 - slug: inadequate-requirements-gathering
   similarity: 0.5
+solutions:
+- boring-technologies
+- design-by-contract
+- technical-skills-development
+- functional-spike
+- prototypes
+- prototyping
+- technical-spike
+- tracer-bullets
 layout: problem
 ---
 

@@ -18,6 +18,14 @@ related_problems:
   similarity: 0.6
 - slug: obsolete-technologies
   similarity: 0.55
+solutions:
+- anti-corruption-layer
+- dependency-management-strategy
+- data-export
+- multi-cloud-iac
+- platform-independence
+- platform-independent-data-storage
+- platform-independent-programming-languages
 layout: problem
 ---
 

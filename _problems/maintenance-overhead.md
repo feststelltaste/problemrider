@@ -18,6 +18,15 @@ related_problems:
   similarity: 0.65
 - slug: maintenance-bottlenecks
   similarity: 0.65
+solutions:
+- technical-debt-backlog
+- api-deprecation-policy
+- api-versioning-strategy
+- aspect-oriented-programming-aop
+- code-generation
+- design-tokens
+- rule-based-systems
+- standard-software
 layout: problem
 ---
 

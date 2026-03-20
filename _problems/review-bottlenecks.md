@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.7
 - slug: maintenance-bottlenecks
   similarity: 0.65
+solutions:
+- code-review-process-reform
 layout: problem
 ---
 

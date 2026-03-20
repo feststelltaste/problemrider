@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.6
 - slug: unrealistic-schedule
   similarity: 0.6
+solutions:
+- iterative-development
+- short-iteration-cycles
+- stakeholder-feedback-loops
 layout: problem
 ---
 

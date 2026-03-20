@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.65
 - slug: maintenance-overhead
   similarity: 0.6
+solutions:
+- technical-debt-backlog
+- architecture-governance
+- architecture-review-board
+- code-metrics
+- risk-analysis
 layout: problem
 ---
 

@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.55
 - slug: unproductive-meetings
   similarity: 0.5
+solutions:
+- psychological-safety-practices
+- sustainable-pace-practices
+- team-autonomy-and-empowerment
 layout: problem
 ---
 

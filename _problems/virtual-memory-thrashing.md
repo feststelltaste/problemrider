@@ -16,6 +16,11 @@ related_problems:
   similarity: 0.5
 - slug: priority-thrashing
   similarity: 0.5
+solutions:
+- backpressure
+- elastic-scaling
+- memory-management-optimization
+- resource-usage-optimization
 layout: problem
 ---
 

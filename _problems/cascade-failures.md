@@ -19,6 +19,44 @@ related_problems:
   similarity: 0.6
 - slug: system-integration-blindness
   similarity: 0.6
+solutions:
+- backpressure
+- event-driven-architecture
+- observability-and-monitoring
+- asynchronous-processing
+- bulkhead
+- business-event-processing
+- chaos-engineering
+- circuit-breaker
+- dead-letter-queue
+- distributed-tracing
+- failover-cluster
+- failover-mechanisms
+- fault-containment
+- fault-tolerant-data-structures
+- graceful-degradation
+- high-availability-architectures
+- idempotency-design
+- idempotent-operations
+- integration-tests
+- isolation-of-faulty-components
+- load-shedding
+- nonstop-forwarding
+- rate-limiting
+- reactive-programming
+- redundancy
+- resilience
+- retry
+- security-incident-handling
+- security-monitoring
+- service-mesh
+- site-reliability-engineering-sre
+- status-monitoring
+- stress-testing
+- timeout-management
+- transactions
+- watchdog
+- write-ahead-logging
 layout: problem
 ---
 

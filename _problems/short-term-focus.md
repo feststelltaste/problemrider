@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.55
 - slug: difficulty-quantifying-benefits
   similarity: 0.55
+solutions:
+- technical-debt-backlog
+- security-culture
 layout: problem
 ---
 

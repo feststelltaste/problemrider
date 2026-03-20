@@ -17,6 +17,22 @@ related_problems:
   similarity: 0.7
 - slug: memory-leaks
   similarity: 0.65
+solutions:
+- user-centered-design
+- api-calls-optimization
+- asynchronous-operations
+- browser-compatibility
+- code-splitting
+- compression
+- image-and-asset-optimization
+- lazy-evaluation
+- lazy-loading
+- pagination
+- performance-budgets
+- predictive-prefetching
+- progressive-loading
+- tree-shaking
+- virtualized-lists
 layout: problem
 ---
 

@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: approval-dependencies
   similarity: 0.6
+solutions:
+- iterative-development
+- short-iteration-cycles
 layout: problem
 ---
 

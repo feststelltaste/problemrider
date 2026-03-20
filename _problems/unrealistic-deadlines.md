@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.65
 - slug: delayed-project-timelines
   similarity: 0.65
+solutions:
+- iterative-development
+- requirements-analysis
+- short-iteration-cycles
 layout: problem
 ---
 

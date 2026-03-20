@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.7
 - slug: refactoring-avoidance
   similarity: 0.7
+solutions:
+- architecture-roadmap
+- regression-testing
 layout: problem
 ---
 

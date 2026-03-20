@@ -17,6 +17,28 @@ related_problems:
   similarity: 0.7
 - slug: lazy-loading
   similarity: 0.7
+solutions:
+- query-optimization-process
+- approximation-methods
+- cqrs
+- data-aggregation
+- data-archiving
+- data-partitioning
+- data-replication
+- datensparsamkeit
+- denormalization
+- distributed-caching
+- graph-databases
+- in-memory-processing
+- mass-test-data-generation
+- materialized-views
+- nosql-databases
+- pagination
+- parallelization
+- probabilistic-data-structures
+- read-replicas
+- sampling
+- vertical-scaling
 layout: problem
 ---
 

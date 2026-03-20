@@ -18,6 +18,30 @@ related_problems:
   similarity: 0.65
 - slug: technology-stack-fragmentation
   similarity: 0.6
+solutions:
+- anti-corruption-layer
+- dependency-management-strategy
+- abstraction
+- abstraction-layers
+- compatibility-certification
+- cross-platform-frameworks
+- customizing
+- data-export
+- data-formats
+- emulation
+- feature-detection
+- multi-cloud-iac
+- object-relational-mapping-orm
+- platform-independence
+- platform-independent-build-pipelines
+- platform-independent-data-storage
+- platform-independent-programming-languages
+- portability-checklists
+- protocol-abstraction
+- standardized-data-formats
+- standardized-interfaces
+- standardized-protocols
+- virtual-networks
 layout: problem
 ---
 

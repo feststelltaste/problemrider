@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.55
 - slug: scope-creep
   similarity: 0.55
+solutions:
+- clear-roles-and-ownership
+- cross-functional-skill-development
 layout: problem
 ---
 

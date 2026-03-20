@@ -19,6 +19,11 @@ related_problems:
   similarity: 0.55
 - slug: duplicated-research-effort
   similarity: 0.55
+solutions:
+- feature-flags
+- continuous-integration
+- continuous-integration-and-delivery
+- trunk-based-development
 layout: problem
 ---
 

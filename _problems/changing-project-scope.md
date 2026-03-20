@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.65
 - slug: reduced-team-flexibility
   similarity: 0.65
+solutions:
+- evolutionary-requirements-development
+- formal-change-control-process
+- product-owner
 layout: problem
 ---
 

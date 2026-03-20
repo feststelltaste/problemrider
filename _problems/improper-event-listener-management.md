@@ -11,6 +11,8 @@ related_problems:
   similarity: 0.55
 - slug: unreleased-resources
   similarity: 0.55
+solutions:
+- memory-management-optimization
 layout: problem
 ---
 

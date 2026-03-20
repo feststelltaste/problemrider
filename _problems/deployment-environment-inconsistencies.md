@@ -17,6 +17,41 @@ related_problems:
   similarity: 0.6
 - slug: deployment-risk
   similarity: 0.6
+solutions:
+- ci-cd-pipeline
+- infrastructure-as-code
+- abstracted-file-system-access
+- automated-migration-tools
+- compatibility-matrix
+- compatibility-testing
+- containerization
+- containerized-databases
+- cross-platform-build-scripts
+- cross-platform-build-tools
+- cross-version-testing
+- dependency-pinning
+- emulation
+- environment-parity
+- externalized-configuration
+- feature-detection
+- immutable-infrastructure
+- isolated-test-environments
+- multi-cloud-iac
+- platform-independence
+- platform-independent-build-pipelines
+- platform-independent-configuration-files
+- platform-independent-configuration-management
+- platform-independent-logging-frameworks
+- platform-independent-scripting-languages
+- platform-independent-test-frameworks
+- platform-independent-time-zone-handling
+- portability-checklists
+- secure-configuration
+- simulation-environments
+- standardized-deployment-scripts
+- virtual-development-environments
+- virtual-networks
+- virtualization
 layout: problem
 ---
 

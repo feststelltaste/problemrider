@@ -19,6 +19,11 @@ related_problems:
   similarity: 0.65
 - slug: communication-risk-outside-project
   similarity: 0.6
+solutions:
+- continuous-feedback
+- stakeholder-feedback-loops
+- business-metrics
+- user-acceptance-tests
 layout: problem
 ---
 

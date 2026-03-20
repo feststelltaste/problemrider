@@ -19,6 +19,11 @@ related_problems:
   similarity: 0.6
 - slug: inconsistent-knowledge-acquisition
   similarity: 0.6
+solutions:
+- pair-and-mob-programming
+- structured-onboarding-program
+- refactoring-katas
+- security-training
 layout: problem
 ---
 

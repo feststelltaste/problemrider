@@ -19,6 +19,52 @@ related_problems:
   similarity: 0.6
 - slug: user-confusion
   similarity: 0.55
+solutions:
+- blue-green-canary-deployments
+- observability-and-monitoring
+- backup-and-recovery
+- bulkhead
+- chaos-engineering
+- circuit-breaker
+- continuous-performance-monitoring
+- data-replication
+- disaster-recovery
+- elastic-resource-utilization
+- failover-cluster
+- failover-mechanisms
+- fault-containment
+- graceful-degradation
+- health-check-endpoints
+- heartbeat
+- high-availability-architectures
+- incident-management
+- isolation-of-faulty-components
+- load-balancing
+- load-shedding
+- load-testing
+- monitoring
+- nonstop-forwarding
+- on-call-duty
+- ping
+- proactive-capacity-management
+- production-environment-maintenance
+- rate-limiting
+- red-teaming
+- redundancy
+- redundant-data-storage
+- regular-backups
+- resilience
+- restore-points
+- rolling-updates
+- security-incident-handling
+- security-monitoring
+- service-level-objectives
+- site-reliability-engineering-sre
+- status-monitoring
+- stress-testing
+- timeout-management
+- watchdog
+- write-ahead-logging
 layout: problem
 ---
 

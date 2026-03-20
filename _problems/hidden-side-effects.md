@@ -14,6 +14,11 @@ related_problems:
   similarity: 0.55
 - slug: complex-and-obscure-logic
   similarity: 0.5
+solutions:
+- clean-code
+- design-by-contract
+- separation-of-concerns
+- solid-principles
 layout: problem
 ---
 

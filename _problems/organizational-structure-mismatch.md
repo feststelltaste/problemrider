@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.55
 - slug: inadequate-mentoring-structure
   similarity: 0.55
+solutions:
+- clear-ownership-model
+- clear-roles-and-ownership
 layout: problem
 ---
 

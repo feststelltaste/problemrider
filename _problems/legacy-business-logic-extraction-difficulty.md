@@ -19,6 +19,17 @@ related_problems:
   similarity: 0.55
 - slug: complex-domain-model
   similarity: 0.55
+solutions:
+- strangler-fig-pattern
+- bubble-context
+- business-event-processing
+- business-process-automation
+- business-process-modeling
+- data-format-conversion
+- data-modeling
+- decision-tables
+- hexagonal-architecture
+- rule-based-systems
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: uneven-work-flow
   similarity: 0.6
+solutions:
+- ci-cd-pipeline
 layout: problem
 ---
 

@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.6
 - slug: large-pull-requests
   similarity: 0.6
+solutions:
+- iterative-development
+- product-owner
+- requirements-analysis
+- story-mapping
+- user-stories
 layout: problem
 ---
 

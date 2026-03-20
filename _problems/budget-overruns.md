@@ -20,6 +20,11 @@ related_problems:
   similarity: 0.6
 - slug: poor-planning
   similarity: 0.6
+solutions:
+- formal-change-control-process
+- iterative-development
+- short-iteration-cycles
+- proactive-capacity-management
 layout: problem
 ---
 

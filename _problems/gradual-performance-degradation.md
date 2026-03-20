@@ -18,6 +18,41 @@ related_problems:
   similarity: 0.55
 - slug: declining-business-metrics
   similarity: 0.55
+solutions:
+- observability-and-monitoring
+- approximation-methods
+- asynchronous-logging
+- batch-processing
+- code-splitting
+- cold-start-mitigation
+- continuous-performance-monitoring
+- data-aggregation
+- data-archiving
+- data-partitioning
+- data-stream-processing
+- image-and-asset-optimization
+- in-memory-processing
+- lazy-evaluation
+- lazy-loading
+- load-testing
+- mass-test-data-generation
+- materialized-views
+- memory-hierarchy
+- monitoring
+- monitoring-system-utilization
+- performance-budgets
+- performance-measurements
+- performance-modeling
+- proactive-capacity-management
+- production-environment-maintenance
+- regular-maintenance-and-updates
+- service-level-objectives
+- specialized-hardware
+- static-code-analysis
+- status-monitoring
+- transparent-performance-metrics
+- tree-shaking
+- vertical-scaling
 layout: problem
 ---
 

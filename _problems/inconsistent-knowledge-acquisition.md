@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.7
 - slug: knowledge-silos
   similarity: 0.65
+solutions:
+- knowledge-sharing-practices
+- pair-and-mob-programming
 layout: problem
 ---
 

@@ -17,6 +17,19 @@ related_problems:
   similarity: 0.6
 - slug: excessive-disk-io
   similarity: 0.6
+solutions:
+- api-first-design
+- caching-strategy
+- contract-testing
+- serialization-optimization
+- api-calls-optimization
+- api-gateway
+- api-security
+- load-balancing
+- optimistic-ui-updates
+- predictive-loading
+- predictive-prefetching
+- rate-limiting
 layout: problem
 ---
 

@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: resource-waste
   similarity: 0.6
+solutions:
+- change-management-process
 layout: problem
 ---
 

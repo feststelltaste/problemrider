@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.55
 - slug: n-plus-one-query-problem
   similarity: 0.5
+solutions:
+- api-first-design
+- contract-testing
 layout: problem
 ---
 

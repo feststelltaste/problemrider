@@ -18,6 +18,14 @@ related_problems:
   similarity: 0.65
 - slug: technology-stack-fragmentation
   similarity: 0.65
+solutions:
+- architecture-roadmap
+- cross-functional-skill-development
+- technical-skills-development
+- emulation
+- platform-independent-programming-languages
+- security-training
+- standard-software
 layout: problem
 ---
 

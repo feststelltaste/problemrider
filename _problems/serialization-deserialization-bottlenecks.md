@@ -14,6 +14,14 @@ related_problems:
   similarity: 0.5
 - slug: endianness-conversion-overhead
   similarity: 0.5
+solutions:
+- api-first-design
+- caching-strategy
+- efficient-algorithms
+- profiling
+- serialization-optimization
+- cross-platform-serialization
+- standardized-data-formats
 layout: problem
 ---
 

@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: work-queue-buildup
   similarity: 0.6
+solutions:
+- sustainable-pace-practices
 layout: problem
 ---
 

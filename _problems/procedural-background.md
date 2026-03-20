@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.6
 - slug: difficult-code-comprehension
   similarity: 0.55
+solutions:
+- architecture-reviews
+- solid-principles
+- technical-skills-development
 layout: problem
 ---
 

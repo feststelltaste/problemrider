@@ -18,6 +18,17 @@ related_problems:
   similarity: 0.6
 - slug: poor-documentation
   similarity: 0.6
+solutions:
+- dependency-management-strategy
+- strangler-fig-pattern
+- emulation
+- platform-independent-programming-languages
+- protocol-abstraction
+- regular-maintenance-and-updates
+- secure-programming-interfaces
+- secure-protocols
+- standard-software
+- standardized-protocols
 layout: problem
 ---
 

@@ -18,6 +18,28 @@ related_problems:
   similarity: 0.7
 - slug: database-query-performance-issues
   similarity: 0.7
+solutions:
+- query-optimization-process
+- approximation-methods
+- batch-processing
+- connection-pooling
+- cqrs
+- data-aggregation
+- data-archiving
+- data-deduplication
+- data-partitioning
+- data-replication
+- datensparsamkeit
+- distributed-caching
+- elastic-resource-utilization
+- in-memory-processing
+- materialized-views
+- monitoring-system-utilization
+- nosql-databases
+- probabilistic-data-structures
+- read-replicas
+- sampling
+- vertical-scaling
 layout: problem
 ---
 

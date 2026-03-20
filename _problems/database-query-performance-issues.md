@@ -19,6 +19,16 @@ related_problems:
   similarity: 0.65
 - slug: queries-that-prevent-index-usage
   similarity: 0.65
+solutions:
+- query-optimization-process
+- cqrs
+- data-aggregation
+- denormalization
+- graph-databases
+- mass-test-data-generation
+- materialized-views
+- object-relational-mapping-orm
+- read-replicas
 layout: problem
 ---
 

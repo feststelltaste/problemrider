@@ -18,6 +18,22 @@ related_problems:
   similarity: 0.5
 - slug: cross-site-scripting-vulnerabilities
   similarity: 0.5
+solutions:
+- secret-management
+- security-hardening-process
+- abuse-case-definition
+- api-security
+- authentication
+- authorization
+- authorization-concept
+- privacy-by-design
+- red-teaming
+- role-based-access-control
+- secure-by-default
+- secure-session-management
+- security-by-design
+- security-tests
+- security-tests-by-external-parties
 layout: problem
 ---
 

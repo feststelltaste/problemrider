@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: invisible-nature-of-technical-debt
   similarity: 0.6
+solutions:
+- solid-principles
 layout: problem
 ---
 

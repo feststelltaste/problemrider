@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.55
 - slug: accumulation-of-workarounds
   similarity: 0.55
+solutions:
+- incremental-refactoring
+- performance-budgets
 layout: problem
 ---
 

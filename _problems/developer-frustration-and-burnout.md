@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.6
 - slug: stakeholder-frustration
   similarity: 0.6
+solutions:
+- blameless-postmortems
+- on-call-duty
+- site-reliability-engineering-sre
 layout: problem
 ---
 

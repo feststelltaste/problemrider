@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.55
 - slug: cache-invalidation-problems
   similarity: 0.55
+solutions:
+- caching-strategy
+- profiling
+- memory-hierarchy
 layout: problem
 ---
 

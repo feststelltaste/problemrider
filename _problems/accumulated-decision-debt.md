@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: test-debt
   similarity: 0.6
+solutions:
+- architecture-decision-records
 layout: problem
 ---
 

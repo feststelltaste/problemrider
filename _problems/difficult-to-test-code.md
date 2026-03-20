@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.65
 - slug: legacy-code-without-tests
   similarity: 0.6
+solutions:
+- test-coverage-strategy
+- abstracted-file-system-access
+- automated-tests
+- hexagonal-architecture
+- test-driven-development-tdd
 layout: problem
 ---
 

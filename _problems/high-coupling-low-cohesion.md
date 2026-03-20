@@ -18,6 +18,27 @@ related_problems:
   similarity: 0.55
 - slug: inconsistent-quality
   similarity: 0.55
+solutions:
+- architecture-reviews
+- loose-coupling
+- separation-of-concerns
+- solid-principles
+- abstraction
+- architecture-conformity-analysis
+- architecture-governance
+- aspect-oriented-programming-aop
+- bounded-contexts
+- bridges
+- bubble-context
+- bulkhead
+- event-driven-integration
+- facades
+- high-cohesion
+- layered-architecture
+- mediator
+- microservices-architecture
+- modulith
+- object-relational-mapping-orm
 layout: problem
 ---
 

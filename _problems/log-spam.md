@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.55
 - slug: imperative-data-fetching-logic
   similarity: 0.55
+solutions:
+- observability-and-monitoring
+- asynchronous-logging
+- platform-independent-logging-frameworks
 layout: problem
 ---
 

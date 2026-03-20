@@ -19,6 +19,17 @@ related_problems:
   similarity: 0.7
 - slug: duplicated-research-effort
   similarity: 0.65
+solutions:
+- knowledge-sharing-practices
+- pair-and-mob-programming
+- architecture-documentation
+- architecture-workshops
+- code-reviews
+- documentation-of-compatibility-requirements
+- incident-management
+- living-documentation
+- on-call-duty
+- security-community
 layout: problem
 ---
 

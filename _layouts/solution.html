@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<article class="solution">
+  <header class="solution-header">
+    <h1 class="solution-title">
+      {{ page.title }}
+      {% if page.quality_tactics_url %}
+        <sup><a href="{{ page.quality_tactics_url }}" target="_blank" rel="noopener" class="qt-link">QT</a></sup>
+      {% endif %}
+    </h1>
+    {% if page.description %}
+      <p class="solution-description">{{ page.description }}</p>
+    {% endif %}
+    {% if page.category %}
+      <div class="solution-meta">
+        <div class="solution-categories">
+          {% for category in page.category %}
+            <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag">{{ category }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  </header>
+
+  <div class="solution-content">
+    {{ content }}
+  </div>
+
+  {% if page.problems and page.problems.size > 0 %}
+  <section class="addressed-problems">
+    <h2>Problems Addressed</h2>
+    <ul class="addressed-problems-list">
+      {% for problem_slug in page.problems %}
+        {% assign problem = site.problems | where: "slug", problem_slug | first %}
+        {% if problem %}
+          <li>
+            <a href="{{ problem.url | relative_url }}">{{ problem.title }}</a>
+            {% if problem.description %}
+              <p class="related-description">{{ problem.description }}</p>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <nav class="solution-navigation">
+    <a href="{{ '/solutions/' | relative_url }}" class="back-to-solutions">← Back to Solutions Overview</a>
+  </nav>
+</article>

@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: communication-breakdown
   similarity: 0.6
+solutions:
+- clear-roles-and-ownership
+- structured-communication-protocols
 layout: problem
 ---
 

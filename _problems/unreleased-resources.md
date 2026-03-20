@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: long-running-transactions
   similarity: 0.55
+solutions:
+- static-analysis-and-linting
 layout: problem
 ---
 

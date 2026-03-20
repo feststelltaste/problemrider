@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.55
 - slug: quality-degradation
   similarity: 0.55
+solutions:
+- technical-debt-backlog
+- standard-software
 layout: problem
 ---
 

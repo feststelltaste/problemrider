@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.65
 - slug: eager-to-please-stakeholders
   similarity: 0.65
+solutions:
+- formal-change-control-process
+- iterative-development
+- short-iteration-cycles
 layout: problem
 ---
 

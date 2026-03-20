@@ -17,6 +17,17 @@ related_problems:
   similarity: 0.6
 - slug: regression-bugs
   similarity: 0.6
+solutions:
+- definition-of-done
+- test-coverage-strategy
+- automated-tests
+- code-reviews
+- continuous-integration
+- functional-tests
+- regression-tests
+- secure-software-development
+- static-code-analysis
+- test-driven-development-tdd
 layout: problem
 ---
 

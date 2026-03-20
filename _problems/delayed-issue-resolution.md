@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: delayed-project-timelines
   similarity: 0.6
+solutions:
+- continuous-feedback
+- root-cause-analysis
 layout: problem
 ---
 

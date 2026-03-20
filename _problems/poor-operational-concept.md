@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.6
 - slug: poor-documentation
   similarity: 0.55
+solutions:
+- infrastructure-as-code
+- disaster-recovery
+- health-check-endpoints
+- monitoring
+- site-reliability-engineering-sre
 layout: problem
 ---
 

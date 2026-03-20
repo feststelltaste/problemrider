@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.65
 - slug: delayed-project-timelines
   similarity: 0.65
+solutions:
+- architecture-decision-records
 layout: problem
 ---
 

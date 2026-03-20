@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.5
 - slug: team-dysfunction
   similarity: 0.5
+solutions:
+- structured-communication-protocols
 layout: problem
 ---
 

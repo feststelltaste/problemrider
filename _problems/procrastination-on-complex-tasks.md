@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: delayed-issue-resolution
   similarity: 0.55
+solutions:
+- iterative-development
 layout: problem
 ---
 

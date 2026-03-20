@@ -10,6 +10,8 @@ related_problems:
   similarity: 0.55
 - slug: resource-allocation-failures
   similarity: 0.55
+solutions:
+- memory-management-optimization
 layout: problem
 ---
 

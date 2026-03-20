@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.7
 - slug: team-members-not-engaged-in-review-process
   similarity: 0.7
+solutions:
+- code-review-process-reform
 layout: problem
 ---
 

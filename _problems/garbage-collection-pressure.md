@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.5
 - slug: interrupt-overhead
   similarity: 0.5
+solutions:
+- memory-management-optimization
+- profiling
+- resource-pooling
+- resource-usage-optimization
+- serialization-optimization
 layout: problem
 ---
 

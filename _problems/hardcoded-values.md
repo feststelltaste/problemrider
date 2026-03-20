@@ -10,6 +10,16 @@ related_problems:
   similarity: 0.55
 - slug: brittle-codebase
   similarity: 0.5
+solutions:
+- incremental-refactoring
+- secret-management
+- static-analysis-and-linting
+- abstracted-file-system-access
+- externalized-configuration
+- platform-independent-configuration-files
+- platform-independent-configuration-management
+- rule-based-systems
+- value-range-definition
 layout: problem
 ---
 

@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.65
 - slug: reduced-innovation
   similarity: 0.6
+solutions:
+- knowledge-sharing-practices
+- security-community
 layout: problem
 ---
 

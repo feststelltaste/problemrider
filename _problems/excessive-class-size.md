@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: uncontrolled-codebase-growth
   similarity: 0.55
+solutions:
+- incremental-refactoring
 layout: problem
 ---
 

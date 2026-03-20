@@ -19,6 +19,11 @@ related_problems:
   similarity: 0.55
 - slug: test-debt
   similarity: 0.55
+solutions:
+- architecture-reviews
+- boring-technologies
+- technical-skills-development
+- prototyping
 layout: problem
 ---
 

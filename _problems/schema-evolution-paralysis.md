@@ -18,6 +18,11 @@ related_problems:
   similarity: 0.55
 - slug: stagnant-architecture
   similarity: 0.55
+solutions:
+- evolutionary-database-design
+- backward-compatible-schema-migrations
+- nosql-databases
+- schema-registry
 layout: problem
 ---
 

@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.6
 - slug: vendor-dependency
   similarity: 0.55
+solutions:
+- anti-corruption-layer
+- dependency-management-strategy
+- modularization-and-bounded-contexts
+- schema-registry
+- virtualization
 layout: problem
 ---
 

@@ -18,6 +18,21 @@ related_problems:
   similarity: 0.6
 - slug: team-confusion
   similarity: 0.6
+solutions:
+- continuous-feedback
+- stakeholder-feedback-loops
+- on-site-customer
+- personas
+- prototypes
+- prototyping
+- requirements-traceability-matrix
+- specification-by-example
+- story-mapping
+- subject-matter-reviews
+- ubiquitous-language
+- usability-tests
+- user-acceptance-tests
+- user-stories
 layout: problem
 ---
 

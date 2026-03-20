@@ -18,6 +18,11 @@ related_problems:
   similarity: 0.7
 - slug: high-api-latency
   similarity: 0.6
+solutions:
+- user-centered-design
+- image-and-asset-optimization
+- lazy-loading
+- virtualized-lists
 layout: problem
 ---
 

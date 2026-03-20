@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.65
 - slug: fear-of-change
   similarity: 0.65
+solutions:
+- psychological-safety-practices
 layout: problem
 ---
 

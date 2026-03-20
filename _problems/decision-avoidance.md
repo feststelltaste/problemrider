@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.65
 - slug: analysis-paralysis
   similarity: 0.6
+solutions:
+- architecture-decision-records
+- architecture-review-board
+- technical-spike
 layout: problem
 ---
 

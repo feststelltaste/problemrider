@@ -17,6 +17,14 @@ related_problems:
   similarity: 0.6
 - slug: high-api-latency
   similarity: 0.6
+solutions:
+- caching-strategy
+- efficient-algorithms
+- profiling
+- resource-usage-optimization
+- batch-processing
+- compression
+- in-memory-processing
 layout: problem
 ---
 

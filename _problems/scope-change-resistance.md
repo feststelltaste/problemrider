@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.55
 - slug: resistance-to-change
   similarity: 0.55
+solutions:
+- change-management-process
+- formal-change-control-process
+- product-owner
 layout: problem
 ---
 

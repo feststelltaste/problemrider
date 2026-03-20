@@ -14,6 +14,14 @@ related_problems:
   similarity: 0.55
 - slug: legacy-configuration-management-chaos
   similarity: 0.5
+solutions:
+- secret-management
+- security-hardening-process
+- red-teaming
+- role-based-access-control
+- secure-by-default
+- secure-configuration
+- security-audits
 layout: problem
 ---
 

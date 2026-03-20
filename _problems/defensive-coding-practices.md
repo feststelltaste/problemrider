@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.55
 - slug: undefined-code-style-guidelines
   similarity: 0.55
+solutions:
+- clean-code
+- design-by-contract
+- solid-principles
 layout: problem
 ---
 

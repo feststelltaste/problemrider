@@ -18,6 +18,22 @@ related_problems:
   similarity: 0.65
 - slug: legacy-system-documentation-archaeology
   similarity: 0.65
+solutions:
+- architecture-decision-records
+- documentation-as-code
+- knowledge-sharing-practices
+- pair-and-mob-programming
+- api-documentation
+- architecture-documentation
+- architecture-workshops
+- business-process-modeling
+- code-comments
+- compatibility-requirements
+- documentation-of-compatibility-requirements
+- living-documentation
+- raising-user-awareness
+- security-community
+- security-training
 layout: problem
 ---
 

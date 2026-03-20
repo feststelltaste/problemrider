@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.55
 - slug: long-build-and-test-times
   similarity: 0.55
+solutions:
+- knowledge-sharing-practices
 layout: problem
 ---
 

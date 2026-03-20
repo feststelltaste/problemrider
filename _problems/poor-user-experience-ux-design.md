@@ -18,6 +18,35 @@ related_problems:
   similarity: 0.6
 - slug: reduced-feature-quality
   similarity: 0.55
+solutions:
+- user-centered-design
+- assistive-technology-support
+- asynchronous-operations
+- auto-save
+- browser-compatibility
+- cognitive-load-minimization
+- confirmation-dialogs
+- consistent-terminology
+- consistent-user-interface
+- contextual-help
+- custom-views
+- customizable-user-interface
+- customizing
+- design-tokens
+- empty-states-and-first-use-guidance
+- feedback
+- feedback-mechanisms
+- focus-management
+- form-design
+- input-constraints-and-defaults
+- optimistic-ui-updates
+- personas
+- predictive-loading
+- predictive-prefetching
+- progressive-loading
+- prototypes
+- prototyping
+- usability-tests
 layout: problem
 ---
 

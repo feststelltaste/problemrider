@@ -18,6 +18,11 @@ related_problems:
   similarity: 0.6
 - slug: accumulated-decision-debt
   similarity: 0.6
+solutions:
+- test-coverage-strategy
+- automated-tests
+- code-coverage-analysis
+- regression-tests
 layout: problem
 ---
 

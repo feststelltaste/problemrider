@@ -18,6 +18,11 @@ related_problems:
   similarity: 0.65
 - slug: information-decay
   similarity: 0.65
+solutions:
+- definition-of-done
+- code-metrics
+- compatibility-as-error
+- compatibility-standards
 layout: problem
 ---
 

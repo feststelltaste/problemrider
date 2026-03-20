@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.65
 - slug: constant-firefighting
   similarity: 0.65
+solutions:
+- evolutionary-requirements-development
+- formal-change-control-process
+- product-owner
+- requirements-analysis
+- security-requirements-definition
 layout: problem
 ---
 

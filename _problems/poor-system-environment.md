@@ -17,6 +17,23 @@ related_problems:
   similarity: 0.6
 - slug: testing-environment-fragility
   similarity: 0.6
+solutions:
+- infrastructure-as-code
+- cloud-native-development
+- compatibility-matrix
+- containerization
+- cross-platform-build-scripts
+- cross-platform-build-tools
+- environment-parity
+- immutable-infrastructure
+- platform-independence
+- production-environment-maintenance
+- regular-maintenance-and-updates
+- secure-protocols
+- serverless-computing
+- virtual-development-environments
+- virtual-networks
+- virtualization
 layout: problem
 ---
 

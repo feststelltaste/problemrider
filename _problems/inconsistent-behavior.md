@@ -18,6 +18,27 @@ related_problems:
   similarity: 0.65
 - slug: configuration-chaos
   similarity: 0.65
+solutions:
+- loose-coupling
+- canonical-data-model
+- compatibility-standards
+- consistent-terminology
+- consistent-user-interface
+- continuous-data-verification
+- data-integrity
+- data-quality-checks
+- design-tokens
+- feature-detection
+- focus-management
+- functional-tests
+- idempotent-operations
+- platform-independent-time-zone-handling
+- specification-by-example
+- subject-matter-reviews
+- timestamping
+- transactions
+- value-range-definition
+- write-ahead-logging
 layout: problem
 ---
 

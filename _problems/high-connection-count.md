@@ -18,6 +18,15 @@ related_problems:
   similarity: 0.65
 - slug: service-timeouts
   similarity: 0.6
+solutions:
+- backpressure
+- capacity-planning
+- elastic-scaling
+- resource-pooling
+- resource-usage-optimization
+- connection-pooling
+- reactive-programming
+- timeout-management
 layout: problem
 ---
 

@@ -19,6 +19,14 @@ related_problems:
   similarity: 0.75
 - slug: review-bottlenecks
   similarity: 0.75
+solutions:
+- code-review-process-reform
+- checklists
+- code-reviews
+- secure-coding-guidelines
+- secure-software-development
+- security-policies-for-development
+- static-code-analysis
 layout: problem
 ---
 

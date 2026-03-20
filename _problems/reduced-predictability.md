@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: unrealistic-schedule
   similarity: 0.6
+solutions:
+- iterative-development
 layout: problem
 ---
 

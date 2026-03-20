@@ -19,6 +19,19 @@ related_problems:
   similarity: 0.55
 - slug: legacy-api-versioning-nightmare
   similarity: 0.55
+solutions:
+- dependency-management-strategy
+- compatibility-matrix
+- containerization
+- cross-version-testing
+- dependency-pinning
+- feature-detection
+- regular-maintenance-and-updates
+- secure-programming-interfaces
+- semantic-versioning
+- version-control
+- versioning-scheme
+- virtualization
 layout: problem
 ---
 

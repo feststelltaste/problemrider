@@ -19,6 +19,12 @@ related_problems:
   similarity: 0.5
 - slug: slow-application-performance
   similarity: 0.5
+solutions:
+- architecture-reviews
+- boring-technologies
+- clean-code
+- design-by-contract
+- pattern-language
 layout: problem
 ---
 

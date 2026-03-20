@@ -18,6 +18,11 @@ related_problems:
   similarity: 0.55
 - slug: resource-contention
   similarity: 0.55
+solutions:
+- evolutionary-database-design
+- query-optimization-process
+- transactions
+- write-ahead-logging
 layout: problem
 ---
 

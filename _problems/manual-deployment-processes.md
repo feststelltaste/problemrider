@@ -19,6 +19,17 @@ related_problems:
   similarity: 0.65
 - slug: long-release-cycles
   similarity: 0.6
+solutions:
+- ci-cd-pipeline
+- infrastructure-as-code
+- automated-migration-tools
+- continuous-delivery
+- continuous-integration-and-delivery
+- cross-platform-build-scripts
+- multi-cloud-iac
+- platform-independent-build-pipelines
+- platform-independent-scripting-languages
+- standardized-deployment-scripts
 layout: problem
 ---
 

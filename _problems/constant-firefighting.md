@@ -18,6 +18,22 @@ related_problems:
   similarity: 0.65
 - slug: frequent-changes-to-requirements
   similarity: 0.65
+solutions:
+- blameless-postmortems
+- observability-and-monitoring
+- technical-debt-backlog
+- failover-mechanisms
+- graceful-degradation
+- heartbeat
+- incident-management
+- monitoring
+- on-call-duty
+- resilience
+- root-cause-analysis
+- security-incident-handling
+- site-reliability-engineering-sre
+- status-monitoring
+- watchdog
 layout: problem
 ---
 

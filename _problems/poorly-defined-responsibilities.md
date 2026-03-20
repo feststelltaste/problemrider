@@ -18,6 +18,14 @@ related_problems:
   similarity: 0.6
 - slug: tight-coupling-issues
   similarity: 0.6
+solutions:
+- clear-ownership-model
+- clear-roles-and-ownership
+- authorization-concept
+- compatibility-governance
+- incident-management
+- on-call-duty
+- security-incident-handling
 layout: problem
 ---
 

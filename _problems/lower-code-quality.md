@@ -19,6 +19,14 @@ related_problems:
   similarity: 0.6
 - slug: reduced-code-submission-frequency
   similarity: 0.55
+solutions:
+- definition-of-done
+- pair-and-mob-programming
+- code-metrics
+- code-reviews
+- refactoring-katas
+- secure-coding-guidelines
+- static-code-analysis
 layout: problem
 ---
 

@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.6
 - slug: style-arguments-in-code-reviews
   similarity: 0.6
+solutions:
+- static-analysis-and-linting
+- code-conventions
+- compatibility-standards
+- secure-coding-guidelines
+- security-policies-for-development
 layout: problem
 ---
 
