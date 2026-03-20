@@ -1,10 +1,10 @@
 ---
 title: Dependency Injection
-description: Manage dependencies externally and inject them at runtime
+description: Manage and inject dependencies between components externally
 category:
 - Code
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/portability/dependency-injection
+quality_tactics_url: https://qualitytactics.de/en/maintainability/dependency-injection
 problems:
 - tight-coupling-issues
 - difficult-to-test-code
