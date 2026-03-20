@@ -57,7 +57,7 @@ layout: default
 
   {% if page.solutions and page.solutions.size > 0 %}
   <section class="related-solutions">
-    <h2>Solutions</h2>
+    <h2>Solutions (Beta)</h2>
     <ul class="related-solutions-list">
       {% for sol_slug in page.solutions %}
         {% assign solution = site.solutions | where: "slug", sol_slug | first %}
