@@ -23,6 +23,28 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.solutions and page.solutions.size > 0 %}
+  <section class="related-solutions">
+    <h2>Solutions (Beta)</h2>
+    <ul class="related-solutions-list">
+      {% for sol_slug in page.solutions %}
+        {% assign solution = site.solutions | where: "slug", sol_slug | first %}
+        {% if solution %}
+          <li>
+            <a href="{{ solution.url | relative_url }}">{{ solution.title }}</a>
+            {% if solution.quality_tactics_url %}
+              <sup><a href="{{ solution.quality_tactics_url }}" target="_blank" rel="noopener" class="qt-link">QT</a></sup>
+            {% endif %}
+            {% if solution.description %}
+              — {{ solution.description }}
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
   {% if page.related_problems and page.related_problems.size > 0 %}
   <section class="related-problems">
     <h2>Related Problems</h2>
@@ -55,115 +77,8 @@ layout: default
   </section>
   {% endif %}
 
-  {% if page.solutions and page.solutions.size > 0 %}
-  <section class="related-solutions">
-    <h2>Solutions (Beta)</h2>
-    <ul class="related-solutions-list">
-      {% for sol_slug in page.solutions %}
-        {% assign solution = site.solutions | where: "slug", sol_slug | first %}
-        {% if solution %}
-          <li>
-            <a href="{{ solution.url | relative_url }}">{{ solution.title }}</a>
-            {% if solution.quality_tactics_url %}
-              <sup><a href="{{ solution.quality_tactics_url }}" target="_blank" rel="noopener" class="qt-link">QT</a></sup>
-            {% endif %}
-            {% if solution.description %}
-              — {{ solution.description }}
-            {% endif %}
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
-
   <nav class="problem-navigation">
     <a href="{{ '/problems/' | relative_url }}" target="_self" class="back-to-problems">← Back to Problems Overview</a>
   </nav>
 </article>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Find all sections with Symptoms ▲ or Root Causes ▼ headings
-  const sections = document.querySelectorAll('h2');
-  
-  sections.forEach(section => {
-    const sectionText = section.textContent.trim();
-    if (sectionText.includes('Symptoms ▲') || sectionText.includes('Root Causes ▼')) {
-      // Check if this section already has a show-more button to prevent duplicates
-      let nextElement = section.nextElementSibling;
-      let hasShowMoreButton = false;
-      
-      // Look ahead to check if there's already a show-more button
-      while (nextElement) {
-        if (nextElement.classList && nextElement.classList.contains('show-more')) {
-          hasShowMoreButton = true;
-          break;
-        }
-        if (nextElement.tagName === 'H2' || nextElement.tagName === 'H1') {
-          break; // Stop at next section
-        }
-        nextElement = nextElement.nextElementSibling;
-      }
-      
-      if (hasShowMoreButton) {
-        return; // Skip this section as it already has a button
-      }
-      
-      // Find the next ul element after this heading
-      nextElement = section.nextElementSibling;
-      while (nextElement && nextElement.tagName !== 'UL') {
-        nextElement = nextElement.nextElementSibling;
-      }
-      
-      if (nextElement && nextElement.tagName === 'UL') {
-        const listItems = nextElement.querySelectorAll('li');
-        const maxVisible = 10;
-        
-        if (listItems.length > maxVisible) {
-          // Hide items after the 10th
-          for (let i = maxVisible; i < listItems.length; i++) {
-            listItems[i].style.display = 'none';
-            listItems[i].classList.add('hidden-item');
-          }
-          
-          // Create show more button
-          const showMoreDiv = document.createElement('div');
-          showMoreDiv.className = 'show-more';
-          
-          const showMoreBtn = document.createElement('button');
-          showMoreBtn.className = 'show-more-btn';
-          showMoreBtn.textContent = `Show ${listItems.length - maxVisible} more`;
-          
-          let expanded = false;
-          
-          showMoreBtn.addEventListener('click', function() {
-            const hiddenItems = nextElement.querySelectorAll('.hidden-item');
-            
-            if (!expanded) {
-              // Show all hidden items
-              hiddenItems.forEach(item => {
-                item.style.display = 'list-item';
-              });
-              showMoreBtn.textContent = 'Show less';
-              expanded = true;
-            } else {
-              // Hide items again
-              hiddenItems.forEach(item => {
-                item.style.display = 'none';
-              });
-              showMoreBtn.textContent = `Show ${listItems.length - maxVisible} more`;
-              expanded = false;
-            }
-          });
-          
-          showMoreDiv.appendChild(showMoreBtn);
-          
-          // Insert the show more button after the ul element
-          nextElement.parentNode.insertBefore(showMoreDiv, nextElement.nextSibling);
-        }
-      }
-    }
-  });
-});
-</script>

@@ -569,28 +569,6 @@
   
 }
 
-.show-more {
-  margin-top: 1rem;
-  
-  button.show-more-btn {
-    background: #007acc !important;
-    color: white !important;
-    border: none !important;
-    padding: 0.5rem 1rem !important;
-    border-radius: 4px !important;
-    cursor: pointer !important;
-    font-size: 0.9rem !important;
-    font-family: inherit !important;
-    
-    &:hover {
-      background: #005a99 !important;
-    }
-  }
-  
-  .hidden-problems {
-    margin-top: 1rem;
-  }
-}
 
 .back-to-top {
   margin-top: 3rem;

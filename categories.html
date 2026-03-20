@@ -52,7 +52,7 @@ permalink: /categories/
           
           <div class="category-problems">
             {% assign sorted_category_problems = category_problems | sort: 'title' %}
-            {% for problem in sorted_category_problems limit: 5 %}
+            {% for problem in sorted_category_problems %}
               <div class="category-problem">
                 <h3><a href="{{ problem.url | relative_url }}">{{ problem.title }}</a></h3>
                 {% if problem.description %}
@@ -60,24 +60,6 @@ permalink: /categories/
                 {% endif %}
               </div>
             {% endfor %}
-            
-            {% if category_problems.size > 5 %}
-              <div class="show-more">
-                <button class="show-more-btn" onclick="toggleCategory(this)">
-                  Show {{ category_problems.size | minus: 5 }} more
-                </button>
-                <div class="hidden-problems" style="display: none;">
-                  {% for problem in sorted_category_problems offset: 5 %}
-                    <div class="category-problem">
-                      <h3><a href="{{ problem.url | relative_url }}">{{ problem.title }}</a></h3>
-                      {% if problem.description %}
-                        <p class="problem-description">{{ problem.description }}</p>
-                      {% endif %}
-                    </div>
-                  {% endfor %}
-                </div>
-              </div>
-            {% endif %}
           </div>
         </div>
       {% endif %}
@@ -89,18 +71,3 @@ permalink: /categories/
   </div>
 </div>
 
-<script>
-function toggleCategory(button) {
-  const hiddenProblems = button.parentElement.querySelector('.hidden-problems');
-  const isHidden = hiddenProblems.style.display === 'none';
-  
-  if (isHidden) {
-    hiddenProblems.style.display = 'block';
-    button.textContent = 'Show less';
-  } else {
-    hiddenProblems.style.display = 'none';
-    const count = hiddenProblems.querySelectorAll('.category-problem').length;
-    button.textContent = `Show ${count} more`;
-  }
-}
-</script>
