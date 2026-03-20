@@ -24,6 +24,12 @@ solutions:
 - profiling
 - resource-pooling
 - resource-usage-optimization
+- lazy-evaluation
+- lazy-loading
+- monitoring-system-utilization
+- pagination
+- probabilistic-data-structures
+- virtualized-lists
 layout: problem
 ---
 

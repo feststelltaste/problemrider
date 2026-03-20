@@ -20,6 +20,7 @@ related_problems:
   similarity: 0.55
 solutions:
 - test-coverage-strategy
+- automated-tests
 layout: problem
 ---
 

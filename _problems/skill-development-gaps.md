@@ -20,6 +20,8 @@ related_problems:
 solutions:
 - pair-and-mob-programming
 - structured-onboarding-program
+- refactoring-katas
+- security-training
 layout: problem
 ---
 

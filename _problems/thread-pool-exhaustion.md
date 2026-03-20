@@ -24,6 +24,12 @@ solutions:
 - concurrency-control
 - elastic-scaling
 - resource-pooling
+- asynchronous-operations
+- asynchronous-processing
+- bulkhead
+- circuit-breaker
+- reactive-programming
+- timeout-management
 layout: problem
 ---
 

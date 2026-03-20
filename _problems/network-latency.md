@@ -20,6 +20,14 @@ related_problems:
 solutions:
 - caching-strategy
 - serialization-optimization
+- api-calls-optimization
+- compression
+- optimistic-ui-updates
+- predictive-loading
+- predictive-prefetching
+- progressive-loading
+- service-mesh
+- virtual-networks
 layout: problem
 ---
 

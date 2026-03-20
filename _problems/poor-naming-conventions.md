@@ -20,6 +20,10 @@ related_problems:
   similarity: 0.55
 solutions:
 - static-analysis-and-linting
+- code-conventions
+- consistent-terminology
+- fluent-interfaces
+- ubiquitous-language
 layout: problem
 ---
 

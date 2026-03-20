@@ -20,6 +20,8 @@ related_problems:
   similarity: 0.5
 solutions:
 - query-optimization-process
+- timeout-management
+- transactions
 layout: problem
 ---
 

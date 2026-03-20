@@ -20,6 +20,10 @@ related_problems:
   similarity: 0.6
 solutions:
 - test-coverage-strategy
+- environment-parity
+- isolated-test-environments
+- platform-independent-test-frameworks
+- simulation-environments
 layout: problem
 ---
 

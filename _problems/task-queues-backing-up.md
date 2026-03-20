@@ -18,6 +18,10 @@ solutions:
 - backpressure
 - capacity-planning
 - elastic-scaling
+- asynchronous-processing
+- data-stream-processing
+- dead-letter-queue
+- load-shedding
 layout: problem
 ---
 

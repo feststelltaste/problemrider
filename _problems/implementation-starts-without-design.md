@@ -22,6 +22,13 @@ related_problems:
 solutions:
 - evolutionary-requirements-development
 - requirements-analysis
+- checklists
+- secure-software-development
+- security-by-design
+- security-requirements-definition
+- technical-spike
+- tracer-bullets
+- walking-skeleton
 layout: problem
 ---
 

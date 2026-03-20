@@ -23,6 +23,8 @@ solutions:
 - clear-roles-and-ownership
 - psychological-safety-practices
 - structured-communication-protocols
+- incident-management
+- security-incident-handling
 layout: problem
 ---
 

@@ -22,6 +22,7 @@ solutions:
 - backpressure
 - capacity-planning
 - elastic-scaling
+- parallelization
 layout: problem
 ---
 

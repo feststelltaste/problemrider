@@ -21,6 +21,11 @@ related_problems:
 solutions:
 - anti-corruption-layer
 - dependency-management-strategy
+- adapter
+- compatibility-certification
+- data-export
+- hexagonal-architecture
+- multi-cloud-iac
 layout: problem
 ---
 

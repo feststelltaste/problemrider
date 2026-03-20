@@ -21,6 +21,9 @@ related_problems:
 solutions:
 - regression-testing
 - user-centered-design
+- auto-save
+- confirmation-dialogs
+- feedback
 layout: problem
 ---
 

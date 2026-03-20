@@ -25,6 +25,7 @@ solutions:
 - product-owner
 - requirements-analysis
 - stakeholder-feedback-loops
+- story-mapping
 layout: problem
 ---
 

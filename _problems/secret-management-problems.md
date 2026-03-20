@@ -17,6 +17,11 @@ related_problems:
 solutions:
 - secret-management
 - security-hardening-process
+- red-teaming
+- role-based-access-control
+- secure-by-default
+- secure-configuration
+- security-audits
 layout: problem
 ---
 

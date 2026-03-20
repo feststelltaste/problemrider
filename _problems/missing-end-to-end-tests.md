@@ -21,6 +21,13 @@ related_problems:
   similarity: 0.55
 solutions:
 - test-coverage-strategy
+- acceptance-tests
+- compatibility-testing-by-users
+- integration-tests
+- interoperability-tests
+- simulation-environments
+- smoke-testing
+- tracer-bullets
 layout: problem
 ---
 

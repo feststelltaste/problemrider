@@ -21,6 +21,12 @@ related_problems:
 solutions:
 - ci-cd-pipeline
 - event-driven-architecture
+- event-driven-integration
+- microservices
+- microservices-architecture
+- modulith
+- rolling-updates
+- trunk-based-development
 layout: problem
 ---
 

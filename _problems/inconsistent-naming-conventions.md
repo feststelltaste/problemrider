@@ -20,6 +20,7 @@ related_problems:
   similarity: 0.6
 solutions:
 - static-analysis-and-linting
+- ubiquitous-language
 layout: problem
 ---
 

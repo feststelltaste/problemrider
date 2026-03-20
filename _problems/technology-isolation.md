@@ -20,6 +20,7 @@ related_problems:
   similarity: 0.6
 solutions:
 - knowledge-sharing-practices
+- security-community
 layout: problem
 ---
 

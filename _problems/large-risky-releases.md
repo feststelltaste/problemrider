@@ -23,6 +23,16 @@ solutions:
 - blue-green-canary-deployments
 - ci-cd-pipeline
 - feature-flags
+- canary-releases
+- continuous-delivery
+- continuous-integration-and-delivery
+- dark-launches
+- feature-toggles
+- microservices
+- microservices-architecture
+- rollback-mechanisms
+- rolling-updates
+- trunk-based-development
 layout: problem
 ---
 

@@ -12,6 +12,7 @@ related_problems:
 solutions:
 - evolutionary-database-design
 - modularization-and-bounded-contexts
+- data-integration
 layout: problem
 ---
 

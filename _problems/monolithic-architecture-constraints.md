@@ -23,6 +23,29 @@ solutions:
 - event-driven-architecture
 - modularization-and-bounded-contexts
 - strangler-fig-pattern
+- abstraction
+- architecture-conformity-analysis
+- bounded-contexts
+- bridges
+- bubble-context
+- bulkhead
+- business-event-processing
+- cloud-native-development
+- cqrs
+- distributed-processing
+- event-driven-integration
+- facades
+- fault-containment
+- hexagonal-architecture
+- high-availability-architectures
+- horizontal-scaling
+- isolation-of-faulty-components
+- layered-architecture
+- mediator
+- microservices
+- microservices-architecture
+- modulith
+- security-architecture-analysis
 layout: problem
 ---
 

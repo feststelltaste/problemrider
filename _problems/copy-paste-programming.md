@@ -20,6 +20,8 @@ related_problems:
   similarity: 0.6
 solutions:
 - incremental-refactoring
+- aspect-oriented-programming-aop
+- code-generation
 layout: problem
 ---
 

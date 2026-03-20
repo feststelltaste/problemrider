@@ -21,6 +21,8 @@ related_problems:
   similarity: 0.55
 solutions:
 - contract-testing
+- api-first-development
+- compatibility-certification
 layout: problem
 ---
 

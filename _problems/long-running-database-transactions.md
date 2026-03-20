@@ -21,6 +21,8 @@ related_problems:
 solutions:
 - evolutionary-database-design
 - query-optimization-process
+- transactions
+- write-ahead-logging
 layout: problem
 ---
 

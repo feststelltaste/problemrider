@@ -21,6 +21,34 @@ related_problems:
   similarity: 0.55
 solutions:
 - observability-and-monitoring
+- chaos-engineering
+- compatibility-measurement
+- continuous-performance-monitoring
+- dead-letter-queue
+- disaster-recovery
+- distributed-tracing
+- health-check-endpoints
+- heartbeat
+- logging
+- monitoring
+- monitoring-system-integrity
+- monitoring-system-utilization
+- performance-measurements
+- ping
+- platform-independent-logging-frameworks
+- production-environment-maintenance
+- red-teaming
+- security-audits
+- security-incident-handling
+- security-metrics
+- security-monitoring
+- security-relevant-metrics
+- service-level-objectives
+- service-mesh
+- site-reliability-engineering-sre
+- status-monitoring
+- transparent-performance-metrics
+- watchdog
 layout: problem
 ---
 

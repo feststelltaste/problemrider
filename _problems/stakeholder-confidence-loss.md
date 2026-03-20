@@ -22,6 +22,8 @@ related_problems:
 solutions:
 - continuous-feedback
 - stakeholder-feedback-loops
+- business-metrics
+- user-acceptance-tests
 layout: problem
 ---
 

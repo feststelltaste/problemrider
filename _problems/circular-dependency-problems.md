@@ -22,6 +22,7 @@ solutions:
 - event-driven-architecture
 - incremental-refactoring
 - modularization-and-bounded-contexts
+- mediator
 layout: problem
 ---
 

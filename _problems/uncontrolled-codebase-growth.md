@@ -23,6 +23,8 @@ solutions:
 - loose-coupling
 - separation-of-concerns
 - solid-principles
+- strategic-code-deletion
+- tree-shaking
 layout: problem
 ---
 

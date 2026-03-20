@@ -21,6 +21,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - test-coverage-strategy
+- compatibility-testing
+- consumer-driven-contracts
+- integration-tests
+- interoperability-tests
+- isolated-test-environments
+- simulation-environments
 layout: problem
 ---
 

@@ -21,6 +21,8 @@ solutions:
 - efficient-algorithms
 - profiling
 - serialization-optimization
+- memory-hierarchy
+- static-code-analysis
 layout: problem
 ---
 

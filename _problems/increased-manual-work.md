@@ -21,6 +21,8 @@ related_problems:
 solutions:
 - development-environment-optimization
 - development-workflow-automation
+- business-process-automation
+- platform-independent-scripting-languages
 layout: problem
 ---
 

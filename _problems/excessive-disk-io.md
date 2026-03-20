@@ -22,6 +22,9 @@ solutions:
 - efficient-algorithms
 - profiling
 - resource-usage-optimization
+- batch-processing
+- compression
+- in-memory-processing
 layout: problem
 ---
 

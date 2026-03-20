@@ -21,6 +21,15 @@ related_problems:
 solutions:
 - infrastructure-as-code
 - secret-management
+- abstracted-file-system-access
+- compatibility-matrix
+- externalized-configuration
+- immutable-infrastructure
+- monitoring-system-integrity
+- platform-independent-configuration-files
+- platform-independent-configuration-management
+- secure-by-default
+- secure-configuration
 layout: problem
 ---
 

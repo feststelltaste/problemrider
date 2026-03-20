@@ -20,6 +20,33 @@ related_problems:
   similarity: 0.6
 solutions:
 - observability-and-monitoring
+- chaos-engineering
+- continuous-performance-monitoring
+- data-quality-checks
+- failover-mechanisms
+- fault-containment
+- fault-tolerant-data-structures
+- feedback
+- functional-tests
+- graceful-degradation
+- heartbeat
+- idempotency-design
+- idempotent-operations
+- isolation-of-faulty-components
+- load-testing
+- logging
+- monitoring
+- monitoring-system-integrity
+- nonstop-forwarding
+- plausibility-checks
+- redundant-checksums
+- resilience
+- retry
+- security-monitoring
+- status-monitoring
+- stress-testing
+- value-range-definition
+- watchdog
 layout: problem
 ---
 

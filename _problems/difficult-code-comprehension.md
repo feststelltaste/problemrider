@@ -20,6 +20,23 @@ solutions:
 - clean-code
 - loose-coupling
 - separation-of-concerns
+- architecture-documentation
+- aspect-oriented-programming-aop
+- code-comments
+- code-conventions
+- code-metrics
+- code-reviews
+- decision-tables
+- facades
+- fluent-interfaces
+- high-cohesion
+- layered-architecture
+- object-relational-mapping-orm
+- pattern-language
+- rule-based-systems
+- static-code-analysis
+- strategic-code-deletion
+- ubiquitous-language
 layout: problem
 ---
 

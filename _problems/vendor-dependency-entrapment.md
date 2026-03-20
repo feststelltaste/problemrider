@@ -21,6 +21,11 @@ related_problems:
 solutions:
 - anti-corruption-layer
 - dependency-management-strategy
+- data-export
+- multi-cloud-iac
+- platform-independence
+- platform-independent-data-storage
+- platform-independent-programming-languages
 layout: problem
 ---
 

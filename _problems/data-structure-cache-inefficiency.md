@@ -22,6 +22,7 @@ related_problems:
 solutions:
 - caching-strategy
 - profiling
+- memory-hierarchy
 layout: problem
 ---
 

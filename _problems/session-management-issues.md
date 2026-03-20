@@ -13,6 +13,10 @@ related_problems:
   similarity: 0.5
 solutions:
 - security-hardening-process
+- authentication
+- role-based-access-control
+- secure-session-management
+- security-policies-for-users
 layout: problem
 ---
 

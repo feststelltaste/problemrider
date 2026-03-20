@@ -22,6 +22,11 @@ solutions:
 - clean-code
 - loose-coupling
 - separation-of-concerns
+- cognitive-load-minimization
+- consistent-user-interface
+- customizable-user-interface
+- form-design
+- strategic-code-deletion
 layout: problem
 ---
 

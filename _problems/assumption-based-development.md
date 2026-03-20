@@ -23,6 +23,11 @@ solutions:
 - boring-technologies
 - design-by-contract
 - technical-skills-development
+- functional-spike
+- prototypes
+- prototyping
+- technical-spike
+- tracer-bullets
 layout: problem
 ---
 

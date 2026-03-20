@@ -23,6 +23,7 @@ solutions:
 - architecture-reviews
 - boring-technologies
 - technical-skills-development
+- prototyping
 layout: problem
 ---
 

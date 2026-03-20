@@ -21,6 +21,9 @@ related_problems:
 solutions:
 - incremental-refactoring
 - modularization-and-bounded-contexts
+- aspect-oriented-programming-aop
+- high-cohesion
+- layered-architecture
 layout: problem
 ---
 

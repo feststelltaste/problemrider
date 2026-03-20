@@ -24,6 +24,8 @@ solutions:
 - design-by-contract
 - loose-coupling
 - separation-of-concerns
+- cognitive-load-minimization
+- form-design
 layout: problem
 ---
 

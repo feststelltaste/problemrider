@@ -22,6 +22,7 @@ related_problems:
 solutions:
 - impact-mapping
 - product-strategy-alignment
+- business-metrics
 layout: problem
 ---
 

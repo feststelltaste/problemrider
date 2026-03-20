@@ -21,6 +21,9 @@ related_problems:
   similarity: 0.6
 solutions:
 - architecture-decision-records
+- functional-spike
+- technical-spike
+- walking-skeleton
 layout: problem
 ---
 

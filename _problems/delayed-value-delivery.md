@@ -22,6 +22,7 @@ solutions:
 - architecture-roadmap
 - impact-mapping
 - product-strategy-alignment
+- continuous-delivery
 layout: problem
 ---
 

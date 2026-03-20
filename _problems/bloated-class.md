@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.5
 solutions:
 - incremental-refactoring
+- code-metrics
+- high-cohesion
 layout: problem
 ---
 

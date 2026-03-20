@@ -20,6 +20,11 @@ related_problems:
   similarity: 0.6
 solutions:
 - user-centered-design
+- browser-compatibility
+- code-splitting
+- image-and-asset-optimization
+- tree-shaking
+- virtualized-lists
 layout: problem
 ---
 

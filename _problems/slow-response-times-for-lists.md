@@ -21,6 +21,17 @@ related_problems:
   similarity: 0.6
 solutions:
 - query-optimization-process
+- asynchronous-operations
+- asynchronous-processing
+- cold-start-mitigation
+- cqrs
+- denormalization
+- lazy-loading
+- materialized-views
+- pagination
+- predictive-loading
+- progressive-loading
+- virtualized-lists
 layout: problem
 ---
 

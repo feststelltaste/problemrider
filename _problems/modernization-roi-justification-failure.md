@@ -20,6 +20,10 @@ related_problems:
   similarity: 0.55
 solutions:
 - technical-debt-backlog
+- business-metrics
+- performance-modeling
+- security-relevant-metrics
+- service-level-objectives
 layout: problem
 ---
 

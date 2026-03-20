@@ -20,6 +20,8 @@ related_problems:
   similarity: 0.55
 solutions:
 - event-driven-architecture
+- circuit-breaker
+- timeout-management
 layout: problem
 ---
 

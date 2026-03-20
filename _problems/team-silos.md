@@ -20,6 +20,8 @@ related_problems:
   similarity: 0.65
 solutions:
 - knowledge-sharing-practices
+- architecture-workshops
+- microservices
 layout: problem
 ---
 

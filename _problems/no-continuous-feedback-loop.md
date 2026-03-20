@@ -23,6 +23,9 @@ solutions:
 - evolutionary-requirements-development
 - requirements-analysis
 - stakeholder-feedback-loops
+- direct-feedback
+- feedback-mechanisms
+- on-site-customer
 layout: problem
 ---
 

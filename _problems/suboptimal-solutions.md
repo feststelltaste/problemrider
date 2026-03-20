@@ -24,6 +24,7 @@ solutions:
 - boring-technologies
 - clean-code
 - design-by-contract
+- pattern-language
 layout: problem
 ---
 

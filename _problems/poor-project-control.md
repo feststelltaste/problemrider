@@ -24,6 +24,8 @@ solutions:
 - product-owner
 - short-iteration-cycles
 - stakeholder-feedback-loops
+- security-metrics
+- security-relevant-metrics
 layout: problem
 ---
 

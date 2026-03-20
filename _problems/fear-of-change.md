@@ -22,6 +22,31 @@ solutions:
 - blameless-postmortems
 - feature-flags
 - strangler-fig-pattern
+- acceptance-tests
+- automated-tests
+- bubble-context
+- canary-releases
+- chaos-engineering
+- dark-launches
+- feature-toggles
+- forward-compatibility
+- functional-spike
+- integration-tests
+- privacy-by-design
+- prototypes
+- prototyping
+- raising-user-awareness
+- refactoring-katas
+- resilience
+- restore-points
+- risk-analysis
+- rollback-mechanisms
+- security-culture
+- simulation-environments
+- smoke-testing
+- technical-spike
+- test-driven-development-tdd
+- tracer-bullets
 layout: problem
 ---
 

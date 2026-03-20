@@ -21,6 +21,11 @@ related_problems:
 solutions:
 - clear-ownership-model
 - clear-roles-and-ownership
+- authorization-concept
+- compatibility-governance
+- incident-management
+- on-call-duty
+- security-incident-handling
 layout: problem
 ---
 

@@ -21,6 +21,25 @@ related_problems:
   similarity: 0.55
 solutions:
 - evolutionary-database-design
+- automated-migration-tools
+- backup-and-recovery
+- backward-compatible-data-formats
+- backward-compatible-schema-migrations
+- checksums
+- continuous-data-verification
+- data-integrity
+- data-quality-checks
+- fault-tolerant-data-structures
+- idempotency-design
+- platform-independent-data-storage
+- plausibility-checks
+- redundant-checksums
+- redundant-data-storage
+- regular-backups
+- restore-points
+- timestamping
+- transactions
+- write-ahead-logging
 layout: problem
 ---
 

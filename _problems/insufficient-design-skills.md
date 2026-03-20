@@ -23,6 +23,8 @@ solutions:
 - boring-technologies
 - solid-principles
 - technical-skills-development
+- pattern-language
+- refactoring-katas
 layout: problem
 ---
 

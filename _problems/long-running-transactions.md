@@ -24,6 +24,7 @@ solutions:
 - profiling
 - resource-pooling
 - resource-usage-optimization
+- transactions
 layout: problem
 ---
 

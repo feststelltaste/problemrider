@@ -23,6 +23,13 @@ solutions:
 - blue-green-canary-deployments
 - ci-cd-pipeline
 - feature-flags
+- backup-and-recovery
+- disaster-recovery
+- regular-backups
+- restore-points
+- rollback-mechanisms
+- stress-testing
+- write-ahead-logging
 layout: problem
 ---
 

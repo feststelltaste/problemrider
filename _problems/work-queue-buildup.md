@@ -22,6 +22,8 @@ solutions:
 - backpressure
 - capacity-planning
 - elastic-scaling
+- pipelining
+- streaming
 layout: problem
 ---
 

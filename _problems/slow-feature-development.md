@@ -21,6 +21,9 @@ related_problems:
 solutions:
 - architecture-roadmap
 - development-workflow-automation
+- code-generation
+- microservices
+- standard-software
 layout: problem
 ---
 

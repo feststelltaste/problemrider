@@ -20,6 +20,14 @@ related_problems:
   similarity: 0.55
 solutions:
 - evolutionary-database-design
+- backward-compatible-schema-migrations
+- data-archiving
+- data-integrity
+- data-modeling
+- graph-databases
+- nosql-databases
+- object-relational-mapping-orm
+- platform-independent-data-storage
 layout: problem
 ---
 

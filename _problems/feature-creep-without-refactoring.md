@@ -20,6 +20,7 @@ related_problems:
   similarity: 0.55
 solutions:
 - incremental-refactoring
+- performance-budgets
 layout: problem
 ---
 

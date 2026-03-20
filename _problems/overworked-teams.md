@@ -22,6 +22,7 @@ related_problems:
 solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices
+- on-call-duty
 layout: problem
 ---
 

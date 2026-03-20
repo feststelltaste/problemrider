@@ -14,6 +14,13 @@ related_problems:
   similarity: 0.55
 solutions:
 - security-hardening-process
+- abuse-case-definition
+- api-security
+- prepared-statements
+- red-teaming
+- secure-coding-guidelines
+- secure-programming-interfaces
+- security-tests
 layout: problem
 ---
 

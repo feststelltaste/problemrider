@@ -19,6 +19,7 @@ related_problems:
   similarity: 0.6
 solutions:
 - caching-strategy
+- distributed-caching
 layout: problem
 ---
 

@@ -21,6 +21,25 @@ related_problems:
 solutions:
 - capacity-planning
 - elastic-scaling
+- distributed-processing
+- elastic-resource-utilization
+- failover-cluster
+- graceful-degradation
+- high-availability-architectures
+- horizontal-scaling
+- load-balancing
+- load-shedding
+- load-testing
+- monitoring-system-utilization
+- performance-measurements
+- performance-modeling
+- proactive-capacity-management
+- rate-limiting
+- redundancy
+- serverless-computing
+- specialized-hardware
+- stress-testing
+- vertical-scaling
 layout: problem
 ---
 

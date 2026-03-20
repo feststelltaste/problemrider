@@ -21,6 +21,34 @@ related_problems:
   similarity: 0.6
 solutions:
 - definition-of-done
+- abuse-case-definition
+- business-metrics
+- business-quality-scenarios
+- checklists
+- code-coverage-analysis
+- compatibility-as-error
+- compatibility-certification
+- compatibility-measurement
+- compatibility-testing-by-users
+- mutation-testing
+- performance-budgets
+- performance-measurements
+- portability-checklists
+- property-based-testing
+- risk-analysis
+- security-architecture-analysis
+- security-audits
+- security-by-design
+- security-certification
+- security-frameworks
+- security-metrics
+- security-relevant-metrics
+- security-requirements-definition
+- security-tests-by-external-parties
+- service-level-objectives
+- subject-matter-reviews
+- transparent-performance-metrics
+- user-acceptance-tests
 layout: problem
 ---
 

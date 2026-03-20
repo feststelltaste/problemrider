@@ -21,6 +21,9 @@ related_problems:
   similarity: 0.65
 solutions:
 - blameless-postmortems
+- architecture-workshops
+- raising-user-awareness
+- security-culture
 layout: problem
 ---
 

@@ -22,6 +22,8 @@ solutions:
 - anti-corruption-layer
 - dependency-management-strategy
 - modularization-and-bounded-contexts
+- schema-registry
+- virtualization
 layout: problem
 ---
 

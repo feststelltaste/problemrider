@@ -25,6 +25,8 @@ solutions:
 - development-environment-optimization
 - development-workflow-automation
 - regression-testing
+- microservices-architecture
+- trunk-based-development
 layout: problem
 ---
 

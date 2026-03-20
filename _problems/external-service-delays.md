@@ -21,6 +21,13 @@ related_problems:
 solutions:
 - caching-strategy
 - serialization-optimization
+- asynchronous-operations
+- asynchronous-processing
+- circuit-breaker
+- cold-start-mitigation
+- optimistic-ui-updates
+- retry
+- timeout-management
 layout: problem
 ---
 

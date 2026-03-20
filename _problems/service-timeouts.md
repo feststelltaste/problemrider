@@ -21,6 +21,13 @@ related_problems:
 solutions:
 - blue-green-canary-deployments
 - event-driven-architecture
+- circuit-breaker
+- cold-start-mitigation
+- failover-mechanisms
+- nonstop-forwarding
+- retry
+- service-mesh
+- timeout-management
 layout: problem
 ---
 

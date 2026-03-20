@@ -21,6 +21,7 @@ related_problems:
 solutions:
 - architecture-decision-records
 - blameless-postmortems
+- functional-spike
 layout: problem
 ---
 

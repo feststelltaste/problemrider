@@ -22,6 +22,7 @@ related_problems:
 solutions:
 - caching-strategy
 - efficient-algorithms
+- lazy-evaluation
 layout: problem
 ---
 

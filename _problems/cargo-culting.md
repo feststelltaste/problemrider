@@ -23,6 +23,8 @@ solutions:
 - architecture-reviews
 - boring-technologies
 - technical-skills-development
+- architecture-governance
+- pattern-language
 layout: problem
 ---
 

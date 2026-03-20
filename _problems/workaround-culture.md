@@ -22,6 +22,9 @@ related_problems:
 solutions:
 - incremental-refactoring
 - technical-debt-backlog
+- raising-user-awareness
+- security-culture
+- security-policies-for-users
 layout: problem
 ---
 

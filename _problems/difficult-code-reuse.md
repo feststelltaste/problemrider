@@ -20,6 +20,15 @@ related_problems:
   similarity: 0.65
 solutions:
 - modularization-and-bounded-contexts
+- abstraction
+- abstraction-layers
+- api-first-development
+- bridges
+- cross-platform-frameworks
+- design-tokens
+- facades
+- fluent-interfaces
+- modulith
 layout: problem
 ---
 

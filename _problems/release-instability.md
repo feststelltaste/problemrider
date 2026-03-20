@@ -23,6 +23,13 @@ solutions:
 - blue-green-canary-deployments
 - ci-cd-pipeline
 - feature-flags
+- canary-releases
+- dark-launches
+- environment-parity
+- feature-toggles
+- rollback-mechanisms
+- rolling-updates
+- smoke-testing
 layout: problem
 ---
 

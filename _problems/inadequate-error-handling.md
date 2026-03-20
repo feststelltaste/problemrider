@@ -20,6 +20,18 @@ related_problems:
   similarity: 0.5
 solutions:
 - definition-of-done
+- dead-letter-queue
+- fault-tolerant-data-structures
+- idempotency-design
+- input-constraints-and-defaults
+- logging
+- plausibility-checks
+- prepared-statements
+- redundant-checksums
+- retry
+- secure-coding-guidelines
+- secure-programming-interfaces
+- value-range-definition
 layout: problem
 ---
 

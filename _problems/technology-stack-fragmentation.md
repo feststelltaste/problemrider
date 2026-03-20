@@ -21,6 +21,16 @@ related_problems:
   similarity: 0.6
 solutions:
 - dependency-management-strategy
+- adapter
+- architecture-governance
+- architecture-review-board
+- canonical-data-model
+- containerization
+- cross-platform-serialization
+- data-ecosystems
+- data-formats
+- data-strategy
+- design-tokens
 layout: problem
 ---
 

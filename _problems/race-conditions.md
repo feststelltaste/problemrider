@@ -22,6 +22,9 @@ related_problems:
 solutions:
 - concurrency-control
 - resource-pooling
+- idempotency-design
+- idempotent-operations
+- transactions
 layout: problem
 ---
 

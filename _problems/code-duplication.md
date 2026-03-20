@@ -20,6 +20,10 @@ related_problems:
   similarity: 0.65
 solutions:
 - incremental-refactoring
+- aspect-oriented-programming-aop
+- code-generation
+- data-deduplication
+- strategic-code-deletion
 layout: problem
 ---
 

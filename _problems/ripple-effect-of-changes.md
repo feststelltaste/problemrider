@@ -23,6 +23,18 @@ solutions:
 - loose-coupling
 - separation-of-concerns
 - solid-principles
+- abstraction
+- architecture-conformity-analysis
+- backward-compatibility
+- bounded-contexts
+- bridges
+- fault-containment
+- high-cohesion
+- layered-architecture
+- mediator
+- modulith
+- semantic-versioning
+- tolerant-reader
 layout: problem
 ---
 

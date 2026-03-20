@@ -22,6 +22,15 @@ related_problems:
 solutions:
 - anti-corruption-layer
 - strangler-fig-pattern
+- abstraction-layers
+- adapter
+- architecture-conformity-analysis
+- architecture-governance
+- architecture-review-board
+- architecture-workshops
+- hexagonal-architecture
+- security-architecture-analysis
+- security-by-design
 layout: problem
 ---
 

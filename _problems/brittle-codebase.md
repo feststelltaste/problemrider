@@ -20,6 +20,12 @@ related_problems:
   similarity: 0.65
 solutions:
 - technical-debt-backlog
+- bubble-context
+- fault-tolerant-data-structures
+- feature-detection
+- plausibility-checks
+- resilience
+- tolerant-reader
 layout: problem
 ---
 

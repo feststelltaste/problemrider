@@ -21,6 +21,8 @@ related_problems:
 solutions:
 - incremental-refactoring
 - technical-debt-backlog
+- refactoring-katas
+- test-driven-development-tdd
 layout: problem
 ---
 

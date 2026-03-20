@@ -22,6 +22,24 @@ related_problems:
 solutions:
 - anti-corruption-layer
 - evolutionary-database-design
+- backward-compatible-data-formats
+- canonical-data-model
+- checksums
+- continuous-data-verification
+- cross-platform-serialization
+- data-deduplication
+- data-ecosystems
+- data-enrichment
+- data-format-conversion
+- data-formats
+- data-integration
+- data-integrity
+- data-replication
+- data-strategy
+- event-driven-integration
+- platform-independent-time-zone-handling
+- schema-registry
+- standardized-data-formats
 layout: problem
 ---
 

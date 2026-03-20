@@ -20,6 +20,11 @@ related_problems:
   similarity: 0.55
 solutions:
 - static-analysis-and-linting
+- code-conventions
+- code-reviews
+- compatibility-standards
+- secure-coding-guidelines
+- security-policies-for-development
 layout: problem
 ---
 

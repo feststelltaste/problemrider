@@ -24,6 +24,11 @@ solutions:
 - formal-change-control-process
 - product-owner
 - requirements-analysis
+- code-splitting
+- personas
+- strategic-code-deletion
+- tree-shaking
+- user-stories
 layout: problem
 ---
 

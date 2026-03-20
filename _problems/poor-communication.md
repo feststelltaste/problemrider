@@ -22,6 +22,7 @@ related_problems:
 solutions:
 - psychological-safety-practices
 - structured-communication-protocols
+- transparent-performance-metrics
 layout: problem
 ---
 

@@ -21,6 +21,29 @@ related_problems:
 solutions:
 - definition-of-done
 - test-coverage-strategy
+- acceptance-tests
+- automated-tests
+- behavior-driven-development-bdd
+- business-test-cases
+- code-coverage-analysis
+- compatibility-as-error
+- compatibility-testing
+- compatibility-testing-by-users
+- cross-version-testing
+- functional-tests
+- mutation-testing
+- platform-independent-test-frameworks
+- prepared-statements
+- property-based-testing
+- red-teaming
+- regression-tests
+- requirements-traceability-matrix
+- secure-software-development
+- security-tests
+- security-tests-by-external-parties
+- smoke-testing
+- specification-by-example
+- user-acceptance-tests
 layout: problem
 ---
 

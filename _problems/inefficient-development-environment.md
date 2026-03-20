@@ -21,6 +21,10 @@ related_problems:
 solutions:
 - development-environment-optimization
 - development-workflow-automation
+- containerized-databases
+- cross-platform-build-tools
+- platform-independent-build-pipelines
+- virtual-development-environments
 layout: problem
 ---
 

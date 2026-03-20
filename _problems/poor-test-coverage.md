@@ -22,6 +22,20 @@ related_problems:
 solutions:
 - definition-of-done
 - test-coverage-strategy
+- acceptance-tests
+- automated-tests
+- behavior-driven-development-bdd
+- business-test-cases
+- code-coverage-analysis
+- functional-tests
+- integration-tests
+- mutation-testing
+- platform-independent-test-frameworks
+- property-based-testing
+- regression-tests
+- requirements-traceability-matrix
+- security-tests
+- test-driven-development-tdd
 layout: problem
 ---
 

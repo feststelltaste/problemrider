@@ -20,6 +20,32 @@ related_problems:
   similarity: 0.6
 solutions:
 - infrastructure-as-code
+- automated-migration-tools
+- backup-and-recovery
+- compatibility-matrix
+- containerization
+- containerized-databases
+- dependency-pinning
+- environment-parity
+- externalized-configuration
+- immutable-infrastructure
+- isolated-test-environments
+- monitoring-system-integrity
+- multi-cloud-iac
+- platform-independent-configuration-files
+- platform-independent-configuration-management
+- production-environment-maintenance
+- regular-maintenance-and-updates
+- restore-points
+- secure-by-default
+- secure-configuration
+- security-audits
+- security-monitoring
+- standardized-deployment-scripts
+- version-control
+- virtual-development-environments
+- virtual-networks
+- virtualization
 layout: problem
 ---
 

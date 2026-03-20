@@ -22,6 +22,7 @@ related_problems:
 solutions:
 - documentation-as-code
 - structured-onboarding-program
+- virtual-development-environments
 layout: problem
 ---
 

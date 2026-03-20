@@ -22,6 +22,30 @@ related_problems:
 solutions:
 - event-driven-architecture
 - observability-and-monitoring
+- bulkhead
+- chaos-engineering
+- circuit-breaker
+- data-replication
+- disaster-recovery
+- distributed-processing
+- failover-cluster
+- failover-mechanisms
+- fault-containment
+- health-check-endpoints
+- heartbeat
+- high-availability-architectures
+- horizontal-scaling
+- isolation-of-faulty-components
+- load-balancing
+- nonstop-forwarding
+- ping
+- read-replicas
+- redundancy
+- redundant-data-storage
+- regular-backups
+- resilience
+- security-architecture-analysis
+- watchdog
 layout: problem
 ---
 

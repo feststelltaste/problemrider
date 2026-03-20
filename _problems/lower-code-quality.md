@@ -22,6 +22,11 @@ related_problems:
 solutions:
 - definition-of-done
 - pair-and-mob-programming
+- code-metrics
+- code-reviews
+- refactoring-katas
+- secure-coding-guidelines
+- static-code-analysis
 layout: problem
 ---
 

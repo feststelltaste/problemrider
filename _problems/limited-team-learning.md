@@ -21,6 +21,8 @@ related_problems:
 solutions:
 - pair-and-mob-programming
 - structured-onboarding-program
+- architecture-workshops
+- security-community
 layout: problem
 ---
 

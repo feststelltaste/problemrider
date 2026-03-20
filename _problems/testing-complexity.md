@@ -20,6 +20,7 @@ related_problems:
   similarity: 0.6
 solutions:
 - test-coverage-strategy
+- platform-independent-test-frameworks
 layout: problem
 ---
 

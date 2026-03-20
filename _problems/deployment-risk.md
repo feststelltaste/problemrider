@@ -24,6 +24,32 @@ solutions:
 - ci-cd-pipeline
 - feature-flags
 - infrastructure-as-code
+- backup-and-recovery
+- backward-compatibility
+- backward-compatible-schema-migrations
+- canary-releases
+- containerization
+- continuous-delivery
+- continuous-integration
+- continuous-integration-and-delivery
+- dark-launches
+- dependency-pinning
+- disaster-recovery
+- environment-parity
+- failover-cluster
+- feature-toggles
+- immutable-infrastructure
+- integration-tests
+- load-testing
+- redundancy
+- regular-backups
+- restore-points
+- risk-analysis
+- rollback-mechanisms
+- rolling-updates
+- site-reliability-engineering-sre
+- smoke-testing
+- standardized-deployment-scripts
 layout: problem
 ---
 

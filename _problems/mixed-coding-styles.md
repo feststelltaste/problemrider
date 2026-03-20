@@ -19,6 +19,7 @@ related_problems:
   similarity: 0.65
 solutions:
 - static-analysis-and-linting
+- code-conventions
 layout: problem
 ---
 

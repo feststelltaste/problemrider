@@ -24,6 +24,7 @@ solutions:
 - formal-change-control-process
 - iterative-development
 - short-iteration-cycles
+- proactive-capacity-management
 layout: problem
 ---
 

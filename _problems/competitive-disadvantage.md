@@ -23,6 +23,7 @@ solutions:
 - impact-mapping
 - product-strategy-alignment
 - user-centered-design
+- assistive-technology-support
 layout: problem
 ---
 

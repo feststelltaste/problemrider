@@ -21,6 +21,7 @@ related_problems:
 solutions:
 - code-review-process-reform
 - static-analysis-and-linting
+- code-conventions
 layout: problem
 ---
 

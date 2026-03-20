@@ -21,6 +21,21 @@ related_problems:
   similarity: 0.55
 solutions:
 - evolutionary-database-design
+- automated-migration-tools
+- backward-compatible-data-formats
+- backward-compatible-schema-migrations
+- canonical-data-model
+- data-enrichment
+- data-export
+- data-format-conversion
+- data-integration
+- data-modeling
+- data-quality-checks
+- data-strategy
+- mass-test-data-generation
+- nosql-databases
+- platform-independent-data-storage
+- standardized-data-formats
 layout: problem
 ---
 

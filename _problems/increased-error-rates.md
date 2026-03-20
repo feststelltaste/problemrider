@@ -19,6 +19,14 @@ related_problems:
   similarity: 0.55
 solutions:
 - observability-and-monitoring
+- confirmation-dialogs
+- dead-letter-queue
+- feedback
+- form-design
+- input-constraints-and-defaults
+- plausibility-checks
+- retry
+- root-cause-analysis
 layout: problem
 ---
 

@@ -22,6 +22,8 @@ solutions:
 - iterative-development
 - product-owner
 - requirements-analysis
+- story-mapping
+- user-stories
 layout: problem
 ---
 

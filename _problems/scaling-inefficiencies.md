@@ -21,6 +21,34 @@ related_problems:
 solutions:
 - capacity-planning
 - elastic-scaling
+- cloud-native-development
+- cqrs
+- cross-platform-frameworks
+- data-partitioning
+- data-replication
+- data-stream-processing
+- distributed-caching
+- distributed-processing
+- elastic-resource-utilization
+- horizontal-scaling
+- load-balancing
+- load-testing
+- microservices
+- microservices-architecture
+- monitoring-system-utilization
+- nosql-databases
+- parallelization
+- performance-modeling
+- pipelining
+- proactive-capacity-management
+- probabilistic-data-structures
+- reactive-programming
+- read-replicas
+- serverless-computing
+- specialized-hardware
+- streaming
+- stress-testing
+- vertical-scaling
 layout: problem
 ---
 

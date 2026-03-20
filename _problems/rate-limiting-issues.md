@@ -22,6 +22,10 @@ related_problems:
 solutions:
 - api-first-design
 - contract-testing
+- api-gateway
+- api-security
+- load-shedding
+- rate-limiting
 layout: problem
 ---
 

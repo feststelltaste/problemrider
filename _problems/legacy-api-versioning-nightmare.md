@@ -22,6 +22,18 @@ related_problems:
 solutions:
 - anti-corruption-layer
 - dependency-management-strategy
+- adapter
+- api-deprecation-policy
+- api-first-development
+- api-gateway
+- api-security
+- api-versioning-strategy
+- backward-compatible-apis
+- compatibility-governance
+- content-negotiation
+- semantic-versioning
+- standardized-interfaces
+- versioning-scheme
 layout: problem
 ---
 

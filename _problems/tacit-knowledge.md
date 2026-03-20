@@ -23,6 +23,9 @@ solutions:
 - documentation-as-code
 - knowledge-sharing-practices
 - pair-and-mob-programming
+- architecture-documentation
+- code-comments
+- living-documentation
 layout: problem
 ---
 

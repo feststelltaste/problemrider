@@ -24,6 +24,9 @@ solutions:
 - resource-pooling
 - resource-usage-optimization
 - serialization-optimization
+- lazy-evaluation
+- lazy-loading
+- memory-hierarchy
 layout: problem
 ---
 

@@ -22,6 +22,14 @@ solutions:
 - caching-strategy
 - contract-testing
 - serialization-optimization
+- api-calls-optimization
+- api-gateway
+- api-security
+- load-balancing
+- optimistic-ui-updates
+- predictive-loading
+- predictive-prefetching
+- rate-limiting
 layout: problem
 ---
 

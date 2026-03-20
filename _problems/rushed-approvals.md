@@ -21,6 +21,7 @@ related_problems:
   similarity: 0.6
 solutions:
 - code-review-process-reform
+- checklists
 layout: problem
 ---
 

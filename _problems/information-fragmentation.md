@@ -20,6 +20,7 @@ related_problems:
   similarity: 0.65
 solutions:
 - documentation-as-code
+- data-integration
 layout: problem
 ---
 

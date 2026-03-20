@@ -21,6 +21,25 @@ related_problems:
 solutions:
 - ci-cd-pipeline
 - infrastructure-as-code
+- automated-migration-tools
+- checklists
+- cloud-native-development
+- containerization
+- containerized-databases
+- continuous-delivery
+- continuous-integration-and-delivery
+- cross-platform-build-scripts
+- cross-platform-build-tools
+- externalized-configuration
+- immutable-infrastructure
+- multi-cloud-iac
+- platform-independent-build-pipelines
+- platform-independent-scripting-languages
+- rollback-mechanisms
+- rolling-updates
+- serverless-computing
+- standardized-deployment-scripts
+- walking-skeleton
 layout: problem
 ---
 

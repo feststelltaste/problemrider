@@ -21,6 +21,11 @@ related_problems:
   similarity: 0.6
 solutions:
 - event-driven-architecture
+- parallelization
+- pipelining
+- read-replicas
+- specialized-hardware
+- streaming
 layout: problem
 ---
 

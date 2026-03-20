@@ -21,6 +21,33 @@ related_problems:
   similarity: 0.65
 solutions:
 - user-centered-design
+- assistive-technology-support
+- asynchronous-operations
+- auto-save
+- browser-compatibility
+- cognitive-load-minimization
+- compatibility-testing-by-users
+- confirmation-dialogs
+- consistent-terminology
+- consistent-user-interface
+- contextual-help
+- custom-views
+- customizable-user-interface
+- customizing
+- direct-feedback
+- empty-states-and-first-use-guidance
+- feedback
+- feedback-mechanisms
+- focus-management
+- form-design
+- frequently-asked-questions-faq
+- input-constraints-and-defaults
+- optimistic-ui-updates
+- personas
+- predictive-loading
+- predictive-prefetching
+- progressive-loading
+- usability-tests
 layout: problem
 ---
 

@@ -22,6 +22,7 @@ solutions:
 - iterative-development
 - requirements-analysis
 - short-iteration-cycles
+- story-mapping
 layout: problem
 ---
 

@@ -25,6 +25,10 @@ solutions:
 - resource-pooling
 - resource-usage-optimization
 - serialization-optimization
+- bulkhead
+- elastic-resource-utilization
+- timeout-management
+- virtualization
 layout: problem
 ---
 

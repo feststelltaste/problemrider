@@ -24,6 +24,7 @@ solutions:
 - clean-code
 - solid-principles
 - technical-skills-development
+- pattern-language
 layout: problem
 ---
 

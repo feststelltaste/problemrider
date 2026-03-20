@@ -22,6 +22,10 @@ solutions:
 - architecture-decision-records
 - documentation-as-code
 - knowledge-sharing-practices
+- audit-trail-management
+- documentation-of-compatibility-requirements
+- living-documentation
+- timestamping
 layout: problem
 ---
 

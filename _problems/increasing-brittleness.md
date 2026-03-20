@@ -22,6 +22,7 @@ related_problems:
 solutions:
 - incremental-refactoring
 - technical-debt-backlog
+- dependency-pinning
 layout: problem
 ---
 

@@ -20,6 +20,11 @@ related_problems:
   similarity: 0.7
 solutions:
 - query-optimization-process
+- api-calls-optimization
+- batch-processing
+- denormalization
+- materialized-views
+- pagination
 layout: problem
 ---
 

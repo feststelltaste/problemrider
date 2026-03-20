@@ -22,6 +22,10 @@ related_problems:
 solutions:
 - api-first-design
 - elastic-scaling
+- api-gateway
+- health-check-endpoints
+- ping
+- service-mesh
 layout: problem
 ---
 

@@ -23,6 +23,8 @@ solutions:
 - architecture-roadmap
 - development-workflow-automation
 - regression-testing
+- code-generation
+- standard-software
 layout: problem
 ---
 

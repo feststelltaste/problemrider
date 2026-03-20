@@ -20,6 +20,8 @@ solutions:
 - efficient-algorithms
 - profiling
 - serialization-optimization
+- cross-platform-serialization
+- standardized-data-formats
 layout: problem
 ---
 

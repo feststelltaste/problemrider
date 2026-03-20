@@ -19,6 +19,12 @@ related_problems:
   similarity: 0.65
 solutions:
 - incremental-refactoring
+- business-event-processing
+- business-process-automation
+- code-comments
+- code-metrics
+- decision-tables
+- rule-based-systems
 layout: problem
 ---
 

@@ -18,6 +18,13 @@ related_problems:
   similarity: 0.55
 solutions:
 - ci-cd-pipeline
+- continuous-integration
+- continuous-integration-and-delivery
+- cross-platform-build-scripts
+- cross-platform-build-tools
+- parallelization
+- pipelining
+- platform-independent-build-pipelines
 layout: problem
 ---
 

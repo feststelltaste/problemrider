@@ -23,6 +23,7 @@ solutions:
 - profiling
 - resource-pooling
 - resource-usage-optimization
+- memory-hierarchy
 layout: problem
 ---
 

@@ -21,6 +21,8 @@ related_problems:
   similarity: 0.55
 solutions:
 - knowledge-sharing-practices
+- feedback-mechanisms
+- on-site-customer
 layout: problem
 ---
 

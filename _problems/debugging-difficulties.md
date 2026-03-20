@@ -20,6 +20,13 @@ related_problems:
   similarity: 0.6
 solutions:
 - observability-and-monitoring
+- audit-trail-management
+- distributed-tracing
+- logging
+- platform-independent-logging-frameworks
+- platform-independent-time-zone-handling
+- timestamping
+- write-ahead-logging
 layout: problem
 ---
 

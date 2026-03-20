@@ -23,6 +23,8 @@ solutions:
 - clean-code
 - separation-of-concerns
 - solid-principles
+- architecture-governance
+- architecture-review-board
 layout: problem
 ---
 

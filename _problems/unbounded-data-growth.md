@@ -20,6 +20,22 @@ related_problems:
   similarity: 0.55
 solutions:
 - evolutionary-database-design
+- compression
+- continuous-data-verification
+- data-aggregation
+- data-archiving
+- data-deduplication
+- data-integrity
+- data-partitioning
+- data-quality-checks
+- datensparsamkeit
+- nosql-databases
+- pagination
+- probabilistic-data-structures
+- production-environment-maintenance
+- redundant-data-storage
+- sampling
+- streaming
 layout: problem
 ---
 

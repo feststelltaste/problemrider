@@ -22,6 +22,7 @@ related_problems:
   similarity: 0.6
 solutions:
 - efficient-algorithms
+- reactive-programming
 layout: problem
 ---
 

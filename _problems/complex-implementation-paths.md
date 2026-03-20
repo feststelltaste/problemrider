@@ -24,6 +24,7 @@ solutions:
 - design-by-contract
 - loose-coupling
 - separation-of-concerns
+- tracer-bullets
 layout: problem
 ---
 

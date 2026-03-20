@@ -21,6 +21,47 @@ related_problems:
   similarity: 0.55
 solutions:
 - anti-corruption-layer
+- adapter
+- api-documentation
+- api-first-development
+- api-versioning-strategy
+- backward-compatibility
+- backward-compatible-apis
+- backward-compatible-data-formats
+- canonical-data-model
+- compatibility-certification
+- compatibility-matrix
+- compatibility-measurement
+- compatibility-requirements
+- compatibility-testing
+- consumer-driven-contracts
+- content-negotiation
+- continuous-integration
+- continuous-integration-and-delivery
+- cross-platform-serialization
+- cross-version-testing
+- data-ecosystems
+- data-format-conversion
+- data-formats
+- data-integration
+- data-strategy
+- documentation-of-compatibility-requirements
+- event-driven-integration
+- forward-compatibility
+- idempotent-operations
+- integration-tests
+- interoperability-tests
+- protocol-abstraction
+- schema-registry
+- semantic-versioning
+- simulation-environments
+- standardized-data-formats
+- standardized-interfaces
+- standardized-protocols
+- tolerant-reader
+- tracer-bullets
+- trunk-based-development
+- versioning-scheme
 layout: problem
 ---
 

@@ -23,6 +23,15 @@ solutions:
 - blue-green-canary-deployments
 - feature-flags
 - strangler-fig-pattern
+- backward-compatibility
+- backward-compatible-apis
+- code-coverage-analysis
+- compatibility-as-error
+- compatibility-requirements
+- consumer-driven-contracts
+- functional-spike
+- functional-tests
+- regression-tests
 layout: problem
 ---
 

@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.5
 solutions:
 - security-hardening-process
+- abuse-case-definition
+- prepared-statements
+- secure-coding-guidelines
 layout: problem
 ---
 

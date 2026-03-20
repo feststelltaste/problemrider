@@ -23,6 +23,17 @@ solutions:
 - documentation-as-code
 - knowledge-sharing-practices
 - pair-and-mob-programming
+- api-documentation
+- architecture-documentation
+- architecture-workshops
+- business-process-modeling
+- code-comments
+- compatibility-requirements
+- documentation-of-compatibility-requirements
+- living-documentation
+- raising-user-awareness
+- security-community
+- security-training
 layout: problem
 ---
 

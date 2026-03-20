@@ -21,6 +21,13 @@ related_problems:
 solutions:
 - observability-and-monitoring
 - security-hardening-process
+- audit-trail-management
+- authorization-concept
+- privacy-by-design
+- security-audits
+- security-metrics
+- security-monitoring
+- timestamping
 layout: problem
 ---
 

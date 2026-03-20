@@ -22,6 +22,10 @@ solutions:
 - architecture-roadmap
 - cross-functional-skill-development
 - technical-skills-development
+- emulation
+- platform-independent-programming-languages
+- security-training
+- standard-software
 layout: problem
 ---
 

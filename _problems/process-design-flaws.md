@@ -20,6 +20,11 @@ related_problems:
   similarity: 0.55
 solutions:
 - iterative-development
+- business-process-automation
+- secure-software-development
+- security-certification
+- security-frameworks
+- security-policies-for-development
 layout: problem
 ---
 

@@ -24,6 +24,9 @@ solutions:
 - elastic-scaling
 - resource-pooling
 - resource-usage-optimization
+- connection-pooling
+- reactive-programming
+- timeout-management
 layout: problem
 ---
 

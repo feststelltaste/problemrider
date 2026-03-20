@@ -20,6 +20,9 @@ related_problems:
   similarity: 0.55
 solutions:
 - modularization-and-bounded-contexts
+- bounded-contexts
+- data-modeling
+- graph-databases
 layout: problem
 ---
 

@@ -21,6 +21,8 @@ related_problems:
 solutions:
 - infrastructure-as-code
 - secret-management
+- externalized-configuration
+- platform-independent-configuration-management
 layout: problem
 ---
 

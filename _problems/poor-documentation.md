@@ -22,6 +22,22 @@ solutions:
 - architecture-decision-records
 - definition-of-done
 - documentation-as-code
+- api-documentation
+- architecture-documentation
+- checklists
+- code-comments
+- consistent-terminology
+- contextual-help
+- documentation-of-compatibility-requirements
+- frequently-asked-questions-faq
+- living-documentation
+- portability-checklists
+- prepared-statements
+- privacy-by-design
+- security-certification
+- security-frameworks
+- security-policies-for-development
+- timestamping
 layout: problem
 ---
 

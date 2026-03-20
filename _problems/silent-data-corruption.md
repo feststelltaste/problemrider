@@ -13,6 +13,33 @@ related_problems:
   similarity: 0.55
 solutions:
 - evolutionary-database-design
+- audit-trail-management
+- backup-and-recovery
+- backward-compatible-data-formats
+- checksums
+- continuous-data-verification
+- data-deduplication
+- data-enrichment
+- data-integrity
+- data-quality-checks
+- dead-letter-queue
+- fault-tolerant-data-structures
+- idempotency-design
+- idempotent-operations
+- input-constraints-and-defaults
+- logging
+- monitoring-system-integrity
+- platform-independent-time-zone-handling
+- plausibility-checks
+- redundant-checksums
+- redundant-data-storage
+- regular-backups
+- status-monitoring
+- timestamping
+- transactions
+- value-range-definition
+- watchdog
+- write-ahead-logging
 layout: problem
 ---
 

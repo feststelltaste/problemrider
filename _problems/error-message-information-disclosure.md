@@ -20,6 +20,10 @@ related_problems:
 solutions:
 - secret-management
 - security-hardening-process
+- authentication
+- authorization
+- secure-by-default
+- secure-configuration
 layout: problem
 ---
 

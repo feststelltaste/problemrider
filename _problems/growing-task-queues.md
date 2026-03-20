@@ -22,6 +22,12 @@ solutions:
 - backpressure
 - capacity-planning
 - elastic-scaling
+- asynchronous-processing
+- batch-processing
+- data-stream-processing
+- parallelization
+- pipelining
+- streaming
 layout: problem
 ---
 

@@ -21,6 +21,8 @@ related_problems:
   similarity: 0.7
 solutions:
 - code-review-process-reform
+- code-conventions
+- static-code-analysis
 layout: problem
 ---
 

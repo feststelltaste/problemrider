@@ -21,6 +21,7 @@ related_problems:
   similarity: 0.55
 solutions:
 - ci-cd-pipeline
+- microservices
 layout: problem
 ---
 

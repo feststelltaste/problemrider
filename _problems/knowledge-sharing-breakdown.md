@@ -21,6 +21,7 @@ related_problems:
   similarity: 0.65
 solutions:
 - knowledge-sharing-practices
+- security-community
 layout: problem
 ---
 

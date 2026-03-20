@@ -21,6 +21,8 @@ solutions:
 - clean-code
 - design-by-contract
 - loose-coupling
+- code-comments
+- fluent-interfaces
 layout: problem
 ---
 

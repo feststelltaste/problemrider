@@ -19,6 +19,7 @@ solutions:
 - architecture-reviews
 - separation-of-concerns
 - solid-principles
+- api-gateway
 layout: problem
 ---
 

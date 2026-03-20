@@ -21,6 +21,7 @@ related_problems:
 solutions:
 - incremental-refactoring
 - technical-debt-backlog
+- strategic-code-deletion
 layout: problem
 ---
 

@@ -21,6 +21,7 @@ related_problems:
 solutions:
 - incremental-refactoring
 - modularization-and-bounded-contexts
+- high-cohesion
 layout: problem
 ---
 

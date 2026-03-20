@@ -21,6 +21,9 @@ solutions:
 - contract-testing
 - development-workflow-automation
 - regression-testing
+- functional-tests
+- property-based-testing
+- value-range-definition
 layout: problem
 ---
 

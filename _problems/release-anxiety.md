@@ -23,6 +23,9 @@ solutions:
 - blue-green-canary-deployments
 - ci-cd-pipeline
 - feature-flags
+- canary-releases
+- continuous-delivery
+- dark-launches
 layout: problem
 ---
 

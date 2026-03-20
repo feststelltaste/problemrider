@@ -22,6 +22,32 @@ related_problems:
 solutions:
 - anti-corruption-layer
 - dependency-management-strategy
+- adapter
+- api-deprecation-policy
+- api-versioning-strategy
+- backward-compatibility
+- backward-compatible-apis
+- backward-compatible-data-formats
+- backward-compatible-schema-migrations
+- compatibility-as-error
+- compatibility-governance
+- compatibility-measurement
+- compatibility-requirements
+- compatibility-standards
+- compatibility-testing
+- consumer-driven-contracts
+- content-negotiation
+- continuous-integration
+- cross-platform-serialization
+- cross-version-testing
+- dependency-pinning
+- forward-compatibility
+- interoperability-tests
+- schema-registry
+- semantic-versioning
+- tolerant-reader
+- version-control
+- versioning-scheme
 layout: problem
 ---
 

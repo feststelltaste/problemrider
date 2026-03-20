@@ -19,6 +19,11 @@ related_problems:
 solutions:
 - api-first-design
 - contract-testing
+- api-calls-optimization
+- api-first-development
+- api-security
+- content-negotiation
+- standardized-interfaces
 layout: problem
 ---
 
