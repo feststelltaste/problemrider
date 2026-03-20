@@ -26,6 +26,6 @@ layout: solution
 
 ## How It Could Be
 
-> Hypothetical scenarios from legacy system contexts that illustrate this solution in practice.
+> Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 
 <a narrative text, 3-10 sentences long>
