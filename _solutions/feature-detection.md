@@ -1,10 +1,10 @@
 ---
 title: Feature Detection
-description: Probing platform capabilities at runtime with fallbacks instead of conditional compilation
+description: Query system capabilities at runtime instead of relying on version numbers
 category:
-- Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/portability/feature-detection
+- Architecture
+quality_tactics_url: https://qualitytactics.de/en/compatibility/feature-detection
 problems:
 - technology-lock-in
 - vendor-lock-in
@@ -12,6 +12,7 @@ problems:
 - inconsistent-behavior
 - brittle-codebase
 - hidden-dependencies
+- dependency-version-conflicts
 layout: solution
 ---
 

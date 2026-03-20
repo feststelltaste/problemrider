@@ -1,18 +1,18 @@
 ---
 title: Load Balancing
-description: Distribution of the load across multiple parallel processing units
+description: Distributing workload across multiple resources
 category:
-- Performance
+- Architecture
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/load-balancing
+quality_tactics_url: https://qualitytactics.de/en/reliability/load-balancing
 problems:
-- slow-application-performance
-- single-points-of-failure
-- scaling-inefficiencies
+- load-balancing-problems
 - capacity-mismatch
-- bottleneck-formation
+- single-points-of-failure
+- slow-application-performance
+- scaling-inefficiencies
 - system-outages
-- high-connection-count
+- high-api-latency
 layout: solution
 ---
 
@@ -20,33 +20,32 @@ layout: solution
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
 
-- Assess current traffic patterns and identify components that are overloaded or represent single points of failure
-- Place a reverse proxy or load balancer in front of legacy application servers to distribute incoming requests
-- Start with simple round-robin or least-connections algorithms before adopting more complex strategies
-- Configure health checks so that unhealthy legacy instances are automatically removed from the pool
-- Use session affinity (sticky sessions) if the legacy application relies on server-side session state, while planning to externalize sessions
-- Introduce load balancing incrementally, starting with stateless services before tackling stateful ones
-- Monitor request distribution to ensure load is actually balanced and no single node is consistently overloaded
+- Deploy a load balancer in front of legacy application instances to distribute incoming requests
+- Choose an appropriate balancing algorithm (round-robin, least connections, weighted) based on workload characteristics
+- Configure health checks so the load balancer routes traffic only to healthy instances
+- Refactor legacy applications to be stateless or use external session stores to enable proper load distribution
+- Implement sticky sessions as a transitional measure for stateful legacy applications that cannot be immediately refactored
+- Plan for load balancer redundancy to avoid introducing a new single point of failure
+- Use load balancing metrics to identify capacity bottlenecks and plan scaling decisions
 
 ## Tradeoffs ⇄
 
 > What you gain and what you give up by applying this solution.
 
 **Benefits:**
-- Eliminates single points of failure and improves system availability
-- Enables horizontal scaling without rewriting legacy components
-- Provides a foundation for rolling deployments and zero-downtime upgrades
-- Distributes peak load across instances, reducing response times during traffic spikes
+- Improves system availability by distributing load across multiple instances
+- Enables horizontal scaling of legacy application tiers
+- Provides a natural integration point for health checking and traffic management
+- Supports rolling deployments and canary releases
 
 **Costs and Risks:**
-- Legacy applications with in-memory state or local file storage require additional work to become load-balancer-friendly
-- Adds network hops and infrastructure complexity that must be monitored and maintained
-- Misconfigured load balancing can cause uneven distribution, making problems worse
-- Session affinity can negate the benefits of balancing if most users hit the same node
-- Debugging becomes harder when requests are spread across multiple instances
+- Stateful legacy applications may require session affinity, reducing balancing effectiveness
+- Adds network latency and a potential point of failure if not properly redundant
+- Configuration complexity increases with SSL termination, routing rules, and rate limiting
+- Load balancer misconfiguration can cause uneven distribution or dropped connections
 
 ## Examples
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 
-A retail company ran a monolithic Java application on a single application server that buckled during seasonal sales events. The team placed an Nginx load balancer in front of three identical application instances and externalized session data to Redis. This allowed the system to handle three times the previous peak traffic without code changes. The health check mechanism also improved reliability by automatically routing around an instance that experienced memory exhaustion, buying the team time to investigate rather than suffering a full outage.
+An online education platform ran its legacy course management system on a single server that regularly became unresponsive during enrollment periods. By deploying a load balancer with three application instances behind it, the team distributed enrollment traffic across all nodes. They used external session storage to avoid sticky sessions and configured health checks that removed unresponsive instances from rotation. Peak enrollment traffic was handled smoothly, and the team could perform rolling deployments without any downtime.

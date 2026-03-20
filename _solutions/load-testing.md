@@ -1,18 +1,18 @@
 ---
 title: Load Testing
-description: Testing the software under high load
+description: Evaluating system performance and stability under high load
 category:
 - Testing
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/load-testing
+quality_tactics_url: https://qualitytactics.de/en/reliability/load-testing
 problems:
+- capacity-mismatch
 - slow-application-performance
 - gradual-performance-degradation
 - scaling-inefficiencies
-- capacity-mismatch
 - system-outages
-- inadequate-test-infrastructure
-- monitoring-gaps
+- deployment-risk
+- unpredictable-system-behavior
 layout: solution
 ---
 
@@ -20,33 +20,33 @@ layout: solution
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
 
-- Define realistic load profiles based on production traffic patterns, including peak usage and growth projections
-- Set up a load testing environment that mirrors production as closely as possible, including database size and network topology
-- Use tools such as JMeter, Gatling, k6, or Locust to script representative user journeys
-- Establish baseline performance metrics before making changes so improvements or regressions are measurable
-- Integrate load tests into the CI/CD pipeline to catch performance regressions early
-- Test both normal load and anticipated growth scenarios to validate capacity planning assumptions
-- Document and share results with stakeholders so performance is treated as a first-class requirement
+- Define realistic load profiles based on actual production traffic patterns and anticipated growth
+- Create load test scenarios that exercise critical legacy system paths including database queries and integrations
+- Use load testing tools (JMeter, Gatling, k6) to simulate concurrent users and sustained throughput
+- Establish performance baselines and set regression thresholds that fail CI/CD pipelines if exceeded
+- Test with production-like data volumes since legacy systems often degrade with data growth
+- Include soak tests (extended duration) to detect memory leaks and resource exhaustion in legacy code
+- Run load tests in environments that match production topology as closely as possible
 
 ## Tradeoffs ⇄
 
 > What you gain and what you give up by applying this solution.
 
 **Benefits:**
-- Reveals bottlenecks and capacity limits before they cause production incidents
-- Provides data-driven evidence for infrastructure investment decisions
-- Builds team confidence in the system's ability to handle expected traffic
-- Catches performance regressions introduced during modernization efforts
+- Reveals performance bottlenecks before they affect production users
+- Provides data-driven capacity planning inputs for infrastructure decisions
+- Validates that changes to legacy systems do not introduce performance regressions
+- Builds confidence for production deployments and scaling decisions
 
 **Costs and Risks:**
-- Creating a realistic test environment for a legacy system can be expensive and time-consuming
-- Load tests with insufficient realism can provide false confidence
-- Generating realistic test data for legacy databases with complex schemas is challenging
-- Load testing can disrupt shared environments if not properly isolated
-- Results require expert interpretation to distinguish genuine issues from test artifacts
+- Requires dedicated test environments with production-like data and infrastructure
+- Load test maintenance becomes an ongoing cost as the system evolves
+- Tests may not perfectly replicate production conditions, creating false confidence
+- Running load tests against shared environments can disrupt other teams
+- Legacy database state after load tests requires cleanup
 
 ## Examples
 
 > Concrete examples or scenarios from legacy system contexts that illustrate this solution in practice.
 
-A logistics company experienced periodic outages during end-of-quarter reporting periods but could never reproduce the problem in development. The team set up a dedicated load testing environment with a production-sized database and used Gatling to simulate 500 concurrent users running reports while others entered shipment data. The tests revealed that a specific report query locked critical tables for several seconds, blocking all write operations. This finding led to a targeted query optimization that eliminated the quarterly outages without requiring a broader system rewrite.
+A government services portal experienced annual outages during tax filing deadlines. The legacy system had never been load tested, and the team had no data on its actual capacity limits. By implementing load tests that simulated peak filing traffic, they discovered that the database connection pool was exhausted at 40% of expected peak load and that a particular reporting query caused table locks under high concurrency. Fixing these issues before the next deadline resulted in the first filing season without downtime in five years.

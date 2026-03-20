@@ -1,10 +1,10 @@
 ---
 title: Anti Corruption Layer
-description: Decouple the internal design and logic of a system from external influences
+description: Protect existing systems from negative influences of external systems
 category:
 - Architecture
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/maintainability/anti-corruption-layer/
+quality_tactics_url: https://qualitytactics.de/en/compatibility/anti-corruption-layer
 problems:
 - architectural-mismatch
 - poor-interfaces-between-applications
