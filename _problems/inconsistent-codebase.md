@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.7
 - slug: difficult-code-reuse
   similarity: 0.7
+solutions:
+- static-analysis-and-linting
 layout: problem
 ---
 

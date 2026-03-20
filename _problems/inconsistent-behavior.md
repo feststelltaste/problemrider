@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.65
 - slug: configuration-chaos
   similarity: 0.65
+solutions:
+- loose-coupling
 layout: problem
 ---
 

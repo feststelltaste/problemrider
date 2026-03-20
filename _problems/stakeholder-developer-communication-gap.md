@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.65
 - slug: stakeholder-confidence-loss
   similarity: 0.65
+solutions:
+- continuous-feedback
+- evolutionary-requirements-development
+- product-owner
+- requirements-analysis
+- stakeholder-feedback-loops
 layout: problem
 ---
 

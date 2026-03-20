@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.5
 - slug: database-schema-design-problems
   similarity: 0.5
+solutions:
+- modularization-and-bounded-contexts
 layout: problem
 ---
 

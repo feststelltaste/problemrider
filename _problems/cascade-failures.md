@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.6
 - slug: system-integration-blindness
   similarity: 0.6
+solutions:
+- backpressure
+- event-driven-architecture
+- observability-and-monitoring
 layout: problem
 ---
 

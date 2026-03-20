@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.5
 - slug: team-coordination-issues
   similarity: 0.5
+solutions:
+- concurrency-control
+- resource-pooling
 layout: problem
 ---
 

@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: memory-barrier-inefficiency
   similarity: 0.55
+solutions:
+- query-optimization-process
 layout: problem
 ---
 

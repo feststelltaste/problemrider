@@ -18,6 +18,11 @@ related_problems:
   similarity: 0.55
 - slug: inconsistent-quality
   similarity: 0.55
+solutions:
+- architecture-reviews
+- loose-coupling
+- separation-of-concerns
+- solid-principles
 layout: problem
 ---
 

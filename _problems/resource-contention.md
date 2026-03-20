@@ -18,6 +18,13 @@ related_problems:
   similarity: 0.65
 - slug: lock-contention
   similarity: 0.65
+solutions:
+- backpressure
+- concurrency-control
+- elastic-scaling
+- resource-pooling
+- resource-usage-optimization
+- serialization-optimization
 layout: problem
 ---
 

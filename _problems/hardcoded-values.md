@@ -10,6 +10,10 @@ related_problems:
   similarity: 0.55
 - slug: brittle-codebase
   similarity: 0.5
+solutions:
+- incremental-refactoring
+- secret-management
+- static-analysis-and-linting
 layout: problem
 ---
 

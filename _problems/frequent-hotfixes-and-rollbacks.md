@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.55
 - slug: deployment-risk
   similarity: 0.55
+solutions:
+- blue-green-canary-deployments
+- ci-cd-pipeline
+- feature-flags
 layout: problem
 ---
 

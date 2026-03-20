@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: declining-business-metrics
   similarity: 0.55
+solutions:
+- observability-and-monitoring
 layout: problem
 ---
 

@@ -15,6 +15,8 @@ related_problems:
   similarity: 0.55
 - slug: cross-system-data-synchronization-problems
   similarity: 0.5
+solutions:
+- caching-strategy
 layout: problem
 ---
 

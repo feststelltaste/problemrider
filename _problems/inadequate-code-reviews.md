@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.75
 - slug: review-bottlenecks
   similarity: 0.75
+solutions:
+- code-review-process-reform
 layout: problem
 ---
 

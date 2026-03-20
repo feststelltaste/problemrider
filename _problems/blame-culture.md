@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.5
 - slug: perfectionist-culture
   similarity: 0.5
+solutions:
+- blameless-postmortems
 layout: problem
 ---
 

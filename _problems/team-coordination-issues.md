@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.65
 - slug: duplicated-effort
   similarity: 0.65
+solutions:
+- clear-ownership-model
+- clear-roles-and-ownership
+- structured-communication-protocols
 layout: problem
 ---
 

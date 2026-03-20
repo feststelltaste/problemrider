@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.55
 - slug: unclear-sharing-expectations
   similarity: 0.55
+solutions:
+- evolutionary-requirements-development
+- requirements-analysis
+- stakeholder-feedback-loops
 layout: problem
 ---
 

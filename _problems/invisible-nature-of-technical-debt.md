@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: decision-avoidance
   similarity: 0.6
+solutions:
+- technical-debt-backlog
 layout: problem
 ---
 

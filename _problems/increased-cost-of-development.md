@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.6
 - slug: high-bug-introduction-rate
   similarity: 0.6
+solutions:
+- architecture-roadmap
+- development-workflow-automation
+- regression-testing
 layout: problem
 ---
 

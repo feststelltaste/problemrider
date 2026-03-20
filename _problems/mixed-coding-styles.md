@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: undefined-code-style-guidelines
   similarity: 0.65
+solutions:
+- static-analysis-and-linting
 layout: problem
 ---
 

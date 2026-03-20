@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.55
 - slug: increased-cognitive-load
   similarity: 0.55
+solutions:
+- sustainable-pace-practices
 layout: problem
 ---
 

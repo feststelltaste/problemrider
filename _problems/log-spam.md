@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: imperative-data-fetching-logic
   similarity: 0.55
+solutions:
+- observability-and-monitoring
 layout: problem
 ---
 

@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.65
 - slug: context-switching-overhead
   similarity: 0.6
+solutions:
+- development-environment-optimization
+- development-workflow-automation
 layout: problem
 ---
 

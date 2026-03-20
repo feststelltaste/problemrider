@@ -20,6 +20,11 @@ related_problems:
   similarity: 0.6
 - slug: inefficient-development-environment
   similarity: 0.6
+solutions:
+- documentation-as-code
+- knowledge-sharing-practices
+- pair-and-mob-programming
+- structured-onboarding-program
 layout: problem
 ---
 

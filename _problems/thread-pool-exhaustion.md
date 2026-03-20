@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.55
 - slug: insufficient-worker-capacity
   similarity: 0.5
+solutions:
+- backpressure
+- capacity-planning
+- concurrency-control
+- elastic-scaling
+- resource-pooling
 layout: problem
 ---
 

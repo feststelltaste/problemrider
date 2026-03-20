@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: new-hire-frustration
   similarity: 0.6
+solutions:
+- sustainable-pace-practices
 layout: problem
 ---
 

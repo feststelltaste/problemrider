@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.5
 - slug: thread-pool-exhaustion
   similarity: 0.5
+solutions:
+- backpressure
+- capacity-planning
+- elastic-scaling
 layout: problem
 ---
 

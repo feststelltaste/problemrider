@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: integration-difficulties
   similarity: 0.55
+solutions:
+- anti-corruption-layer
+- strangler-fig-pattern
 layout: problem
 ---
 

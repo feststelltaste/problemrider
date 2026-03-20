@@ -12,6 +12,8 @@ related_problems:
   similarity: 0.65
 - slug: buffer-overflow-vulnerabilities
   similarity: 0.55
+solutions:
+- security-hardening-process
 layout: problem
 ---
 

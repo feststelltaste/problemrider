@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.55
 - slug: system-integration-blindness
   similarity: 0.55
+solutions:
+- anti-corruption-layer
 layout: problem
 ---
 

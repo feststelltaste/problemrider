@@ -18,6 +18,11 @@ related_problems:
   similarity: 0.55
 - slug: increased-technical-shortcuts
   similarity: 0.55
+solutions:
+- architecture-reviews
+- clean-code
+- separation-of-concerns
+- solid-principles
 layout: problem
 ---
 

@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.65
 - slug: maintenance-overhead
   similarity: 0.6
+solutions:
+- technical-debt-backlog
 layout: problem
 ---
 

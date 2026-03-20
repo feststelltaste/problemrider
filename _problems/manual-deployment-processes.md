@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.65
 - slug: long-release-cycles
   similarity: 0.6
+solutions:
+- ci-cd-pipeline
+- infrastructure-as-code
 layout: problem
 ---
 

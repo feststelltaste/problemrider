@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: delayed-bug-fixes
   similarity: 0.6
+solutions:
+- ci-cd-pipeline
 layout: problem
 ---
 

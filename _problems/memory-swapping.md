@@ -17,6 +17,12 @@ related_problems:
   similarity: 0.6
 - slug: database-query-performance-issues
   similarity: 0.6
+solutions:
+- backpressure
+- caching-strategy
+- memory-management-optimization
+- resource-pooling
+- resource-usage-optimization
 layout: problem
 ---
 

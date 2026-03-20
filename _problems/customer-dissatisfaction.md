@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: system-outages
   similarity: 0.6
+solutions:
+- regression-testing
+- user-centered-design
 layout: problem
 ---
 

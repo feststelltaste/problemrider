@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.6
 - slug: system-stagnation
   similarity: 0.6
+solutions:
+- architecture-decision-records
+- documentation-as-code
+- knowledge-sharing-practices
 layout: problem
 ---
 

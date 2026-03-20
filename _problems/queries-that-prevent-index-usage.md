@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: index-fragmentation
   similarity: 0.55
+solutions:
+- query-optimization-process
 layout: problem
 ---
 

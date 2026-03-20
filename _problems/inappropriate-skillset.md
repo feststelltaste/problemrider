@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: inconsistent-onboarding-experience
   similarity: 0.6
+solutions:
+- pair-and-mob-programming
+- structured-onboarding-program
 layout: problem
 ---
 

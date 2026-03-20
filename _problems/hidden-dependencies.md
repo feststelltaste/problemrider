@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: ripple-effect-of-changes
   similarity: 0.6
+solutions:
+- modularization-and-bounded-contexts
 layout: problem
 ---
 

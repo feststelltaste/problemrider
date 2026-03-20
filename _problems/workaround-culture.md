@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.55
 - slug: maintenance-paralysis
   similarity: 0.55
+solutions:
+- incremental-refactoring
+- technical-debt-backlog
 layout: problem
 ---
 

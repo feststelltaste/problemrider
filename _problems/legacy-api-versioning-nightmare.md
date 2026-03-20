@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: poor-interfaces-between-applications
   similarity: 0.6
+solutions:
+- anti-corruption-layer
+- dependency-management-strategy
 layout: problem
 ---
 

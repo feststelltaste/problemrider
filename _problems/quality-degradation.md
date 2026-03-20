@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.65
 - slug: information-decay
   similarity: 0.65
+solutions:
+- definition-of-done
 layout: problem
 ---
 

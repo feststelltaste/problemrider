@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.5
 - slug: cross-site-scripting-vulnerabilities
   similarity: 0.5
+solutions:
+- secret-management
+- security-hardening-process
 layout: problem
 ---
 

@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: deployment-environment-inconsistencies
   similarity: 0.55
+solutions:
+- anti-corruption-layer
+- dependency-management-strategy
 layout: problem
 ---
 

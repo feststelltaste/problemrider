@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.65
 - slug: development-disruption
   similarity: 0.65
+solutions:
+- architecture-roadmap
+- development-workflow-automation
 layout: problem
 ---
 

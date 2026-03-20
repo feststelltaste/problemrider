@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.55
 - slug: complex-implementation-paths
   similarity: 0.55
+solutions:
+- evolutionary-database-design
 layout: problem
 ---
 

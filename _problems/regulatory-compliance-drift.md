@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.5
 - slug: legacy-system-documentation-archaeology
   similarity: 0.5
+solutions:
+- security-hardening-process
 layout: problem
 ---
 

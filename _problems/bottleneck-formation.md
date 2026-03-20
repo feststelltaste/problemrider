@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: tool-limitations
   similarity: 0.6
+solutions:
+- event-driven-architecture
 layout: problem
 ---
 

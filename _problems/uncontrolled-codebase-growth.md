@@ -17,6 +17,12 @@ related_problems:
   similarity: 0.6
 - slug: inconsistent-codebase
   similarity: 0.6
+solutions:
+- architecture-reviews
+- clean-code
+- loose-coupling
+- separation-of-concerns
+- solid-principles
 layout: problem
 ---
 

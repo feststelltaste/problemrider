@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: environment-variable-issues
   similarity: 0.55
+solutions:
+- infrastructure-as-code
 layout: problem
 ---
 

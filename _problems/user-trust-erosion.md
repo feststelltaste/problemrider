@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.55
 - slug: negative-user-feedback
   similarity: 0.55
+solutions:
+- regression-testing
+- user-centered-design
 layout: problem
 ---
 

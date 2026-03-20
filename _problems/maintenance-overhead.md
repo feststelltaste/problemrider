@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.65
 - slug: maintenance-bottlenecks
   similarity: 0.65
+solutions:
+- technical-debt-backlog
 layout: problem
 ---
 

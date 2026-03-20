@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.6
 - slug: inconsistent-codebase
   similarity: 0.6
+solutions:
+- clean-code
+- loose-coupling
+- separation-of-concerns
 layout: problem
 ---
 

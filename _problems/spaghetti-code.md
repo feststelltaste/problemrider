@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.65
 - slug: difficult-to-understand-code
   similarity: 0.65
+solutions:
+- incremental-refactoring
+- modularization-and-bounded-contexts
 layout: problem
 ---
 

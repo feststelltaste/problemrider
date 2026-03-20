@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: vendor-lock-in
   similarity: 0.6
+solutions:
+- architecture-decision-records
+- strangler-fig-pattern
 layout: problem
 ---
 

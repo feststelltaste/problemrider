@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: inappropriate-skillset
   similarity: 0.6
+solutions:
+- documentation-as-code
+- structured-onboarding-program
 layout: problem
 ---
 

@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: wasted-development-effort
   similarity: 0.55
+solutions:
+- development-environment-optimization
+- development-workflow-automation
 layout: problem
 ---
 

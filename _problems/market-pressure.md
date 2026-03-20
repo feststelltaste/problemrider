@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.55
 - slug: eager-to-please-stakeholders
   similarity: 0.5
+solutions:
+- impact-mapping
+- product-strategy-alignment
 layout: problem
 ---
 

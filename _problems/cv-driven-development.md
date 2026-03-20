@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.55
 - slug: technology-isolation
   similarity: 0.5
+solutions:
+- boring-technologies
+- technical-skills-development
 layout: problem
 ---
 

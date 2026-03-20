@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: high-technical-debt
   similarity: 0.6
+solutions:
+- incremental-refactoring
+- technical-debt-backlog
 layout: problem
 ---
 

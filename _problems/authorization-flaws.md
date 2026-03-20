@@ -14,6 +14,8 @@ related_problems:
   similarity: 0.55
 - slug: session-management-issues
   similarity: 0.5
+solutions:
+- security-hardening-process
 layout: problem
 ---
 

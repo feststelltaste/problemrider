@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: resource-waste
   similarity: 0.6
+solutions:
+- capacity-planning
+- elastic-scaling
 layout: problem
 ---
 

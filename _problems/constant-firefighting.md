@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.65
 - slug: frequent-changes-to-requirements
   similarity: 0.65
+solutions:
+- blameless-postmortems
+- observability-and-monitoring
+- technical-debt-backlog
 layout: problem
 ---
 

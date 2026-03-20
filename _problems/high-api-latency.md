@@ -17,6 +17,11 @@ related_problems:
   similarity: 0.6
 - slug: excessive-disk-io
   similarity: 0.6
+solutions:
+- api-first-design
+- caching-strategy
+- contract-testing
+- serialization-optimization
 layout: problem
 ---
 

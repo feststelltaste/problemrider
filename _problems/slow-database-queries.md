@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: lazy-loading
   similarity: 0.7
+solutions:
+- query-optimization-process
 layout: problem
 ---
 

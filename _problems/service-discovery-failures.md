@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.5
 - slug: service-timeouts
   similarity: 0.5
+solutions:
+- api-first-design
+- elastic-scaling
 layout: problem
 ---
 

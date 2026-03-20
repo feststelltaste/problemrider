@@ -17,6 +17,10 @@ related_problems:
   similarity: 0.65
 - slug: operational-overhead
   similarity: 0.65
+solutions:
+- cross-functional-skill-development
+- sustainable-pace-practices
+- team-autonomy-and-empowerment
 layout: problem
 ---
 

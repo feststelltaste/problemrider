@@ -18,6 +18,12 @@ related_problems:
   similarity: 0.55
 - slug: inefficient-code
   similarity: 0.55
+solutions:
+- memory-management-optimization
+- profiling
+- resource-pooling
+- resource-usage-optimization
+- serialization-optimization
 layout: problem
 ---
 

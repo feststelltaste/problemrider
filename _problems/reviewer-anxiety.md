@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.65
 - slug: review-process-avoidance
   similarity: 0.65
+solutions:
+- code-review-process-reform
 layout: problem
 ---
 

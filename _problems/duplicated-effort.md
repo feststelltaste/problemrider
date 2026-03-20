@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.65
 - slug: communication-breakdown
   similarity: 0.65
+solutions:
+- knowledge-sharing-practices
 layout: problem
 ---
 

@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: complex-implementation-paths
   similarity: 0.55
+solutions:
+- blameless-postmortems
 layout: problem
 ---
 

@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.55
 - slug: complex-and-obscure-logic
   similarity: 0.55
+solutions:
+- technical-debt-backlog
 layout: problem
 ---
 

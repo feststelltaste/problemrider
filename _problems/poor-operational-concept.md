@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: poor-documentation
   similarity: 0.55
+solutions:
+- infrastructure-as-code
 layout: problem
 ---
 

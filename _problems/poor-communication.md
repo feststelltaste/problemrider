@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: team-coordination-issues
   similarity: 0.6
+solutions:
+- psychological-safety-practices
+- structured-communication-protocols
 layout: problem
 ---
 

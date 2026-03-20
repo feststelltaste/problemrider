@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: high-connection-count
   similarity: 0.55
+solutions:
+- observability-and-monitoring
 layout: problem
 ---
 

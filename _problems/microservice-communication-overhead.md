@@ -14,6 +14,10 @@ related_problems:
   similarity: 0.5
 - slug: operational-overhead
   similarity: 0.5
+solutions:
+- api-first-design
+- caching-strategy
+- serialization-optimization
 layout: problem
 ---
 

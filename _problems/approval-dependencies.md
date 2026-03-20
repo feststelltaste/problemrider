@@ -19,6 +19,11 @@ related_problems:
   similarity: 0.6
 - slug: cascade-delays
   similarity: 0.6
+solutions:
+- clear-ownership-model
+- formal-change-control-process
+- iterative-development
+- product-owner
 layout: problem
 ---
 

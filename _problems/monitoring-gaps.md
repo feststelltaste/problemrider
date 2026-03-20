@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.55
 - slug: maintenance-bottlenecks
   similarity: 0.55
+solutions:
+- observability-and-monitoring
 layout: problem
 ---
 

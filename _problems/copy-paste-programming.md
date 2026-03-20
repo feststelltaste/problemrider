@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: defensive-coding-practices
   similarity: 0.6
+solutions:
+- incremental-refactoring
 layout: problem
 ---
 

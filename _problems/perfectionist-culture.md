@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: constantly-shifting-deadlines
   similarity: 0.6
+solutions:
+- psychological-safety-practices
+- team-autonomy-and-empowerment
 layout: problem
 ---
 

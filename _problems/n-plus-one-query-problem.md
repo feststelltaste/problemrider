@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.65
 - slug: inefficient-database-indexing
   similarity: 0.55
+solutions:
+- efficient-algorithms
 layout: problem
 ---
 

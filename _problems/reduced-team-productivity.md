@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.65
 - slug: team-dysfunction
   similarity: 0.65
+solutions:
+- cross-functional-skill-development
+- sustainable-pace-practices
+- team-autonomy-and-empowerment
 layout: problem
 ---
 

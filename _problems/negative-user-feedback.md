@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: feedback-isolation
   similarity: 0.55
+solutions:
+- user-centered-design
 layout: problem
 ---
 

@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.55
 - slug: legacy-configuration-management-chaos
   similarity: 0.55
+solutions:
+- infrastructure-as-code
+- secret-management
 layout: problem
 ---
 

@@ -17,6 +17,9 @@ related_problems:
   similarity: 0.7
 - slug: extended-cycle-times
   similarity: 0.65
+solutions:
+- iterative-development
+- short-iteration-cycles
 layout: problem
 ---
 

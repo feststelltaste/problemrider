@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: lower-code-quality
   similarity: 0.6
+solutions:
+- structured-onboarding-program
 layout: problem
 ---
 

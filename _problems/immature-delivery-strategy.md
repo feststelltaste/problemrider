@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: poor-operational-concept
   similarity: 0.6
+solutions:
+- ci-cd-pipeline
 layout: problem
 ---
 

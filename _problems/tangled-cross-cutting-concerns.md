@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.55
 - slug: poorly-defined-responsibilities
   similarity: 0.55
+solutions:
+- incremental-refactoring
+- modularization-and-bounded-contexts
 layout: problem
 ---
 

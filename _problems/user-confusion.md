@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: poor-user-experience-ux-design
   similarity: 0.6
+solutions:
+- user-centered-design
 layout: problem
 ---
 

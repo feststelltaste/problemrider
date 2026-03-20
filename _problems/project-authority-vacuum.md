@@ -17,6 +17,9 @@ related_problems:
   similarity: 0.5
 - slug: stakeholder-dissatisfaction
   similarity: 0.5
+solutions:
+- clear-ownership-model
+- product-owner
 layout: problem
 ---
 

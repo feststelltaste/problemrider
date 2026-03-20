@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.7
 - slug: memory-leaks
   similarity: 0.65
+solutions:
+- user-centered-design
 layout: problem
 ---
 

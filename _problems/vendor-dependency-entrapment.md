@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: obsolete-technologies
   similarity: 0.55
+solutions:
+- anti-corruption-layer
+- dependency-management-strategy
 layout: problem
 ---
 

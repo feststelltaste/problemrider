@@ -17,6 +17,9 @@ related_problems:
   similarity: 0.6
 - slug: regression-bugs
   similarity: 0.6
+solutions:
+- definition-of-done
+- test-coverage-strategy
 layout: problem
 ---
 

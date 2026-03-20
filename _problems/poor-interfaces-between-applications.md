@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: poor-documentation
   similarity: 0.6
+solutions:
+- anti-corruption-layer
 layout: problem
 ---
 

@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.6
 - slug: testing-environment-fragility
   similarity: 0.6
+solutions:
+- infrastructure-as-code
 layout: problem
 ---
 

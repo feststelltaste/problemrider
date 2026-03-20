@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.55
 - slug: reduced-innovation
   similarity: 0.55
+solutions:
+- pair-and-mob-programming
+- structured-onboarding-program
 layout: problem
 ---
 

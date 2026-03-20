@@ -18,6 +18,11 @@ related_problems:
   similarity: 0.6
 - slug: hidden-dependencies
   similarity: 0.6
+solutions:
+- design-by-contract
+- loose-coupling
+- separation-of-concerns
+- solid-principles
 layout: problem
 ---
 

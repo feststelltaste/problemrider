@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: poor-teamwork
   similarity: 0.6
+solutions:
+- cross-functional-skill-development
+- sustainable-pace-practices
 layout: problem
 ---
 

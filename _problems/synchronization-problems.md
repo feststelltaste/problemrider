@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: cross-system-data-synchronization-problems
   similarity: 0.6
+solutions:
+- concurrency-control
 layout: problem
 ---
 

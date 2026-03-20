@@ -17,6 +17,10 @@ related_problems:
   similarity: 0.65
 - slug: clever-code
   similarity: 0.65
+solutions:
+- clean-code
+- design-by-contract
+- loose-coupling
 layout: problem
 ---
 

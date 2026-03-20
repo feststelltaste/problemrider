@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: change-management-chaos
   similarity: 0.6
+solutions:
+- infrastructure-as-code
 layout: problem
 ---
 

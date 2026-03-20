@@ -19,6 +19,11 @@ related_problems:
   similarity: 0.55
 - slug: gold-plating
   similarity: 0.55
+solutions:
+- change-management-process
+- formal-change-control-process
+- product-owner
+- requirements-analysis
 layout: problem
 ---
 

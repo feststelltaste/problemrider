@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: user-frustration
   similarity: 0.6
+solutions:
+- documentation-as-code
+- structured-onboarding-program
 layout: problem
 ---
 

@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.7
 - slug: incorrect-index-type
   similarity: 0.65
+solutions:
+- caching-strategy
+- efficient-algorithms
 layout: problem
 ---
 

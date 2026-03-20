@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: reduced-feature-quality
   similarity: 0.55
+solutions:
+- user-centered-design
 layout: problem
 ---
 

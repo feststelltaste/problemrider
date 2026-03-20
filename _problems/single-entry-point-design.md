@@ -15,6 +15,10 @@ related_problems:
   similarity: 0.5
 - slug: process-design-flaws
   similarity: 0.5
+solutions:
+- architecture-reviews
+- separation-of-concerns
+- solid-principles
 layout: problem
 ---
 

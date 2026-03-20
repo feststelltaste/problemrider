@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.7
 - slug: high-api-latency
   similarity: 0.6
+solutions:
+- user-centered-design
 layout: problem
 ---
 

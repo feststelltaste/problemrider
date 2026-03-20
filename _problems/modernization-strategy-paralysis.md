@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.65
 - slug: second-system-effect
   similarity: 0.6
+solutions:
+- architecture-roadmap
 layout: problem
 ---
 

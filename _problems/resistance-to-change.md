@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.7
 - slug: inability-to-innovate
   similarity: 0.65
+solutions:
+- blameless-postmortems
 layout: problem
 ---
 

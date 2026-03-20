@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: delayed-value-delivery
   similarity: 0.6
+solutions:
+- caching-strategy
+- serialization-optimization
 layout: problem
 ---
 

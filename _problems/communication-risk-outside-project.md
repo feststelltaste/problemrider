@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: stakeholder-confidence-loss
   similarity: 0.6
+solutions:
+- structured-communication-protocols
 layout: problem
 ---
 

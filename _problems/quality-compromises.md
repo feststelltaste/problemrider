@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: insufficient-testing
   similarity: 0.6
+solutions:
+- definition-of-done
 layout: problem
 ---
 

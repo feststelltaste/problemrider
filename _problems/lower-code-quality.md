@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: reduced-code-submission-frequency
   similarity: 0.55
+solutions:
+- definition-of-done
+- pair-and-mob-programming
 layout: problem
 ---
 

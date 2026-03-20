@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: delayed-issue-resolution
   similarity: 0.6
+solutions:
+- clear-ownership-model
+- clear-roles-and-ownership
 layout: problem
 ---
 

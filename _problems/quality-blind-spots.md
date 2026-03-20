@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.65
 - slug: testing-complexity
   similarity: 0.6
+solutions:
+- definition-of-done
 layout: problem
 ---
 

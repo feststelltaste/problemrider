@@ -18,6 +18,11 @@ related_problems:
   similarity: 0.6
 - slug: slow-feature-development
   similarity: 0.6
+solutions:
+- continuous-feedback
+- evolutionary-requirements-development
+- requirements-analysis
+- stakeholder-feedback-loops
 layout: problem
 ---
 

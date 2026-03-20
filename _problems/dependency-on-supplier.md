@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: knowledge-dependency
   similarity: 0.55
+solutions:
+- dependency-management-strategy
 layout: problem
 ---
 

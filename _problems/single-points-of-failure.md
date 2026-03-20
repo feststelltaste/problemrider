@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: cascade-delays
   similarity: 0.6
+solutions:
+- event-driven-architecture
+- observability-and-monitoring
 layout: problem
 ---
 

@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.55
 - slug: organizational-structure-mismatch
   similarity: 0.55
+solutions:
+- capacity-planning
+- elastic-scaling
 layout: problem
 ---
 

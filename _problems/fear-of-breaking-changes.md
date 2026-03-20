@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.65
 - slug: refactoring-avoidance
   similarity: 0.65
+solutions:
+- blue-green-canary-deployments
+- feature-flags
+- strangler-fig-pattern
 layout: problem
 ---
 

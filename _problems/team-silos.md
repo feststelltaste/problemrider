@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.65
 - slug: poor-communication
   similarity: 0.65
+solutions:
+- knowledge-sharing-practices
 layout: problem
 ---
 

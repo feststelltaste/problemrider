@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.65
 - slug: queries-that-prevent-index-usage
   similarity: 0.65
+solutions:
+- query-optimization-process
 layout: problem
 ---
 

@@ -20,6 +20,9 @@ related_problems:
   similarity: 0.65
 - slug: reviewer-anxiety
   similarity: 0.65
+solutions:
+- code-review-process-reform
+- pair-and-mob-programming
 layout: problem
 ---
 

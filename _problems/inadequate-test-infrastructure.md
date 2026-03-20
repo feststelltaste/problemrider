@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: insufficient-testing
   similarity: 0.55
+solutions:
+- test-coverage-strategy
 layout: problem
 ---
 

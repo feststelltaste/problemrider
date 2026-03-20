@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: excessive-object-allocation
   similarity: 0.6
+solutions:
+- observability-and-monitoring
 layout: problem
 ---
 

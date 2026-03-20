@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.55
 - slug: increasing-brittleness
   similarity: 0.55
+solutions:
+- test-coverage-strategy
 layout: problem
 ---
 

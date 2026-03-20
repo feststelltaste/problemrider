@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: long-release-cycles
   similarity: 0.6
+solutions:
+- regression-testing
 layout: problem
 ---
 

@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.6
 - slug: scaling-inefficiencies
   similarity: 0.6
+solutions:
+- event-driven-architecture
+- modularization-and-bounded-contexts
+- strangler-fig-pattern
 layout: problem
 ---
 

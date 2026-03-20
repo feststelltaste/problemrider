@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.55
 - slug: insufficient-design-skills
   similarity: 0.5
+solutions:
+- pair-and-mob-programming
 layout: problem
 ---
 

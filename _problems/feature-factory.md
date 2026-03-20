@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.5
 - slug: difficulty-quantifying-benefits
   similarity: 0.5
+solutions:
+- continuous-feedback
+- impact-mapping
+- product-strategy-alignment
 layout: problem
 ---
 

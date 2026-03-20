@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.65
 - slug: release-anxiety
   similarity: 0.65
+solutions:
+- blue-green-canary-deployments
+- ci-cd-pipeline
+- feature-flags
 layout: problem
 ---
 

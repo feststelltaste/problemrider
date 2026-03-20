@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.5
 - slug: single-points-of-failure
   similarity: 0.5
+solutions:
+- cross-functional-skill-development
+- sustainable-pace-practices
 layout: problem
 ---
 

@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: increased-error-rates
   similarity: 0.55
+solutions:
+- blue-green-canary-deployments
+- event-driven-architecture
 layout: problem
 ---
 

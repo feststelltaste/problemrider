@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.7
 - slug: database-query-performance-issues
   similarity: 0.7
+solutions:
+- query-optimization-process
 layout: problem
 ---
 

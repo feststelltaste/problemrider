@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.65
 - slug: inconsistent-behavior
   similarity: 0.65
+solutions:
+- infrastructure-as-code
+- secret-management
 layout: problem
 ---
 

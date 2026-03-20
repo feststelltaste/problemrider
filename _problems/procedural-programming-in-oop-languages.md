@@ -18,6 +18,11 @@ related_problems:
   similarity: 0.55
 - slug: mixed-coding-styles
   similarity: 0.5
+solutions:
+- clean-code
+- separation-of-concerns
+- solid-principles
+- technical-skills-development
 layout: problem
 ---
 

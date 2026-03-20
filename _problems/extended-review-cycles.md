@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: perfectionist-review-culture
   similarity: 0.6
+solutions:
+- code-review-process-reform
 layout: problem
 ---
 

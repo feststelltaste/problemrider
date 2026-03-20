@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.55
 - slug: maintenance-cost-increase
   similarity: 0.5
+solutions:
+- product-strategy-alignment
 layout: problem
 ---
 

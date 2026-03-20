@@ -16,6 +16,9 @@ related_problems:
   similarity: 0.5
 - slug: poor-interfaces-between-applications
   similarity: 0.5
+solutions:
+- api-first-design
+- contract-testing
 layout: problem
 ---
 

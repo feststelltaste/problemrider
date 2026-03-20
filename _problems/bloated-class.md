@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.55
 - slug: feature-creep
   similarity: 0.5
+solutions:
+- incremental-refactoring
 layout: problem
 ---
 

@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.55
 - slug: poor-contract-design
   similarity: 0.5
+solutions:
+- evolutionary-requirements-development
+- requirements-analysis
 layout: problem
 ---
 

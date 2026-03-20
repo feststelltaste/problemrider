@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.65
 - slug: technology-stack-fragmentation
   similarity: 0.6
+solutions:
+- anti-corruption-layer
+- dependency-management-strategy
 layout: problem
 ---
 

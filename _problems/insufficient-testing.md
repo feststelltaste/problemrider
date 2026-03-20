@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.65
 - slug: complex-deployment-process
   similarity: 0.6
+solutions:
+- definition-of-done
+- test-coverage-strategy
 layout: problem
 ---
 

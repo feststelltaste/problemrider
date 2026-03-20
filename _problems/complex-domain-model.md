@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: difficult-to-understand-code
   similarity: 0.55
+solutions:
+- modularization-and-bounded-contexts
 layout: problem
 ---
 

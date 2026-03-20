@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.65
 - slug: implicit-knowledge
   similarity: 0.6
+solutions:
+- architecture-decision-records
+- definition-of-done
+- documentation-as-code
 layout: problem
 ---
 

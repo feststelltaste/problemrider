@@ -8,6 +8,8 @@ category:
 related_problems:
 - slug: buffer-overflow-vulnerabilities
   similarity: 0.55
+solutions:
+- static-analysis-and-linting
 layout: problem
 ---
 

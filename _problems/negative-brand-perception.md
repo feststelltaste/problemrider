@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.5
 - slug: past-negative-experiences
   similarity: 0.5
+solutions:
+- user-centered-design
 layout: problem
 ---
 

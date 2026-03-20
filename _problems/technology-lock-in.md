@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.6
 - slug: obsolete-technologies
   similarity: 0.6
+solutions:
+- anti-corruption-layer
+- dependency-management-strategy
+- strangler-fig-pattern
 layout: problem
 ---
 

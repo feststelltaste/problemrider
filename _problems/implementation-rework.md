@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.55
 - slug: difficulty-quantifying-benefits
   similarity: 0.5
+solutions:
+- boring-technologies
+- design-by-contract
 layout: problem
 ---
 

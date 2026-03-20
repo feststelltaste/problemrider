@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: delayed-decision-making
   similarity: 0.55
+solutions:
+- iterative-development
 layout: problem
 ---
 

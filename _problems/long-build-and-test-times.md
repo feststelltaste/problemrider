@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.55
 - slug: increased-time-to-market
   similarity: 0.55
+solutions:
+- ci-cd-pipeline
 layout: problem
 ---
 

@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.65
 - slug: history-of-failed-changes
   similarity: 0.65
+solutions:
+- blameless-postmortems
+- feature-flags
+- strangler-fig-pattern
 layout: problem
 ---
 

@@ -19,6 +19,10 @@ related_problems:
   similarity: 0.6
 - slug: increased-stress-and-burnout
   similarity: 0.6
+solutions:
+- psychological-safety-practices
+- sustainable-pace-practices
+- team-autonomy-and-empowerment
 layout: problem
 ---
 

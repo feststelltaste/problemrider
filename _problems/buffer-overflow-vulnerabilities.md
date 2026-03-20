@@ -16,6 +16,8 @@ related_problems:
   similarity: 0.5
 - slug: log-injection-vulnerabilities
   similarity: 0.5
+solutions:
+- security-hardening-process
 layout: problem
 ---
 

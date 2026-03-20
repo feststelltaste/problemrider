@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: development-disruption
   similarity: 0.6
+solutions:
+- sustainable-pace-practices
 layout: problem
 ---
 

@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.6
 - slug: user-confusion
   similarity: 0.55
+solutions:
+- blue-green-canary-deployments
+- observability-and-monitoring
 layout: problem
 ---
 

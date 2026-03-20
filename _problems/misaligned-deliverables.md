@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: team-confusion
   similarity: 0.6
+solutions:
+- continuous-feedback
+- stakeholder-feedback-loops
 layout: problem
 ---
 

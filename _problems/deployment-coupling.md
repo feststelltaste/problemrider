@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: missing-rollback-strategy
   similarity: 0.6
+solutions:
+- ci-cd-pipeline
+- event-driven-architecture
 layout: problem
 ---
 

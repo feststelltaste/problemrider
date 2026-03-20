@@ -14,6 +14,9 @@ related_problems:
   similarity: 0.55
 - slug: legacy-configuration-management-chaos
   similarity: 0.5
+solutions:
+- secret-management
+- security-hardening-process
 layout: problem
 ---
 

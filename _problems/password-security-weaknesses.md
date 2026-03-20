@@ -11,6 +11,8 @@ related_problems:
   similarity: 0.55
 - slug: authorization-flaws
   similarity: 0.55
+solutions:
+- security-hardening-process
 layout: problem
 ---
 

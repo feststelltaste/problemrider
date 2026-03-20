@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: information-fragmentation
   similarity: 0.6
+solutions:
+- documentation-as-code
+- knowledge-sharing-practices
 layout: problem
 ---
 

@@ -16,6 +16,9 @@ related_problems:
   similarity: 0.5
 - slug: team-dysfunction
   similarity: 0.5
+solutions:
+- psychological-safety-practices
+- team-autonomy-and-empowerment
 layout: problem
 ---
 

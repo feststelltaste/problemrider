@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.55
 - slug: log-spam
   similarity: 0.5
+solutions:
+- observability-and-monitoring
+- security-hardening-process
 layout: problem
 ---
 

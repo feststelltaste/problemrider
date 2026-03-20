@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.65
 - slug: poor-documentation
   similarity: 0.65
+solutions:
+- architecture-decision-records
+- documentation-as-code
+- knowledge-sharing-practices
 layout: problem
 ---
 

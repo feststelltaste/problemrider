@@ -17,6 +17,9 @@ related_problems:
   similarity: 0.6
 - slug: deployment-risk
   similarity: 0.6
+solutions:
+- ci-cd-pipeline
+- infrastructure-as-code
 layout: problem
 ---
 

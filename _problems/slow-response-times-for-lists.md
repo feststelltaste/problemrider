@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: external-service-delays
   similarity: 0.6
+solutions:
+- query-optimization-process
 layout: problem
 ---
 

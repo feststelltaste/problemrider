@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: integration-difficulties
   similarity: 0.6
+solutions:
+- test-coverage-strategy
 layout: problem
 ---
 

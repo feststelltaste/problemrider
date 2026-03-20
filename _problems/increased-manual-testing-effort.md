@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: test-debt
   similarity: 0.55
+solutions:
+- test-coverage-strategy
 layout: problem
 ---
 

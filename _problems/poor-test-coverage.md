@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.55
 - slug: difficult-to-test-code
   similarity: 0.55
+solutions:
+- definition-of-done
+- test-coverage-strategy
 layout: problem
 ---
 

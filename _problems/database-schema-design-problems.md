@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: rest-api-design-issues
   similarity: 0.55
+solutions:
+- evolutionary-database-design
 layout: problem
 ---
 

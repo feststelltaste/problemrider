@@ -16,6 +16,9 @@ related_problems:
   similarity: 0.5
 - slug: legacy-business-logic-extraction-difficulty
   similarity: 0.5
+solutions:
+- secret-management
+- security-hardening-process
 layout: problem
 ---
 

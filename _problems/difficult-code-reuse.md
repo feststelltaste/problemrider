@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.65
 - slug: code-duplication
   similarity: 0.65
+solutions:
+- modularization-and-bounded-contexts
 layout: problem
 ---
 

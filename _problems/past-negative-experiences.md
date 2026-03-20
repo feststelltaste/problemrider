@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: inexperienced-developers
   similarity: 0.55
+solutions:
+- blameless-postmortems
 layout: problem
 ---
 

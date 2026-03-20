@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.55
 - slug: slow-feature-development
   similarity: 0.55
+solutions:
+- ci-cd-pipeline
 layout: problem
 ---
 

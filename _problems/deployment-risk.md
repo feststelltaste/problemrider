@@ -19,6 +19,11 @@ related_problems:
   similarity: 0.6
 - slug: immature-delivery-strategy
   similarity: 0.6
+solutions:
+- blue-green-canary-deployments
+- ci-cd-pipeline
+- feature-flags
+- infrastructure-as-code
 layout: problem
 ---
 

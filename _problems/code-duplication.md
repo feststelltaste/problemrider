@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.65
 - slug: difficult-code-reuse
   similarity: 0.65
+solutions:
+- incremental-refactoring
 layout: problem
 ---
 

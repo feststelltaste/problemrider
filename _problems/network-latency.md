@@ -17,6 +17,9 @@ related_problems:
   similarity: 0.6
 - slug: service-timeouts
   similarity: 0.6
+solutions:
+- caching-strategy
+- serialization-optimization
 layout: problem
 ---
 

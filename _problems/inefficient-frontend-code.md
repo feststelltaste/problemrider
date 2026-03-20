@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: slow-database-queries
   similarity: 0.6
+solutions:
+- user-centered-design
 layout: problem
 ---
 

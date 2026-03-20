@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: quality-blind-spots
   similarity: 0.6
+solutions:
+- test-coverage-strategy
 layout: problem
 ---
 

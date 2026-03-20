@@ -17,6 +17,10 @@ related_problems:
   similarity: 0.55
 - slug: poor-caching-strategy
   similarity: 0.55
+solutions:
+- caching-strategy
+- profiling
+- resource-usage-optimization
 layout: problem
 ---
 

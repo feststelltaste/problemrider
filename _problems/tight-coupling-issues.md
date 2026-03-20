@@ -18,6 +18,10 @@ related_problems:
   similarity: 0.65
 - slug: cascade-failures
   similarity: 0.6
+solutions:
+- event-driven-architecture
+- incremental-refactoring
+- modularization-and-bounded-contexts
 layout: problem
 ---
 

@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.7
 - slug: code-review-inefficiency
   similarity: 0.7
+solutions:
+- code-review-process-reform
 layout: problem
 ---
 

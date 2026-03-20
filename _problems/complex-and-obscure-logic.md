@@ -17,6 +17,8 @@ related_problems:
   similarity: 0.65
 - slug: legacy-business-logic-extraction-difficulty
   similarity: 0.65
+solutions:
+- incremental-refactoring
 layout: problem
 ---
 

@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.6
 - slug: inadequate-test-data-management
   similarity: 0.6
+solutions:
+- test-coverage-strategy
 layout: problem
 ---
 

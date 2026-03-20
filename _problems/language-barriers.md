@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.55
 - slug: team-coordination-issues
   similarity: 0.55
+solutions:
+- structured-communication-protocols
 layout: problem
 ---
 

@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: feature-bloat
   similarity: 0.55
+solutions:
+- impact-mapping
+- user-centered-design
 layout: problem
 ---
 

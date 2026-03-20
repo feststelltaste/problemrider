@@ -18,6 +18,9 @@ related_problems:
   similarity: 0.6
 - slug: maintenance-bottlenecks
   similarity: 0.6
+solutions:
+- strangler-fig-pattern
+- technical-debt-backlog
 layout: problem
 ---
 

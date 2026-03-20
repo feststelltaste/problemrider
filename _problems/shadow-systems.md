@@ -18,6 +18,8 @@ related_problems:
   similarity: 0.55
 - slug: vendor-dependency-entrapment
   similarity: 0.55
+solutions:
+- user-centered-design
 layout: problem
 ---
 

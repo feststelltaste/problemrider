@@ -19,6 +19,9 @@ related_problems:
   similarity: 0.55
 - slug: poor-interfaces-between-applications
   similarity: 0.55
+solutions:
+- anti-corruption-layer
+- evolutionary-database-design
 layout: problem
 ---
 

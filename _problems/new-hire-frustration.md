@@ -19,6 +19,8 @@ related_problems:
   similarity: 0.6
 - slug: stakeholder-frustration
   similarity: 0.6
+solutions:
+- structured-onboarding-program
 layout: problem
 ---
 
