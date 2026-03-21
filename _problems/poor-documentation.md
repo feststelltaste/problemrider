@@ -19,25 +19,15 @@ related_problems:
 - slug: implicit-knowledge
   similarity: 0.6
 solutions:
-- architecture-decision-records
-- definition-of-done
 - documentation-as-code
+- living-documentation
+- architecture-decision-records
 - api-documentation
 - architecture-documentation
-- checklists
+- definition-of-done
 - code-comments
 - consistent-terminology
-- contextual-help
-- documentation-of-compatibility-requirements
-- frequently-asked-questions-faq
-- living-documentation
-- portability-checklists
-- prepared-statements
-- privacy-by-design
-- security-certification
-- security-frameworks
-- security-policies-for-development
-- timestamping
+- checklists
 layout: problem
 ---
 

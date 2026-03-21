@@ -19,16 +19,15 @@ related_problems:
 - slug: frequent-hotfixes-and-rollbacks
   similarity: 0.6
 solutions:
-- definition-of-done
 - test-coverage-strategy
+- definition-of-done
+- functional-tests
+- smoke-testing
+- root-cause-analysis
+- monitoring
 - canary-releases
 - dark-launches
-- functional-tests
 - incident-management
-- monitoring
-- root-cause-analysis
-- security-tests
-- smoke-testing
 layout: problem
 ---
 

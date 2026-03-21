@@ -19,26 +19,23 @@ related_problems:
   similarity: 0.7
 solutions:
 - query-optimization-process
-- approximation-methods
-- cqrs
-- data-aggregation
-- data-archiving
-- data-partitioning
-- data-replication
-- datensparsamkeit
+- materialized-views
 - denormalization
 - distributed-caching
-- graph-databases
-- in-memory-processing
-- mass-test-data-generation
-- materialized-views
-- nosql-databases
 - pagination
-- parallelization
-- probabilistic-data-structures
+- data-partitioning
 - read-replicas
-- sampling
+- cqrs
+- in-memory-processing
+- data-archiving
+- data-aggregation
+- data-replication
+- nosql-databases
+- graph-databases
+- parallelization
 - vertical-scaling
+- sampling
+- approximation-methods
 layout: problem
 ---
 

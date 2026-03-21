@@ -21,16 +21,10 @@ related_problems:
 solutions:
 - strangler-fig-pattern
 - technical-debt-backlog
-- api-deprecation-policy
-- cross-platform-frameworks
-- design-tokens
-- failover-cluster
-- redundancy
-- regular-maintenance-and-updates
-- serverless-computing
-- site-reliability-engineering-sre
-- standard-software
 - strategic-code-deletion
+- regular-maintenance-and-updates
+- api-deprecation-policy
+- standard-software
 layout: problem
 ---
 

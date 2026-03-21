@@ -20,12 +20,8 @@ related_problems:
   similarity: 0.6
 solutions:
 - clean-code
-- loose-coupling
 - separation-of-concerns
-- cognitive-load-minimization
-- consistent-user-interface
-- customizable-user-interface
-- form-design
+- loose-coupling
 - strategic-code-deletion
 layout: problem
 ---

@@ -17,21 +17,19 @@ related_problems:
 - slug: legacy-business-logic-extraction-difficulty
   similarity: 0.5
 solutions:
-- secret-management
-- security-hardening-process
-- abuse-case-definition
-- api-security
-- audit-trail-management
-- authentication
-- authorization
-- authorization-concept
-- datensparsamkeit
 - privacy-by-design
+- datensparsamkeit
+- authorization-concept
+- authorization
 - role-based-access-control
-- secure-protocols
-- secure-session-management
 - security-audits
 - security-policies-for-users
+- audit-trail-management
+- secret-management
+- security-hardening-process
+- secure-protocols
+- authentication
+- secure-session-management
 layout: problem
 ---
 

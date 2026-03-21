@@ -21,11 +21,6 @@ related_problems:
 solutions:
 - definition-of-done
 - checklists
-- portability-checklists
-- secure-software-development
-- security-certification
-- security-frameworks
-- security-policies-for-development
 layout: problem
 ---
 

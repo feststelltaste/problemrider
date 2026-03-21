@@ -20,12 +20,10 @@ related_problems:
 - slug: service-timeouts
   similarity: 0.5
 solutions:
-- api-first-design
-- elastic-scaling
-- api-gateway
-- health-check-endpoints
-- ping
 - service-mesh
+- health-check-endpoints
+- api-gateway
+- ping
 layout: problem
 ---
 

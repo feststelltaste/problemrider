@@ -18,11 +18,11 @@ related_problems:
 - slug: missed-deadlines
   similarity: 0.6
 solutions:
-- evolutionary-requirements-development
+- short-iteration-cycles
 - iterative-development
 - requirements-analysis
-- short-iteration-cycles
 - story-mapping
+- evolutionary-requirements-development
 layout: problem
 ---
 

@@ -19,15 +19,12 @@ related_problems:
 - slug: increased-error-rates
   similarity: 0.55
 solutions:
-- blue-green-canary-deployments
-- event-driven-architecture
+- timeout-management
 - circuit-breaker
-- cold-start-mitigation
-- failover-mechanisms
-- nonstop-forwarding
 - retry
 - service-mesh
-- timeout-management
+- failover-mechanisms
+- nonstop-forwarding
 layout: problem
 ---
 

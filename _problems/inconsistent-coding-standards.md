@@ -19,12 +19,9 @@ related_problems:
 - slug: code-duplication
   similarity: 0.55
 solutions:
-- static-analysis-and-linting
 - code-conventions
+- static-analysis-and-linting
 - code-reviews
-- compatibility-standards
-- secure-coding-guidelines
-- security-policies-for-development
 layout: problem
 ---
 

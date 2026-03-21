@@ -20,22 +20,16 @@ related_problems:
 - slug: complex-implementation-paths
   similarity: 0.55
 solutions:
-- evolutionary-database-design
 - automated-migration-tools
-- backward-compatible-data-formats
+- evolutionary-database-design
 - backward-compatible-schema-migrations
-- canonical-data-model
-- data-enrichment
-- data-export
-- data-format-conversion
-- data-integration
-- data-modeling
+- backward-compatible-data-formats
 - data-quality-checks
+- data-modeling
+- data-format-conversion
+- canonical-data-model
 - data-strategy
 - mass-test-data-generation
-- nosql-databases
-- platform-independent-data-storage
-- standardized-data-formats
 layout: problem
 ---
 

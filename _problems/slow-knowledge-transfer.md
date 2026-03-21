@@ -20,9 +20,9 @@ related_problems:
 - slug: incomplete-knowledge
   similarity: 0.6
 solutions:
+- structured-onboarding-program
 - knowledge-sharing-practices
 - pair-and-mob-programming
-- structured-onboarding-program
 layout: problem
 ---
 

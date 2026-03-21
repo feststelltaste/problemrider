@@ -20,32 +20,30 @@ related_problems:
 - slug: cascade-delays
   similarity: 0.6
 solutions:
-- event-driven-architecture
-- observability-and-monitoring
-- bulkhead
-- chaos-engineering
-- circuit-breaker
-- data-replication
-- disaster-recovery
-- distributed-processing
-- failover-cluster
+- redundancy
+- high-availability-architectures
 - failover-mechanisms
+- failover-cluster
+- load-balancing
+- data-replication
+- read-replicas
+- redundant-data-storage
+- bulkhead
 - fault-containment
+- isolation-of-faulty-components
+- circuit-breaker
+- horizontal-scaling
+- distributed-processing
+- resilience
+- disaster-recovery
+- regular-backups
+- chaos-engineering
+- observability-and-monitoring
 - health-check-endpoints
 - heartbeat
-- high-availability-architectures
-- horizontal-scaling
-- isolation-of-faulty-components
-- load-balancing
-- nonstop-forwarding
 - ping
-- read-replicas
-- redundancy
-- redundant-data-storage
-- regular-backups
-- resilience
-- security-architecture-analysis
 - watchdog
+- nonstop-forwarding
 layout: problem
 ---
 

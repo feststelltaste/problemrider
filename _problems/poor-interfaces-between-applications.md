@@ -20,29 +20,22 @@ related_problems:
 - slug: poor-documentation
   similarity: 0.6
 solutions:
+- api-first-development
+- standardized-interfaces
 - anti-corruption-layer
 - adapter
 - api-documentation
-- api-first-development
+- consumer-driven-contracts
 - api-gateway
 - api-versioning-strategy
 - backward-compatible-apis
-- canonical-data-model
-- consumer-driven-contracts
-- content-negotiation
-- cross-platform-serialization
-- data-ecosystems
-- data-format-conversion
-- data-formats
-- data-integration
-- facades
-- fluent-interfaces
 - interoperability-tests
-- protocol-abstraction
-- schema-registry
-- standardized-data-formats
-- standardized-interfaces
+- facades
 - standardized-protocols
+- content-negotiation
+- canonical-data-model
+- schema-registry
+- protocol-abstraction
 layout: problem
 ---
 

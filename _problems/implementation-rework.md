@@ -19,16 +19,14 @@ related_problems:
 - slug: difficulty-quantifying-benefits
   similarity: 0.5
 solutions:
-- boring-technologies
-- design-by-contract
-- functional-spike
-- on-site-customer
-- prototypes
 - prototyping
+- functional-spike
 - specification-by-example
-- subject-matter-reviews
+- on-site-customer
 - user-acceptance-tests
 - user-stories
+- subject-matter-reviews
+- design-by-contract
 layout: problem
 ---
 

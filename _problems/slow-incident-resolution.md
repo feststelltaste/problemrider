@@ -19,29 +19,27 @@ related_problems:
 - slug: external-service-delays
   similarity: 0.55
 solutions:
-- observability-and-monitoring
-- chaos-engineering
-- continuous-performance-monitoring
-- distributed-tracing
-- failover-cluster
-- failover-mechanisms
-- health-check-endpoints
-- heartbeat
 - incident-management
+- observability-and-monitoring
+- root-cause-analysis
 - logging
+- distributed-tracing
 - monitoring
 - on-call-duty
-- performance-measurements
-- ping
-- root-cause-analysis
-- security-incident-handling
-- security-monitoring
-- service-level-objectives
 - site-reliability-engineering-sre
-- status-monitoring
-- stress-testing
-- transparent-performance-metrics
+- health-check-endpoints
+- heartbeat
+- ping
 - watchdog
+- status-monitoring
+- continuous-performance-monitoring
+- service-level-objectives
+- transparent-performance-metrics
+- performance-measurements
+- failover-mechanisms
+- failover-cluster
+- chaos-engineering
+- stress-testing
 layout: problem
 ---
 

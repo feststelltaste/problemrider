@@ -19,17 +19,14 @@ related_problems:
 - slug: difficult-code-reuse
   similarity: 0.7
 solutions:
+- code-conventions
 - static-analysis-and-linting
 - architecture-conformity-analysis
 - architecture-governance
-- architecture-review-board
-- bubble-context
-- code-conventions
-- code-generation
-- consistent-user-interface
-- design-tokens
-- fluent-interfaces
 - pattern-language
+- architecture-review-board
+- code-generation
+- bubble-context
 layout: problem
 ---
 

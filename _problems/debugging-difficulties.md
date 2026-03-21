@@ -19,14 +19,11 @@ related_problems:
 - slug: accumulation-of-workarounds
   similarity: 0.6
 solutions:
-- observability-and-monitoring
-- audit-trail-management
-- distributed-tracing
 - logging
-- platform-independent-logging-frameworks
-- platform-independent-time-zone-handling
+- observability-and-monitoring
+- distributed-tracing
 - timestamping
-- write-ahead-logging
+- platform-independent-logging-frameworks
 layout: problem
 ---
 

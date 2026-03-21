@@ -12,34 +12,21 @@ related_problems:
 - slug: insecure-data-transmission
   similarity: 0.55
 solutions:
-- evolutionary-database-design
-- audit-trail-management
-- backup-and-recovery
-- backward-compatible-data-formats
+- data-integrity
 - checksums
 - continuous-data-verification
-- data-deduplication
-- data-enrichment
-- data-integrity
 - data-quality-checks
-- dead-letter-queue
-- fault-tolerant-data-structures
-- idempotency-design
-- idempotent-operations
-- input-constraints-and-defaults
-- logging
-- monitoring-system-integrity
-- platform-independent-time-zone-handling
 - plausibility-checks
-- redundant-checksums
-- redundant-data-storage
-- regular-backups
-- status-monitoring
-- timestamping
-- transactions
 - value-range-definition
-- watchdog
+- input-constraints-and-defaults
+- monitoring-system-integrity
+- redundant-checksums
 - write-ahead-logging
+- transactions
+- audit-trail-management
+- logging
+- watchdog
+- backup-and-recovery
 layout: problem
 ---
 

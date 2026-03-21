@@ -18,10 +18,9 @@ related_problems:
 - slug: knowledge-dependency
   similarity: 0.6
 solutions:
-- pair-and-mob-programming
 - structured-onboarding-program
+- pair-and-mob-programming
 - refactoring-katas
-- security-training
 layout: problem
 ---
 

@@ -20,8 +20,8 @@ related_problems:
 - slug: mentor-burnout
   similarity: 0.55
 solutions:
-- cross-functional-skill-development
 - sustainable-pace-practices
+- cross-functional-skill-development
 - on-call-duty
 layout: problem
 ---

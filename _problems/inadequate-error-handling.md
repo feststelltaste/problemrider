@@ -19,19 +19,16 @@ related_problems:
 - slug: poor-operational-concept
   similarity: 0.5
 solutions:
-- definition-of-done
+- logging
+- retry
 - dead-letter-queue
+- plausibility-checks
+- input-constraints-and-defaults
+- value-range-definition
 - fault-tolerant-data-structures
 - idempotency-design
-- input-constraints-and-defaults
-- logging
-- plausibility-checks
-- prepared-statements
-- redundant-checksums
-- retry
-- secure-coding-guidelines
 - secure-programming-interfaces
-- value-range-definition
+- definition-of-done
 layout: problem
 ---
 

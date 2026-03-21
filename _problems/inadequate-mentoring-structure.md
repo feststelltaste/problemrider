@@ -21,7 +21,6 @@ related_problems:
   similarity: 0.5
 solutions:
 - pair-and-mob-programming
-- security-training
 layout: problem
 ---
 

@@ -20,9 +20,9 @@ related_problems:
   similarity: 0.6
 solutions:
 - infrastructure-as-code
-- cloud-native-development
-- serverless-computing
 - site-reliability-engineering-sre
+- serverless-computing
+- cloud-native-development
 layout: problem
 ---
 

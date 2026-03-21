@@ -20,26 +20,22 @@ related_problems:
   similarity: 0.7
 solutions:
 - query-optimization-process
-- approximation-methods
-- batch-processing
 - connection-pooling
+- data-partitioning
+- read-replicas
+- distributed-caching
+- monitoring-system-utilization
+- data-archiving
+- materialized-views
 - cqrs
 - data-aggregation
-- data-archiving
-- data-deduplication
-- data-partitioning
-- data-replication
-- datensparsamkeit
-- distributed-caching
-- elastic-resource-utilization
+- batch-processing
 - in-memory-processing
-- materialized-views
-- monitoring-system-utilization
-- nosql-databases
-- probabilistic-data-structures
-- read-replicas
-- sampling
 - vertical-scaling
+- elastic-resource-utilization
+- data-replication
+- data-deduplication
+- sampling
 layout: problem
 ---
 

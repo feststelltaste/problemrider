@@ -12,14 +12,13 @@ related_problems:
 - slug: authorization-flaws
   similarity: 0.55
 solutions:
-- security-hardening-process
 - authentication
-- authorization
+- security-hardening-process
+- security-policies-for-users
+- secure-session-management
+- secure-by-default
 - raising-user-awareness
 - role-based-access-control
-- secure-by-default
-- secure-session-management
-- security-policies-for-users
 layout: problem
 ---
 

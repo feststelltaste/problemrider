@@ -20,7 +20,6 @@ related_problems:
 - slug: long-running-transactions
   similarity: 0.6
 solutions:
-- query-optimization-process
 - connection-pooling
 layout: problem
 ---

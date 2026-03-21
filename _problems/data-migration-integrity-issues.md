@@ -20,26 +20,20 @@ related_problems:
 - slug: legacy-business-logic-extraction-difficulty
   similarity: 0.55
 solutions:
-- evolutionary-database-design
-- automated-migration-tools
-- backup-and-recovery
-- backward-compatible-data-formats
-- backward-compatible-schema-migrations
-- checksums
-- continuous-data-verification
 - data-integrity
 - data-quality-checks
-- fault-tolerant-data-structures
-- idempotency-design
-- platform-independent-data-storage
+- checksums
+- continuous-data-verification
+- automated-migration-tools
+- evolutionary-database-design
+- backward-compatible-schema-migrations
+- backward-compatible-data-formats
 - plausibility-checks
-- redundant-checksums
-- redundant-data-storage
-- regular-backups
-- restore-points
-- timestamping
+- backup-and-recovery
+- idempotency-design
 - transactions
 - write-ahead-logging
+- regular-backups
 layout: problem
 ---
 

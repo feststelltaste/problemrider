@@ -19,24 +19,23 @@ related_problems:
 - slug: feature-gaps
   similarity: 0.55
 solutions:
-- evolutionary-requirements-development
 - requirements-analysis
 - stakeholder-feedback-loops
-- abuse-case-definition
-- acceptance-tests
+- evolutionary-requirements-development
+- user-stories
+- story-mapping
+- on-site-customer
+- personas
+- specification-by-example
 - behavior-driven-development-bdd
 - business-process-modeling
 - business-quality-scenarios
-- compatibility-requirements
-- on-site-customer
-- performance-budgets
-- personas
-- requirements-traceability-matrix
-- security-requirements-definition
-- specification-by-example
-- story-mapping
 - subject-matter-reviews
-- user-stories
+- requirements-traceability-matrix
+- acceptance-tests
+- compatibility-requirements
+- performance-budgets
+- security-requirements-definition
 layout: problem
 ---
 

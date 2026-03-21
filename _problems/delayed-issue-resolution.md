@@ -20,8 +20,8 @@ related_problems:
 - slug: delayed-project-timelines
   similarity: 0.6
 solutions:
-- continuous-feedback
 - root-cause-analysis
+- continuous-feedback
 layout: problem
 ---
 

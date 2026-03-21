@@ -20,12 +20,11 @@ related_problems:
   similarity: 0.6
 solutions:
 - continuous-feedback
-- evolutionary-requirements-development
-- requirements-analysis
 - stakeholder-feedback-loops
-- direct-feedback
 - feedback-mechanisms
+- direct-feedback
 - on-site-customer
+- evolutionary-requirements-development
 layout: problem
 ---
 

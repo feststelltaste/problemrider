@@ -21,14 +21,12 @@ related_problems:
   similarity: 0.65
 solutions:
 - query-optimization-process
-- cqrs
-- data-aggregation
-- denormalization
-- graph-databases
-- mass-test-data-generation
 - materialized-views
-- object-relational-mapping-orm
+- denormalization
+- cqrs
 - read-replicas
+- data-aggregation
+- mass-test-data-generation
 layout: problem
 ---
 

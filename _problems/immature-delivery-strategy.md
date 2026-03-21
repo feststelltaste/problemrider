@@ -21,8 +21,8 @@ related_problems:
 solutions:
 - ci-cd-pipeline
 - continuous-delivery
-- continuous-integration-and-delivery
 - standardized-deployment-scripts
+- continuous-integration-and-delivery
 - walking-skeleton
 layout: problem
 ---

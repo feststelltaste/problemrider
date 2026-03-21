@@ -18,10 +18,9 @@ related_problems:
 - slug: change-management-chaos
   similarity: 0.6
 solutions:
-- change-management-process
 - formal-change-control-process
+- change-management-process
 - product-owner
-- version-control
 layout: problem
 ---
 

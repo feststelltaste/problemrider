@@ -19,8 +19,8 @@ related_problems:
 - slug: database-query-performance-issues
   similarity: 0.6
 solutions:
-- query-optimization-process
 - connection-pooling
+- query-optimization-process
 layout: problem
 ---
 

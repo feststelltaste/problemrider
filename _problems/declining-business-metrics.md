@@ -20,9 +20,9 @@ related_problems:
 - slug: quality-degradation
   similarity: 0.55
 solutions:
-- impact-mapping
-- product-strategy-alignment
 - business-metrics
+- product-strategy-alignment
+- impact-mapping
 layout: problem
 ---
 

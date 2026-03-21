@@ -19,11 +19,10 @@ related_problems:
 - slug: development-disruption
   similarity: 0.65
 solutions:
-- architecture-roadmap
 - development-workflow-automation
+- architecture-roadmap
 - code-generation
 - microservices
-- standard-software
 layout: problem
 ---
 

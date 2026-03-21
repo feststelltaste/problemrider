@@ -19,12 +19,10 @@ related_problems:
 - slug: user-frustration
   similarity: 0.6
 solutions:
-- documentation-as-code
-- structured-onboarding-program
 - empty-states-and-first-use-guidance
+- structured-onboarding-program
 - raising-user-awareness
-- security-training
-- virtual-development-environments
+- documentation-as-code
 layout: problem
 ---
 

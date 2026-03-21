@@ -21,10 +21,8 @@ related_problems:
 solutions:
 - infrastructure-as-code
 - externalized-configuration
-- platform-independent-configuration-files
 - platform-independent-configuration-management
-- secure-by-default
-- secure-configuration
+- platform-independent-configuration-files
 layout: problem
 ---
 

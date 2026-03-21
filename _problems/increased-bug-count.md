@@ -19,9 +19,9 @@ related_problems:
 - slug: increasing-brittleness
   similarity: 0.6
 solutions:
-- contract-testing
-- development-workflow-automation
 - regression-testing
+- development-workflow-automation
+- contract-testing
 layout: problem
 ---
 

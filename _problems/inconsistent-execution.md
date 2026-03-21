@@ -19,8 +19,7 @@ related_problems:
   similarity: 0.55
 - slug: manual-deployment-processes
   similarity: 0.55
-solutions:
-- loose-coupling
+solutions: []
 layout: problem
 ---
 

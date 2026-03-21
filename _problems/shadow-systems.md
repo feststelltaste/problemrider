@@ -20,10 +20,10 @@ related_problems:
   similarity: 0.55
 solutions:
 - user-centered-design
+- customizable-user-interface
+- custom-views
 - cognitive-load-minimization
 - consistent-user-interface
-- custom-views
-- customizable-user-interface
 layout: problem
 ---
 

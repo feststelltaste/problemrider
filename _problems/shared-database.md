@@ -10,8 +10,8 @@ related_problems:
 - slug: deployment-coupling
   similarity: 0.5
 solutions:
-- evolutionary-database-design
 - modularization-and-bounded-contexts
+- evolutionary-database-design
 - data-integration
 layout: problem
 ---

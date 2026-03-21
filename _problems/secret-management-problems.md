@@ -16,12 +16,11 @@ related_problems:
   similarity: 0.5
 solutions:
 - secret-management
-- security-hardening-process
-- red-teaming
-- role-based-access-control
-- secure-by-default
 - secure-configuration
+- secure-by-default
+- security-hardening-process
 - security-audits
+- role-based-access-control
 layout: problem
 ---
 

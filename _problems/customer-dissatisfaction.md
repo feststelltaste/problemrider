@@ -20,25 +20,16 @@ related_problems:
 - slug: system-outages
   similarity: 0.6
 solutions:
-- regression-testing
 - user-centered-design
-- assistive-technology-support
-- auto-save
-- browser-compatibility
-- compatibility-testing-by-users
-- confirmation-dialogs
-- custom-views
-- customizable-user-interface
-- customizing
-- direct-feedback
 - feedback-mechanisms
-- form-design
-- graceful-degradation
-- on-site-customer
-- personas
-- prototypes
+- direct-feedback
 - usability-tests
 - user-acceptance-tests
+- regression-testing
+- personas
+- on-site-customer
+- prototypes
+- compatibility-testing-by-users
 layout: problem
 ---
 

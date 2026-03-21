@@ -19,10 +19,10 @@ related_problems:
 - slug: legacy-code-without-tests
   similarity: 0.6
 solutions:
-- test-coverage-strategy
 - mass-test-data-generation
 - sampling
 - simulation-environments
+- test-coverage-strategy
 layout: problem
 ---
 

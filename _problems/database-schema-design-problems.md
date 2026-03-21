@@ -19,15 +19,13 @@ related_problems:
 - slug: rest-api-design-issues
   similarity: 0.55
 solutions:
+- data-modeling
 - evolutionary-database-design
 - backward-compatible-schema-migrations
-- data-archiving
 - data-integrity
-- data-modeling
-- graph-databases
+- data-archiving
 - nosql-databases
 - object-relational-mapping-orm
-- platform-independent-data-storage
 layout: problem
 ---
 

@@ -19,8 +19,8 @@ related_problems:
 - slug: perfectionist-culture
   similarity: 0.6
 solutions:
-- architecture-decision-records
 - blameless-postmortems
+- architecture-decision-records
 - functional-spike
 layout: problem
 ---

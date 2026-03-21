@@ -18,19 +18,14 @@ related_problems:
 - slug: database-schema-design-problems
   similarity: 0.5
 solutions:
-- modularization-and-bounded-contexts
 - bounded-contexts
-- business-process-automation
-- business-process-modeling
-- canonical-data-model
-- data-ecosystems
-- data-enrichment
-- data-modeling
-- data-strategy
-- decision-tables
-- rule-based-systems
-- subject-matter-reviews
 - ubiquitous-language
+- data-modeling
+- modularization-and-bounded-contexts
+- business-process-modeling
+- subject-matter-reviews
+- data-strategy
+- canonical-data-model
 layout: problem
 ---
 

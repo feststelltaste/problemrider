@@ -19,10 +19,7 @@ related_problems:
   similarity: 0.55
 - slug: constantly-shifting-deadlines
   similarity: 0.55
-solutions:
-- contract-testing
-- api-first-development
-- compatibility-certification
+solutions: []
 layout: problem
 ---
 

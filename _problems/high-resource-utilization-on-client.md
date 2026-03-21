@@ -19,7 +19,6 @@ related_problems:
 - slug: high-api-latency
   similarity: 0.6
 solutions:
-- user-centered-design
 - image-and-asset-optimization
 - lazy-loading
 - virtualized-lists

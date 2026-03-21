@@ -20,9 +20,8 @@ related_problems:
 - slug: team-coordination-issues
   similarity: 0.6
 solutions:
-- psychological-safety-practices
 - structured-communication-protocols
-- transparent-performance-metrics
+- psychological-safety-practices
 layout: problem
 ---
 
