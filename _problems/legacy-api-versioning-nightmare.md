@@ -20,20 +20,19 @@ related_problems:
 - slug: poor-interfaces-between-applications
   similarity: 0.6
 solutions:
-- anti-corruption-layer
-- dependency-management-strategy
-- adapter
-- api-deprecation-policy
-- api-first-development
-- api-gateway
-- api-security
 - api-versioning-strategy
+- api-deprecation-policy
 - backward-compatible-apis
-- compatibility-governance
-- content-negotiation
 - semantic-versioning
+- anti-corruption-layer
+- adapter
+- api-gateway
 - standardized-interfaces
 - versioning-scheme
+- content-negotiation
+- dependency-management-strategy
+- compatibility-governance
+- api-first-development
 layout: problem
 ---
 

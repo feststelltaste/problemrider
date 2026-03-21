@@ -22,14 +22,14 @@ related_problems:
 solutions:
 - strangler-fig-pattern
 - bubble-context
+- hexagonal-architecture
+- business-process-modeling
+- decision-tables
+- rule-based-systems
 - business-event-processing
 - business-process-automation
-- business-process-modeling
-- data-format-conversion
 - data-modeling
-- decision-tables
-- hexagonal-architecture
-- rule-based-systems
+- data-format-conversion
 layout: problem
 ---
 
