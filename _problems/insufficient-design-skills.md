@@ -19,12 +19,12 @@ related_problems:
 - slug: insufficient-testing
   similarity: 0.65
 solutions:
-- architecture-reviews
-- boring-technologies
-- solid-principles
 - technical-skills-development
+- solid-principles
 - pattern-language
 - refactoring-katas
+- architecture-reviews
+- boring-technologies
 layout: problem
 ---
 

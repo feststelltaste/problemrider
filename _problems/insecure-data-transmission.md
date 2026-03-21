@@ -9,14 +9,13 @@ related_problems:
 - slug: silent-data-corruption
   similarity: 0.55
 solutions:
-- secret-management
-- security-hardening-process
-- authentication
-- checksums
-- prepared-statements
-- privacy-by-design
 - secure-protocols
+- security-hardening-process
 - service-mesh
+- secret-management
+- authentication
+- privacy-by-design
+- checksums
 layout: problem
 ---
 

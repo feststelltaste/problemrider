@@ -19,31 +19,25 @@ related_problems:
 - slug: complex-deployment-process
   similarity: 0.6
 solutions:
-- definition-of-done
 - test-coverage-strategy
-- acceptance-tests
 - automated-tests
-- behavior-driven-development-bdd
-- business-test-cases
+- functional-tests
 - code-coverage-analysis
-- compatibility-as-error
+- acceptance-tests
+- user-acceptance-tests
+- behavior-driven-development-bdd
+- specification-by-example
+- property-based-testing
+- mutation-testing
+- smoke-testing
+- business-test-cases
 - compatibility-testing
 - compatibility-testing-by-users
 - cross-version-testing
-- functional-tests
-- mutation-testing
 - platform-independent-test-frameworks
-- prepared-statements
-- property-based-testing
-- red-teaming
-- regression-tests
 - requirements-traceability-matrix
-- secure-software-development
-- security-tests
-- security-tests-by-external-parties
-- smoke-testing
-- specification-by-example
-- user-acceptance-tests
+- definition-of-done
+- compatibility-as-error
 layout: problem
 ---
 

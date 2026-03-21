@@ -19,15 +19,14 @@ related_problems:
 - slug: log-spam
   similarity: 0.5
 solutions:
-- observability-and-monitoring
-- security-hardening-process
 - audit-trail-management
-- authorization-concept
-- privacy-by-design
-- security-audits
-- security-metrics
 - security-monitoring
+- observability-and-monitoring
 - timestamping
+- security-audits
+- security-hardening-process
+- privacy-by-design
+- security-metrics
 layout: problem
 ---
 
