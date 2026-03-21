@@ -22,14 +22,12 @@ related_problems:
 solutions:
 - knowledge-sharing-practices
 - pair-and-mob-programming
+- code-reviews
+- living-documentation
 - architecture-documentation
 - architecture-workshops
-- code-reviews
-- documentation-of-compatibility-requirements
-- incident-management
-- living-documentation
 - on-call-duty
-- security-community
+- incident-management
 layout: problem
 ---
 

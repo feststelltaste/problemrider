@@ -20,19 +20,17 @@ related_problems:
 - slug: release-anxiety
   similarity: 0.65
 solutions:
-- blue-green-canary-deployments
 - ci-cd-pipeline
-- feature-flags
-- canary-releases
 - continuous-delivery
-- continuous-integration-and-delivery
-- dark-launches
-- feature-toggles
-- microservices
-- microservices-architecture
+- trunk-based-development
+- feature-flags
+- blue-green-canary-deployments
+- canary-releases
 - rollback-mechanisms
 - rolling-updates
-- trunk-based-development
+- dark-launches
+- continuous-integration-and-delivery
+- microservices
 layout: problem
 ---
 
