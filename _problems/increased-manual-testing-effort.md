@@ -19,8 +19,8 @@ related_problems:
 - slug: test-debt
   similarity: 0.55
 solutions:
-- test-coverage-strategy
 - automated-tests
+- test-coverage-strategy
 layout: problem
 ---
 

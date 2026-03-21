@@ -20,11 +20,10 @@ related_problems:
 - slug: change-management-chaos
   similarity: 0.6
 solutions:
-- infrastructure-as-code
 - externalized-configuration
-- platform-independent-configuration-files
+- infrastructure-as-code
 - platform-independent-configuration-management
-- secure-configuration
+- platform-independent-configuration-files
 layout: problem
 ---
 

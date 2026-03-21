@@ -22,7 +22,6 @@ related_problems:
 solutions:
 - clear-ownership-model
 - clear-roles-and-ownership
-- compatibility-governance
 layout: problem
 ---
 

@@ -19,8 +19,7 @@ related_problems:
   similarity: 0.5
 - slug: stakeholder-frustration
   similarity: 0.5
-solutions:
-- contract-testing
+solutions: []
 layout: problem
 ---
 

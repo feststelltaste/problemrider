@@ -20,9 +20,8 @@ related_problems:
   similarity: 0.55
 solutions:
 - pair-and-mob-programming
-- structured-onboarding-program
 - architecture-workshops
-- security-community
+- structured-onboarding-program
 layout: problem
 ---
 

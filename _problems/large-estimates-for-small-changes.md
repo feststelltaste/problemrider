@@ -19,8 +19,8 @@ related_problems:
 - slug: frequent-changes-to-requirements
   similarity: 0.55
 solutions:
-- architecture-roadmap
 - regression-testing
+- architecture-roadmap
 layout: problem
 ---
 

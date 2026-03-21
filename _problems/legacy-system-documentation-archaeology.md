@@ -19,11 +19,11 @@ related_problems:
 - slug: information-fragmentation
   similarity: 0.6
 solutions:
+- living-documentation
 - documentation-as-code
+- architecture-documentation
 - knowledge-sharing-practices
 - api-documentation
-- architecture-documentation
-- living-documentation
 - requirements-traceability-matrix
 layout: problem
 ---

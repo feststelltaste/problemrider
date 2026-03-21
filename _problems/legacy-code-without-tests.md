@@ -21,20 +21,17 @@ related_problems:
   similarity: 0.55
 solutions:
 - test-coverage-strategy
-- acceptance-tests
 - automated-tests
-- behavior-driven-development-bdd
-- business-test-cases
-- code-coverage-analysis
-- functional-tests
-- mutation-testing
-- prepared-statements
-- property-based-testing
-- regression-tests
-- security-tests
-- smoke-testing
-- specification-by-example
 - test-driven-development-tdd
+- smoke-testing
+- functional-tests
+- code-coverage-analysis
+- acceptance-tests
+- specification-by-example
+- behavior-driven-development-bdd
+- property-based-testing
+- business-test-cases
+- mutation-testing
 layout: problem
 ---
 

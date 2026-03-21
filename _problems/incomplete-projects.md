@@ -19,8 +19,8 @@ related_problems:
 - slug: poor-project-control
   similarity: 0.6
 solutions:
-- architecture-roadmap
 - impact-mapping
+- architecture-roadmap
 layout: problem
 ---
 

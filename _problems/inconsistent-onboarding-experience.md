@@ -20,8 +20,8 @@ related_problems:
 - slug: inappropriate-skillset
   similarity: 0.6
 solutions:
-- documentation-as-code
 - structured-onboarding-program
+- documentation-as-code
 - virtual-development-environments
 layout: problem
 ---
