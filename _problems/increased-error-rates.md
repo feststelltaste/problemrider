@@ -18,15 +18,12 @@ related_problems:
 - slug: high-connection-count
   similarity: 0.55
 solutions:
-- observability-and-monitoring
-- confirmation-dialogs
-- dead-letter-queue
-- feedback
-- form-design
-- input-constraints-and-defaults
-- plausibility-checks
-- retry
 - root-cause-analysis
+- observability-and-monitoring
+- plausibility-checks
+- input-constraints-and-defaults
+- retry
+- dead-letter-queue
 layout: problem
 ---
 

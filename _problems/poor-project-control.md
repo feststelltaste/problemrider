@@ -19,13 +19,11 @@ related_problems:
 - slug: scope-creep
   similarity: 0.55
 solutions:
-- formal-change-control-process
-- iterative-development
-- product-owner
 - short-iteration-cycles
+- iterative-development
 - stakeholder-feedback-loops
-- security-metrics
-- security-relevant-metrics
+- product-owner
+- formal-change-control-process
 layout: problem
 ---
 

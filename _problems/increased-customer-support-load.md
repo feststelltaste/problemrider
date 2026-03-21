@@ -20,12 +20,12 @@ related_problems:
 - slug: maintenance-cost-increase
   similarity: 0.5
 solutions:
-- product-strategy-alignment
-- auto-save
-- confirmation-dialogs
 - contextual-help
 - frequently-asked-questions-faq
 - input-constraints-and-defaults
+- confirmation-dialogs
+- auto-save
+- product-strategy-alignment
 layout: problem
 ---
 

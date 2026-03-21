@@ -19,9 +19,9 @@ related_problems:
 - slug: reduced-predictability
   similarity: 0.65
 solutions:
+- short-iteration-cycles
 - iterative-development
 - requirements-analysis
-- short-iteration-cycles
 layout: problem
 ---
 

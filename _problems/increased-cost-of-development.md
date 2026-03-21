@@ -20,11 +20,11 @@ related_problems:
 - slug: high-bug-introduction-rate
   similarity: 0.6
 solutions:
-- architecture-roadmap
 - development-workflow-automation
 - regression-testing
-- code-generation
+- architecture-roadmap
 - standard-software
+- code-generation
 layout: problem
 ---
 

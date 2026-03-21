@@ -18,11 +18,11 @@ related_problems:
 - slug: difficult-code-comprehension
   similarity: 0.65
 solutions:
-- efficient-algorithms
 - profiling
+- efficient-algorithms
+- static-code-analysis
 - serialization-optimization
 - memory-hierarchy
-- static-code-analysis
 layout: problem
 ---
 

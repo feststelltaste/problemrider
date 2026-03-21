@@ -19,11 +19,10 @@ related_problems:
 - slug: inconsistent-coding-standards
   similarity: 0.55
 solutions:
-- static-analysis-and-linting
 - code-conventions
-- consistent-terminology
-- fluent-interfaces
+- static-analysis-and-linting
 - ubiquitous-language
+- consistent-terminology
 layout: problem
 ---
 

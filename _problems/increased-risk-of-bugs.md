@@ -18,11 +18,11 @@ related_problems:
 - slug: brittle-codebase
   similarity: 0.6
 solutions:
-- contract-testing
-- development-workflow-automation
 - regression-testing
 - functional-tests
+- development-workflow-automation
 - property-based-testing
+- contract-testing
 - value-range-definition
 layout: problem
 ---
