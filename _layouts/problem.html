@@ -23,6 +23,28 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.solutions and page.solutions.size > 0 %}
+  <section class="related-solutions">
+    <h2>Solutions (Beta)</h2>
+    <ul class="related-solutions-list">
+      {% for sol_slug in page.solutions %}
+        {% assign solution = site.solutions | where: "slug", sol_slug | first %}
+        {% if solution %}
+          <li>
+            <a href="{{ solution.url | relative_url }}">{{ solution.title }}</a>
+            {% if solution.quality_tactics_url %}
+              <sup><a href="{{ solution.quality_tactics_url }}" target="_blank" rel="noopener" class="qt-link">QT</a></sup>
+            {% endif %}
+            {% if solution.description %}
+              — {{ solution.description }}
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
   {% if page.related_problems and page.related_problems.size > 0 %}
   <section class="related-problems">
     <h2>Related Problems</h2>
@@ -47,28 +69,6 @@ layout: default
             {% endif %}
             {% if related_problem.description %}
               <p class="related-description">{{ related_problem.description }}</p>
-            {% endif %}
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
-  {% endif %}
-
-  {% if page.solutions and page.solutions.size > 0 %}
-  <section class="related-solutions">
-    <h2>Solutions (Beta)</h2>
-    <ul class="related-solutions-list">
-      {% for sol_slug in page.solutions %}
-        {% assign solution = site.solutions | where: "slug", sol_slug | first %}
-        {% if solution %}
-          <li>
-            <a href="{{ solution.url | relative_url }}">{{ solution.title }}</a>
-            {% if solution.quality_tactics_url %}
-              <sup><a href="{{ solution.quality_tactics_url }}" target="_blank" rel="noopener" class="qt-link">QT</a></sup>
-            {% endif %}
-            {% if solution.description %}
-              — {{ solution.description }}
             {% endif %}
           </li>
         {% endif %}
