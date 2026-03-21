@@ -21,12 +21,9 @@ related_problems:
   similarity: 0.6
 solutions:
 - technical-debt-backlog
-- business-metrics
 - code-metrics
-- compatibility-measurement
+- business-metrics
 - risk-analysis
-- security-metrics
-- security-relevant-metrics
 layout: problem
 ---
 
