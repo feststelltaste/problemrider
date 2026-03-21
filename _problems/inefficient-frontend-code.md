@@ -19,11 +19,9 @@ related_problems:
 - slug: slow-database-queries
   similarity: 0.6
 solutions:
-- user-centered-design
-- browser-compatibility
 - code-splitting
-- image-and-asset-optimization
 - tree-shaking
+- image-and-asset-optimization
 - virtualized-lists
 layout: problem
 ---

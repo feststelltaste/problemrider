@@ -19,12 +19,11 @@ related_problems:
 - slug: system-stagnation
   similarity: 0.6
 solutions:
-- architecture-decision-records
-- documentation-as-code
-- knowledge-sharing-practices
-- audit-trail-management
-- documentation-of-compatibility-requirements
 - living-documentation
+- documentation-as-code
+- architecture-decision-records
+- knowledge-sharing-practices
+- documentation-of-compatibility-requirements
 - timestamping
 layout: problem
 ---
