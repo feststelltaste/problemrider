@@ -19,8 +19,8 @@ related_problems:
 - slug: authentication-bypass-vulnerabilities
   similarity: 0.5
 solutions:
-- observability-and-monitoring
 - security-hardening-process
+- observability-and-monitoring
 layout: problem
 ---
 

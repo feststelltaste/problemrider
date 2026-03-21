@@ -20,9 +20,9 @@ related_problems:
 - slug: author-frustration
   similarity: 0.6
 solutions:
+- stakeholder-feedback-loops
 - continuous-feedback
 - evolutionary-requirements-development
-- stakeholder-feedback-loops
 layout: problem
 ---
 

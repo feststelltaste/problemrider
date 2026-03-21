@@ -18,25 +18,24 @@ related_problems:
   similarity: 0.65
 solutions:
 - clean-code
-- loose-coupling
-- separation-of-concerns
-- architecture-documentation
-- aspect-oriented-programming-aop
-- code-comments
 - code-conventions
-- code-metrics
+- separation-of-concerns
+- loose-coupling
+- code-comments
 - code-reviews
-- decision-tables
-- facades
-- fluent-interfaces
-- high-cohesion
-- layered-architecture
-- object-relational-mapping-orm
-- pattern-language
-- rule-based-systems
-- static-code-analysis
-- strategic-code-deletion
 - ubiquitous-language
+- high-cohesion
+- strategic-code-deletion
+- facades
+- static-code-analysis
+- code-metrics
+- architecture-documentation
+- layered-architecture
+- fluent-interfaces
+- decision-tables
+- rule-based-systems
+- pattern-language
+- aspect-oriented-programming-aop
 layout: problem
 ---
 

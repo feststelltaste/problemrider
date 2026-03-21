@@ -20,10 +20,10 @@ related_problems:
 - slug: duplicated-research-effort
   similarity: 0.55
 solutions:
-- feature-flags
-- continuous-integration
-- continuous-integration-and-delivery
 - trunk-based-development
+- continuous-integration
+- feature-flags
+- continuous-integration-and-delivery
 layout: problem
 ---
 

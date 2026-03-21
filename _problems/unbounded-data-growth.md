@@ -19,23 +19,20 @@ related_problems:
 - slug: gradual-performance-degradation
   similarity: 0.55
 solutions:
-- evolutionary-database-design
-- compression
-- continuous-data-verification
-- data-aggregation
 - data-archiving
-- data-deduplication
-- data-integrity
 - data-partitioning
-- data-quality-checks
 - datensparsamkeit
-- nosql-databases
+- evolutionary-database-design
+- data-aggregation
+- data-deduplication
+- compression
 - pagination
-- probabilistic-data-structures
-- production-environment-maintenance
-- redundant-data-storage
 - sampling
 - streaming
+- probabilistic-data-structures
+- production-environment-maintenance
+- continuous-data-verification
+- data-quality-checks
 layout: problem
 ---
 

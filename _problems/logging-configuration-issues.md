@@ -19,10 +19,10 @@ related_problems:
 - slug: configuration-chaos
   similarity: 0.55
 solutions:
-- observability-and-monitoring
-- asynchronous-logging
 - logging
+- observability-and-monitoring
 - platform-independent-logging-frameworks
+- asynchronous-logging
 layout: problem
 ---
 

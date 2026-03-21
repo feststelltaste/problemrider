@@ -19,13 +19,13 @@ related_problems:
 - slug: incomplete-knowledge
   similarity: 0.6
 solutions:
-- architecture-decision-records
-- documentation-as-code
 - knowledge-sharing-practices
 - pair-and-mob-programming
+- documentation-as-code
+- living-documentation
+- architecture-decision-records
 - architecture-documentation
 - code-comments
-- living-documentation
 layout: problem
 ---
 

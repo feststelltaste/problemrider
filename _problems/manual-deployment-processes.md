@@ -22,14 +22,11 @@ related_problems:
 solutions:
 - ci-cd-pipeline
 - infrastructure-as-code
-- automated-migration-tools
 - continuous-delivery
-- continuous-integration-and-delivery
-- cross-platform-build-scripts
-- multi-cloud-iac
-- platform-independent-build-pipelines
-- platform-independent-scripting-languages
 - standardized-deployment-scripts
+- continuous-integration-and-delivery
+- platform-independent-scripting-languages
+- platform-independent-build-pipelines
 layout: problem
 ---
 

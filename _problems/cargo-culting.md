@@ -20,11 +20,11 @@ related_problems:
 - slug: inability-to-innovate
   similarity: 0.55
 solutions:
-- architecture-reviews
-- boring-technologies
 - technical-skills-development
-- architecture-governance
+- boring-technologies
+- architecture-reviews
 - pattern-language
+- architecture-governance
 layout: problem
 ---
 

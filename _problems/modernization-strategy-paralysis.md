@@ -20,14 +20,13 @@ related_problems:
   similarity: 0.6
 solutions:
 - architecture-roadmap
-- architecture-workshops
-- functional-spike
-- prototypes
 - risk-analysis
-- security-frameworks
+- architecture-workshops
 - technical-spike
-- tracer-bullets
+- functional-spike
 - walking-skeleton
+- tracer-bullets
+- prototypes
 layout: problem
 ---
 

@@ -20,9 +20,9 @@ related_problems:
 - slug: alignment-and-padding-issues
   similarity: 0.5
 solutions:
-- efficient-algorithms
-- profiling
 - resource-usage-optimization
+- profiling
+- efficient-algorithms
 layout: problem
 ---
 

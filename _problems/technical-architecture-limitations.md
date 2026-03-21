@@ -21,12 +21,9 @@ related_problems:
   similarity: 0.55
 solutions:
 - strangler-fig-pattern
-- api-deprecation-policy
 - architecture-conformity-analysis
 - forward-compatibility
-- high-availability-architectures
-- security-architecture-analysis
-- security-by-design
+- api-deprecation-policy
 layout: problem
 ---
 

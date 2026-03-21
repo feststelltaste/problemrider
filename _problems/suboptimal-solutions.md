@@ -21,10 +21,10 @@ related_problems:
   similarity: 0.5
 solutions:
 - architecture-reviews
-- boring-technologies
+- pattern-language
 - clean-code
 - design-by-contract
-- pattern-language
+- boring-technologies
 layout: problem
 ---
 

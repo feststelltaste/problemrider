@@ -19,15 +19,13 @@ related_problems:
   similarity: 0.6
 solutions:
 - caching-strategy
-- serialization-optimization
-- api-calls-optimization
 - compression
+- api-calls-optimization
+- serialization-optimization
+- predictive-prefetching
 - optimistic-ui-updates
 - predictive-loading
-- predictive-prefetching
 - progressive-loading
-- service-mesh
-- virtual-networks
 layout: problem
 ---
 

@@ -20,11 +20,9 @@ related_problems:
 - slug: slow-database-queries
   similarity: 0.55
 solutions:
-- concurrency-control
-- profiling
-- resource-pooling
-- resource-usage-optimization
 - transactions
+- profiling
+- concurrency-control
 layout: problem
 ---
 

@@ -19,8 +19,8 @@ related_problems:
 - slug: planning-dysfunction
   similarity: 0.65
 solutions:
-- iterative-development
 - requirements-analysis
+- iterative-development
 - short-iteration-cycles
 layout: problem
 ---

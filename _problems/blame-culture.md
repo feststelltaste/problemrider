@@ -21,7 +21,6 @@ related_problems:
   similarity: 0.5
 solutions:
 - blameless-postmortems
-- security-culture
 layout: problem
 ---
 

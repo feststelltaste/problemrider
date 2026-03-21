@@ -19,9 +19,9 @@ related_problems:
 - slug: misaligned-deliverables
   similarity: 0.65
 solutions:
+- stakeholder-feedback-loops
 - continuous-feedback
 - product-owner
-- stakeholder-feedback-loops
 - service-level-objectives
 layout: problem
 ---

@@ -20,26 +20,23 @@ related_problems:
 - slug: poor-interfaces-between-applications
   similarity: 0.55
 solutions:
+- canonical-data-model
+- data-integration
 - anti-corruption-layer
+- continuous-data-verification
+- data-replication
+- checksums
+- data-integrity
 - evolutionary-database-design
 - backward-compatible-data-formats
-- canonical-data-model
-- checksums
-- continuous-data-verification
-- cross-platform-serialization
-- data-deduplication
-- data-ecosystems
-- data-enrichment
 - data-format-conversion
 - data-formats
-- data-integration
-- data-integrity
-- data-replication
+- schema-registry
 - data-strategy
 - event-driven-integration
-- platform-independent-time-zone-handling
-- schema-registry
+- cross-platform-serialization
 - standardized-data-formats
+- data-ecosystems
 layout: problem
 ---
 

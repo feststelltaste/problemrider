@@ -21,8 +21,8 @@ related_problems:
 solutions:
 - test-coverage-strategy
 - automated-tests
-- code-coverage-analysis
 - regression-tests
+- code-coverage-analysis
 layout: problem
 ---
 

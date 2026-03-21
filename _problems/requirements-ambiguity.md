@@ -20,27 +20,25 @@ related_problems:
 - slug: unclear-sharing-expectations
   similarity: 0.55
 solutions:
-- evolutionary-requirements-development
 - requirements-analysis
-- stakeholder-feedback-loops
+- specification-by-example
+- user-stories
 - behavior-driven-development-bdd
+- evolutionary-requirements-development
+- story-mapping
+- ubiquitous-language
+- prototypes
+- prototyping
+- on-site-customer
+- stakeholder-feedback-loops
+- personas
 - business-process-modeling
 - business-quality-scenarios
 - business-test-cases
-- compatibility-requirements
-- decision-tables
-- on-site-customer
-- personas
-- prototypes
-- prototyping
-- requirements-traceability-matrix
-- security-requirements-definition
-- specification-by-example
-- story-mapping
 - subject-matter-reviews
-- ubiquitous-language
 - user-acceptance-tests
-- user-stories
+- requirements-traceability-matrix
+- decision-tables
 layout: problem
 ---
 

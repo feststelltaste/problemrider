@@ -19,9 +19,9 @@ related_problems:
 - slug: legacy-configuration-management-chaos
   similarity: 0.55
 solutions:
-- infrastructure-as-code
-- secret-management
 - externalized-configuration
+- secret-management
+- infrastructure-as-code
 - platform-independent-configuration-management
 layout: problem
 ---

@@ -20,8 +20,8 @@ related_problems:
 - slug: technology-stack-fragmentation
   similarity: 0.55
 solutions:
-- dependency-management-strategy
 - technical-spike
+- dependency-management-strategy
 layout: problem
 ---
 

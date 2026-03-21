@@ -20,10 +20,10 @@ related_problems:
 - slug: stakeholder-developer-communication-gap
   similarity: 0.6
 solutions:
-- evolutionary-requirements-development
 - formal-change-control-process
 - product-owner
 - stakeholder-feedback-loops
+- evolutionary-requirements-development
 layout: problem
 ---
 

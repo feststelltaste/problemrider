@@ -20,10 +20,10 @@ related_problems:
 - slug: delayed-decision-making
   similarity: 0.6
 solutions:
-- architecture-decision-records
-- functional-spike
 - technical-spike
+- functional-spike
 - walking-skeleton
+- architecture-decision-records
 layout: problem
 ---
 

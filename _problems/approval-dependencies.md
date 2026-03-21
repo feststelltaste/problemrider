@@ -21,9 +21,8 @@ related_problems:
   similarity: 0.6
 solutions:
 - clear-ownership-model
-- formal-change-control-process
-- iterative-development
 - product-owner
+- iterative-development
 layout: problem
 ---
 

@@ -21,7 +21,6 @@ related_problems:
 solutions:
 - knowledge-sharing-practices
 - architecture-workshops
-- microservices
 layout: problem
 ---
 

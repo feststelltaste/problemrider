@@ -22,10 +22,10 @@ solutions:
 - anti-corruption-layer
 - dependency-management-strategy
 - data-export
-- multi-cloud-iac
 - platform-independence
 - platform-independent-data-storage
 - platform-independent-programming-languages
+- multi-cloud-iac
 layout: problem
 ---
 

@@ -19,8 +19,8 @@ related_problems:
 - slug: decision-avoidance
   similarity: 0.6
 solutions:
-- sustainable-pace-practices
 - team-autonomy-and-empowerment
+- sustainable-pace-practices
 layout: problem
 ---
 

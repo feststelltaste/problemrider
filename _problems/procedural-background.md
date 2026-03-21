@@ -20,9 +20,9 @@ related_problems:
 - slug: difficult-code-comprehension
   similarity: 0.55
 solutions:
-- architecture-reviews
-- solid-principles
 - technical-skills-development
+- solid-principles
+- architecture-reviews
 layout: problem
 ---
 

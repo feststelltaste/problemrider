@@ -20,12 +20,10 @@ related_problems:
 - slug: database-query-performance-issues
   similarity: 0.5
 solutions:
-- api-first-design
-- contract-testing
+- rate-limiting
 - api-gateway
 - api-security
 - load-shedding
-- rate-limiting
 layout: problem
 ---
 

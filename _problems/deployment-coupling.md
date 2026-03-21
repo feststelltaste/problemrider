@@ -19,14 +19,13 @@ related_problems:
 - slug: missing-rollback-strategy
   similarity: 0.6
 solutions:
-- ci-cd-pipeline
-- event-driven-architecture
-- event-driven-integration
-- microservices
 - microservices-architecture
 - modulith
-- rolling-updates
+- event-driven-architecture
+- event-driven-integration
+- ci-cd-pipeline
 - trunk-based-development
+- rolling-updates
 layout: problem
 ---
 

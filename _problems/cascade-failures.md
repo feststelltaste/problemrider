@@ -20,19 +20,18 @@ related_problems:
 - slug: system-integration-blindness
   similarity: 0.6
 solutions:
-- backpressure
-- event-driven-architecture
-- observability-and-monitoring
-- asynchronous-processing
-- bulkhead
-- business-event-processing
-- chaos-engineering
 - circuit-breaker
-- dead-letter-queue
-- distributed-tracing
-- failover-cluster
-- failover-mechanisms
+- bulkhead
 - fault-containment
+- backpressure
+- failover-mechanisms
+- event-driven-architecture
+- asynchronous-processing
+- chaos-engineering
+- observability-and-monitoring
+- distributed-tracing
+- dead-letter-queue
+- failover-cluster
 - fault-tolerant-data-structures
 - graceful-degradation
 - high-availability-architectures

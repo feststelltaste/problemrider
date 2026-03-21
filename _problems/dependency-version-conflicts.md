@@ -21,16 +21,15 @@ related_problems:
   similarity: 0.55
 solutions:
 - dependency-management-strategy
-- compatibility-matrix
-- containerization
-- cross-version-testing
 - dependency-pinning
-- feature-detection
-- regular-maintenance-and-updates
-- secure-programming-interfaces
 - semantic-versioning
-- version-control
 - versioning-scheme
+- version-control
+- cross-version-testing
+- compatibility-matrix
+- regular-maintenance-and-updates
+- containerization
+- feature-detection
 - virtualization
 layout: problem
 ---

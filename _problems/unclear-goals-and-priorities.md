@@ -21,9 +21,8 @@ related_problems:
   similarity: 0.6
 solutions:
 - product-strategy-alignment
-- compatibility-governance
-- service-level-objectives
 - story-mapping
+- service-level-objectives
 layout: problem
 ---
 

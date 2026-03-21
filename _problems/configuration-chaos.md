@@ -20,16 +20,14 @@ related_problems:
   similarity: 0.65
 solutions:
 - infrastructure-as-code
-- secret-management
-- abstracted-file-system-access
-- compatibility-matrix
 - externalized-configuration
-- immutable-infrastructure
-- monitoring-system-integrity
-- platform-independent-configuration-files
 - platform-independent-configuration-management
-- secure-by-default
+- platform-independent-configuration-files
+- immutable-infrastructure
 - secure-configuration
+- secure-by-default
+- monitoring-system-integrity
+- secret-management
 layout: problem
 ---
 

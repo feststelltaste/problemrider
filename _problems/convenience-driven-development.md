@@ -21,10 +21,10 @@ related_problems:
 solutions:
 - architecture-reviews
 - clean-code
-- separation-of-concerns
 - solid-principles
 - architecture-governance
 - architecture-review-board
+- separation-of-concerns
 layout: problem
 ---
 

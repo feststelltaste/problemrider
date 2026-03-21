@@ -18,10 +18,10 @@ related_problems:
 - slug: project-authority-vacuum
   similarity: 0.55
 solutions:
-- clear-ownership-model
 - clear-roles-and-ownership
-- psychological-safety-practices
+- clear-ownership-model
 - team-autonomy-and-empowerment
+- psychological-safety-practices
 layout: problem
 ---
 

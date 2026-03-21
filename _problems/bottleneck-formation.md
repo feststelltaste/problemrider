@@ -20,11 +20,9 @@ related_problems:
 - slug: tool-limitations
   similarity: 0.6
 solutions:
-- event-driven-architecture
 - parallelization
 - pipelining
-- read-replicas
-- specialized-hardware
+- event-driven-architecture
 - streaming
 layout: problem
 ---

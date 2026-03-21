@@ -20,18 +20,18 @@ related_problems:
 - slug: refactoring-avoidance
   similarity: 0.65
 solutions:
-- blue-green-canary-deployments
+- regression-tests
 - feature-flags
-- strangler-fig-pattern
 - backward-compatibility
-- backward-compatible-apis
+- blue-green-canary-deployments
+- strangler-fig-pattern
 - code-coverage-analysis
+- consumer-driven-contracts
+- functional-tests
+- backward-compatible-apis
 - compatibility-as-error
 - compatibility-requirements
-- consumer-driven-contracts
 - functional-spike
-- functional-tests
-- regression-tests
 layout: problem
 ---
 

@@ -13,14 +13,14 @@ related_problems:
 - slug: buffer-overflow-vulnerabilities
   similarity: 0.55
 solutions:
-- security-hardening-process
-- abuse-case-definition
-- api-security
 - prepared-statements
-- red-teaming
 - secure-coding-guidelines
-- secure-programming-interfaces
 - security-tests
+- secure-programming-interfaces
+- security-hardening-process
+- api-security
+- abuse-case-definition
+- red-teaming
 layout: problem
 ---
 

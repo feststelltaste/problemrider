@@ -19,12 +19,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - caching-strategy
-- efficient-algorithms
 - profiling
-- resource-usage-optimization
 - batch-processing
-- compression
 - in-memory-processing
+- efficient-algorithms
+- resource-usage-optimization
+- compression
 layout: problem
 ---
 

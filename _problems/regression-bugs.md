@@ -21,26 +21,19 @@ related_problems:
   similarity: 0.55
 solutions:
 - test-coverage-strategy
-- acceptance-tests
 - automated-tests
-- backward-compatibility
-- behavior-driven-development-bdd
-- business-test-cases
-- code-coverage-analysis
-- compatibility-as-error
-- compatibility-testing
 - continuous-integration
-- cross-version-testing
-- environment-parity
-- functional-tests
+- test-driven-development-tdd
 - integration-tests
+- functional-tests
+- smoke-testing
+- acceptance-tests
+- code-coverage-analysis
 - mutation-testing
 - property-based-testing
-- regression-tests
+- behavior-driven-development-bdd
+- business-test-cases
 - root-cause-analysis
-- smoke-testing
-- test-driven-development-tdd
-- value-range-definition
 layout: problem
 ---
 

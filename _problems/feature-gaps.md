@@ -19,19 +19,13 @@ related_problems:
 - slug: feature-bloat
   similarity: 0.55
 solutions:
-- impact-mapping
 - user-centered-design
-- assistive-technology-support
-- custom-views
-- customizable-user-interface
-- customizing
-- data-enrichment
-- direct-feedback
-- empty-states-and-first-use-guidance
-- feedback-mechanisms
-- requirements-traceability-matrix
+- impact-mapping
 - story-mapping
 - usability-tests
+- direct-feedback
+- feedback-mechanisms
+- requirements-traceability-matrix
 layout: problem
 ---
 

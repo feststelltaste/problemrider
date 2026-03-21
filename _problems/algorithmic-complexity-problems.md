@@ -22,9 +22,7 @@ related_problems:
 solutions:
 - efficient-algorithms
 - profiling
-- serialization-optimization
 - approximation-methods
-- graph-databases
 layout: problem
 ---
 

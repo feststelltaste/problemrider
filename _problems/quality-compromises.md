@@ -20,8 +20,6 @@ related_problems:
   similarity: 0.6
 solutions:
 - definition-of-done
-- secure-software-development
-- security-culture
 layout: problem
 ---
 

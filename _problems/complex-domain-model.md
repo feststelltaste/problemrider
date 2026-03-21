@@ -19,10 +19,9 @@ related_problems:
 - slug: difficult-to-understand-code
   similarity: 0.55
 solutions:
-- modularization-and-bounded-contexts
 - bounded-contexts
+- modularization-and-bounded-contexts
 - data-modeling
-- graph-databases
 layout: problem
 ---
 

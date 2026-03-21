@@ -20,8 +20,8 @@ related_problems:
 - slug: unclear-sharing-expectations
   similarity: 0.55
 solutions:
-- documentation-as-code
 - living-documentation
+- documentation-as-code
 layout: problem
 ---
 

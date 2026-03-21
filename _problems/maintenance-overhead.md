@@ -20,13 +20,12 @@ related_problems:
   similarity: 0.65
 solutions:
 - technical-debt-backlog
+- standard-software
+- code-generation
+- aspect-oriented-programming-aop
 - api-deprecation-policy
 - api-versioning-strategy
-- aspect-oriented-programming-aop
-- code-generation
-- design-tokens
 - rule-based-systems
-- standard-software
 layout: problem
 ---
 

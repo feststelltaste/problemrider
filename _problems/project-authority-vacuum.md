@@ -18,8 +18,8 @@ related_problems:
 - slug: stakeholder-dissatisfaction
   similarity: 0.5
 solutions:
-- clear-ownership-model
 - product-owner
+- clear-ownership-model
 layout: problem
 ---
 

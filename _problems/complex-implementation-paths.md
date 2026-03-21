@@ -20,11 +20,11 @@ related_problems:
 - slug: procrastination-on-complex-tasks
   similarity: 0.55
 solutions:
-- architecture-reviews
-- design-by-contract
-- loose-coupling
 - separation-of-concerns
+- loose-coupling
+- architecture-reviews
 - tracer-bullets
+- design-by-contract
 layout: problem
 ---
 

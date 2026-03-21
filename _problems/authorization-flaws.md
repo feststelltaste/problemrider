@@ -15,18 +15,16 @@ related_problems:
 - slug: session-management-issues
   similarity: 0.5
 solutions:
-- security-hardening-process
-- abuse-case-definition
-- api-security
-- audit-trail-management
-- authentication
 - authorization
 - authorization-concept
-- red-teaming
 - role-based-access-control
-- secure-session-management
+- security-hardening-process
 - security-by-design
+- abuse-case-definition
+- api-security
+- red-teaming
 - security-tests-by-external-parties
+- audit-trail-management
 layout: problem
 ---
 

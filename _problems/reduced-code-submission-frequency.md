@@ -19,8 +19,8 @@ related_problems:
 - slug: review-process-avoidance
   similarity: 0.6
 solutions:
-- development-environment-optimization
 - development-workflow-automation
+- development-environment-optimization
 - regression-testing
 layout: problem
 ---

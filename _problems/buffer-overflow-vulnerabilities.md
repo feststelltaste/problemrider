@@ -17,10 +17,9 @@ related_problems:
 - slug: log-injection-vulnerabilities
   similarity: 0.5
 solutions:
+- secure-coding-guidelines
 - security-hardening-process
 - abuse-case-definition
-- prepared-statements
-- secure-coding-guidelines
 layout: problem
 ---
 

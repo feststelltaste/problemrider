@@ -15,16 +15,15 @@ related_problems:
 - slug: operational-overhead
   similarity: 0.5
 solutions:
-- api-first-design
-- caching-strategy
-- serialization-optimization
 - api-gateway
+- serialization-optimization
+- caching-strategy
+- event-driven-integration
+- service-mesh
+- api-first-design
+- standardized-protocols
 - consumer-driven-contracts
 - distributed-tracing
-- event-driven-integration
-- idempotent-operations
-- service-mesh
-- standardized-protocols
 layout: problem
 ---
 

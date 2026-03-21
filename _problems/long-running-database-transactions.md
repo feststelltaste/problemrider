@@ -19,10 +19,9 @@ related_problems:
 - slug: resource-contention
   similarity: 0.55
 solutions:
-- evolutionary-database-design
 - query-optimization-process
 - transactions
-- write-ahead-logging
+- evolutionary-database-design
 layout: problem
 ---
 

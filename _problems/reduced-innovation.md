@@ -20,8 +20,8 @@ related_problems:
 - slug: technology-isolation
   similarity: 0.6
 solutions:
-- impact-mapping
 - product-strategy-alignment
+- impact-mapping
 layout: problem
 ---
 

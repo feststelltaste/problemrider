@@ -20,32 +20,25 @@ related_problems:
 - slug: scaling-inefficiencies
   similarity: 0.6
 solutions:
-- event-driven-architecture
 - modularization-and-bounded-contexts
 - strangler-fig-pattern
-- abstraction
-- architecture-conformity-analysis
-- bounded-contexts
-- bridges
-- bubble-context
-- bulkhead
-- business-event-processing
-- cloud-native-development
-- cqrs
-- distributed-processing
-- event-driven-integration
-- facades
-- fault-containment
-- hexagonal-architecture
-- high-availability-architectures
-- horizontal-scaling
-- isolation-of-faulty-components
-- layered-architecture
-- mediator
+- modulith
 - microservices
 - microservices-architecture
-- modulith
-- security-architecture-analysis
+- bounded-contexts
+- hexagonal-architecture
+- event-driven-architecture
+- event-driven-integration
+- layered-architecture
+- facades
+- abstraction
+- architecture-conformity-analysis
+- bubble-context
+- bulkhead
+- cqrs
+- distributed-processing
+- horizontal-scaling
+- cloud-native-development
 layout: problem
 ---
 

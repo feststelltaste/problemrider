@@ -20,10 +20,10 @@ related_problems:
   similarity: 0.55
 solutions:
 - regression-testing
-- user-centered-design
 - auto-save
 - confirmation-dialogs
 - feedback
+- user-centered-design
 layout: problem
 ---
 

@@ -17,10 +17,9 @@ related_problems:
 - slug: resource-allocation-failures
   similarity: 0.5
 solutions:
-- design-by-contract
 - loose-coupling
-- separation-of-concerns
 - solid-principles
+- separation-of-concerns
 layout: problem
 ---
 

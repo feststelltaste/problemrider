@@ -20,9 +20,8 @@ related_problems:
   similarity: 0.6
 solutions:
 - observability-and-monitoring
-- asynchronous-logging
-- platform-independent-logging-frameworks
 - sampling
+- asynchronous-logging
 layout: problem
 ---
 

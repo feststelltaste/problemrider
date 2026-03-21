@@ -19,8 +19,8 @@ related_problems:
 - slug: scaling-inefficiencies
   similarity: 0.55
 solutions:
-- impact-mapping
 - product-strategy-alignment
+- impact-mapping
 layout: problem
 ---
 

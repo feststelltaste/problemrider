@@ -18,11 +18,10 @@ related_problems:
 - slug: database-query-performance-issues
   similarity: 0.6
 solutions:
-- backpressure
-- caching-strategy
 - memory-management-optimization
-- resource-pooling
 - resource-usage-optimization
+- resource-pooling
+- backpressure
 layout: problem
 ---
 

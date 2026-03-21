@@ -19,13 +19,12 @@ related_problems:
 - slug: cascade-failures
   similarity: 0.6
 solutions:
-- documentation-as-code
+- interoperability-tests
+- tracer-bullets
 - modularization-and-bounded-contexts
 - data-ecosystems
 - data-strategy
-- interoperability-tests
-- security-architecture-analysis
-- tracer-bullets
+- documentation-as-code
 layout: problem
 ---
 

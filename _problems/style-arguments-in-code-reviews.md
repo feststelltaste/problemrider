@@ -19,9 +19,9 @@ related_problems:
 - slug: inadequate-initial-reviews
   similarity: 0.6
 solutions:
-- code-review-process-reform
 - static-analysis-and-linting
 - code-conventions
+- code-review-process-reform
 layout: problem
 ---
 

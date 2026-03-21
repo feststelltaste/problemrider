@@ -22,13 +22,10 @@ solutions:
 - modularization-and-bounded-contexts
 - abstraction
 - abstraction-layers
+- facades
+- modulith
 - api-first-development
 - bridges
-- cross-platform-frameworks
-- design-tokens
-- facades
-- fluent-interfaces
-- modulith
 layout: problem
 ---
 

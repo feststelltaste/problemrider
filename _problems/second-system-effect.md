@@ -21,8 +21,8 @@ related_problems:
   similarity: 0.55
 solutions:
 - architecture-reviews
-- architecture-roadmap
 - boring-technologies
+- architecture-roadmap
 layout: problem
 ---
 

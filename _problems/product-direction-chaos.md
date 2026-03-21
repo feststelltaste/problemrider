@@ -20,9 +20,9 @@ related_problems:
 - slug: changing-project-scope
   similarity: 0.6
 solutions:
-- continuous-feedback
-- impact-mapping
 - product-strategy-alignment
+- impact-mapping
+- continuous-feedback
 layout: problem
 ---
 

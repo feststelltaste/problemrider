@@ -18,9 +18,8 @@ related_problems:
 - slug: no-continuous-feedback-loop
   similarity: 0.55
 solutions:
-- architecture-reviews
 - boring-technologies
-- technical-skills-development
+- architecture-reviews
 layout: problem
 ---
 

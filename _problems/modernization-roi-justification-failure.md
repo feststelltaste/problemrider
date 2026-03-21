@@ -19,11 +19,11 @@ related_problems:
 - slug: second-system-effect
   similarity: 0.55
 solutions:
-- technical-debt-backlog
 - business-metrics
+- technical-debt-backlog
+- service-level-objectives
 - performance-modeling
 - security-relevant-metrics
-- service-level-objectives
 layout: problem
 ---
 

@@ -20,14 +20,14 @@ related_problems:
 - slug: integration-difficulties
   similarity: 0.55
 solutions:
-- anti-corruption-layer
 - strangler-fig-pattern
-- abstraction-layers
+- anti-corruption-layer
 - adapter
+- abstraction-layers
 - architecture-conformity-analysis
+- architecture-workshops
 - architecture-governance
 - architecture-review-board
-- architecture-workshops
 - hexagonal-architecture
 - security-architecture-analysis
 - security-by-design

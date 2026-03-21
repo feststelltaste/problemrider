@@ -20,14 +20,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - caching-strategy
-- serialization-optimization
+- circuit-breaker
+- timeout-management
 - asynchronous-operations
 - asynchronous-processing
-- circuit-breaker
-- cold-start-mitigation
-- optimistic-ui-updates
 - retry
-- timeout-management
+- optimistic-ui-updates
 layout: problem
 ---
 

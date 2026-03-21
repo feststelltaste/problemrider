@@ -19,8 +19,8 @@ related_problems:
 - slug: misunderstanding-of-oop
   similarity: 0.55
 solutions:
-- incremental-refactoring
 - modularization-and-bounded-contexts
+- incremental-refactoring
 - high-cohesion
 layout: problem
 ---

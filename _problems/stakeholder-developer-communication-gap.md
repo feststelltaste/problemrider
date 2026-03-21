@@ -20,23 +20,22 @@ related_problems:
   similarity: 0.65
 solutions:
 - continuous-feedback
-- evolutionary-requirements-development
-- product-owner
-- requirements-analysis
 - stakeholder-feedback-loops
-- api-documentation
+- product-owner
+- on-site-customer
+- ubiquitous-language
+- requirements-analysis
+- evolutionary-requirements-development
+- user-stories
+- specification-by-example
 - behavior-driven-development-bdd
 - business-process-modeling
 - business-quality-scenarios
 - business-test-cases
 - direct-feedback
 - feedback-mechanisms
-- on-site-customer
-- specification-by-example
 - subject-matter-reviews
 - transparent-performance-metrics
-- ubiquitous-language
-- user-stories
 layout: problem
 ---
 

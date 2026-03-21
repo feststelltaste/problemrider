@@ -19,12 +19,11 @@ related_problems:
 - slug: complex-and-obscure-logic
   similarity: 0.65
 solutions:
-- technical-debt-backlog
 - bubble-context
-- fault-tolerant-data-structures
-- feature-detection
-- plausibility-checks
+- technical-debt-backlog
 - resilience
+- plausibility-checks
+- fault-tolerant-data-structures
 - tolerant-reader
 layout: problem
 ---

@@ -17,14 +17,12 @@ related_problems:
 - slug: authentication-bypass-vulnerabilities
   similarity: 0.5
 solutions:
-- security-hardening-process
-- abuse-case-definition
-- api-security
-- red-teaming
 - secure-coding-guidelines
 - secure-programming-interfaces
-- secure-session-management
+- security-hardening-process
 - security-tests
+- red-teaming
+- abuse-case-definition
 layout: problem
 ---
 

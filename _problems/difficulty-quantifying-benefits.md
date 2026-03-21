@@ -23,14 +23,10 @@ solutions:
 - technical-debt-backlog
 - business-metrics
 - business-quality-scenarios
-- compatibility-measurement
-- functional-spike
-- performance-modeling
-- prototyping
 - risk-analysis
-- security-certification
-- security-metrics
-- security-relevant-metrics
+- functional-spike
+- prototyping
+- performance-modeling
 layout: problem
 ---
 

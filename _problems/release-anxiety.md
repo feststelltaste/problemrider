@@ -20,11 +20,11 @@ related_problems:
 - slug: perfectionist-culture
   similarity: 0.6
 solutions:
-- blue-green-canary-deployments
 - ci-cd-pipeline
-- feature-flags
-- canary-releases
 - continuous-delivery
+- blue-green-canary-deployments
+- canary-releases
+- feature-flags
 - dark-launches
 layout: problem
 ---

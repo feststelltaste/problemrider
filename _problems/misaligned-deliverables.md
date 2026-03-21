@@ -21,18 +21,17 @@ related_problems:
 solutions:
 - continuous-feedback
 - stakeholder-feedback-loops
-- on-site-customer
-- personas
+- user-acceptance-tests
+- subject-matter-reviews
 - prototypes
 - prototyping
-- requirements-traceability-matrix
 - specification-by-example
-- story-mapping
-- subject-matter-reviews
-- ubiquitous-language
-- usability-tests
-- user-acceptance-tests
 - user-stories
+- story-mapping
+- on-site-customer
+- requirements-traceability-matrix
+- ubiquitous-language
+- personas
 layout: problem
 ---
 

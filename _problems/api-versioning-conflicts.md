@@ -20,14 +20,14 @@ related_problems:
 - slug: deployment-environment-inconsistencies
   similarity: 0.55
 solutions:
+- api-versioning-strategy
+- backward-compatible-apis
+- api-deprecation-policy
+- backward-compatibility
+- api-gateway
+- compatibility-governance
 - anti-corruption-layer
 - dependency-management-strategy
-- api-deprecation-policy
-- api-gateway
-- api-versioning-strategy
-- backward-compatibility
-- backward-compatible-apis
-- compatibility-governance
 - compatibility-standards
 - consumer-driven-contracts
 - schema-registry

@@ -18,12 +18,12 @@ related_problems:
 - slug: inconsistent-codebase
   similarity: 0.6
 solutions:
+- strategic-code-deletion
 - architecture-reviews
-- clean-code
-- loose-coupling
 - separation-of-concerns
 - solid-principles
-- strategic-code-deletion
+- clean-code
+- loose-coupling
 - tree-shaking
 layout: problem
 ---

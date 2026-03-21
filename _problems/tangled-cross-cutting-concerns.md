@@ -19,11 +19,11 @@ related_problems:
 - slug: poorly-defined-responsibilities
   similarity: 0.55
 solutions:
-- incremental-refactoring
-- modularization-and-bounded-contexts
 - aspect-oriented-programming-aop
-- high-cohesion
 - layered-architecture
+- modularization-and-bounded-contexts
+- high-cohesion
+- incremental-refactoring
 layout: problem
 ---
 

@@ -19,9 +19,9 @@ related_problems:
 - slug: misconfigured-connection-pools
   similarity: 0.55
 solutions:
-- event-driven-architecture
-- circuit-breaker
 - timeout-management
+- circuit-breaker
+- event-driven-architecture
 layout: problem
 ---
 

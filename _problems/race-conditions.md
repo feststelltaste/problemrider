@@ -21,10 +21,9 @@ related_problems:
   similarity: 0.5
 solutions:
 - concurrency-control
-- resource-pooling
+- transactions
 - idempotency-design
 - idempotent-operations
-- transactions
 layout: problem
 ---
 

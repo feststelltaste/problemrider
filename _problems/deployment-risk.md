@@ -20,36 +20,26 @@ related_problems:
 - slug: immature-delivery-strategy
   similarity: 0.6
 solutions:
+- rollback-mechanisms
 - blue-green-canary-deployments
 - ci-cd-pipeline
 - feature-flags
-- infrastructure-as-code
-- backup-and-recovery
-- backward-compatibility
-- backward-compatible-schema-migrations
 - canary-releases
-- containerization
-- continuous-delivery
-- continuous-integration
-- continuous-integration-and-delivery
-- dark-launches
-- dependency-pinning
-- disaster-recovery
-- environment-parity
-- failover-cluster
-- feature-toggles
-- immutable-infrastructure
-- integration-tests
-- load-testing
-- redundancy
-- regular-backups
-- restore-points
-- risk-analysis
-- rollback-mechanisms
-- rolling-updates
-- site-reliability-engineering-sre
 - smoke-testing
+- infrastructure-as-code
+- continuous-delivery
+- rolling-updates
+- backward-compatible-schema-migrations
+- environment-parity
 - standardized-deployment-scripts
+- containerization
+- integration-tests
+- dark-launches
+- immutable-infrastructure
+- load-testing
+- risk-analysis
+- backup-and-recovery
+- restore-points
 layout: problem
 ---
 

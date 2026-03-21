@@ -20,10 +20,9 @@ related_problems:
 - slug: reduced-feature-quality
   similarity: 0.55
 solutions:
-- impact-mapping
 - product-strategy-alignment
+- impact-mapping
 - user-centered-design
-- assistive-technology-support
 layout: problem
 ---
 

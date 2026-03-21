@@ -19,20 +19,20 @@ related_problems:
 - slug: hidden-dependencies
   similarity: 0.6
 solutions:
-- design-by-contract
 - loose-coupling
 - separation-of-concerns
 - solid-principles
+- high-cohesion
+- bounded-contexts
+- modulith
+- layered-architecture
 - abstraction
+- fault-containment
+- design-by-contract
 - architecture-conformity-analysis
 - backward-compatibility
-- bounded-contexts
-- bridges
-- fault-containment
-- high-cohesion
-- layered-architecture
 - mediator
-- modulith
+- bridges
 - semantic-versioning
 - tolerant-reader
 layout: problem

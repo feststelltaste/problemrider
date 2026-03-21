@@ -20,25 +20,22 @@ related_problems:
 - slug: vendor-lock-in
   similarity: 0.6
 solutions:
-- architecture-decision-records
 - strangler-fig-pattern
-- abstraction
-- architecture-conformity-analysis
-- architecture-documentation
+- architecture-workshops
 - architecture-governance
 - architecture-review-board
-- architecture-workshops
-- emulation
-- forward-compatibility
+- architecture-decision-records
+- architecture-conformity-analysis
+- architecture-documentation
 - hexagonal-architecture
-- high-availability-architectures
+- modulith
 - microservices
 - microservices-architecture
-- modulith
+- abstraction
+- forward-compatibility
 - platform-independence
 - platform-independent-programming-languages
-- security-architecture-analysis
-- security-by-design
+- emulation
 layout: problem
 ---
 

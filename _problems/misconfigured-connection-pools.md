@@ -19,8 +19,8 @@ related_problems:
 - slug: service-timeouts
   similarity: 0.55
 solutions:
-- query-optimization-process
 - connection-pooling
+- query-optimization-process
 layout: problem
 ---
 

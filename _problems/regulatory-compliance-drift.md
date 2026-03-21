@@ -20,29 +20,26 @@ related_problems:
 - slug: legacy-system-documentation-archaeology
   similarity: 0.5
 solutions:
-- security-hardening-process
-- assistive-technology-support
-- audit-trail-management
-- authorization
-- authorization-concept
-- backup-and-recovery
-- compatibility-certification
-- data-export
-- datensparsamkeit
-- focus-management
-- monitoring-system-integrity
-- privacy-by-design
-- regular-maintenance-and-updates
-- requirements-traceability-matrix
-- risk-analysis
-- role-based-access-control
-- secure-protocols
 - security-audits
 - security-certification
 - security-frameworks
-- security-policies-for-users
+- risk-analysis
 - security-requirements-definition
+- audit-trail-management
+- requirements-traceability-matrix
+- regular-maintenance-and-updates
+- security-hardening-process
+- privacy-by-design
+- authorization-concept
+- authorization
+- role-based-access-control
+- secure-protocols
+- monitoring-system-integrity
 - security-tests-by-external-parties
+- security-policies-for-users
+- backup-and-recovery
+- data-export
+- compatibility-certification
 layout: problem
 ---
 

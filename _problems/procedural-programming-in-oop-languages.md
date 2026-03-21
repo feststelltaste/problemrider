@@ -19,9 +19,9 @@ related_problems:
 - slug: mixed-coding-styles
   similarity: 0.5
 solutions:
-- clean-code
-- separation-of-concerns
 - solid-principles
+- separation-of-concerns
+- clean-code
 - technical-skills-development
 layout: problem
 ---

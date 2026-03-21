@@ -20,9 +20,9 @@ related_problems:
   similarity: 0.6
 solutions:
 - incremental-refactoring
-- technical-debt-backlog
-- refactoring-katas
 - test-driven-development-tdd
+- refactoring-katas
+- technical-debt-backlog
 layout: problem
 ---
 

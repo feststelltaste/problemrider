@@ -19,9 +19,9 @@ related_problems:
 - slug: duplicated-effort
   similarity: 0.65
 solutions:
-- clear-ownership-model
 - clear-roles-and-ownership
 - structured-communication-protocols
+- clear-ownership-model
 layout: problem
 ---
 

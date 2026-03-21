@@ -20,22 +20,20 @@ related_problems:
 - slug: difficult-to-test-code
   similarity: 0.55
 solutions:
-- definition-of-done
 - test-coverage-strategy
-- acceptance-tests
-- automated-tests
-- behavior-driven-development-bdd
-- business-test-cases
 - code-coverage-analysis
+- test-driven-development-tdd
+- automated-tests
+- acceptance-tests
 - functional-tests
 - integration-tests
 - mutation-testing
-- platform-independent-test-frameworks
 - property-based-testing
-- regression-tests
-- requirements-traceability-matrix
+- behavior-driven-development-bdd
+- business-test-cases
+- definition-of-done
+- platform-independent-test-frameworks
 - security-tests
-- test-driven-development-tdd
 layout: problem
 ---
 

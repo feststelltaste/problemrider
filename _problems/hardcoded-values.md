@@ -11,14 +11,11 @@ related_problems:
 - slug: brittle-codebase
   similarity: 0.5
 solutions:
-- incremental-refactoring
-- secret-management
-- static-analysis-and-linting
-- abstracted-file-system-access
 - externalized-configuration
-- platform-independent-configuration-files
+- incremental-refactoring
+- static-analysis-and-linting
+- secret-management
 - platform-independent-configuration-management
-- rule-based-systems
 - value-range-definition
 layout: problem
 ---

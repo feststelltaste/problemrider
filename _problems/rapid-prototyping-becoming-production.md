@@ -21,9 +21,9 @@ related_problems:
   similarity: 0.55
 solutions:
 - architecture-reviews
+- prototyping
 - boring-technologies
 - technical-skills-development
-- prototyping
 layout: problem
 ---
 

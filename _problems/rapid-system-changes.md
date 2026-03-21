@@ -19,10 +19,10 @@ related_problems:
 - slug: poor-documentation
   similarity: 0.6
 solutions:
-- architecture-roadmap
 - change-management-process
-- contract-testing
 - regression-testing
+- contract-testing
+- architecture-roadmap
 layout: problem
 ---
 

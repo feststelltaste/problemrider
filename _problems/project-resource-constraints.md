@@ -19,9 +19,9 @@ related_problems:
 - slug: scope-change-resistance
   similarity: 0.55
 solutions:
-- change-management-process
 - iterative-development
 - short-iteration-cycles
+- change-management-process
 layout: problem
 ---
 

@@ -19,10 +19,10 @@ related_problems:
 - slug: constantly-shifting-deadlines
   similarity: 0.6
 solutions:
-- architecture-roadmap
-- impact-mapping
-- product-strategy-alignment
 - continuous-delivery
+- product-strategy-alignment
+- impact-mapping
+- architecture-roadmap
 layout: problem
 ---
 

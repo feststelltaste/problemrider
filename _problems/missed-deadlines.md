@@ -20,9 +20,9 @@ related_problems:
 - slug: poor-planning
   similarity: 0.65
 solutions:
-- evolutionary-requirements-development
-- iterative-development
 - short-iteration-cycles
+- iterative-development
+- evolutionary-requirements-development
 layout: problem
 ---
 

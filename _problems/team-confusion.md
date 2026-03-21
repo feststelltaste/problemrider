@@ -20,9 +20,9 @@ related_problems:
 - slug: user-confusion
   similarity: 0.7
 solutions:
-- clear-ownership-model
 - clear-roles-and-ownership
 - structured-communication-protocols
+- clear-ownership-model
 layout: problem
 ---
 

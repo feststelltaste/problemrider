@@ -21,8 +21,6 @@ related_problems:
 solutions:
 - definition-of-done
 - code-metrics
-- compatibility-as-error
-- compatibility-standards
 layout: problem
 ---
 

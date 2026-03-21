@@ -19,12 +19,11 @@ related_problems:
 - slug: lock-contention
   similarity: 0.65
 solutions:
+- resource-pooling
+- resource-usage-optimization
 - backpressure
 - concurrency-control
 - elastic-scaling
-- resource-pooling
-- resource-usage-optimization
-- serialization-optimization
 - bulkhead
 - elastic-resource-utilization
 - timeout-management

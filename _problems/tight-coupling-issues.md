@@ -19,29 +19,29 @@ related_problems:
 - slug: cascade-failures
   similarity: 0.6
 solutions:
-- event-driven-architecture
-- incremental-refactoring
 - modularization-and-bounded-contexts
-- abstracted-file-system-access
-- abstraction
+- incremental-refactoring
 - abstraction-layers
-- api-first-development
-- architecture-conformity-analysis
-- bounded-contexts
-- bridges
-- business-event-processing
-- event-driven-integration
-- fault-containment
+- abstraction
 - hexagonal-architecture
-- isolation-of-faulty-components
 - layered-architecture
-- mediator
+- event-driven-architecture
+- bounded-contexts
+- modulith
 - microservices
 - microservices-architecture
-- modulith
-- protocol-abstraction
 - standardized-interfaces
+- api-first-development
+- mediator
+- event-driven-integration
+- business-event-processing
 - tolerant-reader
+- bridges
+- protocol-abstraction
+- architecture-conformity-analysis
+- abstracted-file-system-access
+- fault-containment
+- isolation-of-faulty-components
 layout: problem
 ---
 

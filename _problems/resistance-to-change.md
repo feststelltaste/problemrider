@@ -22,8 +22,6 @@ related_problems:
 solutions:
 - blameless-postmortems
 - architecture-workshops
-- raising-user-awareness
-- security-culture
 layout: problem
 ---
 

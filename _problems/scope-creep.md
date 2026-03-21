@@ -19,13 +19,13 @@ related_problems:
 - slug: eager-to-please-stakeholders
   similarity: 0.6
 solutions:
-- change-management-process
-- evolutionary-requirements-development
 - formal-change-control-process
+- change-management-process
 - product-owner
-- requirements-analysis
-- stakeholder-feedback-loops
 - story-mapping
+- requirements-analysis
+- evolutionary-requirements-development
+- stakeholder-feedback-loops
 layout: problem
 ---
 

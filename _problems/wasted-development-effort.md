@@ -19,10 +19,10 @@ related_problems:
 - slug: process-design-flaws
   similarity: 0.6
 solutions:
-- development-environment-optimization
-- development-workflow-automation
-- impact-mapping
 - product-strategy-alignment
+- impact-mapping
+- development-workflow-automation
+- development-environment-optimization
 layout: problem
 ---
 

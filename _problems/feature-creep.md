@@ -20,11 +20,10 @@ related_problems:
 - slug: slow-feature-development
   similarity: 0.6
 solutions:
-- evolutionary-requirements-development
 - formal-change-control-process
 - product-owner
 - requirements-analysis
-- feature-toggles
+- evolutionary-requirements-development
 layout: problem
 ---
 

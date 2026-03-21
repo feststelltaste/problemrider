@@ -20,14 +20,14 @@ related_problems:
 - slug: brittle-codebase
   similarity: 0.55
 solutions:
-- anti-corruption-layer
-- dependency-management-strategy
-- adapter
-- api-deprecation-policy
-- api-versioning-strategy
 - backward-compatibility
 - backward-compatible-apis
+- api-versioning-strategy
+- api-deprecation-policy
 - backward-compatible-data-formats
+- adapter
+- anti-corruption-layer
+- dependency-management-strategy
 - backward-compatible-schema-migrations
 - compatibility-as-error
 - compatibility-governance

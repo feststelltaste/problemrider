@@ -20,8 +20,8 @@ related_problems:
 - slug: delayed-bug-fixes
   similarity: 0.6
 solutions:
-- ci-cd-pipeline
 - continuous-delivery
+- ci-cd-pipeline
 - continuous-integration-and-delivery
 - feature-toggles
 layout: problem

@@ -18,22 +18,22 @@ related_problems:
 - slug: poor-user-experience-ux-design
   similarity: 0.6
 solutions:
-- user-centered-design
-- assistive-technology-support
-- cognitive-load-minimization
-- consistent-terminology
 - consistent-user-interface
+- consistent-terminology
+- user-centered-design
+- cognitive-load-minimization
 - contextual-help
+- empty-states-and-first-use-guidance
+- usability-tests
+- personas
+- feedback
+- input-constraints-and-defaults
+- form-design
+- focus-management
+- frequently-asked-questions-faq
 - custom-views
 - customizable-user-interface
-- empty-states-and-first-use-guidance
-- feedback
-- focus-management
-- form-design
-- frequently-asked-questions-faq
-- input-constraints-and-defaults
-- personas
-- usability-tests
+- assistive-technology-support
 layout: problem
 ---
 

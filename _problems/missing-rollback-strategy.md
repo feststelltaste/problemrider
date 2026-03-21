@@ -20,16 +20,13 @@ related_problems:
 - slug: deployment-coupling
   similarity: 0.6
 solutions:
+- rollback-mechanisms
 - blue-green-canary-deployments
-- ci-cd-pipeline
 - feature-flags
+- restore-points
+- ci-cd-pipeline
 - backup-and-recovery
 - disaster-recovery
-- regular-backups
-- restore-points
-- rollback-mechanisms
-- stress-testing
-- write-ahead-logging
 layout: problem
 ---
 

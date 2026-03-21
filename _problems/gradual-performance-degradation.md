@@ -20,39 +20,20 @@ related_problems:
   similarity: 0.55
 solutions:
 - observability-and-monitoring
-- approximation-methods
-- asynchronous-logging
-- batch-processing
-- code-splitting
-- cold-start-mitigation
 - continuous-performance-monitoring
-- data-aggregation
-- data-archiving
-- data-partitioning
-- data-stream-processing
-- image-and-asset-optimization
-- in-memory-processing
-- lazy-evaluation
-- lazy-loading
-- load-testing
-- mass-test-data-generation
-- materialized-views
-- memory-hierarchy
-- monitoring
-- monitoring-system-utilization
 - performance-budgets
 - performance-measurements
-- performance-modeling
+- load-testing
+- monitoring
+- monitoring-system-utilization
 - proactive-capacity-management
-- production-environment-maintenance
 - regular-maintenance-and-updates
+- production-environment-maintenance
+- data-archiving
+- data-partitioning
 - service-level-objectives
-- specialized-hardware
-- static-code-analysis
-- status-monitoring
 - transparent-performance-metrics
-- tree-shaking
-- vertical-scaling
+- performance-modeling
 layout: problem
 ---
 

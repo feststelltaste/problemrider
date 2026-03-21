@@ -21,9 +21,6 @@ related_problems:
 solutions:
 - modularization-and-bounded-contexts
 - abstraction-layers
-- feature-detection
-- platform-independence
-- platform-independent-time-zone-handling
 layout: problem
 ---
 

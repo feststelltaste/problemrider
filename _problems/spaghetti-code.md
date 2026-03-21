@@ -21,15 +21,15 @@ related_problems:
 solutions:
 - incremental-refactoring
 - modularization-and-bounded-contexts
-- aspect-oriented-programming-aop
-- bounded-contexts
-- bubble-context
-- decision-tables
-- facades
-- high-cohesion
 - layered-architecture
+- high-cohesion
+- facades
+- bounded-contexts
 - mediator
+- aspect-oriented-programming-aop
+- bubble-context
 - rule-based-systems
+- decision-tables
 layout: problem
 ---
 

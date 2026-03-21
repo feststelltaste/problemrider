@@ -20,35 +20,27 @@ related_problems:
 - slug: testing-complexity
   similarity: 0.6
 solutions:
-- definition-of-done
-- abuse-case-definition
-- business-metrics
-- business-quality-scenarios
-- checklists
 - code-coverage-analysis
+- mutation-testing
+- property-based-testing
+- definition-of-done
+- checklists
+- business-quality-scenarios
+- abuse-case-definition
+- user-acceptance-tests
+- subject-matter-reviews
+- risk-analysis
+- security-audits
+- security-tests-by-external-parties
+- security-architecture-analysis
+- performance-measurements
+- performance-budgets
+- service-level-objectives
+- transparent-performance-metrics
+- business-metrics
 - compatibility-as-error
-- compatibility-certification
 - compatibility-measurement
 - compatibility-testing-by-users
-- mutation-testing
-- performance-budgets
-- performance-measurements
-- portability-checklists
-- property-based-testing
-- risk-analysis
-- security-architecture-analysis
-- security-audits
-- security-by-design
-- security-certification
-- security-frameworks
-- security-metrics
-- security-relevant-metrics
-- security-requirements-definition
-- security-tests-by-external-parties
-- service-level-objectives
-- subject-matter-reviews
-- transparent-performance-metrics
-- user-acceptance-tests
 layout: problem
 ---
 

@@ -19,17 +19,17 @@ related_problems:
 - slug: insufficient-worker-capacity
   similarity: 0.5
 solutions:
-- backpressure
-- capacity-planning
-- concurrency-control
-- elastic-scaling
-- resource-pooling
+- timeout-management
 - asynchronous-operations
 - asynchronous-processing
 - bulkhead
 - circuit-breaker
+- backpressure
+- resource-pooling
+- concurrency-control
+- capacity-planning
+- elastic-scaling
 - reactive-programming
-- timeout-management
 layout: problem
 ---
 

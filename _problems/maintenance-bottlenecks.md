@@ -20,9 +20,8 @@ related_problems:
 - slug: maintenance-overhead
   similarity: 0.65
 solutions:
-- architecture-roadmap
 - clear-ownership-model
-- contract-testing
+- architecture-roadmap
 layout: problem
 ---
 

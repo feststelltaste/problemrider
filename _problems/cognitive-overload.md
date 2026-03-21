@@ -20,12 +20,10 @@ related_problems:
 - slug: procrastination-on-complex-tasks
   similarity: 0.6
 solutions:
+- separation-of-concerns
+- loose-coupling
 - clean-code
 - design-by-contract
-- loose-coupling
-- separation-of-concerns
-- cognitive-load-minimization
-- form-design
 layout: problem
 ---
 

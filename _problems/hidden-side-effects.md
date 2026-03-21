@@ -16,8 +16,8 @@ related_problems:
   similarity: 0.5
 solutions:
 - clean-code
-- design-by-contract
 - separation-of-concerns
+- design-by-contract
 - solid-principles
 layout: problem
 ---

@@ -19,13 +19,13 @@ related_problems:
 - slug: shared-dependencies
   similarity: 0.55
 solutions:
-- anti-corruption-layer
 - dependency-management-strategy
-- adapter
-- compatibility-certification
-- data-export
+- anti-corruption-layer
 - hexagonal-architecture
+- adapter
+- data-export
 - multi-cloud-iac
+- compatibility-certification
 layout: problem
 ---
 

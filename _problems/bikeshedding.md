@@ -19,8 +19,8 @@ related_problems:
 - slug: development-disruption
   similarity: 0.55
 solutions:
-- psychological-safety-practices
 - structured-communication-protocols
+- psychological-safety-practices
 layout: problem
 ---
 

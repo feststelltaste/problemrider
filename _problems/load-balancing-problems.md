@@ -17,9 +17,9 @@ related_problems:
 - slug: resource-contention
   similarity: 0.5
 solutions:
-- event-driven-architecture
-- horizontal-scaling
 - load-balancing
+- horizontal-scaling
+- event-driven-architecture
 layout: problem
 ---
 

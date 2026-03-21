@@ -19,15 +19,14 @@ related_problems:
 - slug: cross-site-scripting-vulnerabilities
   similarity: 0.5
 solutions:
-- secret-management
-- security-hardening-process
-- abuse-case-definition
-- api-security
 - authentication
+- security-hardening-process
+- api-security
+- abuse-case-definition
+- red-teaming
+- secret-management
 - authorization
 - authorization-concept
-- privacy-by-design
-- red-teaming
 - role-based-access-control
 - secure-by-default
 - secure-session-management

@@ -20,18 +20,17 @@ related_problems:
 - slug: external-service-delays
   similarity: 0.6
 solutions:
+- pagination
 - query-optimization-process
+- virtualized-lists
+- materialized-views
+- denormalization
+- cqrs
+- lazy-loading
+- progressive-loading
+- predictive-loading
 - asynchronous-operations
 - asynchronous-processing
-- cold-start-mitigation
-- cqrs
-- denormalization
-- lazy-loading
-- materialized-views
-- pagination
-- predictive-loading
-- progressive-loading
-- virtualized-lists
 layout: problem
 ---
 

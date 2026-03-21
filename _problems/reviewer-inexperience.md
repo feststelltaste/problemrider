@@ -21,8 +21,8 @@ related_problems:
 - slug: reviewer-anxiety
   similarity: 0.65
 solutions:
-- code-review-process-reform
 - pair-and-mob-programming
+- code-review-process-reform
 layout: problem
 ---
 

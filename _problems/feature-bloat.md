@@ -20,14 +20,12 @@ related_problems:
 - slug: gold-plating
   similarity: 0.55
 solutions:
-- change-management-process
-- formal-change-control-process
 - product-owner
+- formal-change-control-process
+- change-management-process
 - requirements-analysis
-- code-splitting
-- personas
 - strategic-code-deletion
-- tree-shaking
+- personas
 - user-stories
 layout: problem
 ---
