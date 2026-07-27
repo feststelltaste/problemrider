@@ -13,6 +13,7 @@ Gemfile.lock
 neo4j_simple/
 scripts/backlog/
 scripts/tmp/
+diagnoses/
 
 #Personal Python environment
 venv/
