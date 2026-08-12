@@ -25,6 +25,11 @@ solutions:
 - denormalization
 - object-relational-mapping-orm
 - query-optimization-process
+- profiling
+- performance-measurements
+- code-reviews
+- static-code-analysis
+- continuous-performance-monitoring
 layout: problem
 ---
 

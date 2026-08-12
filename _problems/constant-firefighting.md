@@ -45,6 +45,8 @@ solutions:
 - service-level-agreements
 - service-level-indicators
 - work-in-progress-limits
+- production-readiness-criteria
+- workaround-registry
 layout: problem
 ---
 

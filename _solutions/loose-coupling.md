@@ -17,6 +17,7 @@ problems:
 - uncontrolled-codebase-growth
 - inconsistent-behavior
 - inconsistent-execution
+- single-entry-point-design
 layout: solution
 ---
 

@@ -48,6 +48,7 @@ solutions:
 - threat-intelligence
 - user-communities
 - video-tutorials
+- code-reading-sessions
 layout: problem
 ---
 

@@ -25,6 +25,7 @@ solutions:
 - architecture-documentation
 - living-documentation
 - requirements-traceability-matrix
+- code-reading-sessions
 layout: problem
 ---
 

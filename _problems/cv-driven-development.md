@@ -27,6 +27,7 @@ solutions:
 - architecture-governance
 - code-review-guidelines
 - decision-rights-and-escalation
+- technology-radar
 layout: problem
 ---
 

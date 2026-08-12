@@ -17,6 +17,8 @@ problems:
 - legal-disputes
 - upstream-timeouts
 - vendor-relationship-strain
+- poor-contract-design
+- stakeholder-confidence-loss
 layout: solution
 ---
 

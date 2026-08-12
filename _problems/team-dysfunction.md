@@ -26,6 +26,7 @@ solutions:
 - collaborative-problem-solving
 - team-autonomy-and-empowerment
 - decision-rights-and-escalation
+- team-retrospectives
 layout: problem
 ---
 

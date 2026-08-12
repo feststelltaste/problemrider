@@ -31,6 +31,12 @@ problems:
 - rapid-team-growth
 - team-churn-impact
 - unproductive-meetings
+- communication-breakdown
+- duplicated-work
+- inconsistent-knowledge-acquisition
+- knowledge-dependency
+- poor-communication
+- staff-availability-issues
 layout: solution
 ---
 

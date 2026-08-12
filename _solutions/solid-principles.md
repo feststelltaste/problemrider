@@ -22,6 +22,9 @@ problems:
 - excessive-class-size
 - over-reliance-on-utility-classes
 - poor-encapsulation
+- bloated-class
+- global-state-and-side-effects
+- god-object-anti-pattern
 layout: solution
 ---
 

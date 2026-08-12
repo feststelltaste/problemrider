@@ -17,6 +17,7 @@ problems:
 - declining-business-metrics
 - feature-gaps
 - delayed-value-delivery
+- changing-project-scope
 layout: solution
 ---
 

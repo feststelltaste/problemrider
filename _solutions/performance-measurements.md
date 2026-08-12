@@ -30,6 +30,17 @@ problems:
 - queries-that-prevent-index-usage
 - unoptimized-file-access
 - unused-indexes
+- algorithmic-complexity-problems
+- garbage-collection-pressure
+- high-resource-utilization-on-client
+- inefficient-code
+- insufficient-worker-capacity
+- long-running-database-transactions
+- memory-fragmentation
+- memory-swapping
+- n-plus-one-query-problem
+- virtual-memory-thrashing
+- work-queue-buildup
 layout: solution
 ---
 

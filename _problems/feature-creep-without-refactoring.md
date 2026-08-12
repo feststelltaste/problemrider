@@ -27,6 +27,7 @@ solutions:
 - code-hotspot-analysis
 - clean-code
 - code-quality-gates
+- preparatory-refactoring
 layout: problem
 ---
 

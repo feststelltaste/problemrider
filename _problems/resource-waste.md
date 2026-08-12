@@ -26,6 +26,8 @@ solutions:
 - capacity-planning
 - work-in-progress-limits
 - business-metrics
+- feature-usage-measurement
+- value-stream-mapping
 layout: problem
 ---
 

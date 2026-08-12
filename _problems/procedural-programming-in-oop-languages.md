@@ -23,6 +23,8 @@ solutions:
 - separation-of-concerns
 - solid-principles
 - technical-skills-development
+- code-reading-sessions
+- internal-technical-coaching
 layout: problem
 ---
 

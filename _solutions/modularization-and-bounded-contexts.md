@@ -22,6 +22,11 @@ problems:
 - system-integration-blindness
 - reduced-team-flexibility
 - system-stagnation
+- circular-references
+- merge-conflicts
+- organizational-structure-mismatch
+- single-entry-point-design
+- team-coordination-issues
 layout: solution
 ---
 

@@ -21,6 +21,10 @@ problems:
 - regression-bugs
 - flaky-tests
 - strangler-fig-pattern-failures
+- global-state-and-side-effects
+- increased-bug-count
+- refactoring-avoidance
+- test-debt
 layout: solution
 ---
 

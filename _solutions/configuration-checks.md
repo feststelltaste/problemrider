@@ -13,6 +13,7 @@ problems:
 - regulatory-compliance-drift
 - deployment-environment-inconsistencies
 - secret-management-problems
+- environment-variable-issues
 layout: solution
 ---
 

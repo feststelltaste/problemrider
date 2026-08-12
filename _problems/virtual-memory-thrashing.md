@@ -21,6 +21,11 @@ solutions:
 - elastic-scaling
 - memory-management-optimization
 - resource-usage-optimization
+- profiling
+- performance-measurements
+- monitoring-system-utilization
+- capacity-planning
+- resource-pooling
 layout: problem
 ---
 

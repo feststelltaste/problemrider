@@ -15,6 +15,7 @@ problems:
 - inconsistent-codebase
 - tight-coupling-issues
 - premature-technology-introduction
+- circular-dependency-problems
 layout: solution
 ---
 

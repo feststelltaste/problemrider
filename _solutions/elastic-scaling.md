@@ -18,6 +18,7 @@ problems:
 - thread-pool-exhaustion
 - virtual-memory-thrashing
 - load-balancing-problems
+- memory-swapping
 layout: solution
 ---
 

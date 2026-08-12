@@ -24,6 +24,11 @@ solutions:
 - consistent-terminology
 - fluent-interfaces
 - ubiquitous-language
+- code-reviews
+- clean-code
+- style-guide
+- domain-driven-design
+- code-review-guidelines
 layout: problem
 ---
 

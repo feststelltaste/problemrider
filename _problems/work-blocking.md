@@ -25,6 +25,8 @@ solutions:
 - explicit-prioritization-framework
 - team-boundaries-aligned-to-architecture
 - work-in-progress-limits
+- definition-of-ready
+- value-stream-mapping
 layout: problem
 ---
 

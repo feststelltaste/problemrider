@@ -23,6 +23,10 @@ problems:
 - mixed-coding-styles
 - procedural-background
 - reduced-individual-productivity
+- bloated-class
+- copy-paste-programming
+- poor-naming-conventions
+- reduced-team-productivity
 layout: solution
 ---
 

@@ -16,6 +16,7 @@ problems:
 - stakeholder-developer-communication-gap
 - misaligned-deliverables
 - negative-brand-perception
+- stakeholder-dissatisfaction
 layout: solution
 ---
 

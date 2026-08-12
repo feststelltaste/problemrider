@@ -23,6 +23,12 @@ solutions:
 - modularization-and-bounded-contexts
 - high-cohesion
 - dependency-injection-container
+- solid-principles
+- separation-of-concerns
+- dependency-breaking-techniques
+- code-hotspot-analysis
+- preparatory-refactoring
+- domain-driven-design
 layout: problem
 ---
 

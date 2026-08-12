@@ -28,6 +28,12 @@ problems:
 - team-demoralization
 - tool-limitations
 - unmotivated-employees
+- deadline-pressure
+- maintenance-bottlenecks
+- overworked-teams
+- reduced-team-productivity
+- refactoring-avoidance
+- test-debt
 layout: solution
 ---
 

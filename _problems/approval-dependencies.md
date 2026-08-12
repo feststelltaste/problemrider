@@ -25,6 +25,7 @@ solutions:
 - iterative-development
 - product-owner
 - team-boundaries-aligned-to-architecture
+- value-stream-mapping
 layout: problem
 ---
 

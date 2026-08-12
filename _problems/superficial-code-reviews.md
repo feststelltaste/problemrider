@@ -24,6 +24,11 @@ solutions:
 - code-reviews
 - code-review-guidelines
 - small-change-batches
+- checklists
+- work-in-progress-limits
+- pair-and-mob-programming
+- code-reading-sessions
+- psychological-safety-practices
 layout: problem
 ---
 

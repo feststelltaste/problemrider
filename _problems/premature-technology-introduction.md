@@ -27,6 +27,7 @@ solutions:
 - prototypes
 - architecture-governance
 - fitness-functions
+- technology-radar
 layout: problem
 ---
 

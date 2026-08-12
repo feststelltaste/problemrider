@@ -24,6 +24,12 @@ solutions:
 - code-reviews
 - code-quality-gates
 - fair-source
+- code-review-guidelines
+- small-change-batches
+- work-in-progress-limits
+- checklists
+- pair-and-mob-programming
+- team-working-agreements
 layout: problem
 ---
 

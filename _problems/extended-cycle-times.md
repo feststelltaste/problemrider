@@ -25,6 +25,7 @@ solutions:
 - continuous-delivery
 - capacity-based-planning
 - code-review-guidelines
+- value-stream-mapping
 layout: problem
 ---
 

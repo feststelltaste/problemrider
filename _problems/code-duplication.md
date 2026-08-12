@@ -24,6 +24,7 @@ solutions:
 - code-generation
 - data-deduplication
 - strategic-code-deletion
+- feature-usage-measurement
 layout: problem
 ---
 

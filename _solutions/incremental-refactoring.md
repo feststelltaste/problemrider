@@ -31,6 +31,8 @@ problems:
 - large-pull-requests
 - strangler-fig-pattern-failures
 - system-stagnation
+- circular-references
+- maintenance-cost-increase
 layout: solution
 ---
 

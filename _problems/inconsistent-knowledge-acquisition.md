@@ -24,6 +24,11 @@ solutions:
 - pair-and-mob-programming
 - domain-quiz
 - knowledge-rotation
+- structured-onboarding-program
+- code-reading-sessions
+- internal-technical-coaching
+- knowledge-base
+- documentation-as-code
 layout: problem
 ---
 

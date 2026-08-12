@@ -31,6 +31,7 @@ solutions:
 - user-stories
 - behavior-driven-development-bdd
 - wireframing
+- definition-of-ready
 layout: problem
 ---
 

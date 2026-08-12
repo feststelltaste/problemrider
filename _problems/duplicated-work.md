@@ -24,6 +24,11 @@ solutions:
 - clear-roles-and-ownership
 - structured-communication-protocols
 - team-boundaries-aligned-to-architecture
+- knowledge-rotation
+- knowledge-base
+- team-retrospectives
+- documentation-as-code
+- feature-usage-measurement
 layout: problem
 ---
 

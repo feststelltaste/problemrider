@@ -23,6 +23,11 @@ solutions:
 - query-optimization-process
 - transactions
 - write-ahead-logging
+- concurrency-control
+- monitoring
+- profiling
+- batch-processing
+- performance-measurements
 layout: problem
 ---
 

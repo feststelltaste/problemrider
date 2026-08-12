@@ -19,6 +19,7 @@ problems:
 - team-coordination-issues
 - fear-of-conflict
 - vendor-relationship-strain
+- power-struggles
 layout: solution
 ---
 

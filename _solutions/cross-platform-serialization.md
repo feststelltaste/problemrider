@@ -13,6 +13,7 @@ problems:
 - poor-interfaces-between-applications
 - breaking-changes
 - endianness-conversion-overhead
+- alignment-and-padding-issues
 layout: solution
 ---
 

@@ -28,6 +28,10 @@ problems:
 - perfectionist-culture
 - perfectionist-review-culture
 - rushed-approvals
+- bikeshedding
+- change-management-chaos
+- gold-plating
+- no-formal-change-control-process
 layout: solution
 ---
 

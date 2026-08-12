@@ -24,6 +24,12 @@ problems:
 - team-churn-impact
 - unclear-documentation-ownership
 - unproductive-meetings
+- communication-breakdown
+- duplicated-work
+- incomplete-knowledge
+- inconsistent-knowledge-acquisition
+- knowledge-dependency
+- poor-communication
 layout: solution
 ---
 

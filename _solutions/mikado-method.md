@@ -20,6 +20,8 @@ problems:
 - high-coupling-low-cohesion
 - past-negative-experiences
 - procrastination-on-complex-tasks
+- long-lived-feature-branches
+- refactoring-avoidance
 layout: solution
 ---
 

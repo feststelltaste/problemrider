@@ -24,6 +24,11 @@ solutions:
 - regression-testing
 - code-hotspot-analysis
 - small-change-batches
+- code-reviews
+- code-quality-gates
+- characterization-tests
+- change-impact-analysis
+- production-like-test-data
 layout: problem
 ---
 

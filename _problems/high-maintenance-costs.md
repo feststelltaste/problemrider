@@ -32,6 +32,8 @@ solutions:
 - standard-software
 - strategic-code-deletion
 - deprecation-strategy
+- feature-usage-measurement
+- total-cost-of-ownership-transparency
 layout: problem
 ---
 

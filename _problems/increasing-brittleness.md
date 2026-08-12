@@ -26,6 +26,7 @@ solutions:
 - code-hotspot-analysis
 - improvement-budget
 - mikado-method
+- preparatory-refactoring
 layout: problem
 ---
 

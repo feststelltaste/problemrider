@@ -14,6 +14,7 @@ problems:
 - excessive-disk-io
 - interrupt-overhead
 - unoptimized-file-access
+- long-running-database-transactions
 layout: solution
 ---
 

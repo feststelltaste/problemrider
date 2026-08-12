@@ -24,6 +24,9 @@ solutions:
 - architecture-workshops
 - security-community
 - fair-source
+- code-reading-sessions
+- internal-technical-coaching
+- team-retrospectives
 layout: problem
 ---
 

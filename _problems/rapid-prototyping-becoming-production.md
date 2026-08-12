@@ -24,6 +24,8 @@ solutions:
 - boring-technologies
 - technical-skills-development
 - prototyping
+- production-readiness-criteria
+- technology-radar
 layout: problem
 ---
 

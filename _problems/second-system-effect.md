@@ -24,6 +24,8 @@ solutions:
 - architecture-roadmap
 - boring-technologies
 - mikado-method
+- parallel-run
+- technology-radar
 layout: problem
 ---
 

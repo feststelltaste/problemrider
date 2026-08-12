@@ -24,6 +24,11 @@ solutions:
 - externalized-configuration
 - platform-independent-configuration-management
 - environment-variables-for-configuration
+- configuration-checks
+- immutable-infrastructure
+- environment-parity
+- containerization
+- production-readiness-criteria
 layout: problem
 ---
 

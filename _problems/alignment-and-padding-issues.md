@@ -23,6 +23,10 @@ solutions:
 - memory-hierarchy
 - standardized-data-formats
 - platform-independence
+- data-formats
+- cross-platform-serialization
+- compatibility-testing
+- static-code-analysis
 layout: problem
 ---
 

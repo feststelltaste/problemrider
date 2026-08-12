@@ -24,6 +24,8 @@ solutions:
 - short-iteration-cycles
 - stakeholder-feedback-loops
 - capacity-based-planning
+- regular-stakeholder-demonstrations
+- total-cost-of-ownership-transparency
 layout: problem
 ---
 

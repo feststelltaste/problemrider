@@ -20,6 +20,8 @@ problems:
 - automated-tooling-ineffectiveness
 - feature-creep-without-refactoring
 - system-stagnation
+- god-object-anti-pattern
+- refactoring-avoidance
 layout: solution
 ---
 

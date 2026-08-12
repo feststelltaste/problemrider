@@ -26,6 +26,7 @@ problems:
 - inadequate-mentoring-structure
 - increased-stress-and-burnout
 - reduced-innovation
+- time-pressure
 layout: solution
 ---
 

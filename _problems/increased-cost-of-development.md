@@ -25,6 +25,8 @@ solutions:
 - regression-testing
 - code-generation
 - standard-software
+- feature-usage-measurement
+- total-cost-of-ownership-transparency
 layout: problem
 ---
 

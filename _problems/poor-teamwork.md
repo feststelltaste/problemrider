@@ -27,6 +27,7 @@ solutions:
 - clear-roles-and-ownership
 - collaborative-problem-solving
 - team-autonomy-and-empowerment
+- team-retrospectives
 layout: problem
 ---
 

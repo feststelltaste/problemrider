@@ -23,6 +23,7 @@ problems:
 - priority-thrashing
 - reduced-predictability
 - uneven-work-flow
+- context-switching-overhead
 layout: solution
 ---
 

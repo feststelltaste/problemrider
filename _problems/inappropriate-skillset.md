@@ -26,6 +26,7 @@ solutions:
 - cross-functional-skill-development
 - knowledge-rotation
 - domain-experts
+- internal-technical-coaching
 layout: problem
 ---
 

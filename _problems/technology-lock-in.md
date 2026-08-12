@@ -61,6 +61,7 @@ solutions:
 - supply-chain-security
 - third-party-dependency-check
 - vendor-management-practice
+- technology-radar
 layout: problem
 ---
 

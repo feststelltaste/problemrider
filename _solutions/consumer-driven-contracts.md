@@ -14,6 +14,8 @@ problems:
 - fear-of-breaking-changes
 - microservice-communication-overhead
 - communication-risk-outside-project
+- poor-contract-design
+- rapid-system-changes
 layout: solution
 ---
 

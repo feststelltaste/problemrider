@@ -48,6 +48,9 @@ solutions:
 - negative-testing
 - penetration-tests
 - vulnerability-scans
+- parallel-run
+- production-like-test-data
+- production-readiness-criteria
 layout: problem
 ---
 

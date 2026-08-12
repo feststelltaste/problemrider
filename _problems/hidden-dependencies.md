@@ -27,6 +27,8 @@ solutions:
 - dependency-injection
 - dependency-injection-container
 - dependency-breaking-techniques
+- change-impact-analysis
+- workaround-registry
 layout: problem
 ---
 

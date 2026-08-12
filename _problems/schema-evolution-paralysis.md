@@ -24,6 +24,11 @@ solutions:
 - nosql-databases
 - schema-registry
 - domain-data-versioning
+- parallel-run
+- change-impact-analysis
+- production-like-test-data
+- contract-testing
+- data-modeling
 layout: problem
 ---
 

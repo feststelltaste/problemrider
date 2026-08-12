@@ -27,6 +27,8 @@ solutions:
 - code-quality-gates
 - business-quality-scenarios
 - specification-by-example
+- definition-of-ready
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

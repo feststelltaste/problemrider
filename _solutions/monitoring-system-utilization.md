@@ -21,6 +21,11 @@ problems:
 - resource-waste
 - unbounded-data-structures
 - unreleased-resources
+- insufficient-worker-capacity
+- memory-fragmentation
+- memory-swapping
+- virtual-memory-thrashing
+- work-queue-buildup
 layout: solution
 ---
 

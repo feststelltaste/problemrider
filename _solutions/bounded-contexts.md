@@ -12,6 +12,7 @@ problems:
 - high-coupling-low-cohesion
 - spaghetti-code
 - ripple-effect-of-changes
+- shared-database
 layout: solution
 ---
 

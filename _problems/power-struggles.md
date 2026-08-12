@@ -23,6 +23,10 @@ solutions:
 - psychological-safety-practices
 - team-autonomy-and-empowerment
 - decision-rights-and-escalation
+- team-working-agreements
+- team-retrospectives
+- blameless-postmortems
+- structured-communication-protocols
 layout: problem
 ---
 

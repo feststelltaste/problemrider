@@ -36,6 +36,8 @@ solutions:
 - threat-intelligence
 - vulnerability-scans
 - vendor-management-practice
+- technology-radar
+- total-cost-of-ownership-transparency
 layout: problem
 ---
 

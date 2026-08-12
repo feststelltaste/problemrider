@@ -13,6 +13,7 @@ problems:
 - constant-firefighting
 - high-defect-rate-in-production
 - delayed-bug-fixes
+- delayed-issue-resolution
 layout: solution
 ---
 

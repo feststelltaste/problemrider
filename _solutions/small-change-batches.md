@@ -31,6 +31,11 @@ problems:
 - review-process-breakdown
 - rushed-approvals
 - team-members-not-engaged-in-review-process
+- code-review-inefficiency
+- delayed-project-timelines
+- incomplete-projects
+- insufficient-code-review
+- merge-conflicts
 layout: solution
 ---
 

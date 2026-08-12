@@ -20,6 +20,7 @@ problems:
 - breaking-changes
 - dependency-on-supplier
 - strangler-fig-pattern-failures
+- shared-database
 layout: solution
 ---
 

@@ -13,6 +13,7 @@ problems:
 - obsolete-technologies
 - high-technical-debt
 - legacy-api-versioning-nightmare
+- rapid-system-changes
 layout: solution
 ---
 

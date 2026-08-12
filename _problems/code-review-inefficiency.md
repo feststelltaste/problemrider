@@ -24,6 +24,11 @@ solutions:
 - code-conventions
 - static-code-analysis
 - code-review-guidelines
+- small-change-batches
+- work-in-progress-limits
+- checklists
+- pair-and-mob-programming
+- team-retrospectives
 layout: problem
 ---
 

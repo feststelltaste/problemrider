@@ -15,6 +15,7 @@ problems:
 - legacy-system-documentation-archaeology
 - feature-gaps
 - legal-disputes
+- poor-contract-design
 layout: solution
 ---
 

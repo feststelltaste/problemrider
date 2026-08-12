@@ -24,6 +24,7 @@ solutions:
 - aspect-oriented-programming-aop
 - high-cohesion
 - layered-architecture
+- change-impact-analysis
 layout: problem
 ---
 

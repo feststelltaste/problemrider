@@ -32,6 +32,11 @@ problems:
 - perfectionist-culture
 - reduced-review-participation
 - review-bottlenecks
+- insufficient-code-review
+- long-lived-feature-branches
+- merge-conflicts
+- poor-naming-conventions
+- reduced-code-submission-frequency
 layout: solution
 ---
 

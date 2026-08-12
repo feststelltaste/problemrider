@@ -66,6 +66,7 @@ solutions:
 - service-level-indicators
 - threat-intelligence
 - vulnerability-scans
+- production-readiness-criteria
 layout: problem
 ---
 

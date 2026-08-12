@@ -17,6 +17,7 @@ problems:
 - inconsistent-naming-conventions
 - information-fragmentation
 - language-barriers
+- poor-communication
 layout: solution
 ---
 

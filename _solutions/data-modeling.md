@@ -15,6 +15,7 @@ problems:
 - incorrect-index-type
 - inefficient-database-indexing
 - queries-that-prevent-index-usage
+- schema-evolution-paralysis
 layout: solution
 ---
 

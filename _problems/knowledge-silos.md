@@ -36,6 +36,7 @@ solutions:
 - runbooks
 - user-communities
 - knowledge-rotation
+- code-reading-sessions
 layout: problem
 ---
 

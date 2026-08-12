@@ -24,6 +24,8 @@ solutions:
 - structured-onboarding-program
 - refactoring-katas
 - security-training
+- code-reading-sessions
+- internal-technical-coaching
 layout: problem
 ---
 

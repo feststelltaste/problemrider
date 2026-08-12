@@ -42,6 +42,7 @@ solutions:
 - web-application-firewall
 - characterization-tests
 - dependency-breaking-techniques
+- parallel-run
 layout: problem
 ---
 

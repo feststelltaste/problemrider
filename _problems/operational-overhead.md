@@ -24,6 +24,9 @@ solutions:
 - serverless-computing
 - site-reliability-engineering-sre
 - certificate-management
+- production-readiness-criteria
+- value-stream-mapping
+- workaround-registry
 layout: problem
 ---
 

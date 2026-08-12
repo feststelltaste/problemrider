@@ -24,6 +24,8 @@ solutions:
 - design-by-contract
 - solid-principles
 - characterization-tests
+- internal-technical-coaching
+- preparatory-refactoring
 layout: problem
 ---
 

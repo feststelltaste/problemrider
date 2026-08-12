@@ -14,6 +14,7 @@ problems:
 - high-api-latency
 - graphql-complexity-issues
 - unbounded-data-structures
+- work-queue-buildup
 layout: solution
 ---
 

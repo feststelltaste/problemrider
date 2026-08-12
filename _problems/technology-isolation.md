@@ -26,6 +26,7 @@ solutions:
 - cross-functional-skill-development
 - boring-technologies
 - architecture-roadmap
+- technology-radar
 layout: problem
 ---
 

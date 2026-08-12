@@ -24,6 +24,11 @@ solutions:
 - stakeholder-feedback-loops
 - business-metrics
 - user-acceptance-tests
+- regular-stakeholder-demonstrations
+- capacity-based-planning
+- total-cost-of-ownership-transparency
+- service-level-agreements
+- transparent-performance-metrics
 layout: problem
 ---
 

@@ -14,6 +14,7 @@ problems:
 - technology-lock-in
 - global-state-and-side-effects
 - improper-event-listener-management
+- circular-dependency-problems
 layout: solution
 ---
 

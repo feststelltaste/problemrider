@@ -19,6 +19,8 @@ problems:
 - misconfigured-connection-pools
 - resource-allocation-failures
 - resource-waste
+- memory-swapping
+- virtual-memory-thrashing
 layout: solution
 ---
 

@@ -27,6 +27,8 @@ solutions:
 - supply-chain-security
 - third-party-dependency-check
 - team-boundaries-aligned-to-architecture
+- change-impact-analysis
+- technology-radar
 layout: problem
 ---
 

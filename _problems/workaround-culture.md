@@ -25,6 +25,9 @@ solutions:
 - raising-user-awareness
 - security-culture
 - security-policies-for-users
+- preparatory-refactoring
+- team-retrospectives
+- workaround-registry
 layout: problem
 ---
 

@@ -37,6 +37,11 @@ problems:
 - team-churn-impact
 - team-members-not-engaged-in-review-process
 - uneven-workload-distribution
+- code-review-inefficiency
+- incomplete-knowledge
+- insufficient-code-review
+- staff-availability-issues
+- superficial-code-reviews
 layout: solution
 ---
 

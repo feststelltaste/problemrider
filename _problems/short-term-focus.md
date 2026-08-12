@@ -24,6 +24,7 @@ solutions:
 - error-budgets
 - explicit-prioritization-framework
 - improvement-budget
+- total-cost-of-ownership-transparency
 layout: problem
 ---
 

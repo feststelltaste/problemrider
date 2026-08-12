@@ -12,6 +12,8 @@ problems:
 - flaky-tests
 - configuration-drift
 - inadequate-integration-tests
+- inadequate-test-data-management
+- testing-complexity
 layout: solution
 ---
 

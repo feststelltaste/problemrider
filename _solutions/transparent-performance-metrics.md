@@ -12,6 +12,7 @@ problems:
 - stakeholder-developer-communication-gap
 - slow-incident-resolution
 - poor-communication
+- stakeholder-confidence-loss
 layout: solution
 ---
 

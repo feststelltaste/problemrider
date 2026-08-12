@@ -28,6 +28,7 @@ solutions:
 - small-change-batches
 - work-in-progress-limits
 - feature-toggles
+- value-stream-mapping
 layout: problem
 ---
 

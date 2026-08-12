@@ -24,6 +24,10 @@ solutions:
 - api-first-development
 - compatibility-certification
 - vendor-management-practice
+- service-level-agreements
+- requirements-traceability-matrix
+- consumer-driven-contracts
+- security-requirements-definition
 layout: problem
 ---
 

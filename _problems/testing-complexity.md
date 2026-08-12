@@ -23,6 +23,12 @@ solutions:
 - platform-independent-test-frameworks
 - characterization-tests
 - dependency-breaking-techniques
+- production-like-test-data
+- isolated-test-environments
+- containerization
+- integration-tests
+- contract-testing
+- simulation-environments
 layout: problem
 ---
 

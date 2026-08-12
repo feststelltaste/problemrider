@@ -23,6 +23,8 @@ solutions:
 - loose-coupling
 - code-comments
 - fluent-interfaces
+- code-reading-sessions
+- preparatory-refactoring
 layout: problem
 ---
 

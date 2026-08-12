@@ -23,6 +23,8 @@ solutions:
 - secure-software-development
 - security-culture
 - error-budgets
+- production-readiness-criteria
+- workaround-registry
 layout: problem
 ---
 

@@ -27,6 +27,7 @@ solutions:
 - team-autonomy-and-empowerment
 - architecture-roadmap
 - functional-spike
+- total-cost-of-ownership-transparency
 layout: problem
 ---
 

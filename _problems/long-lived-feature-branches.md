@@ -23,6 +23,11 @@ solutions:
 - continuous-integration
 - trunk-based-development
 - small-change-batches
+- code-review-guidelines
+- work-in-progress-limits
+- preparatory-refactoring
+- ci-cd-pipeline
+- mikado-method
 layout: problem
 ---
 

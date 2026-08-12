@@ -25,6 +25,10 @@ solutions:
 - structured-communication-protocols
 - incident-management
 - security-incident-handling
+- team-working-agreements
+- team-retrospectives
+- documentation-as-code
+- knowledge-base
 layout: problem
 ---
 

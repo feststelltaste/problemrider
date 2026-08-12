@@ -28,6 +28,8 @@ solutions:
 - definition-of-done
 - runbooks
 - style-guide
+- internal-technical-coaching
+- team-retrospectives
 layout: problem
 ---
 

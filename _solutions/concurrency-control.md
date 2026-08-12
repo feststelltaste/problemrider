@@ -17,6 +17,7 @@ problems:
 - false-sharing
 - lock-contention
 - memory-barrier-inefficiency
+- long-running-database-transactions
 layout: solution
 ---
 

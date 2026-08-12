@@ -14,6 +14,7 @@ problems:
 - reduced-code-submission-frequency
 - wasted-development-effort
 - reduced-individual-productivity
+- reduced-team-productivity
 layout: solution
 ---
 

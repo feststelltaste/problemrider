@@ -24,6 +24,11 @@ solutions:
 - structured-communication-protocols
 - transparent-performance-metrics
 - team-working-agreements
+- team-retrospectives
+- documentation-as-code
+- knowledge-base
+- consistent-terminology
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

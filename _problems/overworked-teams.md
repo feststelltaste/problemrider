@@ -24,6 +24,11 @@ solutions:
 - sustainable-pace-practices
 - on-call-duty
 - capacity-based-planning
+- work-in-progress-limits
+- improvement-budget
+- psychological-safety-practices
+- explicit-prioritization-framework
+- team-retrospectives
 layout: problem
 ---
 

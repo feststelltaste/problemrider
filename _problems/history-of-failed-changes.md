@@ -23,6 +23,8 @@ solutions:
 - blameless-postmortems
 - functional-spike
 - mikado-method
+- parallel-run
+- team-retrospectives
 layout: problem
 ---
 

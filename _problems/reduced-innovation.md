@@ -27,6 +27,7 @@ solutions:
 - prototypes
 - team-autonomy-and-empowerment
 - sustainable-pace-practices
+- feature-usage-measurement
 layout: problem
 ---
 

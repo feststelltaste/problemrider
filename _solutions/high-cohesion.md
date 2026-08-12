@@ -17,6 +17,8 @@ problems:
 - excessive-class-size
 - over-reliance-on-utility-classes
 - poor-encapsulation
+- circular-dependency-problems
+- single-entry-point-design
 layout: solution
 ---
 

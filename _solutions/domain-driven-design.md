@@ -16,6 +16,8 @@ problems:
 - inconsistent-naming-conventions
 - over-reliance-on-utility-classes
 - procedural-background
+- god-object-anti-pattern
+- poor-naming-conventions
 layout: solution
 ---
 

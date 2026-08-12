@@ -26,6 +26,8 @@ solutions:
 - definition-of-done
 - code-reviews
 - capacity-based-planning
+- preparatory-refactoring
+- workaround-registry
 layout: problem
 ---
 

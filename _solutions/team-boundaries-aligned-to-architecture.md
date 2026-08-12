@@ -20,6 +20,8 @@ problems:
 - shared-dependencies
 - approval-dependencies
 - duplicated-effort
+- cascade-delays
+- maintenance-bottlenecks
 layout: solution
 ---
 

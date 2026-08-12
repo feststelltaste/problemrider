@@ -23,6 +23,11 @@ solutions:
 - mass-test-data-generation
 - sampling
 - simulation-environments
+- production-like-test-data
+- isolated-test-environments
+- containerized-databases
+- datensparsamkeit
+- data-archiving
 layout: problem
 ---
 

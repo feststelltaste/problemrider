@@ -38,6 +38,8 @@ solutions:
 - subject-matter-reviews
 - user-stories
 - functional-gap-analysis
+- definition-of-ready
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

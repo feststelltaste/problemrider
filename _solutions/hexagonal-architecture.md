@@ -13,6 +13,7 @@ problems:
 - vendor-dependency
 - architectural-mismatch
 - stagnant-architecture
+- single-entry-point-design
 layout: solution
 ---
 

@@ -25,6 +25,11 @@ solutions:
 - iterative-development
 - short-iteration-cycles
 - proactive-capacity-management
+- total-cost-of-ownership-transparency
+- capacity-based-planning
+- explicit-prioritization-framework
+- value-stream-mapping
+- feature-usage-measurement
 layout: problem
 ---
 

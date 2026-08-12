@@ -13,6 +13,7 @@ problems:
 - silent-data-corruption
 - insufficient-audit-logging
 - slow-database-queries
+- inadequate-test-data-management
 layout: solution
 ---
 

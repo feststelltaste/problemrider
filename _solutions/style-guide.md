@@ -18,6 +18,8 @@ problems:
 - inconsistent-execution
 - inconsistent-naming-conventions
 - nitpicking-culture
+- poor-naming-conventions
+- style-arguments-in-code-reviews
 layout: solution
 ---
 

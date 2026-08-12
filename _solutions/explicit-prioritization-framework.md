@@ -24,6 +24,19 @@ problems:
 - delayed-decision-making
 - project-authority-vacuum
 - uneven-work-flow
+- budget-overruns
+- cascade-delays
+- context-switching-overhead
+- deadline-pressure
+- delayed-issue-resolution
+- delayed-project-timelines
+- incomplete-projects
+- missed-deadlines
+- overworked-teams
+- poor-planning
+- time-pressure
+- unrealistic-deadlines
+- unrealistic-schedule
 layout: solution
 ---
 

@@ -22,6 +22,11 @@ solutions:
 - formal-change-control-process
 - product-owner
 - version-control
+- decision-rights-and-escalation
+- change-impact-analysis
+- definition-of-done
+- runbooks
+- production-readiness-criteria
 layout: problem
 ---
 

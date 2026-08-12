@@ -46,6 +46,7 @@ solutions:
 - progressive-disclosure
 - runbooks
 - video-tutorials
+- code-reading-sessions
 layout: problem
 ---
 

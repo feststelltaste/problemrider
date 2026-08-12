@@ -36,6 +36,18 @@ problems:
 - rushed-approvals
 - team-demoralization
 - team-members-not-engaged-in-review-process
+- code-review-inefficiency
+- constantly-shifting-deadlines
+- deadline-pressure
+- insufficient-code-review
+- long-lived-feature-branches
+- missed-deadlines
+- overworked-teams
+- reduced-code-submission-frequency
+- staff-availability-issues
+- superficial-code-reviews
+- time-pressure
+- unrealistic-schedule
 layout: solution
 ---
 

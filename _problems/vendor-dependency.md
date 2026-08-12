@@ -28,6 +28,7 @@ solutions:
 - multi-cloud-iac
 - supply-chain-security
 - third-party-dependency-check
+- technology-radar
 layout: problem
 ---
 

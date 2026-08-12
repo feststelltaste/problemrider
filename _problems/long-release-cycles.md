@@ -25,6 +25,7 @@ solutions:
 - continuous-integration-and-delivery
 - feature-toggles
 - continuous-deployment
+- value-stream-mapping
 layout: problem
 ---
 

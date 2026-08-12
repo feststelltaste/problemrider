@@ -26,6 +26,8 @@ problems:
 - reviewer-anxiety
 - team-demoralization
 - unmotivated-employees
+- decision-avoidance
+- power-struggles
 layout: solution
 ---
 

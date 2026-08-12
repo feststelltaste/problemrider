@@ -23,6 +23,11 @@ solutions:
 - development-workflow-automation
 - regression-testing
 - small-change-batches
+- code-review-guidelines
+- trunk-based-development
+- continuous-integration
+- work-in-progress-limits
+- team-retrospectives
 layout: problem
 ---
 

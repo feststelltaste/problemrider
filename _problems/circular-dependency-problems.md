@@ -23,6 +23,12 @@ solutions:
 - incremental-refactoring
 - modularization-and-bounded-contexts
 - mediator
+- change-impact-analysis
+- high-cohesion
+- separation-of-concerns
+- dependency-injection
+- architecture-conformity-analysis
+- fitness-functions
 layout: problem
 ---
 

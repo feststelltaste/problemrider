@@ -37,6 +37,11 @@ problems:
 - review-process-breakdown
 - team-members-not-engaged-in-review-process
 - unclear-documentation-ownership
+- communication-breakdown
+- insufficient-code-review
+- merge-conflicts
+- power-struggles
+- team-coordination-issues
 layout: solution
 ---
 

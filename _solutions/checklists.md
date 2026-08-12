@@ -19,6 +19,10 @@ problems:
 - reviewer-anxiety
 - reviewer-inexperience
 - unproductive-meetings
+- code-review-inefficiency
+- conflicting-reviewer-opinions
+- insufficient-code-review
+- superficial-code-reviews
 layout: solution
 ---
 

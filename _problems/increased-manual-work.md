@@ -23,6 +23,8 @@ solutions:
 - development-workflow-automation
 - business-process-automation
 - platform-independent-scripting-languages
+- value-stream-mapping
+- workaround-registry
 layout: problem
 ---
 

@@ -23,6 +23,9 @@ problems:
 - synchronization-problems
 - unused-indexes
 - upstream-timeouts
+- log-spam
+- long-running-database-transactions
+- race-conditions
 layout: solution
 ---
 

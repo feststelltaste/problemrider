@@ -24,6 +24,8 @@ solutions:
 - impact-mapping
 - product-strategy-alignment
 - explicit-prioritization-framework
+- feature-usage-measurement
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

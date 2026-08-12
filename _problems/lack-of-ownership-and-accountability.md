@@ -24,6 +24,8 @@ solutions:
 - clear-roles-and-ownership
 - compatibility-governance
 - decision-rights-and-escalation
+- production-readiness-criteria
+- team-retrospectives
 layout: problem
 ---
 

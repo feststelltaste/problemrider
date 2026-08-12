@@ -37,6 +37,7 @@ solutions:
 - domain-specific-languages
 - event-storming
 - characterization-tests
+- parallel-run
 layout: problem
 ---
 

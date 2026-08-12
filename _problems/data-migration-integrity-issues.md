@@ -43,6 +43,8 @@ solutions:
 - domain-data-versioning
 - error-correction-codes
 - saga-pattern
+- parallel-run
+- production-like-test-data
 layout: problem
 ---
 

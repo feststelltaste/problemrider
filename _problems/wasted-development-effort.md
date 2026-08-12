@@ -23,6 +23,8 @@ solutions:
 - development-workflow-automation
 - impact-mapping
 - product-strategy-alignment
+- feature-usage-measurement
+- value-stream-mapping
 layout: problem
 ---
 

@@ -23,6 +23,12 @@ solutions:
 - technical-debt-backlog
 - refactoring-katas
 - test-driven-development-tdd
+- preparatory-refactoring
+- characterization-tests
+- dependency-breaking-techniques
+- mikado-method
+- improvement-budget
+- code-hotspot-analysis
 layout: problem
 ---
 

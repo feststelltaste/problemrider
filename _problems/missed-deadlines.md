@@ -24,6 +24,11 @@ solutions:
 - iterative-development
 - short-iteration-cycles
 - capacity-based-planning
+- regular-stakeholder-demonstrations
+- explicit-prioritization-framework
+- work-in-progress-limits
+- definition-of-ready
+- value-stream-mapping
 layout: problem
 ---
 

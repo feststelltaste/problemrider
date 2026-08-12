@@ -12,6 +12,8 @@ problems:
 - feature-bloat
 - increased-cognitive-load
 - accumulation-of-workarounds
+- copy-paste-programming
+- maintenance-cost-increase
 layout: solution
 ---
 

@@ -26,6 +26,8 @@ solutions:
 - code-review-guidelines
 - pair-and-mob-programming
 - style-guide
+- code-reading-sessions
+- internal-technical-coaching
 layout: problem
 ---
 

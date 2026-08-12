@@ -24,6 +24,7 @@ problems:
 - poor-teamwork
 - reduced-innovation
 - team-dysfunction
+- decision-avoidance
 layout: solution
 ---
 

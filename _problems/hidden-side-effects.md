@@ -19,6 +19,8 @@ solutions:
 - design-by-contract
 - separation-of-concerns
 - solid-principles
+- change-impact-analysis
+- parallel-run
 layout: problem
 ---
 

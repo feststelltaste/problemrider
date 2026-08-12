@@ -12,6 +12,8 @@ problems:
 - system-outages
 - budget-overruns
 - slow-application-performance
+- insufficient-worker-capacity
+- work-queue-buildup
 layout: solution
 ---
 

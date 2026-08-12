@@ -23,6 +23,11 @@ solutions:
 - requirements-analysis
 - short-iteration-cycles
 - capacity-based-planning
+- explicit-prioritization-framework
+- regular-stakeholder-demonstrations
+- story-mapping
+- work-in-progress-limits
+- definition-of-ready
 layout: problem
 ---
 

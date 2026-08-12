@@ -31,6 +31,7 @@ solutions:
 - data-formats
 - data-strategy
 - design-tokens
+- technology-radar
 layout: problem
 ---
 

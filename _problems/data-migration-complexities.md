@@ -37,6 +37,8 @@ solutions:
 - platform-independent-data-storage
 - standardized-data-formats
 - database-abstraction
+- parallel-run
+- production-like-test-data
 layout: problem
 ---
 

@@ -23,6 +23,7 @@ problems:
 - duplicated-research-effort
 - premature-technology-introduction
 - team-churn-impact
+- conflicting-reviewer-opinions
 layout: solution
 ---
 

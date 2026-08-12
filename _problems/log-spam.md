@@ -23,6 +23,12 @@ solutions:
 - asynchronous-logging
 - platform-independent-logging-frameworks
 - logging-and-monitoring
+- production-readiness-criteria
+- logging
+- error-logging
+- monitoring
+- code-reviews
+- code-conventions
 layout: problem
 ---
 

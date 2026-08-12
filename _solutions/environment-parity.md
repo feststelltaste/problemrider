@@ -14,6 +14,7 @@ problems:
 - regression-bugs
 - deployment-risk
 - development-disruption
+- environment-variable-issues
 layout: solution
 ---
 

@@ -26,6 +26,7 @@ solutions:
 - automated-tests
 - feature-flags
 - mikado-method
+- team-retrospectives
 layout: problem
 ---
 

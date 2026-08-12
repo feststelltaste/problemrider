@@ -19,6 +19,7 @@ problems:
 - false-sharing
 - interrupt-overhead
 - memory-barrier-inefficiency
+- garbage-collection-pressure
 layout: solution
 ---
 

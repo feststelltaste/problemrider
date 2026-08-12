@@ -31,6 +31,8 @@ solutions:
 - third-party-dependency-check
 - code-hotspot-analysis
 - improvement-budget
+- total-cost-of-ownership-transparency
+- workaround-registry
 layout: problem
 ---
 

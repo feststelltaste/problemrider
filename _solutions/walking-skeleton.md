@@ -13,6 +13,7 @@ problems:
 - immature-delivery-strategy
 - complex-deployment-process
 - procrastination-on-complex-tasks
+- incomplete-projects
 layout: solution
 ---
 

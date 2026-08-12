@@ -23,6 +23,12 @@ solutions:
 - aspect-oriented-programming-aop
 - code-generation
 - code-hotspot-analysis
+- preparatory-refactoring
+- clean-code
+- code-reviews
+- static-analysis-and-linting
+- strategic-code-deletion
+- code-reading-sessions
 layout: problem
 ---
 

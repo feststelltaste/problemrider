@@ -26,6 +26,7 @@ solutions:
 - clear-ownership-model
 - knowledge-base
 - team-working-agreements
+- production-readiness-criteria
 layout: problem
 ---
 

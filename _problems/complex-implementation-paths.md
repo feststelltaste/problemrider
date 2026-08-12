@@ -25,6 +25,7 @@ solutions:
 - loose-coupling
 - separation-of-concerns
 - tracer-bullets
+- preparatory-refactoring
 layout: problem
 ---
 

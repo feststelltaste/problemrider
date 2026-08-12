@@ -34,6 +34,11 @@ problems:
 - queries-that-prevent-index-usage
 - resource-allocation-failures
 - unreleased-resources
+- high-resource-utilization-on-client
+- long-running-database-transactions
+- memory-swapping
+- n-plus-one-query-problem
+- virtual-memory-thrashing
 layout: solution
 ---
 

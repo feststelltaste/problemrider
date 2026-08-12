@@ -24,6 +24,10 @@ solutions:
 - resource-pooling
 - resource-usage-optimization
 - memory-hierarchy
+- performance-measurements
+- monitoring-system-utilization
+- load-testing
+- continuous-performance-monitoring
 layout: problem
 ---
 

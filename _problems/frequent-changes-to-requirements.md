@@ -24,6 +24,7 @@ solutions:
 - product-owner
 - requirements-analysis
 - security-requirements-definition
+- definition-of-ready
 layout: problem
 ---
 

@@ -13,6 +13,7 @@ problems:
 - increased-risk-of-bugs
 - integer-overflow-underflow
 - null-pointer-dereferences
+- race-conditions
 layout: solution
 ---
 

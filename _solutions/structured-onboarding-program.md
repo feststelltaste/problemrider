@@ -21,6 +21,8 @@ problems:
 - mentor-burnout
 - rapid-team-growth
 - reviewer-inexperience
+- inconsistent-knowledge-acquisition
+- staff-availability-issues
 layout: solution
 ---
 

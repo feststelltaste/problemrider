@@ -25,6 +25,7 @@ solutions:
 - stakeholder-feedback-loops
 - functional-gap-analysis
 - service-level-agreements
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

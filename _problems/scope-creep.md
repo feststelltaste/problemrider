@@ -26,6 +26,7 @@ solutions:
 - requirements-analysis
 - stakeholder-feedback-loops
 - story-mapping
+- definition-of-ready
 layout: problem
 ---
 

@@ -12,6 +12,7 @@ problems:
 - unpredictable-system-behavior
 - logging-configuration-issues
 - silent-data-corruption
+- log-spam
 layout: solution
 ---
 

@@ -23,6 +23,11 @@ solutions:
 - short-iteration-cycles
 - capacity-based-planning
 - improvement-budget
+- explicit-prioritization-framework
+- work-in-progress-limits
+- definition-of-ready
+- team-retrospectives
+- sustainable-pace-practices
 layout: problem
 ---
 

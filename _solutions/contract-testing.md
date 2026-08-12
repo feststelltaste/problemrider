@@ -18,6 +18,8 @@ problems:
 - increased-risk-of-bugs
 - increased-bug-count
 - vendor-relationship-strain
+- schema-evolution-paralysis
+- testing-complexity
 layout: solution
 ---
 

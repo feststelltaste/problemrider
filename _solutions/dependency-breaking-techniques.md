@@ -19,6 +19,10 @@ problems:
 - legacy-code-without-tests
 - hidden-dependencies
 - flaky-tests
+- circular-references
+- god-object-anti-pattern
+- refactoring-avoidance
+- test-debt
 layout: solution
 ---
 

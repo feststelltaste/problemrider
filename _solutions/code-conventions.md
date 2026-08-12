@@ -19,6 +19,8 @@ problems:
 - inconsistent-execution
 - inconsistent-naming-conventions
 - nitpicking-culture
+- bikeshedding
+- log-spam
 layout: solution
 ---
 

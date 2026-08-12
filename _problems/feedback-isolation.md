@@ -25,6 +25,7 @@ solutions:
 - on-site-customer
 - fair-source
 - user-communities
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

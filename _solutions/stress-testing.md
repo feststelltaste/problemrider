@@ -15,6 +15,7 @@ problems:
 - missing-rollback-strategy
 - deadlock-conditions
 - stack-overflow-errors
+- race-conditions
 layout: solution
 ---
 

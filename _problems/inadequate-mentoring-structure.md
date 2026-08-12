@@ -28,6 +28,7 @@ solutions:
 - knowledge-base
 - team-working-agreements
 - sustainable-pace-practices
+- internal-technical-coaching
 layout: problem
 ---
 

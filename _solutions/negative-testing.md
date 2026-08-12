@@ -16,6 +16,7 @@ problems:
 - null-pointer-dereferences
 - integer-overflow-underflow
 - stack-overflow-errors
+- race-conditions
 layout: solution
 ---
 

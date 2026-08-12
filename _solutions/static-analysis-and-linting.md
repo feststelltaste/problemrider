@@ -24,6 +24,11 @@ problems:
 - nitpicking-culture
 - perfectionist-review-culture
 - stack-overflow-errors
+- bikeshedding
+- circular-references
+- conflicting-reviewer-opinions
+- copy-paste-programming
+- race-conditions
 layout: solution
 ---
 

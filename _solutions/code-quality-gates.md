@@ -23,6 +23,9 @@ problems:
 - reduced-feature-quality
 - review-process-avoidance
 - rushed-approvals
+- increased-bug-count
+- style-arguments-in-code-reviews
+- test-debt
 layout: solution
 ---
 

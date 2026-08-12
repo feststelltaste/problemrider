@@ -28,6 +28,7 @@ solutions:
 - characterization-tests
 - bubble-context
 - incremental-refactoring
+- parallel-run
 layout: problem
 ---
 

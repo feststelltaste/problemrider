@@ -24,6 +24,7 @@ solutions:
 - functional-debt-management
 - characterization-tests
 - improvement-budget
+- workaround-registry
 layout: problem
 ---
 

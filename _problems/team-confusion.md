@@ -25,6 +25,7 @@ solutions:
 - structured-communication-protocols
 - team-boundaries-aligned-to-architecture
 - team-working-agreements
+- team-retrospectives
 layout: problem
 ---
 

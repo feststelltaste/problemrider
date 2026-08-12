@@ -24,6 +24,10 @@ solutions:
 - product-strategy-alignment
 - continuous-delivery
 - feature-driven-development
+- feature-usage-measurement
+- regular-stakeholder-demonstrations
+- total-cost-of-ownership-transparency
+- value-stream-mapping
 layout: problem
 ---
 

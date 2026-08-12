@@ -24,6 +24,9 @@ problems:
 - team-dysfunction
 - uneven-workload-distribution
 - unmotivated-employees
+- change-management-chaos
+- context-switching-overhead
+- staff-availability-issues
 layout: solution
 ---
 

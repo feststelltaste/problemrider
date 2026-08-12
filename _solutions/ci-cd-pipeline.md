@@ -26,6 +26,8 @@ problems:
 - mixed-coding-styles
 - outdated-tests
 - tool-limitations
+- long-lived-feature-branches
+- style-arguments-in-code-reviews
 layout: solution
 ---
 

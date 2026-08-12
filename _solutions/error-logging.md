@@ -12,6 +12,7 @@ problems:
 - inadequate-error-handling
 - excessive-logging
 - logging-configuration-issues
+- log-spam
 layout: solution
 ---
 

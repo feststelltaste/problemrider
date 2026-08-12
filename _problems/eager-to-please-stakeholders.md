@@ -24,6 +24,8 @@ solutions:
 - formal-change-control-process
 - product-owner
 - stakeholder-feedback-loops
+- definition-of-ready
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

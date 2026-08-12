@@ -43,6 +43,9 @@ solutions:
 - value-range-definition
 - code-quality-gates
 - characterization-tests
+- change-impact-analysis
+- parallel-run
+- production-like-test-data
 layout: problem
 ---
 

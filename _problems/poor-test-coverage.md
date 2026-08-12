@@ -37,6 +37,7 @@ solutions:
 - security-tests
 - test-driven-development-tdd
 - characterization-tests
+- production-like-test-data
 layout: problem
 ---
 

@@ -25,6 +25,11 @@ solutions:
 - serialization-optimization
 - approximation-methods
 - graph-databases
+- performance-measurements
+- code-reviews
+- load-testing
+- performance-modeling
+- static-code-analysis
 layout: problem
 ---
 

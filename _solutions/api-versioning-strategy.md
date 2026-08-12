@@ -11,6 +11,7 @@ problems:
 - poor-interfaces-between-applications
 - integration-difficulties
 - maintenance-overhead
+- rapid-system-changes
 layout: solution
 ---
 

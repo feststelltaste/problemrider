@@ -25,6 +25,8 @@ solutions:
 - domain-patterns
 - functional-debt-management
 - improvement-budget
+- preparatory-refactoring
+- workaround-registry
 layout: problem
 ---
 

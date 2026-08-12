@@ -25,6 +25,10 @@ solutions:
 - code-hotspot-analysis
 - small-change-batches
 - work-in-progress-limits
+- explicit-prioritization-framework
+- value-stream-mapping
+- error-reporting-and-analysis
+- clear-ownership-model
 layout: problem
 ---
 

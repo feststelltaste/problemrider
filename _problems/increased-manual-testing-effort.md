@@ -26,6 +26,7 @@ solutions:
 - acceptance-tests
 - ci-cd-pipeline
 - smoke-testing
+- production-like-test-data
 layout: problem
 ---
 

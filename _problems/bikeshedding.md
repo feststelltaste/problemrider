@@ -23,6 +23,11 @@ solutions:
 - structured-communication-protocols
 - code-review-guidelines
 - team-working-agreements
+- team-retrospectives
+- decision-rights-and-escalation
+- definition-of-done
+- static-analysis-and-linting
+- code-conventions
 layout: problem
 ---
 

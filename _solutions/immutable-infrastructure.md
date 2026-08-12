@@ -12,6 +12,7 @@ problems:
 - complex-deployment-process
 - frequent-hotfixes-and-rollbacks
 - poor-system-environment
+- environment-variable-issues
 layout: solution
 ---
 

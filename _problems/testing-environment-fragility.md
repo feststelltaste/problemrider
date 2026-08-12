@@ -24,6 +24,7 @@ solutions:
 - isolated-test-environments
 - platform-independent-test-frameworks
 - simulation-environments
+- production-like-test-data
 layout: problem
 ---
 

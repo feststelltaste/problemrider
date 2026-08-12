@@ -16,6 +16,8 @@ problems:
 - development-disruption
 - flaky-tests
 - tool-limitations
+- environment-variable-issues
+- testing-complexity
 layout: solution
 ---
 

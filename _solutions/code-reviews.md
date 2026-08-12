@@ -25,6 +25,14 @@ problems:
 - queries-that-prevent-index-usage
 - stack-overflow-errors
 - unreleased-resources
+- algorithmic-complexity-problems
+- circular-references
+- copy-paste-programming
+- increased-bug-count
+- inefficient-code
+- log-spam
+- n-plus-one-query-problem
+- poor-naming-conventions
 layout: solution
 ---
 

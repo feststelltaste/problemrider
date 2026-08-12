@@ -15,6 +15,13 @@ problems:
 - unclear-goals-and-priorities
 - scope-creep
 - market-pressure
+- changing-project-scope
+- gold-plating
+- poor-planning
+- scope-change-resistance
+- stakeholder-dissatisfaction
+- unrealistic-deadlines
+- unrealistic-schedule
 layout: solution
 ---
 

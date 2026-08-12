@@ -28,6 +28,7 @@ solutions:
 - knowledge-rotation
 - structured-onboarding-program
 - technical-skills-development
+- internal-technical-coaching
 layout: problem
 ---
 

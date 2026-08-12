@@ -29,6 +29,13 @@ problems:
 - team-demoralization
 - uneven-work-flow
 - uneven-workload-distribution
+- budget-overruns
+- changing-project-scope
+- poor-planning
+- project-resource-constraints
+- scope-change-resistance
+- stakeholder-confidence-loss
+- stakeholder-dissatisfaction
 layout: solution
 ---
 

@@ -24,6 +24,7 @@ solutions:
 - characterization-tests
 - improvement-budget
 - mikado-method
+- preparatory-refactoring
 layout: problem
 ---
 

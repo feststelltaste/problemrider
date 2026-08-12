@@ -13,6 +13,8 @@ problems:
 - feature-creep-without-refactoring
 - high-client-side-resource-consumption
 - graphql-complexity-issues
+- high-resource-utilization-on-client
+- inefficient-code
 layout: solution
 ---
 

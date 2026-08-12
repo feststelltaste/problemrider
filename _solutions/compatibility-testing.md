@@ -12,6 +12,7 @@ problems:
 - breaking-changes
 - inadequate-integration-tests
 - abi-compatibility-issues
+- alignment-and-padding-issues
 layout: solution
 ---
 

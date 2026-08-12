@@ -15,6 +15,7 @@ problems:
 - shadow-systems
 - mental-fatigue
 - reduced-individual-productivity
+- context-switching-overhead
 layout: solution
 ---
 

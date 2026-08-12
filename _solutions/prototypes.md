@@ -18,6 +18,7 @@ problems:
 - inability-to-innovate
 - premature-technology-introduction
 - reduced-innovation
+- decision-avoidance
 layout: solution
 ---
 

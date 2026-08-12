@@ -21,6 +21,11 @@ solutions:
 - loose-coupling
 - separation-of-concerns
 - solid-principles
+- dependency-breaking-techniques
+- incremental-refactoring
+- static-analysis-and-linting
+- code-reviews
+- modularization-and-bounded-contexts
 layout: problem
 ---
 

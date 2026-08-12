@@ -24,6 +24,11 @@ solutions:
 - elastic-scaling
 - pipelining
 - streaming
+- monitoring-system-utilization
+- load-shedding
+- rate-limiting
+- proactive-capacity-management
+- performance-measurements
 layout: problem
 ---
 

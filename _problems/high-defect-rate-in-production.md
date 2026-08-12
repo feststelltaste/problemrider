@@ -32,6 +32,10 @@ solutions:
 - error-budgets
 - error-reporting-and-analysis
 - vulnerability-scans
+- change-impact-analysis
+- parallel-run
+- production-like-test-data
+- production-readiness-criteria
 layout: problem
 ---
 

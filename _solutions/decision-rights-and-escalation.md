@@ -26,6 +26,8 @@ problems:
 - priority-thrashing
 - team-dysfunction
 - unproductive-meetings
+- bikeshedding
+- no-formal-change-control-process
 layout: solution
 ---
 

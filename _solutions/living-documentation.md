@@ -20,6 +20,7 @@ problems:
 - information-fragmentation
 - knowledge-sharing-breakdown
 - team-churn-impact
+- incomplete-knowledge
 layout: solution
 ---
 

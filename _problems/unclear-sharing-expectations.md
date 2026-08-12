@@ -24,6 +24,7 @@ solutions:
 - explicit-prioritization-framework
 - knowledge-rotation
 - team-working-agreements
+- team-retrospectives
 layout: problem
 ---
 

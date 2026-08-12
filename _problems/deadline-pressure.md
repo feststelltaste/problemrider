@@ -24,6 +24,10 @@ solutions:
 - iterative-development
 - short-iteration-cycles
 - capacity-based-planning
+- explicit-prioritization-framework
+- improvement-budget
+- regular-stakeholder-demonstrations
+- work-in-progress-limits
 layout: problem
 ---
 

@@ -47,6 +47,8 @@ solutions:
 - event-storming
 - functional-gap-analysis
 - wireframing
+- definition-of-ready
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

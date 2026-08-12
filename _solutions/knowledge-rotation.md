@@ -32,6 +32,11 @@ problems:
 - reviewer-inexperience
 - uneven-workload-distribution
 - unmotivated-employees
+- duplicated-work
+- incomplete-knowledge
+- maintenance-bottlenecks
+- organizational-structure-mismatch
+- team-coordination-issues
 layout: solution
 ---
 

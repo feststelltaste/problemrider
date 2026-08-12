@@ -18,6 +18,11 @@ problems:
 - inefficient-database-indexing
 - load-balancing-problems
 - misconfigured-connection-pools
+- algorithmic-complexity-problems
+- garbage-collection-pressure
+- inefficient-code
+- insufficient-worker-capacity
+- memory-fragmentation
 layout: solution
 ---
 

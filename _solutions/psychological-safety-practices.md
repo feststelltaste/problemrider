@@ -35,6 +35,10 @@ problems:
 - reviewer-anxiety
 - team-dysfunction
 - team-members-not-engaged-in-review-process
+- decision-avoidance
+- overworked-teams
+- style-arguments-in-code-reviews
+- superficial-code-reviews
 layout: solution
 ---
 

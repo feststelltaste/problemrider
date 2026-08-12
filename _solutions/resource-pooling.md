@@ -19,6 +19,7 @@ problems:
 - database-connection-leaks
 - resource-allocation-failures
 - unreleased-resources
+- virtual-memory-thrashing
 layout: solution
 ---
 

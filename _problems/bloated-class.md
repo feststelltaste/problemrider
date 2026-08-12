@@ -23,6 +23,11 @@ solutions:
 - high-cohesion
 - code-hotspot-analysis
 - dependency-breaking-techniques
+- solid-principles
+- separation-of-concerns
+- preparatory-refactoring
+- clean-code
+- code-reading-sessions
 layout: problem
 ---
 

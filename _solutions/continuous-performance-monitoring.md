@@ -17,6 +17,10 @@ problems:
 - inefficient-database-indexing
 - queries-that-prevent-index-usage
 - unused-indexes
+- garbage-collection-pressure
+- inefficient-code
+- memory-fragmentation
+- n-plus-one-query-problem
 layout: solution
 ---
 

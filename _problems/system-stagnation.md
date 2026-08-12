@@ -27,6 +27,8 @@ solutions:
 - technical-debt-backlog
 - code-hotspot-analysis
 - modularization-and-bounded-contexts
+- feature-usage-measurement
+- total-cost-of-ownership-transparency
 layout: problem
 ---
 

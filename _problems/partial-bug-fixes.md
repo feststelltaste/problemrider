@@ -23,6 +23,7 @@ solutions:
 - root-cause-analysis
 - characterization-tests
 - improvement-budget
+- workaround-registry
 layout: problem
 ---
 
