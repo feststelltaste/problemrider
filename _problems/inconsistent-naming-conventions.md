@@ -26,6 +26,9 @@ solutions:
 - consistent-terminology
 - code-reviews
 - domain-driven-design
+- code-review-guidelines
+- communities-of-practice
+- clean-code
 layout: problem
 ---
 

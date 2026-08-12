@@ -26,6 +26,9 @@ solutions:
 - code-quality-gates
 - small-change-batches
 - definition-of-done
+- lightweight-design-review
+- pair-and-mob-programming
+- team-working-agreements
 layout: problem
 ---
 

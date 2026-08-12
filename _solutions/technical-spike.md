@@ -20,6 +20,7 @@ problems:
 - inability-to-innovate
 - procrastination-on-complex-tasks
 - reduced-innovation
+- complex-implementation-paths
 layout: solution
 ---
 

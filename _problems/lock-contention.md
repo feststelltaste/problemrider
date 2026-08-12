@@ -26,6 +26,9 @@ solutions:
 - performance-measurements
 - read-replicas
 - asynchronous-processing
+- monitoring
+- stress-testing
+- index-lifecycle-management
 layout: problem
 ---
 

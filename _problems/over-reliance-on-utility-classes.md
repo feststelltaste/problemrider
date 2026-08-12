@@ -26,6 +26,9 @@ solutions:
 - high-cohesion
 - separation-of-concerns
 - domain-modeling
+- lightweight-design-review
+- code-reading-sessions
+- preparatory-refactoring
 layout: problem
 ---
 

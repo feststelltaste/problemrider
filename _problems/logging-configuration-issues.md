@@ -25,6 +25,10 @@ solutions:
 - platform-independent-logging-frameworks
 - error-logging
 - logging-and-monitoring
+- logging-guidelines
+- externalized-configuration
+- configuration-checks
+- production-readiness-criteria
 layout: problem
 ---
 

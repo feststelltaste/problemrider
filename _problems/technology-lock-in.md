@@ -62,6 +62,7 @@ solutions:
 - third-party-dependency-check
 - vendor-management-practice
 - technology-radar
+- system-decommissioning
 layout: problem
 ---
 

@@ -27,6 +27,7 @@ solutions:
 - localization
 - mobile-first-design
 - responsive-design
+- outcome-based-goal-setting
 layout: problem
 ---
 

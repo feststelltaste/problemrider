@@ -21,6 +21,10 @@ solutions:
 - solid-principles
 - change-impact-analysis
 - parallel-run
+- exploratory-testing
+- code-reading-sessions
+- characterization-tests
+- dependency-breaking-techniques
 layout: problem
 ---
 

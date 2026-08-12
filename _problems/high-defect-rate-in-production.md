@@ -36,6 +36,9 @@ solutions:
 - parallel-run
 - production-like-test-data
 - production-readiness-criteria
+- defect-triage-process
+- delivery-performance-metrics
+- exploratory-testing
 layout: problem
 ---
 

@@ -26,6 +26,9 @@ solutions:
 - externalized-configuration
 - capacity-planning
 - performance-measurements
+- stress-testing
+- observability-and-monitoring
+- production-readiness-criteria
 layout: problem
 ---
 

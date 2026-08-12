@@ -25,6 +25,8 @@ solutions:
 - cross-platform-build-tools
 - platform-independent-build-pipelines
 - virtual-development-environments
+- fast-feedback-loops
+- self-service-developer-platform
 layout: problem
 ---
 

@@ -37,6 +37,13 @@ problems:
 - merge-conflicts
 - poor-naming-conventions
 - reduced-code-submission-frequency
+- automated-tooling-ineffectiveness
+- convenience-driven-development
+- inadequate-code-reviews
+- inconsistent-naming-conventions
+- increased-risk-of-bugs
+- inexperienced-developers
+- undefined-code-style-guidelines
 layout: solution
 ---
 

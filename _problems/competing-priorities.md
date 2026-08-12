@@ -26,6 +26,9 @@ solutions:
 - work-in-progress-limits
 - product-owner
 - improvement-budget
+- outcome-based-goal-setting
+- value-stream-mapping
+- feature-usage-measurement
 layout: problem
 ---
 

@@ -25,6 +25,11 @@ solutions:
 - platform-independent-test-frameworks
 - simulation-environments
 - production-like-test-data
+- self-service-developer-platform
+- containerization
+- infrastructure-as-code
+- immutable-infrastructure
+- fast-feedback-loops
 layout: problem
 ---
 

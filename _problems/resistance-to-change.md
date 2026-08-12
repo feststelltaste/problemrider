@@ -26,6 +26,10 @@ solutions:
 - security-culture
 - fair-source
 - team-retrospectives
+- pilot-projects
+- psychological-safety-practices
+- small-change-batches
+- written-first-communication
 layout: problem
 ---
 

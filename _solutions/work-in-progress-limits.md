@@ -48,6 +48,10 @@ problems:
 - superficial-code-reviews
 - time-pressure
 - unrealistic-schedule
+- author-frustration
+- bottleneck-formation
+- inadequate-code-reviews
+- perfectionist-review-culture
 layout: solution
 ---
 

@@ -29,6 +29,7 @@ solutions:
 - dependency-breaking-techniques
 - change-impact-analysis
 - workaround-registry
+- application-portfolio-inventory
 layout: problem
 ---
 

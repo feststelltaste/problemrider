@@ -18,6 +18,9 @@ solutions:
 - negative-testing
 - stress-testing
 - code-reviews
+- profiling
+- exploratory-testing
+- design-by-contract
 layout: problem
 ---
 

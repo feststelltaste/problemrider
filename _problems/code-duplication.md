@@ -25,6 +25,10 @@ solutions:
 - data-deduplication
 - strategic-code-deletion
 - feature-usage-measurement
+- clean-code
+- code-reading-sessions
+- code-hotspot-analysis
+- communities-of-practice
 layout: problem
 ---
 

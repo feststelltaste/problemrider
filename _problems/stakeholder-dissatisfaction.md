@@ -29,6 +29,8 @@ solutions:
 - usability-tests
 - feedback-mechanisms
 - capacity-based-planning
+- domain-immersion
+- outcome-based-goal-setting
 layout: problem
 ---
 

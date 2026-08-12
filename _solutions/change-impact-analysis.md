@@ -22,6 +22,10 @@ problems:
 - no-formal-change-control-process
 - schema-evolution-paralysis
 - shared-database
+- approval-dependencies
+- communication-risk-outside-project
+- increasing-brittleness
+- partial-bug-fixes
 layout: solution
 ---
 

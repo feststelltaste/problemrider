@@ -51,6 +51,7 @@ solutions:
 - undo-and-redo
 - characterization-tests
 - mikado-method
+- pilot-projects
 layout: problem
 ---
 

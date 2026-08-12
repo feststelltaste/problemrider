@@ -38,6 +38,8 @@ solutions:
 - vendor-management-practice
 - technology-radar
 - total-cost-of-ownership-transparency
+- application-portfolio-inventory
+- system-decommissioning
 layout: problem
 ---
 

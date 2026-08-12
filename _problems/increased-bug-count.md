@@ -29,6 +29,7 @@ solutions:
 - characterization-tests
 - change-impact-analysis
 - production-like-test-data
+- defect-triage-process
 layout: problem
 ---
 

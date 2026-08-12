@@ -16,6 +16,8 @@ problems:
 - null-pointer-dereferences
 - stack-overflow-errors
 - unreleased-resources
+- database-connection-leaks
+- improper-event-listener-management
 layout: solution
 ---
 

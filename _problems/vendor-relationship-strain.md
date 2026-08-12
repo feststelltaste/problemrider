@@ -25,6 +25,10 @@ solutions:
 - structured-communication-protocols
 - stakeholder-feedback-loops
 - contract-testing
+- written-first-communication
+- application-portfolio-inventory
+- service-level-objectives
+- technology-radar
 layout: problem
 ---
 

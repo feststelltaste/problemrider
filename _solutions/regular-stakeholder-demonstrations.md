@@ -31,6 +31,14 @@ problems:
 - scope-change-resistance
 - unrealistic-deadlines
 - unrealistic-schedule
+- communication-risk-outside-project
+- declining-business-metrics
+- feature-creep
+- frequent-changes-to-requirements
+- market-pressure
+- poor-project-control
+- unclear-goals-and-priorities
+- unproductive-meetings
 layout: solution
 ---
 

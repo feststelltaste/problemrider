@@ -27,6 +27,7 @@ solutions:
 - ci-cd-pipeline
 - smoke-testing
 - production-like-test-data
+- exploratory-testing
 layout: problem
 ---
 

@@ -25,6 +25,7 @@ problems:
 - bloated-class
 - global-state-and-side-effects
 - god-object-anti-pattern
+- monolithic-functions-and-classes
 layout: solution
 ---
 

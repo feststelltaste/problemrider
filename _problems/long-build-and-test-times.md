@@ -25,6 +25,7 @@ solutions:
 - parallelization
 - pipelining
 - platform-independent-build-pipelines
+- fast-feedback-loops
 layout: problem
 ---
 

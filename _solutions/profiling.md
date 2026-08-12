@@ -39,6 +39,12 @@ problems:
 - memory-swapping
 - n-plus-one-query-problem
 - virtual-memory-thrashing
+- deadlock-conditions
+- high-number-of-database-queries
+- imperative-data-fetching-logic
+- index-fragmentation
+- inefficient-frontend-code
+- stack-overflow-errors
 layout: solution
 ---
 

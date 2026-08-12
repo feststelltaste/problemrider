@@ -29,6 +29,7 @@ solutions:
 - work-in-progress-limits
 - feature-toggles
 - value-stream-mapping
+- delivery-performance-metrics
 layout: problem
 ---
 

@@ -26,6 +26,10 @@ solutions:
 - monitoring
 - stress-testing
 - idempotency-design
+- profiling
+- static-analysis-and-linting
+- exploratory-testing
+- saga-pattern
 layout: problem
 ---
 

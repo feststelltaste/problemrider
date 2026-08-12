@@ -26,6 +26,8 @@ solutions:
 - collaborative-problem-solving
 - code-reading-sessions
 - internal-technical-coaching
+- communities-of-practice
+- written-first-communication
 layout: problem
 ---
 

@@ -29,6 +29,7 @@ solutions:
 - threat-modeling
 - trust-boundaries
 - zero-trust-architecture
+- application-portfolio-inventory
 layout: problem
 ---
 

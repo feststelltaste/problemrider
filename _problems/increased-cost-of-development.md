@@ -27,6 +27,7 @@ solutions:
 - standard-software
 - feature-usage-measurement
 - total-cost-of-ownership-transparency
+- system-decommissioning
 layout: problem
 ---
 

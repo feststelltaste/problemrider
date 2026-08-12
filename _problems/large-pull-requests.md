@@ -27,6 +27,7 @@ solutions:
 - feature-toggles
 - incremental-refactoring
 - continuous-integration
+- lightweight-design-review
 layout: problem
 ---
 

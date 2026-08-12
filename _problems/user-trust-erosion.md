@@ -26,6 +26,10 @@ solutions:
 - feedback
 - understandable-error-messages
 - undo-and-redo
+- exploratory-testing
+- defect-triage-process
+- usability-tests
+- delivery-performance-metrics
 layout: problem
 ---
 

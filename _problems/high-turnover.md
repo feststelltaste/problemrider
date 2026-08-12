@@ -27,6 +27,9 @@ solutions:
 - improvement-budget
 - team-autonomy-and-empowerment
 - knowledge-base
+- team-retrospectives
+- communities-of-practice
+- internal-technical-coaching
 layout: problem
 ---
 

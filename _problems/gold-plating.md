@@ -27,6 +27,7 @@ solutions:
 - definition-of-ready
 - story-mapping
 - regular-stakeholder-demonstrations
+- outcome-based-goal-setting
 layout: problem
 ---
 

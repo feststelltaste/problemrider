@@ -26,6 +26,10 @@ solutions:
 - decision-rights-and-escalation
 - production-readiness-criteria
 - team-retrospectives
+- application-portfolio-inventory
+- system-decommissioning
+- team-working-agreements
+- on-call-duty
 layout: problem
 ---
 

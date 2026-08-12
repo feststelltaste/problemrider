@@ -42,6 +42,12 @@ problems:
 - insufficient-code-review
 - staff-availability-issues
 - superficial-code-reviews
+- inadequate-initial-reviews
+- language-barriers
+- perfectionist-review-culture
+- review-process-avoidance
+- review-process-breakdown
+- rushed-approvals
 layout: solution
 ---
 

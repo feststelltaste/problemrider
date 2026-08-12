@@ -25,6 +25,10 @@ solutions:
 - knowledge-rotation
 - team-working-agreements
 - team-retrospectives
+- written-first-communication
+- communities-of-practice
+- knowledge-base
+- documentation-as-code
 layout: problem
 ---
 

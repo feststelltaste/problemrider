@@ -41,6 +41,13 @@ problems:
 - n-plus-one-query-problem
 - virtual-memory-thrashing
 - work-queue-buildup
+- high-number-of-database-queries
+- imperative-data-fetching-logic
+- inefficient-frontend-code
+- long-running-transactions
+- rate-limiting-issues
+- serialization-deserialization-bottlenecks
+- task-queues-backing-up
 layout: solution
 ---
 

@@ -46,6 +46,8 @@ solutions:
 - change-impact-analysis
 - parallel-run
 - production-like-test-data
+- defect-triage-process
+- exploratory-testing
 layout: problem
 ---
 

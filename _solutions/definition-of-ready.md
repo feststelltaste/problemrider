@@ -27,6 +27,11 @@ problems:
 - time-pressure
 - unrealistic-deadlines
 - unrealistic-schedule
+- feature-creep
+- feature-factory
+- large-feature-scope
+- planning-dysfunction
+- product-direction-chaos
 layout: solution
 ---
 

@@ -27,6 +27,9 @@ problems:
 - copy-paste-programming
 - poor-naming-conventions
 - reduced-team-productivity
+- code-duplication
+- inconsistent-naming-conventions
+- undefined-code-style-guidelines
 layout: solution
 ---
 

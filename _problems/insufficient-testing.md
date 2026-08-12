@@ -51,6 +51,7 @@ solutions:
 - parallel-run
 - production-like-test-data
 - production-readiness-criteria
+- exploratory-testing
 layout: problem
 ---
 

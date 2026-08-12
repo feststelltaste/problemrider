@@ -26,6 +26,10 @@ solutions:
 - knowledge-sharing-practices
 - documentation-as-code
 - ubiquitous-language
+- written-first-communication
+- team-retrospectives
+- communities-of-practice
+- lightweight-design-review
 layout: problem
 ---
 

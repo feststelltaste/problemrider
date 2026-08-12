@@ -26,6 +26,8 @@ solutions:
 - virtual-development-environments
 - containerization
 - feature-toggles
+- fast-feedback-loops
+- self-service-developer-platform
 layout: problem
 ---
 

@@ -29,6 +29,8 @@ problems:
 - conflicting-reviewer-opinions
 - copy-paste-programming
 - race-conditions
+- deadlock-conditions
+- log-injection-vulnerabilities
 layout: solution
 ---
 

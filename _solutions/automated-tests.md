@@ -17,6 +17,7 @@ problems:
 - test-debt
 - fear-of-failure
 - past-negative-experiences
+- defensive-coding-practices
 layout: solution
 ---
 

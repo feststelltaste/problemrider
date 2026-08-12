@@ -26,6 +26,12 @@ problems:
 - log-spam
 - long-running-database-transactions
 - race-conditions
+- dma-coherency-issues
+- excessive-logging
+- lock-contention
+- long-running-transactions
+- rate-limiting-issues
+- service-discovery-failures
 layout: solution
 ---
 

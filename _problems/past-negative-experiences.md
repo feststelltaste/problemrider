@@ -27,6 +27,7 @@ solutions:
 - feature-flags
 - mikado-method
 - team-retrospectives
+- pilot-projects
 layout: problem
 ---
 

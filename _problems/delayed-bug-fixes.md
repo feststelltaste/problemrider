@@ -25,6 +25,10 @@ solutions:
 - characterization-tests
 - improvement-budget
 - workaround-registry
+- defect-triage-process
+- explicit-prioritization-framework
+- fast-feedback-loops
+- code-hotspot-analysis
 layout: problem
 ---
 

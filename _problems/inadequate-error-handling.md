@@ -43,6 +43,7 @@ solutions:
 - output-encoding
 - real-time-input-validation
 - understandable-error-messages
+- logging-guidelines
 layout: problem
 ---
 

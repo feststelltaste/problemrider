@@ -25,6 +25,10 @@ solutions:
 - work-in-progress-limits
 - trunk-based-development
 - pair-and-mob-programming
+- team-working-agreements
+- value-stream-mapping
+- delivery-performance-metrics
+- fast-feedback-loops
 layout: problem
 ---
 

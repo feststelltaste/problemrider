@@ -20,6 +20,15 @@ problems:
 - unclear-documentation-ownership
 - environment-variable-issues
 - no-formal-change-control-process
+- database-connection-leaks
+- inadequate-configuration-management
+- incorrect-max-connection-pool-size
+- legacy-configuration-management-chaos
+- logging-configuration-issues
+- misconfigured-connection-pools
+- release-anxiety
+- resource-allocation-failures
+- service-discovery-failures
 layout: solution
 ---
 

@@ -18,6 +18,9 @@ problems:
 - shared-dependencies
 - vendor-dependency
 - second-system-effect
+- dependency-on-supplier
+- inappropriate-skillset
+- vendor-relationship-strain
 layout: solution
 ---
 

@@ -14,6 +14,7 @@ problems:
 - inadequate-code-reviews
 - lower-code-quality
 - inadequate-error-handling
+- log-injection-vulnerabilities
 layout: solution
 ---
 

@@ -27,6 +27,9 @@ solutions:
 - technical-skills-development
 - pair-and-mob-programming
 - modularization-and-bounded-contexts
+- communities-of-practice
+- code-reading-sessions
+- internal-technical-coaching
 layout: problem
 ---
 

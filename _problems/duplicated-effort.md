@@ -27,6 +27,7 @@ solutions:
 - clear-ownership-model
 - team-boundaries-aligned-to-architecture
 - documentation-as-code
+- communities-of-practice
 layout: problem
 ---
 

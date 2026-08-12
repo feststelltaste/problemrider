@@ -36,6 +36,7 @@ solutions:
 - error-reporting-and-analysis
 - exceptions
 - logging-and-monitoring
+- logging-guidelines
 layout: problem
 ---
 

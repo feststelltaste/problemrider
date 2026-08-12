@@ -28,6 +28,7 @@ solutions:
 - architecture-roadmap
 - functional-spike
 - total-cost-of-ownership-transparency
+- pilot-projects
 layout: problem
 ---
 

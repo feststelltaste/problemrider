@@ -27,6 +27,7 @@ solutions:
 - value-stream-mapping
 - explicit-prioritization-framework
 - cognitive-load-minimization
+- fast-feedback-loops
 layout: problem
 ---
 

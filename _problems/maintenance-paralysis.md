@@ -25,6 +25,10 @@ solutions:
 - improvement-budget
 - mikado-method
 - preparatory-refactoring
+- code-hotspot-analysis
+- dependency-breaking-techniques
+- parallel-run
+- pilot-projects
 layout: problem
 ---
 

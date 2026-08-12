@@ -28,6 +28,8 @@ solutions:
 - regular-stakeholder-demonstrations
 - total-cost-of-ownership-transparency
 - value-stream-mapping
+- delivery-performance-metrics
+- outcome-based-goal-setting
 layout: problem
 ---
 

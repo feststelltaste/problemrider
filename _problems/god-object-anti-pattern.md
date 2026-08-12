@@ -29,6 +29,7 @@ solutions:
 - code-hotspot-analysis
 - preparatory-refactoring
 - domain-driven-design
+- lightweight-design-review
 layout: problem
 ---
 

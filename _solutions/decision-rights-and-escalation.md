@@ -28,6 +28,7 @@ problems:
 - unproductive-meetings
 - bikeshedding
 - no-formal-change-control-process
+- approval-dependencies
 layout: solution
 ---
 

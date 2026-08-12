@@ -27,6 +27,7 @@ solutions:
 - code-reading-sessions
 - internal-technical-coaching
 - team-retrospectives
+- communities-of-practice
 layout: problem
 ---
 

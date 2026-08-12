@@ -27,6 +27,9 @@ solutions:
 - clear-roles-and-ownership
 - pair-and-mob-programming
 - capacity-based-planning
+- value-stream-mapping
+- team-retrospectives
+- communities-of-practice
 layout: problem
 ---
 

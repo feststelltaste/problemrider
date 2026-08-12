@@ -18,6 +18,8 @@ problems:
 - cognitive-overload
 - integer-overflow-underflow
 - null-pointer-dereferences
+- improper-event-listener-management
+- stack-overflow-errors
 layout: solution
 ---
 

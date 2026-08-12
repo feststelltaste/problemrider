@@ -23,6 +23,9 @@ solutions:
 - integration-tests
 - continuous-data-verification
 - data-integrity
+- exploratory-testing
+- characterization-tests
+- observability-and-monitoring
 layout: problem
 ---
 

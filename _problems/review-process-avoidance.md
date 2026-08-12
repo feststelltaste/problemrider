@@ -26,6 +26,10 @@ solutions:
 - small-change-batches
 - team-working-agreements
 - code-quality-gates
+- checklists
+- pair-and-mob-programming
+- team-retrospectives
+- fast-feedback-loops
 layout: problem
 ---
 

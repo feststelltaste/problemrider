@@ -29,6 +29,7 @@ solutions:
 - living-documentation
 - pair-and-mob-programming
 - internal-technical-coaching
+- domain-immersion
 layout: problem
 ---
 

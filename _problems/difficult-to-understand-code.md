@@ -25,6 +25,10 @@ solutions:
 - fluent-interfaces
 - code-reading-sessions
 - preparatory-refactoring
+- code-conventions
+- communities-of-practice
+- internal-technical-coaching
+- ubiquitous-language
 layout: problem
 ---
 

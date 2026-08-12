@@ -28,6 +28,7 @@ solutions:
 - code-reading-sessions
 - internal-technical-coaching
 - technology-radar
+- pilot-projects
 layout: problem
 ---
 

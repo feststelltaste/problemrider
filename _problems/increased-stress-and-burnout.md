@@ -27,6 +27,9 @@ solutions:
 - on-call-duty
 - capacity-based-planning
 - improvement-budget
+- team-retrospectives
+- value-stream-mapping
+- explicit-prioritization-framework
 layout: problem
 ---
 

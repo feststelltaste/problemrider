@@ -70,6 +70,7 @@ solutions:
 - virtualized-lists
 - performance-optimization
 - service-level-indicators
+- index-lifecycle-management
 layout: problem
 ---
 

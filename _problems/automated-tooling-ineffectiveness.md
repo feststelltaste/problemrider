@@ -25,6 +25,10 @@ solutions:
 - development-workflow-automation
 - code-metrics
 - code-hotspot-analysis
+- fast-feedback-loops
+- team-retrospectives
+- code-review-guidelines
+- communities-of-practice
 layout: problem
 ---
 

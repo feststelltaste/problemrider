@@ -27,6 +27,9 @@ problems:
 - change-management-chaos
 - context-switching-overhead
 - staff-availability-issues
+- avoidance-behaviors
+- review-process-breakdown
+- uneven-work-flow
 layout: solution
 ---
 

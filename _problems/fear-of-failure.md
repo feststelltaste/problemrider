@@ -26,6 +26,9 @@ solutions:
 - automated-tests
 - small-change-batches
 - team-autonomy-and-empowerment
+- pilot-projects
+- team-retrospectives
+- fast-feedback-loops
 layout: problem
 ---
 

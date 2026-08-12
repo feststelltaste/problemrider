@@ -21,6 +21,7 @@ problems:
 - nitpicking-culture
 - bikeshedding
 - log-spam
+- difficult-to-understand-code
 layout: solution
 ---
 

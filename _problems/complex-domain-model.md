@@ -26,6 +26,7 @@ solutions:
 - domain-aligned-architecture
 - domain-driven-design
 - domain-modeling
+- domain-immersion
 layout: problem
 ---
 

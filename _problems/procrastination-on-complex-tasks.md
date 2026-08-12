@@ -26,6 +26,9 @@ solutions:
 - pair-and-mob-programming
 - work-in-progress-limits
 - walking-skeleton
+- preparatory-refactoring
+- code-reading-sessions
+- psychological-safety-practices
 layout: problem
 ---
 

@@ -57,6 +57,7 @@ solutions:
 - understandable-error-messages
 - undo-and-redo
 - visual-hierarchy
+- domain-immersion
 layout: problem
 ---
 

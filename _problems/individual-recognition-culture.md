@@ -24,6 +24,9 @@ solutions:
 - knowledge-rotation
 - blameless-postmortems
 - clear-roles-and-ownership
+- team-retrospectives
+- communities-of-practice
+- outcome-based-goal-setting
 layout: problem
 ---
 

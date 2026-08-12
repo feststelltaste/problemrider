@@ -24,6 +24,13 @@ problems:
 - algorithmic-complexity-problems
 - alignment-and-padding-issues
 - n-plus-one-query-problem
+- atomic-operation-overhead
+- data-structure-cache-inefficiency
+- dma-coherency-issues
+- endianness-conversion-overhead
+- false-sharing
+- interrupt-overhead
+- memory-barrier-inefficiency
 layout: solution
 ---
 

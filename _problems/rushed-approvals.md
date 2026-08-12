@@ -27,6 +27,9 @@ solutions:
 - work-in-progress-limits
 - code-quality-gates
 - definition-of-done
+- team-retrospectives
+- pair-and-mob-programming
+- delivery-performance-metrics
 layout: problem
 ---
 

@@ -22,6 +22,10 @@ solutions:
 - data-stream-processing
 - dead-letter-queue
 - load-shedding
+- monitoring-system-utilization
+- observability-and-monitoring
+- rate-limiting
+- performance-measurements
 layout: problem
 ---
 

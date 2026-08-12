@@ -30,6 +30,7 @@ solutions:
 - code-reviews
 - static-code-analysis
 - continuous-performance-monitoring
+- index-lifecycle-management
 layout: problem
 ---
 

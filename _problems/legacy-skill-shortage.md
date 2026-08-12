@@ -26,6 +26,10 @@ solutions:
 - platform-independent-programming-languages
 - security-training
 - standard-software
+- knowledge-rotation
+- communities-of-practice
+- internal-technical-coaching
+- code-reading-sessions
 layout: problem
 ---
 

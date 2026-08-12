@@ -27,6 +27,9 @@ solutions:
 - static-analysis-and-linting
 - load-testing
 - observability-and-monitoring
+- code-reviews
+- error-handling
+- production-readiness-criteria
 layout: problem
 ---
 

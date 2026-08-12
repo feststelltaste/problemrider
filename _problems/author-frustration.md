@@ -26,6 +26,10 @@ solutions:
 - team-working-agreements
 - small-change-batches
 - blameless-postmortems
+- team-retrospectives
+- work-in-progress-limits
+- communities-of-practice
+- internal-technical-coaching
 layout: problem
 ---
 

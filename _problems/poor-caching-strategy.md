@@ -25,6 +25,9 @@ solutions:
 - monitoring
 - performance-modeling
 - materialized-views
+- load-testing
+- continuous-performance-monitoring
+- index-lifecycle-management
 layout: problem
 ---
 

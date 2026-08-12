@@ -19,6 +19,10 @@ solutions:
 - security-policies-for-users
 - federated-identity
 - two-factor-authentication
+- encryption
+- security-tests
+- penetration-tests
+- security-monitoring
 layout: problem
 ---
 

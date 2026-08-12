@@ -13,6 +13,7 @@ problems:
 - external-service-delays
 - increased-error-rates
 - upstream-timeouts
+- service-discovery-failures
 layout: solution
 ---
 

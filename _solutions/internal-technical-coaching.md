@@ -22,6 +22,16 @@ problems:
 - incomplete-knowledge
 - inconsistent-knowledge-acquisition
 - knowledge-dependency
+- author-frustration
+- difficult-to-understand-code
+- extended-research-time
+- high-turnover
+- insufficient-design-skills
+- legacy-skill-shortage
+- mentor-burnout
+- new-hire-frustration
+- reduced-team-flexibility
+- reviewer-anxiety
 layout: solution
 ---
 

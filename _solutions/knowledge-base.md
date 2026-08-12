@@ -30,6 +30,9 @@ problems:
 - inconsistent-knowledge-acquisition
 - knowledge-dependency
 - poor-communication
+- information-decay
+- language-barriers
+- unclear-sharing-expectations
 layout: solution
 ---
 

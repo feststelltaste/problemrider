@@ -25,6 +25,11 @@ solutions:
 - technical-skills-development
 - pattern-language
 - refactoring-katas
+- lightweight-design-review
+- internal-technical-coaching
+- communities-of-practice
+- code-reading-sessions
+- domain-driven-design
 layout: problem
 ---
 

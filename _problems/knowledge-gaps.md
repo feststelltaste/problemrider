@@ -49,6 +49,8 @@ solutions:
 - user-communities
 - video-tutorials
 - code-reading-sessions
+- application-portfolio-inventory
+- domain-immersion
 layout: problem
 ---
 

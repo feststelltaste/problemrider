@@ -26,6 +26,7 @@ problems:
 - memory-swapping
 - virtual-memory-thrashing
 - work-queue-buildup
+- task-queues-backing-up
 layout: solution
 ---
 

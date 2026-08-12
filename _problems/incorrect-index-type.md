@@ -24,6 +24,10 @@ solutions:
 - profiling
 - database-abstraction
 - continuous-performance-monitoring
+- index-lifecycle-management
+- load-testing
+- code-reviews
+- production-like-test-data
 layout: problem
 ---
 

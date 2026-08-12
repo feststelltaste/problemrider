@@ -34,6 +34,8 @@ solutions:
 - deprecation-strategy
 - feature-usage-measurement
 - total-cost-of-ownership-transparency
+- application-portfolio-inventory
+- system-decommissioning
 layout: problem
 ---
 

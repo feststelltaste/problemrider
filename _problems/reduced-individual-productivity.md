@@ -27,6 +27,7 @@ solutions:
 - psychological-safety-practices
 - clean-code
 - improvement-budget
+- fast-feedback-loops
 layout: problem
 ---
 

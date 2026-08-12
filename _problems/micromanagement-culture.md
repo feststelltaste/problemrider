@@ -27,6 +27,9 @@ solutions:
 - blameless-postmortems
 - team-working-agreements
 - error-budgets
+- team-retrospectives
+- outcome-based-goal-setting
+- delivery-performance-metrics
 layout: problem
 ---
 

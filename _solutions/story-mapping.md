@@ -22,6 +22,7 @@ problems:
 - stakeholder-dissatisfaction
 - unrealistic-deadlines
 - unrealistic-schedule
+- frequent-changes-to-requirements
 layout: solution
 ---
 

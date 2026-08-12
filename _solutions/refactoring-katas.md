@@ -13,6 +13,7 @@ problems:
 - insufficient-design-skills
 - lower-code-quality
 - procedural-background
+- procedural-programming-in-oop-languages
 layout: solution
 ---
 

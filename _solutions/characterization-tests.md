@@ -25,6 +25,11 @@ problems:
 - increased-bug-count
 - refactoring-avoidance
 - test-debt
+- cache-invalidation-problems
+- hidden-side-effects
+- history-of-failed-changes
+- increasing-brittleness
+- monolithic-functions-and-classes
 layout: solution
 ---
 

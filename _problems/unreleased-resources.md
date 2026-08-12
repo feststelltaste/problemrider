@@ -26,6 +26,9 @@ solutions:
 - profiling
 - error-handling
 - connection-pooling
+- load-testing
+- observability-and-monitoring
+- exploratory-testing
 layout: problem
 ---
 

@@ -18,6 +18,10 @@ solutions:
 - code-reviews
 - monitoring-system-utilization
 - dependency-injection
+- design-by-contract
+- load-testing
+- error-handling
+- exploratory-testing
 layout: problem
 ---
 

@@ -25,6 +25,10 @@ solutions:
 - checklists
 - knowledge-base
 - documentation-as-code
+- written-first-communication
+- team-retrospectives
+- lightweight-design-review
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

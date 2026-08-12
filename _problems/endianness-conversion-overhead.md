@@ -21,6 +21,10 @@ solutions:
 - platform-independence
 - performance-measurements
 - profiling
+- compatibility-testing
+- interoperability-tests
+- static-code-analysis
+- code-reviews
 layout: problem
 ---
 

@@ -39,6 +39,9 @@ problems:
 - overworked-teams
 - style-arguments-in-code-reviews
 - superficial-code-reviews
+- procrastination-on-complex-tasks
+- resistance-to-change
+- review-process-breakdown
 layout: solution
 ---
 

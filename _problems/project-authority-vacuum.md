@@ -25,6 +25,9 @@ solutions:
 - architecture-review-board
 - explicit-prioritization-framework
 - change-management-process
+- outcome-based-goal-setting
+- written-first-communication
+- team-retrospectives
 layout: problem
 ---
 

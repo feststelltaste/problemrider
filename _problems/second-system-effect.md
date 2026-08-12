@@ -26,6 +26,8 @@ solutions:
 - mikado-method
 - parallel-run
 - technology-radar
+- lightweight-design-review
+- pilot-projects
 layout: problem
 ---
 

@@ -14,6 +14,11 @@ problems:
 - difficulty-quantifying-benefits
 - poor-caching-strategy
 - algorithmic-complexity-problems
+- atomic-operation-overhead
+- data-structure-cache-inefficiency
+- false-sharing
+- interrupt-overhead
+- memory-barrier-inefficiency
 layout: solution
 ---
 

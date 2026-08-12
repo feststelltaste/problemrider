@@ -27,6 +27,9 @@ solutions:
 - production-readiness-criteria
 - value-stream-mapping
 - workaround-registry
+- logging-guidelines
+- self-service-developer-platform
+- system-decommissioning
 layout: problem
 ---
 

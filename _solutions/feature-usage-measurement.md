@@ -22,6 +22,11 @@ problems:
 - duplicated-work
 - maintenance-cost-increase
 - project-resource-constraints
+- competing-priorities
+- declining-business-metrics
+- market-pressure
+- modernization-roi-justification-failure
+- short-term-focus
 layout: solution
 ---
 

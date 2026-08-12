@@ -18,6 +18,9 @@ problems:
 - tool-limitations
 - environment-variable-issues
 - testing-complexity
+- inadequate-configuration-management
+- legacy-configuration-management-chaos
+- testing-environment-fragility
 layout: solution
 ---
 

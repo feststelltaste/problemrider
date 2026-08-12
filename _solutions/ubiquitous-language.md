@@ -16,6 +16,7 @@ problems:
 - misaligned-deliverables
 - communication-risk-within-project
 - language-barriers
+- difficult-to-understand-code
 layout: solution
 ---
 

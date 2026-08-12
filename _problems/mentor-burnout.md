@@ -27,6 +27,9 @@ solutions:
 - knowledge-base
 - documentation-as-code
 - team-working-agreements
+- communities-of-practice
+- internal-technical-coaching
+- code-reading-sessions
 layout: problem
 ---
 

@@ -19,6 +19,8 @@ problems:
 - second-system-effect
 - high-defect-rate-in-production
 - schema-evolution-paralysis
+- maintenance-paralysis
+- release-anxiety
 layout: solution
 ---
 

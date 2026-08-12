@@ -22,6 +22,12 @@ problems:
 - god-object-anti-pattern
 - long-lived-feature-branches
 - merge-conflicts
+- convenience-driven-development
+- monolithic-functions-and-classes
+- over-reliance-on-utility-classes
+- poor-encapsulation
+- procrastination-on-complex-tasks
+- tangled-cross-cutting-concerns
 layout: solution
 ---
 

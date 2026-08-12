@@ -36,6 +36,13 @@ problems:
 - incomplete-projects
 - insufficient-code-review
 - merge-conflicts
+- analysis-paralysis
+- history-of-failed-changes
+- inadequate-code-reviews
+- large-feature-scope
+- perfectionist-review-culture
+- release-anxiety
+- resistance-to-change
 layout: solution
 ---
 

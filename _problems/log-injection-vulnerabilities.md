@@ -25,6 +25,10 @@ solutions:
 - input-validation
 - logging-and-monitoring
 - output-encoding
+- logging-guidelines
+- secure-coding-guidelines
+- code-reviews
+- static-analysis-and-linting
 layout: problem
 ---
 

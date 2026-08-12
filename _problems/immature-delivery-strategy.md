@@ -26,6 +26,7 @@ solutions:
 - walking-skeleton
 - production-readiness-criteria
 - value-stream-mapping
+- delivery-performance-metrics
 layout: problem
 ---
 

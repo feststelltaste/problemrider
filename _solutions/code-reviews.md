@@ -33,6 +33,15 @@ problems:
 - log-spam
 - n-plus-one-query-problem
 - poor-naming-conventions
+- database-connection-leaks
+- defensive-coding-practices
+- endianness-conversion-overhead
+- excessive-logging
+- incorrect-index-type
+- increased-risk-of-bugs
+- log-injection-vulnerabilities
+- partial-bug-fixes
+- undefined-code-style-guidelines
 layout: solution
 ---
 

@@ -29,6 +29,7 @@ solutions:
 - value-stream-mapping
 - error-reporting-and-analysis
 - clear-ownership-model
+- defect-triage-process
 layout: problem
 ---
 

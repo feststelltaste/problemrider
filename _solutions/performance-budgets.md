@@ -15,6 +15,7 @@ problems:
 - graphql-complexity-issues
 - high-resource-utilization-on-client
 - inefficient-code
+- inefficient-frontend-code
 layout: solution
 ---
 

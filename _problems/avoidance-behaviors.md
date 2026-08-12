@@ -26,6 +26,10 @@ solutions:
 - team-working-agreements
 - work-in-progress-limits
 - pair-and-mob-programming
+- team-retrospectives
+- clear-roles-and-ownership
+- pilot-projects
+- defect-triage-process
 layout: problem
 ---
 

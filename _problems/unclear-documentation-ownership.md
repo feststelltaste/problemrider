@@ -27,6 +27,7 @@ solutions:
 - knowledge-base
 - team-working-agreements
 - production-readiness-criteria
+- application-portfolio-inventory
 layout: problem
 ---
 

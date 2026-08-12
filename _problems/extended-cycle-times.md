@@ -26,6 +26,9 @@ solutions:
 - capacity-based-planning
 - code-review-guidelines
 - value-stream-mapping
+- delivery-performance-metrics
+- fast-feedback-loops
+- self-service-developer-platform
 layout: problem
 ---
 

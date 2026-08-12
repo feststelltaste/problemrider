@@ -27,6 +27,9 @@ solutions:
 - knowledge-rotation
 - domain-experts
 - internal-technical-coaching
+- communities-of-practice
+- code-reading-sessions
+- technology-radar
 layout: problem
 ---
 

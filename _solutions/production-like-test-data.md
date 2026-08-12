@@ -21,6 +21,7 @@ problems:
 - increased-bug-count
 - schema-evolution-paralysis
 - test-debt
+- incorrect-index-type
 layout: solution
 ---
 

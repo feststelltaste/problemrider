@@ -27,6 +27,10 @@ solutions:
 - technical-spike
 - knowledge-rotation
 - living-documentation
+- code-reading-sessions
+- communities-of-practice
+- internal-technical-coaching
+- written-first-communication
 layout: problem
 ---
 

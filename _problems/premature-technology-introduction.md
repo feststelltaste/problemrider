@@ -28,6 +28,7 @@ solutions:
 - architecture-governance
 - fitness-functions
 - technology-radar
+- pilot-projects
 layout: problem
 ---
 

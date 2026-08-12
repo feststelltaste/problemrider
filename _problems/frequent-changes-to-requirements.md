@@ -25,6 +25,10 @@ solutions:
 - requirements-analysis
 - security-requirements-definition
 - definition-of-ready
+- regular-stakeholder-demonstrations
+- domain-immersion
+- story-mapping
+- specification-by-example
 layout: problem
 ---
 

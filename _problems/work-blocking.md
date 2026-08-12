@@ -27,6 +27,7 @@ solutions:
 - work-in-progress-limits
 - definition-of-ready
 - value-stream-mapping
+- self-service-developer-platform
 layout: problem
 ---
 

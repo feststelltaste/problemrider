@@ -41,6 +41,7 @@ solutions:
 - runbooks
 - user-communities
 - knowledge-rotation
+- written-first-communication
 layout: problem
 ---
 

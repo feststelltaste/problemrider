@@ -26,6 +26,10 @@ solutions:
 - requirements-analysis
 - feature-toggles
 - feature-usage-measurement
+- definition-of-ready
+- definition-of-done
+- outcome-based-goal-setting
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

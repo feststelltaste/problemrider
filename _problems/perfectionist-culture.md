@@ -26,6 +26,9 @@ solutions:
 - code-review-guidelines
 - small-change-batches
 - decision-rights-and-escalation
+- team-retrospectives
+- outcome-based-goal-setting
+- pilot-projects
 layout: problem
 ---
 

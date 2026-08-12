@@ -15,6 +15,8 @@ problems:
 - deployment-risk
 - development-disruption
 - environment-variable-issues
+- inadequate-configuration-management
+- legacy-configuration-management-chaos
 layout: solution
 ---
 

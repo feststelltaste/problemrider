@@ -28,6 +28,7 @@ solutions:
 - preparatory-refactoring
 - team-retrospectives
 - workaround-registry
+- defect-triage-process
 layout: problem
 ---
 

@@ -25,6 +25,8 @@ solutions:
 - platform-independent-scripting-languages
 - value-stream-mapping
 - workaround-registry
+- fast-feedback-loops
+- self-service-developer-platform
 layout: problem
 ---
 

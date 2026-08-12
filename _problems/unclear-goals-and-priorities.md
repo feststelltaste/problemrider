@@ -26,6 +26,10 @@ solutions:
 - story-mapping
 - feature-driven-development
 - service-level-agreements
+- outcome-based-goal-setting
+- explicit-prioritization-framework
+- written-first-communication
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

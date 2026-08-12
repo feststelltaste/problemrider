@@ -18,6 +18,7 @@ problems:
 - inadequate-mentoring-structure
 - inappropriate-skillset
 - technology-isolation
+- skill-development-gaps
 layout: solution
 ---
 

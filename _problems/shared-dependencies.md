@@ -29,6 +29,7 @@ solutions:
 - team-boundaries-aligned-to-architecture
 - change-impact-analysis
 - technology-radar
+- application-portfolio-inventory
 layout: problem
 ---
 

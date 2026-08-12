@@ -28,6 +28,9 @@ solutions:
 - object-relational-mapping-orm
 - cqrs
 - materialized-views
+- profiling
+- performance-measurements
+- index-lifecycle-management
 layout: problem
 ---
 

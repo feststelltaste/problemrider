@@ -29,6 +29,8 @@ solutions:
 - supply-chain-security
 - third-party-dependency-check
 - technology-radar
+- application-portfolio-inventory
+- system-decommissioning
 layout: problem
 ---
 

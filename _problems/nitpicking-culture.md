@@ -27,6 +27,9 @@ solutions:
 - code-conventions
 - style-guide
 - psychological-safety-practices
+- team-retrospectives
+- code-quality-gates
+- communities-of-practice
 layout: problem
 ---
 

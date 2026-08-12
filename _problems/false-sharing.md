@@ -25,6 +25,10 @@ solutions:
 - memory-hierarchy
 - parallelization
 - efficient-algorithms
+- load-testing
+- continuous-performance-monitoring
+- static-code-analysis
+- performance-modeling
 layout: problem
 ---
 

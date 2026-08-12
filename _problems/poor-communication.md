@@ -29,6 +29,7 @@ solutions:
 - knowledge-base
 - consistent-terminology
 - regular-stakeholder-demonstrations
+- written-first-communication
 layout: problem
 ---
 

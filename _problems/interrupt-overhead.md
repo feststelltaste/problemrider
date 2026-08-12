@@ -25,6 +25,10 @@ solutions:
 - batch-processing
 - monitoring-system-utilization
 - efficient-algorithms
+- load-testing
+- continuous-performance-monitoring
+- performance-modeling
+- static-code-analysis
 layout: problem
 ---
 

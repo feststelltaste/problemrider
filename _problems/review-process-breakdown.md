@@ -26,6 +26,10 @@ solutions:
 - work-in-progress-limits
 - checklists
 - small-change-batches
+- psychological-safety-practices
+- pair-and-mob-programming
+- team-retrospectives
+- clear-roles-and-ownership
 layout: problem
 ---
 

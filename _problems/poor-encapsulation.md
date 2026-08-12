@@ -27,6 +27,9 @@ solutions:
 - high-cohesion
 - facades
 - abstraction
+- lightweight-design-review
+- code-reading-sessions
+- preparatory-refactoring
 layout: problem
 ---
 

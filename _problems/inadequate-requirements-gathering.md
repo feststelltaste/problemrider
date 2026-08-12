@@ -40,6 +40,8 @@ solutions:
 - functional-gap-analysis
 - definition-of-ready
 - regular-stakeholder-demonstrations
+- domain-immersion
+- exploratory-testing
 layout: problem
 ---
 

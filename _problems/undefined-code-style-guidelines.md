@@ -25,6 +25,11 @@ solutions:
 - secure-coding-guidelines
 - security-policies-for-development
 - style-guide
+- communities-of-practice
+- clean-code
+- code-reviews
+- code-quality-gates
+- code-review-guidelines
 layout: problem
 ---
 

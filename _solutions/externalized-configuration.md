@@ -16,6 +16,7 @@ problems:
 - complex-deployment-process
 - incorrect-max-connection-pool-size
 - misconfigured-connection-pools
+- logging-configuration-issues
 layout: solution
 ---
 

@@ -26,6 +26,7 @@ solutions:
 - profiling
 - continuous-performance-monitoring
 - monitoring
+- index-lifecycle-management
 layout: problem
 ---
 

@@ -27,6 +27,25 @@ problems:
 - knowledge-dependency
 - maintenance-bottlenecks
 - superficial-code-reviews
+- code-duplication
+- complex-implementation-paths
+- defensive-coding-practices
+- extended-research-time
+- hidden-side-effects
+- inappropriate-skillset
+- information-decay
+- insufficient-design-skills
+- legacy-skill-shortage
+- mentor-burnout
+- monolithic-functions-and-classes
+- new-hire-frustration
+- over-reliance-on-utility-classes
+- poor-encapsulation
+- procrastination-on-complex-tasks
+- reduced-team-flexibility
+- reviewer-anxiety
+- team-churn-impact
+- team-members-not-engaged-in-review-process
 layout: solution
 ---
 

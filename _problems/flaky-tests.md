@@ -28,6 +28,7 @@ solutions:
 - ci-cd-pipeline
 - characterization-tests
 - production-like-test-data
+- fast-feedback-loops
 layout: problem
 ---
 

@@ -26,6 +26,11 @@ solutions:
 - health-check-endpoints
 - ping
 - service-mesh
+- monitoring
+- observability-and-monitoring
+- circuit-breaker
+- retry
+- production-readiness-criteria
 layout: problem
 ---
 

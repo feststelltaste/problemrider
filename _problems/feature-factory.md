@@ -26,6 +26,10 @@ solutions:
 - explicit-prioritization-framework
 - feature-usage-measurement
 - regular-stakeholder-demonstrations
+- outcome-based-goal-setting
+- domain-immersion
+- delivery-performance-metrics
+- definition-of-ready
 layout: problem
 ---
 

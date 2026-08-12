@@ -27,6 +27,9 @@ solutions:
 - adapter
 - standardized-interfaces
 - third-party-dependency-check
+- application-portfolio-inventory
+- technology-radar
+- system-decommissioning
 layout: problem
 ---
 

@@ -19,6 +19,7 @@ problems:
 - reduced-team-flexibility
 - reviewer-inexperience
 - technology-isolation
+- skill-development-gaps
 layout: solution
 ---
 

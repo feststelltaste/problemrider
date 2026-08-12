@@ -13,6 +13,7 @@ problems:
 - cross-site-scripting-vulnerabilities
 - authentication-bypass-vulnerabilities
 - high-defect-rate-in-production
+- session-management-issues
 layout: solution
 ---
 

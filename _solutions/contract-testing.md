@@ -20,6 +20,7 @@ problems:
 - vendor-relationship-strain
 - schema-evolution-paralysis
 - testing-complexity
+- abi-compatibility-issues
 layout: solution
 ---
 

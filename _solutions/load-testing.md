@@ -23,6 +23,19 @@ problems:
 - inefficient-code
 - insufficient-worker-capacity
 - memory-fragmentation
+- atomic-operation-overhead
+- data-structure-cache-inefficiency
+- false-sharing
+- improper-event-listener-management
+- incorrect-index-type
+- interrupt-overhead
+- memory-barrier-inefficiency
+- poor-caching-strategy
+- rate-limiting-issues
+- resource-allocation-failures
+- serialization-deserialization-bottlenecks
+- unreleased-resources
+- unused-indexes
 layout: solution
 ---
 

@@ -17,6 +17,8 @@ problems:
 - misaligned-deliverables
 - negative-brand-perception
 - stakeholder-dissatisfaction
+- declining-business-metrics
+- user-trust-erosion
 layout: solution
 ---
 

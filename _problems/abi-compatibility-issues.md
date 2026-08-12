@@ -23,6 +23,10 @@ solutions:
 - cross-version-testing
 - dependency-pinning
 - backward-compatibility
+- contract-testing
+- interoperability-tests
+- api-versioning-strategy
+- deprecation-strategy
 layout: problem
 ---
 

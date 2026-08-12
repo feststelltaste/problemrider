@@ -25,6 +25,10 @@ solutions:
 - mikado-method
 - parallel-run
 - team-retrospectives
+- pilot-projects
+- small-change-batches
+- characterization-tests
+- delivery-performance-metrics
 layout: problem
 ---
 

@@ -33,6 +33,7 @@ problems:
 - system-stagnation
 - circular-references
 - maintenance-cost-increase
+- technical-architecture-limitations
 layout: solution
 ---
 

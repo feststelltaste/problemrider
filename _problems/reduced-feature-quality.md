@@ -29,6 +29,9 @@ solutions:
 - specification-by-example
 - definition-of-ready
 - regular-stakeholder-demonstrations
+- defect-triage-process
+- domain-immersion
+- exploratory-testing
 layout: problem
 ---
 

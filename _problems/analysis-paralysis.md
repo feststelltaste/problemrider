@@ -26,6 +26,10 @@ solutions:
 - walking-skeleton
 - decision-rights-and-escalation
 - mikado-method
+- pilot-projects
+- explicit-prioritization-framework
+- lightweight-design-review
+- small-change-batches
 layout: problem
 ---
 

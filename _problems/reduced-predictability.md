@@ -26,6 +26,7 @@ solutions:
 - short-iteration-cycles
 - small-change-batches
 - technical-debt-backlog
+- delivery-performance-metrics
 layout: problem
 ---
 

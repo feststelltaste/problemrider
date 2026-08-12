@@ -26,6 +26,9 @@ solutions:
 - pair-and-mob-programming
 - trunk-based-development
 - clear-roles-and-ownership
+- team-retrospectives
+- fast-feedback-loops
+- delivery-performance-metrics
 layout: problem
 ---
 

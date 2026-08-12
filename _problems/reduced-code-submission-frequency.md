@@ -28,6 +28,7 @@ solutions:
 - continuous-integration
 - work-in-progress-limits
 - team-retrospectives
+- fast-feedback-loops
 layout: problem
 ---
 

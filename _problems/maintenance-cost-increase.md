@@ -29,6 +29,7 @@ solutions:
 - feature-usage-measurement
 - strategic-code-deletion
 - value-stream-mapping
+- system-decommissioning
 layout: problem
 ---
 

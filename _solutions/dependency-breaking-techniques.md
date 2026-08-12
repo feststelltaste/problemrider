@@ -23,6 +23,9 @@ problems:
 - god-object-anti-pattern
 - refactoring-avoidance
 - test-debt
+- complex-implementation-paths
+- hidden-side-effects
+- maintenance-paralysis
 layout: solution
 ---
 

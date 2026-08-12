@@ -18,6 +18,8 @@ problems:
 - procedural-background
 - god-object-anti-pattern
 - poor-naming-conventions
+- insufficient-design-skills
+- procedural-programming-in-oop-languages
 layout: solution
 ---
 

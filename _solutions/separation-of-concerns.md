@@ -25,6 +25,8 @@ problems:
 - circular-dependency-problems
 - global-state-and-side-effects
 - god-object-anti-pattern
+- monolithic-functions-and-classes
+- tangled-cross-cutting-concerns
 layout: solution
 ---
 

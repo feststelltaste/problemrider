@@ -26,6 +26,8 @@ solutions:
 - fair-source
 - user-communities
 - regular-stakeholder-demonstrations
+- domain-immersion
+- outcome-based-goal-setting
 layout: problem
 ---
 

@@ -38,6 +38,7 @@ solutions:
 - event-storming
 - characterization-tests
 - parallel-run
+- domain-immersion
 layout: problem
 ---
 

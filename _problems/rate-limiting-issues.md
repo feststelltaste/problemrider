@@ -27,6 +27,10 @@ solutions:
 - load-shedding
 - rate-limiting
 - web-application-firewall
+- monitoring
+- capacity-planning
+- performance-measurements
+- load-testing
 layout: problem
 ---
 

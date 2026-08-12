@@ -27,6 +27,9 @@ solutions:
 - understandable-error-messages
 - stakeholder-feedback-loops
 - business-metrics
+- exploratory-testing
+- defect-triage-process
+- delivery-performance-metrics
 layout: problem
 ---
 

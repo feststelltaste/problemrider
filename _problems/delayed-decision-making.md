@@ -26,6 +26,10 @@ solutions:
 - explicit-prioritization-framework
 - clear-ownership-model
 - architecture-review-board
+- team-retrospectives
+- written-first-communication
+- lightweight-design-review
+- pilot-projects
 layout: problem
 ---
 

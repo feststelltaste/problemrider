@@ -26,6 +26,10 @@ solutions:
 - characterization-tests
 - internal-technical-coaching
 - preparatory-refactoring
+- code-reading-sessions
+- lightweight-design-review
+- automated-tests
+- code-reviews
 layout: problem
 ---
 

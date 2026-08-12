@@ -22,6 +22,10 @@ problems:
 - system-stagnation
 - god-object-anti-pattern
 - refactoring-avoidance
+- code-duplication
+- delayed-bug-fixes
+- maintenance-paralysis
+- tangled-cross-cutting-concerns
 layout: solution
 ---
 

@@ -27,6 +27,7 @@ solutions:
 - boring-technologies
 - architecture-roadmap
 - technology-radar
+- communities-of-practice
 layout: problem
 ---
 

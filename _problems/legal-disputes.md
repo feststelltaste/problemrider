@@ -27,6 +27,9 @@ solutions:
 - compatibility-requirements
 - documentation-as-code
 - requirements-traceability-matrix
+- application-portfolio-inventory
+- written-first-communication
+- system-decommissioning
 layout: problem
 ---
 

@@ -26,6 +26,10 @@ solutions:
 - static-analysis-and-linting
 - team-working-agreements
 - psychological-safety-practices
+- small-change-batches
+- team-retrospectives
+- work-in-progress-limits
+- pair-and-mob-programming
 layout: problem
 ---
 

@@ -25,6 +25,8 @@ solutions:
 - collaborative-problem-solving
 - fair-source
 - team-boundaries-aligned-to-architecture
+- communities-of-practice
+- written-first-communication
 layout: problem
 ---
 

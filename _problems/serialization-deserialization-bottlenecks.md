@@ -22,6 +22,10 @@ solutions:
 - serialization-optimization
 - cross-platform-serialization
 - standardized-data-formats
+- performance-measurements
+- load-testing
+- compression
+- continuous-performance-monitoring
 layout: problem
 ---
 

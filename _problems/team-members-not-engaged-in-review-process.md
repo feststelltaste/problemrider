@@ -26,6 +26,9 @@ solutions:
 - psychological-safety-practices
 - pair-and-mob-programming
 - work-in-progress-limits
+- team-retrospectives
+- code-reading-sessions
+- communities-of-practice
 layout: problem
 ---
 

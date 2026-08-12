@@ -20,6 +20,7 @@ problems:
 - high-technical-debt
 - project-resource-constraints
 - stakeholder-confidence-loss
+- modernization-roi-justification-failure
 layout: solution
 ---
 

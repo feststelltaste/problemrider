@@ -27,6 +27,9 @@ solutions:
 - root-cause-analysis
 - error-budgets
 - team-autonomy-and-empowerment
+- team-retrospectives
+- defect-triage-process
+- delivery-performance-metrics
 layout: problem
 ---
 

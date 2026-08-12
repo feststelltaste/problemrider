@@ -27,6 +27,7 @@ solutions:
 - platform-independent-test-frameworks
 - production-like-test-data
 - production-readiness-criteria
+- self-service-developer-platform
 layout: problem
 ---
 

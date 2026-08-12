@@ -37,6 +37,10 @@ problems:
 - maintenance-bottlenecks
 - organizational-structure-mismatch
 - team-coordination-issues
+- bottleneck-formation
+- inexperienced-developers
+- legacy-skill-shortage
+- skill-development-gaps
 layout: solution
 ---
 

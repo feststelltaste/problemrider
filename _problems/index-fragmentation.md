@@ -25,6 +25,10 @@ solutions:
 - performance-measurements
 - production-environment-maintenance
 - continuous-performance-monitoring
+- index-lifecycle-management
+- profiling
+- capacity-planning
+- observability-and-monitoring
 layout: problem
 ---
 

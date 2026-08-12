@@ -25,6 +25,11 @@ solutions:
 - code-hotspot-analysis
 - dependency-breaking-techniques
 - mikado-method
+- solid-principles
+- separation-of-concerns
+- preparatory-refactoring
+- characterization-tests
+- code-reading-sessions
 layout: problem
 ---
 

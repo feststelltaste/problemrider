@@ -27,6 +27,9 @@ solutions:
 - improvement-budget
 - work-in-progress-limits
 - capacity-based-planning
+- team-retrospectives
+- outcome-based-goal-setting
+- value-stream-mapping
 layout: problem
 ---
 

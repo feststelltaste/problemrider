@@ -28,6 +28,8 @@ solutions:
 - business-metrics
 - feature-usage-measurement
 - value-stream-mapping
+- logging-guidelines
+- system-decommissioning
 layout: problem
 ---
 

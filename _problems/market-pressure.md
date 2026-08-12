@@ -26,6 +26,9 @@ solutions:
 - story-mapping
 - stakeholder-feedback-loops
 - iterative-development
+- outcome-based-goal-setting
+- regular-stakeholder-demonstrations
+- feature-usage-measurement
 layout: problem
 ---
 

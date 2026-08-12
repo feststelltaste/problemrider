@@ -26,6 +26,7 @@ problems:
 - graphql-complexity-issues
 - imperative-data-fetching-logic
 - lazy-loading
+- long-running-transactions
 layout: solution
 ---
 

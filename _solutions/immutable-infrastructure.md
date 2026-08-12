@@ -13,6 +13,9 @@ problems:
 - frequent-hotfixes-and-rollbacks
 - poor-system-environment
 - environment-variable-issues
+- inadequate-configuration-management
+- legacy-configuration-management-chaos
+- testing-environment-fragility
 layout: solution
 ---
 

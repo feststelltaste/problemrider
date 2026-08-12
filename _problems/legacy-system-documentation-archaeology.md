@@ -26,6 +26,7 @@ solutions:
 - living-documentation
 - requirements-traceability-matrix
 - code-reading-sessions
+- application-portfolio-inventory
 layout: problem
 ---
 

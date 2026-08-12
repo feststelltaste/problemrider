@@ -26,6 +26,11 @@ solutions:
 - a-b-testing
 - adaptive-behavior
 - functional-debt-management
+- outcome-based-goal-setting
+- feature-usage-measurement
+- regular-stakeholder-demonstrations
+- domain-immersion
+- usability-tests
 layout: problem
 ---
 

@@ -26,6 +26,10 @@ solutions:
 - functional-gap-analysis
 - service-level-agreements
 - regular-stakeholder-demonstrations
+- capacity-based-planning
+- outcome-based-goal-setting
+- domain-immersion
+- written-first-communication
 layout: problem
 ---
 

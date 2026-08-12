@@ -22,6 +22,8 @@ problems:
 - procrastination-on-complex-tasks
 - long-lived-feature-branches
 - refactoring-avoidance
+- complex-implementation-paths
+- large-feature-scope
 layout: solution
 ---
 

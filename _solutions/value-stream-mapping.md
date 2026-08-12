@@ -30,6 +30,18 @@ problems:
 - reduced-team-productivity
 - team-coordination-issues
 - unrealistic-deadlines
+- bottleneck-formation
+- competing-priorities
+- extended-review-cycles
+- increased-stress-and-burnout
+- mental-fatigue
+- planning-credibility-issues
+- planning-dysfunction
+- priority-thrashing
+- process-design-flaws
+- team-demoralization
+- uneven-work-flow
+- uneven-workload-distribution
 layout: solution
 ---
 

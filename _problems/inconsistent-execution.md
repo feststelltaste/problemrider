@@ -30,6 +30,7 @@ solutions:
 - style-guide
 - internal-technical-coaching
 - team-retrospectives
+- communities-of-practice
 layout: problem
 ---
 

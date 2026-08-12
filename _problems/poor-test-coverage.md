@@ -38,6 +38,7 @@ solutions:
 - test-driven-development-tdd
 - characterization-tests
 - production-like-test-data
+- exploratory-testing
 layout: problem
 ---
 

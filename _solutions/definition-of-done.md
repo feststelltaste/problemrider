@@ -32,6 +32,8 @@ problems:
 - change-management-chaos
 - gold-plating
 - no-formal-change-control-process
+- feature-creep
+- rapid-prototyping-becoming-production
 layout: solution
 ---
 

@@ -25,6 +25,10 @@ solutions:
 - regular-maintenance-and-updates
 - static-code-analysis
 - continuous-performance-monitoring
+- index-lifecycle-management
+- data-modeling
+- load-testing
+- capacity-planning
 layout: problem
 ---
 

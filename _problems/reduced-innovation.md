@@ -28,6 +28,8 @@ solutions:
 - team-autonomy-and-empowerment
 - sustainable-pace-practices
 - feature-usage-measurement
+- outcome-based-goal-setting
+- pilot-projects
 layout: problem
 ---
 

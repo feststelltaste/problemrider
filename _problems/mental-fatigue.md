@@ -27,6 +27,9 @@ solutions:
 - on-call-duty
 - capacity-based-planning
 - clean-code
+- team-retrospectives
+- value-stream-mapping
+- fast-feedback-loops
 layout: problem
 ---
 

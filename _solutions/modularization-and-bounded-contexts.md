@@ -27,6 +27,7 @@ problems:
 - organizational-structure-mismatch
 - single-entry-point-design
 - team-coordination-issues
+- technical-architecture-limitations
 layout: solution
 ---
 

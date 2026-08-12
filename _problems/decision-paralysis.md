@@ -28,6 +28,7 @@ solutions:
 - team-autonomy-and-empowerment
 - psychological-safety-practices
 - explicit-prioritization-framework
+- pilot-projects
 layout: problem
 ---
 

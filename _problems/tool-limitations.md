@@ -26,6 +26,8 @@ solutions:
 - virtual-development-environments
 - improvement-budget
 - ci-cd-pipeline
+- fast-feedback-loops
+- self-service-developer-platform
 layout: problem
 ---
 

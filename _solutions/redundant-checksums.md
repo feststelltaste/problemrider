@@ -10,6 +10,7 @@ problems:
 - data-migration-integrity-issues
 - inadequate-error-handling
 - unpredictable-system-behavior
+- dma-coherency-issues
 layout: solution
 ---
 

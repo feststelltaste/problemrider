@@ -26,6 +26,9 @@ solutions:
 - short-iteration-cycles
 - product-owner
 - decision-rights-and-escalation
+- value-stream-mapping
+- outcome-based-goal-setting
+- team-retrospectives
 layout: problem
 ---
 

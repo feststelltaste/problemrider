@@ -29,6 +29,7 @@ solutions:
 - modularization-and-bounded-contexts
 - feature-usage-measurement
 - total-cost-of-ownership-transparency
+- system-decommissioning
 layout: problem
 ---
 

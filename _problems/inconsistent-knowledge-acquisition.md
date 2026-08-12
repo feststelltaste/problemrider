@@ -29,6 +29,7 @@ solutions:
 - internal-technical-coaching
 - knowledge-base
 - documentation-as-code
+- communities-of-practice
 layout: problem
 ---
 

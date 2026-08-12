@@ -26,6 +26,11 @@ solutions:
 - read-replicas
 - specialized-hardware
 - streaming
+- self-service-developer-platform
+- value-stream-mapping
+- work-in-progress-limits
+- knowledge-rotation
+- delivery-performance-metrics
 layout: problem
 ---
 

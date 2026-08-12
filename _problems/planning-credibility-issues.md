@@ -26,6 +26,10 @@ solutions:
 - capacity-based-planning
 - regular-stakeholder-demonstrations
 - total-cost-of-ownership-transparency
+- delivery-performance-metrics
+- explicit-prioritization-framework
+- value-stream-mapping
+- outcome-based-goal-setting
 layout: problem
 ---
 

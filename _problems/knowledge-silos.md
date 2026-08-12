@@ -37,6 +37,9 @@ solutions:
 - user-communities
 - knowledge-rotation
 - code-reading-sessions
+- communities-of-practice
+- system-decommissioning
+- written-first-communication
 layout: problem
 ---
 

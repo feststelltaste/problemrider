@@ -13,6 +13,7 @@ problems:
 - cascade-failures
 - unpredictable-system-behavior
 - configuration-drift
+- session-management-issues
 layout: solution
 ---
 

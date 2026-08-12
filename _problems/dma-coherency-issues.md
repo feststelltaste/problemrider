@@ -16,6 +16,10 @@ solutions:
 - checksums
 - self-test
 - specialized-hardware
+- monitoring
+- stress-testing
+- static-code-analysis
+- redundant-checksums
 layout: problem
 ---
 

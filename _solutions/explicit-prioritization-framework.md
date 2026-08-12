@@ -37,6 +37,14 @@ problems:
 - time-pressure
 - unrealistic-deadlines
 - unrealistic-schedule
+- analysis-paralysis
+- delayed-bug-fixes
+- eager-to-please-stakeholders
+- increased-stress-and-burnout
+- planning-credibility-issues
+- planning-dysfunction
+- poor-project-control
+- unclear-goals-and-priorities
 layout: solution
 ---
 

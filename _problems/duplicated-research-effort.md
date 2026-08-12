@@ -26,6 +26,8 @@ solutions:
 - documentation-as-code
 - architecture-decision-records
 - living-documentation
+- communities-of-practice
+- written-first-communication
 layout: problem
 ---
 

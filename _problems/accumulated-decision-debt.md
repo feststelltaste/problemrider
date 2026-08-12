@@ -26,6 +26,10 @@ solutions:
 - technical-debt-backlog
 - living-documentation
 - architecture-governance
+- written-first-communication
+- team-retrospectives
+- lightweight-design-review
+- application-portfolio-inventory
 layout: problem
 ---
 

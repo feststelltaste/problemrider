@@ -42,6 +42,10 @@ problems:
 - merge-conflicts
 - power-struggles
 - team-coordination-issues
+- extended-review-cycles
+- inadequate-code-reviews
+- inadequate-initial-reviews
+- lack-of-ownership-and-accountability
 layout: solution
 ---
 

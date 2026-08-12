@@ -27,6 +27,9 @@ solutions:
 - improvement-budget
 - mikado-method
 - preparatory-refactoring
+- characterization-tests
+- change-impact-analysis
+- defect-triage-process
 layout: problem
 ---
 

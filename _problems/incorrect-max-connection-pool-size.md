@@ -26,6 +26,9 @@ solutions:
 - monitoring-system-utilization
 - performance-measurements
 - externalized-configuration
+- stress-testing
+- observability-and-monitoring
+- production-readiness-criteria
 layout: problem
 ---
 

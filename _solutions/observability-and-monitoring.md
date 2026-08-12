@@ -23,6 +23,14 @@ problems:
 - unpredictable-system-behavior
 - increased-error-rates
 - database-connection-leaks
+- cache-invalidation-problems
+- incorrect-max-connection-pool-size
+- index-fragmentation
+- misconfigured-connection-pools
+- resource-allocation-failures
+- service-discovery-failures
+- task-queues-backing-up
+- unreleased-resources
 layout: solution
 ---
 

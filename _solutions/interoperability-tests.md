@@ -11,6 +11,8 @@ problems:
 - poor-interfaces-between-applications
 - breaking-changes
 - system-integration-blindness
+- abi-compatibility-issues
+- endianness-conversion-overhead
 layout: solution
 ---
 

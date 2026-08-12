@@ -29,6 +29,7 @@ solutions:
 - integration-tests
 - contract-testing
 - simulation-environments
+- exploratory-testing
 layout: problem
 ---
 

@@ -26,6 +26,7 @@ solutions:
 - architecture-documentation
 - consistent-terminology
 - search-function
+- written-first-communication
 layout: problem
 ---
 

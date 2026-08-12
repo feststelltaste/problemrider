@@ -25,6 +25,10 @@ solutions:
 - capacity-based-planning
 - explicit-prioritization-framework
 - continuous-delivery
+- value-stream-mapping
+- delivery-performance-metrics
+- team-retrospectives
+- clear-roles-and-ownership
 layout: problem
 ---
 

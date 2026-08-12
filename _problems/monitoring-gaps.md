@@ -67,6 +67,9 @@ solutions:
 - threat-intelligence
 - vulnerability-scans
 - production-readiness-criteria
+- application-portfolio-inventory
+- logging-guidelines
+- system-decommissioning
 layout: problem
 ---
 

@@ -27,6 +27,9 @@ solutions:
 - knowledge-base
 - living-documentation
 - architecture-decision-records
+- code-reading-sessions
+- communities-of-practice
+- written-first-communication
 layout: problem
 ---
 

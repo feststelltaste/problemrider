@@ -14,6 +14,7 @@ problems:
 - complex-deployment-process
 - procrastination-on-complex-tasks
 - incomplete-projects
+- large-feature-scope
 layout: solution
 ---
 

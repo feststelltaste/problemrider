@@ -27,6 +27,7 @@ solutions:
 - pattern-language
 - code-reading-sessions
 - internal-technical-coaching
+- lightweight-design-review
 layout: problem
 ---
 

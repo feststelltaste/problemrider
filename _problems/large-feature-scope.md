@@ -25,6 +25,11 @@ solutions:
 - story-mapping
 - user-stories
 - feature-driven-development
+- lightweight-design-review
+- small-change-batches
+- definition-of-ready
+- walking-skeleton
+- mikado-method
 layout: problem
 ---
 

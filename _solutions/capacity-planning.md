@@ -21,6 +21,9 @@ problems:
 - resource-waste
 - memory-swapping
 - virtual-memory-thrashing
+- index-fragmentation
+- rate-limiting-issues
+- unused-indexes
 layout: solution
 ---
 

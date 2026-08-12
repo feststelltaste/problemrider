@@ -26,6 +26,10 @@ solutions:
 - performance-measurements
 - efficient-algorithms
 - data-modeling
+- load-testing
+- continuous-performance-monitoring
+- static-code-analysis
+- performance-modeling
 layout: problem
 ---
 

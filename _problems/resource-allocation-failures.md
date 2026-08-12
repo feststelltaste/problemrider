@@ -26,6 +26,9 @@ solutions:
 - resource-usage-optimization
 - profiling
 - elastic-resource-utilization
+- load-testing
+- observability-and-monitoring
+- production-readiness-criteria
 layout: problem
 ---
 

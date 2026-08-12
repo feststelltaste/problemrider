@@ -27,6 +27,9 @@ solutions:
 - checklists
 - blameless-postmortems
 - knowledge-rotation
+- code-reading-sessions
+- internal-technical-coaching
+- team-retrospectives
 layout: problem
 ---
 

@@ -25,6 +25,10 @@ solutions:
 - code-review-guidelines
 - decision-rights-and-escalation
 - structured-communication-protocols
+- team-retrospectives
+- written-first-communication
+- communities-of-practice
+- collaborative-problem-solving
 layout: problem
 ---
 

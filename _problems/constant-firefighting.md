@@ -47,6 +47,7 @@ solutions:
 - work-in-progress-limits
 - production-readiness-criteria
 - workaround-registry
+- defect-triage-process
 layout: problem
 ---
 

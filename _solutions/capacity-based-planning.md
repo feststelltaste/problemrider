@@ -36,6 +36,10 @@ problems:
 - scope-change-resistance
 - stakeholder-confidence-loss
 - stakeholder-dissatisfaction
+- eager-to-please-stakeholders
+- planning-dysfunction
+- poor-project-control
+- stakeholder-frustration
 layout: solution
 ---
 

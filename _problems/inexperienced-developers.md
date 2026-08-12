@@ -26,6 +26,10 @@ solutions:
 - security-training
 - code-reading-sessions
 - internal-technical-coaching
+- communities-of-practice
+- lightweight-design-review
+- code-review-guidelines
+- knowledge-rotation
 layout: problem
 ---
 

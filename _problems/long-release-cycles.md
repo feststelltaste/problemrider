@@ -26,6 +26,8 @@ solutions:
 - feature-toggles
 - continuous-deployment
 - value-stream-mapping
+- delivery-performance-metrics
+- fast-feedback-loops
 layout: problem
 ---
 

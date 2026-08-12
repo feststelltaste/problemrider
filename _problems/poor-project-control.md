@@ -26,6 +26,10 @@ solutions:
 - stakeholder-feedback-loops
 - security-metrics
 - security-relevant-metrics
+- delivery-performance-metrics
+- capacity-based-planning
+- explicit-prioritization-framework
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

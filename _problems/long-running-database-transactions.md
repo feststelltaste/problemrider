@@ -28,6 +28,7 @@ solutions:
 - profiling
 - batch-processing
 - performance-measurements
+- index-lifecycle-management
 layout: problem
 ---
 

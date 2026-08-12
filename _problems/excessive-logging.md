@@ -25,6 +25,10 @@ solutions:
 - sampling
 - error-logging
 - logging-and-monitoring
+- logging-guidelines
+- monitoring
+- code-reviews
+- fast-feedback-loops
 layout: problem
 ---
 

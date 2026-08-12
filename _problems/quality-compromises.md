@@ -25,6 +25,8 @@ solutions:
 - error-budgets
 - production-readiness-criteria
 - workaround-registry
+- defect-triage-process
+- lightweight-design-review
 layout: problem
 ---
 

@@ -29,6 +29,7 @@ solutions:
 - monitoring
 - code-reviews
 - code-conventions
+- logging-guidelines
 layout: problem
 ---
 

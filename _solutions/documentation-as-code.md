@@ -37,6 +37,7 @@ problems:
 - knowledge-dependency
 - poor-communication
 - staff-availability-issues
+- unclear-sharing-expectations
 layout: solution
 ---
 
