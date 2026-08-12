@@ -30,6 +30,8 @@ solutions:
 - rollback-mechanisms
 - stress-testing
 - write-ahead-logging
+- emergency-drills
+- incident-response-measures
 layout: problem
 ---
 

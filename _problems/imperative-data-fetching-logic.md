@@ -23,6 +23,11 @@ related_problems:
 solutions:
 - efficient-algorithms
 - reactive-programming
+- query-optimization-process
+- caching-strategy
+- object-relational-mapping-orm
+- cqrs
+- materialized-views
 layout: problem
 ---
 

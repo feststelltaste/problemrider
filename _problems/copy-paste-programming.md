@@ -22,6 +22,7 @@ solutions:
 - incremental-refactoring
 - aspect-oriented-programming-aop
 - code-generation
+- code-hotspot-analysis
 layout: problem
 ---
 

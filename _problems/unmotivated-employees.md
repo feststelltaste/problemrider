@@ -23,6 +23,10 @@ solutions:
 - psychological-safety-practices
 - sustainable-pace-practices
 - team-autonomy-and-empowerment
+- improvement-budget
+- blameless-postmortems
+- clear-roles-and-ownership
+- knowledge-rotation
 layout: problem
 ---
 

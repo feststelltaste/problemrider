@@ -14,6 +14,11 @@ problems:
 - insufficient-worker-capacity
 - thread-pool-exhaustion
 - high-connection-count
+- incorrect-max-connection-pool-size
+- load-balancing-problems
+- misconfigured-connection-pools
+- resource-allocation-failures
+- resource-waste
 layout: solution
 ---
 

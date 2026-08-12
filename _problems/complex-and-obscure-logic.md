@@ -25,6 +25,9 @@ solutions:
 - code-metrics
 - decision-tables
 - rule-based-systems
+- collaborative-problem-solving
+- domain-patterns
+- domain-specific-languages
 layout: problem
 ---
 

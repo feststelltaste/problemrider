@@ -12,6 +12,7 @@ problems:
 - system-outages
 - resource-contention
 - high-database-resource-utilization
+- resource-allocation-failures
 layout: solution
 ---
 

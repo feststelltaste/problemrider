@@ -26,6 +26,7 @@ solutions:
 - api-security
 - load-shedding
 - rate-limiting
+- web-application-firewall
 layout: problem
 ---
 

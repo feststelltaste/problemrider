@@ -22,6 +22,12 @@ related_problems:
 solutions:
 - pair-and-mob-programming
 - security-training
+- knowledge-rotation
+- structured-onboarding-program
+- cross-functional-skill-development
+- knowledge-base
+- team-working-agreements
+- sustainable-pace-practices
 layout: problem
 ---
 

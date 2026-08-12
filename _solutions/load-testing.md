@@ -13,6 +13,11 @@ problems:
 - system-outages
 - deployment-risk
 - unpredictable-system-behavior
+- database-connection-leaks
+- incorrect-max-connection-pool-size
+- inefficient-database-indexing
+- load-balancing-problems
+- misconfigured-connection-pools
 layout: solution
 ---
 

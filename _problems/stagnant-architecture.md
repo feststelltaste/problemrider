@@ -39,6 +39,8 @@ solutions:
 - platform-independent-programming-languages
 - security-architecture-analysis
 - security-by-design
+- fitness-functions
+- threat-modeling
 layout: problem
 ---
 

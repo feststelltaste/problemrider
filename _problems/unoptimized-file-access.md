@@ -21,6 +21,11 @@ solutions:
 - caching-strategy
 - profiling
 - resource-usage-optimization
+- performance-measurements
+- batch-processing
+- streaming
+- compression
+- in-memory-processing
 layout: problem
 ---
 

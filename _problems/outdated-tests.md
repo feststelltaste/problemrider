@@ -21,6 +21,12 @@ related_problems:
 solutions:
 - test-coverage-strategy
 - mutation-testing
+- characterization-tests
+- code-quality-gates
+- ci-cd-pipeline
+- code-reviews
+- definition-of-done
+- regression-testing
 layout: problem
 ---
 

@@ -17,6 +17,10 @@ problems:
 - inadequate-code-reviews
 - inefficient-code
 - gradual-performance-degradation
+- code-review-inefficiency
+- difficult-code-comprehension
+- queries-that-prevent-index-usage
+- unused-indexes
 layout: solution
 ---
 

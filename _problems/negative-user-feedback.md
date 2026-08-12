@@ -39,6 +39,24 @@ solutions:
 - frequently-asked-questions-faq
 - usability-tests
 - user-acceptance-tests
+- a-b-testing
+- accessibility-concept
+- adaptive-behavior
+- integrated-onboarding
+- intuitive-navigation
+- keyboard-support
+- localization
+- mobile-first-design
+- performance-optimization
+- personal-support
+- plain-language
+- progressive-disclosure
+- real-time-input-validation
+- responsive-design
+- search-function
+- understandable-error-messages
+- undo-and-redo
+- visual-hierarchy
 layout: problem
 ---
 

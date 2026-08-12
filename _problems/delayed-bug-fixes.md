@@ -20,6 +20,10 @@ related_problems:
   similarity: 0.6
 solutions:
 - regression-testing
+- error-reporting-and-analysis
+- functional-debt-management
+- characterization-tests
+- improvement-budget
 layout: problem
 ---
 

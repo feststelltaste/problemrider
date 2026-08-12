@@ -25,6 +25,7 @@ solutions:
 - clean-code
 - design-by-contract
 - pattern-language
+- domain-patterns
 layout: problem
 ---
 

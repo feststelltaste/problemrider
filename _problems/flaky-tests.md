@@ -22,6 +22,11 @@ solutions:
 - test-coverage-strategy
 - isolated-test-environments
 - platform-independent-test-frameworks
+- dependency-breaking-techniques
+- containerization
+- mass-test-data-generation
+- ci-cd-pipeline
+- characterization-tests
 layout: problem
 ---
 

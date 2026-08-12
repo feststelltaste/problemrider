@@ -22,6 +22,11 @@ related_problems:
 solutions:
 - code-review-process-reform
 - checklists
+- code-review-guidelines
+- small-change-batches
+- work-in-progress-limits
+- code-quality-gates
+- definition-of-done
 layout: problem
 ---
 

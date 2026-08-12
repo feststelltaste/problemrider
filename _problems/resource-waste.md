@@ -21,6 +21,11 @@ related_problems:
 solutions:
 - impact-mapping
 - product-strategy-alignment
+- monitoring-system-utilization
+- resource-usage-optimization
+- capacity-planning
+- work-in-progress-limits
+- business-metrics
 layout: problem
 ---
 

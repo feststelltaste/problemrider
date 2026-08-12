@@ -20,6 +20,12 @@ related_problems:
   similarity: 0.65
 solutions:
 - code-review-process-reform
+- small-change-batches
+- work-in-progress-limits
+- code-review-guidelines
+- pair-and-mob-programming
+- trunk-based-development
+- clear-roles-and-ownership
 layout: problem
 ---
 

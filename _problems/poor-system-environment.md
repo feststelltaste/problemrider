@@ -34,6 +34,8 @@ solutions:
 - virtual-development-environments
 - virtual-networks
 - virtualization
+- network-segmentation
+- physical-security
 layout: problem
 ---
 

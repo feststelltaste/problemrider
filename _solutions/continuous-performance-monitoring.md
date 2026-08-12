@@ -12,6 +12,11 @@ problems:
 - slow-incident-resolution
 - unpredictable-system-behavior
 - system-outages
+- incorrect-index-type
+- index-fragmentation
+- inefficient-database-indexing
+- queries-that-prevent-index-usage
+- unused-indexes
 layout: solution
 ---
 

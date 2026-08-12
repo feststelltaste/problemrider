@@ -29,6 +29,9 @@ solutions:
 - root-cause-analysis
 - security-tests
 - smoke-testing
+- error-budgets
+- error-reporting-and-analysis
+- vulnerability-scans
 layout: problem
 ---
 

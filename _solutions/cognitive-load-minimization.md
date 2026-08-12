@@ -13,6 +13,8 @@ problems:
 - difficult-developer-onboarding
 - negative-user-feedback
 - shadow-systems
+- mental-fatigue
+- reduced-individual-productivity
 layout: solution
 ---
 

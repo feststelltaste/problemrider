@@ -13,6 +13,7 @@ problems:
 - inadequate-integration-tests
 - fear-of-breaking-changes
 - microservice-communication-overhead
+- communication-risk-outside-project
 layout: solution
 ---
 

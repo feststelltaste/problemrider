@@ -14,6 +14,7 @@ problems:
 - ripple-effect-of-changes
 - inconsistent-codebase
 - tight-coupling-issues
+- premature-technology-introduction
 layout: solution
 ---
 

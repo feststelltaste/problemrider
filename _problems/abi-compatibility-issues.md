@@ -15,6 +15,14 @@ related_problems:
   similarity: 0.55
 - slug: legacy-api-versioning-nightmare
   similarity: 0.5
+solutions:
+- compatibility-testing
+- compatibility-matrix
+- semantic-versioning
+- abstraction-layers
+- cross-version-testing
+- dependency-pinning
+- backward-compatibility
 layout: problem
 ---
 

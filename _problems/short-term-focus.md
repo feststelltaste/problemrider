@@ -21,6 +21,9 @@ related_problems:
 solutions:
 - technical-debt-backlog
 - security-culture
+- error-budgets
+- explicit-prioritization-framework
+- improvement-budget
 layout: problem
 ---
 

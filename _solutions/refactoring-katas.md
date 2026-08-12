@@ -12,6 +12,7 @@ problems:
 - skill-development-gaps
 - insufficient-design-skills
 - lower-code-quality
+- procedural-background
 layout: solution
 ---
 

@@ -12,6 +12,7 @@ problems:
 - slow-incident-resolution
 - delayed-issue-resolution
 - increased-error-rates
+- blame-culture
 layout: solution
 ---
 

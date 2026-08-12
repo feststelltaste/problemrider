@@ -14,6 +14,12 @@ problems:
 - difficult-developer-onboarding
 - tacit-knowledge
 - unclear-documentation-ownership
+- accumulated-decision-debt
+- duplicated-research-effort
+- extended-research-time
+- information-fragmentation
+- knowledge-sharing-breakdown
+- team-churn-impact
 layout: solution
 ---
 

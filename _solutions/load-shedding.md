@@ -12,6 +12,7 @@ problems:
 - cascade-failures
 - rate-limiting-issues
 - task-queues-backing-up
+- unbounded-data-structures
 layout: solution
 ---
 

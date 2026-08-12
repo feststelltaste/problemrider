@@ -13,6 +13,8 @@ problems:
 - release-instability
 - fear-of-change
 - complex-deployment-process
+- fear-of-failure
+- past-negative-experiences
 layout: solution
 ---
 

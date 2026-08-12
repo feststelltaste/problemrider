@@ -12,6 +12,10 @@ problems:
 - excessive-object-allocation
 - gradual-performance-degradation
 - inefficient-code
+- alignment-and-padding-issues
+- atomic-operation-overhead
+- false-sharing
+- memory-barrier-inefficiency
 layout: solution
 ---
 

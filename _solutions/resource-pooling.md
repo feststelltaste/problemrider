@@ -16,6 +16,9 @@ problems:
 - memory-leaks
 - memory-swapping
 - race-conditions
+- database-connection-leaks
+- resource-allocation-failures
+- unreleased-resources
 layout: solution
 ---
 

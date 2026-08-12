@@ -22,6 +22,12 @@ related_problems:
 solutions:
 - ci-cd-pipeline
 - microservices
+- capacity-based-planning
+- continuous-delivery
+- trunk-based-development
+- small-change-batches
+- work-in-progress-limits
+- feature-toggles
 layout: problem
 ---
 

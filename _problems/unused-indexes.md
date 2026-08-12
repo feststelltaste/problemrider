@@ -20,6 +20,11 @@ related_problems:
   similarity: 0.65
 solutions:
 - query-optimization-process
+- performance-measurements
+- monitoring
+- regular-maintenance-and-updates
+- static-code-analysis
+- continuous-performance-monitoring
 layout: problem
 ---
 

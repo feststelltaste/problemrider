@@ -30,6 +30,7 @@ solutions:
 - platform-independent-build-pipelines
 - platform-independent-scripting-languages
 - standardized-deployment-scripts
+- continuous-deployment
 layout: problem
 ---
 

@@ -19,6 +19,12 @@ related_problems:
   similarity: 0.55
 solutions:
 - query-optimization-process
+- static-code-analysis
+- performance-measurements
+- code-reviews
+- profiling
+- continuous-performance-monitoring
+- data-modeling
 layout: problem
 ---
 

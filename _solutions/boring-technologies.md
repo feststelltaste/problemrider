@@ -15,6 +15,8 @@ problems:
 - suboptimal-solutions
 - insufficient-design-skills
 - implementation-rework
+- premature-technology-introduction
+- technology-isolation
 layout: solution
 ---
 

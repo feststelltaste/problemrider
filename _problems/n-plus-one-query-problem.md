@@ -24,6 +24,7 @@ solutions:
 - api-calls-optimization
 - denormalization
 - object-relational-mapping-orm
+- query-optimization-process
 layout: problem
 ---
 

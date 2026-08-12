@@ -11,6 +11,7 @@ problems:
 - regression-bugs
 - breaking-changes
 - inadequate-integration-tests
+- abi-compatibility-issues
 layout: solution
 ---
 

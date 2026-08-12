@@ -21,6 +21,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - strangler-fig-pattern
+- improvement-budget
+- architecture-roadmap
+- incremental-refactoring
+- technical-debt-backlog
+- code-hotspot-analysis
+- modularization-and-bounded-contexts
 layout: problem
 ---
 

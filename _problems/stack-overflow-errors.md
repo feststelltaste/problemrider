@@ -12,6 +12,12 @@ related_problems:
   similarity: 0.55
 solutions:
 - memory-management-optimization
+- fuzz-testing
+- static-analysis-and-linting
+- error-handling
+- negative-testing
+- stress-testing
+- code-reviews
 layout: problem
 ---
 

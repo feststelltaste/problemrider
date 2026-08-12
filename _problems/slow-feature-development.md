@@ -24,6 +24,7 @@ solutions:
 - code-generation
 - microservices
 - standard-software
+- feature-driven-development
 layout: problem
 ---
 

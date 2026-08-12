@@ -22,6 +22,8 @@ related_problems:
 solutions:
 - technical-debt-backlog
 - standard-software
+- code-hotspot-analysis
+- improvement-budget
 layout: problem
 ---
 

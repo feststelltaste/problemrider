@@ -23,6 +23,7 @@ solutions:
 - formal-change-control-process
 - iterative-development
 - short-iteration-cycles
+- capacity-based-planning
 layout: problem
 ---
 

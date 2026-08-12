@@ -49,6 +49,23 @@ solutions:
 - status-monitoring
 - transparent-performance-metrics
 - watchdog
+- digital-forensics
+- emergency-drills
+- endpoint-detection-and-response
+- error-logging
+- error-logs
+- error-reporting-and-analysis
+- honeypots
+- incident-response-measures
+- logging-and-monitoring
+- malware-protection
+- network-segmentation
+- physical-security
+- self-monitoring-and-diagnosis
+- self-test
+- service-level-indicators
+- threat-intelligence
+- vulnerability-scans
 layout: problem
 ---
 

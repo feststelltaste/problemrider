@@ -21,6 +21,9 @@ related_problems:
 solutions:
 - architecture-roadmap
 - regression-testing
+- characterization-tests
+- improvement-budget
+- mikado-method
 layout: problem
 ---
 

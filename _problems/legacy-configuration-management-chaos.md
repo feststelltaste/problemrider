@@ -25,6 +25,7 @@ solutions:
 - platform-independent-configuration-files
 - platform-independent-configuration-management
 - secure-configuration
+- configuration-checks
 layout: problem
 ---
 

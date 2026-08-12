@@ -22,6 +22,7 @@ solutions:
 - clear-roles-and-ownership
 - psychological-safety-practices
 - team-autonomy-and-empowerment
+- decision-rights-and-escalation
 layout: problem
 ---
 

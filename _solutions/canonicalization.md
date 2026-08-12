@@ -8,7 +8,6 @@ quality_tactics_url: https://qualitytactics.de/en/security/canonicalization
 problems:
 - sql-injection-vulnerabilities
 - cross-site-scripting-vulnerabilities
-- input-validation
 - inconsistent-behavior
 - buffer-overflow-vulnerabilities
 - log-injection-vulnerabilities

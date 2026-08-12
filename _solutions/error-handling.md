@@ -13,6 +13,9 @@ problems:
 - silent-data-corruption
 - increased-error-rates
 - slow-incident-resolution
+- null-pointer-dereferences
+- stack-overflow-errors
+- unreleased-resources
 layout: solution
 ---
 

@@ -23,6 +23,7 @@ solutions:
 - structured-onboarding-program
 - architecture-workshops
 - security-community
+- fair-source
 layout: problem
 ---
 

@@ -33,6 +33,9 @@ solutions:
 - progressive-loading
 - tree-shaking
 - virtualized-lists
+- mobile-first-design
+- performance-optimization
+- responsive-design
 layout: problem
 ---
 

@@ -24,6 +24,10 @@ solutions:
 - health-check-endpoints
 - monitoring
 - site-reliability-engineering-sre
+- certificate-management
+- emergency-drills
+- service-level-agreements
+- service-level-indicators
 layout: problem
 ---
 

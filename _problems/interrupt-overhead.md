@@ -18,6 +18,13 @@ related_problems:
   similarity: 0.55
 - slug: microservice-communication-overhead
   similarity: 0.55
+solutions:
+- profiling
+- performance-measurements
+- asynchronous-processing
+- batch-processing
+- monitoring-system-utilization
+- efficient-algorithms
 layout: problem
 ---
 

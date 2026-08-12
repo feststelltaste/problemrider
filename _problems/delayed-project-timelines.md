@@ -20,6 +20,8 @@ related_problems:
 solutions:
 - iterative-development
 - short-iteration-cycles
+- capacity-based-planning
+- work-in-progress-limits
 layout: problem
 ---
 

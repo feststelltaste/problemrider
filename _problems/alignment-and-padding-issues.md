@@ -17,6 +17,12 @@ related_problems:
   similarity: 0.5
 - slug: algorithmic-complexity-problems
   similarity: 0.5
+solutions:
+- profiling
+- performance-measurements
+- memory-hierarchy
+- standardized-data-formats
+- platform-independence
 layout: problem
 ---
 

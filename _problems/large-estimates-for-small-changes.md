@@ -21,6 +21,9 @@ related_problems:
 solutions:
 - architecture-roadmap
 - regression-testing
+- capacity-based-planning
+- mikado-method
+- small-change-batches
 layout: problem
 ---
 

@@ -13,6 +13,8 @@ problems:
 - scaling-inefficiencies
 - slow-incident-resolution
 - missing-rollback-strategy
+- deadlock-conditions
+- stack-overflow-errors
 layout: solution
 ---
 

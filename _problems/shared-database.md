@@ -13,6 +13,7 @@ solutions:
 - evolutionary-database-design
 - modularization-and-bounded-contexts
 - data-integration
+- team-boundaries-aligned-to-architecture
 layout: problem
 ---
 

@@ -25,6 +25,8 @@ problems:
 - reduced-predictability
 - procrastination-on-complex-tasks
 - process-design-flaws
+- market-pressure
+- perfectionist-culture
 layout: solution
 ---
 

@@ -13,6 +13,7 @@ problems:
 - hardcoded-values
 - regression-bugs
 - increased-risk-of-bugs
+- integer-overflow-underflow
 layout: solution
 ---
 

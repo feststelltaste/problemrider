@@ -13,6 +13,7 @@ problems:
 - development-disruption
 - reduced-code-submission-frequency
 - wasted-development-effort
+- reduced-individual-productivity
 layout: solution
 ---
 

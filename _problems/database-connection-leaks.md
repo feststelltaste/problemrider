@@ -22,6 +22,11 @@ related_problems:
 solutions:
 - query-optimization-process
 - connection-pooling
+- resource-pooling
+- monitoring
+- static-analysis-and-linting
+- load-testing
+- observability-and-monitoring
 layout: problem
 ---
 

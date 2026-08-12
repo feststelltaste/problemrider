@@ -24,6 +24,7 @@ solutions:
 - functional-tests
 - property-based-testing
 - value-range-definition
+- code-generation
 layout: problem
 ---
 

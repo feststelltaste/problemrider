@@ -22,6 +22,7 @@ solutions:
 - architecture-decision-records
 - documentation-as-code
 - knowledge-sharing-practices
+- domain-quiz
 layout: problem
 ---
 

@@ -32,6 +32,17 @@ solutions:
 - secure-coding-guidelines
 - secure-programming-interfaces
 - value-range-definition
+- canonicalization
+- dynamic-code-analysis
+- error-handling
+- error-logging
+- exceptions
+- fuzz-testing
+- input-validation
+- negative-testing
+- output-encoding
+- real-time-input-validation
+- understandable-error-messages
 layout: problem
 ---
 

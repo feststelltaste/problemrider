@@ -19,6 +19,9 @@ problems:
 - defensive-coding-practices
 - uncontrolled-codebase-growth
 - increased-technical-shortcuts
+- excessive-class-size
+- over-reliance-on-utility-classes
+- poor-encapsulation
 layout: solution
 ---
 

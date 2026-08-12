@@ -14,6 +14,8 @@ problems:
 - monolithic-functions-and-classes
 - bloated-class
 - quality-degradation
+- automated-tooling-ineffectiveness
+- excessive-class-size
 layout: solution
 ---
 

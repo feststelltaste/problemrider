@@ -23,6 +23,7 @@ solutions:
 - secret-management
 - externalized-configuration
 - platform-independent-configuration-management
+- environment-variables-for-configuration
 layout: problem
 ---
 

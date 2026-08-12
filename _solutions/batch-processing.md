@@ -12,6 +12,8 @@ problems:
 - growing-task-queues
 - gradual-performance-degradation
 - excessive-disk-io
+- interrupt-overhead
+- unoptimized-file-access
 layout: solution
 ---
 

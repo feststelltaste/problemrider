@@ -31,6 +31,14 @@ solutions:
 - rule-based-systems
 - subject-matter-reviews
 - ubiquitous-language
+- domain-aligned-architecture
+- domain-based-authorization-concept
+- domain-driven-design
+- domain-experts
+- domain-modeling
+- domain-patterns
+- domain-specific-languages
+- event-storming
 layout: problem
 ---
 

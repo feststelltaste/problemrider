@@ -13,6 +13,9 @@ problems:
 - poor-system-environment
 - technology-stack-fragmentation
 - deployment-risk
+- development-disruption
+- flaky-tests
+- tool-limitations
 layout: solution
 ---
 

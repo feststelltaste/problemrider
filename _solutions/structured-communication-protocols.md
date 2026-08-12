@@ -17,6 +17,8 @@ problems:
 - bikeshedding
 - duplicated-work
 - team-coordination-issues
+- fear-of-conflict
+- vendor-relationship-strain
 layout: solution
 ---
 

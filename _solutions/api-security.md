@@ -15,6 +15,7 @@ problems:
 - legacy-api-versioning-nightmare
 - data-protection-risk
 - cross-site-scripting-vulnerabilities
+- graphql-complexity-issues
 layout: solution
 ---
 

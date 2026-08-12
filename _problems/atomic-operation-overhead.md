@@ -19,6 +19,13 @@ related_problems:
   similarity: 0.55
 - slug: operational-overhead
   similarity: 0.55
+solutions:
+- profiling
+- performance-measurements
+- concurrency-control
+- efficient-algorithms
+- memory-hierarchy
+- parallelization
 layout: problem
 ---
 

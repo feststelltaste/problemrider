@@ -15,6 +15,26 @@ problems:
 - perfectionist-culture
 - power-struggles
 - communication-breakdown
+- author-frustration
+- avoidance-behaviors
+- blame-culture
+- decision-paralysis
+- developer-frustration-and-burnout
+- fear-of-failure
+- high-turnover
+- increased-stress-and-burnout
+- mental-fatigue
+- micromanagement-culture
+- nitpicking-culture
+- past-negative-experiences
+- perfectionist-review-culture
+- poor-teamwork
+- reduced-individual-productivity
+- reduced-review-participation
+- review-process-avoidance
+- reviewer-anxiety
+- team-dysfunction
+- team-members-not-engaged-in-review-process
 layout: solution
 ---
 

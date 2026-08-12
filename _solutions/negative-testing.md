@@ -14,6 +14,8 @@ problems:
 - legacy-code-without-tests
 - error-message-information-disclosure
 - null-pointer-dereferences
+- integer-overflow-underflow
+- stack-overflow-errors
 layout: solution
 ---
 

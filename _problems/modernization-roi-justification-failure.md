@@ -24,6 +24,8 @@ solutions:
 - performance-modeling
 - security-relevant-metrics
 - service-level-objectives
+- functional-gap-analysis
+- service-level-agreements
 layout: problem
 ---
 

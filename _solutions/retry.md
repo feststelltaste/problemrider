@@ -12,6 +12,7 @@ problems:
 - unpredictable-system-behavior
 - external-service-delays
 - increased-error-rates
+- upstream-timeouts
 layout: solution
 ---
 

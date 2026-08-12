@@ -12,6 +12,7 @@ problems:
 - inadequate-requirements-gathering
 - feature-creep-without-refactoring
 - high-client-side-resource-consumption
+- graphql-complexity-issues
 layout: solution
 ---
 

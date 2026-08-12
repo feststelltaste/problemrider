@@ -12,6 +12,8 @@ problems:
 - high-defect-rate-in-production
 - competing-priorities
 - constant-firefighting
+- blame-culture
+- micromanagement-culture
 layout: solution
 ---
 

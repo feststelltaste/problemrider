@@ -13,6 +13,14 @@ problems:
 - memory-leaks
 - slow-application-performance
 - scaling-inefficiencies
+- improper-event-listener-management
+- incorrect-max-connection-pool-size
+- interrupt-overhead
+- misconfigured-connection-pools
+- resource-allocation-failures
+- resource-waste
+- unbounded-data-structures
+- unreleased-resources
 layout: solution
 ---
 

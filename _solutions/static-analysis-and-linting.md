@@ -14,10 +14,16 @@ problems:
 - inconsistent-codebase
 - hardcoded-values
 - null-pointer-dereferences
-- integer-overflow-and-underflow
+- integer-overflow-underflow
 - unreleased-resources
 - style-arguments-in-code-reviews
 - automated-tooling-ineffectiveness
+- database-connection-leaks
+- improper-event-listener-management
+- inadequate-initial-reviews
+- nitpicking-culture
+- perfectionist-review-culture
+- stack-overflow-errors
 layout: solution
 ---
 

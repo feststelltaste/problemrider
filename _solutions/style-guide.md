@@ -14,6 +14,10 @@ problems:
 - undefined-code-style-guidelines
 - mixed-coding-styles
 - maintenance-overhead
+- clever-code
+- inconsistent-execution
+- inconsistent-naming-conventions
+- nitpicking-culture
 layout: solution
 ---
 

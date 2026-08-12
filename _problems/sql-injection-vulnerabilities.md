@@ -21,6 +21,17 @@ solutions:
 - secure-coding-guidelines
 - secure-programming-interfaces
 - security-tests
+- canonicalization
+- defense-lines
+- dynamic-code-analysis
+- fuzz-testing
+- input-validation
+- negative-testing
+- output-encoding
+- penetration-tests
+- secure-software
+- static-code-analysis
+- web-application-firewall
 layout: problem
 ---
 

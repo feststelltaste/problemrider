@@ -23,6 +23,7 @@ solutions:
 - code-review-process-reform
 - code-conventions
 - static-code-analysis
+- code-review-guidelines
 layout: problem
 ---
 

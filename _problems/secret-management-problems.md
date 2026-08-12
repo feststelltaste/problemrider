@@ -22,6 +22,16 @@ solutions:
 - secure-by-default
 - secure-configuration
 - security-audits
+- certificate-management
+- configuration-checks
+- cryptographic-methods
+- digital-signatures
+- domain-based-authorization-concept
+- encryption
+- environment-variables-for-configuration
+- key-management
+- physical-security
+- secure-software
 layout: problem
 ---
 

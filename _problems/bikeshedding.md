@@ -21,6 +21,8 @@ related_problems:
 solutions:
 - psychological-safety-practices
 - structured-communication-protocols
+- code-review-guidelines
+- team-working-agreements
 layout: problem
 ---
 

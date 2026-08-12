@@ -27,6 +27,9 @@ solutions:
 - design-tokens
 - rule-based-systems
 - standard-software
+- dependency-injection-container
+- deprecation-strategy
+- style-guide
 layout: problem
 ---
 

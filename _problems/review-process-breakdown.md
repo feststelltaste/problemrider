@@ -21,6 +21,11 @@ related_problems:
   similarity: 0.7
 solutions:
 - code-review-process-reform
+- code-review-guidelines
+- team-working-agreements
+- work-in-progress-limits
+- checklists
+- small-change-batches
 layout: problem
 ---
 

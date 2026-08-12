@@ -22,6 +22,11 @@ related_problems:
 solutions:
 - blameless-postmortems
 - security-culture
+- psychological-safety-practices
+- team-working-agreements
+- root-cause-analysis
+- error-budgets
+- team-autonomy-and-empowerment
 layout: problem
 ---
 

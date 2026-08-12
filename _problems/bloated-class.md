@@ -21,6 +21,8 @@ solutions:
 - incremental-refactoring
 - code-metrics
 - high-cohesion
+- code-hotspot-analysis
+- dependency-breaking-techniques
 layout: problem
 ---
 

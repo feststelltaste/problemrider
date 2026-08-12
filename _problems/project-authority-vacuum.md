@@ -20,6 +20,11 @@ related_problems:
 solutions:
 - clear-ownership-model
 - product-owner
+- decision-rights-and-escalation
+- clear-roles-and-ownership
+- architecture-review-board
+- explicit-prioritization-framework
+- change-management-process
 layout: problem
 ---
 

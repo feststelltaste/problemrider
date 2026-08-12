@@ -21,6 +21,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - blameless-postmortems
+- sustainable-pace-practices
+- work-in-progress-limits
+- psychological-safety-practices
+- on-call-duty
+- capacity-based-planning
+- improvement-budget
 layout: problem
 ---
 

@@ -21,6 +21,9 @@ related_problems:
 solutions:
 - clear-roles-and-ownership
 - structured-communication-protocols
+- explicit-prioritization-framework
+- knowledge-rotation
+- team-working-agreements
 layout: problem
 ---
 

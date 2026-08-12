@@ -13,6 +13,16 @@ problems:
 - unpredictable-system-behavior
 - high-defect-rate-in-production
 - poor-operational-concept
+- cache-invalidation-problems
+- database-connection-leaks
+- deadlock-conditions
+- index-fragmentation
+- inefficient-database-indexing
+- load-balancing-problems
+- poor-caching-strategy
+- synchronization-problems
+- unused-indexes
+- upstream-timeouts
 layout: solution
 ---
 

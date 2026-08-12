@@ -13,6 +13,8 @@ problems:
 - poorly-defined-responsibilities
 - developer-frustration-and-burnout
 - overworked-teams
+- increased-stress-and-burnout
+- mental-fatigue
 layout: solution
 ---
 

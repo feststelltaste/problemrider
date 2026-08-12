@@ -21,6 +21,11 @@ related_problems:
 solutions:
 - test-coverage-strategy
 - automated-tests
+- characterization-tests
+- regression-testing
+- acceptance-tests
+- ci-cd-pipeline
+- smoke-testing
 layout: problem
 ---
 

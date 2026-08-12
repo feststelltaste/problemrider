@@ -20,6 +20,12 @@ related_problems:
   similarity: 0.7
 solutions:
 - query-optimization-process
+- data-modeling
+- performance-measurements
+- load-testing
+- profiling
+- continuous-performance-monitoring
+- monitoring
 layout: problem
 ---
 

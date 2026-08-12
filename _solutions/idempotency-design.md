@@ -12,6 +12,7 @@ problems:
 - inadequate-error-handling
 - data-migration-integrity-issues
 - race-conditions
+- deadlock-conditions
 layout: solution
 ---
 

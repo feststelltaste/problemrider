@@ -21,6 +21,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - definition-of-done
+- functional-debt-management
+- acceptance-tests
+- user-acceptance-tests
+- code-quality-gates
+- business-quality-scenarios
+- specification-by-example
 layout: problem
 ---
 

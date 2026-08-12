@@ -22,6 +22,7 @@ problems:
 - cascade-failures
 - unpredictable-system-behavior
 - increased-error-rates
+- database-connection-leaks
 layout: solution
 ---
 

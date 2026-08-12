@@ -23,6 +23,7 @@ solutions:
 - architecture-reviews
 - architecture-roadmap
 - boring-technologies
+- mikado-method
 layout: problem
 ---
 

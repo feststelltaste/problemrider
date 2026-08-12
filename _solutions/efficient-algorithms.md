@@ -14,6 +14,11 @@ problems:
 - excessive-disk-io
 - n-plus-one-query-problem
 - imperative-data-fetching-logic
+- atomic-operation-overhead
+- data-structure-cache-inefficiency
+- false-sharing
+- interrupt-overhead
+- memory-barrier-inefficiency
 layout: solution
 ---
 

@@ -35,6 +35,13 @@ solutions:
 - smoke-testing
 - specification-by-example
 - test-driven-development-tdd
+- dynamic-code-analysis
+- fuzz-testing
+- negative-testing
+- static-code-analysis
+- web-application-firewall
+- characterization-tests
+- dependency-breaking-techniques
 layout: problem
 ---
 

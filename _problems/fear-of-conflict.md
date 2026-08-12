@@ -20,6 +20,11 @@ related_problems:
   similarity: 0.65
 solutions:
 - psychological-safety-practices
+- team-working-agreements
+- blameless-postmortems
+- code-review-guidelines
+- decision-rights-and-escalation
+- structured-communication-protocols
 layout: problem
 ---
 

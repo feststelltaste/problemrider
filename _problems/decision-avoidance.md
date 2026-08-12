@@ -22,6 +22,7 @@ solutions:
 - architecture-decision-records
 - architecture-review-board
 - technical-spike
+- decision-rights-and-escalation
 layout: problem
 ---
 

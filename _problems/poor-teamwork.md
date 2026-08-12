@@ -21,6 +21,12 @@ related_problems:
   similarity: 0.65
 solutions:
 - blameless-postmortems
+- team-working-agreements
+- psychological-safety-practices
+- pair-and-mob-programming
+- clear-roles-and-ownership
+- collaborative-problem-solving
+- team-autonomy-and-empowerment
 layout: problem
 ---
 

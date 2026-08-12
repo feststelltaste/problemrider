@@ -21,6 +21,8 @@ related_problems:
 solutions:
 - architecture-roadmap
 - impact-mapping
+- mikado-method
+- work-in-progress-limits
 layout: problem
 ---
 

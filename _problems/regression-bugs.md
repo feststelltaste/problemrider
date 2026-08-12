@@ -41,6 +41,8 @@ solutions:
 - smoke-testing
 - test-driven-development-tdd
 - value-range-definition
+- code-quality-gates
+- characterization-tests
 layout: problem
 ---
 

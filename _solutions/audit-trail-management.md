@@ -13,6 +13,7 @@ problems:
 - debugging-difficulties
 - authorization-flaws
 - information-decay
+- legal-disputes
 layout: solution
 ---
 

@@ -21,6 +21,12 @@ related_problems:
 solutions:
 - incremental-refactoring
 - performance-budgets
+- improvement-budget
+- definition-of-done
+- technical-debt-backlog
+- code-hotspot-analysis
+- clean-code
+- code-quality-gates
 layout: problem
 ---
 

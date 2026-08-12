@@ -26,6 +26,8 @@ solutions:
 - data-export
 - hexagonal-architecture
 - multi-cloud-iac
+- supply-chain-security
+- third-party-dependency-check
 layout: problem
 ---
 

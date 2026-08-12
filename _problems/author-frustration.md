@@ -21,6 +21,11 @@ related_problems:
   similarity: 0.6
 solutions:
 - sustainable-pace-practices
+- code-review-guidelines
+- psychological-safety-practices
+- team-working-agreements
+- small-change-batches
+- blameless-postmortems
 layout: problem
 ---
 

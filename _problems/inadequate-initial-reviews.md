@@ -20,6 +20,12 @@ related_problems:
   similarity: 0.65
 solutions:
 - code-review-process-reform
+- code-review-guidelines
+- checklists
+- static-analysis-and-linting
+- code-quality-gates
+- small-change-batches
+- definition-of-done
 layout: problem
 ---
 

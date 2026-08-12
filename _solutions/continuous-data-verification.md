@@ -11,6 +11,8 @@ problems:
 - cross-system-data-synchronization-problems
 - unbounded-data-growth
 - inconsistent-behavior
+- cache-invalidation-problems
+- synchronization-problems
 layout: solution
 ---
 

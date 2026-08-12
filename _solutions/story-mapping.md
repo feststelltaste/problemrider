@@ -14,6 +14,7 @@ problems:
 - planning-dysfunction
 - unclear-goals-and-priorities
 - scope-creep
+- market-pressure
 layout: solution
 ---
 

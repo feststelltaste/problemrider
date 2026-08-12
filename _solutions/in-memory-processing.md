@@ -10,6 +10,7 @@ problems:
 - excessive-disk-io
 - gradual-performance-degradation
 - high-database-resource-utilization
+- unoptimized-file-access
 layout: solution
 ---
 

@@ -36,6 +36,7 @@ solutions:
 - requirements-traceability-matrix
 - security-tests
 - test-driven-development-tdd
+- characterization-tests
 layout: problem
 ---
 

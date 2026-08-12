@@ -10,6 +10,7 @@ problems:
 - excessive-disk-io
 - unbounded-data-growth
 - high-client-side-resource-consumption
+- unoptimized-file-access
 layout: solution
 ---
 

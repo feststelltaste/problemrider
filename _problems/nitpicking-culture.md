@@ -21,6 +21,12 @@ related_problems:
   similarity: 0.65
 solutions:
 - code-review-process-reform
+- code-review-guidelines
+- team-working-agreements
+- static-analysis-and-linting
+- code-conventions
+- style-guide
+- psychological-safety-practices
 layout: problem
 ---
 

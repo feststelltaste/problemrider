@@ -16,6 +16,13 @@ problems:
 - uncontrolled-codebase-growth
 - hidden-side-effects
 - suboptimal-solutions
+- clever-code
+- excessive-class-size
+- feature-creep-without-refactoring
+- mental-fatigue
+- mixed-coding-styles
+- procedural-background
+- reduced-individual-productivity
 layout: solution
 ---
 

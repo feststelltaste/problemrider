@@ -36,6 +36,16 @@ solutions:
 - frequently-asked-questions-faq
 - living-documentation
 - virtual-development-environments
+- domain-quiz
+- federated-identity
+- integrated-onboarding
+- interactive-tutorials
+- intuitive-navigation
+- knowledge-base
+- plain-language
+- progressive-disclosure
+- runbooks
+- video-tutorials
 layout: problem
 ---
 

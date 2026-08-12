@@ -13,6 +13,7 @@ problems:
 - regression-bugs
 - ripple-effect-of-changes
 - deployment-risk
+- abi-compatibility-issues
 layout: solution
 ---
 

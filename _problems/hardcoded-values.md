@@ -20,6 +20,8 @@ solutions:
 - platform-independent-configuration-management
 - rule-based-systems
 - value-range-definition
+- environment-variables-for-configuration
+- localization
 layout: problem
 ---
 

@@ -11,6 +11,8 @@ problems:
 - quality-blind-spots
 - legacy-code-without-tests
 - increased-risk-of-bugs
+- integer-overflow-underflow
+- null-pointer-dereferences
 layout: solution
 ---
 

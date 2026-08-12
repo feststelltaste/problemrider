@@ -27,6 +27,7 @@ solutions:
 - refactoring-katas
 - secure-coding-guidelines
 - static-code-analysis
+- code-quality-gates
 layout: problem
 ---
 

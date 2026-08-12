@@ -32,6 +32,26 @@ solutions:
 - secure-session-management
 - security-audits
 - security-policies-for-users
+- cryptographic-methods
+- data-flow-control
+- defense-lines
+- digital-forensics
+- digital-signatures
+- domain-based-authorization-concept
+- encryption
+- endpoint-detection-and-response
+- federated-identity
+- honeypots
+- incident-response-measures
+- key-management
+- least-privilege
+- malware-protection
+- network-segmentation
+- patch-management
+- penetration-tests
+- physical-security
+- secure-software
+- two-factor-authentication
 layout: problem
 ---
 

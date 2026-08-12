@@ -22,6 +22,8 @@ related_problems:
 solutions:
 - clear-ownership-model
 - clear-roles-and-ownership
+- domain-aligned-architecture
+- team-boundaries-aligned-to-architecture
 layout: problem
 ---
 

@@ -11,6 +11,15 @@ related_problems:
   similarity: 0.65
 - slug: stack-overflow-errors
   similarity: 0.55
+solutions:
+- fuzz-testing
+- input-validation
+- static-analysis-and-linting
+- value-range-definition
+- design-by-contract
+- plausibility-checks
+- property-based-testing
+- negative-testing
 layout: problem
 ---
 

@@ -26,6 +26,7 @@ solutions:
 - canary-releases
 - continuous-delivery
 - dark-launches
+- continuous-deployment
 layout: problem
 ---
 

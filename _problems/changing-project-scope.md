@@ -22,6 +22,7 @@ solutions:
 - evolutionary-requirements-development
 - formal-change-control-process
 - product-owner
+- explicit-prioritization-framework
 layout: problem
 ---
 

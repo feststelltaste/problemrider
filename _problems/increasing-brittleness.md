@@ -23,6 +23,9 @@ solutions:
 - incremental-refactoring
 - technical-debt-backlog
 - dependency-pinning
+- code-hotspot-analysis
+- improvement-budget
+- mikado-method
 layout: problem
 ---
 

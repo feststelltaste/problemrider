@@ -13,6 +13,7 @@ problems:
 - release-instability
 - regression-bugs
 - deployment-risk
+- development-disruption
 layout: solution
 ---
 

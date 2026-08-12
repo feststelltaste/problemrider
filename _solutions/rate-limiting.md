@@ -12,6 +12,8 @@ problems:
 - cascade-failures
 - slow-application-performance
 - high-api-latency
+- graphql-complexity-issues
+- unbounded-data-structures
 layout: solution
 ---
 

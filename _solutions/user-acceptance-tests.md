@@ -14,6 +14,7 @@ problems:
 - stakeholder-confidence-loss
 - negative-user-feedback
 - quality-blind-spots
+- reduced-feature-quality
 layout: solution
 ---
 

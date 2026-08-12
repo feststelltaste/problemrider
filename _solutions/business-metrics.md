@@ -12,6 +12,8 @@ problems:
 - quality-blind-spots
 - invisible-nature-of-technical-debt
 - stakeholder-confidence-loss
+- negative-brand-perception
+- resource-waste
 layout: solution
 ---
 

@@ -22,6 +22,11 @@ solutions:
 - concurrency-control
 - timestamping
 - transactions
+- idempotent-operations
+- event-driven-architecture
+- monitoring
+- data-integrity
+- continuous-data-verification
 layout: problem
 ---
 

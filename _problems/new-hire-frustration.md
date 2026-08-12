@@ -21,6 +21,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - structured-onboarding-program
+- integrated-onboarding
+- knowledge-rotation
+- pair-and-mob-programming
+- documentation-as-code
+- virtual-development-environments
+- team-working-agreements
 layout: problem
 ---
 

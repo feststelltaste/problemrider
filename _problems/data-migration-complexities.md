@@ -36,6 +36,7 @@ solutions:
 - nosql-databases
 - platform-independent-data-storage
 - standardized-data-formats
+- database-abstraction
 layout: problem
 ---
 

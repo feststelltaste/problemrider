@@ -23,6 +23,7 @@ solutions:
 - clean-code
 - design-by-contract
 - solid-principles
+- characterization-tests
 layout: problem
 ---
 

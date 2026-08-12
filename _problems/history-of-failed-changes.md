@@ -22,6 +22,7 @@ solutions:
 - architecture-decision-records
 - blameless-postmortems
 - functional-spike
+- mikado-method
 layout: problem
 ---
 

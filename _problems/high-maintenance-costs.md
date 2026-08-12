@@ -31,6 +31,7 @@ solutions:
 - site-reliability-engineering-sre
 - standard-software
 - strategic-code-deletion
+- deprecation-strategy
 layout: problem
 ---
 

@@ -18,6 +18,9 @@ problems:
 - difficult-code-comprehension
 - procedural-programming-in-oop-languages
 - convenience-driven-development
+- excessive-class-size
+- over-reliance-on-utility-classes
+- poor-encapsulation
 layout: solution
 ---
 

@@ -22,6 +22,10 @@ related_problems:
 solutions:
 - pair-and-mob-programming
 - structured-onboarding-program
+- technical-skills-development
+- cross-functional-skill-development
+- knowledge-rotation
+- domain-experts
 layout: problem
 ---
 

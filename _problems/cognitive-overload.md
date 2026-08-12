@@ -26,6 +26,10 @@ solutions:
 - separation-of-concerns
 - cognitive-load-minimization
 - form-design
+- intuitive-navigation
+- progressive-disclosure
+- search-function
+- visual-hierarchy
 layout: problem
 ---
 

@@ -23,6 +23,7 @@ solutions:
 - contract-testing
 - api-first-development
 - compatibility-certification
+- vendor-management-practice
 layout: problem
 ---
 

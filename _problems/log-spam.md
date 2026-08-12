@@ -22,6 +22,7 @@ solutions:
 - observability-and-monitoring
 - asynchronous-logging
 - platform-independent-logging-frameworks
+- logging-and-monitoring
 layout: problem
 ---
 

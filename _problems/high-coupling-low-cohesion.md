@@ -39,6 +39,16 @@ solutions:
 - microservices-architecture
 - modulith
 - object-relational-mapping-orm
+- dependency-injection
+- dependency-injection-container
+- domain-aligned-architecture
+- domain-driven-design
+- event-driven-architecture
+- fitness-functions
+- incremental-refactoring
+- modularization-and-bounded-contexts
+- dependency-breaking-techniques
+- mikado-method
 layout: problem
 ---
 

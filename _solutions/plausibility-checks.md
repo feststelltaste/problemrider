@@ -12,6 +12,7 @@ problems:
 - data-migration-integrity-issues
 - increased-error-rates
 - brittle-codebase
+- integer-overflow-underflow
 layout: solution
 ---
 

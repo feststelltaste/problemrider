@@ -14,6 +14,8 @@ problems:
 - legacy-configuration-management-chaos
 - inadequate-configuration-management
 - complex-deployment-process
+- incorrect-max-connection-pool-size
+- misconfigured-connection-pools
 layout: solution
 ---
 

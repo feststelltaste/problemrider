@@ -21,6 +21,13 @@ related_problems:
   similarity: 0.55
 solutions:
 - loose-coupling
+- code-review-guidelines
+- team-working-agreements
+- code-conventions
+- checklists
+- definition-of-done
+- runbooks
+- style-guide
 layout: problem
 ---
 

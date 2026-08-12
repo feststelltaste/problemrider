@@ -26,6 +26,7 @@ solutions:
 - direct-feedback
 - feedback-mechanisms
 - on-site-customer
+- user-communities
 layout: problem
 ---
 

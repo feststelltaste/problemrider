@@ -12,6 +12,7 @@ problems:
 - architectural-mismatch
 - requirements-ambiguity
 - stakeholder-developer-communication-gap
+- over-reliance-on-utility-classes
 layout: solution
 ---
 

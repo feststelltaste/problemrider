@@ -11,6 +11,7 @@ problems:
 - deployment-environment-inconsistencies
 - insufficient-testing
 - integration-difficulties
+- abi-compatibility-issues
 layout: solution
 ---
 

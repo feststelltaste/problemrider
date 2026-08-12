@@ -12,6 +12,7 @@ problems:
 - cognitive-overload
 - negative-user-feedback
 - shadow-systems
+- information-fragmentation
 layout: solution
 ---
 

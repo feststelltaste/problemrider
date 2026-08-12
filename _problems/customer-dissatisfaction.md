@@ -39,6 +39,19 @@ solutions:
 - prototypes
 - usability-tests
 - user-acceptance-tests
+- a-b-testing
+- accessibility-concept
+- adaptive-behavior
+- functional-debt-management
+- functional-gap-analysis
+- localization
+- mobile-first-design
+- performance-optimization
+- personal-support
+- real-time-input-validation
+- responsive-design
+- service-level-agreements
+- undo-and-redo
 layout: problem
 ---
 

@@ -14,6 +14,7 @@ problems:
 - vendor-lock-in
 - difficult-code-reuse
 - stagnant-architecture
+- poor-encapsulation
 layout: solution
 ---
 

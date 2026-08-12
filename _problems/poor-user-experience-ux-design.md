@@ -47,6 +47,26 @@ solutions:
 - prototypes
 - prototyping
 - usability-tests
+- a-b-testing
+- accessibility-concept
+- adaptive-behavior
+- integrated-onboarding
+- interactive-tutorials
+- intuitive-navigation
+- keyboard-support
+- localization
+- mobile-first-design
+- performance-optimization
+- plain-language
+- progressive-disclosure
+- real-time-input-validation
+- responsive-design
+- search-function
+- style-guide
+- understandable-error-messages
+- undo-and-redo
+- visual-hierarchy
+- wireframing
 layout: problem
 ---
 

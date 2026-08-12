@@ -14,6 +14,9 @@ problems:
 - difficult-developer-onboarding
 - knowledge-gaps
 - poor-documentation
+- inconsistent-naming-conventions
+- information-fragmentation
+- language-barriers
 layout: solution
 ---
 

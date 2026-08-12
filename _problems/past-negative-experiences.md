@@ -20,6 +20,12 @@ related_problems:
   similarity: 0.55
 solutions:
 - blameless-postmortems
+- psychological-safety-practices
+- small-change-batches
+- rollback-mechanisms
+- automated-tests
+- feature-flags
+- mikado-method
 layout: problem
 ---
 

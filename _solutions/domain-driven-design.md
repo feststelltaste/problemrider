@@ -13,6 +13,9 @@ problems:
 - monolithic-architecture-constraints
 - high-coupling-low-cohesion
 - stakeholder-developer-communication-gap
+- inconsistent-naming-conventions
+- over-reliance-on-utility-classes
+- procedural-background
 layout: solution
 ---
 

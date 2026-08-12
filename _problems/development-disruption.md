@@ -21,6 +21,11 @@ related_problems:
 solutions:
 - development-environment-optimization
 - development-workflow-automation
+- small-change-batches
+- environment-parity
+- virtual-development-environments
+- containerization
+- feature-toggles
 layout: problem
 ---
 

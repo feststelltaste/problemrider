@@ -68,6 +68,8 @@ solutions:
 - tree-shaking
 - vertical-scaling
 - virtualized-lists
+- performance-optimization
+- service-level-indicators
 layout: problem
 ---
 

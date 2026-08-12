@@ -24,6 +24,7 @@ solutions:
 - api-security
 - content-negotiation
 - standardized-interfaces
+- input-validation
 layout: problem
 ---
 

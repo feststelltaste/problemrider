@@ -13,6 +13,10 @@ problems:
 - customer-dissatisfaction
 - system-outages
 - modernization-roi-justification-failure
+- communication-risk-outside-project
+- legal-disputes
+- upstream-timeouts
+- vendor-relationship-strain
 layout: solution
 ---
 

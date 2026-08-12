@@ -23,6 +23,7 @@ solutions:
 - cloud-native-development
 - serverless-computing
 - site-reliability-engineering-sre
+- certificate-management
 layout: problem
 ---
 

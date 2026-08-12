@@ -24,6 +24,7 @@ solutions:
 - formal-change-control-process
 - iterative-development
 - product-owner
+- team-boundaries-aligned-to-architecture
 layout: problem
 ---
 

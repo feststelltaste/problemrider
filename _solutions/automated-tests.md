@@ -15,6 +15,8 @@ problems:
 - increased-manual-testing-effort
 - difficult-to-test-code
 - test-debt
+- fear-of-failure
+- past-negative-experiences
 layout: solution
 ---
 

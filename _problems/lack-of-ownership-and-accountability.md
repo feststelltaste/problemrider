@@ -23,6 +23,7 @@ solutions:
 - clear-ownership-model
 - clear-roles-and-ownership
 - compatibility-governance
+- decision-rights-and-escalation
 layout: problem
 ---
 

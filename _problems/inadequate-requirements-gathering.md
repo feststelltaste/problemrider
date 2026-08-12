@@ -37,6 +37,7 @@ solutions:
 - story-mapping
 - subject-matter-reviews
 - user-stories
+- functional-gap-analysis
 layout: problem
 ---
 

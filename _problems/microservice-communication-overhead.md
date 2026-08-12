@@ -25,6 +25,7 @@ solutions:
 - idempotent-operations
 - service-mesh
 - standardized-protocols
+- saga-pattern
 layout: problem
 ---
 

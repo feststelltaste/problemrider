@@ -46,6 +46,11 @@ solutions:
 - microservices-architecture
 - modulith
 - security-architecture-analysis
+- domain-aligned-architecture
+- domain-driven-design
+- event-storming
+- trust-boundaries
+- zero-trust-architecture
 layout: problem
 ---
 

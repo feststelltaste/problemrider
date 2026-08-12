@@ -23,6 +23,7 @@ solutions:
 - continuous-feedback
 - impact-mapping
 - product-strategy-alignment
+- explicit-prioritization-framework
 layout: problem
 ---
 

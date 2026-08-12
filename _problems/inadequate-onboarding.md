@@ -25,6 +25,9 @@ solutions:
 - raising-user-awareness
 - security-training
 - virtual-development-environments
+- integrated-onboarding
+- interactive-tutorials
+- video-tutorials
 layout: problem
 ---
 

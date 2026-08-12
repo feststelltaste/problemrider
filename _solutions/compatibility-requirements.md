@@ -12,6 +12,7 @@ problems:
 - integration-difficulties
 - fear-of-breaking-changes
 - implicit-knowledge
+- legal-disputes
 layout: solution
 ---
 

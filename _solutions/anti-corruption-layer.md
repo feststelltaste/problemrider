@@ -18,6 +18,8 @@ problems:
 - shared-dependencies
 - cross-system-data-synchronization-problems
 - breaking-changes
+- dependency-on-supplier
+- strangler-fig-pattern-failures
 layout: solution
 ---
 

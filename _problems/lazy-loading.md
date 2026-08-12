@@ -23,6 +23,11 @@ solutions:
 - caching-strategy
 - efficient-algorithms
 - lazy-evaluation
+- query-optimization-process
+- profiling
+- denormalization
+- materialized-views
+- pagination
 layout: problem
 ---
 

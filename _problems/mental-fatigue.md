@@ -21,6 +21,12 @@ related_problems:
   similarity: 0.55
 solutions:
 - sustainable-pace-practices
+- work-in-progress-limits
+- psychological-safety-practices
+- cognitive-load-minimization
+- on-call-duty
+- capacity-based-planning
+- clean-code
 layout: problem
 ---
 

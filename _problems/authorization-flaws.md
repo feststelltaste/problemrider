@@ -27,6 +27,16 @@ solutions:
 - secure-session-management
 - security-by-design
 - security-tests-by-external-parties
+- data-flow-control
+- defense-lines
+- domain-based-authorization-concept
+- least-privilege
+- network-segmentation
+- penetration-tests
+- threat-modeling
+- trust-boundaries
+- two-factor-authentication
+- zero-trust-architecture
 layout: problem
 ---
 

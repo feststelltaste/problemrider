@@ -22,6 +22,7 @@ solutions:
 - change-management-process
 - formal-change-control-process
 - product-owner
+- explicit-prioritization-framework
 layout: problem
 ---
 

@@ -21,6 +21,11 @@ related_problems:
   similarity: 0.55
 solutions:
 - blameless-postmortems
+- decision-rights-and-escalation
+- psychological-safety-practices
+- team-working-agreements
+- work-in-progress-limits
+- pair-and-mob-programming
 layout: problem
 ---
 

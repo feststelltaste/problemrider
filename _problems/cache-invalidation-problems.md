@@ -18,6 +18,11 @@ related_problems:
 solutions:
 - caching-strategy
 - distributed-caching
+- event-driven-architecture
+- monitoring
+- integration-tests
+- continuous-data-verification
+- data-integrity
 layout: problem
 ---
 

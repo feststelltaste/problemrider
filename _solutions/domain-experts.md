@@ -12,6 +12,7 @@ problems:
 - knowledge-gaps
 - legacy-business-logic-extraction-difficulty
 - poor-domain-model
+- inappropriate-skillset
 layout: solution
 ---
 

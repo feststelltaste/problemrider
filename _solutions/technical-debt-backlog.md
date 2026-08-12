@@ -22,6 +22,11 @@ problems:
 - maintenance-overhead
 - maintenance-cost-increase
 - high-maintenance-costs
+- accumulated-decision-debt
+- feature-creep-without-refactoring
+- increased-technical-shortcuts
+- reduced-predictability
+- system-stagnation
 layout: solution
 ---
 

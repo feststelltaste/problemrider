@@ -28,6 +28,7 @@ solutions:
 - secure-software-development
 - static-code-analysis
 - test-driven-development-tdd
+- code-quality-gates
 layout: problem
 ---
 

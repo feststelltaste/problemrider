@@ -23,6 +23,9 @@ solutions:
 - caching-strategy
 - profiling
 - memory-hierarchy
+- performance-measurements
+- efficient-algorithms
+- data-modeling
 layout: problem
 ---
 

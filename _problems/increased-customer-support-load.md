@@ -26,6 +26,13 @@ solutions:
 - contextual-help
 - frequently-asked-questions-faq
 - input-constraints-and-defaults
+- integrated-onboarding
+- interactive-tutorials
+- knowledge-base
+- personal-support
+- understandable-error-messages
+- user-communities
+- video-tutorials
 layout: problem
 ---
 

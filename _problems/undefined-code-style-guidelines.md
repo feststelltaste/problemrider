@@ -24,6 +24,7 @@ solutions:
 - compatibility-standards
 - secure-coding-guidelines
 - security-policies-for-development
+- style-guide
 layout: problem
 ---
 

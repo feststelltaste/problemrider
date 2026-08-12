@@ -14,6 +14,15 @@ problems:
 - high-bug-introduction-rate
 - regression-bugs
 - quality-blind-spots
+- automated-tooling-ineffectiveness
+- feature-creep-without-refactoring
+- inadequate-initial-reviews
+- increased-technical-shortcuts
+- mixed-coding-styles
+- outdated-tests
+- reduced-feature-quality
+- review-process-avoidance
+- rushed-approvals
 layout: solution
 ---
 

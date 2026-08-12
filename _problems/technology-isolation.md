@@ -21,6 +21,11 @@ related_problems:
 solutions:
 - knowledge-sharing-practices
 - security-community
+- vendor-management-practice
+- technical-skills-development
+- cross-functional-skill-development
+- boring-technologies
+- architecture-roadmap
 layout: problem
 ---
 

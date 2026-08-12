@@ -11,6 +11,10 @@ problems:
 - complex-domain-model
 - data-migration-complexities
 - legacy-business-logic-extraction-difficulty
+- data-structure-cache-inefficiency
+- incorrect-index-type
+- inefficient-database-indexing
+- queries-that-prevent-index-usage
 layout: solution
 ---
 

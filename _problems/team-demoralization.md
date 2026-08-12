@@ -23,6 +23,10 @@ solutions:
 - psychological-safety-practices
 - sustainable-pace-practices
 - team-autonomy-and-empowerment
+- blameless-postmortems
+- improvement-budget
+- work-in-progress-limits
+- capacity-based-planning
 layout: problem
 ---
 

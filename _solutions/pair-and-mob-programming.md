@@ -21,6 +21,22 @@ problems:
 - skill-development-gaps
 - limited-team-learning
 - inconsistent-knowledge-acquisition
+- avoidance-behaviors
+- clever-code
+- extended-review-cycles
+- individual-recognition-culture
+- knowledge-sharing-breakdown
+- new-hire-frustration
+- poor-teamwork
+- procedural-background
+- procrastination-on-complex-tasks
+- reduced-review-participation
+- reduced-team-flexibility
+- review-bottlenecks
+- reviewer-anxiety
+- team-churn-impact
+- team-members-not-engaged-in-review-process
+- uneven-workload-distribution
 layout: solution
 ---
 

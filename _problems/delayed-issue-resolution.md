@@ -22,6 +22,9 @@ related_problems:
 solutions:
 - continuous-feedback
 - root-cause-analysis
+- code-hotspot-analysis
+- small-change-batches
+- work-in-progress-limits
 layout: problem
 ---
 

@@ -23,6 +23,7 @@ solutions:
 - backward-compatible-schema-migrations
 - nosql-databases
 - schema-registry
+- domain-data-versioning
 layout: problem
 ---
 

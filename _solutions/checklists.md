@@ -12,6 +12,13 @@ problems:
 - complex-deployment-process
 - rushed-approvals
 - implementation-starts-without-design
+- inadequate-initial-reviews
+- inconsistent-execution
+- inconsistent-onboarding-experience
+- review-process-breakdown
+- reviewer-anxiety
+- reviewer-inexperience
+- unproductive-meetings
 layout: solution
 ---
 

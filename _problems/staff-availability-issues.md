@@ -22,6 +22,8 @@ related_problems:
 solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices
+- capacity-based-planning
+- knowledge-rotation
 layout: problem
 ---
 

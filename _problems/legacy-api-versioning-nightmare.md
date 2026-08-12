@@ -34,6 +34,7 @@ solutions:
 - semantic-versioning
 - standardized-interfaces
 - versioning-scheme
+- deprecation-strategy
 layout: problem
 ---
 

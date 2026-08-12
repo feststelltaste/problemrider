@@ -62,6 +62,7 @@ solutions:
 - tracer-bullets
 - trunk-based-development
 - versioning-scheme
+- vendor-management-practice
 layout: problem
 ---
 

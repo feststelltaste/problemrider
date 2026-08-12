@@ -14,6 +14,8 @@ problems:
 - inconsistent-naming-conventions
 - knowledge-gaps
 - misaligned-deliverables
+- communication-risk-within-project
+- language-barriers
 layout: solution
 ---
 

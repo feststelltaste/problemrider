@@ -7,7 +7,7 @@ quality_tactics_url: https://qualitytactics.de/en/maintainability/event-driven-a
 problems:
 - tight-coupling-issues
 - deployment-coupling
-- high-coupling-and-low-cohesion
+- high-coupling-low-cohesion
 - cascade-failures
 - monolithic-architecture-constraints
 - single-points-of-failure
@@ -16,6 +16,8 @@ problems:
 - load-balancing-problems
 - service-timeouts
 - upstream-timeouts
+- cache-invalidation-problems
+- synchronization-problems
 layout: solution
 ---
 

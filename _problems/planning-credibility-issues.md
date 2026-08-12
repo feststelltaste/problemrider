@@ -23,6 +23,7 @@ solutions:
 - iterative-development
 - short-iteration-cycles
 - stakeholder-feedback-loops
+- capacity-based-planning
 layout: problem
 ---
 

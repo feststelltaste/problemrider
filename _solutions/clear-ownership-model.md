@@ -15,6 +15,9 @@ problems:
 - approval-dependencies
 - maintenance-bottlenecks
 - power-struggles
+- delayed-decision-making
+- duplicated-effort
+- unclear-documentation-ownership
 layout: solution
 ---
 

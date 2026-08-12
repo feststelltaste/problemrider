@@ -20,6 +20,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - incremental-refactoring
+- code-reviews
+- code-conventions
+- clean-code
+- code-review-guidelines
+- pair-and-mob-programming
+- style-guide
 layout: problem
 ---
 

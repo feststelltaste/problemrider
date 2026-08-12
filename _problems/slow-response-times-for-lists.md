@@ -32,6 +32,8 @@ solutions:
 - predictive-loading
 - progressive-loading
 - virtualized-lists
+- performance-optimization
+- search-function
 layout: problem
 ---
 

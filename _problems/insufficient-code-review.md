@@ -22,6 +22,8 @@ related_problems:
 solutions:
 - code-review-process-reform
 - code-reviews
+- code-quality-gates
+- fair-source
 layout: problem
 ---
 

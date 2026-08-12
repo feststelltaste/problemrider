@@ -13,6 +13,8 @@ problems:
 - decision-avoidance
 - convenience-driven-development
 - high-technical-debt
+- delayed-decision-making
+- project-authority-vacuum
 layout: solution
 ---
 

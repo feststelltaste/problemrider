@@ -21,6 +21,11 @@ related_problems:
   similarity: 0.6
 solutions:
 - architecture-decision-records
+- decision-rights-and-escalation
+- architecture-reviews
+- technical-debt-backlog
+- living-documentation
+- architecture-governance
 layout: problem
 ---
 

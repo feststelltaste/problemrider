@@ -21,6 +21,12 @@ related_problems:
   similarity: 0.5
 solutions:
 - contract-testing
+- vendor-management-practice
+- service-level-agreements
+- audit-trail-management
+- compatibility-requirements
+- documentation-as-code
+- requirements-traceability-matrix
 layout: problem
 ---
 

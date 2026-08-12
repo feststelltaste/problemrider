@@ -14,6 +14,8 @@ problems:
 - feature-gaps
 - shadow-systems
 - stakeholder-developer-communication-gap
+- misaligned-deliverables
+- negative-brand-perception
 layout: solution
 ---
 

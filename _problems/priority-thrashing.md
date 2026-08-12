@@ -20,6 +20,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - sustainable-pace-practices
+- explicit-prioritization-framework
+- work-in-progress-limits
+- capacity-based-planning
+- short-iteration-cycles
+- product-owner
+- decision-rights-and-escalation
 layout: problem
 ---
 

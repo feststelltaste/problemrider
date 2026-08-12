@@ -40,6 +40,9 @@ solutions:
 - timestamping
 - transactions
 - write-ahead-logging
+- domain-data-versioning
+- error-correction-codes
+- saga-pattern
 layout: problem
 ---
 

@@ -24,6 +24,9 @@ solutions:
 - feature-detection
 - platform-independence
 - platform-independent-time-zone-handling
+- dependency-injection
+- dependency-injection-container
+- dependency-breaking-techniques
 layout: problem
 ---
 

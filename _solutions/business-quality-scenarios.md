@@ -11,6 +11,7 @@ problems:
 - inadequate-requirements-gathering
 - difficulty-quantifying-benefits
 - stakeholder-developer-communication-gap
+- reduced-feature-quality
 layout: solution
 ---
 

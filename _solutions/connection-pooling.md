@@ -12,6 +12,7 @@ problems:
 - slow-application-performance
 - incorrect-max-connection-pool-size
 - high-database-resource-utilization
+- unreleased-resources
 layout: solution
 ---
 

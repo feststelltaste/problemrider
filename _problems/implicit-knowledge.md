@@ -34,6 +34,13 @@ solutions:
 - raising-user-awareness
 - security-community
 - security-training
+- domain-experts
+- domain-quiz
+- event-storming
+- knowledge-base
+- runbooks
+- user-communities
+- knowledge-rotation
 layout: problem
 ---
 

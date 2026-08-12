@@ -30,6 +30,7 @@ solutions:
 - rollback-mechanisms
 - rolling-updates
 - smoke-testing
+- continuous-deployment
 layout: problem
 ---
 

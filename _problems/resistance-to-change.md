@@ -24,6 +24,7 @@ solutions:
 - architecture-workshops
 - raising-user-awareness
 - security-culture
+- fair-source
 layout: problem
 ---
 

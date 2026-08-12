@@ -26,6 +26,7 @@ solutions:
 - architecture-documentation
 - code-comments
 - living-documentation
+- knowledge-rotation
 layout: problem
 ---
 

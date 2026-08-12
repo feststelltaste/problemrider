@@ -13,6 +13,17 @@ problems:
 - implicit-knowledge
 - difficult-developer-onboarding
 - information-fragmentation
+- duplicated-effort
+- duplicated-research-effort
+- extended-research-time
+- high-turnover
+- inadequate-mentoring-structure
+- inconsistent-onboarding-experience
+- knowledge-sharing-breakdown
+- mentor-burnout
+- team-churn-impact
+- unclear-documentation-ownership
+- unproductive-meetings
 layout: solution
 ---
 

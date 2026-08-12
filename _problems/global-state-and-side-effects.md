@@ -20,6 +20,9 @@ related_problems:
   similarity: 0.5
 solutions:
 - incremental-refactoring
+- dependency-injection
+- dependency-injection-container
+- dependency-breaking-techniques
 layout: problem
 ---
 

@@ -12,6 +12,24 @@ problems:
 - slow-incident-resolution
 - quality-blind-spots
 - capacity-mismatch
+- alignment-and-padding-issues
+- atomic-operation-overhead
+- data-structure-cache-inefficiency
+- dma-coherency-issues
+- endianness-conversion-overhead
+- false-sharing
+- incorrect-index-type
+- incorrect-max-connection-pool-size
+- index-fragmentation
+- inefficient-database-indexing
+- interrupt-overhead
+- lock-contention
+- memory-barrier-inefficiency
+- misconfigured-connection-pools
+- poor-caching-strategy
+- queries-that-prevent-index-usage
+- unoptimized-file-access
+- unused-indexes
 layout: solution
 ---
 

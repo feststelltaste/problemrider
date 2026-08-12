@@ -21,6 +21,11 @@ problems:
 - staff-availability-issues
 - reduced-team-flexibility
 - author-frustration
+- developer-frustration-and-burnout
+- high-turnover
+- inadequate-mentoring-structure
+- increased-stress-and-burnout
+- reduced-innovation
 layout: solution
 ---
 

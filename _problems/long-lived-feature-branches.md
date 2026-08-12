@@ -22,6 +22,7 @@ solutions:
 - feature-flags
 - continuous-integration
 - trunk-based-development
+- small-change-batches
 layout: problem
 ---
 

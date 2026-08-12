@@ -23,6 +23,8 @@ solutions:
 - code-metrics
 - compatibility-as-error
 - compatibility-standards
+- code-quality-gates
+- fitness-functions
 layout: problem
 ---
 

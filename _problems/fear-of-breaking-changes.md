@@ -32,6 +32,9 @@ solutions:
 - functional-spike
 - functional-tests
 - regression-tests
+- characterization-tests
+- mikado-method
+- small-change-batches
 layout: problem
 ---
 

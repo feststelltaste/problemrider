@@ -20,6 +20,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - incremental-refactoring
+- dependency-breaking-techniques
+- domain-driven-design
+- solid-principles
+- high-cohesion
+- separation-of-concerns
+- domain-modeling
 layout: problem
 ---
 

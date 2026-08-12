@@ -33,6 +33,8 @@ solutions:
 - usability-tests
 - user-acceptance-tests
 - user-stories
+- behavior-driven-development-bdd
+- wireframing
 layout: problem
 ---
 

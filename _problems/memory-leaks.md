@@ -30,6 +30,7 @@ solutions:
 - pagination
 - probabilistic-data-structures
 - virtualized-lists
+- dynamic-code-analysis
 layout: problem
 ---
 

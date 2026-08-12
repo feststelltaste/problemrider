@@ -22,6 +22,9 @@ solutions:
 - incremental-refactoring
 - code-metrics
 - high-cohesion
+- code-hotspot-analysis
+- dependency-breaking-techniques
+- mikado-method
 layout: problem
 ---
 

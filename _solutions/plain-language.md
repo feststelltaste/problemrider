@@ -13,6 +13,7 @@ problems:
 - difficult-developer-onboarding
 - negative-user-feedback
 - knowledge-gaps
+- language-barriers
 layout: solution
 ---
 

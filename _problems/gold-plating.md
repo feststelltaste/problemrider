@@ -21,6 +21,7 @@ solutions:
 - architecture-reviews
 - boring-technologies
 - technical-skills-development
+- explicit-prioritization-framework
 layout: problem
 ---
 

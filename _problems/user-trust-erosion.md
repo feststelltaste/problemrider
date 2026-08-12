@@ -24,6 +24,8 @@ solutions:
 - auto-save
 - confirmation-dialogs
 - feedback
+- understandable-error-messages
+- undo-and-redo
 layout: problem
 ---
 

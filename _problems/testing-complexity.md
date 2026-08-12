@@ -21,6 +21,8 @@ related_problems:
 solutions:
 - test-coverage-strategy
 - platform-independent-test-frameworks
+- characterization-tests
+- dependency-breaking-techniques
 layout: problem
 ---
 

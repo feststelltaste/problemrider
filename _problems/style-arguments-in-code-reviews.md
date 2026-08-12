@@ -22,6 +22,8 @@ solutions:
 - code-review-process-reform
 - static-analysis-and-linting
 - code-conventions
+- code-review-guidelines
+- team-working-agreements
 layout: problem
 ---
 

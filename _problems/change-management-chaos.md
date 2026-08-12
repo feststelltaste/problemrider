@@ -23,6 +23,7 @@ solutions:
 - change-management-process
 - version-control
 - versioning-scheme
+- decision-rights-and-escalation
 layout: problem
 ---
 

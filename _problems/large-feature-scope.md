@@ -24,6 +24,7 @@ solutions:
 - requirements-analysis
 - story-mapping
 - user-stories
+- feature-driven-development
 layout: problem
 ---
 

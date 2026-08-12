@@ -12,6 +12,7 @@ problems:
 - high-database-resource-utilization
 - monolithic-architecture-constraints
 - slow-response-times-for-lists
+- imperative-data-fetching-logic
 layout: solution
 ---
 

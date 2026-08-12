@@ -24,6 +24,9 @@ solutions:
 - modularization-and-bounded-contexts
 - schema-registry
 - virtualization
+- supply-chain-security
+- third-party-dependency-check
+- team-boundaries-aligned-to-architecture
 layout: problem
 ---
 

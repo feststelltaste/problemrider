@@ -17,6 +17,7 @@ problems:
 - high-connection-count
 - thread-pool-exhaustion
 - virtual-memory-thrashing
+- load-balancing-problems
 layout: solution
 ---
 

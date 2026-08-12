@@ -17,6 +17,7 @@ problems:
 - maintenance-bottlenecks
 - increased-risk-of-bugs
 - increased-bug-count
+- vendor-relationship-strain
 layout: solution
 ---
 

@@ -20,6 +20,11 @@ related_problems:
   similarity: 0.5
 solutions:
 - structured-communication-protocols
+- team-working-agreements
+- decision-rights-and-escalation
+- checklists
+- knowledge-base
+- documentation-as-code
 layout: problem
 ---
 

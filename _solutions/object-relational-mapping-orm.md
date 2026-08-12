@@ -13,6 +13,7 @@ problems:
 - difficult-code-comprehension
 - high-coupling-low-cohesion
 - n-plus-one-query-problem
+- imperative-data-fetching-logic
 layout: solution
 ---
 

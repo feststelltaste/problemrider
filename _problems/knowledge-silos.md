@@ -30,6 +30,12 @@ solutions:
 - living-documentation
 - on-call-duty
 - security-community
+- collaborative-problem-solving
+- fair-source
+- knowledge-base
+- runbooks
+- user-communities
+- knowledge-rotation
 layout: problem
 ---
 

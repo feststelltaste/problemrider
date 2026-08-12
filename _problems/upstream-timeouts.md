@@ -22,6 +22,11 @@ solutions:
 - event-driven-architecture
 - circuit-breaker
 - timeout-management
+- retry
+- bulkhead
+- graceful-degradation
+- monitoring
+- service-level-agreements
 layout: problem
 ---
 

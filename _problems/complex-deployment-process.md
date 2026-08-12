@@ -40,6 +40,8 @@ solutions:
 - serverless-computing
 - standardized-deployment-scripts
 - walking-skeleton
+- continuous-deployment
+- environment-variables-for-configuration
 layout: problem
 ---
 

@@ -23,6 +23,9 @@ solutions:
 - impact-mapping
 - product-strategy-alignment
 - business-metrics
+- a-b-testing
+- adaptive-behavior
+- functional-debt-management
 layout: problem
 ---
 

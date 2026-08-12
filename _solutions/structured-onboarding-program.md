@@ -17,6 +17,10 @@ problems:
 - limited-team-learning
 - high-turnover
 - team-churn-impact
+- inadequate-mentoring-structure
+- mentor-burnout
+- rapid-team-growth
+- reviewer-inexperience
 layout: solution
 ---
 

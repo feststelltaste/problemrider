@@ -21,6 +21,8 @@ solutions:
 - definition-of-done
 - regression-tests
 - root-cause-analysis
+- characterization-tests
+- improvement-budget
 layout: problem
 ---
 

@@ -14,6 +14,17 @@ problems:
 - knowledge-silos
 - high-bug-introduction-rate
 - difficult-code-comprehension
+- clever-code
+- improper-event-listener-management
+- inconsistent-naming-conventions
+- increased-technical-shortcuts
+- mixed-coding-styles
+- null-pointer-dereferences
+- outdated-tests
+- procedural-background
+- queries-that-prevent-index-usage
+- stack-overflow-errors
+- unreleased-resources
 layout: solution
 ---
 

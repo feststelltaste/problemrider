@@ -14,6 +14,7 @@ problems:
 - high-api-latency
 - rate-limiting-issues
 - service-discovery-failures
+- graphql-complexity-issues
 layout: solution
 ---
 

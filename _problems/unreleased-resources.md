@@ -20,6 +20,12 @@ related_problems:
   similarity: 0.55
 solutions:
 - static-analysis-and-linting
+- resource-pooling
+- monitoring-system-utilization
+- code-reviews
+- profiling
+- error-handling
+- connection-pooling
 layout: problem
 ---
 

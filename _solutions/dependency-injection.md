@@ -13,6 +13,7 @@ problems:
 - difficult-code-reuse
 - technology-lock-in
 - global-state-and-side-effects
+- improper-event-listener-management
 layout: solution
 ---
 

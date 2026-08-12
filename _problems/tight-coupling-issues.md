@@ -42,6 +42,12 @@ solutions:
 - protocol-abstraction
 - standardized-interfaces
 - tolerant-reader
+- database-abstraction
+- dependency-injection
+- dependency-injection-container
+- fitness-functions
+- saga-pattern
+- dependency-breaking-techniques
 layout: problem
 ---
 

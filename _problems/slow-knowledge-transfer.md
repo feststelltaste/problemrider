@@ -23,6 +23,7 @@ solutions:
 - knowledge-sharing-practices
 - pair-and-mob-programming
 - structured-onboarding-program
+- collaborative-problem-solving
 layout: problem
 ---
 

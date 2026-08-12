@@ -20,6 +20,11 @@ related_problems:
 solutions:
 - caching-strategy
 - distributed-caching
+- performance-measurements
+- profiling
+- monitoring
+- performance-modeling
+- materialized-views
 layout: problem
 ---
 

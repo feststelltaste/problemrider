@@ -31,6 +31,8 @@ solutions:
 - security-certification
 - security-metrics
 - security-relevant-metrics
+- a-b-testing
+- service-level-indicators
 layout: problem
 ---
 

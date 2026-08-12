@@ -22,6 +22,7 @@ solutions:
 - iterative-development
 - requirements-analysis
 - short-iteration-cycles
+- feature-driven-development
 layout: problem
 ---
 

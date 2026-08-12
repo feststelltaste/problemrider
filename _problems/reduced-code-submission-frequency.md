@@ -22,6 +22,7 @@ solutions:
 - development-environment-optimization
 - development-workflow-automation
 - regression-testing
+- small-change-batches
 layout: problem
 ---
 

@@ -27,6 +27,7 @@ solutions:
 - risk-analysis
 - security-metrics
 - security-relevant-metrics
+- code-hotspot-analysis
 layout: problem
 ---
 

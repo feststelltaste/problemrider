@@ -23,6 +23,8 @@ solutions:
 - asynchronous-logging
 - logging
 - platform-independent-logging-frameworks
+- error-logging
+- logging-and-monitoring
 layout: problem
 ---
 

@@ -13,6 +13,7 @@ problems:
 - poor-documentation
 - constant-firefighting
 - difficult-developer-onboarding
+- inconsistent-execution
 layout: solution
 ---
 

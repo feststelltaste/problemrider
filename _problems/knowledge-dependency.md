@@ -22,6 +22,9 @@ related_problems:
 solutions:
 - knowledge-sharing-practices
 - pair-and-mob-programming
+- collaborative-problem-solving
+- runbooks
+- knowledge-rotation
 layout: problem
 ---
 

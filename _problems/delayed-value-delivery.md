@@ -23,6 +23,7 @@ solutions:
 - impact-mapping
 - product-strategy-alignment
 - continuous-delivery
+- feature-driven-development
 layout: problem
 ---
 

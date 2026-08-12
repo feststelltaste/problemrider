@@ -9,6 +9,13 @@ category:
 related_problems:
 - slug: false-sharing
   similarity: 0.55
+solutions:
+- profiling
+- performance-measurements
+- data-integrity
+- checksums
+- self-test
+- specialized-hardware
 layout: problem
 ---
 

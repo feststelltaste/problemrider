@@ -50,6 +50,12 @@ solutions:
 - site-reliability-engineering-sre
 - smoke-testing
 - standardized-deployment-scripts
+- continuous-deployment
+- digital-signatures
+- error-budgets
+- malware-protection
+- patch-management
+- self-test
 layout: problem
 ---
 

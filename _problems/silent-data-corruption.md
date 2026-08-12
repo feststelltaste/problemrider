@@ -40,6 +40,14 @@ solutions:
 - value-range-definition
 - watchdog
 - write-ahead-logging
+- datensparsamkeit
+- digital-forensics
+- digital-signatures
+- domain-data-versioning
+- error-correction-codes
+- error-handling
+- exceptions
+- input-validation
 layout: problem
 ---
 

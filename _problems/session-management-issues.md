@@ -17,6 +17,8 @@ solutions:
 - role-based-access-control
 - secure-session-management
 - security-policies-for-users
+- federated-identity
+- two-factor-authentication
 layout: problem
 ---
 

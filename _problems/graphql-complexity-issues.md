@@ -22,6 +22,12 @@ related_problems:
 solutions:
 - api-first-design
 - contract-testing
+- rate-limiting
+- api-gateway
+- query-optimization-process
+- pagination
+- performance-budgets
+- api-security
 layout: problem
 ---
 

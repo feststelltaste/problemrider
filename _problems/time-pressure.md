@@ -21,6 +21,8 @@ related_problems:
 solutions:
 - iterative-development
 - short-iteration-cycles
+- capacity-based-planning
+- improvement-budget
 layout: problem
 ---
 

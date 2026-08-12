@@ -32,6 +32,14 @@ solutions:
 - requirements-traceability-matrix
 - story-mapping
 - usability-tests
+- accessibility-concept
+- functional-debt-management
+- functional-gap-analysis
+- keyboard-support
+- localization
+- mobile-first-design
+- responsive-design
+- wireframing
 layout: problem
 ---
 

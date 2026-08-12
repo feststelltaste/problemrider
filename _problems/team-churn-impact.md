@@ -21,6 +21,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - structured-onboarding-program
+- knowledge-rotation
+- documentation-as-code
+- pair-and-mob-programming
+- knowledge-base
+- living-documentation
+- architecture-decision-records
 layout: problem
 ---
 

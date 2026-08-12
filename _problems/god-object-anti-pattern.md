@@ -22,6 +22,7 @@ solutions:
 - incremental-refactoring
 - modularization-and-bounded-contexts
 - high-cohesion
+- dependency-injection-container
 layout: problem
 ---
 

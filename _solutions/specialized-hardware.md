@@ -11,6 +11,7 @@ problems:
 - capacity-mismatch
 - bottleneck-formation
 - gradual-performance-degradation
+- dma-coherency-issues
 layout: solution
 ---
 

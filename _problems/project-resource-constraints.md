@@ -22,6 +22,7 @@ solutions:
 - change-management-process
 - iterative-development
 - short-iteration-cycles
+- explicit-prioritization-framework
 layout: problem
 ---
 

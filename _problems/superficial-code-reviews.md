@@ -22,6 +22,8 @@ related_problems:
 solutions:
 - code-review-process-reform
 - code-reviews
+- code-review-guidelines
+- small-change-batches
 layout: problem
 ---
 

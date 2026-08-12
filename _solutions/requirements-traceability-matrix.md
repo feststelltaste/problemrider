@@ -14,6 +14,7 @@ problems:
 - regulatory-compliance-drift
 - legacy-system-documentation-archaeology
 - feature-gaps
+- legal-disputes
 layout: solution
 ---
 

@@ -24,6 +24,8 @@ solutions:
 - functional-spike
 - technical-spike
 - walking-skeleton
+- decision-rights-and-escalation
+- mikado-method
 layout: problem
 ---
 

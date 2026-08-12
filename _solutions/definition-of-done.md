@@ -20,6 +20,14 @@ problems:
 - reduced-feature-quality
 - inadequate-error-handling
 - poor-documentation
+- feature-creep-without-refactoring
+- inadequate-initial-reviews
+- inconsistent-execution
+- increased-technical-shortcuts
+- outdated-tests
+- perfectionist-culture
+- perfectionist-review-culture
+- rushed-approvals
 layout: solution
 ---
 

@@ -21,6 +21,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - sustainable-pace-practices
+- work-in-progress-limits
+- cognitive-load-minimization
+- development-environment-optimization
+- psychological-safety-practices
+- clean-code
+- improvement-budget
 layout: problem
 ---
 

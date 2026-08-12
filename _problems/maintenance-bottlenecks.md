@@ -23,6 +23,8 @@ solutions:
 - architecture-roadmap
 - clear-ownership-model
 - contract-testing
+- code-hotspot-analysis
+- work-in-progress-limits
 layout: problem
 ---
 

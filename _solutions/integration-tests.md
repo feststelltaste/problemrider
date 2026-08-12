@@ -13,6 +13,7 @@ problems:
 - cascade-failures
 - integration-difficulties
 - poor-test-coverage
+- cache-invalidation-problems
 layout: solution
 ---
 

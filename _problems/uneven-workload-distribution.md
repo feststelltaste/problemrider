@@ -22,6 +22,11 @@ related_problems:
 solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices
+- work-in-progress-limits
+- knowledge-rotation
+- clear-roles-and-ownership
+- pair-and-mob-programming
+- capacity-based-planning
 layout: problem
 ---
 

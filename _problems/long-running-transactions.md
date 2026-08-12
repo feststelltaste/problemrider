@@ -25,6 +25,7 @@ solutions:
 - resource-pooling
 - resource-usage-optimization
 - transactions
+- saga-pattern
 layout: problem
 ---
 

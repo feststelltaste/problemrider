@@ -21,6 +21,12 @@ related_problems:
   similarity: 0.55
 solutions:
 - dependency-management-strategy
+- vendor-management-practice
+- anti-corruption-layer
+- abstraction-layers
+- adapter
+- standardized-interfaces
+- third-party-dependency-check
 layout: problem
 ---
 

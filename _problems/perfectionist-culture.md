@@ -21,6 +21,11 @@ related_problems:
 solutions:
 - psychological-safety-practices
 - team-autonomy-and-empowerment
+- definition-of-done
+- iterative-development
+- code-review-guidelines
+- small-change-batches
+- decision-rights-and-escalation
 layout: problem
 ---
 

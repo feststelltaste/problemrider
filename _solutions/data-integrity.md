@@ -11,6 +11,9 @@ problems:
 - database-schema-design-problems
 - inconsistent-behavior
 - unbounded-data-growth
+- cache-invalidation-problems
+- dma-coherency-issues
+- synchronization-problems
 layout: solution
 ---
 

@@ -20,6 +20,12 @@ related_problems:
   similarity: 0.6
 solutions:
 - iterative-development
+- capacity-based-planning
+- explicit-prioritization-framework
+- work-in-progress-limits
+- short-iteration-cycles
+- small-change-batches
+- technical-debt-backlog
 layout: problem
 ---
 

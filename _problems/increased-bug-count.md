@@ -22,6 +22,8 @@ solutions:
 - contract-testing
 - development-workflow-automation
 - regression-testing
+- code-hotspot-analysis
+- small-change-batches
 layout: problem
 ---
 

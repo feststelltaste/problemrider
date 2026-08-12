@@ -12,6 +12,7 @@ problems:
 - inadequate-integration-tests
 - deployment-risk
 - system-outages
+- dma-coherency-issues
 layout: solution
 ---
 

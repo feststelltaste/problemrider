@@ -21,6 +21,11 @@ related_problems:
   similarity: 0.65
 solutions:
 - knowledge-sharing-practices
+- knowledge-rotation
+- knowledge-base
+- documentation-as-code
+- architecture-decision-records
+- living-documentation
 layout: problem
 ---
 

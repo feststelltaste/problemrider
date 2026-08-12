@@ -37,6 +37,15 @@ solutions:
 - transparent-performance-metrics
 - ubiquitous-language
 - user-stories
+- domain-driven-design
+- domain-experts
+- domain-modeling
+- domain-specific-languages
+- event-storming
+- personal-support
+- usability-tests
+- user-communities
+- wireframing
 layout: problem
 ---
 

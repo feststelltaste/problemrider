@@ -13,6 +13,8 @@ problems:
 - data-migration-complexities
 - serialization-deserialization-bottlenecks
 - integration-difficulties
+- alignment-and-padding-issues
+- endianness-conversion-overhead
 layout: solution
 ---
 

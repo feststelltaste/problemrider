@@ -12,6 +12,7 @@ problems:
 - single-points-of-failure
 - poor-operational-concept
 - service-discovery-failures
+- load-balancing-problems
 layout: solution
 ---
 

@@ -30,6 +30,9 @@ solutions:
 - platform-independent-configuration-management
 - secure-by-default
 - secure-configuration
+- configuration-checks
+- environment-variables-for-configuration
+- key-management
 layout: problem
 ---
 

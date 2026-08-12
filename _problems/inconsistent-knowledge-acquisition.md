@@ -22,6 +22,8 @@ related_problems:
 solutions:
 - knowledge-sharing-practices
 - pair-and-mob-programming
+- domain-quiz
+- knowledge-rotation
 layout: problem
 ---
 

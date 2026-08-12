@@ -23,6 +23,8 @@ solutions:
 - knowledge-sharing-practices
 - feedback-mechanisms
 - on-site-customer
+- fair-source
+- user-communities
 layout: problem
 ---
 

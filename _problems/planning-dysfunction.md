@@ -23,6 +23,7 @@ solutions:
 - requirements-analysis
 - short-iteration-cycles
 - story-mapping
+- feature-driven-development
 layout: problem
 ---
 

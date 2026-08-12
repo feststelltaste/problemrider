@@ -12,6 +12,9 @@ problems:
 - high-database-resource-utilization
 - slow-response-times-for-lists
 - gradual-performance-degradation
+- imperative-data-fetching-logic
+- lazy-loading
+- poor-caching-strategy
 layout: solution
 ---
 

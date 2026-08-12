@@ -27,6 +27,13 @@ solutions:
 - plausibility-checks
 - retry
 - root-cause-analysis
+- error-handling
+- error-logs
+- error-reporting-and-analysis
+- real-time-input-validation
+- understandable-error-messages
+- undo-and-redo
+- visual-hierarchy
 layout: problem
 ---
 

@@ -44,6 +44,10 @@ solutions:
 - smoke-testing
 - specification-by-example
 - user-acceptance-tests
+- dynamic-code-analysis
+- negative-testing
+- penetration-tests
+- vulnerability-scans
 layout: problem
 ---
 

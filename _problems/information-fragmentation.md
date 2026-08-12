@@ -21,6 +21,11 @@ related_problems:
 solutions:
 - documentation-as-code
 - data-integration
+- knowledge-base
+- living-documentation
+- architecture-documentation
+- consistent-terminology
+- search-function
 layout: problem
 ---
 

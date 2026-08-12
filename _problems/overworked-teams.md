@@ -23,6 +23,7 @@ solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices
 - on-call-duty
+- capacity-based-planning
 layout: problem
 ---
 

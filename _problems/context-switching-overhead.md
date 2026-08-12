@@ -21,6 +21,7 @@ solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices
 - team-autonomy-and-empowerment
+- work-in-progress-limits
 layout: problem
 ---
 

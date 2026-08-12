@@ -19,6 +19,10 @@ problems:
 - stagnant-architecture
 - history-of-failed-changes
 - analysis-paralysis
+- cv-driven-development
+- duplicated-research-effort
+- premature-technology-introduction
+- team-churn-impact
 layout: solution
 ---
 

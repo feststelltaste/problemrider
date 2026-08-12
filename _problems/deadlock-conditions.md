@@ -22,6 +22,10 @@ solutions:
 - query-optimization-process
 - timeout-management
 - transactions
+- concurrency-control
+- monitoring
+- stress-testing
+- idempotency-design
 layout: problem
 ---
 

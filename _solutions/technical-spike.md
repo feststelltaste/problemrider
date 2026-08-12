@@ -13,6 +13,13 @@ problems:
 - assumption-based-development
 - premature-technology-introduction
 - decision-avoidance
+- cv-driven-development
+- decision-paralysis
+- delayed-decision-making
+- extended-research-time
+- inability-to-innovate
+- procrastination-on-complex-tasks
+- reduced-innovation
 layout: solution
 ---
 

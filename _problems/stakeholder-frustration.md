@@ -23,6 +23,8 @@ solutions:
 - continuous-feedback
 - evolutionary-requirements-development
 - stakeholder-feedback-loops
+- functional-gap-analysis
+- service-level-agreements
 layout: problem
 ---
 

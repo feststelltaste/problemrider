@@ -20,6 +20,11 @@ related_problems:
   similarity: 0.6
 solutions:
 - structured-communication-protocols
+- team-boundaries-aligned-to-architecture
+- stakeholder-feedback-loops
+- consumer-driven-contracts
+- api-documentation
+- service-level-agreements
 layout: problem
 ---
 

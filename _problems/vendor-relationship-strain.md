@@ -20,6 +20,11 @@ related_problems:
   similarity: 0.5
 solutions:
 - dependency-management-strategy
+- vendor-management-practice
+- service-level-agreements
+- structured-communication-protocols
+- stakeholder-feedback-loops
+- contract-testing
 layout: problem
 ---
 

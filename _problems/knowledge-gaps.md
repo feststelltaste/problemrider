@@ -37,6 +37,17 @@ solutions:
 - security-tests-by-external-parties
 - security-training
 - ubiquitous-language
+- collaborative-problem-solving
+- domain-experts
+- domain-quiz
+- emergency-drills
+- interactive-tutorials
+- knowledge-base
+- personal-support
+- plain-language
+- threat-intelligence
+- user-communities
+- video-tutorials
 layout: problem
 ---
 

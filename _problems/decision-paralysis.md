@@ -22,6 +22,12 @@ related_problems:
   similarity: 0.65
 solutions:
 - architecture-decision-records
+- decision-rights-and-escalation
+- technical-spike
+- prototypes
+- team-autonomy-and-empowerment
+- psychological-safety-practices
+- explicit-prioritization-framework
 layout: problem
 ---
 

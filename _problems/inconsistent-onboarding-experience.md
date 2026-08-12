@@ -23,6 +23,11 @@ solutions:
 - documentation-as-code
 - structured-onboarding-program
 - virtual-development-environments
+- integrated-onboarding
+- checklists
+- knowledge-base
+- team-working-agreements
+- knowledge-rotation
 layout: problem
 ---
 

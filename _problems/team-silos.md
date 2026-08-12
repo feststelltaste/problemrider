@@ -22,6 +22,9 @@ solutions:
 - knowledge-sharing-practices
 - architecture-workshops
 - microservices
+- collaborative-problem-solving
+- fair-source
+- team-boundaries-aligned-to-architecture
 layout: problem
 ---
 

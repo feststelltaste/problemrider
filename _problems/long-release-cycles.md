@@ -24,6 +24,7 @@ solutions:
 - continuous-delivery
 - continuous-integration-and-delivery
 - feature-toggles
+- continuous-deployment
 layout: problem
 ---
 

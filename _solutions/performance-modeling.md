@@ -12,6 +12,7 @@ problems:
 - slow-application-performance
 - modernization-roi-justification-failure
 - difficulty-quantifying-benefits
+- poor-caching-strategy
 layout: solution
 ---
 
