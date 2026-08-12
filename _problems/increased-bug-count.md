@@ -22,6 +22,14 @@ solutions:
 - contract-testing
 - development-workflow-automation
 - regression-testing
+- code-hotspot-analysis
+- small-change-batches
+- code-reviews
+- code-quality-gates
+- characterization-tests
+- change-impact-analysis
+- production-like-test-data
+- defect-triage-process
 layout: problem
 ---
 

@@ -23,6 +23,13 @@ solutions:
 - clean-code
 - design-by-contract
 - solid-principles
+- characterization-tests
+- internal-technical-coaching
+- preparatory-refactoring
+- code-reading-sessions
+- lightweight-design-review
+- automated-tests
+- code-reviews
 layout: problem
 ---
 

@@ -26,6 +26,7 @@ solutions:
 - platform-independence
 - platform-independent-data-storage
 - platform-independent-programming-languages
+- vendor-management-practice
 layout: problem
 ---
 

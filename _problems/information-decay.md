@@ -26,6 +26,10 @@ solutions:
 - documentation-of-compatibility-requirements
 - living-documentation
 - timestamping
+- written-first-communication
+- knowledge-base
+- code-reading-sessions
+- application-portfolio-inventory
 layout: problem
 ---
 

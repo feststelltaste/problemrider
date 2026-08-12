@@ -23,6 +23,14 @@ solutions:
 - product-owner
 - stakeholder-feedback-loops
 - service-level-objectives
+- regular-stakeholder-demonstrations
+- definition-of-ready
+- story-mapping
+- usability-tests
+- feedback-mechanisms
+- capacity-based-planning
+- domain-immersion
+- outcome-based-goal-setting
 layout: problem
 ---
 

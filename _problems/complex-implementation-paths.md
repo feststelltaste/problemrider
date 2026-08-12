@@ -25,6 +25,12 @@ solutions:
 - loose-coupling
 - separation-of-concerns
 - tracer-bullets
+- preparatory-refactoring
+- lightweight-design-review
+- mikado-method
+- code-reading-sessions
+- technical-spike
+- dependency-breaking-techniques
 layout: problem
 ---
 

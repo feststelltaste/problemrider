@@ -13,6 +13,7 @@ problems:
 - tight-coupling-issues
 - monolithic-architecture-constraints
 - technical-architecture-limitations
+- circular-dependency-problems
 layout: solution
 ---
 

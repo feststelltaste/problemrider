@@ -22,6 +22,12 @@ solutions:
 - formal-change-control-process
 - iterative-development
 - short-iteration-cycles
+- capacity-based-planning
+- explicit-prioritization-framework
+- regular-stakeholder-demonstrations
+- work-in-progress-limits
+- value-stream-mapping
+- definition-of-ready
 layout: problem
 ---
 

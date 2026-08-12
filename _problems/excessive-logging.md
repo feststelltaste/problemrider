@@ -23,6 +23,12 @@ solutions:
 - asynchronous-logging
 - platform-independent-logging-frameworks
 - sampling
+- error-logging
+- logging-and-monitoring
+- logging-guidelines
+- monitoring
+- code-reviews
+- fast-feedback-loops
 layout: problem
 ---
 

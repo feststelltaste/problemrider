@@ -53,6 +53,9 @@ solutions:
 - transparent-performance-metrics
 - tree-shaking
 - vertical-scaling
+- performance-optimization
+- self-monitoring-and-diagnosis
+- service-level-indicators
 layout: problem
 ---
 

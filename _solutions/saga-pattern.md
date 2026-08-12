@@ -11,6 +11,7 @@ problems:
 - unpredictable-system-behavior
 - microservice-communication-overhead
 - data-migration-integrity-issues
+- deadlock-conditions
 layout: solution
 ---
 

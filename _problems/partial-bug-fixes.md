@@ -21,6 +21,13 @@ solutions:
 - definition-of-done
 - regression-tests
 - root-cause-analysis
+- characterization-tests
+- improvement-budget
+- workaround-registry
+- defect-triage-process
+- code-reviews
+- exploratory-testing
+- change-impact-analysis
 layout: problem
 ---
 

@@ -14,6 +14,7 @@ problems:
 - increased-customer-support-load
 - increased-error-rates
 - user-trust-erosion
+- negative-brand-perception
 layout: solution
 ---
 

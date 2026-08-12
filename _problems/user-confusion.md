@@ -34,6 +34,22 @@ solutions:
 - input-constraints-and-defaults
 - personas
 - usability-tests
+- adaptive-behavior
+- integrated-onboarding
+- interactive-tutorials
+- intuitive-navigation
+- keyboard-support
+- knowledge-base
+- localization
+- personal-support
+- plain-language
+- progressive-disclosure
+- real-time-input-validation
+- search-function
+- style-guide
+- understandable-error-messages
+- video-tutorials
+- visual-hierarchy
 layout: problem
 ---
 

@@ -24,6 +24,11 @@ solutions:
 - continuous-integration
 - continuous-integration-and-delivery
 - trunk-based-development
+- small-change-batches
+- preparatory-refactoring
+- code-review-guidelines
+- team-working-agreements
+- modularization-and-bounded-contexts
 layout: problem
 ---
 

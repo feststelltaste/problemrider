@@ -49,6 +49,11 @@ solutions:
 - subject-matter-reviews
 - transparent-performance-metrics
 - user-acceptance-tests
+- code-quality-gates
+- penetration-tests
+- threat-intelligence
+- threat-modeling
+- vulnerability-scans
 layout: problem
 ---
 

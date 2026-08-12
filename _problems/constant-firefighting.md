@@ -34,6 +34,20 @@ solutions:
 - site-reliability-engineering-sre
 - status-monitoring
 - watchdog
+- emergency-drills
+- endpoint-detection-and-response
+- error-budgets
+- error-logs
+- error-reporting-and-analysis
+- incident-response-measures
+- runbooks
+- self-monitoring-and-diagnosis
+- service-level-agreements
+- service-level-indicators
+- work-in-progress-limits
+- production-readiness-criteria
+- workaround-registry
+- defect-triage-process
 layout: problem
 ---
 

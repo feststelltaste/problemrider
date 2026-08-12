@@ -12,6 +12,7 @@ problems:
 - regulatory-compliance-drift
 - quality-blind-spots
 - frequent-changes-to-requirements
+- poor-contract-design
 layout: solution
 ---
 

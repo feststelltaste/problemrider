@@ -13,6 +13,14 @@ problems:
 - poor-system-environment
 - technology-stack-fragmentation
 - deployment-risk
+- development-disruption
+- flaky-tests
+- tool-limitations
+- environment-variable-issues
+- testing-complexity
+- inadequate-configuration-management
+- legacy-configuration-management-chaos
+- testing-environment-fragility
 layout: solution
 ---
 

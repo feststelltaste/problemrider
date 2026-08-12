@@ -25,6 +25,9 @@ solutions:
 - regression-testing
 - code-generation
 - standard-software
+- feature-usage-measurement
+- total-cost-of-ownership-transparency
+- system-decommissioning
 layout: problem
 ---
 

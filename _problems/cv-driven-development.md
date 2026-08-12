@@ -22,6 +22,12 @@ related_problems:
 solutions:
 - boring-technologies
 - technical-skills-development
+- architecture-decision-records
+- technical-spike
+- architecture-governance
+- code-review-guidelines
+- decision-rights-and-escalation
+- technology-radar
 layout: problem
 ---
 

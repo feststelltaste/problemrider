@@ -47,6 +47,13 @@ solutions:
 - stress-testing
 - value-range-definition
 - watchdog
+- error-handling
+- error-logs
+- exceptions
+- saga-pattern
+- self-monitoring-and-diagnosis
+- self-test
+- service-level-indicators
 layout: problem
 ---
 

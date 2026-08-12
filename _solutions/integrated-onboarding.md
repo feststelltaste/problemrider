@@ -14,6 +14,8 @@ problems:
 - increased-customer-support-load
 - negative-user-feedback
 - new-hire-frustration
+- inconsistent-onboarding-experience
+- rapid-team-growth
 layout: solution
 ---
 

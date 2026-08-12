@@ -11,6 +11,7 @@ problems:
 - high-number-of-database-queries
 - n-plus-one-query-problem
 - slow-response-times-for-lists
+- lazy-loading
 layout: solution
 ---
 

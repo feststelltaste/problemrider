@@ -21,6 +21,15 @@ related_problems:
 solutions:
 - impact-mapping
 - product-strategy-alignment
+- monitoring-system-utilization
+- resource-usage-optimization
+- capacity-planning
+- work-in-progress-limits
+- business-metrics
+- feature-usage-measurement
+- value-stream-mapping
+- logging-guidelines
+- system-decommissioning
 layout: problem
 ---
 

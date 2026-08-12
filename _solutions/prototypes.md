@@ -14,6 +14,11 @@ problems:
 - fear-of-change
 - modernization-strategy-paralysis
 - assumption-based-development
+- decision-paralysis
+- inability-to-innovate
+- premature-technology-introduction
+- reduced-innovation
+- decision-avoidance
 layout: solution
 ---
 

@@ -13,6 +13,9 @@ problems:
 - unbounded-data-growth
 - high-number-of-database-queries
 - slow-application-performance
+- graphql-complexity-issues
+- lazy-loading
+- unbounded-data-structures
 layout: solution
 ---
 

@@ -21,6 +21,15 @@ related_problems:
 solutions:
 - test-coverage-strategy
 - platform-independent-test-frameworks
+- characterization-tests
+- dependency-breaking-techniques
+- production-like-test-data
+- isolated-test-environments
+- containerization
+- integration-tests
+- contract-testing
+- simulation-environments
+- exploratory-testing
 layout: problem
 ---
 

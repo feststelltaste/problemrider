@@ -22,6 +22,11 @@ solutions:
 - incremental-refactoring
 - technical-debt-backlog
 - strategic-code-deletion
+- domain-patterns
+- functional-debt-management
+- improvement-budget
+- preparatory-refactoring
+- workaround-registry
 layout: problem
 ---
 

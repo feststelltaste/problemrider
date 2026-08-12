@@ -25,6 +25,7 @@ solutions:
 - batch-processing
 - compression
 - in-memory-processing
+- logging-guidelines
 layout: problem
 ---
 

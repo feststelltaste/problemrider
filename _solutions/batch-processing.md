@@ -12,6 +12,10 @@ problems:
 - growing-task-queues
 - gradual-performance-degradation
 - excessive-disk-io
+- interrupt-overhead
+- unoptimized-file-access
+- long-running-database-transactions
+- long-running-transactions
 layout: solution
 ---
 

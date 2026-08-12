@@ -21,6 +21,17 @@ related_problems:
   similarity: 0.6
 solutions:
 - definition-of-done
+- functional-debt-management
+- acceptance-tests
+- user-acceptance-tests
+- code-quality-gates
+- business-quality-scenarios
+- specification-by-example
+- definition-of-ready
+- regular-stakeholder-demonstrations
+- defect-triage-process
+- domain-immersion
+- exploratory-testing
 layout: problem
 ---
 

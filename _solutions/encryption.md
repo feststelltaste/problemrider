@@ -11,6 +11,7 @@ problems:
 - regulatory-compliance-drift
 - secret-management-problems
 - error-message-information-disclosure
+- session-management-issues
 layout: solution
 ---
 

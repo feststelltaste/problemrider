@@ -13,6 +13,29 @@ problems:
 - system-outages
 - deployment-risk
 - unpredictable-system-behavior
+- database-connection-leaks
+- incorrect-max-connection-pool-size
+- inefficient-database-indexing
+- load-balancing-problems
+- misconfigured-connection-pools
+- algorithmic-complexity-problems
+- garbage-collection-pressure
+- inefficient-code
+- insufficient-worker-capacity
+- memory-fragmentation
+- atomic-operation-overhead
+- data-structure-cache-inefficiency
+- false-sharing
+- improper-event-listener-management
+- incorrect-index-type
+- interrupt-overhead
+- memory-barrier-inefficiency
+- poor-caching-strategy
+- rate-limiting-issues
+- resource-allocation-failures
+- serialization-deserialization-bottlenecks
+- unreleased-resources
+- unused-indexes
 layout: solution
 ---
 

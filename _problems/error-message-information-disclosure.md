@@ -24,6 +24,10 @@ solutions:
 - authorization
 - secure-by-default
 - secure-configuration
+- data-flow-control
+- encryption
+- negative-testing
+- output-encoding
 layout: problem
 ---
 

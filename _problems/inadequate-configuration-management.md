@@ -25,6 +25,11 @@ solutions:
 - platform-independent-configuration-management
 - secure-by-default
 - secure-configuration
+- configuration-checks
+- immutable-infrastructure
+- environment-parity
+- containerization
+- production-readiness-criteria
 layout: problem
 ---
 

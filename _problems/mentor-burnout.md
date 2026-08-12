@@ -22,6 +22,14 @@ related_problems:
 solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices
+- knowledge-rotation
+- structured-onboarding-program
+- knowledge-base
+- documentation-as-code
+- team-working-agreements
+- communities-of-practice
+- internal-technical-coaching
+- code-reading-sessions
 layout: problem
 ---
 

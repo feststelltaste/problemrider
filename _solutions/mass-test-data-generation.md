@@ -12,6 +12,7 @@ problems:
 - gradual-performance-degradation
 - database-query-performance-issues
 - data-migration-complexities
+- flaky-tests
 layout: solution
 ---
 

@@ -52,6 +52,8 @@ solutions:
 - virtual-development-environments
 - virtual-networks
 - virtualization
+- configuration-checks
+- environment-variables-for-configuration
 layout: problem
 ---
 

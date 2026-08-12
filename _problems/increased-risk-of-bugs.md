@@ -24,6 +24,11 @@ solutions:
 - functional-tests
 - property-based-testing
 - value-range-definition
+- code-generation
+- code-reviews
+- code-review-guidelines
+- exploratory-testing
+- defect-triage-process
 layout: problem
 ---
 

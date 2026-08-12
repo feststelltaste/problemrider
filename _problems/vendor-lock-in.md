@@ -42,6 +42,10 @@ solutions:
 - standardized-interfaces
 - standardized-protocols
 - virtual-networks
+- database-abstraction
+- federated-identity
+- supply-chain-security
+- vendor-management-practice
 layout: problem
 ---
 

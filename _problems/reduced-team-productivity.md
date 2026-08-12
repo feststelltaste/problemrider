@@ -23,6 +23,12 @@ solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices
 - team-autonomy-and-empowerment
+- work-in-progress-limits
+- value-stream-mapping
+- development-environment-optimization
+- clean-code
+- improvement-budget
+- team-retrospectives
 layout: problem
 ---
 

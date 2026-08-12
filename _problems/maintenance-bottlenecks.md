@@ -23,6 +23,12 @@ solutions:
 - architecture-roadmap
 - clear-ownership-model
 - contract-testing
+- code-hotspot-analysis
+- work-in-progress-limits
+- knowledge-rotation
+- team-boundaries-aligned-to-architecture
+- improvement-budget
+- code-reading-sessions
 layout: problem
 ---
 

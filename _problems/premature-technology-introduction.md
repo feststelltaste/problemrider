@@ -22,6 +22,13 @@ related_problems:
 solutions:
 - dependency-management-strategy
 - technical-spike
+- boring-technologies
+- architecture-decision-records
+- prototypes
+- architecture-governance
+- fitness-functions
+- technology-radar
+- pilot-projects
 layout: problem
 ---
 

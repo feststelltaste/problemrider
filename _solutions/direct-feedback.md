@@ -12,6 +12,7 @@ problems:
 - no-continuous-feedback-loop
 - stakeholder-developer-communication-gap
 - feature-gaps
+- negative-brand-perception
 layout: solution
 ---
 

@@ -24,6 +24,12 @@ solutions:
 - formal-change-control-process
 - iterative-development
 - product-owner
+- team-boundaries-aligned-to-architecture
+- value-stream-mapping
+- self-service-developer-platform
+- decision-rights-and-escalation
+- delivery-performance-metrics
+- change-impact-analysis
 layout: problem
 ---
 

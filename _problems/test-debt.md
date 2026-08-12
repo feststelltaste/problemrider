@@ -23,6 +23,11 @@ solutions:
 - automated-tests
 - code-coverage-analysis
 - regression-tests
+- characterization-tests
+- dependency-breaking-techniques
+- code-quality-gates
+- improvement-budget
+- production-like-test-data
 layout: problem
 ---
 

@@ -13,6 +13,13 @@ problems:
 - scaling-inefficiencies
 - slow-incident-resolution
 - missing-rollback-strategy
+- deadlock-conditions
+- stack-overflow-errors
+- race-conditions
+- dma-coherency-issues
+- incorrect-max-connection-pool-size
+- lock-contention
+- misconfigured-connection-pools
 layout: solution
 ---
 

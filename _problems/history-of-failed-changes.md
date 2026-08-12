@@ -22,6 +22,13 @@ solutions:
 - architecture-decision-records
 - blameless-postmortems
 - functional-spike
+- mikado-method
+- parallel-run
+- team-retrospectives
+- pilot-projects
+- small-change-batches
+- characterization-tests
+- delivery-performance-metrics
 layout: problem
 ---
 

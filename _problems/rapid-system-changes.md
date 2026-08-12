@@ -23,6 +23,12 @@ solutions:
 - change-management-process
 - contract-testing
 - regression-testing
+- change-impact-analysis
+- consumer-driven-contracts
+- semantic-versioning
+- api-versioning-strategy
+- deprecation-strategy
+- backward-compatibility
 layout: problem
 ---
 

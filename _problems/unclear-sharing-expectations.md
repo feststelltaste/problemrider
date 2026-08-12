@@ -21,6 +21,14 @@ related_problems:
 solutions:
 - clear-roles-and-ownership
 - structured-communication-protocols
+- explicit-prioritization-framework
+- knowledge-rotation
+- team-working-agreements
+- team-retrospectives
+- written-first-communication
+- communities-of-practice
+- knowledge-base
+- documentation-as-code
 layout: problem
 ---
 

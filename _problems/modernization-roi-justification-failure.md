@@ -24,6 +24,13 @@ solutions:
 - performance-modeling
 - security-relevant-metrics
 - service-level-objectives
+- functional-gap-analysis
+- service-level-agreements
+- total-cost-of-ownership-transparency
+- feature-usage-measurement
+- application-portfolio-inventory
+- delivery-performance-metrics
+- pilot-projects
 layout: problem
 ---
 

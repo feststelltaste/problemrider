@@ -26,6 +26,9 @@ solutions:
 - incident-management
 - on-call-duty
 - security-incident-handling
+- emergency-drills
+- incident-response-measures
+- least-privilege
 layout: problem
 ---
 

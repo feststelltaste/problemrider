@@ -12,6 +12,8 @@ problems:
 - legacy-api-versioning-nightmare
 - integration-difficulties
 - ripple-effect-of-changes
+- abi-compatibility-issues
+- rapid-system-changes
 layout: solution
 ---
 

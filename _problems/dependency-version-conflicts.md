@@ -32,6 +32,10 @@ solutions:
 - version-control
 - versioning-scheme
 - virtualization
+- patch-management
+- supply-chain-security
+- third-party-dependency-check
+- technology-radar
 layout: problem
 ---
 

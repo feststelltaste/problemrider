@@ -24,6 +24,7 @@ problems:
 - inconsistent-knowledge-acquisition
 - feedback-isolation
 - knowledge-dependency
+- communication-risk-within-project
 layout: solution
 ---
 

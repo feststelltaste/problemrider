@@ -10,6 +10,7 @@ problems:
 - data-migration-integrity-issues
 - cross-system-data-synchronization-problems
 - insecure-data-transmission
+- dma-coherency-issues
 layout: solution
 ---
 

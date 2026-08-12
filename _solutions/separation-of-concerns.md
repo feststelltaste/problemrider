@@ -18,6 +18,15 @@ problems:
 - difficult-code-comprehension
 - procedural-programming-in-oop-languages
 - convenience-driven-development
+- excessive-class-size
+- over-reliance-on-utility-classes
+- poor-encapsulation
+- bloated-class
+- circular-dependency-problems
+- global-state-and-side-effects
+- god-object-anti-pattern
+- monolithic-functions-and-classes
+- tangled-cross-cutting-concerns
 layout: solution
 ---
 

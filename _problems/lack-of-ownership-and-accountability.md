@@ -23,6 +23,13 @@ solutions:
 - clear-ownership-model
 - clear-roles-and-ownership
 - compatibility-governance
+- decision-rights-and-escalation
+- production-readiness-criteria
+- team-retrospectives
+- application-portfolio-inventory
+- system-decommissioning
+- team-working-agreements
+- on-call-duty
 layout: problem
 ---
 

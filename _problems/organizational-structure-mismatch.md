@@ -22,6 +22,12 @@ related_problems:
 solutions:
 - clear-ownership-model
 - clear-roles-and-ownership
+- domain-aligned-architecture
+- team-boundaries-aligned-to-architecture
+- team-retrospectives
+- modularization-and-bounded-contexts
+- value-stream-mapping
+- knowledge-rotation
 layout: problem
 ---
 

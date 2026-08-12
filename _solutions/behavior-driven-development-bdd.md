@@ -13,6 +13,8 @@ problems:
 - misaligned-deliverables
 - poor-test-coverage
 - implementation-rework
+- inadequate-requirements-gathering
+- regression-bugs
 layout: solution
 ---
 

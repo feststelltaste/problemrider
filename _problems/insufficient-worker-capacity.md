@@ -23,6 +23,11 @@ solutions:
 - capacity-planning
 - elastic-scaling
 - parallelization
+- monitoring-system-utilization
+- load-testing
+- performance-measurements
+- load-shedding
+- proactive-capacity-management
 layout: problem
 ---
 

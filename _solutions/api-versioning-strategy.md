@@ -11,6 +11,8 @@ problems:
 - poor-interfaces-between-applications
 - integration-difficulties
 - maintenance-overhead
+- rapid-system-changes
+- abi-compatibility-issues
 layout: solution
 ---
 

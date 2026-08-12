@@ -21,6 +21,15 @@ related_problems:
   similarity: 0.65
 solutions:
 - code-review-process-reform
+- code-review-guidelines
+- psychological-safety-practices
+- small-change-batches
+- team-working-agreements
+- code-quality-gates
+- checklists
+- pair-and-mob-programming
+- team-retrospectives
+- fast-feedback-loops
 layout: problem
 ---
 

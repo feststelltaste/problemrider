@@ -48,6 +48,7 @@ solutions:
 - tolerant-reader
 - version-control
 - versioning-scheme
+- third-party-dependency-check
 layout: problem
 ---
 

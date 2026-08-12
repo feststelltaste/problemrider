@@ -25,6 +25,10 @@ solutions:
 - security-certification
 - security-frameworks
 - security-policies-for-development
+- lightweight-design-review
+- value-stream-mapping
+- team-retrospectives
+- delivery-performance-metrics
 layout: problem
 ---
 

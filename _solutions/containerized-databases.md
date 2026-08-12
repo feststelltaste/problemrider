@@ -12,6 +12,7 @@ problems:
 - complex-deployment-process
 - inefficient-development-environment
 - difficult-developer-onboarding
+- inadequate-test-data-management
 layout: solution
 ---
 

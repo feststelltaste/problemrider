@@ -13,6 +13,9 @@ problems:
 - poor-documentation
 - constant-firefighting
 - difficult-developer-onboarding
+- inconsistent-execution
+- change-management-chaos
+- no-formal-change-control-process
 layout: solution
 ---
 

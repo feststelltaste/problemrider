@@ -22,6 +22,12 @@ solutions:
 - structured-onboarding-program
 - refactoring-katas
 - security-training
+- code-reading-sessions
+- internal-technical-coaching
+- communities-of-practice
+- technical-skills-development
+- cross-functional-skill-development
+- knowledge-rotation
 layout: problem
 ---
 

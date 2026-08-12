@@ -57,6 +57,13 @@ solutions:
 - transactions
 - watchdog
 - write-ahead-logging
+- data-flow-control
+- defense-lines
+- error-handling
+- exceptions
+- incident-response-measures
+- network-segmentation
+- saga-pattern
 layout: problem
 ---
 

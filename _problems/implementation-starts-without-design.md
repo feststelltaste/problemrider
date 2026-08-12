@@ -29,6 +29,8 @@ solutions:
 - technical-spike
 - tracer-bullets
 - walking-skeleton
+- threat-modeling
+- wireframing
 layout: problem
 ---
 

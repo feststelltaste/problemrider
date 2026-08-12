@@ -46,6 +46,11 @@ solutions:
 - virtual-development-environments
 - virtual-networks
 - virtualization
+- certificate-management
+- configuration-checks
+- environment-variables-for-configuration
+- vulnerability-scans
+- zero-trust-architecture
 layout: problem
 ---
 

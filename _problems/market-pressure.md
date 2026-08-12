@@ -21,6 +21,14 @@ related_problems:
 solutions:
 - impact-mapping
 - product-strategy-alignment
+- explicit-prioritization-framework
+- capacity-based-planning
+- story-mapping
+- stakeholder-feedback-loops
+- iterative-development
+- outcome-based-goal-setting
+- regular-stakeholder-demonstrations
+- feature-usage-measurement
 layout: problem
 ---
 

@@ -23,6 +23,11 @@ solutions:
 - structured-onboarding-program
 - architecture-workshops
 - security-community
+- fair-source
+- code-reading-sessions
+- internal-technical-coaching
+- team-retrospectives
+- communities-of-practice
 layout: problem
 ---
 

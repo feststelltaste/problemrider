@@ -20,6 +20,15 @@ related_problems:
   similarity: 0.6
 solutions:
 - query-optimization-process
+- regular-maintenance-and-updates
+- monitoring
+- performance-measurements
+- production-environment-maintenance
+- continuous-performance-monitoring
+- index-lifecycle-management
+- profiling
+- capacity-planning
+- observability-and-monitoring
 layout: problem
 ---
 

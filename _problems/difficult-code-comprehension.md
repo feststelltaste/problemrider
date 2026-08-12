@@ -37,6 +37,9 @@ solutions:
 - static-code-analysis
 - strategic-code-deletion
 - ubiquitous-language
+- collaborative-problem-solving
+- domain-specific-languages
+- exceptions
 layout: problem
 ---
 

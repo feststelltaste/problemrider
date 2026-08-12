@@ -22,6 +22,11 @@ solutions:
 - change-management-process
 - formal-change-control-process
 - product-owner
+- explicit-prioritization-framework
+- definition-of-ready
+- regular-stakeholder-demonstrations
+- story-mapping
+- capacity-based-planning
 layout: problem
 ---
 

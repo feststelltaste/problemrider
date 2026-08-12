@@ -39,6 +39,7 @@ solutions:
 - read-replicas
 - sampling
 - vertical-scaling
+- index-lifecycle-management
 layout: problem
 ---
 

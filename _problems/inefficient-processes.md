@@ -24,6 +24,10 @@ solutions:
 - development-workflow-automation
 - business-process-automation
 - platform-independent-scripting-languages
+- team-retrospectives
+- value-stream-mapping
+- delivery-performance-metrics
+- self-service-developer-platform
 layout: problem
 ---
 

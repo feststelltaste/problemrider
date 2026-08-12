@@ -34,6 +34,21 @@ solutions:
 - security-by-design
 - security-tests
 - security-tests-by-external-parties
+- cryptographic-methods
+- defense-lines
+- dynamic-code-analysis
+- endpoint-detection-and-response
+- federated-identity
+- honeypots
+- least-privilege
+- malware-protection
+- penetration-tests
+- secure-software
+- threat-modeling
+- trust-boundaries
+- two-factor-authentication
+- web-application-firewall
+- zero-trust-architecture
 layout: problem
 ---
 

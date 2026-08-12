@@ -15,6 +15,11 @@ problems:
 - gold-plating
 - assumption-based-development
 - rapid-prototyping-becoming-production
+- inappropriate-skillset
+- reduced-team-flexibility
+- reviewer-inexperience
+- technology-isolation
+- skill-development-gaps
 layout: solution
 ---
 

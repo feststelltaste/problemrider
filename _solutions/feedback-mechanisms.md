@@ -14,6 +14,8 @@ problems:
 - no-continuous-feedback-loop
 - feedback-isolation
 - feature-gaps
+- negative-brand-perception
+- stakeholder-dissatisfaction
 layout: solution
 ---
 

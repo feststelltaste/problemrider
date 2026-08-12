@@ -20,6 +20,15 @@ related_problems:
   similarity: 0.55
 solutions:
 - technical-debt-backlog
+- error-budgets
+- explicit-prioritization-framework
+- capacity-based-planning
+- work-in-progress-limits
+- product-owner
+- improvement-budget
+- outcome-based-goal-setting
+- value-stream-mapping
+- feature-usage-measurement
 layout: problem
 ---
 

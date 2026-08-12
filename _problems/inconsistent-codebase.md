@@ -30,6 +30,8 @@ solutions:
 - design-tokens
 - fluent-interfaces
 - pattern-language
+- fitness-functions
+- style-guide
 layout: problem
 ---
 

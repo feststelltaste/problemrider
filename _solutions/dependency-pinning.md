@@ -12,6 +12,7 @@ problems:
 - breaking-changes
 - deployment-risk
 - increasing-brittleness
+- abi-compatibility-issues
 layout: solution
 ---
 

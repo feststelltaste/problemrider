@@ -13,6 +13,15 @@ related_problems:
   similarity: 0.55
 solutions:
 - memory-management-optimization
+- static-analysis-and-linting
+- profiling
+- code-reviews
+- monitoring-system-utilization
+- dependency-injection
+- design-by-contract
+- load-testing
+- error-handling
+- exploratory-testing
 layout: problem
 ---
 

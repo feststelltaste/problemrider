@@ -18,6 +18,7 @@ problems:
 - increased-risk-of-bugs
 - increased-cost-of-development
 - wasted-development-effort
+- automated-tooling-ineffectiveness
 layout: solution
 ---
 

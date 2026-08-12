@@ -17,6 +17,8 @@ problems:
 - long-lived-feature-branches
 - merge-conflicts
 - fear-of-change
+- fear-of-failure
+- past-negative-experiences
 layout: solution
 ---
 

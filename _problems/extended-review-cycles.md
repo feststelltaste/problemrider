@@ -20,6 +20,15 @@ related_problems:
   similarity: 0.6
 solutions:
 - code-review-process-reform
+- small-change-batches
+- code-review-guidelines
+- work-in-progress-limits
+- trunk-based-development
+- pair-and-mob-programming
+- team-working-agreements
+- value-stream-mapping
+- delivery-performance-metrics
+- fast-feedback-loops
 layout: problem
 ---
 

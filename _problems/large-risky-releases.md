@@ -33,6 +33,7 @@ solutions:
 - rollback-mechanisms
 - rolling-updates
 - trunk-based-development
+- continuous-deployment
 layout: problem
 ---
 

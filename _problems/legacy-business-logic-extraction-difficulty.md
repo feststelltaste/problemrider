@@ -30,6 +30,15 @@ solutions:
 - decision-tables
 - hexagonal-architecture
 - rule-based-systems
+- domain-driven-design
+- domain-experts
+- domain-modeling
+- domain-patterns
+- domain-specific-languages
+- event-storming
+- characterization-tests
+- parallel-run
+- domain-immersion
 layout: problem
 ---
 

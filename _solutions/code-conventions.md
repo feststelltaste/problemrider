@@ -14,6 +14,14 @@ problems:
 - difficult-code-comprehension
 - code-review-inefficiency
 - poor-naming-conventions
+- automated-tooling-ineffectiveness
+- clever-code
+- inconsistent-execution
+- inconsistent-naming-conventions
+- nitpicking-culture
+- bikeshedding
+- log-spam
+- difficult-to-understand-code
 layout: solution
 ---
 

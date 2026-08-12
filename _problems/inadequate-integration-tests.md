@@ -27,6 +27,7 @@ solutions:
 - interoperability-tests
 - isolated-test-environments
 - simulation-environments
+- self-test
 layout: problem
 ---
 

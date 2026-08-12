@@ -14,6 +14,34 @@ problems:
 - knowledge-silos
 - high-bug-introduction-rate
 - difficult-code-comprehension
+- clever-code
+- improper-event-listener-management
+- inconsistent-naming-conventions
+- increased-technical-shortcuts
+- mixed-coding-styles
+- null-pointer-dereferences
+- outdated-tests
+- procedural-background
+- queries-that-prevent-index-usage
+- stack-overflow-errors
+- unreleased-resources
+- algorithmic-complexity-problems
+- circular-references
+- copy-paste-programming
+- increased-bug-count
+- inefficient-code
+- log-spam
+- n-plus-one-query-problem
+- poor-naming-conventions
+- database-connection-leaks
+- defensive-coding-practices
+- endianness-conversion-overhead
+- excessive-logging
+- incorrect-index-type
+- increased-risk-of-bugs
+- log-injection-vulnerabilities
+- partial-bug-fixes
+- undefined-code-style-guidelines
 layout: solution
 ---
 

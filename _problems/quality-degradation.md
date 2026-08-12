@@ -23,6 +23,11 @@ solutions:
 - code-metrics
 - compatibility-as-error
 - compatibility-standards
+- code-quality-gates
+- fitness-functions
+- defect-triage-process
+- delivery-performance-metrics
+- exploratory-testing
 layout: problem
 ---
 

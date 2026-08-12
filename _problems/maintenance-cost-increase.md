@@ -22,6 +22,14 @@ related_problems:
 solutions:
 - technical-debt-backlog
 - standard-software
+- code-hotspot-analysis
+- improvement-budget
+- total-cost-of-ownership-transparency
+- incremental-refactoring
+- feature-usage-measurement
+- strategic-code-deletion
+- value-stream-mapping
+- system-decommissioning
 layout: problem
 ---
 

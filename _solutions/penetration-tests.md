@@ -14,6 +14,7 @@ problems:
 - data-protection-risk
 - insufficient-testing
 - quality-blind-spots
+- session-management-issues
 layout: solution
 ---
 

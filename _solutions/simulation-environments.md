@@ -13,6 +13,7 @@ problems:
 - fear-of-change
 - missing-end-to-end-tests
 - inadequate-integration-tests
+- testing-complexity
 layout: solution
 ---
 

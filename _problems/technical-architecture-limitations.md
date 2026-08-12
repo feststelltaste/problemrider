@@ -27,6 +27,10 @@ solutions:
 - high-availability-architectures
 - security-architecture-analysis
 - security-by-design
+- architecture-roadmap
+- modularization-and-bounded-contexts
+- incremental-refactoring
+- application-portfolio-inventory
 layout: problem
 ---
 

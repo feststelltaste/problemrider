@@ -14,6 +14,8 @@ problems:
 - stagnant-architecture
 - tacit-knowledge
 - difficult-code-comprehension
+- extended-research-time
+- information-fragmentation
 layout: solution
 ---
 

@@ -47,6 +47,11 @@ solutions:
 - technical-spike
 - test-driven-development-tdd
 - tracer-bullets
+- patch-management
+- undo-and-redo
+- characterization-tests
+- mikado-method
+- pilot-projects
 layout: problem
 ---
 

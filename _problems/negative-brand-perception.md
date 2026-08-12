@@ -21,6 +21,15 @@ related_problems:
   similarity: 0.5
 solutions:
 - user-centered-design
+- usability-tests
+- direct-feedback
+- feedback-mechanisms
+- understandable-error-messages
+- stakeholder-feedback-loops
+- business-metrics
+- exploratory-testing
+- defect-triage-process
+- delivery-performance-metrics
 layout: problem
 ---
 

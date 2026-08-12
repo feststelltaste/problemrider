@@ -15,6 +15,7 @@ problems:
 - rapid-system-changes
 - resource-allocation-failures
 - project-resource-constraints
+- project-authority-vacuum
 layout: solution
 ---
 

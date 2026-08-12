@@ -21,6 +21,14 @@ related_problems:
 solutions:
 - query-optimization-process
 - connection-pooling
+- load-testing
+- monitoring-system-utilization
+- externalized-configuration
+- capacity-planning
+- performance-measurements
+- stress-testing
+- observability-and-monitoring
+- production-readiness-criteria
 layout: problem
 ---
 

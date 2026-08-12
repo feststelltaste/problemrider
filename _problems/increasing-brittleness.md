@@ -23,6 +23,13 @@ solutions:
 - incremental-refactoring
 - technical-debt-backlog
 - dependency-pinning
+- code-hotspot-analysis
+- improvement-budget
+- mikado-method
+- preparatory-refactoring
+- characterization-tests
+- change-impact-analysis
+- defect-triage-process
 layout: problem
 ---
 

@@ -12,6 +12,24 @@ problems:
 - slow-incident-resolution
 - unpredictable-system-behavior
 - system-outages
+- incorrect-index-type
+- index-fragmentation
+- inefficient-database-indexing
+- queries-that-prevent-index-usage
+- unused-indexes
+- garbage-collection-pressure
+- inefficient-code
+- memory-fragmentation
+- n-plus-one-query-problem
+- atomic-operation-overhead
+- data-structure-cache-inefficiency
+- false-sharing
+- high-number-of-database-queries
+- inefficient-frontend-code
+- interrupt-overhead
+- memory-barrier-inefficiency
+- poor-caching-strategy
+- serialization-deserialization-bottlenecks
 layout: solution
 ---
 

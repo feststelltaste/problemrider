@@ -42,6 +42,21 @@ solutions:
 - stress-testing
 - transparent-performance-metrics
 - watchdog
+- digital-forensics
+- emergency-drills
+- endpoint-detection-and-response
+- error-handling
+- error-logging
+- error-logs
+- error-reporting-and-analysis
+- honeypots
+- incident-response-measures
+- logging-and-monitoring
+- malware-protection
+- runbooks
+- self-monitoring-and-diagnosis
+- self-test
+- threat-intelligence
 layout: problem
 ---
 

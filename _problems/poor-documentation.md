@@ -38,6 +38,11 @@ solutions:
 - security-frameworks
 - security-policies-for-development
 - timestamping
+- fair-source
+- knowledge-base
+- plain-language
+- runbooks
+- video-tutorials
 layout: problem
 ---
 

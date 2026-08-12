@@ -19,6 +19,25 @@ problems:
 - inadequate-onboarding
 - knowledge-gaps
 - system-integration-blindness
+- communication-risk-within-project
+- duplicated-effort
+- duplicated-research-effort
+- extended-research-time
+- knowledge-sharing-breakdown
+- language-barriers
+- legal-disputes
+- mentor-burnout
+- new-hire-frustration
+- rapid-team-growth
+- team-churn-impact
+- unproductive-meetings
+- communication-breakdown
+- duplicated-work
+- inconsistent-knowledge-acquisition
+- knowledge-dependency
+- poor-communication
+- staff-availability-issues
+- unclear-sharing-expectations
 layout: solution
 ---
 

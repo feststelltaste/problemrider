@@ -13,6 +13,9 @@ problems:
 - difficult-developer-onboarding
 - negative-user-feedback
 - shadow-systems
+- mental-fatigue
+- reduced-individual-productivity
+- context-switching-overhead
 layout: solution
 ---
 

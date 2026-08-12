@@ -18,6 +18,7 @@ problems:
 - memory-swapping
 - serialization-deserialization-bottlenecks
 - microservice-communication-overhead
+- imperative-data-fetching-logic
 layout: solution
 ---
 

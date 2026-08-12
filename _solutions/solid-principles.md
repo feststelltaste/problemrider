@@ -19,6 +19,13 @@ problems:
 - defensive-coding-practices
 - uncontrolled-codebase-growth
 - increased-technical-shortcuts
+- excessive-class-size
+- over-reliance-on-utility-classes
+- poor-encapsulation
+- bloated-class
+- global-state-and-side-effects
+- god-object-anti-pattern
+- monolithic-functions-and-classes
 layout: solution
 ---
 

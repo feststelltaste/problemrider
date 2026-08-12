@@ -21,6 +21,13 @@ problems:
 - extended-cycle-times
 - increased-time-to-market
 - immature-delivery-strategy
+- flaky-tests
+- increased-manual-testing-effort
+- mixed-coding-styles
+- outdated-tests
+- tool-limitations
+- long-lived-feature-branches
+- style-arguments-in-code-reviews
 layout: solution
 ---
 

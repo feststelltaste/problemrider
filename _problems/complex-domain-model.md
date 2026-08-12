@@ -23,6 +23,10 @@ solutions:
 - bounded-contexts
 - data-modeling
 - graph-databases
+- domain-aligned-architecture
+- domain-driven-design
+- domain-modeling
+- domain-immersion
 layout: problem
 ---
 

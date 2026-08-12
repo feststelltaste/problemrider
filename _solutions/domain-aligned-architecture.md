@@ -12,6 +12,7 @@ problems:
 - poor-domain-model
 - complex-domain-model
 - ripple-effect-of-changes
+- shared-database
 layout: solution
 ---
 

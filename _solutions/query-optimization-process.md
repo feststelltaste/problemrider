@@ -7,7 +7,7 @@ category:
 quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/database-optimization/
 problems:
 - database-query-performance-issues
-- n-1-query-problem
+- n-plus-one-query-problem
 - slow-database-queries
 - slow-response-times-for-lists
 - high-number-of-database-queries
@@ -23,6 +23,10 @@ problems:
 - misconfigured-connection-pools
 - incorrect-max-connection-pool-size
 - deadlock-conditions
+- graphql-complexity-issues
+- imperative-data-fetching-logic
+- lazy-loading
+- long-running-transactions
 layout: solution
 ---
 

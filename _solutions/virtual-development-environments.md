@@ -13,6 +13,9 @@ problems:
 - inconsistent-onboarding-experience
 - poor-system-environment
 - configuration-drift
+- development-disruption
+- new-hire-frustration
+- tool-limitations
 layout: solution
 ---
 

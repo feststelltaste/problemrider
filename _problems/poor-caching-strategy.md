@@ -20,6 +20,14 @@ related_problems:
 solutions:
 - caching-strategy
 - distributed-caching
+- performance-measurements
+- profiling
+- monitoring
+- performance-modeling
+- materialized-views
+- load-testing
+- continuous-performance-monitoring
+- index-lifecycle-management
 layout: problem
 ---
 

@@ -28,6 +28,7 @@ solutions:
 - nosql-databases
 - object-relational-mapping-orm
 - platform-independent-data-storage
+- database-abstraction
 layout: problem
 ---
 

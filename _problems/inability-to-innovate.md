@@ -21,6 +21,14 @@ related_problems:
   similarity: 0.6
 solutions:
 - strangler-fig-pattern
+- improvement-budget
+- technical-spike
+- prototypes
+- team-autonomy-and-empowerment
+- architecture-roadmap
+- functional-spike
+- total-cost-of-ownership-transparency
+- pilot-projects
 layout: problem
 ---
 

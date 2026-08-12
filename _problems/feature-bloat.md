@@ -29,6 +29,10 @@ solutions:
 - strategic-code-deletion
 - tree-shaking
 - user-stories
+- a-b-testing
+- adaptive-behavior
+- deprecation-strategy
+- progressive-disclosure
 layout: problem
 ---
 

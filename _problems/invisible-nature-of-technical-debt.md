@@ -27,6 +27,9 @@ solutions:
 - risk-analysis
 - security-metrics
 - security-relevant-metrics
+- code-hotspot-analysis
+- total-cost-of-ownership-transparency
+- workaround-registry
 layout: problem
 ---
 

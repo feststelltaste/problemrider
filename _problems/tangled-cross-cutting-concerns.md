@@ -24,6 +24,11 @@ solutions:
 - aspect-oriented-programming-aop
 - high-cohesion
 - layered-architecture
+- change-impact-analysis
+- separation-of-concerns
+- code-hotspot-analysis
+- preparatory-refactoring
+- lightweight-design-review
 layout: problem
 ---
 

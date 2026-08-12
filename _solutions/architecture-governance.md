@@ -14,6 +14,9 @@ problems:
 - technology-stack-fragmentation
 - convenience-driven-development
 - cargo-culting
+- accumulated-decision-debt
+- cv-driven-development
+- premature-technology-introduction
 layout: solution
 ---
 

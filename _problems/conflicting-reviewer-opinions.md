@@ -21,6 +21,13 @@ related_problems:
   similarity: 0.6
 solutions:
 - code-review-process-reform
+- code-review-guidelines
+- decision-rights-and-escalation
+- team-working-agreements
+- architecture-decision-records
+- clear-ownership-model
+- checklists
+- static-analysis-and-linting
 layout: problem
 ---
 

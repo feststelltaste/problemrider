@@ -20,6 +20,12 @@ related_problems:
 solutions:
 - static-analysis-and-linting
 - code-conventions
+- style-guide
+- code-reviews
+- code-review-guidelines
+- code-quality-gates
+- ci-cd-pipeline
+- clean-code
 layout: problem
 ---
 

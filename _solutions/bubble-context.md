@@ -13,6 +13,7 @@ problems:
 - brittle-codebase
 - monolithic-architecture-constraints
 - inconsistent-codebase
+- strangler-fig-pattern-failures
 layout: solution
 ---
 

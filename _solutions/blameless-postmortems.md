@@ -19,6 +19,15 @@ problems:
 - developer-frustration-and-burnout
 - poor-teamwork
 - team-dysfunction
+- author-frustration
+- fear-of-conflict
+- individual-recognition-culture
+- micromanagement-culture
+- reviewer-anxiety
+- team-demoralization
+- unmotivated-employees
+- decision-avoidance
+- power-struggles
 layout: solution
 ---
 

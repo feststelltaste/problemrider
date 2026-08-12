@@ -10,6 +10,8 @@ problems:
 - excessive-disk-io
 - unbounded-data-growth
 - high-client-side-resource-consumption
+- unoptimized-file-access
+- serialization-deserialization-bottlenecks
 layout: solution
 ---
 

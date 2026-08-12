@@ -22,6 +22,12 @@ related_problems:
 solutions:
 - code-review-process-reform
 - trunk-based-development
+- small-change-batches
+- code-review-guidelines
+- feature-toggles
+- incremental-refactoring
+- continuous-integration
+- lightweight-design-review
 layout: problem
 ---
 

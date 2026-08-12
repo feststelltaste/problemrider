@@ -13,6 +13,8 @@ problems:
 - obsolete-technologies
 - high-technical-debt
 - legacy-api-versioning-nightmare
+- rapid-system-changes
+- abi-compatibility-issues
 layout: solution
 ---
 

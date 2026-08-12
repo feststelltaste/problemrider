@@ -27,6 +27,10 @@ solutions:
 - secure-software-development
 - security-policies-for-development
 - static-code-analysis
+- code-review-guidelines
+- small-change-batches
+- team-working-agreements
+- work-in-progress-limits
 layout: problem
 ---
 

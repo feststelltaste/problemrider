@@ -21,6 +21,15 @@ related_problems:
   similarity: 0.55
 solutions:
 - structured-communication-protocols
+- team-working-agreements
+- consistent-terminology
+- ubiquitous-language
+- plain-language
+- documentation-as-code
+- written-first-communication
+- communities-of-practice
+- knowledge-base
+- pair-and-mob-programming
 layout: problem
 ---
 

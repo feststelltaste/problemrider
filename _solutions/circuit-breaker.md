@@ -12,6 +12,7 @@ problems:
 - thread-pool-exhaustion
 - upstream-timeouts
 - single-points-of-failure
+- service-discovery-failures
 layout: solution
 ---
 

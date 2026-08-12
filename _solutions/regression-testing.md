@@ -17,6 +17,8 @@ problems:
 - slow-development-velocity
 - customer-dissatisfaction
 - user-trust-erosion
+- increased-manual-testing-effort
+- outdated-tests
 layout: solution
 ---
 

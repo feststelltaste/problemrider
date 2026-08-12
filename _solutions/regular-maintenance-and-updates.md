@@ -12,6 +12,8 @@ problems:
 - high-maintenance-costs
 - poor-system-environment
 - regulatory-compliance-drift
+- index-fragmentation
+- unused-indexes
 layout: solution
 ---
 

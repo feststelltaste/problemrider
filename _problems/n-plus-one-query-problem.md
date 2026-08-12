@@ -24,6 +24,13 @@ solutions:
 - api-calls-optimization
 - denormalization
 - object-relational-mapping-orm
+- query-optimization-process
+- profiling
+- performance-measurements
+- code-reviews
+- static-code-analysis
+- continuous-performance-monitoring
+- index-lifecycle-management
 layout: problem
 ---
 

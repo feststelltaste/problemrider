@@ -21,6 +21,15 @@ related_problems:
   similarity: 0.55
 solutions:
 - incremental-refactoring
+- dependency-breaking-techniques
+- solid-principles
+- separation-of-concerns
+- high-cohesion
+- facades
+- abstraction
+- lightweight-design-review
+- code-reading-sessions
+- preparatory-refactoring
 layout: problem
 ---
 

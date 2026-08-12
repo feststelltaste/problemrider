@@ -20,6 +20,11 @@ solutions:
 - event-driven-architecture
 - horizontal-scaling
 - load-balancing
+- health-check-endpoints
+- monitoring
+- capacity-planning
+- elastic-scaling
+- load-testing
 layout: problem
 ---
 

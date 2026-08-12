@@ -12,6 +12,11 @@ problems:
 - slow-development-velocity
 - deployment-coupling
 - large-risky-releases
+- extended-cycle-times
+- extended-review-cycles
+- increased-time-to-market
+- review-bottlenecks
+- reduced-code-submission-frequency
 layout: solution
 ---
 

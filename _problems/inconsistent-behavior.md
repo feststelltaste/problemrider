@@ -39,6 +39,8 @@ solutions:
 - transactions
 - value-range-definition
 - write-ahead-logging
+- canonicalization
+- style-guide
 layout: problem
 ---
 

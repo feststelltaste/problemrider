@@ -20,6 +20,11 @@ solutions:
 - separation-of-concerns
 - solid-principles
 - api-gateway
+- modularization-and-bounded-contexts
+- loose-coupling
+- high-cohesion
+- layered-architecture
+- hexagonal-architecture
 layout: problem
 ---
 

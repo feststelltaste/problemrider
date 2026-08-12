@@ -24,6 +24,10 @@ solutions:
 - resource-pooling
 - resource-usage-optimization
 - serialization-optimization
+- performance-measurements
+- continuous-performance-monitoring
+- load-testing
+- efficient-algorithms
 layout: problem
 ---
 

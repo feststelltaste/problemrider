@@ -22,6 +22,12 @@ solutions:
 - clear-ownership-model
 - clear-roles-and-ownership
 - structured-communication-protocols
+- team-boundaries-aligned-to-architecture
+- team-retrospectives
+- team-working-agreements
+- knowledge-rotation
+- value-stream-mapping
+- modularization-and-bounded-contexts
 layout: problem
 ---
 

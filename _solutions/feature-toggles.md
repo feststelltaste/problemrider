@@ -13,6 +13,10 @@ problems:
 - release-instability
 - frequent-hotfixes-and-rollbacks
 - long-release-cycles
+- development-disruption
+- increased-time-to-market
+- large-pull-requests
+- strangler-fig-pattern-failures
 layout: solution
 ---
 

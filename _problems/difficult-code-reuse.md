@@ -29,6 +29,7 @@ solutions:
 - facades
 - fluent-interfaces
 - modulith
+- dependency-injection
 layout: problem
 ---
 

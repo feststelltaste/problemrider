@@ -23,6 +23,11 @@ solutions:
 - architecture-reviews
 - solid-principles
 - technical-skills-development
+- pair-and-mob-programming
+- refactoring-katas
+- clean-code
+- domain-driven-design
+- code-reviews
 layout: problem
 ---
 

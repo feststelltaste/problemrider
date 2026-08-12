@@ -12,6 +12,7 @@ problems:
 - data-migration-complexities
 - database-schema-design-problems
 - difficult-to-test-code
+- incorrect-index-type
 layout: solution
 ---
 

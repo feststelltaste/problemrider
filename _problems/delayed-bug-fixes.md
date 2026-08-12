@@ -20,6 +20,15 @@ related_problems:
   similarity: 0.6
 solutions:
 - regression-testing
+- error-reporting-and-analysis
+- functional-debt-management
+- characterization-tests
+- improvement-budget
+- workaround-registry
+- defect-triage-process
+- explicit-prioritization-framework
+- fast-feedback-loops
+- code-hotspot-analysis
 layout: problem
 ---
 

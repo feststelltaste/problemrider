@@ -22,6 +22,14 @@ related_problems:
 solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices
+- team-boundaries-aligned-to-architecture
+- knowledge-rotation
+- technical-skills-development
+- pair-and-mob-programming
+- modularization-and-bounded-contexts
+- communities-of-practice
+- code-reading-sessions
+- internal-technical-coaching
 layout: problem
 ---
 

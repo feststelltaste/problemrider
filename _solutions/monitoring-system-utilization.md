@@ -13,6 +13,20 @@ problems:
 - memory-leaks
 - slow-application-performance
 - scaling-inefficiencies
+- improper-event-listener-management
+- incorrect-max-connection-pool-size
+- interrupt-overhead
+- misconfigured-connection-pools
+- resource-allocation-failures
+- resource-waste
+- unbounded-data-structures
+- unreleased-resources
+- insufficient-worker-capacity
+- memory-fragmentation
+- memory-swapping
+- virtual-memory-thrashing
+- work-queue-buildup
+- task-queues-backing-up
 layout: solution
 ---
 

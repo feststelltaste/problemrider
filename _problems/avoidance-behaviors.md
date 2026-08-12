@@ -21,6 +21,15 @@ related_problems:
   similarity: 0.55
 solutions:
 - blameless-postmortems
+- decision-rights-and-escalation
+- psychological-safety-practices
+- team-working-agreements
+- work-in-progress-limits
+- pair-and-mob-programming
+- team-retrospectives
+- clear-roles-and-ownership
+- pilot-projects
+- defect-triage-process
 layout: problem
 ---
 

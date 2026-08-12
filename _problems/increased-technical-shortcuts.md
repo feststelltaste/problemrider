@@ -20,6 +20,14 @@ related_problems:
   similarity: 0.6
 solutions:
 - solid-principles
+- improvement-budget
+- code-quality-gates
+- technical-debt-backlog
+- definition-of-done
+- code-reviews
+- capacity-based-planning
+- preparatory-refactoring
+- workaround-registry
 layout: problem
 ---
 

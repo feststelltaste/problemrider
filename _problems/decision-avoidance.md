@@ -22,6 +22,12 @@ solutions:
 - architecture-decision-records
 - architecture-review-board
 - technical-spike
+- decision-rights-and-escalation
+- psychological-safety-practices
+- blameless-postmortems
+- team-retrospectives
+- prototypes
+- team-autonomy-and-empowerment
 layout: problem
 ---
 

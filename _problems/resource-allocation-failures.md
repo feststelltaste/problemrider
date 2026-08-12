@@ -20,6 +20,15 @@ related_problems:
   similarity: 0.6
 solutions:
 - change-management-process
+- monitoring-system-utilization
+- capacity-planning
+- resource-pooling
+- resource-usage-optimization
+- profiling
+- elastic-resource-utilization
+- load-testing
+- observability-and-monitoring
+- production-readiness-criteria
 layout: problem
 ---
 

@@ -24,6 +24,12 @@ solutions:
 - boring-technologies
 - technical-skills-development
 - prototyping
+- production-readiness-criteria
+- technology-radar
+- lightweight-design-review
+- pilot-projects
+- definition-of-done
+- code-quality-gates
 layout: problem
 ---
 

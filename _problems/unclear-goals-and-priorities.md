@@ -24,6 +24,12 @@ solutions:
 - compatibility-governance
 - service-level-objectives
 - story-mapping
+- feature-driven-development
+- service-level-agreements
+- outcome-based-goal-setting
+- explicit-prioritization-framework
+- written-first-communication
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

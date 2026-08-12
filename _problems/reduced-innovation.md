@@ -22,6 +22,14 @@ related_problems:
 solutions:
 - impact-mapping
 - product-strategy-alignment
+- improvement-budget
+- technical-spike
+- prototypes
+- team-autonomy-and-empowerment
+- sustainable-pace-practices
+- feature-usage-measurement
+- outcome-based-goal-setting
+- pilot-projects
 layout: problem
 ---
 

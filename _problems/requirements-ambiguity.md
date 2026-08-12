@@ -41,6 +41,16 @@ solutions:
 - ubiquitous-language
 - user-acceptance-tests
 - user-stories
+- domain-experts
+- domain-modeling
+- domain-specific-languages
+- event-storming
+- functional-gap-analysis
+- wireframing
+- definition-of-ready
+- regular-stakeholder-demonstrations
+- domain-immersion
+- exploratory-testing
 layout: problem
 ---
 

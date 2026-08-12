@@ -17,6 +17,20 @@ problems:
 - inadequate-code-reviews
 - inefficient-code
 - gradual-performance-degradation
+- code-review-inefficiency
+- difficult-code-comprehension
+- queries-that-prevent-index-usage
+- unused-indexes
+- algorithmic-complexity-problems
+- alignment-and-padding-issues
+- n-plus-one-query-problem
+- atomic-operation-overhead
+- data-structure-cache-inefficiency
+- dma-coherency-issues
+- endianness-conversion-overhead
+- false-sharing
+- interrupt-overhead
+- memory-barrier-inefficiency
 layout: solution
 ---
 

@@ -12,6 +12,7 @@ problems:
 - excessive-object-allocation
 - gradual-performance-degradation
 - high-resource-utilization-on-client
+- inefficient-frontend-code
 layout: solution
 ---
 

@@ -13,6 +13,8 @@ problems:
 - hidden-dependencies
 - stagnant-architecture
 - poor-system-environment
+- alignment-and-padding-issues
+- endianness-conversion-overhead
 layout: solution
 ---
 

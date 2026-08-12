@@ -12,6 +12,7 @@ problems:
 - difficult-code-comprehension
 - tight-coupling-issues
 - ripple-effect-of-changes
+- single-entry-point-design
 layout: solution
 ---
 

@@ -22,6 +22,12 @@ related_problems:
 solutions:
 - documentation-as-code
 - living-documentation
+- decision-rights-and-escalation
+- clear-ownership-model
+- knowledge-base
+- team-working-agreements
+- production-readiness-criteria
+- application-portfolio-inventory
 layout: problem
 ---
 

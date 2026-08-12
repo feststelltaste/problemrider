@@ -28,6 +28,7 @@ solutions:
 - simulation-environments
 - smoke-testing
 - tracer-bullets
+- exploratory-testing
 layout: problem
 ---
 

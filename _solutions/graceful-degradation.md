@@ -13,6 +13,7 @@ problems:
 - capacity-mismatch
 - constant-firefighting
 - customer-dissatisfaction
+- upstream-timeouts
 layout: solution
 ---
 

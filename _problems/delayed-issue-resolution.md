@@ -22,6 +22,14 @@ related_problems:
 solutions:
 - continuous-feedback
 - root-cause-analysis
+- code-hotspot-analysis
+- small-change-batches
+- work-in-progress-limits
+- explicit-prioritization-framework
+- value-stream-mapping
+- error-reporting-and-analysis
+- clear-ownership-model
+- defect-triage-process
 layout: problem
 ---
 

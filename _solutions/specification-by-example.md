@@ -14,6 +14,8 @@ problems:
 - stakeholder-developer-communication-gap
 - legacy-code-without-tests
 - inconsistent-behavior
+- reduced-feature-quality
+- frequent-changes-to-requirements
 layout: solution
 ---
 

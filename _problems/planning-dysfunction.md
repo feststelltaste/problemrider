@@ -23,6 +23,12 @@ solutions:
 - requirements-analysis
 - short-iteration-cycles
 - story-mapping
+- feature-driven-development
+- outcome-based-goal-setting
+- capacity-based-planning
+- explicit-prioritization-framework
+- definition-of-ready
+- value-stream-mapping
 layout: problem
 ---
 

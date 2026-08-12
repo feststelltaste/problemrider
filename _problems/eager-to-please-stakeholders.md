@@ -24,6 +24,12 @@ solutions:
 - formal-change-control-process
 - product-owner
 - stakeholder-feedback-loops
+- definition-of-ready
+- regular-stakeholder-demonstrations
+- domain-immersion
+- explicit-prioritization-framework
+- capacity-based-planning
+- outcome-based-goal-setting
 layout: problem
 ---
 

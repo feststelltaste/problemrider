@@ -65,6 +65,18 @@ solutions:
 - timeout-management
 - watchdog
 - write-ahead-logging
+- certificate-management
+- emergency-drills
+- endpoint-detection-and-response
+- incident-response-measures
+- malware-protection
+- network-segmentation
+- patch-management
+- physical-security
+- self-monitoring-and-diagnosis
+- self-test
+- service-level-agreements
+- web-application-firewall
 layout: problem
 ---
 

@@ -22,6 +22,12 @@ related_problems:
 solutions:
 - knowledge-sharing-practices
 - security-community
+- knowledge-rotation
+- documentation-as-code
+- knowledge-base
+- pair-and-mob-programming
+- living-documentation
+- team-working-agreements
 layout: problem
 ---
 

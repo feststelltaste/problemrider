@@ -23,6 +23,10 @@ solutions:
 - development-workflow-automation
 - impact-mapping
 - product-strategy-alignment
+- feature-usage-measurement
+- value-stream-mapping
+- outcome-based-goal-setting
+- self-service-developer-platform
 layout: problem
 ---
 

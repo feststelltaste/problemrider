@@ -22,6 +22,14 @@ solutions:
 - architecture-decision-records
 - documentation-as-code
 - knowledge-sharing-practices
+- domain-quiz
+- code-reading-sessions
+- knowledge-rotation
+- knowledge-base
+- living-documentation
+- pair-and-mob-programming
+- internal-technical-coaching
+- domain-immersion
 layout: problem
 ---
 

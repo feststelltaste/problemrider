@@ -13,6 +13,7 @@ problems:
 - integration-difficulties
 - silent-data-corruption
 - unpredictable-system-behavior
+- synchronization-problems
 layout: solution
 ---
 

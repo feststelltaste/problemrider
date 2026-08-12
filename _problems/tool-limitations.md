@@ -21,6 +21,13 @@ related_problems:
 solutions:
 - development-environment-optimization
 - development-workflow-automation
+- containerization
+- infrastructure-as-code
+- virtual-development-environments
+- improvement-budget
+- ci-cd-pipeline
+- fast-feedback-loops
+- self-service-developer-platform
 layout: problem
 ---
 

@@ -10,6 +10,8 @@ problems:
 - technology-stack-fragmentation
 - poor-interfaces-between-applications
 - vendor-lock-in
+- endianness-conversion-overhead
+- alignment-and-padding-issues
 layout: solution
 ---
 

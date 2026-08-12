@@ -18,6 +18,17 @@ related_problems:
   similarity: 0.55
 - slug: interrupt-overhead
   similarity: 0.55
+solutions:
+- profiling
+- performance-measurements
+- concurrency-control
+- memory-hierarchy
+- efficient-algorithms
+- parallelization
+- load-testing
+- continuous-performance-monitoring
+- static-code-analysis
+- performance-modeling
 layout: problem
 ---
 

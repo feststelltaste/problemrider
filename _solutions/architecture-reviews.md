@@ -19,6 +19,7 @@ problems:
 - cargo-culting
 - rapid-prototyping-becoming-production
 - convenience-driven-development
+- accumulated-decision-debt
 layout: solution
 ---
 

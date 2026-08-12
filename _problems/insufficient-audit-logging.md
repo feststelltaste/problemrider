@@ -28,6 +28,11 @@ solutions:
 - security-metrics
 - security-monitoring
 - timestamping
+- datensparsamkeit
+- digital-forensics
+- domain-data-versioning
+- honeypots
+- logging-and-monitoring
 layout: problem
 ---
 

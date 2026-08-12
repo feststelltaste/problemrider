@@ -13,6 +13,7 @@ problems:
 - technology-lock-in
 - legacy-api-versioning-nightmare
 - tight-coupling-issues
+- dependency-on-supplier
 layout: solution
 ---
 

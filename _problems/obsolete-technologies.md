@@ -29,6 +29,17 @@ solutions:
 - secure-protocols
 - standard-software
 - standardized-protocols
+- deprecation-strategy
+- patch-management
+- supply-chain-security
+- third-party-dependency-check
+- threat-intelligence
+- vulnerability-scans
+- vendor-management-practice
+- technology-radar
+- total-cost-of-ownership-transparency
+- application-portfolio-inventory
+- system-decommissioning
 layout: problem
 ---
 

@@ -20,6 +20,13 @@ related_problems:
   similarity: 0.6
 solutions:
 - blameless-postmortems
+- team-working-agreements
+- psychological-safety-practices
+- clear-roles-and-ownership
+- collaborative-problem-solving
+- team-autonomy-and-empowerment
+- decision-rights-and-escalation
+- team-retrospectives
 layout: problem
 ---
 

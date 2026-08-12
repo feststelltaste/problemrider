@@ -12,6 +12,7 @@ problems:
 - spaghetti-code
 - difficult-code-reuse
 - poor-interfaces-between-applications
+- poor-encapsulation
 layout: solution
 ---
 

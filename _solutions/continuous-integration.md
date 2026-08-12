@@ -14,6 +14,8 @@ problems:
 - long-lived-feature-branches
 - deployment-risk
 - high-bug-introduction-rate
+- large-pull-requests
+- reduced-code-submission-frequency
 layout: solution
 ---
 

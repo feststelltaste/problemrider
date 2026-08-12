@@ -21,6 +21,14 @@ related_problems:
 solutions:
 - observability-and-monitoring
 - security-hardening-process
+- canonicalization
+- input-validation
+- logging-and-monitoring
+- output-encoding
+- logging-guidelines
+- secure-coding-guidelines
+- code-reviews
+- static-analysis-and-linting
 layout: problem
 ---
 

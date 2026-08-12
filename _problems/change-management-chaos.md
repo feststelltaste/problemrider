@@ -23,6 +23,12 @@ solutions:
 - change-management-process
 - version-control
 - versioning-scheme
+- decision-rights-and-escalation
+- change-impact-analysis
+- team-retrospectives
+- clear-roles-and-ownership
+- definition-of-done
+- runbooks
 layout: problem
 ---
 

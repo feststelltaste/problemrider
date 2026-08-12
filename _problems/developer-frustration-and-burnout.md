@@ -23,6 +23,11 @@ solutions:
 - blameless-postmortems
 - on-call-duty
 - site-reliability-engineering-sre
+- sustainable-pace-practices
+- psychological-safety-practices
+- work-in-progress-limits
+- improvement-budget
+- team-autonomy-and-empowerment
 layout: problem
 ---
 

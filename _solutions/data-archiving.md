@@ -11,6 +11,8 @@ problems:
 - slow-database-queries
 - high-database-resource-utilization
 - database-schema-design-problems
+- unbounded-data-structures
+- inadequate-test-data-management
 layout: solution
 ---
 

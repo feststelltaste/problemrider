@@ -43,6 +43,9 @@ solutions:
 - standardized-data-formats
 - standardized-interfaces
 - standardized-protocols
+- data-flow-control
+- trust-boundaries
+- zero-trust-architecture
 layout: problem
 ---
 

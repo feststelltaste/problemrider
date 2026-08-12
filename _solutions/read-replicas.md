@@ -12,6 +12,7 @@ problems:
 - database-query-performance-issues
 - bottleneck-formation
 - single-points-of-failure
+- lock-contention
 layout: solution
 ---
 

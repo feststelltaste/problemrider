@@ -13,6 +13,8 @@ problems:
 - task-queues-backing-up
 - external-service-delays
 - cascade-failures
+- interrupt-overhead
+- lock-contention
 layout: solution
 ---
 

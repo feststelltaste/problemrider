@@ -31,6 +31,11 @@ solutions:
 - site-reliability-engineering-sre
 - standard-software
 - strategic-code-deletion
+- deprecation-strategy
+- feature-usage-measurement
+- total-cost-of-ownership-transparency
+- application-portfolio-inventory
+- system-decommissioning
 layout: problem
 ---
 

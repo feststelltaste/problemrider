@@ -16,6 +16,20 @@ problems:
 - rapid-team-growth
 - communication-breakdown
 - power-struggles
+- individual-recognition-culture
+- micromanagement-culture
+- poor-teamwork
+- project-authority-vacuum
+- review-bottlenecks
+- team-dysfunction
+- uneven-workload-distribution
+- unmotivated-employees
+- change-management-chaos
+- context-switching-overhead
+- staff-availability-issues
+- avoidance-behaviors
+- review-process-breakdown
+- uneven-work-flow
 layout: solution
 ---
 

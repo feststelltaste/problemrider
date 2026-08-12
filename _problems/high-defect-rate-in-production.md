@@ -29,6 +29,16 @@ solutions:
 - root-cause-analysis
 - security-tests
 - smoke-testing
+- error-budgets
+- error-reporting-and-analysis
+- vulnerability-scans
+- change-impact-analysis
+- parallel-run
+- production-like-test-data
+- production-readiness-criteria
+- defect-triage-process
+- delivery-performance-metrics
+- exploratory-testing
 layout: problem
 ---
 

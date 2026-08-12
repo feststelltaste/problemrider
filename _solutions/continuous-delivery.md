@@ -14,6 +14,9 @@ problems:
 - release-anxiety
 - immature-delivery-strategy
 - delayed-value-delivery
+- extended-cycle-times
+- increased-time-to-market
+- uneven-work-flow
 layout: solution
 ---
 

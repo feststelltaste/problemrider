@@ -20,6 +20,13 @@ related_problems:
   similarity: 0.55
 solutions:
 - incremental-refactoring
+- code-hotspot-analysis
+- dependency-breaking-techniques
+- solid-principles
+- clean-code
+- high-cohesion
+- separation-of-concerns
+- code-metrics
 layout: problem
 ---
 

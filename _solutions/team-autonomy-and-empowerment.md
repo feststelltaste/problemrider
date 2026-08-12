@@ -15,6 +15,16 @@ problems:
 - individual-recognition-culture
 - context-switching-overhead
 - reduced-team-productivity
+- blame-culture
+- decision-paralysis
+- developer-frustration-and-burnout
+- fear-of-failure
+- high-turnover
+- inability-to-innovate
+- poor-teamwork
+- reduced-innovation
+- team-dysfunction
+- decision-avoidance
 layout: solution
 ---
 

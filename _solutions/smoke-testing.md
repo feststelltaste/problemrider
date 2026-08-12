@@ -15,6 +15,7 @@ problems:
 - fear-of-change
 - missing-end-to-end-tests
 - legacy-code-without-tests
+- increased-manual-testing-effort
 layout: solution
 ---
 

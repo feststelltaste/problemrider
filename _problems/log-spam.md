@@ -22,6 +22,14 @@ solutions:
 - observability-and-monitoring
 - asynchronous-logging
 - platform-independent-logging-frameworks
+- logging-and-monitoring
+- production-readiness-criteria
+- logging
+- error-logging
+- monitoring
+- code-reviews
+- code-conventions
+- logging-guidelines
 layout: problem
 ---
 

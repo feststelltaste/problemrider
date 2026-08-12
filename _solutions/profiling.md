@@ -18,6 +18,33 @@ problems:
 - unbounded-data-structures
 - serialization-deserialization-bottlenecks
 - long-running-transactions
+- alignment-and-padding-issues
+- atomic-operation-overhead
+- dma-coherency-issues
+- endianness-conversion-overhead
+- false-sharing
+- improper-event-listener-management
+- incorrect-index-type
+- inefficient-database-indexing
+- interrupt-overhead
+- lazy-loading
+- lock-contention
+- memory-barrier-inefficiency
+- poor-caching-strategy
+- queries-that-prevent-index-usage
+- resource-allocation-failures
+- unreleased-resources
+- high-resource-utilization-on-client
+- long-running-database-transactions
+- memory-swapping
+- n-plus-one-query-problem
+- virtual-memory-thrashing
+- deadlock-conditions
+- high-number-of-database-queries
+- imperative-data-fetching-logic
+- index-fragmentation
+- inefficient-frontend-code
+- stack-overflow-errors
 layout: solution
 ---
 

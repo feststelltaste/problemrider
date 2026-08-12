@@ -19,6 +19,10 @@ problems:
 - poor-project-control
 - misaligned-deliverables
 - scope-creep
+- communication-risk-outside-project
+- market-pressure
+- negative-brand-perception
+- vendor-relationship-strain
 layout: solution
 ---
 

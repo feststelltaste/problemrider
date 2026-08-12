@@ -20,6 +20,15 @@ related_problems:
   similarity: 0.55
 solutions:
 - static-analysis-and-linting
+- code-quality-gates
+- code-conventions
+- development-workflow-automation
+- code-metrics
+- code-hotspot-analysis
+- fast-feedback-loops
+- team-retrospectives
+- code-review-guidelines
+- communities-of-practice
 layout: problem
 ---
 

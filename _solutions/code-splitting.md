@@ -11,6 +11,7 @@ problems:
 - inefficient-frontend-code
 - gradual-performance-degradation
 - feature-bloat
+- high-resource-utilization-on-client
 layout: solution
 ---
 

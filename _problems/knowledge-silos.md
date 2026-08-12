@@ -30,6 +30,16 @@ solutions:
 - living-documentation
 - on-call-duty
 - security-community
+- collaborative-problem-solving
+- fair-source
+- knowledge-base
+- runbooks
+- user-communities
+- knowledge-rotation
+- code-reading-sessions
+- communities-of-practice
+- system-decommissioning
+- written-first-communication
 layout: problem
 ---
 

@@ -12,6 +12,7 @@ problems:
 - resource-contention
 - thread-pool-exhaustion
 - high-coupling-low-cohesion
+- upstream-timeouts
 layout: solution
 ---
 

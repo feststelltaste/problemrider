@@ -29,6 +29,7 @@ solutions:
 - rollback-mechanisms
 - smoke-testing
 - standardized-deployment-scripts
+- continuous-deployment
 layout: problem
 ---
 

@@ -26,6 +26,7 @@ solutions:
 - security-certification
 - security-frameworks
 - security-policies-for-development
+- code-quality-gates
 layout: problem
 ---
 

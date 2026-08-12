@@ -13,6 +13,8 @@ problems:
 - legacy-code-without-tests
 - fear-of-change
 - inadequate-requirements-gathering
+- increased-manual-testing-effort
+- reduced-feature-quality
 layout: solution
 ---
 

@@ -19,6 +19,15 @@ related_problems:
   similarity: 0.6
 solutions:
 - query-optimization-process
+- data-modeling
+- performance-measurements
+- profiling
+- database-abstraction
+- continuous-performance-monitoring
+- index-lifecycle-management
+- load-testing
+- code-reviews
+- production-like-test-data
 layout: problem
 ---
 

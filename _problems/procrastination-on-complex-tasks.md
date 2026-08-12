@@ -20,6 +20,15 @@ related_problems:
   similarity: 0.55
 solutions:
 - iterative-development
+- mikado-method
+- small-change-batches
+- technical-spike
+- pair-and-mob-programming
+- work-in-progress-limits
+- walking-skeleton
+- preparatory-refactoring
+- code-reading-sessions
+- psychological-safety-practices
 layout: problem
 ---
 

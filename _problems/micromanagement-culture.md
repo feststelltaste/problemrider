@@ -21,6 +21,15 @@ related_problems:
   similarity: 0.5
 solutions:
 - team-autonomy-and-empowerment
+- decision-rights-and-escalation
+- psychological-safety-practices
+- clear-roles-and-ownership
+- blameless-postmortems
+- team-working-agreements
+- error-budgets
+- team-retrospectives
+- outcome-based-goal-setting
+- delivery-performance-metrics
 layout: problem
 ---
 

@@ -24,6 +24,10 @@ solutions:
 - product-strategy-alignment
 - user-centered-design
 - assistive-technology-support
+- localization
+- mobile-first-design
+- responsive-design
+- outcome-based-goal-setting
 layout: problem
 ---
 

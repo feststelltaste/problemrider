@@ -18,6 +18,17 @@ related_problems:
   similarity: 0.55
 - slug: data-structure-cache-inefficiency
   similarity: 0.5
+solutions:
+- profiling
+- performance-measurements
+- concurrency-control
+- memory-hierarchy
+- parallelization
+- efficient-algorithms
+- load-testing
+- continuous-performance-monitoring
+- static-code-analysis
+- performance-modeling
 layout: problem
 ---
 

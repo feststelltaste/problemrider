@@ -21,6 +21,13 @@ solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices
 - team-autonomy-and-empowerment
+- work-in-progress-limits
+- short-iteration-cycles
+- clear-roles-and-ownership
+- value-stream-mapping
+- explicit-prioritization-framework
+- cognitive-load-minimization
+- fast-feedback-loops
 layout: problem
 ---
 

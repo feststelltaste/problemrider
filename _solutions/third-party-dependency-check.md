@@ -13,6 +13,7 @@ problems:
 - technology-lock-in
 - high-technical-debt
 - breaking-changes
+- dependency-on-supplier
 layout: solution
 ---
 

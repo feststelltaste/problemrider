@@ -20,6 +20,15 @@ related_problems:
   similarity: 0.6
 solutions:
 - blameless-postmortems
+- psychological-safety-practices
+- feature-flags
+- rollback-mechanisms
+- automated-tests
+- small-change-batches
+- team-autonomy-and-empowerment
+- pilot-projects
+- team-retrospectives
+- fast-feedback-loops
 layout: problem
 ---
 

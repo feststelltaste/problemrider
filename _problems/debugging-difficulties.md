@@ -27,6 +27,16 @@ solutions:
 - platform-independent-time-zone-handling
 - timestamping
 - write-ahead-logging
+- collaborative-problem-solving
+- digital-forensics
+- domain-data-versioning
+- error-handling
+- error-logging
+- error-logs
+- error-reporting-and-analysis
+- exceptions
+- logging-and-monitoring
+- logging-guidelines
 layout: problem
 ---
 

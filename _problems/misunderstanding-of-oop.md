@@ -25,6 +25,9 @@ solutions:
 - solid-principles
 - technical-skills-development
 - pattern-language
+- code-reading-sessions
+- internal-technical-coaching
+- lightweight-design-review
 layout: problem
 ---
 

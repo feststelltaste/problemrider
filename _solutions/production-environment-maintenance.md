@@ -11,6 +11,7 @@ problems:
 - poor-system-environment
 - unbounded-data-growth
 - monitoring-gaps
+- index-fragmentation
 layout: solution
 ---
 

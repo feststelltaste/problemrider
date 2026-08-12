@@ -14,6 +14,22 @@ problems:
 - high-bug-introduction-rate
 - regression-bugs
 - quality-blind-spots
+- automated-tooling-ineffectiveness
+- feature-creep-without-refactoring
+- inadequate-initial-reviews
+- increased-technical-shortcuts
+- mixed-coding-styles
+- outdated-tests
+- reduced-feature-quality
+- review-process-avoidance
+- rushed-approvals
+- increased-bug-count
+- style-arguments-in-code-reviews
+- test-debt
+- convenience-driven-development
+- nitpicking-culture
+- rapid-prototyping-becoming-production
+- undefined-code-style-guidelines
 layout: solution
 ---
 

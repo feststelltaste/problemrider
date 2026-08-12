@@ -43,6 +43,22 @@ solutions:
 - security-policies-for-users
 - security-requirements-definition
 - security-tests-by-external-parties
+- accessibility-concept
+- certificate-management
+- configuration-checks
+- cryptographic-methods
+- digital-signatures
+- domain-based-authorization-concept
+- encryption
+- key-management
+- keyboard-support
+- least-privilege
+- patch-management
+- physical-security
+- supply-chain-security
+- threat-intelligence
+- two-factor-authentication
+- vulnerability-scans
 layout: problem
 ---
 

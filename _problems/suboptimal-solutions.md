@@ -25,6 +25,9 @@ solutions:
 - clean-code
 - design-by-contract
 - pattern-language
+- domain-patterns
+- domain-immersion
+- lightweight-design-review
 layout: problem
 ---
 

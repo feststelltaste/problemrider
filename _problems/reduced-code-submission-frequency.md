@@ -22,6 +22,13 @@ solutions:
 - development-environment-optimization
 - development-workflow-automation
 - regression-testing
+- small-change-batches
+- code-review-guidelines
+- trunk-based-development
+- continuous-integration
+- work-in-progress-limits
+- team-retrospectives
+- fast-feedback-loops
 layout: problem
 ---
 

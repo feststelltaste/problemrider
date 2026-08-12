@@ -20,6 +20,10 @@ problems:
 - budget-overruns
 - poor-project-control
 - project-resource-constraints
+- priority-thrashing
+- reduced-predictability
+- uneven-work-flow
+- context-switching-overhead
 layout: solution
 ---
 

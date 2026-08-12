@@ -13,6 +13,12 @@ solutions:
 - evolutionary-database-design
 - modularization-and-bounded-contexts
 - data-integration
+- team-boundaries-aligned-to-architecture
+- anti-corruption-layer
+- domain-aligned-architecture
+- change-impact-analysis
+- bounded-contexts
+- api-first-design
 layout: problem
 ---
 

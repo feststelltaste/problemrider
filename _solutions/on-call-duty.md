@@ -13,6 +13,9 @@ problems:
 - poorly-defined-responsibilities
 - developer-frustration-and-burnout
 - overworked-teams
+- increased-stress-and-burnout
+- mental-fatigue
+- lack-of-ownership-and-accountability
 layout: solution
 ---
 

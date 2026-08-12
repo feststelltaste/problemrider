@@ -25,6 +25,11 @@ solutions:
 - solid-principles
 - architecture-governance
 - architecture-review-board
+- lightweight-design-review
+- code-review-guidelines
+- code-quality-gates
+- preparatory-refactoring
+- communities-of-practice
 layout: problem
 ---
 

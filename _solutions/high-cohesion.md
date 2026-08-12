@@ -14,6 +14,11 @@ problems:
 - difficult-code-comprehension
 - ripple-effect-of-changes
 - tangled-cross-cutting-concerns
+- excessive-class-size
+- over-reliance-on-utility-classes
+- poor-encapsulation
+- circular-dependency-problems
+- single-entry-point-design
 layout: solution
 ---
 

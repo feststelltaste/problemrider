@@ -22,6 +22,11 @@ solutions:
 - change-management-process
 - iterative-development
 - short-iteration-cycles
+- explicit-prioritization-framework
+- capacity-based-planning
+- total-cost-of-ownership-transparency
+- value-stream-mapping
+- feature-usage-measurement
 layout: problem
 ---
 

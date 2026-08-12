@@ -12,6 +12,9 @@ problems:
 - strangler-fig-pattern-failures
 - immature-delivery-strategy
 - complex-deployment-process
+- procrastination-on-complex-tasks
+- incomplete-projects
+- large-feature-scope
 layout: solution
 ---
 

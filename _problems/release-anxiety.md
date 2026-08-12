@@ -26,6 +26,11 @@ solutions:
 - canary-releases
 - continuous-delivery
 - dark-launches
+- continuous-deployment
+- small-change-batches
+- parallel-run
+- delivery-performance-metrics
+- production-readiness-criteria
 layout: problem
 ---
 

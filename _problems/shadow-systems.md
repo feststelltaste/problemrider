@@ -24,6 +24,9 @@ solutions:
 - consistent-user-interface
 - custom-views
 - customizable-user-interface
+- intuitive-navigation
+- search-function
+- usability-tests
 layout: problem
 ---
 

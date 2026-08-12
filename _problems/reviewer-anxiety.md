@@ -21,6 +21,15 @@ related_problems:
   similarity: 0.65
 solutions:
 - code-review-process-reform
+- code-review-guidelines
+- psychological-safety-practices
+- pair-and-mob-programming
+- checklists
+- blameless-postmortems
+- knowledge-rotation
+- code-reading-sessions
+- internal-technical-coaching
+- team-retrospectives
 layout: problem
 ---
 

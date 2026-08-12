@@ -24,6 +24,9 @@ solutions:
 - code-generation
 - microservices
 - standard-software
+- feature-driven-development
+- delivery-performance-metrics
+- fast-feedback-loops
 layout: problem
 ---
 

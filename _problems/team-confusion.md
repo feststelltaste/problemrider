@@ -23,6 +23,11 @@ solutions:
 - clear-ownership-model
 - clear-roles-and-ownership
 - structured-communication-protocols
+- team-boundaries-aligned-to-architecture
+- team-working-agreements
+- team-retrospectives
+- communities-of-practice
+- written-first-communication
 layout: problem
 ---
 

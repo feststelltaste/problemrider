@@ -17,6 +17,17 @@ solutions:
 - privacy-by-design
 - secure-protocols
 - service-mesh
+- certificate-management
+- cryptographic-methods
+- data-flow-control
+- defense-lines
+- digital-signatures
+- encryption
+- error-correction-codes
+- key-management
+- network-segmentation
+- output-encoding
+- zero-trust-architecture
 layout: problem
 ---
 

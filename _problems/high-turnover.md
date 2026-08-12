@@ -21,6 +21,15 @@ related_problems:
   similarity: 0.6
 solutions:
 - structured-onboarding-program
+- knowledge-rotation
+- sustainable-pace-practices
+- psychological-safety-practices
+- improvement-budget
+- team-autonomy-and-empowerment
+- knowledge-base
+- team-retrospectives
+- communities-of-practice
+- internal-technical-coaching
 layout: problem
 ---
 

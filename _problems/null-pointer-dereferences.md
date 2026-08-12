@@ -10,6 +10,13 @@ related_problems:
   similarity: 0.55
 solutions:
 - static-analysis-and-linting
+- fuzz-testing
+- negative-testing
+- design-by-contract
+- input-validation
+- code-reviews
+- property-based-testing
+- error-handling
 layout: problem
 ---
 

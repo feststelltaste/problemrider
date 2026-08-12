@@ -23,6 +23,11 @@ solutions:
 - serialization-optimization
 - memory-hierarchy
 - static-code-analysis
+- performance-measurements
+- code-reviews
+- performance-budgets
+- load-testing
+- continuous-performance-monitoring
 layout: problem
 ---
 

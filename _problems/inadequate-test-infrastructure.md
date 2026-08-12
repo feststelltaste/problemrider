@@ -25,6 +25,9 @@ solutions:
 - isolated-test-environments
 - mass-test-data-generation
 - platform-independent-test-frameworks
+- production-like-test-data
+- production-readiness-criteria
+- self-service-developer-platform
 layout: problem
 ---
 

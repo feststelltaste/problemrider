@@ -35,6 +35,9 @@ solutions:
 - modulith
 - semantic-versioning
 - tolerant-reader
+- domain-aligned-architecture
+- fitness-functions
+- change-impact-analysis
 layout: problem
 ---
 

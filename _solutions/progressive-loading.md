@@ -11,6 +11,7 @@ problems:
 - user-frustration
 - network-latency
 - slow-response-times-for-lists
+- high-resource-utilization-on-client
 layout: solution
 ---
 

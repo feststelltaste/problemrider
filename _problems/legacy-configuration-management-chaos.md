@@ -25,6 +25,12 @@ solutions:
 - platform-independent-configuration-files
 - platform-independent-configuration-management
 - secure-configuration
+- configuration-checks
+- immutable-infrastructure
+- environment-parity
+- containerization
+- application-portfolio-inventory
+- production-readiness-criteria
 layout: problem
 ---
 

@@ -44,6 +44,14 @@ solutions:
 - smoke-testing
 - specification-by-example
 - user-acceptance-tests
+- dynamic-code-analysis
+- negative-testing
+- penetration-tests
+- vulnerability-scans
+- parallel-run
+- production-like-test-data
+- production-readiness-criteria
+- exploratory-testing
 layout: problem
 ---
 

@@ -27,6 +27,8 @@ solutions:
 - regression-testing
 - microservices-architecture
 - trunk-based-development
+- delivery-performance-metrics
+- fast-feedback-loops
 layout: problem
 ---
 

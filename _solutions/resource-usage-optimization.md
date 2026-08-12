@@ -18,6 +18,8 @@ problems:
 - resource-contention
 - high-connection-count
 - long-running-transactions
+- resource-allocation-failures
+- resource-waste
 layout: solution
 ---
 

@@ -40,6 +40,8 @@ solutions:
 - platform-independent-time-zone-handling
 - schema-registry
 - standardized-data-formats
+- data-flow-control
+- error-correction-codes
 layout: problem
 ---
 

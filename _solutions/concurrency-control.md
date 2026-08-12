@@ -12,6 +12,12 @@ problems:
 - thread-pool-exhaustion
 - resource-contention
 - memory-leaks
+- atomic-operation-overhead
+- deadlock-conditions
+- false-sharing
+- lock-contention
+- memory-barrier-inefficiency
+- long-running-database-transactions
 layout: solution
 ---
 

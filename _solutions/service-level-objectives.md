@@ -14,6 +14,7 @@ problems:
 - gradual-performance-degradation
 - quality-blind-spots
 - modernization-roi-justification-failure
+- vendor-relationship-strain
 layout: solution
 ---
 

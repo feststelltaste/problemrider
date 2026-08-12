@@ -31,6 +31,12 @@ solutions:
 - hexagonal-architecture
 - security-architecture-analysis
 - security-by-design
+- domain-aligned-architecture
+- domain-driven-design
+- domain-modeling
+- fitness-functions
+- threat-modeling
+- trust-boundaries
 layout: problem
 ---
 

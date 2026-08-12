@@ -21,6 +21,13 @@ solutions:
 - architecture-reviews
 - boring-technologies
 - technical-skills-development
+- explicit-prioritization-framework
+- feature-usage-measurement
+- definition-of-done
+- definition-of-ready
+- story-mapping
+- regular-stakeholder-demonstrations
+- outcome-based-goal-setting
 layout: problem
 ---
 

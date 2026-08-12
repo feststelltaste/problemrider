@@ -21,6 +21,14 @@ related_problems:
 solutions:
 - technical-debt-backlog
 - security-culture
+- error-budgets
+- explicit-prioritization-framework
+- improvement-budget
+- total-cost-of-ownership-transparency
+- outcome-based-goal-setting
+- delivery-performance-metrics
+- feature-usage-measurement
+- pilot-projects
 layout: problem
 ---
 

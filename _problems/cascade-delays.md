@@ -22,6 +22,12 @@ related_problems:
 solutions:
 - iterative-development
 - short-iteration-cycles
+- capacity-based-planning
+- work-in-progress-limits
+- explicit-prioritization-framework
+- value-stream-mapping
+- team-boundaries-aligned-to-architecture
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

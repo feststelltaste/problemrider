@@ -54,6 +54,15 @@ solutions:
 - standardized-protocols
 - virtual-networks
 - virtualization
+- database-abstraction
+- dependency-injection
+- federated-identity
+- patch-management
+- supply-chain-security
+- third-party-dependency-check
+- vendor-management-practice
+- technology-radar
+- system-decommissioning
 layout: problem
 ---
 

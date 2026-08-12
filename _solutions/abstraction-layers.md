@@ -12,6 +12,8 @@ problems:
 - difficult-code-reuse
 - hidden-dependencies
 - architectural-mismatch
+- abi-compatibility-issues
+- dependency-on-supplier
 layout: solution
 ---
 

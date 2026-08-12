@@ -25,6 +25,11 @@ solutions:
 - idempotency-design
 - idempotent-operations
 - transactions
+- monitoring
+- stress-testing
+- static-analysis-and-linting
+- negative-testing
+- property-based-testing
 layout: problem
 ---
 

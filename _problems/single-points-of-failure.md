@@ -46,6 +46,7 @@ solutions:
 - resilience
 - security-architecture-analysis
 - watchdog
+- knowledge-rotation
 layout: problem
 ---
 

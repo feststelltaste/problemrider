@@ -19,6 +19,14 @@ related_problems:
 solutions:
 - psychological-safety-practices
 - team-autonomy-and-empowerment
+- team-working-agreements
+- pair-and-mob-programming
+- knowledge-rotation
+- blameless-postmortems
+- clear-roles-and-ownership
+- team-retrospectives
+- communities-of-practice
+- outcome-based-goal-setting
 layout: problem
 ---
 

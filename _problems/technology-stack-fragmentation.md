@@ -31,6 +31,10 @@ solutions:
 - data-formats
 - data-strategy
 - design-tokens
+- technology-radar
+- application-portfolio-inventory
+- communities-of-practice
+- system-decommissioning
 layout: problem
 ---
 

@@ -22,6 +22,13 @@ related_problems:
 solutions:
 - strangler-fig-pattern
 - walking-skeleton
+- mikado-method
+- anti-corruption-layer
+- feature-toggles
+- characterization-tests
+- bubble-context
+- incremental-refactoring
+- parallel-run
 layout: problem
 ---
 

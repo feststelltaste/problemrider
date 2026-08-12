@@ -22,6 +22,12 @@ related_problems:
 solutions:
 - knowledge-sharing-practices
 - cross-platform-frameworks
+- knowledge-rotation
+- knowledge-base
+- clear-ownership-model
+- team-boundaries-aligned-to-architecture
+- documentation-as-code
+- communities-of-practice
 layout: problem
 ---
 

@@ -14,6 +14,7 @@ problems:
 - implementation-rework
 - fear-of-breaking-changes
 - history-of-failed-changes
+- inability-to-innovate
 layout: solution
 ---
 

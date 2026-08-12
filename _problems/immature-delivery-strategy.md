@@ -24,6 +24,9 @@ solutions:
 - continuous-integration-and-delivery
 - standardized-deployment-scripts
 - walking-skeleton
+- production-readiness-criteria
+- value-stream-mapping
+- delivery-performance-metrics
 layout: problem
 ---
 

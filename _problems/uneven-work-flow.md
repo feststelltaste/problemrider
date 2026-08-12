@@ -20,6 +20,15 @@ related_problems:
   similarity: 0.6
 solutions:
 - sustainable-pace-practices
+- work-in-progress-limits
+- short-iteration-cycles
+- capacity-based-planning
+- explicit-prioritization-framework
+- continuous-delivery
+- value-stream-mapping
+- delivery-performance-metrics
+- team-retrospectives
+- clear-roles-and-ownership
 layout: problem
 ---
 

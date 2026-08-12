@@ -23,6 +23,13 @@ solutions:
 - psychological-safety-practices
 - sustainable-pace-practices
 - team-autonomy-and-empowerment
+- blameless-postmortems
+- improvement-budget
+- work-in-progress-limits
+- capacity-based-planning
+- team-retrospectives
+- outcome-based-goal-setting
+- value-stream-mapping
 layout: problem
 ---
 

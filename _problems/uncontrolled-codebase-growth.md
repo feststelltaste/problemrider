@@ -25,6 +25,7 @@ solutions:
 - solid-principles
 - strategic-code-deletion
 - tree-shaking
+- deprecation-strategy
 layout: problem
 ---
 

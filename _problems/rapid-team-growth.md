@@ -22,6 +22,12 @@ related_problems:
 solutions:
 - clear-roles-and-ownership
 - cross-functional-skill-development
+- team-boundaries-aligned-to-architecture
+- structured-onboarding-program
+- knowledge-rotation
+- documentation-as-code
+- team-working-agreements
+- integrated-onboarding
 layout: problem
 ---
 

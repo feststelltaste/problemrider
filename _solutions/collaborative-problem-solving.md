@@ -14,6 +14,9 @@ problems:
 - knowledge-gaps
 - team-silos
 - slow-knowledge-transfer
+- poor-teamwork
+- team-dysfunction
+- fear-of-conflict
 layout: solution
 ---
 

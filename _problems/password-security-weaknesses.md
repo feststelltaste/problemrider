@@ -20,6 +20,13 @@ solutions:
 - secure-by-default
 - secure-session-management
 - security-policies-for-users
+- cryptographic-methods
+- encryption
+- federated-identity
+- key-management
+- least-privilege
+- secure-software
+- two-factor-authentication
 layout: problem
 ---
 

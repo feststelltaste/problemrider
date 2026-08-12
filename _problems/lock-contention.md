@@ -20,6 +20,15 @@ related_problems:
   similarity: 0.55
 solutions:
 - query-optimization-process
+- concurrency-control
+- profiling
+- transactions
+- performance-measurements
+- read-replicas
+- asynchronous-processing
+- monitoring
+- stress-testing
+- index-lifecycle-management
 layout: problem
 ---
 

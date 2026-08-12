@@ -21,6 +21,13 @@ related_problems:
 solutions:
 - sustainable-pace-practices
 - team-autonomy-and-empowerment
+- decision-rights-and-escalation
+- explicit-prioritization-framework
+- team-boundaries-aligned-to-architecture
+- work-in-progress-limits
+- definition-of-ready
+- value-stream-mapping
+- self-service-developer-platform
 layout: problem
 ---
 

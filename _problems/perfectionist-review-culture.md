@@ -21,6 +21,15 @@ related_problems:
   similarity: 0.6
 solutions:
 - code-review-process-reform
+- code-review-guidelines
+- definition-of-done
+- static-analysis-and-linting
+- team-working-agreements
+- psychological-safety-practices
+- small-change-batches
+- team-retrospectives
+- work-in-progress-limits
+- pair-and-mob-programming
 layout: problem
 ---
 

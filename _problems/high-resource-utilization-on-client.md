@@ -23,6 +23,11 @@ solutions:
 - image-and-asset-optimization
 - lazy-loading
 - virtualized-lists
+- performance-budgets
+- profiling
+- code-splitting
+- progressive-loading
+- performance-measurements
 layout: problem
 ---
 

@@ -23,6 +23,11 @@ solutions:
 - efficient-algorithms
 - profiling
 - resource-usage-optimization
+- pagination
+- data-archiving
+- monitoring-system-utilization
+- rate-limiting
+- load-shedding
 layout: problem
 ---
 

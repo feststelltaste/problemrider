@@ -17,6 +17,10 @@ problems:
 - maintenance-bottlenecks
 - increased-risk-of-bugs
 - increased-bug-count
+- vendor-relationship-strain
+- schema-evolution-paralysis
+- testing-complexity
+- abi-compatibility-issues
 layout: solution
 ---
 

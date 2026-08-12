@@ -23,6 +23,12 @@ related_problems:
 solutions:
 - code-review-process-reform
 - pair-and-mob-programming
+- code-review-guidelines
+- checklists
+- knowledge-rotation
+- structured-onboarding-program
+- technical-skills-development
+- internal-technical-coaching
 layout: problem
 ---
 

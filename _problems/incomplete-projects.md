@@ -21,6 +21,13 @@ related_problems:
 solutions:
 - architecture-roadmap
 - impact-mapping
+- mikado-method
+- work-in-progress-limits
+- definition-of-ready
+- explicit-prioritization-framework
+- small-change-batches
+- walking-skeleton
+- regular-stakeholder-demonstrations
 layout: problem
 ---
 

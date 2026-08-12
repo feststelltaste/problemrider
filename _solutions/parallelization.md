@@ -13,6 +13,9 @@ problems:
 - slow-database-queries
 - insufficient-worker-capacity
 - growing-task-queues
+- atomic-operation-overhead
+- false-sharing
+- memory-barrier-inefficiency
 layout: solution
 ---
 

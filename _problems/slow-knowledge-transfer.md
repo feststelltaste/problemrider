@@ -23,6 +23,11 @@ solutions:
 - knowledge-sharing-practices
 - pair-and-mob-programming
 - structured-onboarding-program
+- collaborative-problem-solving
+- code-reading-sessions
+- internal-technical-coaching
+- communities-of-practice
+- written-first-communication
 layout: problem
 ---
 

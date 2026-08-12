@@ -22,6 +22,12 @@ solutions:
 - evolutionary-requirements-development
 - formal-change-control-process
 - product-owner
+- explicit-prioritization-framework
+- definition-of-ready
+- regular-stakeholder-demonstrations
+- story-mapping
+- impact-mapping
+- capacity-based-planning
 layout: problem
 ---
 

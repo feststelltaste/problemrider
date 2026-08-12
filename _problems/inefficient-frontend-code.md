@@ -25,6 +25,11 @@ solutions:
 - image-and-asset-optimization
 - tree-shaking
 - virtualized-lists
+- performance-budgets
+- profiling
+- performance-measurements
+- lazy-loading
+- continuous-performance-monitoring
 layout: problem
 ---
 

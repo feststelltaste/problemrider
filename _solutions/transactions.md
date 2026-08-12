@@ -15,6 +15,7 @@ problems:
 - deadlock-conditions
 - cascade-failures
 - synchronization-problems
+- lock-contention
 layout: solution
 ---
 

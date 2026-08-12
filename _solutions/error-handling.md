@@ -13,6 +13,11 @@ problems:
 - silent-data-corruption
 - increased-error-rates
 - slow-incident-resolution
+- null-pointer-dereferences
+- stack-overflow-errors
+- unreleased-resources
+- database-connection-leaks
+- improper-event-listener-management
 layout: solution
 ---
 

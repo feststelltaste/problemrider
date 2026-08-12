@@ -41,6 +41,13 @@ solutions:
 - smoke-testing
 - test-driven-development-tdd
 - value-range-definition
+- code-quality-gates
+- characterization-tests
+- change-impact-analysis
+- parallel-run
+- production-like-test-data
+- defect-triage-process
+- exploratory-testing
 layout: problem
 ---
 

@@ -24,6 +24,15 @@ solutions:
 - architecture-review-board
 - code-metrics
 - risk-analysis
+- code-quality-gates
+- deprecation-strategy
+- fitness-functions
+- functional-debt-management
+- third-party-dependency-check
+- code-hotspot-analysis
+- improvement-budget
+- total-cost-of-ownership-transparency
+- workaround-registry
 layout: problem
 ---
 

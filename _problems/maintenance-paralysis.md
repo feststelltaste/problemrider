@@ -21,6 +21,14 @@ related_problems:
 solutions:
 - architecture-roadmap
 - regression-testing
+- characterization-tests
+- improvement-budget
+- mikado-method
+- preparatory-refactoring
+- code-hotspot-analysis
+- dependency-breaking-techniques
+- parallel-run
+- pilot-projects
 layout: problem
 ---
 

@@ -9,6 +9,17 @@ category:
 related_problems:
 - slug: false-sharing
   similarity: 0.55
+solutions:
+- profiling
+- performance-measurements
+- data-integrity
+- checksums
+- self-test
+- specialized-hardware
+- monitoring
+- stress-testing
+- static-code-analysis
+- redundant-checksums
 layout: problem
 ---
 

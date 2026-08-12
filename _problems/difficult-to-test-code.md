@@ -24,6 +24,11 @@ solutions:
 - automated-tests
 - hexagonal-architecture
 - test-driven-development-tdd
+- database-abstraction
+- dependency-injection
+- dependency-injection-container
+- characterization-tests
+- dependency-breaking-techniques
 layout: problem
 ---
 

@@ -14,6 +14,7 @@ problems:
 - integer-overflow-underflow
 - silent-data-corruption
 - rest-api-design-issues
+- null-pointer-dereferences
 layout: solution
 ---
 

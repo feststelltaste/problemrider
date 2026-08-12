@@ -29,6 +29,9 @@ solutions:
 - subject-matter-reviews
 - user-acceptance-tests
 - user-stories
+- behavior-driven-development-bdd
+- wireframing
+- definition-of-ready
 layout: problem
 ---
 

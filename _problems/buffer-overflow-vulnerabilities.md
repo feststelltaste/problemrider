@@ -21,6 +21,15 @@ solutions:
 - abuse-case-definition
 - prepared-statements
 - secure-coding-guidelines
+- canonicalization
+- defense-lines
+- dynamic-code-analysis
+- fuzz-testing
+- input-validation
+- negative-testing
+- penetration-tests
+- secure-software
+- static-code-analysis
 layout: problem
 ---
 

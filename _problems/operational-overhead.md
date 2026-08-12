@@ -23,6 +23,13 @@ solutions:
 - cloud-native-development
 - serverless-computing
 - site-reliability-engineering-sre
+- certificate-management
+- production-readiness-criteria
+- value-stream-mapping
+- workaround-registry
+- logging-guidelines
+- self-service-developer-platform
+- system-decommissioning
 layout: problem
 ---
 

@@ -13,6 +13,7 @@ problems:
 - technology-stack-fragmentation
 - breaking-changes
 - vendor-dependency
+- dependency-on-supplier
 layout: solution
 ---
 

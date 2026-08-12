@@ -18,6 +18,10 @@ problems:
 - incomplete-projects
 - second-system-effect
 - rapid-system-changes
+- inability-to-innovate
+- system-stagnation
+- technology-isolation
+- technical-architecture-limitations
 layout: solution
 ---
 

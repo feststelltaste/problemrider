@@ -12,6 +12,7 @@ problems:
 - integration-difficulties
 - dependency-version-conflicts
 - poor-system-environment
+- abi-compatibility-issues
 layout: solution
 ---
 

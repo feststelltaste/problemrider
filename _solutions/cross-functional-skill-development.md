@@ -15,6 +15,10 @@ problems:
 - context-switching-overhead
 - reduced-team-productivity
 - overworked-teams
+- inadequate-mentoring-structure
+- inappropriate-skillset
+- technology-isolation
+- skill-development-gaps
 layout: solution
 ---
 

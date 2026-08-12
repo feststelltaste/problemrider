@@ -12,6 +12,7 @@ problems:
 - bottleneck-formation
 - scaling-inefficiencies
 - work-queue-buildup
+- unoptimized-file-access
 layout: solution
 ---
 

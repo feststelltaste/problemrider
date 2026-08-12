@@ -21,6 +21,15 @@ related_problems:
   similarity: 0.55
 solutions:
 - structured-communication-protocols
+- team-boundaries-aligned-to-architecture
+- team-working-agreements
+- knowledge-sharing-practices
+- documentation-as-code
+- ubiquitous-language
+- written-first-communication
+- team-retrospectives
+- communities-of-practice
+- lightweight-design-review
 layout: problem
 ---
 

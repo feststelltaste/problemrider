@@ -27,6 +27,9 @@ solutions:
 - customizable-user-interface
 - form-design
 - strategic-code-deletion
+- intuitive-navigation
+- progressive-disclosure
+- visual-hierarchy
 layout: problem
 ---
 

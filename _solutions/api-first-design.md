@@ -13,6 +13,7 @@ problems:
 - microservice-communication-overhead
 - serialization-deserialization-bottlenecks
 - service-discovery-failures
+- shared-database
 layout: solution
 ---
 

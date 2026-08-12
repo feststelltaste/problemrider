@@ -20,6 +20,14 @@ related_problems:
   similarity: 0.5
 solutions:
 - incremental-refactoring
+- dependency-injection
+- dependency-injection-container
+- dependency-breaking-techniques
+- solid-principles
+- separation-of-concerns
+- characterization-tests
+- preparatory-refactoring
+- code-reading-sessions
 layout: problem
 ---
 

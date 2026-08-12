@@ -21,6 +21,15 @@ related_problems:
   similarity: 0.65
 solutions:
 - architecture-decision-records
+- decision-rights-and-escalation
+- technical-spike
+- explicit-prioritization-framework
+- clear-ownership-model
+- architecture-review-board
+- team-retrospectives
+- written-first-communication
+- lightweight-design-review
+- pilot-projects
 layout: problem
 ---
 

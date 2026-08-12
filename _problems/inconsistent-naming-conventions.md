@@ -21,6 +21,14 @@ related_problems:
 solutions:
 - static-analysis-and-linting
 - ubiquitous-language
+- code-conventions
+- style-guide
+- consistent-terminology
+- code-reviews
+- domain-driven-design
+- code-review-guidelines
+- communities-of-practice
+- clean-code
 layout: problem
 ---
 

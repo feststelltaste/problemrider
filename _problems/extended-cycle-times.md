@@ -19,6 +19,16 @@ related_problems:
   similarity: 0.6
 solutions:
 - ci-cd-pipeline
+- small-change-batches
+- work-in-progress-limits
+- trunk-based-development
+- continuous-delivery
+- capacity-based-planning
+- code-review-guidelines
+- value-stream-mapping
+- delivery-performance-metrics
+- fast-feedback-loops
+- self-service-developer-platform
 layout: problem
 ---
 

@@ -28,6 +28,7 @@ solutions:
 - technical-spike
 - tracer-bullets
 - walking-skeleton
+- pilot-projects
 layout: problem
 ---
 

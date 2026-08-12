@@ -22,6 +22,12 @@ solutions:
 - code-review-process-reform
 - static-analysis-and-linting
 - code-conventions
+- code-review-guidelines
+- team-working-agreements
+- style-guide
+- code-quality-gates
+- ci-cd-pipeline
+- psychological-safety-practices
 layout: problem
 ---
 

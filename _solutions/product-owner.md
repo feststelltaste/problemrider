@@ -22,6 +22,8 @@ problems:
 - scope-change-resistance
 - large-feature-scope
 - stakeholder-dissatisfaction
+- competing-priorities
+- priority-thrashing
 layout: solution
 ---
 

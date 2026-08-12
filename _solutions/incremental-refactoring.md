@@ -8,7 +8,7 @@ quality_tactics_url: https://qualitytactics.de/en/maintainability/refactoring/
 problems:
 - spaghetti-code
 - god-object-anti-pattern
-- high-coupling-and-low-cohesion
+- high-coupling-low-cohesion
 - bloated-class
 - excessive-class-size
 - circular-dependency-problems
@@ -28,6 +28,12 @@ problems:
 - over-reliance-on-utility-classes
 - global-state-and-side-effects
 - hardcoded-values
+- large-pull-requests
+- strangler-fig-pattern-failures
+- system-stagnation
+- circular-references
+- maintenance-cost-increase
+- technical-architecture-limitations
 layout: solution
 ---
 

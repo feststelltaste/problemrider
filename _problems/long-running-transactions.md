@@ -25,6 +25,12 @@ solutions:
 - resource-pooling
 - resource-usage-optimization
 - transactions
+- saga-pattern
+- monitoring
+- index-lifecycle-management
+- query-optimization-process
+- batch-processing
+- performance-measurements
 layout: problem
 ---
 

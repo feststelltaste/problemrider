@@ -25,6 +25,10 @@ solutions:
 - denormalization
 - materialized-views
 - pagination
+- index-lifecycle-management
+- profiling
+- performance-measurements
+- continuous-performance-monitoring
 layout: problem
 ---
 

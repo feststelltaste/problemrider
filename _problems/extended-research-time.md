@@ -21,6 +21,16 @@ related_problems:
   similarity: 0.55
 solutions:
 - knowledge-sharing-practices
+- documentation-as-code
+- knowledge-base
+- architecture-documentation
+- technical-spike
+- knowledge-rotation
+- living-documentation
+- code-reading-sessions
+- communities-of-practice
+- internal-technical-coaching
+- written-first-communication
 layout: problem
 ---
 

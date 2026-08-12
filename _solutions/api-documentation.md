@@ -14,6 +14,7 @@ problems:
 - integration-difficulties
 - stakeholder-developer-communication-gap
 - implicit-knowledge
+- communication-risk-outside-project
 layout: solution
 ---
 

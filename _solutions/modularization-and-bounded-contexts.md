@@ -7,7 +7,7 @@ category:
 quality_tactics_url: https://qualitytactics.de/en/maintainability/modularization/
 problems:
 - monolithic-architecture-constraints
-- high-coupling-and-low-cohesion
+- high-coupling-low-cohesion
 - tight-coupling-issues
 - circular-dependency-problems
 - complex-domain-model
@@ -20,6 +20,14 @@ problems:
 - spaghetti-code
 - hidden-dependencies
 - system-integration-blindness
+- reduced-team-flexibility
+- system-stagnation
+- circular-references
+- merge-conflicts
+- organizational-structure-mismatch
+- single-entry-point-design
+- team-coordination-issues
+- technical-architecture-limitations
 layout: solution
 ---
 

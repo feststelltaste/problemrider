@@ -21,6 +21,12 @@ related_problems:
 solutions:
 - architecture-roadmap
 - regression-testing
+- capacity-based-planning
+- mikado-method
+- small-change-batches
+- change-impact-analysis
+- definition-of-ready
+- preparatory-refactoring
 layout: problem
 ---
 

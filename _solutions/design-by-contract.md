@@ -16,6 +16,10 @@ problems:
 - ripple-effect-of-changes
 - complex-implementation-paths
 - cognitive-overload
+- integer-overflow-underflow
+- null-pointer-dereferences
+- improper-event-listener-management
+- stack-overflow-errors
 layout: solution
 ---
 
