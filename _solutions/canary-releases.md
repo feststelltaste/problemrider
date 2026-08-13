@@ -1,6 +1,7 @@
 ---
 title: Canary Releases
-description: Gradual introduction of changes for a limited user group to minimize risk
+description: Gradual introduction of changes for a limited user group to minimize
+  risk
 category:
 - Operations
 - Process
@@ -13,6 +14,19 @@ problems:
 - fear-of-change
 - high-defect-rate-in-production
 layout: solution
+related_solutions:
+- slug: rollback-mechanisms
+  similarity: 0.8
+- slug: dark-launches
+  similarity: 0.8
+- slug: chaos-engineering
+  similarity: 0.8
+- slug: continuous-integration-and-delivery
+  similarity: 0.8
+- slug: rolling-updates
+  similarity: 0.75
+- slug: error-budgets
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

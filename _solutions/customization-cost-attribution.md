@@ -1,6 +1,7 @@
 ---
 title: Customization Cost Attribution
-description: Track what each customer-specific variant costs to maintain and attribute it to whoever asked for it, so that agreeing to one becomes a priced decision.
+description: Track what each customer-specific variant costs to maintain and attribute
+  it to whoever asked for it, so that agreeing to one becomes a priced decision.
 category:
 - Business
 - Management
@@ -22,6 +23,19 @@ problems:
 - custom-report-sprawl
 - reimplemented-standard-functionality
 layout: solution
+related_solutions:
+- slug: variant-consolidation
+  similarity: 0.8
+- slug: explicit-extension-points
+  similarity: 0.7
+- slug: fit-to-standard-principle
+  similarity: 0.65
+- slug: total-cost-of-ownership-transparency
+  similarity: 0.65
+- slug: cost-of-delay
+  similarity: 0.65
+- slug: feature-usage-measurement
+  similarity: 0.6
 ---
 
 ## Description

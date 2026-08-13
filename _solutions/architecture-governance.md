@@ -17,6 +17,19 @@ problems:
 - cv-driven-development
 - premature-technology-introduction
 layout: solution
+related_solutions:
+- slug: architecture-review-board
+  similarity: 0.8
+- slug: architecture-decision-records
+  similarity: 0.75
+- slug: architecture-conformity-analysis
+  similarity: 0.75
+- slug: architecture-documentation
+  similarity: 0.75
+- slug: architecture-roadmap
+  similarity: 0.75
+- slug: architecture-reviews
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

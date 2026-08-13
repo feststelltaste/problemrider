@@ -14,6 +14,19 @@ problems:
 - breaking-changes
 - dependency-on-supplier
 layout: solution
+related_solutions:
+- slug: vulnerability-scans
+  similarity: 0.8
+- slug: dependency-management-strategy
+  similarity: 0.8
+- slug: regular-maintenance-and-updates
+  similarity: 0.8
+- slug: secure-software
+  similarity: 0.75
+- slug: security-audits
+  similarity: 0.75
+- slug: security-tests
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

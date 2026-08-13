@@ -1,6 +1,7 @@
 ---
 title: Responsive Design
-description: Adapt the user interface automatically to different screen sizes and devices
+description: Adapt the user interface automatically to different screen sizes and
+  devices
 category:
 - Requirements
 - Architecture
@@ -14,6 +15,19 @@ problems:
 - high-client-side-resource-consumption
 - customer-dissatisfaction
 layout: solution
+related_solutions:
+- slug: mobile-first-design
+  similarity: 0.85
+- slug: visual-hierarchy
+  similarity: 0.75
+- slug: user-centered-design
+  similarity: 0.7
+- slug: intuitive-navigation
+  similarity: 0.7
+- slug: cognitive-load-minimization
+  similarity: 0.7
+- slug: assistive-technology-support
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

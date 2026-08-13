@@ -1,6 +1,7 @@
 ---
 title: Code Reading Sessions
-description: Read existing code together, out loud, as a scheduled group activity — the fastest way to spread understanding of a system nobody fully understands.
+description: "Read existing code together, out loud, as a scheduled group activity\
+  \ \u2014 the fastest way to spread understanding of a system nobody fully understands."
 category:
 - Team
 - Communication
@@ -48,6 +49,19 @@ problems:
 - team-members-not-engaged-in-review-process
 - implementation-partner-dependency
 layout: solution
+related_solutions:
+- slug: pair-and-mob-programming
+  similarity: 0.75
+- slug: code-review-process-reform
+  similarity: 0.7
+- slug: structured-onboarding-program
+  similarity: 0.7
+- slug: collaborative-problem-solving
+  similarity: 0.7
+- slug: internal-technical-coaching
+  similarity: 0.7
+- slug: code-hotspot-analysis
+  similarity: 0.7
 ---
 
 ## Description

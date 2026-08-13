@@ -1,6 +1,7 @@
 ---
 title: Standardized Interfaces
-description: Adopt widely accepted interface styles so that any consumer can integrate without bespoke adapters
+description: Adopt widely accepted interface styles so that any consumer can integrate
+  without bespoke adapters
 category:
 - Architecture
 - Dependencies
@@ -14,6 +15,19 @@ problems:
 - tight-coupling-issues
 - dependency-on-supplier
 layout: solution
+related_solutions:
+- slug: standardized-protocols
+  similarity: 0.75
+- slug: consistent-user-interface
+  similarity: 0.7
+- slug: api-first-design
+  similarity: 0.7
+- slug: standardized-data-formats
+  similarity: 0.7
+- slug: data-formats
+  similarity: 0.7
+- slug: canonical-data-model
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

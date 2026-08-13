@@ -1,6 +1,7 @@
 ---
 title: Benefits Realization Tracking
-description: Go back after the work is done and report whether the promised benefit actually arrived — including when it did not.
+description: "Go back after the work is done and report whether the promised benefit\
+  \ actually arrived \u2014 including when it did not."
 category:
 - Business
 - Management
@@ -25,6 +26,19 @@ problems:
 - quality-degradation
 - stakeholder-frustration
 layout: solution
+related_solutions:
+- slug: baseline-measurement
+  similarity: 0.7
+- slug: total-cost-of-ownership-transparency
+  similarity: 0.65
+- slug: subject-matter-reviews
+  similarity: 0.65
+- slug: staged-investment-with-decision-gates
+  similarity: 0.65
+- slug: cost-of-delay
+  similarity: 0.65
+- slug: blameless-postmortems
+  similarity: 0.65
 ---
 
 ## Description

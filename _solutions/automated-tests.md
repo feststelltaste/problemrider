@@ -20,6 +20,19 @@ problems:
 - low-code-customization-sprawl
 - upgrade-blocked-by-customization
 layout: solution
+related_solutions:
+- slug: test-coverage-strategy
+  similarity: 0.9
+- slug: acceptance-tests
+  similarity: 0.8
+- slug: regression-testing
+  similarity: 0.8
+- slug: functional-tests
+  similarity: 0.8
+- slug: mutation-testing
+  similarity: 0.8
+- slug: integration-tests
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

@@ -15,6 +15,19 @@ problems:
 - quality-blind-spots
 - session-management-issues
 layout: solution
+related_solutions:
+- slug: dynamic-code-analysis
+  similarity: 0.8
+- slug: security-tests-by-external-parties
+  similarity: 0.8
+- slug: vulnerability-scans
+  similarity: 0.8
+- slug: fuzz-testing
+  similarity: 0.8
+- slug: honeypots
+  similarity: 0.75
+- slug: patch-management
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

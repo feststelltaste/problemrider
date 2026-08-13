@@ -11,6 +11,19 @@ problems:
 - poor-interfaces-between-applications
 - obsolete-technologies
 layout: solution
+related_solutions:
+- slug: abstraction
+  similarity: 0.85
+- slug: abstraction-layers
+  similarity: 0.85
+- slug: database-abstraction
+  similarity: 0.8
+- slug: adapter
+  similarity: 0.8
+- slug: api-gateway
+  similarity: 0.8
+- slug: abstracted-file-system-access
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

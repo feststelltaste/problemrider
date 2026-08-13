@@ -12,6 +12,19 @@ problems:
 - unpredictable-system-behavior
 - system-outages
 layout: solution
+related_solutions:
+- slug: isolation-of-faulty-components
+  similarity: 0.8
+- slug: bulkhead
+  similarity: 0.8
+- slug: resilience
+  similarity: 0.75
+- slug: rate-limiting
+  similarity: 0.75
+- slug: containerization
+  similarity: 0.7
+- slug: chaos-engineering
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -15,6 +15,19 @@ problems:
 - knowledge-gaps
 - language-barriers
 layout: solution
+related_solutions:
+- slug: understandable-error-messages
+  similarity: 0.8
+- slug: consistent-terminology
+  similarity: 0.8
+- slug: intuitive-navigation
+  similarity: 0.75
+- slug: ubiquitous-language
+  similarity: 0.75
+- slug: visual-hierarchy
+  similarity: 0.75
+- slug: user-centered-design
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

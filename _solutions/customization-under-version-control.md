@@ -1,6 +1,7 @@
 ---
 title: Customization Under Version Control
-description: Export a packaged system's configuration and custom logic into text artifacts so they can be diffed, reviewed, reverted, and deployed like any other code.
+description: Export a packaged system's configuration and custom logic into text artifacts
+  so they can be diffed, reviewed, reverted, and deployed like any other code.
 category:
 - Operations
 - Process
@@ -21,6 +22,19 @@ problems:
 - core-modification-of-standard-software
 - implementation-partner-dependency
 layout: solution
+related_solutions:
+- slug: ci-cd-pipeline
+  similarity: 0.7
+- slug: infrastructure-as-code
+  similarity: 0.7
+- slug: explicit-extension-points
+  similarity: 0.65
+- slug: code-review-process-reform
+  similarity: 0.65
+- slug: self-service-developer-platform
+  similarity: 0.65
+- slug: development-workflow-automation
+  similarity: 0.65
 ---
 
 ## Description

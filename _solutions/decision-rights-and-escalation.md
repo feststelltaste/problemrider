@@ -1,6 +1,7 @@
 ---
 title: Decision Rights and Escalation Paths
-description: Write down who decides what, within which limits, and what happens when a decision stalls, so that unmade decisions stop blocking work.
+description: Write down who decides what, within which limits, and what happens when
+  a decision stalls, so that unmade decisions stop blocking work.
 category:
 - Management
 - Process
@@ -31,6 +32,19 @@ problems:
 - approval-dependencies
 - excessive-customization
 layout: solution
+related_solutions:
+- slug: team-autonomy-and-empowerment
+  similarity: 0.75
+- slug: clear-ownership-model
+  similarity: 0.7
+- slug: clear-roles-and-ownership
+  similarity: 0.7
+- slug: architecture-decision-records
+  similarity: 0.7
+- slug: product-owner
+  similarity: 0.7
+- slug: explicit-prioritization-framework
+  similarity: 0.7
 ---
 
 ## Description

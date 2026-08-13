@@ -14,6 +14,19 @@ problems:
 - vendor-dependency
 - dependency-on-supplier
 layout: solution
+related_solutions:
+- slug: abstraction-layers
+  similarity: 0.8
+- slug: facades
+  similarity: 0.8
+- slug: protocol-abstraction
+  similarity: 0.8
+- slug: api-gateway
+  similarity: 0.8
+- slug: dependency-injection
+  similarity: 0.75
+- slug: mediator
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

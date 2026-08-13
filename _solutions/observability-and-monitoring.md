@@ -32,6 +32,19 @@ problems:
 - task-queues-backing-up
 - unreleased-resources
 layout: solution
+related_solutions:
+- slug: logging
+  similarity: 0.75
+- slug: distributed-tracing
+  similarity: 0.75
+- slug: service-level-objectives
+  similarity: 0.75
+- slug: status-monitoring
+  similarity: 0.75
+- slug: error-logs
+  similarity: 0.7
+- slug: logging-guidelines
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

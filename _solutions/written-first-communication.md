@@ -1,6 +1,8 @@
 ---
 title: Written-First Communication
-description: Default to durable written communication for decisions, context, and proposals, so that knowledge survives the conversation and reaches people who were not in it.
+description: Default to durable written communication for decisions, context, and
+  proposals, so that knowledge survives the conversation and reaches people who were
+  not in it.
 category:
 - Communication
 - Team
@@ -33,6 +35,19 @@ problems:
 - vendor-relationship-strain
 - voided-vendor-support
 layout: solution
+related_solutions:
+- slug: structured-communication-protocols
+  similarity: 0.7
+- slug: team-working-agreements
+  similarity: 0.65
+- slug: decision-rights-and-escalation
+  similarity: 0.65
+- slug: architecture-decision-records
+  similarity: 0.65
+- slug: lightweight-design-review
+  similarity: 0.6
+- slug: knowledge-sharing-practices
+  similarity: 0.6
 ---
 
 ## Description

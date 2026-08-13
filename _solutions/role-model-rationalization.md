@@ -1,6 +1,7 @@
 ---
 title: Role Model Rationalization
-description: Rebuild an exploded permission model from evidence of what people actually do, and establish a process by which access is removed as well as granted.
+description: Rebuild an exploded permission model from evidence of what people actually
+  do, and establish a process by which access is removed as well as granted.
 category:
 - Security
 - Operations
@@ -17,6 +18,19 @@ problems:
 - customization-outside-version-control
 - user-frustration
 layout: solution
+related_solutions:
+- slug: authorization-concept
+  similarity: 0.7
+- slug: least-privilege
+  similarity: 0.65
+- slug: authorization
+  similarity: 0.65
+- slug: clear-ownership-model
+  similarity: 0.65
+- slug: clear-roles-and-ownership
+  similarity: 0.6
+- slug: feature-usage-measurement
+  similarity: 0.6
 ---
 
 ## Description

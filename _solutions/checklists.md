@@ -24,6 +24,19 @@ problems:
 - superficial-code-reviews
 - review-process-avoidance
 layout: solution
+related_solutions:
+- slug: runbooks
+  similarity: 0.8
+- slug: portability-checklists
+  similarity: 0.75
+- slug: incident-management
+  similarity: 0.75
+- slug: ci-cd-pipeline
+  similarity: 0.75
+- slug: restore-points
+  similarity: 0.7
+- slug: blameless-postmortems
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

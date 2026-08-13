@@ -13,6 +13,19 @@ problems:
 - complex-and-obscure-logic
 - knowledge-gaps
 layout: solution
+related_solutions:
+- slug: code-conventions
+  similarity: 0.75
+- slug: code-review-process-reform
+  similarity: 0.75
+- slug: clean-code
+  similarity: 0.7
+- slug: architecture-decision-records
+  similarity: 0.7
+- slug: documentation-as-code
+  similarity: 0.7
+- slug: architecture-documentation
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

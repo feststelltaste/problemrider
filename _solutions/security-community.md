@@ -12,6 +12,19 @@ problems:
 - implicit-knowledge
 - knowledge-sharing-breakdown
 layout: solution
+related_solutions:
+- slug: security-training
+  similarity: 0.8
+- slug: secure-software-development
+  similarity: 0.8
+- slug: raising-user-awareness
+  similarity: 0.8
+- slug: security-culture
+  similarity: 0.75
+- slug: security-certification
+  similarity: 0.75
+- slug: secure-coding-guidelines
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

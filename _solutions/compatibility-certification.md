@@ -1,6 +1,7 @@
 ---
 title: Compatibility Certification
-description: Obtain third-party attestation that software meets defined compatibility standards
+description: Obtain third-party attestation that software meets defined compatibility
+  standards
 category:
 - Process
 - Dependencies
@@ -12,6 +13,19 @@ problems:
 - poor-contract-design
 - quality-blind-spots
 layout: solution
+related_solutions:
+- slug: compatibility-testing
+  similarity: 0.85
+- slug: compatibility-testing-by-users
+  similarity: 0.85
+- slug: compatibility-measurement
+  similarity: 0.85
+- slug: compatibility-as-error
+  similarity: 0.8
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.8
+- slug: compatibility-governance
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

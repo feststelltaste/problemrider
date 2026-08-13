@@ -43,6 +43,19 @@ problems:
 - undefined-code-style-guidelines
 - customization-outside-version-control
 layout: solution
+related_solutions:
+- slug: code-review-process-reform
+  similarity: 0.85
+- slug: static-analysis-and-linting
+  similarity: 0.75
+- slug: code-quality-gates
+  similarity: 0.75
+- slug: code-metrics
+  similarity: 0.75
+- slug: architecture-reviews
+  similarity: 0.75
+- slug: code-conventions
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -14,6 +14,19 @@ problems:
 - large-risky-releases
 - stagnant-architecture
 layout: solution
+related_solutions:
+- slug: microservices
+  similarity: 0.9
+- slug: containerization
+  similarity: 0.75
+- slug: modulith
+  similarity: 0.75
+- slug: layered-architecture
+  similarity: 0.75
+- slug: hexagonal-architecture
+  similarity: 0.75
+- slug: service-mesh
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

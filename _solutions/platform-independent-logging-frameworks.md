@@ -1,6 +1,7 @@
 ---
 title: Platform-Independent Logging Frameworks
-description: Using logging frameworks that function consistently across different systems
+description: Using logging frameworks that function consistently across different
+  systems
 category:
 - Operations
 - Code
@@ -12,6 +13,19 @@ problems:
 - debugging-difficulties
 - deployment-environment-inconsistencies
 layout: solution
+related_solutions:
+- slug: logging
+  similarity: 0.8
+- slug: error-logging
+  similarity: 0.75
+- slug: asynchronous-logging
+  similarity: 0.75
+- slug: platform-independent-configuration-files
+  similarity: 0.75
+- slug: platform-independent-configuration-management
+  similarity: 0.75
+- slug: platform-independent-data-storage
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

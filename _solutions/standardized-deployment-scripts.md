@@ -1,6 +1,7 @@
 ---
 title: Standardized Deployment Scripts
-description: Create unified scripts for deployment and configuration across different platforms
+description: Create unified scripts for deployment and configuration across different
+  platforms
 category:
 - Operations
 - Process
@@ -13,6 +14,19 @@ problems:
 - immature-delivery-strategy
 - frequent-hotfixes-and-rollbacks
 layout: solution
+related_solutions:
+- slug: platform-independent-scripting-languages
+  similarity: 0.8
+- slug: platform-independent-configuration-management
+  similarity: 0.75
+- slug: platform-independent-configuration-files
+  similarity: 0.75
+- slug: continuous-integration-and-delivery
+  similarity: 0.75
+- slug: automated-migration-tools
+  similarity: 0.75
+- slug: cross-platform-build-scripts
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

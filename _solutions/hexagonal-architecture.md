@@ -14,6 +14,19 @@ problems:
 - stagnant-architecture
 - single-entry-point-design
 layout: solution
+related_solutions:
+- slug: layered-architecture
+  similarity: 0.75
+- slug: abstraction-layers
+  similarity: 0.75
+- slug: adapter
+  similarity: 0.75
+- slug: database-abstraction
+  similarity: 0.75
+- slug: microservices-architecture
+  similarity: 0.75
+- slug: protocol-abstraction
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

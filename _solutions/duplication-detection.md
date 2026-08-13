@@ -1,6 +1,8 @@
 ---
 title: Duplication Detection
-description: Systematically find where code has been copied, and check whether the copies have drifted apart — because the dangerous duplicates are the ones nobody knows about.
+description: "Systematically find where code has been copied, and check whether the\
+  \ copies have drifted apart \u2014 because the dangerous duplicates are the ones\
+  \ nobody knows about."
 category:
 - Code
 - Testing
@@ -21,6 +23,19 @@ problems:
 - large-estimates-for-small-changes
 - low-code-customization-sprawl
 layout: solution
+related_solutions:
+- slug: code-hotspot-analysis
+  similarity: 0.7
+- slug: static-analysis-and-linting
+  similarity: 0.7
+- slug: code-metrics
+  similarity: 0.65
+- slug: code-reading-sessions
+  similarity: 0.65
+- slug: technical-debt-assessment
+  similarity: 0.65
+- slug: code-review-process-reform
+  similarity: 0.65
 ---
 
 ## Description

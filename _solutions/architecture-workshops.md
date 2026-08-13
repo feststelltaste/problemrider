@@ -14,6 +14,19 @@ problems:
 - modernization-strategy-paralysis
 - resistance-to-change
 layout: solution
+related_solutions:
+- slug: architecture-reviews
+  similarity: 0.75
+- slug: architecture-documentation
+  similarity: 0.75
+- slug: architecture-roadmap
+  similarity: 0.75
+- slug: architecture-decision-records
+  similarity: 0.75
+- slug: architecture-conformity-analysis
+  similarity: 0.7
+- slug: architecture-review-board
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

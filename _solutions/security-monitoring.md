@@ -14,6 +14,19 @@ problems:
 - configuration-drift
 - session-management-issues
 layout: solution
+related_solutions:
+- slug: logging-and-monitoring
+  similarity: 0.85
+- slug: monitoring-system-integrity
+  similarity: 0.85
+- slug: monitoring
+  similarity: 0.8
+- slug: security-metrics
+  similarity: 0.8
+- slug: security-incident-handling
+  similarity: 0.8
+- slug: honeypots
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

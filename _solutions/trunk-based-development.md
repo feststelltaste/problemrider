@@ -1,6 +1,7 @@
 ---
 title: Trunk-Based Development
-description: Integrating short-lived branches continuously into main for rapid, safe modifications
+description: Integrating short-lived branches continuously into main for rapid, safe
+  modifications
 category:
 - Process
 problems:
@@ -17,6 +18,19 @@ problems:
 - review-bottlenecks
 - reduced-code-submission-frequency
 layout: solution
+related_solutions:
+- slug: continuous-integration
+  similarity: 0.8
+- slug: continuous-integration-and-delivery
+  similarity: 0.8
+- slug: rollback-mechanisms
+  similarity: 0.75
+- slug: continuous-delivery
+  similarity: 0.75
+- slug: canary-releases
+  similarity: 0.7
+- slug: chaos-engineering
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

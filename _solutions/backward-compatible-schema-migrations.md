@@ -13,6 +13,19 @@ problems:
 - breaking-changes
 - entity-attribute-value-overuse
 layout: solution
+related_solutions:
+- slug: backward-compatible-data-formats
+  similarity: 0.75
+- slug: evolutionary-database-design
+  similarity: 0.75
+- slug: backward-compatibility
+  similarity: 0.75
+- slug: backward-compatible-apis
+  similarity: 0.7
+- slug: automated-migration-tools
+  similarity: 0.7
+- slug: database-abstraction
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

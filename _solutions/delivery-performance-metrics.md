@@ -1,6 +1,7 @@
 ---
 title: Delivery Performance Metrics
-description: Track lead time, deployment frequency, change failure rate, and time to restore as a set, so that improvement claims and regressions both become visible.
+description: Track lead time, deployment frequency, change failure rate, and time
+  to restore as a set, so that improvement claims and regressions both become visible.
 category:
 - Process
 - Management
@@ -38,6 +39,19 @@ problems:
 - user-trust-erosion
 - difficulty-quantifying-benefits
 layout: solution
+related_solutions:
+- slug: baseline-measurement
+  similarity: 0.75
+- slug: ci-cd-pipeline
+  similarity: 0.75
+- slug: value-stream-mapping
+  similarity: 0.7
+- slug: development-environment-optimization
+  similarity: 0.7
+- slug: quality-ratchet
+  similarity: 0.7
+- slug: code-metrics
+  similarity: 0.7
 ---
 
 ## Description

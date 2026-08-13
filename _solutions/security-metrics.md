@@ -12,6 +12,19 @@ problems:
 - insufficient-audit-logging
 - poor-project-control
 layout: solution
+related_solutions:
+- slug: security-relevant-metrics
+  similarity: 0.95
+- slug: security-monitoring
+  similarity: 0.8
+- slug: security-frameworks
+  similarity: 0.8
+- slug: security-audits
+  similarity: 0.8
+- slug: security-certification
+  similarity: 0.8
+- slug: threat-modeling
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

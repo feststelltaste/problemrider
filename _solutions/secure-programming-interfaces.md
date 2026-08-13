@@ -12,6 +12,19 @@ problems:
 - inadequate-error-handling
 - dependency-version-conflicts
 layout: solution
+related_solutions:
+- slug: secure-coding-guidelines
+  similarity: 0.8
+- slug: security-frameworks
+  similarity: 0.75
+- slug: secure-by-default
+  similarity: 0.75
+- slug: security-tests
+  similarity: 0.75
+- slug: secure-software-development
+  similarity: 0.75
+- slug: secure-protocols
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

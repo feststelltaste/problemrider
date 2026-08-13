@@ -1,6 +1,7 @@
 ---
 title: Compatibility Documentation
-description: Maintain a living record of supported platforms, versions, and known limitations
+description: Maintain a living record of supported platforms, versions, and known
+  limitations
 category:
 - Communication
 - Process
@@ -12,6 +13,19 @@ problems:
 - difficult-developer-onboarding
 - information-decay
 layout: solution
+related_solutions:
+- slug: compatibility-requirements
+  similarity: 0.85
+- slug: compatibility-testing
+  similarity: 0.8
+- slug: compatibility-certification
+  similarity: 0.8
+- slug: compatibility-matrix
+  similarity: 0.8
+- slug: compatibility-measurement
+  similarity: 0.8
+- slug: compatibility-standards
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

@@ -20,6 +20,19 @@ problems:
 - microservice-communication-overhead
 - imperative-data-fetching-logic
 layout: solution
+related_solutions:
+- slug: distributed-caching
+  similarity: 0.8
+- slug: efficient-algorithms
+  similarity: 0.8
+- slug: performance-optimization
+  similarity: 0.8
+- slug: resource-usage-optimization
+  similarity: 0.75
+- slug: query-optimization-process
+  similarity: 0.75
+- slug: lazy-loading
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

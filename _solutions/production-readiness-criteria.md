@@ -1,6 +1,7 @@
 ---
 title: Production Readiness Criteria
-description: Define what a component must provide — observability, recovery, ownership, documentation — before it is allowed to carry production load.
+description: "Define what a component must provide \u2014 observability, recovery,\
+  \ ownership, documentation \u2014 before it is allowed to carry production load."
 category:
 - Operations
 - Process
@@ -30,6 +31,19 @@ problems:
 - resource-allocation-failures
 - service-discovery-failures
 layout: solution
+related_solutions:
+- slug: definition-of-done
+  similarity: 0.7
+- slug: definition-of-ready
+  similarity: 0.7
+- slug: clear-roles-and-ownership
+  similarity: 0.7
+- slug: status-monitoring
+  similarity: 0.7
+- slug: observability-and-monitoring
+  similarity: 0.65
+- slug: clear-ownership-model
+  similarity: 0.65
 ---
 
 ## Description

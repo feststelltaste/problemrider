@@ -1,6 +1,7 @@
 ---
 title: Asynchronous Operations
-description: Execute time-intensive operations in the background without blocking the UI
+description: Execute time-intensive operations in the background without blocking
+  the UI
 category:
 - Performance
 - Architecture
@@ -15,6 +16,19 @@ problems:
 - external-service-delays
 - negative-user-feedback
 layout: solution
+related_solutions:
+- slug: asynchronous-processing
+  similarity: 0.8
+- slug: performance-optimization
+  similarity: 0.8
+- slug: consistent-user-interface
+  similarity: 0.75
+- slug: concurrency-control
+  similarity: 0.75
+- slug: auto-save
+  similarity: 0.75
+- slug: optimistic-ui-updates
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

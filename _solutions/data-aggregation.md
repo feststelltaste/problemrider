@@ -11,6 +11,19 @@ problems:
 - gradual-performance-degradation
 - database-query-performance-issues
 layout: solution
+related_solutions:
+- slug: materialized-views
+  similarity: 0.75
+- slug: data-partitioning
+  similarity: 0.7
+- slug: data-archiving
+  similarity: 0.7
+- slug: denormalization
+  similarity: 0.7
+- slug: data-replication
+  similarity: 0.65
+- slug: sampling
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

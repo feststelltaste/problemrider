@@ -12,6 +12,19 @@ problems:
 - poor-documentation
 - modernization-strategy-paralysis
 layout: solution
+related_solutions:
+- slug: security-certification
+  similarity: 0.85
+- slug: secure-software-development
+  similarity: 0.8
+- slug: threat-modeling
+  similarity: 0.8
+- slug: security-relevant-metrics
+  similarity: 0.8
+- slug: security-metrics
+  similarity: 0.8
+- slug: security-architecture-analysis
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

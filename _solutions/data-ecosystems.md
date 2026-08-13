@@ -1,6 +1,7 @@
 ---
 title: Data Ecosystems
-description: Enable interoperability through shared data platforms, standards, and exchange protocols
+description: Enable interoperability through shared data platforms, standards, and
+  exchange protocols
 category:
 - Architecture
 - Database
@@ -12,6 +13,19 @@ problems:
 - poor-domain-model
 - system-integration-blindness
 layout: solution
+related_solutions:
+- slug: data-strategy
+  similarity: 0.85
+- slug: standardized-data-formats
+  similarity: 0.8
+- slug: canonical-data-model
+  similarity: 0.8
+- slug: data-integration
+  similarity: 0.8
+- slug: data-formats
+  similarity: 0.75
+- slug: platform-independent-data-storage
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

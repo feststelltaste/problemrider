@@ -1,6 +1,7 @@
 ---
 title: Zero Trust Architecture
-description: '"Never trust, always verify" — verifying every request regardless of network location'
+description: "\"Never trust, always verify\" \u2014 verifying every request regardless\
+  \ of network location"
 category:
 - Security
 - Architecture
@@ -13,6 +14,19 @@ problems:
 - poor-interfaces-between-applications
 - insecure-data-transmission
 layout: solution
+related_solutions:
+- slug: trust-boundaries
+  similarity: 0.75
+- slug: security-architecture-analysis
+  similarity: 0.7
+- slug: web-application-firewall
+  similarity: 0.7
+- slug: security-by-design
+  similarity: 0.7
+- slug: network-segmentation
+  similarity: 0.7
+- slug: security-certification
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

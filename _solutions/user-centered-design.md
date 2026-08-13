@@ -20,6 +20,19 @@ problems:
 - high-resource-utilization-on-client
 - inefficient-frontend-code
 layout: solution
+related_solutions:
+- slug: consistent-user-interface
+  similarity: 0.85
+- slug: intuitive-navigation
+  similarity: 0.8
+- slug: usability-tests
+  similarity: 0.8
+- slug: cognitive-load-minimization
+  similarity: 0.8
+- slug: user-stories
+  similarity: 0.8
+- slug: a-b-testing
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

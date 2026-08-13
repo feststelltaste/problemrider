@@ -23,6 +23,19 @@ problems:
 - technology-isolation
 - technical-architecture-limitations
 layout: solution
+related_solutions:
+- slug: architecture-documentation
+  similarity: 0.8
+- slug: architecture-decision-records
+  similarity: 0.8
+- slug: strangler-fig-pattern
+  similarity: 0.75
+- slug: architecture-workshops
+  similarity: 0.75
+- slug: walking-skeleton
+  similarity: 0.75
+- slug: architecture-governance
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

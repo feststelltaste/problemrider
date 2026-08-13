@@ -12,6 +12,19 @@ problems:
 - poor-system-environment
 - technology-lock-in
 layout: solution
+related_solutions:
+- slug: cryptographic-methods
+  similarity: 0.85
+- slug: secure-by-default
+  similarity: 0.8
+- slug: secure-software
+  similarity: 0.8
+- slug: encryption
+  similarity: 0.75
+- slug: vulnerability-scans
+  similarity: 0.75
+- slug: security-hardening-process
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

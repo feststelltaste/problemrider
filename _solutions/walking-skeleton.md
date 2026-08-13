@@ -15,6 +15,19 @@ problems:
 - incomplete-projects
 - large-feature-scope
 layout: solution
+related_solutions:
+- slug: strangler-fig-pattern
+  similarity: 0.75
+- slug: architecture-roadmap
+  similarity: 0.75
+- slug: prototypes
+  similarity: 0.7
+- slug: tracer-bullets
+  similarity: 0.7
+- slug: prototyping
+  similarity: 0.7
+- slug: architecture-decision-records
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

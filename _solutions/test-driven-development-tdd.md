@@ -13,6 +13,19 @@ problems:
 - high-bug-introduction-rate
 - refactoring-avoidance
 layout: solution
+related_solutions:
+- slug: automated-tests
+  similarity: 0.75
+- slug: mutation-testing
+  similarity: 0.75
+- slug: integration-tests
+  similarity: 0.75
+- slug: dependency-injection
+  similarity: 0.7
+- slug: living-documentation
+  similarity: 0.7
+- slug: trunk-based-development
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

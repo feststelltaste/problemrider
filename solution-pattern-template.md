@@ -3,6 +3,9 @@ title: [Synced from QT tactic file by scripts/sync_quality_tactics.py, or write 
 description: [Synced from QT tactic file by scripts/sync_quality_tactics.py, or write your own]
 category:
 - <a fitting category from the 15 core categories>
+related_solutions:
+# NOTE: The related_solutions section with similarity scores is automatically generated
+# by scripts/calculate_related_solutions.py. You can initially leave this empty.
 quality_tactics_url: https://qualitytactics.de/en/<quality-characteristic>/<tactic-slug>/
 # Remove quality_tactics_url entirely if this solution has no QT equivalent.
 problems:

@@ -1,6 +1,8 @@
 ---
 title: Master Data Stewardship
-description: Give each shared reference object one accountable steward, a defined creation process, and a measured quality standard, so that data crossing departments has an owner.
+description: Give each shared reference object one accountable steward, a defined
+  creation process, and a measured quality standard, so that data crossing departments
+  has an owner.
 category:
 - Database
 - Management
@@ -19,6 +21,19 @@ problems:
 - entity-attribute-value-overuse
 - system-integration-blindness
 layout: solution
+related_solutions:
+- slug: clear-ownership-model
+  similarity: 0.6
+- slug: clear-roles-and-ownership
+  similarity: 0.6
+- slug: data-quality-checks
+  similarity: 0.6
+- slug: attribute-usage-analysis
+  similarity: 0.6
+- slug: product-owner
+  similarity: 0.6
+- slug: role-model-rationalization
+  similarity: 0.55
 ---
 
 ## Description

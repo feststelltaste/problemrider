@@ -1,6 +1,7 @@
 ---
 title: Production-Like Test Data
-description: Build test data from anonymized production data so that tests encounter the messy, historical records that synthetic data never contains.
+description: Build test data from anonymized production data so that tests encounter
+  the messy, historical records that synthetic data never contains.
 category:
 - Testing
 - Database
@@ -23,6 +24,19 @@ problems:
 - test-debt
 - incorrect-index-type
 layout: solution
+related_solutions:
+- slug: mass-test-data-generation
+  similarity: 0.8
+- slug: simulation-environments
+  similarity: 0.65
+- slug: parallel-run
+  similarity: 0.65
+- slug: test-coverage-strategy
+  similarity: 0.65
+- slug: datensparsamkeit
+  similarity: 0.65
+- slug: characterization-tests
+  similarity: 0.6
 ---
 
 ## Description

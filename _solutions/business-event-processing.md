@@ -12,6 +12,19 @@ problems:
 - cascade-failures
 - complex-and-obscure-logic
 layout: solution
+related_solutions:
+- slug: event-driven-integration
+  similarity: 0.8
+- slug: event-driven-architecture
+  similarity: 0.75
+- slug: domain-driven-design
+  similarity: 0.75
+- slug: distributed-processing
+  similarity: 0.75
+- slug: asynchronous-processing
+  similarity: 0.7
+- slug: microservices-architecture
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

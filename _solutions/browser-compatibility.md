@@ -1,6 +1,7 @@
 ---
 title: Browser Compatibility
-description: Ensuring browser compatibility through the use of web standards and progressive enhancement
+description: Ensuring browser compatibility through the use of web standards and progressive
+  enhancement
 category:
 - Code
 - Dependencies
@@ -12,6 +13,19 @@ problems:
 - user-frustration
 - customer-dissatisfaction
 layout: solution
+related_solutions:
+- slug: compatibility-testing
+  similarity: 0.75
+- slug: cross-platform-frameworks
+  similarity: 0.75
+- slug: compatibility-certification
+  similarity: 0.75
+- slug: compatibility-as-error
+  similarity: 0.7
+- slug: compatibility-measurement
+  similarity: 0.7
+- slug: a-b-testing
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -20,6 +20,19 @@ problems:
 - lock-contention
 - misconfigured-connection-pools
 layout: solution
+related_solutions:
+- slug: load-testing
+  similarity: 0.9
+- slug: chaos-engineering
+  similarity: 0.85
+- slug: rate-limiting
+  similarity: 0.75
+- slug: integration-tests
+  similarity: 0.75
+- slug: cross-version-testing
+  similarity: 0.75
+- slug: resilience
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

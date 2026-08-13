@@ -15,6 +15,19 @@ problems:
 - history-of-failed-changes
 - inability-to-innovate
 layout: solution
+related_solutions:
+- slug: technical-spike
+  similarity: 0.8
+- slug: prototyping
+  similarity: 0.75
+- slug: prototypes
+  similarity: 0.75
+- slug: walking-skeleton
+  similarity: 0.7
+- slug: functional-tests
+  similarity: 0.7
+- slug: requirements-analysis
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

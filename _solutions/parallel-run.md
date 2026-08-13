@@ -1,6 +1,7 @@
 ---
 title: Parallel Run
-description: Run the old and new implementations side by side on real traffic, compare their outputs, and only cut over once the differences are understood.
+description: Run the old and new implementations side by side on real traffic, compare
+  their outputs, and only cut over once the differences are understood.
 category:
 - Architecture
 - Testing
@@ -25,6 +26,19 @@ problems:
 - retention-obligations-block-change
 - upgrade-blocked-by-customization
 layout: solution
+related_solutions:
+- slug: blue-green-canary-deployments
+  similarity: 0.7
+- slug: feature-flags
+  similarity: 0.7
+- slug: strangler-fig-pattern
+  similarity: 0.7
+- slug: ci-cd-pipeline
+  similarity: 0.7
+- slug: large-scale-refactoring
+  similarity: 0.65
+- slug: test-coverage-strategy
+  similarity: 0.65
 ---
 
 ## Description

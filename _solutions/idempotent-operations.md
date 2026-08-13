@@ -1,6 +1,7 @@
 ---
 title: Idempotent Operations
-description: Design operations so that repeated execution produces the same result as a single execution
+description: Design operations so that repeated execution produces the same result
+  as a single execution
 category:
 - Architecture
 - Code
@@ -14,6 +15,19 @@ problems:
 - unpredictable-system-behavior
 - synchronization-problems
 layout: solution
+related_solutions:
+- slug: idempotency-design
+  similarity: 0.95
+- slug: transactions
+  similarity: 0.75
+- slug: retry
+  similarity: 0.7
+- slug: saga-pattern
+  similarity: 0.7
+- slug: batch-processing
+  similarity: 0.7
+- slug: redundancy
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

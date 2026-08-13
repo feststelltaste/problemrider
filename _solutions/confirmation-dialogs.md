@@ -13,6 +13,19 @@ problems:
 - customer-dissatisfaction
 - increased-customer-support-load
 layout: solution
+related_solutions:
+- slug: undo-and-redo
+  similarity: 0.75
+- slug: auto-save
+  similarity: 0.75
+- slug: intuitive-navigation
+  similarity: 0.75
+- slug: transactions
+  similarity: 0.75
+- slug: understandable-error-messages
+  similarity: 0.75
+- slug: consistent-terminology
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

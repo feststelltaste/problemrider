@@ -1,6 +1,7 @@
 ---
 title: Application Portfolio Inventory
-description: Maintain a single record of what systems exist, what they do, who owns them, what they depend on, and what condition they are in.
+description: Maintain a single record of what systems exist, what they do, who owns
+  them, what they depend on, and what condition they are in.
 category:
 - Architecture
 - Management
@@ -30,6 +31,19 @@ problems:
 - retention-obligations-block-change
 - voided-vendor-support
 layout: solution
+related_solutions:
+- slug: system-decommissioning
+  similarity: 0.7
+- slug: dependency-management-strategy
+  similarity: 0.7
+- slug: clear-roles-and-ownership
+  similarity: 0.7
+- slug: technology-radar
+  similarity: 0.7
+- slug: clear-ownership-model
+  similarity: 0.7
+- slug: change-impact-analysis
+  similarity: 0.7
 ---
 
 ## Description

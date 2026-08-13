@@ -1,6 +1,7 @@
 ---
 title: API Security
-description: Securing APIs through rate limiting, schema validation, gateways, and token-based authentication
+description: Securing APIs through rate limiting, schema validation, gateways, and
+  token-based authentication
 category:
 - Security
 - Architecture
@@ -16,6 +17,19 @@ problems:
 - cross-site-scripting-vulnerabilities
 - graphql-complexity-issues
 layout: solution
+related_solutions:
+- slug: authentication
+  similarity: 0.75
+- slug: api-first-design
+  similarity: 0.75
+- slug: rate-limiting
+  similarity: 0.7
+- slug: data-flow-control
+  similarity: 0.7
+- slug: api-documentation
+  similarity: 0.7
+- slug: encryption
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

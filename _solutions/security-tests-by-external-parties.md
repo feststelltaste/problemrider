@@ -12,6 +12,19 @@ problems:
 - authorization-flaws
 - regulatory-compliance-drift
 layout: solution
+related_solutions:
+- slug: security-tests
+  similarity: 0.8
+- slug: regression-tests
+  similarity: 0.8
+- slug: penetration-tests
+  similarity: 0.8
+- slug: security-audits
+  similarity: 0.75
+- slug: vulnerability-scans
+  similarity: 0.75
+- slug: red-teaming
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

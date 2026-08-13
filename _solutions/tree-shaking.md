@@ -12,6 +12,19 @@ problems:
 - inefficient-frontend-code
 - gradual-performance-degradation
 layout: solution
+related_solutions:
+- slug: code-splitting
+  similarity: 0.8
+- slug: image-and-asset-optimization
+  similarity: 0.8
+- slug: strategic-code-deletion
+  similarity: 0.75
+- slug: lazy-loading
+  similarity: 0.75
+- slug: lazy-evaluation
+  similarity: 0.75
+- slug: compression
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

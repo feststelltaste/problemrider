@@ -13,6 +13,19 @@ problems:
 - difficult-developer-onboarding
 - technology-lock-in
 layout: solution
+related_solutions:
+- slug: authentication
+  similarity: 0.75
+- slug: two-factor-authentication
+  similarity: 0.75
+- slug: secret-management
+  similarity: 0.7
+- slug: cryptographic-methods
+  similarity: 0.7
+- slug: authorization
+  similarity: 0.7
+- slug: api-security
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

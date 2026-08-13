@@ -17,6 +17,19 @@ problems:
 - misconfigured-connection-pools
 - logging-configuration-issues
 layout: solution
+related_solutions:
+- slug: environment-variables-for-configuration
+  similarity: 0.85
+- slug: platform-independent-configuration-management
+  similarity: 0.8
+- slug: platform-independent-configuration-files
+  similarity: 0.75
+- slug: secure-configuration
+  similarity: 0.75
+- slug: virtual-networks
+  similarity: 0.7
+- slug: dependency-injection
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

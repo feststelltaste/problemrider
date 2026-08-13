@@ -12,6 +12,19 @@ problems:
 - high-resource-utilization-on-client
 - inefficient-frontend-code
 layout: solution
+related_solutions:
+- slug: pagination
+  similarity: 0.7
+- slug: performance-optimization
+  similarity: 0.65
+- slug: lazy-evaluation
+  similarity: 0.65
+- slug: lazy-loading
+  similarity: 0.65
+- slug: image-and-asset-optimization
+  similarity: 0.6
+- slug: predictive-loading
+  similarity: 0.6
 ---
 
 ## How to Apply ◆

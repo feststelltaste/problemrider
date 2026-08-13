@@ -12,6 +12,19 @@ problems:
 - gradual-performance-degradation
 - lazy-loading
 layout: solution
+related_solutions:
+- slug: lazy-loading
+  similarity: 0.95
+- slug: predictive-loading
+  similarity: 0.8
+- slug: progressive-loading
+  similarity: 0.75
+- slug: distributed-caching
+  similarity: 0.75
+- slug: connection-pooling
+  similarity: 0.75
+- slug: parallelization
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -15,6 +15,19 @@ problems:
 - feature-gaps
 - user-frustration
 layout: solution
+related_solutions:
+- slug: prototypes
+  similarity: 0.8
+- slug: prototyping
+  similarity: 0.8
+- slug: story-mapping
+  similarity: 0.75
+- slug: user-stories
+  similarity: 0.75
+- slug: user-centered-design
+  similarity: 0.75
+- slug: on-site-customer
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

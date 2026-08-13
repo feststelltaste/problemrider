@@ -21,6 +21,19 @@ problems:
 - team-churn-impact
 - incomplete-knowledge
 layout: solution
+related_solutions:
+- slug: documentation-as-code
+  similarity: 0.85
+- slug: architecture-documentation
+  similarity: 0.8
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.75
+- slug: runbooks
+  similarity: 0.75
+- slug: pattern-language
+  similarity: 0.75
+- slug: architecture-decision-records
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

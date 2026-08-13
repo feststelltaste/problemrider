@@ -1,6 +1,8 @@
 ---
 title: Sustainable Pace Practices
-description: Protect team health and long-term productivity by managing workload, limiting context switches, and ensuring recovery time through explicit policies and workflow design.
+description: Protect team health and long-term productivity by managing workload,
+  limiting context switches, and ensuring recovery time through explicit policies
+  and workflow design.
 category:
 - Team
 - Culture
@@ -28,6 +30,19 @@ problems:
 - reduced-innovation
 - time-pressure
 layout: solution
+related_solutions:
+- slug: team-autonomy-and-empowerment
+  similarity: 0.75
+- slug: cross-functional-skill-development
+  similarity: 0.75
+- slug: development-environment-optimization
+  similarity: 0.7
+- slug: short-iteration-cycles
+  similarity: 0.7
+- slug: on-call-duty
+  similarity: 0.7
+- slug: psychological-safety-practices
+  similarity: 0.7
 ---
 
 ## Description

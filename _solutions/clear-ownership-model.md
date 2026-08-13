@@ -1,6 +1,8 @@
 ---
 title: Clear Ownership Model
-description: Assign explicit, documented ownership of code, services, and decisions to specific individuals or teams, eliminating ambiguity about who is responsible for what.
+description: Assign explicit, documented ownership of code, services, and decisions
+  to specific individuals or teams, eliminating ambiguity about who is responsible
+  for what.
 category:
 - Team
 - Management
@@ -27,6 +29,19 @@ problems:
 - master-data-ownership-gaps
 - retention-obligations-block-change
 layout: solution
+related_solutions:
+- slug: clear-roles-and-ownership
+  similarity: 0.9
+- slug: product-owner
+  similarity: 0.8
+- slug: team-autonomy-and-empowerment
+  similarity: 0.75
+- slug: architecture-decision-records
+  similarity: 0.75
+- slug: decision-rights-and-escalation
+  similarity: 0.7
+- slug: modularization-and-bounded-contexts
+  similarity: 0.7
 ---
 
 ## Description

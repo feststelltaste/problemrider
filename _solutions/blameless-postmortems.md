@@ -29,6 +29,19 @@ problems:
 - decision-avoidance
 - power-struggles
 layout: solution
+related_solutions:
+- slug: psychological-safety-practices
+  similarity: 0.8
+- slug: root-cause-analysis
+  similarity: 0.75
+- slug: knowledge-sharing-practices
+  similarity: 0.75
+- slug: runbooks
+  similarity: 0.75
+- slug: incident-management
+  similarity: 0.75
+- slug: clear-roles-and-ownership
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

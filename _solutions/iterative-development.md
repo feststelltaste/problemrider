@@ -28,6 +28,19 @@ problems:
 - market-pressure
 - perfectionist-culture
 layout: solution
+related_solutions:
+- slug: short-iteration-cycles
+  similarity: 0.95
+- slug: feature-driven-development
+  similarity: 0.75
+- slug: evolutionary-requirements-development
+  similarity: 0.75
+- slug: stakeholder-feedback-loops
+  similarity: 0.75
+- slug: continuous-feedback
+  similarity: 0.75
+- slug: ci-cd-pipeline
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

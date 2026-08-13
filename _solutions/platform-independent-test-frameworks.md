@@ -12,6 +12,19 @@ problems:
 - flaky-tests
 - deployment-environment-inconsistencies
 layout: solution
+related_solutions:
+- slug: cross-platform-frameworks
+  similarity: 0.75
+- slug: compatibility-testing
+  similarity: 0.75
+- slug: cross-version-testing
+  similarity: 0.75
+- slug: platform-independence
+  similarity: 0.75
+- slug: platform-independent-scripting-languages
+  similarity: 0.7
+- slug: cross-platform-build-tools
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

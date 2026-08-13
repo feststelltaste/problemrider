@@ -1,6 +1,7 @@
 ---
 title: Vendor Management Practice
-description: Treat every external supplier as a managed risk with a named owner, tracked obligations, tested exit options, and a relationship that survives disagreement.
+description: Treat every external supplier as a managed risk with a named owner, tracked
+  obligations, tested exit options, and a relationship that survives disagreement.
 category:
 - Dependencies
 - Management
@@ -20,6 +21,19 @@ problems:
 - implementation-partner-dependency
 - voided-vendor-support
 layout: solution
+related_solutions:
+- slug: application-portfolio-inventory
+  similarity: 0.65
+- slug: dependency-management-strategy
+  similarity: 0.6
+- slug: continuous-dependency-updates
+  similarity: 0.6
+- slug: knowledge-sharing-practices
+  similarity: 0.6
+- slug: system-decommissioning
+  similarity: 0.6
+- slug: technology-radar
+  similarity: 0.55
 ---
 
 ## Description

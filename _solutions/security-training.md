@@ -13,6 +13,19 @@ problems:
 - inadequate-mentoring-structure
 - legacy-skill-shortage
 layout: solution
+related_solutions:
+- slug: raising-user-awareness
+  similarity: 0.85
+- slug: secure-software-development
+  similarity: 0.8
+- slug: security-community
+  similarity: 0.8
+- slug: secure-coding-guidelines
+  similarity: 0.8
+- slug: security-certification
+  similarity: 0.8
+- slug: security-culture
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

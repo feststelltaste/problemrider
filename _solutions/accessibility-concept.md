@@ -11,6 +11,19 @@ problems:
 - user-frustration
 - feature-gaps
 layout: solution
+related_solutions:
+- slug: assistive-technology-support
+  similarity: 0.85
+- slug: adaptive-behavior
+  similarity: 0.75
+- slug: a-b-testing
+  similarity: 0.7
+- slug: intuitive-navigation
+  similarity: 0.7
+- slug: user-centered-design
+  similarity: 0.7
+- slug: consistent-user-interface
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

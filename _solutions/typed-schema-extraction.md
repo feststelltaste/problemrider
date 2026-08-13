@@ -1,6 +1,7 @@
 ---
 title: Typed Schema Extraction
-description: Promote the attributes that are genuinely part of the domain into typed, constrained columns, and leave only the sparse remainder generic.
+description: Promote the attributes that are genuinely part of the domain into typed,
+  constrained columns, and leave only the sparse remainder generic.
 category:
 - Database
 - Architecture
@@ -19,6 +20,19 @@ problems:
 - high-technical-debt
 - data-migration-integrity-issues
 layout: solution
+related_solutions:
+- slug: attribute-usage-analysis
+  similarity: 0.7
+- slug: evolutionary-database-design
+  similarity: 0.7
+- slug: query-optimization-process
+  similarity: 0.6
+- slug: nosql-databases
+  similarity: 0.6
+- slug: index-lifecycle-management
+  similarity: 0.6
+- slug: production-like-test-data
+  similarity: 0.6
 ---
 
 ## Description

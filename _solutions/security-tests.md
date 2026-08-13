@@ -14,6 +14,19 @@ problems:
 - high-defect-rate-in-production
 - session-management-issues
 layout: solution
+related_solutions:
+- slug: regression-tests
+  similarity: 0.85
+- slug: secure-software-development
+  similarity: 0.85
+- slug: static-code-analysis
+  similarity: 0.85
+- slug: secure-coding-guidelines
+  similarity: 0.8
+- slug: security-tests-by-external-parties
+  similarity: 0.8
+- slug: vulnerability-scans
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

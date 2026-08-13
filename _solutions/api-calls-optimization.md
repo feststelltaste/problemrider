@@ -13,6 +13,19 @@ problems:
 - rest-api-design-issues
 - network-latency
 layout: solution
+related_solutions:
+- slug: image-and-asset-optimization
+  similarity: 0.75
+- slug: lazy-loading
+  similarity: 0.7
+- slug: performance-optimization
+  similarity: 0.7
+- slug: pagination
+  similarity: 0.7
+- slug: api-first-design
+  similarity: 0.7
+- slug: connection-pooling
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Variant Consolidation
-description: Periodically fold the variants that several customers share back into the standard product, and retire the ones nothing depends on.
+description: Periodically fold the variants that several customers share back into
+  the standard product, and retire the ones nothing depends on.
 category:
 - Architecture
 - Business
@@ -23,6 +24,19 @@ problems:
 - reimplemented-standard-functionality
 - upgrade-blocked-by-customization
 layout: solution
+related_solutions:
+- slug: customization-cost-attribution
+  similarity: 0.8
+- slug: explicit-extension-points
+  similarity: 0.7
+- slug: fit-to-standard-principle
+  similarity: 0.7
+- slug: feature-usage-measurement
+  similarity: 0.65
+- slug: consistent-terminology
+  similarity: 0.65
+- slug: large-scale-refactoring
+  similarity: 0.6
 ---
 
 ## Description

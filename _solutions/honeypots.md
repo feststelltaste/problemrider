@@ -10,6 +10,19 @@ problems:
 - data-protection-risk
 - insufficient-audit-logging
 layout: solution
+related_solutions:
+- slug: endpoint-detection-and-response
+  similarity: 0.8
+- slug: security-monitoring
+  similarity: 0.8
+- slug: threat-intelligence
+  similarity: 0.8
+- slug: logging-and-monitoring
+  similarity: 0.8
+- slug: incident-response-measures
+  similarity: 0.8
+- slug: network-segmentation
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

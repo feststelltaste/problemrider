@@ -1,7 +1,7 @@
 ---
 title: Memory Management Optimization
-description: Systematically identify and resolve memory-related performance issues through
-  profiling, bounded data structures, object lifecycle management, and allocation-aware
+description: Systematically identify and resolve memory-related performance issues
+  through profiling, bounded data structures, object lifecycle management, and allocation-aware
   design patterns.
 category:
 - Performance
@@ -16,6 +16,19 @@ problems:
 - stack-overflow-errors
 - improper-event-listener-management
 layout: solution
+related_solutions:
+- slug: resource-usage-optimization
+  similarity: 0.75
+- slug: profiling
+  similarity: 0.7
+- slug: efficient-algorithms
+  similarity: 0.7
+- slug: continuous-performance-monitoring
+  similarity: 0.7
+- slug: lazy-loading
+  similarity: 0.7
+- slug: connection-pooling
+  similarity: 0.65
 ---
 
 ## Description

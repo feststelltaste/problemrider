@@ -21,6 +21,19 @@ problems:
 - unreleased-resources
 - virtual-memory-thrashing
 layout: solution
+related_solutions:
+- slug: resource-usage-optimization
+  similarity: 0.85
+- slug: connection-pooling
+  similarity: 0.8
+- slug: concurrency-control
+  similarity: 0.75
+- slug: caching-strategy
+  similarity: 0.75
+- slug: efficient-algorithms
+  similarity: 0.75
+- slug: capacity-planning
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

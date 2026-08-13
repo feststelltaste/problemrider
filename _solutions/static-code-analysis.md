@@ -31,6 +31,19 @@ problems:
 - interrupt-overhead
 - memory-barrier-inefficiency
 layout: solution
+related_solutions:
+- slug: security-tests
+  similarity: 0.85
+- slug: static-analysis-and-linting
+  similarity: 0.8
+- slug: dynamic-code-analysis
+  similarity: 0.8
+- slug: secure-coding-guidelines
+  similarity: 0.8
+- slug: vulnerability-scans
+  similarity: 0.8
+- slug: secure-software
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

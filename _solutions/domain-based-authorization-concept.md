@@ -12,6 +12,19 @@ problems:
 - poor-domain-model
 - authorization-role-explosion
 layout: solution
+related_solutions:
+- slug: authorization-concept
+  similarity: 0.85
+- slug: authorization
+  similarity: 0.8
+- slug: role-based-access-control
+  similarity: 0.75
+- slug: least-privilege
+  similarity: 0.65
+- slug: role-model-rationalization
+  similarity: 0.6
+- slug: domain-modeling
+  similarity: 0.6
 ---
 
 ## How to Apply ◆

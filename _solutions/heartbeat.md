@@ -11,6 +11,19 @@ problems:
 - unpredictable-system-behavior
 - constant-firefighting
 layout: solution
+related_solutions:
+- slug: ping
+  similarity: 0.85
+- slug: watchdog
+  similarity: 0.85
+- slug: monitoring
+  similarity: 0.8
+- slug: failover-mechanisms
+  similarity: 0.7
+- slug: health-check-endpoints
+  similarity: 0.7
+- slug: self-monitoring-and-diagnosis
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

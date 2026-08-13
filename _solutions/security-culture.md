@@ -13,6 +13,19 @@ problems:
 - short-term-focus
 - fear-of-change
 layout: solution
+related_solutions:
+- slug: secure-software-development
+  similarity: 0.8
+- slug: security-training
+  similarity: 0.8
+- slug: security-community
+  similarity: 0.75
+- slug: security-metrics
+  similarity: 0.75
+- slug: security-certification
+  similarity: 0.75
+- slug: raising-user-awareness
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

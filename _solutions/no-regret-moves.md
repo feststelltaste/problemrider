@@ -1,6 +1,7 @@
 ---
 title: No-Regret Moves
-description: Identify the modernization steps that pay off under every plausible future, and do those first while the destination is still undecided.
+description: Identify the modernization steps that pay off under every plausible future,
+  and do those first while the destination is still undecided.
 category:
 - Architecture
 - Management
@@ -23,6 +24,19 @@ problems:
 - technology-stack-fragmentation
 - upgrade-blocked-by-customization
 layout: solution
+related_solutions:
+- slug: modernization-options-comparison
+  similarity: 0.75
+- slug: strangler-fig-pattern
+  similarity: 0.7
+- slug: architecture-decision-records
+  similarity: 0.7
+- slug: boring-technologies
+  similarity: 0.7
+- slug: staged-investment-with-decision-gates
+  similarity: 0.7
+- slug: architecture-roadmap
+  similarity: 0.65
 ---
 
 ## Description

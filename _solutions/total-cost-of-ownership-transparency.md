@@ -1,6 +1,8 @@
 ---
 title: Total Cost of Ownership Transparency
-description: Measure and publish what a legacy system actually costs to keep running — maintenance, incidents, licences, and lost capacity — so that investment decisions rest on numbers instead of impressions.
+description: "Measure and publish what a legacy system actually costs to keep running\
+  \ \u2014 maintenance, incidents, licences, and lost capacity \u2014 so that investment\
+  \ decisions rest on numbers instead of impressions."
 category:
 - Business
 - Management
@@ -25,6 +27,19 @@ problems:
 - excessive-customization
 - voided-vendor-support
 layout: solution
+related_solutions:
+- slug: cost-of-delay
+  similarity: 0.75
+- slug: business-metrics
+  similarity: 0.75
+- slug: technical-debt-backlog
+  similarity: 0.7
+- slug: risk-quantification
+  similarity: 0.7
+- slug: code-metrics
+  similarity: 0.7
+- slug: feature-usage-measurement
+  similarity: 0.7
 ---
 
 ## Description

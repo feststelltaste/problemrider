@@ -1,6 +1,8 @@
 ---
 title: Clear Roles and Ownership
-description: Define explicit responsibility boundaries, component ownership, and accountability structures so that every part of the system and every type of decision has a known owner.
+description: Define explicit responsibility boundaries, component ownership, and accountability
+  structures so that every part of the system and every type of decision has a known
+  owner.
 category:
 - Team
 - Process
@@ -31,6 +33,19 @@ problems:
 - review-process-breakdown
 - uneven-work-flow
 layout: solution
+related_solutions:
+- slug: clear-ownership-model
+  similarity: 0.9
+- slug: product-owner
+  similarity: 0.8
+- slug: team-autonomy-and-empowerment
+  similarity: 0.8
+- slug: structured-communication-protocols
+  similarity: 0.75
+- slug: team-boundaries-aligned-to-architecture
+  similarity: 0.75
+- slug: architecture-decision-records
+  similarity: 0.75
 ---
 
 ## Description

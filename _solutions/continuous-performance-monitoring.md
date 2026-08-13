@@ -30,6 +30,19 @@ problems:
 - poor-caching-strategy
 - serialization-deserialization-bottlenecks
 layout: solution
+related_solutions:
+- slug: performance-measurements
+  similarity: 0.9
+- slug: monitoring
+  similarity: 0.85
+- slug: transparent-performance-metrics
+  similarity: 0.85
+- slug: monitoring-system-utilization
+  similarity: 0.8
+- slug: performance-budgets
+  similarity: 0.8
+- slug: service-level-indicators
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

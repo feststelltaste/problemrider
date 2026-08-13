@@ -1,6 +1,7 @@
 ---
 title: Code Review Guidelines
-description: Agree in writing on what a review is for, what reviewers must check, what is merely an opinion, and when a change is good enough to merge.
+description: Agree in writing on what a review is for, what reviewers must check,
+  what is merely an opinion, and when a change is good enough to merge.
 category:
 - Code
 - Process
@@ -46,6 +47,19 @@ problems:
 - undefined-code-style-guidelines
 - low-code-customization-sprawl
 layout: solution
+related_solutions:
+- slug: code-review-process-reform
+  similarity: 0.8
+- slug: code-conventions
+  similarity: 0.75
+- slug: lightweight-design-review
+  similarity: 0.75
+- slug: architecture-reviews
+  similarity: 0.75
+- slug: small-change-batches
+  similarity: 0.7
+- slug: code-reviews
+  similarity: 0.7
 ---
 
 ## Description

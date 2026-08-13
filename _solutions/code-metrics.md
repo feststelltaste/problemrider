@@ -16,6 +16,19 @@ problems:
 - automated-tooling-ineffectiveness
 - excessive-class-size
 layout: solution
+related_solutions:
+- slug: static-analysis-and-linting
+  similarity: 0.85
+- slug: business-metrics
+  similarity: 0.8
+- slug: code-quality-gates
+  similarity: 0.8
+- slug: code-review-process-reform
+  similarity: 0.8
+- slug: technical-debt-backlog
+  similarity: 0.8
+- slug: code-coverage-analysis
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

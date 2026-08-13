@@ -69,6 +69,7 @@ Run the `scripts/create_visualization.py` with Python to generate the D3 graph v
 The `scripts/` directory contains more utility scripts for maintaining the catalog:
 
 * `calculate_related_problems.py`: Generates semantic similarity scores for related_problems sections using sentence-transformers. Updates all problem files with automatically calculated relationships based on content similarity.
+* `calculate_related_solutions.py`: Generates semantic similarity scores for related_solutions sections using the same embedding mechanism. Updates all solution files with automatically calculated similar solutions.
 * `backlog_refinement.py`: Takes ideas withing the file `scripts/backlog/candidates.md` and sorts them into different files depending on already existing or similar problems.
 * `sync_quality_tactics.py`: Syncs `title` and `description` from the Quality Tactics tactic files into `_solutions/` front matter for solutions that have a `quality_tactics_url`. Uses the `qualitaetstaktiken` sibling repo when available, otherwise falls back to `quality-tactics-reference.md`. Use `--dry-run` to preview.
 * `sync_problem_solution_links.py`: Keeps the problem <-> solution links consistent in both directions. Builds the union of the `solutions:` lists in `_problems/` and the `problems:` lists in `_solutions/`, writes it back to both sides, and reports links pointing to missing files. Run it after adding or changing links on either side. Use `--dry-run` to preview.

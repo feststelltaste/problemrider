@@ -1,6 +1,7 @@
 ---
 title: Compatibility as Error
-description: Treat compatibility regressions as build-breaking defects, not as acceptable technical debt
+description: Treat compatibility regressions as build-breaking defects, not as acceptable
+  technical debt
 category:
 - Process
 - Testing
@@ -12,6 +13,19 @@ problems:
 - quality-degradation
 - insufficient-testing
 layout: solution
+related_solutions:
+- slug: compatibility-measurement
+  similarity: 0.85
+- slug: compatibility-governance
+  similarity: 0.85
+- slug: compatibility-standards
+  similarity: 0.85
+- slug: compatibility-testing
+  similarity: 0.85
+- slug: backward-compatibility
+  similarity: 0.8
+- slug: compatibility-certification
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

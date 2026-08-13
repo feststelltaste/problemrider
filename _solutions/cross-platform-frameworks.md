@@ -12,6 +12,19 @@ problems:
 - duplicated-effort
 - scaling-inefficiencies
 layout: solution
+related_solutions:
+- slug: platform-independent-programming-languages
+  similarity: 0.8
+- slug: cross-platform-build-tools
+  similarity: 0.8
+- slug: platform-independence
+  similarity: 0.75
+- slug: platform-independent-data-storage
+  similarity: 0.75
+- slug: platform-independent-test-frameworks
+  similarity: 0.75
+- slug: emulation
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

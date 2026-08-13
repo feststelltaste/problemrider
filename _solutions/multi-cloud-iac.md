@@ -1,6 +1,7 @@
 ---
 title: Multi-Cloud Infrastructure as Code
-description: Provisioning infrastructure declaratively with provider-agnostic modules for multiple clouds
+description: Provisioning infrastructure declaratively with provider-agnostic modules
+  for multiple clouds
 category:
 - Operations
 - Architecture
@@ -14,6 +15,19 @@ problems:
 - deployment-environment-inconsistencies
 - manual-deployment-processes
 layout: solution
+related_solutions:
+- slug: infrastructure-as-code
+  similarity: 0.7
+- slug: immutable-infrastructure
+  similarity: 0.7
+- slug: containerization
+  similarity: 0.65
+- slug: cloud-native-development
+  similarity: 0.65
+- slug: virtual-networks
+  similarity: 0.65
+- slug: standardized-deployment-scripts
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

@@ -15,6 +15,19 @@ problems:
 - regulatory-compliance-drift
 - feature-gaps
 layout: solution
+related_solutions:
+- slug: accessibility-concept
+  similarity: 0.85
+- slug: consistent-user-interface
+  similarity: 0.75
+- slug: intuitive-navigation
+  similarity: 0.75
+- slug: user-centered-design
+  similarity: 0.75
+- slug: keyboard-support
+  similarity: 0.75
+- slug: a-b-testing
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

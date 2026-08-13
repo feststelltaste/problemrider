@@ -13,6 +13,19 @@ problems:
 - work-queue-buildup
 - unoptimized-file-access
 layout: solution
+related_solutions:
+- slug: data-stream-processing
+  similarity: 0.9
+- slug: pipelining
+  similarity: 0.75
+- slug: batch-processing
+  similarity: 0.75
+- slug: distributed-processing
+  similarity: 0.75
+- slug: data-replication
+  similarity: 0.7
+- slug: in-memory-processing
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

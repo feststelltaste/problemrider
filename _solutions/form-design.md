@@ -1,6 +1,7 @@
 ---
 title: Form Design and Multi-Step Wizards
-description: Structure complex data entry through grouped fields, wizards, and conditional visibility
+description: Structure complex data entry through grouped fields, wizards, and conditional
+  visibility
 category:
 - Requirements
 quality_tactics_url: https://qualitytactics.de/en/usability/form-design/
@@ -14,6 +15,19 @@ problems:
 - increased-cognitive-load
 - customer-dissatisfaction
 layout: solution
+related_solutions:
+- slug: progressive-disclosure
+  similarity: 0.75
+- slug: visual-hierarchy
+  similarity: 0.75
+- slug: real-time-input-validation
+  similarity: 0.75
+- slug: cognitive-load-minimization
+  similarity: 0.7
+- slug: intuitive-navigation
+  similarity: 0.7
+- slug: responsive-design
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -13,6 +13,19 @@ problems:
 - abi-compatibility-issues
 - endianness-conversion-overhead
 layout: solution
+related_solutions:
+- slug: compatibility-testing
+  similarity: 0.75
+- slug: integration-tests
+  similarity: 0.75
+- slug: cross-version-testing
+  similarity: 0.75
+- slug: compatibility-testing-by-users
+  similarity: 0.7
+- slug: isolated-test-environments
+  similarity: 0.7
+- slug: compatibility-certification
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

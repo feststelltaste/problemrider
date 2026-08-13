@@ -1,6 +1,7 @@
 ---
 title: Health Check Endpoints
-description: Exposing standardized health check APIs for load balancer and orchestrator monitoring
+description: Exposing standardized health check APIs for load balancer and orchestrator
+  monitoring
 category:
 - Operations
 - Architecture
@@ -13,6 +14,19 @@ problems:
 - service-discovery-failures
 - load-balancing-problems
 layout: solution
+related_solutions:
+- slug: ping
+  similarity: 0.75
+- slug: heartbeat
+  similarity: 0.7
+- slug: status-monitoring
+  similarity: 0.7
+- slug: self-test
+  similarity: 0.7
+- slug: self-monitoring-and-diagnosis
+  similarity: 0.7
+- slug: monitoring
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -48,6 +48,19 @@ problems:
 - serialization-deserialization-bottlenecks
 - task-queues-backing-up
 layout: solution
+related_solutions:
+- slug: continuous-performance-monitoring
+  similarity: 0.9
+- slug: transparent-performance-metrics
+  similarity: 0.85
+- slug: monitoring
+  similarity: 0.8
+- slug: performance-budgets
+  similarity: 0.8
+- slug: service-level-indicators
+  similarity: 0.75
+- slug: monitoring-system-utilization
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

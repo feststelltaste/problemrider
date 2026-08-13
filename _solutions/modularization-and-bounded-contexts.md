@@ -30,6 +30,19 @@ problems:
 - technical-architecture-limitations
 - excessive-customization
 layout: solution
+related_solutions:
+- slug: separation-of-concerns
+  similarity: 0.8
+- slug: strangler-fig-pattern
+  similarity: 0.75
+- slug: microservices
+  similarity: 0.75
+- slug: incremental-refactoring
+  similarity: 0.75
+- slug: loose-coupling
+  similarity: 0.75
+- slug: static-analysis-and-linting
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

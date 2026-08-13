@@ -12,6 +12,19 @@ problems:
 - increased-manual-work
 - deployment-environment-inconsistencies
 layout: solution
+related_solutions:
+- slug: cross-platform-build-scripts
+  similarity: 0.85
+- slug: platform-independent-programming-languages
+  similarity: 0.8
+- slug: platform-independent-configuration-files
+  similarity: 0.8
+- slug: standardized-deployment-scripts
+  similarity: 0.8
+- slug: cross-platform-build-tools
+  similarity: 0.8
+- slug: platform-independence
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

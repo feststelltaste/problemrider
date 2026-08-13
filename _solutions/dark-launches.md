@@ -1,6 +1,7 @@
 ---
 title: Dark Launches
-description: Limit blast radius of new features by deploying them hidden to a subset of users
+description: Limit blast radius of new features by deploying them hidden to a subset
+  of users
 category:
 - Operations
 - Process
@@ -12,6 +13,19 @@ problems:
 - release-instability
 - high-defect-rate-in-production
 layout: solution
+related_solutions:
+- slug: canary-releases
+  similarity: 0.8
+- slug: feature-toggles
+  similarity: 0.75
+- slug: chaos-engineering
+  similarity: 0.75
+- slug: rollback-mechanisms
+  similarity: 0.7
+- slug: restore-points
+  similarity: 0.7
+- slug: error-budgets
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

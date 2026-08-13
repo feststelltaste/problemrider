@@ -12,6 +12,19 @@ problems:
 - poor-system-environment
 - inefficient-development-environment
 layout: solution
+related_solutions:
+- slug: cross-platform-build-scripts
+  similarity: 0.9
+- slug: cross-platform-frameworks
+  similarity: 0.8
+- slug: platform-independent-programming-languages
+  similarity: 0.8
+- slug: platform-independence
+  similarity: 0.8
+- slug: platform-independent-configuration-files
+  similarity: 0.8
+- slug: platform-independent-build-pipelines
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

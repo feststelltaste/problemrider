@@ -13,6 +13,19 @@ problems:
 - monolithic-architecture-constraints
 - technical-architecture-limitations
 layout: solution
+related_solutions:
+- slug: redundancy
+  similarity: 0.8
+- slug: failover-cluster
+  similarity: 0.8
+- slug: data-replication
+  similarity: 0.8
+- slug: resilience
+  similarity: 0.75
+- slug: failover-mechanisms
+  similarity: 0.75
+- slug: load-balancing
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

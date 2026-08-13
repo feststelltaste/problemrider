@@ -12,6 +12,19 @@ problems:
 - integration-difficulties
 - abi-compatibility-issues
 layout: solution
+related_solutions:
+- slug: compatibility-testing
+  similarity: 0.9
+- slug: compatibility-testing-by-users
+  similarity: 0.8
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.75
+- slug: compatibility-certification
+  similarity: 0.75
+- slug: isolated-test-environments
+  similarity: 0.75
+- slug: integration-tests
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

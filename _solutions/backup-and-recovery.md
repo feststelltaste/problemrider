@@ -13,6 +13,19 @@ problems:
 - regulatory-compliance-drift
 - configuration-drift
 layout: solution
+related_solutions:
+- slug: regular-backups
+  similarity: 0.9
+- slug: restore-points
+  similarity: 0.8
+- slug: disaster-recovery
+  similarity: 0.8
+- slug: incident-response-measures
+  similarity: 0.8
+- slug: encryption
+  similarity: 0.8
+- slug: redundant-data-storage
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

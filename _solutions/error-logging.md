@@ -13,6 +13,19 @@ problems:
 - logging-configuration-issues
 - log-spam
 layout: solution
+related_solutions:
+- slug: logging
+  similarity: 0.85
+- slug: error-handling
+  similarity: 0.85
+- slug: error-reporting-and-analysis
+  similarity: 0.85
+- slug: error-logs
+  similarity: 0.85
+- slug: platform-independent-logging-frameworks
+  similarity: 0.75
+- slug: monitoring
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

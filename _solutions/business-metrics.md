@@ -1,6 +1,7 @@
 ---
 title: Business Metrics
-description: Define business metrics to evaluate the functionality and quality of the software
+description: Define business metrics to evaluate the functionality and quality of
+  the software
 category:
 - Business
 - Management
@@ -14,6 +15,19 @@ problems:
 - negative-brand-perception
 - resource-waste
 layout: solution
+related_solutions:
+- slug: code-metrics
+  similarity: 0.8
+- slug: total-cost-of-ownership-transparency
+  similarity: 0.75
+- slug: service-level-objectives
+  similarity: 0.75
+- slug: security-relevant-metrics
+  similarity: 0.75
+- slug: service-level-agreements
+  similarity: 0.75
+- slug: security-metrics
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

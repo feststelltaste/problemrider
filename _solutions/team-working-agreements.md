@@ -1,6 +1,8 @@
 ---
 title: Team Working Agreements
-description: Make the team's unwritten expectations explicit — how decisions are made, how disagreement is handled, what gets shared, what a meeting is for — and revise them when they fail.
+description: "Make the team's unwritten expectations explicit \u2014 how decisions\
+  \ are made, how disagreement is handled, what gets shared, what a meeting is for\
+  \ \u2014 and revise them when they fail."
 category:
 - Team
 - Culture
@@ -47,6 +49,19 @@ problems:
 - inadequate-initial-reviews
 - lack-of-ownership-and-accountability
 layout: solution
+related_solutions:
+- slug: code-review-guidelines
+  similarity: 0.7
+- slug: psychological-safety-practices
+  similarity: 0.7
+- slug: written-first-communication
+  similarity: 0.65
+- slug: decision-rights-and-escalation
+  similarity: 0.65
+- slug: team-retrospectives
+  similarity: 0.65
+- slug: code-conventions
+  similarity: 0.6
 ---
 
 ## Description

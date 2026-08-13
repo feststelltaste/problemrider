@@ -12,6 +12,19 @@ problems:
 - inadequate-error-handling
 - insecure-data-transmission
 layout: solution
+related_solutions:
+- slug: canonicalization
+  similarity: 0.75
+- slug: input-validation
+  similarity: 0.75
+- slug: encryption
+  similarity: 0.65
+- slug: logging-and-monitoring
+  similarity: 0.65
+- slug: authentication
+  similarity: 0.65
+- slug: data-flow-control
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

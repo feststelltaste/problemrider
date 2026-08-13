@@ -15,6 +15,19 @@ problems:
 - hardcoded-values
 - customer-dissatisfaction
 layout: solution
+related_solutions:
+- slug: consistent-terminology
+  similarity: 0.75
+- slug: plain-language
+  similarity: 0.7
+- slug: consistent-user-interface
+  similarity: 0.7
+- slug: understandable-error-messages
+  similarity: 0.7
+- slug: ubiquitous-language
+  similarity: 0.7
+- slug: intuitive-navigation
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

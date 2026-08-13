@@ -15,6 +15,19 @@ problems:
 - cache-invalidation-problems
 - testing-complexity
 layout: solution
+related_solutions:
+- slug: continuous-integration
+  similarity: 0.85
+- slug: automated-tests
+  similarity: 0.8
+- slug: mutation-testing
+  similarity: 0.8
+- slug: dependency-injection
+  similarity: 0.75
+- slug: test-driven-development-tdd
+  similarity: 0.75
+- slug: security-tests
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

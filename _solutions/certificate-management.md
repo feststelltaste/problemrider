@@ -1,6 +1,7 @@
 ---
 title: Certificate Management
-description: Managing X.509 certificate lifecycles including PKI, revocation, and pinning
+description: Managing X.509 certificate lifecycles including PKI, revocation, and
+  pinning
 category:
 - Security
 - Operations
@@ -13,6 +14,19 @@ problems:
 - poor-operational-concept
 - regulatory-compliance-drift
 layout: solution
+related_solutions:
+- slug: key-management
+  similarity: 0.8
+- slug: cryptographic-methods
+  similarity: 0.75
+- slug: secret-management
+  similarity: 0.75
+- slug: secure-protocols
+  similarity: 0.75
+- slug: encryption
+  similarity: 0.75
+- slug: authentication
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

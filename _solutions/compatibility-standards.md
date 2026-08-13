@@ -1,6 +1,7 @@
 ---
 title: Compatibility Standards
-description: Define binding rules for compatible development and enforce them in the delivery process
+description: Define binding rules for compatible development and enforce them in the
+  delivery process
 category:
 - Process
 - Architecture
@@ -12,6 +13,19 @@ problems:
 - quality-degradation
 - undefined-code-style-guidelines
 layout: solution
+related_solutions:
+- slug: compatibility-governance
+  similarity: 0.85
+- slug: compatibility-as-error
+  similarity: 0.85
+- slug: compatibility-measurement
+  similarity: 0.85
+- slug: compatibility-requirements
+  similarity: 0.8
+- slug: compatibility-certification
+  similarity: 0.8
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

@@ -15,6 +15,19 @@ problems:
 - fear-of-failure
 - past-negative-experiences
 layout: solution
+related_solutions:
+- slug: restore-points
+  similarity: 0.85
+- slug: canary-releases
+  similarity: 0.8
+- slug: chaos-engineering
+  similarity: 0.8
+- slug: regular-backups
+  similarity: 0.8
+- slug: rolling-updates
+  similarity: 0.75
+- slug: failover-mechanisms
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

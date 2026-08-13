@@ -11,6 +11,19 @@ problems:
 - user-frustration
 - high-client-side-resource-consumption
 layout: solution
+related_solutions:
+- slug: predictive-loading
+  similarity: 0.85
+- slug: progressive-loading
+  similarity: 0.75
+- slug: lazy-loading
+  similarity: 0.7
+- slug: lazy-evaluation
+  similarity: 0.7
+- slug: code-splitting
+  similarity: 0.7
+- slug: image-and-asset-optimization
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

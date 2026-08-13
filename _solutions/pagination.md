@@ -16,6 +16,19 @@ problems:
 - lazy-loading
 - unbounded-data-structures
 layout: solution
+related_solutions:
+- slug: lazy-loading
+  similarity: 0.75
+- slug: lazy-evaluation
+  similarity: 0.75
+- slug: performance-optimization
+  similarity: 0.7
+- slug: api-calls-optimization
+  similarity: 0.7
+- slug: data-partitioning
+  similarity: 0.7
+- slug: predictive-loading
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

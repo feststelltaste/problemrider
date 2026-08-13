@@ -1,6 +1,8 @@
 ---
 title: System Decommissioning
-description: Retire systems deliberately — with owners, dates, a data plan, and verified shutdown — rather than leaving them running because nobody has decided to stop them.
+description: "Retire systems deliberately \u2014 with owners, dates, a data plan,\
+  \ and verified shutdown \u2014 rather than leaving them running because nobody has\
+  \ decided to stop them."
 category:
 - Architecture
 - Management
@@ -25,6 +27,19 @@ problems:
 - vendor-dependency-entrapment
 - retention-obligations-block-change
 layout: solution
+related_solutions:
+- slug: retention-and-disposal-policy
+  similarity: 0.75
+- slug: application-portfolio-inventory
+  similarity: 0.7
+- slug: deprecation-strategy
+  similarity: 0.7
+- slug: feature-usage-measurement
+  similarity: 0.7
+- slug: total-cost-of-ownership-transparency
+  similarity: 0.65
+- slug: backup-and-recovery
+  similarity: 0.65
 ---
 
 ## Description

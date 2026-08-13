@@ -12,6 +12,19 @@ problems:
 - dma-coherency-issues
 - retention-obligations-block-change
 layout: solution
+related_solutions:
+- slug: redundant-checksums
+  similarity: 0.9
+- slug: error-correction-codes
+  similarity: 0.8
+- slug: data-integrity
+  similarity: 0.8
+- slug: continuous-data-verification
+  similarity: 0.8
+- slug: fault-tolerant-data-structures
+  similarity: 0.75
+- slug: plausibility-checks
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

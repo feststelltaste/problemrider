@@ -32,6 +32,19 @@ problems:
 - deadlock-conditions
 - log-injection-vulnerabilities
 layout: solution
+related_solutions:
+- slug: code-metrics
+  similarity: 0.85
+- slug: code-review-process-reform
+  similarity: 0.85
+- slug: static-code-analysis
+  similarity: 0.8
+- slug: code-quality-gates
+  similarity: 0.8
+- slug: dynamic-code-analysis
+  similarity: 0.8
+- slug: code-coverage-analysis
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

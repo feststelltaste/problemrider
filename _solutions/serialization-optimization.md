@@ -1,6 +1,7 @@
 ---
 title: Serialization Optimization
-description: Choose efficient serialization formats for performance-critical data exchange
+description: Choose efficient serialization formats for performance-critical data
+  exchange
 category:
 - Performance
 - Architecture
@@ -17,6 +18,19 @@ problems:
 - algorithmic-complexity-problems
 - resource-contention
 layout: solution
+related_solutions:
+- slug: efficient-algorithms
+  similarity: 0.8
+- slug: caching-strategy
+  similarity: 0.75
+- slug: profiling
+  similarity: 0.7
+- slug: resource-usage-optimization
+  similarity: 0.7
+- slug: api-calls-optimization
+  similarity: 0.7
+- slug: compression
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

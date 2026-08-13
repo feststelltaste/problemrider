@@ -12,6 +12,19 @@ problems:
 - delayed-value-delivery
 - planning-dysfunction
 layout: solution
+related_solutions:
+- slug: iterative-development
+  similarity: 0.75
+- slug: behavior-driven-development-bdd
+  similarity: 0.75
+- slug: continuous-delivery
+  similarity: 0.75
+- slug: user-stories
+  similarity: 0.75
+- slug: architecture-roadmap
+  similarity: 0.7
+- slug: strangler-fig-pattern
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

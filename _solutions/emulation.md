@@ -1,6 +1,7 @@
 ---
 title: Emulation
-description: Reproduce a foreign platform's behavior so existing software runs without modification
+description: Reproduce a foreign platform's behavior so existing software runs without
+  modification
 category:
 - Operations
 - Architecture
@@ -12,6 +13,19 @@ problems:
 - deployment-environment-inconsistencies
 - legacy-skill-shortage
 layout: solution
+related_solutions:
+- slug: containerization
+  similarity: 0.8
+- slug: platform-independent-data-storage
+  similarity: 0.75
+- slug: risk-analysis
+  similarity: 0.75
+- slug: abstraction-layers
+  similarity: 0.75
+- slug: automated-migration-tools
+  similarity: 0.75
+- slug: restore-points
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

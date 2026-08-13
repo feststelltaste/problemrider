@@ -16,6 +16,19 @@ problems:
 - null-pointer-dereferences
 - entity-attribute-value-overuse
 layout: solution
+related_solutions:
+- slug: canonicalization
+  similarity: 0.8
+- slug: authentication
+  similarity: 0.75
+- slug: negative-testing
+  similarity: 0.75
+- slug: output-encoding
+  similarity: 0.75
+- slug: value-range-definition
+  similarity: 0.75
+- slug: data-flow-control
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

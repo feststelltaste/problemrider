@@ -1,6 +1,7 @@
 ---
 title: Story Mapping
-description: Visualizing complete user journeys as a two-dimensional map of gaps and priorities
+description: Visualizing complete user journeys as a two-dimensional map of gaps and
+  priorities
 category:
 - Requirements
 - Process
@@ -23,6 +24,19 @@ problems:
 - unrealistic-schedule
 - frequent-changes-to-requirements
 layout: solution
+related_solutions:
+- slug: user-stories
+  similarity: 0.85
+- slug: wireframing
+  similarity: 0.75
+- slug: personas
+  similarity: 0.75
+- slug: prototypes
+  similarity: 0.75
+- slug: user-centered-design
+  similarity: 0.75
+- slug: architecture-roadmap
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

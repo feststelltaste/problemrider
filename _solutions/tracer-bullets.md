@@ -14,6 +14,19 @@ problems:
 - complex-implementation-paths
 - system-integration-blindness
 layout: solution
+related_solutions:
+- slug: walking-skeleton
+  similarity: 0.7
+- slug: prototypes
+  similarity: 0.7
+- slug: functional-spike
+  similarity: 0.7
+- slug: prototyping
+  similarity: 0.7
+- slug: strangler-fig-pattern
+  similarity: 0.65
+- slug: architecture-decision-records
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

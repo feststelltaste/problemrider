@@ -13,6 +13,19 @@ problems:
 - quality-compromises
 - inconsistent-quality
 layout: solution
+related_solutions:
+- slug: secure-coding-guidelines
+  similarity: 0.85
+- slug: security-tests
+  similarity: 0.85
+- slug: security-policies-for-development
+  similarity: 0.85
+- slug: security-certification
+  similarity: 0.8
+- slug: security-training
+  similarity: 0.8
+- slug: security-frameworks
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

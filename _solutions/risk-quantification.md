@@ -1,6 +1,7 @@
 ---
 title: Risk Quantification
-description: Express legacy risk as expected loss in money — likelihood times impact — so that avoided harm can compete with revenue in a funding decision.
+description: "Express legacy risk as expected loss in money \u2014 likelihood times\
+  \ impact \u2014 so that avoided harm can compete with revenue in a funding decision."
 category:
 - Business
 - Management
@@ -33,6 +34,19 @@ problems:
 - upgrade-blocked-by-customization
 - voided-vendor-support
 layout: solution
+related_solutions:
+- slug: risk-analysis
+  similarity: 0.75
+- slug: total-cost-of-ownership-transparency
+  similarity: 0.7
+- slug: cost-of-delay
+  similarity: 0.7
+- slug: requirements-analysis
+  similarity: 0.7
+- slug: functional-spike
+  similarity: 0.7
+- slug: knowledge-sharing-practices
+  similarity: 0.65
 ---
 
 ## Description

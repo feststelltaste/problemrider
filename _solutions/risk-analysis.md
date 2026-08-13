@@ -14,6 +14,19 @@ problems:
 - quality-blind-spots
 - difficulty-quantifying-benefits
 layout: solution
+related_solutions:
+- slug: threat-modeling
+  similarity: 0.8
+- slug: security-architecture-analysis
+  similarity: 0.8
+- slug: requirements-analysis
+  similarity: 0.8
+- slug: emulation
+  similarity: 0.75
+- slug: security-relevant-metrics
+  similarity: 0.75
+- slug: functional-gap-analysis
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

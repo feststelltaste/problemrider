@@ -1,6 +1,7 @@
 ---
 title: Distributed Tracing
-description: Tracking requests across microservice boundaries with their performance impact
+description: Tracking requests across microservice boundaries with their performance
+  impact
 category:
 - Operations
 - Performance
@@ -12,6 +13,19 @@ problems:
 - cascade-failures
 - slow-application-performance
 layout: solution
+related_solutions:
+- slug: monitoring
+  similarity: 0.75
+- slug: continuous-performance-monitoring
+  similarity: 0.75
+- slug: observability-and-monitoring
+  similarity: 0.75
+- slug: logging
+  similarity: 0.75
+- slug: performance-measurements
+  similarity: 0.75
+- slug: service-level-indicators
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -16,6 +16,19 @@ problems:
 - inefficient-code
 - inefficient-frontend-code
 layout: solution
+related_solutions:
+- slug: transparent-performance-metrics
+  similarity: 0.8
+- slug: performance-measurements
+  similarity: 0.8
+- slug: continuous-performance-monitoring
+  similarity: 0.8
+- slug: service-level-agreements
+  similarity: 0.8
+- slug: service-level-objectives
+  similarity: 0.75
+- slug: performance-optimization
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

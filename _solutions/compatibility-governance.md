@@ -1,6 +1,7 @@
 ---
 title: Compatibility Governance
-description: Assign ownership, track issues, and plan compatibility evolution across releases
+description: Assign ownership, track issues, and plan compatibility evolution across
+  releases
 category:
 - Management
 - Process
@@ -12,6 +13,19 @@ problems:
 - legacy-api-versioning-nightmare
 - unclear-goals-and-priorities
 layout: solution
+related_solutions:
+- slug: compatibility-measurement
+  similarity: 0.85
+- slug: compatibility-standards
+  similarity: 0.85
+- slug: compatibility-as-error
+  similarity: 0.85
+- slug: compatibility-certification
+  similarity: 0.8
+- slug: compatibility-requirements
+  similarity: 0.8
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Value Hierarchy
-description: Maintain an explicit chain from each piece of technical work up to a business objective, so that value can be traced rather than asserted.
+description: Maintain an explicit chain from each piece of technical work up to a
+  business objective, so that value can be traced rather than asserted.
 category:
 - Business
 - Management
@@ -32,6 +33,19 @@ problems:
 - stakeholder-frustration
 - high-technical-debt
 layout: solution
+related_solutions:
+- slug: impact-mapping
+  similarity: 0.65
+- slug: product-strategy-alignment
+  similarity: 0.65
+- slug: explicit-prioritization-framework
+  similarity: 0.65
+- slug: technical-debt-backlog
+  similarity: 0.65
+- slug: decision-rights-and-escalation
+  similarity: 0.65
+- slug: mikado-method
+  similarity: 0.65
 ---
 
 ## Description

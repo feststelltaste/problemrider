@@ -1,6 +1,7 @@
 ---
 title: Staged Investment With Decision Gates
-description: Fund modernization in tranches that each buy information, with a stated decision at every gate — including the decision to stop.
+description: "Fund modernization in tranches that each buy information, with a stated\
+  \ decision at every gate \u2014 including the decision to stop."
 category:
 - Management
 - Business
@@ -23,6 +24,19 @@ problems:
 - technology-lock-in
 - upgrade-blocked-by-customization
 layout: solution
+related_solutions:
+- slug: no-regret-moves
+  similarity: 0.7
+- slug: pilot-projects
+  similarity: 0.65
+- slug: modernization-options-comparison
+  similarity: 0.65
+- slug: executive-sponsorship
+  similarity: 0.65
+- slug: total-cost-of-ownership-transparency
+  similarity: 0.65
+- slug: strangler-fig-pattern
+  similarity: 0.65
 ---
 
 ## Description

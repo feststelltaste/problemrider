@@ -21,6 +21,19 @@ problems:
 - memory-barrier-inefficiency
 - garbage-collection-pressure
 layout: solution
+related_solutions:
+- slug: serialization-optimization
+  similarity: 0.8
+- slug: caching-strategy
+  similarity: 0.8
+- slug: profiling
+  similarity: 0.8
+- slug: query-optimization-process
+  similarity: 0.8
+- slug: resource-usage-optimization
+  similarity: 0.75
+- slug: performance-optimization
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

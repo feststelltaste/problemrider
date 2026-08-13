@@ -17,6 +17,19 @@ problems:
 - stack-overflow-errors
 - race-conditions
 layout: solution
+related_solutions:
+- slug: fuzz-testing
+  similarity: 0.8
+- slug: test-coverage-strategy
+  similarity: 0.75
+- slug: input-validation
+  similarity: 0.75
+- slug: functional-tests
+  similarity: 0.75
+- slug: penetration-tests
+  similarity: 0.75
+- slug: automated-tests
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

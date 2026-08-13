@@ -16,6 +16,19 @@ problems:
 - long-running-database-transactions
 - long-running-transactions
 layout: solution
+related_solutions:
+- slug: distributed-processing
+  similarity: 0.8
+- slug: pipelining
+  similarity: 0.8
+- slug: parallelization
+  similarity: 0.75
+- slug: streaming
+  similarity: 0.75
+- slug: transactions
+  similarity: 0.75
+- slug: lazy-loading
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

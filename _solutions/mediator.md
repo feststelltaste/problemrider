@@ -12,6 +12,19 @@ problems:
 - monolithic-architecture-constraints
 - ripple-effect-of-changes
 layout: solution
+related_solutions:
+- slug: adapter
+  similarity: 0.75
+- slug: facades
+  similarity: 0.75
+- slug: high-cohesion
+  similarity: 0.75
+- slug: abstraction
+  similarity: 0.75
+- slug: dependency-injection
+  similarity: 0.7
+- slug: protocol-abstraction
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

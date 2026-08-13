@@ -16,6 +16,19 @@ problems:
 - logging-configuration-issues
 - customization-outside-version-control
 layout: solution
+related_solutions:
+- slug: security-audits
+  similarity: 0.8
+- slug: security-hardening-process
+  similarity: 0.8
+- slug: secure-configuration
+  similarity: 0.8
+- slug: vulnerability-scans
+  similarity: 0.75
+- slug: logging-and-monitoring
+  similarity: 0.75
+- slug: penetration-tests
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

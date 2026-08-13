@@ -13,6 +13,19 @@ problems:
 - feature-gaps
 - negative-brand-perception
 layout: solution
+related_solutions:
+- slug: feedback-mechanisms
+  similarity: 0.9
+- slug: continuous-feedback
+  similarity: 0.75
+- slug: user-centered-design
+  similarity: 0.75
+- slug: prototyping
+  similarity: 0.75
+- slug: on-site-customer
+  similarity: 0.7
+- slug: stakeholder-feedback-loops
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

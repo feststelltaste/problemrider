@@ -13,6 +13,19 @@ problems:
 - technology-lock-in
 - regulatory-compliance-drift
 layout: solution
+related_solutions:
+- slug: third-party-dependency-check
+  similarity: 0.75
+- slug: secure-software-development
+  similarity: 0.75
+- slug: security-certification
+  similarity: 0.75
+- slug: secure-protocols
+  similarity: 0.75
+- slug: secure-software
+  similarity: 0.7
+- slug: security-tests
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

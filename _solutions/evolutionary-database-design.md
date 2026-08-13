@@ -17,6 +17,19 @@ problems:
 - long-running-database-transactions
 - entity-attribute-value-overuse
 layout: solution
+related_solutions:
+- slug: backward-compatible-schema-migrations
+  similarity: 0.75
+- slug: query-optimization-process
+  similarity: 0.75
+- slug: ci-cd-pipeline
+  similarity: 0.75
+- slug: containerized-databases
+  similarity: 0.7
+- slug: strangler-fig-pattern
+  similarity: 0.7
+- slug: nosql-databases
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

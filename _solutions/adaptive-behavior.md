@@ -1,6 +1,7 @@
 ---
 title: Adaptive Behavior
-description: Adjustment of system behavior based on the context, preferences, or behavior of the user
+description: Adjustment of system behavior based on the context, preferences, or behavior
+  of the user
 category:
 - Requirements
 - Architecture
@@ -13,6 +14,19 @@ problems:
 - user-confusion
 - declining-business-metrics
 layout: solution
+related_solutions:
+- slug: intuitive-navigation
+  similarity: 0.8
+- slug: a-b-testing
+  similarity: 0.75
+- slug: customizing
+  similarity: 0.75
+- slug: accessibility-concept
+  similarity: 0.75
+- slug: consistent-user-interface
+  similarity: 0.75
+- slug: cognitive-load-minimization
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

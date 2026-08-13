@@ -1,6 +1,7 @@
 ---
 title: Data Export and Liberation
-description: Enabling users to export their data in standard portable formats for migration and compliance
+description: Enabling users to export their data in standard portable formats for
+  migration and compliance
 category:
 - Architecture
 - Business
@@ -12,6 +13,19 @@ problems:
 - vendor-dependency
 - regulatory-compliance-drift
 layout: solution
+related_solutions:
+- slug: standardized-data-formats
+  similarity: 0.75
+- slug: data-formats
+  similarity: 0.75
+- slug: platform-independent-data-storage
+  similarity: 0.7
+- slug: data-format-conversion
+  similarity: 0.7
+- slug: automated-migration-tools
+  similarity: 0.7
+- slug: data-ecosystems
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

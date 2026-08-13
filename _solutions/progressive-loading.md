@@ -12,6 +12,19 @@ problems:
 - slow-response-times-for-lists
 - high-resource-utilization-on-client
 layout: solution
+related_solutions:
+- slug: predictive-loading
+  similarity: 0.8
+- slug: lazy-loading
+  similarity: 0.8
+- slug: lazy-evaluation
+  similarity: 0.75
+- slug: predictive-prefetching
+  similarity: 0.75
+- slug: image-and-asset-optimization
+  similarity: 0.7
+- slug: performance-optimization
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

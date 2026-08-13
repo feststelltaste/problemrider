@@ -1,6 +1,8 @@
 ---
 title: Debt Classification
-description: Sort technical debt by whether it is actually charging you anything, so that effort goes to the debt that costs and the rest can be left alone without guilt.
+description: Sort technical debt by whether it is actually charging you anything,
+  so that effort goes to the debt that costs and the rest can be left alone without
+  guilt.
 category:
 - Code
 - Process
@@ -24,6 +26,19 @@ problems:
 - workaround-culture
 - low-code-customization-sprawl
 layout: solution
+related_solutions:
+- slug: technical-debt-backlog
+  similarity: 0.85
+- slug: debt-accrual-analysis
+  similarity: 0.8
+- slug: debt-remediation-estimation
+  similarity: 0.8
+- slug: technical-debt-assessment
+  similarity: 0.75
+- slug: functional-debt-management
+  similarity: 0.75
+- slug: code-hotspot-analysis
+  similarity: 0.7
 ---
 
 ## Description

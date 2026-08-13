@@ -12,6 +12,19 @@ problems:
 - high-database-resource-utilization
 - scaling-inefficiencies
 layout: solution
+related_solutions:
+- slug: read-replicas
+  similarity: 0.9
+- slug: redundant-data-storage
+  similarity: 0.85
+- slug: distributed-caching
+  similarity: 0.8
+- slug: denormalization
+  similarity: 0.8
+- slug: distributed-processing
+  similarity: 0.8
+- slug: redundancy
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

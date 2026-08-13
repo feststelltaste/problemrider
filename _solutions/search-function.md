@@ -14,6 +14,19 @@ problems:
 - shadow-systems
 - information-fragmentation
 layout: solution
+related_solutions:
+- slug: intuitive-navigation
+  similarity: 0.85
+- slug: knowledge-base
+  similarity: 0.75
+- slug: auto-save
+  similarity: 0.75
+- slug: visual-hierarchy
+  similarity: 0.75
+- slug: undo-and-redo
+  similarity: 0.7
+- slug: user-centered-design
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

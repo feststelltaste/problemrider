@@ -13,6 +13,19 @@ problems:
 - increased-error-rates
 - unpredictable-system-behavior
 layout: solution
+related_solutions:
+- slug: feedback-mechanisms
+  similarity: 0.75
+- slug: confirmation-dialogs
+  similarity: 0.7
+- slug: auto-save
+  similarity: 0.7
+- slug: intuitive-navigation
+  similarity: 0.7
+- slug: visual-hierarchy
+  similarity: 0.7
+- slug: real-time-input-validation
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

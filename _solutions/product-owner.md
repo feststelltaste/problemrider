@@ -1,7 +1,7 @@
 ---
 title: Product Owner
-description: Assign responsibility for business requirements and acceptance to a dedicated role
-  role
+description: Assign responsibility for business requirements and acceptance to a dedicated
+  role role
 category:
 - Management
 - Process
@@ -25,6 +25,19 @@ problems:
 - competing-priorities
 - priority-thrashing
 layout: solution
+related_solutions:
+- slug: clear-ownership-model
+  similarity: 0.8
+- slug: clear-roles-and-ownership
+  similarity: 0.8
+- slug: team-autonomy-and-empowerment
+  similarity: 0.75
+- slug: on-site-customer
+  similarity: 0.7
+- slug: formal-change-control-process
+  similarity: 0.7
+- slug: product-strategy-alignment
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

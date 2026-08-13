@@ -1,6 +1,8 @@
 ---
 title: Workaround Registry
-description: Record every workaround at the moment it is introduced — what it hides, what it costs, and what would remove it — so that temporary fixes stop becoming permanent invisibly.
+description: "Record every workaround at the moment it is introduced \u2014 what it\
+  \ hides, what it costs, and what would remove it \u2014 so that temporary fixes\
+  \ stop becoming permanent invisibly."
 category:
 - Code
 - Process
@@ -19,6 +21,19 @@ problems:
 - high-technical-debt
 - operational-overhead
 layout: solution
+related_solutions:
+- slug: blameless-postmortems
+  similarity: 0.7
+- slug: architecture-decision-records
+  similarity: 0.7
+- slug: technical-debt-backlog
+  similarity: 0.7
+- slug: knowledge-sharing-practices
+  similarity: 0.7
+- slug: code-review-process-reform
+  similarity: 0.7
+- slug: knowledge-base
+  similarity: 0.65
 ---
 
 ## Description

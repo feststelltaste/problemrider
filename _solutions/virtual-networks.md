@@ -12,6 +12,19 @@ problems:
 - poor-system-environment
 - network-latency
 layout: solution
+related_solutions:
+- slug: containerization
+  similarity: 0.75
+- slug: protocol-abstraction
+  similarity: 0.75
+- slug: database-abstraction
+  similarity: 0.75
+- slug: abstraction-layers
+  similarity: 0.75
+- slug: virtual-development-environments
+  similarity: 0.75
+- slug: platform-independent-configuration-management
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -12,6 +12,19 @@ problems:
 - endianness-conversion-overhead
 - alignment-and-padding-issues
 layout: solution
+related_solutions:
+- slug: standardized-data-formats
+  similarity: 0.95
+- slug: data-format-conversion
+  similarity: 0.85
+- slug: backward-compatible-data-formats
+  similarity: 0.8
+- slug: data-ecosystems
+  similarity: 0.75
+- slug: data-strategy
+  similarity: 0.75
+- slug: canonical-data-model
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

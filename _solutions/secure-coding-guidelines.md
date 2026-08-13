@@ -15,6 +15,19 @@ problems:
 - inadequate-error-handling
 - log-injection-vulnerabilities
 layout: solution
+related_solutions:
+- slug: secure-software-development
+  similarity: 0.85
+- slug: security-tests
+  similarity: 0.8
+- slug: security-training
+  similarity: 0.8
+- slug: static-code-analysis
+  similarity: 0.8
+- slug: security-policies-for-development
+  similarity: 0.8
+- slug: secure-programming-interfaces
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

@@ -11,6 +11,19 @@ problems:
 - data-migration-integrity-issues
 - unbounded-data-growth
 layout: solution
+related_solutions:
+- slug: redundancy
+  similarity: 0.85
+- slug: data-replication
+  similarity: 0.85
+- slug: regular-backups
+  similarity: 0.8
+- slug: data-deduplication
+  similarity: 0.8
+- slug: data-archiving
+  similarity: 0.8
+- slug: platform-independent-data-storage
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

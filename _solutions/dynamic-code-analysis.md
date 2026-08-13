@@ -14,6 +14,19 @@ problems:
 - legacy-code-without-tests
 - insufficient-testing
 layout: solution
+related_solutions:
+- slug: static-code-analysis
+  similarity: 0.8
+- slug: static-analysis-and-linting
+  similarity: 0.8
+- slug: penetration-tests
+  similarity: 0.8
+- slug: fuzz-testing
+  similarity: 0.8
+- slug: security-tests
+  similarity: 0.75
+- slug: regression-tests
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

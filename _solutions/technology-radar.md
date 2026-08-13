@@ -1,6 +1,7 @@
 ---
 title: Technology Radar
-description: Maintain an explicit, periodically reviewed list of which technologies the organization adopts, tolerates, or retires — and hold decisions to it.
+description: "Maintain an explicit, periodically reviewed list of which technologies\
+  \ the organization adopts, tolerates, or retires \u2014 and hold decisions to it."
 category:
 - Architecture
 - Management
@@ -23,6 +24,19 @@ problems:
 - vendor-relationship-strain
 - reimplemented-standard-functionality
 layout: solution
+related_solutions:
+- slug: boring-technologies
+  similarity: 0.8
+- slug: architecture-decision-records
+  similarity: 0.7
+- slug: technical-debt-backlog
+  similarity: 0.7
+- slug: application-portfolio-inventory
+  similarity: 0.7
+- slug: architecture-review-board
+  similarity: 0.7
+- slug: architecture-reviews
+  similarity: 0.65
 ---
 
 ## Description

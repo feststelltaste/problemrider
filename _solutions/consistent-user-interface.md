@@ -15,6 +15,19 @@ problems:
 - shadow-systems
 - increased-cognitive-load
 layout: solution
+related_solutions:
+- slug: consistent-terminology
+  similarity: 0.85
+- slug: style-guide
+  similarity: 0.85
+- slug: user-centered-design
+  similarity: 0.85
+- slug: intuitive-navigation
+  similarity: 0.8
+- slug: cognitive-load-minimization
+  similarity: 0.8
+- slug: a-b-testing
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

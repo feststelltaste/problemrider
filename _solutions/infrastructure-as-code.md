@@ -21,6 +21,19 @@ problems:
 - testing-environment-fragility
 - customization-outside-version-control
 layout: solution
+related_solutions:
+- slug: immutable-infrastructure
+  similarity: 0.8
+- slug: ci-cd-pipeline
+  similarity: 0.75
+- slug: documentation-as-code
+  similarity: 0.75
+- slug: secret-management
+  similarity: 0.7
+- slug: code-review-process-reform
+  similarity: 0.7
+- slug: static-analysis-and-linting
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Digital Signatures
-description: Using cryptographic signatures for code signing, document verification, and proving authorship
+description: Using cryptographic signatures for code signing, document verification,
+  and proving authorship
 category:
 - Security
 problems:
@@ -11,6 +12,19 @@ problems:
 - secret-management-problems
 - deployment-risk
 layout: solution
+related_solutions:
+- slug: authentication
+  similarity: 0.75
+- slug: key-management
+  similarity: 0.7
+- slug: encryption
+  similarity: 0.7
+- slug: cryptographic-methods
+  similarity: 0.7
+- slug: certificate-management
+  similarity: 0.7
+- slug: audit-trail-management
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

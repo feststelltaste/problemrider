@@ -27,6 +27,19 @@ problems:
 - work-queue-buildup
 - task-queues-backing-up
 layout: solution
+related_solutions:
+- slug: monitoring
+  similarity: 0.85
+- slug: continuous-performance-monitoring
+  similarity: 0.8
+- slug: proactive-capacity-management
+  similarity: 0.8
+- slug: capacity-planning
+  similarity: 0.75
+- slug: elastic-resource-utilization
+  similarity: 0.75
+- slug: performance-measurements
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

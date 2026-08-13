@@ -13,6 +13,19 @@ problems:
 - authentication-bypass-vulnerabilities
 - authorization-role-explosion
 layout: solution
+related_solutions:
+- slug: authorization
+  similarity: 0.85
+- slug: domain-based-authorization-concept
+  similarity: 0.85
+- slug: role-based-access-control
+  similarity: 0.75
+- slug: least-privilege
+  similarity: 0.75
+- slug: role-model-rationalization
+  similarity: 0.7
+- slug: authentication
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

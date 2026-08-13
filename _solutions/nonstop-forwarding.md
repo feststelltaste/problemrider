@@ -10,6 +10,19 @@ problems:
 - single-points-of-failure
 - unpredictable-system-behavior
 layout: solution
+related_solutions:
+- slug: failover-mechanisms
+  similarity: 0.75
+- slug: retry
+  similarity: 0.75
+- slug: failover-cluster
+  similarity: 0.75
+- slug: resilience
+  similarity: 0.75
+- slug: circuit-breaker
+  similarity: 0.7
+- slug: rate-limiting
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

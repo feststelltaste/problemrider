@@ -11,6 +11,19 @@ problems:
 - monitoring-gaps
 - deployment-risk
 layout: solution
+related_solutions:
+- slug: regular-backups
+  similarity: 0.8
+- slug: restore-points
+  similarity: 0.8
+- slug: backup-and-recovery
+  similarity: 0.8
+- slug: chaos-engineering
+  similarity: 0.75
+- slug: incident-management
+  similarity: 0.75
+- slug: failover-mechanisms
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

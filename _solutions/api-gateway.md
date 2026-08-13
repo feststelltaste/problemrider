@@ -1,6 +1,7 @@
 ---
 title: API Gateway
-description: Centralizing protocol translation, versioning, and routing through a single entry point
+description: Centralizing protocol translation, versioning, and routing through a
+  single entry point
 category:
 - Architecture
 - Operations
@@ -15,6 +16,19 @@ problems:
 - service-discovery-failures
 - graphql-complexity-issues
 layout: solution
+related_solutions:
+- slug: protocol-abstraction
+  similarity: 0.8
+- slug: adapter
+  similarity: 0.8
+- slug: api-deprecation-policy
+  similarity: 0.75
+- slug: containerization
+  similarity: 0.7
+- slug: event-driven-integration
+  similarity: 0.7
+- slug: api-first-development
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

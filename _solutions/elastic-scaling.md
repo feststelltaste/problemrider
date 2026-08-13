@@ -20,6 +20,19 @@ problems:
 - load-balancing-problems
 - memory-swapping
 layout: solution
+related_solutions:
+- slug: elastic-resource-utilization
+  similarity: 0.8
+- slug: horizontal-scaling
+  similarity: 0.75
+- slug: capacity-planning
+  similarity: 0.75
+- slug: backpressure
+  similarity: 0.7
+- slug: resource-pooling
+  similarity: 0.7
+- slug: resource-usage-optimization
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

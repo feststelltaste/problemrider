@@ -12,6 +12,19 @@ problems:
 - requirements-ambiguity
 - spaghetti-code
 layout: solution
+related_solutions:
+- slug: rule-based-systems
+  similarity: 0.8
+- slug: domain-specific-languages
+  similarity: 0.7
+- slug: business-process-automation
+  similarity: 0.65
+- slug: architecture-decision-records
+  similarity: 0.65
+- slug: business-test-cases
+  similarity: 0.65
+- slug: code-metrics
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

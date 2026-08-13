@@ -1,6 +1,7 @@
 ---
 title: Definition of Ready
-description: Agree what a piece of work must contain before the team starts it, so that half-specified work stops entering development and stalling there.
+description: Agree what a piece of work must contain before the team starts it, so
+  that half-specified work stops entering development and stalling there.
 category:
 - Requirements
 - Process
@@ -35,6 +36,19 @@ problems:
 - excessive-customization
 - process-software-misfit
 layout: solution
+related_solutions:
+- slug: definition-of-done
+  similarity: 0.75
+- slug: production-readiness-criteria
+  similarity: 0.7
+- slug: work-in-progress-limits
+  similarity: 0.65
+- slug: explicit-prioritization-framework
+  similarity: 0.65
+- slug: change-impact-analysis
+  similarity: 0.65
+- slug: evolutionary-requirements-development
+  similarity: 0.65
 ---
 
 ## Description

@@ -15,6 +15,19 @@ problems:
 - system-outages
 - service-timeouts
 layout: solution
+related_solutions:
+- slug: ci-cd-pipeline
+  similarity: 0.85
+- slug: continuous-deployment
+  similarity: 0.8
+- slug: strangler-fig-pattern
+  similarity: 0.75
+- slug: feature-flags
+  similarity: 0.75
+- slug: rollback-mechanisms
+  similarity: 0.75
+- slug: smoke-testing
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

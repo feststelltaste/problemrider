@@ -1,6 +1,7 @@
 ---
 title: Clean Code
-description: Structure source code according to established principles for readability and maintainability
+description: Structure source code according to established principles for readability
+  and maintainability
 category:
 - Code
 quality_tactics_url: https://qualitytactics.de/en/maintainability/clean-code/
@@ -31,6 +32,19 @@ problems:
 - inconsistent-naming-conventions
 - undefined-code-style-guidelines
 layout: solution
+related_solutions:
+- slug: incremental-refactoring
+  similarity: 0.75
+- slug: code-conventions
+  similarity: 0.75
+- slug: separation-of-concerns
+  similarity: 0.75
+- slug: code-review-process-reform
+  similarity: 0.75
+- slug: solid-principles
+  similarity: 0.75
+- slug: static-analysis-and-linting
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

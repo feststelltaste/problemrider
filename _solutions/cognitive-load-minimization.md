@@ -17,6 +17,19 @@ problems:
 - reduced-individual-productivity
 - context-switching-overhead
 layout: solution
+related_solutions:
+- slug: intuitive-navigation
+  similarity: 0.85
+- slug: user-centered-design
+  similarity: 0.8
+- slug: consistent-user-interface
+  similarity: 0.8
+- slug: progressive-disclosure
+  similarity: 0.8
+- slug: visual-hierarchy
+  similarity: 0.8
+- slug: consistent-terminology
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -25,6 +25,19 @@ problems:
 - uneven-work-flow
 - context-switching-overhead
 layout: solution
+related_solutions:
+- slug: iterative-development
+  similarity: 0.95
+- slug: stakeholder-feedback-loops
+  similarity: 0.75
+- slug: continuous-feedback
+  similarity: 0.75
+- slug: ci-cd-pipeline
+  similarity: 0.75
+- slug: evolutionary-requirements-development
+  similarity: 0.75
+- slug: sustainable-pace-practices
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

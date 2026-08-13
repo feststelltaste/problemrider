@@ -13,6 +13,19 @@ problems:
 - difficulty-quantifying-benefits
 - feature-bloat
 layout: solution
+related_solutions:
+- slug: user-centered-design
+  similarity: 0.8
+- slug: consistent-user-interface
+  similarity: 0.75
+- slug: adaptive-behavior
+  similarity: 0.75
+- slug: risk-analysis
+  similarity: 0.75
+- slug: cross-version-testing
+  similarity: 0.75
+- slug: usability-tests
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

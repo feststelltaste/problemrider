@@ -13,6 +13,19 @@ problems:
 - error-message-information-disclosure
 - legacy-configuration-management-chaos
 layout: solution
+related_solutions:
+- slug: secure-by-default
+  similarity: 0.85
+- slug: configuration-checks
+  similarity: 0.8
+- slug: secure-protocols
+  similarity: 0.75
+- slug: secure-software-development
+  similarity: 0.75
+- slug: platform-independent-configuration-management
+  similarity: 0.75
+- slug: security-certification
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

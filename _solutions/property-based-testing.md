@@ -14,6 +14,19 @@ problems:
 - null-pointer-dereferences
 - race-conditions
 layout: solution
+related_solutions:
+- slug: mutation-testing
+  similarity: 0.75
+- slug: automated-tests
+  similarity: 0.75
+- slug: integration-tests
+  similarity: 0.7
+- slug: functional-tests
+  similarity: 0.7
+- slug: test-coverage-strategy
+  similarity: 0.7
+- slug: cross-version-testing
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

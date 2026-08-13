@@ -11,6 +11,19 @@ problems:
 - high-database-resource-utilization
 - gradual-performance-degradation
 layout: solution
+related_solutions:
+- slug: data-replication
+  similarity: 0.8
+- slug: data-archiving
+  similarity: 0.8
+- slug: distributed-processing
+  similarity: 0.8
+- slug: materialized-views
+  similarity: 0.8
+- slug: denormalization
+  similarity: 0.8
+- slug: distributed-caching
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

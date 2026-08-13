@@ -26,6 +26,19 @@ problems:
 - knowledge-dependency
 - communication-risk-within-project
 layout: solution
+related_solutions:
+- slug: knowledge-base
+  similarity: 0.85
+- slug: knowledge-rotation
+  similarity: 0.8
+- slug: documentation-as-code
+  similarity: 0.8
+- slug: architecture-decision-records
+  similarity: 0.8
+- slug: runbooks
+  similarity: 0.75
+- slug: pair-and-mob-programming
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

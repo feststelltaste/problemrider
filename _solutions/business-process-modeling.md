@@ -13,6 +13,19 @@ problems:
 - implicit-knowledge
 - process-software-misfit
 layout: solution
+related_solutions:
+- slug: data-modeling
+  similarity: 0.75
+- slug: requirements-analysis
+  similarity: 0.75
+- slug: business-process-automation
+  similarity: 0.7
+- slug: domain-modeling
+  similarity: 0.7
+- slug: user-stories
+  similarity: 0.7
+- slug: evolutionary-requirements-development
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

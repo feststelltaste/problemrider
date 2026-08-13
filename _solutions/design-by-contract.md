@@ -1,6 +1,7 @@
 ---
 title: Design by Contract
-description: Specify preconditions, postconditions, and invariants for verifiable behavior
+description: Specify preconditions, postconditions, and invariants for verifiable
+  behavior
 category:
 - Code
 - Architecture
@@ -22,6 +23,19 @@ problems:
 - stack-overflow-errors
 - entity-attribute-value-overuse
 layout: solution
+related_solutions:
+- slug: contract-testing
+  similarity: 0.8
+- slug: solid-principles
+  similarity: 0.75
+- slug: clean-code
+  similarity: 0.7
+- slug: consumer-driven-contracts
+  similarity: 0.7
+- slug: static-analysis-and-linting
+  similarity: 0.7
+- slug: architecture-decision-records
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

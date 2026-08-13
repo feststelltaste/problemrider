@@ -12,6 +12,19 @@ problems:
 - obsolete-technologies
 - microservice-communication-overhead
 layout: solution
+related_solutions:
+- slug: standardized-interfaces
+  similarity: 0.75
+- slug: protocol-abstraction
+  similarity: 0.75
+- slug: standardized-data-formats
+  similarity: 0.75
+- slug: platform-independent-data-storage
+  similarity: 0.7
+- slug: schema-registry
+  similarity: 0.7
+- slug: service-mesh
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -14,6 +14,19 @@ problems:
 - process-software-misfit
 - reimplemented-standard-functionality
 layout: solution
+related_solutions:
+- slug: requirements-analysis
+  similarity: 0.75
+- slug: risk-analysis
+  similarity: 0.75
+- slug: business-metrics
+  similarity: 0.7
+- slug: business-process-modeling
+  similarity: 0.7
+- slug: functional-debt-management
+  similarity: 0.65
+- slug: feature-driven-development
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

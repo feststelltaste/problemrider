@@ -1,6 +1,7 @@
 ---
 title: Contextual Help
-description: Provide help information and explanations directly in the current task context
+description: Provide help information and explanations directly in the current task
+  context
 category:
 - Communication
 - Requirements
@@ -15,6 +16,19 @@ problems:
 - negative-user-feedback
 - knowledge-gaps
 layout: solution
+related_solutions:
+- slug: personal-support
+  similarity: 0.75
+- slug: knowledge-base
+  similarity: 0.75
+- slug: understandable-error-messages
+  similarity: 0.75
+- slug: intuitive-navigation
+  similarity: 0.7
+- slug: video-tutorials
+  similarity: 0.7
+- slug: interactive-tutorials
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Requirements Traceability Matrix
-description: Maintaining explicit bidirectional mappings from requirements through design, code, and tests
+description: Maintaining explicit bidirectional mappings from requirements through
+  design, code, and tests
 category:
 - Requirements
 - Process
@@ -16,6 +17,19 @@ problems:
 - legal-disputes
 - poor-contract-design
 layout: solution
+related_solutions:
+- slug: requirements-analysis
+  similarity: 0.75
+- slug: evolutionary-requirements-development
+  similarity: 0.7
+- slug: compatibility-matrix
+  similarity: 0.7
+- slug: story-mapping
+  similarity: 0.7
+- slug: user-stories
+  similarity: 0.65
+- slug: architecture-decision-records
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

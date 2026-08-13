@@ -16,6 +16,19 @@ problems:
 - change-management-chaos
 - no-formal-change-control-process
 layout: solution
+related_solutions:
+- slug: incident-management
+  similarity: 0.85
+- slug: checklists
+  similarity: 0.8
+- slug: knowledge-sharing-practices
+  similarity: 0.75
+- slug: root-cause-analysis
+  similarity: 0.75
+- slug: security-incident-handling
+  similarity: 0.75
+- slug: living-documentation
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

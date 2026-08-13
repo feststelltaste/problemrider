@@ -1,6 +1,7 @@
 ---
 title: Baseline Measurement
-description: Measure the current state before you change it, because a benefit that has no "before" can never be demonstrated afterwards.
+description: Measure the current state before you change it, because a benefit that
+  has no "before" can never be demonstrated afterwards.
 category:
 - Process
 - Management
@@ -30,6 +31,19 @@ problems:
 - stakeholder-frustration
 - high-technical-debt
 layout: solution
+related_solutions:
+- slug: delivery-performance-metrics
+  similarity: 0.75
+- slug: benefits-realization-tracking
+  similarity: 0.7
+- slug: outcome-based-goal-setting
+  similarity: 0.65
+- slug: quality-ratchet
+  similarity: 0.65
+- slug: fast-feedback-loops
+  similarity: 0.65
+- slug: improvement-budget
+  similarity: 0.65
 ---
 
 ## Description
