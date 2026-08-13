@@ -193,7 +193,7 @@
   &__node-menu-list.is-expanded { max-height: none; }
   &__node-menu-list button { border-radius: 3px; text-align: left; }
   &__node-menu-show-all { font-weight: bold; text-align: center !important; }
-  &__remove-node { cursor: pointer; opacity: 0; pointer-events: none; }
+  &__remove-node { cursor: pointer; opacity: 0; pointer-events: auto; }
   &__node-link:hover .analysis-trail__remove-node,
   &__node-link:focus .analysis-trail__remove-node,
   &__node-link:focus-within .analysis-trail__remove-node {
@@ -202,7 +202,7 @@
   }
   &__remove-node text { fill: #111; font-size: 15px; font-weight: bold; pointer-events: none; }
   &__remove-node:hover text,
-  &__remove-node:focus text { fill: #111; }
+  &__remove-node:focus text { fill: #e53e3e; }
 }
 
 .analysis-trail-menu-button {
