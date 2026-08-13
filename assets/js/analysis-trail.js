@@ -1222,14 +1222,16 @@
       addCurrentNode(trail, targetNode);
       var sourcePosition = pendingAdd.position;
       trail.positions[targetId] = { x: Math.min(1186, sourcePosition.x + 190), y: sourcePosition.y };
-      // A similar problem or solution gets the plain, undirected similarity
-      // line; causes point away from the source, symptoms and solutions point
-      // back to it, and a solution always points at the problem it addresses.
-      var edge = (kind === 'similar' || kind === 'similar-solution') ? { from: sourceNode.id, to: targetId, label: 'related' } :
-        (kind === 'cause' ? { from: sourceNode.id, to: targetId, label: 'causes' } :
-          (kind === 'addressed-problem' ? { from: sourceNode.id, to: targetId, label: 'addresses' } :
-            { from: targetId, to: sourceNode.id, label: kind === 'solution' ? 'addresses' : 'causes' }));
-      if (!trail.edges.some(function (item) { return item.from === edge.from && item.to === edge.to && item.label === edge.label; })) trail.edges.push(edge);
+      // A plain problem is a standalone entry and stays unconnected. A similar
+      // problem or solution gets the undirected similarity line; causes point
+      // away from the source, symptoms and solutions point back to it, and a
+      // solution always points at the problem it addresses.
+      var edge = kind === 'problem' ? null :
+        ((kind === 'similar' || kind === 'similar-solution') ? { from: sourceNode.id, to: targetId, label: 'related' } :
+          (kind === 'cause' ? { from: sourceNode.id, to: targetId, label: 'causes' } :
+            (kind === 'addressed-problem' ? { from: sourceNode.id, to: targetId, label: 'addresses' } :
+              { from: targetId, to: sourceNode.id, label: kind === 'solution' ? 'addresses' : 'causes' })));
+      if (edge && !trail.edges.some(function (item) { return item.from === edge.from && item.to === edge.to && item.label === edge.label; })) trail.edges.push(edge);
       if (trail.edges.length > maxEdges) trail.edges.shift();
       saveTrail(trail);
       closeAddModal();
