@@ -28,6 +28,19 @@ problems:
 - reduced-predictability
 - system-stagnation
 layout: solution
+related_solutions:
+- slug: debt-classification
+  similarity: 0.85
+- slug: functional-debt-management
+  similarity: 0.8
+- slug: debt-remediation-estimation
+  similarity: 0.8
+- slug: technical-debt-assessment
+  similarity: 0.8
+- slug: code-metrics
+  similarity: 0.8
+- slug: debt-accrual-analysis
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

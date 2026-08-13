@@ -22,6 +22,19 @@ problems:
 - log-spam
 - difficult-to-understand-code
 layout: solution
+related_solutions:
+- slug: code-review-process-reform
+  similarity: 0.8
+- slug: clean-code
+  similarity: 0.75
+- slug: code-review-guidelines
+  similarity: 0.75
+- slug: code-reviews
+  similarity: 0.75
+- slug: style-guide
+  similarity: 0.75
+- slug: code-comments
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

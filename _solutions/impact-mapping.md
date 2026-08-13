@@ -19,6 +19,19 @@ problems:
 - delayed-value-delivery
 - changing-project-scope
 layout: solution
+related_solutions:
+- slug: product-strategy-alignment
+  similarity: 0.8
+- slug: story-mapping
+  similarity: 0.7
+- slug: outcome-based-goal-setting
+  similarity: 0.7
+- slug: value-hierarchy
+  similarity: 0.65
+- slug: value-stream-mapping
+  similarity: 0.65
+- slug: change-impact-analysis
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

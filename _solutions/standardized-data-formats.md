@@ -15,6 +15,19 @@ problems:
 - alignment-and-padding-issues
 - endianness-conversion-overhead
 layout: solution
+related_solutions:
+- slug: data-formats
+  similarity: 0.95
+- slug: data-format-conversion
+  similarity: 0.85
+- slug: data-strategy
+  similarity: 0.85
+- slug: backward-compatible-data-formats
+  similarity: 0.8
+- slug: platform-independent-data-storage
+  similarity: 0.8
+- slug: data-ecosystems
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

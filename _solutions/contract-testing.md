@@ -1,7 +1,6 @@
 ---
 title: Contract Testing
-description: Verify service interfaces conform to agreed contracts
-  modification
+description: Verify service interfaces conform to agreed contracts modification
 category:
 - Dependencies
 - Testing
@@ -22,6 +21,19 @@ problems:
 - testing-complexity
 - abi-compatibility-issues
 layout: solution
+related_solutions:
+- slug: consumer-driven-contracts
+  similarity: 0.85
+- slug: design-by-contract
+  similarity: 0.8
+- slug: api-first-design
+  similarity: 0.8
+- slug: api-documentation
+  similarity: 0.75
+- slug: api-first-development
+  similarity: 0.75
+- slug: test-coverage-strategy
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

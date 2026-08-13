@@ -1,6 +1,7 @@
 ---
 title: High Cohesion
-description: Ensuring each module has a focused, well-defined purpose with closely related responsibilities
+description: Ensuring each module has a focused, well-defined purpose with closely
+  related responsibilities
 category:
 - Architecture
 - Code
@@ -19,6 +20,19 @@ problems:
 - circular-dependency-problems
 - single-entry-point-design
 layout: solution
+related_solutions:
+- slug: facades
+  similarity: 0.75
+- slug: dependency-injection
+  similarity: 0.75
+- slug: mediator
+  similarity: 0.75
+- slug: abstraction
+  similarity: 0.75
+- slug: layered-architecture
+  similarity: 0.75
+- slug: loose-coupling
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Physical Security
-description: Access and entry protection for IT infrastructure through structural and organizational measures
+description: Access and entry protection for IT infrastructure through structural
+  and organizational measures
 category:
 - Security
 - Operations
@@ -12,6 +13,19 @@ problems:
 - monitoring-gaps
 - secret-management-problems
 layout: solution
+related_solutions:
+- slug: encryption
+  similarity: 0.7
+- slug: logging-and-monitoring
+  similarity: 0.7
+- slug: authentication
+  similarity: 0.7
+- slug: honeypots
+  similarity: 0.7
+- slug: endpoint-detection-and-response
+  similarity: 0.7
+- slug: malware-protection
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

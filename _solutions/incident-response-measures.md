@@ -14,6 +14,19 @@ problems:
 - data-protection-risk
 - cascade-failures
 layout: solution
+related_solutions:
+- slug: security-incident-handling
+  similarity: 0.9
+- slug: emergency-drills
+  similarity: 0.8
+- slug: incident-management
+  similarity: 0.8
+- slug: patch-management
+  similarity: 0.8
+- slug: security-monitoring
+  similarity: 0.8
+- slug: backup-and-recovery
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

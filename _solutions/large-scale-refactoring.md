@@ -1,6 +1,7 @@
 ---
 title: Large-Scale Refactoring
-description: Roll one behavior-preserving change across many modules or repositories in tracked batches, with a named owner, so that sweeping refactorings actually finish.
+description: Roll one behavior-preserving change across many modules or repositories
+  in tracked batches, with a named owner, so that sweeping refactorings actually finish.
 category:
 - Process
 - Code
@@ -27,6 +28,19 @@ problems:
 - excessive-customization
 - core-modification-of-standard-software
 layout: solution
+related_solutions:
+- slug: small-change-batches
+  similarity: 0.75
+- slug: automated-code-migration
+  similarity: 0.75
+- slug: incremental-refactoring
+  similarity: 0.75
+- slug: mikado-method
+  similarity: 0.75
+- slug: preparatory-refactoring
+  similarity: 0.7
+- slug: code-review-process-reform
+  similarity: 0.7
 ---
 
 ## Description

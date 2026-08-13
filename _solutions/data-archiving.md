@@ -14,6 +14,19 @@ problems:
 - inadequate-test-data-management
 - retention-obligations-block-change
 layout: solution
+related_solutions:
+- slug: data-partitioning
+  similarity: 0.8
+- slug: data-replication
+  similarity: 0.8
+- slug: redundant-data-storage
+  similarity: 0.8
+- slug: materialized-views
+  similarity: 0.75
+- slug: platform-independent-data-storage
+  similarity: 0.75
+- slug: compression
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

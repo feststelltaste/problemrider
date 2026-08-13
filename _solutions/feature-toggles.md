@@ -18,6 +18,19 @@ problems:
 - strangler-fig-pattern-failures
 - excessive-customization
 layout: solution
+related_solutions:
+- slug: feature-flags
+  similarity: 0.9
+- slug: dark-launches
+  similarity: 0.75
+- slug: rollback-mechanisms
+  similarity: 0.75
+- slug: canary-releases
+  similarity: 0.7
+- slug: restore-points
+  similarity: 0.7
+- slug: trunk-based-development
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

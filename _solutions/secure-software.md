@@ -12,6 +12,19 @@ problems:
 - password-security-weaknesses
 - data-protection-risk
 layout: solution
+related_solutions:
+- slug: chaos-engineering
+  similarity: 0.8
+- slug: incident-management
+  similarity: 0.8
+- slug: security-tests
+  similarity: 0.8
+- slug: production-environment-maintenance
+  similarity: 0.8
+- slug: static-code-analysis
+  similarity: 0.8
+- slug: secure-protocols
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Input Constraints and Defaults
-description: Constrain input through dropdowns, date pickers, sliders, and sensible defaults
+description: Constrain input through dropdowns, date pickers, sliders, and sensible
+  defaults
 category:
 - Requirements
 - Code
@@ -14,6 +15,19 @@ problems:
 - increased-customer-support-load
 - silent-data-corruption
 layout: solution
+related_solutions:
+- slug: real-time-input-validation
+  similarity: 0.7
+- slug: value-range-definition
+  similarity: 0.7
+- slug: form-design
+  similarity: 0.7
+- slug: input-validation
+  similarity: 0.65
+- slug: understandable-error-messages
+  similarity: 0.65
+- slug: plain-language
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

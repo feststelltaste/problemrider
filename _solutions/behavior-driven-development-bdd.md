@@ -15,6 +15,19 @@ problems:
 - inadequate-requirements-gathering
 - regression-bugs
 layout: solution
+related_solutions:
+- slug: specification-by-example
+  similarity: 0.85
+- slug: user-stories
+  similarity: 0.75
+- slug: acceptance-tests
+  similarity: 0.75
+- slug: evolutionary-requirements-development
+  similarity: 0.75
+- slug: feature-driven-development
+  similarity: 0.75
+- slug: strangler-fig-pattern
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

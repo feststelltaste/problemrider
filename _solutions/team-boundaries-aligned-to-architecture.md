@@ -1,6 +1,7 @@
 ---
 title: Team Boundaries Aligned to Architecture
-description: Draw team boundaries along the system's real boundaries, so that most changes can be completed by one team without cross-team coordination.
+description: Draw team boundaries along the system's real boundaries, so that most
+  changes can be completed by one team without cross-team coordination.
 category:
 - Team
 - Architecture
@@ -23,6 +24,19 @@ problems:
 - cascade-delays
 - maintenance-bottlenecks
 layout: solution
+related_solutions:
+- slug: clear-roles-and-ownership
+  similarity: 0.75
+- slug: modularization-and-bounded-contexts
+  similarity: 0.7
+- slug: domain-aligned-architecture
+  similarity: 0.7
+- slug: clear-ownership-model
+  similarity: 0.7
+- slug: team-autonomy-and-empowerment
+  similarity: 0.7
+- slug: communities-of-practice
+  similarity: 0.7
 ---
 
 ## Description

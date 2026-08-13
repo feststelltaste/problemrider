@@ -10,6 +10,19 @@ problems:
 - schema-evolution-paralysis
 - debugging-difficulties
 layout: solution
+related_solutions:
+- slug: timestamping
+  similarity: 0.65
+- slug: versioning-scheme
+  similarity: 0.65
+- slug: evolutionary-database-design
+  similarity: 0.6
+- slug: data-integrity
+  similarity: 0.6
+- slug: continuous-data-verification
+  similarity: 0.6
+- slug: write-ahead-logging
+  similarity: 0.6
 ---
 
 ## How to Apply ◆

@@ -13,6 +13,19 @@ problems:
 - system-outages
 - high-api-latency
 layout: solution
+related_solutions:
+- slug: distributed-caching
+  similarity: 0.8
+- slug: distributed-processing
+  similarity: 0.8
+- slug: rate-limiting
+  similarity: 0.8
+- slug: horizontal-scaling
+  similarity: 0.75
+- slug: data-replication
+  similarity: 0.75
+- slug: failover-cluster
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -13,6 +13,19 @@ problems:
 - change-management-chaos
 - customization-outside-version-control
 layout: solution
+related_solutions:
+- slug: semantic-versioning
+  similarity: 0.75
+- slug: versioning-scheme
+  similarity: 0.75
+- slug: compatibility-governance
+  similarity: 0.7
+- slug: compatibility-as-error
+  similarity: 0.7
+- slug: backward-compatibility
+  similarity: 0.7
+- slug: api-versioning-strategy
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

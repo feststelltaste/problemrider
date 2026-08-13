@@ -1,6 +1,7 @@
 ---
 title: Canonical Data Model
-description: Standardizing a shared data model across systems instead of point-to-point transformations
+description: Standardizing a shared data model across systems instead of point-to-point
+  transformations
 category:
 - Architecture
 - Database
@@ -14,6 +15,19 @@ problems:
 - technology-stack-fragmentation
 - master-data-ownership-gaps
 layout: solution
+related_solutions:
+- slug: data-strategy
+  similarity: 0.8
+- slug: data-ecosystems
+  similarity: 0.8
+- slug: standardized-data-formats
+  similarity: 0.8
+- slug: data-integration
+  similarity: 0.75
+- slug: data-formats
+  similarity: 0.75
+- slug: data-modeling
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

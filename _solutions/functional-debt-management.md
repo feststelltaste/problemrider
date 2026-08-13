@@ -13,6 +13,19 @@ problems:
 - customer-dissatisfaction
 - declining-business-metrics
 layout: solution
+related_solutions:
+- slug: technical-debt-backlog
+  similarity: 0.8
+- slug: debt-classification
+  similarity: 0.75
+- slug: debt-remediation-estimation
+  similarity: 0.7
+- slug: code-metrics
+  similarity: 0.7
+- slug: business-metrics
+  similarity: 0.7
+- slug: feature-driven-development
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

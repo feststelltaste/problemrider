@@ -14,6 +14,19 @@ problems:
 - technology-lock-in
 - fear-of-change
 layout: solution
+related_solutions:
+- slug: regular-maintenance-and-updates
+  similarity: 0.8
+- slug: incident-response-measures
+  similarity: 0.8
+- slug: vulnerability-scans
+  similarity: 0.8
+- slug: security-hardening-process
+  similarity: 0.75
+- slug: security-audits
+  similarity: 0.75
+- slug: honeypots
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

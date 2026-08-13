@@ -1,6 +1,7 @@
 ---
 title: Data Strategy
-description: Define common data standards, formats, and integration patterns across systems
+description: Define common data standards, formats, and integration patterns across
+  systems
 category:
 - Architecture
 - Management
@@ -14,6 +15,19 @@ problems:
 - custom-report-sprawl
 - master-data-ownership-gaps
 layout: solution
+related_solutions:
+- slug: standardized-data-formats
+  similarity: 0.85
+- slug: data-ecosystems
+  similarity: 0.85
+- slug: canonical-data-model
+  similarity: 0.8
+- slug: data-integration
+  similarity: 0.75
+- slug: platform-independent-data-storage
+  similarity: 0.75
+- slug: data-formats
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

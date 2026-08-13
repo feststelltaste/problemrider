@@ -11,6 +11,19 @@ problems:
 - integration-difficulties
 - fear-of-breaking-changes
 layout: solution
+related_solutions:
+- slug: backward-compatibility
+  similarity: 0.9
+- slug: forward-compatibility
+  similarity: 0.8
+- slug: backward-compatible-data-formats
+  similarity: 0.8
+- slug: api-deprecation-policy
+  similarity: 0.8
+- slug: api-first-development
+  similarity: 0.75
+- slug: api-versioning-strategy
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

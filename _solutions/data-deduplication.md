@@ -12,6 +12,19 @@ problems:
 - silent-data-corruption
 - master-data-ownership-gaps
 layout: solution
+related_solutions:
+- slug: redundant-data-storage
+  similarity: 0.8
+- slug: data-integrity
+  similarity: 0.8
+- slug: compression
+  similarity: 0.75
+- slug: data-replication
+  similarity: 0.75
+- slug: data-archiving
+  similarity: 0.75
+- slug: data-strategy
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

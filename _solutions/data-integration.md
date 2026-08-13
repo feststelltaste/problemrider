@@ -12,6 +12,19 @@ problems:
 - poor-interfaces-between-applications
 - integration-difficulties
 layout: solution
+related_solutions:
+- slug: data-ecosystems
+  similarity: 0.8
+- slug: data-strategy
+  similarity: 0.75
+- slug: canonical-data-model
+  similarity: 0.75
+- slug: business-event-processing
+  similarity: 0.7
+- slug: data-integrity
+  similarity: 0.7
+- slug: data-replication
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

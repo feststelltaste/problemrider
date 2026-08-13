@@ -13,6 +13,19 @@ problems:
 - poor-interfaces-between-applications
 - poor-encapsulation
 layout: solution
+related_solutions:
+- slug: adapter
+  similarity: 0.8
+- slug: pattern-language
+  similarity: 0.75
+- slug: high-cohesion
+  similarity: 0.75
+- slug: mediator
+  similarity: 0.75
+- slug: abstraction
+  similarity: 0.75
+- slug: dependency-injection
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

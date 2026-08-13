@@ -1,6 +1,7 @@
 ---
 title: Executive Sponsorship
-description: Secure a named senior sponsor who owns the outcome, defends the funding, and clears obstacles the team has no authority to remove.
+description: Secure a named senior sponsor who owns the outcome, defends the funding,
+  and clears obstacles the team has no authority to remove.
 category:
 - Management
 - Business
@@ -26,6 +27,19 @@ problems:
 - regulatory-compliance-drift
 - process-software-misfit
 layout: solution
+related_solutions:
+- slug: on-site-customer
+  similarity: 0.7
+- slug: product-owner
+  similarity: 0.7
+- slug: staged-investment-with-decision-gates
+  similarity: 0.65
+- slug: functional-spike
+  similarity: 0.65
+- slug: total-cost-of-ownership-transparency
+  similarity: 0.65
+- slug: stakeholder-feedback-loops
+  similarity: 0.65
 ---
 
 ## Description

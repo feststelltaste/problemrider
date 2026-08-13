@@ -15,6 +15,19 @@ problems:
 - rapid-system-changes
 - abi-compatibility-issues
 layout: solution
+related_solutions:
+- slug: api-deprecation-policy
+  similarity: 0.75
+- slug: strategic-code-deletion
+  similarity: 0.75
+- slug: feature-usage-measurement
+  similarity: 0.7
+- slug: system-decommissioning
+  similarity: 0.7
+- slug: dependency-management-strategy
+  similarity: 0.65
+- slug: strangler-fig-pattern
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

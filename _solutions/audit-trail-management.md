@@ -1,6 +1,7 @@
 ---
 title: Audit Trail Management
-description: Maintaining tamper-proof, immutable, cryptographically chained audit records for legal and compliance purposes
+description: Maintaining tamper-proof, immutable, cryptographically chained audit
+  records for legal and compliance purposes
 category:
 - Security
 - Operations
@@ -16,6 +17,19 @@ problems:
 - customization-outside-version-control
 - retention-obligations-block-change
 layout: solution
+related_solutions:
+- slug: logging-and-monitoring
+  similarity: 0.8
+- slug: security-audits
+  similarity: 0.75
+- slug: digital-forensics
+  similarity: 0.75
+- slug: encryption
+  similarity: 0.75
+- slug: authentication
+  similarity: 0.75
+- slug: security-monitoring
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

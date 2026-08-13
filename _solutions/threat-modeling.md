@@ -13,6 +13,19 @@ problems:
 - system-integration-blindness
 - stagnant-architecture
 layout: solution
+related_solutions:
+- slug: security-architecture-analysis
+  similarity: 0.85
+- slug: risk-analysis
+  similarity: 0.8
+- slug: security-frameworks
+  similarity: 0.8
+- slug: security-certification
+  similarity: 0.8
+- slug: secure-software-development
+  similarity: 0.8
+- slug: threat-intelligence
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

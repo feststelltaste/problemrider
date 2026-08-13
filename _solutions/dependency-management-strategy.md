@@ -21,6 +21,19 @@ problems:
 - premature-technology-introduction
 - vendor-relationship-strain
 layout: solution
+related_solutions:
+- slug: continuous-dependency-updates
+  similarity: 0.85
+- slug: third-party-dependency-check
+  similarity: 0.8
+- slug: regular-maintenance-and-updates
+  similarity: 0.75
+- slug: ci-cd-pipeline
+  similarity: 0.75
+- slug: secret-management
+  similarity: 0.75
+- slug: static-analysis-and-linting
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

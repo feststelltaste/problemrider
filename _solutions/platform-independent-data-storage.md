@@ -1,6 +1,7 @@
 ---
 title: Platform-Independent Data Storage
-description: Choose database systems and storage solutions that are available on various platforms
+description: Choose database systems and storage solutions that are available on various
+  platforms
 category:
 - Database
 - Architecture
@@ -12,6 +13,19 @@ problems:
 - data-migration-complexities
 - data-migration-integrity-issues
 layout: solution
+related_solutions:
+- slug: database-abstraction
+  similarity: 0.85
+- slug: platform-independence
+  similarity: 0.8
+- slug: standardized-data-formats
+  similarity: 0.8
+- slug: object-relational-mapping-orm
+  similarity: 0.8
+- slug: platform-independent-programming-languages
+  similarity: 0.8
+- slug: platform-independent-configuration-files
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

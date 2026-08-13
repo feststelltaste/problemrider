@@ -1,6 +1,7 @@
 ---
 title: Image and Asset Optimization
-description: Optimizing images, fonts, and static assets for smaller payloads and faster loads
+description: Optimizing images, fonts, and static assets for smaller payloads and
+  faster loads
 category:
 - Performance
 problems:
@@ -10,6 +11,19 @@ problems:
 - high-resource-utilization-on-client
 - gradual-performance-degradation
 layout: solution
+related_solutions:
+- slug: tree-shaking
+  similarity: 0.8
+- slug: code-splitting
+  similarity: 0.8
+- slug: compression
+  similarity: 0.75
+- slug: lazy-loading
+  similarity: 0.75
+- slug: api-calls-optimization
+  similarity: 0.75
+- slug: performance-optimization
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

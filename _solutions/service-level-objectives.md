@@ -15,6 +15,19 @@ problems:
 - modernization-roi-justification-failure
 - vendor-relationship-strain
 layout: solution
+related_solutions:
+- slug: service-level-agreements
+  similarity: 0.9
+- slug: service-level-indicators
+  similarity: 0.85
+- slug: site-reliability-engineering-sre
+  similarity: 0.8
+- slug: error-budgets
+  similarity: 0.75
+- slug: performance-budgets
+  similarity: 0.75
+- slug: capacity-planning
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

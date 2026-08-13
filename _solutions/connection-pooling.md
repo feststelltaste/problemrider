@@ -1,6 +1,7 @@
 ---
 title: Connection Pooling
-description: Reusing pre-established connections instead of creating new ones per request
+description: Reusing pre-established connections instead of creating new ones per
+  request
 category:
 - Performance
 - Database
@@ -13,6 +14,19 @@ problems:
 - high-database-resource-utilization
 - unreleased-resources
 layout: solution
+related_solutions:
+- slug: distributed-caching
+  similarity: 0.8
+- slug: resource-pooling
+  similarity: 0.8
+- slug: lazy-loading
+  similarity: 0.8
+- slug: reactive-programming
+  similarity: 0.75
+- slug: rate-limiting
+  similarity: 0.75
+- slug: parallelization
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

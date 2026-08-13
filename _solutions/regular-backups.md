@@ -12,6 +12,19 @@ problems:
 - deployment-risk
 - single-points-of-failure
 layout: solution
+related_solutions:
+- slug: backup-and-recovery
+  similarity: 0.9
+- slug: restore-points
+  similarity: 0.85
+- slug: disaster-recovery
+  similarity: 0.8
+- slug: redundant-data-storage
+  similarity: 0.8
+- slug: regular-maintenance-and-updates
+  similarity: 0.8
+- slug: rollback-mechanisms
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

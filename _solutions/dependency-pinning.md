@@ -13,6 +13,19 @@ problems:
 - increasing-brittleness
 - abi-compatibility-issues
 layout: solution
+related_solutions:
+- slug: third-party-dependency-check
+  similarity: 0.7
+- slug: dependency-management-strategy
+  similarity: 0.7
+- slug: containerization
+  similarity: 0.65
+- slug: cross-version-testing
+  similarity: 0.65
+- slug: dependency-injection
+  similarity: 0.65
+- slug: rollback-mechanisms
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

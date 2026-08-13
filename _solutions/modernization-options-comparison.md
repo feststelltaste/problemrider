@@ -1,6 +1,7 @@
 ---
 title: Modernization Options Comparison
-description: Present retire, keep, encapsulate, replace, and rewrite as costed alternatives side by side, instead of asking approval for one preferred answer.
+description: Present retire, keep, encapsulate, replace, and rewrite as costed alternatives
+  side by side, instead of asking approval for one preferred answer.
 category:
 - Architecture
 - Management
@@ -26,6 +27,19 @@ problems:
 - core-modification-of-standard-software
 - upgrade-blocked-by-customization
 layout: solution
+related_solutions:
+- slug: no-regret-moves
+  similarity: 0.75
+- slug: strangler-fig-pattern
+  similarity: 0.7
+- slug: total-cost-of-ownership-transparency
+  similarity: 0.7
+- slug: boring-technologies
+  similarity: 0.7
+- slug: cost-of-delay
+  similarity: 0.7
+- slug: risk-analysis
+  similarity: 0.65
 ---
 
 ## Description

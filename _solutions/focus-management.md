@@ -13,6 +13,19 @@ problems:
 - regulatory-compliance-drift
 - inconsistent-behavior
 layout: solution
+related_solutions:
+- slug: keyboard-support
+  similarity: 0.7
+- slug: visual-hierarchy
+  similarity: 0.65
+- slug: assistive-technology-support
+  similarity: 0.65
+- slug: intuitive-navigation
+  similarity: 0.6
+- slug: feedback
+  similarity: 0.6
+- slug: confirmation-dialogs
+  similarity: 0.6
 ---
 
 ## How to Apply ◆

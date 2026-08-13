@@ -13,6 +13,19 @@ problems:
 - high-maintenance-costs
 - deployment-risk
 layout: solution
+related_solutions:
+- slug: failover-mechanisms
+  similarity: 0.85
+- slug: redundancy
+  similarity: 0.8
+- slug: high-availability-architectures
+  similarity: 0.8
+- slug: load-balancing
+  similarity: 0.75
+- slug: data-replication
+  similarity: 0.75
+- slug: retry
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

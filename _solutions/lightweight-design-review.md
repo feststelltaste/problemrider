@@ -1,6 +1,8 @@
 ---
 title: Lightweight Design Review
-description: Discuss the intended approach for non-trivial changes before implementation, in a short session with a written sketch, so that design problems surface before code exists.
+description: Discuss the intended approach for non-trivial changes before implementation,
+  in a short session with a written sketch, so that design problems surface before
+  code exists.
 category:
 - Architecture
 - Code
@@ -32,6 +34,19 @@ problems:
 - unproductive-meetings
 - reimplemented-standard-functionality
 layout: solution
+related_solutions:
+- slug: architecture-reviews
+  similarity: 0.8
+- slug: code-review-guidelines
+  similarity: 0.75
+- slug: code-review-process-reform
+  similarity: 0.75
+- slug: small-change-batches
+  similarity: 0.7
+- slug: architecture-decision-records
+  similarity: 0.65
+- slug: mikado-method
+  similarity: 0.65
 ---
 
 ## Description

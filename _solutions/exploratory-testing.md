@@ -1,6 +1,8 @@
 ---
 title: Exploratory Testing
-description: Have a skilled person investigate the system deliberately and without a script, in timeboxed sessions with recorded findings, to discover what nobody thought to specify.
+description: Have a skilled person investigate the system deliberately and without
+  a script, in timeboxed sessions with recorded findings, to discover what nobody
+  thought to specify.
 category:
 - Testing
 - Process
@@ -27,6 +29,19 @@ problems:
 - unreleased-resources
 - user-trust-erosion
 layout: solution
+related_solutions:
+- slug: test-coverage-strategy
+  similarity: 0.75
+- slug: usability-tests
+  similarity: 0.75
+- slug: characterization-tests
+  similarity: 0.75
+- slug: fuzz-testing
+  similarity: 0.7
+- slug: regression-testing
+  similarity: 0.7
+- slug: code-reading-sessions
+  similarity: 0.7
 ---
 
 ## Description

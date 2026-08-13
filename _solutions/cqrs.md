@@ -1,6 +1,7 @@
 ---
 title: CQRS
-description: Separating read and write models into independently optimized and scaled paths
+description: Separating read and write models into independently optimized and scaled
+  paths
 category:
 - Architecture
 - Performance
@@ -14,6 +15,19 @@ problems:
 - imperative-data-fetching-logic
 - entity-attribute-value-overuse
 layout: solution
+related_solutions:
+- slug: denormalization
+  similarity: 0.7
+- slug: read-replicas
+  similarity: 0.7
+- slug: data-replication
+  similarity: 0.7
+- slug: data-partitioning
+  similarity: 0.7
+- slug: business-event-processing
+  similarity: 0.7
+- slug: distributed-caching
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

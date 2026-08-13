@@ -1,6 +1,8 @@
 ---
 title: Code Hotspot Analysis
-description: Combine change frequency from version control with complexity and defect data to identify the small share of code where improvement effort actually pays off.
+description: Combine change frequency from version control with complexity and defect
+  data to identify the small share of code where improvement effort actually pays
+  off.
 category:
 - Code
 - Process
@@ -30,6 +32,19 @@ problems:
 - brittle-codebase
 - quality-degradation
 layout: solution
+related_solutions:
+- slug: technical-debt-assessment
+  similarity: 0.75
+- slug: code-metrics
+  similarity: 0.75
+- slug: technical-debt-backlog
+  similarity: 0.75
+- slug: static-analysis-and-linting
+  similarity: 0.75
+- slug: change-impact-analysis
+  similarity: 0.7
+- slug: debt-accrual-analysis
+  similarity: 0.7
 ---
 
 ## Description

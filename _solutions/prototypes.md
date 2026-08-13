@@ -19,6 +19,19 @@ problems:
 - reduced-innovation
 - decision-avoidance
 layout: solution
+related_solutions:
+- slug: prototyping
+  similarity: 0.95
+- slug: wireframing
+  similarity: 0.8
+- slug: user-stories
+  similarity: 0.75
+- slug: personas
+  similarity: 0.75
+- slug: on-site-customer
+  similarity: 0.75
+- slug: usability-tests
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

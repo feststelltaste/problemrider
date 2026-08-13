@@ -32,6 +32,19 @@ problems:
 - rate-limiting-issues
 - service-discovery-failures
 layout: solution
+related_solutions:
+- slug: continuous-performance-monitoring
+  similarity: 0.85
+- slug: monitoring-system-utilization
+  similarity: 0.85
+- slug: logging
+  similarity: 0.8
+- slug: performance-measurements
+  similarity: 0.8
+- slug: security-monitoring
+  similarity: 0.8
+- slug: monitoring-system-integrity
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

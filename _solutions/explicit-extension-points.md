@@ -1,6 +1,7 @@
 ---
 title: Explicit Extension Points
-description: Define a bounded, versioned set of places where customer-specific behavior may attach, so that variation lives at the edges instead of throughout the core.
+description: Define a bounded, versioned set of places where customer-specific behavior
+  may attach, so that variation lives at the edges instead of throughout the core.
 category:
 - Architecture
 - Business
@@ -24,6 +25,19 @@ problems:
 - upgrade-blocked-by-customization
 - voided-vendor-support
 layout: solution
+related_solutions:
+- slug: variant-consolidation
+  similarity: 0.7
+- slug: fit-to-standard-principle
+  similarity: 0.7
+- slug: customizing
+  similarity: 0.7
+- slug: customization-cost-attribution
+  similarity: 0.7
+- slug: customization-under-version-control
+  similarity: 0.65
+- slug: modularization-and-bounded-contexts
+  similarity: 0.65
 ---
 
 ## Description

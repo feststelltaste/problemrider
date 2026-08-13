@@ -12,6 +12,19 @@ problems:
 - difficult-code-reuse
 - deployment-coupling
 layout: solution
+related_solutions:
+- slug: microservices-architecture
+  similarity: 0.75
+- slug: modularization-and-bounded-contexts
+  similarity: 0.75
+- slug: high-cohesion
+  similarity: 0.7
+- slug: layered-architecture
+  similarity: 0.7
+- slug: hexagonal-architecture
+  similarity: 0.65
+- slug: containerization
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

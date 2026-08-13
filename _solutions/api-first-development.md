@@ -13,6 +13,19 @@ problems:
 - difficult-code-reuse
 - poor-contract-design
 layout: solution
+related_solutions:
+- slug: api-first-design
+  similarity: 0.9
+- slug: api-documentation
+  similarity: 0.8
+- slug: backward-compatible-apis
+  similarity: 0.75
+- slug: contract-testing
+  similarity: 0.75
+- slug: consumer-driven-contracts
+  similarity: 0.75
+- slug: api-gateway
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -12,6 +12,19 @@ problems:
 - operational-overhead
 - poor-system-environment
 layout: solution
+related_solutions:
+- slug: containerization
+  similarity: 0.75
+- slug: serverless-computing
+  similarity: 0.75
+- slug: elastic-resource-utilization
+  similarity: 0.75
+- slug: containerized-databases
+  similarity: 0.75
+- slug: virtual-development-environments
+  similarity: 0.7
+- slug: horizontal-scaling
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

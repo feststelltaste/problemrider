@@ -13,6 +13,19 @@ problems:
 - difficult-to-test-code
 - incorrect-index-type
 layout: solution
+related_solutions:
+- slug: object-relational-mapping-orm
+  similarity: 0.9
+- slug: abstraction-layers
+  similarity: 0.85
+- slug: abstracted-file-system-access
+  similarity: 0.85
+- slug: platform-independent-data-storage
+  similarity: 0.85
+- slug: protocol-abstraction
+  similarity: 0.8
+- slug: abstraction
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

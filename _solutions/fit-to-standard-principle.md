@@ -1,6 +1,7 @@
 ---
 title: Fit-to-Standard Principle
-description: Make adopting the product's own process the default, and require every deviation to be justified, sized, and approved by someone who carries its cost.
+description: Make adopting the product's own process the default, and require every
+  deviation to be justified, sized, and approved by someone who carries its cost.
 category:
 - Business
 - Process
@@ -20,6 +21,19 @@ problems:
 - feature-creep
 - voided-vendor-support
 layout: solution
+related_solutions:
+- slug: explicit-extension-points
+  similarity: 0.7
+- slug: variant-consolidation
+  similarity: 0.7
+- slug: customization-cost-attribution
+  similarity: 0.65
+- slug: standard-software
+  similarity: 0.65
+- slug: change-management-process
+  similarity: 0.65
+- slug: evolutionary-requirements-development
+  similarity: 0.6
 ---
 
 ## Description

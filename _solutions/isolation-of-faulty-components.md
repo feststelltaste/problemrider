@@ -11,6 +11,19 @@ problems:
 - system-outages
 - unpredictable-system-behavior
 layout: solution
+related_solutions:
+- slug: fault-containment
+  similarity: 0.8
+- slug: failover-mechanisms
+  similarity: 0.75
+- slug: bulkhead
+  similarity: 0.75
+- slug: resilience
+  similarity: 0.75
+- slug: circuit-breaker
+  similarity: 0.7
+- slug: rate-limiting
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

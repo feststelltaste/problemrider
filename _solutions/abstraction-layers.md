@@ -14,6 +14,19 @@ problems:
 - abi-compatibility-issues
 - dependency-on-supplier
 layout: solution
+related_solutions:
+- slug: database-abstraction
+  similarity: 0.85
+- slug: protocol-abstraction
+  similarity: 0.85
+- slug: abstracted-file-system-access
+  similarity: 0.85
+- slug: abstraction
+  similarity: 0.8
+- slug: adapter
+  similarity: 0.8
+- slug: object-relational-mapping-orm
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

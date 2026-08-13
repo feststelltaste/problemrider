@@ -46,6 +46,19 @@ problems:
 - inefficient-frontend-code
 - stack-overflow-errors
 layout: solution
+related_solutions:
+- slug: efficient-algorithms
+  similarity: 0.8
+- slug: resource-usage-optimization
+  similarity: 0.75
+- slug: caching-strategy
+  similarity: 0.75
+- slug: query-optimization-process
+  similarity: 0.75
+- slug: serialization-optimization
+  similarity: 0.7
+- slug: memory-management-optimization
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

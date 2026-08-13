@@ -1,6 +1,8 @@
 ---
 title: Pilot Projects
-description: Prove a change on one small, real, reversible case before committing the organization to it — and let the result decide, including when the result is negative.
+description: "Prove a change on one small, real, reversible case before committing\
+  \ the organization to it \u2014 and let the result decide, including when the result\
+  \ is negative."
 category:
 - Process
 - Culture
@@ -28,6 +30,19 @@ problems:
 - short-term-focus
 - process-software-misfit
 layout: solution
+related_solutions:
+- slug: functional-spike
+  similarity: 0.7
+- slug: prototyping
+  similarity: 0.7
+- slug: prototypes
+  similarity: 0.7
+- slug: staged-investment-with-decision-gates
+  similarity: 0.65
+- slug: no-regret-moves
+  similarity: 0.65
+- slug: mikado-method
+  similarity: 0.65
 ---
 
 ## Description

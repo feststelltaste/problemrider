@@ -1,6 +1,7 @@
 ---
 title: Small Change Batches
-description: Keep every change small enough to be understood, reviewed, tested, and reverted as a single unit, and integrate it before starting the next one.
+description: Keep every change small enough to be understood, reviewed, tested, and
+  reverted as a single unit, and integrate it before starting the next one.
 category:
 - Process
 - Code
@@ -44,6 +45,19 @@ problems:
 - release-anxiety
 - resistance-to-change
 layout: solution
+related_solutions:
+- slug: preparatory-refactoring
+  similarity: 0.75
+- slug: large-scale-refactoring
+  similarity: 0.75
+- slug: code-review-process-reform
+  similarity: 0.75
+- slug: mikado-method
+  similarity: 0.75
+- slug: incremental-refactoring
+  similarity: 0.75
+- slug: feature-flags
+  similarity: 0.75
 ---
 
 ## Description

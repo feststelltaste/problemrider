@@ -1,6 +1,7 @@
 ---
 title: Outcome-Based Goal Setting
-description: State goals as changes in the world with a measure attached, not as lists of things to build, so that delivery can be judged by effect rather than by volume.
+description: State goals as changes in the world with a measure attached, not as lists
+  of things to build, so that delivery can be judged by effect rather than by volume.
 category:
 - Business
 - Management
@@ -36,6 +37,19 @@ problems:
 - modernization-roi-justification-failure
 - process-software-misfit
 layout: solution
+related_solutions:
+- slug: delivery-performance-metrics
+  similarity: 0.7
+- slug: impact-mapping
+  similarity: 0.7
+- slug: product-strategy-alignment
+  similarity: 0.65
+- slug: team-autonomy-and-empowerment
+  similarity: 0.65
+- slug: baseline-measurement
+  similarity: 0.65
+- slug: service-level-objectives
+  similarity: 0.65
 ---
 
 ## Description

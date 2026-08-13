@@ -12,6 +12,19 @@ problems:
 - scaling-inefficiencies
 - slow-application-performance
 layout: solution
+related_solutions:
+- slug: approximation-methods
+  similarity: 0.8
+- slug: in-memory-processing
+  similarity: 0.65
+- slug: compression
+  similarity: 0.65
+- slug: sampling
+  similarity: 0.65
+- slug: distributed-caching
+  similarity: 0.65
+- slug: efficient-algorithms
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

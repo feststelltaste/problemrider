@@ -13,6 +13,19 @@ problems:
 - constant-firefighting
 - silent-data-corruption
 layout: solution
+related_solutions:
+- slug: heartbeat
+  similarity: 0.85
+- slug: monitoring
+  similarity: 0.8
+- slug: status-monitoring
+  similarity: 0.75
+- slug: ping
+  similarity: 0.75
+- slug: self-monitoring-and-diagnosis
+  similarity: 0.75
+- slug: error-reporting-and-analysis
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

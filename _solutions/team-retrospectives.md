@@ -1,6 +1,7 @@
 ---
 title: Team Retrospectives
-description: Inspect how the team works at a regular cadence and change one thing at a time, with the changes tracked like any other work.
+description: Inspect how the team works at a regular cadence and change one thing
+  at a time, with the changes tracked like any other work.
 category:
 - Team
 - Process
@@ -65,6 +66,19 @@ problems:
 - unmotivated-employees
 - unproductive-meetings
 layout: solution
+related_solutions:
+- slug: psychological-safety-practices
+  similarity: 0.75
+- slug: blameless-postmortems
+  similarity: 0.7
+- slug: delivery-performance-metrics
+  similarity: 0.7
+- slug: team-working-agreements
+  similarity: 0.65
+- slug: work-in-progress-limits
+  similarity: 0.65
+- slug: improvement-budget
+  similarity: 0.65
 ---
 
 ## Description

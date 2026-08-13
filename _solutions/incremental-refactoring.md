@@ -35,6 +35,19 @@ problems:
 - maintenance-cost-increase
 - technical-architecture-limitations
 layout: solution
+related_solutions:
+- slug: preparatory-refactoring
+  similarity: 0.8
+- slug: code-review-process-reform
+  similarity: 0.8
+- slug: refactoring-katas
+  similarity: 0.8
+- slug: code-metrics
+  similarity: 0.8
+- slug: static-analysis-and-linting
+  similarity: 0.8
+- slug: clean-code
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

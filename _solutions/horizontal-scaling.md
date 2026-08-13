@@ -12,6 +12,19 @@ problems:
 - load-balancing-problems
 - monolithic-architecture-constraints
 layout: solution
+related_solutions:
+- slug: vertical-scaling
+  similarity: 0.85
+- slug: elastic-resource-utilization
+  similarity: 0.8
+- slug: load-balancing
+  similarity: 0.75
+- slug: elastic-scaling
+  similarity: 0.75
+- slug: distributed-caching
+  similarity: 0.75
+- slug: data-replication
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

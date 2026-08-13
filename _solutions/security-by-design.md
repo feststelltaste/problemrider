@@ -13,6 +13,19 @@ problems:
 - quality-blind-spots
 - technical-architecture-limitations
 layout: solution
+related_solutions:
+- slug: security-architecture-analysis
+  similarity: 0.85
+- slug: secure-software-development
+  similarity: 0.75
+- slug: privacy-by-design
+  similarity: 0.75
+- slug: threat-modeling
+  similarity: 0.75
+- slug: security-certification
+  similarity: 0.7
+- slug: secure-by-default
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

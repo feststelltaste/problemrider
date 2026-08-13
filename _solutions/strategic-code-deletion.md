@@ -17,6 +17,19 @@ problems:
 - low-code-customization-sprawl
 - reimplemented-standard-functionality
 layout: solution
+related_solutions:
+- slug: tree-shaking
+  similarity: 0.75
+- slug: deprecation-strategy
+  similarity: 0.75
+- slug: facades
+  similarity: 0.7
+- slug: clean-code
+  similarity: 0.7
+- slug: data-deduplication
+  similarity: 0.7
+- slug: pattern-language
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

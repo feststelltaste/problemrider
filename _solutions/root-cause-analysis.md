@@ -13,6 +13,19 @@ problems:
 - increased-error-rates
 - blame-culture
 layout: solution
+related_solutions:
+- slug: incident-management
+  similarity: 0.85
+- slug: error-logs
+  similarity: 0.8
+- slug: error-reporting-and-analysis
+  similarity: 0.8
+- slug: runbooks
+  similarity: 0.75
+- slug: chaos-engineering
+  similarity: 0.75
+- slug: blameless-postmortems
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

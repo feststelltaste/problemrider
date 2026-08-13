@@ -1,6 +1,8 @@
 ---
 title: Change Impact Analysis
-description: Determine what a proposed change actually touches — callers, data, consumers, operations — before committing to it, using tooling rather than recollection.
+description: "Determine what a proposed change actually touches \u2014 callers, data,\
+  \ consumers, operations \u2014 before committing to it, using tooling rather than\
+  \ recollection."
 category:
 - Architecture
 - Code
@@ -29,6 +31,19 @@ problems:
 - entity-attribute-value-overuse
 - core-modification-of-standard-software
 layout: solution
+related_solutions:
+- slug: mikado-method
+  similarity: 0.75
+- slug: static-analysis-and-linting
+  similarity: 0.75
+- slug: code-hotspot-analysis
+  similarity: 0.7
+- slug: requirements-analysis
+  similarity: 0.7
+- slug: change-management-process
+  similarity: 0.7
+- slug: code-metrics
+  similarity: 0.7
 ---
 
 ## Description

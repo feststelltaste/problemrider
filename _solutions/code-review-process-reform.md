@@ -27,6 +27,19 @@ problems:
 - rushed-approvals
 - inadequate-initial-reviews
 layout: solution
+related_solutions:
+- slug: code-reviews
+  similarity: 0.85
+- slug: static-analysis-and-linting
+  similarity: 0.85
+- slug: architecture-reviews
+  similarity: 0.85
+- slug: code-review-guidelines
+  similarity: 0.8
+- slug: code-metrics
+  similarity: 0.8
+- slug: code-quality-gates
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

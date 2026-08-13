@@ -1,6 +1,7 @@
 ---
 title: Saga Pattern
-description: Managing distributed transactions through sequences of local transactions with compensating actions
+description: Managing distributed transactions through sequences of local transactions
+  with compensating actions
 category:
 - Architecture
 problems:
@@ -12,6 +13,19 @@ problems:
 - data-migration-integrity-issues
 - deadlock-conditions
 layout: solution
+related_solutions:
+- slug: transactions
+  similarity: 0.75
+- slug: retry
+  similarity: 0.75
+- slug: data-replication
+  similarity: 0.7
+- slug: distributed-processing
+  similarity: 0.7
+- slug: business-event-processing
+  similarity: 0.7
+- slug: event-driven-architecture
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,8 @@
 ---
 title: Technical Debt Assessment
-description: Investigate one area in depth, on a timebox, and produce a written picture of what is actually wrong there — replacing a general dread with specific findings.
+description: "Investigate one area in depth, on a timebox, and produce a written picture\
+  \ of what is actually wrong there \u2014 replacing a general dread with specific\
+  \ findings."
 category:
 - Code
 - Architecture
@@ -27,6 +29,19 @@ problems:
 - core-modification-of-standard-software
 - low-code-customization-sprawl
 layout: solution
+related_solutions:
+- slug: technical-debt-backlog
+  similarity: 0.8
+- slug: debt-accrual-analysis
+  similarity: 0.8
+- slug: debt-classification
+  similarity: 0.75
+- slug: code-hotspot-analysis
+  similarity: 0.75
+- slug: debt-remediation-estimation
+  similarity: 0.75
+- slug: code-metrics
+  similarity: 0.7
 ---
 
 ## Description

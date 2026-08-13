@@ -27,6 +27,19 @@ problems:
 - god-object-anti-pattern
 - monolithic-functions-and-classes
 layout: solution
+related_solutions:
+- slug: separation-of-concerns
+  similarity: 0.75
+- slug: clean-code
+  similarity: 0.75
+- slug: design-by-contract
+  similarity: 0.75
+- slug: incremental-refactoring
+  similarity: 0.75
+- slug: facades
+  similarity: 0.7
+- slug: pattern-language
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

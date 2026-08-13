@@ -13,6 +13,19 @@ problems:
 - knowledge-gaps
 - negative-user-feedback
 layout: solution
+related_solutions:
+- slug: knowledge-base
+  similarity: 0.75
+- slug: personal-support
+  similarity: 0.7
+- slug: contextual-help
+  similarity: 0.7
+- slug: user-communities
+  similarity: 0.7
+- slug: video-tutorials
+  similarity: 0.65
+- slug: knowledge-sharing-practices
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

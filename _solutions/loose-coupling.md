@@ -19,6 +19,19 @@ problems:
 - inconsistent-execution
 - single-entry-point-design
 layout: solution
+related_solutions:
+- slug: abstraction
+  similarity: 0.8
+- slug: modularization-and-bounded-contexts
+  similarity: 0.75
+- slug: high-cohesion
+  similarity: 0.75
+- slug: dependency-injection
+  similarity: 0.7
+- slug: solid-principles
+  similarity: 0.7
+- slug: separation-of-concerns
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

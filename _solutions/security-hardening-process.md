@@ -20,6 +20,19 @@ problems:
 - regulatory-compliance-drift
 - insufficient-audit-logging
 layout: solution
+related_solutions:
+- slug: configuration-checks
+  similarity: 0.8
+- slug: authentication
+  similarity: 0.75
+- slug: patch-management
+  similarity: 0.75
+- slug: secure-protocols
+  similarity: 0.75
+- slug: cryptographic-methods
+  similarity: 0.75
+- slug: secret-management
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

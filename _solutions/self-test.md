@@ -13,6 +13,19 @@ problems:
 - system-outages
 - dma-coherency-issues
 layout: solution
+related_solutions:
+- slug: self-monitoring-and-diagnosis
+  similarity: 0.8
+- slug: ping
+  similarity: 0.7
+- slug: smoke-testing
+  similarity: 0.7
+- slug: health-check-endpoints
+  similarity: 0.7
+- slug: automated-tests
+  similarity: 0.7
+- slug: status-monitoring
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

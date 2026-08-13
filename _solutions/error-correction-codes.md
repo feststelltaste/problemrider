@@ -10,6 +10,19 @@ problems:
 - insecure-data-transmission
 - cross-system-data-synchronization-problems
 layout: solution
+related_solutions:
+- slug: fault-tolerant-data-structures
+  similarity: 0.8
+- slug: checksums
+  similarity: 0.8
+- slug: redundant-checksums
+  similarity: 0.8
+- slug: error-reporting-and-analysis
+  similarity: 0.75
+- slug: redundant-data-storage
+  similarity: 0.75
+- slug: data-integrity
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

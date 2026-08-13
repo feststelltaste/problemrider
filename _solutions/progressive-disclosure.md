@@ -14,6 +14,19 @@ problems:
 - negative-user-feedback
 - difficult-developer-onboarding
 layout: solution
+related_solutions:
+- slug: cognitive-load-minimization
+  similarity: 0.8
+- slug: intuitive-navigation
+  similarity: 0.75
+- slug: visual-hierarchy
+  similarity: 0.75
+- slug: form-design
+  similarity: 0.75
+- slug: adaptive-behavior
+  similarity: 0.7
+- slug: search-function
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

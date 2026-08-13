@@ -14,6 +14,19 @@ problems:
 - customer-dissatisfaction
 - user-confusion
 layout: solution
+related_solutions:
+- slug: custom-views
+  similarity: 0.8
+- slug: intuitive-navigation
+  similarity: 0.75
+- slug: customizing
+  similarity: 0.7
+- slug: visual-hierarchy
+  similarity: 0.7
+- slug: cognitive-load-minimization
+  similarity: 0.7
+- slug: user-centered-design
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

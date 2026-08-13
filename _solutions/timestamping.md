@@ -14,6 +14,19 @@ problems:
 - synchronization-problems
 - information-decay
 layout: solution
+related_solutions:
+- slug: transactions
+  similarity: 0.7
+- slug: audit-trail-management
+  similarity: 0.7
+- slug: write-ahead-logging
+  similarity: 0.7
+- slug: domain-data-versioning
+  similarity: 0.65
+- slug: data-integrity
+  similarity: 0.65
+- slug: evolutionary-database-design
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

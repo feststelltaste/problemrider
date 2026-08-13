@@ -1,6 +1,7 @@
 ---
 title: Technical Spike
-description: Validate that an architecture will remain maintainable under expected growth
+description: Validate that an architecture will remain maintainable under expected
+  growth
 category:
 - Architecture
 - Process
@@ -21,6 +22,19 @@ problems:
 - reduced-innovation
 - complex-implementation-paths
 layout: solution
+related_solutions:
+- slug: functional-spike
+  similarity: 0.8
+- slug: walking-skeleton
+  similarity: 0.7
+- slug: chaos-engineering
+  similarity: 0.65
+- slug: living-documentation
+  similarity: 0.65
+- slug: pattern-language
+  similarity: 0.65
+- slug: risk-analysis
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

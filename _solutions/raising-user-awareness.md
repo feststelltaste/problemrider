@@ -13,6 +13,19 @@ problems:
 - workaround-culture
 - password-security-weaknesses
 layout: solution
+related_solutions:
+- slug: security-training
+  similarity: 0.85
+- slug: security-policies-for-users
+  similarity: 0.8
+- slug: security-community
+  similarity: 0.8
+- slug: security-certification
+  similarity: 0.75
+- slug: security-incident-handling
+  similarity: 0.75
+- slug: vulnerability-scans
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -12,6 +12,19 @@ problems:
 - inconsistent-quality
 - poor-documentation
 layout: solution
+related_solutions:
+- slug: secure-software-development
+  similarity: 0.85
+- slug: secure-coding-guidelines
+  similarity: 0.8
+- slug: security-policies-for-users
+  similarity: 0.8
+- slug: security-training
+  similarity: 0.7
+- slug: security-tests
+  similarity: 0.7
+- slug: security-culture
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

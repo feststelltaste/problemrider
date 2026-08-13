@@ -30,6 +30,19 @@ problems:
 - rapid-prototyping-becoming-production
 - undefined-code-style-guidelines
 layout: solution
+related_solutions:
+- slug: code-metrics
+  similarity: 0.8
+- slug: static-analysis-and-linting
+  similarity: 0.8
+- slug: code-review-process-reform
+  similarity: 0.8
+- slug: quality-ratchet
+  similarity: 0.8
+- slug: test-coverage-strategy
+  similarity: 0.75
+- slug: ci-cd-pipeline
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Threat Intelligence
-description: Collecting and analyzing information about current threats and attack methods
+description: Collecting and analyzing information about current threats and attack
+  methods
 category:
 - Security
 problems:
@@ -11,6 +12,19 @@ problems:
 - quality-blind-spots
 - slow-incident-resolution
 layout: solution
+related_solutions:
+- slug: honeypots
+  similarity: 0.8
+- slug: threat-modeling
+  similarity: 0.8
+- slug: security-monitoring
+  similarity: 0.8
+- slug: endpoint-detection-and-response
+  similarity: 0.75
+- slug: vulnerability-scans
+  similarity: 0.75
+- slug: security-metrics
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

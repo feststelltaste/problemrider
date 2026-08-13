@@ -1,6 +1,7 @@
 ---
 title: Architecture Conformity Analysis
-description: Check the alignment of the software architecture with defined architectural principles
+description: Check the alignment of the software architecture with defined architectural
+  principles
 category:
 - Architecture
 problems:
@@ -14,6 +15,19 @@ problems:
 - technical-architecture-limitations
 - circular-dependency-problems
 layout: solution
+related_solutions:
+- slug: fitness-functions
+  similarity: 0.8
+- slug: architecture-reviews
+  similarity: 0.8
+- slug: static-analysis-and-linting
+  similarity: 0.8
+- slug: architecture-governance
+  similarity: 0.75
+- slug: architecture-decision-records
+  similarity: 0.75
+- slug: architecture-documentation
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

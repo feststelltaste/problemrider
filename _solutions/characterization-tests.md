@@ -1,6 +1,8 @@
 ---
 title: Characterization Tests
-description: Capture what legacy code currently does — correct or not — as executable tests, creating a safety net for changing code whose intended behavior is unknown.
+description: "Capture what legacy code currently does \u2014 correct or not \u2014\
+  \ as executable tests, creating a safety net for changing code whose intended behavior\
+  \ is unknown."
 category:
 - Testing
 - Code
@@ -35,6 +37,19 @@ problems:
 - core-modification-of-standard-software
 - upgrade-blocked-by-customization
 layout: solution
+related_solutions:
+- slug: test-coverage-strategy
+  similarity: 0.85
+- slug: functional-tests
+  similarity: 0.75
+- slug: regression-testing
+  similarity: 0.75
+- slug: exploratory-testing
+  similarity: 0.75
+- slug: automated-tests
+  similarity: 0.75
+- slug: static-analysis-and-linting
+  similarity: 0.7
 ---
 
 ## Description

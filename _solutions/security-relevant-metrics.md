@@ -12,6 +12,19 @@ problems:
 - poor-project-control
 - modernization-roi-justification-failure
 layout: solution
+related_solutions:
+- slug: security-metrics
+  similarity: 0.95
+- slug: security-frameworks
+  similarity: 0.8
+- slug: security-certification
+  similarity: 0.8
+- slug: threat-modeling
+  similarity: 0.8
+- slug: security-monitoring
+  similarity: 0.8
+- slug: security-training
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -18,6 +18,19 @@ problems:
 - legacy-configuration-management-chaos
 - customization-outside-version-control
 layout: solution
+related_solutions:
+- slug: virtual-development-environments
+  similarity: 0.75
+- slug: isolated-test-environments
+  similarity: 0.7
+- slug: compatibility-testing
+  similarity: 0.7
+- slug: production-environment-maintenance
+  similarity: 0.7
+- slug: ci-cd-pipeline
+  similarity: 0.7
+- slug: simulation-environments
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

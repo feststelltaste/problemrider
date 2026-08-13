@@ -17,6 +17,19 @@ problems:
 - misaligned-deliverables
 - delayed-issue-resolution
 layout: solution
+related_solutions:
+- slug: stakeholder-feedback-loops
+  similarity: 0.9
+- slug: regular-stakeholder-demonstrations
+  similarity: 0.8
+- slug: feedback-mechanisms
+  similarity: 0.8
+- slug: direct-feedback
+  similarity: 0.75
+- slug: iterative-development
+  similarity: 0.75
+- slug: short-iteration-cycles
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,8 @@
 ---
 title: Retention and Disposal Policy
-description: Establish what must be kept, for how long, in what form, and what must be deleted — so that retention constrains the data rather than freezing the system holding it.
+description: "Establish what must be kept, for how long, in what form, and what must\
+  \ be deleted \u2014 so that retention constrains the data rather than freezing the\
+  \ system holding it."
 category:
 - Security
 - Operations
@@ -16,6 +18,19 @@ problems:
 - vendor-dependency-entrapment
 - legal-disputes
 layout: solution
+related_solutions:
+- slug: system-decommissioning
+  similarity: 0.75
+- slug: datensparsamkeit
+  similarity: 0.7
+- slug: backup-and-recovery
+  similarity: 0.65
+- slug: feature-usage-measurement
+  similarity: 0.6
+- slug: role-model-rationalization
+  similarity: 0.6
+- slug: technology-radar
+  similarity: 0.6
 ---
 
 ## Description

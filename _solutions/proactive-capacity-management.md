@@ -14,6 +14,19 @@ problems:
 - insufficient-worker-capacity
 - work-queue-buildup
 layout: solution
+related_solutions:
+- slug: capacity-planning
+  similarity: 0.85
+- slug: monitoring-system-utilization
+  similarity: 0.8
+- slug: performance-modeling
+  similarity: 0.75
+- slug: elastic-resource-utilization
+  similarity: 0.75
+- slug: stress-testing
+  similarity: 0.7
+- slug: rate-limiting
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

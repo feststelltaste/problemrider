@@ -1,6 +1,7 @@
 ---
 title: Platform Independence
-description: Make software executable on different systems and environments without modifications
+description: Make software executable on different systems and environments without
+  modifications
 category:
 - Architecture
 - Operations
@@ -15,6 +16,19 @@ problems:
 - alignment-and-padding-issues
 - endianness-conversion-overhead
 layout: solution
+related_solutions:
+- slug: platform-independent-programming-languages
+  similarity: 0.85
+- slug: platform-independent-data-storage
+  similarity: 0.8
+- slug: platform-independent-configuration-files
+  similarity: 0.8
+- slug: cross-platform-build-tools
+  similarity: 0.8
+- slug: cross-platform-frameworks
+  similarity: 0.75
+- slug: platform-independent-scripting-languages
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

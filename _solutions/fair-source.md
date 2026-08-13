@@ -1,6 +1,7 @@
 ---
 title: Open Development Practices
-description: Improve code quality through public code review, transparent issue tracking, and external contributions
+description: Improve code quality through public code review, transparent issue tracking,
+  and external contributions
 category:
 - Process
 - Culture
@@ -13,6 +14,19 @@ problems:
 - feedback-isolation
 - team-silos
 layout: solution
+related_solutions:
+- slug: code-review-process-reform
+  similarity: 0.8
+- slug: code-reviews
+  similarity: 0.75
+- slug: pair-and-mob-programming
+  similarity: 0.7
+- slug: code-metrics
+  similarity: 0.7
+- slug: psychological-safety-practices
+  similarity: 0.7
+- slug: static-analysis-and-linting
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Graph Databases
-description: Enable the storage and querying of connected data in the form of nodes and edges
+description: Enable the storage and querying of connected data in the form of nodes
+  and edges
 category:
 - Database
 - Performance
@@ -11,6 +12,19 @@ problems:
 - database-schema-design-problems
 - complex-domain-model
 layout: solution
+related_solutions:
+- slug: nosql-databases
+  similarity: 0.85
+- slug: denormalization
+  similarity: 0.75
+- slug: materialized-views
+  similarity: 0.75
+- slug: data-replication
+  similarity: 0.75
+- slug: object-relational-mapping-orm
+  similarity: 0.7
+- slug: data-partitioning
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

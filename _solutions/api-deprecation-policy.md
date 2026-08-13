@@ -1,6 +1,7 @@
 ---
 title: API Deprecation Policy
-description: Retiring old interfaces with sunset headers, timelines, and migration guides
+description: Retiring old interfaces with sunset headers, timelines, and migration
+  guides
 category:
 - Architecture
 - Process
@@ -12,6 +13,19 @@ problems:
 - high-maintenance-costs
 - technical-architecture-limitations
 layout: solution
+related_solutions:
+- slug: backward-compatible-apis
+  similarity: 0.8
+- slug: deprecation-strategy
+  similarity: 0.75
+- slug: backward-compatibility
+  similarity: 0.75
+- slug: api-versioning-strategy
+  similarity: 0.75
+- slug: api-gateway
+  similarity: 0.75
+- slug: compatibility-measurement
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

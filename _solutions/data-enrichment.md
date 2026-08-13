@@ -11,6 +11,19 @@ problems:
 - cross-system-data-synchronization-problems
 - silent-data-corruption
 layout: solution
+related_solutions:
+- slug: data-quality-checks
+  similarity: 0.7
+- slug: data-integration
+  similarity: 0.65
+- slug: data-integrity
+  similarity: 0.65
+- slug: data-deduplication
+  similarity: 0.6
+- slug: continuous-data-verification
+  similarity: 0.6
+- slug: data-strategy
+  similarity: 0.6
 ---
 
 ## How to Apply ◆

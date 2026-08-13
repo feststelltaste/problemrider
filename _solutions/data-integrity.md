@@ -14,6 +14,19 @@ problems:
 - dma-coherency-issues
 - synchronization-problems
 layout: solution
+related_solutions:
+- slug: continuous-data-verification
+  similarity: 0.8
+- slug: checksums
+  similarity: 0.8
+- slug: data-deduplication
+  similarity: 0.8
+- slug: fault-tolerant-data-structures
+  similarity: 0.75
+- slug: error-correction-codes
+  similarity: 0.75
+- slug: monitoring-system-integrity
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

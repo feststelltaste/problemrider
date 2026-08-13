@@ -1,6 +1,8 @@
 ---
 title: Improvement Budget
-description: Reserve a fixed, protected share of every period's capacity for maintenance, refactoring, and risk reduction, so improvement never competes with features for approval.
+description: Reserve a fixed, protected share of every period's capacity for maintenance,
+  refactoring, and risk reduction, so improvement never competes with features for
+  approval.
 category:
 - Management
 - Process
@@ -36,6 +38,19 @@ problems:
 - test-debt
 - brittle-codebase
 layout: solution
+related_solutions:
+- slug: technical-debt-backlog
+  similarity: 0.7
+- slug: total-cost-of-ownership-transparency
+  similarity: 0.7
+- slug: performance-budgets
+  similarity: 0.7
+- slug: incremental-refactoring
+  similarity: 0.7
+- slug: code-metrics
+  similarity: 0.65
+- slug: sustainable-pace-practices
+  similarity: 0.65
 ---
 
 ## Description

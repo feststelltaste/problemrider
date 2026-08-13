@@ -11,6 +11,19 @@ problems:
 - high-database-resource-utilization
 - unoptimized-file-access
 layout: solution
+related_solutions:
+- slug: distributed-caching
+  similarity: 0.75
+- slug: distributed-processing
+  similarity: 0.75
+- slug: lazy-loading
+  similarity: 0.75
+- slug: memory-hierarchy
+  similarity: 0.75
+- slug: data-replication
+  similarity: 0.75
+- slug: data-archiving
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

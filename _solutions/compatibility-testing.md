@@ -1,6 +1,7 @@
 ---
 title: Compatibility Testing
-description: Verify that software works correctly across target platforms, versions, and integration partners
+description: Verify that software works correctly across target platforms, versions,
+  and integration partners
 category:
 - Testing
 problems:
@@ -14,6 +15,19 @@ problems:
 - alignment-and-padding-issues
 - endianness-conversion-overhead
 layout: solution
+related_solutions:
+- slug: cross-version-testing
+  similarity: 0.9
+- slug: compatibility-testing-by-users
+  similarity: 0.85
+- slug: compatibility-certification
+  similarity: 0.85
+- slug: compatibility-as-error
+  similarity: 0.85
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.8
+- slug: compatibility-measurement
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

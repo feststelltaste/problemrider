@@ -12,6 +12,19 @@ problems:
 - system-outages
 - legacy-code-without-tests
 layout: solution
+related_solutions:
+- slug: security-monitoring
+  similarity: 0.75
+- slug: vulnerability-scans
+  similarity: 0.75
+- slug: honeypots
+  similarity: 0.75
+- slug: secure-protocols
+  similarity: 0.75
+- slug: secure-programming-interfaces
+  similarity: 0.75
+- slug: rate-limiting
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

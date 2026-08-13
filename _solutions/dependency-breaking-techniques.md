@@ -1,6 +1,8 @@
 ---
 title: Dependency Breaking Techniques
-description: Create seams in untestable code — extract, wrap, parameterize, subclass — so that a fragment can be isolated and exercised without the rest of the system.
+description: "Create seams in untestable code \u2014 extract, wrap, parameterize,\
+  \ subclass \u2014 so that a fragment can be isolated and exercised without the rest\
+  \ of the system."
 category:
 - Code
 - Testing
@@ -28,6 +30,19 @@ problems:
 - maintenance-paralysis
 - brittle-codebase
 layout: solution
+related_solutions:
+- slug: mikado-method
+  similarity: 0.7
+- slug: test-coverage-strategy
+  similarity: 0.7
+- slug: characterization-tests
+  similarity: 0.7
+- slug: modularization-and-bounded-contexts
+  similarity: 0.7
+- slug: regression-testing
+  similarity: 0.65
+- slug: change-impact-analysis
+  similarity: 0.65
 ---
 
 ## Description

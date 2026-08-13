@@ -1,6 +1,7 @@
 ---
 title: Cost of Delay
-description: Quantify what each month of not doing something costs, so that deferral becomes a priced decision instead of a free one.
+description: Quantify what each month of not doing something costs, so that deferral
+  becomes a priced decision instead of a free one.
 category:
 - Business
 - Management
@@ -38,6 +39,19 @@ problems:
 - core-modification-of-standard-software
 - upgrade-blocked-by-customization
 layout: solution
+related_solutions:
+- slug: total-cost-of-ownership-transparency
+  similarity: 0.75
+- slug: risk-quantification
+  similarity: 0.7
+- slug: technical-debt-backlog
+  similarity: 0.7
+- slug: explicit-prioritization-framework
+  similarity: 0.7
+- slug: modernization-options-comparison
+  similarity: 0.7
+- slug: debt-remediation-estimation
+  similarity: 0.65
 ---
 
 ## Description

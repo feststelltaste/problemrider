@@ -14,6 +14,19 @@ problems:
 - delayed-bug-fixes
 - delayed-issue-resolution
 layout: solution
+related_solutions:
+- slug: error-logs
+  similarity: 0.9
+- slug: error-handling
+  similarity: 0.85
+- slug: error-logging
+  similarity: 0.85
+- slug: root-cause-analysis
+  similarity: 0.8
+- slug: exceptions
+  similarity: 0.8
+- slug: logging
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

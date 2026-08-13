@@ -10,6 +10,19 @@ problems:
 - system-outages
 - service-discovery-failures
 layout: solution
+related_solutions:
+- slug: heartbeat
+  similarity: 0.85
+- slug: watchdog
+  similarity: 0.75
+- slug: failover-mechanisms
+  similarity: 0.75
+- slug: health-check-endpoints
+  similarity: 0.75
+- slug: monitoring
+  similarity: 0.75
+- slug: self-test
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

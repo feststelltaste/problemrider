@@ -13,6 +13,19 @@ problems:
 - monitoring-gaps
 - fear-of-change
 layout: solution
+related_solutions:
+- slug: resilience
+  similarity: 0.85
+- slug: stress-testing
+  similarity: 0.85
+- slug: incident-management
+  similarity: 0.8
+- slug: secure-software
+  similarity: 0.8
+- slug: site-reliability-engineering-sre
+  similarity: 0.8
+- slug: error-budgets
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

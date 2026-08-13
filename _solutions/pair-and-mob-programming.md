@@ -50,6 +50,19 @@ problems:
 - rushed-approvals
 - implementation-partner-dependency
 layout: solution
+related_solutions:
+- slug: collaborative-problem-solving
+  similarity: 0.85
+- slug: knowledge-rotation
+  similarity: 0.8
+- slug: code-reading-sessions
+  similarity: 0.75
+- slug: internal-technical-coaching
+  similarity: 0.75
+- slug: knowledge-sharing-practices
+  similarity: 0.75
+- slug: structured-onboarding-program
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

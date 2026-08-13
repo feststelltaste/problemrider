@@ -13,6 +13,19 @@ problems:
 - god-object-anti-pattern
 - maintenance-overhead
 layout: solution
+related_solutions:
+- slug: dependency-injection
+  similarity: 0.75
+- slug: containerization
+  similarity: 0.7
+- slug: dependency-management-strategy
+  similarity: 0.65
+- slug: containerized-databases
+  similarity: 0.65
+- slug: modularization-and-bounded-contexts
+  similarity: 0.65
+- slug: ci-cd-pipeline
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

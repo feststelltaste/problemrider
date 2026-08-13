@@ -21,6 +21,19 @@ problems:
 - legacy-configuration-management-chaos
 - testing-environment-fragility
 layout: solution
+related_solutions:
+- slug: containerized-databases
+  similarity: 0.85
+- slug: emulation
+  similarity: 0.8
+- slug: cloud-native-development
+  similarity: 0.75
+- slug: virtual-development-environments
+  similarity: 0.75
+- slug: virtual-networks
+  similarity: 0.75
+- slug: dependency-injection
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Key Management
-description: Establish procedures for the secure generation, distribution, and storage of cryptographic keys
+description: Establish procedures for the secure generation, distribution, and storage
+  of cryptographic keys
 category:
 - Security
 - Operations
@@ -12,6 +13,19 @@ problems:
 - configuration-chaos
 - regulatory-compliance-drift
 layout: solution
+related_solutions:
+- slug: encryption
+  similarity: 0.8
+- slug: certificate-management
+  similarity: 0.8
+- slug: cryptographic-methods
+  similarity: 0.8
+- slug: secret-management
+  similarity: 0.75
+- slug: authentication
+  similarity: 0.75
+- slug: digital-signatures
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

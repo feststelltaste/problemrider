@@ -1,6 +1,7 @@
 ---
 title: Fast Feedback Loops
-description: Treat the time from making a change to knowing whether it worked as the primary engineering metric, and attack whatever dominates it.
+description: Treat the time from making a change to knowing whether it worked as the
+  primary engineering metric, and attack whatever dominates it.
 category:
 - Code
 - Process
@@ -30,6 +31,19 @@ problems:
 - review-process-avoidance
 - testing-environment-fragility
 layout: solution
+related_solutions:
+- slug: development-environment-optimization
+  similarity: 0.75
+- slug: small-change-batches
+  similarity: 0.7
+- slug: delivery-performance-metrics
+  similarity: 0.7
+- slug: regression-testing
+  similarity: 0.7
+- slug: development-workflow-automation
+  similarity: 0.65
+- slug: quality-ratchet
+  similarity: 0.65
 ---
 
 ## Description

@@ -13,6 +13,19 @@ problems:
 - long-build-and-test-times
 - inefficient-development-environment
 layout: solution
+related_solutions:
+- slug: cross-platform-build-tools
+  similarity: 0.8
+- slug: cross-platform-build-scripts
+  similarity: 0.75
+- slug: platform-independence
+  similarity: 0.75
+- slug: platform-independent-scripting-languages
+  similarity: 0.7
+- slug: continuous-integration-and-delivery
+  similarity: 0.7
+- slug: platform-independent-programming-languages
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

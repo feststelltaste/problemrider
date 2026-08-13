@@ -11,6 +11,19 @@ problems:
 - cascade-failures
 - difficult-code-comprehension
 layout: solution
+related_solutions:
+- slug: error-handling
+  similarity: 0.8
+- slug: error-reporting-and-analysis
+  similarity: 0.8
+- slug: error-logging
+  similarity: 0.75
+- slug: pattern-language
+  similarity: 0.7
+- slug: error-logs
+  similarity: 0.7
+- slug: logging
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

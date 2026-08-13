@@ -14,6 +14,19 @@ problems:
 - difficulty-quantifying-benefits
 - rapid-prototyping-becoming-production
 layout: solution
+related_solutions:
+- slug: prototypes
+  similarity: 0.95
+- slug: wireframing
+  similarity: 0.8
+- slug: on-site-customer
+  similarity: 0.75
+- slug: user-stories
+  similarity: 0.75
+- slug: usability-tests
+  similarity: 0.75
+- slug: functional-spike
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

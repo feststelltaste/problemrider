@@ -14,6 +14,19 @@ problems:
 - inadequate-requirements-gathering
 - data-protection-risk
 layout: solution
+related_solutions:
+- slug: authentication
+  similarity: 0.75
+- slug: negative-testing
+  similarity: 0.7
+- slug: penetration-tests
+  similarity: 0.7
+- slug: authorization
+  similarity: 0.7
+- slug: logging-and-monitoring
+  similarity: 0.7
+- slug: honeypots
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

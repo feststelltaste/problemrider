@@ -13,6 +13,19 @@ problems:
 - difficulty-quantifying-benefits
 - unpredictable-system-behavior
 layout: solution
+related_solutions:
+- slug: service-level-agreements
+  similarity: 0.85
+- slug: service-level-objectives
+  similarity: 0.85
+- slug: monitoring
+  similarity: 0.8
+- slug: transparent-performance-metrics
+  similarity: 0.8
+- slug: error-budgets
+  similarity: 0.8
+- slug: continuous-performance-monitoring
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

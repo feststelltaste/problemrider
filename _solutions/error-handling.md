@@ -18,6 +18,19 @@ problems:
 - database-connection-leaks
 - improper-event-listener-management
 layout: solution
+related_solutions:
+- slug: error-reporting-and-analysis
+  similarity: 0.85
+- slug: error-logging
+  similarity: 0.85
+- slug: exceptions
+  similarity: 0.8
+- slug: error-logs
+  similarity: 0.8
+- slug: logging
+  similarity: 0.8
+- slug: retry
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

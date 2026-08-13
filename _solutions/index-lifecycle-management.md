@@ -1,6 +1,8 @@
 ---
 title: Index Lifecycle Management
-description: Treat database indexes as maintained assets — reviewed against actual query patterns, measured for use, and removed when they stop earning their cost.
+description: "Treat database indexes as maintained assets \u2014 reviewed against\
+  \ actual query patterns, measured for use, and removed when they stop earning their\
+  \ cost."
 category:
 - Database
 - Performance
@@ -22,6 +24,19 @@ problems:
 - poor-caching-strategy
 - entity-attribute-value-overuse
 layout: solution
+related_solutions:
+- slug: query-optimization-process
+  similarity: 0.8
+- slug: materialized-views
+  similarity: 0.65
+- slug: evolutionary-database-design
+  similarity: 0.6
+- slug: efficient-algorithms
+  similarity: 0.6
+- slug: resource-usage-optimization
+  similarity: 0.6
+- slug: typed-schema-extraction
+  similarity: 0.6
 ---
 
 ## Description

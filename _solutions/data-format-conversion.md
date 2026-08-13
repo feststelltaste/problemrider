@@ -11,6 +11,19 @@ problems:
 - legacy-business-logic-extraction-difficulty
 - poor-interfaces-between-applications
 layout: solution
+related_solutions:
+- slug: standardized-data-formats
+  similarity: 0.85
+- slug: data-formats
+  similarity: 0.85
+- slug: backward-compatible-data-formats
+  similarity: 0.8
+- slug: automated-migration-tools
+  similarity: 0.75
+- slug: data-strategy
+  similarity: 0.75
+- slug: platform-independent-data-storage
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

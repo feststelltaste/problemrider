@@ -16,6 +16,19 @@ problems:
 - extended-research-time
 - information-fragmentation
 layout: solution
+related_solutions:
+- slug: architecture-decision-records
+  similarity: 0.85
+- slug: documentation-as-code
+  similarity: 0.85
+- slug: living-documentation
+  similarity: 0.8
+- slug: api-documentation
+  similarity: 0.8
+- slug: architecture-roadmap
+  similarity: 0.8
+- slug: architecture-governance
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -13,6 +13,19 @@ problems:
 - single-points-of-failure
 - service-discovery-failures
 layout: solution
+related_solutions:
+- slug: retry
+  similarity: 0.8
+- slug: failover-mechanisms
+  similarity: 0.75
+- slug: rate-limiting
+  similarity: 0.75
+- slug: error-handling
+  similarity: 0.75
+- slug: isolation-of-faulty-components
+  similarity: 0.7
+- slug: resilience
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

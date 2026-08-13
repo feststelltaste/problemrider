@@ -15,6 +15,19 @@ problems:
 - improper-event-listener-management
 - circular-dependency-problems
 layout: solution
+related_solutions:
+- slug: abstracted-file-system-access
+  similarity: 0.8
+- slug: adapter
+  similarity: 0.75
+- slug: dependency-injection-container
+  similarity: 0.75
+- slug: integration-tests
+  similarity: 0.75
+- slug: database-abstraction
+  similarity: 0.75
+- slug: abstraction-layers
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

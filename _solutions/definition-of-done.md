@@ -35,6 +35,19 @@ problems:
 - feature-creep
 - rapid-prototyping-becoming-production
 layout: solution
+related_solutions:
+- slug: definition-of-ready
+  similarity: 0.75
+- slug: code-quality-gates
+  similarity: 0.75
+- slug: ci-cd-pipeline
+  similarity: 0.75
+- slug: code-review-process-reform
+  similarity: 0.7
+- slug: architecture-decision-records
+  similarity: 0.7
+- slug: regression-testing
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

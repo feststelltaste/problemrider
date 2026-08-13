@@ -21,6 +21,19 @@ problems:
 - poor-naming-conventions
 - style-arguments-in-code-reviews
 layout: solution
+related_solutions:
+- slug: consistent-user-interface
+  similarity: 0.85
+- slug: consistent-terminology
+  similarity: 0.8
+- slug: intuitive-navigation
+  similarity: 0.8
+- slug: user-centered-design
+  similarity: 0.75
+- slug: pattern-language
+  similarity: 0.75
+- slug: design-tokens
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

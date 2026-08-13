@@ -12,6 +12,19 @@ problems:
 - authentication-bypass-vulnerabilities
 - constant-firefighting
 layout: solution
+related_solutions:
+- slug: honeypots
+  similarity: 0.8
+- slug: malware-protection
+  similarity: 0.8
+- slug: incident-response-measures
+  similarity: 0.8
+- slug: security-monitoring
+  similarity: 0.75
+- slug: logging-and-monitoring
+  similarity: 0.75
+- slug: threat-intelligence
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

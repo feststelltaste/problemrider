@@ -28,6 +28,19 @@ problems:
 - monolithic-functions-and-classes
 - tangled-cross-cutting-concerns
 layout: solution
+related_solutions:
+- slug: modularization-and-bounded-contexts
+  similarity: 0.8
+- slug: solid-principles
+  similarity: 0.75
+- slug: clean-code
+  similarity: 0.75
+- slug: aspect-oriented-programming-aop
+  similarity: 0.75
+- slug: incremental-refactoring
+  similarity: 0.75
+- slug: high-cohesion
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -14,6 +14,19 @@ problems:
 - abi-compatibility-issues
 - rapid-system-changes
 layout: solution
+related_solutions:
+- slug: versioning-scheme
+  similarity: 0.85
+- slug: version-control
+  similarity: 0.75
+- slug: schema-registry
+  similarity: 0.7
+- slug: backward-compatibility
+  similarity: 0.7
+- slug: compatibility-as-error
+  similarity: 0.7
+- slug: compatibility-standards
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

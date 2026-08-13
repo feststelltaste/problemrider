@@ -1,6 +1,7 @@
 ---
 title: Graceful Degradation
-description: Ability of a system to operate in a limited capacity during failures or overload
+description: Ability of a system to operate in a limited capacity during failures
+  or overload
 category:
 - Architecture
 - Operations
@@ -14,6 +15,19 @@ problems:
 - customer-dissatisfaction
 - upstream-timeouts
 layout: solution
+related_solutions:
+- slug: resilience
+  similarity: 0.75
+- slug: failover-mechanisms
+  similarity: 0.75
+- slug: rate-limiting
+  similarity: 0.75
+- slug: load-shedding
+  similarity: 0.75
+- slug: redundancy
+  similarity: 0.7
+- slug: rollback-mechanisms
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

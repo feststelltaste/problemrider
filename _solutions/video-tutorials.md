@@ -13,6 +13,19 @@ problems:
 - knowledge-gaps
 - increased-customer-support-load
 layout: solution
+related_solutions:
+- slug: interactive-tutorials
+  similarity: 0.85
+- slug: knowledge-base
+  similarity: 0.75
+- slug: integrated-onboarding
+  similarity: 0.7
+- slug: contextual-help
+  similarity: 0.7
+- slug: personal-support
+  similarity: 0.7
+- slug: frequently-asked-questions-faq
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

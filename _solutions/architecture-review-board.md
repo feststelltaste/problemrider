@@ -1,6 +1,7 @@
 ---
 title: Architecture Review Board
-description: Establishment of a committee for monitoring and controlling architecture development
+description: Establishment of a committee for monitoring and controlling architecture
+  development
 category:
 - Architecture
 - Management
@@ -15,6 +16,19 @@ problems:
 - delayed-decision-making
 - project-authority-vacuum
 layout: solution
+related_solutions:
+- slug: architecture-reviews
+  similarity: 0.8
+- slug: architecture-governance
+  similarity: 0.8
+- slug: architecture-decision-records
+  similarity: 0.8
+- slug: architecture-roadmap
+  similarity: 0.7
+- slug: architecture-documentation
+  similarity: 0.7
+- slug: architecture-conformity-analysis
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

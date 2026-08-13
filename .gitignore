@@ -20,3 +20,7 @@ venv/
 .venv/
 env/
 .env/
+
+# Locally generated embedding caches
+_embeddings/
+_solution_embeddings/

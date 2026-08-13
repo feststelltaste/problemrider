@@ -13,6 +13,19 @@ problems:
 - poor-domain-model
 - inappropriate-skillset
 layout: solution
+related_solutions:
+- slug: domain-modeling
+  similarity: 0.75
+- slug: domain-patterns
+  similarity: 0.7
+- slug: on-site-customer
+  similarity: 0.7
+- slug: subject-matter-reviews
+  similarity: 0.7
+- slug: code-reviews
+  similarity: 0.7
+- slug: domain-quiz
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Rate Limiting
-description: Controlling incoming request rates against system overload during traffic spikes
+description: Controlling incoming request rates against system overload during traffic
+  spikes
 category:
 - Architecture
 - Performance
@@ -16,6 +17,19 @@ problems:
 - work-queue-buildup
 - task-queues-backing-up
 layout: solution
+related_solutions:
+- slug: load-shedding
+  similarity: 0.8
+- slug: retry
+  similarity: 0.8
+- slug: distributed-caching
+  similarity: 0.8
+- slug: load-balancing
+  similarity: 0.8
+- slug: connection-pooling
+  similarity: 0.75
+- slug: circuit-breaker
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

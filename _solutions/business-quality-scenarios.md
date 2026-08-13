@@ -12,6 +12,19 @@ problems:
 - stakeholder-developer-communication-gap
 - reduced-feature-quality
 layout: solution
+related_solutions:
+- slug: behavior-driven-development-bdd
+  similarity: 0.7
+- slug: business-metrics
+  similarity: 0.7
+- slug: user-stories
+  similarity: 0.65
+- slug: specification-by-example
+  similarity: 0.65
+- slug: acceptance-tests
+  similarity: 0.65
+- slug: requirements-analysis
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

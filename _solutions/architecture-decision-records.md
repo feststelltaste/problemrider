@@ -26,6 +26,19 @@ problems:
 - conflicting-reviewer-opinions
 - implementation-partner-dependency
 layout: solution
+related_solutions:
+- slug: architecture-documentation
+  similarity: 0.85
+- slug: documentation-as-code
+  similarity: 0.8
+- slug: architecture-reviews
+  similarity: 0.8
+- slug: knowledge-sharing-practices
+  similarity: 0.8
+- slug: architecture-roadmap
+  similarity: 0.8
+- slug: architecture-review-board
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

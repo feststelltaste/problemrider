@@ -1,6 +1,7 @@
 ---
 title: Quality Ratchet
-description: Require that quality measures never get worse than they are today, instead of setting absolute thresholds a legacy codebase can never meet.
+description: Require that quality measures never get worse than they are today, instead
+  of setting absolute thresholds a legacy codebase can never meet.
 category:
 - Code
 - Process
@@ -25,6 +26,19 @@ problems:
 - authorization-role-explosion
 - low-code-customization-sprawl
 layout: solution
+related_solutions:
+- slug: code-quality-gates
+  similarity: 0.8
+- slug: code-metrics
+  similarity: 0.75
+- slug: static-analysis-and-linting
+  similarity: 0.75
+- slug: code-coverage-analysis
+  similarity: 0.7
+- slug: delivery-performance-metrics
+  similarity: 0.7
+- slug: regression-testing
+  similarity: 0.7
 ---
 
 ## Description

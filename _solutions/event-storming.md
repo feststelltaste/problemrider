@@ -1,6 +1,7 @@
 ---
 title: Event Storming
-description: Discovering domain events, commands, and aggregates in collaborative workshops
+description: Discovering domain events, commands, and aggregates in collaborative
+  workshops
 category:
 - Requirements
 - Architecture
@@ -12,6 +13,19 @@ problems:
 - poor-domain-model
 - monolithic-architecture-constraints
 layout: solution
+related_solutions:
+- slug: domain-modeling
+  similarity: 0.75
+- slug: business-process-modeling
+  similarity: 0.7
+- slug: architecture-workshops
+  similarity: 0.7
+- slug: domain-driven-design
+  similarity: 0.7
+- slug: story-mapping
+  similarity: 0.65
+- slug: bounded-contexts
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

@@ -28,6 +28,36 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.related_solutions and page.related_solutions.size > 0 %}
+  <section class="related-solutions">
+    <h2>Similar Solutions</h2>
+    <ul class="related-solutions-list">
+      {% for related in page.related_solutions %}
+        {% if related.slug %}
+          {% assign related_slug = related.slug %}
+          {% assign similarity_score = related.similarity %}
+        {% else %}
+          {% assign related_slug = related %}
+          {% assign similarity_score = nil %}
+        {% endif %}
+        {% assign related_solution = site.solutions | where: "slug", related_slug | first %}
+        {% if related_solution %}
+          <li>
+            <a href="{{ related_solution.url | relative_url }}">{{ related_solution.title }}</a>
+            {% if similarity_score %}
+              {% assign percentage = similarity_score | times: 100 | round %}
+              <span class="similarity-score">({{ percentage }}%)</span>
+            {% endif %}
+            {% if related_solution.description %}
+              — {{ related_solution.description }}
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
   {% if page.problems and page.problems.size > 0 %}
   <section class="addressed-problems">
     <h2>Problems Addressed</h2>

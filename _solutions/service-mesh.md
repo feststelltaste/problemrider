@@ -1,6 +1,7 @@
 ---
 title: Service Mesh
-description: Managing traffic at infrastructure level with transparent protocol translation, mTLS, and routing
+description: Managing traffic at infrastructure level with transparent protocol translation,
+  mTLS, and routing
 category:
 - Architecture
 - Operations
@@ -13,6 +14,19 @@ problems:
 - monitoring-gaps
 - cascade-failures
 layout: solution
+related_solutions:
+- slug: containerization
+  similarity: 0.75
+- slug: strangler-fig-pattern
+  similarity: 0.7
+- slug: microservices-architecture
+  similarity: 0.7
+- slug: microservices
+  similarity: 0.7
+- slug: api-gateway
+  similarity: 0.7
+- slug: chaos-engineering
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

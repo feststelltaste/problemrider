@@ -1,6 +1,7 @@
 ---
 title: Automated Migration Tools
-description: Automating data, configuration, and state migration when transferring between environments
+description: Automating data, configuration, and state migration when transferring
+  between environments
 category:
 - Operations
 - Database
@@ -12,6 +13,19 @@ problems:
 - manual-deployment-processes
 - configuration-drift
 layout: solution
+related_solutions:
+- slug: restore-points
+  similarity: 0.8
+- slug: regular-backups
+  similarity: 0.75
+- slug: object-relational-mapping-orm
+  similarity: 0.75
+- slug: containerization
+  similarity: 0.75
+- slug: platform-independent-data-storage
+  similarity: 0.75
+- slug: emulation
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

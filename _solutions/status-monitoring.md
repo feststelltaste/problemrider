@@ -1,6 +1,7 @@
 ---
 title: Status Monitoring
-description: Continuous monitoring of the condition and performance of components or services
+description: Continuous monitoring of the condition and performance of components
+  or services
 category:
 - Operations
 problems:
@@ -14,6 +15,19 @@ problems:
 - unpredictable-system-behavior
 - silent-data-corruption
 layout: solution
+related_solutions:
+- slug: monitoring
+  similarity: 0.8
+- slug: self-monitoring-and-diagnosis
+  similarity: 0.75
+- slug: watchdog
+  similarity: 0.75
+- slug: observability-and-monitoring
+  similarity: 0.75
+- slug: service-level-objectives
+  similarity: 0.75
+- slug: monitoring-system-utilization
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -24,6 +24,19 @@ problems:
 - high-defect-rate-in-production
 - insufficient-testing
 layout: solution
+related_solutions:
+- slug: automated-tests
+  similarity: 0.9
+- slug: regression-testing
+  similarity: 0.85
+- slug: functional-tests
+  similarity: 0.85
+- slug: characterization-tests
+  similarity: 0.85
+- slug: code-coverage-analysis
+  similarity: 0.8
+- slug: ci-cd-pipeline
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

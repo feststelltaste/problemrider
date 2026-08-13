@@ -14,6 +14,19 @@ problems:
 - upstream-timeouts
 - service-discovery-failures
 layout: solution
+related_solutions:
+- slug: failover-mechanisms
+  similarity: 0.8
+- slug: rate-limiting
+  similarity: 0.8
+- slug: circuit-breaker
+  similarity: 0.8
+- slug: resilience
+  similarity: 0.8
+- slug: error-handling
+  similarity: 0.75
+- slug: chaos-engineering
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

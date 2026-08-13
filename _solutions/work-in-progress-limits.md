@@ -1,6 +1,7 @@
 ---
 title: Work in Progress Limits
-description: Cap how many items the team may have started but not finished, so that work is completed rather than accumulated.
+description: Cap how many items the team may have started but not finished, so that
+  work is completed rather than accumulated.
 category:
 - Process
 - Team
@@ -53,6 +54,19 @@ problems:
 - inadequate-code-reviews
 - perfectionist-review-culture
 layout: solution
+related_solutions:
+- slug: capacity-based-planning
+  similarity: 0.7
+- slug: sustainable-pace-practices
+  similarity: 0.7
+- slug: value-stream-mapping
+  similarity: 0.7
+- slug: delivery-performance-metrics
+  similarity: 0.7
+- slug: definition-of-ready
+  similarity: 0.65
+- slug: team-retrospectives
+  similarity: 0.65
 ---
 
 ## Description

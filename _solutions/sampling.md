@@ -12,6 +12,19 @@ problems:
 - inadequate-test-data-management
 - excessive-logging
 layout: solution
+related_solutions:
+- slug: distributed-processing
+  similarity: 0.75
+- slug: data-archiving
+  similarity: 0.7
+- slug: logging
+  similarity: 0.7
+- slug: data-replication
+  similarity: 0.7
+- slug: compression
+  similarity: 0.7
+- slug: data-partitioning
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

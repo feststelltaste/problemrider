@@ -11,6 +11,19 @@ problems:
 - data-protection-risk
 - password-security-weaknesses
 layout: solution
+related_solutions:
+- slug: secure-protocols
+  similarity: 0.75
+- slug: cryptographic-methods
+  similarity: 0.75
+- slug: secure-by-default
+  similarity: 0.7
+- slug: secure-programming-interfaces
+  similarity: 0.7
+- slug: secure-configuration
+  similarity: 0.7
+- slug: secure-coding-guidelines
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Attribute Usage Analysis
-description: Measure which attributes are actually populated, queried, and varied, so that a generic data model can be replaced by evidence rather than by guesswork.
+description: Measure which attributes are actually populated, queried, and varied,
+  so that a generic data model can be replaced by evidence rather than by guesswork.
 category:
 - Database
 - Code
@@ -20,6 +21,19 @@ problems:
 - custom-report-sprawl
 - low-code-customization-sprawl
 layout: solution
+related_solutions:
+- slug: typed-schema-extraction
+  similarity: 0.7
+- slug: feature-usage-measurement
+  similarity: 0.65
+- slug: role-model-rationalization
+  similarity: 0.6
+- slug: production-like-test-data
+  similarity: 0.6
+- slug: customization-cost-attribution
+  similarity: 0.6
+- slug: change-impact-analysis
+  similarity: 0.6
 ---
 
 ## Description

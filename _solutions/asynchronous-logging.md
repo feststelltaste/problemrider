@@ -11,6 +11,19 @@ problems:
 - logging-configuration-issues
 - gradual-performance-degradation
 layout: solution
+related_solutions:
+- slug: logging
+  similarity: 0.75
+- slug: platform-independent-logging-frameworks
+  similarity: 0.75
+- slug: asynchronous-processing
+  similarity: 0.75
+- slug: error-logging
+  similarity: 0.7
+- slug: distributed-tracing
+  similarity: 0.65
+- slug: connection-pooling
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

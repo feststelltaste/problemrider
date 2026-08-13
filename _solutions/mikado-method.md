@@ -1,6 +1,7 @@
 ---
 title: Mikado Method
-description: Discover the true dependency graph of a large change by attempting it, recording what breaks, reverting, and fixing the prerequisites first.
+description: Discover the true dependency graph of a large change by attempting it,
+  recording what breaks, reverting, and fixing the prerequisites first.
 category:
 - Code
 - Process
@@ -25,6 +26,19 @@ problems:
 - complex-implementation-paths
 - large-feature-scope
 layout: solution
+related_solutions:
+- slug: change-impact-analysis
+  similarity: 0.75
+- slug: small-change-batches
+  similarity: 0.75
+- slug: large-scale-refactoring
+  similarity: 0.75
+- slug: preparatory-refactoring
+  similarity: 0.75
+- slug: incremental-refactoring
+  similarity: 0.7
+- slug: dependency-breaking-techniques
+  similarity: 0.7
 ---
 
 ## Description

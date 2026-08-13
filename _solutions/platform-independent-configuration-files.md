@@ -11,6 +11,19 @@ problems:
 - legacy-configuration-management-chaos
 - inadequate-configuration-management
 layout: solution
+related_solutions:
+- slug: platform-independent-configuration-management
+  similarity: 0.9
+- slug: platform-independent-scripting-languages
+  similarity: 0.8
+- slug: platform-independence
+  similarity: 0.8
+- slug: standardized-data-formats
+  similarity: 0.8
+- slug: platform-independent-data-storage
+  similarity: 0.8
+- slug: cross-platform-build-tools
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

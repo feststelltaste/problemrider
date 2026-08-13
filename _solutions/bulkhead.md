@@ -13,6 +13,19 @@ problems:
 - high-coupling-low-cohesion
 - upstream-timeouts
 layout: solution
+related_solutions:
+- slug: fault-containment
+  similarity: 0.8
+- slug: isolation-of-faulty-components
+  similarity: 0.75
+- slug: rate-limiting
+  similarity: 0.7
+- slug: circuit-breaker
+  similarity: 0.7
+- slug: resilience
+  similarity: 0.65
+- slug: backpressure
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

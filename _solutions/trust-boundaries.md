@@ -1,6 +1,7 @@
 ---
 title: Trust Boundaries
-description: Define boundaries between systems and components with different trust levels
+description: Define boundaries between systems and components with different trust
+  levels
 category:
 - Security
 - Architecture
@@ -12,6 +13,19 @@ problems:
 - authorization-flaws
 - poor-interfaces-between-applications
 layout: solution
+related_solutions:
+- slug: zero-trust-architecture
+  similarity: 0.75
+- slug: network-segmentation
+  similarity: 0.75
+- slug: security-architecture-analysis
+  similarity: 0.7
+- slug: security-by-design
+  similarity: 0.7
+- slug: threat-modeling
+  similarity: 0.7
+- slug: secure-by-default
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

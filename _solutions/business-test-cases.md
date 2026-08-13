@@ -1,6 +1,7 @@
 ---
 title: Business Test Cases
-description: Create test cases from a business perspective and have them reviewed by users
+description: Create test cases from a business perspective and have them reviewed
+  by users
 category:
 - Testing
 - Requirements
@@ -12,6 +13,19 @@ problems:
 - requirements-ambiguity
 - legacy-code-without-tests
 layout: solution
+related_solutions:
+- slug: acceptance-tests
+  similarity: 0.7
+- slug: functional-tests
+  similarity: 0.7
+- slug: test-coverage-strategy
+  similarity: 0.65
+- slug: business-quality-scenarios
+  similarity: 0.65
+- slug: usability-tests
+  similarity: 0.65
+- slug: regression-testing
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

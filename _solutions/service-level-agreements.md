@@ -20,6 +20,19 @@ problems:
 - stakeholder-confidence-loss
 - voided-vendor-support
 layout: solution
+related_solutions:
+- slug: service-level-objectives
+  similarity: 0.9
+- slug: service-level-indicators
+  similarity: 0.85
+- slug: performance-budgets
+  similarity: 0.8
+- slug: incident-management
+  similarity: 0.75
+- slug: secure-software
+  similarity: 0.75
+- slug: transparent-performance-metrics
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

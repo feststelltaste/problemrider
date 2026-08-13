@@ -12,6 +12,19 @@ problems:
 - poor-interfaces-between-applications
 - difficult-code-reuse
 layout: solution
+related_solutions:
+- slug: facades
+  similarity: 0.6
+- slug: api-first-design
+  similarity: 0.6
+- slug: api-first-development
+  similarity: 0.6
+- slug: pattern-language
+  similarity: 0.6
+- slug: api-documentation
+  similarity: 0.55
+- slug: api-calls-optimization
+  similarity: 0.55
 ---
 
 ## How to Apply ◆

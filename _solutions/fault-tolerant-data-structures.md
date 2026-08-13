@@ -12,6 +12,19 @@ problems:
 - data-migration-integrity-issues
 - cascade-failures
 layout: solution
+related_solutions:
+- slug: error-correction-codes
+  similarity: 0.8
+- slug: data-integrity
+  similarity: 0.75
+- slug: redundant-data-storage
+  similarity: 0.75
+- slug: checksums
+  similarity: 0.75
+- slug: retry
+  similarity: 0.75
+- slug: standardized-data-formats
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

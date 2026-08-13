@@ -1,6 +1,7 @@
 ---
 title: Standard Software
-description: Use proven standard software instead of developing ordinary functionality yourself
+description: Use proven standard software instead of developing ordinary functionality
+  yourself
 category:
 - Architecture
 - Dependencies
@@ -16,6 +17,19 @@ problems:
 - excessive-customization
 - reimplemented-standard-functionality
 layout: solution
+related_solutions:
+- slug: consistent-user-interface
+  similarity: 0.7
+- slug: consistent-terminology
+  similarity: 0.7
+- slug: customizing
+  similarity: 0.7
+- slug: strangler-fig-pattern
+  similarity: 0.7
+- slug: emulation
+  similarity: 0.65
+- slug: boring-technologies
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

@@ -20,6 +20,19 @@ problems:
 - declining-business-metrics
 - user-trust-erosion
 layout: solution
+related_solutions:
+- slug: user-centered-design
+  similarity: 0.8
+- slug: intuitive-navigation
+  similarity: 0.75
+- slug: user-acceptance-tests
+  similarity: 0.75
+- slug: exploratory-testing
+  similarity: 0.75
+- slug: prototyping
+  similarity: 0.75
+- slug: prototypes
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

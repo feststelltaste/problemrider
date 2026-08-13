@@ -15,6 +15,19 @@ problems:
 - inadequate-test-data-management
 - retention-obligations-block-change
 layout: solution
+related_solutions:
+- slug: data-flow-control
+  similarity: 0.7
+- slug: encryption
+  similarity: 0.7
+- slug: least-privilege
+  similarity: 0.7
+- slug: retention-and-disposal-policy
+  similarity: 0.7
+- slug: backup-and-recovery
+  similarity: 0.65
+- slug: privacy-by-design
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

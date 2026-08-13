@@ -13,6 +13,19 @@ problems:
 - feature-gaps
 - user-confusion
 layout: solution
+related_solutions:
+- slug: assistive-technology-support
+  similarity: 0.75
+- slug: focus-management
+  similarity: 0.7
+- slug: intuitive-navigation
+  similarity: 0.7
+- slug: accessibility-concept
+  similarity: 0.7
+- slug: responsive-design
+  similarity: 0.65
+- slug: customizable-user-interface
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

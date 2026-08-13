@@ -13,6 +13,19 @@ problems:
 - poor-communication
 - stakeholder-confidence-loss
 layout: solution
+related_solutions:
+- slug: performance-measurements
+  similarity: 0.85
+- slug: continuous-performance-monitoring
+  similarity: 0.85
+- slug: performance-budgets
+  similarity: 0.8
+- slug: service-level-indicators
+  similarity: 0.8
+- slug: monitoring
+  similarity: 0.8
+- slug: error-reporting-and-analysis
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

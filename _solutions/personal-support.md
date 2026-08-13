@@ -13,6 +13,19 @@ problems:
 - negative-user-feedback
 - stakeholder-developer-communication-gap
 layout: solution
+related_solutions:
+- slug: user-communities
+  similarity: 0.8
+- slug: knowledge-base
+  similarity: 0.75
+- slug: contextual-help
+  similarity: 0.75
+- slug: feedback-mechanisms
+  similarity: 0.75
+- slug: frequently-asked-questions-faq
+  similarity: 0.7
+- slug: user-centered-design
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

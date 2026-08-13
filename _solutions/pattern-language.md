@@ -13,6 +13,19 @@ problems:
 - insufficient-design-skills
 - misunderstanding-of-oop
 layout: solution
+related_solutions:
+- slug: domain-patterns
+  similarity: 0.85
+- slug: facades
+  similarity: 0.75
+- slug: living-documentation
+  similarity: 0.75
+- slug: style-guide
+  similarity: 0.75
+- slug: data-strategy
+  similarity: 0.75
+- slug: adapter
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

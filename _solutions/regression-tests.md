@@ -14,6 +14,19 @@ problems:
 - test-debt
 - poor-test-coverage
 layout: solution
+related_solutions:
+- slug: security-tests
+  similarity: 0.85
+- slug: security-tests-by-external-parties
+  similarity: 0.8
+- slug: vulnerability-scans
+  similarity: 0.8
+- slug: security-audits
+  similarity: 0.8
+- slug: secure-software
+  similarity: 0.8
+- slug: secure-software-development
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

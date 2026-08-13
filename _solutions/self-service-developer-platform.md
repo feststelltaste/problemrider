@@ -1,6 +1,8 @@
 ---
 title: Self-Service Developer Platform
-description: Turn the things developers must ask permission or wait for — environments, access, deployments, data — into capabilities they can invoke themselves within guardrails.
+description: "Turn the things developers must ask permission or wait for \u2014 environments,\
+  \ access, deployments, data \u2014 into capabilities they can invoke themselves\
+  \ within guardrails."
 category:
 - Operations
 - Process
@@ -20,6 +22,19 @@ problems:
 - extended-cycle-times
 - wasted-development-effort
 layout: solution
+related_solutions:
+- slug: development-environment-optimization
+  similarity: 0.7
+- slug: development-workflow-automation
+  similarity: 0.7
+- slug: ci-cd-pipeline
+  similarity: 0.65
+- slug: delivery-performance-metrics
+  similarity: 0.65
+- slug: customization-under-version-control
+  similarity: 0.65
+- slug: blue-green-canary-deployments
+  similarity: 0.65
 ---
 
 ## Description

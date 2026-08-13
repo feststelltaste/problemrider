@@ -14,6 +14,19 @@ problems:
 - increased-risk-of-bugs
 - integer-overflow-underflow
 layout: solution
+related_solutions:
+- slug: input-validation
+  similarity: 0.75
+- slug: input-constraints-and-defaults
+  similarity: 0.7
+- slug: plausibility-checks
+  similarity: 0.7
+- slug: negative-testing
+  similarity: 0.7
+- slug: data-quality-checks
+  similarity: 0.65
+- slug: transactions
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

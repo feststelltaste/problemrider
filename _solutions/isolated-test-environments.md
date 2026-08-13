@@ -14,6 +14,19 @@ problems:
 - inadequate-test-data-management
 - testing-complexity
 layout: solution
+related_solutions:
+- slug: compatibility-testing
+  similarity: 0.75
+- slug: cross-version-testing
+  similarity: 0.75
+- slug: virtual-development-environments
+  similarity: 0.75
+- slug: integration-tests
+  similarity: 0.75
+- slug: environment-parity
+  similarity: 0.7
+- slug: interoperability-tests
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Domain-Specific Languages
-description: Use programming languages specifically adapted to the domain for business expressions and rules
+description: Use programming languages specifically adapted to the domain for business
+  expressions and rules
 category:
 - Code
 - Architecture
@@ -12,6 +13,19 @@ problems:
 - stakeholder-developer-communication-gap
 - requirements-ambiguity
 layout: solution
+related_solutions:
+- slug: rule-based-systems
+  similarity: 0.7
+- slug: ubiquitous-language
+  similarity: 0.7
+- slug: decision-tables
+  similarity: 0.7
+- slug: domain-experts
+  similarity: 0.7
+- slug: domain-patterns
+  similarity: 0.7
+- slug: domain-modeling
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

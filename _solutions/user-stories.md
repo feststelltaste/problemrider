@@ -12,6 +12,19 @@ problems:
 - large-feature-scope
 - implementation-rework
 layout: solution
+related_solutions:
+- slug: story-mapping
+  similarity: 0.85
+- slug: personas
+  similarity: 0.8
+- slug: user-centered-design
+  similarity: 0.8
+- slug: requirements-analysis
+  similarity: 0.8
+- slug: behavior-driven-development-bdd
+  similarity: 0.75
+- slug: prototypes
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

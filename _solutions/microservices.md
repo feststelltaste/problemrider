@@ -1,6 +1,7 @@
 ---
 title: Microservices
-description: Enabling rapid product experimentation through independent, business-aligned services
+description: Enabling rapid product experimentation through independent, business-aligned
+  services
 category:
 - Architecture
 problems:
@@ -14,6 +15,19 @@ problems:
 - stagnant-architecture
 - team-silos
 layout: solution
+related_solutions:
+- slug: microservices-architecture
+  similarity: 0.9
+- slug: strangler-fig-pattern
+  similarity: 0.75
+- slug: modularization-and-bounded-contexts
+  similarity: 0.75
+- slug: event-driven-architecture
+  similarity: 0.75
+- slug: service-mesh
+  similarity: 0.7
+- slug: business-event-processing
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Smoke Testing
-description: Performing a series of basic tests to verify the core functionality of a system
+description: Performing a series of basic tests to verify the core functionality of
+  a system
 category:
 - Testing
 - Operations
@@ -16,6 +17,19 @@ problems:
 - legacy-code-without-tests
 - increased-manual-testing-effort
 layout: solution
+related_solutions:
+- slug: test-coverage-strategy
+  similarity: 0.8
+- slug: ci-cd-pipeline
+  similarity: 0.75
+- slug: regression-testing
+  similarity: 0.75
+- slug: blue-green-canary-deployments
+  similarity: 0.75
+- slug: functional-tests
+  similarity: 0.75
+- slug: continuous-deployment
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

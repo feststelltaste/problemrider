@@ -12,6 +12,19 @@ problems:
 - integration-difficulties
 - breaking-changes
 layout: solution
+related_solutions:
+- slug: compatibility-as-error
+  similarity: 0.85
+- slug: compatibility-governance
+  similarity: 0.85
+- slug: compatibility-certification
+  similarity: 0.85
+- slug: compatibility-standards
+  similarity: 0.85
+- slug: compatibility-testing
+  similarity: 0.8
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

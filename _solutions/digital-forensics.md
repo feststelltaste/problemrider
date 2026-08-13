@@ -11,6 +11,19 @@ problems:
 - data-protection-risk
 - silent-data-corruption
 layout: solution
+related_solutions:
+- slug: incident-response-measures
+  similarity: 0.75
+- slug: logging-and-monitoring
+  similarity: 0.75
+- slug: audit-trail-management
+  similarity: 0.75
+- slug: security-monitoring
+  similarity: 0.7
+- slug: endpoint-detection-and-response
+  similarity: 0.7
+- slug: honeypots
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

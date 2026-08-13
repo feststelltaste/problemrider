@@ -1,6 +1,8 @@
 ---
 title: Defect Triage Process
-description: Assess every reported defect against stated criteria at a regular cadence, classify its cause, and use the accumulated classification to fix categories rather than instances.
+description: Assess every reported defect against stated criteria at a regular cadence,
+  classify its cause, and use the accumulated classification to fix categories rather
+  than instances.
 category:
 - Process
 - Code
@@ -25,6 +27,19 @@ problems:
 - negative-brand-perception
 - user-trust-erosion
 layout: solution
+related_solutions:
+- slug: explicit-prioritization-framework
+  similarity: 0.65
+- slug: workaround-registry
+  similarity: 0.65
+- slug: code-hotspot-analysis
+  similarity: 0.65
+- slug: blameless-postmortems
+  similarity: 0.65
+- slug: debt-classification
+  similarity: 0.65
+- slug: debt-accrual-analysis
+  similarity: 0.65
 ---
 
 ## Description

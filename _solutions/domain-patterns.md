@@ -11,6 +11,19 @@ problems:
 - suboptimal-solutions
 - accumulation-of-workarounds
 layout: solution
+related_solutions:
+- slug: pattern-language
+  similarity: 0.85
+- slug: domain-modeling
+  similarity: 0.8
+- slug: domain-driven-design
+  similarity: 0.75
+- slug: ubiquitous-language
+  similarity: 0.75
+- slug: incremental-refactoring
+  similarity: 0.75
+- slug: consistent-terminology
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

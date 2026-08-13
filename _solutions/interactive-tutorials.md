@@ -1,6 +1,7 @@
 ---
 title: Interactive Tutorials
-description: Embed hands-on, step-by-step exercises for learning tasks at any complexity level
+description: Embed hands-on, step-by-step exercises for learning tasks at any complexity
+  level
 category:
 - Communication
 quality_tactics_url: https://qualitytactics.de/en/usability/interactive-tutorials/
@@ -13,6 +14,19 @@ problems:
 - increased-customer-support-load
 - knowledge-gaps
 layout: solution
+related_solutions:
+- slug: video-tutorials
+  similarity: 0.85
+- slug: integrated-onboarding
+  similarity: 0.75
+- slug: knowledge-base
+  similarity: 0.7
+- slug: contextual-help
+  similarity: 0.7
+- slug: personal-support
+  similarity: 0.65
+- slug: user-communities
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

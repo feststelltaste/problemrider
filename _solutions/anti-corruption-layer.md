@@ -21,6 +21,19 @@ problems:
 - strangler-fig-pattern-failures
 - shared-database
 layout: solution
+related_solutions:
+- slug: strangler-fig-pattern
+  similarity: 0.7
+- slug: transactions
+  similarity: 0.7
+- slug: event-driven-architecture
+  similarity: 0.7
+- slug: modularization-and-bounded-contexts
+  similarity: 0.7
+- slug: architecture-decision-records
+  similarity: 0.7
+- slug: ubiquitous-language
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

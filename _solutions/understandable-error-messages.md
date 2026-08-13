@@ -16,6 +16,19 @@ problems:
 - user-trust-erosion
 - negative-brand-perception
 layout: solution
+related_solutions:
+- slug: plain-language
+  similarity: 0.8
+- slug: confirmation-dialogs
+  similarity: 0.75
+- slug: consistent-terminology
+  similarity: 0.75
+- slug: contextual-help
+  similarity: 0.75
+- slug: error-reporting-and-analysis
+  similarity: 0.7
+- slug: intuitive-navigation
+  similarity: 0.7
 ---
 
 ## How to Apply ◆
