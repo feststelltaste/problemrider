@@ -7,7 +7,7 @@
   var pendingKey = 'problemrider-analysis-trail-pending-edge-v12';
   var expandedKey = 'problemrider-analysis-trail-expanded-v1';
   var historyKey = 'problemrider-analysis-trail-history-v1';
-  var speedNavKey = 'problemrider-analysis-trail-speed-nav-v1';
+  var speedNavKey = 'problemrider-analysis-trail-speed-nav-v2';
   var maxNodes = 200;
   var maxEdges = 30;
   var namespace = 'http://www.w3.org/2000/svg';
