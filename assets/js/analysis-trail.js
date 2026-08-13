@@ -422,9 +422,10 @@
               var showAll = document.createElement('button');
               showAll.type = 'button';
               showAll.className = 'analysis-trail__node-menu-show-all';
-              showAll.textContent = 'Show all (' + references.length + ')';
+              showAll.textContent = 'Show all nodes (' + references.length + ')';
               showAll.addEventListener('click', function () {
                 showAll.remove();
+                list.classList.add('is-expanded');
                 references.slice(initiallyVisible).forEach(addReference);
               });
               list.appendChild(showAll);
