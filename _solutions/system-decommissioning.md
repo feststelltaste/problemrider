@@ -23,6 +23,7 @@ problems:
 - legal-disputes
 - modernization-roi-justification-failure
 - vendor-dependency-entrapment
+- retention-obligations-block-change
 layout: solution
 ---
 

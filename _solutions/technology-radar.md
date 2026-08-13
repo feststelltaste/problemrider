@@ -21,6 +21,7 @@ problems:
 - dependency-on-supplier
 - inappropriate-skillset
 - vendor-relationship-strain
+- reimplemented-standard-functionality
 layout: solution
 ---
 

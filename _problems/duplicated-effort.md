@@ -28,6 +28,7 @@ solutions:
 - team-boundaries-aligned-to-architecture
 - documentation-as-code
 - communities-of-practice
+- master-data-stewardship
 layout: problem
 ---
 

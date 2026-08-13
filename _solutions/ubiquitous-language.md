@@ -16,6 +16,8 @@ problems:
 - communication-risk-within-project
 - language-barriers
 - difficult-to-understand-code
+- custom-report-sprawl
+- master-data-ownership-gaps
 layout: solution
 ---
 

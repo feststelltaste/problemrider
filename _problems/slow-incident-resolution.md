@@ -57,6 +57,8 @@ solutions:
 - self-monitoring-and-diagnosis
 - self-test
 - threat-intelligence
+- customization-under-version-control
+- role-model-rationalization
 layout: problem
 ---
 

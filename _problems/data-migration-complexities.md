@@ -39,6 +39,8 @@ solutions:
 - database-abstraction
 - parallel-run
 - production-like-test-data
+- master-data-stewardship
+- retention-and-disposal-policy
 layout: problem
 ---
 

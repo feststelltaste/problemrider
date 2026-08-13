@@ -21,6 +21,7 @@ problems:
 - legacy-system-documentation-archaeology
 - market-pressure
 - technology-stack-fragmentation
+- upgrade-blocked-by-customization
 layout: solution
 ---
 

@@ -24,6 +24,8 @@ problems:
 - maintenance-cost-increase
 - refactoring-avoidance
 - workaround-culture
+- core-modification-of-standard-software
+- low-code-customization-sprawl
 layout: solution
 ---
 

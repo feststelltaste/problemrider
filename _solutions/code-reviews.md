@@ -41,6 +41,7 @@ problems:
 - log-injection-vulnerabilities
 - partial-bug-fixes
 - undefined-code-style-guidelines
+- customization-outside-version-control
 layout: solution
 ---
 

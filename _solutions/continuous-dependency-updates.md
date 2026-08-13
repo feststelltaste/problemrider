@@ -19,6 +19,7 @@ problems:
 - maintenance-cost-increase
 - api-versioning-conflicts
 - technology-stack-fragmentation
+- upgrade-blocked-by-customization
 layout: solution
 ---
 

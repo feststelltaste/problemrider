@@ -11,6 +11,8 @@ problems:
 - integration-difficulties
 - data-migration-complexities
 - technology-stack-fragmentation
+- custom-report-sprawl
+- master-data-ownership-gaps
 layout: solution
 ---
 

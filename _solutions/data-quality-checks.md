@@ -12,6 +12,7 @@ problems:
 - unpredictable-system-behavior
 - unbounded-data-growth
 - entity-attribute-value-overuse
+- master-data-ownership-gaps
 layout: solution
 ---
 

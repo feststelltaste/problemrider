@@ -30,6 +30,10 @@ solutions:
 - system-decommissioning
 - team-working-agreements
 - on-call-duty
+- customization-under-version-control
+- master-data-stewardship
+- retention-and-disposal-policy
+- role-model-rationalization
 layout: problem
 ---
 

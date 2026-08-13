@@ -10,6 +10,7 @@ problems:
 - cross-system-data-synchronization-problems
 - high-database-resource-utilization
 - silent-data-corruption
+- master-data-ownership-gaps
 layout: solution
 ---
 

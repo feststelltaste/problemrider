@@ -11,6 +11,7 @@ problems:
 - poorly-defined-responsibilities
 - insufficient-audit-logging
 - authentication-bypass-vulnerabilities
+- authorization-role-explosion
 layout: solution
 ---
 

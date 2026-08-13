@@ -22,6 +22,8 @@ problems:
 - maintenance-paralysis
 - release-anxiety
 - entity-attribute-value-overuse
+- retention-obligations-block-change
+- upgrade-blocked-by-customization
 layout: solution
 ---
 

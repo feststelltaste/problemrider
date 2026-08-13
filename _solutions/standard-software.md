@@ -14,6 +14,7 @@ problems:
 - slow-feature-development
 - technology-lock-in
 - excessive-customization
+- reimplemented-standard-functionality
 layout: solution
 ---
 

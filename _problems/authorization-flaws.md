@@ -37,6 +37,7 @@ solutions:
 - trust-boundaries
 - two-factor-authentication
 - zero-trust-architecture
+- role-model-rationalization
 layout: problem
 ---
 

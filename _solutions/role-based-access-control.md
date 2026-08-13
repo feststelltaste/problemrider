@@ -11,6 +11,7 @@ problems:
 - session-management-issues
 - regulatory-compliance-drift
 - secret-management-problems
+- authorization-role-explosion
 layout: solution
 ---
 

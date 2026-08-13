@@ -13,6 +13,9 @@ problems:
 - accumulation-of-workarounds
 - copy-paste-programming
 - maintenance-cost-increase
+- custom-report-sprawl
+- low-code-customization-sprawl
+- reimplemented-standard-functionality
 layout: solution
 ---
 

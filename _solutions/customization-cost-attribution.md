@@ -18,6 +18,9 @@ problems:
 - competing-priorities
 - product-direction-chaos
 - invisible-nature-of-technical-debt
+- core-modification-of-standard-software
+- custom-report-sprawl
+- reimplemented-standard-functionality
 layout: solution
 ---
 

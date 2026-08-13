@@ -31,6 +31,7 @@ problems:
 - team-churn-impact
 - unclear-goals-and-priorities
 - vendor-relationship-strain
+- voided-vendor-support
 layout: solution
 ---
 

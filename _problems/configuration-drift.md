@@ -51,6 +51,7 @@ solutions:
 - environment-variables-for-configuration
 - vulnerability-scans
 - zero-trust-architecture
+- customization-under-version-control
 layout: problem
 ---
 

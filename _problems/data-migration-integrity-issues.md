@@ -46,6 +46,7 @@ solutions:
 - parallel-run
 - production-like-test-data
 - typed-schema-extraction
+- master-data-stewardship
 layout: problem
 ---
 

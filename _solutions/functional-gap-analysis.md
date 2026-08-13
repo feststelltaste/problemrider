@@ -11,6 +11,8 @@ problems:
 - modernization-roi-justification-failure
 - stakeholder-frustration
 - customer-dissatisfaction
+- process-software-misfit
+- reimplemented-standard-functionality
 layout: solution
 ---
 

@@ -21,6 +21,7 @@ problems:
 - fear-of-change
 - brittle-codebase
 - poor-test-coverage
+- core-modification-of-standard-software
 layout: solution
 ---
 

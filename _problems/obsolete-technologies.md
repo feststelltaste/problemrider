@@ -47,6 +47,7 @@ solutions:
 - continuous-dependency-updates
 - automated-code-migration
 - large-scale-refactoring
+- retention-and-disposal-policy
 layout: problem
 ---
 

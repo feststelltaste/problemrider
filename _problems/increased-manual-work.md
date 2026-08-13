@@ -27,6 +27,8 @@ solutions:
 - workaround-registry
 - fast-feedback-loops
 - self-service-developer-platform
+- master-data-stewardship
+- role-model-rationalization
 layout: problem
 ---
 

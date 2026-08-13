@@ -30,6 +30,7 @@ problems:
 - poor-encapsulation
 - tangled-cross-cutting-concerns
 - unproductive-meetings
+- reimplemented-standard-functionality
 layout: solution
 ---
 

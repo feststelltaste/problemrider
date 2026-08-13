@@ -30,6 +30,7 @@ solutions:
 - application-portfolio-inventory
 - written-first-communication
 - system-decommissioning
+- retention-and-disposal-policy
 layout: problem
 ---
 

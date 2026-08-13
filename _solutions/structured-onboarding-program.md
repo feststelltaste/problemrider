@@ -23,6 +23,7 @@ problems:
 - reviewer-inexperience
 - inconsistent-knowledge-acquisition
 - staff-availability-issues
+- implementation-partner-dependency
 layout: solution
 ---
 

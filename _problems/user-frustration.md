@@ -70,6 +70,7 @@ solutions:
 - video-tutorials
 - visual-hierarchy
 - wireframing
+- role-model-rationalization
 layout: problem
 ---
 

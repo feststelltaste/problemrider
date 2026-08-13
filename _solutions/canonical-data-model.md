@@ -12,6 +12,7 @@ problems:
 - inconsistent-behavior
 - poor-domain-model
 - technology-stack-fragmentation
+- master-data-ownership-gaps
 layout: solution
 ---
 

@@ -10,6 +10,7 @@ problems:
 - regulatory-compliance-drift
 - password-security-weaknesses
 - poorly-defined-responsibilities
+- authorization-role-explosion
 layout: solution
 ---
 

@@ -23,6 +23,8 @@ problems:
 - technology-stack-fragmentation
 - vendor-dependency
 - vendor-dependency-entrapment
+- core-modification-of-standard-software
+- upgrade-blocked-by-customization
 layout: solution
 ---
 

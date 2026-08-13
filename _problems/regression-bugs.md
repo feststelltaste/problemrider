@@ -50,6 +50,7 @@ solutions:
 - exploratory-testing
 - duplication-detection
 - explicit-extension-points
+- customization-under-version-control
 layout: problem
 ---
 

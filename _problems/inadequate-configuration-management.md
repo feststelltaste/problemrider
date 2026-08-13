@@ -30,6 +30,7 @@ solutions:
 - environment-parity
 - containerization
 - production-readiness-criteria
+- customization-under-version-control
 layout: problem
 ---
 

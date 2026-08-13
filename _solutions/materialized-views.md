@@ -15,6 +15,7 @@ problems:
 - lazy-loading
 - poor-caching-strategy
 - entity-attribute-value-overuse
+- custom-report-sprawl
 layout: solution
 ---
 

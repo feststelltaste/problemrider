@@ -13,6 +13,8 @@ problems:
 - authorization-flaws
 - information-decay
 - legal-disputes
+- customization-outside-version-control
+- retention-obligations-block-change
 layout: solution
 ---
 

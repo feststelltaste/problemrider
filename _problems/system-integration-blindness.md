@@ -30,6 +30,7 @@ solutions:
 - trust-boundaries
 - zero-trust-architecture
 - application-portfolio-inventory
+- master-data-stewardship
 layout: problem
 ---
 

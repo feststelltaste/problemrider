@@ -25,6 +25,7 @@ problems:
 - refactoring-avoidance
 - strangler-fig-pattern-failures
 - excessive-customization
+- core-modification-of-standard-software
 layout: solution
 ---
 

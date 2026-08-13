@@ -21,6 +21,8 @@ solutions:
 - decision-rights-and-escalation
 - total-cost-of-ownership-transparency
 - large-scale-refactoring
+- fit-to-standard-principle
+- role-model-rationalization
 layout: problem
 ---
 

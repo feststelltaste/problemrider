@@ -17,6 +17,7 @@ problems:
 - schema-evolution-paralysis
 - unused-indexes
 - entity-attribute-value-overuse
+- master-data-ownership-gaps
 layout: solution
 ---
 

@@ -20,6 +20,9 @@ problems:
 - feature-creep
 - eager-to-please-stakeholders
 - schema-evolution-paralysis
+- core-modification-of-standard-software
+- upgrade-blocked-by-customization
+- voided-vendor-support
 layout: solution
 ---
 

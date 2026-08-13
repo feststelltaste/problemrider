@@ -33,6 +33,7 @@ solutions:
 - configuration-checks
 - environment-variables-for-configuration
 - key-management
+- customization-under-version-control
 layout: problem
 ---
 

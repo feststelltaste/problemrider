@@ -14,6 +14,7 @@ problems:
 - secret-management-problems
 - environment-variable-issues
 - logging-configuration-issues
+- customization-outside-version-control
 layout: solution
 ---
 

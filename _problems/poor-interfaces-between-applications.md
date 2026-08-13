@@ -46,6 +46,7 @@ solutions:
 - data-flow-control
 - trust-boundaries
 - zero-trust-architecture
+- master-data-stewardship
 layout: problem
 ---
 

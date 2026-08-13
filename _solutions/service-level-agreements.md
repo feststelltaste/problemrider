@@ -18,6 +18,7 @@ problems:
 - vendor-relationship-strain
 - poor-contract-design
 - stakeholder-confidence-loss
+- voided-vendor-support
 layout: solution
 ---
 

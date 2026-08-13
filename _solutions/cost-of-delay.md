@@ -35,6 +35,8 @@ problems:
 - vendor-dependency-entrapment
 - wasted-development-effort
 - high-technical-debt
+- core-modification-of-standard-software
+- upgrade-blocked-by-customization
 layout: solution
 ---
 

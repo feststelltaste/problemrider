@@ -19,6 +19,7 @@ problems:
 - user-trust-erosion
 - increased-manual-testing-effort
 - outdated-tests
+- upgrade-blocked-by-customization
 layout: solution
 ---
 

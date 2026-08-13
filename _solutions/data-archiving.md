@@ -12,6 +12,7 @@ problems:
 - database-schema-design-problems
 - unbounded-data-structures
 - inadequate-test-data-management
+- retention-obligations-block-change
 layout: solution
 ---
 

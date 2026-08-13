@@ -64,6 +64,8 @@ solutions:
 - executive-sponsorship
 - baseline-measurement
 - continuous-dependency-updates
+- retention-and-disposal-policy
+- role-model-rationalization
 layout: problem
 ---
 

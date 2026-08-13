@@ -41,6 +41,8 @@ solutions:
 - debt-accrual-analysis
 - attribute-usage-analysis
 - customization-cost-attribution
+- customization-under-version-control
+- role-model-rationalization
 layout: problem
 ---
 

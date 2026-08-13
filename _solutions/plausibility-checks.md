@@ -12,6 +12,7 @@ problems:
 - increased-error-rates
 - brittle-codebase
 - integer-overflow-underflow
+- master-data-ownership-gaps
 layout: solution
 ---
 

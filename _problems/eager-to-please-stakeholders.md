@@ -32,6 +32,7 @@ solutions:
 - outcome-based-goal-setting
 - customization-cost-attribution
 - explicit-extension-points
+- fit-to-standard-principle
 layout: problem
 ---
 

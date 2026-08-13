@@ -10,6 +10,7 @@ problems:
 - regulatory-compliance-drift
 - secret-management-problems
 - poor-domain-model
+- authorization-role-explosion
 layout: solution
 ---
 

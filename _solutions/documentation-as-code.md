@@ -38,6 +38,7 @@ problems:
 - poor-communication
 - staff-availability-issues
 - unclear-sharing-expectations
+- implementation-partner-dependency
 layout: solution
 ---
 

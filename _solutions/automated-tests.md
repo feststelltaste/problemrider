@@ -17,6 +17,8 @@ problems:
 - fear-of-failure
 - past-negative-experiences
 - defensive-coding-practices
+- low-code-customization-sprawl
+- upgrade-blocked-by-customization
 layout: solution
 ---
 

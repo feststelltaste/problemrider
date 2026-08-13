@@ -35,6 +35,7 @@ solutions:
 - customization-cost-attribution
 - variant-consolidation
 - explicit-extension-points
+- fit-to-standard-principle
 layout: problem
 ---
 

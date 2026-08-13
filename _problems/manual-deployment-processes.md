@@ -31,6 +31,7 @@ solutions:
 - platform-independent-scripting-languages
 - standardized-deployment-scripts
 - continuous-deployment
+- customization-under-version-control
 layout: problem
 ---
 

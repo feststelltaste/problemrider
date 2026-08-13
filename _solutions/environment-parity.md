@@ -16,6 +16,7 @@ problems:
 - environment-variable-issues
 - inadequate-configuration-management
 - legacy-configuration-management-chaos
+- customization-outside-version-control
 layout: solution
 ---
 

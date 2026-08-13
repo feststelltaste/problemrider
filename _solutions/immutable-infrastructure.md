@@ -15,6 +15,7 @@ problems:
 - inadequate-configuration-management
 - legacy-configuration-management-chaos
 - testing-environment-fragility
+- customization-outside-version-control
 layout: solution
 ---
 

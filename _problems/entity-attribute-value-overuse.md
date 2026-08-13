@@ -24,6 +24,7 @@ solutions:
 - explicit-extension-points
 - data-quality-checks
 - variant-consolidation
+- master-data-stewardship
 layout: problem
 ---
 

@@ -18,6 +18,10 @@ problems:
 - feature-creep
 - technology-stack-fragmentation
 - entity-attribute-value-overuse
+- core-modification-of-standard-software
+- custom-report-sprawl
+- reimplemented-standard-functionality
+- upgrade-blocked-by-customization
 layout: solution
 ---
 

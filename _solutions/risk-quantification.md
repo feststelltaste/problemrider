@@ -28,6 +28,10 @@ problems:
 - technology-stack-fragmentation
 - vendor-dependency-entrapment
 - high-technical-debt
+- implementation-partner-dependency
+- retention-obligations-block-change
+- upgrade-blocked-by-customization
+- voided-vendor-support
 layout: solution
 ---
 

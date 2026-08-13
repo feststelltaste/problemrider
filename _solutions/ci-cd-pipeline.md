@@ -28,6 +28,7 @@ problems:
 - tool-limitations
 - long-lived-feature-branches
 - style-arguments-in-code-reviews
+- customization-outside-version-control
 layout: solution
 ---
 

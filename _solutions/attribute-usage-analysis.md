@@ -16,6 +16,9 @@ problems:
 - invisible-nature-of-technical-debt
 - modernization-strategy-paralysis
 - inadequate-requirements-gathering
+- authorization-role-explosion
+- custom-report-sprawl
+- low-code-customization-sprawl
 layout: solution
 ---
 

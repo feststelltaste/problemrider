@@ -36,6 +36,7 @@ solutions:
 - large-scale-refactoring
 - automated-code-migration
 - duplication-detection
+- master-data-stewardship
 layout: problem
 ---
 

@@ -23,6 +23,7 @@ problems:
 - modernization-roi-justification-failure
 - difficulty-quantifying-benefits
 - excessive-customization
+- voided-vendor-support
 layout: solution
 ---
 

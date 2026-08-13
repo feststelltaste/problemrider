@@ -44,6 +44,8 @@ solutions:
 - customization-cost-attribution
 - variant-consolidation
 - explicit-extension-points
+- fit-to-standard-principle
+- retention-and-disposal-policy
 layout: problem
 ---
 

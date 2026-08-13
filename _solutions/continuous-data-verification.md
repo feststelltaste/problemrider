@@ -12,6 +12,7 @@ problems:
 - inconsistent-behavior
 - cache-invalidation-problems
 - synchronization-problems
+- master-data-ownership-gaps
 layout: solution
 ---
 

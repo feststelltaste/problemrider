@@ -11,6 +11,7 @@ problems:
 - configuration-drift
 - data-protection-risk
 - secret-management-problems
+- authorization-role-explosion
 layout: solution
 ---
 

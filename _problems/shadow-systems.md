@@ -27,6 +27,7 @@ solutions:
 - intuitive-navigation
 - search-function
 - usability-tests
+- master-data-stewardship
 layout: problem
 ---
 

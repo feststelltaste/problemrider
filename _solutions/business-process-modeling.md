@@ -11,6 +11,7 @@ problems:
 - poor-domain-model
 - stakeholder-developer-communication-gap
 - implicit-knowledge
+- process-software-misfit
 layout: solution
 ---
 

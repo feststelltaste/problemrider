@@ -30,6 +30,8 @@ problems:
 - difficulty-quantifying-benefits
 - feature-bloat
 - excessive-customization
+- custom-report-sprawl
+- reimplemented-standard-functionality
 layout: solution
 ---
 

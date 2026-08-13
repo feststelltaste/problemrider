@@ -22,6 +22,8 @@ problems:
 - brittle-codebase
 - convenience-driven-development
 - code-duplication
+- authorization-role-explosion
+- low-code-customization-sprawl
 layout: solution
 ---
 

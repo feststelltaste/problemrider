@@ -46,6 +46,7 @@ problems:
 - reviewer-anxiety
 - team-churn-impact
 - team-members-not-engaged-in-review-process
+- implementation-partner-dependency
 layout: solution
 ---
 

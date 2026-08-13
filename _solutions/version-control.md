@@ -11,6 +11,7 @@ problems:
 - configuration-drift
 - no-formal-change-control-process
 - change-management-chaos
+- customization-outside-version-control
 layout: solution
 ---
 

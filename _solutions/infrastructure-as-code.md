@@ -19,6 +19,7 @@ problems:
 - operational-overhead
 - tool-limitations
 - testing-environment-fragility
+- customization-outside-version-control
 layout: solution
 ---
 

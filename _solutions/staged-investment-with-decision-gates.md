@@ -21,6 +21,7 @@ problems:
 - poor-planning
 - premature-technology-introduction
 - technology-lock-in
+- upgrade-blocked-by-customization
 layout: solution
 ---
 

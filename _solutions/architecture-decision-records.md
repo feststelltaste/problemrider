@@ -24,6 +24,7 @@ problems:
 - premature-technology-introduction
 - team-churn-impact
 - conflicting-reviewer-opinions
+- implementation-partner-dependency
 layout: solution
 ---
 

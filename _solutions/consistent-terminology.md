@@ -18,6 +18,8 @@ problems:
 - information-fragmentation
 - language-barriers
 - poor-communication
+- custom-report-sprawl
+- master-data-ownership-gaps
 layout: solution
 ---
 

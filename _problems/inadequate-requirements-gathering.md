@@ -43,6 +43,7 @@ solutions:
 - domain-immersion
 - exploratory-testing
 - attribute-usage-analysis
+- fit-to-standard-principle
 layout: problem
 ---
 

@@ -28,6 +28,7 @@ solutions:
 - value-stream-mapping
 - delivery-performance-metrics
 - self-service-developer-platform
+- fit-to-standard-principle
 layout: problem
 ---
 

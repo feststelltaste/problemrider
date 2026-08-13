@@ -28,6 +28,7 @@ solutions:
 - story-mapping
 - regular-stakeholder-demonstrations
 - outcome-based-goal-setting
+- fit-to-standard-principle
 layout: problem
 ---
 
