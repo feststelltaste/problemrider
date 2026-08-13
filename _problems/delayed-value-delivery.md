@@ -70,6 +70,10 @@ Delayed value delivery is the gap between when a feature is ready and when it is
 <br/>  Projects running behind schedule directly delay when their value reaches users.
 - [Immature Delivery Strategy](immature-delivery-strategy.md)
 <br/>  Lack of mature continuous delivery practices creates bottlenecks between development completion and user delivery.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  When a feature itself takes a long time to build, its value cannot reach users until development finishes, independent of how fast the release process afterward is.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  When the team's overall pace of building features and fixes declines, that work simply takes longer to become ready, independent of release-process delays.
 
 ## Detection Methods ○
 - **Lead Time for Changes:** Measure the time it takes for a change to go from code commit to production.

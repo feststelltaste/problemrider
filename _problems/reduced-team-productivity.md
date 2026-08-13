@@ -57,6 +57,8 @@ Reduced team productivity occurs when a development team's collective output, ef
 
 ## Causes ▼
 
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Exhausted, disengaged developers have less energy and focus, directly reducing the team's overall throughput.
 - [Reduced Individual Productivity](reduced-individual-productivity.md)
 <br/>  Individual productivity declines across team members aggregate into reduced team-wide output.
 - [Development Disruption](development-disruption.md)

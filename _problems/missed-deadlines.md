@@ -69,6 +69,8 @@ Missed deadlines occur when development teams consistently fail to deliver work 
 <br/>  Ambiguous requirements lead to rework and discovery of unstated needs, consuming time not accounted for in estimates.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  When development velocity is lower than expected due to technical debt or process issues, deadlines are missed.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  When feature implementation consistently takes longer than estimated, teams miss the delivery dates that were set based on those estimates.
 
 ## Detection Methods ○
 

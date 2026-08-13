@@ -76,7 +76,7 @@ Customer dissatisfaction occurs when users experience frustration, disappointmen
 - [Declining Business Metrics](declining-business-metrics.md)
 <br/>  Customer dissatisfaction directly impacts engagement, conversion, and revenue metrics as users reduce usage or leave.
 - [Stakeholder Frustration](stakeholder-frustration.md)
-<br/>  Business stakeholders become frustrated when customer complaints and churn rise due to system quality issues.
+<br/>  Where stakeholders have visibility into complaint volume, churn, or satisfaction scores, rising customer dissatisfaction becomes a source of frustration with the development team.
 
 ## Causes ▼
 

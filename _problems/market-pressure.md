@@ -62,6 +62,8 @@ Market pressure occurs when competitive forces, regulatory changes, economic con
 <br/>  Constant pressure to deliver quickly at the expense of quality leads to developer frustration and eventual burnout.
 - [Competing Priorities](competing-priorities.md)
 <br/>  External competitive forces create genuinely urgent demands across multiple fronts, leading to conflicting priorities for development teams.
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Sustained competitive pressure pushes management to adopt short-term prioritization as an ongoing strategy rather than treating it as an isolated response to a single incident.
 
 ## Causes ▼
 

@@ -69,6 +69,8 @@ Increased technical shortcuts occurs when development teams consistently choose 
 <br/>  Exhausted developers lack the energy to implement proper solutions and default to quick fixes.
 - [Workaround Culture](workaround-culture.md)
 <br/>  An organizational culture that normalizes quick fixes makes shortcuts the expected approach rather than the exception.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Under delivery pressure, developers who lack experience tend to default to the simplest approach they know rather than a properly designed one, since they may not recognize better alternatives or the long-term consequences.
 
 ## Detection Methods ○
 

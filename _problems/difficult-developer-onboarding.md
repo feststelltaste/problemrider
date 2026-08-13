@@ -93,6 +93,8 @@ Difficult developer onboarding is a significant problem that can have a major im
 <br/>  Experienced developers become exhausted from constantly hand-holding new hires through a difficult onboarding process.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  The team's overall velocity drops each time a new member joins because of the extended unproductive onboarding period.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  When onboarding does not teach best practices and system conventions, junior hires in particular can remain under-skilled well past their start date, whereas experienced hires typically still ramp up despite a slow onboarding.
 
 ## Causes ▼
 
@@ -106,6 +108,8 @@ Difficult developer onboarding is a significant problem that can have a major im
 <br/>  Lack of a structured onboarding program means new hires must figure things out on their own, extending ramp-up time.
 - [Inefficient Development Environment](inefficient-development-environment.md)
 <br/>  Complicated or poorly documented development environment setup wastes new developers' first weeks just trying to get running.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  Accumulated shortcuts, inconsistent patterns, and workarounds make the codebase harder for newcomers to learn, extending ramp-up time beyond what clean code would require.
 
 ## Detection Methods ○
 

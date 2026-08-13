@@ -59,6 +59,8 @@ Legacy code without tests refers to existing production systems that were built 
 
 ## Symptoms ▲
 
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  When every change to untested code requires excessive caution and manual verification, the resulting chronic risk and effort can wear developers down over time.
 - [Fear of Change](fear-of-change.md)
 <br/>  Without tests to verify changes are safe, developers become hesitant to modify code for fear of introducing regressions.
 - [Maintenance Paralysis](maintenance-paralysis.md)
@@ -71,6 +73,8 @@ Legacy code without tests refers to existing production systems that were built 
 <br/>  Lack of test coverage means defects go undetected during development and only surface in production.
 - [Increased Manual Testing Effort](increased-manual-testing-effort.md)
 <br/>  Without automated tests, all verification must be done manually, directly increasing manual testing effort.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  Without a test safety net to verify that a proper fix is safe, developers fall back on workarounds that avoid touching the untested code directly.
 
 ## Causes ▼
 

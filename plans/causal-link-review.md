@@ -1,6 +1,6 @@
 # Causal Link Review Plan
 
-Progress: **0 / 452 problems reviewed**
+Progress: **10 / 452 problems reviewed**
 
 ## Completion Criteria
 
@@ -15,11 +15,15 @@ Check off a problem only after:
 
 A reciprocal link is structurally consistent, not causally confirmed. When an edge has already been reviewed from its other endpoint, reuse its evidence and decision but still verify the representation in this problem.
 
+## Execution Mode
+
+Reviewed in parallel batches (e.g. 10 agents at a time), one problem per agent. Each agent both assesses and directly applies its verdicts — `retain`, `qualify`, `reverse`, or `remove` — to both endpoints of every claim; there is no separate approval step between review and edit for any verdict, including context-dependent or reversed ones. Findings are still reported back so edits stay traceable, but they land in the files immediately rather than waiting for confirmation.
+
 ## Problems
 
 - [ ] [ABI Compatibility Issues](_problems/abi-compatibility-issues.md)
 - [ ] [Accumulated Decision Debt](_problems/accumulated-decision-debt.md)
-- [ ] [Accumulation of Workarounds](_problems/accumulation-of-workarounds.md)
+- [x] [Accumulation of Workarounds](_problems/accumulation-of-workarounds.md)
 - [ ] [Algorithmic Complexity Problems](_problems/algorithmic-complexity-problems.md)
 - [ ] [Alignment and Padding Issues](_problems/alignment-and-padding-issues.md)
 - [ ] [Analysis Paralysis](_problems/analysis-paralysis.md)
@@ -76,7 +80,7 @@ A reciprocal link is structurally consistent, not causally confirmed. When an ed
 - [ ] [Cross-Site Scripting Vulnerabilities](_problems/cross-site-scripting-vulnerabilities.md)
 - [ ] [Cross-System Data Synchronization Problems](_problems/cross-system-data-synchronization-problems.md)
 - [ ] [Custom Report Sprawl](_problems/custom-report-sprawl.md)
-- [ ] [Customer Dissatisfaction](_problems/customer-dissatisfaction.md)
+- [x] [Customer Dissatisfaction](_problems/customer-dissatisfaction.md)
 - [ ] [Customization Outside Version Control](_problems/customization-outside-version-control.md)
 - [ ] [CV Driven Development](_problems/cv-driven-development.md)
 - [ ] [Data Migration Complexities](_problems/data-migration-complexities.md)
@@ -103,7 +107,7 @@ A reciprocal link is structurally consistent, not causally confirmed. When an ed
 - [ ] [Deployment Coupling](_problems/deployment-coupling.md)
 - [ ] [Deployment Environment Inconsistencies](_problems/deployment-environment-inconsistencies.md)
 - [ ] [Deployment Risk](_problems/deployment-risk.md)
-- [ ] [Developer Frustration and Burnout](_problems/developer-frustration-and-burnout.md)
+- [x] [Developer Frustration and Burnout](_problems/developer-frustration-and-burnout.md)
 - [ ] [Development Disruption](_problems/development-disruption.md)
 - [ ] [Difficult Code Comprehension](_problems/difficult-code-comprehension.md)
 - [ ] [Difficult Code Reuse](_problems/difficult-code-reuse.md)
@@ -163,7 +167,7 @@ A reciprocal link is structurally consistent, not causally confirmed. When an ed
 - [ ] [High Maintenance Costs](_problems/high-maintenance-costs.md)
 - [ ] [High Number of Database Queries](_problems/high-number-of-database-queries.md)
 - [ ] [High Resource Utilization on Client](_problems/high-resource-utilization-on-client.md)
-- [ ] [High Technical Debt](_problems/high-technical-debt.md)
+- [x] [High Technical Debt](_problems/high-technical-debt.md)
 - [ ] [High Turnover](_problems/high-turnover.md)
 - [ ] [History of Failed Changes](_problems/history-of-failed-changes.md)
 - [ ] [Immature Delivery Strategy](_problems/immature-delivery-strategy.md)
@@ -216,7 +220,7 @@ A reciprocal link is structurally consistent, not causally confirmed. When an ed
 - [ ] [Inefficient Development Environment](_problems/inefficient-development-environment.md)
 - [ ] [Inefficient Frontend Code](_problems/inefficient-frontend-code.md)
 - [ ] [Inefficient Processes](_problems/inefficient-processes.md)
-- [ ] [Inexperienced Developers](_problems/inexperienced-developers.md)
+- [x] [Inexperienced Developers](_problems/inexperienced-developers.md)
 - [ ] [Information Decay](_problems/information-decay.md)
 - [ ] [Information Fragmentation](_problems/information-fragmentation.md)
 - [ ] [Insecure Data Transmission](_problems/insecure-data-transmission.md)
@@ -313,7 +317,7 @@ A reciprocal link is structurally consistent, not causally confirmed. When an ed
 - [ ] [Poor Caching Strategy](_problems/poor-caching-strategy.md)
 - [ ] [Poor Communication](_problems/poor-communication.md)
 - [ ] [Poor Contract Design](_problems/poor-contract-design.md)
-- [ ] [Poor Documentation](_problems/poor-documentation.md)
+- [x] [Poor Documentation](_problems/poor-documentation.md)
 - [ ] [Poor Domain Model](_problems/poor-domain-model.md)
 - [ ] [Poor Encapsulation](_problems/poor-encapsulation.md)
 - [ ] [Poor Interfaces Between Applications](_problems/poor-interfaces-between-applications.md)
@@ -387,15 +391,15 @@ A reciprocal link is structurally consistent, not causally confirmed. When an ed
 - [ ] [Shadow Systems](_problems/shadow-systems.md)
 - [ ] [Shared Database](_problems/shared-database.md)
 - [ ] [Shared Dependencies](_problems/shared-dependencies.md)
-- [ ] [Short-Term Focus](_problems/short-term-focus.md)
+- [x] [Short-Term Focus](_problems/short-term-focus.md)
 - [ ] [Silent Data Corruption](_problems/silent-data-corruption.md)
 - [ ] [Single Entry Point Design](_problems/single-entry-point-design.md)
 - [ ] [Single Points of Failure](_problems/single-points-of-failure.md)
 - [ ] [Skill Development Gaps](_problems/skill-development-gaps.md)
-- [ ] [Slow Application Performance](_problems/slow-application-performance.md)
+- [x] [Slow Application Performance](_problems/slow-application-performance.md)
 - [ ] [Slow Database Queries](_problems/slow-database-queries.md)
-- [ ] [Slow Development Velocity](_problems/slow-development-velocity.md)
-- [ ] [Slow Feature Development](_problems/slow-feature-development.md)
+- [x] [Slow Development Velocity](_problems/slow-development-velocity.md)
+- [x] [Slow Feature Development](_problems/slow-feature-development.md)
 - [ ] [Slow Incident Resolution](_problems/slow-incident-resolution.md)
 - [ ] [Slow Knowledge Transfer](_problems/slow-knowledge-transfer.md)
 - [ ] [Slow Response Times for Lists](_problems/slow-response-times-for-lists.md)

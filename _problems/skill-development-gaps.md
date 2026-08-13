@@ -53,6 +53,8 @@ Skill development gaps occur when team members fail to develop necessary experti
 <br/>  When skills are not broadly developed, there are fewer people capable of mentoring and transferring knowledge effectively.
 - [Legacy Skill Shortage](legacy-skill-shortage.md)
 <br/>  Avoiding learning legacy technologies creates a shortage of people who can maintain and evolve older systems.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Lack of training programs and mentorship opportunities prevents junior developers from developing their skills.
 
 ## Causes ▼
 

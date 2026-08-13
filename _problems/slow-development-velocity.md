@@ -60,6 +60,8 @@ Slow development velocity represents a sustained reduction in the team's ability
 
 ## Causes ▼
 
+- [Short-Term Focus](short-term-focus.md)
+<br/>  By consistently deferring investment in code health, refactoring, and development tooling, short-term focus lets technical debt and inefficiencies accumulate, which systematically slows delivery over time.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated technical debt makes every change harder and slower, systematically reducing velocity.
 - [Spaghetti Code](spaghetti-code.md)

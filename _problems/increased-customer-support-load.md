@@ -56,6 +56,8 @@ Increased customer support load occurs when technical problems, poor user experi
 
 ## Causes ▼
 
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Dissatisfied customers often contact support to voice complaints or seek resolution, adding to contacts driven directly by technical defects.
 - [Increased Bug Count](increased-bug-count.md)
 <br/>  More production bugs mean more users encounter problems and need to contact support.
 - [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)

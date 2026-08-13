@@ -45,7 +45,7 @@ Developer frustration and burnout is a state of emotional, physical, and mental 
 - [High Turnover](high-turnover.md)
 <br/>  Frustrated and burned-out developers leave the organization, leading to elevated attrition rates.
 - [Reduced Team Productivity](reduced-team-productivity.md)
-<br/>  Burned-out developers produce less work and lower quality output, reducing overall team productivity.
+<br/>  Burned-out developers have less energy and focus, producing less output and reducing overall team throughput.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Exhausted and disengaged developers take shortcuts and write less careful code.
 - [Reduced Innovation](reduced-innovation.md)
@@ -55,6 +55,8 @@ Developer frustration and burnout is a state of emotional, physical, and mental 
 
 ## Causes ▼
 
+- [Short-Term Focus](short-term-focus.md)
+<br/>  When management persistently rejects developers' requests for time to address quality and technical debt, developers experience a loss of control and agency that contributes to frustration and burnout.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Being perpetually pulled into urgent production issues is exhausting and prevents meaningful progress on planned work.
 - [High Technical Debt](high-technical-debt.md)
@@ -62,11 +64,13 @@ Developer frustration and burnout is a state of emotional, physical, and mental 
 - [Unrealistic Deadlines](unrealistic-deadlines.md)
 <br/>  Persistent pressure from unrealistic deadlines creates chronic stress that leads to burnout.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
-<br/>  Maintaining untested legacy code is frustrating because every change carries high risk and requires excessive caution.
+<br/>  Repeatedly maintaining untested legacy code is wearing because every change carries high risk and requires excessive caution and manual verification.
 - [Micromanagement Culture](micromanagement-culture.md)
 <br/>  Being micromanaged strips developers of autonomy and professional satisfaction, contributing to frustration.
 - [Development Disruption](development-disruption.md)
 <br/>  Constant development disruptions frustrate developers and contribute to burnout.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  A sustained inability to make visible progress, even absent external pressure, erodes the sense of achievement that sustains motivation.
 
 ## Detection Methods ○
 - **One-on-One Meetings:** Managers should have regular, open, and honest conversations with their team members to gauge their well-being.
