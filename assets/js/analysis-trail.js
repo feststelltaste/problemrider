@@ -444,7 +444,9 @@
                     symptoms: { from: referenceNode.id, to: sourceNode.id, label: 'causes' },
                     causes: { from: sourceNode.id, to: referenceNode.id, label: 'causes' },
                     solutions: { from: referenceNode.id, to: sourceNode.id, label: 'addresses' },
-                    'addressed-problems': { from: sourceNode.id, to: referenceNode.id, label: 'addresses' }
+                    'addressed-problems': { from: sourceNode.id, to: referenceNode.id, label: 'addresses' },
+                    'similar-problems': { from: sourceNode.id, to: referenceNode.id, label: 'related' },
+                    'similar-solutions': { from: sourceNode.id, to: referenceNode.id, label: 'related' }
                   }[kind];
                   if (relation && relation.from !== relation.to && !trail.edges.some(function (edge) {
                     return edge.from === relation.from && edge.to === relation.to && edge.label === relation.label;
