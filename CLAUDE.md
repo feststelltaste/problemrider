@@ -60,6 +60,16 @@ To build the site and run it locally, use the following command:
 
 The site will be available at [http://localhost:4000](http://localhost:4000).
 
+### Fast Build for Styles and Scripts (Asset-Only)
+
+When making changes only to styling (SCSS/CSS) or scripts (JS) without modifying Markdown problem or solution content, use the `--incremental` build flag:
+
+`bundle exec jekyll build --incremental`
+
+Or for fast local serving with incremental updates:
+
+`bundle exec jekyll serve --incremental`
+
 ### Graph Visualization Prototype
 
 Run the `scripts/create_visualization.py` with Python to generate the D3 graph visualization.

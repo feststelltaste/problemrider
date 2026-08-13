@@ -355,7 +355,9 @@
     var nodeElements = {};
     var nodeMenu;
     var menuHideTimer;
-    var menuHideDelay = 500;
+    var menuHideDelay = 300;
+    var menuShowTimer;
+    var menuShowDelay = 500;
     var activeControlLink;
     // Both controls sit above the circle, side by side: "−" left, "+" right.
     // Keeping the area below the node free lets every label use the same offset.
@@ -390,18 +392,14 @@
       if (edgeInfo.hit) edgeInfo.hit.setAttribute('d', shape);
     }
 
-    // Double-clicking an edge walks through three states: as drawn, reversed,
-    // and a plain similarity line. The third state remembers the original label
-    // so the cycle can return to exactly where it started.
+    // Double-clicking an edge walks through four states: as drawn, reversed,
+    // plain similarity line, and completely deleted.
     function cycleEdge(edge) {
       var isRelated = edge.label === 'related' || /^similar/.test(edge.label || '');
       if (isRelated) {
-        var relatedFrom = edge.from;
-        edge.from = edge.to;
-        edge.to = relatedFrom;
-        edge.label = edge.baseLabel || 'causes';
-        delete edge.baseLabel;
-        delete edge.reversed;
+        trail.edges = trail.edges.filter(function (item) {
+          return item !== edge;
+        });
         return;
       }
       if (edge.reversed) {
@@ -439,6 +437,10 @@
       var elements = nodeElements[nodeId];
       var position = positions[nodeId];
       if (!elements || !position) return;
+      if (elements.hoverHit) {
+        elements.hoverHit.setAttribute('cx', position.x);
+        elements.hoverHit.setAttribute('cy', position.y);
+      }
       elements.circle.setAttribute('cx', position.x);
       elements.circle.setAttribute('cy', position.y);
       elements.text.setAttribute('x', position.x);
@@ -474,27 +476,120 @@
       });
     }
 
+    function updateNodeMenuPosition() {
+      if (!nodeMenu || !nodeMenu.sourceNode) return;
+      var sourceNode = nodeMenu.sourceNode;
+      var position = positions[sourceNode.id];
+      if (!position) return;
+      var left = 0;
+      var top = 0;
+      if (svg.getScreenCTM && svg.createSVGPoint) {
+        var point = svg.createSVGPoint();
+        point.x = position.x;
+        point.y = position.y;
+        var screenPoint = point.matrixTransform(svg.getScreenCTM());
+        var containerBounds = container.getBoundingClientRect();
+        left = screenPoint.x - containerBounds.left;
+        top = screenPoint.y - containerBounds.top + 10;
+      } else {
+        var svgBounds = svg.getBoundingClientRect();
+        var containerBounds = container.getBoundingClientRect();
+        left = svgBounds.left - containerBounds.left + (position.x - viewBoxX) * svgBounds.width / visibleWidth;
+        top = svgBounds.top - containerBounds.top + (position.y - viewBoxY) * svgBounds.height / visibleHeight + 10;
+      }
+      nodeMenu.style.left = left + 'px';
+      nodeMenu.style.top = top + 'px';
+      var scaleFactor = Math.max(0.5, Math.min(3, (trail.zoom || 2) / 2));
+      nodeMenu.style.transform = 'scale(' + scaleFactor + ')';
+      nodeMenu.style.transformOrigin = 'center center';
+    }
+
     function updateViewBox() {
       svg.setAttribute('viewBox', viewBoxX + ' ' + viewBoxY + ' ' + visibleWidth + ' ' + visibleHeight);
+      updateNodeMenuPosition();
     }
 
     function hideNodeMenu() {
+      window.clearTimeout(menuShowTimer);
       if (nodeMenu) nodeMenu.remove();
       nodeMenu = null;
+      if (activeControlLink) activeControlLink.classList.remove('is-controls-visible');
+      activeControlLink = null;
     }
 
     function scheduleMenuHide() {
       window.clearTimeout(menuHideTimer);
       menuHideTimer = window.setTimeout(function () {
         hideNodeMenu();
-        if (activeControlLink) activeControlLink.classList.remove('is-controls-visible');
-        activeControlLink = null;
       }, menuHideDelay);
     }
 
     function keepMenuOpen() {
       window.clearTimeout(menuHideTimer);
+      window.clearTimeout(menuShowTimer);
     }
+
+    function loadPageDynamically(url, shouldPushState) {
+      if (!url || url === '#') return;
+      var mainContent = document.querySelector('.page-main-content');
+      if (!mainContent) return;
+
+      mainContent.style.opacity = '0.5';
+
+      window.fetch(url).then(function (response) {
+        if (!response.ok) throw new Error('Could not load page');
+        return response.text();
+      }).then(function (html) {
+        var doc = new window.DOMParser().parseFromString(html, 'text/html');
+        var newMain = doc.querySelector('.page-main-content');
+        if (!newMain) {
+          mainContent.style.opacity = '1';
+          return;
+        }
+
+        mainContent.innerHTML = newMain.innerHTML;
+        mainContent.style.opacity = '1';
+
+        if (doc.title) document.title = doc.title;
+
+        if (shouldPushState !== false && window.history && window.history.pushState) {
+          window.history.pushState({ url: url }, doc.title || '', url);
+        }
+
+        var article = doc.querySelector('[data-analysis-node]');
+        if (article) {
+          var newArticleNode = {
+            id: article.getAttribute('data-analysis-node-id'),
+            title: article.getAttribute('data-analysis-node-title'),
+            type: article.getAttribute('data-analysis-node-type'),
+            url: url
+          };
+          node = newArticleNode;
+          addCurrentNode(trail, newArticleNode);
+          addPendingEdge(trail, newArticleNode);
+          saveTrail(trail);
+          render(trail);
+          addContextualCausalEdges(trail).then(function (changed) {
+            if (changed) render(trail);
+          });
+        }
+
+        var pageMain = document.querySelector('.page-main-content');
+        if (pageMain) pageMain.scrollTop = 0;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }).catch(function (error) {
+        console.warn('Dynamic page load failed:', error);
+        mainContent.style.opacity = '1';
+      });
+    }
+
+    window.addEventListener('popstate', function (event) {
+      if (event.state && event.state.url) {
+        loadPageDynamically(event.state.url, false);
+      } else {
+        loadPageDynamically(window.location.pathname + window.location.search, false);
+      }
+    });
 
     function navigateToReference(sourceNode, kind, reference) {
       var relationship = {
@@ -507,7 +602,7 @@
       }[kind];
       relationship.from = sourceNode.id;
       window.sessionStorage.setItem(pendingKey, JSON.stringify(relationship));
-      window.location.href = reference.url;
+      loadPageDynamically(reference.url, true);
     }
 
     function showNodeMenu(sourceNode) {
@@ -519,12 +614,8 @@
       nodeMenu = document.createElement('div');
       nodeMenu.className = 'analysis-trail__node-menu';
       nodeMenu.setAttribute('aria-label', 'References for ' + sourceNode.title);
-      var svgBounds = svg.getBoundingClientRect();
-      var containerBounds = container.getBoundingClientRect();
-      var left = svgBounds.left - containerBounds.left + (position.x - viewBoxX) * svgBounds.width / visibleWidth;
-      var top = svgBounds.top - containerBounds.top + (position.y - viewBoxY) * svgBounds.height / visibleHeight;
-      nodeMenu.style.left = left + 'px';
-      nodeMenu.style.top = top + 'px';
+      nodeMenu.sourceNode = sourceNode;
+      updateNodeMenuPosition();
 
       var menuActions = sourceNode.id.indexOf('solution:') === 0 ?
         [{ kind: 'addressed-problems', label: 'Addressed Problems' }, { kind: 'similar-solutions', label: 'Similar Solutions' }] :
@@ -535,15 +626,31 @@
         action.type = 'button';
         action.className = 'analysis-trail__node-menu-action analysis-trail__node-menu-action--' + kind;
         action.textContent = menuAction.label;
-        action.addEventListener('click', function (event) {
-          event.stopPropagation();
+        function openActionList(event) {
+          if (event) event.stopPropagation();
+          keepMenuOpen();
+          var existingList = nodeMenu.querySelector('.analysis-trail__node-menu-list[data-kind="' + kind + '"]');
+          if (existingList) return;
           var list = document.createElement('div');
           list.className = 'analysis-trail__node-menu-list';
+          list.setAttribute('data-kind', kind);
           list.textContent = 'Loading…';
+          list.addEventListener('pointerenter', keepMenuOpen);
+          list.addEventListener('pointerleave', scheduleMenuHide);
           var actionBounds = action.getBoundingClientRect();
           var menuBounds = nodeMenu.getBoundingClientRect();
-          list.style.left = (actionBounds.left - menuBounds.left) + 'px';
-          list.style.top = (actionBounds.bottom - menuBounds.top + 4) + 'px';
+          var actionCenterX = actionBounds.left + actionBounds.width / 2;
+          if (actionCenterX < menuBounds.left) {
+            // Action button is on left side -> place suggestion list to the left of button (+18px outwards)
+            list.style.right = (menuBounds.left - actionBounds.left + 18) + 'px';
+            list.style.left = 'auto';
+          } else {
+            // Action button is on right side -> place suggestion list to the right of button (+18px outwards)
+            list.style.left = (actionBounds.right - menuBounds.left + 18) + 'px';
+            list.style.right = 'auto';
+          }
+          list.style.top = (actionBounds.top - menuBounds.top) + 'px';
+          list.style.transform = 'none';
           nodeMenu.querySelectorAll('.analysis-trail__node-menu-list').forEach(function (item) { item.remove(); });
           nodeMenu.appendChild(list);
           referencesForNode(sourceNode, kind).then(function (references) {
@@ -591,7 +698,9 @@
               list.appendChild(showAll);
             }
           }).catch(function () { list.textContent = 'Could not load references.'; });
-        });
+        }
+        action.addEventListener('pointerenter', keepMenuOpen);
+        action.addEventListener('click', openActionList);
         nodeMenu.appendChild(action);
       });
       nodeMenu.addEventListener('pointerenter', function () { window.clearTimeout(menuHideTimer); });
@@ -612,7 +721,7 @@
       if (!isRelated) pathAttributes['marker-end'] = 'url(#analysis-trail-arrow)';
       var hit = svgElement('path', { class: 'analysis-trail__edge-hit' });
       var hitTitle = svgElement('title');
-      hitTitle.textContent = 'Double-click to flip the direction or make it a similar link';
+      hitTitle.textContent = 'Double-click to flip direction, make it a similar link, or remove it';
       hit.appendChild(hitTitle);
       svg.appendChild(hit);
       var path = svgElement('path', pathAttributes);
@@ -621,6 +730,7 @@
       hit.addEventListener('dblclick', function (event) {
         event.preventDefault();
         event.stopPropagation();
+        rememberChange(trail);
         cycleEdge(edge);
         saveTrail(trail);
         render(trail);
@@ -632,15 +742,15 @@
       var position = positions[node.id];
       var canAddNode = node.id.indexOf('problem:') === 0 || node.type === 'problem';
       // Both controls sit above the node, so every label keeps the same distance.
-      var labelOffset = 24;
+      var labelOffset = 19;
       // The controls live next to the link, not inside it. Anything nested in an
       // SVG <a> inherits its text decoration, which showed up as stray underline
       // fragments beneath the "+" and "−" glyphs.
       var group = svgElement('g', { class: 'analysis-trail__node-group' });
+      var hoverHit = svgElement('circle', { cx: position.x, cy: position.y, r: '36', class: 'analysis-trail__node-hover-hit' });
+      group.appendChild(hoverHit);
       var link = svgElement('a', { href: node.custom ? '#' : node.url, class: 'analysis-trail__node-link', 'aria-label': node.title });
       var circle = svgElement('circle', { cx: position.x, cy: position.y, r: '10', class: 'analysis-trail__node analysis-trail__node--' + node.type.replace(/\s+/g, '-') + (node.id === currentNodeId ? ' is-current' : '') });
-      // No <title> here: the browser renders it as a native tooltip that covers
-      // the reference menu. The label next to the node already names it.
       link.appendChild(circle);
       var text = svgElement('text', { x: position.x, y: position.y + labelOffset, class: 'analysis-trail__node-label', 'text-anchor': 'middle' });
       var lines = labelLines(node.title, 20);
@@ -652,7 +762,7 @@
       link.appendChild(text);
       group.appendChild(link);
       svg.appendChild(group);
-      nodeElements[node.id] = { node: node, group: group, link: link, circle: circle, text: text, labelOffset: labelOffset, labelLines: Array.prototype.slice.call(text.querySelectorAll('tspan')) };
+      nodeElements[node.id] = { node: node, group: group, link: link, circle: circle, hoverHit: hoverHit, text: text, labelOffset: labelOffset, labelLines: Array.prototype.slice.call(text.querySelectorAll('tspan')) };
       if (canAddNode) {
         var addNode = svgElement('g', { class: 'analysis-trail__add-node', role: 'button', tabindex: '0', 'aria-label': 'Add node to ' + node.title });
         addNode.appendChild(svgElement('circle', { cx: position.x + controlOffsetX, cy: position.y + controlCircleY, r: '6' }));
@@ -764,16 +874,29 @@
       nodeElements[linkingFrom].group.classList.add('is-link-source');
     }
 
+    var lastNodeClickTime = 0;
+    var lastNodeClickId = null;
+
     Object.keys(nodeElements).forEach(function (nodeId) {
       var nodeElement = nodeElements[nodeId];
       // The hover state now lives on the wrapping group so it also covers the
       // controls that were moved out of the link.
       var nodeGroup = nodeElement.group;
-      // Hovering only highlights the circle. The controls and the reference menu
-      // appear on the first click, and a second click follows the link.
-      nodeGroup.addEventListener('pointerenter', keepMenuOpen);
-      nodeGroup.addEventListener('pointerleave', scheduleMenuHide);
-      nodeElement.circle.addEventListener('pointerdown', function (event) {
+      nodeGroup.addEventListener('pointerenter', function () {
+        keepMenuOpen();
+        window.clearTimeout(menuShowTimer);
+        menuShowTimer = window.setTimeout(function () {
+          if (activeControlLink && activeControlLink !== nodeGroup) activeControlLink.classList.remove('is-controls-visible');
+          activeControlLink = nodeGroup;
+          nodeGroup.classList.add('is-controls-visible');
+          showNodeMenu(nodeElement.node);
+        }, menuShowDelay);
+      });
+      nodeGroup.addEventListener('pointerleave', function () {
+        window.clearTimeout(menuShowTimer);
+        scheduleMenuHide();
+      });
+      nodeElement.link.addEventListener('pointerdown', function (event) {
         if (event.button !== 0) return;
         if (spacePressed) return;
         event.stopPropagation();
@@ -782,30 +905,25 @@
         dragStart = { clientX: event.clientX, clientY: event.clientY };
         svg.setPointerCapture(event.pointerId);
       });
+      // A single click never navigates. It would reload the page while a
+      // connection is being drawn, so opening the article needs a double-click.
       nodeElement.link.addEventListener('click', function (event) {
+        event.preventDefault();
         if (suppressClick) {
-          event.preventDefault();
           suppressClick = false;
           return;
         }
-        // Finish a pending connection instead of navigating.
         if (linkingFrom && linkingFrom !== nodeId) {
-          event.preventDefault();
           var sourceId = linkingFrom;
           stopLinking();
           connectNodes(sourceId, nodeId);
           render(trail);
-          return;
         }
-        // First click reveals the controls and the reference menu; only a click
-        // on an already active node opens the article.
-        if (activeControlLink !== nodeGroup) {
-          event.preventDefault();
-          if (activeControlLink) activeControlLink.classList.remove('is-controls-visible');
-          activeControlLink = nodeGroup;
-          nodeGroup.classList.add('is-controls-visible');
-          showNodeMenu(nodeElement.node);
-        }
+      });
+      nodeElement.link.addEventListener('dblclick', function (event) {
+        event.preventDefault();
+        if (nodeElement.node.custom || !nodeElement.node.url || nodeElement.node.url === '#') return;
+        loadPageDynamically(nodeElement.node.url, true);
       });
     });
 
@@ -866,8 +984,21 @@
         suppressClick = true;
       }
       if (releasedNodeId && !dragged) {
-        var clickedNode = trail.nodes.filter(function (item) { return item.id === releasedNodeId; })[0];
-        if (clickedNode && !clickedNode.custom) window.location.href = clickedNode.url;
+        if (linkingFrom) {
+          if (linkingFrom !== releasedNodeId) {
+            var sourceId = linkingFrom;
+            stopLinking();
+            connectNodes(sourceId, releasedNodeId);
+            render(trail);
+          } else {
+            stopLinking();
+          }
+        } else {
+          var clickedNode = trail.nodes.filter(function (item) { return item.id === releasedNodeId; })[0];
+          if (clickedNode && !clickedNode.custom && clickedNode.url && clickedNode.url !== '#') {
+            loadPageDynamically(clickedNode.url, true);
+          }
+        }
       }
       if (svg.hasPointerCapture(event.pointerId)) svg.releasePointerCapture(event.pointerId);
       draggedNodeId = null;
@@ -878,6 +1009,7 @@
       }
       panning = false;
       svg.classList.remove('is-panning');
+      scheduleMenuHide();
     });
     container.appendChild(svg);
   }
@@ -1115,6 +1247,7 @@
       document.body.classList.toggle('analysis-trail-expanded', isExpanded);
       if (modeButton) modeButton.setAttribute('aria-pressed', String(isExpanded));
       window.sessionStorage.setItem(expandedKey, String(isExpanded));
+      render(trail);
     }
     if (window.sessionStorage.getItem(expandedKey) === 'true') setExpanded(true);
     if (modeButton) modeButton.addEventListener('click', function () {
@@ -1122,16 +1255,69 @@
     });
     if (openButton) openButton.addEventListener('click', function () { setExpanded(true); });
 
+    var splitKey = 'problemrider-analysis-trail-split-v1';
+    var savedSplit = window.sessionStorage.getItem(splitKey);
+    if (savedSplit) {
+      document.documentElement.style.setProperty('--analysis-trail-split', savedSplit + '%');
+    }
+
+    var resizer = document.querySelector('[data-analysis-trail-resizer]');
+    if (resizer) {
+      var isResizing = false;
+
+      resizer.addEventListener('pointerdown', function (event) {
+        if (event.button !== 0) return;
+        event.preventDefault();
+        isResizing = true;
+        resizer.classList.add('is-dragging');
+        resizer.setPointerCapture(event.pointerId);
+      });
+
+      resizer.addEventListener('pointermove', function (event) {
+        if (!isResizing) return;
+        var windowWidth = window.innerWidth;
+        if (windowWidth <= 700) return;
+        var percent = (event.clientX / windowWidth) * 100;
+        percent = Math.max(20, Math.min(80, percent));
+        document.documentElement.style.setProperty('--analysis-trail-split', percent + '%');
+        window.sessionStorage.setItem(splitKey, percent.toFixed(2));
+      });
+
+      resizer.addEventListener('pointerup', function (event) {
+        if (isResizing) {
+          isResizing = false;
+          resizer.classList.remove('is-dragging');
+          if (resizer.hasPointerCapture(event.pointerId)) {
+            resizer.releasePointerCapture(event.pointerId);
+          }
+          render(trail);
+        }
+      });
+
+      resizer.addEventListener('pointercancel', function (event) {
+        if (isResizing) {
+          isResizing = false;
+          resizer.classList.remove('is-dragging');
+        }
+      });
+    }
+
     document.addEventListener('click', function (event) {
       var link = event.target.closest('a[href]');
-      if (!link || link.target === '_blank' || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || !node) return;
+      if (!link || link.target === '_blank' || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       var target;
       try { target = new URL(link.href, window.location.href); } catch (error) { return; }
-      if (target.origin !== window.location.origin || !/\/(problems|solutions)\/[^/]+\.html$/.test(target.pathname)) return;
-      var edge = edgeForLink(link);
-      if (!edge) return;
-      edge.from = node.id;
-      window.sessionStorage.setItem(pendingKey, JSON.stringify(edge));
+      if (target.origin !== window.location.origin) return;
+      if (!/\.html$/.test(target.pathname) && !/\/(problems|solutions)\//.test(target.pathname)) return;
+      event.preventDefault();
+      if (node) {
+        var edge = edgeForLink(link);
+        if (edge) {
+          edge.from = node.id;
+          window.sessionStorage.setItem(pendingKey, JSON.stringify(edge));
+        }
+      }
+      loadPageDynamically(target.pathname + target.search, true);
     });
 
     var reset = document.querySelector('[data-analysis-trail-reset]');
