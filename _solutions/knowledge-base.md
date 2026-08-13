@@ -1,6 +1,7 @@
 ---
 title: Knowledge Base
-description: Build a searchable knowledge base with articles, guides, and troubleshooting solutions
+description: Build a searchable knowledge base with articles, guides, and troubleshooting
+  solutions
 category:
 - Communication
 quality_tactics_url: https://qualitytactics.de/en/usability/knowledge-base/
@@ -34,6 +35,19 @@ problems:
 - language-barriers
 - unclear-sharing-expectations
 layout: solution
+related_solutions:
+- slug: knowledge-sharing-practices
+  similarity: 0.85
+- slug: user-communities
+  similarity: 0.8
+- slug: frequently-asked-questions-faq
+  similarity: 0.75
+- slug: personal-support
+  similarity: 0.75
+- slug: runbooks
+  similarity: 0.75
+- slug: contextual-help
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

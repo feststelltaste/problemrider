@@ -1,6 +1,7 @@
 ---
 title: Cryptographic Methods
-description: Use proven and standardized algorithms and protocols for cryptographic functions
+description: Use proven and standardized algorithms and protocols for cryptographic
+  functions
 category:
 - Security
 problems:
@@ -11,6 +12,19 @@ problems:
 - secret-management-problems
 - authentication-bypass-vulnerabilities
 layout: solution
+related_solutions:
+- slug: encryption
+  similarity: 0.85
+- slug: secure-protocols
+  similarity: 0.85
+- slug: authentication
+  similarity: 0.8
+- slug: secret-management
+  similarity: 0.8
+- slug: key-management
+  similarity: 0.8
+- slug: patch-management
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

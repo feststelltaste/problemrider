@@ -14,6 +14,19 @@ problems:
 - entity-attribute-value-overuse
 - master-data-ownership-gaps
 layout: solution
+related_solutions:
+- slug: data-integrity
+  similarity: 0.7
+- slug: continuous-data-verification
+  similarity: 0.7
+- slug: checksums
+  similarity: 0.7
+- slug: data-enrichment
+  similarity: 0.7
+- slug: plausibility-checks
+  similarity: 0.7
+- slug: code-quality-gates
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

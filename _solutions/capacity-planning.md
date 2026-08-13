@@ -1,6 +1,7 @@
 ---
 title: Capacity Planning
-description: Estimate future resource needs from growth projections and performance models
+description: Estimate future resource needs from growth projections and performance
+  models
 category:
 - Performance
 - Operations
@@ -25,6 +26,19 @@ problems:
 - rate-limiting-issues
 - unused-indexes
 layout: solution
+related_solutions:
+- slug: proactive-capacity-management
+  similarity: 0.85
+- slug: performance-modeling
+  similarity: 0.8
+- slug: resource-usage-optimization
+  similarity: 0.8
+- slug: monitoring-system-utilization
+  similarity: 0.75
+- slug: service-level-objectives
+  similarity: 0.75
+- slug: capacity-based-planning
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

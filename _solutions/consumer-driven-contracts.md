@@ -16,6 +16,19 @@ problems:
 - poor-contract-design
 - rapid-system-changes
 layout: solution
+related_solutions:
+- slug: contract-testing
+  similarity: 0.85
+- slug: api-first-development
+  similarity: 0.75
+- slug: backward-compatible-apis
+  similarity: 0.7
+- slug: design-by-contract
+  similarity: 0.7
+- slug: integration-tests
+  similarity: 0.7
+- slug: abstraction
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

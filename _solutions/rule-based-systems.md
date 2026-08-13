@@ -13,6 +13,19 @@ problems:
 - poor-domain-model
 - maintenance-overhead
 layout: solution
+related_solutions:
+- slug: decision-tables
+  similarity: 0.8
+- slug: domain-specific-languages
+  similarity: 0.7
+- slug: incremental-refactoring
+  similarity: 0.7
+- slug: static-analysis-and-linting
+  similarity: 0.7
+- slug: architecture-decision-records
+  similarity: 0.7
+- slug: domain-patterns
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

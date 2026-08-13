@@ -1,6 +1,7 @@
 ---
 title: Knowledge Rotation
-description: Deliberately spread working knowledge of every critical subsystem across several people, and measure the spread rather than assuming it.
+description: Deliberately spread working knowledge of every critical subsystem across
+  several people, and measure the spread rather than assuming it.
 category:
 - Team
 - Communication
@@ -44,6 +45,19 @@ problems:
 - implementation-partner-dependency
 - voided-vendor-support
 layout: solution
+related_solutions:
+- slug: knowledge-sharing-practices
+  similarity: 0.8
+- slug: pair-and-mob-programming
+  similarity: 0.8
+- slug: knowledge-base
+  similarity: 0.7
+- slug: cross-functional-skill-development
+  similarity: 0.7
+- slug: communities-of-practice
+  similarity: 0.7
+- slug: structured-onboarding-program
+  similarity: 0.7
 ---
 
 ## Description

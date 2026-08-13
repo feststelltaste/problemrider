@@ -13,6 +13,19 @@ problems:
 - error-message-information-disclosure
 - inadequate-configuration-management
 layout: solution
+related_solutions:
+- slug: secure-configuration
+  similarity: 0.85
+- slug: secure-protocols
+  similarity: 0.8
+- slug: secure-software-development
+  similarity: 0.75
+- slug: secure-programming-interfaces
+  similarity: 0.75
+- slug: secure-coding-guidelines
+  similarity: 0.75
+- slug: secure-software
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

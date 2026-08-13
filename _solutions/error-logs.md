@@ -11,6 +11,19 @@ problems:
 - unpredictable-system-behavior
 - constant-firefighting
 layout: solution
+related_solutions:
+- slug: error-reporting-and-analysis
+  similarity: 0.9
+- slug: error-logging
+  similarity: 0.85
+- slug: root-cause-analysis
+  similarity: 0.8
+- slug: error-handling
+  similarity: 0.8
+- slug: logging
+  similarity: 0.8
+- slug: incident-management
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

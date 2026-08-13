@@ -14,6 +14,19 @@ problems:
 - inconsistent-codebase
 - strangler-fig-pattern-failures
 layout: solution
+related_solutions:
+- slug: domain-patterns
+  similarity: 0.7
+- slug: strangler-fig-pattern
+  similarity: 0.7
+- slug: modularization-and-bounded-contexts
+  similarity: 0.7
+- slug: separation-of-concerns
+  similarity: 0.7
+- slug: anti-corruption-layer
+  similarity: 0.7
+- slug: facades
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

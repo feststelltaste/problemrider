@@ -13,6 +13,19 @@ problems:
 - secret-management-problems
 - authorization-role-explosion
 layout: solution
+related_solutions:
+- slug: authorization
+  similarity: 0.8
+- slug: authorization-concept
+  similarity: 0.75
+- slug: domain-based-authorization-concept
+  similarity: 0.75
+- slug: security-policies-for-users
+  similarity: 0.75
+- slug: least-privilege
+  similarity: 0.75
+- slug: secure-by-default
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

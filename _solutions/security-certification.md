@@ -1,6 +1,7 @@
 ---
 title: Security Certification
-description: Introduce a structured framework for assessing and improving security practices
+description: Introduce a structured framework for assessing and improving security
+  practices
 category:
 - Security
 - Management
@@ -12,6 +13,19 @@ problems:
 - inconsistent-quality
 - difficulty-quantifying-benefits
 layout: solution
+related_solutions:
+- slug: security-frameworks
+  similarity: 0.85
+- slug: secure-software-development
+  similarity: 0.8
+- slug: threat-modeling
+  similarity: 0.8
+- slug: security-training
+  similarity: 0.8
+- slug: security-metrics
+  similarity: 0.8
+- slug: security-relevant-metrics
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

@@ -11,6 +11,19 @@ problems:
 - unpredictable-system-behavior
 - dma-coherency-issues
 layout: solution
+related_solutions:
+- slug: checksums
+  similarity: 0.9
+- slug: error-correction-codes
+  similarity: 0.8
+- slug: redundant-data-storage
+  similarity: 0.75
+- slug: continuous-data-verification
+  similarity: 0.75
+- slug: fault-tolerant-data-structures
+  similarity: 0.7
+- slug: data-integrity
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

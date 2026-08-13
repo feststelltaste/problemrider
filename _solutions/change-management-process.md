@@ -17,6 +17,19 @@ problems:
 - project-resource-constraints
 - project-authority-vacuum
 layout: solution
+related_solutions:
+- slug: formal-change-control-process
+  similarity: 0.9
+- slug: short-iteration-cycles
+  similarity: 0.7
+- slug: incident-management
+  similarity: 0.7
+- slug: evolutionary-requirements-development
+  similarity: 0.7
+- slug: change-impact-analysis
+  similarity: 0.7
+- slug: structured-communication-protocols
+  similarity: 0.7
 ---
 
 ## Description

@@ -16,6 +16,19 @@ problems:
 - new-hire-frustration
 - tool-limitations
 layout: solution
+related_solutions:
+- slug: containerized-databases
+  similarity: 0.8
+- slug: development-environment-optimization
+  similarity: 0.8
+- slug: containerization
+  similarity: 0.75
+- slug: environment-parity
+  similarity: 0.75
+- slug: virtual-networks
+  similarity: 0.75
+- slug: simulation-environments
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -36,6 +36,19 @@ problems:
 - unreleased-resources
 - unused-indexes
 layout: solution
+related_solutions:
+- slug: stress-testing
+  similarity: 0.9
+- slug: chaos-engineering
+  similarity: 0.8
+- slug: continuous-performance-monitoring
+  similarity: 0.75
+- slug: performance-modeling
+  similarity: 0.75
+- slug: performance-measurements
+  similarity: 0.75
+- slug: compatibility-testing
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

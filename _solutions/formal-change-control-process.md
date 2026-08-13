@@ -20,6 +20,19 @@ problems:
 - scope-change-resistance
 - deadline-pressure
 layout: solution
+related_solutions:
+- slug: change-management-process
+  similarity: 0.9
+- slug: product-owner
+  similarity: 0.7
+- slug: short-iteration-cycles
+  similarity: 0.7
+- slug: requirements-analysis
+  similarity: 0.7
+- slug: iterative-development
+  similarity: 0.7
+- slug: evolutionary-requirements-development
+  similarity: 0.7
 ---
 
 ## Description

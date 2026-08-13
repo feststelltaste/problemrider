@@ -12,6 +12,19 @@ problems:
 - log-injection-vulnerabilities
 - inadequate-error-handling
 layout: solution
+related_solutions:
+- slug: input-validation
+  similarity: 0.8
+- slug: output-encoding
+  similarity: 0.75
+- slug: authentication
+  similarity: 0.7
+- slug: encryption
+  similarity: 0.7
+- slug: data-flow-control
+  similarity: 0.7
+- slug: defense-lines
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

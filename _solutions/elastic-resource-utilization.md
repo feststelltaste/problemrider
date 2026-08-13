@@ -13,6 +13,19 @@ problems:
 - high-database-resource-utilization
 - resource-allocation-failures
 layout: solution
+related_solutions:
+- slug: elastic-scaling
+  similarity: 0.8
+- slug: horizontal-scaling
+  similarity: 0.8
+- slug: monitoring-system-utilization
+  similarity: 0.75
+- slug: load-balancing
+  similarity: 0.75
+- slug: cloud-native-development
+  similarity: 0.75
+- slug: proactive-capacity-management
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

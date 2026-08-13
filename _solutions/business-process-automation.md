@@ -12,6 +12,19 @@ problems:
 - process-design-flaws
 - poor-domain-model
 layout: solution
+related_solutions:
+- slug: business-process-modeling
+  similarity: 0.7
+- slug: rule-based-systems
+  similarity: 0.7
+- slug: decision-tables
+  similarity: 0.65
+- slug: development-workflow-automation
+  similarity: 0.65
+- slug: data-modeling
+  similarity: 0.65
+- slug: business-event-processing
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

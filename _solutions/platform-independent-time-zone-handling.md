@@ -12,6 +12,19 @@ problems:
 - debugging-difficulties
 - silent-data-corruption
 layout: solution
+related_solutions:
+- slug: standardized-data-formats
+  similarity: 0.7
+- slug: platform-independent-configuration-files
+  similarity: 0.7
+- slug: platform-independent-data-storage
+  similarity: 0.7
+- slug: abstracted-file-system-access
+  similarity: 0.7
+- slug: platform-independence
+  similarity: 0.65
+- slug: database-abstraction
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

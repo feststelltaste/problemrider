@@ -12,6 +12,19 @@ problems:
 - silent-data-corruption
 - integration-difficulties
 layout: solution
+related_solutions:
+- slug: backward-compatibility
+  similarity: 0.85
+- slug: standardized-data-formats
+  similarity: 0.8
+- slug: data-format-conversion
+  similarity: 0.8
+- slug: forward-compatibility
+  similarity: 0.8
+- slug: backward-compatible-apis
+  similarity: 0.8
+- slug: data-formats
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

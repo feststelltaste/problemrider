@@ -16,6 +16,19 @@ problems:
 - false-sharing
 - memory-barrier-inefficiency
 layout: solution
+related_solutions:
+- slug: in-memory-processing
+  similarity: 0.75
+- slug: distributed-caching
+  similarity: 0.75
+- slug: parallelization
+  similarity: 0.7
+- slug: lazy-loading
+  similarity: 0.7
+- slug: specialized-hardware
+  similarity: 0.7
+- slug: lazy-evaluation
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

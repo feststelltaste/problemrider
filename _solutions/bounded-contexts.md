@@ -13,6 +13,19 @@ problems:
 - ripple-effect-of-changes
 - shared-database
 layout: solution
+related_solutions:
+- slug: domain-driven-design
+  similarity: 0.75
+- slug: domain-aligned-architecture
+  similarity: 0.75
+- slug: domain-modeling
+  similarity: 0.7
+- slug: modularization-and-bounded-contexts
+  similarity: 0.7
+- slug: high-cohesion
+  similarity: 0.7
+- slug: separation-of-concerns
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

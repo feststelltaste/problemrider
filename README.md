@@ -73,6 +73,7 @@ In the repository, you'll find a mix of files that the Jekyll blog system needs 
 - `.claude/commands/pr` - custom commands for AI Agents for generating, categorizing, merging and linking problems within ProblemRider (pr)
 - `scripts/` - Python utilities for maintenance, analysis, and visualization:
   - `calculate_related_problems.py` - Generates semantic similarity scores for related_problems sections
+  - `calculate_related_solutions.py` - Generates semantic similarity scores for related_solutions sections
   - `backlog_refinement.py` - Sorts backlog ideas into different categories based on existing problems
   - `check_links.py` - Checks for broken markdown links and optionally fixes them
   - `convert_titles.py` - Converts titles to proper title case using New York Times style rules

@@ -1,6 +1,7 @@
 ---
 title: Tolerant Reader Pattern
-description: Ignoring unknown fields and tolerating structural additions on the consumer side
+description: Ignoring unknown fields and tolerating structural additions on the consumer
+  side
 category:
 - Architecture
 - Code
@@ -12,6 +13,19 @@ problems:
 - ripple-effect-of-changes
 - tight-coupling-issues
 layout: solution
+related_solutions:
+- slug: schema-registry
+  similarity: 0.6
+- slug: backward-compatible-apis
+  similarity: 0.6
+- slug: forward-compatibility
+  similarity: 0.6
+- slug: event-driven-architecture
+  similarity: 0.55
+- slug: standardized-interfaces
+  similarity: 0.55
+- slug: consumer-driven-contracts
+  similarity: 0.55
 ---
 
 ## How to Apply ◆

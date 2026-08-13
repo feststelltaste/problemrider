@@ -11,6 +11,19 @@ problems:
 - quality-blind-spots
 - outdated-tests
 layout: solution
+related_solutions:
+- slug: automated-tests
+  similarity: 0.8
+- slug: integration-tests
+  similarity: 0.8
+- slug: test-driven-development-tdd
+  similarity: 0.75
+- slug: security-tests
+  similarity: 0.75
+- slug: chaos-engineering
+  similarity: 0.75
+- slug: static-code-analysis
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

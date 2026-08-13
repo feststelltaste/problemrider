@@ -14,6 +14,19 @@ problems:
 - release-instability
 - frequent-hotfixes-and-rollbacks
 layout: solution
+related_solutions:
+- slug: ci-cd-pipeline
+  similarity: 0.9
+- slug: blue-green-canary-deployments
+  similarity: 0.8
+- slug: continuous-delivery
+  similarity: 0.8
+- slug: continuous-integration-and-delivery
+  similarity: 0.75
+- slug: development-workflow-automation
+  similarity: 0.75
+- slug: smoke-testing
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

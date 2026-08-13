@@ -1,6 +1,8 @@
 ---
 title: Communities of Practice
-description: Create standing cross-team groups around a shared craft — testing, a subsystem, a language — so that knowledge and standards spread horizontally rather than through management.
+description: "Create standing cross-team groups around a shared craft \u2014 testing,\
+  \ a subsystem, a language \u2014 so that knowledge and standards spread horizontally\
+  \ rather than through management."
 category:
 - Team
 - Communication
@@ -47,6 +49,19 @@ problems:
 - uneven-workload-distribution
 - unmotivated-employees
 layout: solution
+related_solutions:
+- slug: user-communities
+  similarity: 0.75
+- slug: pair-and-mob-programming
+  similarity: 0.7
+- slug: internal-technical-coaching
+  similarity: 0.7
+- slug: knowledge-rotation
+  similarity: 0.7
+- slug: team-boundaries-aligned-to-architecture
+  similarity: 0.7
+- slug: code-reading-sessions
+  similarity: 0.65
 ---
 
 ## Description

@@ -11,6 +11,19 @@ problems:
 - network-latency
 - user-frustration
 layout: solution
+related_solutions:
+- slug: predictive-prefetching
+  similarity: 0.85
+- slug: progressive-loading
+  similarity: 0.8
+- slug: lazy-loading
+  similarity: 0.8
+- slug: performance-optimization
+  similarity: 0.8
+- slug: lazy-evaluation
+  similarity: 0.8
+- slug: optimistic-ui-updates
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

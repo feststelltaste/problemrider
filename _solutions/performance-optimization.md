@@ -14,6 +14,19 @@ problems:
 - gradual-performance-degradation
 - customer-dissatisfaction
 layout: solution
+related_solutions:
+- slug: predictive-loading
+  similarity: 0.8
+- slug: caching-strategy
+  similarity: 0.8
+- slug: asynchronous-operations
+  similarity: 0.8
+- slug: lazy-loading
+  similarity: 0.75
+- slug: efficient-algorithms
+  similarity: 0.75
+- slug: performance-budgets
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

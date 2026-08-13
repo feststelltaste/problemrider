@@ -13,6 +13,19 @@ problems:
 - stakeholder-developer-communication-gap
 - over-reliance-on-utility-classes
 layout: solution
+related_solutions:
+- slug: domain-patterns
+  similarity: 0.8
+- slug: domain-driven-design
+  similarity: 0.8
+- slug: data-modeling
+  similarity: 0.8
+- slug: domain-aligned-architecture
+  similarity: 0.8
+- slug: ubiquitous-language
+  similarity: 0.75
+- slug: event-storming
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

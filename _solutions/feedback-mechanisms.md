@@ -1,6 +1,7 @@
 ---
 title: Feedback Mechanisms
-description: Provide opportunities for users to submit feedback, suggestions for improvement or problem reports
+description: Provide opportunities for users to submit feedback, suggestions for improvement
+  or problem reports
 category:
 - Communication
 - Requirements
@@ -17,6 +18,19 @@ problems:
 - negative-brand-perception
 - stakeholder-dissatisfaction
 layout: solution
+related_solutions:
+- slug: direct-feedback
+  similarity: 0.9
+- slug: continuous-feedback
+  similarity: 0.8
+- slug: user-centered-design
+  similarity: 0.8
+- slug: user-communities
+  similarity: 0.75
+- slug: stakeholder-feedback-loops
+  similarity: 0.75
+- slug: personal-support
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

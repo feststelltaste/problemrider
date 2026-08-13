@@ -14,6 +14,19 @@ problems:
 - synchronization-problems
 - master-data-ownership-gaps
 layout: solution
+related_solutions:
+- slug: data-integrity
+  similarity: 0.8
+- slug: checksums
+  similarity: 0.8
+- slug: monitoring-system-integrity
+  similarity: 0.75
+- slug: redundant-checksums
+  similarity: 0.75
+- slug: error-correction-codes
+  similarity: 0.7
+- slug: data-quality-checks
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

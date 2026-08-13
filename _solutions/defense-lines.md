@@ -14,6 +14,19 @@ problems:
 - insecure-data-transmission
 - cascade-failures
 layout: solution
+related_solutions:
+- slug: network-segmentation
+  similarity: 0.8
+- slug: honeypots
+  similarity: 0.75
+- slug: authentication
+  similarity: 0.75
+- slug: logging-and-monitoring
+  similarity: 0.75
+- slug: encryption
+  similarity: 0.75
+- slug: authorization
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Error Budgets
-description: Quantifying acceptable unreliability as balance between feature velocity and reliability
+description: Quantifying acceptable unreliability as balance between feature velocity
+  and reliability
 category:
 - Management
 - Process
@@ -14,6 +15,19 @@ problems:
 - blame-culture
 - micromanagement-culture
 layout: solution
+related_solutions:
+- slug: chaos-engineering
+  similarity: 0.8
+- slug: service-level-indicators
+  similarity: 0.8
+- slug: incident-management
+  similarity: 0.8
+- slug: secure-software
+  similarity: 0.8
+- slug: site-reliability-engineering-sre
+  similarity: 0.8
+- slug: error-reporting-and-analysis
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

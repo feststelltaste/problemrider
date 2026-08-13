@@ -12,6 +12,19 @@ problems:
 - ripple-effect-of-changes
 - technology-lock-in
 layout: solution
+related_solutions:
+- slug: abstraction
+  similarity: 0.75
+- slug: abstraction-layers
+  similarity: 0.75
+- slug: facades
+  similarity: 0.75
+- slug: protocol-abstraction
+  similarity: 0.75
+- slug: adapter
+  similarity: 0.75
+- slug: database-abstraction
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

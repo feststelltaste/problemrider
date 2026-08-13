@@ -21,6 +21,19 @@ problems:
 - stakeholder-frustration
 - feature-creep
 layout: solution
+related_solutions:
+- slug: requirements-analysis
+  similarity: 0.85
+- slug: specification-by-example
+  similarity: 0.75
+- slug: iterative-development
+  similarity: 0.75
+- slug: on-site-customer
+  similarity: 0.75
+- slug: user-stories
+  similarity: 0.75
+- slug: behavior-driven-development-bdd
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

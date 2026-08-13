@@ -21,6 +21,19 @@ problems:
 - procedural-programming-in-oop-languages
 - entity-attribute-value-overuse
 layout: solution
+related_solutions:
+- slug: domain-modeling
+  similarity: 0.8
+- slug: domain-aligned-architecture
+  similarity: 0.8
+- slug: bounded-contexts
+  similarity: 0.75
+- slug: domain-patterns
+  similarity: 0.75
+- slug: business-event-processing
+  similarity: 0.75
+- slug: hexagonal-architecture
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

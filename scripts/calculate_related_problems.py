@@ -55,8 +55,22 @@ DEFAULT_LOCAL_EMBEDDING_URL = "http://host.docker.internal:1234"
 
 
 class SimpleEmbeddingAnalyzer:
-    def __init__(self, problems_dir: str = "_problems", use_local: bool = False, local_url: str = None):
+    def __init__(
+        self,
+        problems_dir: str = "_problems",
+        use_local: bool = False,
+        local_url: str = None,
+        embeddings_dir: str = "_embeddings",
+        related_field: str = "related_problems",
+        item_label: str = "problems",
+        embedding_sections: Tuple[Tuple[str, str], ...] = (("Description", "description"), ("Indicators", "indicators")),
+    ):
         self.problems_dir = Path(problems_dir)
+        self.embeddings_dir = Path(embeddings_dir)
+        self.related_field = related_field
+        self.item_label = item_label
+        self.item_singular = item_label.rstrip("s")
+        self.embedding_sections = embedding_sections
         self.problems: Dict[str, Dict] = {}
         self.embeddings: Dict[str, np.ndarray] = {}
         self.use_local = use_local
@@ -89,12 +103,11 @@ class SimpleEmbeddingAnalyzer:
         import hashlib
         
         # Combine the content that affects embeddings
-        content_parts = [
-            problem_data['title'],
-            problem_data['description'],
-            problem_data['content_sections']['description'],
-            problem_data['content_sections']['indicators']
-        ]
+        content_parts = [problem_data['title'], problem_data['description']]
+        content_parts.extend(
+            problem_data['content_sections'].get(section_key, '')
+            for _, section_key in self.embedding_sections
+        )
         content_text = " ".join(part for part in content_parts if part.strip())
         
         return hashlib.md5(content_text.encode()).hexdigest()
@@ -112,13 +125,11 @@ class SimpleEmbeddingAnalyzer:
             return "Qwen/Qwen3-Embedding-0.6B"
     
     def _save_embedding_to_file(self, problem_key: str, embedding: np.ndarray, content_hash: str) -> None:
-        """Save embedding and metadata to a separate YAML file in _embeddings directory."""
-        # Ensure _embeddings directory exists
-        embeddings_dir = Path("_embeddings")
-        embeddings_dir.mkdir(exist_ok=True)
+        """Save embedding and metadata to a separate YAML cache file."""
+        self.embeddings_dir.mkdir(exist_ok=True)
         
         # Create embedding file path
-        embedding_file = embeddings_dir / f"{problem_key}.yaml"
+        embedding_file = self.embeddings_dir / f"{problem_key}.yaml"
         
         try:
             # Prepare embedding data
@@ -141,10 +152,10 @@ class SimpleEmbeddingAnalyzer:
                 for value in embedding_data['embedding']:
                     f.write(f"- {value}\n")
             
-            print(f"💾 Saved embedding cache to _embeddings/{problem_key}.yaml")
+            print(f"💾 Saved embedding cache to {self.embeddings_dir}/{problem_key}.yaml")
                     
         except Exception as e:
-            print(f"⚠️  Could not save embedding to _embeddings/{problem_key}.yaml: {e}")
+            print(f"⚠️  Could not save embedding to {self.embeddings_dir}/{problem_key}.yaml: {e}")
     
     def _test_local_service(self):
         """Test connectivity to local embedding service and detect available models."""
@@ -172,9 +183,9 @@ class SimpleEmbeddingAnalyzer:
             print("🤖 Loading Qwen3-Embedding-0.6B model locally...")
             self.model = SentenceTransformer('Qwen/Qwen3-Embedding-0.6B')
         
-    def load_problems(self) -> None:
-        """Load all problem files."""
-        print(f"Loading problems from {self.problems_dir}...")
+    def load_items(self) -> None:
+        """Load all Markdown files for the configured content type."""
+        print(f"Loading {self.item_label} from {self.problems_dir}...")
         
         for file_path in self.problems_dir.glob("*.md"):
             try:
@@ -192,14 +203,17 @@ class SimpleEmbeddingAnalyzer:
                             'file_path': file_path,
                             'title': metadata.get('title', ''),
                             'description': metadata.get('description', ''),
-                            'current_related_problems': metadata.get('related_problems', []),
+                            'current_related_problems': metadata.get(self.related_field, []),
                             'metadata': metadata,
                             'content_sections': self._extract_additional_sections(markdown_content)
                         }
             except Exception as e:
                 print(f"Error loading {file_path}: {e}")
                 
-        print(f"Loaded {len(self.problems)} problems")
+        print(f"Loaded {len(self.problems)} {self.item_label}")
+
+    # Kept for callers of the original related-problems script.
+    load_problems = load_items
     
     def _clean_markdown_text(self, text: str) -> str:
         """Clean markdown formatting from text."""
@@ -218,12 +232,11 @@ class SimpleEmbeddingAnalyzer:
         return ''
     
     def _extract_additional_sections(self, content: str) -> dict:
-        """Extract specific sections: indicators, description, and examples."""
-        sections = {
-            'indicators': self._extract_section(content, 'Indicators'),
-            'description': self._extract_section(content, 'Description')
+        """Extract the configured Markdown sections used for embeddings."""
+        return {
+            section_key: self._extract_section(content, section_name)
+            for section_name, section_key in self.embedding_sections
         }
-        return sections
     
     def _get_embeddings_local(self, texts: List[str]) -> np.ndarray:
         """Get embeddings from LM Studio using OpenAI-compatible API with batch processing."""
@@ -322,8 +335,8 @@ class SimpleEmbeddingAnalyzer:
         for problem_key, problem_data in self.problems.items():
             content_hash = self._get_content_hash(problem_data)
             
-            # Check if we have cached embedding in _embeddings directory
-            embedding_file = Path("_embeddings") / f"{problem_key}.yaml"
+            # Check if we have a cached embedding.
+            embedding_file = self.embeddings_dir / f"{problem_key}.yaml"
             cached_embedding = None
             cached_hash = None
             cached_model = None
@@ -350,12 +363,11 @@ class SimpleEmbeddingAnalyzer:
                 cached_count += 1
             else:
                 # Need to compute new embedding
-                text_parts = [
-                    problem_data['title'],
-                    problem_data['description'],  # YAML description
-                    problem_data['content_sections']['description'],  # Description section
-                    problem_data['content_sections']['indicators']
-                ]
+                text_parts = [problem_data['title'], problem_data['description']]
+                text_parts.extend(
+                    problem_data['content_sections'].get(section_key, '')
+                    for _, section_key in self.embedding_sections
+                )
                 # Filter out empty parts
                 text_parts = [part for part in text_parts if part.strip()]
                 text = " ".join(text_parts)
@@ -387,7 +399,7 @@ class SimpleEmbeddingAnalyzer:
         print(f"Ready with embeddings for {len(self.embeddings)} problems")
     
     def find_related(self, problem_key: str, top_k: int = 6, min_similarity: float = 0.3) -> List[Tuple[str, float]]:
-        """Find related problems using cosine similarity."""
+        """Find related items using cosine similarity."""
         if problem_key not in self.embeddings:
             return []
         
@@ -404,7 +416,7 @@ class SimpleEmbeddingAnalyzer:
         return sorted(similarities, key=lambda x: x[1], reverse=True)[:top_k]
     
     def update_all_files(self, dry_run: bool = True, min_similarity: float = 0.3, specific_file: str = None):
-        """Update all files with new related problems."""
+        """Update all files with new related items."""
         if specific_file:
             # Handle .md extension - remove it to get the slug
             file_slug = specific_file
@@ -412,7 +424,7 @@ class SimpleEmbeddingAnalyzer:
                 file_slug = file_slug[:-3]
             
             if file_slug not in self.problems:
-                print(f"❌ Problem file '{specific_file}' not found. Available files:")
+                print(f"❌ {self.item_singular.title()} file '{specific_file}' not found. Available files:")
                 available_files = list(self.problems.keys())[:10]  # Show first 10
                 for f in available_files:
                     print(f"  - {f}.md")
@@ -459,7 +471,7 @@ class SimpleEmbeddingAnalyzer:
         parts = content.split('---', 2)
         if len(parts) >= 3:
             metadata = yaml.safe_load(parts[1])
-            metadata['related_problems'] = new_related
+            metadata[self.related_field] = new_related
             new_yaml = yaml.dump(metadata, default_flow_style=False, sort_keys=False)
             new_content = f"---\n{new_yaml}---{parts[2]}"
             

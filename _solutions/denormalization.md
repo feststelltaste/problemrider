@@ -12,6 +12,19 @@ problems:
 - slow-response-times-for-lists
 - lazy-loading
 layout: solution
+related_solutions:
+- slug: materialized-views
+  similarity: 0.85
+- slug: data-replication
+  similarity: 0.8
+- slug: distributed-caching
+  similarity: 0.8
+- slug: read-replicas
+  similarity: 0.8
+- slug: data-partitioning
+  similarity: 0.8
+- slug: nosql-databases
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

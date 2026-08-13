@@ -1,6 +1,7 @@
 ---
 title: Read Replicas
-description: Distributing query load across read-only database replicas away from the primary
+description: Distributing query load across read-only database replicas away from
+  the primary
 category:
 - Database
 - Performance
@@ -13,6 +14,19 @@ problems:
 - single-points-of-failure
 - lock-contention
 layout: solution
+related_solutions:
+- slug: data-replication
+  similarity: 0.9
+- slug: denormalization
+  similarity: 0.8
+- slug: distributed-caching
+  similarity: 0.8
+- slug: data-partitioning
+  similarity: 0.75
+- slug: materialized-views
+  similarity: 0.75
+- slug: load-balancing
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

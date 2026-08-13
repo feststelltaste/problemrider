@@ -13,6 +13,19 @@ problems:
 - difficult-developer-onboarding
 - inadequate-test-data-management
 layout: solution
+related_solutions:
+- slug: containerization
+  similarity: 0.85
+- slug: virtual-development-environments
+  similarity: 0.8
+- slug: nosql-databases
+  similarity: 0.75
+- slug: database-abstraction
+  similarity: 0.75
+- slug: platform-independent-data-storage
+  similarity: 0.75
+- slug: data-replication
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

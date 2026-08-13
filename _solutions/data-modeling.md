@@ -19,6 +19,19 @@ problems:
 - entity-attribute-value-overuse
 - master-data-ownership-gaps
 layout: solution
+related_solutions:
+- slug: domain-modeling
+  similarity: 0.8
+- slug: business-process-modeling
+  similarity: 0.75
+- slug: canonical-data-model
+  similarity: 0.7
+- slug: data-strategy
+  similarity: 0.65
+- slug: story-mapping
+  similarity: 0.65
+- slug: domain-patterns
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

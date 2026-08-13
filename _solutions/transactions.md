@@ -16,6 +16,19 @@ problems:
 - synchronization-problems
 - lock-contention
 layout: solution
+related_solutions:
+- slug: concurrency-control
+  similarity: 0.8
+- slug: write-ahead-logging
+  similarity: 0.75
+- slug: saga-pattern
+  similarity: 0.75
+- slug: batch-processing
+  similarity: 0.75
+- slug: idempotency-design
+  similarity: 0.75
+- slug: data-integrity
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

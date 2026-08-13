@@ -21,6 +21,19 @@ problems:
 - custom-report-sprawl
 - master-data-ownership-gaps
 layout: solution
+related_solutions:
+- slug: consistent-user-interface
+  similarity: 0.85
+- slug: ubiquitous-language
+  similarity: 0.85
+- slug: intuitive-navigation
+  similarity: 0.8
+- slug: plain-language
+  similarity: 0.8
+- slug: style-guide
+  similarity: 0.8
+- slug: user-centered-design
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

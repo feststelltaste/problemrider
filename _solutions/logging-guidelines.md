@@ -1,6 +1,8 @@
 ---
 title: Logging Guidelines
-description: Agree what gets logged at which level, what must never be logged, and how long it is kept — so that logs become a diagnostic tool rather than a volume problem.
+description: "Agree what gets logged at which level, what must never be logged, and\
+  \ how long it is kept \u2014 so that logs become a diagnostic tool rather than a\
+  \ volume problem."
 category:
 - Code
 - Operations
@@ -16,6 +18,19 @@ problems:
 - excessive-disk-io
 - resource-waste
 layout: solution
+related_solutions:
+- slug: logging-and-monitoring
+  similarity: 0.75
+- slug: observability-and-monitoring
+  similarity: 0.7
+- slug: logging
+  similarity: 0.7
+- slug: error-logging
+  similarity: 0.65
+- slug: audit-trail-management
+  similarity: 0.65
+- slug: data-flow-control
+  similarity: 0.6
 ---
 
 ## Description

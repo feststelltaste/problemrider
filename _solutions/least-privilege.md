@@ -12,6 +12,19 @@ problems:
 - poorly-defined-responsibilities
 - authorization-role-explosion
 layout: solution
+related_solutions:
+- slug: authorization
+  similarity: 0.75
+- slug: authentication
+  similarity: 0.75
+- slug: security-hardening-process
+  similarity: 0.75
+- slug: authorization-concept
+  similarity: 0.75
+- slug: network-segmentation
+  similarity: 0.75
+- slug: patch-management
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

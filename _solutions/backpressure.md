@@ -17,6 +17,19 @@ problems:
 - high-connection-count
 - cascade-failures
 layout: solution
+related_solutions:
+- slug: rate-limiting
+  similarity: 0.75
+- slug: timeout-management
+  similarity: 0.7
+- slug: capacity-planning
+  similarity: 0.7
+- slug: elastic-scaling
+  similarity: 0.7
+- slug: resource-usage-optimization
+  similarity: 0.7
+- slug: batch-processing
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

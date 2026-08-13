@@ -1,6 +1,7 @@
 ---
 title: Ensemble Programming
-description: Solve complex design and debugging challenges by programming as a group at one workstation
+description: Solve complex design and debugging challenges by programming as a group
+  at one workstation
 category:
 - Team
 - Code
@@ -17,6 +18,19 @@ problems:
 - team-dysfunction
 - fear-of-conflict
 layout: solution
+related_solutions:
+- slug: pair-and-mob-programming
+  similarity: 0.85
+- slug: code-reading-sessions
+  similarity: 0.7
+- slug: structured-onboarding-program
+  similarity: 0.65
+- slug: code-review-process-reform
+  similarity: 0.65
+- slug: communities-of-practice
+  similarity: 0.65
+- slug: internal-technical-coaching
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

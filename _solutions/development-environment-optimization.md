@@ -1,6 +1,8 @@
 ---
 title: Development Environment Optimization
-description: Eliminate friction from the daily development workflow by investing in fast builds, reliable tooling, automated repetitive tasks, and self-service infrastructure, so developers spend their time on valuable work instead of fighting their tools.
+description: Eliminate friction from the daily development workflow by investing in
+  fast builds, reliable tooling, automated repetitive tasks, and self-service infrastructure,
+  so developers spend their time on valuable work instead of fighting their tools.
 category:
 - Operations
 - Process
@@ -16,6 +18,19 @@ problems:
 - reduced-individual-productivity
 - reduced-team-productivity
 layout: solution
+related_solutions:
+- slug: development-workflow-automation
+  similarity: 0.85
+- slug: virtual-development-environments
+  similarity: 0.8
+- slug: ci-cd-pipeline
+  similarity: 0.75
+- slug: fast-feedback-loops
+  similarity: 0.75
+- slug: sustainable-pace-practices
+  similarity: 0.7
+- slug: self-service-developer-platform
+  similarity: 0.7
 ---
 
 ## Description

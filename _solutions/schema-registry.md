@@ -1,6 +1,7 @@
 ---
 title: Schema Registry
-description: Managing schemas centrally with enforced data contract compatibility across services
+description: Managing schemas centrally with enforced data contract compatibility
+  across services
 category:
 - Architecture
 - Dependencies
@@ -13,6 +14,19 @@ problems:
 - cross-system-data-synchronization-problems
 - shared-dependencies
 layout: solution
+related_solutions:
+- slug: semantic-versioning
+  similarity: 0.7
+- slug: event-driven-integration
+  similarity: 0.7
+- slug: standardized-protocols
+  similarity: 0.7
+- slug: version-control
+  similarity: 0.7
+- slug: versioning-scheme
+  similarity: 0.7
+- slug: service-mesh
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

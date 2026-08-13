@@ -15,6 +15,19 @@ problems:
 - inconsistent-behavior
 - unpredictable-system-behavior
 layout: solution
+related_solutions:
+- slug: test-coverage-strategy
+  similarity: 0.85
+- slug: automated-tests
+  similarity: 0.8
+- slug: characterization-tests
+  similarity: 0.75
+- slug: acceptance-tests
+  similarity: 0.75
+- slug: regression-testing
+  similarity: 0.75
+- slug: negative-testing
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

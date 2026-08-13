@@ -14,6 +14,19 @@ problems:
 - shadow-systems
 - difficult-developer-onboarding
 layout: solution
+related_solutions:
+- slug: search-function
+  similarity: 0.85
+- slug: cognitive-load-minimization
+  similarity: 0.85
+- slug: consistent-user-interface
+  similarity: 0.8
+- slug: user-centered-design
+  similarity: 0.8
+- slug: visual-hierarchy
+  similarity: 0.8
+- slug: adaptive-behavior
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

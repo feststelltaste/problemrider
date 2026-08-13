@@ -12,6 +12,19 @@ problems:
 - error-message-information-disclosure
 - insecure-data-transmission
 layout: solution
+related_solutions:
+- slug: cryptographic-methods
+  similarity: 0.8
+- slug: authorization
+  similarity: 0.8
+- slug: encryption
+  similarity: 0.8
+- slug: logging-and-monitoring
+  similarity: 0.8
+- slug: two-factor-authentication
+  similarity: 0.8
+- slug: secret-management
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

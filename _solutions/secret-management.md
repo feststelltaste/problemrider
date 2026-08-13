@@ -15,6 +15,19 @@ problems:
 - authentication-bypass-vulnerabilities
 - error-message-information-disclosure
 layout: solution
+related_solutions:
+- slug: encryption
+  similarity: 0.8
+- slug: cryptographic-methods
+  similarity: 0.8
+- slug: key-management
+  similarity: 0.75
+- slug: authentication
+  similarity: 0.75
+- slug: security-hardening-process
+  similarity: 0.75
+- slug: certificate-management
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

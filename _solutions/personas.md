@@ -13,6 +13,19 @@ problems:
 - user-confusion
 - feature-bloat
 layout: solution
+related_solutions:
+- slug: user-stories
+  similarity: 0.8
+- slug: prototypes
+  similarity: 0.75
+- slug: on-site-customer
+  similarity: 0.75
+- slug: user-centered-design
+  similarity: 0.75
+- slug: story-mapping
+  similarity: 0.75
+- slug: prototyping
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

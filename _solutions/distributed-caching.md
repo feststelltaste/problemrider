@@ -11,6 +11,19 @@ problems:
 - scaling-inefficiencies
 - slow-database-queries
 layout: solution
+related_solutions:
+- slug: data-replication
+  similarity: 0.8
+- slug: connection-pooling
+  similarity: 0.8
+- slug: load-balancing
+  similarity: 0.8
+- slug: caching-strategy
+  similarity: 0.8
+- slug: lazy-loading
+  similarity: 0.8
+- slug: denormalization
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

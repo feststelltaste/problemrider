@@ -21,6 +21,19 @@ problems:
 - convenience-driven-development
 - accumulated-decision-debt
 layout: solution
+related_solutions:
+- slug: code-review-process-reform
+  similarity: 0.85
+- slug: architecture-decision-records
+  similarity: 0.8
+- slug: lightweight-design-review
+  similarity: 0.8
+- slug: architecture-review-board
+  similarity: 0.8
+- slug: architecture-conformity-analysis
+  similarity: 0.8
+- slug: architecture-workshops
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

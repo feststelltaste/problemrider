@@ -1,6 +1,8 @@
 ---
 title: Structured Communication Protocols
-description: Establish explicit rules, channels, and cadences for how information flows within and beyond the project team, replacing ad-hoc communication with deliberate practices.
+description: Establish explicit rules, channels, and cadences for how information
+  flows within and beyond the project team, replacing ad-hoc communication with deliberate
+  practices.
 category:
 - Communication
 - Team
@@ -21,6 +23,19 @@ problems:
 - vendor-relationship-strain
 - power-struggles
 layout: solution
+related_solutions:
+- slug: clear-roles-and-ownership
+  similarity: 0.75
+- slug: stakeholder-feedback-loops
+  similarity: 0.75
+- slug: architecture-decision-records
+  similarity: 0.75
+- slug: knowledge-sharing-practices
+  similarity: 0.75
+- slug: psychological-safety-practices
+  similarity: 0.7
+- slug: blameless-postmortems
+  similarity: 0.7
 ---
 
 ## Description

@@ -1,6 +1,7 @@
 ---
 title: Specification by Example
-description: Collaboratively defining requirements through concrete examples that become executable specifications
+description: Collaboratively defining requirements through concrete examples that
+  become executable specifications
 category:
 - Requirements
 - Testing
@@ -16,6 +17,19 @@ problems:
 - reduced-feature-quality
 - frequent-changes-to-requirements
 layout: solution
+related_solutions:
+- slug: behavior-driven-development-bdd
+  similarity: 0.85
+- slug: evolutionary-requirements-development
+  similarity: 0.75
+- slug: user-stories
+  similarity: 0.75
+- slug: acceptance-tests
+  similarity: 0.75
+- slug: requirements-analysis
+  similarity: 0.75
+- slug: living-documentation
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

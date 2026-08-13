@@ -1,6 +1,7 @@
 ---
 title: Abstraction
-description: Decouple components through contracts so that implementations can vary independently
+description: Decouple components through contracts so that implementations can vary
+  independently
 category:
 - Architecture
 - Code
@@ -15,6 +16,19 @@ problems:
 - stagnant-architecture
 - poor-encapsulation
 layout: solution
+related_solutions:
+- slug: protocol-abstraction
+  similarity: 0.85
+- slug: abstraction-layers
+  similarity: 0.8
+- slug: database-abstraction
+  similarity: 0.8
+- slug: loose-coupling
+  similarity: 0.8
+- slug: bridges
+  similarity: 0.75
+- slug: facades
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

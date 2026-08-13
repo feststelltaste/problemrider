@@ -14,6 +14,19 @@ problems:
 - index-fragmentation
 - unused-indexes
 layout: solution
+related_solutions:
+- slug: production-environment-maintenance
+  similarity: 0.85
+- slug: patch-management
+  similarity: 0.8
+- slug: third-party-dependency-check
+  similarity: 0.8
+- slug: regular-backups
+  similarity: 0.8
+- slug: secure-software
+  similarity: 0.75
+- slug: vulnerability-scans
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

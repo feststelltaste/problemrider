@@ -1,6 +1,7 @@
 ---
 title: User Acceptance Tests
-description: Confirm fulfillment of requirements through formal acceptance tests with users
+description: Confirm fulfillment of requirements through formal acceptance tests with
+  users
 category:
 - Testing
 - Requirements
@@ -15,6 +16,19 @@ problems:
 - quality-blind-spots
 - reduced-feature-quality
 layout: solution
+related_solutions:
+- slug: usability-tests
+  similarity: 0.75
+- slug: acceptance-tests
+  similarity: 0.75
+- slug: user-stories
+  similarity: 0.75
+- slug: prototypes
+  similarity: 0.7
+- slug: requirements-analysis
+  similarity: 0.7
+- slug: user-centered-design
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

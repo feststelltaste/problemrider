@@ -1,6 +1,7 @@
 ---
 title: Debt Remediation Estimation
-description: Put an effort figure on each debt item so the total becomes a finite number — because an unsized problem cannot be planned and feels infinite.
+description: "Put an effort figure on each debt item so the total becomes a finite\
+  \ number \u2014 because an unsized problem cannot be planned and feels infinite."
 category:
 - Code
 - Management
@@ -23,6 +24,19 @@ problems:
 - poor-test-coverage
 - core-modification-of-standard-software
 layout: solution
+related_solutions:
+- slug: technical-debt-backlog
+  similarity: 0.8
+- slug: debt-classification
+  similarity: 0.8
+- slug: technical-debt-assessment
+  similarity: 0.75
+- slug: debt-accrual-analysis
+  similarity: 0.75
+- slug: functional-debt-management
+  similarity: 0.7
+- slug: code-metrics
+  similarity: 0.7
 ---
 
 ## Description

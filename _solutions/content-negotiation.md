@@ -1,6 +1,7 @@
 ---
 title: Content Negotiation
-description: Letting clients and servers agree on format, language, and encoding via HTTP
+description: Letting clients and servers agree on format, language, and encoding via
+  HTTP
 category:
 - Architecture
 problems:
@@ -10,6 +11,19 @@ problems:
 - breaking-changes
 - legacy-api-versioning-nightmare
 layout: solution
+related_solutions:
+- slug: backward-compatible-apis
+  similarity: 0.7
+- slug: api-versioning-strategy
+  similarity: 0.7
+- slug: api-gateway
+  similarity: 0.7
+- slug: standardized-data-formats
+  similarity: 0.7
+- slug: data-formats
+  similarity: 0.65
+- slug: api-deprecation-policy
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

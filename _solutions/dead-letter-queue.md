@@ -1,6 +1,7 @@
 ---
 title: Dead Letter Queue
-description: Routing failed messages to a dedicated queue for later inspection and reprocessing instead of losing them
+description: Routing failed messages to a dedicated queue for later inspection and
+  reprocessing instead of losing them
 category:
 - Architecture
 - Operations
@@ -12,6 +13,19 @@ problems:
 - task-queues-backing-up
 - increased-error-rates
 layout: solution
+related_solutions:
+- slug: retry
+  similarity: 0.75
+- slug: failover-mechanisms
+  similarity: 0.7
+- slug: error-reporting-and-analysis
+  similarity: 0.7
+- slug: error-handling
+  similarity: 0.7
+- slug: rate-limiting
+  similarity: 0.65
+- slug: heartbeat
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

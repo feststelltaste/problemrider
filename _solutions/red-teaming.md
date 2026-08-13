@@ -14,6 +14,19 @@ problems:
 - secret-management-problems
 - system-outages
 layout: solution
+related_solutions:
+- slug: security-tests-by-external-parties
+  similarity: 0.75
+- slug: vulnerability-scans
+  similarity: 0.75
+- slug: threat-modeling
+  similarity: 0.75
+- slug: penetration-tests
+  similarity: 0.75
+- slug: security-training
+  similarity: 0.75
+- slug: regression-tests
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

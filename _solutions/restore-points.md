@@ -11,6 +11,19 @@ problems:
 - data-migration-integrity-issues
 - fear-of-change
 layout: solution
+related_solutions:
+- slug: regular-backups
+  similarity: 0.85
+- slug: rollback-mechanisms
+  similarity: 0.85
+- slug: disaster-recovery
+  similarity: 0.8
+- slug: chaos-engineering
+  similarity: 0.8
+- slug: incident-management
+  similarity: 0.8
+- slug: backup-and-recovery
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

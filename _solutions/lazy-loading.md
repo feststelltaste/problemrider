@@ -13,6 +13,19 @@ problems:
 - high-resource-utilization-on-client
 - inefficient-frontend-code
 layout: solution
+related_solutions:
+- slug: lazy-evaluation
+  similarity: 0.95
+- slug: predictive-loading
+  similarity: 0.8
+- slug: progressive-loading
+  similarity: 0.8
+- slug: distributed-caching
+  similarity: 0.8
+- slug: connection-pooling
+  similarity: 0.8
+- slug: code-splitting
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

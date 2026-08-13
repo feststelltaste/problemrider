@@ -12,6 +12,19 @@ problems:
 - hardcoded-values
 - configuration-chaos
 layout: solution
+related_solutions:
+- slug: database-abstraction
+  similarity: 0.85
+- slug: abstraction-layers
+  similarity: 0.85
+- slug: dependency-injection
+  similarity: 0.8
+- slug: protocol-abstraction
+  similarity: 0.75
+- slug: platform-independent-data-storage
+  similarity: 0.75
+- slug: object-relational-mapping-orm
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

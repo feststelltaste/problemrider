@@ -13,6 +13,19 @@ problems:
 - secret-management-problems
 - authorization-role-explosion
 layout: solution
+related_solutions:
+- slug: vulnerability-scans
+  similarity: 0.85
+- slug: configuration-checks
+  similarity: 0.8
+- slug: security-metrics
+  similarity: 0.8
+- slug: regression-tests
+  similarity: 0.8
+- slug: security-monitoring
+  similarity: 0.75
+- slug: security-tests-by-external-parties
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

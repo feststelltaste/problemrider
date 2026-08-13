@@ -14,6 +14,19 @@ problems:
 - implicit-knowledge
 - increased-customer-support-load
 layout: solution
+related_solutions:
+- slug: personal-support
+  similarity: 0.8
+- slug: knowledge-base
+  similarity: 0.8
+- slug: feedback-mechanisms
+  similarity: 0.75
+- slug: communities-of-practice
+  similarity: 0.75
+- slug: contextual-help
+  similarity: 0.7
+- slug: usability-tests
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

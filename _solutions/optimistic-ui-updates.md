@@ -12,6 +12,19 @@ problems:
 - external-service-delays
 - network-latency
 layout: solution
+related_solutions:
+- slug: performance-optimization
+  similarity: 0.75
+- slug: predictive-loading
+  similarity: 0.75
+- slug: asynchronous-operations
+  similarity: 0.75
+- slug: api-calls-optimization
+  similarity: 0.7
+- slug: progressive-loading
+  similarity: 0.65
+- slug: lazy-loading
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

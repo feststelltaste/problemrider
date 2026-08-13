@@ -14,6 +14,19 @@ problems:
 - inconsistent-behavior
 - quality-blind-spots
 layout: solution
+related_solutions:
+- slug: code-review-process-reform
+  similarity: 0.75
+- slug: domain-experts
+  similarity: 0.7
+- slug: architecture-reviews
+  similarity: 0.7
+- slug: on-site-customer
+  similarity: 0.7
+- slug: requirements-analysis
+  similarity: 0.7
+- slug: prototypes
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

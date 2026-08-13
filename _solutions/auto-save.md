@@ -12,6 +12,19 @@ problems:
 - user-trust-erosion
 - increased-customer-support-load
 layout: solution
+related_solutions:
+- slug: intuitive-navigation
+  similarity: 0.75
+- slug: confirmation-dialogs
+  similarity: 0.75
+- slug: asynchronous-operations
+  similarity: 0.75
+- slug: undo-and-redo
+  similarity: 0.75
+- slug: search-function
+  similarity: 0.75
+- slug: user-centered-design
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,8 @@
 ---
 title: Structured Onboarding Program
-description: A deliberate, repeatable onboarding process that gives new team members guided access to people, knowledge, tools, and codebase context within their first weeks.
+description: A deliberate, repeatable onboarding process that gives new team members
+  guided access to people, knowledge, tools, and codebase context within their first
+  weeks.
 category:
 - Team
 - Communication
@@ -25,6 +27,19 @@ problems:
 - staff-availability-issues
 - implementation-partner-dependency
 layout: solution
+related_solutions:
+- slug: integrated-onboarding
+  similarity: 0.85
+- slug: knowledge-sharing-practices
+  similarity: 0.75
+- slug: pair-and-mob-programming
+  similarity: 0.75
+- slug: code-reading-sessions
+  similarity: 0.7
+- slug: documentation-as-code
+  similarity: 0.7
+- slug: cross-functional-skill-development
+  similarity: 0.7
 ---
 
 ## Description

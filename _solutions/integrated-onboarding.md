@@ -1,6 +1,7 @@
 ---
 title: Integrated Onboarding
-description: Orchestrate a holistic first-use experience with progressive disclosure and contextual guidance
+description: Orchestrate a holistic first-use experience with progressive disclosure
+  and contextual guidance
 category:
 - Communication
 - Requirements
@@ -17,6 +18,19 @@ problems:
 - inconsistent-onboarding-experience
 - rapid-team-growth
 layout: solution
+related_solutions:
+- slug: structured-onboarding-program
+  similarity: 0.85
+- slug: interactive-tutorials
+  similarity: 0.75
+- slug: empty-states-and-first-use-guidance
+  similarity: 0.75
+- slug: intuitive-navigation
+  similarity: 0.7
+- slug: video-tutorials
+  similarity: 0.7
+- slug: knowledge-base
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

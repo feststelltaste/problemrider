@@ -11,6 +11,19 @@ problems:
 - incomplete-knowledge
 - inconsistent-knowledge-acquisition
 layout: solution
+related_solutions:
+- slug: knowledge-sharing-practices
+  similarity: 0.7
+- slug: knowledge-base
+  similarity: 0.7
+- slug: domain-experts
+  similarity: 0.7
+- slug: pair-and-mob-programming
+  similarity: 0.7
+- slug: subject-matter-reviews
+  similarity: 0.7
+- slug: structured-onboarding-program
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Virtualization
-description: Isolate applications with their own OS instance to prevent resource and dependency conflicts
+description: Isolate applications with their own OS instance to prevent resource and
+  dependency conflicts
 category:
 - Operations
 - Architecture
@@ -13,6 +14,19 @@ problems:
 - resource-contention
 - technology-lock-in
 layout: solution
+related_solutions:
+- slug: containerization
+  similarity: 0.7
+- slug: virtual-networks
+  similarity: 0.7
+- slug: virtual-development-environments
+  similarity: 0.65
+- slug: emulation
+  similarity: 0.65
+- slug: immutable-infrastructure
+  similarity: 0.65
+- slug: cloud-native-development
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

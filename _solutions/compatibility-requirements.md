@@ -13,6 +13,19 @@ problems:
 - implicit-knowledge
 - legal-disputes
 layout: solution
+related_solutions:
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.85
+- slug: compatibility-standards
+  similarity: 0.8
+- slug: compatibility-as-error
+  similarity: 0.8
+- slug: compatibility-governance
+  similarity: 0.8
+- slug: compatibility-measurement
+  similarity: 0.8
+- slug: compatibility-testing
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

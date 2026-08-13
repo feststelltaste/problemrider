@@ -19,6 +19,19 @@ problems:
 - interrupt-overhead
 - memory-barrier-inefficiency
 layout: solution
+related_solutions:
+- slug: capacity-planning
+  similarity: 0.8
+- slug: load-testing
+  similarity: 0.75
+- slug: proactive-capacity-management
+  similarity: 0.75
+- slug: performance-budgets
+  similarity: 0.75
+- slug: continuous-performance-monitoring
+  similarity: 0.75
+- slug: performance-measurements
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

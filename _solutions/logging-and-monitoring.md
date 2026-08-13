@@ -14,6 +14,19 @@ problems:
 - excessive-logging
 - log-injection-vulnerabilities
 layout: solution
+related_solutions:
+- slug: security-monitoring
+  similarity: 0.85
+- slug: audit-trail-management
+  similarity: 0.8
+- slug: logging
+  similarity: 0.8
+- slug: authentication
+  similarity: 0.8
+- slug: honeypots
+  similarity: 0.8
+- slug: digital-forensics
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

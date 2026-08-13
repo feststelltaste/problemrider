@@ -13,6 +13,19 @@ problems:
 - silent-data-corruption
 - log-spam
 layout: solution
+related_solutions:
+- slug: error-logging
+  similarity: 0.85
+- slug: monitoring
+  similarity: 0.8
+- slug: platform-independent-logging-frameworks
+  similarity: 0.8
+- slug: error-handling
+  similarity: 0.8
+- slug: error-logs
+  similarity: 0.8
+- slug: logging-and-monitoring
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

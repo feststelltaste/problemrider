@@ -13,6 +13,19 @@ problems:
 - rapid-system-changes
 - abi-compatibility-issues
 layout: solution
+related_solutions:
+- slug: backward-compatible-apis
+  similarity: 0.75
+- slug: api-deprecation-policy
+  similarity: 0.75
+- slug: versioning-scheme
+  similarity: 0.75
+- slug: backward-compatibility
+  similarity: 0.7
+- slug: version-control
+  similarity: 0.7
+- slug: content-negotiation
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

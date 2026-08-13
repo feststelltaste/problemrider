@@ -1,6 +1,7 @@
 ---
 title: On-Call Duty
-description: Ensuring employees are available to quickly respond to incidents and issues
+description: Ensuring employees are available to quickly respond to incidents and
+  issues
 category:
 - Process
 - Operations
@@ -16,6 +17,19 @@ problems:
 - mental-fatigue
 - lack-of-ownership-and-accountability
 layout: solution
+related_solutions:
+- slug: runbooks
+  similarity: 0.75
+- slug: incident-management
+  similarity: 0.75
+- slug: sustainable-pace-practices
+  similarity: 0.7
+- slug: clear-roles-and-ownership
+  similarity: 0.7
+- slug: security-incident-handling
+  similarity: 0.7
+- slug: cross-functional-skill-development
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

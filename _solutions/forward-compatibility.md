@@ -11,6 +11,19 @@ problems:
 - integration-difficulties
 - technology-lock-in
 layout: solution
+related_solutions:
+- slug: backward-compatibility
+  similarity: 0.85
+- slug: backward-compatible-apis
+  similarity: 0.8
+- slug: backward-compatible-data-formats
+  similarity: 0.8
+- slug: compatibility-requirements
+  similarity: 0.75
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.75
+- slug: compatibility-as-error
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

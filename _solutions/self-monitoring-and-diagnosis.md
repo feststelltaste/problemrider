@@ -12,6 +12,19 @@ problems:
 - constant-firefighting
 - system-outages
 layout: solution
+related_solutions:
+- slug: self-test
+  similarity: 0.8
+- slug: monitoring
+  similarity: 0.8
+- slug: status-monitoring
+  similarity: 0.75
+- slug: watchdog
+  similarity: 0.75
+- slug: logging
+  similarity: 0.75
+- slug: heartbeat
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

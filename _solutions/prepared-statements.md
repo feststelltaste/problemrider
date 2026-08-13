@@ -13,6 +13,19 @@ problems:
 - insufficient-testing
 - insecure-data-transmission
 layout: solution
+related_solutions:
+- slug: secure-programming-interfaces
+  similarity: 0.7
+- slug: secure-coding-guidelines
+  similarity: 0.7
+- slug: database-abstraction
+  similarity: 0.7
+- slug: object-relational-mapping-orm
+  similarity: 0.7
+- slug: web-application-firewall
+  similarity: 0.7
+- slug: secure-protocols
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

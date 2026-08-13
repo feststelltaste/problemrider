@@ -19,6 +19,19 @@ problems:
 - high-maintenance-costs
 - obsolete-technologies
 layout: solution
+related_solutions:
+- slug: feature-flags
+  similarity: 0.8
+- slug: event-driven-architecture
+  similarity: 0.8
+- slug: modularization-and-bounded-contexts
+  similarity: 0.75
+- slug: microservices
+  similarity: 0.75
+- slug: ci-cd-pipeline
+  similarity: 0.75
+- slug: architecture-roadmap
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

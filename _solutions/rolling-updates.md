@@ -11,6 +11,19 @@ problems:
 - deployment-coupling
 - release-instability
 layout: solution
+related_solutions:
+- slug: rollback-mechanisms
+  similarity: 0.75
+- slug: canary-releases
+  similarity: 0.75
+- slug: regular-maintenance-and-updates
+  similarity: 0.75
+- slug: restore-points
+  similarity: 0.7
+- slug: chaos-engineering
+  similarity: 0.7
+- slug: blue-green-canary-deployments
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

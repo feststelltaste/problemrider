@@ -13,6 +13,19 @@ problems:
 - data-migration-complexities
 - flaky-tests
 layout: solution
+related_solutions:
+- slug: production-like-test-data
+  similarity: 0.8
+- slug: simulation-environments
+  similarity: 0.7
+- slug: load-testing
+  similarity: 0.7
+- slug: property-based-testing
+  similarity: 0.7
+- slug: test-coverage-strategy
+  similarity: 0.7
+- slug: automated-tests
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

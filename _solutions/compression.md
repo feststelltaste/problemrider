@@ -12,6 +12,19 @@ problems:
 - unoptimized-file-access
 - serialization-deserialization-bottlenecks
 layout: solution
+related_solutions:
+- slug: image-and-asset-optimization
+  similarity: 0.75
+- slug: distributed-caching
+  similarity: 0.75
+- slug: data-archiving
+  similarity: 0.75
+- slug: data-deduplication
+  similarity: 0.75
+- slug: lazy-loading
+  similarity: 0.75
+- slug: connection-pooling
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Regular Stakeholder Demonstrations
-description: Show working software to the people who asked for it on a fixed cadence, so that misunderstandings surface in days rather than at delivery.
+description: Show working software to the people who asked for it on a fixed cadence,
+  so that misunderstandings surface in days rather than at delivery.
 category:
 - Communication
 - Business
@@ -41,6 +42,19 @@ problems:
 - unproductive-meetings
 - process-software-misfit
 layout: solution
+related_solutions:
+- slug: continuous-feedback
+  similarity: 0.8
+- slug: stakeholder-feedback-loops
+  similarity: 0.8
+- slug: on-site-customer
+  similarity: 0.65
+- slug: short-iteration-cycles
+  similarity: 0.65
+- slug: iterative-development
+  similarity: 0.65
+- slug: prototyping
+  similarity: 0.65
 ---
 
 ## Description

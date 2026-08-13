@@ -11,6 +11,19 @@ problems:
 - password-security-weaknesses
 - error-message-information-disclosure
 layout: solution
+related_solutions:
+- slug: authorization-concept
+  similarity: 0.85
+- slug: authentication
+  similarity: 0.8
+- slug: domain-based-authorization-concept
+  similarity: 0.8
+- slug: role-based-access-control
+  similarity: 0.8
+- slug: least-privilege
+  similarity: 0.75
+- slug: data-flow-control
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

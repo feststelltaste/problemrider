@@ -12,6 +12,19 @@ problems:
 - negative-user-feedback
 - quality-blind-spots
 layout: solution
+related_solutions:
+- slug: compatibility-testing
+  similarity: 0.85
+- slug: compatibility-certification
+  similarity: 0.85
+- slug: cross-version-testing
+  similarity: 0.8
+- slug: compatibility-measurement
+  similarity: 0.8
+- slug: compatibility-as-error
+  similarity: 0.75
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

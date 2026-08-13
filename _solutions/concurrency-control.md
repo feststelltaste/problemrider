@@ -19,6 +19,19 @@ problems:
 - memory-barrier-inefficiency
 - long-running-database-transactions
 layout: solution
+related_solutions:
+- slug: transactions
+  similarity: 0.8
+- slug: parallelization
+  similarity: 0.75
+- slug: resource-pooling
+  similarity: 0.75
+- slug: batch-processing
+  similarity: 0.75
+- slug: asynchronous-operations
+  similarity: 0.75
+- slug: resource-usage-optimization
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

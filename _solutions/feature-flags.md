@@ -20,6 +20,19 @@ problems:
 - fear-of-failure
 - past-negative-experiences
 layout: solution
+related_solutions:
+- slug: feature-toggles
+  similarity: 0.9
+- slug: strangler-fig-pattern
+  similarity: 0.8
+- slug: ci-cd-pipeline
+  similarity: 0.75
+- slug: blue-green-canary-deployments
+  similarity: 0.75
+- slug: small-change-batches
+  similarity: 0.75
+- slug: code-quality-gates
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Domain Immersion
-description: Send developers to observe the actual work the system supports, so that requirements are understood rather than transcribed.
+description: Send developers to observe the actual work the system supports, so that
+  requirements are understood rather than transcribed.
 category:
 - Requirements
 - Team
@@ -26,6 +27,19 @@ problems:
 - process-software-misfit
 - reimplemented-standard-functionality
 layout: solution
+related_solutions:
+- slug: on-site-customer
+  similarity: 0.65
+- slug: requirements-analysis
+  similarity: 0.65
+- slug: code-reading-sessions
+  similarity: 0.65
+- slug: evolutionary-requirements-development
+  similarity: 0.65
+- slug: pair-and-mob-programming
+  similarity: 0.6
+- slug: exploratory-testing
+  similarity: 0.6
 ---
 
 ## Description

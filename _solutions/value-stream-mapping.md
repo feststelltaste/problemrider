@@ -1,6 +1,8 @@
 ---
 title: Value Stream Mapping
-description: Map every step from request to production with its working time and waiting time, so that the waiting — which is nearly always the majority — becomes visible and addressable.
+description: "Map every step from request to production with its working time and\
+  \ waiting time, so that the waiting \u2014 which is nearly always the majority \u2014\
+  \ becomes visible and addressable."
 category:
 - Process
 - Management
@@ -44,6 +46,19 @@ problems:
 - uneven-workload-distribution
 - process-software-misfit
 layout: solution
+related_solutions:
+- slug: delivery-performance-metrics
+  similarity: 0.7
+- slug: work-in-progress-limits
+  similarity: 0.7
+- slug: impact-mapping
+  similarity: 0.65
+- slug: story-mapping
+  similarity: 0.65
+- slug: fast-feedback-loops
+  similarity: 0.65
+- slug: decision-rights-and-escalation
+  similarity: 0.65
 ---
 
 ## Description

@@ -15,6 +15,19 @@ problems:
 - interrupt-overhead
 - lock-contention
 layout: solution
+related_solutions:
+- slug: asynchronous-operations
+  similarity: 0.8
+- slug: event-driven-integration
+  similarity: 0.75
+- slug: asynchronous-logging
+  similarity: 0.75
+- slug: distributed-processing
+  similarity: 0.75
+- slug: parallelization
+  similarity: 0.75
+- slug: pipelining
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -12,6 +12,19 @@ problems:
 - cross-system-data-synchronization-problems
 - deployment-coupling
 layout: solution
+related_solutions:
+- slug: event-driven-architecture
+  similarity: 0.8
+- slug: business-event-processing
+  similarity: 0.8
+- slug: asynchronous-processing
+  similarity: 0.75
+- slug: protocol-abstraction
+  similarity: 0.75
+- slug: adapter
+  similarity: 0.7
+- slug: api-gateway
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

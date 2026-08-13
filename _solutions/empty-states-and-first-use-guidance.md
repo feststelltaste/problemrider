@@ -13,6 +13,19 @@ problems:
 - inadequate-onboarding
 - feature-gaps
 layout: solution
+related_solutions:
+- slug: integrated-onboarding
+  similarity: 0.75
+- slug: intuitive-navigation
+  similarity: 0.7
+- slug: visual-hierarchy
+  similarity: 0.7
+- slug: contextual-help
+  similarity: 0.7
+- slug: understandable-error-messages
+  similarity: 0.7
+- slug: plain-language
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

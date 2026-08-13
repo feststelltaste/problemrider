@@ -12,6 +12,19 @@ problems:
 - test-debt
 - quality-blind-spots
 layout: solution
+related_solutions:
+- slug: test-coverage-strategy
+  similarity: 0.8
+- slug: static-analysis-and-linting
+  similarity: 0.8
+- slug: code-metrics
+  similarity: 0.8
+- slug: regression-testing
+  similarity: 0.75
+- slug: code-quality-gates
+  similarity: 0.75
+- slug: quality-ratchet
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -17,6 +17,19 @@ problems:
 - entity-attribute-value-overuse
 - custom-report-sprawl
 layout: solution
+related_solutions:
+- slug: denormalization
+  similarity: 0.85
+- slug: query-optimization-process
+  similarity: 0.8
+- slug: distributed-caching
+  similarity: 0.8
+- slug: data-partitioning
+  similarity: 0.8
+- slug: data-replication
+  similarity: 0.8
+- slug: data-archiving
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

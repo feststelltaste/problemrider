@@ -10,6 +10,19 @@ problems:
 - slow-database-queries
 - high-database-resource-utilization
 layout: solution
+related_solutions:
+- slug: probabilistic-data-structures
+  similarity: 0.8
+- slug: sampling
+  similarity: 0.7
+- slug: lazy-evaluation
+  similarity: 0.7
+- slug: compression
+  similarity: 0.7
+- slug: parallelization
+  similarity: 0.7
+- slug: lazy-loading
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

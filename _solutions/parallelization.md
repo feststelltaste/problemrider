@@ -16,6 +16,19 @@ problems:
 - false-sharing
 - memory-barrier-inefficiency
 layout: solution
+related_solutions:
+- slug: distributed-processing
+  similarity: 0.85
+- slug: pipelining
+  similarity: 0.8
+- slug: reactive-programming
+  similarity: 0.8
+- slug: distributed-caching
+  similarity: 0.8
+- slug: lazy-loading
+  similarity: 0.75
+- slug: data-replication
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

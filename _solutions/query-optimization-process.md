@@ -28,6 +28,19 @@ problems:
 - lazy-loading
 - long-running-transactions
 layout: solution
+related_solutions:
+- slug: materialized-views
+  similarity: 0.8
+- slug: index-lifecycle-management
+  similarity: 0.8
+- slug: efficient-algorithms
+  similarity: 0.8
+- slug: resource-usage-optimization
+  similarity: 0.75
+- slug: caching-strategy
+  similarity: 0.75
+- slug: denormalization
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

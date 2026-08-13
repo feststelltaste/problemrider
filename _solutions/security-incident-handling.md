@@ -1,6 +1,7 @@
 ---
 title: Security Incident Handling
-description: Clearly regulate processes and responsibilities for dealing with security incidents
+description: Clearly regulate processes and responsibilities for dealing with security
+  incidents
 category:
 - Security
 - Process
@@ -13,6 +14,19 @@ problems:
 - cascade-failures
 - communication-breakdown
 layout: solution
+related_solutions:
+- slug: incident-response-measures
+  similarity: 0.9
+- slug: incident-management
+  similarity: 0.85
+- slug: security-monitoring
+  similarity: 0.8
+- slug: runbooks
+  similarity: 0.75
+- slug: security-certification
+  similarity: 0.75
+- slug: raising-user-awareness
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -15,6 +15,19 @@ problems:
 - immature-delivery-strategy
 - complex-deployment-process
 layout: solution
+related_solutions:
+- slug: continuous-integration
+  similarity: 0.9
+- slug: continuous-delivery
+  similarity: 0.85
+- slug: ci-cd-pipeline
+  similarity: 0.8
+- slug: automated-tests
+  similarity: 0.8
+- slug: trunk-based-development
+  similarity: 0.8
+- slug: canary-releases
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

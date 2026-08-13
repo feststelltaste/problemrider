@@ -13,6 +13,19 @@ problems:
 - maintenance-overhead
 - copy-paste-programming
 layout: solution
+related_solutions:
+- slug: separation-of-concerns
+  similarity: 0.75
+- slug: solid-principles
+  similarity: 0.7
+- slug: domain-patterns
+  similarity: 0.65
+- slug: modularization-and-bounded-contexts
+  similarity: 0.65
+- slug: incremental-refactoring
+  similarity: 0.65
+- slug: code-metrics
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

@@ -12,6 +12,19 @@ problems:
 - high-maintenance-costs
 - poor-system-environment
 layout: solution
+related_solutions:
+- slug: cloud-native-development
+  similarity: 0.75
+- slug: containerization
+  similarity: 0.75
+- slug: distributed-processing
+  similarity: 0.75
+- slug: microservices-architecture
+  similarity: 0.7
+- slug: elastic-resource-utilization
+  similarity: 0.7
+- slug: load-balancing
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

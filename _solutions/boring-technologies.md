@@ -18,6 +18,19 @@ problems:
 - premature-technology-introduction
 - technology-isolation
 layout: solution
+related_solutions:
+- slug: technology-radar
+  similarity: 0.8
+- slug: architecture-decision-records
+  similarity: 0.75
+- slug: technical-debt-backlog
+  similarity: 0.75
+- slug: strangler-fig-pattern
+  similarity: 0.75
+- slug: architecture-roadmap
+  similarity: 0.7
+- slug: ci-cd-pipeline
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -13,6 +13,19 @@ problems:
 - fear-of-change
 - insufficient-audit-logging
 layout: solution
+related_solutions:
+- slug: security-by-design
+  similarity: 0.75
+- slug: security-architecture-analysis
+  similarity: 0.75
+- slug: secure-protocols
+  similarity: 0.7
+- slug: threat-modeling
+  similarity: 0.7
+- slug: encryption
+  similarity: 0.7
+- slug: data-strategy
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -12,6 +12,19 @@ problems:
 - gradual-performance-degradation
 - dma-coherency-issues
 layout: solution
+related_solutions:
+- slug: parallelization
+  similarity: 0.75
+- slug: load-balancing
+  similarity: 0.75
+- slug: distributed-processing
+  similarity: 0.75
+- slug: object-relational-mapping-orm
+  similarity: 0.75
+- slug: abstraction-layers
+  similarity: 0.7
+- slug: distributed-caching
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -19,6 +19,19 @@ problems:
 - cache-invalidation-problems
 - synchronization-problems
 layout: solution
+related_solutions:
+- slug: event-driven-integration
+  similarity: 0.8
+- slug: strangler-fig-pattern
+  similarity: 0.8
+- slug: business-event-processing
+  similarity: 0.75
+- slug: architecture-decision-records
+  similarity: 0.75
+- slug: modularization-and-bounded-contexts
+  similarity: 0.75
+- slug: microservices
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

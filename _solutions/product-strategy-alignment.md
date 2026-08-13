@@ -1,8 +1,8 @@
 ---
 title: Product Strategy Alignment
-description: Connect development priorities to measurable business outcomes through explicit
-  product vision, outcome-based roadmaps, and regular validation that features deliver
-  intended value.
+description: Connect development priorities to measurable business outcomes through
+  explicit product vision, outcome-based roadmaps, and regular validation that features
+  deliver intended value.
 category:
 - Business
 - Management
@@ -20,6 +20,19 @@ problems:
 - increased-customer-support-load
 - excessive-customization
 layout: solution
+related_solutions:
+- slug: impact-mapping
+  similarity: 0.8
+- slug: architecture-roadmap
+  similarity: 0.7
+- slug: product-owner
+  similarity: 0.7
+- slug: feature-driven-development
+  similarity: 0.7
+- slug: iterative-development
+  similarity: 0.7
+- slug: continuous-feedback
+  similarity: 0.7
 ---
 
 ## Description

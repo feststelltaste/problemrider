@@ -1,6 +1,8 @@
 ---
 title: Technical Skills Development
-description: Invest systematically in team capabilities through targeted training, mentoring, code katas, and guided practice to close skill gaps that cause recurring design and implementation mistakes.
+description: Invest systematically in team capabilities through targeted training,
+  mentoring, code katas, and guided practice to close skill gaps that cause recurring
+  design and implementation mistakes.
 category:
 - Team
 - Code
@@ -22,6 +24,19 @@ problems:
 - skill-development-gaps
 - implementation-partner-dependency
 layout: solution
+related_solutions:
+- slug: cross-functional-skill-development
+  similarity: 0.85
+- slug: code-reviews
+  similarity: 0.75
+- slug: security-training
+  similarity: 0.7
+- slug: code-review-process-reform
+  similarity: 0.7
+- slug: architecture-reviews
+  similarity: 0.7
+- slug: pattern-language
+  similarity: 0.7
 ---
 
 ## Description

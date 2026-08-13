@@ -11,6 +11,19 @@ problems:
 - gradual-performance-degradation
 - scaling-inefficiencies
 layout: solution
+related_solutions:
+- slug: streaming
+  similarity: 0.9
+- slug: pipelining
+  similarity: 0.7
+- slug: distributed-processing
+  similarity: 0.7
+- slug: batch-processing
+  similarity: 0.7
+- slug: business-event-processing
+  similarity: 0.65
+- slug: in-memory-processing
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

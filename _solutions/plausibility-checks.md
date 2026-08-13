@@ -1,6 +1,7 @@
 ---
 title: Plausibility Checks
-description: Checking inputs, data, or states for validity to detect potential errors early
+description: Checking inputs, data, or states for validity to detect potential errors
+  early
 category:
 - Code
 - Architecture
@@ -14,6 +15,19 @@ problems:
 - integer-overflow-underflow
 - master-data-ownership-gaps
 layout: solution
+related_solutions:
+- slug: checksums
+  similarity: 0.7
+- slug: value-range-definition
+  similarity: 0.7
+- slug: data-integrity
+  similarity: 0.7
+- slug: data-quality-checks
+  similarity: 0.7
+- slug: redundant-checksums
+  similarity: 0.7
+- slug: continuous-data-verification
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

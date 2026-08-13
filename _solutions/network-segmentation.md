@@ -13,6 +13,19 @@ problems:
 - monitoring-gaps
 - poor-system-environment
 layout: solution
+related_solutions:
+- slug: defense-lines
+  similarity: 0.8
+- slug: honeypots
+  similarity: 0.75
+- slug: trust-boundaries
+  similarity: 0.75
+- slug: patch-management
+  similarity: 0.75
+- slug: incident-response-measures
+  similarity: 0.75
+- slug: least-privilege
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

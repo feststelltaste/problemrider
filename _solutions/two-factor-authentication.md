@@ -11,6 +11,19 @@ problems:
 - authorization-flaws
 - regulatory-compliance-drift
 layout: solution
+related_solutions:
+- slug: authentication
+  similarity: 0.8
+- slug: security-policies-for-users
+  similarity: 0.75
+- slug: cryptographic-methods
+  similarity: 0.75
+- slug: federated-identity
+  similarity: 0.75
+- slug: raising-user-awareness
+  similarity: 0.7
+- slug: secure-protocols
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -21,6 +21,19 @@ problems:
 - outdated-tests
 - upgrade-blocked-by-customization
 layout: solution
+related_solutions:
+- slug: test-coverage-strategy
+  similarity: 0.85
+- slug: automated-tests
+  similarity: 0.8
+- slug: functional-tests
+  similarity: 0.75
+- slug: characterization-tests
+  similarity: 0.75
+- slug: code-quality-gates
+  similarity: 0.75
+- slug: ci-cd-pipeline
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

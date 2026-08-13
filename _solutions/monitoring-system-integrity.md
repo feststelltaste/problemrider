@@ -1,6 +1,7 @@
 ---
 title: Monitoring System Integrity
-description: Continuous verification of the integrity of system components, configurations, and data
+description: Continuous verification of the integrity of system components, configurations,
+  and data
 category:
 - Operations
 - Security
@@ -12,6 +13,19 @@ problems:
 - regulatory-compliance-drift
 - unpredictable-system-behavior
 layout: solution
+related_solutions:
+- slug: security-monitoring
+  similarity: 0.85
+- slug: monitoring
+  similarity: 0.8
+- slug: vulnerability-scans
+  similarity: 0.8
+- slug: continuous-data-verification
+  similarity: 0.75
+- slug: data-integrity
+  similarity: 0.75
+- slug: chaos-engineering
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

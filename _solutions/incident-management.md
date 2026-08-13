@@ -13,6 +13,19 @@ problems:
 - knowledge-silos
 - high-defect-rate-in-production
 layout: solution
+related_solutions:
+- slug: security-incident-handling
+  similarity: 0.85
+- slug: runbooks
+  similarity: 0.85
+- slug: root-cause-analysis
+  similarity: 0.85
+- slug: incident-response-measures
+  similarity: 0.8
+- slug: chaos-engineering
+  similarity: 0.8
+- slug: secure-software
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

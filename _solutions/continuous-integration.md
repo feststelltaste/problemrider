@@ -16,6 +16,19 @@ problems:
 - large-pull-requests
 - reduced-code-submission-frequency
 layout: solution
+related_solutions:
+- slug: continuous-integration-and-delivery
+  similarity: 0.9
+- slug: integration-tests
+  similarity: 0.85
+- slug: trunk-based-development
+  similarity: 0.8
+- slug: compatibility-as-error
+  similarity: 0.75
+- slug: automated-tests
+  similarity: 0.75
+- slug: canary-releases
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

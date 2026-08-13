@@ -1,6 +1,7 @@
 ---
 title: Visual Hierarchy
-description: Highlight important elements on the user interface and create a clear visual structure
+description: Highlight important elements on the user interface and create a clear
+  visual structure
 category:
 - Requirements
 quality_tactics_url: https://qualitytactics.de/en/usability/visual-hierarchy/
@@ -13,6 +14,19 @@ problems:
 - negative-user-feedback
 - increased-error-rates
 layout: solution
+related_solutions:
+- slug: intuitive-navigation
+  similarity: 0.8
+- slug: cognitive-load-minimization
+  similarity: 0.8
+- slug: progressive-disclosure
+  similarity: 0.75
+- slug: style-guide
+  similarity: 0.75
+- slug: form-design
+  similarity: 0.75
+- slug: plain-language
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Continuous Dependency Updates
-description: Take dependency upgrades in small automated increments as they are released, so that they never accumulate into a migration nobody dares to start.
+description: Take dependency upgrades in small automated increments as they are released,
+  so that they never accumulate into a migration nobody dares to start.
 category:
 - Dependencies
 - Process
@@ -21,6 +22,19 @@ problems:
 - technology-stack-fragmentation
 - upgrade-blocked-by-customization
 layout: solution
+related_solutions:
+- slug: dependency-management-strategy
+  similarity: 0.85
+- slug: ci-cd-pipeline
+  similarity: 0.7
+- slug: automated-code-migration
+  similarity: 0.7
+- slug: development-workflow-automation
+  similarity: 0.7
+- slug: continuous-deployment
+  similarity: 0.7
+- slug: regular-maintenance-and-updates
+  similarity: 0.7
 ---
 
 ## Description

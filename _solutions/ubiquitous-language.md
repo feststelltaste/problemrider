@@ -19,6 +19,19 @@ problems:
 - custom-report-sprawl
 - master-data-ownership-gaps
 layout: solution
+related_solutions:
+- slug: consistent-terminology
+  similarity: 0.85
+- slug: plain-language
+  similarity: 0.75
+- slug: domain-modeling
+  similarity: 0.75
+- slug: domain-patterns
+  similarity: 0.75
+- slug: domain-specific-languages
+  similarity: 0.7
+- slug: pattern-language
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

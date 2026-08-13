@@ -1,7 +1,7 @@
 ---
 title: Stakeholder Feedback Loops
-description: Structured mechanisms for regular stakeholder involvement throughout the
-  development lifecycle to maintain alignment and trust.
+description: Structured mechanisms for regular stakeholder involvement throughout
+  the development lifecycle to maintain alignment and trust.
 category:
 - Communication
 - Process
@@ -24,6 +24,19 @@ problems:
 - negative-brand-perception
 - vendor-relationship-strain
 layout: solution
+related_solutions:
+- slug: continuous-feedback
+  similarity: 0.9
+- slug: regular-stakeholder-demonstrations
+  similarity: 0.8
+- slug: iterative-development
+  similarity: 0.75
+- slug: structured-communication-protocols
+  similarity: 0.75
+- slug: feedback-mechanisms
+  similarity: 0.75
+- slug: short-iteration-cycles
+  similarity: 0.75
 ---
 
 ## Description

@@ -12,6 +12,19 @@ problems:
 - monitoring-gaps
 - index-fragmentation
 layout: solution
+related_solutions:
+- slug: regular-maintenance-and-updates
+  similarity: 0.85
+- slug: secure-software
+  similarity: 0.8
+- slug: regular-backups
+  similarity: 0.75
+- slug: incident-management
+  similarity: 0.75
+- slug: restore-points
+  similarity: 0.75
+- slug: chaos-engineering
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

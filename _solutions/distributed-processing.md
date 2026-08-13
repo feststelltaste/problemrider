@@ -11,6 +11,19 @@ problems:
 - capacity-mismatch
 - monolithic-architecture-constraints
 layout: solution
+related_solutions:
+- slug: parallelization
+  similarity: 0.85
+- slug: pipelining
+  similarity: 0.8
+- slug: data-replication
+  similarity: 0.8
+- slug: load-balancing
+  similarity: 0.8
+- slug: distributed-caching
+  similarity: 0.8
+- slug: data-partitioning
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

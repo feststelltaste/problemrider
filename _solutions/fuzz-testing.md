@@ -14,6 +14,19 @@ problems:
 - legacy-code-without-tests
 - stack-overflow-errors
 layout: solution
+related_solutions:
+- slug: negative-testing
+  similarity: 0.8
+- slug: dynamic-code-analysis
+  similarity: 0.8
+- slug: penetration-tests
+  similarity: 0.8
+- slug: test-coverage-strategy
+  similarity: 0.75
+- slug: exploratory-testing
+  similarity: 0.7
+- slug: input-validation
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

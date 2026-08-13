@@ -1,6 +1,8 @@
 ---
 title: Cross-Functional Skill Development
-description: Systematically broaden the skill sets of team members across technologies, system components, and roles to reduce single points of failure and increase team resilience.
+description: Systematically broaden the skill sets of team members across technologies,
+  system components, and roles to reduce single points of failure and increase team
+  resilience.
 category:
 - Team
 - Process
@@ -20,6 +22,19 @@ problems:
 - technology-isolation
 - skill-development-gaps
 layout: solution
+related_solutions:
+- slug: technical-skills-development
+  similarity: 0.85
+- slug: sustainable-pace-practices
+  similarity: 0.75
+- slug: team-autonomy-and-empowerment
+  similarity: 0.7
+- slug: knowledge-rotation
+  similarity: 0.7
+- slug: structured-onboarding-program
+  similarity: 0.7
+- slug: runbooks
+  similarity: 0.7
 ---
 
 ## Description

@@ -1,6 +1,7 @@
 ---
 title: Immutable Infrastructure
-description: Not modifying infrastructure components, but replacing them with new versions
+description: Not modifying infrastructure components, but replacing them with new
+  versions
 category:
 - Operations
 problems:
@@ -17,6 +18,19 @@ problems:
 - testing-environment-fragility
 - customization-outside-version-control
 layout: solution
+related_solutions:
+- slug: infrastructure-as-code
+  similarity: 0.8
+- slug: containerization
+  similarity: 0.75
+- slug: restore-points
+  similarity: 0.75
+- slug: rollback-mechanisms
+  similarity: 0.7
+- slug: ci-cd-pipeline
+  similarity: 0.7
+- slug: virtual-networks
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

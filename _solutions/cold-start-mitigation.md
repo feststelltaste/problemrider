@@ -1,6 +1,7 @@
 ---
 title: Cold Start Mitigation
-description: Reducing initialization latency in serverless, container, and JVM applications proactively
+description: Reducing initialization latency in serverless, container, and JVM applications
+  proactively
 category:
 - Performance
 - Operations
@@ -11,6 +12,19 @@ problems:
 - gradual-performance-degradation
 - service-timeouts
 layout: solution
+related_solutions:
+- slug: lazy-loading
+  similarity: 0.75
+- slug: lazy-evaluation
+  similarity: 0.75
+- slug: connection-pooling
+  similarity: 0.75
+- slug: distributed-caching
+  similarity: 0.7
+- slug: serverless-computing
+  similarity: 0.7
+- slug: rate-limiting
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

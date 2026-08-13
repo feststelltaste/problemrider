@@ -40,6 +40,19 @@ problems:
 - unclear-sharing-expectations
 - implementation-partner-dependency
 layout: solution
+related_solutions:
+- slug: living-documentation
+  similarity: 0.85
+- slug: architecture-documentation
+  similarity: 0.85
+- slug: architecture-decision-records
+  similarity: 0.8
+- slug: api-documentation
+  similarity: 0.8
+- slug: ci-cd-pipeline
+  similarity: 0.8
+- slug: knowledge-sharing-practices
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

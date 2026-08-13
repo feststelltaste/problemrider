@@ -15,6 +15,19 @@ problems:
 - implicit-knowledge
 - communication-risk-outside-project
 layout: solution
+related_solutions:
+- slug: api-first-design
+  similarity: 0.8
+- slug: documentation-as-code
+  similarity: 0.8
+- slug: architecture-documentation
+  similarity: 0.8
+- slug: api-first-development
+  similarity: 0.8
+- slug: contract-testing
+  similarity: 0.75
+- slug: living-documentation
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -15,6 +15,19 @@ problems:
 - increased-manual-testing-effort
 - reduced-feature-quality
 layout: solution
+related_solutions:
+- slug: automated-tests
+  similarity: 0.8
+- slug: functional-tests
+  similarity: 0.75
+- slug: test-coverage-strategy
+  similarity: 0.75
+- slug: behavior-driven-development-bdd
+  similarity: 0.75
+- slug: user-acceptance-tests
+  similarity: 0.75
+- slug: specification-by-example
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

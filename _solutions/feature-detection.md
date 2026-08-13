@@ -13,6 +13,19 @@ problems:
 - hidden-dependencies
 - dependency-version-conflicts
 layout: solution
+related_solutions:
+- slug: cross-version-testing
+  similarity: 0.7
+- slug: compatibility-testing
+  similarity: 0.7
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.7
+- slug: feature-toggles
+  similarity: 0.7
+- slug: forward-compatibility
+  similarity: 0.7
+- slug: compatibility-as-error
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

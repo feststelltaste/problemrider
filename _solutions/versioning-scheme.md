@@ -12,6 +12,19 @@ problems:
 - integration-difficulties
 - change-management-chaos
 layout: solution
+related_solutions:
+- slug: semantic-versioning
+  similarity: 0.85
+- slug: version-control
+  similarity: 0.75
+- slug: api-versioning-strategy
+  similarity: 0.75
+- slug: compatibility-standards
+  similarity: 0.7
+- slug: schema-registry
+  similarity: 0.7
+- slug: compatibility-governance
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

@@ -13,6 +13,19 @@ problems:
 - poor-system-environment
 - abi-compatibility-issues
 layout: solution
+related_solutions:
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.8
+- slug: compatibility-testing
+  similarity: 0.75
+- slug: compatibility-requirements
+  similarity: 0.75
+- slug: cross-version-testing
+  similarity: 0.75
+- slug: compatibility-governance
+  similarity: 0.7
+- slug: requirements-traceability-matrix
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

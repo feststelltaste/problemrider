@@ -1,6 +1,7 @@
 ---
 title: Debt Accrual Analysis
-description: Find out why debt keeps appearing in the same places, and fix the mechanism — because paying down debt while the accrual continues is a treadmill.
+description: "Find out why debt keeps appearing in the same places, and fix the mechanism\
+  \ \u2014 because paying down debt while the accrual continues is a treadmill."
 category:
 - Process
 - Code
@@ -22,6 +23,19 @@ problems:
 - short-term-focus
 - code-duplication
 layout: solution
+related_solutions:
+- slug: technical-debt-backlog
+  similarity: 0.8
+- slug: debt-classification
+  similarity: 0.8
+- slug: technical-debt-assessment
+  similarity: 0.8
+- slug: debt-remediation-estimation
+  similarity: 0.75
+- slug: code-hotspot-analysis
+  similarity: 0.7
+- slug: blameless-postmortems
+  similarity: 0.7
 ---
 
 ## Description

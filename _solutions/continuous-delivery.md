@@ -17,6 +17,19 @@ problems:
 - increased-time-to-market
 - uneven-work-flow
 layout: solution
+related_solutions:
+- slug: continuous-integration-and-delivery
+  similarity: 0.85
+- slug: ci-cd-pipeline
+  similarity: 0.85
+- slug: continuous-deployment
+  similarity: 0.8
+- slug: feature-driven-development
+  similarity: 0.75
+- slug: rollback-mechanisms
+  similarity: 0.75
+- slug: trunk-based-development
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

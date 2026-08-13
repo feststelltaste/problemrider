@@ -21,6 +21,19 @@ problems:
 - resource-allocation-failures
 - resource-waste
 layout: solution
+related_solutions:
+- slug: resource-pooling
+  similarity: 0.85
+- slug: capacity-planning
+  similarity: 0.8
+- slug: query-optimization-process
+  similarity: 0.75
+- slug: efficient-algorithms
+  similarity: 0.75
+- slug: caching-strategy
+  similarity: 0.75
+- slug: profiling
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

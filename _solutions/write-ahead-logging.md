@@ -14,6 +14,19 @@ problems:
 - long-running-database-transactions
 - inconsistent-behavior
 layout: solution
+related_solutions:
+- slug: transactions
+  similarity: 0.75
+- slug: backup-and-recovery
+  similarity: 0.7
+- slug: logging
+  similarity: 0.7
+- slug: regular-backups
+  similarity: 0.7
+- slug: audit-trail-management
+  similarity: 0.7
+- slug: timestamping
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

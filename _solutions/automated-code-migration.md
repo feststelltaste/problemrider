@@ -1,6 +1,8 @@
 ---
 title: Automated Code Migration
-description: Express a repetitive code change as an executable recipe that rewrites the syntax tree, so a migration across thousands of call sites becomes reviewable and repeatable.
+description: Express a repetitive code change as an executable recipe that rewrites
+  the syntax tree, so a migration across thousands of call sites becomes reviewable
+  and repeatable.
 category:
 - Code
 - Dependencies
@@ -29,6 +31,19 @@ problems:
 - technology-stack-fragmentation
 - undefined-code-style-guidelines
 layout: solution
+related_solutions:
+- slug: large-scale-refactoring
+  similarity: 0.75
+- slug: continuous-dependency-updates
+  similarity: 0.7
+- slug: code-review-process-reform
+  similarity: 0.7
+- slug: code-generation
+  similarity: 0.7
+- slug: static-analysis-and-linting
+  similarity: 0.7
+- slug: small-change-batches
+  similarity: 0.7
 ---
 
 ## Description

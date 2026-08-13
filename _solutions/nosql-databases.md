@@ -13,6 +13,19 @@ problems:
 - high-database-resource-utilization
 - data-migration-complexities
 layout: solution
+related_solutions:
+- slug: graph-databases
+  similarity: 0.85
+- slug: denormalization
+  similarity: 0.75
+- slug: data-replication
+  similarity: 0.75
+- slug: database-abstraction
+  similarity: 0.75
+- slug: materialized-views
+  similarity: 0.75
+- slug: containerized-databases
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Explicit Prioritization Framework
-description: Establish a single ranked list with stated criteria and one accountable owner, so priority is decided once rather than renegotiated continuously.
+description: Establish a single ranked list with stated criteria and one accountable
+  owner, so priority is decided once rather than renegotiated continuously.
 category:
 - Management
 - Process
@@ -47,6 +48,19 @@ problems:
 - unclear-goals-and-priorities
 - excessive-customization
 layout: solution
+related_solutions:
+- slug: product-owner
+  similarity: 0.7
+- slug: technical-debt-backlog
+  similarity: 0.7
+- slug: cost-of-delay
+  similarity: 0.7
+- slug: decision-rights-and-escalation
+  similarity: 0.7
+- slug: clear-roles-and-ownership
+  similarity: 0.65
+- slug: sustainable-pace-practices
+  similarity: 0.65
 ---
 
 ## Description

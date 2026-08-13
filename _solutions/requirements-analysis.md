@@ -22,6 +22,19 @@ problems:
 - no-continuous-feedback-loop
 - frequent-changes-to-requirements
 layout: solution
+related_solutions:
+- slug: evolutionary-requirements-development
+  similarity: 0.85
+- slug: user-stories
+  similarity: 0.8
+- slug: risk-analysis
+  similarity: 0.8
+- slug: requirements-traceability-matrix
+  similarity: 0.75
+- slug: functional-gap-analysis
+  similarity: 0.75
+- slug: on-site-customer
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

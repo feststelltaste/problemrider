@@ -1,7 +1,7 @@
 ---
 title: Development Workflow Automation
-description: Automate repetitive development tasks, environment setup, and manual processes
-  to free developers for high-value work and reduce error-prone manual steps.
+description: Automate repetitive development tasks, environment setup, and manual
+  processes to free developers for high-value work and reduce error-prone manual steps.
 category:
 - Process
 - Code
@@ -20,6 +20,19 @@ problems:
 - wasted-development-effort
 - automated-tooling-ineffectiveness
 layout: solution
+related_solutions:
+- slug: development-environment-optimization
+  similarity: 0.85
+- slug: ci-cd-pipeline
+  similarity: 0.8
+- slug: continuous-deployment
+  similarity: 0.75
+- slug: regression-testing
+  similarity: 0.75
+- slug: test-coverage-strategy
+  similarity: 0.7
+- slug: static-analysis-and-linting
+  similarity: 0.7
 ---
 
 ## Description

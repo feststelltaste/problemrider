@@ -13,6 +13,19 @@ problems:
 - service-timeouts
 - constant-firefighting
 layout: solution
+related_solutions:
+- slug: failover-cluster
+  similarity: 0.85
+- slug: retry
+  similarity: 0.8
+- slug: redundancy
+  similarity: 0.8
+- slug: resilience
+  similarity: 0.8
+- slug: chaos-engineering
+  similarity: 0.75
+- slug: rollback-mechanisms
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

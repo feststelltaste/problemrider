@@ -12,6 +12,19 @@ problems:
 - imperative-data-fetching-logic
 - cascade-failures
 layout: solution
+related_solutions:
+- slug: parallelization
+  similarity: 0.8
+- slug: connection-pooling
+  similarity: 0.75
+- slug: distributed-caching
+  similarity: 0.75
+- slug: retry
+  similarity: 0.75
+- slug: lazy-loading
+  similarity: 0.75
+- slug: distributed-processing
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

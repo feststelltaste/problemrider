@@ -14,6 +14,19 @@ problems:
 - inadequate-integration-tests
 - testing-complexity
 layout: solution
+related_solutions:
+- slug: virtual-development-environments
+  similarity: 0.75
+- slug: emulation
+  similarity: 0.7
+- slug: mass-test-data-generation
+  similarity: 0.7
+- slug: environment-parity
+  similarity: 0.7
+- slug: isolated-test-environments
+  similarity: 0.7
+- slug: automated-migration-tools
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

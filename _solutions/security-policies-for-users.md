@@ -12,6 +12,19 @@ problems:
 - session-management-issues
 - knowledge-gaps
 layout: solution
+related_solutions:
+- slug: raising-user-awareness
+  similarity: 0.8
+- slug: security-policies-for-development
+  similarity: 0.8
+- slug: two-factor-authentication
+  similarity: 0.75
+- slug: secure-protocols
+  similarity: 0.75
+- slug: security-monitoring
+  similarity: 0.75
+- slug: secure-by-default
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

@@ -14,6 +14,19 @@ problems:
 - poorly-defined-responsibilities
 - missing-rollback-strategy
 layout: solution
+related_solutions:
+- slug: incident-response-measures
+  similarity: 0.8
+- slug: backup-and-recovery
+  similarity: 0.75
+- slug: security-incident-handling
+  similarity: 0.75
+- slug: runbooks
+  similarity: 0.7
+- slug: incident-management
+  similarity: 0.7
+- slug: security-training
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

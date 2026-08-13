@@ -14,6 +14,19 @@ problems:
 - procedural-background
 - procedural-programming-in-oop-languages
 layout: solution
+related_solutions:
+- slug: incremental-refactoring
+  similarity: 0.8
+- slug: code-review-process-reform
+  similarity: 0.7
+- slug: code-reviews
+  similarity: 0.7
+- slug: code-metrics
+  similarity: 0.7
+- slug: preparatory-refactoring
+  similarity: 0.7
+- slug: domain-patterns
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

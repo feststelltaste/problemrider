@@ -1,6 +1,7 @@
 ---
 title: Preparatory Refactoring
-description: Before making a change, restructure the code so that the change becomes easy — then make the easy change, as two separate steps.
+description: "Before making a change, restructure the code so that the change becomes\
+  \ easy \u2014 then make the easy change, as two separate steps."
 category:
 - Code
 - Process
@@ -29,6 +30,19 @@ problems:
 - procrastination-on-complex-tasks
 - tangled-cross-cutting-concerns
 layout: solution
+related_solutions:
+- slug: incremental-refactoring
+  similarity: 0.8
+- slug: small-change-batches
+  similarity: 0.75
+- slug: mikado-method
+  similarity: 0.75
+- slug: large-scale-refactoring
+  similarity: 0.7
+- slug: code-review-process-reform
+  similarity: 0.7
+- slug: refactoring-katas
+  similarity: 0.7
 ---
 
 ## Description

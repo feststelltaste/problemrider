@@ -1,6 +1,7 @@
 ---
 title: Feature Usage Measurement
-description: Instrument the system to record which features are actually used and by whom, so that maintenance effort and deletion decisions rest on evidence.
+description: Instrument the system to record which features are actually used and
+  by whom, so that maintenance effort and deletion decisions rest on evidence.
 category:
 - Business
 - Process
@@ -33,6 +34,19 @@ problems:
 - custom-report-sprawl
 - reimplemented-standard-functionality
 layout: solution
+related_solutions:
+- slug: deprecation-strategy
+  similarity: 0.7
+- slug: total-cost-of-ownership-transparency
+  similarity: 0.7
+- slug: system-decommissioning
+  similarity: 0.7
+- slug: code-metrics
+  similarity: 0.7
+- slug: feature-flags
+  similarity: 0.7
+- slug: technical-debt-backlog
+  similarity: 0.65
 ---
 
 ## Description

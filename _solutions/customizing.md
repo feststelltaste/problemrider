@@ -12,6 +12,19 @@ problems:
 - negative-user-feedback
 - vendor-lock-in
 layout: solution
+related_solutions:
+- slug: adaptive-behavior
+  similarity: 0.75
+- slug: consistent-user-interface
+  similarity: 0.75
+- slug: customizable-user-interface
+  similarity: 0.7
+- slug: standard-software
+  similarity: 0.7
+- slug: a-b-testing
+  similarity: 0.7
+- slug: explicit-extension-points
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

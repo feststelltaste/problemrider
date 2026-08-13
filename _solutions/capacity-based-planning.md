@@ -1,6 +1,7 @@
 ---
 title: Capacity Based Planning
-description: Derive commitments from measured historical throughput rather than from desired dates, and express them as ranges with stated confidence.
+description: Derive commitments from measured historical throughput rather than from
+  desired dates, and express them as ranges with stated confidence.
 category:
 - Management
 - Process
@@ -41,6 +42,19 @@ problems:
 - poor-project-control
 - stakeholder-frustration
 layout: solution
+related_solutions:
+- slug: capacity-planning
+  similarity: 0.75
+- slug: short-iteration-cycles
+  similarity: 0.7
+- slug: work-in-progress-limits
+  similarity: 0.7
+- slug: iterative-development
+  similarity: 0.7
+- slug: delivery-performance-metrics
+  similarity: 0.7
+- slug: sustainable-pace-practices
+  similarity: 0.65
 ---
 
 ## Description

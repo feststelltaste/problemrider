@@ -12,6 +12,19 @@ problems:
 - scaling-inefficiencies
 - work-queue-buildup
 layout: solution
+related_solutions:
+- slug: parallelization
+  similarity: 0.8
+- slug: distributed-processing
+  similarity: 0.8
+- slug: batch-processing
+  similarity: 0.8
+- slug: streaming
+  similarity: 0.75
+- slug: asynchronous-processing
+  similarity: 0.7
+- slug: reactive-programming
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

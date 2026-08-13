@@ -14,6 +14,19 @@ problems:
 - inadequate-error-handling
 - customer-dissatisfaction
 layout: solution
+related_solutions:
+- slug: form-design
+  similarity: 0.75
+- slug: input-validation
+  similarity: 0.7
+- slug: input-constraints-and-defaults
+  similarity: 0.7
+- slug: feedback
+  similarity: 0.7
+- slug: understandable-error-messages
+  similarity: 0.7
+- slug: auto-save
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

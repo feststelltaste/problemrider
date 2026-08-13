@@ -1,6 +1,7 @@
 ---
 title: Timeout Management
-description: Defining and enforcing timeouts on all external calls against indefinite blocking
+description: Defining and enforcing timeouts on all external calls against indefinite
+  blocking
 category:
 - Architecture
 - Performance
@@ -16,6 +17,19 @@ problems:
 - resource-contention
 - system-outages
 layout: solution
+related_solutions:
+- slug: transactions
+  similarity: 0.75
+- slug: backpressure
+  similarity: 0.7
+- slug: concurrency-control
+  similarity: 0.7
+- slug: resource-pooling
+  similarity: 0.7
+- slug: status-monitoring
+  similarity: 0.7
+- slug: resource-usage-optimization
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

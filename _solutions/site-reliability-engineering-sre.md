@@ -16,6 +16,19 @@ problems:
 - cascade-failures
 - developer-frustration-and-burnout
 layout: solution
+related_solutions:
+- slug: chaos-engineering
+  similarity: 0.8
+- slug: incident-management
+  similarity: 0.8
+- slug: service-level-objectives
+  similarity: 0.8
+- slug: error-budgets
+  similarity: 0.8
+- slug: secure-software
+  similarity: 0.75
+- slug: runbooks
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

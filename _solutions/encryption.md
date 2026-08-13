@@ -12,6 +12,19 @@ problems:
 - error-message-information-disclosure
 - session-management-issues
 layout: solution
+related_solutions:
+- slug: cryptographic-methods
+  similarity: 0.85
+- slug: authentication
+  similarity: 0.8
+- slug: key-management
+  similarity: 0.8
+- slug: secret-management
+  similarity: 0.8
+- slug: backup-and-recovery
+  similarity: 0.8
+- slug: secure-protocols
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

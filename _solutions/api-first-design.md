@@ -15,6 +15,19 @@ problems:
 - service-discovery-failures
 - shared-database
 layout: solution
+related_solutions:
+- slug: api-first-development
+  similarity: 0.9
+- slug: api-documentation
+  similarity: 0.8
+- slug: contract-testing
+  similarity: 0.8
+- slug: api-security
+  similarity: 0.75
+- slug: strangler-fig-pattern
+  similarity: 0.75
+- slug: user-centered-design
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

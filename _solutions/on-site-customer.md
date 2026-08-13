@@ -14,6 +14,19 @@ problems:
 - no-continuous-feedback-loop
 - implementation-rework
 layout: solution
+related_solutions:
+- slug: user-stories
+  similarity: 0.75
+- slug: evolutionary-requirements-development
+  similarity: 0.75
+- slug: prototypes
+  similarity: 0.75
+- slug: personas
+  similarity: 0.75
+- slug: requirements-analysis
+  similarity: 0.75
+- slug: prototyping
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

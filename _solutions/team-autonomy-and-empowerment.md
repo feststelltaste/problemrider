@@ -1,6 +1,8 @@
 ---
 title: Team Autonomy and Empowerment
-description: Delegate decision-making authority to teams and individuals, replacing centralized approval bottlenecks with trust, clear boundaries, and accountability for outcomes.
+description: Delegate decision-making authority to teams and individuals, replacing
+  centralized approval bottlenecks with trust, clear boundaries, and accountability
+  for outcomes.
 category:
 - Management
 - Culture
@@ -26,6 +28,19 @@ problems:
 - team-dysfunction
 - decision-avoidance
 layout: solution
+related_solutions:
+- slug: psychological-safety-practices
+  similarity: 0.8
+- slug: clear-roles-and-ownership
+  similarity: 0.8
+- slug: clear-ownership-model
+  similarity: 0.75
+- slug: decision-rights-and-escalation
+  similarity: 0.75
+- slug: sustainable-pace-practices
+  similarity: 0.75
+- slug: product-owner
+  similarity: 0.75
 ---
 
 ## Description

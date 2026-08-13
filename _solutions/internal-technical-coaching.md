@@ -1,6 +1,7 @@
 ---
 title: Internal Technical Coaching
-description: Give someone explicit, protected time to raise the technical practice of the team by working alongside people rather than by teaching at them.
+description: Give someone explicit, protected time to raise the technical practice
+  of the team by working alongside people rather than by teaching at them.
 category:
 - Team
 - Process
@@ -35,6 +36,19 @@ problems:
 - implementation-partner-dependency
 - low-code-customization-sprawl
 layout: solution
+related_solutions:
+- slug: pair-and-mob-programming
+  similarity: 0.75
+- slug: technical-skills-development
+  similarity: 0.7
+- slug: code-reading-sessions
+  similarity: 0.7
+- slug: communities-of-practice
+  similarity: 0.7
+- slug: structured-onboarding-program
+  similarity: 0.65
+- slug: code-review-process-reform
+  similarity: 0.65
 ---
 
 ## Description

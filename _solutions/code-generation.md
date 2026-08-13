@@ -13,6 +13,19 @@ problems:
 - increased-cost-of-development
 - increased-risk-of-bugs
 layout: solution
+related_solutions:
+- slug: automated-code-migration
+  similarity: 0.7
+- slug: static-analysis-and-linting
+  similarity: 0.7
+- slug: code-metrics
+  similarity: 0.7
+- slug: development-workflow-automation
+  similarity: 0.7
+- slug: ci-cd-pipeline
+  similarity: 0.65
+- slug: code-review-process-reform
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

@@ -1,6 +1,7 @@
 ---
 title: Design Tokens and Theming
-description: Encode visual design decisions platform-agnostically for theming and consistency
+description: Encode visual design decisions platform-agnostically for theming and
+  consistency
 category:
 - Architecture
 - Code
@@ -14,6 +15,19 @@ problems:
 - technology-stack-fragmentation
 - difficult-code-reuse
 layout: solution
+related_solutions:
+- slug: style-guide
+  similarity: 0.75
+- slug: consistent-user-interface
+  similarity: 0.7
+- slug: consistent-terminology
+  similarity: 0.65
+- slug: visual-hierarchy
+  similarity: 0.65
+- slug: pattern-language
+  similarity: 0.65
+- slug: user-centered-design
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

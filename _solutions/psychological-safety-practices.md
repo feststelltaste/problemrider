@@ -1,6 +1,7 @@
 ---
 title: Psychological Safety Practices
-description: Create an environment where team members feel safe to speak up, disagree, admit mistakes, and raise concerns without fear of punishment or humiliation.
+description: Create an environment where team members feel safe to speak up, disagree,
+  admit mistakes, and raise concerns without fear of punishment or humiliation.
 category:
 - Culture
 - Team
@@ -43,6 +44,19 @@ problems:
 - resistance-to-change
 - review-process-breakdown
 layout: solution
+related_solutions:
+- slug: team-autonomy-and-empowerment
+  similarity: 0.8
+- slug: blameless-postmortems
+  similarity: 0.8
+- slug: team-retrospectives
+  similarity: 0.75
+- slug: code-review-process-reform
+  similarity: 0.75
+- slug: structured-communication-protocols
+  similarity: 0.7
+- slug: sustainable-pace-practices
+  similarity: 0.7
 ---
 
 ## Description

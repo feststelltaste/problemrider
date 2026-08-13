@@ -13,6 +13,19 @@ problems:
 - negative-user-feedback
 - customer-dissatisfaction
 layout: solution
+related_solutions:
+- slug: confirmation-dialogs
+  similarity: 0.75
+- slug: auto-save
+  similarity: 0.75
+- slug: intuitive-navigation
+  similarity: 0.75
+- slug: search-function
+  similarity: 0.7
+- slug: understandable-error-messages
+  similarity: 0.7
+- slug: plain-language
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

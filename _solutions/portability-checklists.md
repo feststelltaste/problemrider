@@ -11,6 +11,19 @@ problems:
 - inconsistent-quality
 - poor-documentation
 layout: solution
+related_solutions:
+- slug: checklists
+  similarity: 0.75
+- slug: platform-independence
+  similarity: 0.75
+- slug: documentation-of-compatibility-requirements
+  similarity: 0.75
+- slug: compatibility-testing
+  similarity: 0.75
+- slug: abstraction-layers
+  similarity: 0.7
+- slug: cross-platform-build-tools
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

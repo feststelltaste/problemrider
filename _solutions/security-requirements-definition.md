@@ -13,6 +13,19 @@ problems:
 - frequent-changes-to-requirements
 - poor-contract-design
 layout: solution
+related_solutions:
+- slug: secure-software-development
+  similarity: 0.75
+- slug: security-certification
+  similarity: 0.75
+- slug: security-metrics
+  similarity: 0.75
+- slug: threat-modeling
+  similarity: 0.75
+- slug: security-relevant-metrics
+  similarity: 0.75
+- slug: security-architecture-analysis
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

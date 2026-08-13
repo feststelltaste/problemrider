@@ -13,6 +13,19 @@ problems:
 - cascade-failures
 - error-message-information-disclosure
 layout: solution
+related_solutions:
+- slug: encryption
+  similarity: 0.75
+- slug: authorization
+  similarity: 0.75
+- slug: logging-and-monitoring
+  similarity: 0.75
+- slug: input-validation
+  similarity: 0.7
+- slug: api-security
+  similarity: 0.7
+- slug: authentication
+  similarity: 0.7
 ---
 
 ## How to Apply ◆

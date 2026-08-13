@@ -1,6 +1,7 @@
 ---
 title: Resilience
-description: Ability of a system to remain operational under adverse conditions or faults
+description: Ability of a system to remain operational under adverse conditions or
+  faults
 category:
 - Architecture
 problems:
@@ -12,6 +13,19 @@ problems:
 - fear-of-change
 - constant-firefighting
 layout: solution
+related_solutions:
+- slug: chaos-engineering
+  similarity: 0.85
+- slug: failover-mechanisms
+  similarity: 0.8
+- slug: retry
+  similarity: 0.8
+- slug: redundancy
+  similarity: 0.8
+- slug: secure-software
+  similarity: 0.75
+- slug: incident-management
+  similarity: 0.75
 ---
 
 ## How to Apply ◆

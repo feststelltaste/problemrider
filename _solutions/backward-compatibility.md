@@ -1,6 +1,7 @@
 ---
 title: Backward Compatibility
-description: Guaranteeing that new versions continue to work with existing clients, data, and integrations
+description: Guaranteeing that new versions continue to work with existing clients,
+  data, and integrations
 category:
 - Architecture
 - Dependencies
@@ -15,6 +16,19 @@ problems:
 - abi-compatibility-issues
 - rapid-system-changes
 layout: solution
+related_solutions:
+- slug: backward-compatible-apis
+  similarity: 0.9
+- slug: backward-compatible-data-formats
+  similarity: 0.85
+- slug: forward-compatibility
+  similarity: 0.85
+- slug: compatibility-as-error
+  similarity: 0.8
+- slug: compatibility-measurement
+  similarity: 0.8
+- slug: compatibility-testing
+  similarity: 0.8
 ---
 
 ## How to Apply ◆

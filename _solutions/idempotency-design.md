@@ -13,6 +13,19 @@ problems:
 - race-conditions
 - deadlock-conditions
 layout: solution
+related_solutions:
+- slug: idempotent-operations
+  similarity: 0.95
+- slug: transactions
+  similarity: 0.75
+- slug: retry
+  similarity: 0.75
+- slug: saga-pattern
+  similarity: 0.7
+- slug: redundancy
+  similarity: 0.65
+- slug: batch-processing
+  similarity: 0.65
 ---
 
 ## How to Apply ◆

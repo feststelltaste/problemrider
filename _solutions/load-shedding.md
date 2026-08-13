@@ -1,6 +1,7 @@
 ---
 title: Load Shedding
-description: Deliberately dropping low-priority requests under overload, preserving critical capacity
+description: Deliberately dropping low-priority requests under overload, preserving
+  critical capacity
 category:
 - Architecture
 - Performance
@@ -15,6 +16,19 @@ problems:
 - insufficient-worker-capacity
 - work-queue-buildup
 layout: solution
+related_solutions:
+- slug: rate-limiting
+  similarity: 0.8
+- slug: graceful-degradation
+  similarity: 0.75
+- slug: load-balancing
+  similarity: 0.7
+- slug: backpressure
+  similarity: 0.7
+- slug: distributed-caching
+  similarity: 0.65
+- slug: lazy-loading
+  similarity: 0.65
 ---
 
 ## How to Apply ◆
