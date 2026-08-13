@@ -183,13 +183,13 @@
     });
   }
 
-  function nodeFromReference(reference) {
+  function nodeFromReference(reference, kind) {
     var match = reference.url.match(/\/(problems|solutions)\/([^/]+)\.html/);
     if (!match) return null;
     return {
       id: (match[1] === 'solutions' ? 'solution:' : 'problem:') + match[2],
       title: reference.title,
-      type: match[1] === 'solutions' ? 'solution' : 'problem',
+      type: kind === 'causes' ? 'root cause' : (kind === 'symptoms' ? 'symptom' : (match[1] === 'solutions' ? 'solution' : 'problem')),
       url: reference.url
     };
   }
@@ -446,7 +446,7 @@
               showAll.addEventListener('click', function () {
                 showAll.remove();
                 references.forEach(function (reference) {
-                  var referenceNode = nodeFromReference(reference);
+                  var referenceNode = nodeFromReference(reference, kind);
                   if (!referenceNode) return;
                   addCurrentNode(trail, referenceNode);
                   var relation = {
