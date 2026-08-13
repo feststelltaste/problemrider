@@ -15,6 +15,8 @@ Check off a problem only after:
 
 A reciprocal link is structurally consistent, not causally confirmed. When an edge has already been reviewed from its other endpoint, reuse its evidence and decision but still verify the representation in this problem.
 
+If a claim is not a genuine, independent causal connection — e.g. its entire effect is already explained by an existing mediated chain through another linked problem (A → B → C, where a direct A → C edge adds no distinct mechanism beyond that chain), or it is really just correlation/shared-root-cause/semantic-similarity dressed up as causation — remove it. Removal at both endpoints is a normal, expected outcome of review, not something requiring extra justification beyond the usual verdict criteria.
+
 ## Execution Mode
 
 Reviewed in parallel batches (e.g. 10 agents at a time), one problem per agent. Each agent both assesses and directly applies its verdicts — `retain`, `qualify`, `reverse`, or `remove` — to both endpoints of every claim; there is no separate approval step between review and edit for any verdict, including context-dependent or reversed ones. Findings are still reported back so edits stay traceable, but they land in the files immediately rather than waiting for confirmation.

@@ -68,8 +68,6 @@ Accumulated decision debt occurs when important architectural, design, or techni
 <br/>  Systematic avoidance of making decisions is the direct behavior that causes decision debt to accumulate.
 - [Delayed Decision Making](delayed-decision-making.md)
 <br/>  Consistently postponing decisions rather than making them in a timely manner directly leads to decision debt building up.
-- [Fear of Failure](fear-of-failure.md)
-<br/>  Teams afraid of making wrong decisions defer them indefinitely, causing decision debt to accumulate.
 - [Decision Paralysis](decision-paralysis.md)
 <br/>  When teams cannot choose between options, decisions are never made, and the resulting debt compounds over time.
 
