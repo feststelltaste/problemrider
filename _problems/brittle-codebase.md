@@ -27,6 +27,14 @@ solutions:
 - resilience
 - tolerant-reader
 - defect-triage-process
+- technical-debt-assessment
+- debt-remediation-estimation
+- code-hotspot-analysis
+- characterization-tests
+- dependency-breaking-techniques
+- improvement-budget
+- quality-ratchet
+- debt-classification
 layout: problem
 ---
 

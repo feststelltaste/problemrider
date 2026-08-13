@@ -29,6 +29,9 @@ solutions:
 - dependency-breaking-techniques
 - parallel-run
 - pilot-projects
+- technical-debt-assessment
+- debt-classification
+- debt-remediation-estimation
 layout: problem
 ---
 

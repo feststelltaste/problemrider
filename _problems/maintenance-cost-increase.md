@@ -32,6 +32,9 @@ solutions:
 - system-decommissioning
 - baseline-measurement
 - cost-of-delay
+- debt-accrual-analysis
+- quality-ratchet
+- technical-debt-assessment
 layout: problem
 ---
 

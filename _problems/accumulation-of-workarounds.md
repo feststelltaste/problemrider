@@ -27,6 +27,12 @@ solutions:
 - improvement-budget
 - preparatory-refactoring
 - workaround-registry
+- debt-accrual-analysis
+- debt-classification
+- quality-ratchet
+- technical-debt-assessment
+- code-hotspot-analysis
+- debt-remediation-estimation
 layout: problem
 ---
 

@@ -34,6 +34,7 @@ problems:
 - vendor-dependency
 - vendor-dependency-entrapment
 - wasted-development-effort
+- high-technical-debt
 layout: solution
 ---
 

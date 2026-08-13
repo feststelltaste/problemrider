@@ -52,6 +52,8 @@ solutions:
 - characterization-tests
 - mikado-method
 - pilot-projects
+- technical-debt-assessment
+- debt-remediation-estimation
 layout: problem
 ---
 

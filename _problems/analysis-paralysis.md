@@ -32,6 +32,9 @@ solutions:
 - small-change-batches
 - no-regret-moves
 - staged-investment-with-decision-gates
+- technical-debt-assessment
+- debt-remediation-estimation
+- debt-classification
 layout: problem
 ---
 

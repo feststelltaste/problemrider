@@ -27,6 +27,9 @@ solutions:
 - workaround-registry
 - defect-triage-process
 - lightweight-design-review
+- quality-ratchet
+- debt-accrual-analysis
+- debt-classification
 layout: problem
 ---
 

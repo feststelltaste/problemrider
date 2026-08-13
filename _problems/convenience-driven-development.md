@@ -30,6 +30,8 @@ solutions:
 - code-quality-gates
 - preparatory-refactoring
 - communities-of-practice
+- debt-accrual-analysis
+- quality-ratchet
 layout: problem
 ---
 

@@ -33,6 +33,15 @@ solutions:
 - improvement-budget
 - total-cost-of-ownership-transparency
 - workaround-registry
+- technical-debt-assessment
+- debt-classification
+- debt-remediation-estimation
+- debt-accrual-analysis
+- quality-ratchet
+- cost-of-delay
+- baseline-measurement
+- risk-quantification
+- value-hierarchy
 layout: problem
 ---
 

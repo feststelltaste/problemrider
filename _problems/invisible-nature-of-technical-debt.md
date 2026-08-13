@@ -35,6 +35,10 @@ solutions:
 - value-hierarchy
 - cost-of-delay
 - risk-quantification
+- technical-debt-assessment
+- debt-classification
+- debt-remediation-estimation
+- debt-accrual-analysis
 layout: problem
 ---
 

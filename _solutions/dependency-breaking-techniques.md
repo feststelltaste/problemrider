@@ -26,6 +26,7 @@ problems:
 - complex-implementation-paths
 - hidden-side-effects
 - maintenance-paralysis
+- brittle-codebase
 layout: solution
 ---
 

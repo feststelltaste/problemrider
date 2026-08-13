@@ -34,6 +34,8 @@ solutions:
 - cost-of-delay
 - executive-sponsorship
 - value-hierarchy
+- debt-classification
+- debt-accrual-analysis
 layout: problem
 ---
 

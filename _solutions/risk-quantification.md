@@ -27,6 +27,7 @@ problems:
 - project-resource-constraints
 - technology-stack-fragmentation
 - vendor-dependency-entrapment
+- high-technical-debt
 layout: solution
 ---
 

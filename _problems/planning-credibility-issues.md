@@ -33,6 +33,7 @@ solutions:
 - baseline-measurement
 - benefits-realization-tracking
 - staged-investment-with-decision-gates
+- debt-remediation-estimation
 layout: problem
 ---
 

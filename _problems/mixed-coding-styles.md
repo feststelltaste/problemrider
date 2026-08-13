@@ -26,6 +26,7 @@ solutions:
 - code-quality-gates
 - ci-cd-pipeline
 - clean-code
+- quality-ratchet
 layout: problem
 ---
 

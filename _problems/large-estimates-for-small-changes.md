@@ -27,6 +27,8 @@ solutions:
 - change-impact-analysis
 - definition-of-ready
 - preparatory-refactoring
+- debt-remediation-estimation
+- technical-debt-assessment
 layout: problem
 ---
 

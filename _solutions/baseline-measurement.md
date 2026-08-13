@@ -28,6 +28,7 @@ problems:
 - regulatory-compliance-drift
 - stakeholder-confidence-loss
 - stakeholder-frustration
+- high-technical-debt
 layout: solution
 ---
 

@@ -29,6 +29,7 @@ solutions:
 - communities-of-practice
 - internal-technical-coaching
 - ubiquitous-language
+- technical-debt-assessment
 layout: problem
 ---
 

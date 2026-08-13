@@ -30,6 +30,7 @@ problems:
 - slow-development-velocity
 - stakeholder-confidence-loss
 - stakeholder-frustration
+- high-technical-debt
 layout: solution
 ---
 

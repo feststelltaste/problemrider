@@ -29,6 +29,11 @@ solutions:
 - mikado-method
 - improvement-budget
 - code-hotspot-analysis
+- debt-classification
+- debt-remediation-estimation
+- quality-ratchet
+- technical-debt-assessment
+- debt-accrual-analysis
 layout: problem
 ---
 

@@ -29,6 +29,9 @@ solutions:
 - team-retrospectives
 - workaround-registry
 - defect-triage-process
+- debt-accrual-analysis
+- debt-classification
+- technical-debt-assessment
 layout: problem
 ---
 

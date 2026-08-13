@@ -31,6 +31,8 @@ solutions:
 - internal-technical-coaching
 - team-retrospectives
 - communities-of-practice
+- quality-ratchet
+- debt-accrual-analysis
 layout: problem
 ---
 

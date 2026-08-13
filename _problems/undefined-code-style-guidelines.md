@@ -30,6 +30,7 @@ solutions:
 - code-reviews
 - code-quality-gates
 - code-review-guidelines
+- quality-ratchet
 layout: problem
 ---
 

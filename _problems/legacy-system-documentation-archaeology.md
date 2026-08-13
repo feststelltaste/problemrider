@@ -29,6 +29,7 @@ solutions:
 - application-portfolio-inventory
 - no-regret-moves
 - baseline-measurement
+- technical-debt-assessment
 layout: problem
 ---
 

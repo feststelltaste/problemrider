@@ -34,6 +34,10 @@ solutions:
 - cost-of-delay
 - no-regret-moves
 - risk-quantification
+- technical-debt-assessment
+- debt-classification
+- quality-ratchet
+- debt-accrual-analysis
 layout: problem
 ---
 

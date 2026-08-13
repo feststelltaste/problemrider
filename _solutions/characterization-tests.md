@@ -30,6 +30,7 @@ problems:
 - history-of-failed-changes
 - increasing-brittleness
 - monolithic-functions-and-classes
+- brittle-codebase
 layout: solution
 ---
 

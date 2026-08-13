@@ -42,6 +42,8 @@ solutions:
 - value-hierarchy
 - outcome-based-goal-setting
 - system-decommissioning
+- technical-debt-assessment
+- debt-remediation-estimation
 layout: problem
 ---
 

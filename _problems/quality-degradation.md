@@ -30,6 +30,9 @@ solutions:
 - exploratory-testing
 - baseline-measurement
 - benefits-realization-tracking
+- quality-ratchet
+- debt-accrual-analysis
+- code-hotspot-analysis
 layout: problem
 ---
 

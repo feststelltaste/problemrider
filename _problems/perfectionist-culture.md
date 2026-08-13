@@ -29,6 +29,7 @@ solutions:
 - team-retrospectives
 - outcome-based-goal-setting
 - pilot-projects
+- debt-classification
 layout: problem
 ---
 

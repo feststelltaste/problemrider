@@ -28,6 +28,9 @@ solutions:
 - capacity-based-planning
 - preparatory-refactoring
 - workaround-registry
+- debt-accrual-analysis
+- quality-ratchet
+- debt-classification
 layout: problem
 ---
 

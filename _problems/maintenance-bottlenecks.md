@@ -29,6 +29,7 @@ solutions:
 - team-boundaries-aligned-to-architecture
 - improvement-budget
 - code-reading-sessions
+- technical-debt-assessment
 layout: problem
 ---
 

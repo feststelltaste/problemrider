@@ -39,6 +39,8 @@ solutions:
 - characterization-tests
 - production-like-test-data
 - exploratory-testing
+- quality-ratchet
+- debt-remediation-estimation
 layout: problem
 ---
 

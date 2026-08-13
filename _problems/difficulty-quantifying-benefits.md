@@ -46,6 +46,9 @@ solutions:
 - executive-sponsorship
 - modernization-options-comparison
 - no-regret-moves
+- technical-debt-assessment
+- debt-remediation-estimation
+- debt-classification
 layout: problem
 ---
 

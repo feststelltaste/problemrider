@@ -29,6 +29,8 @@ solutions:
 - static-analysis-and-linting
 - strategic-code-deletion
 - code-reading-sessions
+- quality-ratchet
+- debt-accrual-analysis
 layout: problem
 ---
 

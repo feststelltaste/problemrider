@@ -35,6 +35,7 @@ solutions:
 - baseline-measurement
 - benefits-realization-tracking
 - cost-of-delay
+- debt-remediation-estimation
 layout: problem
 ---
 
