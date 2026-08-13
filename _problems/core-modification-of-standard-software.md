@@ -25,7 +25,7 @@ layout: problem
 
 ## Description
 
-Core modification occurs when a purchased software package is adapted by editing the vendor's own delivered code rather than by using the extension mechanisms the vendor provides. It is usually the fastest route at the moment it is chosen: the required behavior sits inside a delivered routine, changing it there takes an hour, and building the same thing through a supported extension point takes a week. The cost arrives later and permanently. Every subsequent update from the vendor overwrites or conflicts with the modification, so each upgrade becomes an exercise in reconciling two sets of changes to the same code. Because the organization now maintains a fork of software it did not write and does not fully understand, the fork can never be reconciled — only carried.
+Core modification occurs when a purchased software product is adapted by editing the vendor's own delivered code rather than by using the extension mechanisms the vendor provides. It is usually the fastest route at the moment it is chosen: the required behavior sits inside a delivered routine, changing it there takes an hour, and building the same thing through a supported extension point takes a week. The cost arrives later and permanently. Every subsequent update from the vendor overwrites or conflicts with the modification, so each upgrade becomes an exercise in reconciling two sets of changes to the same code. Because the organization now maintains a fork of software it did not write and does not fully understand, the fork can never be reconciled — only carried.
 
 ## Indicators ⟡
 
@@ -66,13 +66,13 @@ Core modification occurs when a purchased software package is adapted by editing
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
 <br/>  Nobody established whether the requirement could be met by configuration, so development began where the code happened to be.
 - [Legacy Skill Shortage](legacy-skill-shortage.md)
-<br/>  Staff who know the package's extension framework are scarce, while anyone can edit a routine, so the unsupported route is also the available one.
+<br/>  Staff who know the product's extension framework are scarce, while anyone can edit a routine, so the unsupported route is also the available one.
 - [Project Authority Vacuum](project-authority-vacuum.md)
 <br/>  No one has the standing to refuse a modification or to insist on the supported mechanism, so the decision is made by whoever is implementing.
 
 ## Detection Methods ○
 
-- Use the package's own facilities to list objects that differ from the delivered state; most enterprise packages can report this directly
+- Use the product's own facilities to list objects that differ from the delivered state; most enterprise products can report this directly
 - Compare the installed codebase against a clean installation of the same version and count the differing objects
 - Review the last upgrade's effort breakdown and identify how much went to reconciling modifications rather than to testing or training
 - Check whether support requests have been declined or qualified on the grounds that the system is modified
@@ -81,6 +81,6 @@ Core modification occurs when a purchased software package is adapted by editing
 
 ## Examples
 
-A manufacturer running an enterprise resource planning package had modified 340 delivered objects over fourteen years. Most modifications were small — an extra field on a screen, an additional validation, a changed sort order — and each had been the sensible choice at the time. The cumulative effect was that a vendor release which the vendor described as a routine update took their team five months, of which roughly four were spent reconciling modifications and regression testing the result. They were four major versions behind. Two of the modifications, when investigated, implemented behavior the standard product had gained in a release six years earlier, so the fork was being maintained to preserve a worse version of a feature the vendor now shipped.
+A manufacturer running an enterprise resource planning product had modified 340 delivered objects over fourteen years. Most modifications were small — an extra field on a screen, an additional validation, a changed sort order — and each had been the sensible choice at the time. The cumulative effect was that a vendor release which the vendor described as a routine update took their team five months, of which roughly four were spent reconciling modifications and regression testing the result. They were four major versions behind. Two of the modifications, when investigated, implemented behavior the standard product had gained in a release six years earlier, so the fork was being maintained to preserve a worse version of a feature the vendor now shipped.
 
 A different pattern appeared in a document management deployment. The organization had modified the delivered retention routine to accommodate a rule specific to one department. Years later, a regulatory change required an adjustment to retention handling, which the vendor delivered as a patch. Applying it would have removed the local rule; not applying it left the organization out of compliance. Neither option was available without a project, and the department whose rule had prompted the original modification had been reorganized out of existence four years earlier — a fact nobody established until the reconciliation forced someone to ask who still needed the behavior.

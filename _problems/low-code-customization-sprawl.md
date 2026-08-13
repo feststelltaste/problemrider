@@ -23,7 +23,7 @@ layout: problem
 
 ## Description
 
-Low-code customization sprawl occurs when substantial business logic accumulates in a packaged platform's built-in scripting, workflow designer, rules engine, or form logic. Each individual piece is small and was created quickly by someone who was not necessarily a developer, which is the mechanism's purpose. What accumulates is a second codebase that is exempt from every practice applied to the first: no tests, no review, no static analysis, no refactoring, frequently no version control, and no way to search across it. After a few years the platform contains thousands of small logic fragments whose interactions nobody can trace, and the behavior of the system is determined more by that accumulation than by anything the vendor shipped or the development team wrote.
+Low-code customization sprawl occurs when substantial business logic accumulates in a commercial software platform's built-in scripting, workflow designer, rules engine, or form logic. Each individual piece is small and was created quickly by someone who was not necessarily a developer, which is the mechanism's purpose. What accumulates is a second codebase that is exempt from every practice applied to the first: no tests, no review, no static analysis, no refactoring, frequently no version control, and no way to search across it. After a few years the platform contains thousands of small logic fragments whose interactions nobody can trace, and the behavior of the system is determined more by that accumulation than by anything the vendor shipped or the development team wrote.
 
 ## Indicators ⟡
 

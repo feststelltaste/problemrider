@@ -22,7 +22,7 @@ layout: problem
 
 ## Description
 
-Authorization role explosion occurs when the permission model of a packaged system grows continuously and is never reduced. Each new requirement produces a new role rather than a change to an existing one, because changing an existing role risks removing access someone depends on and nobody can determine who that is. Roles are copied for individuals, accumulate permissions across job changes, and outlive the positions they were created for. The result is a model that no longer describes the organization: it is a sedimentary record of every access request ever granted. The practical consequences are that nobody can answer who can perform a sensitive action, access reviews become impossible to conduct meaningfully, and every audit produces findings that are addressed by adding more roles.
+Authorization role explosion occurs when the permission model of a commercially purchased software system grows continuously and is never reduced. Each new requirement produces a new role rather than a change to an existing one, because changing an existing role risks removing access someone depends on and nobody can determine who that is. Roles are copied for individuals, accumulate permissions across job changes, and outlive the positions they were created for. The result is a model that no longer describes the organization: it is a sedimentary record of every access request ever granted. The practical consequences are that nobody can answer who can perform a sensitive action, access reviews become impossible to conduct meaningfully, and every audit produces findings that are addressed by adding more roles.
 
 ## Indicators ⟡
 

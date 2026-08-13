@@ -1,6 +1,6 @@
 ---
 title: Customization Outside Version Control
-description: Configuration and custom logic live inside the package's own database, so they cannot be diffed, reviewed, reproduced, or traced to who changed what.
+description: Configuration and custom logic live inside the database of a commercially purchased software system, so they cannot be diffed, reviewed, reproduced, or traced to who changed what.
 category:
 - Operations
 - Process
@@ -23,7 +23,7 @@ layout: problem
 
 ## Description
 
-In many packaged systems the customizations — configuration, custom fields, workflow definitions, scripts, report layouts, role assignments — are stored inside the product's own database rather than as files. There is no repository, no commit, no diff, and often no record of who changed what or why. The consequence is that every engineering practice built on version control simply does not apply: changes cannot be reviewed before they take effect, an environment cannot be reproduced from a known state, a change cannot be reverted except by remembering what it was, and the total customization inventory cannot be listed. Teams that maintain rigorous discipline in their own codebases frequently operate their packaged systems with none of it, without noticing the inconsistency, because the tooling never offered the option.
+In many commercially purchased software systems, the customizations — configuration, custom fields, workflow definitions, scripts, report layouts, role assignments — are stored inside the product's own database rather than as files. There is no repository, no commit, no diff, and often no record of who changed what or why. The consequence is that every engineering practice built on version control simply does not apply: changes cannot be reviewed before they take effect, an environment cannot be reproduced from a known state, a change cannot be reverted except by remembering what it was, and the total customization inventory cannot be listed. Teams that maintain rigorous discipline in their own codebases frequently operate these systems with none of it, without noticing the inconsistency, because the tooling never offered the option.
 
 ## Indicators ⟡
 
@@ -57,9 +57,9 @@ In many packaged systems the customizations — configuration, custom fields, wo
 ## Causes ▼
 
 - [Vendor Lock-In](vendor-lock-in.md)
-<br/>  The package stores its configuration internally by design, and exporting it into a reviewable form requires effort the vendor does not support.
+<br/>  The product stores its configuration internally by design, and exporting it into a reviewable form requires effort the vendor does not support.
 - [Legacy Skill Shortage](legacy-skill-shortage.md)
-<br/>  Staff administering the package often come from an operations rather than a development background, and version control is not part of the practice they learned.
+<br/>  Staff administering the system often come from an operations rather than a development background, and version control is not part of the practice they learned.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Establishing an export and deployment pipeline delivers nothing visible, while making the change directly delivers it today.
 
@@ -67,9 +67,9 @@ In many packaged systems the customizations — configuration, custom fields, wo
 
 - Ask for a diff of the configuration between two environments; the difficulty of producing one measures the problem directly
 - Attempt to answer what changed in the last thirty days and how long the answer takes
-- Check whether any change to the package's configuration passes through a review before taking effect
+- Check whether any change to the product's configuration passes through a review before taking effect
 - Try to rebuild a test environment from a defined source and record what has to be done by hand
-- Look for whether the package offers an export format, and whether anyone is using it
+- Look for whether the product offers an export format, and whether anyone is using it
 - Count how many people can change production configuration directly and whether their changes are logged
 
 ## Examples

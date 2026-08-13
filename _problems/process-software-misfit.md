@@ -22,7 +22,7 @@ layout: problem
 
 ## Description
 
-Process-software misfit occurs when a packaged product is adapted to reproduce an organization's existing way of working, without anyone asking whether that way of working is worth preserving. Packaged software encodes a process model, and much of its value comes from that model being coherent and having been refined across many customers. An organization that overrides the model to match its own historically grown practice pays for the product, discards the reasoning inside it, and takes on the cost of maintaining the difference forever. The misfit is rarely a deliberate decision. It follows from a requirements process that records how things are done today and treats that as the specification, and from the fact that no one is accountable for changing how the business works.
+Process-software misfit occurs when a commercial software product is adapted to reproduce an organization's existing way of working, without anyone asking whether that way of working is worth preserving. Commercial software encodes a process model, and much of its value comes from that model being coherent and having been refined across many customers. An organization that overrides the model to match its own historically grown practice pays for the product, discards the reasoning inside it, and takes on the cost of maintaining the difference forever. The misfit is rarely a deliberate decision. It follows from a requirements process that records how things are done today and treats that as the specification, and from the fact that no one is accountable for changing how the business works.
 
 ## Indicators ⟡
 
