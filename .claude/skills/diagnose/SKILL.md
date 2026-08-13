@@ -34,18 +34,23 @@ The consequence is structural, and it breaks root-cause analysis if you ignore i
 
 So when you traverse:
 
-- A link recorded in **both** files is confirmed. Treat it as evidence.
-- A link recorded in **only one** file is a lead, not evidence. Follow it if it looks
-  relevant, but say so, and do not let an unconfirmed link carry a conclusion on its
-  own — especially not the claim that you have reached a root cause.
-- If a chain you want to present rests mainly on unconfirmed links, say that plainly
-  in the report rather than presenting it with the same confidence as a confirmed one.
+- A link recorded in **both** files is reciprocal. This means the catalog is
+  structurally consistent about the claim; it does not confirm that the causal claim
+  is true and is not independent evidence for it.
+- A link recorded in **only one** file is one-sided. It may still be worth following
+  as a lead, but the catalog is structurally incomplete about it.
+- Treat both reciprocal and one-sided links as hypotheses. Base a diagnosis on the
+  user's observations, a plausible mechanism, and applicable external evidence, not
+  on how many catalog files repeat the claim.
+- If a chain rests mainly on catalog assertions rather than evidence from the user's
+  situation, say that plainly instead of presenting the chain as established.
 
 To check a specific link, open both problem files and look for the counterpart entry.
-`python scripts/validate_causal_links.py --detail` reports the overall state, and
-`--asymmetry-report FILE` writes out every unconfirmed claim.
+`python scripts/validate_causal_links.py --detail` reports the overall structural
+state, and `--asymmetry-report FILE` writes out every one-sided claim. This validator
+checks consistency, not causal validity.
 
-Small feedback loops in the confirmed graph are expected and are not a defect —
+Small feedback loops in the reciprocal graph are expected and are not a defect —
 reinforcing loops are a real feature of legacy systems. Do not treat a loop as a
 reason to distrust a chain; treat it as something to name.
 
@@ -75,10 +80,11 @@ Before settling on the problem framing, deliberately try shifting it in both dir
 - **Forward shift**: "What does this lead to?" — accept the named cause as a given, and ask what it leads to instead. Can the downstream effect be handled directly? (Example: not "we emit too much CO2" but "we don't use the CO2 we already emit" → capture, storage, or reuse.)
 
 When you shift backward, walk the **Causes** links; when you shift forward, walk the
-**Symptoms** links. Prefer confirmed links in both directions. A backward walk that
-only continues because of unconfirmed links has probably reached the end of what the
-catalog actually supports — stop there and say so, rather than continuing until the
-scope boundary stops you.
+**Symptoms** links. Record whether each link is reciprocal or one-sided, but do not
+use reciprocity as evidence that it is true. A backward walk that only continues
+because of unsupported catalog claims has probably reached the end of what the
+available evidence supports — stop there and say so, rather than continuing until
+the scope boundary stops you.
 
 In this catalog, the scope section of `CLAUDE.md` already fixes how far each direction is allowed to go: not further back than the requirements/management level (political or economic root causes like tariff wars are out of scope), and not further forward than fine-grained technical detail (CPU-level issues are out of scope). If the user's stated problem sits outside that band, that's exactly this theme at work — help them find the backward- or forward-shifted framing that lands back inside it, and note explicitly which direction you shifted and why.
 
@@ -86,12 +92,12 @@ In this catalog, the scope section of `CLAUDE.md` already fixes how far each dir
 
 Ask "What else could it be?" and keep generating candidate causes past the first plausible one — settling for a single cause too early is the specific thinking error Schönwandt calls "monocausalitis" (assuming one plausible cause is already good work). Match candidates against the **Causes** sections of `_problems/*.md`, and check whether something the user named as "the problem" is actually a **Symptom** of a different, deeper entry.
 
-Check each candidate cause against the counterpart file before relying on it. If the
-deeper entry does not list the user's problem among its **Symptoms**, the link is
-unconfirmed — which is common and does not make it wrong, but it does mean the
-catalog is not evidence for it. Say which of your candidate causes are confirmed and
-which rest on a one-sided link, and do not let the strongest conclusion rest on the
-weakest link.
+Check each candidate cause against the counterpart file to determine whether the
+catalog representation is reciprocal or one-sided. Neither status validates the
+claim. For each candidate, ask whether the cause precedes the effect in the user's
+situation, identify the mechanism, consider alternative or common causes, and check
+the claim against available observations or applicable external evidence. Clearly
+separate evidence-supported candidates from catalog-only hypotheses.
 
 Also generate candidates the catalog does not offer. A graph in which everything links
 to everything invites the hammer-and-nail bias of theme 5: whatever you look at will
@@ -101,7 +107,7 @@ have plenty of plausible neighbours.
 
 For each named cause, the measure should target that cause specifically enough that the correspondence is checkable — not a vague "fix it". Schönwandt's fare-dodging example: catch-probability too low → more inspectors; fines too lenient → raise fines; tickets unaffordable → subsidize/lower prices; too little social stigma → awareness campaign; ticket machines unusable → redesign the machines. Different assumed causes imply different, non-interchangeable measures.
 
-Resolve confirmed causes to solutions via the problem's `solutions:` front matter into `_solutions/*.md`. Summarize each one's `description`, key points from **How to Apply**, and relevant **Tradeoffs** — check that the solution's actual mechanism targets the cause you settled on, not just a plausible-sounding but mismatched one.
+Resolve evidence-supported causes to solutions via the problem's `solutions:` front matter into `_solutions/*.md`. Summarize each one's `description`, key points from **How to Apply**, and relevant **Tradeoffs** — check that the solution's actual mechanism targets the cause you settled on, not just a plausible-sounding but mismatched one.
 
 ## 5. Thinking Errors — including your own professional lens
 
@@ -134,8 +140,9 @@ Once the user is satisfied the loop has converged (themes are mutually consisten
 
 - **Reported Situation** — the problem as finally framed, in observable terms
 - **Back-/Forward-Shifting Considered** — which direction(s) you tried, and where the framing landed
-- **Root Causes** — linked problem titles with a one-line rationale each, and for each
-  one whether the link to it is confirmed by both problem files or rests on one side
+- **Root Causes** — linked problem titles with a one-line rationale each; record the
+  link's structural state (reciprocal or one-sided) separately from its evidentiary
+  state (supported by observations/evidence or still a hypothesis)
 - **Recommended Solutions** — linked solution titles with a one-line rationale each
 - **Thinking Errors Checked** — what you checked for, and anything it changed
 - **Validity Check** — how theme 6 was tested and what held up

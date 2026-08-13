@@ -2,6 +2,10 @@
 """
 Check the causal graph formed by the Symptoms and Causes sections for structural defects.
 
+This script checks representation and graph consistency only. Reciprocal entries are
+two representations of one assertion, not independent evidence that it is causally
+true.
+
 Every link is a directed causal claim. A entry under `## Symptoms ▲` of problem A
 claims A causes B. An entry under `## Causes ▼` of problem A claims C causes A.
 Both notations express the same relation seen from opposite ends, so a claim
@@ -184,7 +188,7 @@ def main():
     print(f'Links to missing problems: {len(dangling)}')
 
     for label, edge_set in (('all claims', edges),
-                            ('claims both files agree on', both_sides)):
+                            ('reciprocal claims', both_sides)):
         components, nodes, sources, sinks = structure(edge_set)
         largest = len(components[0]) if components else 0
         share = largest / len(nodes) * 100 if nodes else 0
@@ -223,10 +227,10 @@ def main():
                     print(f'  {item}')
 
     if report_path:
-        lines = ['# Asymmetric causal claims', '',
+        lines = ['# Structurally One-Sided Causal Claims', '',
                  'Each line is a claim recorded in one problem file but not the other.',
-                 'Either the missing side should be added, or the claim is wrong and',
-                 'should be removed from the side that has it.', '']
+                 'This report does not establish whether any claim is causally true.',
+                 'Review the claim before adding the missing side or removing it.', '']
         lines.append(f'## Recorded only under Symptoms ({len(symptom_only)})')
         lines.append('')
         for cause, effect in sorted(symptom_only):
