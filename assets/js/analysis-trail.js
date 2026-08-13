@@ -747,7 +747,22 @@
     if (exportButton) exportButton.addEventListener('click', function () {
       var svg = document.querySelector('[data-analysis-trail-graph] svg');
       if (!svg) return;
-      var source = new XMLSerializer().serializeToString(svg);
+      var exportSvg = svg.cloneNode(true);
+      exportSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+      exportSvg.setAttribute('xmlns:xlink', 'http://www.w3.org/1999/xlink');
+      var exportStyle = document.createElementNS(namespace, 'style');
+      exportStyle.textContent = [
+        '.analysis-trail__edge{fill:none;stroke:#a0aec0;stroke-width:1.6}',
+        '.analysis-trail__edge--contextual-causes{stroke:#d7dce2;stroke-width:1.2}',
+        '.analysis-trail__edge--related{stroke:#e5e7eb;stroke-width:1}',
+        '.analysis-trail__edge--addresses{stroke-dasharray:5 3}',
+        '.analysis-trail__node{fill:#111;stroke:#fff;stroke-width:2}',
+        '.analysis-trail__node--solution{fill:#007acc}',
+        '.analysis-trail__node-label{fill:#555;stroke:#fff;stroke-width:3;paint-order:stroke;font-size:8px}',
+        '.analysis-trail__remove-node{display:none}'
+      ].join('');
+      exportSvg.insertBefore(exportStyle, exportSvg.firstChild);
+      var source = new XMLSerializer().serializeToString(exportSvg);
       var blob = new Blob([source], { type: 'image/svg+xml;charset=utf-8' });
       var url = URL.createObjectURL(blob);
       var link = document.createElement('a');
