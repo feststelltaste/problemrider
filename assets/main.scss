@@ -233,27 +233,24 @@
 
 @media screen and (min-width: 701px) {
   body.analysis-trail-expanded {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   body.analysis-trail-expanded .site-header,
   body.analysis-trail-expanded .site-footer {
-    position: fixed;
+    position: relative;
     z-index: 21;
-    left: 0;
     width: 50%;
     box-sizing: border-box;
     background: #fff;
   }
 
   body.analysis-trail-expanded .site-header {
-    top: 0;
+    width: 50%;
   }
 
   body.analysis-trail-expanded .site-footer {
-    bottom: 0;
-    max-height: 9rem;
-    overflow-y: auto;
+    max-height: none;
   }
 
   body.analysis-trail-expanded .site-header .wrapper,
@@ -268,15 +265,17 @@
     padding: 0;
   }
 
+  body.analysis-trail-expanded .page-content {
+    width: 50%;
+  }
+
   .page-with-analysis-trail.is-analysis-trail-expanded {
     .page-main-content {
-      position: fixed;
+      position: relative;
       z-index: 1;
-      inset: 3.5rem 50% 9rem 0;
       box-sizing: border-box;
       max-width: none;
       padding: 2rem;
-      overflow-y: scroll;
     }
 
     .analysis-trail {
