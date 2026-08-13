@@ -113,3 +113,4 @@ New categories may be added only if really needed and cannot be reasonably mappe
 ## Development Workflow Rules
 
 * Do not automatically trigger `bundle exec jekyll build` / `jekyll serve` after intermediate code edits during active iteration steps. Only run build commands when explicitly asked by the user or when all task changes are completely finished.
+* When a build is needed, prefer `bundle exec jekyll build --incremental` over a plain full build — it is much faster. A full (non-incremental) build is only needed when Markdown problem/solution content changed alongside the assets, since Jekyll's incremental mode does not reliably pick up every kind of content-side dependency. See "Fast Build for Styles and Scripts (Asset-Only)" above for the asset-only case this covers best.
