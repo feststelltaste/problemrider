@@ -55,6 +55,7 @@ Cascade delays occur when delays in one project or work stream trigger delays in
 <br/>  As delays propagate, project schedules must be repeatedly adjusted, creating an environment of unstable timelines.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Teams blocked by upstream delays experience frustration and declining morale from inability to make progress.
+
 ## Causes ▼
 
 - [Bottleneck Formation](bottleneck-formation.md)
@@ -63,6 +64,7 @@ Cascade delays occur when delays in one project or work stream trigger delays in
 <br/>  Inadequate planning fails to account for project interdependencies, leaving no buffer for delays to be absorbed.
 - [Approval Dependencies](approval-dependencies.md)
 <br/>  Mandatory approvals from specific individuals create delay points that block entire chains of dependent work.
+
 ## Detection Methods ○
 
 - **Dependency Impact Analysis:** Track how delays in one project affect other projects

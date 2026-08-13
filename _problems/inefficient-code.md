@@ -61,6 +61,7 @@ Inefficient code is a broad problem that can have a wide range of causes, from t
 <br/>  Without code reviews, performance anti-patterns go undetected and accumulate in the codebase.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Low-quality code tends to include redundant operations, unnecessary allocations, and other inefficiencies.
+
 ## Detection Methods ○
 
 - **Profilers:** Use a profiler to analyze the application's CPU and memory usage and identify the exact lines of code that are causing the bottleneck.

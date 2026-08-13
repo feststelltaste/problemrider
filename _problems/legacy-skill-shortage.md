@@ -59,6 +59,7 @@ Legacy skill shortage occurs when organizations face a critical scarcity of deve
 <br/>  When incidents occur in legacy systems, resolution is delayed because few people have the expertise to diagnose problems.
 - [Modernization Strategy Paralysis](modernization-strategy-paralysis.md)
 <br/>  Without enough skilled people to both maintain the legacy system and build a replacement, organizations cannot commit to a modernization path.
+
 ## Causes ▼
 
 - [Obsolete Technologies](obsolete-technologies.md)
@@ -69,6 +70,7 @@ Legacy skill shortage occurs when organizations face a critical scarcity of deve
 <br/>  Experienced legacy developers leaving the organization accelerates the skill shortage as institutional knowledge departs with them.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  Knowledge concentrated in a few developers who leave takes irreplaceable legacy expertise with them, directly contrib....
+
 ## Detection Methods ○
 
 - Conduct skills inventory assessments for all critical legacy technologies in the organization

@@ -61,6 +61,7 @@ Inadequate code reviews are a major contributor to poor software quality. This e
 <br/>  When code reviews fail to catch issues, the risk of bugs reaching production increases directly.
 - [Inadequate Initial Reviews](inadequate-initial-reviews.md)
 <br/>  When code reviews are generally inadequate, first-round reviews become superficial, missing critical issues that must be caught in later rounds.
+
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)
@@ -71,6 +72,7 @@ Inadequate code reviews are a major contributor to poor software quality. This e
 <br/>  Inexperienced reviewers lack the expertise to identify deeper design, logic, or security issues during reviews.
 - [Overworked Teams](overworked-teams.md)
 <br/>  When teams are overloaded, code reviews are deprioritized and rushed to keep up with delivery demands.
+
 ## Detection Methods ○
 
 - **Track Bug Density:** A high number of bugs in a particular module or feature may indicate that the code was not reviewed properly.

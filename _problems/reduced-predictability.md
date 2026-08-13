@@ -52,6 +52,7 @@ Reduced predictability occurs when development work becomes difficult to estimat
 <br/>  Inability to predict work duration leads to underestimation and consequent project delays.
 - [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
 <br/>  When development timelines are unpredictable, stakeholders lose confidence in the team's ability to plan and deliver.
+
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)
@@ -62,6 +63,7 @@ Reduced predictability occurs when development work becomes difficult to estimat
 <br/>  Unknown dependencies between system components cause unexpected delays that undermine predictions.
 - [Brittle Codebase](brittle-codebase.md)
 <br/>  A fragile codebase means seemingly simple changes can trigger unexpected failures, making work duration unpredictable.
+
 ## Detection Methods ○
 
 - **Estimation Accuracy Tracking:** Compare actual completion times to estimates and measure variance

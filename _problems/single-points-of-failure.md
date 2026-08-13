@@ -72,6 +72,7 @@ Single points of failure occur when critical system knowledge, capabilities, or 
 <br/>  When a single point of failure becomes unavailable, dependent work items cascade into delays across multiple teams and projects.
 - [Staff Availability Issues](staff-availability-issues.md)
 <br/>  When critical work depends on specific individuals, their unavailability creates effective staffing gaps even when the team is otherwise fully staffed.
+
 ## Causes ▼
 
 - [Knowledge Silos](knowledge-silos.md)
@@ -84,6 +85,7 @@ Single points of failure occur when critical system knowledge, capabilities, or 
 <br/>  When team members fail to develop breadth of skills, expertise concentrates in few individuals who become single points of failure.
 - [Inadequate Onboarding](inadequate-onboarding.md)
 <br/>  Inadequate onboarding prevents new team members from developing the knowledge to serve as backup for critical functio....
+
 ## Detection Methods ○
 
 - **Bus Factor Analysis:** Identify what would happen if key individuals were unavailable

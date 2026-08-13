@@ -62,6 +62,7 @@ Implementation starts without design occurs when development teams begin coding 
 <br/>  An organically evolved architecture without clear design becomes difficult to intentionally evolve or improve.
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Starting to code without design leads directly to tangled, unstructured code as there is no architectural blueprint t....
+
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)
@@ -70,6 +71,7 @@ Implementation starts without design occurs when development teams begin coding 
 <br/>  Teams without architecture expertise may not recognize the value of upfront design or know how to conduct it effectively.
 - [Requirements Ambiguity](requirements-ambiguity.md)
 <br/>  When requirements are vague, teams may feel unable to design upfront and resort to exploratory coding instead.
+
 ## Detection Methods ○
 
 - Review project timelines for allocation of design and architecture activities

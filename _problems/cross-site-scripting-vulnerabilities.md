@@ -65,6 +65,7 @@ Cross-Site Scripting (XSS) vulnerabilities occur when web applications fail to p
 <br/>  Users who experience account compromise through XSS attacks lose trust in the application.
 - [Legal Disputes](legal-disputes.md)
 <br/>  XSS vulnerabilities that lead to data breaches or account compromise can trigger legal action from affected users.
+
 ## Causes ▼
 
 - [Inexperienced Developers](inexperienced-developers.md)
@@ -75,6 +76,7 @@ Cross-Site Scripting (XSS) vulnerabilities occur when web applications fail to p
 <br/>  When quality standards are lowered to meet deadlines, security practices like proper input sanitization are skipped.
 - [Inadequate Code Reviews](inadequate-code-reviews.md)
 <br/>  Code reviews that fail to identify security issues allow XSS-vulnerable code to reach production.
+
 ## Detection Methods ○
 
 - **Input Validation Testing:** Test all input fields and parameters for script injection

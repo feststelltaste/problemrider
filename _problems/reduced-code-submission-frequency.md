@@ -52,6 +52,7 @@ Reduced code submission frequency occurs when developers intentionally batch mul
 <br/>  Large batched submissions are harder to review thoroughly, reducing the quality and effectiveness of code reviews.
 - [No Continuous Feedback Loop](no-continuous-feedback-loop.md)
 <br/>  Less frequent submissions mean developers get feedback later, when design decisions are harder to change.
+
 ## Causes ▼
 
 - [Review Bottlenecks](review-bottlenecks.md)
@@ -62,6 +63,7 @@ Reduced code submission frequency occurs when developers intentionally batch mul
 <br/>  Anxiety about submitting code that might be criticized causes developers to delay submissions until they feel everything is perfect.
 - [Code Review Inefficiency](code-review-inefficiency.md)
 <br/>  Inefficient review processes that focus on trivial issues discourage developers from submitting frequently.
+
 ## Detection Methods ○
 
 - **Submission Frequency Tracking:** Monitor how often individual developers submit code for review

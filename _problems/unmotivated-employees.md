@@ -53,6 +53,7 @@ Unmotivated employees exhibit low engagement, minimal initiative, and reduced co
 <br/>  Disengaged developers are less careful in their work, leading to more defects and poorly designed code.
 - [Reduced Review Participation](reduced-review-participation.md)
 <br/>  Unmotivated employees avoid voluntary activities like code reviews, concentrating the review burden on engaged team members.
+
 ## Causes ▼
 
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
@@ -63,6 +64,7 @@ Unmotivated employees exhibit low engagement, minimal initiative, and reduced co
 <br/>  Being micromanaged removes autonomy and creative ownership, which are key drivers of developer motivation.
 - [Uneven Workload Distribution](uneven-workload-distribution.md)
 <br/>  Being consistently assigned boring or unchallenging work while others get interesting tasks undermines motivation.
+
 ## Detection Methods ○
 
 - **Performance Review Analysis:** Track declining performance metrics over time

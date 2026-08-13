@@ -79,6 +79,7 @@ Obsolete technologies refer to the use of outdated programming languages, framew
 <br/>  Deep dependence on specific vendor technologies makes it prohibitively expensive to migrate, trapping the system on obsolete platforms.
 - [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
 <br/>  Inability to justify the cost of modernization means technology upgrades are perpetually deferred, allowing the stack to become obsolete.
+
 ## Detection Methods ○
 - **Technology Audit:** Regular assessment of all components in the technology stack for currency and support status
 - **Security Scanning:** Automated tools that identify known vulnerabilities in outdated dependencies

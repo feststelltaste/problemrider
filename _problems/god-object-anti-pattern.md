@@ -61,6 +61,7 @@ The God Object anti-pattern occurs when single classes or components accumulate 
 <br/>  Modifying one responsibility within a god object often requires changes to other parts of the same object and its consumers.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  God objects with thousands of lines and dozens of methods are inherently difficult to comprehend, making this a direc....
+
 ## Causes ▼
 
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
@@ -71,6 +72,7 @@ The God Object anti-pattern occurs when single classes or components accumulate 
 <br/>  Lack of understanding of the single responsibility principle and proper OO design leads to monolithic class structures.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Teams avoid breaking apart growing classes because of the perceived risk, allowing god objects to grow unchecked.
+
 ## Detection Methods ○
 
 - **Code Metrics Analysis:** Monitor class size, method count, and complexity metrics

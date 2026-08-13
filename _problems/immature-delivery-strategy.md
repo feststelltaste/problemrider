@@ -58,12 +58,14 @@ An immature delivery strategy reflects the absence of well-defined, tested, and 
 <br/>  Without a mature delivery strategy, organizations default to manual deployment steps rather than investing in automation.
 - [Missing Rollback Strategy](missing-rollback-strategy.md)
 <br/>  Immature delivery practices fail to include rollback planning, leaving teams without a safety net when deployments go wrong.
+
 ## Causes ▼
 
 - [Poor Documentation](poor-documentation.md)
 <br/>  Without documented deployment procedures, each release depends on individual knowledge and memory.
 - [Poor Operational Concept](poor-operational-concept.md)
 <br/>  A weak understanding of operational requirements leads to delivery processes that don't account for production needs.
+
 ## Detection Methods ○
 
 - **Deployment Success Rate Tracking:** Monitor percentage of deployments that complete without issues

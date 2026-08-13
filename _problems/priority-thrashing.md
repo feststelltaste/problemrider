@@ -56,6 +56,7 @@ Priority thrashing occurs when work priorities change so frequently that team me
 <br/>  Teams cut corners to produce something before the next priority change forces them to move on.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Constant task switching and inability to complete work creates stress and exhaustion in team members.
+
 ## Causes ▼
 
 - [Product Direction Chaos](product-direction-chaos.md)
@@ -66,6 +67,7 @@ Priority thrashing occurs when work priorities change so frequently that team me
 <br/>  Recurring production emergencies continually preempt planned work, forcing priority changes.
 - [Power Struggles](power-struggles.md)
 <br/>  Competing managers each impose their own priorities on the team, creating conflicting demands.
+
 ## Detection Methods ○
 
 - **Priority Change Frequency:** Track how often work priorities change for the same team

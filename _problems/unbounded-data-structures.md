@@ -53,6 +53,7 @@ Unbounded data structures are collections, caches, logs, or other data container
 <br/>  Oversized data structures consume memory and increase processing time, directly degrading application responsiveness.
 - [Cascade Failures](cascade-failures.md)
 <br/>  When an unbounded data structure exhausts available memory, the resulting out-of-memory condition can cascade to other components.
+
 ## Causes ▼
 
 - [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
@@ -61,6 +62,7 @@ Unbounded data structures are collections, caches, logs, or other data container
 <br/>  Caches implemented without eviction policies or size limits are a primary example of unbounded data structures.
 - [Inefficient Code](inefficient-code.md)
 <br/>  Code that appends to collections without considering cleanup or bounds checking leads directly to unbounded data structures.
+
 ## Detection Methods ○
 
 - **Memory Usage Monitoring:** Track memory consumption patterns over time to identify continuously growing structures

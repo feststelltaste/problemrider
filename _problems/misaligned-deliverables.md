@@ -59,6 +59,7 @@ Misaligned deliverables are a classic symptom of a breakdown in communication be
 <br/>  Features built to incorrect specifications represent wasted development time and resources.
 - [User Trust Erosion](user-trust-erosion.md)
 <br/>  Repeated misalignment between what is delivered and what was expected erodes trust between development and business teams.
+
 ## Causes ▼
 
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
@@ -69,6 +70,7 @@ Misaligned deliverables are a classic symptom of a breakdown in communication be
 <br/>  Developers making assumptions about requirements instead of validating them leads to deliverables that miss stakeholder expectations.
 - [Requirements Ambiguity](requirements-ambiguity.md)
 <br/>  Ambiguous or incomplete requirements leave room for misinterpretation and divergent expectations.
+
 ## Detection Methods ○
 
 - **Regular Demos and Feedback Sessions:** Frequent, iterative demonstrations of working software to stakeholders to gather early and continuous feedback.

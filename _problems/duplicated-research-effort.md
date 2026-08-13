@@ -55,6 +55,7 @@ Duplicated research effort occurs when multiple team members independently inves
 <br/>  When multiple people research independently, their findings end up scattered across different documents and personal notes rather than consolidated.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  The multiplied research overhead directly slows the team's ability to deliver features and fixes.
+
 ## Causes ▼
 
 - [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
@@ -67,6 +68,7 @@ Duplicated research effort occurs when multiple team members independently inves
 <br/>  Isolated teams naturally duplicate research because they lack visibility into what other teams have already investigated.
 - [Unclear Sharing Expectations](unclear-sharing-expectations.md)
 <br/>  When it is not clear what information should be shared with the team, research findings go unshared and get duplicated.
+
 ## Detection Methods ○
 
 - **Research Topic Tracking:** Monitor which topics team members are researching to identify overlaps

@@ -54,6 +54,7 @@ Staff availability issues occur when projects cannot access the human resources 
 <br/>  When staff are unavailable for key tasks, dependent work items are delayed across the project.
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  Team output decreases when critical roles are unfilled or people are spread too thin.
+
 ## Causes ▼
 
 - [High Turnover](high-turnover.md)
@@ -62,6 +63,7 @@ Staff availability issues occur when projects cannot access the human resources 
 <br/>  Poor alignment between available staff and work demand creates availability problems.
 - [Project Resource Constraints](project-resource-constraints.md)
 <br/>  Budget or organizational constraints prevent hiring needed staff, leaving critical roles unfilled.
+
 ## Detection Methods ○
 
 - **Resource Utilization Analysis:** Track allocation and availability of team members across projects

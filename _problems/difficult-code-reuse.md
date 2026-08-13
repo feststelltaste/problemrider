@@ -54,6 +54,7 @@ Difficult code reuse is a common problem in software development. It occurs when
 <br/>  Maintaining multiple copies of similar code multiplies the effort needed for bug fixes and updates.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Inability to reuse existing components means every new feature requires building common functionality from scratch.
+
 ## Causes ▼
 
 - [Tight Coupling Issues](tight-coupling-issues.md)
@@ -64,6 +65,7 @@ Difficult code reuse is a common problem in software development. It occurs when
 <br/>  God objects that contain too much functionality cannot be reused because consuming code must take on all the object's responsibilities.
 - [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
 <br/>  Large monolithic components bundle too much functionality together, making it impossible to reuse only the needed parts.
+
 ## Detection Methods ○
 - **Code Duplication Analysis:** Use static analysis tools to identify duplicated code.
 - **Dependency Analysis:** Analyze the dependencies between the components of the system to identify areas of high coupling.

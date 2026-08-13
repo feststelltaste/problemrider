@@ -55,12 +55,14 @@ Reduced team flexibility occurs when a development team loses its ability to ada
 <br/>  Team inflexibility means unexpected changes cause disproportionate disruption, making outcomes unpredictable.
 - [Development Disruption](development-disruption.md)
 <br/>  Inability to adapt to changing priorities causes significant workflow disruption when changes are forced.
+
 ## Causes ▼
 
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  When knowledge is concentrated in individuals, only specific people can work on certain components, limiting reassignment options.
 - [Poor Teamwork](poor-teamwork.md)
 <br/>  Lack of collaboration and mutual support prevents team members from helping each other across skill boundaries.
+
 ## Detection Methods ○
 
 - **Work Reassignment Difficulty:** Track how often work cannot be reassigned due to skill or knowledge constraints

@@ -51,6 +51,7 @@ Resource waste occurs when available capacity, skills, or tools are not utilized
 <br/>  Paying for underutilized resources while needing to acquire additional resources for constrained areas drives costs above budget.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Stakeholders become frustrated when they see investment in resources not translating to proportional productivity or output.
+
 ## Causes ▼
 
 - [Capacity Mismatch](capacity-mismatch.md)
@@ -59,6 +60,7 @@ Resource waste occurs when available capacity, skills, or tools are not utilized
 <br/>  When expertise is siloed, available skilled people cannot be effectively deployed to where they are most needed.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Without clear priorities, resources get allocated to low-value activities while high-priority work remains understaffed.
+
 ## Detection Methods ○
 
 - **Resource Utilization Analysis:** Monitor how effectively different resources are being used

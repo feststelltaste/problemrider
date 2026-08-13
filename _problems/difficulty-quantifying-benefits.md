@@ -60,6 +60,7 @@ Difficulty quantifying benefits occurs when the value of technical improvements,
 <br/>  Without the ability to justify modernization efforts, systems remain on outdated technologies and patterns.
 - [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
 <br/>  The inability to quantify benefits directly causes failures in justifying modernization investments.
+
 ## Causes ▼
 
 - [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
@@ -70,6 +71,7 @@ Difficulty quantifying benefits occurs when the value of technical improvements,
 <br/>  The gap between technical and business language makes it difficult to translate technical benefits into business terms that stakeholders understand.
 - [Feature Factory](feature-factory.md)
 <br/>  Organizations focused on feature output measure success by features shipped, making non-feature work impossible to justify.
+
 ## Detection Methods ○
 
 - **Prioritization Decision Analysis:** Track how often technical improvements are deprioritized due to ROI concerns

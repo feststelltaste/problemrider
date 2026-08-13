@@ -54,6 +54,7 @@ Wasted development effort occurs when significant work completed by developers b
 <br/>  Effort spent on work that is later abandoned reduces the team's overall productive output.
 - [Maintenance Cost Increase](maintenance-cost-increase.md)
 <br/>  Rework and abandoned features increase project costs beyond original estimates.
+
 ## Causes ▼
 
 - [Requirements Ambiguity](requirements-ambiguity.md)
@@ -66,6 +67,7 @@ Wasted development effort occurs when significant work completed by developers b
 <br/>  Uncontrolled scope expansion changes project direction, making previously completed work obsolete.
 - [Assumption-Based Development](assumption-based-development.md)
 <br/>  Building features based on assumptions rather than validated requirements leads to work that doesn't meet actual needs.
+
 ## Detection Methods ○
 
 - **Work Abandonment Tracking:** Monitor how much completed work is discarded or significantly reworked

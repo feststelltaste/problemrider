@@ -57,6 +57,7 @@ Avoidance behaviors occur when developers consistently postpone, defer, or avoid
 <br/>  Complex tasks pile up in the backlog as developers repeatedly defer them in favor of easier work.
 - [Reduced Innovation](reduced-innovation.md)
 <br/>  When team members avoid challenging tasks, the team loses its ability to innovate and solve difficult problems.
+
 ## Causes ▼
 
 - [Cognitive Overload](cognitive-overload.md)
@@ -67,6 +68,7 @@ Avoidance behaviors occur when developers consistently postpone, defer, or avoid
 <br/>  When mistakes are punished rather than treated as learning opportunities, developers avoid challenging tasks to minimize risk of failure.
 - [Brittle Codebase](brittle-codebase.md)
 <br/>  A fragile codebase makes complex changes risky and unpredictable, discouraging developers from attempting them.
+
 ## Detection Methods ○
 
 - **Task Completion Pattern Analysis:** Compare completion rates for simple vs. complex tasks

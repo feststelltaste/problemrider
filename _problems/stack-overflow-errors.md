@@ -40,6 +40,7 @@ Stack overflow errors occur when a program's call stack exceeds the allocated st
 
 - [System Outages](system-outages.md)
 <br/>  Stack overflow errors crash the application, potentially causing outages for users.
+
 ## Causes ▼
 
 - [Spaghetti Code](spaghetti-code.md)
@@ -48,6 +49,7 @@ Stack overflow errors occur when a program's call stack exceeds the allocated st
 <br/>  Overly complex recursive logic without proper termination conditions leads to unbounded recursion.
 - [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Without code review, unbounded recursion and excessive stack usage patterns go undetected.
+
 ## Detection Methods ○
 
 - **Stack Usage Monitoring:** Monitor stack usage during application execution to identify growth patterns

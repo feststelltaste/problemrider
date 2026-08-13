@@ -67,6 +67,7 @@ Monolithic functions and classes are code components that have grown to handle m
 <br/>  Under pressure to deliver quickly, developers extend existing functions rather than investing time in proper decomposition.
 - [Fear of Change](fear-of-change.md)
 <br/>  Developers avoid breaking up large functions due to the risk of introducing bugs in already working code, allowing them to grow further.
+
 ## Detection Methods ○
 - **Code Metrics Tools:** Use static analysis tools to measure function length, cyclomatic complexity, and class size
 - **Responsibility Analysis:** Identify functions or classes that handle multiple distinct business or technical concerns

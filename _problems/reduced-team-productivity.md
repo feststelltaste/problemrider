@@ -54,6 +54,7 @@ Reduced team productivity occurs when a development team's collective output, ef
 <br/>  Reduced productivity means teams cannot finish all planned work, leaving projects incomplete.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Reduced team productivity directly leads to slower delivery which frustrates stakeholders.
+
 ## Causes ▼
 
 - [Reduced Individual Productivity](reduced-individual-productivity.md)
@@ -64,6 +65,7 @@ Reduced team productivity occurs when a development team's collective output, ef
 <br/>  Poor team dynamics, conflicts, and lack of collaboration reduce the team's collective effectiveness.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  Knowledge concentration creates bottlenecks and idle time when experts are unavailable, reducing team throughput.
+
 ## Detection Methods ○
 
 - **Velocity Tracking:** Monitor team velocity trends over multiple sprints or time periods

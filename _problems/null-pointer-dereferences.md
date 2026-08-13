@@ -44,6 +44,7 @@ Null pointer dereferences occur when a program attempts to access memory through
 <br/>  Null pointer dereferences cause crashes that occur inconsistently depending on input conditions and program state, making system behavior unpredictable.
 - [Silent Data Corruption](silent-data-corruption.md)
 <br/>  In some cases, null pointer dereferences can corrupt adjacent memory rather than crashing immediately, leading to silent data corruption.
+
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
@@ -52,6 +53,7 @@ Null pointer dereferences occur when a program attempts to access memory through
 <br/>  Without automated tests that exercise null pointer conditions, these defects go undetected until they cause production crashes.
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Insufficient test coverage means null pointer edge cases are not tested, allowing dereference bugs to reach production.
+
 ## Detection Methods ○
 
 - **Static Analysis Tools:** Use tools that can identify potential null pointer dereference paths in source code

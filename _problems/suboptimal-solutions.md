@@ -55,6 +55,7 @@ Suboptimal solutions occur when implemented systems or processes technically fun
 <br/>  Suboptimal designs require ongoing workarounds, patches, and support that inflate maintenance costs.
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Inefficient solution designs manifest as poor performance that users can observe and measure.
+
 ## Causes ▼
 
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
@@ -65,6 +66,7 @@ Suboptimal solutions occur when implemented systems or processes technically fun
 <br/>  Lack of domain or technical knowledge leads developers to choose approaches that work but are far from optimal.
 - [Assumption-Based Development](assumption-based-development.md)
 <br/>  Building solutions based on unvalidated assumptions about user needs produces features that miss the mark.
+
 ## Detection Methods ○
 
 - **User Experience Assessment:** Evaluate how efficiently users can accomplish tasks with delivered solutions

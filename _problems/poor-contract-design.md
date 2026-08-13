@@ -55,6 +55,7 @@ Poor contract design occurs when legal agreements governing software development
 <br/>  Contracts with misaligned incentives or unrealistic terms create friction between contracting parties.
 - [Quality Compromises](quality-compromises.md)
 <br/>  When contracts penalize deviations, teams deliver to contract spec rather than quality standards, compromising the actual product.
+
 ## Causes ▼
 
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
@@ -63,6 +64,7 @@ Poor contract design occurs when legal agreements governing software development
 <br/>  Contracts based on poorly gathered requirements bake in unrealistic deliverables and timelines.
 - [Poor Planning](poor-planning.md)
 <br/>  Insufficient project planning leads to contracts that don't account for technical complexity or realistic timelines.
+
 ## Detection Methods ○
 
 - **Contract Review Analysis:** Evaluate contract terms against software development best practices

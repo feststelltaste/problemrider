@@ -50,6 +50,7 @@ Reduced innovation occurs when development teams lose their drive to explore new
 <br/>  Avoidance of new approaches means the system architecture remains unchanged despite known limitations.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Failure to adopt better technologies and approaches causes the organization to fall behind competitors.
+
 ## Causes ▼
 
 - [Fear of Failure](fear-of-failure.md)
@@ -60,6 +61,7 @@ Reduced innovation occurs when development teams lose their drive to explore new
 <br/>  Teams consumed by production emergencies have no bandwidth to explore innovative solutions or improvements.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Heavy technical debt burden leaves no capacity for experimentation, as all effort goes to maintaining existing systems.
+
 ## Detection Methods ○
 - **Technology Adoption Tracking:** Monitor whether team adopts new tools, frameworks, or practices over time
 - **Proposal Frequency:** Track how often team members suggest improvements or new approaches

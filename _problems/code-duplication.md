@@ -57,6 +57,7 @@ Code duplication occurs when similar or identical functionality is implemented i
 <br/>  Quality assurance must verify the same functionality in multiple locations, increasing testing effort and bug escape risk.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Having the same logic in multiple places increases the surface area for defects and the chance of inconsistent fixes.
+
 ## Causes ▼
 
 - [Copy-Paste Programming](copy-paste-programming.md)
@@ -69,6 +70,7 @@ Code duplication occurs when similar or identical functionality is implemented i
 <br/>  Under deadline pressure, developers copy existing code rather than investing time in proper abstractions.
 - [Convenience-Driven Development](convenience-driven-development.md)
 <br/>  Convenience-driven development directly leads to code duplication since copying existing code is the most convenient ....
+
 ## Detection Methods ○
 - **Static Analysis Tools:** Use tools that can identify duplicate or similar code blocks across the codebase
 - **Copy-Paste Detection:** Tools like CPD (Copy-Paste Detector) can find duplicated code segments

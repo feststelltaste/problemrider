@@ -55,6 +55,7 @@ Thread pool exhaustion occurs when all available threads in an application's thr
 <br/>  The system appears to hang or behave unpredictably with low CPU usage, making the root cause difficult to diagnose.
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Before complete exhaustion, partial thread pool depletion causes slow application performance as fewer threads are av....
+
 ## Causes ▼
 
 - [Resource Contention](resource-contention.md)
@@ -65,6 +66,7 @@ Thread pool exhaustion occurs when all available threads in an application's thr
 <br/>  Threads that are not properly released after completing or timing out permanently reduce the available thread pool.
 - [Service Timeouts](service-timeouts.md)
 <br/>  Without proper timeout settings, threads block indefinitely waiting for slow or unresponsive external services.
+
 ## Detection Methods ○
 
 - **Thread Pool Monitoring:** Monitor thread pool utilization, active threads, and queue depths

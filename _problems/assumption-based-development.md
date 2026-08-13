@@ -66,6 +66,7 @@ Assumption-based development occurs when developers make decisions about functio
 <br/>  Time pressure causes developers to proceed with assumptions rather than taking time to validate requirements.
 - [Feedback Isolation](feedback-isolation.md)
 <br/>  When developers are isolated from user feedback, they must rely on assumptions about user needs.
+
 ## Detection Methods ○
 
 - **Assumption Documentation:** Track what assumptions developers are making during development

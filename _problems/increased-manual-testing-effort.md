@@ -54,6 +54,7 @@ Increased manual testing effort occurs when teams spend excessive time on manual
 <br/>  Human testers inevitably execute tests differently, leading to inconsistent coverage and missed defects.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Repetitive manual testing tasks are demotivating and drain developer energy and enthusiasm.
+
 ## Causes ▼
 
 - [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
@@ -64,6 +65,7 @@ Increased manual testing effort occurs when teams spend excessive time on manual
 <br/>  Tightly coupled or poorly structured code makes automation difficult, forcing teams to test manually.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Accumulated technical debt makes it difficult to invest in test automation, perpetuating manual testing.
+
 ## Detection Methods ○
 - **Testing Time Analysis:** Track what percentage of release cycle time is spent on manual vs. automated testing
 - **Test Execution Tracking:** Monitor how many test cases are executed manually vs. automatically

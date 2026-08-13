@@ -71,6 +71,7 @@ Knowledge silos occur when critical information, expertise, or research findings
 <br/>  When knowledge is siloed in specific individuals, new developers cannot access the information they need to onboard e....
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  Knowledge silos create bottlenecks that reduce team productivity.
+
 ## Causes ▼
 
 - [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
@@ -81,6 +82,7 @@ Knowledge silos occur when critical information, expertise, or research findings
 <br/>  Knowledge gained through experience that is difficult to articulate naturally creates silos.
 - [Team Silos](team-silos.md)
 <br/>  Organizational team boundaries reinforce knowledge silos by limiting cross-team interaction.
+
 ## Detection Methods ○
 
 - **Knowledge Mapping:** Identify who holds critical information about different system areas

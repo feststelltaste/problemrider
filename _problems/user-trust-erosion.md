@@ -50,6 +50,7 @@ User trust erosion is the gradual loss of confidence that users have in a softwa
 <br/>  Users who have lost trust actively share negative experiences through reviews and word of mouth.
 - [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
 <br/>  When users lose trust, stakeholders lose confidence in the product team's ability to deliver a reliable system.
+
 ## Causes ▼
 
 - [User Frustration](user-frustration.md)
@@ -62,6 +63,7 @@ User trust erosion is the gradual loss of confidence that users have in a softwa
 <br/>  A rising number of defects signals declining quality to users, undermining their trust.
 - [User Confusion](user-confusion.md)
 <br/>  Confusing system behavior makes users feel the system is unreliable, eroding their trust.
+
 ## Detection Methods ○
 - **User Satisfaction Surveys:** Regularly survey users to gauge their satisfaction with the system.
 - **Net Promoter Score (NPS):** Use the NPS to measure user loyalty.

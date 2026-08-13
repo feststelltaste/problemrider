@@ -55,6 +55,7 @@ A high bug introduction rate means that for every new feature or fix, a signific
 <br/>  Constantly fixing bugs they or colleagues introduced demoralizes developers and leads to burnout.
 - [Maintenance Cost Increase](maintenance-cost-increase.md)
 <br/>  Each introduced bug requires investigation, fixing, testing, and deployment, increasing overall maintenance costs.
+
 ## Causes ▼
 
 - [Brittle Codebase](brittle-codebase.md)
@@ -67,6 +68,7 @@ A high bug introduction rate means that for every new feature or fix, a signific
 <br/>  Undocumented dependencies between components cause developers to unknowingly break functionality when making changes.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Modifying untested legacy code is inherently risky and frequently introduces regressions that would have been caught by tests.
+
 ## Detection Methods ○
 - **Bug Tracking Metrics:** Monitor the number of new bugs reported after each release.
 - **Code Churn Analysis:** Analyze the number of times a file is changed. High churn can indicate problematic areas.

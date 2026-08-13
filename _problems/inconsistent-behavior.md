@@ -65,6 +65,7 @@ Inconsistent behavior is a common problem in software systems. It occurs when th
 <br/>  Unpredictable behavior erodes user confidence in the system's reliability and correctness.
 - [Testing Complexity](testing-complexity.md)
 <br/>  Quality assurance must verify the same business process in multiple locations, multiplying testing effort.
+
 ## Causes ▼
 
 - [Code Duplication](code-duplication.md)
@@ -75,6 +76,7 @@ Inconsistent behavior is a common problem in software systems. It occurs when th
 <br/>  Lack of uniform design patterns and standards leads to different implementations of the same business process.
 - [Poor Documentation](poor-documentation.md)
 <br/>  Without documentation of intended behavior, different developers implement the same process differently based on their own assumptions.
+
 ## Detection Methods ○
 - **Integration Testing:** Use integration testing to verify that the system behaves consistently across different parts of the application.
 - **User Acceptance Testing:** Get feedback from users about the system's behavior.

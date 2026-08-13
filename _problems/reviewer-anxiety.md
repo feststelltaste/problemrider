@@ -55,6 +55,7 @@ Reviewer anxiety occurs when team members feel uncertain, intimidated, or anxiou
 <br/>  Anxious reviewers may quickly approve changes to avoid the discomfort of providing potentially wrong or controversial feedback.
 - [Review Process Breakdown](review-process-breakdown.md)
 <br/>  Anxiety leads to superficial reviews that focus on safe, surface-level issues, undermining the overall effectiveness of the review process.
+
 ## Causes ▼
 
 - [Reviewer Inexperience](reviewer-inexperience.md)
@@ -65,6 +66,7 @@ Reviewer anxiety occurs when team members feel uncertain, intimidated, or anxiou
 <br/>  Without mentoring to build reviewing skills and confidence, team members remain anxious about their review capabilities.
 - [Fear of Conflict](fear-of-conflict.md)
 <br/>  Anxious reviewers develop a fear of confrontation, avoiding challenging feedback to minimize their discomfort and potential conflict.
+
 ## Detection Methods ○
 
 - **Review Participation Analysis:** Track which team members actively participate in code reviews

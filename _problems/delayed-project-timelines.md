@@ -58,6 +58,7 @@ Delayed project timelines occur when software projects consistently take longer 
 <br/>  Delayed project timelines directly increase the time it takes for new capabilities to reach the market.
 - [Missed Deadlines](missed-deadlines.md)
 <br/>  Delayed project timelines directly lead to missed deadlines.
+
 ## Causes ▼
 
 - [Poor Planning](poor-planning.md)
@@ -70,6 +71,7 @@ Delayed project timelines occur when software projects consistently take longer 
 <br/>  Constant interruptions from production issues pull developers away from planned work, delaying project progress.
 - [Unrealistic Schedule](unrealistic-schedule.md)
 <br/>  Schedules that don't account for actual complexity and risk set projects up for inevitable delays.
+
 ## Detection Methods ○
 
 - **Timeline Variance Analysis:** Track the difference between planned and actual delivery dates across projects

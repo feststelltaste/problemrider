@@ -51,6 +51,7 @@ Technology isolation occurs when a system's technology stack becomes so outdated
 <br/>  Isolation from modern ecosystems prevents the team from leveraging current tools, libraries, and practices for innovation.
 - [High Maintenance Costs](high-maintenance-costs.md)
 <br/>  Custom solutions must be built for problems that have standard solutions in modern ecosystems, increasing maintenance costs.
+
 ## Causes ▼
 
 - [Obsolete Technologies](obsolete-technologies.md)
@@ -59,6 +60,7 @@ Technology isolation occurs when a system's technology stack becomes so outdated
 <br/>  Being locked into a specific technology stack prevents migration to modern alternatives, deepening isolation.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  An architecture that hasn't evolved prevents adoption of modern technologies and integration patterns.
+
 ## Detection Methods ○
 
 - **Technology Stack Analysis:** Compare current technologies with industry standards and trends

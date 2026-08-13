@@ -69,6 +69,7 @@ Database schema design problems occur when database structures are poorly planne
 <br/>  Time pressure leads to quick-and-dirty schema designs that prioritize immediate needs over long-term data organization.
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
 <br/>  Continuously adding features without refactoring the schema causes tables to bloat with unrelated columns and poor structure.
+
 ## Detection Methods ○
 
 - **Schema Complexity Analysis:** Analyze table structures, relationships, and normalization levels

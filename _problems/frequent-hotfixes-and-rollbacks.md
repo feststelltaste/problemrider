@@ -58,6 +58,7 @@ Frequent hotfixes and rollbacks occur when teams regularly need to deploy emerge
 <br/>  Repeated release failures and rollbacks erode business stakeholders' trust in the development team's ability to deliver.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Constant emergency fixes and rollbacks create stress and interrupt planned work, directly leading to developer frustr....
+
 ## Causes ▼
 
 - [Poor Test Coverage](poor-test-coverage.md)
@@ -70,6 +71,7 @@ Frequent hotfixes and rollbacks occur when teams regularly need to deploy emerge
 <br/>  Lack of thorough integration testing means interactions between components are not verified before release, leading to production failures.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Pressure to release on schedule leads to cutting corners on testing and quality control, resulting in defective releases.
+
 ## Detection Methods ○
 - **Hotfix Frequency Tracking:** Monitor the rate of emergency deployments relative to planned releases
 - **Time Between Release and Issues:** Track how quickly problems are discovered after deployments

@@ -53,6 +53,7 @@ A formal change control process is essential for managing the evolution of a pro
 <br/>  Constantly shifting priorities and growing backlogs from unmanaged changes lead to team exhaustion and frustration.
 - [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
 <br/>  Without formal change evaluation processes, teams default to agreeing to every stakeholder request to avoid conflict.
+
 ## Causes ▼
 
 - [Poor Project Control](poor-project-control.md)
@@ -61,6 +62,7 @@ A formal change control process is essential for managing the evolution of a pro
 <br/>  Organizations with immature development processes often lack the discipline to implement and follow formal change control.
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
 <br/>  When no one is clearly responsible for approving or rejecting changes, all requests flow directly to the development team unchecked.
+
 ## Detection Methods ○
 
 - **Project Audits:** Review project documentation, meeting minutes, and communication logs to see how changes are being managed.

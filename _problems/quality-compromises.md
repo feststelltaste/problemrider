@@ -56,6 +56,7 @@ Quality compromises occur when teams or organizations deliberately accept lower 
 <br/>  Some parts of the system are well-built while areas developed under pressure have notably lower quality.
 - [Quality Blind Spots](quality-blind-spots.md)
 <br/>  Deliberately skipping testing creates systematic gaps in quality verification.
+
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)
@@ -64,6 +65,7 @@ Quality compromises occur when teams or organizations deliberately accept lower 
 <br/>  Insufficient resources make it impossible to maintain quality standards within given constraints.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Continuous urgent work leaves no time for quality practices, forcing teams to take shortcuts.
+
 ## Detection Methods ○
 
 - **Quality Metrics Tracking:** Monitor trends in code quality, test coverage, and defect rates

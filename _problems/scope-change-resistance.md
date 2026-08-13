@@ -54,12 +54,14 @@ Scope change resistance occurs when organizations or teams avoid making necessar
 <br/>  Solutions built to original specifications despite changed understanding fail to fully address the actual problems they were meant to solve.
 - [Wasted Development Effort](wasted-development-effort.md)
 <br/>  Development effort is wasted building features to an outdated scope that no longer aligns with actual requirements.
+
 ## Causes ▼
 
 - [Poor Contract Design](poor-contract-design.md)
 <br/>  Rigid fixed-price contracts make scope changes expensive and procedurally difficult, discouraging necessary adaptations.
 - [Approval Dependencies](approval-dependencies.md)
 <br/>  Extensive approval processes required for scope changes create barriers that discourage teams from pursuing necessary modifications.
+
 ## Detection Methods ○
 
 - **Scope Change Request Analysis:** Track what changes are requested versus what changes are approved

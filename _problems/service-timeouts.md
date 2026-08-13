@@ -50,6 +50,7 @@ Service timeouts occur when a service fails to respond to a request within a spe
 <br/>  Requests waiting for timed-out services contribute to overall application slowness as threads and connections are held open.
 - [Thread Pool Exhaustion](thread-pool-exhaustion.md)
 <br/>  Threads waiting for timed-out downstream services remain blocked, gradually exhausting the thread pool and preventing new request processing.
+
 ## Causes ▼
 
 - [Network Latency](network-latency.md)
@@ -60,6 +61,7 @@ Service timeouts occur when a service fails to respond to a request within a spe
 <br/>  Slow database queries in downstream services cause request processing to exceed timeout limits.
 - [Resource Contention](resource-contention.md)
 <br/>  Overloaded services competing for limited CPU, memory, or I/O resources process requests too slowly, causing timeouts.
+
 ## Detection Methods ○
 
 - **Distributed Tracing:** Use tools like Jaeger or Zipkin to trace requests across service boundaries and identify which service call is timing out.

@@ -53,6 +53,7 @@ Merge conflicts occur when multiple developers simultaneously modify the same po
 <br/>  Manual conflict resolution is error-prone and can introduce bugs when changes are incorrectly merged.
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Complex merge conflicts create integration bottlenecks that delay feature delivery and project completion.
+
 ## Causes ▼
 
 - [Bloated Class](bloated-class.md)
@@ -65,6 +66,7 @@ Merge conflicts occur when multiple developers simultaneously modify the same po
 <br/>  Poor coordination between team members leads to overlapping work on the same code areas without awareness.
 - [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
 <br/>  Large monolithic functions and classes force multiple developers to modify the same files, directly causing merge con....
+
 ## Detection Methods ○
 - **Version Control Analytics:** Monitor merge conflict frequency and resolution time through git statistics
 - **Hotspot Analysis:** Identify files and functions that are modified most frequently across different branches

@@ -66,6 +66,7 @@ Stagnant architecture occurs when a system's fundamental design and structure re
 <br/>  When the architecture can't accommodate new requirements naturally, developers create workarounds that accumulate over time.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Bolting new functionality onto an outdated architecture creates mounting technical debt.
+
 ## Causes ▼
 
 - [Fear of Change](fear-of-change.md)
@@ -78,6 +79,7 @@ Stagnant architecture occurs when a system's fundamental design and structure re
 <br/>  Resistance to change directly causes architecture to stagnate, as teams avoid the modernization and refactoring neede....
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Short-term focus already lists stagnant architecture as a symptom, and management prioritizing features over architec....
+
 ## Detection Methods ○
 
 - **Architecture Review Sessions:** Regular assessment of how well current architecture serves business needs

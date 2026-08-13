@@ -68,6 +68,7 @@ Difficult code comprehension is a situation where developers have a hard time un
 <br/>  Hard-to-comprehend code forces developers to hold excessive context in memory, increasing mental burden.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  When code is hard to comprehend, debugging becomes much harder since developers cannot form accurate mental models.
+
 ## Causes ▼
 
 - [Inconsistent Codebase](inconsistent-codebase.md)
@@ -80,6 +81,7 @@ Difficult code comprehension is a situation where developers have a hard time un
 <br/>  Overly complex business logic embedded in convoluted code structures makes comprehension extremely difficult.
 - [Information Decay](information-decay.md)
 <br/>  Outdated or missing documentation means developers must rely solely on reading code to understand intent.
+
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers if they find the codebase easy to read and understand.
 - **Code Reviews:** Look for code that is difficult to understand and review.

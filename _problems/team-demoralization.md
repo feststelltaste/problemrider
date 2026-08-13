@@ -57,6 +57,7 @@ Team demoralization occurs when team members experience a significant decline in
 <br/>  Demoralized teams stop suggesting improvements or experimenting with new approaches because they feel their efforts don't matter.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  When team members adopt a 'just do the minimum' attitude, code quality suffers as they stop investing extra effort in clean design.
+
 ## Causes ▼
 
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
@@ -65,6 +66,7 @@ Team demoralization occurs when team members experience a significant decline in
 <br/>  Interpersonal conflicts, lack of trust, and structural problems create a toxic environment that demoralizes team members.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Unclear Goals and Priorities directly demoralizes teams through the sense of futility when goals shift and work is ab....
+
 ## Detection Methods ○
 
 - **Team Morale Surveys:** Regular anonymous surveys about job satisfaction and motivation

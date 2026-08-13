@@ -57,6 +57,7 @@ Perfectionist review culture occurs when teams develop an expectation that code 
 <br/>  Developers batch changes or delay submissions to avoid the lengthy review cycles that perfectionist culture creates.
 - [Review Bottlenecks](review-bottlenecks.md)
 <br/>  Perfectionist reviews take so long that the review process becomes a major bottleneck in the development pipeline.
+
 ## Causes ▼
 
 - [Perfectionist Culture](perfectionist-culture.md)
@@ -67,6 +68,7 @@ Perfectionist review culture occurs when teams develop an expectation that code 
 <br/>  Without clear standards for when code is 'good enough', reviewers default to subjective perfectionist standards.
 - [Fear of Failure](fear-of-failure.md)
 <br/>  Reviewers fear that approving imperfect code will lead to production issues, driving them to demand excessive polish.
+
 ## Detection Methods ○
 
 - **Review Termination Analysis:** Track what ends review cycles - functional completeness or reviewer exhaustion

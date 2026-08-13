@@ -51,6 +51,7 @@ Missing end-to-end tests occur when testing strategies focus on individual compo
 <br/>  Integration issues that are not caught by end-to-end tests cause production incidents when users attempt complete workflows.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Users encountering broken workflows despite individual features working leads to loss of trust and dissatisfaction.
+
 ## Causes ▼
 
 - [Testing Complexity](testing-complexity.md)
@@ -59,6 +60,7 @@ Missing end-to-end tests occur when testing strategies focus on individual compo
 <br/>  Tightly coupled or poorly structured code makes it impractical to create end-to-end tests that exercise complete workflows.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Under time pressure, end-to-end tests are often the first testing activity to be cut since they are the most time-consuming to create.
+
 ## Detection Methods ○
 - **User Journey Mapping:** Document complete user workflows and assess test coverage for each journey
 - **Production Issue Analysis:** Track bugs that span multiple system components or user workflow steps

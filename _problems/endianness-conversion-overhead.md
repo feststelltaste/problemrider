@@ -50,6 +50,7 @@ Endianness conversion overhead occurs when applications frequently convert data 
 <br/>  Client applications processing binary data from different architectures consume excessive CPU on byte-order conversions.
 - [Resource Contention](resource-contention.md)
 <br/>  CPU time consumed by endianness conversions competes with actual application processing, especially under high load.
+
 ## Causes ▼
 
 - [Serialization/Deserialization Bottlenecks](serialization-deserialization-bottlenecks.md)
@@ -58,6 +59,7 @@ Endianness conversion overhead occurs when applications frequently convert data 
 <br/>  Poorly designed interfaces that do not standardize byte order force each side to perform redundant conversions.
 - [Technical Architecture Limitations](technical-architecture-limitations.md)
 <br/>  Architecture decisions that mix big-endian and little-endian systems without a clear data format standard create ongoing conversion overhead.
+
 ## Detection Methods ○
 
 - **CPU Profiling:** Profile applications to identify time spent in endianness conversion functions

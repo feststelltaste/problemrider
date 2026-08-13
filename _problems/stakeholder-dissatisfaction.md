@@ -56,6 +56,7 @@ Stakeholder dissatisfaction occurs when business stakeholders, executives, or pr
 <br/>  Unhappy stakeholders demand more oversight and control over development decisions, creating micromanagement.
 - [Declining Business Metrics](declining-business-metrics.md)
 <br/>  Reduced stakeholder engagement and support leads to fewer approved initiatives and declining business performance.
+
 ## Causes ▼
 
 - [Delayed Project Timelines](delayed-project-timelines.md)
@@ -68,6 +69,7 @@ Stakeholder dissatisfaction occurs when business stakeholders, executives, or pr
 <br/>  Frequent production bugs undermine stakeholder satisfaction with development quality.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Consistently slow delivery speed frustrates stakeholders who expect faster turnaround on business needs.
+
 ## Detection Methods ○
 
 - **Stakeholder Satisfaction Surveys:** Regular assessment of stakeholder satisfaction with project progress

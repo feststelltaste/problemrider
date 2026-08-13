@@ -59,6 +59,7 @@ Information decay occurs when documentation, specifications, and knowledge artif
 <br/>  Developers waste time discovering how the system actually works because documentation no longer reflects reality.
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  When documentation becomes outdated, team members develop knowledge gaps because they cannot learn from reliable writ....
+
 ## Causes ▼
 
 - [Poor Documentation](poor-documentation.md)
@@ -69,6 +70,7 @@ Information decay occurs when documentation, specifications, and knowledge artif
 <br/>  Under delivery pressure, documentation updates are deprioritized in favor of feature development, accelerating decay.
 - [High Turnover](high-turnover.md)
 <br/>  When knowledgeable team members leave, institutional knowledge about documentation accuracy and gaps is lost.
+
 ## Detection Methods ○
 
 - **Documentation Freshness Audit:** Track when documentation was last updated relative to system changes

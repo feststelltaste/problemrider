@@ -52,12 +52,14 @@ Vendor dependency entrapment occurs when legacy systems become critically depend
 <br/>  The system becomes isolated on discontinued technology that cannot integrate with modern tools and platforms.
 - [Legacy Skill Shortage](legacy-skill-shortage.md)
 <br/>  As vendor products are discontinued, fewer professionals maintain skills in those technologies, making talent scarce.
+
 ## Causes ▼
 
 - [Vendor Lock-In](vendor-lock-in.md)
 <br/>  Deep integration with vendor-specific technologies makes it impossible to adapt when the vendor discontinues products.
 - [Vendor Dependency](vendor-dependency.md)
 <br/>  Excessive reliance on a single vendor creates vulnerability when that vendor changes strategy or discontinues products.
+
 ## Detection Methods ○
 
 - Monitor vendor product roadmaps and end-of-life announcements for all critical system dependencies

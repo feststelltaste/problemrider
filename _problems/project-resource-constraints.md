@@ -54,6 +54,7 @@ Project resource constraints occur when projects cannot secure the human, financ
 <br/>  Resource-constrained teams resist scope additions because they already lack capacity for existing work.
 - [Increased Technical Shortcuts](increased-technical-shortcuts.md)
 <br/>  Teams take technical shortcuts to compensate for insufficient personnel and time.
+
 ## Causes ▼
 
 - [Competing Priorities](competing-priorities.md)
@@ -62,6 +63,7 @@ Project resource constraints occur when projects cannot secure the human, financ
 <br/>  Without executive sponsorship, resource requests are deprioritized or denied.
 - [Poor Planning](poor-planning.md)
 <br/>  Inadequate resource planning during project inception leads to chronic under-resourcing.
+
 ## Detection Methods ○
 
 - **Resource Request Success Rate:** Track percentage of project resource requests that are approved

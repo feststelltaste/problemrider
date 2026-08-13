@@ -55,6 +55,7 @@ Review process avoidance occurs when team members actively look for ways to bypa
 <br/>  Code that skips review doesn't get checked for standard compliance, leading to inconsistent coding practices across the codebase.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  Bypassing reviews eliminates a key knowledge-sharing mechanism, allowing code knowledge to remain siloed with the original author.
+
 ## Causes ▼
 
 - [Review Bottlenecks](review-bottlenecks.md)
@@ -65,6 +66,7 @@ Review process avoidance occurs when team members actively look for ways to bypa
 <br/>  Deadline pressure makes the review process feel like an unaffordable delay, motivating developers to bypass it.
 - [Reviewer Anxiety](reviewer-anxiety.md)
 <br/>  When reviewers are anxious and provide superficial or unhelpful feedback, authors see little value in the review process and avoid it.
+
 ## Detection Methods ○
 
 - **Review Bypass Tracking:** Monitor commits, deployments, or changes that circumvent normal review processes

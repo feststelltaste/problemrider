@@ -57,6 +57,7 @@ Implementation rework occurs when completed features or system components must b
 <br/>  Rework doubles or triples the effective cost of features since they must be built multiple times.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Repeatedly having work discarded and redone is demoralizing and frustrating for developers.
+
 ## Causes ▼
 
 - [Assumption-Based Development](assumption-based-development.md)
@@ -67,6 +68,7 @@ Implementation rework occurs when completed features or system components must b
 <br/>  Ambiguous or incomplete requirements lead to misinterpretations that only surface when the implementation is reviewed or tested.
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
 <br/>  Without regular stakeholder feedback during development, teams may build features that don't match actual business needs.
+
 ## Detection Methods ○
 
 - **Rework Tracking:** Monitor percentage of completed work that requires significant changes or rebuilding

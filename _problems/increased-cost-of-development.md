@@ -48,6 +48,7 @@ Increased cost of development occurs when the total expense of building and main
 <br/>  Higher development costs correlate with slower delivery, as more resources are spent on maintenance rather than new features.
 - [Declining Business Metrics](declining-business-metrics.md)
 <br/>  Rising development costs reduce the ability to invest in features that drive business growth, impacting key metrics.
+
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)
@@ -58,6 +59,7 @@ Increased cost of development occurs when the total expense of building and main
 <br/>  Rising maintenance burden consumes development budget that would otherwise go to productive feature work.
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  A fragile codebase requires extensive testing and risk mitigation for even simple changes, driving up costs.
+
 ## Detection Methods ○
 - **Cost Per Feature Tracking:** Monitor the total cost to deliver similar features over time
 - **Maintenance vs. Development Ratio:** Track what percentage of resources goes to maintenance vs. new development

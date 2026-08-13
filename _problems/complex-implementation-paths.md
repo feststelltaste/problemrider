@@ -58,6 +58,7 @@ Complex implementation paths occur when straightforward business requirements mu
 <br/>  Developers become demoralized when they must build elaborate solutions for simple requirements, feeling their effort is disproportionate to the business value delivered.
 - [Increased Cost of Development](increased-cost-of-development.md)
 <br/>  The mismatch between simple requirements and complex implementations inflates development costs well beyond what the business value warrants.
+
 ## Causes ▼
 
 - [Architectural Mismatch](architectural-mismatch.md)
@@ -68,6 +69,7 @@ Complex implementation paths occur when straightforward business requirements mu
 <br/>  Tightly coupled components mean that implementing a simple feature requires modifying many interdependent parts of the system.
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  Monolithic codebases force developers to navigate through large, intertwined systems to implement features that should be isolated changes.
+
 ## Detection Methods ○
 
 - **Implementation Complexity Analysis:** Compare business requirement complexity with technical implementation complexity

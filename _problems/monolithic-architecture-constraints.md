@@ -93,6 +93,7 @@ Monolithic architecture constraints occur when applications are built as single,
 <br/>  Teams lacking architectural design skills fail to identify when a monolith should be decomposed into separate services.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Prioritizing quick feature delivery over architectural investment allows the monolith to grow without addressing structural concerns.
+
 ## Detection Methods ○
 
 - **Codebase Size Analysis:** Monitor codebase growth and complexity metrics

@@ -53,6 +53,7 @@ Review bottlenecks occur when the code review process consistently slows down th
 <br/>  Features and fixes that are ready but stuck in review queues cannot reach users, delaying value delivery.
 - [Author Frustration](author-frustration.md)
 <br/>  Developers become frustrated when their completed work sits idle in review queues for extended periods.
+
 ## Causes ▼
 
 - [Reduced Review Participation](reduced-review-participation.md)
@@ -63,6 +64,7 @@ Review bottlenecks occur when the code review process consistently slows down th
 <br/>  Requirements for specific individuals to approve changes create bottlenecks when those individuals are unavailable.
 - [Time Pressure](time-pressure.md)
 <br/>  Under time pressure, developers prioritize their own tasks over reviewing others' code, allowing review queues to grow.
+
 ## Detection Methods ○
 - **Pull Request Lead Time:** Track the time it takes from when a pull request is created to when it is merged.
 - **Reviewer Load:** Analyze the number of pull requests that are assigned to each reviewer.

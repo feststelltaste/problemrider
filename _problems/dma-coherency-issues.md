@@ -47,6 +47,7 @@ DMA coherency issues occur when Direct Memory Access devices and the CPU have di
 <br/>  Workarounds like excessive cache flushing or invalidation to address coherency issues progressively degrade system performance.
 - [Increased Error Rates](increased-error-rates.md)
 <br/>  Inconsistent memory views between CPU and DMA devices lead to sporadic errors in I/O operations, network processing, and data transfers.
+
 ## Causes ▼
 
 - [False Sharing](false-sharing.md)
@@ -55,6 +56,7 @@ DMA coherency issues occur when Direct Memory Access devices and the CPU have di
 <br/>  Failure to properly manage cache coherency for DMA-accessible memory regions, such as not using uncacheable mappings or proper flush/invalidate operations, leads to coherency issues.
 - [Alignment and Padding Issues](alignment-and-padding-issues.md)
 <br/>  Poor memory alignment of DMA buffers can cause them to share cache lines with non-DMA data, creating coherency conflicts.
+
 ## Detection Methods ○
 
 - **DMA Operation Monitoring:** Monitor DMA transfers and their interaction with CPU cache

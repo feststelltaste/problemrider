@@ -53,6 +53,7 @@ Buffer overflow vulnerabilities occur when a program writes more data to a buffe
 <br/>  A buffer overflow crash in a shared service can trigger failures across dependent components.
 - [Data Protection Risk](data-protection-risk.md)
 <br/>  Buffer overflow vulnerabilities can be exploited to access sensitive data in memory, directly creating data protectio....
+
 ## Causes ▼
 
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
@@ -63,6 +64,7 @@ Buffer overflow vulnerabilities occur when a program writes more data to a buffe
 <br/>  Code reviews that don't specifically check for memory safety issues allow buffer overflow vulnerabilities to pass through.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without knowledge of memory safety and secure coding practices are more likely to write code with buffer o....
+
 ## Detection Methods ○
 
 - **Static Analysis Tools:** Use tools that can identify potential buffer overflow vulnerabilities in source code

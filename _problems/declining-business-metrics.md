@@ -56,6 +56,7 @@ Declining business metrics represents the measurable deterioration of key busine
 <br/>  Sustained decline in business metrics reflects poorly on the brand, as users associate the product with poor quality.
 - [Project Resource Constraints](project-resource-constraints.md)
 <br/>  Poor business metrics make it harder to secure funding and resources for development initiatives, creating a downward spiral.
+
 ## Causes ▼
 
 - [Slow Application Performance](slow-application-performance.md)
@@ -68,6 +69,7 @@ Declining business metrics represents the measurable deterioration of key busine
 <br/>  Confusing or frustrating user interfaces drive down user engagement, conversion rates, and retention metrics.
 - [Missed Deadlines](missed-deadlines.md)
 <br/>  Consistently missing delivery commitments erodes stakeholder confidence and delays revenue-generating features.
+
 ## Detection Methods ○
 
 - **Business Intelligence (BI) Dashboards:** Monitor key performance indicators (KPIs) such as conversion rates, daily active users (DAU), session duration, and revenue.

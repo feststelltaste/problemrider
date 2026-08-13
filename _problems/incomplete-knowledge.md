@@ -52,6 +52,7 @@ Incomplete knowledge is a common problem in software development. It occurs when
 <br/>  Changes made without awareness of all affected locations inadvertently break functionality in unknown parts of the system.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Developers working with incomplete understanding of the system are more likely to introduce defects.
+
 ## Causes ▼
 
 - [Poor Documentation](poor-documentation.md)
@@ -62,6 +63,7 @@ Incomplete knowledge is a common problem in software development. It occurs when
 <br/>  Frequent team member departures result in loss of institutional knowledge about system structure and logic locations.
 - [Code Duplication](code-duplication.md)
 <br/>  Extensive code duplication across the codebase makes it inherently difficult for any developer to know all locations where similar logic exists.
+
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers about their knowledge of the system.
 - **Code Reviews:** Code reviews are a great way to identify knowledge gaps.

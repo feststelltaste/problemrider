@@ -50,6 +50,7 @@ Budget overruns are a common problem in software development. They occur when th
 <br/>  Budget pressure creates stress and blame dynamics that erode team morale and motivation.
 - [Increased Technical Shortcuts](increased-technical-shortcuts.md)
 <br/>  Budget pressure forces teams to cut corners on quality and take technical shortcuts to reduce costs.
+
 ## Causes ▼
 
 - [Scope Creep](scope-creep.md)
@@ -58,6 +59,7 @@ Budget overruns are a common problem in software development. They occur when th
 <br/>  Inadequate initial planning leads to unrealistic budget estimates that don't account for actual complexity.
 - [High Maintenance Costs](high-maintenance-costs.md)
 <br/>  Excessive maintenance overhead on legacy systems diverts budget from planned development work.
+
 ## Detection Methods ○
 - **Track Project Costs:** Keep a log of all project costs and see how they are tracking against the budget.
 - **Earned Value Management:** Use earned value management to track the project's progress against the budget.

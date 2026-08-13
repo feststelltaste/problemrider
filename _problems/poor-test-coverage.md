@@ -69,6 +69,7 @@ Poor test coverage occurs when significant portions of the codebase, particularl
 <br/>  Poor test coverage allows bugs to reach production, which causes constant firefighting.
 - [Quality Blind Spots](quality-blind-spots.md)
 <br/>  Gaps in test coverage directly create areas where defects go undetected.
+
 ## Causes ▼
 
 - [Deadline Pressure](deadline-pressure.md)
@@ -79,6 +80,7 @@ Poor test coverage occurs when significant portions of the codebase, particularl
 <br/>  Inherited legacy codebases that lack tests make it very difficult to add coverage incrementally.
 - [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
 <br/>  Lack of proper testing tools and infrastructure makes writing and running tests prohibitively difficult.
+
 ## Detection Methods ○
 - **Code Coverage Analysis:** Use tools to measure what percentage of code is executed by tests
 - **Critical Path Identification:** Map business-critical functionality and assess its test coverage

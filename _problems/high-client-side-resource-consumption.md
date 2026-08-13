@@ -56,6 +56,7 @@ High client-side resource consumption can lead to a poor user experience. This c
 <br/>  Users complain about slow performance, hot devices, and battery drain caused by resource-heavy client applications.
 - [User Frustration](user-frustration.md)
 <br/>  Users become dissatisfied when the application makes their device slow, hot, or drains battery quickly.
+
 ## Causes ▼
 
 - [Inefficient Frontend Code](inefficient-frontend-code.md)
@@ -66,6 +67,7 @@ High client-side resource consumption can lead to a poor user experience. This c
 <br/>  Event listeners that are never removed accumulate over time, consuming memory and CPU resources on the client.
 - [Inefficient Code](inefficient-code.md)
 <br/>  Computationally expensive client-side code, such as large loops or complex rendering logic, consumes excessive CPU resources.
+
 ## Detection Methods ○
 
 - **Browser Developer Tools:** Use the Performance, Memory, and Network tabs in browser developer tools to profile CPU usage, memory consumption, and network activity.

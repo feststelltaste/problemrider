@@ -61,6 +61,7 @@ A Feature Factory is an anti-pattern where organizations become obsessed with ou
 <br/>  Features shipped without validation often go unused, representing significant wasted development effort.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Shipping features that do not solve real user problems leads to user frustration and declining satisfaction.
+
 ## Causes ▼
 
 - [Short-Term Focus](short-term-focus.md)
@@ -71,6 +72,7 @@ A Feature Factory is an anti-pattern where organizations become obsessed with ou
 <br/>  Without clear strategic goals, teams default to measuring success by feature volume rather than business outcomes.
 - [Market Pressure](market-pressure.md)
 <br/>  Competitive pressure drives organizations to prioritize shipping features quickly over validating their value.
+
 ## Detection Methods ○
 
 - **Outcome vs Output Analysis:** Compare feature release frequency against business metrics like user engagement, revenue growth, or customer satisfaction scores.

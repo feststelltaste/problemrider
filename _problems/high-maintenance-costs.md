@@ -58,6 +58,7 @@ High maintenance costs are a common problem for legacy systems. As a system ages
 <br/>  Developers become frustrated working primarily on maintenance of aging systems rather than building new things, leading them to leave.
 - [Maintenance Paralysis](maintenance-paralysis.md)
 <br/>  When maintenance costs dominate the budget, the system enters a state where meaningful improvements become impossible.
+
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)
@@ -66,6 +67,7 @@ High maintenance costs are a common problem for legacy systems. As a system ages
 <br/>  High coupling between components means changes in one area cascade throughout the system, multiplying maintenance effort.
 - [Poor Documentation](poor-documentation.md)
 <br/>  Without proper documentation, developers spend excessive time understanding system behavior before they can make changes.
+
 ## Detection Methods ○
 - **Cost of Ownership Analysis:** Calculate the total cost of owning and maintaining the system over its lifetime. This will give you a clear picture of the financial impact of the system.
 - **Maintenance vs. New Development Ratio:** Track the percentage of the development budget that is spent on maintenance versus new development. A high ratio is a clear sign of a problem.

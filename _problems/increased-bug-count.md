@@ -59,6 +59,7 @@ Increased bug count occurs when software changes consistently introduce new defe
 <br/>  When changes consistently introduce bugs, developers become hesitant to modify the codebase.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
 <br/>  More bugs introduced during development translate directly into more defects discovered in the live environment.
+
 ## Causes ▼
 
 - [Increasing Brittleness](increasing-brittleness.md)
@@ -71,6 +72,7 @@ Increased bug count occurs when software changes consistently introduce new defe
 <br/>  When developers struggle to understand the code, they are more likely to make mistakes that introduce bugs.
 - [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Insufficient code review allows bugs to pass through the development process undetected, directly contributing to inc....
+
 ## Detection Methods ○
 
 - **Bug Tracking Analysis:** Monitor bug report trends, severity distributions, and time-to-resolution metrics

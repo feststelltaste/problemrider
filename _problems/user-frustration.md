@@ -95,6 +95,7 @@ User frustration occurs when software systems consistently fail to meet user exp
 <br/>  User frustration translates directly into overall customer dissatisfaction and potential churn.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  When users are frustrated, stakeholders who depend on user adoption become frustrated with the product team.
+
 ## Causes ▼
 
 - [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
@@ -107,6 +108,7 @@ User frustration occurs when software systems consistently fail to meet user exp
 <br/>  Sluggish system response times frustrate users who must wait for basic operations to complete.
 - [User Confusion](user-confusion.md)
 <br/>  Users who are confused by the system become frustrated when they cannot accomplish their goals.
+
 ## Detection Methods ○
 
 - **User Satisfaction Surveys:** Regular surveys about user experience and satisfaction

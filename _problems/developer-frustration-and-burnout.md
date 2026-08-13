@@ -52,6 +52,7 @@ Developer frustration and burnout is a state of emotional, physical, and mental 
 <br/>  Burned-out teams lack the energy and motivation to explore new approaches or propose improvements.
 - [Team Demoralization](team-demoralization.md)
 <br/>  Individual burnout spreads through the team as negative attitudes and disengagement become contagious.
+
 ## Causes ▼
 
 - [Constant Firefighting](constant-firefighting.md)
@@ -66,6 +67,7 @@ Developer frustration and burnout is a state of emotional, physical, and mental 
 <br/>  Being micromanaged strips developers of autonomy and professional satisfaction, contributing to frustration.
 - [Development Disruption](development-disruption.md)
 <br/>  Constant development disruptions frustrate developers and contribute to burnout.
+
 ## Detection Methods ○
 - **One-on-One Meetings:** Managers should have regular, open, and honest conversations with their team members to gauge their well-being.
 - **Team Retrospectives:** Use retrospectives as a safe space for the team to voice their frustrations and concerns.

@@ -76,10 +76,12 @@ A communication gap between stakeholders and developers is a common source of pr
 <br/>  The communication gap between stakeholders and developers isolates the team from regular feedback, widening the disconnect over time.
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
 <br/>  The communication gap between stakeholders and developers leads to insufficient requirements gathering as teams cannot effectively elicit and validate needs.
+
 ## Causes ▼
 
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  Lack of domain knowledge prevents developers from understanding stakeholder terminology and business context.
+
 ## Detection Methods ○
 
 - **Regular Demos and Feedback Sessions:** Hold frequent sessions where the development team demos their work to stakeholders and gets immediate feedback.

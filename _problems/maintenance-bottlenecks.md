@@ -53,6 +53,7 @@ A maintenance bottleneck occurs when a small number of developers, or even a sin
 <br/>  Bug fixes and improvements are delayed because they must wait for the limited bottleneck developers to be available.
 - [Work Blocking](work-blocking.md)
 <br/>  Other team members are blocked from making progress on tasks that touch the bottlenecked system components.
+
 ## Causes ▼
 
 - [Knowledge Silos](knowledge-silos.md)
@@ -63,6 +64,7 @@ A maintenance bottleneck occurs when a small number of developers, or even a sin
 <br/>  When a system uses obsolete technologies, few developers have the required skills to maintain it.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Complex, poorly documented code discourages other developers from learning and working on the system.
+
 ## Detection Methods ○
 - **Bus Factor Analysis:** Identify the key developers who are the only ones who know how to work on a critical part of the system.
 - **Code Ownership Analysis:** Use tools to identify the developers who have made the most changes to a specific part of the system.

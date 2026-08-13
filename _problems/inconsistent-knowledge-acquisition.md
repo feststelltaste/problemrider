@@ -57,6 +57,7 @@ Inconsistent knowledge acquisition occurs when new team members receive differen
 <br/>  Only specific people can handle certain tasks because knowledge was unevenly distributed during acquisition.
 - [Uneven Workload Distribution](uneven-workload-distribution.md)
 <br/>  Tasks are assigned based on who knows what rather than availability, creating imbalanced workloads.
+
 ## Causes ▼
 
 - [Inconsistent Onboarding Experience](inconsistent-onboarding-experience.md)
@@ -65,6 +66,7 @@ Inconsistent knowledge acquisition occurs when new team members receive differen
 <br/>  Without a systematic mentoring approach, what new hires learn depends heavily on their individual mentor's expertise and style.
 - [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
 <br/>  Ineffective knowledge sharing means new hires cannot supplement their mentor-dependent learning with broader team knowledge.
+
 ## Detection Methods ○
 
 - **Knowledge Mapping:** Survey team members to identify what each person knows and doesn't know about different system areas

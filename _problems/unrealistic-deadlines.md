@@ -59,6 +59,7 @@ Unrealistic deadlines occur when project timelines are set without proper consid
 <br/>  Rushing to meet unrealistic deadlines causes developers to skip testing and introduce more bugs.
 - [Time Pressure](time-pressure.md)
 <br/>  External business pressures from stakeholders push management to commit to aggressive timelines regardless of technical feasibility.
+
 ## Causes ▼
 
 - [Poor Planning](poor-planning.md)
@@ -67,6 +68,7 @@ Unrealistic deadlines occur when project timelines are set without proper consid
 <br/>  When requirements are vague, effort estimation is inaccurate, making any deadline based on those estimates unrealistic.
 - [Market Pressure](market-pressure.md)
 <br/>  Market pressure is already listed as a cause of Time Pressure but is also a direct cause of unrealistic deadlines whe....
+
 ## Detection Methods ○
 
 - **Estimate vs. Deadline Analysis:** Compare development estimates with imposed deadlines

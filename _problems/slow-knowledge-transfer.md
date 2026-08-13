@@ -52,6 +52,7 @@ Slow knowledge transfer is a situation where it takes a long time for new team m
 <br/>  Frustrating onboarding experiences due to poor knowledge transfer can drive new team members to leave.
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  Slow transfer means new members develop incomplete understanding, leaving persistent gaps in their knowledge.
+
 ## Causes ▼
 
 - [Poor Documentation](poor-documentation.md)
@@ -64,6 +65,7 @@ Slow knowledge transfer is a situation where it takes a long time for new team m
 <br/>  Code that is hard to understand makes it much harder for new team members to learn the system independently.
 - [Inadequate Onboarding](inadequate-onboarding.md)
 <br/>  Inadequate onboarding processes directly cause slow knowledge transfer as new team members lack structured pathways t....
+
 ## Detection Methods ○
 - **Onboarding Time:** Measure the time it takes for new team members to become productive.
 - **Developer Surveys:** Ask new team members about their onboarding experience.

@@ -59,6 +59,7 @@ Increasing brittleness occurs when software systems become progressively more fr
 <br/>  Frequent unexpected failures from brittleness keep teams in reactive mode, responding to cascading issues.
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
 <br/>  A brittle codebase where small changes have unpredictable effects directly leads to developers providing large estima....
+
 ## Causes ▼
 
 - [Tight Coupling Issues](tight-coupling-issues.md)
@@ -71,6 +72,7 @@ Increasing brittleness occurs when software systems become progressively more fr
 <br/>  Without comprehensive tests, regressions go undetected as changes are made, allowing brittleness to grow.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Low-quality code with unclear contracts and poor structure becomes increasingly fragile as it evolves.
+
 ## Detection Methods ○
 
 - **Failure Rate Tracking:** Monitor the frequency of system failures and their relationship to recent changes

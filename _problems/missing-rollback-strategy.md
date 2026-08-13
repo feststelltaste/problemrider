@@ -57,6 +57,7 @@ Deployment Risk occurs when teams deploy systems without having a reliable, test
 <br/>  Deployment anxiety from missing rollback leads teams to batch changes into fewer, larger releases that are even riskier.
 - [Release Anxiety](release-anxiety.md)
 <br/>  Without a tested rollback strategy, every deployment becomes a high-stakes event since problems cannot be easily reve....
+
 ## Causes ▼
 
 - [Manual Deployment Processes](manual-deployment-processes.md)
@@ -65,6 +66,7 @@ Deployment Risk occurs when teams deploy systems without having a reliable, test
 <br/>  Overly complex deployment processes make it impractical to define and test rollback steps for every component.
 - [Immature Delivery Strategy](immature-delivery-strategy.md)
 <br/>  Organizations with immature delivery practices often lack the discipline to plan and test rollback strategies as part of deployment.
+
 ## Detection Methods ○
 
 - Review deployment documentation for rollback procedure coverage

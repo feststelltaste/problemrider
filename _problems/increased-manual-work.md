@@ -52,6 +52,7 @@ Increased manual work occurs when developers must perform repetitive, routine ta
 <br/>  Manual processes are inherently prone to variation, producing inconsistent outcomes across team members and time.
 - [Reduced Individual Productivity](reduced-individual-productivity.md)
 <br/>  Developers accomplish less meaningful work because a large portion of their time goes to repetitive manual tasks.
+
 ## Causes ▼
 
 - [Inefficient Processes](inefficient-processes.md)
@@ -62,6 +63,7 @@ Increased manual work occurs when developers must perform repetitive, routine ta
 <br/>  Non-automated deployment processes are a major source of repetitive manual work for development teams.
 - [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
 <br/>  Missing automation tools force developers to perform testing and verification tasks manually.
+
 ## Detection Methods ○
 
 - **Time Tracking Analysis:** Monitor how much time developers spend on repetitive tasks

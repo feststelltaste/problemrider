@@ -90,6 +90,7 @@ Integration difficulties arise when systems cannot easily connect with external 
 <br/>  Inability to easily integrate with modern services puts the organization at a disadvantage against competitors with more flexible systems.
 - [Technology Isolation](technology-isolation.md)
 <br/>  Integration difficulties prevent the system from connecting with the broader technology ecosystem.
+
 ## Causes ▼
 
 - [Obsolete Technologies](obsolete-technologies.md)
@@ -100,6 +101,7 @@ Integration difficulties arise when systems cannot easily connect with external 
 <br/>  Tightly coupled internal components make it difficult to add clean integration points for external services.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  An architecture that has not evolved over time falls behind modern integration standards and patterns.
+
 ## Detection Methods ○
 
 - **Integration Time Tracking:** Monitor time required for integration projects vs. business value delivered

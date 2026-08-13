@@ -82,6 +82,7 @@ Legacy code without tests refers to existing production systems that were built 
 <br/>  Overly coupled components cannot be tested in isolation, making it impractical to add tests to legacy code.
 - [Rapid Prototyping Becoming Production](rapid-prototyping-becoming-production.md)
 <br/>  Prototype code that was never intended to be permanent entered production without tests and was never retroactively tested.
+
 ## Detection Methods ○
 - **Code Coverage Analysis:** Measure test coverage for different parts of the system to identify untested legacy areas
 - **Code Age Analysis:** Identify older code sections that were written before testing practices were established

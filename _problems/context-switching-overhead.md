@@ -55,6 +55,7 @@ Context switching overhead occurs when developers are forced to frequently switc
 <br/>  The cumulative overhead of frequent context switches reduces the team's overall throughput and delivery pace.
 - [Cognitive Overload](cognitive-overload.md)
 <br/>  Managing multiple different mental models, tools, and workflows simultaneously overwhelms developers' working memory.
+
 ## Causes ▼
 
 - [Constant Firefighting](constant-firefighting.md)
@@ -65,6 +66,7 @@ Context switching overhead occurs when developers are forced to frequently switc
 <br/>  Maintaining systems across many different technology stacks forces developers to switch between different languages, frameworks, and tools.
 - [Priority Thrashing](priority-thrashing.md)
 <br/>  Frequently changing work priorities force developers to abandon current tasks and switch to new ones repeatedly.
+
 ## Detection Methods ○
 
 - **Time Tracking Analysis:** Monitor how often developers switch between different types of tasks

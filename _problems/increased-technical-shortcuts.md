@@ -55,6 +55,7 @@ Increased technical shortcuts occurs when development teams consistently choose 
 <br/>  Shortcuts create fragile code with hidden dependencies and incomplete implementations, making the system more prone to breaking.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Hastily written code without proper design or testing increases the likelihood of defects.
+
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)
@@ -65,6 +66,7 @@ Increased technical shortcuts occurs when development teams consistently choose 
 <br/>  Exhausted developers lack the energy to implement proper solutions and default to quick fixes.
 - [Workaround Culture](workaround-culture.md)
 <br/>  An organizational culture that normalizes quick fixes makes shortcuts the expected approach rather than the exception.
+
 ## Detection Methods ○
 
 - **Code Review Analysis:** Monitor comments and patterns indicating shortcuts in code reviews

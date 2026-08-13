@@ -87,6 +87,7 @@ Slow application performance is a broad problem that can have a wide range of ca
 
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Users become dissatisfied when the application is slow and unresponsive, leading to complaints and churn.
+
 ## Causes ▼
 
 - [Slow Database Queries](slow-database-queries.md)
@@ -99,6 +100,7 @@ Slow application performance is a broad problem that can have a wide range of ca
 <br/>  Inefficient algorithms consume excessive resources and cause operations to take far longer than necessary.
 - [Network Latency](network-latency.md)
 <br/>  High network latency between application components adds delays that users perceive as slow performance.
+
 ## Detection Methods ○
 
 - **Real User Monitoring (RUM):** Use RUM tools to measure the actual performance experienced by users.

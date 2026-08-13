@@ -56,6 +56,7 @@ CV Driven Development occurs when technical decisions are made primarily to add 
 <br/>  When technologies are chosen for resume value rather than team expertise, most team members lack the knowledge to work with them effectively.
 - [Technology Stack Fragmentation](technology-stack-fragmentation.md)
 <br/>  Different developers introducing their preferred resume-building technologies creates a fragmented stack with many incompatible tools.
+
 ## Causes ▼
 
 - [Individual Recognition Culture](individual-recognition-culture.md)
@@ -66,6 +67,7 @@ CV Driven Development occurs when technical decisions are made primarily to add 
 <br/>  Competitive job market pressure motivates developers to build their resumes with trendy technologies to improve their career prospects.
 - [High Turnover](high-turnover.md)
 <br/>  Developers who chose technologies for their resumes leave once they have gained enough experience to list them, taking critical knowledge with them.
+
 ## Detection Methods ○
 
 - Review technical decision documentation for business justification versus technology benefits

@@ -54,6 +54,7 @@ An increased error rate is a clear sign that something is wrong with an applicat
 <br/>  Users encountering errors contact support, driving up ticket volume.
 - [Negative User Feedback](negative-user-feedback.md)
 <br/>  Users experiencing frequent errors provide negative feedback about system reliability and quality.
+
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
@@ -68,6 +69,7 @@ An increased error rate is a clear sign that something is wrong with an applicat
 <br/>  Elevated error rates often accompany cascading failures that cause service timeouts across dependent systems.
 - [Release Instability](release-instability.md)
 <br/>  Spikes in error rates after deployments indicate releases are unstable and causing production problems.
+
 ## Detection Methods ○
 
 - **Application Performance Monitoring (APM):** APM tools track error rates and can often pinpoint the exact line of code or service causing the error.

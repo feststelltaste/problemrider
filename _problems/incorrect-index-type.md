@@ -52,12 +52,14 @@ Choosing the correct type of index is crucial for database performance. Differen
 <br/>  As data volume grows, incorrectly typed indexes become increasingly inefficient, causing performance to degrade over time.
 - [Inefficient Database Indexing](inefficient-database-indexing.md)
 <br/>  Using incorrect index types directly contributes to overall inefficient database indexing and poor query performance.
+
 ## Causes ▼
 
 - [Incomplete Knowledge](incomplete-knowledge.md)
 <br/>  Developers may not understand the differences between index types and their appropriate use cases for different query patterns.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Without performance tests, incorrect index types go undetected as query patterns evolve over time.
+
 ## Detection Methods ○
 
 - **Query Execution Plan Analysis:** This is the most crucial method. Use `EXPLAIN` or `EXPLAIN ANALYZE` to see which indexes are being used and how efficiently. Look for `Seq Scan` or `Full Table Scan` where an index should be used, or `Index Scan` that is still very slow.

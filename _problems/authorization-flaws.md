@@ -62,6 +62,7 @@ Authorization flaws occur when access control mechanisms fail to properly restri
 <br/>  Users lose trust when they discover others can access their data due to authorization flaws.
 - [Legal Disputes](legal-disputes.md)
 <br/>  Authorization flaws allowing unauthorized access to sensitive data can trigger legal action from affected parties.
+
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
@@ -72,6 +73,7 @@ Authorization flaws occur when access control mechanisms fail to properly restri
 <br/>  Without thorough authorization testing, access control flaws go undetected until exploited.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without security experience may implement incomplete or incorrect authorization checks.
+
 ## Detection Methods ○
 
 - **Access Control Testing:** Test all protected resources and functions for proper authorization

@@ -53,6 +53,7 @@ Poor teamwork manifests when team members fail to collaborate effectively, work 
 <br/>  Lack of collaboration prevents synergistic benefits, making the team less productive than the sum of its parts.
 - [High Turnover](high-turnover.md)
 <br/>  Dysfunctional team dynamics and interpersonal conflicts drive skilled developers to leave the organization.
+
 ## Causes ▼
 
 - [Blame Culture](blame-culture.md)
@@ -63,6 +64,7 @@ Poor teamwork manifests when team members fail to collaborate effectively, work 
 <br/>  Excessive micromanagement destroys team trust and autonomy, discouraging open collaboration.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Without shared goals, team members pursue different objectives, creating misalignment and conflict.
+
 ## Detection Methods ○
 
 - **Team Collaboration Assessment:** Evaluate frequency and quality of team interactions

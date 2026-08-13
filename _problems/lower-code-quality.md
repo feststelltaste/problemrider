@@ -54,6 +54,7 @@ Lower code quality occurs when various pressures and circumstances cause develop
 <br/>  Code written without proper care, testing, or design is more fragile and likely to cause regressions when modified.
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  Poor quality code with missing error handling, weak abstractions, and poor structure becomes increasingly fragile over time.
+
 ## Causes ▼
 
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
@@ -68,6 +69,7 @@ Lower code quality occurs when various pressures and circumstances cause develop
 <br/>  When code reviews fail to catch quality issues, lower quality code gets merged unchallenged, normalizing poor standards.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Inexperienced developers lacking knowledge of best practices naturally produce lower quality code with more defects a....
+
 ## Detection Methods ○
 - **Static Code Analysis:** Use automated tools to measure code quality metrics over time
 - **Code Review Metrics:** Track the number and types of issues found during code reviews

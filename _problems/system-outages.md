@@ -106,6 +106,7 @@ System outages occur when software systems become unavailable, unresponsive, or 
 <br/>  Users contact support during and after outages, significantly increasing support volume.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Unreliable systems drive users to more stable competitors who can provide consistent service availability.
+
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
@@ -120,6 +121,7 @@ System outages occur when software systems become unavailable, unresponsive, or 
 <br/>  Leaked database connections exhaust connection pools, preventing the application from functioning.
 - [Monitoring Gaps](monitoring-gaps.md)
 <br/>  Lack of monitoring allows problems to escalate into full outages because degrading conditions are not detected early ....
+
 ## Detection Methods ○
 
 - **Availability Monitoring:** Track system uptime and availability percentages

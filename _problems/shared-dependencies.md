@@ -54,6 +54,7 @@ Shared dependencies is a situation where multiple components or services share a
 <br/>  Updating a shared dependency can have unexpected effects across all components that consume it, creating widespread ripple effects.
 - [Maintenance Bottlenecks](maintenance-bottlenecks.md)
 <br/>  Changes to shared libraries require coordination across all consuming teams, creating bottlenecks in the maintenance process.
+
 ## Causes ▼
 
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
@@ -62,6 +63,7 @@ Shared dependencies is a situation where multiple components or services share a
 <br/>  Reusing existing shared libraries is the path of least resistance for new components, even when it creates problematic coupling.
 - [Code Duplication](code-duplication.md)
 <br/>  Fear of code duplication drives teams to share libraries rather than allowing controlled duplication that would provide independence.
+
 ## Detection Methods ○
 - **Dependency Analysis Tools:** Use tools to analyze the dependencies of the system to identify which libraries and frameworks are being shared by multiple components or services.
 - **Developer Surveys:** Ask developers if they feel like they are able to update the libraries and frameworks for their components or services without affecting others.

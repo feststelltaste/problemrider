@@ -56,6 +56,7 @@ Legacy system documentation archaeology refers to the challenging process of rec
 <br/>  Critical system knowledge gaps form when documentation becomes obsolete and the people who wrote it have departed.
 - [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
 <br/>  Without clear documentation of system capabilities and behaviors, it is impossible to accurately scope modernization efforts.
+
 ## Causes ▼
 
 - [Information Decay](information-decay.md)
@@ -66,6 +67,7 @@ Legacy system documentation archaeology refers to the challenging process of rec
 <br/>  Departure of experienced developers takes irreplaceable system knowledge with them, leaving gaps that documentation cannot fill.
 - [Unclear Documentation Ownership](unclear-documentation-ownership.md)
 <br/>  Without clear responsibility for keeping documentation current, it becomes outdated and eventually obsolete.
+
 ## Detection Methods ○
 
 - Audit existing system documentation for completeness, accuracy, and accessibility

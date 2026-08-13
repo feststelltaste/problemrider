@@ -78,6 +78,7 @@ Negative user feedback is a clear signal that an application is not meeting the 
 <br/>  Publicly visible negative feedback pushes potential users toward competitors with better reputations.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Business stakeholders become frustrated when user complaints highlight product quality issues they feel should have been prevented.
+
 ## Causes ▼
 
 - [Slow Application Performance](slow-application-performance.md)
@@ -90,6 +91,7 @@ Negative user feedback is a clear signal that an application is not meeting the 
 <br/>  Previously working features breaking after updates cause frustrated users to submit complaints and negative reviews.
 - [Feature Gaps](feature-gaps.md)
 <br/>  Missing expected functionality causes users to report dissatisfaction and request features available in competing products.
+
 ## Detection Methods ○
 
 - **User Feedback Channels:** Actively monitor and analyze support tickets, app store reviews, social media mentions, and direct feedback forms.

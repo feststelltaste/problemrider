@@ -86,6 +86,7 @@ Poor interfaces between applications occur when systems communicate through poor
 <br/>  Legacy systems with architectures that haven't evolved accumulate poorly designed integration points over time.
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Lack of API and interface design expertise results in inconsistent, poorly structured integration points.
+
 ## Detection Methods ○
 
 - Audit existing integration patterns and identify inconsistencies

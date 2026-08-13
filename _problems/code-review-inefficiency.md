@@ -56,6 +56,7 @@ Code review inefficiency occurs when the code review process consumes disproport
 <br/>  Developers batch changes to avoid frequent painful review cycles, reducing integration frequency.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Disproportionate time spent on reviews reduces the overall pace of feature delivery.
+
 ## Causes ▼
 
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
@@ -66,6 +67,7 @@ Code review inefficiency occurs when the code review process consumes disproport
 <br/>  A culture focused on minor details diverts review attention from important design and logic issues.
 - [Large Pull Requests](large-pull-requests.md)
 <br/>  Large pull requests are harder to review thoroughly, leading to either superficial reviews or excessive review time.
+
 ## Detection Methods ○
 
 - **Review Time Tracking:** Measure time spent on reviews relative to development time and change complexity

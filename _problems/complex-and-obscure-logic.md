@@ -53,6 +53,7 @@ Complex and obscure logic is code that is difficult to read, understand, and rea
 <br/>  Even minor modifications to obscure code require extensive analysis time to understand the impact.
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
 <br/>  New developers take much longer to become productive in areas with complex and obscure logic.
+
 ## Causes ▼
 
 - [Clever Code](clever-code.md)
@@ -63,6 +64,7 @@ Complex and obscure logic is code that is difficult to read, understand, and rea
 <br/>  Cryptic variable and function names obscure the purpose of code, making logic harder to follow.
 - [Convenience-Driven Development](convenience-driven-development.md)
 <br/>  Taking the easiest path without concern for readability leads to tangled and poorly structured logic.
+
 ## Detection Methods ○
 - **Code Complexity Metrics:** Use static analysis tools to measure metrics like cyclomatic complexity, which can help to identify overly complex code.
 - **Code Reviews:** Pay close attention to code that is difficult to understand during code reviews.

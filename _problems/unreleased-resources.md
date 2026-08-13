@@ -55,6 +55,7 @@ Unreleased resources occur when applications acquire system resources such as me
 <br/>  Gradual resource exhaustion from unreleased resources leads to crashes and unpredictable system behavior.
 - [Service Timeouts](service-timeouts.md)
 <br/>  Resource exhaustion from unreleased connections and handles causes services to become unresponsive and time out.
+
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
@@ -63,6 +64,7 @@ Unreleased resources occur when applications acquire system resources such as me
 <br/>  Lack of thorough code reviews allows resource management mistakes to reach production undetected.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Without coding standards mandating resource cleanup patterns, developers inconsistently manage resource lifecycles.
+
 ## Detection Methods ○
 - **Resource Monitoring Tools:** System-level monitoring of memory, file handles, network connections, and other resources
 - **Application Profiling:** Memory and resource profilers that can track resource allocation and deallocation

@@ -50,6 +50,7 @@ Partial bug fixes are a common problem in software systems with a high degree of
 <br/>  The same business process works correctly in one context but fails in another because the fix was not applied uniformly across duplicated code.
 - [Increased Bug Count](increased-bug-count.md)
 <br/>  Each partial fix only addresses one instance of the bug while leaving others open, keeping the defect count high.
+
 ## Causes ▼
 
 - [Code Duplication](code-duplication.md)
@@ -60,6 +61,7 @@ Partial bug fixes are a common problem in software systems with a high degree of
 <br/>  Without comprehensive tests covering all instances of duplicated logic, partial fixes go undetected until users encounter the unfixed instances.
 - [Time Pressure](time-pressure.md)
 <br/>  Under pressure to resolve bugs quickly, developers fix the reported instance without searching for and fixing all occurrences.
+
 ## Detection Methods ○
 - **Code Duplication Analysis:** Use static analysis tools to identify duplicated code.
 - **Regression Testing:** Use regression testing to verify that bugs that were previously fixed have not reappeared.

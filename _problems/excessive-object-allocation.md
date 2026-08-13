@@ -53,6 +53,7 @@ Excessive object allocation occurs when code creates an unnecessarily large numb
 <br/>  As data volumes increase, excessive object allocation scales up proportionally, causing progressive performance worsening.
 - [High Client-Side Resource Consumption](high-client-side-resource-consumption.md)
 <br/>  Client applications with excessive object allocation consume more memory and CPU than necessary for GC overhead.
+
 ## Causes ▼
 
 - [Inefficient Code](inefficient-code.md)
@@ -63,6 +64,7 @@ Excessive object allocation occurs when code creates an unnecessarily large numb
 <br/>  Developers unfamiliar with memory management and GC implications write allocation-heavy code without considering performance impact.
 - [Misunderstanding of OOP](misunderstanding-of-oop.md)
 <br/>  Overuse of object creation patterns without understanding when value types or object pooling would be more appropriate leads to excessive allocation.
+
 ## Detection Methods ○
 - **Memory Profiling:** Use profiling tools to identify code areas with high object allocation rates
 - **Garbage Collection Monitoring:** Track GC frequency, duration, and memory pressure metrics

@@ -55,6 +55,7 @@ Stakeholder frustration occurs when business stakeholders become dissatisfied wi
 <br/>  Frustrated stakeholders reduce their willingness to collaborate, leading to deteriorating communication.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Dealing with frustrated stakeholders creates additional pressure and adversarial dynamics that burn out developers.
+
 ## Causes ▼
 
 - [Delayed Project Timelines](delayed-project-timelines.md)
@@ -65,6 +66,7 @@ Stakeholder frustration occurs when business stakeholders become dissatisfied wi
 <br/>  Frequent bugs in delivered features frustrate stakeholders who expect reliable, working software.
 - [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
 <br/>  Repeated deadline extensions frustrate stakeholders and undermine their trust in development commitments.
+
 ## Detection Methods ○
 
 - **Stakeholder Satisfaction Surveys:** Regular assessment of stakeholder satisfaction with development team performance

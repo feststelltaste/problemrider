@@ -54,6 +54,7 @@ Inconsistent quality occurs when different parts of a software system exhibit dr
 <br/>  Users encountering problems in the lower-quality parts of the system generate more support requests.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  The unreliable parts of the system frustrate users and damage their overall perception of the product.
+
 ## Causes ▼
 
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
@@ -66,6 +67,7 @@ Inconsistent quality occurs when different parts of a software system exhibit dr
 <br/>  Uneven test coverage means some parts of the system have comprehensive quality assurance while others have none.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Teams with inexperienced developers produce inconsistent quality because skill levels vary, and less experienced deve....
+
 ## Detection Methods ○
 
 - **Quality Metric Analysis:** Compare code quality metrics (complexity, test coverage, bug rates) across different system components

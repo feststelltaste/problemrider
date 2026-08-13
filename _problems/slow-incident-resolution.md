@@ -80,6 +80,7 @@ Slow incident resolution occurs when system problems, outages, or critical issue
 <br/>  Prolonged incidents undermine confidence in the team's ability to maintain reliable systems.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Extended firefighting during incidents exhausts the team and reduces morale.
+
 ## Causes ▼
 
 - [Monitoring Gaps](monitoring-gaps.md)
@@ -94,6 +95,7 @@ Slow incident resolution occurs when system problems, outages, or critical issue
 <br/>  When only specific individuals can resolve certain types of incidents, resolution depends on their availability.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  Debugging difficulties (hard to trace code, unclear error messages) directly contribute to slow incident resolution b....
+
 ## Detection Methods ○
 
 - **Mean Time to Resolution (MTTR) Tracking:** Monitor average time to resolve different types of incidents

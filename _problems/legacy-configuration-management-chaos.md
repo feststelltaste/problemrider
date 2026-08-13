@@ -60,6 +60,7 @@ Legacy configuration management chaos occurs when legacy systems store configura
 <br/>  When configuration is undocumented and scattered across multiple locations, diagnosing and recovering from configuration-related incidents takes much longer.
 - [Increased Manual Work](increased-manual-work.md)
 <br/>  Configuration that cannot be automated forces developers and operators to perform repetitive manual configuration tasks.
+
 ## Causes ▼
 
 - [Hardcoded Values](hardcoded-values.md)
@@ -68,6 +69,7 @@ Legacy configuration management chaos occurs when legacy systems store configura
 <br/>  Legacy platforms and proprietary tools lack modern configuration externalization capabilities, forcing outdated configuration approaches.
 - [Poor Documentation](poor-documentation.md)
 <br/>  Configuration settings that were never documented become tribal knowledge, and as people leave, the understanding of configuration is lost.
+
 ## Detection Methods ○
 
 - Audit legacy systems for configuration storage methods and externalization capabilities

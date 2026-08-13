@@ -56,6 +56,7 @@ Missed deadlines occur when development teams consistently fail to deliver work 
 <br/>  The pressure and frustration from repeatedly missing commitments contributes to team stress and burnout.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  After missing deadlines, teams face intensified pressure to deliver on subsequent commitments, creating a vicious cycle.
+
 ## Causes ▼
 
 - [Unrealistic Deadlines](unrealistic-deadlines.md)
@@ -68,6 +69,7 @@ Missed deadlines occur when development teams consistently fail to deliver work 
 <br/>  Ambiguous requirements lead to rework and discovery of unstated needs, consuming time not accounted for in estimates.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  When development velocity is lower than expected due to technical debt or process issues, deadlines are missed.
+
 ## Detection Methods ○
 
 - **Sprint Completion Rate Tracking:** Monitor percentage of sprint goals achieved over time

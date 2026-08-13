@@ -81,6 +81,7 @@ Deployment environment inconsistencies occur when applications are deployed acro
 <br/>  Applications behave differently across environments, making it impossible to guarantee consistent user experiences.
 - [Release Instability](release-instability.md)
 <br/>  Releases become unstable because testing in inconsistent environments fails to catch production-specific issues.
+
 ## Causes ▼
 
 - [Configuration Chaos](configuration-chaos.md)
@@ -91,6 +92,7 @@ Deployment environment inconsistencies occur when applications are deployed acro
 <br/>  Without proper configuration management, environments gradually diverge as ad-hoc changes accumulate.
 - [Configuration Drift](configuration-drift.md)
 <br/>  Environments that were once identical gradually diverge through untracked changes and patches.
+
 ## Detection Methods ○
 
 - **Environment Comparison Auditing:** Regularly compare configurations and setups across environments

@@ -51,6 +51,7 @@ Increased time to market occurs when the duration from concept to customer deliv
 <br/>  Slow delivery allows competitors to capture market opportunities first, eroding the organization's market position.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  When time to market increases, the value of features reaching customers is delayed, reducing business impact.
+
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)
@@ -63,6 +64,7 @@ Increased time to market occurs when the duration from concept to customer deliv
 <br/>  Long development, testing, and deployment cycles directly increase the time from concept to customer delivery.
 - [Complex Deployment Process](complex-deployment-process.md)
 <br/>  Complicated release procedures add weeks to each release cycle, delaying market availability.
+
 ## Detection Methods ○
 
 - **Time to Market Tracking:** Measure duration from feature concept to customer availability

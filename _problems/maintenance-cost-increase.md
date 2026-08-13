@@ -53,6 +53,7 @@ Maintenance cost increase occurs when the resources required to keep software sy
 <br/>  When maintenance consumes the bulk of the budget, there is little left to invest in new features and innovation.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Resources consumed by escalating maintenance costs cannot be invested in competitive features, eroding market position.
+
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)
@@ -63,6 +64,7 @@ Maintenance cost increase occurs when the resources required to keep software sy
 <br/>  Duplicated code multiplies maintenance effort since the same fix or change must be applied in multiple places.
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Maintaining systems on obsolete technologies is expensive due to scarce expertise and lack of vendor support.
+
 ## Detection Methods ○
 
 - **Cost Allocation Tracking:** Monitor percentage of development resources spent on maintenance versus new development

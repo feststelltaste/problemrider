@@ -55,6 +55,7 @@ Test Debt is the accumulated risk resulting from inadequate or neglected quality
 <br/>  The accumulated lack of testing leads to progressive quality decline as undetected issues compound over time.
 - [Regression Bugs](regression-bugs.md)
 <br/>  Without adequate tests, code changes frequently introduce regression bugs that go undetected, which is a direct and o....
+
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)
@@ -63,6 +64,7 @@ Test Debt is the accumulated risk resulting from inadequate or neglected quality
 <br/>  A pattern of not writing adequate tests accumulates into test debt over time.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Prioritizing immediate delivery over long-term quality leads to consistently cutting corners on testing.
+
 ## Detection Methods ○
 
 - **Test Coverage Analysis:** Use tools to measure line, branch, and function coverage, but interpret the results critically.

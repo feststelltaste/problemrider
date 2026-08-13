@@ -56,6 +56,7 @@ Knowledge dependency occurs when team members, particularly those who are no lon
 <br/>  Critical knowledge concentrated in few individuals creates single points of failure for the team.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Development slows because dependent team members cannot proceed without consulting knowledge holders.
+
 ## Causes ▼
 
 - [Knowledge Sharing Breakdown](knowledge-sharing-breakdown.md)
@@ -64,6 +65,7 @@ Knowledge dependency occurs when team members, particularly those who are no lon
 <br/>  When critical knowledge exists only in people's heads, others must depend on those individuals to access it.
 - [Information Decay](information-decay.md)
 <br/>  When documentation becomes outdated and unreliable, team members must rely on people instead of docs.
+
 ## Detection Methods ○
 
 - **Question Dependency Tracking:** Monitor how often team members ask questions that they should be able to answer independently

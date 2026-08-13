@@ -53,6 +53,7 @@ Project authority vacuum occurs when important initiatives lack adequate executi
 <br/>  Decisions requiring executive authority are delayed indefinitely when no sponsor is available to make them.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Projects fail to deliver expected benefits due to lack of organizational support, disappointing stakeholders.
+
 ## Causes ▼
 
 - [Competing Priorities](competing-priorities.md)
@@ -61,6 +62,7 @@ Project authority vacuum occurs when important initiatives lack adequate executi
 <br/>  When organizational priorities are unclear, executives are reluctant to champion specific projects.
 - [Poor Planning](poor-planning.md)
 <br/>  Projects launched without securing proper executive sponsorship from the start lack organizational backing.
+
 ## Detection Methods ○
 
 - **Executive Engagement Assessment:** Measure frequency and quality of executive participation in project governance

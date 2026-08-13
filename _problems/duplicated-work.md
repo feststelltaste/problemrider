@@ -56,6 +56,7 @@ Duplicated work occurs when multiple team members independently work on the same
 <br/>  When duplicate implementations are discovered, one or both must be reworked to reconcile into a single approach.
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  The team's effective output decreases when multiple members unknowingly work on the same tasks.
+
 ## Causes ▼
 
 - [Communication Breakdown](communication-breakdown.md)
@@ -66,6 +67,7 @@ Duplicated work occurs when multiple team members independently work on the same
 <br/>  Unclear responsibilities and project goals cause team members to unknowingly pick up the same tasks.
 - [Poor Planning](poor-planning.md)
 <br/>  Inadequate task breakdown and assignment during planning allows the same work to be assigned or picked up by multiple people.
+
 ## Detection Methods ○
 
 - **Work Assignment Tracking:** Monitor task assignments to identify potential overlaps

@@ -58,6 +58,7 @@ An inconsistent codebase lacks coherent and unified design, style, and standards
 <br/>  Developers must mentally switch between different conventions and patterns when working across modules.
 - [Inconsistent Behavior](inconsistent-behavior.md)
 <br/>  An inconsistent codebase where different patterns are used for the same concerns directly leads to inconsistent syste....
+
 ## Causes ▼
 
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
@@ -68,6 +69,7 @@ An inconsistent codebase lacks coherent and unified design, style, and standards
 <br/>  Superficial reviews fail to enforce consistent coding standards and allow style inconsistencies to persist.
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  Without clear ownership of code quality standards, no one takes responsibility for maintaining consistency.
+
 ## Detection Methods ○
 
 - **Manual Code Inspection:** The inconsistency is often obvious from simply browsing the codebase. Manually inspect different parts of the codebase to identify stylistic variations.

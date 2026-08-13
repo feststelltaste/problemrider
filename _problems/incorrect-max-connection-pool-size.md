@@ -53,12 +53,14 @@ Setting the maximum size of a connection pool is a delicate balancing act. If th
 <br/>  Connection exhaustion from an undersized pool or database rejection from an oversized pool both produce application errors.
 - [Misconfigured Connection Pools](misconfigured-connection-pools.md)
 <br/>  An incorrectly sized connection pool is a key contributor to overall connection pool misconfiguration problems.
+
 ## Causes ▼
 
 - [Incomplete Knowledge](incomplete-knowledge.md)
 <br/>  Developers may not understand the relationship between application concurrency, database capacity, and optimal pool sizing.
 - [Inadequate Configuration Management](inadequate-configuration-management.md)
 <br/>  Poor configuration management means pool sizes are not properly tuned or tracked across environments.
+
 ## Detection Methods ○
 
 - **Application Metrics:** Monitor connection pool metrics (e.g., active connections, idle connections, wait times, connection acquisition rates, pool size) provided by the application framework or a monitoring agent.

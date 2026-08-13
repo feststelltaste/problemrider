@@ -45,6 +45,7 @@ A shared database is a situation where multiple services or components share a s
 <br/>  Services become tightly coupled through their shared data model, making it impossible to change one without considering all others.
 - [Resource Contention](resource-contention.md)
 <br/>  A shared database creates resource contention as all services compete for the same database CPU, memory, and I/O reso....
+
 ## Causes ▼
 
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
@@ -53,6 +54,7 @@ A shared database is a situation where multiple services or components share a s
 <br/>  Sharing a database is the easiest path for new services to access existing data, leading teams to choose convenience over proper decoupling.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Management prioritizes quick feature delivery over database decoupling, perpetuating shared database patterns that create long-term problems.
+
 ## Detection Methods ○
 - **Architectural Diagrams:** Create a diagram of the system architecture to identify which services or components are sharing a single database.
 - **Database Schema Analysis:** Analyze the database schema to identify which tables are being used by multiple services or components.

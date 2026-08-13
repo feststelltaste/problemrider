@@ -54,6 +54,7 @@ Large pull requests occur when developers submit code changes that are too exten
 <br/>  Bugs slip through superficial reviews of large PRs and reach production, increasing the defect rate.
 - [Increased Bug Count](increased-bug-count.md)
 <br/>  When large pull requests bypass effective review, more defects are introduced into the codebase undetected.
+
 ## Causes ▼
 
 - [Large Feature Scope](large-feature-scope.md)
@@ -62,6 +63,7 @@ Large pull requests occur when developers submit code changes that are too exten
 <br/>  Branches that accumulate changes over long periods result in massive pull requests when finally submitted for review.
 - [Reduced Code Submission Frequency](reduced-code-submission-frequency.md)
 <br/>  When developers batch changes and submit infrequently, each submission contains many more changes than necessary.
+
 ## Detection Methods ○
 - **Pull Request Size Metrics:** Track lines of code changed, files modified, and complexity metrics for pull requests
 - **Review Time Analysis:** Monitor how long reviews take and correlate with pull request size

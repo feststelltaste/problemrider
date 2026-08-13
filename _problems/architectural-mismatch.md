@@ -77,6 +77,7 @@ Architectural mismatch occurs when the current system architecture is fundamenta
 <br/>  Monolithic architectures are particularly prone to mismatch as they are harder to adapt to diverse new requirements.
 - [Accumulated Decision Debt](accumulated-decision-debt.md)
 <br/>  Deferred architectural decisions constrain the system until it can no longer accommodate evolving requirements.
+
 ## Detection Methods ○
 
 - **Feature Complexity Analysis:** Compare implementation complexity of new features vs. historical norms

@@ -56,6 +56,7 @@ Technical architecture limitations occur when the fundamental design and structu
 <br/>  Adding new features requires disproportionate effort because changes must work within limiting architectural constraints.
 - [Technology Lock-In](technology-lock-in.md)
 <br/>  Deeply embedded architectural decisions make it prohibitively expensive to switch technologies or adopt modern approaches.
+
 ## Causes ▼
 
 - [Stagnant Architecture](stagnant-architecture.md)
@@ -64,6 +65,7 @@ Technical architecture limitations occur when the fundamental design and structu
 <br/>  Early architectural decisions that were never revisited compound into fundamental constraints as the system grows.
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  A monolithic design inherently limits the ability to scale, modify, or evolve different parts of the system independently.
+
 ## Detection Methods ○
 
 - **Performance Profiling:** Identify whether performance issues stem from architectural limitations

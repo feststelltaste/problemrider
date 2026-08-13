@@ -54,6 +54,7 @@ High API latency is a common problem in distributed systems, where services ofte
 <br/>  Consistently slow API responses lead to poor user experience and growing dissatisfaction.
 - [Cascade Failures](cascade-failures.md)
 <br/>  In distributed systems, high latency in one API cascades to all dependent services, causing widespread slowdowns.
+
 ## Causes ▼
 
 - [Database Query Performance Issues](database-query-performance-issues.md)
@@ -66,6 +67,7 @@ High API latency is a common problem in distributed systems, where services ofte
 <br/>  Fetching data from the source on every request instead of caching adds unnecessary overhead to API response times.
 - [Network Latency](network-latency.md)
 <br/>  Network transmission delays between API components and data sources directly increase API response times.
+
 ## Detection Methods ○
 
 - **Application Performance Monitoring (APM):** Use APM tools to trace requests, measure the duration of each operation (e.g., database calls, external service calls), and pinpoint the exact source of the delay.

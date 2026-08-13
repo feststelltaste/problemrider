@@ -58,6 +58,7 @@ Increased cognitive load occurs when developers must use excessive mental resour
 <br/>  Developers complete fewer tasks because much of their effort goes toward comprehending rather than creating code.
 - [Mental Fatigue](mental-fatigue.md)
 <br/>  Excessive cognitive demands drain developers mentally, leaving them exhausted without significant accomplishment.
+
 ## Causes ▼
 
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
@@ -68,6 +69,7 @@ Increased cognitive load occurs when developers must use excessive mental resour
 <br/>  Tightly coupled components require developers to understand many interconnected parts simultaneously.
 - [Inconsistent Naming Conventions](inconsistent-naming-conventions.md)
 <br/>  Unpredictable naming patterns add unnecessary mental overhead when navigating and understanding code.
+
 ## Detection Methods ○
 - **Time Tracking:** Monitor how long simple tasks take compared to estimates or historical averages
 - **Developer Surveys:** Ask team members about their experience working with different parts of the codebase

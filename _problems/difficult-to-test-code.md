@@ -57,6 +57,7 @@ Difficult to test code refers to software components that cannot be easily or ef
 <br/>  Without tests to catch regressions, previously fixed bugs resurface when code is modified.
 - [Increased Manual Testing Effort](increased-manual-testing-effort.md)
 <br/>  When automated testing is impractical, teams fall back on expensive and slow manual testing.
+
 ## Causes ▼
 
 - [Tight Coupling Issues](tight-coupling-issues.md)
@@ -69,6 +70,7 @@ Difficult to test code refers to software components that cannot be easily or ef
 <br/>  Large functions that do many things require testing entire workflows rather than individual behaviors.
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
 <br/>  High coupling and low cohesion directly makes code difficult to test because components cannot be isolated.
+
 ## Detection Methods ○
 - **Test Coverage Analysis:** Low coverage in specific modules often indicates testing difficulties
 - **Test Complexity Metrics:** Measure the number of setup steps or mock objects required for tests

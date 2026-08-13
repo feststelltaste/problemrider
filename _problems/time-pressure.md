@@ -55,6 +55,7 @@ Time pressure is a pervasive problem in software development where the emphasis 
 <br/>  Testing is often the first activity sacrificed when teams are under time pressure, leading to accumulated test debt.
 - [Superficial Code Reviews](superficial-code-reviews.md)
 <br/>  Under time pressure, code reviews become superficial as reviewers rush through them to unblock delivery, which is a d....
+
 ## Causes ▼
 
 - [Unrealistic Deadlines](unrealistic-deadlines.md)
@@ -65,6 +66,7 @@ Time pressure is a pervasive problem in software development where the emphasis 
 <br/>  When scope expands without adjusting timelines, the same amount of time must cover more work, intensifying time pressure.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  When teams spend most of their time on urgent fixes, planned work gets squeezed into less time, creating time pressure for feature delivery.
+
 ## Detection Methods ○
 - **Track Overtime Hours:** Monitor the number of hours the team is working beyond their normal schedule.
 - **Analyze Bug Reports:** Look for an increase in the number of bugs, especially those that could have been prevented with more time for testing and review.

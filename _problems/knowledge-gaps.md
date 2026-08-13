@@ -90,6 +90,7 @@ Knowledge gaps occur when team members lack sufficient understanding of the syst
 <br/>  Frequent departures of experienced staff cause institutional knowledge to be lost.
 - [Knowledge Silos](knowledge-silos.md)
 <br/>  Critical knowledge isolated in individuals becomes a gap for everyone else on the team.
+
 ## Detection Methods ○
 - **Learning Time Tracking:** Measure time spent researching versus implementing during development tasks
 - **Question Frequency Analysis:** Monitor how often team members ask for help understanding system components

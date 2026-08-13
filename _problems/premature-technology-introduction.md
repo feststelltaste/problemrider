@@ -56,6 +56,7 @@ Premature technology introduction occurs when teams adopt new technologies, fram
 <br/>  Teams may need to rewrite or migrate away from unsuitable technologies, wasting prior development work.
 - [Skill Development Gaps](skill-development-gaps.md)
 <br/>  Introducing unfamiliar technology creates immediate knowledge deficits that hinder productivity.
+
 ## Causes ▼
 
 - [Cargo Culting](cargo-culting.md)
@@ -64,6 +65,7 @@ Premature technology introduction occurs when teams adopt new technologies, fram
 <br/>  Technology is adopted based on assumptions about its benefits rather than validated evaluation of suitability.
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Lack of architectural evaluation skills means teams cannot properly assess whether a new technology fits their needs.
+
 ## Detection Methods ○
 
 - **Technology Adoption Timeline Analysis:** Track how quickly new technologies are introduced after release

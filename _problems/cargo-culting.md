@@ -55,6 +55,7 @@ Cargo culting represents a pervasive anti-pattern in software development where 
 <br/>  Inappropriately complex architectures adopted without understanding slow down feature delivery.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Code using patterns the team doesn't truly understand becomes hard to read, modify, and debug.
+
 ## Causes ▼
 
 - [Incomplete Knowledge](incomplete-knowledge.md)
@@ -63,6 +64,7 @@ Cargo culting represents a pervasive anti-pattern in software development where 
 <br/>  Developers adopt trendy technologies to build their resumes rather than choosing solutions that fit the problem.
 - [Time Pressure](time-pressure.md)
 <br/>  Under deadline pressure, teams adopt existing solutions wholesale rather than investing time to understand and adapt them.
+
 ## Detection Methods ○
 - **Why Interviews:** Conduct interviews asking team members to explain the reasoning behind technical choices
 - **Decision Documentation:** Review decision records to verify rationale beyond external references

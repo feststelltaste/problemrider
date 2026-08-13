@@ -55,6 +55,7 @@ Rapid team growth occurs when development teams expand in size quickly, often do
 <br/>  Code review queues become overwhelmed when too many new developers submit code with insufficient senior reviewers available.
 - [Poor Teamwork](poor-teamwork.md)
 <br/>  Rapid expansion disrupts established team dynamics and communication patterns, reducing collaboration effectiveness.
+
 ## Causes ▼
 
 - [Scope Creep](scope-creep.md)
@@ -63,6 +64,7 @@ Rapid team growth occurs when development teams expand in size quickly, often do
 <br/>  Lack of workforce planning leads to reactive bulk hiring instead of gradual, sustainable team growth.
 - [Unrealistic Schedule](unrealistic-schedule.md)
 <br/>  Aggressive deadlines drive management to rapidly expand teams in an attempt to accelerate delivery.
+
 ## Detection Methods ○
 
 - **Hiring Velocity Tracking:** Monitor the rate of new team member additions over time

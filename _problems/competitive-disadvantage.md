@@ -52,6 +52,7 @@ Competitive disadvantage occurs when technical problems, poor system performance
 <br/>  Business stakeholders become frustrated as they watch the organization lose market position due to technical limitations.
 - [High Turnover](high-turnover.md)
 <br/>  When a company falls behind competitively due to technical problems, talented developers leave for organizations with....
+
 ## Causes ▼
 
 - [Increased Time to Market](increased-time-to-market.md)
@@ -66,6 +67,7 @@ Competitive disadvantage occurs when technical problems, poor system performance
 <br/>  Accumulated technical debt diverts resources from new capabilities to maintenance, slowing competitive response.
 - [Negative Brand Perception](negative-brand-perception.md)
 <br/>  Users and the market associating the brand with poor quality drives customers to competitors.
+
 ## Detection Methods ○
 - **Competitive Feature Analysis:** Regular comparison of technical capabilities against competitors
 - **Customer Exit Interview Analysis:** Understand why customers choose competitors

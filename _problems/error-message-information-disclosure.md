@@ -49,6 +49,7 @@ Error message information disclosure occurs when applications reveal sensitive t
 <br/>  Disclosed system architecture details and internal paths help attackers identify authentication weaknesses to exploit.
 - [SQL Injection Vulnerabilities](sql-injection-vulnerabilities.md)
 <br/>  Exposed database schema information like table names and column names enables attackers to craft targeted SQL injection attacks.
+
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
@@ -59,6 +60,7 @@ Error message information disclosure occurs when applications reveal sensitive t
 <br/>  Developers without security awareness may not realize that detailed error messages in production pose a security risk.
 - [Insufficient Testing](insufficient-testing.md)
 <br/>  Lack of security testing for error conditions means information disclosure through error messages goes undetected before production.
+
 ## Detection Methods ○
 
 - **Error Message Security Review:** Review all error messages for sensitive information disclosure

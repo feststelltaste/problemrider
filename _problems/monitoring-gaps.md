@@ -90,6 +90,7 @@ Monitoring gaps are blind spots in a system's observability. They are areas of t
 <br/>  Undetected degradation patterns repeat because monitoring gaps prevent teams from identifying and fixing root causes proactively.
 - [Negative User Feedback](negative-user-feedback.md)
 <br/>  When monitoring gaps mean customers discover problems before the team does, user frustration and complaints increase.
+
 ## Causes ▼
 
 - [Poor Operational Concept](poor-operational-concept.md)
@@ -98,6 +99,7 @@ Monitoring gaps are blind spots in a system's observability. They are areas of t
 <br/>  Teams that lack experience with production operations may not know what metrics and alerts are important to monitor.
 - [Time Pressure](time-pressure.md)
 <br/>  Under pressure to deliver features, teams skip implementing proper monitoring and observability in favor of functional requirements.
+
 ## Detection Methods ○
 - **Monitoring Coverage Analysis:** Analyze your monitoring tools to identify gaps in your coverage.
 - **Incident Post-Mortems:** Review your incident post-mortems to identify cases where a lack of monitoring made it difficult to diagnose a problem.

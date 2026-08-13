@@ -65,6 +65,7 @@ External service delays are a common problem in distributed systems, where servi
 <br/>  Excessive inter-service communication in a microservice architecture multiplies the chances and impact of external service delays.
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Tight coupling to external services without proper circuit breakers or fallback mechanisms means the system cannot gracefully handle slow dependencies.
+
 ## Detection Methods ○
 
 - **Distributed Tracing:** Use distributed tracing to follow a request from the API to the external service and identify where the time is being spent.

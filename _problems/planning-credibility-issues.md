@@ -55,6 +55,7 @@ Planning credibility issues occur when development teams lose stakeholder trust 
 <br/>  Business stakeholders become frustrated when they cannot rely on development estimates for their own planning and commitments.
 - [Team Demoralization](team-demoralization.md)
 <br/>  Teams lose motivation when their estimates are consistently overridden or questioned, creating an adversarial dynamic.
+
 ## Causes ▼
 
 - [Missed Deadlines](missed-deadlines.md)
@@ -65,6 +66,7 @@ Planning credibility issues occur when development teams lose stakeholder trust 
 <br/>  Persistent poor planning that fails to account for complexity and risk creates the track record of inaccurate predictions.
 - [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
 <br/>  Agreeing to unrealistic timelines to please stakeholders sets up inevitable failures that damage planning credibility.
+
 ## Detection Methods ○
 
 - **Stakeholder Trust Surveys:** Assess stakeholder confidence in development team planning and estimates

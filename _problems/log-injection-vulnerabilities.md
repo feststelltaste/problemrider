@@ -54,6 +54,7 @@ Log injection vulnerabilities occur when applications include unsanitized user i
 <br/>  Injected format strings or malicious content can crash log processing systems, causing service disruptions.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  Corrupted or tampered log files make it extremely difficult to diagnose real issues when fake entries obscure genuine log data.
+
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
@@ -62,6 +63,7 @@ Log injection vulnerabilities occur when applications include unsanitized user i
 <br/>  Improperly configured logging that doesn't enforce input sanitization or structured logging formats enables injection attacks.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers unfamiliar with security best practices may not realize that user input in log messages needs sanitization.
+
 ## Detection Methods ○
 
 - **Log Content Analysis:** Regularly analyze log files for suspicious or malformed entries

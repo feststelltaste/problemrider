@@ -54,6 +54,7 @@ Delayed value delivery is the gap between when a feature is ready and when it is
 <br/>  Users provide negative feedback when they must wait extended periods for improvements and fixes.
 - [Declining Business Metrics](declining-business-metrics.md)
 <br/>  Slow value delivery leads to declining engagement, retention, and revenue metrics as users find alternatives.
+
 ## Causes ▼
 
 - [Long Release Cycles](long-release-cycles.md)
@@ -66,6 +67,7 @@ Delayed value delivery is the gap between when a feature is ready and when it is
 <br/>  Projects running behind schedule directly delay when their value reaches users.
 - [Immature Delivery Strategy](immature-delivery-strategy.md)
 <br/>  Lack of mature continuous delivery practices creates bottlenecks between development completion and user delivery.
+
 ## Detection Methods ○
 - **Lead Time for Changes:** Measure the time it takes for a change to go from code commit to production.
 - **Deployment Frequency:** Measure how often the team deploys to production.

@@ -57,6 +57,7 @@ Testing environment fragility occurs when the infrastructure supporting automate
 <br/>  Developers skip or disable tests to avoid dealing with fragile infrastructure, accumulating test debt.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Repeatedly debugging infrastructure issues instead of actual code problems is deeply frustrating for developers.
+
 ## Causes ▼
 
 - [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
@@ -67,6 +68,7 @@ Testing environment fragility occurs when the infrastructure supporting automate
 <br/>  Poor configuration management leads to inconsistent environment setups and version mismatches between dependencies.
 - [Inadequate Test Data Management](inadequate-test-data-management.md)
 <br/>  Unreliable test data management causes database inconsistencies that produce random test failures.
+
 ## Detection Methods ○
 
 - **Test Failure Analysis:** Track what percentage of test failures are due to infrastructure vs. code issues

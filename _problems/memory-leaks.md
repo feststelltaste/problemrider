@@ -55,12 +55,14 @@ A memory leak is a type of resource leak that occurs when a computer program inc
 <br/>  Memory leaks in client-side applications cause excessive resource consumption on user devices, degrading their experience.
 - [Resource Allocation Failures](resource-allocation-failures.md)
 <br/>  As leaked memory consumes available resources, new allocation requests eventually fail due to memory exhaustion.
+
 ## Causes ▼
 
 - [Unreleased Resources](unreleased-resources.md)
 <br/>  Failure to properly release resources like event listeners, file handles, or database connections is a direct cause of memory leaks.
 - [Excessive Object Allocation](excessive-object-allocation.md)
 <br/>  Creating many objects without proper lifecycle management increases the likelihood that some will not be properly freed.
+
 ## Detection Methods ○
 
 - **Memory Profilers:** Use language-specific memory profiling tools (e.g., Java VisualVM, .NET Memory Profiler, Chrome DevTools Memory tab, Valgrind for C/C++) to analyze heap dumps and track object allocations and references.

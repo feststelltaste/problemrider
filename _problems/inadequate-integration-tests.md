@@ -56,6 +56,7 @@ Inadequate integration tests occur when the testing strategy focuses primarily o
 <br/>  Integration issues discovered in production require emergency fixes and rollbacks to restore service.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  Without integration tests catching issues at component boundaries, integration bugs surface in production where they ....
+
 ## Causes ▼
 
 - [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
@@ -66,6 +67,7 @@ Inadequate integration tests occur when the testing strategy focuses primarily o
 <br/>  Integration tests are more complex and time-consuming to write, so they are often skipped under deadline pressure.
 - [Team Silos](team-silos.md)
 <br/>  When teams work in isolation on individual components, nobody takes responsibility for testing cross-component interactions.
+
 ## Detection Methods ○
 - **Integration Test Coverage Analysis:** Measure what percentage of component interactions are covered by integration tests
 - **Production Issue Categorization:** Track how many bugs stem from integration problems versus component-specific issues

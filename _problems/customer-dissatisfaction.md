@@ -77,6 +77,7 @@ Customer dissatisfaction occurs when users experience frustration, disappointmen
 <br/>  Customer dissatisfaction directly impacts engagement, conversion, and revenue metrics as users reduce usage or leave.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Business stakeholders become frustrated when customer complaints and churn rise due to system quality issues.
+
 ## Causes ▼
 
 - [Slow Application Performance](slow-application-performance.md)
@@ -91,6 +92,7 @@ Customer dissatisfaction occurs when users experience frustration, disappointmen
 <br/>  When customers must wait extended periods for needed features or bug fixes, their satisfaction with the product declines.
 - [Inconsistent Behavior](inconsistent-behavior.md)
 <br/>  Inconsistent system behavior directly frustrates users and causes dissatisfaction.
+
 ## Detection Methods ○
 
 - **Customer Satisfaction Surveys:** Regular assessment of user satisfaction with system experience

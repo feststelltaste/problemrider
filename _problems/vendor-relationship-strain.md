@@ -52,6 +52,7 @@ Vendor relationship strain occurs when tensions, conflicts, or dissatisfaction d
 <br/>  When vendor relationships deteriorate, deliverable quality suffers as vendors provide minimal effort.
 - [Maintenance Cost Increase](maintenance-cost-increase.md)
 <br/>  Strained relationships lead to renegotiation demands and additional costs to resolve conflicts.
+
 ## Causes ▼
 
 - [Requirements Ambiguity](requirements-ambiguity.md)
@@ -62,6 +63,7 @@ Vendor relationship strain occurs when tensions, conflicts, or dissatisfaction d
 <br/>  Heavy dependency on a vendor creates power imbalances and friction when expectations are not met.
 - [Poor Communication](poor-communication.md)
 <br/>  Inadequate communication between the organization and vendor leads to misunderstandings and growing tensions.
+
 ## Detection Methods ○
 
 - **Vendor Satisfaction Surveys:** Regular assessment of vendor satisfaction with the relationship

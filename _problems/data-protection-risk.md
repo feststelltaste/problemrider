@@ -77,6 +77,7 @@ Data protection risk occurs when systems inadequately safeguard personal, sensit
 <br/>  Data protection incidents erode stakeholder trust in the development team's ability to handle sensitive data responsibly.
 - [Declining Business Metrics](declining-business-metrics.md)
 <br/>  Data breaches and privacy violations lead to user churn, reputational damage, and declining revenue metrics.
+
 ## Causes ▼
 
 - [Insufficient Audit Logging](insufficient-audit-logging.md)
@@ -87,6 +88,7 @@ Data protection risk occurs when systems inadequately safeguard personal, sensit
 <br/>  Development teams lacking understanding of privacy regulations and data governance practices fail to implement adequate safeguards.
 - [Quality Compromises](quality-compromises.md)
 <br/>  Deliberately lowering quality standards to meet deadlines leads to skipping data protection reviews and proper data governance implementation.
+
 ## Detection Methods ○
 
 - Conduct regular data protection impact assessments (DPIAs)
