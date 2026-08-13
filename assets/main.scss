@@ -87,7 +87,7 @@
     border-top: 2px solid #4a5568;
 
     &--addresses { border-top-style: dashed; }
-    &--similar { border-top-color: #d7dce2; }
+    &--similar { border-top-color: #e5e7eb; }
   }
 
   &__reset,
@@ -129,7 +129,7 @@
   &__graph svg.is-space-panning { cursor: grab; }
   &__edge { fill: none; stroke: #a0aec0; stroke-width: 1.6; }
   &__edge--contextual-causes { stroke: #d7dce2; stroke-width: 1.2; }
-  &__edge--related { stroke: #d7dce2; stroke-width: 1.2; }
+  &__edge--related { stroke: #e5e7eb; stroke-width: 1; }
   &__edge--addresses { stroke-dasharray: 5 3; }
   &__node { stroke: #fff; stroke-width: 2px; fill: #111; }
   &__node--solution { fill: #007acc; }
