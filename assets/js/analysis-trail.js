@@ -613,6 +613,20 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
+    // Number keys provide quick section navigation on problem and solution
+    // detail pages: 1 = first heading, 2 = second heading, and so on.
+    document.addEventListener('keydown', function (event) {
+      if (!/^[1-9]$/.test(event.key) || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+      if (/^(INPUT|TEXTAREA|SELECT|BUTTON)$/.test(event.target.tagName) || event.target.isContentEditable) return;
+      var headings = Array.prototype.slice.call(document.querySelectorAll('.page-main-content h1, .page-main-content h2, .page-main-content h3'));
+      var heading = headings[Number(event.key) - 1];
+      if (!heading) return;
+      event.preventDefault();
+      heading.setAttribute('tabindex', '-1');
+      heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      heading.focus({ preventScroll: true });
+    });
+
     document.addEventListener('keydown', function (event) {
       if (event.code === 'Space' && !/^(INPUT|TEXTAREA|SELECT)$/.test(event.target.tagName)) {
         spacePressed = true;
