@@ -340,6 +340,8 @@
         line.setAttribute('y', position.y + 24 + index * 10);
       });
       if (elements.removeIcon) {
+        elements.removeHit.setAttribute('cx', position.x);
+        elements.removeHit.setAttribute('cy', position.y - 17);
         elements.removeIcon.setAttribute('x', position.x);
         elements.removeIcon.setAttribute('y', position.y - 17);
       }
@@ -506,8 +508,10 @@
           tabindex: '0',
           'aria-label': 'Remove ' + node.title + ' from the analysis trail'
         });
+        var removeHit = svgElement('circle', { cx: position.x, cy: position.y - 17, r: '12', class: 'analysis-trail__remove-hit' });
         var removeIcon = svgElement('text', { x: position.x, y: position.y - 17, 'text-anchor': 'middle' });
         removeIcon.textContent = '×';
+        remove.appendChild(removeHit);
         remove.appendChild(removeIcon);
         var removeTitle = svgElement('title');
         removeTitle.textContent = 'Remove leaf node';
@@ -532,6 +536,7 @@
           }
         });
         link.appendChild(remove);
+        nodeElements[node.id].removeHit = removeHit;
         nodeElements[node.id].removeIcon = removeIcon;
       }
     });
@@ -738,6 +743,21 @@
     var zoomOut = document.querySelector('[data-analysis-trail-zoom-out]');
     if (zoomIn) zoomIn.addEventListener('click', function () { changeZoom(0.2); });
     if (zoomOut) zoomOut.addEventListener('click', function () { changeZoom(-0.2); });
+    var exportButton = document.querySelector('[data-analysis-trail-export]');
+    if (exportButton) exportButton.addEventListener('click', function () {
+      var svg = document.querySelector('[data-analysis-trail-graph] svg');
+      if (!svg) return;
+      var source = new XMLSerializer().serializeToString(svg);
+      var blob = new Blob([source], { type: 'image/svg+xml;charset=utf-8' });
+      var url = URL.createObjectURL(blob);
+      var link = document.createElement('a');
+      link.href = url;
+      link.download = 'analysis-workbench.svg';
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+    });
 
     function restoreHistory(direction) {
       var history = getHistory();

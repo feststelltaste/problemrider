@@ -134,7 +134,7 @@
   &__node { stroke: #fff; stroke-width: 2px; fill: #111; }
   &__node--solution { fill: #007acc; }
   &__node.is-current { stroke: #007acc; stroke-width: 3px; }
-  &__node-link:hover .analysis-trail__node { stroke: #111; stroke-width: 3px; }
+  &__node-link:hover .analysis-trail__node { stroke: #007acc; stroke-width: 3px; }
   &__node-label {
     fill: #555;
     stroke: #fff;
@@ -201,7 +201,8 @@
     opacity: 1;
     pointer-events: auto;
   }
-  &__remove-node text { fill: #111; font-size: 15px; font-weight: bold; pointer-events: none; }
+  &__remove-node text { fill: #111; font-size: 15px; font-weight: bold; pointer-events: auto; }
+  &__remove-hit { fill: transparent; stroke: none; pointer-events: painted; }
   &__remove-node:hover text,
   &__remove-node:focus text { fill: #e53e3e; }
 }
