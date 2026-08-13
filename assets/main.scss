@@ -245,16 +245,16 @@
   // these used to render smaller than the default nodes. White keeps them the
   // same size while staying invisible on the light background.
   &__node--symptom { stroke: #fff; }
-  &__node-link:hover .analysis-trail__node--symptom,
-  &__node-link:focus .analysis-trail__node--symptom { stroke: #007acc; }
   &__node--solution { fill: #007acc; stroke: #fff; }
-  &__node.is-current { stroke: #007acc; stroke-width: 3px; }
-  &__node-link:hover .analysis-trail__node { stroke: #007acc; stroke-width: 3px; }
-  &__node-link:hover .analysis-trail__node--symptom,
-  &__node-link:focus .analysis-trail__node--symptom { stroke-width: 2px; }
+  // Highlighting only ever changes the stroke colour. Varying the width would
+  // change how much of the fill the stroke covers and make the circles differ
+  // in size.
+  &__node.is-current,
+  &__node-group:hover .analysis-trail__node,
+  &__node-group:focus-within .analysis-trail__node { stroke: #007acc; }
   &__node--solution.is-current,
-  &__node-link:hover .analysis-trail__node--solution,
-  &__node-link:focus .analysis-trail__node--solution { stroke: #111; stroke-width: 2px; }
+  &__node-group:hover .analysis-trail__node--solution,
+  &__node-group:focus-within .analysis-trail__node--solution { stroke: #111; }
   &__node-label {
     fill: #555;
     stroke: #fff;
@@ -344,6 +344,40 @@
   &__add-node circle { fill: transparent; stroke: none; cursor: pointer; }
   &__add-node text { fill: #111; font: normal 11px Arial, sans-serif; pointer-events: none; text-decoration: none !important; text-transform: none; }
   &__add-node:hover text, &__add-node:focus text { fill: #27ae60; }
+
+  &__link-node { opacity: 0; pointer-events: none; cursor: pointer; }
+  &__node-group.is-controls-visible .analysis-trail__link-node,
+  &__node-group.is-link-source .analysis-trail__link-node,
+  &__node-group:focus-within .analysis-trail__link-node { opacity: 1; pointer-events: auto; }
+  &__link-hit { fill: transparent; stroke: none; pointer-events: painted; }
+  &__link-icon {
+    pointer-events: none;
+
+    line { stroke: #111; stroke-width: 1.2; }
+    circle { fill: #111; stroke: none; }
+  }
+  &__link-node:hover .analysis-trail__link-icon,
+  &__link-node:focus .analysis-trail__link-icon {
+    line { stroke: #007acc; }
+    circle { fill: #007acc; }
+  }
+  // While a connection is pending the source stays marked and every other node
+  // reads as a possible target.
+  &__node-group.is-link-source .analysis-trail__link-icon {
+    line { stroke: #007acc; }
+    circle { fill: #007acc; }
+  }
+  &__node-group.is-link-source .analysis-trail__node { stroke: #007acc; }
+  &__graph svg.is-linking { cursor: crosshair; }
+  &__graph svg.is-linking .analysis-trail__node { cursor: crosshair; }
+
+  // Invisible, wider copy of each edge so the double-click target is reachable.
+  &__edge-hit {
+    fill: none;
+    stroke: transparent;
+    stroke-width: 12;
+    cursor: pointer;
+  }
   &__add-modal { position: fixed; inset: 0; z-index: 10000; display: grid; place-items: center; background: rgba(0,0,0,0.35); }
   &__add-modal[hidden] { display: none; }
   &__add-modal-content { width: min(360px, calc(100vw - 2rem)); padding: 1rem; border-radius: 8px; background: #fff; box-shadow: 0 4px 20px rgba(0,0,0,0.25); }

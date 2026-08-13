@@ -13,6 +13,17 @@
   var namespace = 'http://www.w3.org/2000/svg';
   var spacePressed = false;
   var pendingAdd = null;
+  // Node id the user started a connection from, or null when not connecting.
+  var linkingFrom = null;
+
+  function stopLinking() {
+    linkingFrom = null;
+    var graph = document.querySelector('[data-analysis-trail-graph] svg');
+    if (graph) graph.classList.remove('is-linking');
+    document.querySelectorAll('.analysis-trail__node-group.is-link-source').forEach(function (group) {
+      group.classList.remove('is-link-source');
+    });
+  }
 
   function openAddModal(sourceNode, position) {
     var modal = document.querySelector('[data-analysis-trail-add-modal]');
@@ -348,7 +359,7 @@
     var activeControlLink;
     // Both controls sit above the circle, side by side: "−" left, "+" right.
     // Keeping the area below the node free lets every label use the same offset.
-    var controlOffsetX = 6;
+    var controlOffsetX = 12;
     var controlCircleY = -17;
     var controlTextY = -13;
 
@@ -372,7 +383,56 @@
       var controlOneY = startY + (endY - startY) / 3;
       var controlTwoX = startX + 2 * (endX - startX) / 3;
       var controlTwoY = startY + 2 * (endY - startY) / 3;
-      edgeInfo.path.setAttribute('d', 'M ' + startX + ' ' + startY + ' C ' + controlOneX + ' ' + controlOneY + ', ' + controlTwoX + ' ' + controlTwoY + ', ' + endX + ' ' + endY);
+      var shape = 'M ' + startX + ' ' + startY + ' C ' + controlOneX + ' ' + controlOneY + ', ' + controlTwoX + ' ' + controlTwoY + ', ' + endX + ' ' + endY;
+      edgeInfo.path.setAttribute('d', shape);
+      // The visible stroke is too thin to double-click reliably, so an invisible
+      // wider path underneath takes the pointer events.
+      if (edgeInfo.hit) edgeInfo.hit.setAttribute('d', shape);
+    }
+
+    // Double-clicking an edge walks through three states: as drawn, reversed,
+    // and a plain similarity line. The third state remembers the original label
+    // so the cycle can return to exactly where it started.
+    function cycleEdge(edge) {
+      var isRelated = edge.label === 'related' || /^similar/.test(edge.label || '');
+      if (isRelated) {
+        var relatedFrom = edge.from;
+        edge.from = edge.to;
+        edge.to = relatedFrom;
+        edge.label = edge.baseLabel || 'causes';
+        delete edge.baseLabel;
+        delete edge.reversed;
+        return;
+      }
+      if (edge.reversed) {
+        edge.baseLabel = edge.label;
+        edge.label = 'related';
+        delete edge.reversed;
+        return;
+      }
+      var from = edge.from;
+      edge.from = edge.to;
+      edge.to = from;
+      edge.reversed = true;
+    }
+
+    // A link between two problems is causal, anything involving a solution
+    // addresses the problem on the other end.
+    function connectNodes(sourceId, targetId) {
+      if (sourceId === targetId) return;
+      var sourceIsSolution = sourceId.indexOf('solution:') === 0;
+      var targetIsSolution = targetId.indexOf('solution:') === 0;
+      var edge = targetIsSolution ?
+        { from: targetId, to: sourceId, label: 'addresses' } :
+        (sourceIsSolution ? { from: sourceId, to: targetId, label: 'addresses' } : { from: sourceId, to: targetId, label: 'causes' });
+      var exists = trail.edges.some(function (item) {
+        return (item.from === edge.from && item.to === edge.to) || (item.from === edge.to && item.to === edge.from);
+      });
+      if (exists) return;
+      rememberChange(trail);
+      trail.edges.push(edge);
+      if (trail.edges.length > maxEdges) trail.edges.shift();
+      saveTrail(trail);
     }
 
     function updateNode(nodeId) {
@@ -392,6 +452,11 @@
         elements.removeHit.setAttribute('cy', position.y + controlCircleY);
         elements.removeIcon.setAttribute('x', position.x - controlOffsetX);
         elements.removeIcon.setAttribute('y', position.y + controlTextY);
+      }
+      if (elements.linkNode) {
+        elements.linkHit.setAttribute('cx', position.x);
+        elements.linkHit.setAttribute('cy', position.y + controlCircleY);
+        elements.linkIcon.setAttribute('transform', 'translate(' + position.x + ' ' + (position.y + controlCircleY) + ')');
       }
     }
 
@@ -545,9 +610,21 @@
       var edgeClass = 'analysis-trail__edge analysis-trail__edge--' + (isRelated ? 'related' : edge.label.replace(/\s+/g, '-'));
       var pathAttributes = { class: edgeClass };
       if (!isRelated) pathAttributes['marker-end'] = 'url(#analysis-trail-arrow)';
+      var hit = svgElement('path', { class: 'analysis-trail__edge-hit' });
+      var hitTitle = svgElement('title');
+      hitTitle.textContent = 'Double-click to flip the direction or make it a similar link';
+      hit.appendChild(hitTitle);
+      svg.appendChild(hit);
       var path = svgElement('path', pathAttributes);
       svg.appendChild(path);
-      var edgeInfo = { edge: edge, path: path };
+      var edgeInfo = { edge: edge, path: path, hit: hit };
+      hit.addEventListener('dblclick', function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+        cycleEdge(edge);
+        saveTrail(trail);
+        render(trail);
+      });
       edgeElements.push(edgeInfo);
       updateEdge(edgeInfo);
     });
@@ -585,6 +662,41 @@
         addNode.addEventListener('click', function (event) { event.preventDefault(); event.stopPropagation(); openAddModal(node, positions[node.id]); });
         group.appendChild(addNode);
         nodeElements[node.id].addNode = addNode;
+      }
+
+      // Sits between "−" and "+": start here, then click another node to draw
+      // the connection between the two.
+      {
+        var linkNode = svgElement('g', {
+          class: 'analysis-trail__link-node',
+          role: 'button',
+          tabindex: '0',
+          'aria-label': 'Connect ' + node.title + ' to another node'
+        });
+        var linkHit = svgElement('circle', { cx: position.x, cy: position.y + controlCircleY, r: '6', class: 'analysis-trail__link-hit' });
+        // Two small nodes joined by a line, matching what the control creates.
+        var linkIcon = svgElement('g', { class: 'analysis-trail__link-icon', transform: 'translate(' + position.x + ' ' + (position.y + controlCircleY) + ')' });
+        linkIcon.appendChild(svgElement('line', { x1: '-2', y1: '2', x2: '2', y2: '-2' }));
+        linkIcon.appendChild(svgElement('circle', { cx: '-3', cy: '3', r: '1.5' }));
+        linkIcon.appendChild(svgElement('circle', { cx: '3', cy: '-3', r: '1.5' }));
+        linkNode.appendChild(linkHit);
+        linkNode.appendChild(linkIcon);
+        var linkTitle = svgElement('title');
+        linkTitle.textContent = 'Connect to another node';
+        linkNode.appendChild(linkTitle);
+        linkNode.addEventListener('click', function (event) {
+          event.preventDefault();
+          event.stopPropagation();
+          if (linkingFrom === node.id) { stopLinking(); return; }
+          stopLinking();
+          linkingFrom = node.id;
+          svg.classList.add('is-linking');
+          group.classList.add('is-link-source');
+        });
+        group.appendChild(linkNode);
+        nodeElements[node.id].linkNode = linkNode;
+        nodeElements[node.id].linkHit = linkHit;
+        nodeElements[node.id].linkIcon = linkIcon;
       }
 
       // Every node can be removed; any connected arrows are removed as well.
@@ -644,18 +756,22 @@
       };
     }
 
+    // A re-render rebuilds every node, so a connection started before it has to
+    // be marked again — or dropped if its source node is gone.
+    if (linkingFrom && !nodeElements[linkingFrom]) stopLinking();
+    if (linkingFrom) {
+      svg.classList.add('is-linking');
+      nodeElements[linkingFrom].group.classList.add('is-link-source');
+    }
+
     Object.keys(nodeElements).forEach(function (nodeId) {
       var nodeElement = nodeElements[nodeId];
       // The hover state now lives on the wrapping group so it also covers the
       // controls that were moved out of the link.
       var nodeGroup = nodeElement.group;
-      nodeGroup.addEventListener('pointerenter', function () {
-        keepMenuOpen();
-        if (activeControlLink && activeControlLink !== nodeGroup) activeControlLink.classList.remove('is-controls-visible');
-        activeControlLink = nodeGroup;
-        nodeGroup.classList.add('is-controls-visible');
-        showNodeMenu(nodeElement.node);
-      });
+      // Hovering only highlights the circle. The controls and the reference menu
+      // appear on the first click, and a second click follows the link.
+      nodeGroup.addEventListener('pointerenter', keepMenuOpen);
       nodeGroup.addEventListener('pointerleave', scheduleMenuHide);
       nodeElement.circle.addEventListener('pointerdown', function (event) {
         if (event.button !== 0) return;
@@ -670,6 +786,25 @@
         if (suppressClick) {
           event.preventDefault();
           suppressClick = false;
+          return;
+        }
+        // Finish a pending connection instead of navigating.
+        if (linkingFrom && linkingFrom !== nodeId) {
+          event.preventDefault();
+          var sourceId = linkingFrom;
+          stopLinking();
+          connectNodes(sourceId, nodeId);
+          render(trail);
+          return;
+        }
+        // First click reveals the controls and the reference menu; only a click
+        // on an already active node opens the article.
+        if (activeControlLink !== nodeGroup) {
+          event.preventDefault();
+          if (activeControlLink) activeControlLink.classList.remove('is-controls-visible');
+          activeControlLink = nodeGroup;
+          nodeGroup.classList.add('is-controls-visible');
+          showNodeMenu(nodeElement.node);
         }
       });
     });
@@ -681,6 +816,7 @@
       if (!isMiddleMouse && !isSpacePan && event.button !== 0) return;
       event.preventDefault();
       hideNodeMenu();
+      stopLinking();
       panning = true;
       panChanged = false;
       var bounds = svg.getBoundingClientRect();
@@ -773,6 +909,7 @@
     });
 
     document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') stopLinking();
       if (event.code === 'Space' && !/^(INPUT|TEXTAREA|SELECT)$/.test(event.target.tagName)) {
         spacePressed = true;
         var graph = document.querySelector('[data-analysis-trail-graph] svg');
@@ -846,10 +983,13 @@
         })[0] || null;
       }
       var targetId = selected ? selected.id : 'custom:' + Date.now() + '-' + Math.random().toString(36).slice(2, 8);
+      var nodeType = 'problem';
+      if (kind === 'cause') nodeType = 'root cause';
+      else if (kind === 'solution' || kind === 'symptom') nodeType = kind;
       var targetNode = {
         id: targetId,
         title: selected ? selected.title : addModalText.value.trim(),
-        type: kind === 'cause' ? 'root cause' : kind,
+        type: nodeType,
         custom: !selected,
         url: selected ? selected.url : '#'
       };
@@ -857,7 +997,11 @@
       addCurrentNode(trail, targetNode);
       var sourcePosition = pendingAdd.position;
       trail.positions[targetId] = { x: Math.min(1186, sourcePosition.x + 190), y: sourcePosition.y };
-      var edge = kind === 'cause' ? { from: sourceNode.id, to: targetId, label: 'causes' } : { from: targetId, to: sourceNode.id, label: kind === 'solution' ? 'addresses' : 'causes' };
+      // A similar problem gets the plain, undirected similarity line; causes
+      // point away from the source, symptoms and solutions point back to it.
+      var edge = kind === 'similar' ? { from: sourceNode.id, to: targetId, label: 'related' } :
+        (kind === 'cause' ? { from: sourceNode.id, to: targetId, label: 'causes' } :
+          { from: targetId, to: sourceNode.id, label: kind === 'solution' ? 'addresses' : 'causes' });
       if (!trail.edges.some(function (item) { return item.from === edge.from && item.to === edge.to && item.label === edge.label; })) trail.edges.push(edge);
       if (trail.edges.length > maxEdges) trail.edges.shift();
       saveTrail(trail);
