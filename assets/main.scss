@@ -279,17 +279,13 @@
 
 @media screen and (min-width: 701px) {
   body.analysis-trail-expanded {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto minmax(0, 1fr) auto;
-    height: 100vh;
-    overflow: hidden;
+    display: block;
+    min-height: 100vh;
     overflow-x: hidden;
   }
 
   body.analysis-trail-expanded .site-header,
   body.analysis-trail-expanded .site-footer {
-    grid-column: 1;
     position: relative;
     z-index: 21;
     width: 50%;
@@ -303,12 +299,6 @@
 
   body.analysis-trail-expanded .site-footer {
     max-height: none;
-    align-self: end;
-  }
-
-  body.analysis-trail-expanded .page-content {
-    grid-column: 1;
-    grid-row: 2;
   }
 
   body.analysis-trail-expanded .site-header .wrapper,
@@ -325,9 +315,8 @@
 
   body.analysis-trail-expanded .page-content {
     width: 50%;
-    min-height: 0;
     height: auto;
-    overflow-y: auto;
+    overflow: visible;
     overflow-x: hidden;
   }
 
