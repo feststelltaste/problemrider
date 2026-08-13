@@ -438,7 +438,17 @@
                 showAll.remove();
                 references.forEach(function (reference) {
                   var referenceNode = nodeFromReference(reference);
-                  if (referenceNode) addCurrentNode(trail, referenceNode);
+                  if (!referenceNode) return;
+                  addCurrentNode(trail, referenceNode);
+                  var relation = {
+                    symptoms: { from: referenceNode.id, to: sourceNode.id, label: 'causes' },
+                    causes: { from: sourceNode.id, to: referenceNode.id, label: 'causes' },
+                    solutions: { from: referenceNode.id, to: sourceNode.id, label: 'addresses' },
+                    'addressed-problems': { from: sourceNode.id, to: referenceNode.id, label: 'addresses' }
+                  }[kind];
+                  if (relation && relation.from !== relation.to && !trail.edges.some(function (edge) {
+                    return edge.from === relation.from && edge.to === relation.to && edge.label === relation.label;
+                  })) trail.edges.push(relation);
                 });
                 saveTrail(trail);
                 render(trail);
