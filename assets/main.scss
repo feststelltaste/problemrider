@@ -183,12 +183,9 @@
     opacity: 1;
     pointer-events: auto;
   }
-  &__remove-node circle { fill: #fff; stroke: #a0aec0; stroke-width: 1px; }
-  &__remove-node text { fill: #52616b; font-size: 9px; pointer-events: none; }
-  &__remove-node:hover circle,
-  &__remove-node:focus circle { fill: #e53e3e; stroke: #c53030; }
+  &__remove-node text { fill: #111; font-size: 15px; font-weight: bold; pointer-events: none; }
   &__remove-node:hover text,
-  &__remove-node:focus text { fill: #fff; }
+  &__remove-node:focus text { fill: #111; }
 }
 
 .analysis-trail-menu-button {

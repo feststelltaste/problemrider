@@ -327,11 +327,9 @@
         line.setAttribute('x', position.x);
         line.setAttribute('y', position.y + 24 + index * 10);
       });
-      if (elements.removeCircle) {
-        elements.removeCircle.setAttribute('cx', position.x);
-        elements.removeCircle.setAttribute('cy', position.y - 20);
+      if (elements.removeIcon) {
         elements.removeIcon.setAttribute('x', position.x);
-        elements.removeIcon.setAttribute('y', position.y - 16.5);
+        elements.removeIcon.setAttribute('y', position.y - 17);
       }
     }
 
@@ -478,9 +476,8 @@
           tabindex: '0',
           'aria-label': 'Remove ' + node.title + ' from the analysis trail'
         });
-        remove.appendChild(svgElement('circle', { cx: position.x, cy: position.y - 20, r: '7' }));
-        var removeIcon = svgElement('text', { x: position.x, y: position.y - 16.5, 'text-anchor': 'middle' });
-        removeIcon.textContent = '🗑';
+        var removeIcon = svgElement('text', { x: position.x, y: position.y - 17, 'text-anchor': 'middle' });
+        removeIcon.textContent = '×';
         remove.appendChild(removeIcon);
         var removeTitle = svgElement('title');
         removeTitle.textContent = 'Remove leaf node';
@@ -505,7 +502,6 @@
           }
         });
         link.appendChild(remove);
-        nodeElements[node.id].removeCircle = remove.firstChild;
         nodeElements[node.id].removeIcon = removeIcon;
       }
     });
