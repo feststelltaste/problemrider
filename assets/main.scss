@@ -113,6 +113,7 @@
   &__graph svg.is-space-panning { cursor: grab; }
   &__edge { fill: none; stroke: #a0aec0; stroke-width: 1.6; }
   &__edge--contextual-causes { stroke: #d7dce2; stroke-width: 1.2; }
+  &__edge--related { stroke: #d7dce2; stroke-width: 1.2; }
   &__edge--addresses { stroke-dasharray: 5 3; }
   &__node { stroke: #fff; stroke-width: 2px; fill: #111; }
   &__node--solution { fill: #007acc; }
@@ -120,7 +121,7 @@
   &__node-link:hover .analysis-trail__node { stroke: #111; stroke-width: 3px; }
   &__node-label {
     fill: #555;
-    stroke: #f8f9fa;
+    stroke: #fff;
     stroke-width: 3px;
     paint-order: stroke;
     font-size: 8px;

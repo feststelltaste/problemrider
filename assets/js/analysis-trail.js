@@ -114,7 +114,7 @@
     var pending;
     try { pending = JSON.parse(window.sessionStorage.getItem(pendingKey)); } catch (error) { pending = null; }
     window.sessionStorage.removeItem(pendingKey);
-    if (!pending || !node || pending.from === node.id || pending.label === 'related') return;
+    if (!pending || !node || pending.from === node.id) return;
     if (!trail.nodes.some(function (item) { return item.id === pending.from; })) return;
     if (pending.targetType) {
       var targetNode = trail.nodes.filter(function (item) { return item.id === node.id; })[0];
@@ -443,7 +443,9 @@
       var to = positions[edge.to];
       if (!from || !to) return;
       var edgeClass = 'analysis-trail__edge analysis-trail__edge--' + edge.label.replace(/\s+/g, '-');
-      var path = svgElement('path', { class: edgeClass, 'marker-end': 'url(#analysis-trail-arrow)' });
+      var pathAttributes = { class: edgeClass };
+      if (edge.label !== 'related') pathAttributes['marker-end'] = 'url(#analysis-trail-arrow)';
+      var path = svgElement('path', pathAttributes);
       svg.appendChild(path);
       var edgeInfo = { edge: edge, path: path };
       edgeElements.push(edgeInfo);
