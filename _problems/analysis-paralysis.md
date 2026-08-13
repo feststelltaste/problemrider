@@ -72,7 +72,7 @@ Analysis paralysis occurs when development teams become trapped in endless resea
 - [Perfectionist Culture](perfectionist-culture.md)
 <br/>  A culture that demands perfect solutions before implementation encourages endless analysis.
 - [Decision Paralysis](decision-paralysis.md)
-<br/>  Inability to choose between competing options keeps teams in research mode indefinitely.
+<br/>  Inability to choose between competing options keeps teams gathering more information in hopes of resolving the choice, extending the research phase; the two problems often reinforce each other in a feedback loop rather than one purely causing the other.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Without clear goals, teams lack criteria for when analysis is sufficient, leading to over-analysis.
 

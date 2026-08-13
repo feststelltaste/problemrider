@@ -56,6 +56,10 @@ Fear of failure is a powerful psychological barrier that can significantly hinde
 <br/>  Team members defer important decisions to avoid being blamed if the outcome is negative.
 - [Avoidance Behaviors](avoidance-behaviors.md)
 <br/>  Complex or risky tasks are postponed because team members fear the consequences of potential failure.
+- [Approval Dependencies](approval-dependencies.md)
+<br/>  Organizations fearful of mistakes create excessive approval requirements as a risk mitigation strategy, adding mandatory sign-off steps to routine work.
+- [Accumulated Decision Debt](accumulated-decision-debt.md)
+<br/>  Teams afraid of making the wrong choice defer decisions indefinitely, and these unmade decisions accumulate into compounding decision debt.
 
 ## Causes ▼
 

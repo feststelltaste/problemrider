@@ -64,7 +64,7 @@ API versioning conflicts occur when different versions of APIs are incompatible,
 - [Maintenance Overhead](maintenance-overhead.md)
 <br/>  Supporting multiple incompatible API versions simultaneously creates significant maintenance burden.
 - [Deployment Coupling](deployment-coupling.md)
-<br/>  API version conflicts force coordinated deployments across multiple services, creating deployment coupling.
+<br/>  When services lack a backward-compatibility layer or gateway to absorb version differences, unresolved API version conflicts can force teams to coordinate deployments across multiple services, creating deployment coupling.
 
 ## Causes ▼
 

@@ -103,6 +103,10 @@ High technical debt is the implied cost of rework caused by choosing an easy (li
 <br/>  Coding without upfront design leads to ad-hoc architecture and implementation shortcuts that become technical debt.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Each workaround is itself a piece of technical debt, so as workarounds pile up they directly raise the overall debt level of the codebase.
+- [Accumulated Decision Debt](accumulated-decision-debt.md)
+<br/>  Deferred decisions are eventually resolved with temporary or ad-hoc solutions that become permanent, adding directly to the system's technical debt.
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  Forcing new requirements into an incompatible architecture creates significant technical debt through compromised designs.
 
 ## Detection Methods ○
 

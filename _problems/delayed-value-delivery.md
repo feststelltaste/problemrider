@@ -74,6 +74,8 @@ Delayed value delivery is the gap between when a feature is ready and when it is
 <br/>  When a feature itself takes a long time to build, its value cannot reach users until development finishes, independent of how fast the release process afterward is.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  When the team's overall pace of building features and fixes declines, that work simply takes longer to become ready, independent of release-process delays.
+- [Analysis Paralysis](analysis-paralysis.md)
+<br/>  While a team remains stuck analyzing options rather than building, no feature is implemented, so no value can reach users.
 
 ## Detection Methods ○
 - **Lead Time for Changes:** Measure the time it takes for a change to go from code commit to production.

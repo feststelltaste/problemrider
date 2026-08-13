@@ -63,6 +63,8 @@ Unclear goals and priorities occur when development teams lack clear, consistent
 <br/>  Lack of clear direction leads to multiple initiatives being treated as equally urgent, creating competing demands on limited resources.
 - [Product Direction Chaos](product-direction-chaos.md)
 <br/>  Conflicting stakeholder priorities without clear product leadership create ambiguity about goals and direction.
+- [Analysis Paralysis](analysis-paralysis.md)
+<br/>  Without clear goals or success criteria, teams lack a stopping point for analysis and keep researching rather than committing to an implementation approach.
 
 ## Causes ▼
 

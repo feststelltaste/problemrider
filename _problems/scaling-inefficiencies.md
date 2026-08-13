@@ -82,6 +82,10 @@ Scaling inefficiencies occur when it is difficult or impossible to scale differe
 <br/>  Tightly coupled components cannot be separated for independent scaling because they depend directly on each other's internals.
 - [Shared Database](shared-database.md)
 <br/>  A shared database becomes a scaling bottleneck since all services must scale their database access together rather than independently.
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  An architecture designed for different scale assumptions cannot efficiently handle new load requirements.
+- [Atomic Operation Overhead](atomic-operation-overhead.md)
+<br/>  Atomic operation contention prevents performance from scaling with additional CPU cores.
 
 ## Detection Methods ○
 - **Performance Testing:** Use performance testing tools to identify bottlenecks and areas for improvement.

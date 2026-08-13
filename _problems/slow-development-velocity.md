@@ -74,6 +74,10 @@ Slow development velocity represents a sustained reduction in the team's ability
 <br/>  Frequent context switching between tasks fragments developer attention and reduces effective output.
 - [Review Bottlenecks](review-bottlenecks.md)
 <br/>  Review bottlenecks directly slow development velocity by blocking code from being merged and deployed.
+- [Analysis Paralysis](analysis-paralysis.md)
+<br/>  Time spent stuck in analysis and research produces no working code, driving effective development velocity toward zero for the duration of that phase.
+- [Accumulated Decision Debt](accumulated-decision-debt.md)
+<br/>  A growing backlog of unresolved, interdependent decisions forces every subsequent change to navigate additional constraints, slowing delivery.
 
 ## Detection Methods ○
 - **Velocity Tracking:** Track the team's velocity over time to see if it is improving or declining. Monitor sprint velocity, story points completed, or features delivered over time.

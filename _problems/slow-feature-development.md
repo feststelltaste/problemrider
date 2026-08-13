@@ -62,6 +62,8 @@ Slow feature development is the consistent inability of a development team to de
 <br/>  Tightly coupled code means adding a feature in one area requires changes across many unrelated components.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Developers must understand and work around the existing web of workarounds before they can safely add new functionality, slowing delivery.
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  Features that don't align with the architecture take much longer to implement due to the need for extensive adaptations.
 
 ## Detection Methods ○
 - **Cycle Time:** Measure the time it takes for a feature to go from idea to production. A long cycle time is a clear indicator of slow feature development.

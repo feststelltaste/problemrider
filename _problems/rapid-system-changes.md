@@ -56,6 +56,8 @@ Rapid system changes occur when software systems undergo frequent architectural 
 <br/>  Rapid changes without proper testing and documentation make the system increasingly fragile over time.
 - [Change Management Chaos](change-management-chaos.md)
 <br/>  Rapid system modifications overwhelm existing change management processes, leading to uncoordinated and conflicting changes.
+- [API Versioning Conflicts](api-versioning-conflicts.md)
+<br/>  Frequent, rapid API changes that outpace versioning discipline cause incompatible versions to accumulate across services.
 
 ## Causes ▼
 

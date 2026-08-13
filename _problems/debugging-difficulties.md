@@ -68,6 +68,8 @@ Debugging difficulties arise when developers struggle to identify, isolate, and 
 
 ## Causes ▼
 
+- [ABI Compatibility Issues](abi-compatibility-issues.md)
+<br/>  ABI issues cause subtle memory corruption and undefined behavior that are extremely hard to diagnose and debug.
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Tangled, unstructured logic makes it nearly impossible to trace execution paths and isolate the source of bugs.
 - [Insufficient Audit Logging](insufficient-audit-logging.md)

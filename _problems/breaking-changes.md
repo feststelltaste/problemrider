@@ -76,6 +76,8 @@ Breaking changes occur when modifications to APIs, interfaces, or system behavio
 <br/>  Emergency fixes and unplanned client migration work caused by breaking changes drive costs beyond plan.
 - [Fear of Breaking Changes](fear-of-breaking-changes.md)
 <br/>  Repeated incidents of breaking changes create organizational anxiety about any future API modifications.
+- [ABI Compatibility Issues](abi-compatibility-issues.md)
+<br/>  When breaking changes modify a compiled library's exported function signatures or data layouts without proper versioning, they directly cause ABI compatibility issues; changes to non-binary interfaces (e.g., REST APIs) instead cause API-level incompatibilities rather than ABI issues.
 
 ## Causes ▼
 

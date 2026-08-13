@@ -55,6 +55,8 @@ Developer frustration and burnout is a state of emotional, physical, and mental 
 
 ## Causes ▼
 
+- [Approval Dependencies](approval-dependencies.md)
+<br/>  Repeatedly being blocked by approval processes outside their control frustrates developers and contributes to burnout.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  When management persistently rejects developers' requests for time to address quality and technical debt, developers experience a loss of control and agency that contributes to frustration and burnout.
 - [Constant Firefighting](constant-firefighting.md)

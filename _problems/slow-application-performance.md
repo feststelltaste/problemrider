@@ -100,6 +100,10 @@ Slow application performance is a broad problem that can have a wide range of ca
 <br/>  Inefficient algorithms consume excessive resources and cause operations to take far longer than necessary.
 - [Network Latency](network-latency.md)
 <br/>  High network latency between application components adds delays that users perceive as slow performance.
+- [Alignment and Padding Issues](alignment-and-padding-issues.md)
+<br/>  Poor memory layout from alignment issues reduces cache utilization and increases memory bandwidth, slowing performance.
+- [Atomic Operation Overhead](atomic-operation-overhead.md)
+<br/>  Excessive atomic operation overhead directly degrades application throughput and response times.
 
 ## Detection Methods ○
 

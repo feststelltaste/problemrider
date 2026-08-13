@@ -51,8 +51,6 @@ Assumption-based development occurs when developers make decisions about functio
 <br/>  Software built on unvalidated assumptions delivers features that don't match what stakeholders actually need.
 - [Wasted Development Effort](wasted-development-effort.md)
 <br/>  Development effort spent building features based on incorrect assumptions is effectively wasted.
-- [Negative User Feedback](negative-user-feedback.md)
-<br/>  Users provide negative feedback when delivered features don't match their actual needs and workflows.
 - [Feature Gaps](feature-gaps.md)
 <br/>  Assumptions about user needs lead to building the wrong features while actual needs remain unaddressed.
 
@@ -63,9 +61,11 @@ Assumption-based development occurs when developers make decisions about functio
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
 <br/>  Poor communication channels between stakeholders and developers force developers to guess at requirements.
 - [Deadline Pressure](deadline-pressure.md)
-<br/>  Time pressure causes developers to proceed with assumptions rather than taking time to validate requirements.
+<br/>  When a compressed timeline falls specifically during requirements clarification, developers proceed on unvalidated assumptions rather than taking time to confirm understanding with stakeholders.
 - [Feedback Isolation](feedback-isolation.md)
-<br/>  When developers are isolated from user feedback, they must rely on assumptions about user needs.
+<br/>  When isolated teams choose to keep working rather than pause and escalate for clarification, they fill the resulting information gaps with assumptions about user needs.
+- [Poor Documentation](poor-documentation.md)
+<br/>  When documentation of existing business rules or system behavior is missing or unreliable, developers may guess at that specific behavior rather than looking it up; most assumption-based development instead stems from requirements-gathering or stakeholder-communication gaps rather than general documentation quality.
 
 ## Detection Methods ○
 

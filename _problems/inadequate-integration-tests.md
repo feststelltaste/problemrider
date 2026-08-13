@@ -56,6 +56,8 @@ Inadequate integration tests occur when the testing strategy focuses primarily o
 <br/>  Integration issues discovered in production require emergency fixes and rollbacks to restore service.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  Without integration tests catching issues at component boundaries, integration bugs surface in production where they ....
+- [API Versioning Conflicts](api-versioning-conflicts.md)
+<br/>  Without integration tests that exercise multiple API versions together, incompatibilities between versions go undetected until they reach production.
 
 ## Causes ▼
 

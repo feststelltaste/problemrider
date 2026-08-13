@@ -71,6 +71,8 @@ Wasted development effort occurs when significant work completed by developers b
 <br/>  Uncontrolled scope expansion changes project direction, making previously completed work obsolete.
 - [Assumption-Based Development](assumption-based-development.md)
 <br/>  Building features based on assumptions rather than validated requirements leads to work that doesn't meet actual needs.
+- [Analysis Paralysis](analysis-paralysis.md)
+<br/>  Comparison matrices and proof-of-concepts produced during prolonged research phases become wasted effort when the analysis never informs an actual implementation decision.
 
 ## Detection Methods ○
 

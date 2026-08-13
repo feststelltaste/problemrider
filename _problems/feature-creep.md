@@ -62,6 +62,8 @@ Feature creep is the tendency for the scope of a feature or component to expand 
 <br/>  Users encounter an increasingly complex interface with too many options, making it harder to accomplish their goals.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Unchecked feature creep directly increases technical debt as the system grows more complex without proper architectur....
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  Continuous addition of features beyond the original scope can push the system beyond its architectural design intent, creating a growing mismatch.
 
 ## Causes ▼
 

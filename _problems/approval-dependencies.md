@@ -67,8 +67,6 @@ Approval dependencies occur when work cannot proceed without explicit approval f
 
 - [Micromanagement Culture](micromanagement-culture.md)
 <br/>  A culture of micromanagement requires approvals for routine decisions that teams should be empowered to make independently.
-- [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
-<br/>  Unclear responsibility boundaries mean decisions get escalated to approvers unnecessarily.
 - [Fear of Failure](fear-of-failure.md)
 <br/>  Organizations fearful of mistakes create excessive approval requirements as a risk mitigation strategy.
 

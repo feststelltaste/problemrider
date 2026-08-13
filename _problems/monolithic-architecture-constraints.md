@@ -84,6 +84,8 @@ Monolithic architecture constraints occur when applications are built as single,
 <br/>  Monolithic architectures require building and testing the entire application together, directly leading to long build....
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Monolithic architectures naturally encourage tight coupling as all components share the same deployment unit and codebase without enforced boundaries.
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  Monolithic architectures are particularly prone to mismatch because their rigid, tightly bundled structure is harder to adapt to diverse new requirements.
 
 ## Causes ▼
 

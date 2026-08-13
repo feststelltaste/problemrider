@@ -49,11 +49,9 @@ ABI (Application Binary Interface) compatibility issues arise when applications 
 ## Symptoms ▲
 
 - [Cascade Failures](cascade-failures.md)
-<br/>  ABI incompatibilities can cause runtime crashes that propagate through dependent components, triggering cascade failures across the system.
+<br/>  When components are tightly coupled or lack fault isolation, an ABI-triggered crash in one component can propagate through dependents, triggering cascade failures across the system.
 - [Integration Difficulties](integration-difficulties.md)
-<br/>  Binary interface mismatches between library versions make integrating components extremely difficult, as compiled artifacts are incompatible.
-- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
-<br/>  ABI issues cause applications to work in development but fail in production where different library versions are installed.
+<br/>  When integration involves compiled or native components (e.g., shared libraries, plugins), binary interface mismatches between library versions make integration extremely difficult.
 - [Increased Error Rates](increased-error-rates.md)
 <br/>  Runtime failures from ABI mismatches lead to elevated error rates as function calls return unexpected values or crash.
 - [Debugging Difficulties](debugging-difficulties.md)
@@ -64,9 +62,9 @@ ABI (Application Binary Interface) compatibility issues arise when applications 
 - [Dependency Version Conflicts](dependency-version-conflicts.md)
 <br/>  Different components depending on different versions of the same library is a primary cause of ABI incompatibilities.
 - [Breaking Changes](breaking-changes.md)
-<br/>  Library authors introducing breaking changes to function signatures or data layouts without proper versioning directly causes ABI compatibility issues.
-- [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
-<br/>  Poorly defined interfaces between components make it easy for binary-level incompatibilities to go undetected until runtime.
+<br/>  When breaking changes modify a compiled library's exported function signatures or data layouts without proper versioning, they directly cause ABI compatibility issues; changes to non-binary interfaces (e.g., REST APIs) instead cause API-level incompatibilities rather than ABI issues.
+- [Deployment Environment Inconsistencies](deployment-environment-inconsistencies.md)
+<br/>  When different environments install different versions of shared libraries, code compiled against one ABI can load an incompatible library version at runtime, surfacing as failures that only appear outside development.
 
 ## Detection Methods ○
 

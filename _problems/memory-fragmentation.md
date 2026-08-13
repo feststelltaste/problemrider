@@ -60,8 +60,6 @@ Memory fragmentation occurs when the available memory space becomes divided into
 <br/>  Memory leaks leave allocated blocks scattered throughout the heap, contributing to fragmentation patterns as freed surrounding memory becomes non-contiguous.
 - [Excessive Object Allocation](excessive-object-allocation.md)
 <br/>  Frequent allocation and deallocation of many objects of varying sizes is a primary driver of heap fragmentation.
-- [Alignment and Padding Issues](alignment-and-padding-issues.md)
-<br/>  Poor alignment and excessive padding waste memory space and create gaps that contribute to fragmentation.
 
 ## Detection Methods ○
 

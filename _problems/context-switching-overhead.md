@@ -58,6 +58,8 @@ Context switching overhead occurs when developers are forced to frequently switc
 
 ## Causes ▼
 
+- [Approval Dependencies](approval-dependencies.md)
+<br/>  Developers forced to switch to other tasks while waiting for approvals lose focus, incurring context-switching costs.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Being pulled away from planned work to handle emergencies is a major source of forced context switches.
 - [Competing Priorities](competing-priorities.md)

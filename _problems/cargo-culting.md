@@ -55,6 +55,10 @@ Cargo culting represents a pervasive anti-pattern in software development where 
 <br/>  Inappropriately complex architectures adopted without understanding slow down feature delivery.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Code using patterns the team doesn't truly understand becomes hard to read, modify, and debug.
+- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
+<br/>  Developers copying code patterns without understanding their performance characteristics can introduce inefficient algorithms.
+- [Alignment and Padding Issues](alignment-and-padding-issues.md)
+<br/>  Copying struct definitions without understanding their memory implications leads to suboptimal field ordering and layout.
 
 ## Causes ▼
 

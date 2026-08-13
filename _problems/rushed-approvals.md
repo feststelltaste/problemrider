@@ -59,6 +59,8 @@ Rushed approvals occur when code reviews are completed hastily without adequate 
 
 ## Causes ▼
 
+- [Approval Dependencies](approval-dependencies.md)
+<br/>  Backlog pressure from accumulated approval requests leads approvers to rush through decisions rather than review them carefully.
 - [Time Pressure](time-pressure.md)
 <br/>  Deadline pressure forces reviewers to prioritize speed over thoroughness, leading to superficial approvals.
 - [Review Bottlenecks](review-bottlenecks.md)

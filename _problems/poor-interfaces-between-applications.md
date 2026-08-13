@@ -76,6 +76,8 @@ Poor interfaces between applications occur when systems communicate through poor
 <br/>  Poorly defined interfaces produce frequent integration errors from mismatched data formats and inconsistent contracts.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  New features requiring cross-system integration take much longer due to unreliable and inconsistent interfaces.
+- [API Versioning Conflicts](api-versioning-conflicts.md)
+<br/>  Interfaces designed without a clear versioning strategy accumulate incompatible versions as they evolve, leading to versioning conflicts.
 
 ## Causes ▼
 

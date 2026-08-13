@@ -81,6 +81,8 @@ Deployment environment inconsistencies occur when applications are deployed acro
 <br/>  Applications behave differently across environments, making it impossible to guarantee consistent user experiences.
 - [Release Instability](release-instability.md)
 <br/>  Releases become unstable because testing in inconsistent environments fails to catch production-specific issues.
+- [ABI Compatibility Issues](abi-compatibility-issues.md)
+<br/>  When different environments install different versions of shared libraries, code compiled against one ABI can load an incompatible library version at runtime, surfacing as failures that only appear outside development.
 
 ## Causes ▼
 

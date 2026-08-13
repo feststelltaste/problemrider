@@ -73,6 +73,10 @@ Accumulation of workarounds occurs when developers consistently choose temporary
 <br/>  An organizational culture that normalizes and rewards quick fixes over proper solutions directly drives workaround accumulation.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Without tests as a safety net, developers are afraid to modify existing code and resort to workarounds instead.
+- [Accumulated Decision Debt](accumulated-decision-debt.md)
+<br/>  When key decisions remain unresolved, teams bypass the gap with temporary workarounds instead of waiting for a proper decision.
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  When the architecture does not support new requirements, developers create workarounds to bridge the gap.
 
 ## Detection Methods ○
 

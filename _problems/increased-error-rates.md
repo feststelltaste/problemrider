@@ -57,6 +57,8 @@ An increased error rate is a clear sign that something is wrong with an applicat
 
 ## Causes ▼
 
+- [ABI Compatibility Issues](abi-compatibility-issues.md)
+<br/>  Runtime failures from ABI mismatches lead to elevated error rates as function calls return unexpected values or crash.
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Poor error handling allows failures to propagate rather than being caught and managed gracefully.
 - [High Bug Introduction Rate](high-bug-introduction-rate.md)

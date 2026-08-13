@@ -89,6 +89,8 @@ Cascade failures occur when a single change, bug, or failure in one component ca
 
 ## Causes ▼
 
+- [ABI Compatibility Issues](abi-compatibility-issues.md)
+<br/>  In tightly coupled systems lacking fault isolation, a binary interface mismatch that crashes one component can propagate into a cascade of failures across dependents.
 - [Tight Coupling Issues](tight-coupling-issues.md)
 <br/>  Tightly coupled components propagate failures because they cannot operate independently when dependencies fail.
 - [Single Points of Failure](single-points-of-failure.md)
@@ -99,6 +101,8 @@ Cascade failures occur when a single change, bug, or failure in one component ca
 <br/>  Lack of failure scenario testing means cascade failure paths are not discovered until they occur in production.
 - [Service Discovery Failures](service-discovery-failures.md)
 <br/>  Failed service discovery causes requests to be routed to unavailable instances, triggering cascade failures.
+- [API Versioning Conflicts](api-versioning-conflicts.md)
+<br/>  An incompatible API version between two services can make one call fail, and in a tightly coupled call chain that single failure propagates into a cascade across dependent services.
 
 ## Detection Methods ○
 - **Dependency Mapping:** Visualize component dependencies to identify potential cascade paths

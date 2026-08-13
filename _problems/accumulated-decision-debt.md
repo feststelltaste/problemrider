@@ -59,6 +59,8 @@ Accumulated decision debt occurs when important architectural, design, or techni
 <br/>  Each deferred decision adds to the system's overall technical debt as temporary solutions become permanent.
 - [Suboptimal Solutions](suboptimal-solutions.md)
 <br/>  When accumulated deferred decisions must finally be resolved under pressure, the resulting solutions are often suboptimal due to constrained options.
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  Deferred architectural decisions constrain the system until it can no longer accommodate evolving requirements.
 
 ## Causes ▼
 

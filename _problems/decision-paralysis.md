@@ -56,6 +56,8 @@ Decision paralysis is a common problem in software development. It occurs when d
 <br/>  Projects stall and are eventually abandoned when teams cannot decide on fundamental implementation approaches.
 - [Accumulated Decision Debt](accumulated-decision-debt.md)
 <br/>  Unmade decisions accumulate over time, creating an increasingly complex backlog of interdependent choices.
+- [Analysis Paralysis](analysis-paralysis.md)
+<br/>  When teams cannot decide between competing options, they often keep gathering more information hoping to clarify the choice, extending the research phase instead of committing to an implementation.
 
 ## Causes ▼
 

@@ -56,6 +56,12 @@ Inexperienced developers refers to a situation where team members lack the knowl
 <br/>  Without knowledge of performance optimization, inexperienced developers write computationally expensive code.
 - [Code Duplication](code-duplication.md)
 <br/>  Inexperienced developers frequently duplicate code because they don't know about existing implementations or don't understand how to properly abstract and reuse existing logic.
+- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
+<br/>  Developers lacking computer science fundamentals may not recognize poor algorithmic choices or know better alternatives.
+- [Alignment and Padding Issues](alignment-and-padding-issues.md)
+<br/>  Developers unfamiliar with hardware memory alignment requirements unknowingly create inefficient structure layouts.
+- [Atomic Operation Overhead](atomic-operation-overhead.md)
+<br/>  Developers unfamiliar with concurrent programming nuances may overuse atomic operations without understanding their performance cost.
 
 ## Causes ▼
 
