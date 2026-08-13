@@ -4,7 +4,6 @@ description: Developing and optimizing applications specifically for cloud envir
 category:
 - Architecture
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/portability/cloud-native-development
 problems:
 - scaling-inefficiencies
 - monolithic-architecture-constraints

@@ -1,6 +1,6 @@
 ---
 title: Event-Driven Architecture
-description: Decoupling components through asynchronous events for independent evolution and modification
+description: Decouple components through asynchronous events
 category:
 - Architecture
 quality_tactics_url: https://qualitytactics.de/en/maintainability/event-driven-architecture/

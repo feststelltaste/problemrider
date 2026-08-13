@@ -4,7 +4,6 @@ description: Using data structures that trade accuracy for space
 category:
 - Performance
 - Code
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/probabilistic-data-structures
 problems:
 - unbounded-data-growth
 - high-database-resource-utilization

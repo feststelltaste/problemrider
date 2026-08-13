@@ -4,7 +4,6 @@ description: Maintaining servers or systems as a functional group redundantly
 category:
 - Architecture
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/failover-cluster
 problems:
 - single-points-of-failure
 - system-outages

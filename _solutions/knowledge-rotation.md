@@ -41,6 +41,8 @@ problems:
 - inexperienced-developers
 - legacy-skill-shortage
 - skill-development-gaps
+- implementation-partner-dependency
+- voided-vendor-support
 layout: solution
 ---
 

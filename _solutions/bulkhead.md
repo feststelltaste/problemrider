@@ -3,7 +3,6 @@ title: Bulkhead
 description: Dividing a system into isolated areas to limit fault propagation
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/bulkhead
 problems:
 - cascade-failures
 - single-points-of-failure

@@ -48,6 +48,7 @@ Inadequate test data management is the practice of using test data that is not r
 <br/>  Insufficient test data leaves edge cases and real-world scenarios untested, creating blind spots in quality assurance.
 - [Increased Manual Testing Effort](increased-manual-testing-effort.md)
 <br/>  When automated tests cannot be trusted due to poor data, teams resort to manual testing to verify behavior.
+
 ## Causes ▼
 
 - [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
@@ -56,6 +57,7 @@ Inadequate test data management is the practice of using test data that is not r
 <br/>  Management prioritizes feature delivery over investing in proper test data management processes and tools.
 - [Poor Planning](poor-planning.md)
 <br/>  Test data needs are not planned for or budgeted, leading to ad-hoc and insufficient data management practices.
+
 ## Detection Methods ○
 - **Test Data Analysis:** Analyze the test data to see if it is realistic and representative of the production environment.
 - **Bug Triage:** When a bug is found in production, analyze the test data that was used to test the feature to see if it was adequate.

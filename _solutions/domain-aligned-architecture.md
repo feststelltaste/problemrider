@@ -3,7 +3,6 @@ title: Domain-Aligned Architecture
 description: Aligning the software's structure with domain structures and processes
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/domain-aligned-architecture
 problems:
 - architectural-mismatch
 - organizational-structure-mismatch

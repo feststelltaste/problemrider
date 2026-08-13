@@ -33,6 +33,23 @@ solutions:
 - security-relevant-metrics
 - a-b-testing
 - service-level-indicators
+- cost-of-delay
+- baseline-measurement
+- benefits-realization-tracking
+- value-hierarchy
+- risk-quantification
+- total-cost-of-ownership-transparency
+- delivery-performance-metrics
+- feature-usage-measurement
+- outcome-based-goal-setting
+- staged-investment-with-decision-gates
+- executive-sponsorship
+- modernization-options-comparison
+- no-regret-moves
+- technical-debt-assessment
+- debt-remediation-estimation
+- debt-classification
+- customization-cost-attribution
 layout: problem
 ---
 
@@ -60,6 +77,7 @@ Difficulty quantifying benefits occurs when the value of technical improvements,
 <br/>  Without the ability to justify modernization efforts, systems remain on outdated technologies and patterns.
 - [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
 <br/>  The inability to quantify benefits directly causes failures in justifying modernization investments.
+
 ## Causes ▼
 
 - [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
@@ -70,6 +88,7 @@ Difficulty quantifying benefits occurs when the value of technical improvements,
 <br/>  The gap between technical and business language makes it difficult to translate technical benefits into business terms that stakeholders understand.
 - [Feature Factory](feature-factory.md)
 <br/>  Organizations focused on feature output measure success by features shipped, making non-feature work impossible to justify.
+
 ## Detection Methods ○
 
 - **Prioritization Decision Analysis:** Track how often technical improvements are deprioritized due to ROI concerns

@@ -4,7 +4,6 @@ description: Define binding rules for compatible development and enforce them in
 category:
 - Process
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/compatibility-standards
 problems:
 - breaking-changes
 - inconsistent-coding-standards

@@ -4,7 +4,6 @@ description: Collaboratively defining requirements through concrete examples tha
 category:
 - Requirements
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/specification-by-example
 problems:
 - requirements-ambiguity
 - inadequate-requirements-gathering

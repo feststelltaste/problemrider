@@ -4,7 +4,6 @@ description: Automated verification of functionality at various levels
 category:
 - Testing
 - Code
-quality_tactics_url: https://qualitytactics.de/en/reliability/automated-tests
 problems:
 - insufficient-testing
 - poor-test-coverage
@@ -18,6 +17,8 @@ problems:
 - fear-of-failure
 - past-negative-experiences
 - defensive-coding-practices
+- low-code-customization-sprawl
+- upgrade-blocked-by-customization
 layout: solution
 ---
 

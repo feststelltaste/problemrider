@@ -4,7 +4,6 @@ description: '"Never trust, always verify" — verifying every request regardles
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/security/zero-trust-architecture
 problems:
 - authentication-bypass-vulnerabilities
 - authorization-flaws

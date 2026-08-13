@@ -4,7 +4,6 @@ description: Choose database systems and storage solutions that are available on
 category:
 - Database
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/portability/platform-independent-data-storage
 problems:
 - technology-lock-in
 - vendor-lock-in

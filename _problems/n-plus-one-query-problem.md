@@ -31,6 +31,7 @@ solutions:
 - static-code-analysis
 - continuous-performance-monitoring
 - index-lifecycle-management
+- typed-schema-extraction
 layout: problem
 ---
 
@@ -64,6 +65,7 @@ The N+1 query problem is a common performance issue that occurs when an applicat
 <br/>  Without reviews that scrutinize database access patterns, N+1 queries slip into production undetected.
 - [Knowledge Gaps](knowledge-gaps.md)
 <br/>  Developers unfamiliar with ORM behavior or database optimization techniques inadvertently introduce N+1 patterns.
+
 ## Detection Methods ○
 
 - **Application Performance Monitoring (APM):** APM tools can often detect and flag N+1 query patterns automatically.

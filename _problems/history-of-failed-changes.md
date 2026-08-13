@@ -29,6 +29,8 @@ solutions:
 - small-change-batches
 - characterization-tests
 - delivery-performance-metrics
+- executive-sponsorship
+- staged-investment-with-decision-gates
 layout: problem
 ---
 
@@ -53,6 +55,7 @@ A history of failed changes can create a lasting negative impact on a team's cul
 <br/>  Fear stemming from past failures prevents teams from trying new approaches or technologies.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  Reluctance to change leads to architecture that remains frozen and unable to evolve with changing requirements.
+
 ## Causes ▼
 
 - [Insufficient Testing](insufficient-testing.md)
@@ -63,6 +66,7 @@ A history of failed changes can create a lasting negative impact on a team's cul
 <br/>  Repeated production bugs from releases build a record of failed changes that reinforces risk-averse culture.
 - [Missing Rollback Strategy](missing-rollback-strategy.md)
 <br/>  Without rollback capability, failed deployments cause extended outages that amplify the negative impact and fear.
+
 ## Detection Methods ○
 - **Deployment Frequency:** Track how often the team deploys changes to production. A low deployment frequency can be a sign of fear.
 - **Lead Time for Changes:** Measure the time it takes from a code commit to a production deployment.

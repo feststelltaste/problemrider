@@ -4,7 +4,6 @@ description: Execution of code without managing the underlying infrastructure
 category:
 - Operations
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/serverless-computing
 problems:
 - scaling-inefficiencies
 - operational-overhead

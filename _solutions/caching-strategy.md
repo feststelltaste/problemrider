@@ -1,6 +1,6 @@
 ---
 title: Caching
-description: Caching frequently needed data
+description: Cache frequently needed data
 category:
 - Performance
 - Architecture

@@ -4,7 +4,6 @@ description: Ensuring consistency between development, test, and production envi
 category:
 - Operations
 - Process
-quality_tactics_url: https://qualitytactics.de/en/reliability/environment-parity
 problems:
 - deployment-environment-inconsistencies
 - configuration-drift
@@ -17,6 +16,7 @@ problems:
 - environment-variable-issues
 - inadequate-configuration-management
 - legacy-configuration-management-chaos
+- customization-outside-version-control
 layout: solution
 ---
 

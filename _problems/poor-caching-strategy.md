@@ -52,6 +52,7 @@ A poor caching strategy can be as bad as having no caching at all. This problem 
 <br/>  Without caching, the same data is repeatedly queried from the database, inflating the total number of database requests.
 - [Slow Response Times for Lists](slow-response-times-for-lists.md)
 <br/>  List pages that aggregate data from multiple sources are especially impacted by poor caching, as each item may trigger separate uncached queries.
+
 ## Causes ▼
 
 - [Inexperienced Developers](inexperienced-developers.md)
@@ -60,6 +61,7 @@ A poor caching strategy can be as bad as having no caching at all. This problem 
 <br/>  Prototype code that skipped caching for simplicity ends up in production without the caching layer being added later.
 - [Implementation Starts Without Design](implementation-starts-without-design.md)
 <br/>  Starting development without upfront design means caching strategies are not considered as part of the architecture.
+
 ## Detection Methods ○
 
 - **Network Monitoring:** Analyze network traffic to see if the same data is being repeatedly fetched.

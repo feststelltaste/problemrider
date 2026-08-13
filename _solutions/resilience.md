@@ -3,7 +3,6 @@ title: Resilience
 description: Ability of a system to remain operational under adverse conditions or faults
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/resilience
 problems:
 - cascade-failures
 - system-outages

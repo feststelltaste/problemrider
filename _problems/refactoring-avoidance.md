@@ -29,6 +29,13 @@ solutions:
 - mikado-method
 - improvement-budget
 - code-hotspot-analysis
+- debt-classification
+- debt-remediation-estimation
+- quality-ratchet
+- technical-debt-assessment
+- debt-accrual-analysis
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 
@@ -57,6 +64,7 @@ Refactoring avoidance is the phenomenon where a development team consistently po
 <br/>  When teams avoid refactoring, the architecture cannot evolve.
 - [Brittle Codebase](brittle-codebase.md)
 <br/>  Long-term avoidance of refactoring allows structural problems to accumulate, making the codebase increasingly brittle and fragile.
+
 ## Causes ▼
 
 - [Fear of Change](fear-of-change.md)
@@ -67,6 +75,7 @@ Refactoring avoidance is the phenomenon where a development team consistently po
 <br/>  Lack of test coverage means there is no safety net to catch regressions during refactoring, making it too risky to attempt.
 - [Unrealistic Schedule](unrealistic-schedule.md)
 <br/>  Tight deadlines leave no time allocated for refactoring work, prioritizing feature delivery over code improvement.
+
 ## Detection Methods ○
 - **Code Churn Analysis:** Analyze the history of the codebase to see which files are being modified most frequently. If the same files are being churned over and over again without any improvement in their structure, it is a sign of refactoring avoidance.
 - **Technical Debt Backlog:** If the team has a backlog of technical debt items that is constantly growing and never shrinking, it is a clear sign that they are avoiding refactoring.

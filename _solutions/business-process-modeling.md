@@ -4,7 +4,6 @@ description: Elicit business requirements by modeling the underlying business pr
 category:
 - Requirements
 - Business
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/business-process-modeling
 problems:
 - requirements-ambiguity
 - inadequate-requirements-gathering
@@ -12,6 +11,7 @@ problems:
 - poor-domain-model
 - stakeholder-developer-communication-gap
 - implicit-knowledge
+- process-software-misfit
 layout: solution
 ---
 

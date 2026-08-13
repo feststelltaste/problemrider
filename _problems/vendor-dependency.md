@@ -31,6 +31,9 @@ solutions:
 - technology-radar
 - application-portfolio-inventory
 - system-decommissioning
+- risk-quantification
+- modernization-options-comparison
+- cost-of-delay
 layout: problem
 ---
 
@@ -58,12 +61,14 @@ Vendor dependency occurs when organizations become excessively reliant on extern
 <br/>  Vendors with significant leverage can raise prices knowing the organization cannot easily switch.
 - [Reduced Team Flexibility](reduced-team-flexibility.md)
 <br/>  Dependence on vendor timelines and roadmaps limits the organization's ability to respond quickly to changing needs.
+
 ## Causes ▼
 
 - [Poor Planning](poor-planning.md)
 <br/>  Insufficient planning around technology choices leads to over-reliance on single vendors without considering long-term risks.
 - [Quality Compromises](quality-compromises.md)
 <br/>  Taking shortcuts by using vendor-specific features rather than building vendor-agnostic abstractions increases dependency.
+
 ## Detection Methods ○
 
 - **Vendor Dependency Mapping:** Identify all critical business functions that depend on external vendors

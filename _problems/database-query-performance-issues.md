@@ -56,6 +56,7 @@ Database query performance issues occur when SQL queries are inefficiently writt
 <br/>  Users experience slow page loads and timeouts caused by database performance issues, leading to complaints and negative reviews.
 - [Scaling Inefficiencies](scaling-inefficiencies.md)
 <br/>  Queries that perform full table scans or lack proper indexing become exponentially slower as data volumes grow, preventing effective scaling.
+
 ## Causes ▼
 
 - [Inefficient Database Indexing](inefficient-database-indexing.md)
@@ -66,6 +67,7 @@ Database query performance issues occur when SQL queries are inefficiently writt
 <br/>  Application code that fetches related data in loops generates many individual queries instead of efficient batch operations.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without database optimization knowledge write naive queries that work for small datasets but fail at production scale.
+
 ## Detection Methods ○
 
 - **Query Performance Monitoring:** Monitor database query execution times and resource usage

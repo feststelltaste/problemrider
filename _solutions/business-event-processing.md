@@ -4,7 +4,6 @@ description: Recognize, process, and respond to business events
 category:
 - Architecture
 - Business
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/business-event-processing
 problems:
 - monolithic-architecture-constraints
 - tight-coupling-issues

@@ -48,6 +48,7 @@ Excessive disk I/O can be a major cause of poor application performance. This ca
 <br/>  Operations waiting for disk reads or writes may exceed timeout thresholds, causing service failures.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As data volumes grow, inefficient disk access patterns cause progressively worsening performance.
+
 ## Causes ▼
 
 - [Excessive Logging](excessive-logging.md)
@@ -60,6 +61,7 @@ Excessive disk I/O can be a major cause of poor application performance. This ca
 <br/>  Inefficient algorithms that make unnecessary data passes or use poor access patterns generate excessive disk operations.
 - [Inefficient Code](inefficient-code.md)
 <br/>  Code that reads or writes data in small chunks instead of using buffered or batch operations multiplies disk I/O operations.
+
 ## Detection Methods ○
 
 - **System Monitoring Tools:** Use tools like `iostat`, `vmstat`, `sar` (Linux) or Performance Monitor (Windows) to track disk I/O metrics (e.g., read/write operations per second, average queue length, I/O wait time).

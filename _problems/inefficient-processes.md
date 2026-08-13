@@ -28,6 +28,7 @@ solutions:
 - value-stream-mapping
 - delivery-performance-metrics
 - self-service-developer-platform
+- fit-to-standard-principle
 layout: problem
 ---
 
@@ -57,6 +58,7 @@ Inefficient processes occur when the workflows, procedures, and organizational p
 <br/>  Redundant processes and unnecessary handoffs waste valuable development time on non-value-adding activities.
 - [Increased Manual Work](increased-manual-work.md)
 <br/>  Inefficient processes that haven't been optimized or automated create unnecessary manual work for developers.
+
 ## Causes ▼
 
 - [Process Design Flaws](process-design-flaws.md)
@@ -67,6 +69,7 @@ Inefficient processes occur when the workflows, procedures, and organizational p
 <br/>  A culture of excessive oversight leads to unnecessary approval steps and check-ins that burden the development process.
 - [Automated Tooling Ineffectiveness](automated-tooling-ineffectiveness.md)
 <br/>  Manual processes that could be automated waste developer time on repetitive, low-value tasks.
+
 ## Detection Methods ○
 
 - **Time Tracking Analysis:** Measure how developers spend their time, identifying non-development activities

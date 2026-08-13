@@ -4,7 +4,6 @@ description: Systematic capture, analysis, and resolution of errors and issues
 category:
 - Process
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/error-reporting-and-analysis
 problems:
 - increased-error-rates
 - slow-incident-resolution

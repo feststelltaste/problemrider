@@ -27,6 +27,10 @@ solutions:
 - change-impact-analysis
 - definition-of-ready
 - preparatory-refactoring
+- debt-remediation-estimation
+- technical-debt-assessment
+- automated-code-migration
+- duplication-detection
 layout: problem
 ---
 
@@ -51,6 +55,7 @@ When small, seemingly simple changes are consistently estimated to take a long t
 <br/>  Repeated large estimates for small work erodes business confidence in the team's ability to deliver efficiently.
 - [Planning Credibility Issues](planning-credibility-issues.md)
 <br/>  When estimates seem disproportionate to the apparent work, stakeholders question the reliability of all future planning and estimates.
+
 ## Causes ▼
 
 - [Brittle Codebase](brittle-codebase.md)
@@ -63,6 +68,7 @@ When small, seemingly simple changes are consistently estimated to take a long t
 <br/>  Accumulated shortcuts and design compromises make the codebase harder to work with, inflating the effort for even minor changes.
 - [Complex and Obscure Logic](complex-and-obscure-logic.md)
 <br/>  When code is hard to understand, developers need extra time to comprehend the system before making changes, driving up estimates.
+
 ## Detection Methods ○
 - **Analyze Estimation Trends:** Track the estimates for tasks of similar complexity over time. A consistent increase in estimates is a red flag.
 - **Compare Estimated vs. Actual Time:** If the actual time taken to complete tasks is consistently much higher than the estimates, it indicates that the team is struggling with unforeseen complexity.

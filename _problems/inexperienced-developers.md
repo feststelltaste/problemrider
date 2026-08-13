@@ -67,6 +67,7 @@ Inexperienced developers refers to a situation where team members lack the knowl
 <br/>  Poor onboarding processes fail to bring new developers up to speed on the system and its practices.
 - [Inadequate Mentoring Structure](inadequate-mentoring-structure.md)
 <br/>  Without experienced mentors to guide them, junior developers have no pathway to develop proper engineering skills.
+
 ## Detection Methods ○
 - **Code Quality Metrics:** Monitor metrics like cyclomatic complexity, code coverage, and bug density by developer
 - **Code Review Patterns:** Track frequency and types of issues found during code reviews

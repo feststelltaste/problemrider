@@ -4,7 +4,6 @@ description: Embedding security as a shared value within the company
 category:
 - Security
 - Culture
-quality_tactics_url: https://qualitytactics.de/en/security/security-culture
 problems:
 - workaround-culture
 - resistance-to-change

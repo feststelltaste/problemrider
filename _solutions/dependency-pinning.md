@@ -4,7 +4,6 @@ description: Locking external dependency versions for reproducible, compatible b
 category:
 - Operations
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/compatibility/dependency-pinning
 problems:
 - dependency-version-conflicts
 - deployment-environment-inconsistencies

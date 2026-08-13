@@ -11,6 +11,44 @@ This follows Walter Schönwandt's method from *Komplexe Probleme lösen* (German
 
 **This method is for genuinely tricky problems** — the kind where no ready-made routine solution applies — if the user's situation already has an obvious, known fix, just point them at it directly instead of running the full process.
 
+## Which causal links you can rely on
+
+The **Symptoms** and **Causes** sections of `_problems/*.md` are the causal graph you
+will be walking. They are not uniformly trustworthy, and the difference matters for
+this method specifically.
+
+Both sections express the same kind of directed claim from opposite ends: an entry
+under **Symptoms** of problem A claims *A causes B*, and an entry under **Causes** of
+problem B claims the same thing. So a claim should appear in both files. Currently
+only about one in seven does. The rest were written into one file without the other
+file ever being updated.
+
+The consequence is structural, and it breaks root-cause analysis if you ignore it:
+
+- Taking **all** links at face value, every one of the catalog's problems both causes
+  and is caused by every other. There is not a single problem that nothing causes.
+  Backward shifting on this graph never terminates — you can walk from any problem to
+  any other and back.
+- Taking only the links **both files record**, the graph falls apart into many small
+  pieces with real root causes, real terminal symptoms, and small feedback loops.
+
+So when you traverse:
+
+- A link recorded in **both** files is confirmed. Treat it as evidence.
+- A link recorded in **only one** file is a lead, not evidence. Follow it if it looks
+  relevant, but say so, and do not let an unconfirmed link carry a conclusion on its
+  own — especially not the claim that you have reached a root cause.
+- If a chain you want to present rests mainly on unconfirmed links, say that plainly
+  in the report rather than presenting it with the same confidence as a confirmed one.
+
+To check a specific link, open both problem files and look for the counterpart entry.
+`python scripts/validate_causal_links.py --detail` reports the overall state, and
+`--asymmetry-report FILE` writes out every unconfirmed claim.
+
+Small feedback loops in the confirmed graph are expected and are not a defect —
+reinforcing loops are a real feature of legacy systems. Do not treat a loop as a
+reason to distrust a chain; treat it as something to name.
+
 ## The core discipline: iterate, don't pipeline
 
 The seven themes below are not a linear checklist. Schönwandt is explicit that you go through them repeatedly, in whatever order makes sense, until they're mutually consistent (reflective equilibrium). You can start from a suspected cause, a proposed measure, or the original complaint — it doesn't matter, as long as you end up circling back to check the others. In particular:
@@ -36,11 +74,28 @@ Before settling on the problem framing, deliberately try shifting it in both dir
 - **Backward shift**: "Where does this come from?" — step back toward the root. Would solving something further upstream make the named problem moot? (Schönwandt's example: not "we lack landfill sites" but "we produce too much waste" → a recycling law removed the original problem entirely.)
 - **Forward shift**: "What does this lead to?" — accept the named cause as a given, and ask what it leads to instead. Can the downstream effect be handled directly? (Example: not "we emit too much CO2" but "we don't use the CO2 we already emit" → capture, storage, or reuse.)
 
+When you shift backward, walk the **Causes** links; when you shift forward, walk the
+**Symptoms** links. Prefer confirmed links in both directions. A backward walk that
+only continues because of unconfirmed links has probably reached the end of what the
+catalog actually supports — stop there and say so, rather than continuing until the
+scope boundary stops you.
+
 In this catalog, the scope section of `CLAUDE.md` already fixes how far each direction is allowed to go: not further back than the requirements/management level (political or economic root causes like tariff wars are out of scope), and not further forward than fine-grained technical detail (CPU-level issues are out of scope). If the user's stated problem sits outside that band, that's exactly this theme at work — help them find the backward- or forward-shifted framing that lands back inside it, and note explicitly which direction you shifted and why.
 
 ## 3. Problem Causes (plural)
 
 Ask "What else could it be?" and keep generating candidate causes past the first plausible one — settling for a single cause too early is the specific thinking error Schönwandt calls "monocausalitis" (assuming one plausible cause is already good work). Match candidates against the **Causes** sections of `_problems/*.md`, and check whether something the user named as "the problem" is actually a **Symptom** of a different, deeper entry.
+
+Check each candidate cause against the counterpart file before relying on it. If the
+deeper entry does not list the user's problem among its **Symptoms**, the link is
+unconfirmed — which is common and does not make it wrong, but it does mean the
+catalog is not evidence for it. Say which of your candidate causes are confirmed and
+which rest on a one-sided link, and do not let the strongest conclusion rest on the
+weakest link.
+
+Also generate candidates the catalog does not offer. A graph in which everything links
+to everything invites the hammer-and-nail bias of theme 5: whatever you look at will
+have plenty of plausible neighbours.
 
 ## 4. Fitting Measures
 
@@ -79,7 +134,8 @@ Once the user is satisfied the loop has converged (themes are mutually consisten
 
 - **Reported Situation** — the problem as finally framed, in observable terms
 - **Back-/Forward-Shifting Considered** — which direction(s) you tried, and where the framing landed
-- **Root Causes** — linked problem titles with a one-line rationale each
+- **Root Causes** — linked problem titles with a one-line rationale each, and for each
+  one whether the link to it is confirmed by both problem files or rests on one side
 - **Recommended Solutions** — linked solution titles with a one-line rationale each
 - **Thinking Errors Checked** — what you checked for, and anything it changed
 - **Validity Check** — how theme 6 was tested and what held up

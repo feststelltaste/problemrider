@@ -1,6 +1,6 @@
 ---
 title: Architecture Decision Records (ADR)
-description: Documenting important architectural decisions and their justifications
+description: Document important architectural decisions and their justifications
 category:
 - Architecture
 - Communication
@@ -24,6 +24,7 @@ problems:
 - premature-technology-introduction
 - team-churn-impact
 - conflicting-reviewer-opinions
+- implementation-partner-dependency
 layout: solution
 ---
 

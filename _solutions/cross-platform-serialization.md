@@ -4,7 +4,6 @@ description: Use data serializers that are compatible across different systems
 category:
 - Architecture
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/compatibility/cross-platform-serialization
 problems:
 - cross-system-data-synchronization-problems
 - integration-difficulties

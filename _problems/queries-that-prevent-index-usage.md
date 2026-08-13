@@ -46,6 +46,7 @@ Even when appropriate indexes exist, certain query patterns can prevent the data
 <br/>  Non-index-friendly query patterns create performance bottlenecks in database operations.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As tables grow, queries that cannot use indexes degrade progressively because full scans take longer.
+
 ## Causes ▼
 
 - [Skill Development Gaps](skill-development-gaps.md)
@@ -54,6 +55,7 @@ Even when appropriate indexes exist, certain query patterns can prevent the data
 <br/>  Code reviews that don't evaluate query performance miss patterns that prevent index usage.
 - [Inefficient Database Indexing](inefficient-database-indexing.md)
 <br/>  Poorly designed indexes may not match query patterns, compounding the effect of index-unfriendly queries.
+
 ## Detection Methods ○
 
 - **Query Execution Plan Analysis:** This is the primary method. Always use `EXPLAIN` or `EXPLAIN ANALYZE` to understand how the database is executing your queries. Look for `Seq Scan` or `Full Table Scan` on large tables where an index is expected.

@@ -49,6 +49,7 @@ A continuous feedback loop is essential for agile development, allowing teams to
 <br/>  Without ongoing feedback to validate direction, requirements accumulate unchecked as stakeholders add requests at the end.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Stakeholders become frustrated when they see the final product and it does not match their expectations due to lack of involvement.
+
 ## Causes ▼
 
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
@@ -57,6 +58,7 @@ A continuous feedback loop is essential for agile development, allowing teams to
 <br/>  Under tight deadlines, teams skip feedback sessions and demos to focus on development, eliminating opportunities for course correction.
 - [Team Silos](team-silos.md)
 <br/>  Organizational silos between business and development teams create structural barriers to ongoing collaboration and feedback.
+
 ## Detection Methods ○
 
 - **Project Audits:** Review project plans and communication logs to see the frequency of stakeholder engagement and feedback sessions.

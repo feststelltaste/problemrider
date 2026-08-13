@@ -57,6 +57,7 @@ Database connection leaks occur when applications open database connections but 
 <br/>  Leaked connections accumulate as open but unused connections, driving up the total connection count on the database server.
 - [Resource Allocation Failures](resource-allocation-failures.md)
 <br/>  When the connection pool is exhausted by leaked connections, new database operations fail because no resources can be allocated.
+
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
@@ -67,6 +68,7 @@ Database connection leaks occur when applications open database connections but 
 <br/>  Without tests that exercise error paths and long-running scenarios, connection leak patterns go undetected until production.
 - [Insufficient Testing](insufficient-testing.md)
 <br/>  Connection leaks typically only manifest under sustained load or error conditions that are not covered by superficial testing.
+
 ## Detection Methods ○
 
 - **Connection Pool Monitoring:** Monitor database connection pool usage, active connections, and pool exhaustion events

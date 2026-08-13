@@ -3,7 +3,6 @@ title: Rolling Updates
 description: Stepwise updating of servers or instances
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/rolling-updates
 problems:
 - deployment-risk
 - system-outages

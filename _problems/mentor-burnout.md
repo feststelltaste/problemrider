@@ -53,6 +53,7 @@ Mentor burnout occurs when experienced developers become overwhelmed by the cons
 <br/>  When burned-out mentors disengage or leave, the knowledge gaps they leave behind create maintenance bottlenecks.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  The imbalance between mentoring demands and personal development work creates deep frustration in experienced team members.
+
 ## Causes ▼
 
 - [Knowledge Dependency](knowledge-dependency.md)
@@ -63,6 +64,7 @@ Mentor burnout occurs when experienced developers become overwhelmed by the cons
 <br/>  Poor onboarding processes force mentors to repeatedly cover basics with new hires, increasing their mentoring burden.
 - [Rapid Team Growth](rapid-team-growth.md)
 <br/>  Quickly growing teams create a high ratio of junior to senior developers, overwhelming mentors with training demands.
+
 ## Detection Methods ○
 
 - **Mentor Time Allocation:** Track how much time experienced developers spend on mentoring versus development work

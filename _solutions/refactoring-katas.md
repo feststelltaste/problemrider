@@ -4,7 +4,6 @@ description: Perform regular exercises to improve code quality
 category:
 - Code
 - Team
-quality_tactics_url: https://qualitytactics.de/en/maintainability/refactoring-katas
 problems:
 - refactoring-avoidance
 - fear-of-change

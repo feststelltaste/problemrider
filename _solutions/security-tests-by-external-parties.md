@@ -4,7 +4,6 @@ description: Engage independent security experts to test the application
 category:
 - Security
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/security/security-tests-by-external-parties
 problems:
 - quality-blind-spots
 - insufficient-testing

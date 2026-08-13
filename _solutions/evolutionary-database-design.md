@@ -1,6 +1,6 @@
 ---
 title: Evolutionary Database Design
-description: Evolving database schemas incrementally through version-controlled migration scripts
+description: Evolve database schemas incrementally through version-controlled migrations
 category:
 - Database
 - Architecture
@@ -15,6 +15,7 @@ problems:
 - cross-system-data-synchronization-problems
 - unbounded-data-growth
 - long-running-database-transactions
+- entity-attribute-value-overuse
 layout: solution
 ---
 

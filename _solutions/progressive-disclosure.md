@@ -1,6 +1,6 @@
 ---
 title: Progressive Disclosure
-description: Gradual disclosure of information and functions
+description: Reveal information and functions gradually as users need them
 category:
 - Requirements
 quality_tactics_url: https://qualitytactics.de/en/usability/progressive-disclosure/

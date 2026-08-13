@@ -3,7 +3,6 @@ title: Circuit Breaker
 description: Mechanism for error and overload protection in distributed systems
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/circuit-breaker
 problems:
 - cascade-failures
 - service-timeouts

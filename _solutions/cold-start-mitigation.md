@@ -4,7 +4,6 @@ description: Reducing initialization latency in serverless, container, and JVM a
 category:
 - Performance
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/cold-start-mitigation
 problems:
 - slow-application-performance
 - slow-response-times-for-lists

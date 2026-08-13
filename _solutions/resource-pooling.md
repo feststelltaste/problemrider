@@ -1,6 +1,6 @@
 ---
 title: Resource Pooling
-description: Shared use of resources by aggregating into pools
+description: Share resources by aggregating them into reusable pools
 category:
 - Performance
 - Code

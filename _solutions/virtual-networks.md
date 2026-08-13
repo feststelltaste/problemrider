@@ -4,7 +4,6 @@ description: Abstracting network configurations through virtual networks
 category:
 - Operations
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/portability/virtual-networks
 problems:
 - technology-lock-in
 - vendor-lock-in

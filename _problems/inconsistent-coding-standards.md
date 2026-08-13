@@ -54,6 +54,7 @@ Inconsistent coding standards occur when different parts of a codebase follow di
 <br/>  When developers cannot rely on consistent patterns, they are more likely to misunderstand existing code and introduce defects.
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
 <br/>  New team members take longer to become productive because they must learn multiple coding styles and conventions used throughout the codebase.
+
 ## Causes ▼
 
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
@@ -62,6 +63,7 @@ Inconsistent coding standards occur when different parts of a codebase follow di
 <br/>  When no one is responsible for enforcing consistent standards, coding conventions diverge over time.
 - [High Turnover](high-turnover.md)
 <br/>  Frequent developer turnover introduces new coding preferences without continuity of established conventions.
+
 ## Detection Methods ○
 
 - **Code Style Analysis:** Use automated tools to detect formatting and style inconsistencies

@@ -4,7 +4,6 @@ description: Ongoing monitoring and analysis of application performance in produ
 category:
 - Performance
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/continuous-performance-monitoring
 problems:
 - monitoring-gaps
 - gradual-performance-degradation

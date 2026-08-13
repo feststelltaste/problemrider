@@ -61,10 +61,12 @@ Blame culture exists when organizations respond to mistakes, failures, or proble
 <br/>  Talented developers leave organizations where blame culture creates a toxic and stressful work environment.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Developers avoid refactoring because any regression resulting from code changes could lead to individual blame.
+
 ## Causes ▼
 
 - [Individual Recognition Culture](individual-recognition-culture.md)
 <br/>  Reward systems based on individual performance create competitive dynamics where others' failures become advantageous.
+
 ## Detection Methods ○
 
 - Conduct anonymous surveys about psychological safety and fear of repercussions

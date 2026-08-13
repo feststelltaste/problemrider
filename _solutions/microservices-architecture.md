@@ -3,7 +3,6 @@ title: Microservices Architecture
 description: Divide application into small, independent services
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/portability/microservices-architecture
 problems:
 - monolithic-architecture-constraints
 - deployment-coupling

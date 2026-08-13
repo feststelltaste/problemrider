@@ -59,6 +59,7 @@ Work blocking occurs when development tasks cannot move forward because they req
 <br/>  When proper changes are blocked by approval processes, developers resort to workarounds that bypass the blocking process.
 - [Wasted Development Effort](wasted-development-effort.md)
 <br/>  When developers are blocked, they switch to lower-priority tasks or do work that may be invalidated once the blocking....
+
 ## Causes ▼
 
 - [Approval Dependencies](approval-dependencies.md)
@@ -69,6 +70,7 @@ Work blocking occurs when development tasks cannot move forward because they req
 <br/>  When decision-makers avoid or defer decisions, work that depends on those decisions remains blocked.
 - [Micromanagement Culture](micromanagement-culture.md)
 <br/>  Excessive management oversight requiring approval for routine decisions creates unnecessary blocking of development tasks.
+
 ## Detection Methods ○
 
 - **Blocking Time Tracking:** Monitor how much time tasks spend in blocked status

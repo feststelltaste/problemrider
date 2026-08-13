@@ -68,6 +68,7 @@ Spaghetti code refers to source code that has become tangled, unstructured, and 
 <br/>  Under pressure to deliver quickly, developers take shortcuts that result in tangled, poorly structured code.
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
 <br/>  Without regular refactoring, code structure degrades over time as quick fixes and patches create tangled logic.
+
 ## Detection Methods ○
 
 - **Cyclomatic Complexity Analysis:** Use tools to measure code complexity and identify tangled methods

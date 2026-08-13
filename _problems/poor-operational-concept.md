@@ -57,6 +57,7 @@ Poor operational concept refers to inadequate planning and preparation for how a
 <br/>  Without proactive operational planning, teams spend most of their time reactively addressing production issues.
 - [Operational Overhead](operational-overhead.md)
 <br/>  Lack of operational automation and tooling forces manual, error-prone processes that consume excessive team effort.
+
 ## Causes ▼
 
 - [Poor Planning](poor-planning.md)
@@ -67,6 +68,7 @@ Poor operational concept refers to inadequate planning and preparation for how a
 <br/>  Jumping straight to coding without designing for operations means operational concerns are an afterthought.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without production experience may not understand the operational needs of production systems.
+
 ## Detection Methods ○
 
 - Review system architecture and design documents for operational considerations

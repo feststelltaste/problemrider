@@ -4,7 +4,6 @@ description: Defining measurable goals for system reliability and performance
 category:
 - Operations
 - Management
-quality_tactics_url: https://qualitytactics.de/en/reliability/service-level-objectives
 problems:
 - monitoring-gaps
 - slow-incident-resolution

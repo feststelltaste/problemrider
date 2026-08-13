@@ -55,6 +55,7 @@ Team confusion occurs when team members lack clear understanding of what they sh
 <br/>  Time spent clarifying goals and redoing misaligned work causes the team to miss delivery targets.
 - [Team Demoralization](team-demoralization.md)
 <br/>  Repeated experiences of wasted effort due to confusion erodes team morale and confidence in leadership.
+
 ## Causes ▼
 
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
@@ -65,6 +66,7 @@ Team confusion occurs when team members lack clear understanding of what they sh
 <br/>  When responsibilities and ownership boundaries are not defined, team members don't know who is responsible for what.
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
 <br/>  Frequently shifting requirements without clear communication create confusion about what the team should be building.
+
 ## Detection Methods ○
 
 - **Understanding Assessment:** Survey team members about their understanding of project goals and priorities

@@ -4,7 +4,6 @@ description: Establish processes and tools for responding to security incidents
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/incident-response-measures
 problems:
 - slow-incident-resolution
 - system-outages

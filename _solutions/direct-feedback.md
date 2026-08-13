@@ -4,7 +4,6 @@ description: Gather feedback from users directly in the software system
 category:
 - Requirements
 - Communication
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/direct-feedback
 problems:
 - negative-user-feedback
 - user-frustration

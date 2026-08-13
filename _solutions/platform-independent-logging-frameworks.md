@@ -4,7 +4,6 @@ description: Using logging frameworks that function consistently across differen
 category:
 - Operations
 - Code
-quality_tactics_url: https://qualitytactics.de/en/portability/platform-independent-logging-frameworks
 problems:
 - monitoring-gaps
 - excessive-logging

@@ -4,7 +4,6 @@ description: Ability of a component to check its own state and functionality
 category:
 - Testing
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/self-test
 problems:
 - monitoring-gaps
 - unpredictable-system-behavior

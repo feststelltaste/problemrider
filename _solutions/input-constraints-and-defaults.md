@@ -1,6 +1,6 @@
 ---
 title: Input Constraints and Defaults
-description: Constraining input through dropdowns, date pickers, sliders, and sensible defaults
+description: Constrain input through dropdowns, date pickers, sliders, and sensible defaults
 category:
 - Requirements
 - Code

@@ -56,6 +56,7 @@ Insufficient design skills are a major contributor to the creation of legacy cod
 <br/>  Poorly designed systems become increasingly difficult to modify, slowing down feature development.
 - [Brittle Codebase](brittle-codebase.md)
 <br/>  Without proper design, changes in one area frequently break other parts of the system.
+
 ## Causes ▼
 
 - [Inexperienced Developers](inexperienced-developers.md)
@@ -66,6 +67,7 @@ Insufficient design skills are a major contributor to the creation of legacy cod
 <br/>  Organizations that do not invest in training leave developers without opportunities to build design competencies.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Constant deadline pressure prevents developers from learning and applying proper design practices.
+
 ## Detection Methods ○
 - **Code Reviews:** Code reviews are a great way to identify design problems.
 - **Code Complexity Metrics:** Use static analysis tools to measure the complexity of the codebase.

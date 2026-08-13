@@ -4,7 +4,6 @@ description: Decouple components through contracts so that implementations can v
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/compatibility/abstraction
 problems:
 - high-coupling-low-cohesion
 - tight-coupling-issues

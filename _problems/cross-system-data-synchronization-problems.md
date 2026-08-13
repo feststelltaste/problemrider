@@ -71,6 +71,7 @@ Cross-system data synchronization problems occur when organizations attempt to m
 <br/>  Synchronization process failures during peak usage can cause cascading failures that bring down connected systems.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Users who see different or incorrect data depending on which system they interact with become frustrated and lose trust.
+
 ## Causes ▼
 
 - [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
@@ -81,6 +82,7 @@ Cross-system data synchronization problems occur when organizations attempt to m
 <br/>  Indecision about modernization approach leads to prolonged parallel operation of legacy and modern systems, extending the synchronization challenge.
 - [Complex Domain Model](complex-domain-model.md)
 <br/>  Complex business domains with intricate data relationships make it extremely difficult to maintain consistency across two different system implementations.
+
 ## Detection Methods ○
 
 - Implement comprehensive data consistency monitoring between systems

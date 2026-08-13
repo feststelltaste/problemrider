@@ -56,6 +56,7 @@ Uneven work flow occurs when development work progresses irregularly, with perio
 <br/>  The stop-and-go pattern of uneven flow wastes capacity during idle periods and overloads during bursts, reducing overall output.
 - [Work Queue Buildup](work-queue-buildup.md)
 <br/>  Work accumulates at bottleneck stages during slow periods, creating queues that contribute to the irregular flow pattern.
+
 ## Causes ▼
 
 - [Bottleneck Formation](bottleneck-formation.md)
@@ -66,6 +67,7 @@ Uneven work flow occurs when development work progresses irregularly, with perio
 <br/>  Poorly designed processes with mismatched capacities at different stages inherently produce uneven flow.
 - [Capacity Mismatch](capacity-mismatch.md)
 <br/>  When capacity at different stages doesn't match demand, work alternates between backing up and flowing freely.
+
 ## Detection Methods ○
 
 - **Flow Variability Analysis:** Measure the variation in work completion rates over time

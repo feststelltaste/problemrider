@@ -4,7 +4,6 @@ description: Maintain a living record of supported platforms, versions, and know
 category:
 - Communication
 - Process
-quality_tactics_url: https://qualitytactics.de/en/compatibility/documentation-of-compatibility-requirements
 problems:
 - poor-documentation
 - implicit-knowledge

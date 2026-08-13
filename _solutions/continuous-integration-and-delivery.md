@@ -4,7 +4,6 @@ description: Automated processes for software integration, testing, and deployme
 category:
 - Process
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/continuous-integration-and-delivery
 problems:
 - long-build-and-test-times
 - long-release-cycles

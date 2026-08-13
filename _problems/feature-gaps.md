@@ -67,6 +67,7 @@ Feature gaps occur when software is delivered without functionality that users c
 <br/>  Users repeatedly contact support requesting the same missing features or seeking workarounds.
 - [Shadow Systems](shadow-systems.md)
 <br/>  Users develop unofficial workarounds or use external tools to fill functionality gaps, creating hidden dependencies.
+
 ## Causes ▼
 
 - [Assumption-Based Development](assumption-based-development.md)
@@ -77,6 +78,7 @@ Feature gaps occur when software is delivered without functionality that users c
 <br/>  Insufficient analysis of user needs and workflows fails to identify essential functionality requirements.
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
 <br/>  Misunderstanding between stakeholders and developers about what is needed leads to incomplete solutions.
+
 ## Detection Methods ○
 
 - **User Feedback Analysis:** Systematic collection and analysis of user requests and complaints

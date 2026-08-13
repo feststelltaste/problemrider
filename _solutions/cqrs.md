@@ -4,7 +4,6 @@ description: Separating read and write models into independently optimized and s
 category:
 - Architecture
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/cqrs
 problems:
 - slow-database-queries
 - scaling-inefficiencies
@@ -13,6 +12,7 @@ problems:
 - monolithic-architecture-constraints
 - slow-response-times-for-lists
 - imperative-data-fetching-logic
+- entity-attribute-value-overuse
 layout: solution
 ---
 

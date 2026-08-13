@@ -73,6 +73,7 @@ Scaling inefficiencies occur when it is difficult or impossible to scale differe
 <br/>  Inability to scale efficiently leads to slower response times and higher costs, putting the organization at a disadvantage against competitors with more scalable architectures.
 - [System Outages](system-outages.md)
 <br/>  Inability to scale under load spikes can lead to system outages when demand exceeds the capacity of the monolithicall....
+
 ## Causes ▼
 
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
@@ -81,6 +82,7 @@ Scaling inefficiencies occur when it is difficult or impossible to scale differe
 <br/>  Tightly coupled components cannot be separated for independent scaling because they depend directly on each other's internals.
 - [Shared Database](shared-database.md)
 <br/>  A shared database becomes a scaling bottleneck since all services must scale their database access together rather than independently.
+
 ## Detection Methods ○
 - **Performance Testing:** Use performance testing tools to identify bottlenecks and areas for improvement.
 - **Resource Monitoring:** Monitor the resource utilization of the system to identify which components are using the most resources.

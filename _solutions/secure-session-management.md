@@ -3,7 +3,6 @@ title: Secure Session Management
 description: Manage sessions based on random, time-limited ids
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/secure-session-management
 problems:
 - session-management-issues
 - authentication-bypass-vulnerabilities

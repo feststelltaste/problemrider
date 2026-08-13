@@ -55,6 +55,7 @@ Release instability is a state where software releases are consistently unreliab
 <br/>  Unstable releases force the team into reactive firefighting mode, disrupting planned development work.
 - [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
 <br/>  Business stakeholders lose trust in the development team's ability to deliver reliable software when releases consistently cause problems.
+
 ## Causes ▼
 
 - [Poor Test Coverage](poor-test-coverage.md)
@@ -65,6 +66,7 @@ Release instability is a state where software releases are consistently unreliab
 <br/>  Manual deployment steps introduce human error that causes inconsistencies and failures during releases.
 - [Review Process Breakdown](review-process-breakdown.md)
 <br/>  When code reviews fail to catch defects and design issues, poor quality code reaches production and causes instability.
+
 ## Detection Methods ○
 - **Release Failure Rate:** Track the percentage of releases that result in a critical failure.
 - **Mean Time to Failure (MTTF):** Measure the average time between releases.

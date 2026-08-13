@@ -56,6 +56,7 @@ Lock contention occurs when multiple threads frequently compete for the same syn
 <br/>  Adding more threads or cores provides diminishing or negative returns when they all contend for the same locks.
 - [Resource Contention](resource-contention.md)
 <br/>  Lock contention is a direct form of resource contention where threads compete for synchronization primitives rather than doing productive work.
+
 ## Causes ▼
 
 - [God Object Anti-Pattern](god-object-anti-pattern.md)
@@ -64,6 +65,7 @@ Lock contention occurs when multiple threads frequently compete for the same syn
 <br/>  Tightly coupled components that share mutable state require coarse-grained locking, increasing contention.
 - [Global State and Side Effects](global-state-and-side-effects.md)
 <br/>  Global mutable state requires locks for thread safety, and widely accessed globals become natural contention hotspots.
+
 ## Detection Methods ○
 
 - **Lock Profiling:** Use profiling tools that can identify lock contention and wait times

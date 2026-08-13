@@ -50,6 +50,7 @@ Inefficient frontend code can have a significant impact on the user experience. 
 <br/>  Inefficient DOM manipulation and unoptimized JavaScript consume excessive CPU and memory on user devices.
 - [High Resource Utilization on Client](high-resource-utilization-on-client.md)
 <br/>  Computationally expensive frontend operations cause high CPU usage, battery drain, and device heating on client machines.
+
 ## Causes ▼
 
 - [Inefficient Code](inefficient-code.md)
@@ -60,6 +61,7 @@ Inefficient frontend code can have a significant impact on the user experience. 
 <br/>  Without reviews focused on performance, frontend anti-patterns like excessive DOM manipulation go undetected.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  General code quality issues manifest as unoptimized rendering logic, redundant computations, and wasteful resource usage in the frontend.
+
 ## Detection Methods ○
 
 - **Browser Developer Tools:** Use the Performance, Memory, and Network tabs in browser developer tools to profile CPU usage, memory consumption, and rendering performance.

@@ -30,6 +30,7 @@ solutions:
 - trust-boundaries
 - zero-trust-architecture
 - application-portfolio-inventory
+- master-data-stewardship
 layout: problem
 ---
 
@@ -59,6 +60,7 @@ System integration blindness occurs when teams lack visibility into how individu
 <br/>  Integration bugs that span multiple components are extremely difficult to trace and diagnose.
 - [Hidden Dependencies](hidden-dependencies.md)
 <br/>  Undocumented dependencies between components create unexpected interactions that teams cannot anticipate.
+
 ## Causes ▼
 
 - [Inadequate Integration Tests](inadequate-integration-tests.md)
@@ -69,6 +71,7 @@ System integration blindness occurs when teams lack visibility into how individu
 <br/>  When teams only understand their own components, no one has the cross-cutting knowledge to identify integration risks.
 - [Team Silos](team-silos.md)
 <br/>  Team silos prevent cross-component understanding and integration awareness.
+
 ## Detection Methods ○
 
 - **End-to-End User Journey Testing:** Verify complete workflows across all system components

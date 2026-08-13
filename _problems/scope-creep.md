@@ -60,6 +60,7 @@ Scope creep is the insidious expansion of a project's goals and deliverables bey
 <br/>  As scope expands without additional time or resources, quality standards are lowered to accommodate the growing feature set.
 - [Incomplete Projects](incomplete-projects.md)
 <br/>  Projects overwhelmed by scope expansion may be abandoned or left incomplete as they become unmanageable.
+
 ## Causes ▼
 
 - [No Formal Change Control Process](no-formal-change-control-process.md)
@@ -70,6 +71,7 @@ Scope creep is the insidious expansion of a project's goals and deliverables bey
 <br/>  Poor initial requirements definition leads to continuous discovery of missing requirements during development, driving scope expansion.
 - [Poor Project Control](poor-project-control.md)
 <br/>  Weak project monitoring fails to detect gradual scope expansion until it has already significantly impacted timelines and budgets.
+
 ## Detection Methods ○
 
 - **Track Change Requests:** Keep a log of all new feature requests and changes to existing requirements

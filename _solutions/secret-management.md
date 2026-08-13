@@ -1,6 +1,6 @@
 ---
 title: Secret Management
-description: Securely managing application secrets using dedicated vaults and rotation policies
+description: Manage application secrets using dedicated vaults and rotation policies
 category:
 - Security
 - Operations

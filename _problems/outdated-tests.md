@@ -53,6 +53,7 @@ Outdated tests occur when test code is not maintained alongside production code 
 <br/>  Significant time is spent debugging and updating tests that fail for reasons unrelated to actual code defects.
 - [Review Process Avoidance](review-process-avoidance.md)
 <br/>  When tests are unreliable, teams start ignoring or bypassing test results, undermining the quality assurance process.
+
 ## Causes ▼
 
 - [Feature Creep Without Refactoring](feature-creep-without-refactoring.md)
@@ -65,6 +66,7 @@ Outdated tests occur when test code is not maintained alongside production code 
 <br/>  Unrealistic or outdated test data causes tests to become misaligned with actual system behavior over time.
 - [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Without thorough code reviews that check whether tests are updated alongside production code changes, outdated tests ....
+
 ## Detection Methods ○
 - **Test Reliability Metrics:** Track the frequency of test failures and their correlation with actual bugs
 - **Test Maintenance Time:** Monitor how much time is spent fixing tests versus improving functionality

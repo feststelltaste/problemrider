@@ -20,6 +20,7 @@ problems:
 - reviewer-inexperience
 - technology-isolation
 - skill-development-gaps
+- implementation-partner-dependency
 layout: solution
 ---
 

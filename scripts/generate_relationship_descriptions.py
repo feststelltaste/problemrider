@@ -83,10 +83,10 @@ class RelationshipDescriptionGenerator:
                             'metadata': metadata,
                             'indicators': self._extract_section(markdown_content, 'Indicators'),
                             'symptoms': self._extract_section(markdown_content, 'Symptoms'),
-                            'root_causes': self._extract_section(markdown_content, 'Root Causes'),
+                            'root_causes': self._extract_section(markdown_content, 'Causes'),
                             'indicators_raw': self._extract_section_raw(markdown_content, 'Indicators'),
                             'symptoms_raw': self._extract_section_raw(markdown_content, 'Symptoms'),
-                            'root_causes_raw': self._extract_section_raw(markdown_content, 'Root Causes'),
+                            'root_causes_raw': self._extract_section_raw(markdown_content, 'Causes'),
                             'description_section': self._extract_section(markdown_content, 'Description')
                         }
             except Exception as e:
@@ -747,7 +747,7 @@ Run multiple times to process all relationships in batches.""",
                 print(f"✅ Saved {saved_count} new relationships to CSV")
                 if duplicate_count > 0:
                     print(f"⚠️  Skipped {duplicate_count} duplicate relationships")
-                print(f"💡 Run update_causal_relationships.py to apply descriptions to markdown files")
+                print(f"💡 Run update_descriptions.py to apply descriptions to markdown files")
             else:
                 print(f"⏳ Batch is still {batch.status}")
         except Exception as e:
@@ -922,7 +922,7 @@ Run multiple times to process all relationships in batches.""",
         print(f"   🔍 {total_causes} root cause relationships described")
         print(f"   📄 Report saved to {args.output}")
         print(f"   💾 Cache saved to {cache_file}")
-        print(f"   💡 Use update_causal_relationships.py to apply descriptions to markdown files")
+        print(f"   💡 Use update_descriptions.py to apply descriptions to markdown files")
         
         if not args.file and 'remaining_problems' in locals() and len(remaining_problems) > len(target_problems):
             print(f"   🔄 Run script again to process remaining {len(remaining_problems) - len(target_problems)} problems")

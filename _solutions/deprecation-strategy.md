@@ -4,7 +4,6 @@ description: Systematically mark and gradually remove deprecated features
 category:
 - Process
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/maintainability/deprecation-strategy
 problems:
 - feature-bloat
 - maintenance-overhead

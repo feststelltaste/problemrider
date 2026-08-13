@@ -1,6 +1,6 @@
 ---
 title: Architecture Roadmap
-description: Long-term planning and management of architecture development
+description: Plan and manage architecture development long-term
 category:
 - Architecture
 - Management

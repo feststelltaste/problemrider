@@ -4,7 +4,6 @@ description: Make software executable on different systems and environments with
 category:
 - Architecture
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/portability/platform-independence
 problems:
 - technology-lock-in
 - vendor-lock-in

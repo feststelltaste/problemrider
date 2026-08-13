@@ -4,7 +4,6 @@ description: Validate suitability and usability early through business prototype
 category:
 - Requirements
 - Process
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/prototypes
 problems:
 - implementation-rework
 - misaligned-deliverables

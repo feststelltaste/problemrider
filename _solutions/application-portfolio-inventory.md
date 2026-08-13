@@ -27,6 +27,8 @@ problems:
 - modernization-roi-justification-failure
 - technical-architecture-limitations
 - vendor-relationship-strain
+- retention-obligations-block-change
+- voided-vendor-support
 layout: solution
 ---
 

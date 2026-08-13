@@ -3,7 +3,6 @@ title: Restore Points
 description: Regularly back up the system state
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/restore-points
 problems:
 - missing-rollback-strategy
 - deployment-risk

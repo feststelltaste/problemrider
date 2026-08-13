@@ -1,6 +1,6 @@
 ---
 title: Evolutionary Requirements Development
-description: Detailing and refining requirements incrementally throughout the project
+description: Detail and refine requirements incrementally throughout the project
 category:
 - Requirements
 - Process

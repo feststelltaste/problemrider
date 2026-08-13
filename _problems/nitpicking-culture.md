@@ -55,12 +55,14 @@ Nitpicking culture occurs when code reviews become dominated by excessive focus 
 <br/>  Review time is consumed by trivial comments, reducing the overall effectiveness and throughput of the review process.
 - [Quality Blind Spots](quality-blind-spots.md)
 <br/>  Focus on minor details diverts attention from important design flaws and security vulnerabilities that go unnoticed.
+
 ## Causes ▼
 
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
 <br/>  Without automated style enforcement, reviewers fill the void by manually policing formatting and naming conventions.
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Reviewers who lack design expertise default to commenting on surface-level style issues because they cannot evaluate deeper architectural concerns.
+
 ## Detection Methods ○
 
 - **Comment Impact Analysis:** Classify review comments by their potential impact on code quality

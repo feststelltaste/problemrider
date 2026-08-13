@@ -47,6 +47,7 @@ Negative brand perception occurs when technical problems and poor software quali
 ## Symptoms ▲
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Negative brand perception directly leads to competitive disadvantage as users choose competitors with better reputations.
+
 ## Causes ▼
 
 - [System Outages](system-outages.md)
@@ -59,6 +60,7 @@ Negative brand perception occurs when technical problems and poor software quali
 <br/>  Frustrating user interfaces cause users to associate the brand with poor quality regardless of backend capabilities.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Persistent customer dissatisfaction with the product leads users to associate the brand with poor quality.
+
 ## Detection Methods ○
 - **Brand Sentiment Analysis:** Monitor social media, reviews, and customer feedback for brand perception trends
 - **Net Promoter Score (NPS):** Track user willingness to recommend the product or service

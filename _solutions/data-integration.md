@@ -4,7 +4,6 @@ description: Merging data from various sources and providing it uniformly
 category:
 - Database
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/data-integration
 problems:
 - cross-system-data-synchronization-problems
 - information-fragmentation

@@ -53,6 +53,7 @@ Deployment coupling is a situation where multiple components or services must be
 <br/>  The complexity and risk of coupled deployments makes teams reluctant to make changes.
 - [Release Anxiety](release-anxiety.md)
 <br/>  Teams experience anxiety around deployments because coupled releases have more moving parts that can fail.
+
 ## Causes ▼
 
 - [Tight Coupling Issues](tight-coupling-issues.md)
@@ -63,6 +64,7 @@ Deployment coupling is a situation where multiple components or services must be
 <br/>  Monolithic architectures inherently bundle all components into a single deployable unit.
 - [Shared Dependencies](shared-dependencies.md)
 <br/>  Shared libraries or services create deployment coupling when updates to the shared component require coordinated releases.
+
 ## Detection Methods ○
 - **Deployment Process Mapping:** Map out the steps in the deployment process to identify bottlenecks and areas for improvement.
 - **Component Dependency Analysis:** Analyze the dependencies between components to identify which components can be deployed independently.

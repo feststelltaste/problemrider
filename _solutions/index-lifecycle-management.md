@@ -20,6 +20,7 @@ problems:
 - lock-contention
 - long-running-transactions
 - poor-caching-strategy
+- entity-attribute-value-overuse
 layout: solution
 ---
 

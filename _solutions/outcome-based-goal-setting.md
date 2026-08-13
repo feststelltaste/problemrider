@@ -32,6 +32,9 @@ problems:
 - stakeholder-frustration
 - team-demoralization
 - unmotivated-employees
+- difficulty-quantifying-benefits
+- modernization-roi-justification-failure
+- process-software-misfit
 layout: solution
 ---
 

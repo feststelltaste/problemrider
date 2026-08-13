@@ -20,8 +20,8 @@ def find_unlinked_content():
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        # Find Root Causes and Symptoms sections
-        sections = re.finditer(r'^## (Root Causes ▼|Symptoms ▲)\s*$', content, re.MULTILINE)
+        # Find Causes and Symptoms sections
+        sections = re.finditer(r'^## (Causes ▼|Symptoms ▲)\s*$', content, re.MULTILINE)
         
         for section_match in sections:
             section_type = section_match.group(1)

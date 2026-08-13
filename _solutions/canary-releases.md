@@ -4,7 +4,6 @@ description: Gradual introduction of changes for a limited user group to minimiz
 category:
 - Operations
 - Process
-quality_tactics_url: https://qualitytactics.de/en/reliability/canary-releases
 problems:
 - deployment-risk
 - large-risky-releases

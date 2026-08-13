@@ -1,6 +1,6 @@
 ---
 title: Serialization Optimization
-description: Choosing efficient serialization formats for performance-critical data exchange
+description: Choose efficient serialization formats for performance-critical data exchange
 category:
 - Performance
 - Architecture

@@ -4,7 +4,6 @@ description: Use of data structures that remain operational despite errors or in
 category:
 - Code
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/fault-tolerant-data-structures
 problems:
 - silent-data-corruption
 - inadequate-error-handling

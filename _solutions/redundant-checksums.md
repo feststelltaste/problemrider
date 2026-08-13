@@ -4,7 +4,6 @@ description: Using multiple different checksum algorithms
 category:
 - Code
 - Security
-quality_tactics_url: https://qualitytactics.de/en/reliability/redundant-checksums
 problems:
 - silent-data-corruption
 - data-migration-integrity-issues

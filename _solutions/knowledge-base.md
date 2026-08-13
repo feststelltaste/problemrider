@@ -1,6 +1,6 @@
 ---
 title: Knowledge Base
-description: Building a searchable knowledge base with articles, guides, and troubleshooting solutions for users
+description: Build a searchable knowledge base with articles, guides, and troubleshooting solutions
 category:
 - Communication
 quality_tactics_url: https://qualitytactics.de/en/usability/knowledge-base/

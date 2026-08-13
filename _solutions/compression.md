@@ -3,7 +3,6 @@ title: Compression
 description: Reduce storage space with or without loss
 category:
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/compression
 problems:
 - slow-application-performance
 - network-latency

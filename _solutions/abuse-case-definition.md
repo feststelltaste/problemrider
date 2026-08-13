@@ -4,7 +4,6 @@ description: Describing undesirable use cases from the perspective of attackers
 category:
 - Security
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/security/abuse-case-definition
 problems:
 - authentication-bypass-vulnerabilities
 - authorization-flaws

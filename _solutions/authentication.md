@@ -3,7 +3,6 @@ title: Authentication
 description: Verify the identity of users and systems
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/authentication
 problems:
 - authentication-bypass-vulnerabilities
 - password-security-weaknesses

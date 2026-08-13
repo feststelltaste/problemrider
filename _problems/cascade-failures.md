@@ -86,6 +86,7 @@ Cascade failures occur when a single change, bug, or failure in one component ca
 <br/>  System-wide outages caused by cascade failures severely impact user experience and business operations.
 - [High Maintenance Costs](high-maintenance-costs.md)
 <br/>  Diagnosing and fixing cascade failure patterns requires extensive investigation across multiple components, increasing costs.
+
 ## Causes ▼
 
 - [Tight Coupling Issues](tight-coupling-issues.md)

@@ -1,6 +1,6 @@
 ---
 title: Asynchronous Operations
-description: Execution of time-intensive operations in the background without blocking the user interface
+description: Execute time-intensive operations in the background without blocking the UI
 category:
 - Performance
 - Architecture

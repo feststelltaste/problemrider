@@ -1,6 +1,6 @@
 ---
 title: Continuous Delivery
-description: Automated preparation of software changes for the production environment
+description: Prepare software changes automatically for production deployment
 category:
 - Operations
 - Process
@@ -28,6 +28,7 @@ problems:
 - tool-limitations
 - long-lived-feature-branches
 - style-arguments-in-code-reviews
+- customization-outside-version-control
 layout: solution
 ---
 

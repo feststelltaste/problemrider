@@ -30,6 +30,11 @@ solutions:
 - explicit-prioritization-framework
 - lightweight-design-review
 - small-change-batches
+- no-regret-moves
+- staged-investment-with-decision-gates
+- technical-debt-assessment
+- debt-remediation-estimation
+- debt-classification
 layout: problem
 ---
 
@@ -59,6 +64,7 @@ Analysis paralysis occurs when development teams become trapped in endless resea
 <br/>  Stakeholders become frustrated when teams spend months analyzing without producing tangible results.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  Business value cannot be delivered while teams remain stuck in analysis phases.
+
 ## Causes ▼
 
 - [Fear of Failure](fear-of-failure.md)
@@ -69,6 +75,7 @@ Analysis paralysis occurs when development teams become trapped in endless resea
 <br/>  Inability to choose between competing options keeps teams in research mode indefinitely.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  Without clear goals, teams lack criteria for when analysis is sufficient, leading to over-analysis.
+
 ## Detection Methods ○
 
 - **Research Duration Tracking:** Monitor how long teams spend in analysis phases vs. planned timelines

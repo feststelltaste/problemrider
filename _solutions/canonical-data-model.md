@@ -4,7 +4,6 @@ description: Standardizing a shared data model across systems instead of point-t
 category:
 - Architecture
 - Database
-quality_tactics_url: https://qualitytactics.de/en/compatibility/canonical-data-model
 problems:
 - cross-system-data-synchronization-problems
 - integration-difficulties
@@ -13,6 +12,7 @@ problems:
 - inconsistent-behavior
 - poor-domain-model
 - technology-stack-fragmentation
+- master-data-ownership-gaps
 layout: solution
 ---
 

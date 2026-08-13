@@ -3,7 +3,6 @@ title: Fault Containment
 description: Limiting the impact of faults to a small part of the system
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/fault-containment
 problems:
 - cascade-failures
 - single-points-of-failure

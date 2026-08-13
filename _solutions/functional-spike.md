@@ -4,7 +4,6 @@ description: Investigate business risks through time-limited experiments
 category:
 - Process
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/functional-spike
 problems:
 - fear-of-change
 - analysis-paralysis

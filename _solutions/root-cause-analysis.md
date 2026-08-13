@@ -3,7 +3,6 @@ title: Root Cause Analysis
 description: Systematically analyze the causes of failures
 category:
 - Process
-quality_tactics_url: https://qualitytactics.de/en/reliability/root-cause-analysis
 problems:
 - constant-firefighting
 - high-defect-rate-in-production

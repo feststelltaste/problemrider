@@ -4,7 +4,6 @@ description: Intentional introduction of disruptions to test system resilience
 category:
 - Operations
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/reliability/chaos-engineering
 problems:
 - cascade-failures
 - single-points-of-failure

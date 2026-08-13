@@ -4,7 +4,6 @@ description: Encapsulating hardware-specific details through abstraction layers
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/portability/abstraction-layers
 problems:
 - tight-coupling-issues
 - technology-lock-in

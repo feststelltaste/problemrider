@@ -4,7 +4,6 @@ description: Query system capabilities at runtime instead of relying on version 
 category:
 - Code
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/feature-detection
 problems:
 - technology-lock-in
 - vendor-lock-in

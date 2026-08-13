@@ -4,7 +4,6 @@ description: Regular backup of data and system states
 category:
 - Operations
 - Database
-quality_tactics_url: https://qualitytactics.de/en/reliability/regular-backups
 problems:
 - system-outages
 - silent-data-corruption

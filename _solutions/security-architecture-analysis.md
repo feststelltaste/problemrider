@@ -4,7 +4,6 @@ description: Examine architecture and design for conceptual security gaps
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/security/security-architecture-analysis
 problems:
 - stagnant-architecture
 - architectural-mismatch

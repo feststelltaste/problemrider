@@ -3,7 +3,6 @@ title: Production Environment Maintenance
 description: Conducting regular inspections and maintenance to maintain reliability
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/production-environment-maintenance
 problems:
 - configuration-drift
 - gradual-performance-degradation

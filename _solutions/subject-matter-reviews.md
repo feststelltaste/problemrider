@@ -4,7 +4,6 @@ description: Have work results reviewed and approved by domain experts
 category:
 - Process
 - Communication
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/subject-matter-reviews
 problems:
 - misaligned-deliverables
 - requirements-ambiguity

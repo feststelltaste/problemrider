@@ -4,7 +4,6 @@ description: Conduct systematic analysis of threats, attackers, and countermeasu
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/security/threat-modeling
 problems:
 - implementation-starts-without-design
 - quality-blind-spots

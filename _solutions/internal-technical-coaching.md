@@ -32,6 +32,8 @@ problems:
 - new-hire-frustration
 - reduced-team-flexibility
 - reviewer-anxiety
+- implementation-partner-dependency
+- low-code-customization-sprawl
 layout: solution
 ---
 

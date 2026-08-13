@@ -4,7 +4,6 @@ description: Defining access to critical data and functions
 category:
 - Security
 - Management
-quality_tactics_url: https://qualitytactics.de/en/security/authorization-concept
 problems:
 - authorization-flaws
 - data-protection-risk
@@ -12,6 +11,7 @@ problems:
 - poorly-defined-responsibilities
 - insufficient-audit-logging
 - authentication-bypass-vulnerabilities
+- authorization-role-explosion
 layout: solution
 ---
 

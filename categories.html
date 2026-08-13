@@ -8,11 +8,11 @@ permalink: /categories/
   <h1>Browse by Category</h1>
   
   <p class="page-description">
-    Explore problems organized by category to find issues related to specific domains.
+    Explore problems and solutions organized by category to find what relates to specific domains.
   </p>
 
   <div class="category-overview">
-    <p>The catalog organizes problems into 15 core categories:</p>
+    <p>The catalog organizes problems and solutions into 15 core categories:</p>
     <div class="category-tags">
       <a href="#Architecture" class="category-tag">Architecture</a>
       <a href="#Business" class="category-tag">Business</a>
@@ -32,53 +32,96 @@ permalink: /categories/
     </div>
   </div>
 
-  {% assign all_categories = site.problems | map: 'category' | join: ',' | split: ',' | uniq | sort %}
-  {% assign category_counts = "" | split: "," %}
-  
-  {% for category in all_categories %}
-    {% if category != "" %}
-      {% assign category_problems = site.problems | where_exp: "item", "item.category contains category" %}
-      {% assign category_counts = category_counts | push: category_problems.size %}
-    {% endif %}
-  {% endfor %}
+  {% assign problem_categories = site.problems | map: 'category' | join: ',' | split: ',' | uniq %}
+  {% assign solution_categories = site.solutions | map: 'category' | join: ',' | split: ',' | uniq %}
+  {% assign all_categories = problem_categories | concat: solution_categories | uniq | sort %}
 
   <div class="categories-grid">
     {% for category in all_categories %}
       {% if category != "" %}
-        {% assign category_problems = site.problems | where_exp: "item", "item.category contains category" %}
+        {% assign category_problems = site.problems | where_exp: "item", "item.category contains category" | sort: 'title' %}
+        {% assign category_solutions = site.solutions | where_exp: "item", "item.category contains category" | sort: 'title' %}
         <div class="category-card" id="{{ category }}">
           <h2 class="category-title">{{ category }}</h2>
-          <p class="category-count">{{ category_problems.size }} problem{% if category_problems.size != 1 %}s{% endif %}</p>
-          
-          <div class="category-problems">
-            {% assign sorted_category_problems = category_problems | sort: 'title' %}
-            {% for problem in sorted_category_problems limit: 5 %}
-              <div class="category-problem">
-                <h3><a href="{{ problem.url | relative_url }}">{{ problem.title }}</a></h3>
-                {% if problem.description %}
-                  <p class="problem-description">{{ problem.description }}</p>
-                {% endif %}
-              </div>
-            {% endfor %}
-            
-            {% if category_problems.size > 5 %}
-              <div class="show-more">
-                <button class="show-more-btn" onclick="toggleCategory(this)">
-                  Show {{ category_problems.size | minus: 5 }} more
-                </button>
-                <div class="hidden-problems" style="display: none;">
-                  {% for problem in sorted_category_problems offset: 5 %}
-                    <div class="category-problem">
-                      <h3><a href="{{ problem.url | relative_url }}">{{ problem.title }}</a></h3>
-                      {% if problem.description %}
-                        <p class="problem-description">{{ problem.description }}</p>
-                      {% endif %}
-                    </div>
-                  {% endfor %}
+
+          <nav class="category-jump">
+            <a href="#{{ category }}-problems">{{ category_problems.size }} problem{% if category_problems.size != 1 %}s{% endif %}</a>
+            <a href="#{{ category }}-solutions">{{ category_solutions.size }} solution{% if category_solutions.size != 1 %}s{% endif %}</a>
+          </nav>
+
+          <section class="category-section">
+            <h3 class="category-section-title" id="{{ category }}-problems">Problems</h3>
+            <div class="category-problems">
+              {% for problem in category_problems limit: 5 %}
+                <div class="category-item">
+                  <h4><a href="{{ problem.url | relative_url }}">{{ problem.title }}</a></h4>
+                  {% if problem.description %}
+                    <p class="item-description">{{ problem.description }}</p>
+                  {% endif %}
                 </div>
-              </div>
-            {% endif %}
-          </div>
+              {% endfor %}
+
+              {% if category_problems.size > 5 %}
+                <div class="show-more">
+                  <button class="show-more-btn" onclick="toggleCategory(this)">
+                    Show {{ category_problems.size | minus: 5 }} more
+                  </button>
+                  <div class="hidden-items" style="display: none;">
+                    {% for problem in category_problems offset: 5 %}
+                      <div class="category-item">
+                        <h4><a href="{{ problem.url | relative_url }}">{{ problem.title }}</a></h4>
+                        {% if problem.description %}
+                          <p class="item-description">{{ problem.description }}</p>
+                        {% endif %}
+                      </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+            </div>
+          </section>
+
+          <section class="category-section">
+            <h3 class="category-section-title" id="{{ category }}-solutions">Solutions</h3>
+            <div class="category-solutions">
+              {% for solution in category_solutions limit: 5 %}
+                <div class="category-item">
+                  <h4>
+                    <a href="{{ solution.url | relative_url }}">{{ solution.title }}</a>
+                    {% if solution.quality_tactics_url %}
+                      <sup><a href="{{ solution.quality_tactics_url }}" target="_blank" rel="noopener" class="qt-link">QT</a></sup>
+                    {% endif %}
+                  </h4>
+                  {% if solution.description %}
+                    <p class="item-description">{{ solution.description }}</p>
+                  {% endif %}
+                </div>
+              {% endfor %}
+
+              {% if category_solutions.size > 5 %}
+                <div class="show-more">
+                  <button class="show-more-btn" onclick="toggleCategory(this)">
+                    Show {{ category_solutions.size | minus: 5 }} more
+                  </button>
+                  <div class="hidden-items" style="display: none;">
+                    {% for solution in category_solutions offset: 5 %}
+                      <div class="category-item">
+                        <h4>
+                          <a href="{{ solution.url | relative_url }}">{{ solution.title }}</a>
+                          {% if solution.quality_tactics_url %}
+                            <sup><a href="{{ solution.quality_tactics_url }}" target="_blank" rel="noopener" class="qt-link">QT</a></sup>
+                          {% endif %}
+                        </h4>
+                        {% if solution.description %}
+                          <p class="item-description">{{ solution.description }}</p>
+                        {% endif %}
+                      </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              {% endif %}
+            </div>
+          </section>
         </div>
       {% endif %}
     {% endfor %}
@@ -91,15 +134,15 @@ permalink: /categories/
 
 <script>
 function toggleCategory(button) {
-  const hiddenProblems = button.parentElement.querySelector('.hidden-problems');
-  const isHidden = hiddenProblems.style.display === 'none';
-  
+  const hiddenItems = button.parentElement.querySelector('.hidden-items');
+  const isHidden = hiddenItems.style.display === 'none';
+
   if (isHidden) {
-    hiddenProblems.style.display = 'block';
+    hiddenItems.style.display = 'block';
     button.textContent = 'Show less';
   } else {
-    hiddenProblems.style.display = 'none';
-    const count = hiddenProblems.querySelectorAll('.category-problem').length;
+    hiddenItems.style.display = 'none';
+    const count = hiddenItems.querySelectorAll('.category-item').length;
     button.textContent = `Show ${count} more`;
   }
 }

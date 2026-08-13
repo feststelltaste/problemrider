@@ -4,7 +4,6 @@ description: Regular review of compliance with architectural guidelines
 category:
 - Architecture
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/maintainability/fitness-functions
 problems:
 - stagnant-architecture
 - high-coupling-low-cohesion

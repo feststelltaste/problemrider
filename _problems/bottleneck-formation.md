@@ -58,6 +58,7 @@ Bottleneck formation occurs when specific individuals, processes, or system comp
 <br/>  Team members become frustrated when they are idle waiting for bottleneck resources to become available.
 - [Context Switching Overhead](context-switching-overhead.md)
 <br/>  Developers forced to switch between tasks while waiting for bottleneck resolution lose productivity to context switching.
+
 ## Causes ▼
 
 - [Knowledge Silos](knowledge-silos.md)
@@ -68,6 +69,7 @@ Bottleneck formation occurs when specific individuals, processes, or system comp
 <br/>  Mandatory approval workflows from specific individuals create bottlenecks when those individuals are unavailable.
 - [Capacity Mismatch](capacity-mismatch.md)
 <br/>  When capacity at different process stages doesn't match demand, constrained stages become bottlenecks.
+
 ## Detection Methods ○
 
 - **Flow Analysis:** Track work items through the development process to identify where delays occur

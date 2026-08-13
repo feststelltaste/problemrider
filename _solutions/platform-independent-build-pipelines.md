@@ -4,7 +4,6 @@ description: Implementing CI/CD pipelines that run on different build servers
 category:
 - Operations
 - Process
-quality_tactics_url: https://qualitytactics.de/en/portability/platform-independent-build-pipelines
 problems:
 - vendor-lock-in
 - technology-lock-in

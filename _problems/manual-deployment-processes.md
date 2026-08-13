@@ -31,6 +31,7 @@ solutions:
 - platform-independent-scripting-languages
 - standardized-deployment-scripts
 - continuous-deployment
+- customization-under-version-control
 layout: problem
 ---
 
@@ -64,6 +65,7 @@ Manual deployment processes require human intervention to release software chang
 <br/>  Manual deployment processes directly increase deployment risk through human error and inconsistency, making each depl....
 - [Complex Deployment Process](complex-deployment-process.md)
 <br/>  Manual deployment steps make the overall deployment process increasingly complex as more manual procedures and coordination overhead accumulate.
+
 ## Causes ▼
 
 - [Immature Delivery Strategy](immature-delivery-strategy.md)
@@ -72,6 +74,7 @@ Manual deployment processes require human intervention to release software chang
 <br/>  Chaotic configuration management makes automation difficult, as environments are too inconsistent to script reliably.
 - [Resistance to Change](resistance-to-change.md)
 <br/>  Teams comfortable with existing manual processes resist adopting automated deployment pipelines.
+
 ## Detection Methods ○
 
 - Review deployment procedures to identify manual intervention points

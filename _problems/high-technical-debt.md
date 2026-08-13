@@ -33,6 +33,23 @@ solutions:
 - improvement-budget
 - total-cost-of-ownership-transparency
 - workaround-registry
+- technical-debt-assessment
+- debt-classification
+- debt-remediation-estimation
+- debt-accrual-analysis
+- quality-ratchet
+- cost-of-delay
+- baseline-measurement
+- risk-quantification
+- value-hierarchy
+- automated-code-migration
+- large-scale-refactoring
+- continuous-dependency-updates
+- duplication-detection
+- attribute-usage-analysis
+- explicit-extension-points
+- typed-schema-extraction
+- variant-consolidation
 layout: problem
 ---
 
@@ -65,6 +82,7 @@ High technical debt is the implied cost of rework caused by choosing an easy (li
 <br/>  Teams spend so much effort managing debt-laden code that they have no capacity to explore new approaches or technologies.
 - [Increased Cost of Development](increased-cost-of-development.md)
 <br/>  Technical debt directly increases the cost of all development work as developers must navigate complexity, work aroun....
+
 ## Causes ▼
 
 - [Refactoring Avoidance](refactoring-avoidance.md)
@@ -77,6 +95,7 @@ High technical debt is the implied cost of rework caused by choosing an easy (li
 <br/>  Without tests, refactoring is risky, so debt-laden code remains untouched and accumulates further.
 - [Implementation Starts Without Design](implementation-starts-without-design.md)
 <br/>  Coding without upfront design leads to ad-hoc architecture and implementation shortcuts that become technical debt.
+
 ## Detection Methods ○
 
 - **Codebase Metrics:** Monitor metrics like cyclomatic complexity, coupling, and code coverage. High values often indicate technical debt.

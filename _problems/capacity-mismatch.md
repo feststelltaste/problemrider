@@ -67,6 +67,7 @@ Capacity mismatch occurs when the available capacity at different stages of the 
 <br/>  Developers become frustrated when they are either overloaded or idle due to misaligned capacity across stages.
 - [Cascade Delays](cascade-delays.md)
 <br/>  Capacity-constrained stages cause delays that propagate to downstream work and dependent projects.
+
 ## Causes ▼
 
 - [Poor Planning](poor-planning.md)
@@ -75,6 +76,7 @@ Capacity mismatch occurs when the available capacity at different stages of the 
 <br/>  Specialized knowledge concentrated in few people creates capacity constraints at stages requiring that expertise.
 - [Organizational Structure Mismatch](organizational-structure-mismatch.md)
 <br/>  Team structures that don't align with process demands create inherent capacity imbalances across workflow stages.
+
 ## Detection Methods ○
 
 - **Capacity Utilization Analysis:** Monitor utilization rates across different roles and process stages

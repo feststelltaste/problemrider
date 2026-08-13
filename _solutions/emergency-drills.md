@@ -4,7 +4,6 @@ description: Training behavior during security incidents and testing emergency p
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/emergency-drills
 problems:
 - slow-incident-resolution
 - constant-firefighting

@@ -29,6 +29,15 @@ solutions:
 - tracer-bullets
 - walking-skeleton
 - pilot-projects
+- executive-sponsorship
+- modernization-options-comparison
+- no-regret-moves
+- staged-investment-with-decision-gates
+- technical-debt-assessment
+- debt-remediation-estimation
+- debt-classification
+- attribute-usage-analysis
+- retention-and-disposal-policy
 layout: problem
 ---
 
@@ -60,6 +69,7 @@ Modernization strategy paralysis occurs when organizations become overwhelmed by
 <br/>  Extensive analysis activities consume significant budget and personnel time without producing actionable outcomes.
 - [Maintenance Cost Increase](maintenance-cost-increase.md)
 <br/>  While paralyzed by indecision, legacy systems continue deteriorating and maintenance costs keep rising as technical d....
+
 ## Causes ▼
 
 - [Analysis Paralysis](analysis-paralysis.md)
@@ -68,6 +78,7 @@ Modernization strategy paralysis occurs when organizations become overwhelmed by
 <br/>  Fear of making wrong decisions and lack of clear decision-making authority prevents the organization from committing to a modernization path.
 - [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
 <br/>  Without a clear ROI justification, stakeholders hesitate to approve any modernization approach, prolonging the analysis phase.
+
 ## Detection Methods ○
 
 - Track time spent on modernization analysis versus implementation activities

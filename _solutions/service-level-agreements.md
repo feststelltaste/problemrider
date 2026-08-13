@@ -4,7 +4,6 @@ description: Defining expectations for software availability and performance
 category:
 - Management
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/service-level-agreements
 problems:
 - poor-operational-concept
 - stakeholder-frustration
@@ -19,6 +18,7 @@ problems:
 - vendor-relationship-strain
 - poor-contract-design
 - stakeholder-confidence-loss
+- voided-vendor-support
 layout: solution
 ---
 

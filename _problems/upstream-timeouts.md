@@ -49,6 +49,7 @@ Upstream timeouts are a common issue in distributed systems where a service fail
 <br/>  End users experience slow responses or errors caused by upstream timeouts, leading to dissatisfaction.
 - [High Connection Count](high-connection-count.md)
 <br/>  Waiting connections accumulate when upstream services are slow, as calling services hold connections open until timeout.
+
 ## Causes ▼
 
 - [High API Latency](high-api-latency.md)
@@ -59,6 +60,7 @@ Upstream timeouts are a common issue in distributed systems where a service fail
 <br/>  Incorrectly configured connection pools can exhaust connections and cause delays that trigger upstream timeouts.
 - [Resource Contention](resource-contention.md)
 <br/>  Resource contention in the upstream service causes it to process requests slowly, exceeding caller timeout thresholds.
+
 ## Detection Methods ○
 
 - **Distributed Tracing:** Use distributed tracing to follow a request across multiple services and pinpoint where the timeout is occurring.

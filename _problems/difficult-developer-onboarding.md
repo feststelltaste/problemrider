@@ -93,6 +93,7 @@ Difficult developer onboarding is a significant problem that can have a major im
 <br/>  Experienced developers become exhausted from constantly hand-holding new hires through a difficult onboarding process.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  The team's overall velocity drops each time a new member joins because of the extended unproductive onboarding period.
+
 ## Causes ▼
 
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
@@ -105,6 +106,7 @@ Difficult developer onboarding is a significant problem that can have a major im
 <br/>  Lack of a structured onboarding program means new hires must figure things out on their own, extending ramp-up time.
 - [Inefficient Development Environment](inefficient-development-environment.md)
 <br/>  Complicated or poorly documented development environment setup wastes new developers' first weeks just trying to get running.
+
 ## Detection Methods ○
 
 - **Onboarding Time Tracking:** Monitor how long new team members take to become fully productive

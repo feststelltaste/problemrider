@@ -35,6 +35,8 @@ solutions:
 - standardized-interfaces
 - versioning-scheme
 - deprecation-strategy
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 
@@ -64,6 +66,7 @@ Legacy API versioning nightmare occurs when legacy systems expose APIs that were
 <br/>  Fear of breaking unknown dependents and the coordination overhead of API changes significantly slow new feature delivery.
 - [Breaking Changes](breaking-changes.md)
 <br/>  Without proper versioning strategies, API modifications inevitably break existing client integrations.
+
 ## Causes ▼
 
 - [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
@@ -72,6 +75,7 @@ Legacy API versioning nightmare occurs when legacy systems expose APIs that were
 <br/>  Legacy APIs built with outdated technologies lack modern versioning capabilities and patterns.
 - [Accumulated Decision Debt](accumulated-decision-debt.md)
 <br/>  Deferring decisions about API versioning strategy compounds over time into a nightmare of incompatible versions and undocumented behaviors.
+
 ## Detection Methods ○
 
 - Audit existing APIs for versioning strategies and backward compatibility mechanisms

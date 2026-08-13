@@ -4,7 +4,6 @@ description: Create test cases from a business perspective and have them reviewe
 category:
 - Testing
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/business-test-cases
 problems:
 - insufficient-testing
 - poor-test-coverage

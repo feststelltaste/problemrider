@@ -1,6 +1,6 @@
 ---
 title: Architecture Reviews
-description: Regular systematic review of the software architecture
+description: Review software architecture systematically and regularly
 category:
 - Architecture
 - Process

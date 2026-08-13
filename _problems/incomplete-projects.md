@@ -28,6 +28,9 @@ solutions:
 - small-change-batches
 - walking-skeleton
 - regular-stakeholder-demonstrations
+- executive-sponsorship
+- staged-investment-with-decision-gates
+- large-scale-refactoring
 layout: problem
 ---
 
@@ -50,6 +53,7 @@ Incomplete projects are a common problem in software development. They occur whe
 <br/>  Partially completed features leave behind dead code, half-implemented patterns, and architectural compromises that add to technical debt.
 - [Stakeholder Confidence Loss](stakeholder-confidence-loss.md)
 <br/>  Repeated failure to finish projects erodes stakeholder trust in the team's ability to deliver.
+
 ## Causes ▼
 
 - [Priority Thrashing](priority-thrashing.md)
@@ -60,6 +64,7 @@ Incomplete projects are a common problem in software development. They occur whe
 <br/>  Lack of project monitoring allows scope to expand and timelines to slip until projects are eventually abandoned.
 - [Changing Project Scope](changing-project-scope.md)
 <br/>  Constant scope changes make it impossible to finish projects as the target keeps moving.
+
 ## Detection Methods ○
 - **Work in Progress (WIP):** Track the amount of work that is in progress at any given time.
 - **Cycle Time:** Track the amount of time that it takes to complete a feature.

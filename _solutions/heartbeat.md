@@ -3,7 +3,6 @@ title: Heartbeat
 description: Regular transmission of a component's heartbeat to a monitoring instance
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/heartbeat
 problems:
 - monitoring-gaps
 - single-points-of-failure

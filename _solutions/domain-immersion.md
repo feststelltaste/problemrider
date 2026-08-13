@@ -23,6 +23,8 @@ problems:
 - frequent-changes-to-requirements
 - product-direction-chaos
 - stakeholder-frustration
+- process-software-misfit
+- reimplemented-standard-functionality
 layout: solution
 ---
 

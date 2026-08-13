@@ -4,7 +4,6 @@ description: Identify and prioritize problematic implementation of functional re
 category:
 - Management
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/functional-debt-management
 problems:
 - high-technical-debt
 - feature-gaps

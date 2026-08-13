@@ -4,7 +4,6 @@ description: Validate all inputs from users and external systems
 category:
 - Security
 - Code
-quality_tactics_url: https://qualitytactics.de/en/security/input-validation
 problems:
 - sql-injection-vulnerabilities
 - cross-site-scripting-vulnerabilities
@@ -15,6 +14,7 @@ problems:
 - silent-data-corruption
 - rest-api-design-issues
 - null-pointer-dereferences
+- entity-attribute-value-overuse
 layout: solution
 ---
 

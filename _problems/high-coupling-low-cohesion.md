@@ -77,6 +77,7 @@ High coupling and low cohesion are two of the most common design problems in sof
 <br/>  Understanding any single component requires understanding many other components it is coupled to, overwhelming developers.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Highly coupled code with low cohesion requires understanding many interconnected modules to comprehend any single par....
+
 ## Causes ▼
 
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
@@ -89,6 +90,7 @@ High coupling and low cohesion are two of the most common design problems in sof
 <br/>  Developers unfamiliar with design principles create tightly coupled code that mixes unrelated concerns within single modules.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  Avoiding necessary refactoring allows coupling to accumulate as the system grows and evolves.
+
 ## Detection Methods ○
 
 - **Code Metrics Tools:** Use static analysis tools that measure coupling (e.g., afferent/efferent coupling, CBO - Coupling Between Objects) and cohesion (e.g., LCOM - Lack of Cohesion in Methods).

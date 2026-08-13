@@ -3,7 +3,6 @@ title: Mutation Testing
 description: Testing the robustness of software tests through targeted code changes
 category:
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/maintainability/mutation-testing
 problems:
 - poor-test-coverage
 - insufficient-testing

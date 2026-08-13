@@ -1,6 +1,6 @@
 ---
 title: Requirements Analysis
-description: Systematic collection, analysis, and documentation of functional requirements
+description: Collect, analyze, and document functional requirements systematically
 category:
 - Requirements
 - Process

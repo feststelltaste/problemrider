@@ -56,6 +56,7 @@ Superficial code reviews occur when the review process consistently focuses on s
 <br/>  Poor design decisions pass review unchallenged, accumulating technical debt that compounds over time.
 - [Inconsistent Quality](inconsistent-quality.md)
 <br/>  Without thorough design review, code quality varies wildly depending on individual developer skill rather than team standards.
+
 ## Causes ▼
 
 - [Fear of Conflict](fear-of-conflict.md)
@@ -68,6 +69,7 @@ Superficial code reviews occur when the review process consistently focuses on s
 <br/>  A culture that rewards finding minor issues trains reviewers to focus on surface details rather than substantive problems.
 - [Reviewer Inexperience](reviewer-inexperience.md)
 <br/>  Inexperienced reviewers default to surface-level comments because they cannot evaluate deeper design issues.
+
 ## Detection Methods ○
 
 - **Review Comment Classification:** Categorize review comments to identify focus areas

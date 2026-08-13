@@ -51,6 +51,7 @@ SQL injection vulnerabilities occur when applications fail to properly sanitize 
 
 - [System Outages](system-outages.md)
 <br/>  Destructive SQL injection attacks like DROP TABLE can cause system outages by destroying critical data.
+
 ## Causes ▼
 
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
@@ -59,6 +60,7 @@ SQL injection vulnerabilities occur when applications fail to properly sanitize 
 <br/>  Without code review, insecure query construction patterns go undetected before reaching production.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Older code written before security best practices were established often contains SQL injection vulnerabilities.
+
 ## Detection Methods ○
 
 - **Input Validation Testing:** Test all input fields for SQL injection attack vectors

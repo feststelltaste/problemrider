@@ -4,7 +4,6 @@ description: Adopt widely accepted interface styles so that any consumer can int
 category:
 - Architecture
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/compatibility/standardized-interfaces
 problems:
 - poor-interfaces-between-applications
 - integration-difficulties

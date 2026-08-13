@@ -4,7 +4,6 @@ description: Utilizing locality of memory accesses at different levels
 category:
 - Performance
 - Code
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/memory-hierarchy
 problems:
 - slow-application-performance
 - data-structure-cache-inefficiency

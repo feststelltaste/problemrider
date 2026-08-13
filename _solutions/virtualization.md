@@ -4,7 +4,6 @@ description: Isolate applications with their own OS instance to prevent resource
 category:
 - Operations
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/virtualization
 problems:
 - deployment-environment-inconsistencies
 - dependency-version-conflicts

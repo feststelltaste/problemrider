@@ -4,7 +4,6 @@ description: Continuous monitoring of resource usage and system performance
 category:
 - Operations
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/reliability/monitoring-system-utilization
 problems:
 - capacity-mismatch
 - gradual-performance-degradation

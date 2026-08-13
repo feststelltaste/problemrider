@@ -57,6 +57,7 @@ Poor project control occurs when project management lacks effective mechanisms t
 <br/>  Without early problem detection, projects drift so far from plan that they are abandoned or delivered incomplete.
 - [Cascade Delays](cascade-delays.md)
 <br/>  Undetected problems in one area compound and cascade to dependent work streams, amplifying delays.
+
 ## Causes ▼
 
 - [Poor Planning](poor-planning.md)
@@ -65,6 +66,7 @@ Poor project control occurs when project management lacks effective mechanisms t
 <br/>  When team members don't communicate problems openly, project managers lack visibility into actual status.
 - [Fear of Failure](fear-of-failure.md)
 <br/>  Team members hide problems and report optimistic status due to fear of consequences, undermining project visibility.
+
 ## Detection Methods ○
 
 - **Progress Variance Analysis:** Compare actual progress against planned milestones and budgets

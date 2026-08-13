@@ -1,6 +1,6 @@
 ---
 title: Customizable User Interface
-description: Letting the user change the user interface according to their preferences and needs
+description: Let users change the user interface according to their preferences
 category:
 - Requirements
 quality_tactics_url: https://qualitytactics.de/en/usability/customizable-user-interface/

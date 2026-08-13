@@ -1,6 +1,6 @@
 ---
 title: Localization
-description: Adapting software to different languages, regions, and cultural conventions
+description: Adapt software to different languages, regions, and cultural conventions
 category:
 - Requirements
 - Code

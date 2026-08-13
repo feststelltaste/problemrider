@@ -58,6 +58,7 @@ Flaky tests are automated tests that produce inconsistent results when run multi
 <br/>  CI pipelines blocked by flaky test failures delay code review and merge processes.
 - [Long Build and Test Times](long-build-and-test-times.md)
 <br/>  Flaky tests lead to longer build times because developers re-run test suites multiple times and CI pipelines get bloc....
+
 ## Causes ▼
 
 - [Testing Environment Fragility](testing-environment-fragility.md)
@@ -68,6 +69,7 @@ Flaky tests are automated tests that produce inconsistent results when run multi
 <br/>  Code that is hard to test in isolation forces tests to depend on timing, external services, or shared state, creating flakiness.
 - [Inadequate Test Data Management](inadequate-test-data-management.md)
 <br/>  Unrealistic or inconsistent test data causes tests to produce different results across runs.
+
 ## Detection Methods ○
 
 - Track test failure rates and patterns over time to identify inconsistent tests

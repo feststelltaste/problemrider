@@ -65,6 +65,7 @@ Feature creep without refactoring is the process of continuously adding new feat
 <br/>  An organizational culture obsessed with feature output metrics discourages spending time on non-feature work like refactoring.
 - [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
 <br/>  When technical debt is not visible to stakeholders, there is no support for allocating time to refactoring alongside feature development.
+
 ## Detection Methods ○
 - **Code Metrics Tools:** Use tools to measure code complexity, class size, and other metrics.
 - **Code Reviews:** Look for code that is difficult to understand and review.

@@ -54,6 +54,7 @@ Past negative experiences is a situation where developers are hesitant to make c
 <br/>  Developers postpone or avoid working on complex areas of the codebase where past changes have caused problems.
 - [Large Estimates for Small Changes](large-estimates-for-small-changes.md)
 <br/>  Teams provide inflated estimates for changes in areas where past modifications have caused problems, reflecting excessive caution.
+
 ## Causes ▼
 
 - [Blame Culture](blame-culture.md)
@@ -64,6 +65,7 @@ Past negative experiences is a situation where developers are hesitant to make c
 <br/>  A track record of failed deployments and problematic changes directly creates the negative experiences that make teams cautious.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Without automated tests as a safety net, changes are risky and more likely to cause the production incidents that create negative experiences.
+
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers about their confidence level when making changes to different parts of the system.
 - **Change Frequency Analysis:** Monitor how often different modules are modified; consistently avoided areas may indicate fear.

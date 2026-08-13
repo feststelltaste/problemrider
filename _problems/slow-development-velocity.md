@@ -29,6 +29,9 @@ solutions:
 - trunk-based-development
 - delivery-performance-metrics
 - fast-feedback-loops
+- baseline-measurement
+- value-hierarchy
+- cost-of-delay
 layout: problem
 ---
 
@@ -54,6 +57,7 @@ Slow development velocity represents a sustained reduction in the team's ability
 <br/>  When development velocity drops, business value reaches users much later than expected.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Persistently slow delivery demoralizes the team as they struggle to make meaningful progress.
+
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)
@@ -68,6 +72,7 @@ Slow development velocity represents a sustained reduction in the team's ability
 <br/>  Frequent context switching between tasks fragments developer attention and reduces effective output.
 - [Review Bottlenecks](review-bottlenecks.md)
 <br/>  Review bottlenecks directly slow development velocity by blocking code from being merged and deployed.
+
 ## Detection Methods ○
 - **Velocity Tracking:** Track the team's velocity over time to see if it is improving or declining. Monitor sprint velocity, story points completed, or features delivered over time.
 - **Cycle Time Analysis:** Analyze the time it takes to get a task from start to finish. Measure time from feature request to deployment for similar types of work.

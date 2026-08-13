@@ -30,6 +30,7 @@ solutions:
 - application-portfolio-inventory
 - written-first-communication
 - system-decommissioning
+- retention-and-disposal-policy
 layout: problem
 ---
 
@@ -55,6 +56,7 @@ Legal disputes occur when disagreements between parties in software development 
 <br/>  Legal disputes directly damage the working relationship between organizations and their vendors or partners.
 - [Team Demoralization](team-demoralization.md)
 <br/>  The uncertainty and adversarial atmosphere created by legal disputes demoralizes team members working on the affected project.
+
 ## Causes ▼
 
 - [Poor Contract Design](poor-contract-design.md)
@@ -63,6 +65,7 @@ Legal disputes occur when disagreements between parties in software development 
 <br/>  Vague or undefined requirements lead to disputes about what was agreed upon, as each party interprets expectations differently.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Persistent dissatisfaction with project outcomes, when unresolved through normal channels, eventually escalates to formal legal action.
+
 ## Detection Methods ○
 
 - **Contract Risk Assessment:** Evaluate contracts for ambiguous terms that could lead to disputes

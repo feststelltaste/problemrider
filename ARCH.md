@@ -184,7 +184,7 @@ Each problem file contains:
 - **Related Problems**: YAML-based linking with semantic similarity scores  
 - **Cross-References**: Markdown links within content
 - **Bidirectional**: Scripts maintain link consistency
-- **Causal Analysis**: CESAR-based symptoms/root causes with confidence scores
+- **Causal Analysis**: Symptoms and causes are authored, then checked structurally by `validate_causal_links.py`
 
 
 ## 9. Architecture Decisions
@@ -220,15 +220,19 @@ Each problem file contains:
 - Processing required for advanced features
 - Template consistency important
 
-### 9.3 AI-Driven Causal Analysis
+### 9.3 Structural Validation of Causal Claims
 
-**Decision**: Integrate CESAR model for automated symptoms/root causes generation
+**Decision**: Author symptoms and causes, and validate them structurally rather than
+generating them from a causal scoring model
 
 **Rationale**:
-- Eliminates subjective bias in causal relationship identification
-- Provides quantified confidence scores for relationship validation
-- Scales to analyze hundreds of problem pairs efficiently
-- Maintains consistency across the entire catalog
+- An automated causal scoring model (CESAR) was trialled and abandoned: it produced
+  near-symmetric scores for unrelated problem pairs, so it could not decide direction
+- Structural checks need no model and catch the defects that actually occur:
+  a claim recorded on only one of the two problem files, a problem asserted as both
+  cause and effect, and causal cycles
+- The asymmetry rate is the catalog's main quality measure for these links, since
+  every claim should appear in both the causing and the affected problem
 
 **Consequences**:
 - Dependency on external AI model and Python environment

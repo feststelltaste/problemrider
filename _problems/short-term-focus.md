@@ -29,6 +29,14 @@ solutions:
 - delivery-performance-metrics
 - feature-usage-measurement
 - pilot-projects
+- baseline-measurement
+- benefits-realization-tracking
+- cost-of-delay
+- executive-sponsorship
+- value-hierarchy
+- debt-classification
+- debt-accrual-analysis
+- customization-cost-attribution
 layout: problem
 ---
 
@@ -62,12 +70,14 @@ Short-term focus occurs when organizational decision-making consistently priorit
 <br/>  Short-term thinking creates an environment where only immediately measurable outcomes are valued, making it harder to quantify long-term technical benefits.
 - [Invisible Nature of Technical Debt](invisible-nature-of-technical-debt.md)
 <br/>  Technical debt is not visible to non-technical stakeholders, so management does not perceive the growing cost of neglecting code health.
+
 ## Causes ▼
 
 - [Market Pressure](market-pressure.md)
 <br/>  Competitive market forces create urgency to deliver features quickly, pushing management to prioritize immediate delivery over sustainability.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Intense deadline pressure forces teams into a constant cycle of short-term delivery, leaving no room for long-term planning.
+
 ## Detection Methods ○
 
 - **Resource Allocation Analysis:** Track percentage of development time spent on improvement vs. new features

@@ -1,6 +1,6 @@
 ---
 title: Design Tokens and Theming
-description: Encoding visual design decisions platform-agnostically for theming and cross-platform consistency
+description: Encode visual design decisions platform-agnostically for theming and consistency
 category:
 - Architecture
 - Code

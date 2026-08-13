@@ -57,6 +57,7 @@ Author frustration occurs when developers become increasingly frustrated with th
 <br/>  Ongoing friction between authors and reviewers damages team relationships and creates dysfunction.
 - [Large Pull Requests](large-pull-requests.md)
 <br/>  Frustrated authors batch their changes into larger submissions to reduce the number of review cycles they endure.
+
 ## Causes ▼
 
 - [Conflicting Reviewer Opinions](conflicting-reviewer-opinions.md)
@@ -67,6 +68,7 @@ Author frustration occurs when developers become increasingly frustrated with th
 <br/>  Without defined style guidelines, review feedback becomes subjective and unpredictable, frustrating authors.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Inconsistent standards mean authors cannot predict what feedback they will receive, leading to frustration.
+
 ## Detection Methods ○
 
 - **Author Satisfaction Surveys:** Collect feedback about the review experience from code authors

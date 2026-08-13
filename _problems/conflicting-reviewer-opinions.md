@@ -55,6 +55,7 @@ Conflicting reviewer opinions occur when multiple team members reviewing the sam
 <br/>  Developers batch changes or delay submissions to avoid the frustrating experience of navigating contradictory reviewer feedback.
 - [Review Process Avoidance](review-process-avoidance.md)
 <br/>  The frustration of dealing with conflicting opinions motivates developers to seek ways to bypass the review process entirely.
+
 ## Causes ▼
 
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
@@ -65,6 +66,7 @@ Conflicting reviewer opinions occur when multiple team members reviewing the sam
 <br/>  Without clear ownership of architectural decisions, multiple reviewers feel empowered to impose their own contradictory design preferences.
 - [Communication Breakdown](communication-breakdown.md)
 <br/>  Reviewers who do not coordinate among themselves before or during reviews are more likely to provide contradictory feedback.
+
 ## Detection Methods ○
 
 - **Conflict Detection Analysis:** Track instances where reviewers provide contradictory feedback

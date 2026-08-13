@@ -3,7 +3,6 @@ title: Ping
 description: Actively sending requests to a component to check its availability
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/ping
 problems:
 - monitoring-gaps
 - single-points-of-failure

@@ -30,6 +30,7 @@ solutions:
 - psychological-safety-practices
 - small-change-batches
 - written-first-communication
+- executive-sponsorship
 layout: problem
 ---
 
@@ -57,6 +58,7 @@ Resistance to change occurs when development teams consistently avoid making nec
 <br/>  Resistance to changing the existing system prevents adoption of new approaches, technologies, or architectural improvements.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Unwillingness to improve the codebase forces developers to work around existing problems, slowing feature delivery.
+
 ## Causes ▼
 
 - [Fear of Breaking Changes](fear-of-breaking-changes.md)
@@ -69,6 +71,7 @@ Resistance to change occurs when development teams consistently avoid making nec
 <br/>  Teams that cannot verify changes don't break functionality become paralyzed and resist making any improvements.
 - [Past Negative Experiences](past-negative-experiences.md)
 <br/>  Past negative experiences with changes (failed deployments, broken systems) are a direct cause of teams becoming resi....
+
 ## Detection Methods ○
 
 - **Improvement Proposal Tracking:** Monitor how many improvement initiatives are started vs. completed

@@ -4,7 +4,6 @@ description: Centralized management and provision of dependencies
 category:
 - Code
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/maintainability/dependency-injection-container
 problems:
 - tight-coupling-issues
 - hidden-dependencies

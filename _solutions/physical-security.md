@@ -4,7 +4,6 @@ description: Access and entry protection for IT infrastructure through structura
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/physical-security
 problems:
 - data-protection-risk
 - system-outages

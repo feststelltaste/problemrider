@@ -27,6 +27,12 @@ solutions:
 - improvement-budget
 - preparatory-refactoring
 - workaround-registry
+- debt-accrual-analysis
+- debt-classification
+- quality-ratchet
+- technical-debt-assessment
+- code-hotspot-analysis
+- debt-remediation-estimation
 layout: problem
 ---
 
@@ -54,6 +60,7 @@ Accumulation of workarounds occurs when developers consistently choose temporary
 <br/>  Each new feature or fix must navigate around existing workarounds, significantly increasing maintenance effort.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  New features take longer because developers must understand and work around the existing web of workarounds.
+
 ## Causes ▼
 
 - [Deadline Pressure](deadline-pressure.md)
@@ -66,6 +73,7 @@ Accumulation of workarounds occurs when developers consistently choose temporary
 <br/>  An organizational culture that normalizes and rewards quick fixes over proper solutions directly drives workaround accumulation.
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
 <br/>  Without tests as a safety net, developers are afraid to modify existing code and resort to workarounds instead.
+
 ## Detection Methods ○
 
 - **Code Review Analysis:** Look for patterns of alternative logic paths and conditional workarounds

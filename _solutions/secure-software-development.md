@@ -4,7 +4,6 @@ description: Establishing security as an integral part of the development proces
 category:
 - Security
 - Process
-quality_tactics_url: https://qualitytactics.de/en/security/secure-software-development
 problems:
 - insufficient-testing
 - inadequate-code-reviews

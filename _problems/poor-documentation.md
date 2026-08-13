@@ -83,6 +83,7 @@ Poor documentation occurs when the written information about a system, its archi
 <br/>  Frequent system changes outpace documentation updates, causing it to become stale quickly.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Teams focused on short-term delivery deprioritize documentation maintenance as a long-term investment.
+
 ## Detection Methods ○
 
 - **Documentation Currency Analysis:** Compare documentation dates with recent system changes

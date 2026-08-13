@@ -1,6 +1,6 @@
 ---
 title: Mobile First Design
-description: The design of applications is primarily done for mobile devices
+description: Design applications primarily for mobile devices first
 category:
 - Requirements
 - Architecture

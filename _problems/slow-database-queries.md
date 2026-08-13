@@ -40,6 +40,8 @@ solutions:
 - sampling
 - vertical-scaling
 - index-lifecycle-management
+- typed-schema-extraction
+- attribute-usage-analysis
 layout: problem
 ---
 
@@ -60,6 +62,7 @@ Slow database queries are a primary cause of poor application performance. When 
 <br/>  List pages are especially affected by slow queries because they execute multiple queries or process large result sets.
 - [High API Latency](high-api-latency.md)
 <br/>  API endpoints that depend on database queries inherit the slowness, increasing overall API response times.
+
 ## Causes ▼
 
 - [Inefficient Database Indexing](inefficient-database-indexing.md)
@@ -70,6 +73,7 @@ Slow database queries are a primary cause of poor application performance. When 
 <br/>  Manually constructed data fetching logic often produces inefficient query patterns instead of leveraging optimized database operations.
 - [Lazy Loading](lazy-loading.md)
 <br/>  Lazy loading triggers additional database queries on demand, leading to unpredictable and often excessive query execution.
+
 ## Detection Methods ○
 
 - **Database query logging:** Enable logging of slow queries in the database configuration.

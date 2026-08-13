@@ -4,7 +4,6 @@ description: Define supported combinations of configurations
 category:
 - Testing
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/compatibility/compatibility-matrix
 problems:
 - deployment-environment-inconsistencies
 - configuration-drift

@@ -31,6 +31,7 @@ solutions:
 - profiling
 - performance-measurements
 - index-lifecycle-management
+- typed-schema-extraction
 layout: problem
 ---
 
@@ -53,6 +54,7 @@ Imperative data fetching logic is a common performance problem in database-drive
 <br/>  The accumulated latency of many sequential database round-trips significantly degrades application response times.
 - [High Database Resource Utilization](high-database-resource-utilization.md)
 <br/>  The excessive query volume from imperative fetching increases CPU and memory usage on the database server.
+
 ## Causes ▼
 
 - [Inexperienced Developers](inexperienced-developers.md)
@@ -61,6 +63,7 @@ Imperative data fetching logic is a common performance problem in database-drive
 <br/>  Without code review, inefficient data fetching patterns go undetected and become established in the codebase.
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
 <br/>  Without established data access patterns and standards, developers implement fetching logic inconsistently and inefficiently.
+
 ## Detection Methods ○
 - **Code Review:** During code reviews, specifically look for loops that contain database queries.
 - **Application Performance Monitoring (APM):** APM tools can often detect and flag the N+1 query problem, which is a common symptom of imperative data fetching logic.

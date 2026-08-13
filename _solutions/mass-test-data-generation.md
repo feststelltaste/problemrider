@@ -4,7 +4,6 @@ description: Generation of massive artificial test data with realistic propertie
 category:
 - Testing
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/mass-test-data-generation
 problems:
 - inadequate-test-data-management
 - inadequate-test-infrastructure

@@ -4,7 +4,6 @@ description: Predicting performance behavior through mathematical models
 category:
 - Performance
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/performance-modeling
 problems:
 - capacity-mismatch
 - scaling-inefficiencies

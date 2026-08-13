@@ -52,6 +52,7 @@ A bloated class is a class that has accumulated too many responsibilities over t
 <br/>  Bloated classes are a clear form of technical debt.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Bloated classes with many responsibilities slow down feature development because developers must understand the entir....
+
 ## Causes ▼
 
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
@@ -62,6 +63,7 @@ A bloated class is a class that has accumulated too many responsibilities over t
 <br/>  Avoiding the effort of splitting classes into smaller, focused components allows bloating to continue unchecked.
 - [Time Pressure](time-pressure.md)
 <br/>  Under deadline pressure, developers add functionality to existing classes rather than properly designing new ones.
+
 ## Detection Methods ○
 - **Code Metrics Tools:** Use tools to measure class size, number of methods, and cyclomatic complexity.
 - **Code Reviews:** Look for classes that are difficult to understand and review.

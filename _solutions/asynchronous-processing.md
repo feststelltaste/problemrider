@@ -4,7 +4,6 @@ description: Decoupling of calls and execution through asynchronicity
 category:
 - Performance
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/asynchronous-processing
 problems:
 - slow-application-performance
 - thread-pool-exhaustion

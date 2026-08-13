@@ -72,6 +72,7 @@ Constant firefighting, also known as "reactive development," is a state where a 
 <br/>  Planned feature work is consistently deprioritized in favor of urgent bug fixes, slowing the delivery of new functionality.
 - [Quality Degradation](quality-degradation.md)
 <br/>  Rushed fixes under crisis conditions often introduce new issues, causing overall system quality to decline over time.
+
 ## Causes ▼
 
 - [High Defect Rate in Production](high-defect-rate-in-production.md)
@@ -84,6 +85,7 @@ Constant firefighting, also known as "reactive development," is a state where a 
 <br/>  Insufficient monitoring means issues are not caught early and escalate into emergencies requiring immediate firefighting response.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  High technical debt causes systems to break more frequently, generating the stream of urgent issues that keeps teams ....
+
 ## Detection Methods ○
 - **Track Unplanned Work:** Measure the percentage of the team's time that is spent on unplanned work. If this number is consistently high, it is a clear sign of a problem.
 - **Analyze Bug Reports:** Look for patterns in the bug reports. Are the same problems recurring over and over again? This is a sign that the team is not addressing the root causes of the problems.

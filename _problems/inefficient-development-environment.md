@@ -54,6 +54,7 @@ An inefficient development environment creates friction in the daily workflow of
 <br/>  Constantly fighting with slow and unreliable development tools creates frustration and contributes to burnout.
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
 <br/>  Complex environment setup processes make it hard for new team members to become productive quickly.
+
 ## Causes ▼
 
 - [Tool Limitations](tool-limitations.md)
@@ -64,6 +65,7 @@ An inefficient development environment creates friction in the daily workflow of
 <br/>  Monolithic systems often require building and testing the entire application for any change, causing slow development cycles.
 - [Poor System Environment](poor-system-environment.md)
 <br/>  Underlying infrastructure issues such as slow hardware or unreliable networks contribute to an inefficient development environment.
+
 ## Detection Methods ○
 
 - Measure and track build times, test execution times, and deployment pipeline durations

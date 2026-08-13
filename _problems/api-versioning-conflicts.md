@@ -35,6 +35,9 @@ solutions:
 - tolerant-reader
 - version-control
 - versioning-scheme
+- automated-code-migration
+- large-scale-refactoring
+- continuous-dependency-updates
 layout: problem
 ---
 
@@ -62,6 +65,7 @@ API versioning conflicts occur when different versions of APIs are incompatible,
 <br/>  Supporting multiple incompatible API versions simultaneously creates significant maintenance burden.
 - [Deployment Coupling](deployment-coupling.md)
 <br/>  API version conflicts force coordinated deployments across multiple services, creating deployment coupling.
+
 ## Causes ▼
 
 - [Poor Interfaces Between Applications](poor-interfaces-between-applications.md)
@@ -72,6 +76,7 @@ API versioning conflicts occur when different versions of APIs are incompatible,
 <br/>  Poor communication between API provider and consumer teams leads to uncoordinated version changes.
 - [Rapid System Changes](rapid-system-changes.md)
 <br/>  Frequent, rapid changes to system APIs without proper versioning discipline create version conflicts.
+
 ## Detection Methods ○
 
 - **API Compatibility Testing:** Test API changes against existing client integrations

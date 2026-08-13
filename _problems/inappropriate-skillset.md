@@ -59,6 +59,7 @@ Inappropriate skillset occurs when team members are assigned tasks or roles that
 <br/>  Team members with skill gaps remain dependent on experienced colleagues for guidance and decision-making.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Team members working outside their competency produce lower quality code, as they lack knowledge of best practices an....
+
 ## Causes ▼
 
 - [Poor Planning](poor-planning.md)
@@ -67,6 +68,7 @@ Inappropriate skillset occurs when team members are assigned tasks or roles that
 <br/>  Without structured mentoring, team members with skill gaps lack the support to develop required competencies.
 - [Rapid Team Growth](rapid-team-growth.md)
 <br/>  Rapid hiring may compromise skill-matching as teams prioritize filling positions over finding the right fit.
+
 ## Detection Methods ○
 
 - **Skill Assessment Reviews:** Regular evaluation of team member capabilities against role requirements

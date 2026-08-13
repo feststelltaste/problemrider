@@ -53,6 +53,7 @@ Data structure cache inefficiency occurs when data is organized in memory layout
 <br/>  Cache-inefficient data layouts cause performance to degrade non-linearly as data grows, making the system difficult to scale.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As data volumes increase over time, cache miss rates worsen progressively, causing steadily declining throughput.
+
 ## Causes ▼
 
 - [Alignment and Padding Issues](alignment-and-padding-issues.md)
@@ -61,6 +62,7 @@ Data structure cache inefficiency occurs when data is organized in memory layout
 <br/>  Choosing data structures based solely on algorithmic complexity without considering memory access patterns leads to cache-unfriendly layouts.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without knowledge of hardware-level performance characteristics design data structures that work against CPU cache behavior.
+
 ## Detection Methods ○
 
 - **Cache Performance Profiling:** Analyze cache hit/miss rates for specific data structure operations

@@ -4,7 +4,6 @@ description: Use programming languages specifically adapted to the domain for bu
 category:
 - Code
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/domain-specific-languages
 problems:
 - complex-and-obscure-logic
 - legacy-business-logic-extraction-difficulty

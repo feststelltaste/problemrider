@@ -39,6 +39,7 @@ solutions:
 - defect-triage-process
 - delivery-performance-metrics
 - exploratory-testing
+- risk-quantification
 layout: problem
 ---
 
@@ -64,6 +65,7 @@ A high defect rate in production is a clear sign that there are serious problems
 <br/>  Repeated production defects build a track record of problematic releases that creates fear around future changes.
 - [Fear of Change](fear-of-change.md)
 <br/>  When releases frequently introduce bugs, developers become reluctant to make changes, slowing development velocity.
+
 ## Causes ▼
 
 - [Insufficient Testing](insufficient-testing.md)
@@ -76,6 +78,7 @@ A high defect rate in production is a clear sign that there are serious problems
 <br/>  Accumulated shortcuts and complexity make the codebase fragile and prone to unintended side effects when changes are made.
 - [Inadequate Integration Tests](inadequate-integration-tests.md)
 <br/>  Lack of integration testing allows integration-level bugs to reach production, directly contributing to a high defect....
+
 ## Detection Methods ○
 
 - **Bug Tracking Metrics:** Monitor metrics like the number of new bugs per release, the time it takes to resolve them, and the number of critical bugs.

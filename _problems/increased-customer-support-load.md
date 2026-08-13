@@ -53,6 +53,7 @@ Increased customer support load occurs when technical problems, poor user experi
 <br/>  More support tickets require more support staff and operational resources, increasing overall maintenance costs.
 - [Operational Overhead](operational-overhead.md)
 <br/>  Support staff spends time on technical issues that should have been prevented, diverting resources from planned activities.
+
 ## Causes ▼
 
 - [Increased Bug Count](increased-bug-count.md)
@@ -61,6 +62,7 @@ Increased customer support load occurs when technical problems, poor user experi
 <br/>  Confusing or difficult interfaces cause users to seek help for tasks they should be able to complete independently.
 - [Inadequate Error Handling](inadequate-error-handling.md)
 <br/>  Unclear or missing error messages leave users unable to resolve issues on their own, forcing them to contact support.
+
 ## Detection Methods ○
 - **Support Ticket Categorization:** Classify tickets to identify what percentage relate to technical issues vs. legitimate support needs
 - **Ticket Volume Trends:** Monitor support request volume relative to user base growth

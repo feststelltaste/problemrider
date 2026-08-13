@@ -4,7 +4,6 @@ description: Summarize fine-grained data into more compact units
 category:
 - Performance
 - Database
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/data-aggregation
 problems:
 - slow-database-queries
 - unbounded-data-growth

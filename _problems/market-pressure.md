@@ -29,6 +29,10 @@ solutions:
 - outcome-based-goal-setting
 - regular-stakeholder-demonstrations
 - feature-usage-measurement
+- cost-of-delay
+- value-hierarchy
+- no-regret-moves
+- customization-cost-attribution
 layout: problem
 ---
 
@@ -58,10 +62,12 @@ Market pressure occurs when competitive forces, regulatory changes, economic con
 <br/>  Constant pressure to deliver quickly at the expense of quality leads to developer frustration and eventual burnout.
 - [Competing Priorities](competing-priorities.md)
 <br/>  External competitive forces create genuinely urgent demands across multiple fronts, leading to conflicting priorities for development teams.
+
 ## Causes ▼
 
 - [Eager to Please Stakeholders](eager-to-please-stakeholders.md)
 <br/>  Stakeholders who commit to customer demands without consulting engineering create artificial market pressure on teams.
+
 ## Detection Methods ○
 
 - **Market Response Time Analysis:** Track how quickly organization responds to market changes

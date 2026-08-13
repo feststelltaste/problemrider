@@ -52,6 +52,7 @@ Long build and test times are a situation where it takes a long time to build an
 <br/>  Developers skip running full test suites locally due to long times, leading to more defects reaching shared branches.
 - [Context Switching Overhead](context-switching-overhead.md)
 <br/>  While waiting for builds, developers switch to other tasks, losing mental context and reducing effectiveness.
+
 ## Causes ▼
 
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
@@ -64,6 +65,7 @@ Long build and test times are a situation where it takes a long time to build an
 <br/>  An ever-growing codebase without modularization naturally leads to longer compile and test execution times.
 - [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
 <br/>  Lack of proper test infrastructure such as parallel test execution or test caching makes test runs unnecessarily slow.
+
 ## Detection Methods ○
 - **Build and Test Time Monitoring:** Monitor the build and test times to identify which parts of the build are the slowest.
 - **Developer Surveys:** Ask developers if they feel like they are able to get fast feedback on their changes.

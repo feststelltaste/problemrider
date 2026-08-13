@@ -3,7 +3,6 @@ title: Personas
 description: Characterizing representative user types through fictional characters
 category:
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/personas
 problems:
 - poor-user-experience-ux-design
 - inadequate-requirements-gathering

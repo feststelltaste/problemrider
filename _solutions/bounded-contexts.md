@@ -3,7 +3,6 @@ title: Bounded Contexts
 description: Separate business areas with different terms and rules from each other
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/bounded-contexts
 problems:
 - monolithic-architecture-constraints
 - complex-domain-model

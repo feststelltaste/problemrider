@@ -3,7 +3,6 @@ title: Immutable Infrastructure
 description: Not modifying infrastructure components, but replacing them with new versions
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/immutable-infrastructure
 problems:
 - configuration-drift
 - deployment-environment-inconsistencies
@@ -16,6 +15,7 @@ problems:
 - inadequate-configuration-management
 - legacy-configuration-management-chaos
 - testing-environment-fragility
+- customization-outside-version-control
 layout: solution
 ---
 

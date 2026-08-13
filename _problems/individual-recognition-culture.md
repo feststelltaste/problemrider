@@ -47,12 +47,14 @@ An individual recognition culture is a culture where individual accomplishments 
 <br/>  Competition between team members discourages open communication and information sharing.
 - [Team Dysfunction](team-dysfunction.md)
 <br/>  A culture of individual competition erodes trust and cooperation, leading to broader team dysfunction.
+
 ## Causes ▼
 
 - [Micromanagement Culture](micromanagement-culture.md)
 <br/>  Micromanagement emphasizes individual task tracking and accountability, reinforcing a culture that values individual over team accomplishments.
 - [Power Struggles](power-struggles.md)
 <br/>  Internal power dynamics encourage individuals to seek personal recognition and visibility to gain influence.
+
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers if they feel like they are part of a team.
 - **Performance Review Analysis:** Analyze the performance review process to see if it is focused on individual accomplishments or team accomplishments.

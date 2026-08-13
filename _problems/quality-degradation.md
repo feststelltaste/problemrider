@@ -28,6 +28,12 @@ solutions:
 - defect-triage-process
 - delivery-performance-metrics
 - exploratory-testing
+- baseline-measurement
+- benefits-realization-tracking
+- quality-ratchet
+- debt-accrual-analysis
+- code-hotspot-analysis
+- duplication-detection
 layout: problem
 ---
 
@@ -51,6 +57,7 @@ Quality degradation occurs when software systems experience a steady decline in 
 <br/>  System performance steadily worsens as quality issues compound and inefficiencies accumulate.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Declining reliability and usability erodes user and stakeholder confidence in the system.
+
 ## Causes ▼
 
 - [Quality Compromises](quality-compromises.md)
@@ -61,6 +68,7 @@ Quality degradation occurs when software systems experience a steady decline in 
 <br/>  Poor code quality practices compound over time, creating a downward spiral of maintainability.
 - [Information Decay](information-decay.md)
 <br/>  Outdated documentation and lost knowledge lead to incorrect assumptions that further degrade quality.
+
 ## Detection Methods ○
 
 - **Quality Trend Analysis:** Track quality metrics over time to identify degradation patterns

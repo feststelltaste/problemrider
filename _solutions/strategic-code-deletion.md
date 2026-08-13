@@ -3,7 +3,6 @@ title: Strategic Code Deletion
 description: Targeted removal of superfluous or obsolete code to reduce the codebase
 category:
 - Code
-quality_tactics_url: https://qualitytactics.de/en/maintainability/strategic-code-deletion
 problems:
 - uncontrolled-codebase-growth
 - code-duplication
@@ -14,6 +13,9 @@ problems:
 - accumulation-of-workarounds
 - copy-paste-programming
 - maintenance-cost-increase
+- custom-report-sprawl
+- low-code-customization-sprawl
+- reimplemented-standard-functionality
 layout: solution
 ---
 

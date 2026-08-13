@@ -3,7 +3,6 @@ title: Functional Tests
 description: Verify the software's functionality through systematic testing
 category:
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/functional-tests
 problems:
 - legacy-code-without-tests
 - insufficient-testing

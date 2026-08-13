@@ -3,7 +3,6 @@ title: Event-Driven Integration
 description: Decoupling producers from consumers via asynchronous message broker communication
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/event-driven-integration
 problems:
 - tight-coupling-issues
 - high-coupling-low-cohesion

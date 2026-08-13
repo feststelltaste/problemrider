@@ -4,7 +4,6 @@ description: Define when and why version numbers change to signal compatibility 
 category:
 - Process
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/compatibility/versioning-scheme
 problems:
 - api-versioning-conflicts
 - breaking-changes

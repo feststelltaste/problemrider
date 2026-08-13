@@ -4,7 +4,6 @@ description: Writing tests before the actual implementation
 category:
 - Code
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/maintainability/test-driven-development-tdd
 problems:
 - legacy-code-without-tests
 - poor-test-coverage

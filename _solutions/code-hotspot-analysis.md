@@ -26,6 +26,9 @@ problems:
 - delayed-bug-fixes
 - maintenance-paralysis
 - tangled-cross-cutting-concerns
+- accumulation-of-workarounds
+- brittle-codebase
+- quality-degradation
 layout: solution
 ---
 

@@ -4,7 +4,6 @@ description: Providing development environments in virtual machines or container
 category:
 - Operations
 - Process
-quality_tactics_url: https://qualitytactics.de/en/portability/virtual-development-environments
 problems:
 - inefficient-development-environment
 - deployment-environment-inconsistencies

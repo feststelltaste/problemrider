@@ -52,6 +52,7 @@ Slow response times for lists is a common performance problem in web application
 <br/>  Slow list pages are a visible component of overall application sluggishness perceived by users.
 - [High API Latency](high-api-latency.md)
 <br/>  List endpoints that fetch large amounts of data contribute significantly to API latency.
+
 ## Causes ▼
 
 - [High Number of Database Queries](high-number-of-database-queries.md)
@@ -62,6 +63,7 @@ Slow response times for lists is a common performance problem in web application
 <br/>  Lazy loading related data for each item in a list triggers many additional queries, multiplying response time.
 - [Imperative Data Fetching Logic](imperative-data-fetching-logic.md)
 <br/>  Manually coded data fetching often fails to batch or optimize queries for list operations.
+
 ## Detection Methods ○
 - **Application Performance Monitoring (APM):** APM tools can often detect and flag slow response times for lists.
 - **Browser Developer Tools:** Use the browser developer tools to see how long it takes to load a page.

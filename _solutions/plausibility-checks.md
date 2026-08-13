@@ -4,7 +4,6 @@ description: Checking inputs, data, or states for validity to detect potential e
 category:
 - Code
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/plausibility-checks
 problems:
 - silent-data-corruption
 - inadequate-error-handling
@@ -13,6 +12,7 @@ problems:
 - increased-error-rates
 - brittle-codebase
 - integer-overflow-underflow
+- master-data-ownership-gaps
 layout: solution
 ---
 

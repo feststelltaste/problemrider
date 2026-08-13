@@ -1,6 +1,6 @@
 ---
 title: Empty States and First-Use Guidance
-description: Designing meaningful empty states with clear guidance on what to do next
+description: Design meaningful empty states with clear guidance on what to do next
 category:
 - Requirements
 quality_tactics_url: https://qualitytactics.de/en/usability/empty-states-and-first-use-guidance/

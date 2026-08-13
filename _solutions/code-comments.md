@@ -4,7 +4,6 @@ description: Enhance code with meaningful comments and documentation blocks
 category:
 - Code
 - Communication
-quality_tactics_url: https://qualitytactics.de/en/maintainability/code-comments
 problems:
 - difficult-code-comprehension
 - difficult-to-understand-code

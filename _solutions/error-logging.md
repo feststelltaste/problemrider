@@ -4,7 +4,6 @@ description: Capturing and storing errors and exceptions
 category:
 - Operations
 - Code
-quality_tactics_url: https://qualitytactics.de/en/reliability/error-logging
 problems:
 - monitoring-gaps
 - debugging-difficulties

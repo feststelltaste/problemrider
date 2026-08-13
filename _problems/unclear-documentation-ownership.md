@@ -55,6 +55,7 @@ Unclear documentation ownership occurs when no individual or team has explicit r
 <br/>  Without maintained documentation, critical knowledge remains locked in individual developers' heads rather than being shared.
 - [Duplicated Work](duplicated-work.md)
 <br/>  Without maintained documentation, team members may unknowingly solve the same problems others have already addressed.
+
 ## Causes ▼
 
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
@@ -63,6 +64,7 @@ Unclear documentation ownership occurs when no individual or team has explicit r
 <br/>  When team roles and responsibilities are not clearly defined, documentation maintenance falls through the cracks.
 - [Time Pressure](time-pressure.md)
 <br/>  Under deadline pressure, documentation is deprioritized and no one is held accountable for maintaining it.
+
 ## Detection Methods ○
 
 - **Documentation Ownership Audit:** Survey team members about who they think is responsible for different documentation

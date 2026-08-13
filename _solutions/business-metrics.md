@@ -4,7 +4,6 @@ description: Define business metrics to evaluate the functionality and quality o
 category:
 - Business
 - Management
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/business-metrics
 problems:
 - declining-business-metrics
 - difficulty-quantifying-benefits

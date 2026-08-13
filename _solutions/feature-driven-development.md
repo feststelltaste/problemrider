@@ -4,7 +4,6 @@ description: Structuring and implementing software functionality in the form of 
 category:
 - Process
 - Management
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/feature-driven-development
 problems:
 - slow-feature-development
 - poor-planning

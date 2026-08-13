@@ -1,6 +1,6 @@
 ---
 title: Auto-Save
-description: Automatically saving user work at regular intervals against data loss
+description: Automatically save user work at regular intervals against data loss
 category:
 - Requirements
 quality_tactics_url: https://qualitytactics.de/en/usability/auto-save/

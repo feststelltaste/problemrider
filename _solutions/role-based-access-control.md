@@ -3,7 +3,6 @@ title: Role-Based Access Control
 description: Control access to application components based on roles
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/role-based-access-control
 problems:
 - authorization-flaws
 - authentication-bypass-vulnerabilities
@@ -12,6 +11,7 @@ problems:
 - session-management-issues
 - regulatory-compliance-drift
 - secret-management-problems
+- authorization-role-explosion
 layout: solution
 ---
 

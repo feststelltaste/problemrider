@@ -4,7 +4,6 @@ description: Deliberately test invalid inputs and edge cases to check error hand
 category:
 - Security
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/security/negative-testing
 problems:
 - inadequate-error-handling
 - sql-injection-vulnerabilities

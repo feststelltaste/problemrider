@@ -52,6 +52,7 @@ Insufficient worker capacity is a common problem in systems that use a worker mo
 <br/>  Queue buildup from insufficient workers can cascade to upstream services that depend on timely processing.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  As workload grows and worker capacity stays fixed, system performance degrades progressively over time.
+
 ## Causes ▼
 
 - [Capacity Mismatch](capacity-mismatch.md)
@@ -60,6 +61,7 @@ Insufficient worker capacity is a common problem in systems that use a worker mo
 <br/>  Inability to scale worker pools dynamically in response to load means capacity cannot adapt to demand.
 - [Poor Planning](poor-planning.md)
 <br/>  Failure to plan for workload growth results in worker pools that are undersized for actual demand.
+
 ## Detection Methods ○
 
 - **Queue Monitoring:** Track queue size, message rates, and consumer lag using the message queue system's monitoring tools.

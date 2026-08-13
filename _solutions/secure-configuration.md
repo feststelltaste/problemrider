@@ -4,7 +4,6 @@ description: Deliver and operate systems with secure default settings
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/secure-configuration
 problems:
 - configuration-chaos
 - configuration-drift

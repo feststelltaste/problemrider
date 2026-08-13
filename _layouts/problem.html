@@ -38,15 +38,13 @@ layout: default
         {% assign related_problem = site.problems | where: "slug", related_slug | first %}
         {% if related_problem %}
           <li>
-            <a href="{{ related_problem.url | relative_url }}">
-              {{ related_problem.title }}
-            </a>
+            <a href="{{ related_problem.url | relative_url }}">{{ related_problem.title }}</a>
             {% if similarity_score %}
               {% assign percentage = similarity_score | times: 100 | round %}
               <span class="similarity-score">({{ percentage }}%)</span>
             {% endif %}
             {% if related_problem.description %}
-              <p class="related-description">{{ related_problem.description }}</p>
+              — {{ related_problem.description }}
             {% endif %}
           </li>
         {% endif %}
@@ -57,7 +55,7 @@ layout: default
 
   {% if page.solutions and page.solutions.size > 0 %}
   <section class="related-solutions">
-    <h2>Solutions (Beta)</h2>
+    <h2>Possible Solutions</h2>
     <ul class="related-solutions-list">
       {% for sol_slug in page.solutions %}
         {% assign solution = site.solutions | where: "slug", sol_slug | first %}

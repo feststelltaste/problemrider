@@ -4,7 +4,6 @@ description: Decoupling the logging process from the main application
 category:
 - Performance
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/asynchronous-logging
 problems:
 - excessive-logging
 - slow-application-performance

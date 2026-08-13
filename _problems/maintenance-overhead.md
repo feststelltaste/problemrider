@@ -54,6 +54,7 @@ Maintenance overhead is the excessive effort required to keep a software system 
 <br/>  High maintenance overhead directly translates to increasing costs as more developer time is consumed by upkeep.
 - [Competitive Disadvantage](competitive-disadvantage.md)
 <br/>  Teams overwhelmed by maintenance cannot deliver new features, causing the product to fall behind competitors.
+
 ## Causes ▼
 
 - [Code Duplication](code-duplication.md)
@@ -66,6 +67,7 @@ Maintenance overhead is the excessive effort required to keep a software system 
 <br/>  Without tests, developers must spend extra time manually verifying that maintenance changes don't break existing functionality.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Code that is hard to understand requires disproportionate time to maintain, as developers must first decipher it before making changes.
+
 ## Detection Methods ○
 - **Time Tracking:** Track the amount of time that the team spends on maintenance tasks versus new development. A high ratio is a clear sign of a problem.
 - **Bug Density:** Measure the number of bugs per line of code. A high bug density is a sign that the codebase is difficult to maintain.

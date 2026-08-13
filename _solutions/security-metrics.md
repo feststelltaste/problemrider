@@ -4,7 +4,6 @@ description: Define, collect, and evaluate metrics to quantify the security stat
 category:
 - Security
 - Management
-quality_tactics_url: https://qualitytactics.de/en/security/security-metrics
 problems:
 - difficulty-quantifying-benefits
 - invisible-nature-of-technical-debt

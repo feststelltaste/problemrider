@@ -54,6 +54,7 @@ Team dysfunction occurs when structural, cultural, or interpersonal problems pre
 <br/>  Conflicts, lack of trust, and poor decision-making directly reduce the team's ability to deliver work.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Developers implement local workarounds instead of raising issues that require team-wide collaboration, as described in the example.
+
 ## Causes ▼
 
 - [Poor Communication](poor-communication.md)
@@ -62,6 +63,7 @@ Team dysfunction occurs when structural, cultural, or interpersonal problems pre
 <br/>  When team goals conflict or are unclear, team members work at cross-purposes, creating dysfunction.
 - [Misaligned Deliverables](misaligned-deliverables.md)
 <br/>  Individual performance metrics that emphasize personal contributions over team outcomes create competition instead of collaboration.
+
 ## Detection Methods ○
 
 - **Team Health Assessments:** Survey team members about collaboration, trust, and satisfaction

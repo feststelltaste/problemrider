@@ -4,7 +4,6 @@ description: Divide the network into security zones with separate trust levels
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/security/network-segmentation
 problems:
 - cascade-failures
 - insecure-data-transmission

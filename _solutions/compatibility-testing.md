@@ -3,7 +3,6 @@ title: Compatibility Testing
 description: Verify that software works correctly across target platforms, versions, and integration partners
 category:
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/compatibility/compatibility-testing
 problems:
 - insufficient-testing
 - integration-difficulties

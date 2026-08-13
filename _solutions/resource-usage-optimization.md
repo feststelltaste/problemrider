@@ -1,6 +1,6 @@
 ---
 title: Resource Usage Optimization
-description: Minimization of the consumption of scarce resources
+description: Minimize the consumption of scarce resources
 category:
 - Performance
 - Operations

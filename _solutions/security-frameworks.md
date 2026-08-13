@@ -4,7 +4,6 @@ description: Utilizing structured approaches to identify and mitigate security r
 category:
 - Security
 - Management
-quality_tactics_url: https://qualitytactics.de/en/security/security-frameworks
 problems:
 - regulatory-compliance-drift
 - process-design-flaws

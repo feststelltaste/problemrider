@@ -4,7 +4,6 @@ description: Ensuring backward compatibility when introducing new data formats
 category:
 - Architecture
 - Database
-quality_tactics_url: https://qualitytactics.de/en/compatibility/backward-compatible-data-formats
 problems:
 - breaking-changes
 - data-migration-complexities

@@ -4,7 +4,6 @@ description: Architectures designed for maximum availability and fault tolerance
 category:
 - Architecture
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/high-availability-architectures
 problems:
 - single-points-of-failure
 - system-outages

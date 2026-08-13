@@ -78,6 +78,7 @@ Unpredictable system behavior occurs when modifications to one component cause u
 <br/>  When system behavior is unpredictable, tracing the cause of bugs through hidden dependencies becomes extremely difficult.
 - [Defensive Coding Practices](defensive-coding-practices.md)
 <br/>  Developers write overly defensive code to guard against unexpected side effects from hidden dependencies.
+
 ## Causes ▼
 
 - [Hidden Dependencies](hidden-dependencies.md)
@@ -88,6 +89,7 @@ Unpredictable system behavior occurs when modifications to one component cause u
 <br/>  Tangled, unstructured code creates implicit connections between parts of the system that cause unpredictable behavior.
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
 <br/>  Components that are highly interdependent and perform unrelated functions make system behavior difficult to predict.
+
 ## Detection Methods ○
 - **Impact Analysis Tools:** Use dependency analysis tools to map actual vs. expected component relationships
 - **Regression Testing Patterns:** Monitor which tests fail when specific modules are changed to identify hidden connections

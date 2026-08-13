@@ -4,7 +4,6 @@ description: Define mandatory rules and best practices for secure programming
 category:
 - Security
 - Code
-quality_tactics_url: https://qualitytactics.de/en/security/secure-coding-guidelines
 problems:
 - inconsistent-coding-standards
 - undefined-code-style-guidelines

@@ -3,7 +3,6 @@ title: Watchdog
 description: Monitoring component for detecting and handling system errors or failures
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/watchdog
 problems:
 - system-outages
 - cascade-failures

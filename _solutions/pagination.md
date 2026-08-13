@@ -4,7 +4,6 @@ description: Loading large outputs of data into smaller, manageable chunks
 category:
 - Performance
 - Code
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/pagination
 problems:
 - slow-response-times-for-lists
 - high-client-side-resource-consumption

@@ -4,7 +4,6 @@ description: Guaranteeing that new versions continue to work with existing clien
 category:
 - Architecture
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/compatibility/backward-compatibility
 problems:
 - breaking-changes
 - api-versioning-conflicts

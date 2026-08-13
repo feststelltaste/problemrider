@@ -4,7 +4,6 @@ description: Reusing pre-established connections instead of creating new ones pe
 category:
 - Performance
 - Database
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/connection-pooling
 problems:
 - database-connection-leaks
 - misconfigured-connection-pools

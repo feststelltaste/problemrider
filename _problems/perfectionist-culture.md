@@ -29,6 +29,7 @@ solutions:
 - team-retrospectives
 - outcome-based-goal-setting
 - pilot-projects
+- debt-classification
 layout: problem
 ---
 
@@ -55,6 +56,7 @@ A perfectionist culture is one in which there is an excessive focus on quality a
 <br/>  Perfectionist culture encourages developers to add unnecessary refinements and features beyond what was requested.
 - [Reduced Innovation](reduced-innovation.md)
 <br/>  Fear of releasing imperfect work stifles experimentation and innovation, as teams avoid risky but potentially valuable ideas.
+
 ## Causes ▼
 
 - [Fear of Failure](fear-of-failure.md)
@@ -63,6 +65,7 @@ A perfectionist culture is one in which there is an excessive focus on quality a
 <br/>  When mistakes are punished, teams develop perfectionist tendencies as a defense mechanism to avoid blame.
 - [History of Failed Changes](history-of-failed-changes.md)
 <br/>  Past release failures create an overreaction where teams insist on perfection to prevent future failures.
+
 ## Detection Methods ○
 - **Team Retrospectives:** Discuss the team's feelings about quality and perfectionism in your retrospectives.
 - **Time to Market:** Measure the time it takes for a new feature to go from idea to production.

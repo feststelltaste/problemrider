@@ -53,6 +53,7 @@ New hire frustration occurs when recently hired developers, regardless of their 
 <br/>  Persistent frustration from inability to contribute meaningfully escalates into broader burnout and disengagement.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  New hires who cannot contribute effectively represent lost development capacity, slowing overall team output.
+
 ## Causes ▼
 
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
@@ -65,6 +66,7 @@ New hire frustration occurs when recently hired developers, regardless of their 
 <br/>  When onboarding quality varies, some new hires receive inadequate support and become frustrated by the uneven experience.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  A codebase that is hard to understand extends the time before new hires can contribute, increasing their frustration.
+
 ## Detection Methods ○
 
 - **New Hire Satisfaction Surveys:** Regular check-ins to assess frustration levels and identify specific pain points

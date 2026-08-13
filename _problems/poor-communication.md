@@ -60,6 +60,7 @@ Poor communication occurs when team members fail to effectively share informatio
 <br/>  Without open discussion, developers miss opportunities for collective problem-solving, resulting in weaker solutions.
 - [Team Dysfunction](team-dysfunction.md)
 <br/>  Poor communication is a direct cause of team dysfunction.
+
 ## Causes ▼
 
 - [Team Silos](team-silos.md)
@@ -70,6 +71,7 @@ Poor communication occurs when team members fail to effectively share informatio
 <br/>  When individual achievement is rewarded over teamwork, people are discouraged from sharing knowledge and collaborating.
 - [Fear of Conflict](fear-of-conflict.md)
 <br/>  Team members who fear conflict avoid raising concerns or engaging in necessary technical discussions.
+
 ## Detection Methods ○
 - **Communication Frequency Analysis:** Monitor how often team members interact on shared tasks
 - **Knowledge Sharing Metrics:** Track information sharing through documentation, code reviews, or discussions

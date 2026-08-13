@@ -28,6 +28,8 @@ solutions:
 - value-stream-mapping
 - delivery-performance-metrics
 - fast-feedback-loops
+- variant-consolidation
+- explicit-extension-points
 layout: problem
 ---
 
@@ -56,6 +58,7 @@ Long release cycles occur when the time between software releases becomes excess
 <br/>  Competitors with faster release cadences can respond to market needs more quickly, gaining advantage.
 - [Release Anxiety](release-anxiety.md)
 <br/>  Infrequent, large releases become high-stakes events that create stress and anxiety around each deployment.
+
 ## Causes ▼
 
 - [Increased Manual Testing Effort](increased-manual-testing-effort.md)
@@ -68,6 +71,7 @@ Long release cycles occur when the time between software releases becomes excess
 <br/>  Slow build and test pipelines extend the feedback loop, making it impractical to release more frequently.
 - [Missing Rollback Strategy](missing-rollback-strategy.md)
 <br/>  Without rollback capabilities, teams batch more changes into fewer releases to minimize the risk of irreversible fail....
+
 ## Detection Methods ○
 - **Release Frequency Metrics:** Track time between releases and compare to industry standards or goals
 - **Release Preparation Time:** Measure how long teams spend preparing for each release

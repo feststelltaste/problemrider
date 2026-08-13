@@ -55,6 +55,7 @@ Tool limitations occur when the development tools, IDEs, build systems, or devel
 <br/>  When tools are insufficient, developers create ad-hoc scripts and workarounds that add complexity to the development process.
 - [Inefficient Processes](inefficient-processes.md)
 <br/>  Tool limitations force manual steps and cumbersome workflows that make overall development processes inefficient.
+
 ## Causes ▼
 
 - [Project Resource Constraints](project-resource-constraints.md)
@@ -63,6 +64,7 @@ Tool limitations occur when the development tools, IDEs, build systems, or devel
 <br/>  Organizational reluctance to adopt new tools keeps teams stuck with outdated and limited tooling.
 - [Technical Architecture Limitations](technical-architecture-limitations.md)
 <br/>  Legacy architecture constraints may prevent modern tool adoption or integration.
+
 ## Detection Methods ○
 
 - **Developer Surveys:** Regularly ask team members about tool pain points and satisfaction

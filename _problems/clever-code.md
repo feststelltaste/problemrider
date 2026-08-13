@@ -54,6 +54,7 @@ Clever code refers to implementations that prioritize demonstrating the author's
 <br/>  Only the original author or similarly skilled developers can safely modify clever code, creating bottleneck dependencies.
 - [Slow Knowledge Transfer](slow-knowledge-transfer.md)
 <br/>  Clever code takes much longer to explain and teach to new team members, slowing onboarding and knowledge sharing.
+
 ## Causes ▼
 
 - [Individual Recognition Culture](individual-recognition-culture.md)
@@ -62,6 +63,7 @@ Clever code refers to implementations that prioritize demonstrating the author's
 <br/>  Developers choose advanced techniques to showcase skills on their resume rather than writing straightforward solutions.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Less experienced developers may conflate complexity with quality, writing overly sophisticated code to prove their abilities.
+
 ## Detection Methods ○
 - **Code Complexity Metrics:** Use tools to measure cyclomatic complexity, nesting depth, and other complexity indicators
 - **Code Review Feedback:** Track review comments that ask for clarification or simplification

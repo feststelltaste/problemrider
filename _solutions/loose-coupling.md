@@ -1,6 +1,6 @@
 ---
 title: Loose Coupling
-description: Minimizing dependencies between modules so changes in one don't cascade
+description: Minimize dependencies between modules so changes don't cascade
 category:
 - Architecture
 - Code

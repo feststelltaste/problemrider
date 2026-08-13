@@ -3,7 +3,6 @@ title: Interoperability Tests
 description: Conduct dedicated interoperability tests
 category:
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/compatibility/interoperability-tests
 problems:
 - integration-difficulties
 - inadequate-integration-tests

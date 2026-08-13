@@ -1,6 +1,6 @@
 ---
 title: Backpressure
-description: Signaling producers to slow down when consumers become overwhelmed
+description: Signal producers to slow down when consumers become overwhelmed
 category:
 - Performance
 - Architecture

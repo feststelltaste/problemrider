@@ -1,6 +1,6 @@
 ---
 title: Form Design and Multi-Step Wizards
-description: Structuring complex data entry through grouped fields, multi-step wizards with progress indication, and conditional field visibility
+description: Structure complex data entry through grouped fields, wizards, and conditional visibility
 category:
 - Requirements
 quality_tactics_url: https://qualitytactics.de/en/usability/form-design/

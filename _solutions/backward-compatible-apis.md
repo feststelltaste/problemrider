@@ -3,7 +3,6 @@ title: Backward Compatible APIs
 description: Evolving API contracts without breaking existing consumers
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/backward-compatible-apis
 problems:
 - breaking-changes
 - legacy-api-versioning-nightmare

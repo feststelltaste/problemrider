@@ -4,7 +4,6 @@ description: Use parameterized queries to prevent SQL injection
 category:
 - Security
 - Database
-quality_tactics_url: https://qualitytactics.de/en/security/prepared-statements
 problems:
 - sql-injection-vulnerabilities
 - buffer-overflow-vulnerabilities

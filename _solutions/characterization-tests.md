@@ -30,6 +30,10 @@ problems:
 - history-of-failed-changes
 - increasing-brittleness
 - monolithic-functions-and-classes
+- brittle-codebase
+- entity-attribute-value-overuse
+- core-modification-of-standard-software
+- upgrade-blocked-by-customization
 layout: solution
 ---
 

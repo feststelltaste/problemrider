@@ -3,7 +3,6 @@ title: Cryptographic Methods
 description: Use proven and standardized algorithms and protocols for cryptographic functions
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/cryptographic-methods
 problems:
 - insecure-data-transmission
 - password-security-weaknesses

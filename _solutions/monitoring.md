@@ -3,7 +3,6 @@ title: Monitoring
 description: Continuous monitoring of system states, performance, and errors
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/monitoring
 problems:
 - monitoring-gaps
 - slow-incident-resolution

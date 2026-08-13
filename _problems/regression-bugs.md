@@ -48,6 +48,9 @@ solutions:
 - production-like-test-data
 - defect-triage-process
 - exploratory-testing
+- duplication-detection
+- explicit-extension-points
+- customization-under-version-control
 layout: problem
 ---
 
@@ -74,6 +77,7 @@ Regression bugs are defects that occur when previously working functionality bre
 <br/>  Repeated experiences of changes breaking existing functionality creates a culture of fear around code modifications.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Regressions in production require urgent fixes, pulling the team into reactive firefighting mode.
+
 ## Causes ▼
 
 - [Test Debt](test-debt.md)
@@ -86,6 +90,7 @@ Regression bugs are defects that occur when previously working functionality bre
 <br/>  Poor code reviews fail to identify changes that could break existing functionality before they are merged.
 - [Partial Bug Fixes](partial-bug-fixes.md)
 <br/>  Partial bug fixes that don't address root causes are a direct cause of regression bugs, as the underlying issue resur....
+
 ## Detection Methods ○
 - **Automated Regression Test Suites:** Comprehensive automated tests that verify existing functionality after every change
 - **User Acceptance Testing:** Systematic testing of key user workflows before releases

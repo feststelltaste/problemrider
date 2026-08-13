@@ -4,7 +4,6 @@ description: Confirm fulfillment of requirements through formal acceptance tests
 category:
 - Testing
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/user-acceptance-tests
 problems:
 - misaligned-deliverables
 - customer-dissatisfaction

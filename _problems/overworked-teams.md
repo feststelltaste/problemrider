@@ -60,6 +60,7 @@ Overworked teams consistently operate beyond their sustainable capacity, working
 <br/>  Overworked teams deliberately cut corners on quality practices like testing and code reviews to keep up with workload demands.
 - [Team Demoralization](team-demoralization.md)
 <br/>  Sustained overwork directly causes team demoralization as team members lose motivation and feel exploited.
+
 ## Causes ▼
 
 - [Unrealistic Deadlines](unrealistic-deadlines.md)
@@ -72,6 +73,7 @@ Overworked teams consistently operate beyond their sustainable capacity, working
 <br/>  Unfilled roles and understaffing mean existing team members must absorb additional work, leading to overwork.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  Perpetual urgent production issues on top of planned work create an unsustainable total workload for teams.
+
 ## Detection Methods ○
 
 - **Time Tracking Analysis:** Monitor actual hours worked versus standard work weeks

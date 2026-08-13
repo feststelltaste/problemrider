@@ -4,7 +4,6 @@ description: Define boundaries between systems and components with different tru
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/security/trust-boundaries
 problems:
 - architectural-mismatch
 - monolithic-architecture-constraints

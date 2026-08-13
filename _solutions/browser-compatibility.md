@@ -4,7 +4,6 @@ description: Ensuring browser compatibility through the use of web standards and
 category:
 - Code
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/compatibility/browser-compatibility
 problems:
 - poor-user-experience-ux-design
 - technology-lock-in

@@ -55,6 +55,7 @@ Hardcoded values are literal numbers, strings, or other constants embedded direc
 <br/>  What should be simple configuration changes become multi-week development projects requiring code changes and full testing.
 - [Inconsistent Behavior](inconsistent-behavior.md)
 <br/>  Hardcoded values in different parts of the codebase that should be the same but diverge over time directly cause inco....
+
 ## Causes ▼
 
 - [Deadline Pressure](deadline-pressure.md)
@@ -63,6 +64,7 @@ Hardcoded values are literal numbers, strings, or other constants embedded direc
 <br/>  Developers lacking experience with configuration management patterns default to hardcoding values directly in source code.
 - [Poor Planning](poor-planning.md)
 <br/>  Failure to anticipate future configuration needs leads to values being embedded in code rather than externalized.
+
 ## Detection Methods ○
 
 - Use static analysis tools to identify magic numbers and repeated string literals

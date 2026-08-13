@@ -29,6 +29,7 @@ solutions:
 - profiling
 - performance-measurements
 - continuous-performance-monitoring
+- typed-schema-extraction
 layout: problem
 ---
 
@@ -49,6 +50,7 @@ A high number of database queries is a common performance problem in database-dr
 <br/>  The cumulative latency of many database round-trips per request directly slows down application response times.
 - [High API Latency](high-api-latency.md)
 <br/>  API endpoints that trigger excessive database queries experience increased response times due to accumulated query overhead.
+
 ## Causes ▼
 
 - [N+1 Query Problem](n-plus-one-query-problem.md)
@@ -59,6 +61,7 @@ A high number of database queries is a common performance problem in database-dr
 <br/>  Lazy-loaded relationships trigger additional queries when accessed, often unexpectedly multiplying query counts.
 - [Poor Caching Strategy](poor-caching-strategy.md)
 <br/>  Without caching, the same data is repeatedly fetched from the database instead of being served from memory.
+
 ## Detection Methods ○
 - **Application Performance Monitoring (APM):** APM tools can often detect and flag a high number of database queries.
 - **SQL Logging:** Enable SQL logging in your application or database and inspect the logs for a large number of queries being executed in a short period of time.

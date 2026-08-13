@@ -1,6 +1,6 @@
 ---
 title: Strangler Fig Pattern
-description: Replacing legacy systems incrementally by routing traffic to new implementations
+description: Replace legacy systems incrementally by routing traffic to new implementations
 category:
 - Architecture
 quality_tactics_url: https://qualitytactics.de/en/maintainability/strangler-fig-pattern/

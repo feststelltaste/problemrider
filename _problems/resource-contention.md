@@ -53,6 +53,7 @@ Resource contention occurs when multiple processes or threads compete for the sa
 <br/>  Heavy memory contention forces the OS to swap memory to disk, dramatically degrading system performance.
 - [Unpredictable System Behavior](unpredictable-system-behavior.md)
 <br/>  Resource contention causes timing-dependent behavior where system performance varies unpredictably based on concurrent load patterns.
+
 ## Causes ▼
 
 - [Resource Allocation Failures](resource-allocation-failures.md)
@@ -63,6 +64,7 @@ Resource contention occurs when multiple processes or threads compete for the sa
 <br/>  Infrastructure that doesn't match actual demand patterns leads to resource contention during peak usage periods.
 - [Scaling Inefficiencies](scaling-inefficiencies.md)
 <br/>  Inability to scale components independently means bottlenecked components create resource contention for the entire system.
+
 ## Detection Methods ○
 
 - **System Monitoring Tools:** Use tools like `top`, `htop`, `vmstat`, `iostat` (Linux) or Task Manager (Windows) to monitor CPU, memory, and I/O usage.

@@ -57,6 +57,7 @@ Review process breakdown occurs when code review practices systematically fail t
 <br/>  Reviews that don't examine code logic thoroughly miss regressions that break previously working functionality.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Without effective reviews to catch design shortcuts and poor patterns, technical debt accumulates faster in the codebase.
+
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)
@@ -69,6 +70,7 @@ Review process breakdown occurs when code review practices systematically fail t
 <br/>  When few people participate in reviews, the remaining reviewers are overloaded and cannot provide quality feedback.
 - [Superficial Code Reviews](superficial-code-reviews.md)
 <br/>  Superficial code reviews are a direct cause and form of review process breakdown - when reviews focus only on surface....
+
 ## Detection Methods ○
 
 - **Review Quality Analysis:** Track whether issues found in production could have been caught in review

@@ -76,6 +76,7 @@ Authentication bypass vulnerabilities occur when security flaws in authenticatio
 <br/>  When users learn that authentication can be bypassed, trust in the system is severely damaged.
 - [Regulatory Compliance Drift](regulatory-compliance-drift.md)
 <br/>  Authentication bypass vulnerabilities violate security compliance requirements (GDPR, HIPAA, PCI-DSS), directly pushi....
+
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
@@ -86,6 +87,7 @@ Authentication bypass vulnerabilities occur when security flaws in authenticatio
 <br/>  Developer backdoors and simplified authentication in prototypes become security vulnerabilities when prototypes go to production.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without security expertise may implement authentication logic with subtle flaws that allow bypass.
+
 ## Detection Methods ○
 
 - **Security Testing and Penetration Testing:** Test authentication mechanisms for bypass vulnerabilities

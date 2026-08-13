@@ -3,7 +3,6 @@ title: Isolation of Faulty Components
 description: Develop mechanisms to isolate faulty components
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/isolation-of-faulty-components
 problems:
 - cascade-failures
 - single-points-of-failure

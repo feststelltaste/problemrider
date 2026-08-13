@@ -53,12 +53,14 @@ Skill development gaps occur when team members fail to develop necessary experti
 <br/>  When skills are not broadly developed, there are fewer people capable of mentoring and transferring knowledge effectively.
 - [Legacy Skill Shortage](legacy-skill-shortage.md)
 <br/>  Avoiding learning legacy technologies creates a shortage of people who can maintain and evolve older systems.
+
 ## Causes ▼
 
 - [Time Pressure](time-pressure.md)
 <br/>  Constant delivery pressure leaves no time for learning and skill development activities.
 - [Resistance to Change](resistance-to-change.md)
 <br/>  Team members resist learning new technologies or approaches, preferring to stay in their comfort zones.
+
 ## Detection Methods ○
 
 - **Skills Assessment Matrix:** Regular evaluation of team members' capabilities across different areas

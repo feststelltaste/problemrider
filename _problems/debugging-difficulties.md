@@ -65,6 +65,7 @@ Debugging difficulties arise when developers struggle to identify, isolate, and 
 <br/>  Prolonged and frustrating debugging sessions drain developer morale and contribute to burnout over time.
 - [Delayed Issue Resolution](delayed-issue-resolution.md)
 <br/>  When debugging is difficult, issues take longer to resolve.
+
 ## Causes ▼
 
 - [Spaghetti Code](spaghetti-code.md)
@@ -77,6 +78,7 @@ Debugging difficulties arise when developers struggle to identify, isolate, and 
 <br/>  When code is hard to comprehend, developers struggle to form accurate mental models needed to identify and fix bugs.
 - [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
 <br/>  Extremely large functions with complex logic create enormous search spaces when trying to locate the source of a bug.
+
 ## Detection Methods ○
 - **Time Tracking Analysis:** Measure time spent debugging versus time spent on feature development
 - **Bug Resolution Metrics:** Track the average time from bug report to resolution

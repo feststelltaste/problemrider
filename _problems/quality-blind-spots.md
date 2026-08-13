@@ -77,6 +77,7 @@ Quality blind spots occur when testing practices fail to detect critical defects
 <br/>  Untested failure modes create hidden fragilities that make the system increasingly prone to unexpected breakage.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Production failures from untested scenarios erode stakeholder confidence in the system.
+
 ## Causes ▼
 
 - [Poor Test Coverage](poor-test-coverage.md)
@@ -87,6 +88,7 @@ Quality blind spots occur when testing practices fail to detect critical defects
 <br/>  Without end-to-end tests, integration issues between components remain invisible until production.
 - [Quality Compromises](quality-compromises.md)
 <br/>  Deliberately skipping testing to meet deadlines creates systematic gaps in quality verification.
+
 ## Detection Methods ○
 
 - **Production Defect Analysis:** Map production issues back to testing coverage gaps

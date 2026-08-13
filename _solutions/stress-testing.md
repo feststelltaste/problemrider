@@ -4,7 +4,6 @@ description: Testing the software under extreme load conditions
 category:
 - Testing
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/stress-testing
 problems:
 - system-outages
 - cascade-failures

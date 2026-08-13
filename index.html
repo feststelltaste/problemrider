@@ -6,12 +6,16 @@ layout: default
   <h1 class="page-heading">ProblemRider</h1>
   
   <p class="site-description">
-    A comprehensive catalog of common software development problems, their symptoms, and root causes. 
-    This resource helps developers, project managers, and teams identify and address issues effectively.
+    A comprehensive catalog of common software development problems, their symptoms, and root causes —
+    and the solutions that address them. Every problem links to the practices, patterns, and tactics you
+    can apply when you are facing it. This resource helps developers, project managers, and teams
+    identify issues, understand where they come from, and decide what to work on next.
   </p>
-  <p class="site-description">
-    <i>Please note that this is an experimental project leveraging LLMs to generate interconnected problem networks. The app and content are provided “as-is,” without warranties of any kind. Use it at your own risk!</i>
-  </p>
+  <aside class="site-disclaimer" role="note">
+    <strong>Please note:</strong> this is an experimental project leveraging LLMs to generate interconnected
+    problem networks. The app and content are provided “as-is,” without warranties of any kind.
+    Use it at your own risk!
+  </aside>
 
   <div class="home-sections">
     <section class="featured-problems">
@@ -58,6 +62,10 @@ layout: default
           <span class="stat-number">{{ site.problems.size }}</span>
           <span class="stat-label">Total Problems</span>
         </div>
+        <div class="stat-item">
+          <span class="stat-number">{{ site.solutions.size }}</span>
+          <span class="stat-label">Total Solutions</span>
+        </div>
         {% assign all_categories = site.problems | map: 'category' | join: ',' | split: ',' | uniq %}
         <div class="stat-item">
           <span class="stat-number">{{ all_categories.size }}</span>
@@ -71,11 +79,11 @@ layout: default
       <div class="nav-grid">
         <a href="{{ '/problems/' | relative_url }}" class="nav-card">
           <h3>Browse All Problems</h3>
-          <p>View the complete catalog of problems and their solutions</p>
+          <p>View the complete catalog of problems, their symptoms, and their root causes</p>
         </a>
-        <a href="{{ '/categories/' | relative_url }}" class="nav-card">
-          <h3>Browse by Category</h3>
-          <p>Find problems organized by topic and domain</p>
+        <a href="{{ '/solutions/' | relative_url }}" class="nav-card">
+          <h3>Browse All Solutions</h3>
+          <p>View every solution from A to Z and the problems each one addresses</p>
         </a>
       </div>
     </section>

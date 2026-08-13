@@ -3,7 +3,6 @@ title: Content Negotiation
 description: Letting clients and servers agree on format, language, and encoding via HTTP
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/content-negotiation
 problems:
 - poor-interfaces-between-applications
 - rest-api-design-issues

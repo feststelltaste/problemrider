@@ -56,6 +56,7 @@ Logging configuration issues occur when applications have improperly configured 
 <br/>  Misconfigured logging that inadvertently captures passwords, personal data, or API keys creates security and compliance exposure.
 - [Log Injection Vulnerabilities](log-injection-vulnerabilities.md)
 <br/>  Logging configurations that don't enforce structured logging or input sanitization enable injection attacks.
+
 ## Causes ▼
 
 - [Inadequate Configuration Management](inadequate-configuration-management.md)
@@ -64,6 +65,7 @@ Logging configuration issues occur when applications have improperly configured 
 <br/>  General configuration disorganization makes it easy for logging settings to be inconsistent or incorrect across services.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without experience in production operations may not understand the implications of logging configuration choices.
+
 ## Detection Methods ○
 
 - **Log Volume Monitoring:** Monitor log generation rates and storage consumption

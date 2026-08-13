@@ -53,6 +53,7 @@ When team members are disengaged from the code review process, it ceases to be a
 <br/>  Review bottlenecks from disengaged reviewers delay the integration and release of completed work.
 - [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Rubber-stamp approvals without meaningful examination result in effectively insufficient code review coverage.
+
 ## Causes ▼
 
 - [Team Silos](team-silos.md)
@@ -61,6 +62,7 @@ When team members are disengaged from the code review process, it ceases to be a
 <br/>  Without clear review standards and expectations, team members don't know what constitutes a good review and default to rubber-stamping.
 - [Team Dysfunction](team-dysfunction.md)
 <br/>  Interpersonal issues and lack of shared code ownership culture prevent meaningful engagement in the review process.
+
 ## Detection Methods ○
 
 - **Code Review Metrics:** Track metrics like review turnaround time, number of comments per review, and distribution of reviews among team members.

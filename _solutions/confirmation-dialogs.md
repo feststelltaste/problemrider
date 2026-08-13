@@ -1,6 +1,6 @@
 ---
 title: Confirmation Dialogs for Destructive Actions
-description: Requiring explicit user confirmation before executing irreversible operations
+description: Require explicit user confirmation before executing irreversible operations
 category:
 - Requirements
 quality_tactics_url: https://qualitytactics.de/en/usability/confirmation-dialogs/

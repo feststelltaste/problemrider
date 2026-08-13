@@ -4,7 +4,6 @@ description: Enabling users to export their data in standard portable formats fo
 category:
 - Architecture
 - Business
-quality_tactics_url: https://qualitytactics.de/en/portability/data-export
 problems:
 - vendor-lock-in
 - vendor-dependency-entrapment

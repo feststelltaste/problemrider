@@ -49,6 +49,7 @@ Cache invalidation problems occur when cached data is not properly updated or re
 <br/>  Cached data diverges from source data, causing users to see outdated or contradictory information.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  Cache invalidation problems create bugs that depend on cache state and timing, making them extremely hard to reproduc....
+
 ## Causes ▼
 
 - [Poor Caching Strategy](poor-caching-strategy.md)
@@ -59,6 +60,7 @@ Cache invalidation problems occur when cached data is not properly updated or re
 <br/>  Without documented data flow and caching dependencies, developers miss invalidation paths when modifying data sources.
 - [Insufficient Testing](insufficient-testing.md)
 <br/>  Lack of tests for cache invalidation scenarios allows inconsistency bugs to reach production.
+
 ## Detection Methods ○
 
 - **Data Consistency Auditing:** Compare cached data with source data to identify discrepancies

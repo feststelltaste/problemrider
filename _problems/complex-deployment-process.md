@@ -68,6 +68,7 @@ A complex deployment process is a major obstacle to the continuous delivery of v
 <br/>  Manual steps and inconsistent processes increase the likelihood of deployment failures.
 - [Frequent Hotfixes and Rollbacks](frequent-hotfixes-and-rollbacks.md)
 <br/>  Error-prone manual deployment processes lead to failed releases that require immediate hotfixes or rollbacks.
+
 ## Causes ▼
 
 - [Manual Deployment Processes](manual-deployment-processes.md)
@@ -78,6 +79,7 @@ A complex deployment process is a major obstacle to the continuous delivery of v
 <br/>  Hardcoded and undocumented configuration settings make automated deployment difficult, forcing manual processes.
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  Large monolithic applications require deploying the entire system at once, making the deployment process inherently complex.
+
 ## Detection Methods ○
 - **Deployment Time:** Measure the time it takes to deploy a new version of the software.
 - **Deployment Frequency:** Measure how often the team deploys to production.

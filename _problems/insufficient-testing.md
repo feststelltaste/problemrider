@@ -93,6 +93,7 @@ Insufficient testing is a major cause of poor software quality. When a product i
 <br/>  Poorly designed code is difficult to test, which discourages comprehensive testing efforts.
 - [Inadequate Test Infrastructure](inadequate-test-infrastructure.md)
 <br/>  Lack of proper test environments and tooling makes comprehensive testing impractical.
+
 ## Detection Methods ○
 
 - **Bug Tracking Metrics:** Monitor the number of bugs found in production versus pre-production environments.

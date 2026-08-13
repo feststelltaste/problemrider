@@ -3,7 +3,6 @@ title: Checklists
 description: Systematically processing steps and requirements
 category:
 - Process
-quality_tactics_url: https://qualitytactics.de/en/reliability/checklists
 problems:
 - inconsistent-quality
 - quality-blind-spots

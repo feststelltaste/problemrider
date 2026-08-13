@@ -52,6 +52,7 @@ Constantly shifting deadlines are a common problem in software development. They
 <br/>  Extended timelines from shifting deadlines directly increase project costs beyond original budgets.
 - [Increased Stress and Burnout](increased-stress-and-burnout.md)
 <br/>  The uncertainty and frustration of constantly changing targets creates sustained stress for the development team.
+
 ## Causes ▼
 
 - [Frequent Changes to Requirements](frequent-changes-to-requirements.md)
@@ -64,6 +65,7 @@ Constantly shifting deadlines are a common problem in software development. They
 <br/>  Agreeing to every new stakeholder request without pushback adds work that forces deadline extensions.
 - [Poor Planning](poor-planning.md)
 <br/>  Inadequate initial planning fails to account for project complexity and risks, requiring repeated deadline adjustments.
+
 ## Detection Methods ○
 - **Track Project Milestones:** Keep a log of all project milestones and see how often they are being missed.
 - **Velocity Tracking:** In an agile team, a decrease in velocity can be a sign that the team is being burdened with unplanned work.

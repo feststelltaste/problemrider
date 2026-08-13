@@ -4,7 +4,6 @@ description: Provisioning infrastructure declaratively with provider-agnostic mo
 category:
 - Operations
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/portability/multi-cloud-iac
 problems:
 - vendor-lock-in
 - vendor-dependency

@@ -30,6 +30,9 @@ solutions:
 - contract-testing
 - simulation-environments
 - exploratory-testing
+- explicit-extension-points
+- variant-consolidation
+- typed-schema-extraction
 layout: problem
 ---
 
@@ -52,6 +55,7 @@ Testing complexity is a common problem in software systems with a high degree of
 <br/>  The QA team's inability to keep up with development due to testing overhead slows overall delivery.
 - [Inconsistent Quality](inconsistent-quality.md)
 <br/>  Some instances of duplicated functionality get thoroughly tested while others are missed, resulting in uneven quality.
+
 ## Causes ▼
 
 - [Code Duplication](code-duplication.md)
@@ -64,6 +68,7 @@ Testing complexity is a common problem in software systems with a high degree of
 <br/>  Tightly coupled components cannot be tested in isolation, requiring complex integration test setups.
 - [Test Debt](test-debt.md)
 <br/>  When testing is too complex, teams take shortcuts and skip tests, accumulating test debt over time.
+
 ## Detection Methods ○
 - **Test Case Analysis:** Analyze your test cases to identify duplicated tests.
 - **Code Coverage Analysis:** Analyze your code coverage to identify areas of the system that are not being tested.

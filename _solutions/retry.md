@@ -4,7 +4,6 @@ description: Retrying failed operations to handle transient errors
 category:
 - Code
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/retry
 problems:
 - service-timeouts
 - cascade-failures

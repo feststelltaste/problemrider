@@ -52,6 +52,7 @@ Resource allocation failures occur when applications acquire system resources su
 <br/>  Threads that are never returned to the pool due to improper resource management eventually exhaust all available threads.
 - [Resource Contention](resource-contention.md)
 <br/>  Leaked resources reduce the pool of available resources, forcing remaining processes to compete more intensely for what remains.
+
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
@@ -60,6 +61,7 @@ Resource allocation failures occur when applications acquire system resources su
 <br/>  Developers unfamiliar with resource management patterns fail to properly implement resource cleanup, especially in complex error scenarios.
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Lack of tests for error conditions and long-running scenarios means resource leaks go undetected until they cause production failures.
+
 ## Detection Methods ○
 
 - **Resource Monitoring Tools:** Use system monitoring to track file handles, connections, and other resource usage over time

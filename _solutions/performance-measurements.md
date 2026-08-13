@@ -4,7 +4,6 @@ description: Continuous measurement and storage of performance metrics in produc
 category:
 - Performance
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/performance-measurements
 problems:
 - gradual-performance-degradation
 - monitoring-gaps

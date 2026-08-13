@@ -4,7 +4,6 @@ description: Continuous processing and transmission of data
 category:
 - Performance
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/streaming
 problems:
 - slow-application-performance
 - unbounded-data-growth

@@ -4,7 +4,6 @@ description: Develop a minimal, running system with the core architectural ideas
 category:
 - Architecture
 - Process
-quality_tactics_url: https://qualitytactics.de/en/maintainability/walking-skeleton
 problems:
 - implementation-starts-without-design
 - modernization-strategy-paralysis

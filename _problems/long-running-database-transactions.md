@@ -55,6 +55,7 @@ Long-running database transactions are a specific type of long-running transacti
 <br/>  Application requests waiting for database operations blocked by long-running transactions exceed timeout thresholds.
 - [Database Connection Leaks](database-connection-leaks.md)
 <br/>  Long-running database transactions tie up connections for extended periods, and abandoned transactions can leak conne....
+
 ## Causes ▼
 
 - [Inefficient Database Indexing](inefficient-database-indexing.md)
@@ -63,6 +64,7 @@ Long-running database transactions are a specific type of long-running transacti
 <br/>  Calling external services while a database transaction is open means the transaction waits for slow external responses.
 - [Database Schema Design Problems](database-schema-design-problems.md)
 <br/>  Poor schema design can lead to excessive locking scope or require complex multi-table operations that extend transaction duration.
+
 ## Detection Methods ○
 
 - **Database Monitoring Tools:** Use database-specific tools (e.g., `pg_stat_activity` in PostgreSQL, `SHOW PROCESSLIST` in MySQL, `sys.dm_tran_active_transactions` in SQL Server) to identify active transactions, their duration, and what they are waiting on.

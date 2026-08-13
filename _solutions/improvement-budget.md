@@ -34,6 +34,7 @@ problems:
 - reduced-team-productivity
 - refactoring-avoidance
 - test-debt
+- brittle-codebase
 layout: solution
 ---
 

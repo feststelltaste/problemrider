@@ -63,6 +63,13 @@ solutions:
 - vendor-management-practice
 - technology-radar
 - system-decommissioning
+- modernization-options-comparison
+- no-regret-moves
+- risk-quantification
+- cost-of-delay
+- staged-investment-with-decision-gates
+- automated-code-migration
+- continuous-dependency-updates
 layout: problem
 ---
 
@@ -85,6 +92,7 @@ Technology lock-in is a situation where it is difficult or impossible to switch 
 <br/>  Inability to adopt new technologies limits the team's ability to innovate and leverage modern capabilities.
 - [System Stagnation](system-stagnation.md)
 <br/>  The inability to evolve the technology stack causes the system to stagnate and fall behind competitors.
+
 ## Causes ▼
 
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
@@ -93,6 +101,7 @@ Technology lock-in is a situation where it is difficult or impossible to switch 
 <br/>  When code is tightly coupled to specific technology APIs and patterns, switching technologies requires rewriting large portions of the system.
 - [Accumulated Decision Debt](accumulated-decision-debt.md)
 <br/>  Early technology decisions that were never revisited become deeply embedded, making change increasingly costly.
+
 ## Detection Methods ○
 - **Technology Stack Analysis:** Analyze the technology stack of the system to identify which technologies are being used.
 - **Developer Surveys:** Ask developers if they feel like they are able to use new technologies to improve the system.

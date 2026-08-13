@@ -4,7 +4,6 @@ description: Multiple instances of critical components or systems
 category:
 - Architecture
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/redundancy
 problems:
 - single-points-of-failure
 - system-outages

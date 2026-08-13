@@ -1,6 +1,6 @@
 ---
 title: Usability Tests
-description: Conducting tests with representative users
+description: Conduct tests with representative users
 category:
 - Testing
 - Requirements

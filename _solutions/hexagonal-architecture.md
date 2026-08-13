@@ -3,7 +3,6 @@ title: Hexagonal Architecture
 description: Isolating business logic from infrastructure through ports and adapters
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/maintainability/hexagonal-architecture
 problems:
 - tight-coupling-issues
 - difficult-to-test-code

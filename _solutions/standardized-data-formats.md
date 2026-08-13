@@ -4,7 +4,6 @@ description: Use widely adopted, platform-independent data formats for data exch
 category:
 - Architecture
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/portability/standardized-data-formats
 problems:
 - technology-lock-in
 - vendor-lock-in

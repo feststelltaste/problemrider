@@ -4,7 +4,6 @@ description: Apply security updates and patches promptly
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/patch-management
 problems:
 - obsolete-technologies
 - system-outages

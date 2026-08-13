@@ -53,6 +53,7 @@ Race conditions occur when multiple threads or processes access and manipulate s
 <br/>  Race conditions manifest as sporadic, timing-dependent failures that are difficult to reproduce.
 - [Debugging Difficulties](debugging-difficulties.md)
 <br/>  The timing-dependent nature of race conditions makes them extremely hard to reproduce and diagnose.
+
 ## Causes ▼
 
 - [Synchronization Problems](synchronization-problems.md)
@@ -63,6 +64,7 @@ Race conditions occur when multiple threads or processes access and manipulate s
 <br/>  Standard testing rarely exercises concurrent code paths adequately, allowing race conditions to persist undetected.
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Concurrency scenarios are rarely included in test suites, leaving race conditions untested.
+
 ## Detection Methods ○
 
 - **Stress Testing:** Run applications under high concurrency to increase the likelihood of race conditions manifesting

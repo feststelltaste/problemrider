@@ -35,6 +35,13 @@ solutions:
 - application-portfolio-inventory
 - communities-of-practice
 - system-decommissioning
+- modernization-options-comparison
+- risk-quantification
+- no-regret-moves
+- large-scale-refactoring
+- automated-code-migration
+- continuous-dependency-updates
+- variant-consolidation
 layout: problem
 ---
 
@@ -66,6 +73,7 @@ Technology stack fragmentation occurs when an organization accumulates multiple 
 <br/>  Cross-system features require implementation across multiple incompatible stacks, dramatically increasing delivery time.
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
 <br/>  When an organization has many fragmented technology stacks, onboarding new developers becomes significantly more diff....
+
 ## Causes ▼
 
 - [Obsolete Technologies](obsolete-technologies.md)
@@ -74,6 +82,7 @@ Technology stack fragmentation occurs when an organization accumulates multiple 
 <br/>  Without a unifying architectural vision, different teams and projects independently choose different technology stacks.
 - [Rapid Team Growth](rapid-team-growth.md)
 <br/>  Systems built at different times with different technology preferences naturally accumulate diverse and incompatible stacks.
+
 ## Detection Methods ○
 
 - Conduct technology inventory audits across all systems and business units

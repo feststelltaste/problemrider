@@ -4,7 +4,6 @@ description: Distributing query load across read-only database replicas away fro
 category:
 - Database
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/read-replicas
 problems:
 - slow-database-queries
 - high-database-resource-utilization

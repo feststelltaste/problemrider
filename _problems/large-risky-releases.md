@@ -60,6 +60,7 @@ Large, risky releases are a common problem in organizations with long release cy
 <br/>  Large risky releases that fail or introduce bugs directly impact users, causing frustration and dissatisfaction.
 - [Increased Bug Count](increased-bug-count.md)
 <br/>  Large releases with many bundled changes are more likely to introduce bugs due to complex interactions between change....
+
 ## Causes ▼
 
 - [Long Release Cycles](long-release-cycles.md)
@@ -70,6 +71,7 @@ Large, risky releases are a common problem in organizations with long release cy
 <br/>  Features that cannot be broken down into incremental deliverables force multiple large changes to be released together.
 - [Manual Deployment Processes](manual-deployment-processes.md)
 <br/>  When deployments require manual intervention, teams avoid releasing frequently, causing changes to accumulate into risky batches.
+
 ## Detection Methods ○
 - **Release Size:** Track the number of changes in each release.
 - **Release Failure Rate:** Track the percentage of releases that result in a critical failure.

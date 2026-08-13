@@ -4,7 +4,6 @@ description: Adding timestamps to data or events for temporal tracking
 category:
 - Architecture
 - Database
-quality_tactics_url: https://qualitytactics.de/en/reliability/timestamping
 problems:
 - silent-data-corruption
 - debugging-difficulties

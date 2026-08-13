@@ -53,6 +53,7 @@ Large feature scope is a problem that occurs when a feature is too large and com
 <br/>  Large feature scopes bundle many changes together, creating complex deployments that are difficult to test and prone to failure.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  When features cannot be delivered incrementally, users must wait for the entire large feature to be complete before receiving any value.
+
 ## Causes ▼
 
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
@@ -61,6 +62,7 @@ Large feature scope is a problem that occurs when a feature is too large and com
 <br/>  Scope gradually expands as new requirements are added to an already-large feature, making it even harder to break down.
 - [Monolithic Architecture Constraints](monolithic-architecture-constraints.md)
 <br/>  A monolithic architecture makes it difficult to deliver parts of a feature independently, forcing large all-or-nothing implementations.
+
 ## Detection Methods ○
 - **Track Feature Lead Time:** Monitor the time it takes to develop and deliver a feature, from the initial idea to the final release.
 - **Analyze Branching Strategy:** Look for long-lived feature branches in the version control system.

@@ -4,7 +4,6 @@ description: Supplementing data with additional information from external source
 category:
 - Database
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/data-enrichment
 problems:
 - poor-domain-model
 - feature-gaps

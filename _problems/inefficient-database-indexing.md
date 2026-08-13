@@ -60,6 +60,7 @@ Inefficient database indexing is a common cause of slow database queries. This c
 <br/>  Without documentation of query patterns and indexing strategies, proper indexing decisions are difficult to make as the system evolves.
 - [Incorrect Index Type](incorrect-index-type.md)
 <br/>  Incorrect database index types degrade query performance.
+
 ## Detection Methods ○
 
 - **Query Execution Plan Analysis:** Use the `EXPLAIN` or `EXPLAIN ANALYZE` command to see how the database is executing a query. Look for "Sequential Scan" or "Table Scan" on large tables, which indicates a missing index.

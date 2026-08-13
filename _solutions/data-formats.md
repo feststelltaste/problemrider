@@ -3,7 +3,6 @@ title: Data Formats
 description: Use standardized and widely adopted data formats for data exchange
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/data-formats
 problems:
 - integration-difficulties
 - cross-system-data-synchronization-problems

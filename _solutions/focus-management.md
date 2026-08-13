@@ -1,6 +1,6 @@
 ---
 title: Focus Management
-description: Managing keyboard focus when modals open and close, ensuring visible focus indicators, and implementing proper focus traps in overlays
+description: Manage keyboard focus for modals, overlays, and dynamic UI changes
 category:
 - Requirements
 - Code

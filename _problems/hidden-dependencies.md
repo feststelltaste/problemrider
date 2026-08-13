@@ -30,6 +30,7 @@ solutions:
 - change-impact-analysis
 - workaround-registry
 - application-portfolio-inventory
+- duplication-detection
 layout: problem
 ---
 
@@ -72,6 +73,7 @@ Hidden dependencies occur when system components become interdependent in ways t
 <br/>  As documentation becomes outdated, dependencies that were once documented become hidden from developers.
 - [System Integration Blindness](system-integration-blindness.md)
 <br/>  Hidden dependencies create blind spots in system integration, causing unexpected failures when components interact.
+
 ## Detection Methods ○
 
 - **Dependency Mapping:** Document and visualize actual runtime dependencies vs. apparent design dependencies

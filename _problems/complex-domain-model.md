@@ -56,6 +56,7 @@ A complex domain model occurs when the business domain that the software system 
 <br/>  Developers spend significant time researching and understanding complex domain concepts before they can implement features.
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
 <br/>  New team members require extensive time to learn the complex domain before they can contribute effectively.
+
 ## Causes ▼
 
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
@@ -64,6 +65,7 @@ A complex domain model occurs when the business domain that the software system 
 <br/>  A poorly designed domain model fails to properly structure inherent business complexity, making it even harder to manage.
 - [Requirements Ambiguity](requirements-ambiguity.md)
 <br/>  Ambiguous requirements around complex domain concepts lead to multiple interpretations and incorrect implementations.
+
 ## Detection Methods ○
 
 - **Domain Complexity Analysis:** Evaluate the number of business rules, exceptions, and special cases in requirements

@@ -76,6 +76,7 @@ Breaking changes occur when modifications to APIs, interfaces, or system behavio
 <br/>  Emergency fixes and unplanned client migration work caused by breaking changes drive costs beyond plan.
 - [Fear of Breaking Changes](fear-of-breaking-changes.md)
 <br/>  Repeated incidents of breaking changes create organizational anxiety about any future API modifications.
+
 ## Causes ▼
 
 - [API Versioning Conflicts](api-versioning-conflicts.md)
@@ -86,6 +87,7 @@ Breaking changes occur when modifications to APIs, interfaces, or system behavio
 <br/>  Changes deployed without proper coordination or impact assessment break client integrations unexpectedly.
 - [Poor Documentation](poor-documentation.md)
 <br/>  Without documented API contracts, developers don't know which behaviors clients depend on and may inadvertently break them.
+
 ## Detection Methods ○
 
 - **Integration Test Monitoring:** Automated tests that verify API compatibility with existing client patterns

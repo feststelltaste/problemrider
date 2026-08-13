@@ -56,6 +56,7 @@ Delayed bug fixes occur when known issues, defects, or problems remain unresolve
 <br/>  Persistent bugs degrade user experience, leading to declining engagement and retention metrics over time.
 - [Increased Customer Support Load](increased-customer-support-load.md)
 <br/>  Users repeatedly encountering known unfixed bugs generate ongoing support requests.
+
 ## Causes ▼
 
 - [Feature Factory](feature-factory.md)
@@ -66,6 +67,7 @@ Delayed bug fixes occur when known issues, defects, or problems remain unresolve
 <br/>  Management prioritizing immediate feature delivery over system health leads to persistent deprioritization of bug fixes.
 - [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
 <br/>  Without clear ownership of system components, bugs fall through the cracks as no one takes responsibility for fixing them.
+
 ## Detection Methods ○
 
 - **Bug Age Analysis:** Track how long bugs remain open before resolution

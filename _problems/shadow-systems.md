@@ -27,6 +27,7 @@ solutions:
 - intuitive-navigation
 - search-function
 - usability-tests
+- master-data-stewardship
 layout: problem
 ---
 
@@ -54,6 +55,7 @@ Shadow systems are informal, unofficial applications, tools, or processes that t
 <br/>  Shadow systems are typically maintained by a single person and run on personal infrastructure, creating critical single points of failure.
 - [Technology Stack Fragmentation](technology-stack-fragmentation.md)
 <br/>  Each shadow system introduces its own technology choices, fragmenting the overall technology landscape.
+
 ## Causes ▼
 
 - [Poor User Experience (UX) Design](poor-user-experience-ux-design.md)
@@ -66,6 +68,7 @@ Shadow systems are informal, unofficial applications, tools, or processes that t
 <br/>  Missing functionality in official systems creates legitimate needs that teams address by building unofficial alternatives.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Frustrated stakeholders with official systems drive them to create or support shadow systems as alternatives.
+
 ## Detection Methods ○
 
 - **System Discovery Audits:** Regular surveys to identify unofficial tools and systems

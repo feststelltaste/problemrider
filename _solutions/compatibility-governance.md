@@ -4,7 +4,6 @@ description: Assign ownership, track issues, and plan compatibility evolution ac
 category:
 - Management
 - Process
-quality_tactics_url: https://qualitytactics.de/en/compatibility/compatibility-governance
 problems:
 - lack-of-ownership-and-accountability
 - poorly-defined-responsibilities

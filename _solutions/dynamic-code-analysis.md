@@ -4,7 +4,6 @@ description: Testing security properties by executing and observing program beha
 category:
 - Security
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/security/dynamic-code-analysis
 problems:
 - sql-injection-vulnerabilities
 - cross-site-scripting-vulnerabilities

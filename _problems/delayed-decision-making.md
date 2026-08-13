@@ -30,6 +30,8 @@ solutions:
 - written-first-communication
 - lightweight-design-review
 - pilot-projects
+- cost-of-delay
+- no-regret-moves
 layout: problem
 ---
 
@@ -57,6 +59,7 @@ Delayed decision making occurs when important decisions that affect development 
 <br/>  Postponed decisions accumulate and become interdependent, making them progressively harder to resolve.
 - [Stakeholder Frustration](stakeholder-frustration.md)
 <br/>  Stakeholders become frustrated when project progress visibly stalls due to unresolved decisions.
+
 ## Causes ▼
 
 - [Approval Dependencies](approval-dependencies.md)
@@ -67,6 +70,7 @@ Delayed decision making occurs when important decisions that affect development 
 <br/>  Culture requiring management approval for routine technical decisions creates delays as decisions queue up for review.
 - [Blame Culture](blame-culture.md)
 <br/>  Fear of being blamed for wrong decisions causes decision makers to delay choices until they feel completely certain.
+
 ## Detection Methods ○
 
 - **Decision Tracking:** Monitor how long different types of decisions take from identification to resolution

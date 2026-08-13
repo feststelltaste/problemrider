@@ -27,6 +27,8 @@ solutions:
 - feature-driven-development
 - delivery-performance-metrics
 - fast-feedback-loops
+- explicit-extension-points
+- variant-consolidation
 layout: problem
 ---
 
@@ -45,6 +47,7 @@ Slow feature development is the consistent inability of a development team to de
 <br/>  Slow feature development directly causes delivery dates to be missed.
 - [Delayed Value Delivery](delayed-value-delivery.md)
 <br/>  When features take too long to build, business value is delivered late, reducing competitive advantage.
+
 ## Causes ▼
 
 - [High Technical Debt](high-technical-debt.md)
@@ -57,6 +60,7 @@ Slow feature development is the consistent inability of a development team to de
 <br/>  Without documentation, developers must reverse-engineer the codebase before they can add features.
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
 <br/>  Tightly coupled code means adding a feature in one area requires changes across many unrelated components.
+
 ## Detection Methods ○
 - **Cycle Time:** Measure the time it takes for a feature to go from idea to production. A long cycle time is a clear indicator of slow feature development.
 - **Lead Time:** Measure the time it takes for a feature to be delivered after it has been requested. A long lead time is a sign that the team is not responsive to the needs of the business.

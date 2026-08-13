@@ -58,6 +58,7 @@ High turnover occurs when developers frequently leave the team, often shortly af
 <br/>  New developers unfamiliar with the system are more likely to introduce bugs due to lack of domain knowledge and system understanding.
 - [Increased Cost of Development](increased-cost-of-development.md)
 <br/>  Constant recruitment, onboarding, and lost productivity from frequent departures directly increase the overall cost o....
+
 ## Causes ▼
 
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
@@ -68,6 +69,7 @@ High turnover occurs when developers frequently leave the team, often shortly af
 <br/>  Inadequate documentation forces new developers to struggle to understand the system, increasing frustration and burnout.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Overworked developers facing constant firefighting and maintenance burdens become exhausted and seek better opportunities.
+
 ## Detection Methods ○
 - **Turnover Rate Tracking:** Monitor how long new hires stay and identify patterns in departures
 - **Exit Interview Analysis:** Collect and analyze feedback from departing developers

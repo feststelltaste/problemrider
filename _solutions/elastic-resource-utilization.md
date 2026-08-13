@@ -4,7 +4,6 @@ description: Automatic adjustment of resources based on current load
 category:
 - Operations
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/reliability/elastic-resource-utilization
 problems:
 - scaling-inefficiencies
 - capacity-mismatch

@@ -4,7 +4,6 @@ description: Maintaining tamper-proof, immutable, cryptographically chained audi
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/audit-trail-management
 problems:
 - insufficient-audit-logging
 - regulatory-compliance-drift
@@ -14,6 +13,8 @@ problems:
 - authorization-flaws
 - information-decay
 - legal-disputes
+- customization-outside-version-control
+- retention-obligations-block-change
 layout: solution
 ---
 

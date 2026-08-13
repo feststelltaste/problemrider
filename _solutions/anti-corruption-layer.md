@@ -4,7 +4,6 @@ description: Protect existing systems from negative influences of external syste
 category:
 - Architecture
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/compatibility/anti-corruption-layer
 problems:
 - architectural-mismatch
 - poor-interfaces-between-applications

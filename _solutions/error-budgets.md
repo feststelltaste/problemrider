@@ -4,7 +4,6 @@ description: Quantifying acceptable unreliability as balance between feature vel
 category:
 - Management
 - Process
-quality_tactics_url: https://qualitytactics.de/en/reliability/error-budgets
 problems:
 - quality-compromises
 - short-term-focus

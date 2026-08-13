@@ -4,7 +4,6 @@ description: Improve code quality through public code review, transparent issue 
 category:
 - Process
 - Culture
-quality_tactics_url: https://qualitytactics.de/en/maintainability/fair-source
 problems:
 - knowledge-silos
 - insufficient-code-review

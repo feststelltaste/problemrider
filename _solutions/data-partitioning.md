@@ -4,7 +4,6 @@ description: Division of large datasets across multiple computers or storage uni
 category:
 - Database
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/data-partitioning
 problems:
 - unbounded-data-growth
 - slow-database-queries

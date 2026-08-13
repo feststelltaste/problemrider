@@ -4,7 +4,6 @@ description: Design operations so that repeated execution produces the same resu
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/compatibility/idempotent-operations
 problems:
 - cascade-failures
 - inconsistent-behavior

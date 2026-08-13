@@ -3,7 +3,6 @@ title: Threat Intelligence
 description: Collecting and analyzing information about current threats and attack methods
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/threat-intelligence
 problems:
 - monitoring-gaps
 - knowledge-gaps

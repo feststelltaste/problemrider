@@ -52,10 +52,12 @@ Memory barrier inefficiency occurs when applications use memory barriers (fences
 <br/>  As more memory barriers are added over time to fix concurrency bugs, cumulative pipeline stalls progressively worsen performance.
 - [Resource Contention](resource-contention.md)
 <br/>  Memory barriers force serialization of memory operations, creating CPU resource contention in multi-threaded code.
+
 ## Causes ▼
 
 - [Insufficient Design Skills](insufficient-design-skills.md)
 <br/>  Developers lacking deep understanding of CPU memory models and concurrency add excessive barriers as a safety measure.
+
 ## Detection Methods ○
 
 - **Memory Barrier Profiling:** Profile memory barrier frequency and impact on performance

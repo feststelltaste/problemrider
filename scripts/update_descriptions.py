@@ -166,13 +166,13 @@ def update_problem_file(filepath: str, descriptions: Dict, dry_run: bool = False
             section_name = section.split('\n')[0].strip()
             section_content = '\n'.join(section.split('\n')[1:])
             
-            # Add descriptions to Symptoms and Root Causes sections
+            # Add descriptions to Symptoms and Causes sections
             if section_name.startswith('Symptoms'):
                 updated_content = add_descriptions_to_section(section_content, problem_key, "symptoms", descriptions)
                 if updated_content != section_content:
                     updated = True
                 new_body_parts.append(f"## {section_name}\n{updated_content}")
-            elif section_name.startswith('Root Causes'):
+            elif section_name.startswith('Causes'):
                 updated_content = add_descriptions_to_section(section_content, problem_key, "root_causes", descriptions)
                 if updated_content != section_content:
                     updated = True

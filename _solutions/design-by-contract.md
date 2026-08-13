@@ -1,6 +1,6 @@
 ---
 title: Design by Contract
-description: Specifying preconditions, postconditions, and invariants for explicit, verifiable behavior
+description: Specify preconditions, postconditions, and invariants for verifiable behavior
 category:
 - Code
 - Architecture
@@ -20,6 +20,7 @@ problems:
 - null-pointer-dereferences
 - improper-event-listener-management
 - stack-overflow-errors
+- entity-attribute-value-overuse
 layout: solution
 ---
 

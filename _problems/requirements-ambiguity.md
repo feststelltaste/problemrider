@@ -80,6 +80,7 @@ Requirements ambiguity occurs when system requirements are expressed in ways tha
 <br/>  Multiple valid interpretations of the same requirement cause team members to work at cross-purposes.
 - [Wasted Development Effort](wasted-development-effort.md)
 <br/>  Development work based on misinterpreted ambiguous requirements becomes throwaway effort when the misalignment is discovered.
+
 ## Causes ▼
 
 - [Inadequate Requirements Gathering](inadequate-requirements-gathering.md)
@@ -88,6 +89,7 @@ Requirements ambiguity occurs when system requirements are expressed in ways tha
 <br/>  Poor communication between stakeholders and developers means requirements aren't clarified or refined during development.
 - [Unclear Goals and Priorities](unclear-goals-and-priorities.md)
 <br/>  When organizational goals are unclear, requirements cannot be written with precision because the desired outcomes are themselves ambiguous.
+
 ## Detection Methods ○
 
 - **Clarification Request Tracking:** Monitor how often developers ask for requirement clarifications

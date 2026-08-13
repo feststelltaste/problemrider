@@ -29,6 +29,11 @@ solutions:
 - dependency-breaking-techniques
 - parallel-run
 - pilot-projects
+- technical-debt-assessment
+- debt-classification
+- debt-remediation-estimation
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 
@@ -55,6 +60,7 @@ Maintenance paralysis occurs when development teams become unable to perform nec
 <br/>  Fear of making changes causes the system to stagnate, falling behind on security patches, dependency updates, and improvements.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  When teams are paralyzed from making changes, the architecture cannot evolve to meet new requirements.
+
 ## Causes ▼
 
 - [Legacy Code Without Tests](legacy-code-without-tests.md)
@@ -67,6 +73,7 @@ Maintenance paralysis occurs when development teams become unable to perform nec
 <br/>  When only departed developers understood the system, current teams lack the confidence to make safe changes.
 - [History of Failed Changes](history-of-failed-changes.md)
 <br/>  A track record of changes causing production failures reinforces the belief that it's safer not to change anything.
+
 ## Detection Methods ○
 - **Change Frequency Analysis:** Measure how often maintenance tasks are proposed versus completed
 - **Technical Debt Tracking:** Monitor accumulation of known issues that remain unaddressed

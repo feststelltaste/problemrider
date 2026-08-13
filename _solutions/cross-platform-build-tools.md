@@ -4,7 +4,6 @@ description: Use build tools that can compile for multiple platforms
 category:
 - Operations
 - Code
-quality_tactics_url: https://qualitytactics.de/en/portability/cross-platform-build-tools
 problems:
 - technology-lock-in
 - deployment-environment-inconsistencies

@@ -4,7 +4,6 @@ description: Defining rules that govern the behavior of the software
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/rule-based-systems
 problems:
 - complex-and-obscure-logic
 - legacy-business-logic-extraction-difficulty

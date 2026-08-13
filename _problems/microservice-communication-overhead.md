@@ -49,12 +49,14 @@ Microservice communication overhead occurs when the network communication betwee
 <br/>  Network latency accumulation across multiple service calls causes requests to exceed timeout thresholds.
 - [Cascade Failures](cascade-failures.md)
 <br/>  When one service slows down due to communication overhead, dependent services queue up requests and also slow down, creating cascading failures.
+
 ## Causes ▼
 
 - [High Coupling and Low Cohesion](high-coupling-low-cohesion.md)
 <br/>  Poorly defined service boundaries result in chatty communication patterns where services need frequent data exchange.
 - [Architectural Mismatch](architectural-mismatch.md)
 <br/>  Applying a microservice architecture to workloads that require tight coupling creates unnecessary communication overhead.
+
 ## Detection Methods ○
 
 - **Inter-Service Communication Monitoring:** Track frequency, latency, and volume of service-to-service calls

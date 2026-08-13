@@ -1,6 +1,6 @@
 ---
 title: Integrated Onboarding
-description: Support for new users in getting started with the software through tutorials, guides, or interactive tours
+description: Orchestrate a holistic first-use experience with progressive disclosure and contextual guidance
 category:
 - Communication
 - Requirements

@@ -52,6 +52,8 @@ solutions:
 - characterization-tests
 - mikado-method
 - pilot-projects
+- technical-debt-assessment
+- debt-remediation-estimation
 layout: problem
 ---
 
@@ -82,6 +84,7 @@ Fear of change is a psychological and practical barrier that prevents developers
 <br/>  Architecture stops evolving because the team avoids the structural changes needed for improvement.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Fear of change directly slows feature development as teams take excessive precautions or implement workarounds.
+
 ## Causes ▼
 
 - [Brittle Codebase](brittle-codebase.md)
@@ -94,6 +97,7 @@ Fear of change is a psychological and practical barrier that prevents developers
 <br/>  A track record of changes causing production incidents creates a culture of caution and anxiety around modifications.
 - [Blame Culture](blame-culture.md)
 <br/>  When mistakes are punished rather than treated as learning opportunities, developers become risk-averse and avoid making changes.
+
 ## Detection Methods ○
 - **Developer Surveys:** Ask team members about their confidence level when making changes to different parts of the system
 - **Change Frequency Analysis:** Monitor how often different modules are modified; consistently avoided areas may indicate fear

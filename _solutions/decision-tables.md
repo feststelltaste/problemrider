@@ -4,7 +4,6 @@ description: Define and evaluate complex business rules in tabular form
 category:
 - Code
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/decision-tables
 problems:
 - complex-and-obscure-logic
 - legacy-business-logic-extraction-difficulty

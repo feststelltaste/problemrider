@@ -4,7 +4,6 @@ description: Automating data, configuration, and state migration when transferri
 category:
 - Operations
 - Database
-quality_tactics_url: https://qualitytactics.de/en/portability/automated-migration-tools
 problems:
 - data-migration-complexities
 - data-migration-integrity-issues

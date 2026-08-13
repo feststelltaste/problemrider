@@ -4,7 +4,6 @@ description: Collecting and processing multiple jobs together
 category:
 - Performance
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/batch-processing
 problems:
 - slow-application-performance
 - high-number-of-database-queries

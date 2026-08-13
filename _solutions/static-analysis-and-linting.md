@@ -1,6 +1,6 @@
 ---
 title: Static Code Analysis
-description: Automated review of source code for potential issues and improvement opportunities
+description: Review source code automatically for potential issues
 category:
 - Code
 - Process

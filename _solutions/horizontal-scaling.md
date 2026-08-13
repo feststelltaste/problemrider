@@ -4,7 +4,6 @@ description: Increasing performance by adding additional components
 category:
 - Performance
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/horizontal-scaling
 problems:
 - scaling-inefficiencies
 - capacity-mismatch

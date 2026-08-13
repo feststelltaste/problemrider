@@ -54,6 +54,7 @@ Reduced review participation occurs when many team members avoid or minimize the
 <br/>  Non-participating team members miss exposure to code changes, reinforcing knowledge isolation.
 - [Reduced Code Submission Frequency](reduced-code-submission-frequency.md)
 <br/>  When few reviewers are available, developers delay submissions to avoid long review wait times.
+
 ## Causes ▼
 
 - [Reviewer Anxiety](reviewer-anxiety.md)
@@ -64,6 +65,7 @@ Reduced review participation occurs when many team members avoid or minimize the
 <br/>  General aversion to the review process leads team members to avoid both submitting and reviewing code.
 - [Team Members Not Engaged in Review Process](team-members-not-engaged-in-review-process.md)
 <br/>  Disengagement from the review process as a cultural norm reduces overall participation rates.
+
 ## Detection Methods ○
 
 - **Review Participation Tracking:** Monitor how many team members actively participate in reviews over time

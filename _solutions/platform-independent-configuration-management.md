@@ -3,7 +3,6 @@ title: Platform-Independent Configuration Management
 description: Store configuration settings in platform-independent formats
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/portability/platform-independent-configuration-management
 problems:
 - configuration-chaos
 - configuration-drift

@@ -64,6 +64,7 @@ Ripple effect of changes occurs when modifying one component necessitates change
 <br/>  The amplified effort required for every change drives up the cost of maintaining and evolving the system.
 - [Resistance to Change](resistance-to-change.md)
 <br/>  Teams become reluctant to make improvements when they know that any change will cascade into extensive modifications across the codebase.
+
 ## Causes ▼
 
 - [Tight Coupling Issues](tight-coupling-issues.md)
@@ -74,6 +75,7 @@ Ripple effect of changes occurs when modifying one component necessitates change
 <br/>  When internal details are exposed rather than encapsulated, external code depends on implementation specifics that force cascading changes.
 - [God Object Anti-Pattern](god-object-anti-pattern.md)
 <br/>  God objects that are referenced throughout the system create a central point where changes ripple outward to all dependent code.
+
 ## Detection Methods ○
 - **Change Impact Analysis:** Track how many files or modules need modification for typical changes
 - **Dependency Analysis Tools:** Use static analysis to visualize and measure coupling between components

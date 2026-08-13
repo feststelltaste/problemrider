@@ -4,7 +4,6 @@ description: Control configuration settings via environment variables
 category:
 - Operations
 - Code
-quality_tactics_url: https://qualitytactics.de/en/portability/environment-variables-for-configuration
 problems:
 - configuration-chaos
 - hardcoded-values

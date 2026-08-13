@@ -4,7 +4,6 @@ description: Log and monitor security-related events
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/logging-and-monitoring
 problems:
 - monitoring-gaps
 - insufficient-audit-logging

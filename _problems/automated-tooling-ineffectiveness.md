@@ -53,6 +53,7 @@ Automated tooling ineffectiveness is a situation where automated tooling, such a
 <br/>  When automated tools cannot do their job, developers must manually perform checks that should be automated.
 - [Inconsistent Codebase](inconsistent-codebase.md)
 <br/>  When automated tools are ineffective, they cannot enforce consistency, allowing the codebase to remain or become inconsistent.
+
 ## Causes ▼
 
 - [Inconsistent Coding Standards](inconsistent-coding-standards.md)
@@ -63,6 +64,7 @@ Automated tooling ineffectiveness is a situation where automated tooling, such a
 <br/>  Without defined style guidelines, there is no baseline for configuring automated tools.
 - [Tool Limitations](tool-limitations.md)
 <br/>  The tools themselves may have limitations that prevent them from handling the codebase's complexity or patterns.
+
 ## Detection Methods ○
 - **Analyze the output of the automated tooling:** Look for a large number of violations.
 - **Team Surveys:** Ask developers if they are using the automated tooling consistently.

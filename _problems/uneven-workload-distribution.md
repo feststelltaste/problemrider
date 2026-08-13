@@ -57,12 +57,14 @@ Uneven workload distribution occurs when work assignments are not balanced acros
 <br/>  Underutilized team members miss opportunities to develop skills on challenging work that always goes to the same overloaded people.
 - [Reduced Team Flexibility](reduced-team-flexibility.md)
 <br/>  When work is concentrated on a few individuals, the team cannot easily reassign work or adapt when those people are unavailable.
+
 ## Causes ▼
 
 - [Inappropriate Skillset](inappropriate-skillset.md)
 <br/>  When team members lack skills for certain work types, managers route complex tasks to the few who are capable, creating imbalance.
 - [Poorly Defined Responsibilities](poorly-defined-responsibilities.md)
 <br/>  Without clear role definitions, some team members take on or are assigned more responsibility than others.
+
 ## Detection Methods ○
 
 - **Workload Metrics Tracking:** Monitor work assignments, hours worked, and task completion rates across team members

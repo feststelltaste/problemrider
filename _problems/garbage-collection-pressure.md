@@ -53,6 +53,7 @@ Garbage collection pressure occurs when applications create and discard objects 
 <br/>  GC pause times add directly to API response times, causing unpredictable latency spikes during garbage collection cycles.
 - [Service Timeouts](service-timeouts.md)
 <br/>  Long GC pauses can cause requests to exceed timeout thresholds, resulting in failed service calls.
+
 ## Causes ▼
 
 - [Excessive Object Allocation](excessive-object-allocation.md)
@@ -63,6 +64,7 @@ Garbage collection pressure occurs when applications create and discard objects 
 <br/>  Circular object references prevent efficient garbage collection and can cause the GC to work harder to identify reclaimable memory.
 - [Memory Leaks](memory-leaks.md)
 <br/>  Memory leaks reduce available heap space, forcing more frequent garbage collection cycles on the remaining memory.
+
 ## Detection Methods ○
 
 - **GC Logging:** Enable garbage collector logging to analyze collection frequency and duration

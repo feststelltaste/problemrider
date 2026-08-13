@@ -55,6 +55,7 @@ Insecure data transmission occurs when sensitive information is sent over networ
 <br/>  Insecure data transmission causes the system to fall out of compliance with security regulations like PCI-DSS and GDPR.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Security breaches resulting from insecure transmission erode customer trust and satisfaction.
+
 ## Causes ▼
 
 - [Obsolete Technologies](obsolete-technologies.md)
@@ -63,6 +64,7 @@ Insecure data transmission occurs when sensitive information is sent over networ
 <br/>  Developers lacking security design knowledge may fail to implement proper encryption for data in transit.
 - [Configuration Chaos](configuration-chaos.md)
 <br/>  Poor configuration management can lead to SSL/TLS being misconfigured or disabled in certain environments.
+
 ## Detection Methods ○
 
 - **Network Traffic Analysis:** Monitor network communications for unencrypted sensitive data

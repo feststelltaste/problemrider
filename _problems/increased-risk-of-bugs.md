@@ -55,6 +55,7 @@ Increased risk of bugs occurs when the structure, complexity, or clarity of code
 <br/>  More bugs mean more time spent on debugging and fixing, driving up development costs.
 - [Constant Firefighting](constant-firefighting.md)
 <br/>  A high risk of bugs leads to frequent production issues that require urgent attention, keeping the team in reactive mode.
+
 ## Causes ▼
 
 - [Difficult to Understand Code](difficult-to-understand-code.md)
@@ -67,6 +68,7 @@ Increased risk of bugs occurs when the structure, complexity, or clarity of code
 <br/>  Tightly coupled code means changes in one area can unpredictably affect other areas, increasing the risk of unintended bugs.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Low-quality code with inconsistent patterns and poor structure makes it harder to reason about correctness, raising bug risk.
+
 ## Detection Methods ○
 - **Bug Pattern Analysis:** Track which areas of code or types of changes are most likely to introduce bugs
 - **Developer-Specific Metrics:** Monitor bug introduction rates by individual developers to identify training needs

@@ -59,12 +59,14 @@ Micromanagement culture occurs when organizational leadership requires detailed 
 <br/>  Teams become unable to make decisions independently, defaulting to waiting for management approval on everything.
 - [Reduced Individual Productivity](reduced-individual-productivity.md)
 <br/>  Developers spend significant time on approval workflows and justification documents instead of productive work.
+
 ## Causes ▼
 
 - [Fear of Change](fear-of-change.md)
 <br/>  An organizational culture that prioritizes avoiding mistakes over empowering teams leads to excessive controls and approvals.
 - [Power Struggles](power-struggles.md)
 <br/>  Managers who feel the need to maintain control and authority create micromanagement patterns to preserve their position.
+
 ## Detection Methods ○
 
 - **Decision Authority Audit:** Map what types of decisions require approval vs. those made independently

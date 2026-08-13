@@ -4,7 +4,6 @@ description: Reproduce a foreign platform's behavior so existing software runs w
 category:
 - Operations
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/emulation
 problems:
 - obsolete-technologies
 - technology-lock-in

@@ -3,7 +3,6 @@ title: Disaster Recovery
 description: Methods for restoring operations after disasters or major disruptions
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/disaster-recovery
 problems:
 - system-outages
 - single-points-of-failure

@@ -4,7 +4,6 @@ description: Activating and deactivating features for flexible rollouts
 category:
 - Process
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/feature-toggles
 problems:
 - large-risky-releases
 - deployment-risk
@@ -17,6 +16,7 @@ problems:
 - increased-time-to-market
 - large-pull-requests
 - strangler-fig-pattern-failures
+- excessive-customization
 layout: solution
 ---
 

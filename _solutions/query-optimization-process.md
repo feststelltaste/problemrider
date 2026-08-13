@@ -1,6 +1,6 @@
 ---
 title: Database Optimization
-description: Adjustment of database design and configuration for optimal performance
+description: Adjust database design and configuration for optimal performance
 category:
 - Database
 - Performance

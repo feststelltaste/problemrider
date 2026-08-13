@@ -4,7 +4,6 @@ description: Apply proven solution patterns for recurring design problems
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/maintainability/pattern-language
 problems:
 - inconsistent-codebase
 - suboptimal-solutions

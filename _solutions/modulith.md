@@ -3,7 +3,6 @@ title: Modulith
 description: Structure system architecture into independent, interchangeable modules
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/maintainability/modulith
 problems:
 - monolithic-architecture-constraints
 - high-coupling-low-cohesion

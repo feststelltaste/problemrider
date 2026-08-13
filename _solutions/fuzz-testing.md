@@ -4,7 +4,6 @@ description: Testing with randomly generated input data to uncover unexpected be
 category:
 - Security
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/security/fuzz-testing
 problems:
 - buffer-overflow-vulnerabilities
 - inadequate-error-handling

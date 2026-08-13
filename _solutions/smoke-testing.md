@@ -4,7 +4,6 @@ description: Performing a series of basic tests to verify the core functionality
 category:
 - Testing
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/smoke-testing
 problems:
 - frequent-hotfixes-and-rollbacks
 - regression-bugs

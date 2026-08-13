@@ -48,6 +48,7 @@ problems:
 - review-process-avoidance
 - review-process-breakdown
 - rushed-approvals
+- implementation-partner-dependency
 layout: solution
 ---
 

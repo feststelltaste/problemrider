@@ -4,7 +4,6 @@ description: Communicate compatibility intent through structured version numbers
 category:
 - Dependencies
 - Process
-quality_tactics_url: https://qualitytactics.de/en/compatibility/semantic-versioning
 problems:
 - api-versioning-conflicts
 - breaking-changes

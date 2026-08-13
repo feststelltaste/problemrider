@@ -53,6 +53,7 @@ Reduced individual productivity occurs when developers find themselves completin
 <br/>  Individual productivity losses accumulate into missed deadlines and delayed project deliveries.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
 <br/>  Working harder but accomplishing less creates frustration and exhaustion that leads to burnout.
+
 ## Causes ▼
 
 - [Inefficient Development Environment](inefficient-development-environment.md)
@@ -63,6 +64,7 @@ Reduced individual productivity occurs when developers find themselves completin
 <br/>  Frequent interruptions and context switching prevent developers from achieving deep focus needed for productive work.
 - [Increased Manual Work](increased-manual-work.md)
 <br/>  Manual processes that should be automated consume developer time that could be spent on value-producing work.
+
 ## Detection Methods ○
 
 - **Individual Velocity Tracking:** Monitor story points or tasks completed per developer over time

@@ -57,6 +57,7 @@ Mental fatigue in development occurs when developers experience cognitive exhaus
 <br/>  Cognitive exhaustion leads to more mistakes and less careful coding, increasing the rate of bugs introduced.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Mentally fatigued developers write lower quality code as their cognitive resources are depleted, leading to more shor....
+
 ## Causes ▼
 
 - [Cognitive Overload](cognitive-overload.md)
@@ -67,6 +68,7 @@ Mental fatigue in development occurs when developers experience cognitive exhaus
 <br/>  Frequent switching between different tasks, technologies, and codebases rapidly depletes cognitive resources.
 - [Unproductive Meetings](unproductive-meetings.md)
 <br/>  Too many meetings fragment the workday and consume mental energy that could be used for productive development work.
+
 ## Detection Methods ○
 
 - **Energy Level Surveys:** Regular check-ins about developer energy and mental state throughout the day

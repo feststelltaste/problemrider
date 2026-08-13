@@ -74,6 +74,7 @@ Silent data corruption occurs when data becomes altered, damaged, or lost withou
 <br/>  Users discover data inaccuracies in their accounts, reports, or records, leading to frustration and loss of confidence.
 - [User Trust Erosion](user-trust-erosion.md)
 <br/>  When data corruption is eventually discovered, users lose trust in the accuracy and reliability of the entire system.
+
 ## Causes ▼
 
 - [Inadequate Error Handling](inadequate-error-handling.md)
@@ -84,6 +85,7 @@ Silent data corruption occurs when data becomes altered, damaged, or lost withou
 <br/>  Concurrent access without proper synchronization can corrupt shared data in subtle ways that don't trigger explicit errors.
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Critical data processing paths lack tests that validate data integrity, allowing corruption-causing bugs to go undetected.
+
 ## Detection Methods ○
 
 - **Data Integrity Checksums:** Implement and regularly verify checksums for critical data

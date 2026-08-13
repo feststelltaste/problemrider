@@ -48,10 +48,12 @@ Interrupt overhead occurs when hardware devices generate interrupts at such a hi
 
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  CPU time spent handling interrupts reduces time available for application processing, degrading performance.
+
 ## Causes ▼
 
 - [Poor System Environment](poor-system-environment.md)
 <br/>  Poorly configured hardware environments with suboptimal interrupt settings contribute to excessive interrupt rates.
+
 ## Detection Methods ○
 
 - **Interrupt Rate Monitoring:** Monitor system interrupt rates using OS performance tools

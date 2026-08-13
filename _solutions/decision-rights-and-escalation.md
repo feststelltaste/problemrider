@@ -29,6 +29,7 @@ problems:
 - bikeshedding
 - no-formal-change-control-process
 - approval-dependencies
+- excessive-customization
 layout: solution
 ---
 

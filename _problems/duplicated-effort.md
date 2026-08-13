@@ -28,6 +28,7 @@ solutions:
 - team-boundaries-aligned-to-architecture
 - documentation-as-code
 - communities-of-practice
+- master-data-stewardship
 layout: problem
 ---
 
@@ -55,6 +56,7 @@ Duplicated effort occurs when multiple team members work on the same problems, i
 <br/>  Different developers implementing the same functionality independently often produce solutions with subtly different behavior.
 - [Slow Development Velocity](slow-development-velocity.md)
 <br/>  Duplicated effort directly reduces the team's effective velocity since capacity is consumed on redundant work.
+
 ## Causes ▼
 
 - [Communication Breakdown](communication-breakdown.md)
@@ -67,6 +69,7 @@ Duplicated effort occurs when multiple team members work on the same problems, i
 <br/>  Insufficient sprint planning and task breakdown means work assignments overlap without anyone noticing.
 - [Team Confusion](team-confusion.md)
 <br/>  When team members are unclear about responsibilities and who is working on what, duplicated effort naturally follows.
+
 ## Detection Methods ○
 
 - **Work Overlap Analysis:** Regularly review team assignments to identify potential overlaps

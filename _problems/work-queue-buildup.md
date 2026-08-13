@@ -58,6 +58,7 @@ Work queue buildup occurs when tasks accumulate faster than they can be processe
 <br/>  Team members waiting for queue-bound prerequisites cannot make progress, reducing overall team throughput.
 - [Context Switching Overhead](context-switching-overhead.md)
 <br/>  Developers forced to switch to other tasks while their primary work waits in queues lose productivity to context switching.
+
 ## Causes ▼
 
 - [Bottleneck Formation](bottleneck-formation.md)
@@ -70,6 +71,7 @@ Work queue buildup occurs when tasks accumulate faster than they can be processe
 <br/>  Code review processes with limited reviewers are a common bottleneck where work queues build up significantly.
 - [Complex Deployment Process](complex-deployment-process.md)
 <br/>  Complicated or infrequent deployment processes create queuing points where completed work accumulates awaiting release.
+
 ## Detection Methods ○
 
 - **Queue Length Monitoring:** Track the number of items waiting at each process step over time

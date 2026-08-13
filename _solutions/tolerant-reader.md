@@ -4,7 +4,6 @@ description: Ignoring unknown fields and tolerating structural additions on the 
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/compatibility/tolerant-reader
 problems:
 - breaking-changes
 - api-versioning-conflicts

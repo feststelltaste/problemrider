@@ -26,6 +26,8 @@ problems:
 - communication-risk-outside-project
 - increasing-brittleness
 - partial-bug-fixes
+- entity-attribute-value-overuse
+- core-modification-of-standard-software
 layout: solution
 ---
 

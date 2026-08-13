@@ -51,6 +51,7 @@ A high connection count occurs when a database is overwhelmed by a large number 
 <br/>  Connection rejections when limits are reached cause application errors and failed requests.
 - [Cascade Failures](cascade-failures.md)
 <br/>  Database connection exhaustion causes failures that cascade to all services depending on that database.
+
 ## Causes ▼
 
 - [Misconfigured Connection Pools](misconfigured-connection-pools.md)
@@ -61,6 +62,7 @@ A high connection count occurs when a database is overwhelmed by a large number 
 <br/>  Setting the maximum pool size too high allows each application instance to hold more connections than the database can efficiently handle.
 - [Resource Allocation Failures](resource-allocation-failures.md)
 <br/>  Code that fails to properly release database connections after use causes connections to accumulate without being returned to the pool.
+
 ## Detection Methods ○
 
 - **Database Monitoring Tools:** Use database-specific tools (e.g., `SHOW STATUS` in MySQL, `pg_stat_activity` in PostgreSQL) to monitor the number of active and idle connections.

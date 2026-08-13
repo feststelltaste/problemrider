@@ -4,7 +4,6 @@ description: Development of applications that react to events and process data f
 category:
 - Architecture
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/reactive-programming
 problems:
 - slow-application-performance
 - thread-pool-exhaustion

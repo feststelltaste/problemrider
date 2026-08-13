@@ -4,7 +4,6 @@ description: API design with natural language-like method chaining
 category:
 - Code
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/maintainability/fluent-interfaces
 problems:
 - difficult-code-comprehension
 - difficult-to-understand-code

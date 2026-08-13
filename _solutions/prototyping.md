@@ -4,7 +4,6 @@ description: Gather early feedback on functionality and usability
 category:
 - Process
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/prototyping
 problems:
 - assumption-based-development
 - implementation-rework

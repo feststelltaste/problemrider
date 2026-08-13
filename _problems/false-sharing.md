@@ -63,6 +63,7 @@ False sharing occurs when multiple CPU cores access different data elements that
 <br/>  Data structures organized without consideration for cache line boundaries lead to unrelated data sharing cache lines.
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers without knowledge of CPU cache architecture may inadvertently create data layouts that cause false sharing.
+
 ## Detection Methods ○
 
 - **Cache Performance Profiling:** Use profilers that can detect cache line contention and false sharing

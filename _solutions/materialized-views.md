@@ -4,7 +4,6 @@ description: Optimize database query performance by storing query results
 category:
 - Database
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/materialized-views
 problems:
 - slow-database-queries
 - database-query-performance-issues
@@ -15,6 +14,8 @@ problems:
 - imperative-data-fetching-logic
 - lazy-loading
 - poor-caching-strategy
+- entity-attribute-value-overuse
+- custom-report-sprawl
 layout: solution
 ---
 

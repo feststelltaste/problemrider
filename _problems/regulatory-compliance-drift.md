@@ -59,6 +59,13 @@ solutions:
 - threat-intelligence
 - two-factor-authentication
 - vulnerability-scans
+- risk-quantification
+- cost-of-delay
+- executive-sponsorship
+- baseline-measurement
+- continuous-dependency-updates
+- retention-and-disposal-policy
+- role-model-rationalization
 layout: problem
 ---
 
@@ -86,6 +93,7 @@ Regulatory compliance drift occurs when legacy systems gradually fall behind evo
 <br/>  Inability to meet regulatory requirements prevents offering new products or services that competitors with modern systems can provide.
 - [Maintenance Cost Increase](maintenance-cost-increase.md)
 <br/>  Maintaining compliance through manual workarounds and supplementary systems significantly increases operational expenses.
+
 ## Causes ▼
 
 - [Stagnant Architecture](stagnant-architecture.md)
@@ -96,6 +104,7 @@ Regulatory compliance drift occurs when legacy systems gradually fall behind evo
 <br/>  Avoiding system modernization and restructuring prevents the updates needed to maintain regulatory compliance.
 - [Fear of Change](fear-of-change.md)
 <br/>  Fear of change prevents teams from updating systems to meet new regulatory requirements, directly contributing to com....
+
 ## Detection Methods ○
 
 - Conduct regular compliance gap analyses comparing current system capabilities with regulatory requirements

@@ -56,6 +56,8 @@ solutions:
 - malware-protection
 - patch-management
 - self-test
+- risk-quantification
+- baseline-measurement
 layout: problem
 ---
 
@@ -85,6 +87,7 @@ Deployment risk occurs when releasing software changes carries a high probabilit
 <br/>  Fear of risky deployments delays getting completed features into production and to users.
 - [System Outages](system-outages.md)
 <br/>  Risky deployments that go wrong can cause extended outages due to lack of recovery mechanisms.
+
 ## Causes ▼
 
 - [Manual Deployment Processes](manual-deployment-processes.md)
@@ -97,6 +100,7 @@ Deployment risk occurs when releasing software changes carries a high probabilit
 <br/>  Without comprehensive tests, there is low confidence that changes will not break existing functionality during deployment.
 - [Complex Deployment Process](complex-deployment-process.md)
 <br/>  Complex multi-step deployment processes have more failure points and are harder to execute correctly.
+
 ## Detection Methods ○
 
 - **Deployment Success Rate:** Track percentage of deployments that complete without issues

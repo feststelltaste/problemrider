@@ -20,6 +20,12 @@ problems:
 - unclear-documentation-ownership
 - conflicting-reviewer-opinions
 - delayed-issue-resolution
+- authorization-role-explosion
+- custom-report-sprawl
+- customization-outside-version-control
+- low-code-customization-sprawl
+- master-data-ownership-gaps
+- retention-obligations-block-change
 layout: solution
 ---
 

@@ -3,7 +3,6 @@ title: Lazy Loading
 description: Delayed loading of data and resources until the moment of actual use
 category:
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/lazy-loading
 problems:
 - slow-application-performance
 - high-client-side-resource-consumption

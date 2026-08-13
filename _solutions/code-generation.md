@@ -4,7 +4,6 @@ description: Automatic creation of code parts based on templates or metadata
 category:
 - Code
 - Process
-quality_tactics_url: https://qualitytactics.de/en/maintainability/code-generation
 problems:
 - code-duplication
 - copy-paste-programming

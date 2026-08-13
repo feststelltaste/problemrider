@@ -3,7 +3,6 @@ title: Error Logs
 description: Perform systematic analysis of error logs
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/error-logs
 problems:
 - monitoring-gaps
 - slow-incident-resolution

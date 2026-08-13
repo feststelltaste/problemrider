@@ -4,7 +4,6 @@ description: Separate cross-cutting concerns from the main functionality
 category:
 - Code
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/maintainability/aspect-oriented-programming-aop
 problems:
 - tangled-cross-cutting-concerns
 - code-duplication

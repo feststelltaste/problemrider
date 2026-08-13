@@ -26,6 +26,9 @@ solutions:
 - code-quality-gates
 - ci-cd-pipeline
 - clean-code
+- quality-ratchet
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 
@@ -50,6 +53,7 @@ Mixed coding styles is a situation where different parts of the codebase use dif
 <br/>  New developers joining the project are confused by inconsistent conventions and struggle to know which style to follow.
 - [Inconsistent Codebase](inconsistent-codebase.md)
 <br/>  Mixed coding styles directly contribute to an overall inconsistent codebase that lacks coherence across modules.
+
 ## Causes ▼
 
 - [Undefined Code Style Guidelines](undefined-code-style-guidelines.md)
@@ -60,6 +64,7 @@ Mixed coding styles is a situation where different parts of the codebase use dif
 <br/>  Lack of agreed-upon or enforced coding standards directly leads to different parts of the codebase using different styles.
 - [Insufficient Code Review](insufficient-code-review.md)
 <br/>  Without thorough code reviews that enforce consistency, style deviations accumulate unchecked over time.
+
 ## Detection Methods ○
 - **Manual Code Inspection:** The inconsistency is often obvious from simply browsing the codebase.
 - **Run a Linter or Formatter:** Run a tool like ESLint, Prettier, RuboCop, or Black on the codebase and observe the large number of reported violations.

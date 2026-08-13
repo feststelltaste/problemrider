@@ -16,6 +16,9 @@ problems:
 - obsolete-technologies
 - integration-difficulties
 - vendor-dependency-entrapment
+- core-modification-of-standard-software
+- implementation-partner-dependency
+- voided-vendor-support
 layout: solution
 ---
 

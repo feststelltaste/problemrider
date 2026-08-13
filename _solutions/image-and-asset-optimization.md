@@ -3,7 +3,6 @@ title: Image and Asset Optimization
 description: Optimizing images, fonts, and static assets for smaller payloads and faster loads
 category:
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/image-and-asset-optimization
 problems:
 - slow-application-performance
 - high-client-side-resource-consumption

@@ -4,7 +4,6 @@ description: Using programming languages that run on different systems without m
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/portability/platform-independent-programming-languages
 problems:
 - technology-lock-in
 - vendor-lock-in

@@ -4,13 +4,13 @@ description: Detection and elimination of redundant data in storage systems
 category:
 - Database
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/data-deduplication
 problems:
 - unbounded-data-growth
 - code-duplication
 - cross-system-data-synchronization-problems
 - high-database-resource-utilization
 - silent-data-corruption
+- master-data-ownership-gaps
 layout: solution
 ---
 

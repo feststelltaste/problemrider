@@ -3,7 +3,6 @@ title: Data Integrity
 description: Mechanisms to ensure data accuracy, consistency, and reliability
 category:
 - Database
-quality_tactics_url: https://qualitytactics.de/en/reliability/data-integrity
 problems:
 - silent-data-corruption
 - data-migration-integrity-issues

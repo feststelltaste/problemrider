@@ -3,7 +3,6 @@ title: Cross-Version Testing
 description: Testing the software with different versions
 category:
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/compatibility/cross-version-testing
 problems:
 - dependency-version-conflicts
 - regression-bugs

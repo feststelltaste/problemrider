@@ -3,7 +3,6 @@ title: Architecture Conformity Analysis
 description: Check the alignment of the software architecture with defined architectural principles
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/maintainability/architecture-conformity-analysis
 problems:
 - stagnant-architecture
 - high-coupling-low-cohesion

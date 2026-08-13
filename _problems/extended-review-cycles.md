@@ -58,6 +58,7 @@ Extended review cycles occur when code reviews require multiple rounds of feedba
 <br/>  Lengthy and painful review cycles motivate developers to find ways to bypass or minimize the review process.
 - [Context Switching Overhead](context-switching-overhead.md)
 <br/>  Multiple review rounds force authors to repeatedly switch back to code they wrote days or weeks ago, losing context each time.
+
 ## Causes ▼
 
 - [Perfectionist Review Culture](perfectionist-review-culture.md)
@@ -70,6 +71,7 @@ Extended review cycles occur when code reviews require multiple rounds of feedba
 <br/>  Without agreed-upon coding standards, each review round surfaces new stylistic preferences from different reviewers.
 - [Large Pull Requests](large-pull-requests.md)
 <br/>  Large PRs are harder to review thoroughly in one pass, leading to issues being discovered across multiple rounds.
+
 ## Detection Methods ○
 
 - **Review Round Tracking:** Monitor the number of revision rounds required for different types of changes

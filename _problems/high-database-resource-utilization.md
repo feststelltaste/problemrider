@@ -64,6 +64,7 @@ High database resource utilization can be a major cause of poor application perf
 <br/>  Database instability from sustained high resource usage can lead to crashes and complete service outages.
 - [Resource Contention](resource-contention.md)
 <br/>  High database resource utilization creates contention where multiple queries compete for limited CPU and memory resources.
+
 ## Causes ▼
 
 - [High Number of Database Queries](high-number-of-database-queries.md)
@@ -74,6 +75,7 @@ High database resource utilization can be a major cause of poor application perf
 <br/>  Too many open database connections consume memory and CPU resources on the database server.
 - [Database Query Performance Issues](database-query-performance-issues.md)
 <br/>  Poorly optimized queries consume excessive CPU and I/O on the database server, directly contributing to high resource....
+
 ## Detection Methods ○
 
 - **Database Monitoring Tools:** Use specialized database monitoring tools (e.g., pgAdmin for PostgreSQL, MySQL Workbench, or third-party tools like Percona Monitoring and Management) to inspect resource usage, running queries, and configuration.

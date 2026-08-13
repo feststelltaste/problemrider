@@ -72,6 +72,7 @@ User confusion is a common problem in software systems. It occurs when end users
 <br/>  Confused users provide negative feedback about the system's usability and design.
 - [Customer Dissatisfaction](customer-dissatisfaction.md)
 <br/>  Persistent confusion leads to overall customer dissatisfaction with the product.
+
 ## Causes ▼
 
 - [Inconsistent Behavior](inconsistent-behavior.md)
@@ -82,6 +83,7 @@ User confusion is a common problem in software systems. It occurs when end users
 <br/>  Inconsistent labels and terminology throughout the system confuse users who cannot form a coherent mental model.
 - [Poor Documentation](poor-documentation.md)
 <br/>  Lack of clear documentation or help resources leaves users without guidance when they encounter confusing behavior.
+
 ## Detection Methods ○
 - **Usability Testing:** Use usability testing to identify areas of the system that are confusing to users.
 - **User Feedback:** Listen to user feedback to identify areas of the system that are causing confusion.

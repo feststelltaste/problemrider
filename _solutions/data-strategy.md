@@ -4,7 +4,6 @@ description: Define common data standards, formats, and integration patterns acr
 category:
 - Architecture
 - Management
-quality_tactics_url: https://qualitytactics.de/en/compatibility/data-strategy
 problems:
 - cross-system-data-synchronization-problems
 - poor-domain-model
@@ -12,6 +11,8 @@ problems:
 - integration-difficulties
 - data-migration-complexities
 - technology-stack-fragmentation
+- custom-report-sprawl
+- master-data-ownership-gaps
 layout: solution
 ---
 
