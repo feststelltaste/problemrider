@@ -68,14 +68,10 @@ Authentication bypass vulnerabilities occur when security flaws in authenticatio
 
 - [Data Protection Risk](data-protection-risk.md)
 <br/>  Bypassed authentication exposes sensitive data to unauthorized access, creating serious data protection risks.
-- [System Outages](system-outages.md)
-<br/>  Exploited authentication bypasses can lead to system compromise and subsequent outages.
 - [Legal Disputes](legal-disputes.md)
 <br/>  Data breaches resulting from authentication bypass can trigger legal action from affected parties.
 - [User Trust Erosion](user-trust-erosion.md)
 <br/>  When users learn that authentication can be bypassed, trust in the system is severely damaged.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md)
-<br/>  Authentication bypass vulnerabilities violate security compliance requirements (GDPR, HIPAA, PCI-DSS), directly pushi....
 
 ## Causes ▼
 

@@ -90,6 +90,8 @@ Data protection risk occurs when systems inadequately safeguard personal, sensit
 <br/>  Development teams lacking understanding of privacy regulations and data governance practices fail to implement adequate safeguards.
 - [Quality Compromises](quality-compromises.md)
 <br/>  Deliberately lowering quality standards to meet deadlines leads to skipping data protection reviews and proper data governance implementation.
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Bypassed authentication grants unauthorized parties direct access to personal or sensitive data.
 
 ## Detection Methods ○
 

@@ -84,6 +84,8 @@ Insufficient testing is a major cause of poor software quality. When a product i
 <br/>  Without tests as a safety net, the risk of introducing bugs with any change increases significantly.
 - [High Technical Debt](high-technical-debt.md)
 <br/>  Without a safety net of tests, refactoring becomes risky, so debt-laden code is left untouched and accumulates further.
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Without dedicated security testing such as penetration testing, authentication logic flaws that allow bypass go undetected before release.
 
 ## Causes ▼
 

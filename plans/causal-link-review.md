@@ -36,7 +36,7 @@ Reviewed in parallel batches (e.g. 10 agents at a time), one problem per agent. 
 - [x] [Architectural Mismatch](_problems/architectural-mismatch.md)
 - [x] [Assumption-Based Development](_problems/assumption-based-development.md)
 - [x] [Atomic Operation Overhead](_problems/atomic-operation-overhead.md)
-- [ ] [Authentication Bypass Vulnerabilities](_problems/authentication-bypass-vulnerabilities.md)
+- [x] [Authentication Bypass Vulnerabilities](_problems/authentication-bypass-vulnerabilities.md)
 - [ ] [Author Frustration](_problems/author-frustration.md)
 - [ ] [Authorization Flaws](_problems/authorization-flaws.md)
 - [ ] [Authorization Role Explosion](_problems/authorization-role-explosion.md)

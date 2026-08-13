@@ -62,6 +62,8 @@ Inexperienced developers refers to a situation where team members lack the knowl
 <br/>  Developers unfamiliar with hardware memory alignment requirements unknowingly create inefficient structure layouts.
 - [Atomic Operation Overhead](atomic-operation-overhead.md)
 <br/>  Developers unfamiliar with concurrent programming nuances may overuse atomic operations without understanding their performance cost.
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Developers without security expertise often implement custom authentication logic with subtle flaws that allow it to be bypassed.
 
 ## Causes ▼
 

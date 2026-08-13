@@ -73,6 +73,8 @@ Inadequate error handling occurs when applications fail to properly anticipate, 
 <br/>  When errors are not properly caught and managed, a single failure can propagate through the system triggering chain reactions.
 - [Slow Incident Resolution](slow-incident-resolution.md)
 <br/>  Poor error handling with generic messages and swallowed exceptions makes it much harder and slower to diagnose and re....
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Error-handling logic that fails open on exceptions creates fallback paths that skip required security checks.
 
 ## Causes ▼
 

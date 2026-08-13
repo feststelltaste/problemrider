@@ -65,6 +65,8 @@ Legal disputes occur when disagreements between parties in software development 
 <br/>  Vague or undefined requirements lead to disputes about what was agreed upon, as each party interprets expectations differently.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Persistent dissatisfaction with project outcomes, when unresolved through normal channels, eventually escalates to formal legal action.
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Data breaches resulting from bypassed authentication expose affected parties to harm that frequently triggers lawsuits and regulatory action.
 
 ## Detection Methods ○
 
