@@ -268,6 +268,7 @@
     z-index: 5;
     width: 0;
     height: 0;
+    animation: analysis-trail-fade-in 0.25s ease-in-out forwards;
   }
   &__node-menu-action,
   &__node-menu-list button {
@@ -324,9 +325,9 @@
   &__node-menu--add { width: max-content; height: auto; pointer-events: auto; }
   &__node-menu--add .analysis-trail__node-menu-action { min-width: 9.5rem; text-align: left; }
   &__node-hover-hit {
-    fill: transparent;
+    fill: rgba(0, 0, 0, 0.001);
     stroke: none;
-    pointer-events: fill;
+    pointer-events: all;
     cursor: pointer;
   }
   &__remove-node {
@@ -342,20 +343,20 @@
     text-decoration: none !important;
     text-decoration-line: none !important;
   }
-  &__remove-node { opacity: 0; pointer-events: none; cursor: pointer; text-decoration: none !important; transition: opacity 0.15s ease-in-out; }
+  &__remove-node { opacity: 0; pointer-events: none; cursor: pointer; text-decoration: none !important; transition: opacity 0.25s ease-in-out; }
   &__node-group.is-controls-visible .analysis-trail__remove-node,
   &__node-group:focus-within .analysis-trail__remove-node {
     opacity: 1;
     pointer-events: auto;
   }
-  &__add-node { opacity: 0; pointer-events: none; transition: opacity 0.15s ease-in-out; }
+  &__add-node { opacity: 0; pointer-events: none; transition: opacity 0.25s ease-in-out; }
   &__node-group.is-controls-visible .analysis-trail__add-node,
   &__node-group:focus-within .analysis-trail__add-node { opacity: 1; pointer-events: auto; }
   &__add-node circle { fill: transparent; stroke: none; cursor: pointer; }
   &__add-node text { fill: #111; font: normal 11px Arial, sans-serif; pointer-events: none; text-decoration: none !important; text-transform: none; }
   &__add-node:hover text, &__add-node:focus text { fill: #27ae60; }
 
-  &__link-node { opacity: 0; pointer-events: none; cursor: pointer; transition: opacity 0.15s ease-in-out; }
+  &__link-node { opacity: 0; pointer-events: none; cursor: pointer; transition: opacity 0.25s ease-in-out; }
   &__node-group.is-controls-visible .analysis-trail__link-node,
   &__node-group.is-link-source .analysis-trail__link-node,
   &__node-group:focus-within .analysis-trail__link-node { opacity: 1; pointer-events: auto; }
@@ -424,6 +425,11 @@
   &__remove-node:focus text { fill: #e53e3e; }
   &__remove-node:hover .analysis-trail__remove-icon,
   &__remove-node:focus .analysis-trail__remove-icon { fill: #e53e3e; }
+}
+
+@keyframes analysis-trail-fade-in {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 .analysis-trail-menu-button {

@@ -355,7 +355,7 @@
     var nodeElements = {};
     var nodeMenu;
     var menuHideTimer;
-    var menuHideDelay = 300;
+    var menuHideDelay = 500;
     var menuShowTimer;
     var menuShowDelay = 500;
     var activeControlLink;
@@ -747,7 +747,7 @@
       // SVG <a> inherits its text decoration, which showed up as stray underline
       // fragments beneath the "+" and "−" glyphs.
       var group = svgElement('g', { class: 'analysis-trail__node-group' });
-      var hoverHit = svgElement('circle', { cx: position.x, cy: position.y, r: '36', class: 'analysis-trail__node-hover-hit' });
+      var hoverHit = svgElement('circle', { cx: position.x, cy: position.y, r: '36', class: 'analysis-trail__node-hover-hit', fill: 'rgba(0,0,0,0.001)', 'pointer-events': 'all' });
       group.appendChild(hoverHit);
       var link = svgElement('a', { href: node.custom ? '#' : node.url, class: 'analysis-trail__node-link', 'aria-label': node.title });
       var circle = svgElement('circle', { cx: position.x, cy: position.y, r: '10', class: 'analysis-trail__node analysis-trail__node--' + node.type.replace(/\s+/g, '-') + (node.id === currentNodeId ? ' is-current' : '') });
