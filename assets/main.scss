@@ -54,7 +54,6 @@
   }
 
   &__summary,
-  &__hint,
   &__empty {
     margin: 0.35rem 0 0;
     color: #666;
@@ -62,10 +61,80 @@
     line-height: 1.35;
   }
 
-  &__hint {
-    margin-top: 0.8rem;
-    padding-top: 0.7rem;
-    border-top: 1px solid #eee;
+  &__legend-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem 1rem;
+  }
+
+  &__quick-search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 0.7rem;
+
+    input,
+    select {
+      padding: 0.25rem 0.4rem;
+      border: 1px solid #c3e0ff;
+      border-radius: 4px;
+      background: #fff;
+      color: #333;
+      font: inherit;
+      font-size: 0.72rem;
+    }
+
+    input { width: 11rem; }
+  }
+
+  &__quick-results {
+    position: absolute;
+    z-index: 20;
+    right: 0;
+    bottom: calc(100% + 0.25rem);
+    display: grid;
+    width: 20rem;
+    max-height: 12rem;
+    overflow-y: auto;
+    border: 1px solid #c3e0ff;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+
+    &[hidden] { display: none; }
+
+    button {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      border: 0;
+      border-bottom: 1px solid #e6f3ff;
+      padding: 0.35rem 0.5rem;
+      background: #fff;
+      color: #333;
+      font: inherit;
+      font-size: 0.72rem;
+      text-align: left;
+      cursor: pointer;
+
+      &:hover,
+      &:focus { background: #e6f3ff; color: #007acc; }
+    }
+  }
+
+  &__quick-badge {
+    flex: none;
+    border-radius: 3px;
+    padding: 0.05rem 0.3rem;
+    color: #fff;
+    background: #111;
+    font-size: 0.62rem;
+    font-weight: bold;
+
+    &--solution { background: #007acc; }
   }
 
   &__legend {
@@ -81,13 +150,40 @@
     li { display: flex; align-items: center; gap: 0.25rem; }
   }
 
+  // The legend uses exactly the stroke colours of the graph edges, so a legend
+  // entry and the line it explains never differ in shade.
   &__legend-line {
+    position: relative;
     display: inline-block;
     width: 1.25rem;
-    border-top: 2px solid #4a5568;
+    border-top: 2px solid #cbd5e1;
+
+    &--causes::after,
+    &--addresses::after {
+      position: absolute;
+      right: -1px;
+      top: -5px;
+      width: 0;
+      height: 0;
+      border-top: 4px solid transparent;
+      border-bottom: 4px solid transparent;
+      border-left: 5px solid #cbd5e1;
+      content: '';
+    }
 
     &--addresses { border-top-style: dashed; }
-    &--similar { border-top-color: #e5e7eb; }
+    &--similar { border-top-color: #f1f5f9; }
+  }
+
+  &__legend-node {
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #111;
+
+    &--solution { background: #007acc; }
   }
 
   &__reset,
@@ -107,18 +203,29 @@
   }
 
   &__zoom {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     min-width: 1.7rem;
+    min-height: 1.7rem;
     padding-left: 0.35rem;
     padding-right: 0.35rem;
     font-size: 1rem;
     line-height: 1;
   }
 
+  &__exports { display: inline-flex; flex-direction: row; align-items: center; gap: 0.3rem; }
+  &__export-primary { display: inline-flex; flex-direction: column; gap: 0.15rem; }
+  &__export-secondary { display: inline-flex; flex-direction: column; gap: 0.15rem; }
+  &__workbench-files { display: inline-flex; flex-direction: column; gap: 0.15rem; }
+  &__export-button { padding: 0.15rem 0.4rem; border-radius: 8px; font-size: 0.68rem; line-height: 1.1; }
+
   &__graph {
     position: relative;
     margin-top: 0.85rem;
-    padding: 2rem 0.15rem 0.35rem;
-    max-height: 360px;
+    // Extra room at the bottom so the lowest node circle is not clipped.
+    padding: 2rem 0.15rem 1.4rem;
+    max-height: 420px;
     overflow-y: auto;
     border: 1px solid #eee;
     border-radius: 6px;
@@ -127,19 +234,28 @@
   &__graph svg { display: block; width: 100%; min-height: 185px; cursor: grab; }
   &__graph svg.is-panning { cursor: grabbing; }
   &__graph svg.is-space-panning { cursor: grab; }
-  &__edge { fill: none; stroke: #a0aec0; stroke-width: 1.6; }
-  &__edge--contextual-causes { stroke: #d7dce2; stroke-width: 1.2; }
-  &__edge--related { stroke: #e5e7eb; stroke-width: 1; }
+  &__edge { fill: none; stroke: #cbd5e1; stroke-width: 1.6; }
+  &__edge--contextual-causes { stroke: #e2e8f0; stroke-width: 1.2; }
+  &__edge--related { stroke: #f1f5f9; stroke-width: 1; }
   &__edge--addresses { stroke-dasharray: 5 3; }
-  &__node { stroke: #fff; stroke-width: 2px; fill: #111; }
-  &__node--solution { fill: #007acc; }
-  &__node.is-current { stroke: #007acc; stroke-width: 3px; }
-  &__node-link:hover .analysis-trail__node { stroke: #007acc; stroke-width: 3px; }
+  &__node { stroke: #fff; stroke-width: 2px; fill: #111; cursor: pointer; }
+  &__node-link,
+  &__node-link:hover,
+  &__node-link:focus,
+  &__node-link:focus-within { text-decoration: none !important; text-decoration-line: none !important; }
+  // A transparent stroke still eats half its width out of the visible fill, so
+  // these used to render smaller than the default nodes. White keeps them the
+  // same size while staying invisible on the light background.
+  &__node--symptom { stroke: #fff; }
+  &__node--solution { fill: #007acc; stroke: #fff; }
+  // Highlighting only ever changes the stroke colour. Varying the width would
+  // change how much of the fill the stroke covers and make the circles differ
+  // in size.
+  &__node.is-current { stroke: #007acc; }
+  &__node--solution.is-current { stroke: #111; }
   &__node-label {
     fill: #555;
-    stroke: #fff;
-    stroke-width: 3px;
-    paint-order: stroke;
+    stroke: none;
     font-size: 8px;
     cursor: pointer;
   }
@@ -148,52 +264,68 @@
     z-index: 5;
     width: 0;
     height: 0;
+    animation: analysis-trail-fade-in 0.25s ease-in-out forwards;
   }
   &__node-menu-action,
   &__node-menu-list button {
-    border: 1px solid #c3e0ff;
+    border: 1.5px solid #80bfff;
     border-radius: 10px;
-    padding: 0.2rem 0.4rem;
-    color: #007acc;
-    background: #e6f3ff;
+    padding: 0.65rem 1.15rem;
+    color: #0066b2;
+    background: #ffffff;
     font: inherit;
-    font-size: 0.68rem;
+    font-size: 1.05rem;
+    font-weight: 600;
     cursor: pointer;
+    box-shadow: 0 4px 14px rgba(0, 102, 178, 0.2);
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
   }
   &__node-menu-action { position: absolute; white-space: nowrap; }
-  &__node-menu-action--symptoms { right: 13px; bottom: 5px; }
-  &__node-menu-action--causes { right: 13px; top: 5px; }
-  &__node-menu-action--solutions { left: 13px; top: 5px; }
-  &__node-menu-action--similar-problems { left: 13px; bottom: 5px; }
+  &__node-menu-action--symptoms { right: 40px; bottom: 6px; }
+  &__node-menu-action--causes { right: 40px; top: 14px; }
+  &__node-menu-action--solutions { left: 40px; top: 14px; }
+  &__node-menu-action--similar-problems { left: 40px; bottom: 6px; }
   &__node-menu-action--addressed-problems {
-    right: 13px;
-    bottom: 5px;
+    right: 40px;
+    bottom: 6px;
   }
-  &__node-menu-action--similar-solutions { right: 13px; top: 5px; }
+  &__node-menu-action--similar-solutions { right: 40px; top: 14px; }
+  &__node-menu-action--add { left: 20px; top: 50%; transform: translateY(-50%); font-size: 1.35rem; font-weight: bold; }
+  &__node-menu-add-form { position: absolute; left: 42px; top: 50%; transform: translateY(-50%); display: flex; gap: 0.5rem; align-items: center; padding: 0.65rem 0.95rem; border: 1.5px solid #80bfff; border-radius: 10px; background: #fff; box-shadow: 0 6px 20px rgba(0,0,0,0.22); white-space: nowrap; }
+  &__node-menu-add-form input, &__node-menu-add-form select, &__node-menu-add-form button { font: inherit; font-size: 0.95rem; padding: 0.45rem 0.7rem; border: 1px solid #80bfff; border-radius: 6px; }
+  &__node-menu-add-form button { color: #fff; background: #007acc; cursor: pointer; font-weight: bold; }
   &__node-menu-action:hover,
   &__node-menu-action:focus,
   &__node-menu-list button:hover,
-  &__node-menu-list button:focus { color: #fff; background: #007acc; }
+  &__node-menu-list button:focus { color: #fff; background: #007acc; border-color: #007acc; box-shadow: 0 6px 18px rgba(0, 122, 204, 0.4); transform: scale(1.03); }
   &__node-menu-list {
     position: absolute;
-    top: 34px;
-    left: 18px;
+    top: 48px;
+    left: 28px;
     display: grid;
-    gap: 0.2rem;
-    width: 170px;
-    padding: 0.35rem;
-    max-height: 150px;
+    gap: 0.5rem;
+    width: 320px;
+    padding: 0.85rem;
+    max-height: 260px;
     overflow-y: auto;
-    border: 1px solid #c3e0ff;
-    border-radius: 6px;
+    border: 1.5px solid #80bfff;
+    border-radius: 12px;
     background: #fff;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-    color: #666;
-    font-size: 0.7rem;
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.24);
+    color: #222;
+    font-size: 0.98rem;
   }
   &__node-menu-list.is-expanded { max-height: none; }
-  &__node-menu-list button { border-radius: 3px; text-align: left; }
+  &__node-menu-list button { border-radius: 8px; text-align: left; padding: 0.6rem 0.9rem; line-height: 1.45; }
   &__node-menu-show-all { font-weight: bold; text-align: center !important; }
+  &__node-menu--add { width: max-content; height: auto; pointer-events: auto; }
+  &__node-menu--add .analysis-trail__node-menu-action { min-width: 9.5rem; text-align: left; }
+  &__node-hover-hit {
+    fill: rgba(0, 0, 0, 0.001);
+    stroke: none;
+    pointer-events: all;
+    cursor: pointer;
+  }
   &__remove-node {
     cursor: pointer;
     opacity: 0;
@@ -201,18 +333,100 @@
     text-decoration: none !important;
     text-decoration-line: none !important;
   }
-  &__node-link .analysis-trail__remove-node,
-  &__node-link .analysis-trail__remove-node:hover,
-  &__node-link .analysis-trail__remove-node:focus {
+  &__node-link,
+  &__node-link:hover,
+  &__node-link:focus {
     text-decoration: none !important;
     text-decoration-line: none !important;
   }
-  &__node-link:hover .analysis-trail__remove-node,
-  &__node-link:focus .analysis-trail__remove-node,
-  &__node-link:focus-within .analysis-trail__remove-node {
+  // Only the second click, which sets is-controls-visible, shows the controls.
+  // Reacting to plain focus made them flash up on the first click, because the
+  // click focuses the node link before the article starts loading. Keyboard
+  // users still reach them through :focus-visible, which a mouse click does not
+  // trigger. Those rules stay separate: a browser without :has() drops the whole
+  // rule it appears in, which must not take the click behaviour with it.
+  &__remove-node { opacity: 0; pointer-events: none; cursor: pointer; text-decoration: none !important; transition: opacity 0.25s ease-in-out; }
+  &__node-group.is-controls-visible .analysis-trail__remove-node {
     opacity: 1;
     pointer-events: auto;
   }
+  &__node-group:has(:focus-visible) .analysis-trail__remove-node {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  &__add-node { opacity: 0; pointer-events: none; transition: opacity 0.25s ease-in-out; }
+  &__node-group.is-controls-visible .analysis-trail__add-node { opacity: 1; pointer-events: auto; }
+  &__node-group:has(:focus-visible) .analysis-trail__add-node { opacity: 1; pointer-events: auto; }
+  &__add-node circle { fill: transparent; stroke: none; cursor: pointer; }
+  &__add-node text { fill: #111; font: normal 11px Arial, sans-serif; pointer-events: none; text-decoration: none !important; text-transform: none; }
+  &__add-node:hover text, &__add-node:focus text { fill: #27ae60; }
+
+  &__link-node { opacity: 0; pointer-events: none; cursor: pointer; transition: opacity 0.25s ease-in-out; }
+  &__node-group.is-controls-visible .analysis-trail__link-node,
+  &__node-group.is-link-source .analysis-trail__link-node { opacity: 1; pointer-events: auto; }
+  &__node-group:has(:focus-visible) .analysis-trail__link-node { opacity: 1; pointer-events: auto; }
+  &__link-hit { fill: transparent; stroke: none; pointer-events: painted; }
+  &__link-icon {
+    pointer-events: none;
+
+    line { stroke: #111; stroke-width: 1.2; }
+    circle { fill: #111; stroke: none; }
+  }
+  &__link-node:hover .analysis-trail__link-icon,
+  &__link-node:focus .analysis-trail__link-icon {
+    line { stroke: #007acc; }
+    circle { fill: #007acc; }
+  }
+  // While a connection is pending the source stays marked and every other node
+  // reads as a possible target.
+  &__node-group.is-link-source .analysis-trail__link-icon {
+    line { stroke: #007acc; }
+    circle { fill: #007acc; }
+  }
+  &__node-group.is-link-source .analysis-trail__node { stroke: #007acc; }
+  &__graph svg.is-linking { cursor: crosshair; }
+  &__graph svg.is-linking .analysis-trail__node { cursor: crosshair; }
+
+  // Invisible, wider copy of each edge so the double-click target is reachable.
+  &__edge-hit {
+    fill: none;
+    stroke: transparent;
+    stroke-width: 12;
+    cursor: pointer;
+  }
+  &__add-modal { position: fixed; inset: 0; z-index: 10000; display: grid; place-items: center; background: rgba(0,0,0,0.45); }
+  &__add-modal[hidden] { display: none; }
+  &__add-modal-content { width: min(520px, calc(100vw - 2rem)); padding: 1.5rem; border-radius: 12px; background: #fff; box-shadow: 0 8px 30px rgba(0,0,0,0.3); font-size: 1rem; }
+  &__add-modal-content h3 { margin: 0 0 0.75rem; font-size: 1.35rem; color: #111; }
+  &__add-modal-type-group { margin-bottom: 0.9rem; }
+  &__add-modal-type-label { display: block; font-weight: 500; margin-bottom: 0.35rem; font-size: 0.95rem; color: #444; }
+  &__add-modal-type-buttons { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  &__type-btn {
+    padding: 0.45rem 0.85rem;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    background: #fff;
+    color: #475569;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    &:hover { border-color: #007acc; color: #007acc; background: #f0f7ff; }
+    &.is-active { background: #007acc; border-color: #007acc; color: #fff; font-weight: 600; box-shadow: 0 2px 6px rgba(0, 122, 204, 0.3); }
+  }
+  // The modal offers different types per source node, so the ones that do not
+  // fit are hidden rather than removed.
+  &__type-btn[hidden] { display: none; }
+  &__add-modal-content label { display: grid; gap: 0.35rem; margin-bottom: 0.9rem; color: #444; font-size: 0.95rem; font-weight: 500; }
+  &__add-modal-content input, &__add-modal-content select { width: 100%; box-sizing: border-box; padding: 0.65rem 0.85rem; border: 1.5px solid #80bfff; border-radius: 6px; background: #fff; font: inherit; font-size: 0.95rem; }
+  &__add-modal-actions { display: flex; justify-content: flex-end; gap: 0.6rem; margin-top: 1.2rem; }
+  &__add-modal-content button { padding: 0.55rem 1.1rem; border: 1.5px solid #80bfff; border-radius: 6px; background: #edf6ff; color: #0066b2; font: inherit; font-size: 0.95rem; font-weight: 600; cursor: pointer; }
+  &__add-modal-actions button:last-child { background: #007acc; color: #fff; border-color: #007acc; }
+  &__add-search-results { display: grid; max-height: 14rem; margin: -0.45rem 0 0.85rem; overflow-y: auto; border: 1.5px solid #80bfff; border-radius: 6px; }
+  &__add-search-results[hidden] { display: none; }
+  &__add-search-results button { border: 0; border-bottom: 1px solid #e6f3ff; border-radius: 0; background: #fff; color: #222; text-align: left; padding: 0.65rem 0.85rem; font-size: 0.95rem; }
+  &__add-search-results button:hover, &__add-search-results button:focus { background: #edf6ff; color: #0066b2; }
+  &__add-selection { margin: 0 0 0.85rem; color: #555; font-size: 0.88rem; }
   &__remove-node text {
     fill: #111;
     font-size: 15px;
@@ -221,20 +435,25 @@
     text-decoration: none !important;
     text-decoration-line: none !important;
   }
-  &__remove-icon,
-  &__remove-icon line {
-    fill: none;
-    stroke: #111;
-    stroke-width: 2px;
-    stroke-linecap: round;
+  &__remove-icon {
+    fill: #111;
+    stroke: none;
+    font: normal 11px Arial, sans-serif;
     pointer-events: none;
     text-decoration: none !important;
+    text-transform: none;
   }
+  &__remove-node .analysis-trail__remove-icon { font: normal 11px Arial, sans-serif; }
   &__remove-hit { fill: transparent; stroke: none; pointer-events: painted; }
   &__remove-node:hover text,
   &__remove-node:focus text { fill: #e53e3e; }
-  &__remove-node:hover .analysis-trail__remove-icon line,
-  &__remove-node:focus .analysis-trail__remove-icon line { stroke: #e53e3e; }
+  &__remove-node:hover .analysis-trail__remove-icon,
+  &__remove-node:focus .analysis-trail__remove-icon { fill: #e53e3e; }
+}
+
+@keyframes analysis-trail-fade-in {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
 }
 
 .analysis-trail-menu-button {
@@ -256,7 +475,29 @@
   font-weight: bold;
   cursor: pointer;
 
-  span {
+  &__count {
+    position: absolute;
+    right: 50%;
+    bottom: calc(-0.7rem - 3px);
+    transform: translateX(50%);
+    display: grid;
+    place-items: center;
+    width: 1.15rem;
+    height: 1.15rem;
+    padding: 0;
+    border-radius: 50%;
+    border: 1px solid #c3e0ff;
+    color: #007acc;
+    background: #e6f3ff;
+    font-size: 0.68rem;
+    line-height: 1;
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+  }
+
+  // Only the label runs vertically. Without the exclusion this rule outranks
+  // the more specific-looking &__count block and rotates the number too.
+  span:not([data-analysis-trail-count]) {
     writing-mode: vertical-rl;
     text-orientation: mixed;
   }
@@ -288,13 +529,13 @@
   body.analysis-trail-expanded .site-footer {
     position: relative;
     z-index: 21;
-    width: 50%;
+    width: var(--analysis-trail-split, 50%);
     box-sizing: border-box;
     background: #fff;
   }
 
   body.analysis-trail-expanded .site-header {
-    width: 50%;
+    width: var(--analysis-trail-split, 50%);
   }
 
   body.analysis-trail-expanded .site-footer {
@@ -314,7 +555,7 @@
   }
 
   body.analysis-trail-expanded .page-content {
-    width: 50%;
+    width: var(--analysis-trail-split, 50%);
     height: auto;
     overflow: visible;
     overflow-x: hidden;
@@ -333,7 +574,10 @@
       display: block;
       position: fixed;
       z-index: 20;
-      inset: 0 0 0 50%;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: var(--analysis-trail-split, 50%);
       width: auto;
       box-sizing: border-box;
       overflow-y: auto;
@@ -343,6 +587,74 @@
       border-top: 5px solid #007acc;
       border-radius: 0;
       box-shadow: -3px 0 12px rgba(0, 0, 0, 0.08);
+
+      &__resizer {
+        display: flex;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: var(--analysis-trail-split, 50%);
+        transform: translateX(-50%);
+        width: 16px;
+        cursor: col-resize;
+        z-index: 1000;
+        user-select: none;
+        touch-action: none;
+        align-items: center;
+        justify-content: center;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 7px;
+          width: 2px;
+          background: #ccc;
+          transition: background 0.15s ease, width 0.15s ease;
+        }
+
+        .analysis-trail__resizer-handle {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 16px;
+          height: 36px;
+          background: #fff;
+          border: 1px solid #bbb;
+          border-radius: 4px;
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: border-color 0.15s ease, background 0.15s ease;
+
+          &::after {
+            content: "⋮";
+            font-size: 14px;
+            line-height: 1;
+            color: #555;
+            font-weight: bold;
+          }
+        }
+
+        &:hover::before,
+        &.is-dragging::before {
+          background: #007acc;
+          width: 3px;
+        }
+
+        &:hover .analysis-trail__resizer-handle,
+        &.is-dragging .analysis-trail__resizer-handle {
+          border-color: #007acc;
+          background: #f0f7ff;
+
+          &::after {
+            color: #007acc;
+          }
+        }
+      }
 
       &__graph {
         max-height: calc(100vh - 275px);

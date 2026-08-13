@@ -104,6 +104,20 @@ permalink: /landscape/
     .control-text {
         color: #495057;
     }
+    .export-button {
+        width: 100%;
+        margin-top: 8px;
+        padding: 8px 10px;
+        border: 1px solid #667eea;
+        border-radius: 4px;
+        background: #667eea;
+        color: white;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .export-button:hover {
+        background: #764ba2;
+    }
     .modal {
         display: none;
         position: fixed;
@@ -277,6 +291,7 @@ permalink: /landscape/
         <span class="control-icon">&#128196;</span>
         <span class="control-text">Double-click for full details</span>
     </div>
+    <button id="miro-export" class="export-button" type="button">Export for Miro (CSV)</button>
 </div>
 
 <div id="modal" class="modal">

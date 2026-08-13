@@ -60,6 +60,16 @@ To build the site and run it locally, use the following command:
 
 The site will be available at [http://localhost:4000](http://localhost:4000).
 
+### Fast Build for Styles and Scripts (Asset-Only)
+
+When making changes only to styling (SCSS/CSS) or scripts (JS) without modifying Markdown problem or solution content, use the `--incremental` build flag:
+
+`bundle exec jekyll build --incremental`
+
+Or for fast local serving with incremental updates:
+
+`bundle exec jekyll serve --incremental`
+
 ### Graph Visualization Prototype
 
 Run the `scripts/create_visualization.py` with Python to generate the D3 graph visualization.
@@ -99,3 +109,7 @@ The catalog uses 15 core categories to organize problems:
 15. **Culture** - individual issues, workplace health, organizational problems
 
 New categories may be added only if really needed and cannot be reasonably mapped to one of the existing 15 categories.
+
+## Development Workflow Rules
+
+* Do not automatically trigger `bundle exec jekyll build` / `jekyll serve` after intermediate code edits during active iteration steps. Only run build commands when explicitly asked by the user or when all task changes are completely finished.
