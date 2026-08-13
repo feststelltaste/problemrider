@@ -60,8 +60,8 @@
       while (previous) {
         if (previous.tagName === 'H2') {
           var heading = previous.textContent.trim();
-          if (heading.indexOf('Symptoms') === 0) return { label: 'causes', direction: 'forward', targetType: 'symptom' };
-          if (heading.indexOf('Root Causes') === 0) return { label: 'causes', direction: 'reverse', targetType: 'root cause' };
+          if (heading.indexOf('Symptoms') === 0 || heading.indexOf('Symptom') === 0) return { label: 'causes', direction: 'forward', targetType: 'symptom' };
+          if (heading.indexOf('Root Causes') === 0 || heading.indexOf('Causes') === 0) return { label: 'causes', direction: 'reverse', targetType: 'root cause' };
           break;
         }
         previous = previous.previousElementSibling;
@@ -140,9 +140,10 @@
     if (selector) {
       links = Array.prototype.slice.call(pageDocument.querySelectorAll(selector));
     } else {
-      var headingStart = kind === 'symptoms' ? 'Symptoms' : 'Root Causes';
+      var headingStart = kind === 'symptoms' ? 'Symptoms' : 'Causes';
       var heading = Array.prototype.slice.call(pageDocument.querySelectorAll('h2')).filter(function (item) {
-        return item.textContent.trim().indexOf(headingStart) === 0;
+        var text = item.textContent.trim();
+        return kind === 'causes' ? /^(Root )?Causes/.test(text) : /^Symptoms?/.test(text);
       })[0];
       if (heading) {
         var sibling = heading.nextElementSibling;
