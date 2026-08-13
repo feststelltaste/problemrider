@@ -11,7 +11,13 @@ in the catalog are recorded on both sides. 1,739 exist only as a symptom of the 
 - The two problem files disagree about whether a relation exists, so which one a reader
   lands on determines what they see
 - The graph cannot be trusted for analysis, prioritization, or visualization
-- Cycles spanning 40 problems exist, indicating the graph has lost any hierarchy
+- All 452 problems fall into one strongly connected component: every problem both
+  causes and is caused by every other, so nothing can be identified as a root cause.
+  Restricted to the 488 claims both files agree on, the graph breaks into 357
+  components with a largest of 7, 109 root causes, and 106 terminal symptoms — the
+  structure root-cause analysis needs. The one-sided claims are what dissolves it.
+- Small feedback loops are expected and legitimate in this domain; the defect is the
+  loss of any direction across the catalog, not the presence of loops
 
 **Root Cause**: Symptoms and causes were authored per problem file, by an LLM prompt
 (`.claude/commands/pr/link_problems.md`) that considers one file at a time. Nothing ever

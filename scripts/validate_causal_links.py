@@ -14,8 +14,11 @@ The checks are structural and need no model:
   self           a problem lists itself
   asymmetry      an edge recorded on only one side, so the two problem files
                  disagree about whether the relation exists
-  cycle          a causal loop, which may be a real reinforcing loop but is more
-                 often an artifact of edges added independently
+  structure      how much of the graph collapses into one strongly connected
+                 component. Small feedback loops are a real property of the
+                 domain and are expected. A single component spanning the whole
+                 catalog is not a loop, it means every problem both causes and
+                 is caused by every other, so no problem can be a root cause
   hub            a problem far above the usual degree, which tends to indicate
                  links added because they were plausible rather than specific
 
@@ -69,34 +72,59 @@ def load_problems():
     return problems
 
 
-def find_cycles(edges, limit=25):
-    """Return up to `limit` simple cycles found by depth-first search."""
+def strongly_connected_components(edges):
+    """
+    Return the strongly connected components of the causal graph, largest first.
+
+    Counting cycles is not informative here: a depth-first search in a dense
+    graph reports arbitrarily long ones and the count depends on traversal
+    order. Components answer the question that matters — whether the graph
+    still has a direction, or whether everything reaches everything.
+    """
     successors = defaultdict(list)
+    predecessors = defaultdict(list)
+    nodes = set()
     for source, target in edges:
         successors[source].append(target)
+        predecessors[target].append(source)
+        nodes |= {source, target}
 
-    cycles = []
-    colour = {}
-
-    def walk(node, path):
-        if len(cycles) >= limit:
-            return
-        colour[node] = 'open'
-        path.append(node)
-        for nxt in successors[node]:
-            if colour.get(nxt) == 'open':
-                cycles.append(path[path.index(nxt):] + [nxt])
-                if len(cycles) >= limit:
+    visited = set()
+    order = []
+    for start in nodes:
+        if start in visited:
+            continue
+        visited.add(start)
+        stack = [(start, iter(successors[start]))]
+        while stack:
+            node, following = stack[-1]
+            for nxt in following:
+                if nxt not in visited:
+                    visited.add(nxt)
+                    stack.append((nxt, iter(successors[nxt])))
                     break
-            elif nxt not in colour:
-                walk(nxt, path)
-        path.pop()
-        colour[node] = 'done'
+            else:
+                order.append(node)
+                stack.pop()
 
-    for node in list(successors):
-        if node not in colour:
-            walk(node, [])
-    return cycles
+    assigned = {}
+    components = []
+    for node in reversed(order):
+        if node in assigned:
+            continue
+        component = []
+        stack = [node]
+        assigned[node] = len(components)
+        while stack:
+            current = stack.pop()
+            component.append(current)
+            for previous in predecessors[current]:
+                if previous not in assigned:
+                    assigned[previous] = len(components)
+                    stack.append(previous)
+        components.append(component)
+
+    return sorted(components, key=len, reverse=True)
 
 
 def main():
@@ -135,7 +163,14 @@ def main():
 
     out_degree = Counter(a for a, _ in edges)
     in_degree = Counter(b for _, b in edges)
-    cycles = find_cycles(edges)
+
+    def structure(edge_set):
+        """Component count, largest component, and the roots and leaves left."""
+        components = strongly_connected_components(edge_set)
+        nodes = {n for edge in edge_set for n in edge}
+        sources = {n for n in nodes if not any(b == n for _, b in edge_set)}
+        sinks = {n for n in nodes if not any(a == n for a, _ in edge_set)}
+        return components, nodes, sources, sinks
 
     print(f'Problems: {len(problems)}')
     print(f'Causal claims: {len(edges)}')
@@ -147,7 +182,17 @@ def main():
     print(f'Contradictions (cause and effect at once): {len(contradictions)}')
     print(f'Self links: {len(self_links)}')
     print(f'Links to missing problems: {len(dangling)}')
-    print(f'Cycles found (up to {25}): {len(cycles)}')
+
+    for label, edge_set in (('all claims', edges),
+                            ('claims both files agree on', both_sides)):
+        components, nodes, sources, sinks = structure(edge_set)
+        largest = len(components[0]) if components else 0
+        share = largest / len(nodes) * 100 if nodes else 0
+        print(f'Structure of {label}: {len(edge_set)} claims over {len(nodes)} problems')
+        print(f'  components: {len(components)}, largest holds {largest} '
+              f'({share:.0f}% of the problems involved)')
+        print(f'  root causes (nothing causes them): {len(sources)}, '
+              f'terminal symptoms (they cause nothing): {len(sinks)}')
 
     def median(counter):
         values = sorted(counter[s] for s in problems)
@@ -165,7 +210,10 @@ def main():
             ('Contradictions', [f'{a} <-> {b}' for a, b in contradictions]),
             ('Self links', self_links),
             ('Links to missing problems', [f'{a} -> {b}' for a, b in dangling]),
-            ('Cycles', [' -> '.join(c) for c in cycles]),
+            ('Components larger than one problem',
+             [f'{len(c)}: ' + ', '.join(problems[n]['title'] for n in sorted(c)[:6])
+              + ('...' if len(c) > 6 else '')
+              for c in strongly_connected_components(edges) if len(c) > 1]),
             ('Outgoing hubs', [f'{problems[s]["title"]}: {c}' for s, c in out_hubs]),
             ('Incoming hubs', [f'{problems[s]["title"]}: {c}' for s, c in in_hubs]),
         ):
