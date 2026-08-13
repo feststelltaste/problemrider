@@ -817,7 +817,8 @@
       var url = URL.createObjectURL(blob);
       var link = document.createElement('a');
       link.href = url;
-      link.download = 'analysis-workbench.svg';
+      var timestamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z');
+      link.download = 'analysis-workbench-' + timestamp + '.svg';
       document.body.appendChild(link);
       link.click();
       link.remove();
