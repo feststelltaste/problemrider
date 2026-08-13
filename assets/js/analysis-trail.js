@@ -510,23 +510,10 @@
     }
 
     function hideNodeMenu() {
-      window.clearTimeout(menuShowTimer);
       if (nodeMenu) nodeMenu.remove();
       nodeMenu = null;
       if (activeControlLink) activeControlLink.classList.remove('is-controls-visible');
       activeControlLink = null;
-    }
-
-    function scheduleMenuHide() {
-      window.clearTimeout(menuHideTimer);
-      menuHideTimer = window.setTimeout(function () {
-        hideNodeMenu();
-      }, menuHideDelay);
-    }
-
-    function keepMenuOpen() {
-      window.clearTimeout(menuHideTimer);
-      window.clearTimeout(menuShowTimer);
     }
 
     function loadPageDynamically(url, shouldPushState) {
@@ -634,9 +621,6 @@
           var list = document.createElement('div');
           list.className = 'analysis-trail__node-menu-list';
           list.setAttribute('data-kind', kind);
-          list.textContent = 'Loading…';
-          list.addEventListener('pointerenter', keepMenuOpen);
-          list.addEventListener('pointerleave', scheduleMenuHide);
           var actionBounds = action.getBoundingClientRect();
           var menuBounds = nodeMenu.getBoundingClientRect();
           var actionCenterX = actionBounds.left + actionBounds.width / 2;
@@ -699,12 +683,9 @@
             }
           }).catch(function () { list.textContent = 'Could not load references.'; });
         }
-        action.addEventListener('pointerenter', keepMenuOpen);
         action.addEventListener('click', openActionList);
         nodeMenu.appendChild(action);
       });
-      nodeMenu.addEventListener('pointerenter', function () { window.clearTimeout(menuHideTimer); });
-      nodeMenu.addEventListener('pointerleave', scheduleMenuHide);
       container.appendChild(nodeMenu);
     }
 
@@ -879,23 +860,8 @@
 
     Object.keys(nodeElements).forEach(function (nodeId) {
       var nodeElement = nodeElements[nodeId];
-      // The hover state now lives on the wrapping group so it also covers the
-      // controls that were moved out of the link.
       var nodeGroup = nodeElement.group;
-      nodeGroup.addEventListener('pointerenter', function () {
-        keepMenuOpen();
-        window.clearTimeout(menuShowTimer);
-        menuShowTimer = window.setTimeout(function () {
-          if (activeControlLink && activeControlLink !== nodeGroup) activeControlLink.classList.remove('is-controls-visible');
-          activeControlLink = nodeGroup;
-          nodeGroup.classList.add('is-controls-visible');
-          showNodeMenu(nodeElement.node);
-        }, menuShowDelay);
-      });
-      nodeGroup.addEventListener('pointerleave', function () {
-        window.clearTimeout(menuShowTimer);
-        scheduleMenuHide();
-      });
+
       nodeElement.link.addEventListener('pointerdown', function (event) {
         if (event.button !== 0) return;
         if (spacePressed) return;
@@ -905,19 +871,42 @@
         dragStart = { clientX: event.clientX, clientY: event.clientY };
         svg.setPointerCapture(event.pointerId);
       });
-      // A single click never navigates. It would reload the page while a
-      // connection is being drawn, so opening the article needs a double-click.
+
       nodeElement.link.addEventListener('click', function (event) {
         event.preventDefault();
         if (suppressClick) {
           suppressClick = false;
           return;
         }
-        if (linkingFrom && linkingFrom !== nodeId) {
-          var sourceId = linkingFrom;
-          stopLinking();
-          connectNodes(sourceId, nodeId);
-          render(trail);
+
+        // Linking mode: connect source and target
+        if (linkingFrom) {
+          if (linkingFrom !== nodeId) {
+            var sourceId = linkingFrom;
+            stopLinking();
+            connectNodes(sourceId, nodeId);
+            render(trail);
+          }
+          return;
+        }
+
+        // 2-Step Click Model:
+        // 1st click on node: loads article & focuses node.
+        // 2nd click on already focused node: opens/toggles reference & add menus!
+        if (node && node.id === nodeId) {
+          if (nodeMenu && activeControlLink === nodeGroup) {
+            hideNodeMenu();
+          } else {
+            if (activeControlLink && activeControlLink !== nodeGroup) activeControlLink.classList.remove('is-controls-visible');
+            activeControlLink = nodeGroup;
+            nodeGroup.classList.add('is-controls-visible');
+            showNodeMenu(nodeElement.node);
+          }
+        } else {
+          hideNodeMenu();
+          if (nodeElement.node.url && nodeElement.node.url !== '#') {
+            loadPageDynamically(nodeElement.node.url, true);
+          }
         }
       });
       nodeElement.link.addEventListener('dblclick', function (event) {
