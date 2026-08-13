@@ -36,6 +36,11 @@ solutions:
 - total-cost-of-ownership-transparency
 - application-portfolio-inventory
 - system-decommissioning
+- baseline-measurement
+- cost-of-delay
+- modernization-options-comparison
+- risk-quantification
+- value-hierarchy
 layout: problem
 ---
 

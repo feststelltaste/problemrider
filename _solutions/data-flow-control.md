@@ -4,7 +4,6 @@ description: Control and filter data flows between components and systems
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/security/data-flow-control
 problems:
 - insecure-data-transmission
 - data-protection-risk

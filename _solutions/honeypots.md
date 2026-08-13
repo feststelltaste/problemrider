@@ -3,7 +3,6 @@ title: Honeypots
 description: Deploying specially secured systems as bait for attackers
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/honeypots
 problems:
 - monitoring-gaps
 - authentication-bypass-vulnerabilities

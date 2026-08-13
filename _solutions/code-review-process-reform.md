@@ -1,6 +1,6 @@
 ---
 title: Code Reviews
-description: Systematic review of the source code by other developers
+description: Review source code systematically through peer feedback
 category:
 - Process
 - Code

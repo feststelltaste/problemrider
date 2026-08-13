@@ -4,7 +4,6 @@ description: Elicit and document specific requirements for information security
 category:
 - Security
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/security/security-requirements-definition
 problems:
 - inadequate-requirements-gathering
 - requirements-ambiguity

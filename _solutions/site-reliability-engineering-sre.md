@@ -4,7 +4,6 @@ description: Applying principles for stable system operations
 category:
 - Operations
 - Process
-quality_tactics_url: https://qualitytactics.de/en/reliability/site-reliability-engineering-sre
 problems:
 - system-outages
 - constant-firefighting

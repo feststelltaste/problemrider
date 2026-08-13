@@ -4,7 +4,6 @@ description: Enable interoperability through shared data platforms, standards, a
 category:
 - Architecture
 - Database
-quality_tactics_url: https://qualitytactics.de/en/compatibility/data-ecosystems
 problems:
 - cross-system-data-synchronization-problems
 - integration-difficulties

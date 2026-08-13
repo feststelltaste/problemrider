@@ -3,7 +3,6 @@ title: Protocol Abstraction
 description: Decoupling communication protocols through abstraction
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/protocol-abstraction
 problems:
 - technology-lock-in
 - tight-coupling-issues

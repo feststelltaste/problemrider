@@ -30,6 +30,7 @@ solutions:
 - psychological-safety-practices
 - small-change-batches
 - written-first-communication
+- executive-sponsorship
 layout: problem
 ---
 

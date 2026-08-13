@@ -1,6 +1,6 @@
 ---
 title: Impact Mapping
-description: Mapping business goals through actors and impacts to concrete deliverables
+description: Map business goals through actors and impacts to concrete deliverables
 category:
 - Business
 - Management

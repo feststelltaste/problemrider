@@ -4,7 +4,6 @@ description: Regular verification of data integrity during storage or transmissi
 category:
 - Database
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/reliability/continuous-data-verification
 problems:
 - silent-data-corruption
 - data-migration-integrity-issues

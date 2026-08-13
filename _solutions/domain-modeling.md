@@ -4,7 +4,6 @@ description: Mapping domain concepts and relationships in a domain model
 category:
 - Architecture
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/domain-modeling
 problems:
 - poor-domain-model
 - complex-domain-model

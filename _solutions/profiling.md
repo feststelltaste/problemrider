@@ -1,6 +1,6 @@
 ---
 title: Profiling
-description: Analyzing applications regarding their performance in detail
+description: Analyze application performance in detail at runtime
 category:
 - Performance
 - Code

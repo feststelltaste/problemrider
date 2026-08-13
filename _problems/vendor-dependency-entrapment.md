@@ -27,6 +27,10 @@ solutions:
 - platform-independent-data-storage
 - platform-independent-programming-languages
 - vendor-management-practice
+- risk-quantification
+- modernization-options-comparison
+- cost-of-delay
+- system-decommissioning
 layout: problem
 ---
 

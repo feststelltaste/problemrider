@@ -1,6 +1,6 @@
 ---
 title: Responsive Design
-description: Design of the user interface that automatically adapts to different screen sizes and device types
+description: Adapt the user interface automatically to different screen sizes and devices
 category:
 - Requirements
 - Architecture

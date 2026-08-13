@@ -4,7 +4,6 @@ description: Using scripting languages for automation and configuration
 category:
 - Operations
 - Process
-quality_tactics_url: https://qualitytactics.de/en/portability/platform-independent-scripting-languages
 problems:
 - manual-deployment-processes
 - complex-deployment-process

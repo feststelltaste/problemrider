@@ -1,6 +1,6 @@
 ---
 title: Elastic Scaling
-description: Dynamic adjustment of resource allocation to the current load
+description: Adjust resource allocation dynamically to the current load
 category:
 - Performance
 - Operations

@@ -4,7 +4,6 @@ description: Increasing the performance of individual components
 category:
 - Performance
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/vertical-scaling
 problems:
 - slow-application-performance
 - capacity-mismatch

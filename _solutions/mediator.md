@@ -4,7 +4,6 @@ description: Decouple direct communication between components
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/compatibility/mediator
 problems:
 - high-coupling-low-cohesion
 - tight-coupling-issues

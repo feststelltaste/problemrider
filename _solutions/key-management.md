@@ -4,7 +4,6 @@ description: Establish procedures for the secure generation, distribution, and s
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/key-management
 problems:
 - secret-management-problems
 - insecure-data-transmission

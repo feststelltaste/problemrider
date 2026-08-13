@@ -29,6 +29,10 @@ solutions:
 - tracer-bullets
 - walking-skeleton
 - pilot-projects
+- executive-sponsorship
+- modernization-options-comparison
+- no-regret-moves
+- staged-investment-with-decision-gates
 layout: problem
 ---
 

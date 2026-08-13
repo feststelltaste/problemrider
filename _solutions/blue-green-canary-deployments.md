@@ -1,6 +1,6 @@
 ---
 title: Blue-Green Deployment
-description: Parallel operation of two production environments to minimize downtime
+description: Operate two parallel production environments to minimize downtime
 category:
 - Operations
 quality_tactics_url: https://qualitytactics.de/en/reliability/blue-green-deployment/

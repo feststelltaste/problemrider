@@ -4,7 +4,6 @@ description: Track and manage compatibility-relevant changes across parallel ver
 category:
 - Process
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/compatibility/version-control
 problems:
 - api-versioning-conflicts
 - breaking-changes

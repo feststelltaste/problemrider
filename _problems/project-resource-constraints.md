@@ -27,6 +27,10 @@ solutions:
 - total-cost-of-ownership-transparency
 - value-stream-mapping
 - feature-usage-measurement
+- executive-sponsorship
+- cost-of-delay
+- value-hierarchy
+- risk-quantification
 layout: problem
 ---
 

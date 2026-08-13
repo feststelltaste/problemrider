@@ -3,7 +3,6 @@ title: Security Audits
 description: Regularly check systems and processes for security
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/security-audits
 problems:
 - regulatory-compliance-drift
 - monitoring-gaps

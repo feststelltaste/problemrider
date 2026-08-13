@@ -4,7 +4,6 @@ description: Abstracting database interactions through objects
 category:
 - Code
 - Database
-quality_tactics_url: https://qualitytactics.de/en/portability/object-relational-mapping-orm
 problems:
 - technology-lock-in
 - vendor-lock-in

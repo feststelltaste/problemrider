@@ -4,7 +4,6 @@ description: Maintaining explicit bidirectional mappings from requirements throu
 category:
 - Requirements
 - Process
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/requirements-traceability-matrix
 problems:
 - requirements-ambiguity
 - inadequate-requirements-gathering

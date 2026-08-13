@@ -30,6 +30,9 @@ solutions:
 - outcome-based-goal-setting
 - domain-immersion
 - written-first-communication
+- benefits-realization-tracking
+- value-hierarchy
+- baseline-measurement
 layout: problem
 ---
 

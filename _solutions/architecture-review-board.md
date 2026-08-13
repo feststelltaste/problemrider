@@ -4,7 +4,6 @@ description: Establishment of a committee for monitoring and controlling archite
 category:
 - Architecture
 - Management
-quality_tactics_url: https://qualitytactics.de/en/maintainability/architecture-review-board
 problems:
 - stagnant-architecture
 - technology-stack-fragmentation

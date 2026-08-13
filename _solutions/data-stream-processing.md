@@ -4,7 +4,6 @@ description: Continuous processing of data from real-time data sources
 category:
 - Performance
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/data-stream-processing
 problems:
 - slow-application-performance
 - growing-task-queues

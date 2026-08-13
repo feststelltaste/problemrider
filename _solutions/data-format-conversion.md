@@ -4,7 +4,6 @@ description: Provide mechanisms for converting between different data formats
 category:
 - Architecture
 - Database
-quality_tactics_url: https://qualitytactics.de/en/compatibility/data-format-conversion
 problems:
 - data-migration-complexities
 - cross-system-data-synchronization-problems

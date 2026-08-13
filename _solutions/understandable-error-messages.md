@@ -1,6 +1,6 @@
 ---
 title: Understandable Error Messages
-description: Provision of clear, context-related error messages in the event of problems
+description: Display clear, context-related error messages when problems occur
 category:
 - Requirements
 - Code

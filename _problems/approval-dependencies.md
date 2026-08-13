@@ -30,6 +30,7 @@ solutions:
 - decision-rights-and-escalation
 - delivery-performance-metrics
 - change-impact-analysis
+- executive-sponsorship
 layout: problem
 ---
 

@@ -4,7 +4,6 @@ description: Collecting and analyzing quantitative measures to evaluate code qua
 category:
 - Code
 - Process
-quality_tactics_url: https://qualitytactics.de/en/maintainability/code-metrics
 problems:
 - high-technical-debt
 - invisible-nature-of-technical-debt

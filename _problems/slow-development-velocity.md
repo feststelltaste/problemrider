@@ -29,6 +29,9 @@ solutions:
 - trunk-based-development
 - delivery-performance-metrics
 - fast-feedback-loops
+- baseline-measurement
+- value-hierarchy
+- cost-of-delay
 layout: problem
 ---
 

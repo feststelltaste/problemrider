@@ -4,7 +4,6 @@ description: Consider backward compatibility in database schemas and migrations
 category:
 - Database
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/backward-compatible-schema-migrations
 problems:
 - database-schema-design-problems
 - data-migration-complexities

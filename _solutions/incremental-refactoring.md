@@ -1,6 +1,6 @@
 ---
 title: Refactoring
-description: Regular revision of the code to improve the internal structure
+description: Restructure code regularly without changing external behavior
 category:
 - Code
 - Process

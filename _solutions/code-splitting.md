@@ -4,7 +4,6 @@ description: Splitting the application code into smaller chunks
 category:
 - Performance
 - Code
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/code-splitting
 problems:
 - slow-application-performance
 - high-client-side-resource-consumption

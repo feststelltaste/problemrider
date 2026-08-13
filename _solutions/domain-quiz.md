@@ -4,7 +4,6 @@ description: Testing domain knowledge through targeted questions
 category:
 - Communication
 - Team
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/domain-quiz
 problems:
 - knowledge-gaps
 - implicit-knowledge

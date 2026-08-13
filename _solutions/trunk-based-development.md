@@ -3,7 +3,6 @@ title: Trunk-Based Development
 description: Integrating short-lived branches continuously into main for rapid, safe modifications
 category:
 - Process
-quality_tactics_url: https://qualitytactics.de/en/maintainability/trunk-based-development
 problems:
 - long-lived-feature-branches
 - merge-conflicts

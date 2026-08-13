@@ -31,6 +31,17 @@ solutions:
 - application-portfolio-inventory
 - delivery-performance-metrics
 - pilot-projects
+- cost-of-delay
+- risk-quantification
+- modernization-options-comparison
+- no-regret-moves
+- staged-investment-with-decision-gates
+- executive-sponsorship
+- baseline-measurement
+- benefits-realization-tracking
+- value-hierarchy
+- outcome-based-goal-setting
+- system-decommissioning
 layout: problem
 ---
 

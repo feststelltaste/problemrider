@@ -4,7 +4,6 @@ description: Development based on expected system behaviors
 category:
 - Testing
 - Process
-quality_tactics_url: https://qualitytactics.de/en/maintainability/behavior-driven-development-bdd
 problems:
 - requirements-ambiguity
 - insufficient-testing

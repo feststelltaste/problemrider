@@ -4,7 +4,6 @@ description: Efficient display of large data lists through virtual scroll areas
 category:
 - Performance
 - Code
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/virtualized-lists
 problems:
 - slow-response-times-for-lists
 - high-client-side-resource-consumption

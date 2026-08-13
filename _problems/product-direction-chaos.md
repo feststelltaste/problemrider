@@ -30,6 +30,7 @@ solutions:
 - domain-immersion
 - definition-of-ready
 - delivery-performance-metrics
+- value-hierarchy
 layout: problem
 ---
 

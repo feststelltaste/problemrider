@@ -4,7 +4,6 @@ description: Regularly review dependencies on external software
 category:
 - Security
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/security/third-party-dependency-check
 problems:
 - dependency-version-conflicts
 - obsolete-technologies

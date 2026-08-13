@@ -4,7 +4,6 @@ description: Identifying, assessing, and addressing risks
 category:
 - Security
 - Management
-quality_tactics_url: https://qualitytactics.de/en/security/risk-analysis
 problems:
 - modernization-strategy-paralysis
 - fear-of-change

@@ -1,6 +1,6 @@
 ---
 title: Consistent User Interface
-description: Uniform design and behavior of the user interface across all parts of the software
+description: Unify design and behavior of the user interface across all software parts
 category:
 - Requirements
 - Architecture

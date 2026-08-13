@@ -4,7 +4,6 @@ description: Structuring software architecture based on the business domain
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/maintainability/domain-driven-design
 problems:
 - poor-domain-model
 - complex-domain-model

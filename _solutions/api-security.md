@@ -4,7 +4,6 @@ description: Securing APIs through rate limiting, schema validation, gateways, a
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/security/api-security
 problems:
 - rate-limiting-issues
 - authentication-bypass-vulnerabilities

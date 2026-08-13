@@ -4,7 +4,6 @@ description: Specify and verify quality requirements through business-driven sce
 category:
 - Requirements
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/business-quality-scenarios
 problems:
 - requirements-ambiguity
 - quality-blind-spots

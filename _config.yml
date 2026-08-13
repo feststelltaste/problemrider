@@ -62,6 +62,12 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/
+  # Agent and contributor instructions are not site content. AGENTS.md is a
+  # symlink to CLAUDE.md, and copying it breaks the build when _site already
+  # holds a stale copy.
+  - AGENTS.md
+  - CLAUDE.md
+  - GEMINI.md
   - problem-pattern-template.md
   - solution-pattern-template.md
   - SOLUTIONS_PLAN.md

@@ -28,6 +28,7 @@ solutions:
 - modularization-and-bounded-contexts
 - value-stream-mapping
 - knowledge-rotation
+- executive-sponsorship
 layout: problem
 ---
 

@@ -4,7 +4,6 @@ description: Using codes to detect and correct errors in data
 category:
 - Code
 - Security
-quality_tactics_url: https://qualitytactics.de/en/reliability/error-correction-codes
 problems:
 - silent-data-corruption
 - data-migration-integrity-issues

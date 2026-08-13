@@ -4,7 +4,6 @@ description: Mapping business concepts and relationships in a conceptual data mo
 category:
 - Database
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/data-modeling
 problems:
 - poor-domain-model
 - database-schema-design-problems

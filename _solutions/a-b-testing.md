@@ -4,7 +4,6 @@ description: Comparing different versions to optimize user experience
 category:
 - Testing
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/usability/a-b-testing
 problems:
 - poor-user-experience-ux-design
 - customer-dissatisfaction

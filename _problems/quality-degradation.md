@@ -28,6 +28,8 @@ solutions:
 - defect-triage-process
 - delivery-performance-metrics
 - exploratory-testing
+- baseline-measurement
+- benefits-realization-tracking
 layout: problem
 ---
 

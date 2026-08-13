@@ -28,6 +28,11 @@ solutions:
 - mobile-first-design
 - responsive-design
 - outcome-based-goal-setting
+- cost-of-delay
+- modernization-options-comparison
+- risk-quantification
+- executive-sponsorship
+- value-hierarchy
 layout: problem
 ---
 

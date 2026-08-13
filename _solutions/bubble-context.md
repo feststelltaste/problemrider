@@ -4,7 +4,6 @@ description: Clearly distinguish extensions from existing code parts
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/maintainability/bubble-context
 problems:
 - legacy-business-logic-extraction-difficulty
 - high-coupling-low-cohesion

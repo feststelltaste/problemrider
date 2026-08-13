@@ -4,7 +4,6 @@ description: Limit blast radius of new features by deploying them hidden to a su
 category:
 - Operations
 - Process
-quality_tactics_url: https://qualitytactics.de/en/reliability/dark-launches
 problems:
 - deployment-risk
 - large-risky-releases

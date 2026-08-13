@@ -4,7 +4,6 @@ description: Directly involve domain experts in development
 category:
 - Team
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/domain-experts
 problems:
 - stakeholder-developer-communication-gap
 - requirements-ambiguity

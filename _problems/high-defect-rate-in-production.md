@@ -39,6 +39,7 @@ solutions:
 - defect-triage-process
 - delivery-performance-metrics
 - exploratory-testing
+- risk-quantification
 layout: problem
 ---
 

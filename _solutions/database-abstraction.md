@@ -4,7 +4,6 @@ description: Implementing database accesses through an abstracted layer
 category:
 - Database
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/portability/database-abstraction
 problems:
 - technology-lock-in
 - vendor-lock-in

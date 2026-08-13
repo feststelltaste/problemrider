@@ -4,7 +4,6 @@ description: Encapsulating applications and their dependencies in containers
 category:
 - Operations
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/maintainability/containerization
 problems:
 - deployment-environment-inconsistencies
 - configuration-drift

@@ -30,6 +30,8 @@ solutions:
 - strategic-code-deletion
 - value-stream-mapping
 - system-decommissioning
+- baseline-measurement
+- cost-of-delay
 layout: problem
 ---
 

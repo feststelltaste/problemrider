@@ -4,7 +4,6 @@ description: Fully automated deployment of software changes in the production en
 category:
 - Process
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/maintainability/continuous-deployment
 problems:
 - complex-deployment-process
 - manual-deployment-processes

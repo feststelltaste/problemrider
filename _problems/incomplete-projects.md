@@ -28,6 +28,8 @@ solutions:
 - small-change-batches
 - walking-skeleton
 - regular-stakeholder-demonstrations
+- executive-sponsorship
+- staged-investment-with-decision-gates
 layout: problem
 ---
 

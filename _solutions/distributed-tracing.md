@@ -4,7 +4,6 @@ description: Tracking requests across microservice boundaries with their perform
 category:
 - Operations
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/distributed-tracing
 problems:
 - debugging-difficulties
 - slow-incident-resolution

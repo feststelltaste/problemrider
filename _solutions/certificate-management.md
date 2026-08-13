@@ -4,7 +4,6 @@ description: Managing X.509 certificate lifecycles including PKI, revocation, an
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/certificate-management
 problems:
 - insecure-data-transmission
 - system-outages

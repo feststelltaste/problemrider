@@ -4,7 +4,6 @@ description: Mechanisms for detecting, logging, and handling errors
 category:
 - Code
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/error-handling
 problems:
 - inadequate-error-handling
 - cascade-failures

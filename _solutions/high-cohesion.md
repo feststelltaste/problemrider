@@ -4,7 +4,6 @@ description: Ensuring each module has a focused, well-defined purpose with close
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/maintainability/high-cohesion
 problems:
 - high-coupling-low-cohesion
 - bloated-class

@@ -4,7 +4,6 @@ description: Deliberately dropping low-priority requests under overload, preserv
 category:
 - Architecture
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/reliability/load-shedding
 problems:
 - capacity-mismatch
 - slow-application-performance

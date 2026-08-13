@@ -4,7 +4,6 @@ description: Applying proven solutions for recurring business problems
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/domain-patterns
 problems:
 - complex-and-obscure-logic
 - poor-domain-model

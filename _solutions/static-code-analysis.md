@@ -5,7 +5,6 @@ category:
 - Security
 - Code
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/security/static-code-analysis
 problems:
 - sql-injection-vulnerabilities
 - cross-site-scripting-vulnerabilities

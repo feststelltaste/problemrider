@@ -4,7 +4,6 @@ description: Regular integration of code changes into a shared repository
 category:
 - Process
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/maintainability/continuous-integration
 problems:
 - regression-bugs
 - breaking-changes

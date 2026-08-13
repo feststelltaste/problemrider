@@ -3,7 +3,6 @@ title: API Versioning Strategy
 description: Choose a concrete mechanism to identify and route between API versions
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/api-versioning-strategy
 problems:
 - api-versioning-conflicts
 - legacy-api-versioning-nightmare

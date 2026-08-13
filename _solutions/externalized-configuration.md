@@ -4,7 +4,6 @@ description: Separate environment-specific settings and application logic
 category:
 - Operations
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/portability/externalized-configuration
 problems:
 - configuration-chaos
 - configuration-drift

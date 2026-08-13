@@ -28,6 +28,10 @@ solutions:
 - feature-usage-measurement
 - total-cost-of-ownership-transparency
 - system-decommissioning
+- baseline-measurement
+- cost-of-delay
+- value-hierarchy
+- benefits-realization-tracking
 layout: problem
 ---
 

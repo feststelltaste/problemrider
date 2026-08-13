@@ -1,6 +1,6 @@
 ---
 title: Concurrency
-description: Simultaneous execution of multiple tasks within a process
+description: Execute multiple tasks simultaneously within a single process
 category:
 - Performance
 - Code

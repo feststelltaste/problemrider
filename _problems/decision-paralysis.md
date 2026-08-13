@@ -29,6 +29,9 @@ solutions:
 - psychological-safety-practices
 - explicit-prioritization-framework
 - pilot-projects
+- modernization-options-comparison
+- no-regret-moves
+- staged-investment-with-decision-gates
 layout: problem
 ---
 

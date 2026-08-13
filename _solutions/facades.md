@@ -4,7 +4,6 @@ description: Use facades to hide complex subsystems behind a simplified interfac
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/compatibility/facades
 problems:
 - monolithic-architecture-constraints
 - difficult-code-comprehension

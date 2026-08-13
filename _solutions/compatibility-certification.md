@@ -4,7 +4,6 @@ description: Obtain third-party attestation that software meets defined compatib
 category:
 - Process
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/compatibility/compatibility-certification
 problems:
 - vendor-dependency
 - vendor-lock-in

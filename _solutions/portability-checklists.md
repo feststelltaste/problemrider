@@ -3,7 +3,6 @@ title: Portability Checklists
 description: Create checklists to check portability with different systems and platforms
 category:
 - Process
-quality_tactics_url: https://qualitytactics.de/en/portability/portability-checklists
 problems:
 - technology-lock-in
 - vendor-lock-in

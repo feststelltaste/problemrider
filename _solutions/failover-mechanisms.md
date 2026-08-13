@@ -4,7 +4,6 @@ description: Automatic switch to redundant components in case of failure
 category:
 - Architecture
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/failover-mechanisms
 problems:
 - single-points-of-failure
 - system-outages

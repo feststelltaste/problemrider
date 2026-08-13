@@ -4,7 +4,6 @@ description: Define acceptable value ranges for inputs and outputs
 category:
 - Code
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/value-range-definition
 problems:
 - inadequate-error-handling
 - inconsistent-behavior

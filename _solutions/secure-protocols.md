@@ -4,7 +4,6 @@ description: Use only secure and current versions of network protocols
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/secure-protocols
 problems:
 - insecure-data-transmission
 - obsolete-technologies

@@ -4,7 +4,6 @@ description: Structured process for handling disruptions and failures
 category:
 - Process
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/incident-management
 problems:
 - constant-firefighting
 - slow-incident-resolution

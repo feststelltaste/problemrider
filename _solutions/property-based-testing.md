@@ -3,7 +3,6 @@ title: Property-Based Testing
 description: Verify software through random inputs and properties
 category:
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/maintainability/property-based-testing
 problems:
 - insufficient-testing
 - regression-bugs

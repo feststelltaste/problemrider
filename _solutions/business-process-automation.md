@@ -4,7 +4,6 @@ description: Mapping business concepts and rules in an executable model
 category:
 - Business
 - Process
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/business-process-automation
 problems:
 - legacy-business-logic-extraction-difficulty
 - complex-and-obscure-logic

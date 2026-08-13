@@ -1,6 +1,6 @@
 ---
 title: Contextual Help
-description: Providing help information and explanations directly in the context of the current task
+description: Provide help information and explanations directly in the current task context
 category:
 - Communication
 - Requirements

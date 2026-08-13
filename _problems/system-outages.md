@@ -77,6 +77,7 @@ solutions:
 - self-test
 - service-level-agreements
 - web-application-firewall
+- risk-quantification
 layout: problem
 ---
 

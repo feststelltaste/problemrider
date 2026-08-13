@@ -3,7 +3,6 @@ title: Logging
 description: Implement comprehensive logging and monitoring of system behavior
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/maintainability/logging
 problems:
 - debugging-difficulties
 - monitoring-gaps

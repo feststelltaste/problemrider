@@ -4,7 +4,6 @@ description: Conduct regular reviews of the source code by team members
 category:
 - Code
 - Process
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/code-reviews
 problems:
 - inadequate-code-reviews
 - insufficient-code-review

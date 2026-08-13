@@ -4,7 +4,6 @@ description: Provide isolated test environments to verify compatibility and inte
 category:
 - Testing
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/compatibility/isolated-test-environments
 problems:
 - deployment-environment-inconsistencies
 - testing-environment-fragility

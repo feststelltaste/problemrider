@@ -4,7 +4,6 @@ description: Utilize development frameworks that enable cross-platform applicati
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/portability/cross-platform-frameworks
 problems:
 - technology-lock-in
 - vendor-lock-in

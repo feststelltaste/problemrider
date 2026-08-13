@@ -4,7 +4,6 @@ description: Ensure regular backup and recoverability of data
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/backup-and-recovery
 problems:
 - system-outages
 - silent-data-corruption

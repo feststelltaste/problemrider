@@ -4,7 +4,6 @@ description: Create and maintain detailed documentation of the software architec
 category:
 - Architecture
 - Communication
-quality_tactics_url: https://qualitytactics.de/en/maintainability/architecture-documentation
 problems:
 - poor-documentation
 - legacy-system-documentation-archaeology

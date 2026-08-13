@@ -30,6 +30,8 @@ solutions:
 - team-retrospectives
 - lightweight-design-review
 - application-portfolio-inventory
+- modernization-options-comparison
+- no-regret-moves
 layout: problem
 ---
 

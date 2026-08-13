@@ -28,6 +28,7 @@ solutions:
 - outcome-based-goal-setting
 - written-first-communication
 - team-retrospectives
+- executive-sponsorship
 layout: problem
 ---
 

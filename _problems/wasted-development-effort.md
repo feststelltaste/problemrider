@@ -27,6 +27,10 @@ solutions:
 - value-stream-mapping
 - outcome-based-goal-setting
 - self-service-developer-platform
+- baseline-measurement
+- benefits-realization-tracking
+- value-hierarchy
+- cost-of-delay
 layout: problem
 ---
 

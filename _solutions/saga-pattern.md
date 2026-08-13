@@ -3,7 +3,6 @@ title: Saga Pattern
 description: Managing distributed transactions through sequences of local transactions with compensating actions
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/saga-pattern
 problems:
 - cascade-failures
 - long-running-transactions

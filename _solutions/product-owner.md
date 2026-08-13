@@ -1,6 +1,6 @@
 ---
 title: Product Owner
-description: Assign responsibility for business requirements and acceptance to a dedicated
+description: Assign responsibility for business requirements and acceptance to a dedicated role
   role
 category:
 - Management

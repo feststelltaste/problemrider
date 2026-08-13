@@ -4,7 +4,6 @@ description: Let abstraction hierarchies and implementation hierarchies evolve i
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/compatibility/bridges
 problems:
 - high-coupling-low-cohesion
 - tight-coupling-issues

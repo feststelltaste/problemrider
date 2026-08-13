@@ -4,7 +4,6 @@ description: Promote secure software design through exchange with experts and pe
 category:
 - Security
 - Culture
-quality_tactics_url: https://qualitytactics.de/en/security/security-community
 problems:
 - knowledge-silos
 - knowledge-gaps

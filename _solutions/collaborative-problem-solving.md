@@ -4,7 +4,6 @@ description: Solve complex design and debugging challenges by programming as a g
 category:
 - Team
 - Code
-quality_tactics_url: https://qualitytactics.de/en/maintainability/collaborative-problem-solving
 problems:
 - knowledge-silos
 - knowledge-dependency

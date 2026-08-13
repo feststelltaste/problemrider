@@ -3,7 +3,6 @@ title: User Stories
 description: Formulate requirements from the user's perspective
 category:
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/user-stories
 problems:
 - requirements-ambiguity
 - inadequate-requirements-gathering

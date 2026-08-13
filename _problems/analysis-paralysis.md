@@ -30,6 +30,8 @@ solutions:
 - explicit-prioritization-framework
 - lightweight-design-review
 - small-change-batches
+- no-regret-moves
+- staged-investment-with-decision-gates
 layout: problem
 ---
 

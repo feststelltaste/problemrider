@@ -4,7 +4,6 @@ description: Managing traffic at infrastructure level with transparent protocol 
 category:
 - Architecture
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/compatibility/service-mesh
 problems:
 - microservice-communication-overhead
 - service-discovery-failures

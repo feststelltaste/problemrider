@@ -30,6 +30,10 @@ solutions:
 - communities-of-practice
 - internal-technical-coaching
 - code-reading-sessions
+- risk-quantification
+- cost-of-delay
+- executive-sponsorship
+- modernization-options-comparison
 layout: problem
 ---
 

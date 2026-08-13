@@ -33,6 +33,19 @@ solutions:
 - security-relevant-metrics
 - a-b-testing
 - service-level-indicators
+- cost-of-delay
+- baseline-measurement
+- benefits-realization-tracking
+- value-hierarchy
+- risk-quantification
+- total-cost-of-ownership-transparency
+- delivery-performance-metrics
+- feature-usage-measurement
+- outcome-based-goal-setting
+- staged-investment-with-decision-gates
+- executive-sponsorship
+- modernization-options-comparison
+- no-regret-moves
 layout: problem
 ---
 

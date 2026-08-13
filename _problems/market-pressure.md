@@ -29,6 +29,9 @@ solutions:
 - outcome-based-goal-setting
 - regular-stakeholder-demonstrations
 - feature-usage-measurement
+- cost-of-delay
+- value-hierarchy
+- no-regret-moves
 layout: problem
 ---
 

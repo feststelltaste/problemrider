@@ -29,6 +29,8 @@ solutions:
 - fitness-functions
 - technology-radar
 - pilot-projects
+- modernization-options-comparison
+- staged-investment-with-decision-gates
 layout: problem
 ---
 

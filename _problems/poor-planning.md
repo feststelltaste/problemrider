@@ -28,6 +28,8 @@ solutions:
 - explicit-prioritization-framework
 - story-mapping
 - regular-stakeholder-demonstrations
+- baseline-measurement
+- staged-investment-with-decision-gates
 layout: problem
 ---
 

@@ -4,7 +4,6 @@ description: Introducing controlled redundancy in database schemas for faster re
 category:
 - Database
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/denormalization
 problems:
 - slow-database-queries
 - database-query-performance-issues

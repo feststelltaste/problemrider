@@ -30,6 +30,7 @@ solutions:
 - feature-usage-measurement
 - outcome-based-goal-setting
 - pilot-projects
+- value-hierarchy
 layout: problem
 ---
 

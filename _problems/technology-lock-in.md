@@ -63,6 +63,11 @@ solutions:
 - vendor-management-practice
 - technology-radar
 - system-decommissioning
+- modernization-options-comparison
+- no-regret-moves
+- risk-quantification
+- cost-of-delay
+- staged-investment-with-decision-gates
 layout: problem
 ---
 

@@ -4,7 +4,6 @@ description: Adapting software to the specific requirements and needs of users
 category:
 - Requirements
 - Business
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/customizing
 problems:
 - feature-gaps
 - poor-user-experience-ux-design

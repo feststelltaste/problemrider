@@ -1,6 +1,6 @@
 ---
 title: Assistive Technology Support
-description: Ensuring usability of assistive technologies
+description: Ensure usability of assistive technologies
 category:
 - Requirements
 - Code

@@ -31,6 +31,9 @@ solutions:
 - regular-stakeholder-demonstrations
 - domain-immersion
 - usability-tests
+- benefits-realization-tracking
+- value-hierarchy
+- baseline-measurement
 layout: problem
 ---
 

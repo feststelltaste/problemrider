@@ -3,7 +3,6 @@ title: Forward Compatibility
 description: Ensure compatibility of existing systems with future versions
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/forward-compatibility
 problems:
 - breaking-changes
 - fear-of-change

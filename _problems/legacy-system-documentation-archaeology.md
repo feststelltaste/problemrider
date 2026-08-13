@@ -27,6 +27,8 @@ solutions:
 - requirements-traceability-matrix
 - code-reading-sessions
 - application-portfolio-inventory
+- no-regret-moves
+- baseline-measurement
 layout: problem
 ---
 

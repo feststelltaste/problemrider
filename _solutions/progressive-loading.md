@@ -3,7 +3,6 @@ title: Progressive Loading
 description: Incremental loading of content with increasing quality
 category:
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/progressive-loading
 problems:
 - slow-application-performance
 - poor-user-experience-ux-design

@@ -3,7 +3,6 @@ title: Status Monitoring
 description: Continuous monitoring of the condition and performance of components or services
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/status-monitoring
 problems:
 - monitoring-gaps
 - system-outages

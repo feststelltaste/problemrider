@@ -1,6 +1,6 @@
 ---
 title: Performance Optimization
-description: Improving perceived responsiveness through user-facing performance techniques
+description: Improve perceived responsiveness through user-facing performance techniques
 category:
 - Performance
 quality_tactics_url: https://qualitytactics.de/en/usability/performance-optimization/

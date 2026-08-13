@@ -4,7 +4,6 @@ description: Visualizing complete user journeys as a two-dimensional map of gaps
 category:
 - Requirements
 - Process
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/story-mapping
 problems:
 - requirements-ambiguity
 - inadequate-requirements-gathering

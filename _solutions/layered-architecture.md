@@ -3,7 +3,6 @@ title: Layered Architecture
 description: Divide software system into logical layers with clear responsibilities
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/maintainability/layered-architecture
 problems:
 - spaghetti-code
 - high-coupling-low-cohesion

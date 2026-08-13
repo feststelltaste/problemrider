@@ -4,7 +4,6 @@ description: Introduce a structured framework for assessing and improving securi
 category:
 - Security
 - Management
-quality_tactics_url: https://qualitytactics.de/en/security/security-certification
 problems:
 - regulatory-compliance-drift
 - process-design-flaws

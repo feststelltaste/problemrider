@@ -1,6 +1,6 @@
 ---
 title: Capacity Planning
-description: Estimating future resource needs from growth projections and performance models
+description: Estimate future resource needs from growth projections and performance models
 category:
 - Performance
 - Operations

@@ -3,7 +3,6 @@ title: In-Memory Processing
 description: Keeping all data in main memory instead of on slow storage media
 category:
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/in-memory-processing
 problems:
 - slow-application-performance
 - slow-database-queries

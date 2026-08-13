@@ -40,6 +40,10 @@ solutions:
 - total-cost-of-ownership-transparency
 - application-portfolio-inventory
 - system-decommissioning
+- modernization-options-comparison
+- risk-quantification
+- cost-of-delay
+- executive-sponsorship
 layout: problem
 ---
 

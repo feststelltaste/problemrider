@@ -4,7 +4,6 @@ description: Translate between incompatible interfaces through an intermediary l
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/compatibility/adapter
 problems:
 - poor-interfaces-between-applications
 - integration-difficulties

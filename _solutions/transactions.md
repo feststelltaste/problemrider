@@ -4,7 +4,6 @@ description: Grouping multiple operations into an atomic, consistent unit
 category:
 - Architecture
 - Database
-quality_tactics_url: https://qualitytactics.de/en/reliability/transactions
 problems:
 - silent-data-corruption
 - race-conditions

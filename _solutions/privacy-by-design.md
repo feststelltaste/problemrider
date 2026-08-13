@@ -4,7 +4,6 @@ description: Embedding privacy protection into system architecture from inceptio
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/security/privacy-by-design
 problems:
 - data-protection-risk
 - regulatory-compliance-drift

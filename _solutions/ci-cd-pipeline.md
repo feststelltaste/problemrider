@@ -1,6 +1,6 @@
 ---
 title: Continuous Delivery
-description: Automated preparation of software changes for the production environment
+description: Prepare software changes automatically for production deployment
 category:
 - Operations
 - Process

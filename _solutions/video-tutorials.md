@@ -1,6 +1,6 @@
 ---
 title: Video Tutorials
-description: Provision of video tutorials that visually demonstrate features and workflows
+description: Offer video tutorials that visually demonstrate features and workflows
 category:
 - Communication
 quality_tactics_url: https://qualitytactics.de/en/usability/video-tutorials/

@@ -4,7 +4,6 @@ description: Sensitizing and training employees and users on security topics
 category:
 - Security
 - Culture
-quality_tactics_url: https://qualitytactics.de/en/security/raising-user-awareness
 problems:
 - knowledge-gaps
 - inadequate-onboarding

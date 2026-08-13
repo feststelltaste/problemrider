@@ -30,6 +30,10 @@ solutions:
 - value-stream-mapping
 - logging-guidelines
 - system-decommissioning
+- baseline-measurement
+- benefits-realization-tracking
+- value-hierarchy
+- cost-of-delay
 layout: problem
 ---
 

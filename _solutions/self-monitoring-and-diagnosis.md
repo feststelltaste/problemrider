@@ -4,7 +4,6 @@ description: A system's ability to monitor its own state and detect issues
 category:
 - Operations
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/self-monitoring-and-diagnosis
 problems:
 - monitoring-gaps
 - slow-incident-resolution

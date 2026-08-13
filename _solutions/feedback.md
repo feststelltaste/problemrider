@@ -1,6 +1,6 @@
 ---
 title: Feedback
-description: Provision of visual or acoustic confirmations for user interactions
+description: Provide visual or acoustic confirmations for user interactions
 category:
 - Requirements
 quality_tactics_url: https://qualitytactics.de/en/usability/feedback/

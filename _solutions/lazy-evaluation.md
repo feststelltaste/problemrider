@@ -4,7 +4,6 @@ description: Load and process data only when needed
 category:
 - Performance
 - Code
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/lazy-evaluation
 problems:
 - slow-application-performance
 - excessive-object-allocation

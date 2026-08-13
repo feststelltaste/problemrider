@@ -3,7 +3,6 @@ title: Predictive Prefetching
 description: Loading of probably required content derived from current usage
 category:
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/predictive-prefetching
 problems:
 - slow-application-performance
 - high-api-latency

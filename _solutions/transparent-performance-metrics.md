@@ -4,7 +4,6 @@ description: Open presentation of system performance and processing times
 category:
 - Performance
 - Communication
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/transparent-performance-metrics
 problems:
 - monitoring-gaps
 - gradual-performance-degradation

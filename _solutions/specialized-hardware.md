@@ -4,7 +4,6 @@ description: Use of hardware-accelerated functions or specialized hardware compo
 category:
 - Performance
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/specialized-hardware
 problems:
 - slow-application-performance
 - scaling-inefficiencies

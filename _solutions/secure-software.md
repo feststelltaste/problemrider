@@ -3,7 +3,6 @@ title: Secure Software
 description: Prevent reliability incidents caused by security vulnerabilities
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/reliability/secure-software
 problems:
 - authentication-bypass-vulnerabilities
 - buffer-overflow-vulnerabilities

@@ -4,7 +4,6 @@ description: Validate end-to-end functionality early through simplified implemen
 category:
 - Architecture
 - Process
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/tracer-bullets
 problems:
 - integration-difficulties
 - implementation-starts-without-design

@@ -4,7 +4,6 @@ description: Continuously capture and analyze security-relevant events and data
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/security-monitoring
 problems:
 - monitoring-gaps
 - insufficient-audit-logging

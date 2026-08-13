@@ -1,6 +1,6 @@
 ---
 title: Infrastructure as Code
-description: Defining and managing infrastructure through code
+description: Define and manage infrastructure through code
 category:
 - Operations
 quality_tactics_url: https://qualitytactics.de/en/maintainability/infrastructure-as-code/

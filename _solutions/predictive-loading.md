@@ -3,7 +3,6 @@ title: Predictive Loading
 description: Proactive loading of data likely to be needed next
 category:
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/predictive-loading
 problems:
 - slow-application-performance
 - slow-response-times-for-lists

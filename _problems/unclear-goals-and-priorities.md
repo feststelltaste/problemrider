@@ -30,6 +30,7 @@ solutions:
 - explicit-prioritization-framework
 - written-first-communication
 - regular-stakeholder-demonstrations
+- value-hierarchy
 layout: problem
 ---
 

@@ -4,7 +4,6 @@ description: Validate that an architecture will remain maintainable under expect
 category:
 - Architecture
 - Process
-quality_tactics_url: https://qualitytactics.de/en/maintainability/technical-spike
 problems:
 - analysis-paralysis
 - implementation-starts-without-design

@@ -3,7 +3,6 @@ title: Code Coverage Analysis
 description: Measurement of the proportion of code covered by tests
 category:
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/maintainability/code-coverage-analysis
 problems:
 - poor-test-coverage
 - legacy-code-without-tests

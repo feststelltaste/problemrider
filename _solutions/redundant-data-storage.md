@@ -4,7 +4,6 @@ description: Storing data on multiple media or systems
 category:
 - Database
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/redundant-data-storage
 problems:
 - single-points-of-failure
 - silent-data-corruption

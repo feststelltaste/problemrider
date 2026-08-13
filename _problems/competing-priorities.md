@@ -29,6 +29,9 @@ solutions:
 - outcome-based-goal-setting
 - value-stream-mapping
 - feature-usage-measurement
+- cost-of-delay
+- executive-sponsorship
+- value-hierarchy
 layout: problem
 ---
 

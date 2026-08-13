@@ -27,6 +27,7 @@ solutions:
 - small-change-batches
 - technical-debt-backlog
 - delivery-performance-metrics
+- baseline-measurement
 layout: problem
 ---
 

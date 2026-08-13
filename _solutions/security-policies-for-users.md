@@ -4,7 +4,6 @@ description: Define mandatory rules for the secure usage of applications
 category:
 - Security
 - Management
-quality_tactics_url: https://qualitytactics.de/en/security/security-policies-for-users
 problems:
 - password-security-weaknesses
 - workaround-culture

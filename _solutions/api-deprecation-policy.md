@@ -4,7 +4,6 @@ description: Retiring old interfaces with sunset headers, timelines, and migrati
 category:
 - Architecture
 - Process
-quality_tactics_url: https://qualitytactics.de/en/compatibility/api-deprecation-policy
 problems:
 - legacy-api-versioning-nightmare
 - breaking-changes

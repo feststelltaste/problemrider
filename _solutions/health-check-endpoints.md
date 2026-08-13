@@ -4,7 +4,6 @@ description: Exposing standardized health check APIs for load balancer and orche
 category:
 - Operations
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/health-check-endpoints
 problems:
 - monitoring-gaps
 - slow-incident-resolution

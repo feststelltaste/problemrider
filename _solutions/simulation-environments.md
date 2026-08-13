@@ -4,7 +4,6 @@ description: Recreate real systems as a simulated environment
 category:
 - Testing
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/compatibility/simulation-environments
 problems:
 - deployment-environment-inconsistencies
 - testing-environment-fragility

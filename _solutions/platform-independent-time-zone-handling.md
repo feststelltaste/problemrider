@@ -4,7 +4,6 @@ description: Manage time zones and date formats through an abstracted layer
 category:
 - Code
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/portability/platform-independent-time-zone-handling
 problems:
 - inconsistent-behavior
 - hidden-dependencies

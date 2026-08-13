@@ -30,6 +30,13 @@ solutions:
 - feature-usage-measurement
 - total-cost-of-ownership-transparency
 - system-decommissioning
+- cost-of-delay
+- executive-sponsorship
+- modernization-options-comparison
+- no-regret-moves
+- risk-quantification
+- staged-investment-with-decision-gates
+- value-hierarchy
 layout: problem
 ---
 

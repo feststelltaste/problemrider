@@ -4,7 +4,6 @@ description: Distributing workload across multiple resources
 category:
 - Architecture
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/load-balancing
 problems:
 - load-balancing-problems
 - capacity-mismatch

@@ -4,7 +4,6 @@ description: Implementing file system operations through an abstraction layer
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/portability/abstracted-file-system-access
 problems:
 - tight-coupling-issues
 - deployment-environment-inconsistencies

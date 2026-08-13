@@ -4,7 +4,6 @@ description: Quantify compatibility status through metrics, audits, and risk ass
 category:
 - Process
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/compatibility/compatibility-measurement
 problems:
 - quality-blind-spots
 - invisible-nature-of-technical-debt

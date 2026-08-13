@@ -4,7 +4,6 @@ description: Ensure code quality through standardized, automated checks
 category:
 - Process
 - Code
-quality_tactics_url: https://qualitytactics.de/en/maintainability/code-quality-gates
 problems:
 - lower-code-quality
 - high-technical-debt

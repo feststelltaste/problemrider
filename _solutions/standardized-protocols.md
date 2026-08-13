@@ -4,7 +4,6 @@ description: Select transport and messaging protocols with broad ecosystem suppo
 category:
 - Architecture
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/compatibility/standardized-protocols
 problems:
 - poor-interfaces-between-applications
 - technology-lock-in

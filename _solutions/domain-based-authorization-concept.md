@@ -4,7 +4,6 @@ description: Control access to sensitive data based on business authorizations
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/domain-based-authorization-concept
 problems:
 - authorization-flaws
 - data-protection-risk

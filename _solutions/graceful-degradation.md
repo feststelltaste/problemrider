@@ -4,7 +4,6 @@ description: Ability of a system to operate in a limited capacity during failure
 category:
 - Architecture
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/graceful-degradation
 problems:
 - system-outages
 - cascade-failures

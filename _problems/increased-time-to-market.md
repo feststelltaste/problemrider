@@ -30,6 +30,7 @@ solutions:
 - feature-toggles
 - value-stream-mapping
 - delivery-performance-metrics
+- cost-of-delay
 layout: problem
 ---
 

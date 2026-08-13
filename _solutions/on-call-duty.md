@@ -4,7 +4,6 @@ description: Ensuring employees are available to quickly respond to incidents an
 category:
 - Process
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/on-call-duty
 problems:
 - slow-incident-resolution
 - constant-firefighting

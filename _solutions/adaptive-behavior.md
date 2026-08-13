@@ -4,7 +4,6 @@ description: Adjustment of system behavior based on the context, preferences, or
 category:
 - Requirements
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/usability/adaptive-behavior
 problems:
 - poor-user-experience-ux-design
 - customer-dissatisfaction

@@ -1,6 +1,6 @@
 ---
 title: Technical Debt Management
-description: Identifying, tracking, and prioritizing technical debt for long-term modifiability
+description: Identify, track, and prioritize technical debt systematically
 category:
 - Process
 - Management

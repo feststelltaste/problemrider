@@ -21,6 +21,7 @@ problems:
 - project-resource-constraints
 - stakeholder-confidence-loss
 - modernization-roi-justification-failure
+- difficulty-quantifying-benefits
 layout: solution
 ---
 

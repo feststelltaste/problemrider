@@ -1,6 +1,6 @@
 ---
 title: Undo and Redo
-description: Allowing users to reverse and reapply actions for error recovery and exploration
+description: Allow users to reverse and reapply actions for error recovery and exploration
 category:
 - Requirements
 quality_tactics_url: https://qualitytactics.de/en/usability/undo-and-redo/

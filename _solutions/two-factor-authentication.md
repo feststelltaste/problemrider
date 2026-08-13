@@ -3,7 +3,6 @@ title: Two-Factor Authentication
 description: Verify identity using two independent factors
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/two-factor-authentication
 problems:
 - authentication-bypass-vulnerabilities
 - password-security-weaknesses

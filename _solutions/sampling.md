@@ -4,7 +4,6 @@ description: Using a representative subset of data for analysis or testing
 category:
 - Performance
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/sampling
 problems:
 - unbounded-data-growth
 - slow-database-queries

@@ -3,7 +3,6 @@ title: Approximation Methods
 description: Use of heuristics and estimations instead of exact calculations
 category:
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/approximation-methods
 problems:
 - algorithmic-complexity-problems
 - slow-application-performance

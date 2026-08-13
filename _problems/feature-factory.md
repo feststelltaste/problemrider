@@ -30,6 +30,8 @@ solutions:
 - domain-immersion
 - delivery-performance-metrics
 - definition-of-ready
+- benefits-realization-tracking
+- value-hierarchy
 layout: problem
 ---
 

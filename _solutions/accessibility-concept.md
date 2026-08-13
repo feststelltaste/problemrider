@@ -3,7 +3,6 @@ title: Accessibility Concept
 description: Design of software to make it accessible and usable for people with disabilities
 category:
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/usability/accessibility-concept
 problems:
 - poor-user-experience-ux-design
 - customer-dissatisfaction

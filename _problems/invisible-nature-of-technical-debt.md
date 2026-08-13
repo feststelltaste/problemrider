@@ -30,6 +30,11 @@ solutions:
 - code-hotspot-analysis
 - total-cost-of-ownership-transparency
 - workaround-registry
+- baseline-measurement
+- benefits-realization-tracking
+- value-hierarchy
+- cost-of-delay
+- risk-quantification
 layout: problem
 ---
 

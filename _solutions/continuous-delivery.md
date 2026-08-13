@@ -4,7 +4,6 @@ description: Deliver functionality frequently and incrementally
 category:
 - Process
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/continuous-delivery
 problems:
 - long-release-cycles
 - complex-deployment-process

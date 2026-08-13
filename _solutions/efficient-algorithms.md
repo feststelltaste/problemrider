@@ -1,6 +1,6 @@
 ---
 title: Efficient Algorithms
-description: Choosing efficient algorithms for frequent or critical operations
+description: Choose efficient algorithms for frequent or critical operations
 category:
 - Performance
 - Code

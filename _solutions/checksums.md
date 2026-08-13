@@ -4,7 +4,6 @@ description: Checksum calculation for detecting data errors or changes
 category:
 - Security
 - Code
-quality_tactics_url: https://qualitytactics.de/en/reliability/checksums
 problems:
 - silent-data-corruption
 - data-migration-integrity-issues

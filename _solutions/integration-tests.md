@@ -3,7 +3,6 @@ title: Integration Tests
 description: Conduct tests to verify the interaction of different system components
 category:
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/maintainability/integration-tests
 problems:
 - inadequate-integration-tests
 - missing-end-to-end-tests

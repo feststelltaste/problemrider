@@ -4,7 +4,6 @@ description: Division of processing across multiple independent systems
 category:
 - Performance
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/distributed-processing
 problems:
 - scaling-inefficiencies
 - slow-application-performance

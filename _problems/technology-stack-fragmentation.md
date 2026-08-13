@@ -35,6 +35,9 @@ solutions:
 - application-portfolio-inventory
 - communities-of-practice
 - system-decommissioning
+- modernization-options-comparison
+- risk-quantification
+- no-regret-moves
 layout: problem
 ---
 

@@ -30,6 +30,11 @@ solutions:
 - explicit-prioritization-framework
 - value-stream-mapping
 - feature-usage-measurement
+- modernization-options-comparison
+- staged-investment-with-decision-gates
+- baseline-measurement
+- benefits-realization-tracking
+- cost-of-delay
 layout: problem
 ---
 

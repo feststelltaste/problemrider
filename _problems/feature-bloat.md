@@ -33,6 +33,9 @@ solutions:
 - adaptive-behavior
 - deprecation-strategy
 - progressive-disclosure
+- value-hierarchy
+- benefits-realization-tracking
+- feature-usage-measurement
 layout: problem
 ---
 

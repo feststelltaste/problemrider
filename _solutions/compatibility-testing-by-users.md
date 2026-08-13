@@ -4,7 +4,6 @@ description: Ensure compatibility through tests conducted by users
 category:
 - Testing
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/compatibility/compatibility-testing-by-users
 problems:
 - insufficient-testing
 - missing-end-to-end-tests

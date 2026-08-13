@@ -4,7 +4,6 @@ description: Identifying missing functionality by comparing capabilities against
 category:
 - Requirements
 - Business
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/functional-gap-analysis
 problems:
 - feature-gaps
 - requirements-ambiguity

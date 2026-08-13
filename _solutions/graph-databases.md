@@ -4,7 +4,6 @@ description: Enable the storage and querying of connected data in the form of no
 category:
 - Database
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/graph-databases
 problems:
 - slow-database-queries
 - database-query-performance-issues

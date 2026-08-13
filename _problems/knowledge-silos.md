@@ -40,6 +40,7 @@ solutions:
 - communities-of-practice
 - system-decommissioning
 - written-first-communication
+- risk-quantification
 layout: problem
 ---
 

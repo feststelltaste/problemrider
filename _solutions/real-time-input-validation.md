@@ -1,6 +1,6 @@
 ---
 title: Real-time Input Validation
-description: Verification of user inputs in real-time and provision of immediate feedback for erroneous inputs
+description: Validate user inputs in real-time and give immediate feedback on errors
 category:
 - Requirements
 - Code

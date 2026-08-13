@@ -4,7 +4,6 @@ description: Conduct regular workshops to evolve the software architecture
 category:
 - Architecture
 - Team
-quality_tactics_url: https://qualitytactics.de/en/maintainability/architecture-workshops
 problems:
 - stagnant-architecture
 - knowledge-silos

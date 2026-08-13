@@ -4,7 +4,6 @@ description: Discovering domain events, commands, and aggregates in collaborativ
 category:
 - Requirements
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/event-storming
 problems:
 - legacy-business-logic-extraction-difficulty
 - implicit-knowledge

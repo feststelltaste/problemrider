@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions (FAQ)
-description: Providing a collection of frequently asked questions and their answers on various software topics
+description: Compile frequently asked questions and answers on common software topics
 category:
 - Communication
 quality_tactics_url: https://qualitytactics.de/en/usability/frequently-asked-questions-faq/

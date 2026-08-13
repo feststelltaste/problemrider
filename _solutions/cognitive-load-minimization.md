@@ -1,6 +1,6 @@
 ---
 title: Cognitive Load Minimization
-description: Designing the user interface to be intuitive and easy to understand
+description: Design the user interface to be intuitive and easy to understand
 category:
 - Requirements
 quality_tactics_url: https://qualitytactics.de/en/usability/cognitive-load-minimization/

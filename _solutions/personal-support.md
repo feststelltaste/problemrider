@@ -1,6 +1,6 @@
 ---
 title: Personal Support
-description: Provision of personal support by trained staff to assist users with questions or problems
+description: Offer personal support by trained staff for user questions and problems
 category:
 - Communication
 quality_tactics_url: https://qualitytactics.de/en/usability/personal-support/

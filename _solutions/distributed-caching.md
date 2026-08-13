@@ -3,7 +3,6 @@ title: Distributed Caching
 description: Caching frequently needed data on multiple computers
 category:
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/distributed-caching
 problems:
 - slow-application-performance
 - poor-caching-strategy

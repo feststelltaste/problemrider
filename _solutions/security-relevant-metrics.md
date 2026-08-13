@@ -4,7 +4,6 @@ description: Define and collect metrics to quantify the security level
 category:
 - Security
 - Management
-quality_tactics_url: https://qualitytactics.de/en/security/security-relevant-metrics
 problems:
 - difficulty-quantifying-benefits
 - invisible-nature-of-technical-debt

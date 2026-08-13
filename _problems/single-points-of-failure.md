@@ -47,6 +47,8 @@ solutions:
 - security-architecture-analysis
 - watchdog
 - knowledge-rotation
+- risk-quantification
+- cost-of-delay
 layout: problem
 ---
 

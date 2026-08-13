@@ -4,7 +4,6 @@ description: Contracts that define the expectations of interface users
 category:
 - Testing
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/compatibility/consumer-driven-contracts
 problems:
 - breaking-changes
 - integration-difficulties

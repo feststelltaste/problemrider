@@ -4,7 +4,6 @@ description: Current and easily accessible documentation as an integral part of 
 category:
 - Communication
 - Process
-quality_tactics_url: https://qualitytactics.de/en/maintainability/living-documentation
 problems:
 - poor-documentation
 - information-decay

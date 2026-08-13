@@ -4,7 +4,6 @@ description: Consider security already in the design of the architecture and imp
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/security/security-by-design
 problems:
 - implementation-starts-without-design
 - stagnant-architecture

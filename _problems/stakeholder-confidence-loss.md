@@ -29,6 +29,9 @@ solutions:
 - total-cost-of-ownership-transparency
 - service-level-agreements
 - transparent-performance-metrics
+- benefits-realization-tracking
+- value-hierarchy
+- baseline-measurement
 layout: problem
 ---
 

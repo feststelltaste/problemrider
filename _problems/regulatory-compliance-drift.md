@@ -59,6 +59,10 @@ solutions:
 - threat-intelligence
 - two-factor-authentication
 - vulnerability-scans
+- risk-quantification
+- cost-of-delay
+- executive-sponsorship
+- baseline-measurement
 layout: problem
 ---
 

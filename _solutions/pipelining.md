@@ -4,7 +4,6 @@ description: Simultaneous execution of sequential processing steps
 category:
 - Performance
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/pipelining
 problems:
 - slow-application-performance
 - bottleneck-formation

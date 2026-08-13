@@ -3,7 +3,6 @@ title: Digital Signatures
 description: Using cryptographic signatures for code signing, document verification, and proving authorship
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/digital-signatures
 problems:
 - insecure-data-transmission
 - data-protection-risk

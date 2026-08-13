@@ -4,7 +4,6 @@ description: Managing schemas centrally with enforced data contract compatibilit
 category:
 - Architecture
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/compatibility/schema-registry
 problems:
 - api-versioning-conflicts
 - breaking-changes

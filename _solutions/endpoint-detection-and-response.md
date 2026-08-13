@@ -4,7 +4,6 @@ description: Continuously monitoring endpoints for threats in real-time
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/endpoint-detection-and-response
 problems:
 - system-outages
 - monitoring-gaps

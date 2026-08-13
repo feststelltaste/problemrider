@@ -4,7 +4,6 @@ description: Evaluating system performance and stability under high load
 category:
 - Testing
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/reliability/load-testing
 problems:
 - capacity-mismatch
 - slow-application-performance

@@ -4,7 +4,6 @@ description: Offloading infrequently needed data to more cost-effective storage 
 category:
 - Database
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/data-archiving
 problems:
 - unbounded-data-growth
 - gradual-performance-degradation

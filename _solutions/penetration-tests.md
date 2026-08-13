@@ -4,7 +4,6 @@ description: Uncovering security vulnerabilities through simulated attacks
 category:
 - Security
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/security/penetration-tests
 problems:
 - authentication-bypass-vulnerabilities
 - authorization-flaws

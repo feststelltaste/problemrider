@@ -28,6 +28,8 @@ solutions:
 - regular-stakeholder-demonstrations
 - domain-immersion
 - outcome-based-goal-setting
+- benefits-realization-tracking
+- value-hierarchy
 layout: problem
 ---
 

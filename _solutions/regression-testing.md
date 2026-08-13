@@ -1,6 +1,6 @@
 ---
 title: Regression Testing
-description: Re-running existing tests after every change against unintended breakage
+description: Re-run existing tests after every change against unintended breakage
 category:
 - Testing
 - Code

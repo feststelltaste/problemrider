@@ -3,7 +3,6 @@ title: Authorization
 description: Control access to resources based on permissions
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/authorization
 problems:
 - authorization-flaws
 - authentication-bypass-vulnerabilities

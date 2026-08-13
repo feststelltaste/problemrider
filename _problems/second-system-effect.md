@@ -28,6 +28,9 @@ solutions:
 - technology-radar
 - lightweight-design-review
 - pilot-projects
+- modernization-options-comparison
+- no-regret-moves
+- staged-investment-with-decision-gates
 layout: problem
 ---
 

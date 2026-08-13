@@ -30,6 +30,10 @@ solutions:
 - characterization-tests
 - change-impact-analysis
 - defect-triage-process
+- baseline-measurement
+- cost-of-delay
+- no-regret-moves
+- risk-quantification
 layout: problem
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Evolutionary Database Design
-description: Evolving database schemas incrementally through version-controlled migration scripts
+description: Evolve database schemas incrementally through version-controlled migrations
 category:
 - Database
 - Architecture

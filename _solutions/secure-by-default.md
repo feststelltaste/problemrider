@@ -4,7 +4,6 @@ description: Align default settings and delivery state for maximum security
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/secure-by-default
 problems:
 - configuration-chaos
 - configuration-drift

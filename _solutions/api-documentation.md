@@ -4,7 +4,6 @@ description: Describe interfaces and their usage in detail
 category:
 - Communication
 - Code
-quality_tactics_url: https://qualitytactics.de/en/maintainability/api-documentation
 problems:
 - poor-documentation
 - poor-interfaces-between-applications

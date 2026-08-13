@@ -1,6 +1,6 @@
 ---
 title: Search Function
-description: Providing a powerful search function to find content and features quickly
+description: Provide a powerful search function for content and features
 category:
 - Requirements
 quality_tactics_url: https://qualitytactics.de/en/usability/search-function/

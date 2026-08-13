@@ -3,7 +3,6 @@ title: Nonstop Forwarding
 description: Continuous request forwarding despite failures or errors
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/nonstop-forwarding
 problems:
 - cascade-failures
 - system-outages

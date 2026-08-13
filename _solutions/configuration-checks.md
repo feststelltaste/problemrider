@@ -4,7 +4,6 @@ description: Document and regularly review security-relevant settings
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/configuration-checks
 problems:
 - configuration-drift
 - configuration-chaos

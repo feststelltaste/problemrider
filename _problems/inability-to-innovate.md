@@ -29,6 +29,11 @@ solutions:
 - functional-spike
 - total-cost-of-ownership-transparency
 - pilot-projects
+- benefits-realization-tracking
+- cost-of-delay
+- executive-sponsorship
+- no-regret-moves
+- staged-investment-with-decision-gates
 layout: problem
 ---
 

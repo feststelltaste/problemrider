@@ -4,7 +4,6 @@ description: Clearly regulate processes and responsibilities for dealing with se
 category:
 - Security
 - Process
-quality_tactics_url: https://qualitytactics.de/en/security/security-incident-handling
 problems:
 - constant-firefighting
 - slow-incident-resolution

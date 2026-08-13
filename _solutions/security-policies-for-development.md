@@ -4,7 +4,6 @@ description: Define mandatory rules for secure software development
 category:
 - Security
 - Process
-quality_tactics_url: https://qualitytactics.de/en/security/security-policies-for-development
 problems:
 - inconsistent-coding-standards
 - undefined-code-style-guidelines

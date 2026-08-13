@@ -4,7 +4,6 @@ description: Deploying databases in containers
 category:
 - Database
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/portability/containerized-databases
 problems:
 - deployment-environment-inconsistencies
 - inadequate-test-infrastructure

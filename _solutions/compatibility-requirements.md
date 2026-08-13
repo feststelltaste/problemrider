@@ -4,7 +4,6 @@ description: Make implicit compatibility assumptions explicit and binding
 category:
 - Requirements
 - Process
-quality_tactics_url: https://qualitytactics.de/en/compatibility/compatibility-requirements
 problems:
 - requirements-ambiguity
 - inadequate-requirements-gathering

@@ -4,7 +4,6 @@ description: Securing the software supply chain through SBOMs and provenance ver
 category:
 - Security
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/security/supply-chain-security
 problems:
 - dependency-version-conflicts
 - vendor-dependency

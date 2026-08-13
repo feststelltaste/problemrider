@@ -3,7 +3,6 @@ title: Least Privilege
 description: Equip users and processes with only the minimal necessary rights
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/least-privilege
 problems:
 - authorization-flaws
 - data-protection-risk

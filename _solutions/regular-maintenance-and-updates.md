@@ -3,7 +3,6 @@ title: Regular Maintenance and Updates
 description: Performing scheduled maintenance and installing updates
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/regular-maintenance-and-updates
 problems:
 - obsolete-technologies
 - gradual-performance-degradation

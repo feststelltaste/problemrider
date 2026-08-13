@@ -4,7 +4,6 @@ description: Ensuring data quality through validation, cleansing, and enrichment
 category:
 - Database
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/data-quality-checks
 problems:
 - silent-data-corruption
 - data-migration-integrity-issues

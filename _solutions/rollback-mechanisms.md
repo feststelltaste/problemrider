@@ -4,7 +4,6 @@ description: Ability to revert changes and return to a previous stable state
 category:
 - Operations
 - Process
-quality_tactics_url: https://qualitytactics.de/en/reliability/rollback-mechanisms
 problems:
 - missing-rollback-strategy
 - deployment-risk

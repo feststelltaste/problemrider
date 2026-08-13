@@ -4,7 +4,6 @@ description: Eliminating unused code while building
 category:
 - Code
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/tree-shaking
 problems:
 - high-client-side-resource-consumption
 - slow-application-performance

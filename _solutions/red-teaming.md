@@ -4,7 +4,6 @@ description: Conduct comprehensive and realistic attacks on your own systems
 category:
 - Security
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/security/red-teaming
 problems:
 - authentication-bypass-vulnerabilities
 - authorization-flaws

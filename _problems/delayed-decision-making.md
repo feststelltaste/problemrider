@@ -30,6 +30,8 @@ solutions:
 - written-first-communication
 - lightweight-design-review
 - pilot-projects
+- cost-of-delay
+- no-regret-moves
 layout: problem
 ---
 

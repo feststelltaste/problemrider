@@ -4,7 +4,6 @@ description: Simultaneous execution of multiple calculations or tasks
 category:
 - Performance
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/parallelization
 problems:
 - slow-application-performance
 - bottleneck-formation

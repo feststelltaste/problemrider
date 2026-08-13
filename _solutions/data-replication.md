@@ -4,7 +4,6 @@ description: Creating and synchronizing copies of data across multiple systems
 category:
 - Database
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/data-replication
 problems:
 - single-points-of-failure
 - system-outages

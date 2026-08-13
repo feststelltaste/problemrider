@@ -1,6 +1,6 @@
 ---
 title: Interactive Tutorials
-description: Provision of interactive guides that lead users step-by-step through tasks or functions
+description: Embed hands-on, step-by-step exercises for learning tasks at any complexity level
 category:
 - Communication
 quality_tactics_url: https://qualitytactics.de/en/usability/interactive-tutorials/

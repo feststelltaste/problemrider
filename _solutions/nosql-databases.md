@@ -4,7 +4,6 @@ description: Storing data in flexible, schema-less formats
 category:
 - Database
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/nosql-databases
 problems:
 - database-schema-design-problems
 - scaling-inefficiencies

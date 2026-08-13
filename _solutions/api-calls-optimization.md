@@ -4,7 +4,6 @@ description: Designing API calls efficiently
 category:
 - Performance
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/api-calls-optimization
 problems:
 - high-api-latency
 - high-number-of-database-queries

@@ -4,7 +4,6 @@ description: Create unified scripts for deployment and configuration across diff
 category:
 - Operations
 - Process
-quality_tactics_url: https://qualitytactics.de/en/portability/standardized-deployment-scripts
 problems:
 - complex-deployment-process
 - manual-deployment-processes

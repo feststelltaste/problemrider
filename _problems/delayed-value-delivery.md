@@ -30,6 +30,9 @@ solutions:
 - value-stream-mapping
 - delivery-performance-metrics
 - outcome-based-goal-setting
+- benefits-realization-tracking
+- cost-of-delay
+- value-hierarchy
 layout: problem
 ---
 

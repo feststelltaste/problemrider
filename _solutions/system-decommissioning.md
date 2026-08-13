@@ -21,6 +21,8 @@ problems:
 - dependency-on-supplier
 - lack-of-ownership-and-accountability
 - legal-disputes
+- modernization-roi-justification-failure
+- vendor-dependency-entrapment
 layout: solution
 ---
 

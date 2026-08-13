@@ -4,7 +4,6 @@ description: Recording changes in a durable append-only log before applying them
 category:
 - Database
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/reliability/write-ahead-logging
 problems:
 - silent-data-corruption
 - data-migration-integrity-issues

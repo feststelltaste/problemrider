@@ -4,7 +4,6 @@ description: Aligning developer and domain expert vocabulary in code and convers
 category:
 - Communication
 - Code
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/ubiquitous-language
 problems:
 - stakeholder-developer-communication-gap
 - poor-domain-model

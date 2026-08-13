@@ -4,7 +4,6 @@ description: Delegating authentication to trusted external identity providers
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/security/federated-identity
 problems:
 - authentication-bypass-vulnerabilities
 - password-security-weaknesses

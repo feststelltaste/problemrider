@@ -4,7 +4,6 @@ description: Definition and enforcement of architectural principles and best pra
 category:
 - Architecture
 - Management
-quality_tactics_url: https://qualitytactics.de/en/maintainability/architecture-governance
 problems:
 - stagnant-architecture
 - high-coupling-low-cohesion

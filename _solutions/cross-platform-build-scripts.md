@@ -4,7 +4,6 @@ description: Implementing build processes with cross-platform scripting language
 category:
 - Operations
 - Code
-quality_tactics_url: https://qualitytactics.de/en/portability/cross-platform-build-scripts
 problems:
 - deployment-environment-inconsistencies
 - complex-deployment-process

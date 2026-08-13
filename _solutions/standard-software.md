@@ -4,7 +4,6 @@ description: Use proven standard software instead of developing ordinary functio
 category:
 - Architecture
 - Dependencies
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/standard-software
 problems:
 - maintenance-overhead
 - high-maintenance-costs

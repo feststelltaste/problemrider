@@ -1,6 +1,6 @@
 ---
 title: Architecture Decision Records (ADR)
-description: Documenting important architectural decisions and their justifications
+description: Document important architectural decisions and their justifications
 category:
 - Architecture
 - Communication

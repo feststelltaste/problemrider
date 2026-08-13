@@ -4,7 +4,6 @@ description: Routing failed messages to a dedicated queue for later inspection a
 category:
 - Architecture
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/reliability/dead-letter-queue
 problems:
 - silent-data-corruption
 - inadequate-error-handling

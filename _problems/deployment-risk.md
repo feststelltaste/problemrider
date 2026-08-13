@@ -56,6 +56,8 @@ solutions:
 - malware-protection
 - patch-management
 - self-test
+- risk-quantification
+- baseline-measurement
 layout: problem
 ---
 

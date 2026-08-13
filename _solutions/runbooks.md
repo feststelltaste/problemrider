@@ -4,7 +4,6 @@ description: Providing detailed instructions for processing tasks and incidents
 category:
 - Operations
 - Communication
-quality_tactics_url: https://qualitytactics.de/en/reliability/runbooks
 problems:
 - slow-incident-resolution
 - knowledge-silos

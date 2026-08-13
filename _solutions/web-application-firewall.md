@@ -4,7 +4,6 @@ description: Filtering HTTP traffic at application layer against web attacks
 category:
 - Security
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/security/web-application-firewall
 problems:
 - sql-injection-vulnerabilities
 - cross-site-scripting-vulnerabilities

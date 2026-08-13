@@ -1,6 +1,6 @@
 ---
 title: Blameless Postmortems
-description: Learning from incidents systematically, focusing on systemic improvements over individual blame
+description: Learn from incidents systematically, focusing on systemic improvements
 category:
 - Culture
 - Process

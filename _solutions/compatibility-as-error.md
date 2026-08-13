@@ -4,7 +4,6 @@ description: Treat compatibility regressions as build-breaking defects, not as a
 category:
 - Process
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/compatibility/compatibility-as-error
 problems:
 - breaking-changes
 - regression-bugs

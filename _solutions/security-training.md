@@ -4,7 +4,6 @@ description: Raising awareness and further educating employees on security topic
 category:
 - Security
 - Culture
-quality_tactics_url: https://qualitytactics.de/en/security/security-training
 problems:
 - knowledge-gaps
 - inexperienced-developers

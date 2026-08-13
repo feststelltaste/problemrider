@@ -4,7 +4,6 @@ description: Directly involve customers in development
 category:
 - Requirements
 - Communication
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/on-site-customer
 problems:
 - stakeholder-developer-communication-gap
 - requirements-ambiguity

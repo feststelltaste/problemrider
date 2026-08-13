@@ -32,6 +32,7 @@ solutions:
 - write-ahead-logging
 - emergency-drills
 - incident-response-measures
+- risk-quantification
 layout: problem
 ---
 

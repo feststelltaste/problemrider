@@ -3,7 +3,6 @@ title: Microservices
 description: Enabling rapid product experimentation through independent, business-aligned services
 category:
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/microservices
 problems:
 - monolithic-architecture-constraints
 - deployment-coupling

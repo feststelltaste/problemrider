@@ -4,7 +4,6 @@ description: Defining performance indicators as part of the requirements
 category:
 - Performance
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/performance-budgets
 problems:
 - gradual-performance-degradation
 - slow-application-performance

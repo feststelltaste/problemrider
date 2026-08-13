@@ -3,7 +3,6 @@ title: Domain Data Versioning
 description: Track and restore changes to domain-specific data
 category:
 - Database
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/domain-data-versioning
 problems:
 - silent-data-corruption
 - data-migration-integrity-issues

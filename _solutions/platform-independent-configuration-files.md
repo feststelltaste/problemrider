@@ -3,7 +3,6 @@ title: Platform-Independent Configuration Files
 description: Store configurations in standardized, platform-independent formats
 category:
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/portability/platform-independent-configuration-files
 problems:
 - configuration-chaos
 - configuration-drift

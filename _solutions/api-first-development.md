@@ -4,7 +4,6 @@ description: Developing applications with clearly defined APIs as the foundation
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/portability/api-first-development
 problems:
 - poor-interfaces-between-applications
 - tight-coupling-issues

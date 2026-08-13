@@ -4,7 +4,6 @@ description: Define and enforce uniform guidelines for code formatting and struc
 category:
 - Code
 - Process
-quality_tactics_url: https://qualitytactics.de/en/maintainability/code-conventions
 problems:
 - inconsistent-coding-standards
 - inconsistent-codebase

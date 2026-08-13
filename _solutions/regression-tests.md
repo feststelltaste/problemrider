@@ -4,7 +4,6 @@ description: Retest previously fixed security vulnerabilities to prevent their r
 category:
 - Security
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/security/regression-tests
 problems:
 - regression-bugs
 - insufficient-testing

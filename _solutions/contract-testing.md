@@ -1,6 +1,6 @@
 ---
 title: Contract Testing
-description: Verifying service interfaces conform to agreed contracts for independent
+description: Verify service interfaces conform to agreed contracts
   modification
 category:
 - Dependencies

@@ -4,7 +4,6 @@ description: Implementing security mechanisms in multiple layers and levels
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/security/defense-lines
 problems:
 - authentication-bypass-vulnerabilities
 - authorization-flaws

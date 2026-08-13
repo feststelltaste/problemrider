@@ -3,7 +3,6 @@ title: Encryption
 description: Encrypt data during transmission and storage
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/encryption
 problems:
 - insecure-data-transmission
 - data-protection-risk

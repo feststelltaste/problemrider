@@ -4,7 +4,6 @@ description: Verify fulfillment of business requirements through automated tests
 category:
 - Testing
 - Requirements
-quality_tactics_url: https://qualitytactics.de/en/functional-suitability/acceptance-tests
 problems:
 - insufficient-testing
 - poor-test-coverage

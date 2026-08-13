@@ -4,7 +4,6 @@ description: Forecasting and planning required resources based on growth predict
 category:
 - Operations
 - Management
-quality_tactics_url: https://qualitytactics.de/en/reliability/proactive-capacity-management
 problems:
 - capacity-mismatch
 - scaling-inefficiencies

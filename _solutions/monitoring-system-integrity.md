@@ -4,7 +4,6 @@ description: Continuous verification of the integrity of system components, conf
 category:
 - Operations
 - Security
-quality_tactics_url: https://qualitytactics.de/en/reliability/monitoring-system-integrity
 problems:
 - configuration-drift
 - silent-data-corruption

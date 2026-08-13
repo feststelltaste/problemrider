@@ -29,6 +29,11 @@ solutions:
 - delivery-performance-metrics
 - feature-usage-measurement
 - pilot-projects
+- baseline-measurement
+- benefits-realization-tracking
+- cost-of-delay
+- executive-sponsorship
+- value-hierarchy
 layout: problem
 ---
 

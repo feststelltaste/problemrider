@@ -3,7 +3,6 @@ title: Digital Forensics
 description: Establishing methods for investigating security incidents and crimes
 category:
 - Security
-quality_tactics_url: https://qualitytactics.de/en/security/digital-forensics
 problems:
 - insufficient-audit-logging
 - debugging-difficulties

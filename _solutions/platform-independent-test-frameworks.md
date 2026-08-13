@@ -3,7 +3,6 @@ title: Platform-Independent Test Frameworks
 description: Using test frameworks that function consistently across different platforms
 category:
 - Testing
-quality_tactics_url: https://qualitytactics.de/en/portability/platform-independent-test-frameworks
 problems:
 - insufficient-testing
 - poor-test-coverage

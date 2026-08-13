@@ -4,7 +4,6 @@ description: Tracking key metrics of software reliability and performance
 category:
 - Operations
 - Management
-quality_tactics_url: https://qualitytactics.de/en/reliability/service-level-indicators
 problems:
 - monitoring-gaps
 - gradual-performance-degradation

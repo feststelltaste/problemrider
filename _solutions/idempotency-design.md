@@ -4,7 +4,6 @@ description: Designing safely retryable operations without unintended side effec
 category:
 - Architecture
 - Code
-quality_tactics_url: https://qualitytactics.de/en/reliability/idempotency-design
 problems:
 - cascade-failures
 - silent-data-corruption

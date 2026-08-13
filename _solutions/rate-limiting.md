@@ -4,7 +4,6 @@ description: Controlling incoming request rates against system overload during t
 category:
 - Architecture
 - Performance
-quality_tactics_url: https://qualitytactics.de/en/reliability/rate-limiting
 problems:
 - rate-limiting-issues
 - capacity-mismatch

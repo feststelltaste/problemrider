@@ -31,6 +31,9 @@ solutions:
 - technology-radar
 - application-portfolio-inventory
 - system-decommissioning
+- risk-quantification
+- modernization-options-comparison
+- cost-of-delay
 layout: problem
 ---
 

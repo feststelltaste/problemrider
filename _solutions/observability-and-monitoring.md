@@ -1,6 +1,6 @@
 ---
 title: Observability
-description: Implementing structured logging, distributed tracing, and metrics for deep system understanding
+description: Implement structured logging, distributed tracing, and metrics
 category:
 - Operations
 - Architecture

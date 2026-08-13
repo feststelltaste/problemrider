@@ -4,7 +4,6 @@ description: Centralizing protocol translation, versioning, and routing through 
 category:
 - Architecture
 - Operations
-quality_tactics_url: https://qualitytactics.de/en/compatibility/api-gateway
 problems:
 - legacy-api-versioning-nightmare
 - api-versioning-conflicts

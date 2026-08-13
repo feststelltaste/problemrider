@@ -30,6 +30,9 @@ solutions:
 - explicit-prioritization-framework
 - value-stream-mapping
 - outcome-based-goal-setting
+- baseline-measurement
+- benefits-realization-tracking
+- staged-investment-with-decision-gates
 layout: problem
 ---
 

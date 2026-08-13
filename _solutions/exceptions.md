@@ -3,7 +3,6 @@ title: Exceptions
 description: Using exceptions for signaling and handling error states
 category:
 - Code
-quality_tactics_url: https://qualitytactics.de/en/reliability/exceptions
 problems:
 - inadequate-error-handling
 - debugging-difficulties

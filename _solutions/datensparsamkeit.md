@@ -4,7 +4,6 @@ description: Only collect and store personal data that is necessary for the purp
 category:
 - Security
 - Architecture
-quality_tactics_url: https://qualitytactics.de/en/security/datensparsamkeit
 problems:
 - data-protection-risk
 - regulatory-compliance-drift

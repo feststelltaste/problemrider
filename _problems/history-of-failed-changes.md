@@ -29,6 +29,8 @@ solutions:
 - small-change-batches
 - characterization-tests
 - delivery-performance-metrics
+- executive-sponsorship
+- staged-investment-with-decision-gates
 layout: problem
 ---
 

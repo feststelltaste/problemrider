@@ -4,7 +4,6 @@ description: Reduce perceived latency by updating the interface before server co
 category:
 - Performance
 - Code
-quality_tactics_url: https://qualitytactics.de/en/performance-efficiency/optimistic-ui-updates
 problems:
 - slow-application-performance
 - high-api-latency
