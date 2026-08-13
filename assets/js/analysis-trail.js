@@ -3,24 +3,26 @@
 
   // Versioned storage prevents edges created by an older navigation-based
   // implementation from being mixed with the semantic causal graph.
-  var storageKey = 'problemrider-analysis-trail-v5';
-  var pendingKey = 'problemrider-analysis-trail-pending-edge-v5';
+  var storageKey = 'problemrider-analysis-trail-v6';
+  var pendingKey = 'problemrider-analysis-trail-pending-edge-v6';
   var expandedKey = 'problemrider-analysis-trail-expanded-v1';
   var historyKey = 'problemrider-analysis-trail-history-v1';
   var maxNodes = 24;
   var maxEdges = 30;
   var namespace = 'http://www.w3.org/2000/svg';
+  var spacePressed = false;
 
   function getTrail() {
     try {
       var saved = JSON.parse(window.sessionStorage.getItem(storageKey));
       if (saved && Array.isArray(saved.nodes) && Array.isArray(saved.edges)) {
         saved.positions = saved.positions || {};
+        saved.pan = saved.pan || { x: 0, y: 0 };
         return saved;
       }
-      return { nodes: [], edges: [], positions: {} };
+      return { nodes: [], edges: [], positions: {}, pan: { x: 0, y: 0 } };
     } catch (error) {
-      return { nodes: [], edges: [], positions: {} };
+      return { nodes: [], edges: [], positions: {}, pan: { x: 0, y: 0 } };
     }
   }
 
@@ -61,7 +63,7 @@
         if (previous.tagName === 'H2') {
           var heading = previous.textContent.trim();
           if (heading.indexOf('Symptoms') === 0 || heading.indexOf('Symptom') === 0) return { label: 'causes', direction: 'reverse', targetType: 'symptom' };
-          if (heading.indexOf('Root Causes') === 0 || heading.indexOf('Causes') === 0) return { label: 'causes', direction: 'reverse', targetType: 'root cause' };
+          if (heading.indexOf('Root Causes') === 0 || heading.indexOf('Causes') === 0) return { label: 'causes', direction: 'forward', targetType: 'root cause' };
           break;
         }
         previous = previous.previousElementSibling;
@@ -171,9 +173,64 @@
     });
   }
 
+  function addContextualCausalEdges(trail) {
+    var problemNodes = trail.nodes.filter(function (item) { return item.id.indexOf('problem:') === 0; });
+    var nodesByUrl = {};
+    trail.nodes.forEach(function (item) { nodesByUrl[item.url] = item; });
+    return Promise.all(problemNodes.map(function (problemNode) {
+      return window.fetch(problemNode.url).then(function (response) {
+        if (!response.ok) throw new Error('Could not load causal references');
+        return response.text();
+      }).then(function (html) {
+        var pageDocument = new window.DOMParser().parseFromString(html, 'text/html');
+        var symptoms = localReferences(pageDocument, 'symptoms').map(function (reference) {
+          var relatedNode = nodesByUrl[reference.url];
+          return relatedNode ? { from: relatedNode.id, to: problemNode.id } : null;
+        });
+        var causes = localReferences(pageDocument, 'causes').map(function (reference) {
+          var relatedNode = nodesByUrl[reference.url];
+          return relatedNode ? { from: problemNode.id, to: relatedNode.id } : null;
+        });
+        return symptoms.concat(causes).filter(Boolean);
+      }).catch(function () { return []; });
+    })).then(function (edgeGroups) {
+      var changed = false;
+      edgeGroups.flat().forEach(function (candidate) {
+        var exists = trail.edges.some(function (edge) {
+          return edge.from === candidate.from && edge.to === candidate.to;
+        });
+        if (!exists && candidate.from !== candidate.to) {
+          trail.edges.push({ from: candidate.from, to: candidate.to, label: 'contextual-causes' });
+          changed = true;
+        }
+      });
+      if (changed) {
+        if (trail.edges.length > maxEdges) trail.edges = trail.edges.slice(-maxEdges);
+        saveTrail(trail);
+      }
+      return changed;
+    });
+  }
+
   function nodeX(type, width) {
     var positions = { 'root cause': 0.16, problem: 0.45, symptom: 0.72, solution: 0.88 };
     return Math.round(width * (positions[type] || 0.5));
+  }
+
+  function labelLines(title, maximumLength) {
+    var lines = [];
+    var current = '';
+    title.split(/\s+/).forEach(function (word) {
+      var candidate = current ? current + ' ' + word : word;
+      if (current && candidate.length > maximumLength) {
+        lines.push(current);
+        current = word;
+      } else {
+        current = candidate;
+      }
+    });
+    if (current) lines.push(current);
+    return lines;
   }
 
   function render(trail) {
@@ -199,8 +256,9 @@
     var zoom = Math.max(0.2, Math.min(3, trail.zoom || 1));
     var visibleWidth = width / zoom;
     var visibleHeight = height / zoom;
-    var viewBoxX = (width - visibleWidth) / 2;
-    var viewBoxY = (height - visibleHeight) / 2;
+    var pan = trail.pan || { x: 0, y: 0 };
+    var viewBoxX = (width - visibleWidth) / 2 - pan.x;
+    var viewBoxY = (height - visibleHeight) / 2 - pan.y;
     var svg = svgElement('svg', { viewBox: viewBoxX + ' ' + viewBoxY + ' ' + visibleWidth + ' ' + visibleHeight, role: 'img', 'aria-label': 'Analysis navigation graph' });
     var defs = svgElement('defs');
     var marker = svgElement('marker', { id: 'analysis-trail-arrow', viewBox: '0 0 10 10', refX: '8', refY: '5', markerWidth: '8', markerHeight: '8', orient: 'auto' });
@@ -263,6 +321,10 @@
       elements.circle.setAttribute('cy', position.y);
       elements.text.setAttribute('x', position.x);
       elements.text.setAttribute('y', position.y + 24);
+      elements.labelLines.forEach(function (line, index) {
+        line.setAttribute('x', position.x);
+        line.setAttribute('y', position.y + 24 + index * 10);
+      });
       if (elements.removeCircle) {
         elements.removeCircle.setAttribute('cx', position.x + 10);
         elements.removeCircle.setAttribute('cy', position.y - 10);
@@ -274,6 +336,10 @@
     function updateGraph() {
       edgeElements.forEach(updateEdge);
       Object.keys(nodeElements).forEach(updateNode);
+    }
+
+    function updateViewBox() {
+      svg.setAttribute('viewBox', viewBoxX + ' ' + viewBoxY + ' ' + visibleWidth + ' ' + visibleHeight);
     }
 
     function hideNodeMenu() {
@@ -289,7 +355,7 @@
     function navigateToReference(sourceNode, kind, reference) {
       var relationship = {
         symptoms: { label: 'causes', direction: 'reverse', targetType: 'symptom' },
-        causes: { label: 'causes', direction: 'reverse', targetType: 'root cause' },
+        causes: { label: 'causes', direction: 'forward', targetType: 'root cause' },
         solutions: { label: 'addresses', direction: 'reverse', targetType: 'solution' },
         'addressed-problems': { label: 'addresses', direction: 'forward', targetType: 'problem' }
       }[kind];
@@ -377,10 +443,15 @@
       circle.appendChild(title);
       link.appendChild(circle);
       var text = svgElement('text', { x: position.x, y: position.y + 24, class: 'analysis-trail__node-label', 'text-anchor': 'middle' });
-      text.textContent = node.title.length > 16 ? node.title.slice(0, 15) + '…' : node.title;
+      var lines = labelLines(node.title, 20);
+      lines.forEach(function (line, index) {
+        var span = svgElement('tspan', { x: position.x, y: position.y + 24 + index * 10 });
+        span.textContent = line;
+        text.appendChild(span);
+      });
       link.appendChild(text);
       svg.appendChild(link);
-      nodeElements[node.id] = { circle: circle, text: text };
+      nodeElements[node.id] = { circle: circle, text: text, labelLines: Array.prototype.slice.call(text.querySelectorAll('tspan')) };
 
       // Every node can be removed; any connected arrows are removed as well.
       {
@@ -424,6 +495,9 @@
     var draggedNodeId = null;
     var dragged = false;
     var suppressClick = false;
+    var panning = false;
+    var panStart;
+    var panChanged = false;
 
     function svgPoint(event) {
       var bounds = svg.getBoundingClientRect();
@@ -437,6 +511,8 @@
       var nodeElement = nodeElements[nodeId];
       nodeElement.circle.addEventListener('pointerdown', function (event) {
         if (event.button !== 0) return;
+        if (spacePressed) return;
+        event.stopPropagation();
         draggedNodeId = nodeId;
         dragged = false;
         svg.setPointerCapture(event.pointerId);
@@ -459,19 +535,50 @@
       });
     });
 
-    svg.addEventListener('pointermove', function (event) {
-      if (!draggedNodeId) return;
-      var point = svgPoint(event);
-      positions[draggedNodeId] = {
-        x: Math.max(14, Math.min(width - 14, point.x)),
-        y: Math.max(18, Math.min(height - 18, point.y))
+    svg.addEventListener('pointerdown', function (event) {
+      var isMiddleMouse = event.button === 1;
+      var isSpacePan = event.button === 0 && spacePressed;
+      if (!isMiddleMouse && !isSpacePan && event.target !== svg) return;
+      if (!isMiddleMouse && !isSpacePan && event.button !== 0) return;
+      event.preventDefault();
+      hideNodeMenu();
+      panning = true;
+      panChanged = false;
+      var bounds = svg.getBoundingClientRect();
+      panStart = {
+        clientX: event.clientX,
+        clientY: event.clientY,
+        scaleX: visibleWidth / bounds.width,
+        scaleY: visibleHeight / bounds.height,
+        pan: snapshot(trail.pan || { x: 0, y: 0 })
       };
-      dragged = true;
-      updateGraph();
+      svg.setPointerCapture(event.pointerId);
+      svg.classList.add('is-panning');
+    });
+
+    svg.addEventListener('pointermove', function (event) {
+      var point = svgPoint(event);
+      if (draggedNodeId) {
+        positions[draggedNodeId] = {
+          x: Math.max(14, Math.min(width - 14, point.x)),
+          y: Math.max(18, Math.min(height - 18, point.y))
+        };
+        dragged = true;
+        updateGraph();
+      } else if (panning) {
+        if (!panChanged) rememberChange(trail);
+        panChanged = true;
+        trail.pan = {
+          x: panStart.pan.x + (event.clientX - panStart.clientX) * panStart.scaleX,
+          y: panStart.pan.y + (event.clientY - panStart.clientY) * panStart.scaleY
+        };
+        viewBoxX = (width - visibleWidth) / 2 - trail.pan.x;
+        viewBoxY = (height - visibleHeight) / 2 - trail.pan.y;
+        updateViewBox();
+      }
     });
     svg.addEventListener('pointerup', function (event) {
-      if (!draggedNodeId) return;
-      if (dragged) {
+      if (draggedNodeId && dragged) {
         rememberChange(trail);
         trail.positions[draggedNodeId] = positions[draggedNodeId];
         saveTrail(trail);
@@ -479,17 +586,40 @@
       }
       if (svg.hasPointerCapture(event.pointerId)) svg.releasePointerCapture(event.pointerId);
       draggedNodeId = null;
+      if (panning && panChanged) {
+        saveTrail(trail);
+        suppressClick = true;
+      }
+      panning = false;
+      svg.classList.remove('is-panning');
     });
     container.appendChild(svg);
   }
 
   document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('keydown', function (event) {
+      if (event.code === 'Space' && !/^(INPUT|TEXTAREA|SELECT)$/.test(event.target.tagName)) {
+        spacePressed = true;
+        var graph = document.querySelector('[data-analysis-trail-graph] svg');
+        if (graph) graph.classList.add('is-space-panning');
+      }
+    });
+    document.addEventListener('keyup', function (event) {
+      if (event.code === 'Space') {
+        spacePressed = false;
+        var graph = document.querySelector('[data-analysis-trail-graph] svg');
+        if (graph) graph.classList.remove('is-space-panning');
+      }
+    });
     var trail = getTrail();
     var node = currentNode();
     addCurrentNode(trail, node);
     addPendingEdge(trail, node);
     saveTrail(trail);
     render(trail);
+    addContextualCausalEdges(trail).then(function (changed) {
+      if (changed) render(trail);
+    });
 
     var trailLayout = document.querySelector('.page-with-analysis-trail');
     var modeButton = document.querySelector('[data-analysis-trail-mode]');
@@ -524,7 +654,7 @@
       rememberChange(trail);
       window.sessionStorage.removeItem(storageKey);
       window.sessionStorage.removeItem(pendingKey);
-      var freshTrail = { nodes: [], edges: [], positions: {}, zoom: 1 };
+      var freshTrail = { nodes: [], edges: [], positions: {}, pan: { x: 0, y: 0 }, zoom: 1 };
       if (node) addCurrentNode(freshTrail, node);
       trail = freshTrail;
       saveTrail(freshTrail);

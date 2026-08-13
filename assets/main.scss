@@ -109,8 +109,11 @@
     border-radius: 6px;
     background: #fff;
   }
-  &__graph svg { display: block; width: 100%; min-height: 185px; }
+  &__graph svg { display: block; width: 100%; min-height: 185px; cursor: grab; }
+  &__graph svg.is-panning { cursor: grabbing; }
+  &__graph svg.is-space-panning { cursor: grab; }
   &__edge { fill: none; stroke: #a0aec0; stroke-width: 1.6; }
+  &__edge--contextual-causes { stroke: #d7dce2; stroke-width: 1.2; }
   &__edge--related { stroke-dasharray: 3 3; }
   &__edge--addresses { stroke-dasharray: 5 3; }
   &__node { stroke: #fff; stroke-width: 2px; fill: #111; }
@@ -147,9 +150,8 @@
   &__node-menu-action--causes { right: 15px; top: 10px; }
   &__node-menu-action--solutions { left: 15px; top: 10px; }
   &__node-menu-action--addressed-problems {
-    left: 50%;
-    top: 15px;
-    transform: translateX(-50%);
+    right: 15px;
+    bottom: 10px;
   }
   &__node-menu-action:hover,
   &__node-menu-action:focus,
