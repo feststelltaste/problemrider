@@ -7,17 +7,17 @@ category:
 - Security
 related_problems:
 - slug: logging-configuration-issues
-  similarity: 0.65
+  similarity: 0.75
 - slug: log-injection-vulnerabilities
-  similarity: 0.6
-- slug: authentication-bypass-vulnerabilities
-  similarity: 0.55
-- slug: authorization-flaws
   similarity: 0.55
 - slug: monitoring-gaps
   similarity: 0.55
-- slug: log-spam
-  similarity: 0.5
+- slug: secret-management-problems
+  similarity: 0.55
+- slug: inadequate-error-handling
+  similarity: 0.55
+- slug: session-management-issues
+  similarity: 0.55
 solutions:
 - observability-and-monitoring
 - security-hardening-process

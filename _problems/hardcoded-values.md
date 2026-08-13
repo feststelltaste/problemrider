@@ -6,10 +6,18 @@ category:
 - Architecture
 - Code
 related_problems:
+- slug: code-duplication
+  similarity: 0.6
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.6
+- slug: difficult-to-understand-code
+  similarity: 0.6
 - slug: legacy-configuration-management-chaos
+  similarity: 0.6
+- slug: customization-outside-version-control
   similarity: 0.55
-- slug: brittle-codebase
-  similarity: 0.5
+- slug: configuration-chaos
+  similarity: 0.55
 solutions:
 - incremental-refactoring
 - secret-management

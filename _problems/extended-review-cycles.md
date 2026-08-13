@@ -6,18 +6,18 @@ category:
 - Process
 - Team
 related_problems:
+- slug: code-review-inefficiency
+  similarity: 0.8
+- slug: reduced-code-submission-frequency
+  similarity: 0.75
+- slug: large-pull-requests
+  similarity: 0.75
+- slug: inadequate-initial-reviews
+  similarity: 0.75
+- slug: rushed-approvals
+  similarity: 0.75
 - slug: extended-cycle-times
   similarity: 0.7
-- slug: code-review-inefficiency
-  similarity: 0.65
-- slug: long-release-cycles
-  similarity: 0.6
-- slug: inadequate-initial-reviews
-  similarity: 0.6
-- slug: extended-research-time
-  similarity: 0.6
-- slug: perfectionist-review-culture
-  similarity: 0.6
 solutions:
 - code-review-process-reform
 - small-change-batches

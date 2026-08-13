@@ -7,15 +7,15 @@ category:
 related_problems:
 - slug: inefficient-database-indexing
   similarity: 0.85
-- slug: index-fragmentation
-  similarity: 0.7
 - slug: queries-that-prevent-index-usage
   similarity: 0.7
-- slug: unused-indexes
+- slug: slow-database-queries
   similarity: 0.7
-- slug: lazy-loading
+- slug: index-fragmentation
   similarity: 0.65
-- slug: database-query-performance-issues
+- slug: unused-indexes
+  similarity: 0.6
+- slug: high-database-resource-utilization
   similarity: 0.6
 solutions:
 - query-optimization-process

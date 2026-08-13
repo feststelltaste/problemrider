@@ -6,17 +6,17 @@ category:
 - Architecture
 - Code
 related_problems:
-- slug: duplicated-effort
+- slug: synchronization-problems
+  similarity: 0.8
+- slug: copy-paste-programming
+  similarity: 0.75
+- slug: inconsistent-coding-standards
+  similarity: 0.7
+- slug: inconsistent-codebase
   similarity: 0.7
 - slug: duplicated-work
   similarity: 0.7
-- slug: copy-paste-programming
-  similarity: 0.7
-- slug: synchronization-problems
-  similarity: 0.65
-- slug: duplicated-research-effort
-  similarity: 0.65
-- slug: difficult-code-reuse
+- slug: duplicated-effort
   similarity: 0.65
 solutions:
 - incremental-refactoring

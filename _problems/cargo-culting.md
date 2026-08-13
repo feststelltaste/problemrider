@@ -7,18 +7,18 @@ category:
 - Process
 - Team
 related_problems:
-- slug: premature-technology-introduction
-  similarity: 0.55
-- slug: workaround-culture
-  similarity: 0.55
-- slug: reduced-innovation
-  similarity: 0.55
-- slug: cv-driven-development
-  similarity: 0.55
 - slug: increased-technical-shortcuts
-  similarity: 0.55
-- slug: inability-to-innovate
-  similarity: 0.55
+  similarity: 0.65
+- slug: workaround-culture
+  similarity: 0.65
+- slug: copy-paste-programming
+  similarity: 0.65
+- slug: premature-technology-introduction
+  similarity: 0.6
+- slug: perfectionist-review-culture
+  similarity: 0.6
+- slug: cv-driven-development
+  similarity: 0.6
 solutions:
 - architecture-reviews
 - boring-technologies

@@ -9,14 +9,14 @@ related_problems:
 - slug: complex-deployment-process
   similarity: 0.7
 - slug: manual-deployment-processes
-  similarity: 0.65
+  similarity: 0.7
 - slug: deployment-risk
-  similarity: 0.6
-- slug: misaligned-deliverables
-  similarity: 0.6
+  similarity: 0.65
 - slug: missing-rollback-strategy
-  similarity: 0.6
-- slug: poor-operational-concept
+  similarity: 0.65
+- slug: release-instability
+  similarity: 0.65
+- slug: large-risky-releases
   similarity: 0.6
 solutions:
 - ci-cd-pipeline

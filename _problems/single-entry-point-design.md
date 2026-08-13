@@ -5,15 +5,9 @@ description: A design where all requests to a system must go through a single ob
 category:
 - Architecture
 related_problems:
-- slug: god-object-anti-pattern
-  similarity: 0.6
-- slug: monolithic-functions-and-classes
-  similarity: 0.6
-- slug: maintenance-bottlenecks
-  similarity: 0.55
-- slug: monolithic-architecture-constraints
+- slug: single-points-of-failure
   similarity: 0.5
-- slug: process-design-flaws
+- slug: god-object-anti-pattern
   similarity: 0.5
 solutions:
 - architecture-reviews

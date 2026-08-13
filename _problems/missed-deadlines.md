@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: delayed-project-timelines
-  similarity: 0.8
+  similarity: 0.85
 - slug: constantly-shifting-deadlines
   similarity: 0.75
 - slug: unrealistic-deadlines
   similarity: 0.75
-- slug: unrealistic-schedule
-  similarity: 0.65
 - slug: slow-development-velocity
-  similarity: 0.65
+  similarity: 0.7
 - slug: poor-planning
-  similarity: 0.65
+  similarity: 0.7
+- slug: cascade-delays
+  similarity: 0.7
 solutions:
 - evolutionary-requirements-development
 - iterative-development

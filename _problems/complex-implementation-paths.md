@@ -7,18 +7,18 @@ category:
 - Code
 - Process
 related_problems:
-- slug: complex-domain-model
-  similarity: 0.6
-- slug: complex-and-obscure-logic
-  similarity: 0.6
-- slug: avoidance-behaviors
-  similarity: 0.55
-- slug: testing-complexity
-  similarity: 0.55
 - slug: architectural-mismatch
-  similarity: 0.55
-- slug: procrastination-on-complex-tasks
-  similarity: 0.55
+  similarity: 0.7
+- slug: accumulation-of-workarounds
+  similarity: 0.7
+- slug: increased-technical-shortcuts
+  similarity: 0.65
+- slug: accumulated-decision-debt
+  similarity: 0.65
+- slug: workaround-culture
+  similarity: 0.65
+- slug: high-technical-debt
+  similarity: 0.65
 solutions:
 - architecture-reviews
 - design-by-contract

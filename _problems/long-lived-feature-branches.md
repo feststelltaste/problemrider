@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: large-feature-scope
+  similarity: 0.75
+- slug: merge-conflicts
   similarity: 0.7
 - slug: slow-feature-development
+  similarity: 0.7
+- slug: large-pull-requests
+  similarity: 0.65
+- slug: high-technical-debt
   similarity: 0.6
-- slug: merge-conflicts
-  similarity: 0.55
-- slug: inconsistent-codebase
-  similarity: 0.55
-- slug: fear-of-breaking-changes
-  similarity: 0.55
-- slug: feature-creep
-  similarity: 0.55
+- slug: difficult-developer-onboarding
+  similarity: 0.6
 solutions:
 - feature-flags
 - continuous-integration

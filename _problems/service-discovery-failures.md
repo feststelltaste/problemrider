@@ -7,18 +7,18 @@ category:
 - Operations
 - Performance
 related_problems:
-- slug: system-outages
-  similarity: 0.6
-- slug: cascade-failures
-  similarity: 0.55
-- slug: system-integration-blindness
-  similarity: 0.55
-- slug: load-balancing-problems
-  similarity: 0.55
-- slug: microservice-communication-overhead
-  similarity: 0.5
 - slug: service-timeouts
-  similarity: 0.5
+  similarity: 0.65
+- slug: system-outages
+  similarity: 0.65
+- slug: cascade-failures
+  similarity: 0.6
+- slug: load-balancing-problems
+  similarity: 0.6
+- slug: configuration-chaos
+  similarity: 0.55
+- slug: upstream-timeouts
+  similarity: 0.55
 solutions:
 - api-first-design
 - elastic-scaling

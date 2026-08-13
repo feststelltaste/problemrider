@@ -9,14 +9,14 @@ related_problems:
 - slug: stakeholder-developer-communication-gap
   similarity: 0.75
 - slug: no-continuous-feedback-loop
+  similarity: 0.7
+- slug: communication-breakdown
   similarity: 0.65
-- slug: stakeholder-dissatisfaction
+- slug: product-direction-chaos
   similarity: 0.65
 - slug: missed-deadlines
-  similarity: 0.6
-- slug: delayed-value-delivery
-  similarity: 0.6
-- slug: team-confusion
+  similarity: 0.65
+- slug: feedback-isolation
   similarity: 0.6
 solutions:
 - continuous-feedback

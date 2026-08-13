@@ -9,17 +9,17 @@ category:
 - Team
 related_problems:
 - slug: new-hire-frustration
-  similarity: 0.75
-- slug: inconsistent-onboarding-experience
-  similarity: 0.7
-- slug: high-turnover
-  similarity: 0.7
-- slug: inexperienced-developers
-  similarity: 0.6
-- slug: slow-knowledge-transfer
-  similarity: 0.6
+  similarity: 0.8
 - slug: inefficient-development-environment
-  similarity: 0.6
+  similarity: 0.75
+- slug: inexperienced-developers
+  similarity: 0.75
+- slug: debugging-difficulties
+  similarity: 0.75
+- slug: slow-development-velocity
+  similarity: 0.75
+- slug: high-turnover
+  similarity: 0.75
 solutions:
 - documentation-as-code
 - knowledge-sharing-practices

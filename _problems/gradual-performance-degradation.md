@@ -8,16 +8,16 @@ category:
 related_problems:
 - slug: quality-degradation
   similarity: 0.75
+- slug: slow-development-velocity
+  similarity: 0.65
+- slug: declining-business-metrics
+  similarity: 0.65
+- slug: increasing-brittleness
+  similarity: 0.65
+- slug: algorithmic-complexity-problems
+  similarity: 0.65
 - slug: slow-application-performance
   similarity: 0.65
-- slug: slow-development-velocity
-  similarity: 0.6
-- slug: memory-leaks
-  similarity: 0.6
-- slug: system-stagnation
-  similarity: 0.55
-- slug: declining-business-metrics
-  similarity: 0.55
 solutions:
 - observability-and-monitoring
 - approximation-methods

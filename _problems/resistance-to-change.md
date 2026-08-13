@@ -7,18 +7,18 @@ category:
 - Process
 - Team
 related_problems:
+- slug: fear-of-change
+  similarity: 0.8
 - slug: maintenance-paralysis
   similarity: 0.75
-- slug: fear-of-change
+- slug: history-of-failed-changes
   similarity: 0.75
 - slug: refactoring-avoidance
   similarity: 0.75
 - slug: fear-of-breaking-changes
+  similarity: 0.75
+- slug: scope-change-resistance
   similarity: 0.7
-- slug: system-stagnation
-  similarity: 0.7
-- slug: inability-to-innovate
-  similarity: 0.65
 solutions:
 - blameless-postmortems
 - architecture-workshops

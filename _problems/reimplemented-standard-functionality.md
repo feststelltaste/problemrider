@@ -1,11 +1,25 @@
 ---
 title: Reimplemented Standard Functionality
-description: Capability the product already provides has been built again as a custom development, adding maintenance burden while removing the benefit of buying the product.
+description: Capability the product already provides has been built again as a custom
+  development, adding maintenance burden while removing the benefit of buying the
+  product.
 category:
 - Architecture
 - Process
 - Business
 related_problems:
+- slug: excessive-customization
+  similarity: 0.7
+- slug: process-software-misfit
+  similarity: 0.65
+- slug: implementation-rework
+  similarity: 0.65
+- slug: core-modification-of-standard-software
+  similarity: 0.65
+- slug: customization-outside-version-control
+  similarity: 0.6
+- slug: implementation-partner-dependency
+  similarity: 0.6
 solutions:
 - fit-to-standard-principle
 - functional-gap-analysis

@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: maintenance-cost-increase
-  similarity: 0.75
+  similarity: 0.8
+- slug: high-technical-debt
+  similarity: 0.7
+- slug: debugging-difficulties
+  similarity: 0.7
 - slug: high-maintenance-costs
-  similarity: 0.75
-- slug: maintenance-overhead
-  similarity: 0.6
+  similarity: 0.7
 - slug: increased-risk-of-bugs
-  similarity: 0.6
-- slug: increased-bug-count
-  similarity: 0.6
-- slug: high-bug-introduction-rate
-  similarity: 0.6
+  similarity: 0.7
+- slug: lower-code-quality
+  similarity: 0.7
 solutions:
 - architecture-roadmap
 - development-workflow-automation

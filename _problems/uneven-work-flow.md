@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: uneven-workload-distribution
   similarity: 0.7
-- slug: process-design-flaws
+- slug: capacity-mismatch
   similarity: 0.65
-- slug: constant-firefighting
-  similarity: 0.65
-- slug: inefficient-processes
-  similarity: 0.65
-- slug: development-disruption
-  similarity: 0.6
 - slug: work-queue-buildup
+  similarity: 0.65
+- slug: work-blocking
+  similarity: 0.6
+- slug: bottleneck-formation
+  similarity: 0.6
+- slug: extended-cycle-times
   similarity: 0.6
 solutions:
 - sustainable-pace-practices

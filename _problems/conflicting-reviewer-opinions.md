@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: author-frustration
-  similarity: 0.7
+  similarity: 0.75
 - slug: fear-of-conflict
-  similarity: 0.6
-- slug: reduced-review-participation
-  similarity: 0.6
-- slug: inconsistent-codebase
-  similarity: 0.6
+  similarity: 0.75
 - slug: merge-conflicts
-  similarity: 0.6
+  similarity: 0.7
+- slug: team-members-not-engaged-in-review-process
+  similarity: 0.65
 - slug: code-review-inefficiency
-  similarity: 0.6
+  similarity: 0.65
+- slug: reviewer-inexperience
+  similarity: 0.65
 solutions:
 - code-review-process-reform
 - code-review-guidelines

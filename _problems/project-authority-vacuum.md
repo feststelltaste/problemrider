@@ -7,16 +7,16 @@ category:
 related_problems:
 - slug: project-resource-constraints
   similarity: 0.65
-- slug: power-struggles
-  similarity: 0.55
-- slug: poor-project-control
-  similarity: 0.5
-- slug: competing-priorities
-  similarity: 0.5
 - slug: staff-availability-issues
-  similarity: 0.5
-- slug: stakeholder-dissatisfaction
-  similarity: 0.5
+  similarity: 0.6
+- slug: power-struggles
+  similarity: 0.6
+- slug: approval-dependencies
+  similarity: 0.6
+- slug: planning-dysfunction
+  similarity: 0.6
+- slug: competing-priorities
+  similarity: 0.6
 solutions:
 - clear-ownership-model
 - product-owner

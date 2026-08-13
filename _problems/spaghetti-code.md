@@ -6,18 +6,18 @@ category:
 - Architecture
 - Code
 related_problems:
-- slug: complex-and-obscure-logic
-  similarity: 0.75
-- slug: brittle-codebase
-  similarity: 0.65
-- slug: difficult-code-comprehension
-  similarity: 0.65
-- slug: inconsistent-codebase
-  similarity: 0.65
-- slug: mixed-coding-styles
-  similarity: 0.65
 - slug: difficult-to-understand-code
   similarity: 0.65
+- slug: complex-and-obscure-logic
+  similarity: 0.65
+- slug: clever-code
+  similarity: 0.6
+- slug: difficult-to-test-code
+  similarity: 0.6
+- slug: inconsistent-codebase
+  similarity: 0.6
+- slug: copy-paste-programming
+  similarity: 0.6
 solutions:
 - incremental-refactoring
 - modularization-and-bounded-contexts

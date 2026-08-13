@@ -1,11 +1,22 @@
 ---
 title: Entity-Attribute-Value Overuse
-description: Business data is stored as generic attribute rows instead of typed columns, so the database can no longer enforce, index, or explain the data it holds.
+description: Business data is stored as generic attribute rows instead of typed columns,
+  so the database can no longer enforce, index, or explain the data it holds.
 category:
 - Database
 - Architecture
 - Code
 related_problems:
+- slug: database-schema-design-problems
+  similarity: 0.6
+- slug: custom-report-sprawl
+  similarity: 0.6
+- slug: schema-evolution-paralysis
+  similarity: 0.6
+- slug: unused-indexes
+  similarity: 0.55
+- slug: queries-that-prevent-index-usage
+  similarity: 0.5
 solutions:
 - attribute-usage-analysis
 - typed-schema-extraction

@@ -6,18 +6,18 @@ category:
 - Code
 - Performance
 related_problems:
-- slug: resource-allocation-failures
+- slug: insufficient-worker-capacity
+  similarity: 0.6
+- slug: lock-contention
+  similarity: 0.6
+- slug: resource-contention
   similarity: 0.6
 - slug: deadlock-conditions
   similarity: 0.6
-- slug: resource-contention
-  similarity: 0.55
-- slug: unreleased-resources
-  similarity: 0.55
-- slug: high-client-side-resource-consumption
-  similarity: 0.55
-- slug: insufficient-worker-capacity
-  similarity: 0.5
+- slug: resource-allocation-failures
+  similarity: 0.6
+- slug: database-connection-leaks
+  similarity: 0.6
 solutions:
 - backpressure
 - capacity-planning

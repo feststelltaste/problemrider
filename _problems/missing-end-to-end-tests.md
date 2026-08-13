@@ -8,17 +8,17 @@ category:
 - Testing
 related_problems:
 - slug: inadequate-integration-tests
-  similarity: 0.75
-- slug: system-integration-blindness
-  similarity: 0.7
+  similarity: 0.65
 - slug: quality-blind-spots
   similarity: 0.65
-- slug: testing-complexity
-  similarity: 0.55
-- slug: poor-interfaces-between-applications
-  similarity: 0.55
-- slug: difficult-to-test-code
-  similarity: 0.55
+- slug: poor-test-coverage
+  similarity: 0.6
+- slug: system-integration-blindness
+  similarity: 0.6
+- slug: inadequate-test-infrastructure
+  similarity: 0.6
+- slug: testing-environment-fragility
+  similarity: 0.6
 solutions:
 - test-coverage-strategy
 - acceptance-tests

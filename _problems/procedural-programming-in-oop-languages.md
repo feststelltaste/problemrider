@@ -7,16 +7,16 @@ category:
 - Code
 related_problems:
 - slug: procedural-background
-  similarity: 0.75
-- slug: over-reliance-on-utility-classes
   similarity: 0.7
-- slug: misunderstanding-of-oop
-  similarity: 0.65
+- slug: monolithic-functions-and-classes
+  similarity: 0.55
 - slug: poor-encapsulation
   similarity: 0.55
-- slug: spaghetti-code
+- slug: over-reliance-on-utility-classes
   similarity: 0.55
-- slug: mixed-coding-styles
+- slug: god-object-anti-pattern
+  similarity: 0.55
+- slug: spaghetti-code
   similarity: 0.5
 solutions:
 - clean-code

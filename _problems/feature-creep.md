@@ -10,15 +10,15 @@ related_problems:
 - slug: feature-creep-without-refactoring
   similarity: 0.85
 - slug: scope-creep
+  similarity: 0.75
+- slug: uncontrolled-codebase-growth
   similarity: 0.7
 - slug: large-feature-scope
   similarity: 0.7
 - slug: feature-bloat
-  similarity: 0.65
-- slug: gold-plating
-  similarity: 0.65
+  similarity: 0.7
 - slug: slow-feature-development
-  similarity: 0.6
+  similarity: 0.65
 solutions:
 - evolutionary-requirements-development
 - formal-change-control-process

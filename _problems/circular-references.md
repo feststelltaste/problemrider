@@ -8,13 +8,15 @@ category:
 related_problems:
 - slug: circular-dependency-problems
   similarity: 0.65
-- slug: garbage-collection-pressure
-  similarity: 0.55
 - slug: unreleased-resources
-  similarity: 0.55
-- slug: memory-leaks
+  similarity: 0.6
+- slug: improper-event-listener-management
   similarity: 0.55
 - slug: resource-allocation-failures
+  similarity: 0.55
+- slug: excessive-object-allocation
+  similarity: 0.55
+- slug: garbage-collection-pressure
   similarity: 0.5
 solutions:
 - design-by-contract

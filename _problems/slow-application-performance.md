@@ -4,18 +4,18 @@ description: User-facing features that rely on the API feel sluggish or unrespon
 category:
 - Performance
 related_problems:
-- slug: slow-database-queries
-  similarity: 0.7
 - slug: high-api-latency
+  similarity: 0.8
+- slug: slow-database-queries
+  similarity: 0.8
+- slug: inefficient-code
+  similarity: 0.75
+- slug: slow-response-times-for-lists
   similarity: 0.7
-- slug: high-client-side-resource-consumption
-  similarity: 0.7
-- slug: high-resource-utilization-on-client
+- slug: external-service-delays
   similarity: 0.7
 - slug: inefficient-frontend-code
   similarity: 0.7
-- slug: slow-response-times-for-lists
-  similarity: 0.65
 solutions:
 - observability-and-monitoring
 - api-calls-optimization

@@ -8,16 +8,16 @@ category:
 related_problems:
 - slug: feature-creep
   similarity: 0.85
+- slug: refactoring-avoidance
+  similarity: 0.7
+- slug: uncontrolled-codebase-growth
+  similarity: 0.7
+- slug: slow-feature-development
+  similarity: 0.7
 - slug: scope-creep
-  similarity: 0.6
-- slug: maintenance-paralysis
-  similarity: 0.55
-- slug: convenience-driven-development
-  similarity: 0.55
-- slug: feature-bloat
-  similarity: 0.55
-- slug: accumulation-of-workarounds
-  similarity: 0.55
+  similarity: 0.65
+- slug: high-technical-debt
+  similarity: 0.65
 solutions:
 - incremental-refactoring
 - performance-budgets

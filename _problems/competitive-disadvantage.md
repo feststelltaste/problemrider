@@ -7,17 +7,17 @@ category:
 - Code
 - Management
 related_problems:
-- slug: user-frustration
-  similarity: 0.55
-- slug: customer-dissatisfaction
-  similarity: 0.55
-- slug: delayed-value-delivery
-  similarity: 0.55
+- slug: declining-business-metrics
+  similarity: 0.65
 - slug: increased-time-to-market
+  similarity: 0.6
+- slug: customer-dissatisfaction
+  similarity: 0.6
+- slug: user-frustration
   similarity: 0.55
 - slug: negative-brand-perception
   similarity: 0.55
-- slug: reduced-feature-quality
+- slug: delayed-value-delivery
   similarity: 0.55
 solutions:
 - impact-mapping

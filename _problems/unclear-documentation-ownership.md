@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: lack-of-ownership-and-accountability
-  similarity: 0.75
+  similarity: 0.8
 - slug: poor-documentation
-  similarity: 0.7
+  similarity: 0.75
 - slug: information-decay
   similarity: 0.65
 - slug: information-fragmentation
+  similarity: 0.65
+- slug: master-data-ownership-gaps
   similarity: 0.6
-- slug: poorly-defined-responsibilities
-  similarity: 0.55
-- slug: unclear-sharing-expectations
-  similarity: 0.55
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.6
 solutions:
 - documentation-as-code
 - living-documentation

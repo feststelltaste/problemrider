@@ -8,17 +8,17 @@ category:
 - Management
 - Process
 related_problems:
+- slug: incomplete-projects
+  similarity: 0.65
 - slug: operational-overhead
   similarity: 0.65
-- slug: eager-to-please-stakeholders
-  similarity: 0.65
-- slug: scope-creep
-  similarity: 0.6
-- slug: constantly-shifting-deadlines
-  similarity: 0.6
-- slug: stakeholder-dissatisfaction
+- slug: gold-plating
   similarity: 0.6
 - slug: poor-planning
+  similarity: 0.6
+- slug: high-maintenance-costs
+  similarity: 0.6
+- slug: frequent-changes-to-requirements
   similarity: 0.6
 solutions:
 - formal-change-control-process

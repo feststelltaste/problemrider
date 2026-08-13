@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: inefficient-processes
-  similarity: 0.7
-- slug: uneven-work-flow
-  similarity: 0.65
+  similarity: 0.75
 - slug: wasted-development-effort
-  similarity: 0.6
+  similarity: 0.65
 - slug: bottleneck-formation
-  similarity: 0.6
+  similarity: 0.65
 - slug: insufficient-code-review
+  similarity: 0.65
+- slug: code-review-inefficiency
   similarity: 0.6
-- slug: delayed-decision-making
-  similarity: 0.55
+- slug: work-blocking
+  similarity: 0.6
 solutions:
 - iterative-development
 - business-process-automation

@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: tool-limitations
-  similarity: 0.7
-- slug: slow-feature-development
-  similarity: 0.65
+  similarity: 0.8
+- slug: difficult-developer-onboarding
+  similarity: 0.75
+- slug: slow-development-velocity
+  similarity: 0.75
 - slug: inefficient-processes
-  similarity: 0.65
-- slug: development-disruption
-  similarity: 0.65
-- slug: poor-system-environment
-  similarity: 0.65
-- slug: context-switching-overhead
-  similarity: 0.6
+  similarity: 0.75
+- slug: reduced-individual-productivity
+  similarity: 0.75
+- slug: reduced-team-productivity
+  similarity: 0.7
 solutions:
 - development-environment-optimization
 - development-workflow-automation

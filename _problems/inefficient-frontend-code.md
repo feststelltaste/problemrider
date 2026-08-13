@@ -6,17 +6,17 @@ category:
 - Code
 - Performance
 related_problems:
-- slug: high-client-side-resource-consumption
-  similarity: 0.8
 - slug: high-resource-utilization-on-client
+  similarity: 0.75
+- slug: high-client-side-resource-consumption
   similarity: 0.75
 - slug: inefficient-code
   similarity: 0.75
 - slug: slow-application-performance
   similarity: 0.7
-- slug: imperative-data-fetching-logic
-  similarity: 0.6
 - slug: slow-database-queries
+  similarity: 0.65
+- slug: high-api-latency
   similarity: 0.6
 solutions:
 - user-centered-design

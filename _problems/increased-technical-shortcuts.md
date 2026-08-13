@@ -6,18 +6,18 @@ category:
 - Code
 - Process
 related_problems:
+- slug: time-pressure
+  similarity: 0.75
 - slug: high-technical-debt
   similarity: 0.75
-- slug: time-pressure
-  similarity: 0.65
-- slug: accumulation-of-workarounds
-  similarity: 0.65
-- slug: short-term-focus
-  similarity: 0.65
 - slug: workaround-culture
-  similarity: 0.6
-- slug: invisible-nature-of-technical-debt
-  similarity: 0.6
+  similarity: 0.75
+- slug: deadline-pressure
+  similarity: 0.7
+- slug: accumulation-of-workarounds
+  similarity: 0.7
+- slug: complex-implementation-paths
+  similarity: 0.65
 solutions:
 - solid-principles
 - improvement-budget

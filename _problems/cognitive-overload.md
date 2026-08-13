@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: increased-cognitive-load
-  similarity: 0.8
+  similarity: 0.85
+- slug: mental-fatigue
+  similarity: 0.75
 - slug: context-switching-overhead
   similarity: 0.7
 - slug: avoidance-behaviors
-  similarity: 0.6
-- slug: maintenance-overhead
-  similarity: 0.6
-- slug: mental-fatigue
-  similarity: 0.6
-- slug: procrastination-on-complex-tasks
-  similarity: 0.6
+  similarity: 0.7
+- slug: developer-frustration-and-burnout
+  similarity: 0.65
+- slug: difficult-developer-onboarding
+  similarity: 0.65
 solutions:
 - clean-code
 - design-by-contract

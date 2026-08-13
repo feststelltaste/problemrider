@@ -8,17 +8,17 @@ category:
 - Performance
 related_problems:
 - slug: slow-application-performance
-  similarity: 0.65
+  similarity: 0.7
+- slug: n-plus-one-query-problem
+  similarity: 0.7
 - slug: high-api-latency
-  similarity: 0.6
-- slug: database-query-performance-issues
-  similarity: 0.6
-- slug: network-latency
-  similarity: 0.6
-- slug: slow-database-queries
-  similarity: 0.6
+  similarity: 0.7
+- slug: high-number-of-database-queries
+  similarity: 0.7
+- slug: imperative-data-fetching-logic
+  similarity: 0.7
 - slug: external-service-delays
-  similarity: 0.6
+  similarity: 0.65
 solutions:
 - query-optimization-process
 - asynchronous-operations

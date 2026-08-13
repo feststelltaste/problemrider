@@ -10,13 +10,13 @@ related_problems:
   similarity: 0.95
 - slug: inefficient-frontend-code
   similarity: 0.75
-- slug: high-database-resource-utilization
-  similarity: 0.75
-- slug: resource-contention
-  similarity: 0.7
 - slug: slow-application-performance
-  similarity: 0.7
-- slug: high-api-latency
+  similarity: 0.65
+- slug: resource-contention
+  similarity: 0.65
+- slug: high-number-of-database-queries
+  similarity: 0.6
+- slug: high-database-resource-utilization
   similarity: 0.6
 solutions:
 - user-centered-design

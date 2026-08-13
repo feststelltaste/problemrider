@@ -6,18 +6,18 @@ category:
 - Culture
 - Process
 related_problems:
+- slug: fear-of-change
+  similarity: 0.7
+- slug: history-of-failed-changes
+  similarity: 0.7
+- slug: decision-paralysis
+  similarity: 0.7
+- slug: avoidance-behaviors
+  similarity: 0.7
+- slug: reduced-innovation
+  similarity: 0.7
 - slug: fear-of-breaking-changes
   similarity: 0.7
-- slug: fear-of-change
-  similarity: 0.65
-- slug: inability-to-innovate
-  similarity: 0.65
-- slug: reduced-innovation
-  similarity: 0.65
-- slug: history-of-failed-changes
-  similarity: 0.6
-- slug: resistance-to-change
-  similarity: 0.6
 solutions:
 - blameless-postmortems
 - psychological-safety-practices

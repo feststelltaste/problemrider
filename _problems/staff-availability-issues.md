@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: project-resource-constraints
-  similarity: 0.6
+  similarity: 0.7
+- slug: delayed-project-timelines
+  similarity: 0.65
+- slug: work-blocking
+  similarity: 0.65
 - slug: capacity-mismatch
-  similarity: 0.6
-- slug: inappropriate-skillset
-  similarity: 0.55
-- slug: resource-waste
-  similarity: 0.55
-- slug: project-authority-vacuum
-  similarity: 0.5
-- slug: single-points-of-failure
-  similarity: 0.5
+  similarity: 0.65
+- slug: uneven-workload-distribution
+  similarity: 0.65
+- slug: poor-planning
+  similarity: 0.65
 solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices

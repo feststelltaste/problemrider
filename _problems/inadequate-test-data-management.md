@@ -7,16 +7,16 @@ category:
 - Process
 related_problems:
 - slug: insufficient-testing
+  similarity: 0.7
+- slug: high-defect-rate-in-production
   similarity: 0.65
-- slug: inadequate-test-infrastructure
-  similarity: 0.65
-- slug: outdated-tests
-  similarity: 0.65
-- slug: testing-complexity
+- slug: incomplete-projects
   similarity: 0.6
-- slug: testing-environment-fragility
+- slug: gold-plating
   similarity: 0.6
-- slug: legacy-code-without-tests
+- slug: misunderstanding-of-oop
+  similarity: 0.6
+- slug: inconsistent-behavior
   similarity: 0.6
 solutions:
 - test-coverage-strategy

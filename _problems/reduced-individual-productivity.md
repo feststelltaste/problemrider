@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: reduced-team-productivity
+  similarity: 0.85
+- slug: slow-development-velocity
+  similarity: 0.75
+- slug: inefficient-development-environment
   similarity: 0.75
 - slug: tool-limitations
+  similarity: 0.7
+- slug: inefficient-processes
+  similarity: 0.7
+- slug: increased-stress-and-burnout
   similarity: 0.65
-- slug: slow-development-velocity
-  similarity: 0.6
-- slug: increased-manual-work
-  similarity: 0.6
-- slug: inefficient-development-environment
-  similarity: 0.6
-- slug: development-disruption
-  similarity: 0.6
 solutions:
 - sustainable-pace-practices
 - work-in-progress-limits

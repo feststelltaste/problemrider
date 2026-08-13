@@ -10,9 +10,7 @@ related_problems:
   similarity: 0.7
 - slug: memory-fragmentation
   similarity: 0.55
-- slug: resource-contention
-  similarity: 0.55
-- slug: excessive-disk-io
+- slug: garbage-collection-pressure
   similarity: 0.5
 - slug: priority-thrashing
   similarity: 0.5

@@ -7,17 +7,17 @@ category:
 - Code
 related_problems:
 - slug: tight-coupling-issues
-  similarity: 0.65
+  similarity: 0.75
 - slug: poor-encapsulation
-  similarity: 0.6
+  similarity: 0.7
+- slug: unpredictable-system-behavior
+  similarity: 0.65
 - slug: poorly-defined-responsibilities
-  similarity: 0.6
-- slug: ripple-effect-of-changes
-  similarity: 0.55
+  similarity: 0.65
 - slug: deployment-coupling
-  similarity: 0.55
-- slug: inconsistent-quality
-  similarity: 0.55
+  similarity: 0.65
+- slug: difficult-to-understand-code
+  similarity: 0.6
 solutions:
 - architecture-reviews
 - loose-coupling

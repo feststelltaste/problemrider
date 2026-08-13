@@ -1,11 +1,24 @@
 ---
 title: Core Modification of Standard Software
-description: The vendor's own code has been altered directly instead of extended through supported mechanisms, so every update collides with local changes.
+description: The vendor's own code has been altered directly instead of extended through
+  supported mechanisms, so every update collides with local changes.
 category:
 - Architecture
 - Dependencies
 - Code
 related_problems:
+- slug: upgrade-blocked-by-customization
+  similarity: 0.7
+- slug: excessive-customization
+  similarity: 0.7
+- slug: voided-vendor-support
+  similarity: 0.65
+- slug: reimplemented-standard-functionality
+  similarity: 0.65
+- slug: customization-outside-version-control
+  similarity: 0.6
+- slug: process-software-misfit
+  similarity: 0.6
 solutions:
 - explicit-extension-points
 - fit-to-standard-principle

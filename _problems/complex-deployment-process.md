@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: manual-deployment-processes
+  similarity: 0.8
+- slug: deployment-risk
   similarity: 0.75
-- slug: large-risky-releases
-  similarity: 0.7
 - slug: immature-delivery-strategy
   similarity: 0.7
-- slug: deployment-risk
+- slug: large-risky-releases
   similarity: 0.7
-- slug: insufficient-testing
-  similarity: 0.6
-- slug: missing-rollback-strategy
-  similarity: 0.6
+- slug: long-release-cycles
+  similarity: 0.65
+- slug: complex-implementation-paths
+  similarity: 0.65
 solutions:
 - ci-cd-pipeline
 - infrastructure-as-code

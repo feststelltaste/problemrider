@@ -7,18 +7,18 @@ category:
 - Management
 - Process
 related_problems:
-- slug: product-direction-chaos
-  similarity: 0.75
 - slug: team-confusion
-  similarity: 0.75
+  similarity: 0.8
+- slug: product-direction-chaos
+  similarity: 0.8
 - slug: priority-thrashing
-  similarity: 0.65
+  similarity: 0.7
 - slug: competing-priorities
   similarity: 0.65
-- slug: unclear-sharing-expectations
-  similarity: 0.6
 - slug: changing-project-scope
-  similarity: 0.6
+  similarity: 0.65
+- slug: constantly-shifting-deadlines
+  similarity: 0.65
 solutions:
 - product-strategy-alignment
 - compatibility-governance

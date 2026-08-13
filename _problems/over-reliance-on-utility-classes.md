@@ -7,16 +7,16 @@ category:
 - Code
 related_problems:
 - slug: misunderstanding-of-oop
-  similarity: 0.7
-- slug: procedural-programming-in-oop-languages
-  similarity: 0.7
+  similarity: 0.75
 - slug: procedural-background
   similarity: 0.65
-- slug: excessive-class-size
+- slug: difficult-code-reuse
   similarity: 0.65
-- slug: monolithic-functions-and-classes
+- slug: poor-encapsulation
+  similarity: 0.65
+- slug: inefficient-code
   similarity: 0.6
-- slug: god-object-anti-pattern
+- slug: high-coupling-low-cohesion
   similarity: 0.6
 solutions:
 - incremental-refactoring

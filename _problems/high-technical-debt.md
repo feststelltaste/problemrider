@@ -9,15 +9,15 @@ related_problems:
 - slug: increased-technical-shortcuts
   similarity: 0.75
 - slug: invisible-nature-of-technical-debt
-  similarity: 0.65
+  similarity: 0.75
+- slug: time-pressure
+  similarity: 0.7
 - slug: accumulation-of-workarounds
-  similarity: 0.65
-- slug: accumulated-decision-debt
-  similarity: 0.65
-- slug: test-debt
-  similarity: 0.65
+  similarity: 0.7
 - slug: maintenance-overhead
-  similarity: 0.6
+  similarity: 0.7
+- slug: accumulated-decision-debt
+  similarity: 0.7
 solutions:
 - technical-debt-backlog
 - architecture-governance

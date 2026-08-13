@@ -6,17 +6,17 @@ category:
 - Process
 - Team
 related_problems:
-- slug: poor-teamwork
+- slug: reduced-team-flexibility
+  similarity: 0.6
+- slug: knowledge-sharing-breakdown
+  similarity: 0.6
+- slug: team-silos
   similarity: 0.55
 - slug: slow-knowledge-transfer
   similarity: 0.55
-- slug: team-dysfunction
+- slug: inability-to-innovate
   similarity: 0.55
-- slug: reduced-team-flexibility
-  similarity: 0.55
-- slug: inconsistent-knowledge-acquisition
-  similarity: 0.55
-- slug: reduced-innovation
+- slug: incomplete-knowledge
   similarity: 0.55
 solutions:
 - pair-and-mob-programming

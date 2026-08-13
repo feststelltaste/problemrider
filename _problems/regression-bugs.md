@@ -7,18 +7,18 @@ category:
 - Process
 - Testing
 related_problems:
+- slug: high-bug-introduction-rate
+  similarity: 0.65
+- slug: increased-bug-count
+  similarity: 0.65
+- slug: delayed-bug-fixes
+  similarity: 0.6
 - slug: breaking-changes
   similarity: 0.6
-- slug: partial-bug-fixes
+- slug: increased-risk-of-bugs
   similarity: 0.6
-- slug: high-bug-introduction-rate
+- slug: outdated-tests
   similarity: 0.6
-- slug: increased-bug-count
-  similarity: 0.55
-- slug: delayed-bug-fixes
-  similarity: 0.55
-- slug: increasing-brittleness
-  similarity: 0.55
 solutions:
 - test-coverage-strategy
 - acceptance-tests

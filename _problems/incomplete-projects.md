@@ -6,18 +6,18 @@ description: Features are started but never finished due to shifting priorities,
 category:
 - Process
 related_problems:
-- slug: incomplete-knowledge
+- slug: gold-plating
   similarity: 0.7
-- slug: constantly-shifting-deadlines
+- slug: stakeholder-developer-communication-gap
   similarity: 0.65
-- slug: wasted-development-effort
+- slug: large-feature-scope
   similarity: 0.65
-- slug: feature-gaps
-  similarity: 0.6
-- slug: reduced-feature-quality
-  similarity: 0.6
-- slug: poor-project-control
-  similarity: 0.6
+- slug: slow-feature-development
+  similarity: 0.65
+- slug: frequent-changes-to-requirements
+  similarity: 0.65
+- slug: development-disruption
+  similarity: 0.65
 solutions:
 - architecture-roadmap
 - impact-mapping

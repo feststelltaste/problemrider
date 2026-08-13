@@ -7,16 +7,16 @@ category:
 - Process
 related_problems:
 - slug: deadline-pressure
+  similarity: 0.85
+- slug: increased-technical-shortcuts
   similarity: 0.75
+- slug: unrealistic-deadlines
+  similarity: 0.75
+- slug: high-technical-debt
+  similarity: 0.7
 - slug: increased-stress-and-burnout
   similarity: 0.7
-- slug: constant-firefighting
-  similarity: 0.65
-- slug: increased-technical-shortcuts
-  similarity: 0.65
-- slug: unrealistic-deadlines
-  similarity: 0.65
-- slug: constantly-shifting-deadlines
+- slug: slow-development-velocity
   similarity: 0.65
 solutions:
 - iterative-development

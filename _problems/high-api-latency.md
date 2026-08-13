@@ -5,18 +5,18 @@ description: The time it takes for an API to respond to a request is excessively
 category:
 - Performance
 related_problems:
+- slug: external-service-delays
+  similarity: 0.85
+- slug: slow-application-performance
+  similarity: 0.8
 - slug: network-latency
   similarity: 0.8
-- slug: external-service-delays
+- slug: upstream-timeouts
+  similarity: 0.8
+- slug: service-timeouts
+  similarity: 0.8
+- slug: slow-database-queries
   similarity: 0.75
-- slug: slow-application-performance
-  similarity: 0.7
-- slug: slow-response-times-for-lists
-  similarity: 0.6
-- slug: high-resource-utilization-on-client
-  similarity: 0.6
-- slug: excessive-disk-io
-  similarity: 0.6
 solutions:
 - api-first-design
 - caching-strategy

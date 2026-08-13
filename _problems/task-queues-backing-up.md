@@ -7,13 +7,17 @@ category:
 - Performance
 related_problems:
 - slug: growing-task-queues
-  similarity: 0.85
-- slug: insufficient-worker-capacity
   similarity: 0.8
 - slug: work-queue-buildup
-  similarity: 0.7
-- slug: maintenance-overhead
-  similarity: 0.5
+  similarity: 0.75
+- slug: insufficient-worker-capacity
+  similarity: 0.75
+- slug: thread-pool-exhaustion
+  similarity: 0.55
+- slug: extended-cycle-times
+  similarity: 0.55
+- slug: external-service-delays
+  similarity: 0.55
 solutions:
 - backpressure
 - capacity-planning

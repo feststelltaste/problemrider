@@ -7,13 +7,17 @@ category:
 - Dependencies
 - Testing
 related_problems:
+- slug: dependency-version-conflicts
+  similarity: 0.6
 - slug: api-versioning-conflicts
   similarity: 0.6
-- slug: dependency-version-conflicts
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.55
+- slug: breaking-changes
   similarity: 0.55
 - slug: poor-interfaces-between-applications
   similarity: 0.55
-- slug: legacy-api-versioning-nightmare
+- slug: deployment-environment-inconsistencies
   similarity: 0.5
 solutions:
 - compatibility-testing

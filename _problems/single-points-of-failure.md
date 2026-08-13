@@ -7,18 +7,18 @@ category:
 - Process
 - Team
 related_problems:
+- slug: knowledge-dependency
+  similarity: 0.7
+- slug: knowledge-silos
+  similarity: 0.7
 - slug: maintenance-bottlenecks
   similarity: 0.65
-- slug: cascade-failures
+- slug: knowledge-gaps
   similarity: 0.65
-- slug: knowledge-dependency
-  similarity: 0.6
 - slug: bottleneck-formation
-  similarity: 0.6
-- slug: knowledge-silos
-  similarity: 0.6
-- slug: cascade-delays
-  similarity: 0.6
+  similarity: 0.65
+- slug: approval-dependencies
+  similarity: 0.65
 solutions:
 - event-driven-architecture
 - observability-and-monitoring

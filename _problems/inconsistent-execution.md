@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: inconsistent-behavior
-  similarity: 0.75
+  similarity: 0.7
 - slug: inconsistent-quality
-  similarity: 0.6
-- slug: uneven-work-flow
-  similarity: 0.55
-- slug: duplicated-work
-  similarity: 0.55
-- slug: team-confusion
-  similarity: 0.55
+  similarity: 0.7
 - slug: manual-deployment-processes
-  similarity: 0.55
+  similarity: 0.65
+- slug: inconsistent-knowledge-acquisition
+  similarity: 0.6
+- slug: inconsistent-onboarding-experience
+  similarity: 0.6
+- slug: inconsistent-coding-standards
+  similarity: 0.6
 solutions:
 - loose-coupling
 - code-review-guidelines

@@ -5,18 +5,18 @@ description: Team members don't develop expertise in important technologies or d
 category:
 - Team
 related_problems:
+- slug: knowledge-gaps
+  similarity: 0.8
 - slug: inappropriate-skillset
   similarity: 0.7
-- slug: inconsistent-knowledge-acquisition
-  similarity: 0.65
 - slug: legacy-skill-shortage
+  similarity: 0.7
+- slug: knowledge-silos
   similarity: 0.65
-- slug: knowledge-gaps
+- slug: inexperienced-developers
   similarity: 0.65
-- slug: feature-gaps
-  similarity: 0.6
 - slug: knowledge-dependency
-  similarity: 0.6
+  similarity: 0.65
 solutions:
 - pair-and-mob-programming
 - structured-onboarding-program

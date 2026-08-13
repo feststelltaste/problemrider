@@ -6,18 +6,18 @@ category:
 - Business
 - Requirements
 related_problems:
-- slug: monitoring-gaps
-  similarity: 0.6
-- slug: reduced-feature-quality
-  similarity: 0.6
-- slug: incomplete-projects
-  similarity: 0.6
-- slug: quality-blind-spots
-  similarity: 0.6
+- slug: knowledge-gaps
+  similarity: 0.7
 - slug: skill-development-gaps
+  similarity: 0.65
+- slug: monitoring-gaps
+  similarity: 0.65
+- slug: feedback-isolation
+  similarity: 0.65
+- slug: inadequate-requirements-gathering
   similarity: 0.6
-- slug: feature-bloat
-  similarity: 0.55
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.6
 solutions:
 - impact-mapping
 - user-centered-design

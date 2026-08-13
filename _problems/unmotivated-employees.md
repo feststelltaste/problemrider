@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: team-demoralization
-  similarity: 0.65
-- slug: reduced-team-productivity
-  similarity: 0.55
-- slug: developer-frustration-and-burnout
-  similarity: 0.55
-- slug: stakeholder-dissatisfaction
-  similarity: 0.55
-- slug: new-hire-frustration
-  similarity: 0.55
-- slug: unproductive-meetings
-  similarity: 0.5
+  similarity: 0.7
+- slug: poor-teamwork
+  similarity: 0.6
+- slug: increased-stress-and-burnout
+  similarity: 0.6
+- slug: unclear-goals-and-priorities
+  similarity: 0.6
+- slug: staff-availability-issues
+  similarity: 0.6
+- slug: team-confusion
+  similarity: 0.6
 solutions:
 - psychological-safety-practices
 - sustainable-pace-practices

@@ -8,17 +8,17 @@ category:
 - Requirements
 related_problems:
 - slug: user-frustration
-  similarity: 0.75
+  similarity: 0.85
+- slug: increased-customer-support-load
+  similarity: 0.65
 - slug: stakeholder-dissatisfaction
   similarity: 0.65
-- slug: user-confusion
+- slug: declining-business-metrics
   similarity: 0.65
-- slug: increased-customer-support-load
-  similarity: 0.6
-- slug: quality-degradation
-  similarity: 0.6
+- slug: stakeholder-frustration
+  similarity: 0.65
 - slug: system-outages
-  similarity: 0.6
+  similarity: 0.65
 solutions:
 - regression-testing
 - user-centered-design

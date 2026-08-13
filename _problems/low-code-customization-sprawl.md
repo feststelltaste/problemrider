@@ -1,11 +1,24 @@
 ---
 title: Low-Code Customization Sprawl
-description: Business logic accumulates in a platform's own scripting and workflow tooling, where it escapes testing, review, and every other engineering practice.
+description: Business logic accumulates in a platform's own scripting and workflow
+  tooling, where it escapes testing, review, and every other engineering practice.
 category:
 - Code
 - Process
 - Architecture
 related_problems:
+- slug: customization-outside-version-control
+  similarity: 0.65
+- slug: custom-report-sprawl
+  similarity: 0.65
+- slug: excessive-customization
+  similarity: 0.65
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.6
+- slug: accumulation-of-workarounds
+  similarity: 0.6
+- slug: reimplemented-standard-functionality
+  similarity: 0.6
 solutions:
 - customization-under-version-control
 - duplication-detection

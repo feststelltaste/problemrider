@@ -8,16 +8,16 @@ category:
 - Operations
 related_problems:
 - slug: cross-system-data-synchronization-problems
-  similarity: 0.75
+  similarity: 0.7
 - slug: data-migration-complexities
   similarity: 0.7
-- slug: database-schema-design-problems
-  similarity: 0.6
-- slug: schema-evolution-paralysis
-  similarity: 0.6
-- slug: legacy-configuration-management-chaos
-  similarity: 0.55
 - slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.6
+- slug: integration-difficulties
+  similarity: 0.6
+- slug: database-schema-design-problems
+  similarity: 0.55
+- slug: silent-data-corruption
   similarity: 0.55
 solutions:
 - evolutionary-database-design

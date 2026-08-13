@@ -6,18 +6,18 @@ category:
 - Code
 - Performance
 related_problems:
-- slug: memory-fragmentation
-  similarity: 0.65
-- slug: high-client-side-resource-consumption
-  similarity: 0.65
+- slug: slow-database-queries
+  similarity: 0.7
+- slug: slow-application-performance
+  similarity: 0.7
 - slug: unreleased-resources
-  similarity: 0.6
-- slug: gradual-performance-degradation
-  similarity: 0.6
-- slug: resource-allocation-failures
-  similarity: 0.6
-- slug: excessive-object-allocation
-  similarity: 0.6
+  similarity: 0.7
+- slug: excessive-disk-io
+  similarity: 0.65
+- slug: inefficient-code
+  similarity: 0.65
+- slug: high-database-resource-utilization
+  similarity: 0.65
 solutions:
 - concurrency-control
 - memory-management-optimization

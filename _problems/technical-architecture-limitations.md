@@ -8,16 +8,16 @@ category:
 - Performance
 related_problems:
 - slug: architectural-mismatch
-  similarity: 0.7
+  similarity: 0.65
+- slug: monolithic-architecture-constraints
+  similarity: 0.65
 - slug: stagnant-architecture
   similarity: 0.65
+- slug: complex-implementation-paths
+  similarity: 0.6
 - slug: tool-limitations
   similarity: 0.6
-- slug: monolithic-architecture-constraints
-  similarity: 0.6
-- slug: vendor-lock-in
-  similarity: 0.55
-- slug: maintenance-bottlenecks
+- slug: integration-difficulties
   similarity: 0.55
 solutions:
 - strangler-fig-pattern

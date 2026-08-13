@@ -6,18 +6,14 @@ category:
 - Code
 - Performance
 related_problems:
+- slug: race-conditions
+  similarity: 0.65
 - slug: lock-contention
   similarity: 0.6
 - slug: thread-pool-exhaustion
   similarity: 0.6
-- slug: race-conditions
-  similarity: 0.6
 - slug: resource-contention
   similarity: 0.55
-- slug: long-running-database-transactions
-  similarity: 0.55
-- slug: long-running-transactions
-  similarity: 0.5
 solutions:
 - query-optimization-process
 - timeout-management

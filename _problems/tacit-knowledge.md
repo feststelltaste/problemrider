@@ -6,18 +6,18 @@ category:
 - Process
 - Team
 related_problems:
-- slug: slow-knowledge-transfer
-  similarity: 0.75
 - slug: implicit-knowledge
   similarity: 0.7
+- slug: slow-knowledge-transfer
+  similarity: 0.65
 - slug: knowledge-silos
-  similarity: 0.7
-- slug: knowledge-sharing-breakdown
-  similarity: 0.6
+  similarity: 0.65
 - slug: knowledge-dependency
   similarity: 0.6
-- slug: incomplete-knowledge
-  similarity: 0.6
+- slug: knowledge-gaps
+  similarity: 0.55
+- slug: knowledge-sharing-breakdown
+  similarity: 0.55
 solutions:
 - architecture-decision-records
 - documentation-as-code

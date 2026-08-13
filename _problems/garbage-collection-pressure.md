@@ -7,17 +7,17 @@ category:
 - Performance
 related_problems:
 - slug: excessive-object-allocation
-  similarity: 0.7
-- slug: circular-references
-  similarity: 0.55
-- slug: memory-leaks
-  similarity: 0.55
+  similarity: 0.8
 - slug: memory-fragmentation
-  similarity: 0.5
+  similarity: 0.6
 - slug: resource-allocation-failures
-  similarity: 0.5
-- slug: interrupt-overhead
-  similarity: 0.5
+  similarity: 0.55
+- slug: gradual-performance-degradation
+  similarity: 0.55
+- slug: high-client-side-resource-consumption
+  similarity: 0.55
+- slug: stack-overflow-errors
+  similarity: 0.55
 solutions:
 - memory-management-optimization
 - profiling

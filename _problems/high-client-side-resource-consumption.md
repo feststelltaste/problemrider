@@ -8,15 +8,15 @@ related_problems:
 - slug: high-resource-utilization-on-client
   similarity: 0.95
 - slug: inefficient-frontend-code
-  similarity: 0.8
-- slug: high-database-resource-utilization
-  similarity: 0.7
+  similarity: 0.75
 - slug: slow-application-performance
-  similarity: 0.7
-- slug: resource-contention
-  similarity: 0.7
-- slug: memory-leaks
   similarity: 0.65
+- slug: algorithmic-complexity-problems
+  similarity: 0.65
+- slug: high-number-of-database-queries
+  similarity: 0.6
+- slug: resource-contention
+  similarity: 0.6
 solutions:
 - user-centered-design
 - api-calls-optimization

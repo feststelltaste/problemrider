@@ -7,17 +7,17 @@ category:
 - Code
 related_problems:
 - slug: hidden-dependencies
-  similarity: 0.7
+  similarity: 0.8
 - slug: ripple-effect-of-changes
+  similarity: 0.7
+- slug: global-state-and-side-effects
+  similarity: 0.7
+- slug: hidden-side-effects
+  similarity: 0.7
+- slug: tight-coupling-issues
   similarity: 0.65
 - slug: inconsistent-behavior
   similarity: 0.65
-- slug: increasing-brittleness
-  similarity: 0.6
-- slug: change-management-chaos
-  similarity: 0.6
-- slug: configuration-chaos
-  similarity: 0.6
 solutions:
 - observability-and-monitoring
 - chaos-engineering

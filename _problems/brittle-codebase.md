@@ -6,17 +6,17 @@ category:
 - Architecture
 - Code
 related_problems:
-- slug: inconsistent-codebase
-  similarity: 0.75
 - slug: increasing-brittleness
+  similarity: 0.75
+- slug: fear-of-change
   similarity: 0.7
-- slug: difficult-code-comprehension
+- slug: fear-of-breaking-changes
+  similarity: 0.7
+- slug: refactoring-avoidance
   similarity: 0.65
-- slug: spaghetti-code
+- slug: large-estimates-for-small-changes
   similarity: 0.65
-- slug: uncontrolled-codebase-growth
-  similarity: 0.65
-- slug: complex-and-obscure-logic
+- slug: high-bug-introduction-rate
   similarity: 0.65
 solutions:
 - technical-debt-backlog

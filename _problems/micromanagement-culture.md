@@ -7,18 +7,18 @@ category:
 - Management
 - Process
 related_problems:
-- slug: individual-recognition-culture
-  similarity: 0.55
-- slug: perfectionist-culture
-  similarity: 0.55
+- slug: blame-culture
+  similarity: 0.65
 - slug: perfectionist-review-culture
-  similarity: 0.55
-- slug: nitpicking-culture
-  similarity: 0.55
+  similarity: 0.6
+- slug: perfectionist-culture
+  similarity: 0.6
 - slug: approval-dependencies
-  similarity: 0.5
-- slug: decision-paralysis
-  similarity: 0.5
+  similarity: 0.6
+- slug: individual-recognition-culture
+  similarity: 0.6
+- slug: knowledge-dependency
+  similarity: 0.55
 solutions:
 - team-autonomy-and-empowerment
 - decision-rights-and-escalation

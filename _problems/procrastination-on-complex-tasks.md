@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: avoidance-behaviors
-  similarity: 0.8
+  similarity: 0.85
 - slug: decision-avoidance
+  similarity: 0.65
+- slug: delayed-decision-making
   similarity: 0.6
-- slug: cognitive-overload
+- slug: accumulated-decision-debt
   similarity: 0.6
-- slug: accumulation-of-workarounds
-  similarity: 0.55
-- slug: difficult-code-comprehension
-  similarity: 0.55
-- slug: delayed-issue-resolution
-  similarity: 0.55
+- slug: work-blocking
+  similarity: 0.6
+- slug: increased-cognitive-load
+  similarity: 0.6
 solutions:
 - iterative-development
 - mikado-method

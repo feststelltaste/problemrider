@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: resistance-to-change
   similarity: 0.75
-- slug: analysis-paralysis
+- slug: refactoring-avoidance
+  similarity: 0.75
+- slug: fear-of-change
+  similarity: 0.75
+- slug: fear-of-breaking-changes
   similarity: 0.7
 - slug: decision-paralysis
   similarity: 0.7
-- slug: maintenance-bottlenecks
-  similarity: 0.7
 - slug: inability-to-innovate
-  similarity: 0.7
-- slug: refactoring-avoidance
   similarity: 0.7
 solutions:
 - architecture-roadmap

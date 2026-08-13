@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: communication-risk-within-project
-  similarity: 0.8
-- slug: stakeholder-dissatisfaction
-  similarity: 0.65
-- slug: eager-to-please-stakeholders
-  similarity: 0.65
-- slug: stakeholder-frustration
-  similarity: 0.6
-- slug: stakeholder-developer-communication-gap
-  similarity: 0.6
+  similarity: 0.75
 - slug: stakeholder-confidence-loss
   similarity: 0.6
+- slug: stakeholder-frustration
+  similarity: 0.6
+- slug: stakeholder-dissatisfaction
+  similarity: 0.6
+- slug: communication-breakdown
+  similarity: 0.55
+- slug: misaligned-deliverables
+  similarity: 0.5
 solutions:
 - structured-communication-protocols
 - team-boundaries-aligned-to-architecture

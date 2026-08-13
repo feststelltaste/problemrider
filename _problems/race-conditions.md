@@ -9,16 +9,16 @@ category:
 related_problems:
 - slug: lock-contention
   similarity: 0.65
-- slug: false-sharing
-  similarity: 0.6
 - slug: deadlock-conditions
+  similarity: 0.65
+- slug: false-sharing
   similarity: 0.6
 - slug: synchronization-problems
   similarity: 0.55
+- slug: inconsistent-behavior
+  similarity: 0.55
 - slug: resource-contention
-  similarity: 0.5
-- slug: team-coordination-issues
-  similarity: 0.5
+  similarity: 0.55
 solutions:
 - concurrency-control
 - resource-pooling

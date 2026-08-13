@@ -1,11 +1,25 @@
 ---
 title: Customization Outside Version Control
-description: Configuration and custom logic live inside the database of a commercially purchased software system, so they cannot be diffed, reviewed, reproduced, or traced to who changed what.
+description: Configuration and custom logic live inside the database of a commercially
+  purchased software system, so they cannot be diffed, reviewed, reproduced, or traced
+  to who changed what.
 category:
 - Operations
 - Process
 - Code
 related_problems:
+- slug: excessive-customization
+  similarity: 0.7
+- slug: low-code-customization-sprawl
+  similarity: 0.65
+- slug: inadequate-configuration-management
+  similarity: 0.65
+- slug: custom-report-sprawl
+  similarity: 0.65
+- slug: core-modification-of-standard-software
+  similarity: 0.6
+- slug: reimplemented-standard-functionality
+  similarity: 0.6
 solutions:
 - customization-under-version-control
 - version-control

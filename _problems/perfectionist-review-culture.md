@@ -7,18 +7,18 @@ category:
 - Process
 - Team
 related_problems:
+- slug: perfectionist-culture
+  similarity: 0.8
 - slug: nitpicking-culture
   similarity: 0.75
-- slug: perfectionist-culture
-  similarity: 0.7
 - slug: inadequate-code-reviews
-  similarity: 0.65
+  similarity: 0.7
 - slug: code-review-inefficiency
-  similarity: 0.65
-- slug: review-process-breakdown
-  similarity: 0.65
-- slug: fear-of-conflict
-  similarity: 0.6
+  similarity: 0.7
+- slug: review-process-avoidance
+  similarity: 0.7
+- slug: extended-review-cycles
+  similarity: 0.7
 solutions:
 - code-review-process-reform
 - code-review-guidelines

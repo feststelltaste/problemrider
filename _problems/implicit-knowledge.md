@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: tacit-knowledge
   similarity: 0.7
+- slug: knowledge-gaps
+  similarity: 0.65
 - slug: knowledge-dependency
-  similarity: 0.65
-- slug: inconsistent-knowledge-acquisition
-  similarity: 0.65
-- slug: incomplete-knowledge
   similarity: 0.65
 - slug: knowledge-silos
   similarity: 0.65
 - slug: legacy-system-documentation-archaeology
+  similarity: 0.65
+- slug: information-fragmentation
   similarity: 0.65
 solutions:
 - architecture-decision-records

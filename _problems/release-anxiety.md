@@ -8,16 +8,16 @@ category:
 - Process
 related_problems:
 - slug: release-instability
-  similarity: 0.65
+  similarity: 0.7
+- slug: reviewer-anxiety
+  similarity: 0.7
 - slug: large-risky-releases
   similarity: 0.65
-- slug: reviewer-anxiety
-  similarity: 0.65
-- slug: fear-of-breaking-changes
+- slug: deployment-risk
   similarity: 0.6
-- slug: time-pressure
+- slug: fear-of-failure
   similarity: 0.6
-- slug: perfectionist-culture
+- slug: history-of-failed-changes
   similarity: 0.6
 solutions:
 - blue-green-canary-deployments

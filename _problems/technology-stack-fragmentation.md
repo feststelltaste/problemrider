@@ -9,16 +9,16 @@ category:
 related_problems:
 - slug: technology-isolation
   similarity: 0.75
-- slug: obsolete-technologies
-  similarity: 0.7
 - slug: information-fragmentation
   similarity: 0.65
 - slug: legacy-skill-shortage
   similarity: 0.65
-- slug: technology-lock-in
-  similarity: 0.6
-- slug: vendor-lock-in
-  similarity: 0.6
+- slug: integration-difficulties
+  similarity: 0.65
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.65
+- slug: legacy-configuration-management-chaos
+  similarity: 0.65
 solutions:
 - dependency-management-strategy
 - adapter

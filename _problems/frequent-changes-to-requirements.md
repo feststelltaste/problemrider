@@ -6,18 +6,18 @@ category:
 - Communication
 - Process
 related_problems:
+- slug: constantly-shifting-deadlines
+  similarity: 0.8
 - slug: changing-project-scope
   similarity: 0.75
-- slug: constantly-shifting-deadlines
-  similarity: 0.75
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.7
 - slug: scope-creep
   similarity: 0.7
-- slug: development-disruption
-  similarity: 0.65
 - slug: no-formal-change-control-process
-  similarity: 0.65
-- slug: constant-firefighting
-  similarity: 0.65
+  similarity: 0.7
+- slug: large-estimates-for-small-changes
+  similarity: 0.7
 solutions:
 - evolutionary-requirements-development
 - formal-change-control-process

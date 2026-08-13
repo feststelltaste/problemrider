@@ -7,18 +7,18 @@ category:
 - Operations
 - Process
 related_problems:
-- slug: large-risky-releases
-  similarity: 0.65
 - slug: release-anxiety
-  similarity: 0.65
+  similarity: 0.7
+- slug: large-risky-releases
+  similarity: 0.7
 - slug: development-disruption
-  similarity: 0.6
-- slug: long-release-cycles
-  similarity: 0.6
+  similarity: 0.65
 - slug: frequent-hotfixes-and-rollbacks
-  similarity: 0.6
+  similarity: 0.65
 - slug: high-defect-rate-in-production
-  similarity: 0.6
+  similarity: 0.65
+- slug: inconsistent-behavior
+  similarity: 0.65
 solutions:
 - blue-green-canary-deployments
 - ci-cd-pipeline

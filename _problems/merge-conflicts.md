@@ -7,18 +7,18 @@ category:
 - Process
 - Team
 related_problems:
+- slug: conflicting-reviewer-opinions
+  similarity: 0.7
+- slug: long-lived-feature-branches
+  similarity: 0.7
+- slug: reduced-code-submission-frequency
+  similarity: 0.65
+- slug: large-pull-requests
+  similarity: 0.65
 - slug: team-coordination-issues
   similarity: 0.65
-- slug: conflicting-reviewer-opinions
-  similarity: 0.6
-- slug: duplicated-work
-  similarity: 0.6
-- slug: long-lived-feature-branches
-  similarity: 0.55
-- slug: duplicated-effort
-  similarity: 0.55
-- slug: duplicated-research-effort
-  similarity: 0.55
+- slug: fear-of-conflict
+  similarity: 0.65
 solutions:
 - feature-flags
 - continuous-integration

@@ -6,18 +6,18 @@ category:
 - Architecture
 - Database
 related_problems:
-- slug: schema-evolution-paralysis
-  similarity: 0.7
 - slug: database-query-performance-issues
+  similarity: 0.7
+- slug: schema-evolution-paralysis
   similarity: 0.65
-- slug: data-migration-integrity-issues
-  similarity: 0.6
 - slug: high-number-of-database-queries
-  similarity: 0.55
+  similarity: 0.6
+- slug: entity-attribute-value-overuse
+  similarity: 0.6
+- slug: algorithmic-complexity-problems
+  similarity: 0.6
 - slug: n-plus-one-query-problem
-  similarity: 0.55
-- slug: rest-api-design-issues
-  similarity: 0.55
+  similarity: 0.6
 solutions:
 - evolutionary-database-design
 - backward-compatible-schema-migrations

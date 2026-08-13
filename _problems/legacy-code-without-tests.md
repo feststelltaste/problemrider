@@ -7,18 +7,18 @@ category:
 - Operations
 - Testing
 related_problems:
+- slug: difficult-to-test-code
+  similarity: 0.65
+- slug: poor-test-coverage
+  similarity: 0.65
 - slug: outdated-tests
   similarity: 0.65
-- slug: insufficient-design-skills
+- slug: brittle-codebase
+  similarity: 0.65
+- slug: legacy-business-logic-extraction-difficulty
   similarity: 0.6
-- slug: difficult-to-test-code
+- slug: test-debt
   similarity: 0.6
-- slug: inadequate-test-data-management
-  similarity: 0.6
-- slug: poor-test-coverage
-  similarity: 0.55
-- slug: inadequate-test-infrastructure
-  similarity: 0.55
 solutions:
 - test-coverage-strategy
 - acceptance-tests

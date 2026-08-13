@@ -12,13 +12,13 @@ related_problems:
 - slug: extended-cycle-times
   similarity: 0.65
 - slug: delayed-project-timelines
+  similarity: 0.65
+- slug: competitive-disadvantage
+  similarity: 0.6
+- slug: market-pressure
   similarity: 0.6
 - slug: delayed-decision-making
   similarity: 0.6
-- slug: constantly-shifting-deadlines
-  similarity: 0.55
-- slug: slow-feature-development
-  similarity: 0.55
 solutions:
 - ci-cd-pipeline
 - microservices

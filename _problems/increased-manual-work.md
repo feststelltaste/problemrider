@@ -9,15 +9,15 @@ related_problems:
 - slug: increased-manual-testing-effort
   similarity: 0.75
 - slug: inefficient-processes
-  similarity: 0.6
+  similarity: 0.7
+- slug: manual-deployment-processes
+  similarity: 0.65
+- slug: inefficient-development-environment
+  similarity: 0.65
 - slug: extended-research-time
-  similarity: 0.6
-- slug: context-switching-overhead
-  similarity: 0.6
-- slug: reduced-individual-productivity
-  similarity: 0.6
-- slug: wasted-development-effort
-  similarity: 0.55
+  similarity: 0.65
+- slug: tool-limitations
+  similarity: 0.65
 solutions:
 - development-environment-optimization
 - development-workflow-automation

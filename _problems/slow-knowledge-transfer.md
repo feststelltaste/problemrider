@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: tacit-knowledge
-  similarity: 0.75
-- slug: inconsistent-knowledge-acquisition
-  similarity: 0.7
+  similarity: 0.65
 - slug: knowledge-dependency
+  similarity: 0.65
+- slug: difficult-developer-onboarding
   similarity: 0.65
 - slug: knowledge-silos
   similarity: 0.65
+- slug: knowledge-gaps
+  similarity: 0.65
 - slug: knowledge-sharing-breakdown
   similarity: 0.65
-- slug: incomplete-knowledge
-  similarity: 0.6
 solutions:
 - knowledge-sharing-practices
 - pair-and-mob-programming

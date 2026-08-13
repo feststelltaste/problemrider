@@ -7,10 +7,18 @@ category:
 - Code
 - Performance
 related_problems:
+- slug: unreleased-resources
+  similarity: 0.6
+- slug: circular-references
+  similarity: 0.55
 - slug: memory-leaks
   similarity: 0.55
-- slug: unreleased-resources
+- slug: excessive-object-allocation
   similarity: 0.55
+- slug: resource-allocation-failures
+  similarity: 0.55
+- slug: database-connection-leaks
+  similarity: 0.5
 solutions:
 - memory-management-optimization
 - static-analysis-and-linting

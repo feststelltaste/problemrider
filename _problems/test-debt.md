@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: high-technical-debt
+  similarity: 0.7
+- slug: quality-blind-spots
   similarity: 0.65
-- slug: testing-complexity
-  similarity: 0.6
-- slug: outdated-tests
-  similarity: 0.6
-- slug: quality-degradation
-  similarity: 0.6
 - slug: insufficient-testing
-  similarity: 0.6
-- slug: accumulated-decision-debt
-  similarity: 0.6
+  similarity: 0.65
+- slug: poor-test-coverage
+  similarity: 0.65
+- slug: testing-environment-fragility
+  similarity: 0.65
+- slug: invisible-nature-of-technical-debt
+  similarity: 0.65
 solutions:
 - test-coverage-strategy
 - automated-tests

@@ -5,18 +5,18 @@ description: Issues appear to be resolved but resurface in different contexts be
 category:
 - Code
 related_problems:
-- slug: delayed-bug-fixes
+- slug: inconsistent-behavior
   similarity: 0.7
+- slug: code-duplication
+  similarity: 0.65
 - slug: difficult-code-reuse
+  similarity: 0.65
+- slug: incomplete-projects
+  similarity: 0.65
+- slug: synchronization-problems
   similarity: 0.65
 - slug: incomplete-knowledge
   similarity: 0.65
-- slug: inconsistent-quality
-  similarity: 0.6
-- slug: code-duplication
-  similarity: 0.6
-- slug: synchronization-problems
-  similarity: 0.6
 solutions:
 - definition-of-done
 - regression-tests

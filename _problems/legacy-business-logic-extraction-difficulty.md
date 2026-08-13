@@ -7,18 +7,18 @@ category:
 - Code
 - Communication
 related_problems:
-- slug: complex-and-obscure-logic
-  similarity: 0.65
 - slug: modernization-roi-justification-failure
-  similarity: 0.6
+  similarity: 0.65
+- slug: poor-domain-model
+  similarity: 0.65
 - slug: legacy-system-documentation-archaeology
+  similarity: 0.65
+- slug: integration-difficulties
+  similarity: 0.65
+- slug: low-code-customization-sprawl
   similarity: 0.6
-- slug: legacy-configuration-management-chaos
-  similarity: 0.55
-- slug: data-migration-integrity-issues
-  similarity: 0.55
-- slug: complex-domain-model
-  similarity: 0.55
+- slug: legacy-skill-shortage
+  similarity: 0.6
 solutions:
 - strangler-fig-pattern
 - bubble-context

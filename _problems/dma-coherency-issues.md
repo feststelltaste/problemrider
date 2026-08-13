@@ -7,8 +7,12 @@ category:
 - Database
 - Performance
 related_problems:
+- slug: cache-invalidation-problems
+  similarity: 0.55
 - slug: false-sharing
   similarity: 0.55
+- slug: data-structure-cache-inefficiency
+  similarity: 0.5
 solutions:
 - profiling
 - performance-measurements

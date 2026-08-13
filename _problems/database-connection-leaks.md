@@ -10,15 +10,15 @@ related_problems:
 - slug: misconfigured-connection-pools
   similarity: 0.7
 - slug: high-connection-count
-  similarity: 0.65
+  similarity: 0.7
+- slug: resource-allocation-failures
+  similarity: 0.7
 - slug: incorrect-max-connection-pool-size
   similarity: 0.65
+- slug: unreleased-resources
+  similarity: 0.65
 - slug: database-query-performance-issues
-  similarity: 0.6
-- slug: resource-allocation-failures
-  similarity: 0.6
-- slug: long-running-transactions
-  similarity: 0.6
+  similarity: 0.65
 solutions:
 - query-optimization-process
 - connection-pooling

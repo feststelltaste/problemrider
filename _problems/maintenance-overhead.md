@@ -9,14 +9,14 @@ related_problems:
 - slug: high-maintenance-costs
   similarity: 0.8
 - slug: operational-overhead
+  similarity: 0.75
+- slug: high-technical-debt
   similarity: 0.7
 - slug: maintenance-cost-increase
-  similarity: 0.7
-- slug: maintenance-paralysis
   similarity: 0.65
 - slug: context-switching-overhead
   similarity: 0.65
-- slug: maintenance-bottlenecks
+- slug: increased-cognitive-load
   similarity: 0.65
 solutions:
 - technical-debt-backlog

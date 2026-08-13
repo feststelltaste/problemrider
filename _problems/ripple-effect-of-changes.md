@@ -6,17 +6,17 @@ category:
 - Architecture
 - Code
 related_problems:
+- slug: unpredictable-system-behavior
+  similarity: 0.7
 - slug: tight-coupling-issues
   similarity: 0.7
 - slug: cascade-failures
+  similarity: 0.7
+- slug: change-management-chaos
   similarity: 0.65
-- slug: unpredictable-system-behavior
+- slug: rapid-system-changes
   similarity: 0.65
 - slug: deployment-coupling
-  similarity: 0.65
-- slug: change-management-chaos
-  similarity: 0.6
-- slug: hidden-dependencies
   similarity: 0.6
 solutions:
 - design-by-contract

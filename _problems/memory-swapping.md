@@ -7,16 +7,16 @@ category:
 related_problems:
 - slug: virtual-memory-thrashing
   similarity: 0.7
-- slug: excessive-disk-io
-  similarity: 0.7
-- slug: high-database-resource-utilization
-  similarity: 0.65
 - slug: resource-contention
-  similarity: 0.65
-- slug: slow-application-performance
   similarity: 0.6
-- slug: database-query-performance-issues
+- slug: memory-fragmentation
   similarity: 0.6
+- slug: memory-leaks
+  similarity: 0.6
+- slug: excessive-disk-io
+  similarity: 0.55
+- slug: slow-database-queries
+  similarity: 0.55
 solutions:
 - backpressure
 - caching-strategy

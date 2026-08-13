@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: cv-driven-development
-  similarity: 0.7
-- slug: brittle-codebase
+  similarity: 0.65
+- slug: increased-technical-shortcuts
   similarity: 0.6
-- slug: feature-creep-without-refactoring
-  similarity: 0.55
-- slug: difficult-code-comprehension
-  similarity: 0.55
 - slug: assumption-based-development
   similarity: 0.55
-- slug: increased-technical-shortcuts
+- slug: copy-paste-programming
   similarity: 0.55
+- slug: feature-creep-without-refactoring
+  similarity: 0.55
+- slug: defensive-coding-practices
+  similarity: 0.5
 solutions:
 - architecture-reviews
 - clean-code

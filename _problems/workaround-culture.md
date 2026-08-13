@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: accumulation-of-workarounds
-  similarity: 0.75
+  similarity: 0.9
 - slug: increased-technical-shortcuts
-  similarity: 0.6
-- slug: perfectionist-culture
-  similarity: 0.6
-- slug: resistance-to-change
-  similarity: 0.6
+  similarity: 0.75
+- slug: high-technical-debt
+  similarity: 0.7
+- slug: complex-implementation-paths
+  similarity: 0.65
+- slug: delayed-issue-resolution
+  similarity: 0.65
 - slug: refactoring-avoidance
-  similarity: 0.55
-- slug: maintenance-paralysis
-  similarity: 0.55
+  similarity: 0.65
 solutions:
 - incremental-refactoring
 - technical-debt-backlog

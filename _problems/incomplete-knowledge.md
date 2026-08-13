@@ -6,17 +6,17 @@ category:
 - Communication
 - Team
 related_problems:
+- slug: knowledge-gaps
+  similarity: 0.7
+- slug: team-silos
+  similarity: 0.7
 - slug: incomplete-projects
-  similarity: 0.7
-- slug: inconsistent-knowledge-acquisition
-  similarity: 0.7
-- slug: inexperienced-developers
-  similarity: 0.7
-- slug: information-fragmentation
+  similarity: 0.65
+- slug: inconsistent-behavior
   similarity: 0.65
 - slug: insufficient-design-skills
   similarity: 0.65
-- slug: poor-documentation
+- slug: inexperienced-developers
   similarity: 0.65
 solutions:
 - architecture-decision-records

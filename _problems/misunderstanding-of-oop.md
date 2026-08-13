@@ -7,18 +7,18 @@ category:
 - Architecture
 - Team
 related_problems:
-- slug: procedural-background
-  similarity: 0.75
 - slug: over-reliance-on-utility-classes
+  similarity: 0.75
+- slug: procedural-background
   similarity: 0.7
+- slug: inefficient-code
+  similarity: 0.65
 - slug: insufficient-design-skills
-  similarity: 0.7
-- slug: difficult-code-comprehension
-  similarity: 0.65
+  similarity: 0.6
+- slug: poor-encapsulation
+  similarity: 0.6
 - slug: difficult-code-reuse
-  similarity: 0.65
-- slug: inconsistent-codebase
-  similarity: 0.65
+  similarity: 0.6
 solutions:
 - architecture-reviews
 - clean-code

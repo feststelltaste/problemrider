@@ -8,16 +8,16 @@ category:
 - Team
 related_problems:
 - slug: team-dysfunction
-  similarity: 0.85
-- slug: team-coordination-issues
-  similarity: 0.7
-- slug: team-confusion
+  similarity: 0.75
+- slug: poor-communication
+  similarity: 0.75
+- slug: team-silos
   similarity: 0.65
-- slug: knowledge-sharing-breakdown
-  similarity: 0.65
-- slug: reduced-team-productivity
+- slug: communication-breakdown
   similarity: 0.65
 - slug: knowledge-silos
+  similarity: 0.65
+- slug: knowledge-sharing-breakdown
   similarity: 0.65
 solutions:
 - blameless-postmortems

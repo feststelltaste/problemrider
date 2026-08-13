@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: procrastination-on-complex-tasks
-  similarity: 0.8
+  similarity: 0.85
 - slug: decision-avoidance
   similarity: 0.7
 - slug: cognitive-overload
-  similarity: 0.6
-- slug: refactoring-avoidance
-  similarity: 0.6
-- slug: accumulation-of-workarounds
-  similarity: 0.6
-- slug: complex-implementation-paths
-  similarity: 0.55
+  similarity: 0.7
+- slug: fear-of-failure
+  similarity: 0.7
+- slug: increased-cognitive-load
+  similarity: 0.7
+- slug: mental-fatigue
+  similarity: 0.65
 solutions:
 - blameless-postmortems
 - decision-rights-and-escalation

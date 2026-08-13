@@ -7,16 +7,16 @@ category:
 related_problems:
 - slug: high-api-latency
   similarity: 0.8
-- slug: slow-application-performance
-  similarity: 0.65
-- slug: lazy-loading
-  similarity: 0.65
 - slug: external-service-delays
-  similarity: 0.6
-- slug: excessive-disk-io
-  similarity: 0.6
+  similarity: 0.75
+- slug: upstream-timeouts
+  similarity: 0.75
 - slug: service-timeouts
-  similarity: 0.6
+  similarity: 0.7
+- slug: slow-application-performance
+  similarity: 0.7
+- slug: slow-database-queries
+  similarity: 0.65
 solutions:
 - caching-strategy
 - serialization-optimization

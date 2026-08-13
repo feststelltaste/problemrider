@@ -7,16 +7,16 @@ category:
 - Requirements
 related_problems:
 - slug: user-confusion
-  similarity: 0.75
+  similarity: 0.8
 - slug: inconsistent-execution
-  similarity: 0.75
+  similarity: 0.7
+- slug: partial-bug-fixes
+  similarity: 0.7
+- slug: synchronization-problems
+  similarity: 0.7
 - slug: inconsistent-quality
-  similarity: 0.65
+  similarity: 0.7
 - slug: unpredictable-system-behavior
-  similarity: 0.65
-- slug: deployment-environment-inconsistencies
-  similarity: 0.65
-- slug: configuration-chaos
   similarity: 0.65
 solutions:
 - loose-coupling

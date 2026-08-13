@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: customer-dissatisfaction
-  similarity: 0.6
+  similarity: 0.65
 - slug: user-frustration
-  similarity: 0.55
+  similarity: 0.6
 - slug: increased-bug-count
-  similarity: 0.55
-- slug: user-confusion
-  similarity: 0.55
+  similarity: 0.6
 - slug: increased-cognitive-load
+  similarity: 0.6
+- slug: increased-stress-and-burnout
   similarity: 0.55
-- slug: maintenance-cost-increase
-  similarity: 0.5
+- slug: increased-error-rates
+  similarity: 0.55
 solutions:
 - product-strategy-alignment
 - auto-save

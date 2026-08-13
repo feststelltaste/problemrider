@@ -6,17 +6,17 @@ category:
 - Business
 - Code
 related_problems:
-- slug: maintenance-cost-increase
-  similarity: 0.8
 - slug: maintenance-overhead
   similarity: 0.8
-- slug: increased-cost-of-development
+- slug: maintenance-cost-increase
   similarity: 0.75
-- slug: modernization-roi-justification-failure
-  similarity: 0.6
-- slug: maintenance-paralysis
-  similarity: 0.6
-- slug: maintenance-bottlenecks
+- slug: increased-cost-of-development
+  similarity: 0.7
+- slug: high-technical-debt
+  similarity: 0.7
+- slug: large-estimates-for-small-changes
+  similarity: 0.65
+- slug: operational-overhead
   similarity: 0.6
 solutions:
 - strangler-fig-pattern

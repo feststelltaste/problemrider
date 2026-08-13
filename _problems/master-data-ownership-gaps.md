@@ -1,11 +1,24 @@
 ---
 title: Master Data Ownership Gaps
-description: Core reference data is shared across modules and departments with no owner, so its quality degrades and nobody is responsible for correcting it.
+description: Core reference data is shared across modules and departments with no
+  owner, so its quality degrades and nobody is responsible for correcting it.
 category:
 - Database
 - Management
 - Business
 related_problems:
+- slug: lack-of-ownership-and-accountability
+  similarity: 0.65
+- slug: unclear-documentation-ownership
+  similarity: 0.6
+- slug: custom-report-sprawl
+  similarity: 0.55
+- slug: poor-interfaces-between-applications
+  similarity: 0.5
+- slug: poor-domain-model
+  similarity: 0.5
+- slug: information-fragmentation
+  similarity: 0.5
 solutions:
 - master-data-stewardship
 - clear-ownership-model

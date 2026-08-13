@@ -6,18 +6,18 @@ category:
 - Process
 - Requirements
 related_problems:
-- slug: changing-project-scope
-  similarity: 0.8
-- slug: no-formal-change-control-process
-  similarity: 0.7
 - slug: feature-creep
-  similarity: 0.7
+  similarity: 0.75
+- slug: no-formal-change-control-process
+  similarity: 0.75
 - slug: frequent-changes-to-requirements
   similarity: 0.7
-- slug: scope-change-resistance
+- slug: changing-project-scope
+  similarity: 0.7
+- slug: feature-creep-without-refactoring
   similarity: 0.65
-- slug: eager-to-please-stakeholders
-  similarity: 0.6
+- slug: unrealistic-deadlines
+  similarity: 0.65
 solutions:
 - change-management-process
 - evolutionary-requirements-development

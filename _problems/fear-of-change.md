@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: fear-of-breaking-changes
-  similarity: 0.85
+  similarity: 0.8
 - slug: resistance-to-change
+  similarity: 0.8
+- slug: history-of-failed-changes
+  similarity: 0.75
+- slug: maintenance-paralysis
   similarity: 0.75
 - slug: refactoring-avoidance
-  similarity: 0.7
+  similarity: 0.75
 - slug: fear-of-failure
-  similarity: 0.65
-- slug: maintenance-paralysis
-  similarity: 0.65
-- slug: history-of-failed-changes
-  similarity: 0.65
+  similarity: 0.7
 solutions:
 - blameless-postmortems
 - feature-flags

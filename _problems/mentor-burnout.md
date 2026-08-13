@@ -7,18 +7,18 @@ category:
 - Management
 - Team
 related_problems:
+- slug: inadequate-mentoring-structure
+  similarity: 0.7
+- slug: developer-frustration-and-burnout
+  similarity: 0.7
 - slug: knowledge-dependency
   similarity: 0.65
-- slug: developer-frustration-and-burnout
+- slug: mental-fatigue
+  similarity: 0.65
+- slug: overworked-teams
   similarity: 0.65
 - slug: increased-stress-and-burnout
-  similarity: 0.6
-- slug: high-turnover
-  similarity: 0.6
-- slug: inadequate-mentoring-structure
-  similarity: 0.6
-- slug: maintenance-bottlenecks
-  similarity: 0.6
+  similarity: 0.65
 solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices

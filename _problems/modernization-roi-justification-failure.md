@@ -7,17 +7,17 @@ category:
 - Management
 related_problems:
 - slug: modernization-strategy-paralysis
-  similarity: 0.75
+  similarity: 0.7
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.65
 - slug: difficulty-quantifying-benefits
   similarity: 0.65
+- slug: integration-difficulties
+  similarity: 0.6
+- slug: strangler-fig-pattern-failures
+  similarity: 0.6
 - slug: high-maintenance-costs
   similarity: 0.6
-- slug: legacy-business-logic-extraction-difficulty
-  similarity: 0.6
-- slug: obsolete-technologies
-  similarity: 0.6
-- slug: second-system-effect
-  similarity: 0.55
 solutions:
 - technical-debt-backlog
 - business-metrics

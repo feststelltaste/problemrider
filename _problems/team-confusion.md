@@ -7,17 +7,17 @@ category:
 - Process
 - Team
 related_problems:
-- slug: team-dysfunction
-  similarity: 0.75
 - slug: unclear-goals-and-priorities
-  similarity: 0.75
-- slug: unclear-sharing-expectations
+  similarity: 0.8
+- slug: duplicated-work
+  similarity: 0.7
+- slug: product-direction-chaos
+  similarity: 0.7
+- slug: team-dysfunction
+  similarity: 0.7
+- slug: duplicated-effort
   similarity: 0.7
 - slug: communication-risk-within-project
-  similarity: 0.7
-- slug: team-coordination-issues
-  similarity: 0.7
-- slug: user-confusion
   similarity: 0.7
 solutions:
 - clear-ownership-model

@@ -7,18 +7,18 @@ category:
 - Culture
 - Process
 related_problems:
-- slug: extended-cycle-times
-  similarity: 0.65
 - slug: duplicated-research-effort
-  similarity: 0.6
-- slug: increased-manual-work
-  similarity: 0.6
-- slug: extended-review-cycles
-  similarity: 0.6
-- slug: analysis-paralysis
-  similarity: 0.55
-- slug: long-build-and-test-times
-  similarity: 0.55
+  similarity: 0.7
+- slug: difficult-developer-onboarding
+  similarity: 0.7
+- slug: knowledge-gaps
+  similarity: 0.7
+- slug: extended-cycle-times
+  similarity: 0.7
+- slug: increased-cognitive-load
+  similarity: 0.65
+- slug: inefficient-processes
+  similarity: 0.65
 solutions:
 - knowledge-sharing-practices
 - documentation-as-code

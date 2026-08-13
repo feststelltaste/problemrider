@@ -7,17 +7,17 @@ category:
 - Operations
 related_problems:
 - slug: excessive-logging
-  similarity: 0.65
+  similarity: 0.75
 - slug: high-number-of-database-queries
-  similarity: 0.6
-- slug: logging-configuration-issues
-  similarity: 0.6
+  similarity: 0.7
 - slug: slow-database-queries
-  similarity: 0.55
-- slug: n-plus-one-query-problem
-  similarity: 0.55
+  similarity: 0.65
 - slug: imperative-data-fetching-logic
-  similarity: 0.55
+  similarity: 0.65
+- slug: n-plus-one-query-problem
+  similarity: 0.65
+- slug: long-running-transactions
+  similarity: 0.6
 solutions:
 - observability-and-monitoring
 - asynchronous-logging

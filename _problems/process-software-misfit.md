@@ -1,11 +1,24 @@
 ---
 title: Process-Software Misfit
-description: The software was bent to fit a process that grew historically, instead of the process being examined against what the product assumes.
+description: The software was bent to fit a process that grew historically, instead
+  of the process being examined against what the product assumes.
 category:
 - Business
 - Process
 - Requirements
 related_problems:
+- slug: reimplemented-standard-functionality
+  similarity: 0.65
+- slug: excessive-customization
+  similarity: 0.65
+- slug: core-modification-of-standard-software
+  similarity: 0.6
+- slug: process-design-flaws
+  similarity: 0.6
+- slug: customization-outside-version-control
+  similarity: 0.6
+- slug: architectural-mismatch
+  similarity: 0.6
 solutions:
 - fit-to-standard-principle
 - domain-immersion

@@ -8,18 +8,18 @@ category:
 - Process
 - Team
 related_problems:
+- slug: reduced-team-productivity
+  similarity: 0.8
 - slug: slow-feature-development
   similarity: 0.8
-- slug: reduced-team-productivity
-  similarity: 0.7
-- slug: missed-deadlines
-  similarity: 0.65
-- slug: gradual-performance-degradation
-  similarity: 0.6
+- slug: inefficient-development-environment
+  similarity: 0.75
 - slug: reduced-individual-productivity
-  similarity: 0.6
-- slug: development-disruption
-  similarity: 0.6
+  similarity: 0.75
+- slug: difficult-developer-onboarding
+  similarity: 0.75
+- slug: increased-stress-and-burnout
+  similarity: 0.7
 solutions:
 - architecture-roadmap
 - development-environment-optimization

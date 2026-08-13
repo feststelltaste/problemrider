@@ -6,18 +6,18 @@ category:
 - Code
 - Performance
 related_problems:
-- slug: atomic-operation-overhead
-  similarity: 0.65
-- slug: data-structure-cache-inefficiency
-  similarity: 0.6
 - slug: false-sharing
-  similarity: 0.55
+  similarity: 0.6
+- slug: atomic-operation-overhead
+  similarity: 0.6
 - slug: alignment-and-padding-issues
-  similarity: 0.55
+  similarity: 0.6
 - slug: lock-contention
+  similarity: 0.6
+- slug: data-structure-cache-inefficiency
   similarity: 0.55
-- slug: interrupt-overhead
-  similarity: 0.55
+- slug: race-conditions
+  similarity: 0.5
 solutions:
 - profiling
 - performance-measurements

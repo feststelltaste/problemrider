@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: cognitive-overload
-  similarity: 0.8
+  similarity: 0.85
+- slug: mental-fatigue
+  similarity: 0.75
+- slug: difficult-to-understand-code
+  similarity: 0.7
+- slug: difficult-developer-onboarding
+  similarity: 0.7
 - slug: difficult-code-comprehension
   similarity: 0.7
-- slug: context-switching-overhead
-  similarity: 0.65
-- slug: difficult-to-understand-code
-  similarity: 0.65
-- slug: complex-and-obscure-logic
-  similarity: 0.6
-- slug: inconsistent-codebase
-  similarity: 0.6
+- slug: high-technical-debt
+  similarity: 0.7
 solutions:
 - clean-code
 - loose-coupling

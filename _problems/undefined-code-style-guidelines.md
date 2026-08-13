@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: inconsistent-codebase
-  similarity: 0.75
+  similarity: 0.8
 - slug: inconsistent-coding-standards
+  similarity: 0.75
+- slug: style-arguments-in-code-reviews
+  similarity: 0.75
+- slug: inconsistent-naming-conventions
   similarity: 0.7
 - slug: mixed-coding-styles
+  similarity: 0.7
+- slug: inadequate-code-reviews
   similarity: 0.65
-- slug: insufficient-design-skills
-  similarity: 0.6
-- slug: inconsistent-naming-conventions
-  similarity: 0.6
-- slug: style-arguments-in-code-reviews
-  similarity: 0.6
 solutions:
 - static-analysis-and-linting
 - code-conventions

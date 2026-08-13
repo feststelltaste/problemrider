@@ -5,18 +5,18 @@ description: A situation where different parts of the codebase use different for
 category:
 - Code
 related_problems:
-- slug: inconsistent-coding-standards
-  similarity: 0.75
 - slug: inconsistent-codebase
   similarity: 0.75
+- slug: inconsistent-coding-standards
+  similarity: 0.75
 - slug: inconsistent-naming-conventions
-  similarity: 0.65
-- slug: style-arguments-in-code-reviews
-  similarity: 0.65
-- slug: spaghetti-code
-  similarity: 0.65
+  similarity: 0.7
 - slug: undefined-code-style-guidelines
-  similarity: 0.65
+  similarity: 0.7
+- slug: code-duplication
+  similarity: 0.6
+- slug: difficult-code-reuse
+  similarity: 0.6
 solutions:
 - static-analysis-and-linting
 - code-conventions

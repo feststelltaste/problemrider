@@ -9,15 +9,15 @@ category:
 related_problems:
 - slug: inconsistent-onboarding-experience
   similarity: 0.75
-- slug: incomplete-knowledge
-  similarity: 0.7
-- slug: knowledge-dependency
-  similarity: 0.7
-- slug: slow-knowledge-transfer
-  similarity: 0.7
-- slug: inappropriate-skillset
-  similarity: 0.7
+- slug: knowledge-gaps
+  similarity: 0.65
+- slug: skill-development-gaps
+  similarity: 0.65
 - slug: knowledge-silos
+  similarity: 0.65
+- slug: uneven-workload-distribution
+  similarity: 0.65
+- slug: inconsistent-quality
   similarity: 0.65
 solutions:
 - knowledge-sharing-practices

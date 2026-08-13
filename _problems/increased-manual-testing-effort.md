@@ -8,16 +8,16 @@ category:
 related_problems:
 - slug: increased-manual-work
   similarity: 0.75
+- slug: long-release-cycles
+  similarity: 0.7
 - slug: manual-deployment-processes
   similarity: 0.65
-- slug: long-release-cycles
-  similarity: 0.6
+- slug: inadequate-test-infrastructure
+  similarity: 0.65
+- slug: insufficient-testing
+  similarity: 0.65
 - slug: testing-complexity
   similarity: 0.6
-- slug: insufficient-testing
-  similarity: 0.55
-- slug: test-debt
-  similarity: 0.55
 solutions:
 - test-coverage-strategy
 - automated-tests

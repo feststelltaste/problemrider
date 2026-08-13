@@ -7,16 +7,16 @@ category:
 - Operations
 related_problems:
 - slug: shared-database
-  similarity: 0.75
+  similarity: 0.8
 - slug: deployment-coupling
   similarity: 0.65
-- slug: hidden-dependencies
-  similarity: 0.6
-- slug: circular-dependency-problems
-  similarity: 0.6
 - slug: tight-coupling-issues
-  similarity: 0.6
-- slug: vendor-dependency
+  similarity: 0.55
+- slug: circular-dependency-problems
+  similarity: 0.55
+- slug: hidden-dependencies
+  similarity: 0.55
+- slug: team-coordination-issues
   similarity: 0.55
 solutions:
 - anti-corruption-layer

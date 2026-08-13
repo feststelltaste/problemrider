@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: inconsistent-naming-conventions
-  similarity: 0.75
-- slug: mixed-coding-styles
-  similarity: 0.6
-- slug: complex-and-obscure-logic
-  similarity: 0.6
-- slug: monolithic-functions-and-classes
+  similarity: 0.8
+- slug: difficult-to-understand-code
+  similarity: 0.65
+- slug: inconsistent-coding-standards
   similarity: 0.6
 - slug: inconsistent-codebase
   similarity: 0.6
-- slug: inconsistent-coding-standards
-  similarity: 0.55
+- slug: undefined-code-style-guidelines
+  similarity: 0.6
+- slug: monolithic-functions-and-classes
+  similarity: 0.6
 solutions:
 - static-analysis-and-linting
 - code-conventions

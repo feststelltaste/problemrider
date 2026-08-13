@@ -7,17 +7,17 @@ category:
 - Testing
 related_problems:
 - slug: inadequate-test-infrastructure
+  similarity: 0.75
+- slug: configuration-chaos
   similarity: 0.7
 - slug: flaky-tests
   similarity: 0.7
-- slug: testing-complexity
-  similarity: 0.6
-- slug: difficult-to-test-code
-  similarity: 0.6
 - slug: poor-system-environment
-  similarity: 0.6
-- slug: inadequate-test-data-management
-  similarity: 0.6
+  similarity: 0.65
+- slug: deployment-environment-inconsistencies
+  similarity: 0.65
+- slug: increasing-brittleness
+  similarity: 0.65
 solutions:
 - test-coverage-strategy
 - environment-parity

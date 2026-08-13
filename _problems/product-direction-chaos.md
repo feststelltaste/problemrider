@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: unclear-goals-and-priorities
-  similarity: 0.75
+  similarity: 0.8
 - slug: team-confusion
+  similarity: 0.7
+- slug: change-management-chaos
   similarity: 0.65
-- slug: power-struggles
-  similarity: 0.6
-- slug: competing-priorities
-  similarity: 0.6
+- slug: priority-thrashing
+  similarity: 0.65
 - slug: misaligned-deliverables
-  similarity: 0.6
-- slug: changing-project-scope
-  similarity: 0.6
+  similarity: 0.65
+- slug: competing-priorities
+  similarity: 0.65
 solutions:
 - continuous-feedback
 - impact-mapping

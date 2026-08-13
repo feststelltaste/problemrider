@@ -7,17 +7,17 @@ category:
 - Code
 related_problems:
 - slug: unpredictable-system-behavior
+  similarity: 0.8
+- slug: hidden-side-effects
   similarity: 0.7
+- slug: accumulation-of-workarounds
+  similarity: 0.65
+- slug: global-state-and-side-effects
+  similarity: 0.65
 - slug: tight-coupling-issues
   similarity: 0.65
-- slug: hidden-side-effects
-  similarity: 0.65
-- slug: system-integration-blindness
-  similarity: 0.65
 - slug: circular-dependency-problems
-  similarity: 0.6
-- slug: ripple-effect-of-changes
-  similarity: 0.6
+  similarity: 0.65
 solutions:
 - modularization-and-bounded-contexts
 - abstraction-layers

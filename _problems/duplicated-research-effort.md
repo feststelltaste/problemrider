@@ -8,16 +8,16 @@ category:
 - Team
 related_problems:
 - slug: duplicated-effort
-  similarity: 0.9
+  similarity: 0.85
 - slug: duplicated-work
   similarity: 0.85
+- slug: extended-research-time
+  similarity: 0.7
 - slug: knowledge-silos
+  similarity: 0.7
+- slug: team-silos
   similarity: 0.65
-- slug: code-duplication
-  similarity: 0.65
-- slug: information-fragmentation
-  similarity: 0.65
-- slug: incomplete-knowledge
+- slug: knowledge-gaps
   similarity: 0.65
 solutions:
 - knowledge-sharing-practices

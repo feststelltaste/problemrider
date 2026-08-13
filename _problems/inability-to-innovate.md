@@ -11,13 +11,13 @@ related_problems:
   similarity: 0.8
 - slug: maintenance-paralysis
   similarity: 0.7
-- slug: resistance-to-change
-  similarity: 0.65
 - slug: fear-of-failure
+  similarity: 0.65
+- slug: resistance-to-change
   similarity: 0.65
 - slug: inexperienced-developers
   similarity: 0.65
-- slug: fear-of-breaking-changes
+- slug: slow-development-velocity
   similarity: 0.6
 solutions:
 - strangler-fig-pattern

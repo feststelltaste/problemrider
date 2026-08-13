@@ -8,16 +8,16 @@ category:
 - Process
 related_problems:
 - slug: unclear-documentation-ownership
-  similarity: 0.75
-- slug: inconsistent-quality
+  similarity: 0.8
+- slug: delayed-issue-resolution
+  similarity: 0.7
+- slug: master-data-ownership-gaps
   similarity: 0.65
 - slug: poorly-defined-responsibilities
+  similarity: 0.65
+- slug: poor-operational-concept
   similarity: 0.6
-- slug: maintenance-overhead
-  similarity: 0.6
-- slug: maintenance-paralysis
-  similarity: 0.6
-- slug: delayed-issue-resolution
+- slug: information-decay
   similarity: 0.6
 solutions:
 - clear-ownership-model

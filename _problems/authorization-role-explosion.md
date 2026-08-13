@@ -1,11 +1,24 @@
 ---
 title: Authorization Role Explosion
-description: The role and permission model has grown to thousands of entries that only ever accumulate, so nobody can say who is able to do what.
+description: The role and permission model has grown to thousands of entries that
+  only ever accumulate, so nobody can say who is able to do what.
 category:
 - Security
 - Operations
 - Process
 related_problems:
+- slug: custom-report-sprawl
+  similarity: 0.6
+- slug: authorization-flaws
+  similarity: 0.6
+- slug: excessive-customization
+  similarity: 0.55
+- slug: low-code-customization-sprawl
+  similarity: 0.55
+- slug: change-management-chaos
+  similarity: 0.5
+- slug: approval-dependencies
+  similarity: 0.5
 solutions:
 - role-model-rationalization
 - authorization-concept

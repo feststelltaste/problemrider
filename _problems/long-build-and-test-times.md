@@ -5,17 +5,17 @@ category:
 - Process
 related_problems:
 - slug: long-release-cycles
+  similarity: 0.7
+- slug: extended-cycle-times
+  similarity: 0.7
+- slug: inefficient-development-environment
+  similarity: 0.65
+- slug: extended-research-time
+  similarity: 0.65
+- slug: difficult-developer-onboarding
   similarity: 0.6
 - slug: work-queue-buildup
   similarity: 0.6
-- slug: extended-cycle-times
-  similarity: 0.6
-- slug: extended-research-time
-  similarity: 0.55
-- slug: maintenance-bottlenecks
-  similarity: 0.55
-- slug: increased-time-to-market
-  similarity: 0.55
 solutions:
 - ci-cd-pipeline
 - continuous-integration

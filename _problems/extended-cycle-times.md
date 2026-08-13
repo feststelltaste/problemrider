@@ -7,16 +7,16 @@ category:
 related_problems:
 - slug: extended-review-cycles
   similarity: 0.7
-- slug: extended-research-time
-  similarity: 0.65
 - slug: delayed-project-timelines
-  similarity: 0.65
+  similarity: 0.7
+- slug: work-queue-buildup
+  similarity: 0.7
+- slug: extended-research-time
+  similarity: 0.7
+- slug: long-build-and-test-times
+  similarity: 0.7
 - slug: long-release-cycles
   similarity: 0.65
-- slug: increased-time-to-market
-  similarity: 0.65
-- slug: uneven-work-flow
-  similarity: 0.6
 solutions:
 - ci-cd-pipeline
 - small-change-batches

@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: long-lived-feature-branches
+  similarity: 0.75
+- slug: slow-feature-development
   similarity: 0.7
 - slug: feature-creep
   similarity: 0.7
-- slug: slow-feature-development
+- slug: incomplete-projects
   similarity: 0.65
-- slug: feature-bloat
+- slug: large-estimates-for-small-changes
   similarity: 0.65
-- slug: large-risky-releases
-  similarity: 0.6
-- slug: large-pull-requests
-  similarity: 0.6
+- slug: gold-plating
+  similarity: 0.65
 solutions:
 - iterative-development
 - product-owner

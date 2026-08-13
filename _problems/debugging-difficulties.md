@@ -6,18 +6,18 @@ category:
 - Code
 - Process
 related_problems:
-- slug: delayed-bug-fixes
-  similarity: 0.65
+- slug: difficult-developer-onboarding
+  similarity: 0.75
 - slug: difficult-to-understand-code
-  similarity: 0.6
-- slug: delayed-issue-resolution
-  similarity: 0.6
+  similarity: 0.7
+- slug: inefficient-development-environment
+  similarity: 0.7
+- slug: delayed-bug-fixes
+  similarity: 0.7
+- slug: increased-cost-of-development
+  similarity: 0.7
 - slug: difficult-code-comprehension
-  similarity: 0.6
-- slug: partial-bug-fixes
-  similarity: 0.6
-- slug: accumulation-of-workarounds
-  similarity: 0.6
+  similarity: 0.7
 solutions:
 - observability-and-monitoring
 - audit-trail-management

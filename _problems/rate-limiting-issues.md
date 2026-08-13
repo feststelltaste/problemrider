@@ -8,17 +8,17 @@ category:
 - Security
 related_problems:
 - slug: load-balancing-problems
+  similarity: 0.65
+- slug: service-timeouts
   similarity: 0.55
-- slug: resource-allocation-failures
+- slug: increased-error-rates
   similarity: 0.55
-- slug: resource-contention
-  similarity: 0.5
-- slug: upstream-timeouts
-  similarity: 0.5
-- slug: high-client-side-resource-consumption
-  similarity: 0.5
-- slug: database-query-performance-issues
-  similarity: 0.5
+- slug: microservice-communication-overhead
+  similarity: 0.55
+- slug: logging-configuration-issues
+  similarity: 0.55
+- slug: technical-architecture-limitations
+  similarity: 0.55
 solutions:
 - api-first-design
 - contract-testing

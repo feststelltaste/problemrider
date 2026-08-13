@@ -6,17 +6,17 @@ category:
 - Code
 - Performance
 related_problems:
-- slug: high-client-side-resource-consumption
+- slug: excessive-disk-io
   similarity: 0.7
 - slug: high-database-resource-utilization
-  similarity: 0.7
-- slug: high-resource-utilization-on-client
-  similarity: 0.7
-- slug: excessive-disk-io
-  similarity: 0.65
-- slug: memory-swapping
   similarity: 0.65
 - slug: lock-contention
+  similarity: 0.65
+- slug: high-connection-count
+  similarity: 0.65
+- slug: slow-database-queries
+  similarity: 0.65
+- slug: slow-application-performance
   similarity: 0.65
 solutions:
 - backpressure

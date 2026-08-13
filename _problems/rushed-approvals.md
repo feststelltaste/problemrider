@@ -7,18 +7,18 @@ category:
 - Culture
 - Process
 related_problems:
-- slug: inadequate-code-reviews
-  similarity: 0.65
-- slug: review-process-avoidance
-  similarity: 0.65
 - slug: large-pull-requests
-  similarity: 0.65
-- slug: review-bottlenecks
-  similarity: 0.65
-- slug: code-review-inefficiency
-  similarity: 0.65
+  similarity: 0.75
+- slug: extended-review-cycles
+  similarity: 0.75
+- slug: inadequate-code-reviews
+  similarity: 0.7
+- slug: review-process-avoidance
+  similarity: 0.7
 - slug: approval-dependencies
-  similarity: 0.6
+  similarity: 0.7
+- slug: insufficient-code-review
+  similarity: 0.65
 solutions:
 - code-review-process-reform
 - checklists

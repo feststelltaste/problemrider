@@ -6,17 +6,17 @@ category:
 - Architecture
 - Performance
 related_problems:
-- slug: maintenance-bottlenecks
-  similarity: 0.6
 - slug: monolithic-architecture-constraints
   similarity: 0.6
-- slug: inconsistent-quality
+- slug: technical-architecture-limitations
   similarity: 0.55
-- slug: inefficient-code
+- slug: algorithmic-complexity-problems
+  similarity: 0.55
+- slug: architectural-mismatch
+  similarity: 0.55
+- slug: tight-coupling-issues
   similarity: 0.55
 - slug: team-coordination-issues
-  similarity: 0.55
-- slug: organizational-structure-mismatch
   similarity: 0.55
 solutions:
 - capacity-planning

@@ -6,17 +6,17 @@ category:
 - Process
 related_problems:
 - slug: missed-deadlines
-  similarity: 0.8
+  similarity: 0.85
+- slug: cascade-delays
+  similarity: 0.75
 - slug: constantly-shifting-deadlines
   similarity: 0.75
-- slug: unrealistic-schedule
-  similarity: 0.7
-- slug: cascade-delays
-  similarity: 0.7
 - slug: poor-planning
   similarity: 0.7
 - slug: extended-cycle-times
-  similarity: 0.65
+  similarity: 0.7
+- slug: planning-dysfunction
+  similarity: 0.7
 solutions:
 - iterative-development
 - short-iteration-cycles

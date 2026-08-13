@@ -9,15 +9,15 @@ category:
 related_problems:
 - slug: legacy-api-versioning-nightmare
   similarity: 0.8
-- slug: dependency-version-conflicts
-  similarity: 0.7
-- slug: poor-interfaces-between-applications
-  similarity: 0.65
 - slug: breaking-changes
+  similarity: 0.7
+- slug: dependency-version-conflicts
+  similarity: 0.65
+- slug: rest-api-design-issues
   similarity: 0.65
 - slug: abi-compatibility-issues
   similarity: 0.6
-- slug: deployment-environment-inconsistencies
+- slug: poor-interfaces-between-applications
   similarity: 0.55
 solutions:
 - anti-corruption-layer

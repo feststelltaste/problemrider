@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: planning-credibility-issues
   similarity: 0.65
+- slug: delayed-project-timelines
+  similarity: 0.65
 - slug: reduced-team-flexibility
   similarity: 0.65
-- slug: poor-planning
+- slug: planning-dysfunction
   similarity: 0.65
-- slug: delayed-project-timelines
-  similarity: 0.6
 - slug: constantly-shifting-deadlines
   similarity: 0.6
-- slug: unrealistic-schedule
+- slug: poor-planning
   similarity: 0.6
 solutions:
 - iterative-development

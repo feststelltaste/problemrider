@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: unrealistic-deadlines
-  similarity: 0.8
-- slug: delayed-project-timelines
   similarity: 0.7
-- slug: missed-deadlines
-  similarity: 0.65
-- slug: poor-planning
-  similarity: 0.65
-- slug: constantly-shifting-deadlines
+- slug: delayed-project-timelines
   similarity: 0.65
 - slug: planning-dysfunction
-  similarity: 0.65
+  similarity: 0.6
+- slug: deadline-pressure
+  similarity: 0.6
+- slug: time-pressure
+  similarity: 0.6
+- slug: missed-deadlines
+  similarity: 0.6
 solutions:
 - iterative-development
 - requirements-analysis

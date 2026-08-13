@@ -7,17 +7,17 @@ category:
 - Team
 related_problems:
 - slug: reduced-review-participation
-  similarity: 0.6
-- slug: inadequate-code-reviews
-  similarity: 0.6
-- slug: review-bottlenecks
-  similarity: 0.6
+  similarity: 0.75
 - slug: large-pull-requests
-  similarity: 0.6
-- slug: fear-of-change
-  similarity: 0.6
-- slug: review-process-avoidance
-  similarity: 0.6
+  similarity: 0.75
+- slug: extended-review-cycles
+  similarity: 0.75
+- slug: author-frustration
+  similarity: 0.7
+- slug: code-review-inefficiency
+  similarity: 0.7
+- slug: inadequate-code-reviews
+  similarity: 0.7
 solutions:
 - development-environment-optimization
 - development-workflow-automation

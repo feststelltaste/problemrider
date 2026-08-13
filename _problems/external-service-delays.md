@@ -7,17 +7,17 @@ category:
 - Performance
 related_problems:
 - slug: high-api-latency
+  similarity: 0.85
+- slug: service-timeouts
+  similarity: 0.8
+- slug: upstream-timeouts
+  similarity: 0.75
+- slug: network-latency
   similarity: 0.75
 - slug: slow-application-performance
+  similarity: 0.7
+- slug: slow-database-queries
   similarity: 0.65
-- slug: upstream-timeouts
-  similarity: 0.65
-- slug: network-latency
-  similarity: 0.6
-- slug: service-timeouts
-  similarity: 0.6
-- slug: delayed-value-delivery
-  similarity: 0.6
 solutions:
 - caching-strategy
 - serialization-optimization

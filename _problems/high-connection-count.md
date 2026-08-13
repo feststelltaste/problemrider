@@ -9,15 +9,15 @@ related_problems:
 - slug: incorrect-max-connection-pool-size
   similarity: 0.8
 - slug: misconfigured-connection-pools
-  similarity: 0.7
+  similarity: 0.8
 - slug: high-database-resource-utilization
-  similarity: 0.7
+  similarity: 0.75
 - slug: high-number-of-database-queries
-  similarity: 0.7
+  similarity: 0.75
 - slug: database-connection-leaks
-  similarity: 0.65
-- slug: service-timeouts
-  similarity: 0.6
+  similarity: 0.7
+- slug: slow-database-queries
+  similarity: 0.7
 solutions:
 - backpressure
 - capacity-planning

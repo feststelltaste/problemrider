@@ -10,14 +10,14 @@ related_problems:
   similarity: 0.7
 - slug: unclear-goals-and-priorities
   similarity: 0.65
+- slug: project-resource-constraints
+  similarity: 0.65
+- slug: team-confusion
+  similarity: 0.65
+- slug: product-direction-chaos
+  similarity: 0.65
 - slug: power-struggles
   similarity: 0.6
-- slug: product-direction-chaos
-  similarity: 0.6
-- slug: project-resource-constraints
-  similarity: 0.6
-- slug: team-confusion
-  similarity: 0.55
 solutions:
 - technical-debt-backlog
 - error-budgets

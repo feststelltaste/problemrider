@@ -10,15 +10,15 @@ related_problems:
 - slug: quality-blind-spots
   similarity: 0.75
 - slug: insufficient-testing
-  similarity: 0.6
-- slug: testing-complexity
-  similarity: 0.6
-- slug: inadequate-integration-tests
-  similarity: 0.55
+  similarity: 0.7
+- slug: inadequate-code-reviews
+  similarity: 0.65
 - slug: legacy-code-without-tests
-  similarity: 0.55
-- slug: difficult-to-test-code
-  similarity: 0.55
+  similarity: 0.65
+- slug: insufficient-code-review
+  similarity: 0.65
+- slug: test-debt
+  similarity: 0.65
 solutions:
 - definition-of-done
 - test-coverage-strategy

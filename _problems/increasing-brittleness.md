@@ -8,17 +8,17 @@ category:
 - Management
 related_problems:
 - slug: brittle-codebase
-  similarity: 0.7
+  similarity: 0.75
 - slug: quality-degradation
+  similarity: 0.7
+- slug: maintenance-cost-increase
   similarity: 0.65
-- slug: rapid-system-changes
-  similarity: 0.6
-- slug: tight-coupling-issues
-  similarity: 0.6
-- slug: unpredictable-system-behavior
-  similarity: 0.6
+- slug: gradual-performance-degradation
+  similarity: 0.65
+- slug: testing-environment-fragility
+  similarity: 0.65
 - slug: increased-bug-count
-  similarity: 0.6
+  similarity: 0.65
 solutions:
 - incremental-refactoring
 - technical-debt-backlog

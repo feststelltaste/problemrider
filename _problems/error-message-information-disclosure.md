@@ -7,15 +7,17 @@ category:
 - Communication
 - Security
 related_problems:
-- slug: buffer-overflow-vulnerabilities
+- slug: sql-injection-vulnerabilities
   similarity: 0.6
-- slug: logging-configuration-issues
+- slug: authentication-bypass-vulnerabilities
   similarity: 0.6
+- slug: secret-management-problems
+  similarity: 0.55
+- slug: authorization-flaws
+  similarity: 0.55
 - slug: log-injection-vulnerabilities
   similarity: 0.55
 - slug: inadequate-error-handling
-  similarity: 0.55
-- slug: silent-data-corruption
   similarity: 0.55
 solutions:
 - secret-management

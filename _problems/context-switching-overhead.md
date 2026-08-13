@@ -7,15 +7,15 @@ category:
 related_problems:
 - slug: cognitive-overload
   similarity: 0.7
-- slug: development-disruption
-  similarity: 0.7
 - slug: increased-cognitive-load
-  similarity: 0.65
-- slug: interrupt-overhead
-  similarity: 0.65
+  similarity: 0.7
+- slug: mental-fatigue
+  similarity: 0.7
 - slug: maintenance-overhead
   similarity: 0.65
-- slug: operational-overhead
+- slug: inefficient-development-environment
+  similarity: 0.65
+- slug: development-disruption
   similarity: 0.65
 solutions:
 - cross-functional-skill-development

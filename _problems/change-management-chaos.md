@@ -10,15 +10,15 @@ related_problems:
 - slug: configuration-chaos
   similarity: 0.75
 - slug: rapid-system-changes
-  similarity: 0.65
-- slug: inadequate-configuration-management
-  similarity: 0.6
-- slug: configuration-drift
-  similarity: 0.6
+  similarity: 0.7
+- slug: no-formal-change-control-process
+  similarity: 0.7
 - slug: ripple-effect-of-changes
-  similarity: 0.6
-- slug: team-coordination-issues
-  similarity: 0.6
+  similarity: 0.65
+- slug: cascade-failures
+  similarity: 0.65
+- slug: legacy-configuration-management-chaos
+  similarity: 0.65
 solutions:
 - change-management-process
 - version-control

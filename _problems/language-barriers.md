@@ -7,17 +7,17 @@ category:
 - Culture
 - Team
 related_problems:
-- slug: team-dysfunction
-  similarity: 0.6
-- slug: team-confusion
-  similarity: 0.6
-- slug: poor-teamwork
-  similarity: 0.6
+- slug: communication-breakdown
+  similarity: 0.65
 - slug: communication-risk-within-project
   similarity: 0.6
-- slug: communication-breakdown
+- slug: poor-communication
   similarity: 0.55
-- slug: team-coordination-issues
+- slug: team-dysfunction
+  similarity: 0.55
+- slug: team-confusion
+  similarity: 0.55
+- slug: poor-teamwork
   similarity: 0.55
 solutions:
 - structured-communication-protocols

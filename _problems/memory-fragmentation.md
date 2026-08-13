@@ -6,18 +6,18 @@ category:
 - Code
 - Performance
 related_problems:
-- slug: memory-leaks
+- slug: excessive-object-allocation
   similarity: 0.65
+- slug: garbage-collection-pressure
+  similarity: 0.6
+- slug: memory-swapping
+  similarity: 0.6
 - slug: resource-allocation-failures
   similarity: 0.6
-- slug: excessive-object-allocation
+- slug: index-fragmentation
   similarity: 0.6
 - slug: alignment-and-padding-issues
-  similarity: 0.55
-- slug: virtual-memory-thrashing
-  similarity: 0.55
-- slug: memory-barrier-inefficiency
-  similarity: 0.55
+  similarity: 0.6
 solutions:
 - memory-management-optimization
 - profiling

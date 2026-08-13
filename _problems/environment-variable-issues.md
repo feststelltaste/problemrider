@@ -7,17 +7,17 @@ category:
 - Security
 related_problems:
 - slug: deployment-environment-inconsistencies
+  similarity: 0.7
+- slug: secret-management-problems
   similarity: 0.65
 - slug: poor-system-environment
-  similarity: 0.6
-- slug: inadequate-configuration-management
-  similarity: 0.55
-- slug: secret-management-problems
-  similarity: 0.55
+  similarity: 0.65
 - slug: configuration-chaos
-  similarity: 0.55
-- slug: legacy-configuration-management-chaos
-  similarity: 0.55
+  similarity: 0.65
+- slug: inadequate-configuration-management
+  similarity: 0.65
+- slug: logging-configuration-issues
+  similarity: 0.65
 solutions:
 - infrastructure-as-code
 - secret-management

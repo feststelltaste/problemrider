@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: duplicated-effort
-  similarity: 0.9
+  similarity: 0.95
 - slug: duplicated-research-effort
   similarity: 0.85
-- slug: code-duplication
+- slug: team-confusion
+  similarity: 0.7
+- slug: communication-breakdown
   similarity: 0.7
 - slug: team-coordination-issues
-  similarity: 0.65
-- slug: team-confusion
-  similarity: 0.6
-- slug: synchronization-problems
-  similarity: 0.6
+  similarity: 0.7
+- slug: code-duplication
+  similarity: 0.7
 solutions:
 - clear-ownership-model
 - clear-roles-and-ownership

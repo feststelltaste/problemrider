@@ -7,17 +7,17 @@ category:
 - Culture
 related_problems:
 - slug: code-duplication
+  similarity: 0.8
+- slug: cross-system-data-synchronization-problems
+  similarity: 0.7
+- slug: inconsistent-behavior
+  similarity: 0.7
+- slug: duplicated-work
   similarity: 0.65
 - slug: partial-bug-fixes
-  similarity: 0.6
-- slug: duplicated-effort
-  similarity: 0.6
-- slug: duplicated-work
-  similarity: 0.6
-- slug: inconsistent-behavior
-  similarity: 0.6
-- slug: cross-system-data-synchronization-problems
-  similarity: 0.6
+  similarity: 0.65
+- slug: copy-paste-programming
+  similarity: 0.65
 solutions:
 - concurrency-control
 - timestamping

@@ -11,13 +11,13 @@ related_problems:
   similarity: 0.9
 - slug: vendor-dependency-entrapment
   similarity: 0.75
+- slug: implementation-partner-dependency
+  similarity: 0.7
 - slug: vendor-lock-in
   similarity: 0.7
-- slug: vendor-relationship-strain
-  similarity: 0.6
-- slug: tight-coupling-issues
-  similarity: 0.6
 - slug: knowledge-dependency
+  similarity: 0.55
+- slug: vendor-relationship-strain
   similarity: 0.55
 solutions:
 - dependency-management-strategy

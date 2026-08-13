@@ -7,18 +7,18 @@ category:
 - Code
 - Communication
 related_problems:
+- slug: customer-dissatisfaction
+  similarity: 0.65
 - slug: user-frustration
   similarity: 0.6
-- slug: negative-user-feedback
+- slug: declining-business-metrics
   similarity: 0.6
 - slug: competitive-disadvantage
   similarity: 0.55
-- slug: customer-dissatisfaction
+- slug: quality-degradation
   similarity: 0.55
-- slug: poor-user-experience-ux-design
-  similarity: 0.5
-- slug: past-negative-experiences
-  similarity: 0.5
+- slug: reduced-feature-quality
+  similarity: 0.55
 solutions:
 - user-centered-design
 - usability-tests

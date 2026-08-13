@@ -9,15 +9,15 @@ category:
 related_problems:
 - slug: quality-compromises
   similarity: 0.65
-- slug: inconsistent-quality
+- slug: lower-code-quality
   similarity: 0.65
-- slug: feature-gaps
-  similarity: 0.6
-- slug: incomplete-projects
-  similarity: 0.6
-- slug: feature-bloat
-  similarity: 0.6
+- slug: reduced-team-productivity
+  similarity: 0.65
 - slug: quality-degradation
+  similarity: 0.6
+- slug: inconsistent-quality
+  similarity: 0.6
+- slug: slow-development-velocity
   similarity: 0.6
 solutions:
 - definition-of-done

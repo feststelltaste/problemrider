@@ -7,17 +7,17 @@ category:
 - Code
 related_problems:
 - slug: hidden-side-effects
-  similarity: 0.65
+  similarity: 0.8
 - slug: unpredictable-system-behavior
-  similarity: 0.55
-- slug: complex-and-obscure-logic
-  similarity: 0.55
-- slug: spaghetti-code
-  similarity: 0.55
+  similarity: 0.7
 - slug: hidden-dependencies
-  similarity: 0.55
-- slug: inconsistent-codebase
-  similarity: 0.5
+  similarity: 0.65
+- slug: difficult-to-understand-code
+  similarity: 0.6
+- slug: high-coupling-low-cohesion
+  similarity: 0.6
+- slug: inconsistent-behavior
+  similarity: 0.6
 solutions:
 - incremental-refactoring
 - dependency-injection

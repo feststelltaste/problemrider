@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: high-bug-introduction-rate
-  similarity: 0.75
+  similarity: 0.8
+- slug: increased-error-rates
+  similarity: 0.7
+- slug: slow-development-velocity
+  similarity: 0.7
 - slug: increased-risk-of-bugs
+  similarity: 0.7
+- slug: increased-cost-of-development
   similarity: 0.65
 - slug: high-defect-rate-in-production
   similarity: 0.65
-- slug: increased-error-rates
-  similarity: 0.6
-- slug: increased-cost-of-development
-  similarity: 0.6
-- slug: increasing-brittleness
-  similarity: 0.6
 solutions:
 - contract-testing
 - development-workflow-automation

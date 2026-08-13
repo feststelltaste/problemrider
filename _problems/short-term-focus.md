@@ -9,14 +9,14 @@ related_problems:
 - slug: increased-technical-shortcuts
   similarity: 0.65
 - slug: high-technical-debt
+  similarity: 0.65
+- slug: unrealistic-deadlines
   similarity: 0.6
-- slug: quality-compromises
-  similarity: 0.55
-- slug: maintenance-paralysis
-  similarity: 0.55
+- slug: time-pressure
+  similarity: 0.6
 - slug: feature-factory
   similarity: 0.55
-- slug: difficulty-quantifying-benefits
+- slug: slow-development-velocity
   similarity: 0.55
 solutions:
 - technical-debt-backlog

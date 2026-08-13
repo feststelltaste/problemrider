@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: convenience-driven-development
-  similarity: 0.7
-- slug: increased-technical-shortcuts
-  similarity: 0.55
+  similarity: 0.65
 - slug: cargo-culting
-  similarity: 0.55
+  similarity: 0.6
+- slug: increased-technical-shortcuts
+  similarity: 0.6
 - slug: decision-avoidance
-  similarity: 0.55
+  similarity: 0.6
 - slug: premature-technology-introduction
   similarity: 0.55
-- slug: technology-isolation
-  similarity: 0.5
+- slug: assumption-based-development
+  similarity: 0.55
 solutions:
 - boring-technologies
 - technical-skills-development

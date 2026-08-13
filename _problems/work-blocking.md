@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: approval-dependencies
-  similarity: 0.75
-- slug: work-queue-buildup
-  similarity: 0.65
-- slug: delayed-decision-making
-  similarity: 0.65
+  similarity: 0.85
 - slug: bottleneck-formation
-  similarity: 0.65
-- slug: decision-paralysis
-  similarity: 0.65
+  similarity: 0.75
+- slug: delayed-decision-making
+  similarity: 0.75
 - slug: decision-avoidance
-  similarity: 0.6
+  similarity: 0.7
+- slug: work-queue-buildup
+  similarity: 0.7
+- slug: inefficient-processes
+  similarity: 0.7
 solutions:
 - sustainable-pace-practices
 - team-autonomy-and-empowerment

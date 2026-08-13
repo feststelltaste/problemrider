@@ -7,17 +7,17 @@ category:
 - Performance
 related_problems:
 - slug: service-timeouts
-  similarity: 0.85
-- slug: external-service-delays
-  similarity: 0.65
-- slug: high-connection-count
-  similarity: 0.6
+  similarity: 0.9
 - slug: high-api-latency
-  similarity: 0.6
-- slug: increased-error-rates
-  similarity: 0.55
-- slug: misconfigured-connection-pools
-  similarity: 0.55
+  similarity: 0.8
+- slug: external-service-delays
+  similarity: 0.75
+- slug: network-latency
+  similarity: 0.75
+- slug: slow-application-performance
+  similarity: 0.65
+- slug: high-database-resource-utilization
+  similarity: 0.65
 solutions:
 - event-driven-architecture
 - circuit-breaker

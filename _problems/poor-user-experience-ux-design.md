@@ -7,17 +7,17 @@ category:
 - Business
 related_problems:
 - slug: inadequate-onboarding
+  similarity: 0.7
+- slug: negative-user-feedback
+  similarity: 0.65
+- slug: user-confusion
+  similarity: 0.65
+- slug: slow-application-performance
   similarity: 0.65
 - slug: user-frustration
   similarity: 0.65
-- slug: user-confusion
+- slug: inadequate-error-handling
   similarity: 0.6
-- slug: negative-user-feedback
-  similarity: 0.6
-- slug: slow-application-performance
-  similarity: 0.6
-- slug: reduced-feature-quality
-  similarity: 0.55
 solutions:
 - user-centered-design
 - assistive-technology-support

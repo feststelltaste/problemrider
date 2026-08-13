@@ -6,17 +6,17 @@ category:
 - Process
 related_problems:
 - slug: scope-creep
-  similarity: 0.7
+  similarity: 0.75
 - slug: changing-project-scope
+  similarity: 0.7
+- slug: frequent-changes-to-requirements
+  similarity: 0.7
+- slug: change-management-chaos
+  similarity: 0.7
+- slug: scope-change-resistance
   similarity: 0.7
 - slug: poor-project-control
   similarity: 0.65
-- slug: scope-change-resistance
-  similarity: 0.65
-- slug: frequent-changes-to-requirements
-  similarity: 0.65
-- slug: change-management-chaos
-  similarity: 0.6
 solutions:
 - change-management-process
 - formal-change-control-process

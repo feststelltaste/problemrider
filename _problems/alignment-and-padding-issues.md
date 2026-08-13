@@ -9,14 +9,16 @@ category:
 related_problems:
 - slug: data-structure-cache-inefficiency
   similarity: 0.75
-- slug: memory-barrier-inefficiency
-  similarity: 0.55
-- slug: memory-fragmentation
-  similarity: 0.55
-- slug: unbounded-data-structures
-  similarity: 0.5
 - slug: algorithmic-complexity-problems
-  similarity: 0.5
+  similarity: 0.6
+- slug: memory-barrier-inefficiency
+  similarity: 0.6
+- slug: memory-fragmentation
+  similarity: 0.6
+- slug: excessive-object-allocation
+  similarity: 0.55
+- slug: false-sharing
+  similarity: 0.55
 solutions:
 - profiling
 - performance-measurements

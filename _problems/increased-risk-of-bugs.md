@@ -6,17 +6,17 @@ category:
 - Code
 related_problems:
 - slug: high-bug-introduction-rate
-  similarity: 0.7
+  similarity: 0.75
 - slug: increased-bug-count
-  similarity: 0.65
+  similarity: 0.7
 - slug: increased-cost-of-development
-  similarity: 0.6
-- slug: difficult-to-understand-code
-  similarity: 0.6
+  similarity: 0.7
+- slug: debugging-difficulties
+  similarity: 0.65
+- slug: lower-code-quality
+  similarity: 0.65
 - slug: fear-of-change
-  similarity: 0.6
-- slug: brittle-codebase
-  similarity: 0.6
+  similarity: 0.65
 solutions:
 - contract-testing
 - development-workflow-automation

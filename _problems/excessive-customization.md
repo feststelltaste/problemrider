@@ -1,11 +1,25 @@
 ---
 title: Excessive Customization
-description: So much customer-specific or site-specific behavior accumulates that no two installations are alike, and every change has to be validated against every variant.
+description: So much customer-specific or site-specific behavior accumulates that
+  no two installations are alike, and every change has to be validated against every
+  variant.
 category:
 - Architecture
 - Business
 - Process
 related_problems:
+- slug: customization-outside-version-control
+  similarity: 0.7
+- slug: reimplemented-standard-functionality
+  similarity: 0.7
+- slug: core-modification-of-standard-software
+  similarity: 0.7
+- slug: custom-report-sprawl
+  similarity: 0.7
+- slug: low-code-customization-sprawl
+  similarity: 0.65
+- slug: upgrade-blocked-by-customization
+  similarity: 0.65
 solutions:
 - explicit-extension-points
 - customization-cost-attribution

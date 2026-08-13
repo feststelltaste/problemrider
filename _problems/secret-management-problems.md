@@ -6,14 +6,18 @@ category:
 - Operations
 - Security
 related_problems:
-- slug: session-management-issues
-  similarity: 0.6
 - slug: environment-variable-issues
-  similarity: 0.55
+  similarity: 0.65
+- slug: session-management-issues
+  similarity: 0.65
 - slug: password-security-weaknesses
+  similarity: 0.6
+- slug: logging-configuration-issues
+  similarity: 0.6
+- slug: inadequate-configuration-management
   similarity: 0.55
-- slug: legacy-configuration-management-chaos
-  similarity: 0.5
+- slug: error-message-information-disclosure
+  similarity: 0.55
 solutions:
 - secret-management
 - security-hardening-process

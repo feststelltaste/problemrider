@@ -8,18 +8,18 @@ category:
 - Database
 - Performance
 related_problems:
-- slug: lazy-loading
-  similarity: 0.75
+- slug: n-plus-one-query-problem
+  similarity: 0.8
 - slug: high-number-of-database-queries
-  similarity: 0.7
+  similarity: 0.75
 - slug: slow-database-queries
   similarity: 0.7
-- slug: n-plus-one-query-problem
+- slug: lazy-loading
   similarity: 0.7
 - slug: inefficient-code
-  similarity: 0.65
-- slug: inefficient-database-indexing
-  similarity: 0.6
+  similarity: 0.7
+- slug: poor-caching-strategy
+  similarity: 0.7
 solutions:
 - efficient-algorithms
 - reactive-programming

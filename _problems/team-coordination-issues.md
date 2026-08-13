@@ -6,17 +6,17 @@ category:
 - Process
 - Team
 related_problems:
-- slug: team-dysfunction
-  similarity: 0.75
-- slug: poor-teamwork
+- slug: duplicated-work
   similarity: 0.7
-- slug: team-confusion
-  similarity: 0.7
-- slug: inconsistent-codebase
-  similarity: 0.65
 - slug: team-silos
+  similarity: 0.7
+- slug: communication-breakdown
   similarity: 0.65
-- slug: duplicated-effort
+- slug: merge-conflicts
+  similarity: 0.65
+- slug: reduced-team-productivity
+  similarity: 0.65
+- slug: team-dysfunction
   similarity: 0.65
 solutions:
 - clear-ownership-model

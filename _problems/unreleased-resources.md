@@ -8,16 +8,16 @@ category:
 related_problems:
 - slug: resource-allocation-failures
   similarity: 0.8
-- slug: resource-waste
-  similarity: 0.65
 - slug: memory-leaks
+  similarity: 0.7
+- slug: database-connection-leaks
+  similarity: 0.65
+- slug: misconfigured-connection-pools
   similarity: 0.6
 - slug: unbounded-data-growth
   similarity: 0.6
-- slug: database-connection-leaks
-  similarity: 0.55
-- slug: long-running-transactions
-  similarity: 0.55
+- slug: resource-contention
+  similarity: 0.6
 solutions:
 - static-analysis-and-linting
 - resource-pooling

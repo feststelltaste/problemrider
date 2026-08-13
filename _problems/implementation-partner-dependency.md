@@ -1,11 +1,24 @@
 ---
 title: Implementation Partner Dependency
-description: Only the external consultancy understands how the system was built, so the organization cannot change, assess, or leave its own installation without them.
+description: Only the external consultancy understands how the system was built, so
+  the organization cannot change, assess, or leave its own installation without them.
 category:
 - Dependencies
 - Team
 - Management
 related_problems:
+- slug: dependency-on-supplier
+  similarity: 0.7
+- slug: vendor-dependency
+  similarity: 0.7
+- slug: vendor-dependency-entrapment
+  similarity: 0.7
+- slug: knowledge-dependency
+  similarity: 0.65
+- slug: vendor-lock-in
+  similarity: 0.65
+- slug: reimplemented-standard-functionality
+  similarity: 0.6
 solutions:
 - vendor-management-practice
 - knowledge-rotation

@@ -8,18 +8,18 @@ category:
 - Process
 - Team
 related_problems:
+- slug: inadequate-code-reviews
+  similarity: 0.8
+- slug: insufficient-code-review
+  similarity: 0.75
 - slug: inexperienced-developers
   similarity: 0.75
-- slug: inadequate-code-reviews
-  similarity: 0.7
-- slug: insufficient-code-review
-  similarity: 0.7
-- slug: code-review-inefficiency
-  similarity: 0.65
 - slug: inadequate-initial-reviews
-  similarity: 0.65
+  similarity: 0.75
+- slug: team-members-not-engaged-in-review-process
+  similarity: 0.75
 - slug: reviewer-anxiety
-  similarity: 0.65
+  similarity: 0.75
 solutions:
 - code-review-process-reform
 - pair-and-mob-programming

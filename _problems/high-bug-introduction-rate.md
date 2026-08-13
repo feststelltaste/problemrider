@@ -6,17 +6,17 @@ category:
 - Code
 related_problems:
 - slug: increased-bug-count
-  similarity: 0.75
+  similarity: 0.8
 - slug: increased-risk-of-bugs
-  similarity: 0.7
+  similarity: 0.75
 - slug: high-defect-rate-in-production
-  similarity: 0.65
+  similarity: 0.7
+- slug: large-estimates-for-small-changes
+  similarity: 0.7
 - slug: increased-error-rates
-  similarity: 0.6
-- slug: high-turnover
-  similarity: 0.6
-- slug: regression-bugs
-  similarity: 0.6
+  similarity: 0.7
+- slug: increased-cost-of-development
+  similarity: 0.65
 solutions:
 - definition-of-done
 - test-coverage-strategy

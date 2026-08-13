@@ -7,17 +7,17 @@ category:
 - Operations
 - Process
 related_problems:
+- slug: long-release-cycles
+  similarity: 0.75
+- slug: deployment-risk
+  similarity: 0.75
 - slug: complex-deployment-process
   similarity: 0.7
-- slug: long-release-cycles
-  similarity: 0.65
 - slug: release-instability
+  similarity: 0.7
+- slug: large-pull-requests
   similarity: 0.65
-- slug: deployment-risk
-  similarity: 0.65
-- slug: frequent-hotfixes-and-rollbacks
-  similarity: 0.65
-- slug: release-anxiety
+- slug: manual-deployment-processes
   similarity: 0.65
 solutions:
 - blue-green-canary-deployments

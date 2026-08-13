@@ -10,13 +10,13 @@ related_problems:
   similarity: 0.75
 - slug: complex-implementation-paths
   similarity: 0.6
-- slug: complex-and-obscure-logic
-  similarity: 0.6
 - slug: legacy-business-logic-extraction-difficulty
-  similarity: 0.55
-- slug: difficult-code-comprehension
-  similarity: 0.55
+  similarity: 0.6
 - slug: difficult-to-understand-code
+  similarity: 0.55
+- slug: complex-and-obscure-logic
+  similarity: 0.55
+- slug: complex-deployment-process
   similarity: 0.55
 solutions:
 - modularization-and-bounded-contexts

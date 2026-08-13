@@ -7,18 +7,18 @@ category:
 - Process
 - Team
 related_problems:
-- slug: rapid-system-changes
-  similarity: 0.6
 - slug: uncontrolled-codebase-growth
   similarity: 0.6
-- slug: slow-knowledge-transfer
-  similarity: 0.55
+- slug: difficult-developer-onboarding
+  similarity: 0.6
+- slug: rapid-system-changes
+  similarity: 0.6
+- slug: team-churn-impact
+  similarity: 0.6
 - slug: high-turnover
-  similarity: 0.55
-- slug: constant-firefighting
-  similarity: 0.55
-- slug: scope-creep
-  similarity: 0.55
+  similarity: 0.6
+- slug: slow-knowledge-transfer
+  similarity: 0.6
 solutions:
 - clear-roles-and-ownership
 - cross-functional-skill-development

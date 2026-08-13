@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: high-defect-rate-in-production
-  similarity: 0.75
-- slug: quality-blind-spots
+  similarity: 0.8
+- slug: poor-test-coverage
   similarity: 0.7
 - slug: inadequate-test-data-management
-  similarity: 0.65
-- slug: testing-complexity
+  similarity: 0.7
+- slug: inadequate-code-reviews
+  similarity: 0.7
+- slug: inadequate-test-infrastructure
   similarity: 0.65
 - slug: insufficient-design-skills
   similarity: 0.65
-- slug: complex-deployment-process
-  similarity: 0.6
 solutions:
 - definition-of-done
 - test-coverage-strategy

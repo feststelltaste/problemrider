@@ -5,18 +5,18 @@ description: An unusual or sustained rise in the frequency of errors reported by
 category:
 - Code
 related_problems:
-- slug: high-bug-introduction-rate
-  similarity: 0.6
 - slug: increased-bug-count
-  similarity: 0.6
+  similarity: 0.7
+- slug: high-bug-introduction-rate
+  similarity: 0.7
+- slug: system-outages
+  similarity: 0.65
 - slug: service-timeouts
-  similarity: 0.55
-- slug: upstream-timeouts
-  similarity: 0.55
+  similarity: 0.65
 - slug: inadequate-error-handling
-  similarity: 0.55
-- slug: high-connection-count
-  similarity: 0.55
+  similarity: 0.65
+- slug: external-service-delays
+  similarity: 0.6
 solutions:
 - observability-and-monitoring
 - confirmation-dialogs

@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: time-pressure
-  similarity: 0.75
+  similarity: 0.85
 - slug: unrealistic-deadlines
   similarity: 0.75
-- slug: constantly-shifting-deadlines
+- slug: increased-technical-shortcuts
+  similarity: 0.7
+- slug: market-pressure
+  similarity: 0.7
+- slug: lower-code-quality
   similarity: 0.65
-- slug: missed-deadlines
-  similarity: 0.6
-- slug: unrealistic-schedule
-  similarity: 0.6
-- slug: decision-paralysis
-  similarity: 0.55
+- slug: high-technical-debt
+  similarity: 0.65
 solutions:
 - formal-change-control-process
 - iterative-development

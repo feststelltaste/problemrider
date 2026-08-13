@@ -7,13 +7,17 @@ category:
 - Code
 related_problems:
 - slug: global-state-and-side-effects
-  similarity: 0.65
+  similarity: 0.8
 - slug: hidden-dependencies
-  similarity: 0.65
+  similarity: 0.7
 - slug: unpredictable-system-behavior
+  similarity: 0.7
+- slug: ripple-effect-of-changes
+  similarity: 0.6
+- slug: difficult-to-understand-code
   similarity: 0.55
-- slug: complex-and-obscure-logic
-  similarity: 0.5
+- slug: monolithic-functions-and-classes
+  similarity: 0.55
 solutions:
 - clean-code
 - design-by-contract

@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: increased-stress-and-burnout
-  similarity: 0.75
+  similarity: 0.8
 - slug: uneven-workload-distribution
   similarity: 0.65
-- slug: time-pressure
-  similarity: 0.6
-- slug: developer-frustration-and-burnout
-  similarity: 0.6
 - slug: reduced-team-productivity
-  similarity: 0.55
+  similarity: 0.65
 - slug: mentor-burnout
-  similarity: 0.55
+  similarity: 0.65
+- slug: high-turnover
+  similarity: 0.65
+- slug: lower-code-quality
+  similarity: 0.65
 solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices

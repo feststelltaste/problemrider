@@ -7,16 +7,16 @@ category:
 - Process
 related_problems:
 - slug: constant-firefighting
-  similarity: 0.75
-- slug: context-switching-overhead
   similarity: 0.7
-- slug: reduced-team-productivity
-  similarity: 0.7
-- slug: inefficient-development-environment
+- slug: work-blocking
   similarity: 0.65
-- slug: priority-thrashing
+- slug: release-instability
   similarity: 0.65
-- slug: frequent-changes-to-requirements
+- slug: decision-paralysis
+  similarity: 0.65
+- slug: incomplete-projects
+  similarity: 0.65
+- slug: stakeholder-developer-communication-gap
   similarity: 0.65
 solutions:
 - development-environment-optimization

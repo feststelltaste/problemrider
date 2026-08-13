@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: overworked-teams
+  similarity: 0.8
+- slug: reduced-team-productivity
   similarity: 0.75
 - slug: developer-frustration-and-burnout
   similarity: 0.7
 - slug: time-pressure
   similarity: 0.7
-- slug: mentor-burnout
-  similarity: 0.6
-- slug: reduced-team-productivity
-  similarity: 0.6
-- slug: constant-firefighting
-  similarity: 0.6
+- slug: slow-development-velocity
+  similarity: 0.7
+- slug: lower-code-quality
+  similarity: 0.7
 solutions:
 - blameless-postmortems
 - sustainable-pace-practices

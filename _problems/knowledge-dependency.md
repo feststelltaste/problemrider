@@ -7,17 +7,17 @@ category:
 - Dependencies
 - Team
 related_problems:
-- slug: inconsistent-knowledge-acquisition
-  similarity: 0.7
 - slug: knowledge-silos
+  similarity: 0.75
+- slug: knowledge-gaps
+  similarity: 0.7
+- slug: single-points-of-failure
+  similarity: 0.7
+- slug: approval-dependencies
   similarity: 0.7
 - slug: slow-knowledge-transfer
   similarity: 0.65
-- slug: mentor-burnout
-  similarity: 0.65
 - slug: implicit-knowledge
-  similarity: 0.65
-- slug: inappropriate-skillset
   similarity: 0.65
 solutions:
 - knowledge-sharing-practices

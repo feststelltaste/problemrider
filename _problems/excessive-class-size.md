@@ -7,17 +7,17 @@ category:
 - Code
 related_problems:
 - slug: bloated-class
-  similarity: 0.75
+  similarity: 0.8
 - slug: monolithic-functions-and-classes
-  similarity: 0.65
-- slug: over-reliance-on-utility-classes
-  similarity: 0.65
+  similarity: 0.7
 - slug: god-object-anti-pattern
-  similarity: 0.6
+  similarity: 0.7
 - slug: large-pull-requests
-  similarity: 0.55
-- slug: uncontrolled-codebase-growth
-  similarity: 0.55
+  similarity: 0.65
+- slug: increased-cognitive-load
+  similarity: 0.65
+- slug: large-estimates-for-small-changes
+  similarity: 0.6
 solutions:
 - incremental-refactoring
 - code-hotspot-analysis

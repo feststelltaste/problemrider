@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: no-continuous-feedback-loop
-  similarity: 0.75
+  similarity: 0.8
 - slug: stakeholder-developer-communication-gap
-  similarity: 0.6
-- slug: inadequate-requirements-gathering
-  similarity: 0.6
-- slug: misaligned-deliverables
-  similarity: 0.55
-- slug: negative-user-feedback
-  similarity: 0.55
+  similarity: 0.65
 - slug: feature-gaps
-  similarity: 0.55
+  similarity: 0.65
+- slug: work-blocking
+  similarity: 0.65
+- slug: misaligned-deliverables
+  similarity: 0.6
+- slug: stakeholder-frustration
+  similarity: 0.6
 solutions:
 - knowledge-sharing-practices
 - feedback-mechanisms

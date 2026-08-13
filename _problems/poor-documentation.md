@@ -6,17 +6,17 @@ category:
 - Code
 - Communication
 related_problems:
-- slug: information-decay
-  similarity: 0.8
-- slug: legacy-system-documentation-archaeology
-  similarity: 0.7
 - slug: unclear-documentation-ownership
-  similarity: 0.7
-- slug: information-fragmentation
-  similarity: 0.7
-- slug: incomplete-knowledge
+  similarity: 0.75
+- slug: information-decay
+  similarity: 0.75
+- slug: legacy-system-documentation-archaeology
   similarity: 0.65
-- slug: implicit-knowledge
+- slug: information-fragmentation
+  similarity: 0.6
+- slug: rapid-system-changes
+  similarity: 0.6
+- slug: difficult-developer-onboarding
   similarity: 0.6
 solutions:
 - architecture-decision-records

@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: reviewer-anxiety
-  similarity: 0.7
-- slug: inadequate-code-reviews
-  similarity: 0.65
+  similarity: 0.75
 - slug: author-frustration
-  similarity: 0.65
-- slug: nitpicking-culture
-  similarity: 0.65
-- slug: team-members-not-engaged-in-review-process
-  similarity: 0.65
+  similarity: 0.75
+- slug: conflicting-reviewer-opinions
+  similarity: 0.75
+- slug: review-process-avoidance
+  similarity: 0.7
 - slug: fear-of-change
-  similarity: 0.65
+  similarity: 0.7
+- slug: nitpicking-culture
+  similarity: 0.7
 solutions:
 - psychological-safety-practices
 - team-working-agreements

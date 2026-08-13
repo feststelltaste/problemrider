@@ -8,16 +8,16 @@ category:
 - Team
 related_problems:
 - slug: unmotivated-employees
-  similarity: 0.65
+  similarity: 0.7
+- slug: reduced-team-productivity
+  similarity: 0.6
+- slug: increased-stress-and-burnout
+  similarity: 0.6
 - slug: team-dysfunction
-  similarity: 0.65
-- slug: team-confusion
-  similarity: 0.65
-- slug: poor-teamwork
   similarity: 0.6
 - slug: developer-frustration-and-burnout
   similarity: 0.6
-- slug: increased-stress-and-burnout
+- slug: overworked-teams
   similarity: 0.6
 solutions:
 - psychological-safety-practices

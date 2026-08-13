@@ -7,17 +7,17 @@ category:
 - Management
 related_problems:
 - slug: poor-documentation
-  similarity: 0.7
+  similarity: 0.65
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.65
 - slug: legacy-skill-shortage
   similarity: 0.65
-- slug: legacy-configuration-management-chaos
+- slug: information-decay
   similarity: 0.65
 - slug: implicit-knowledge
   similarity: 0.65
-- slug: information-decay
-  similarity: 0.6
 - slug: information-fragmentation
-  similarity: 0.6
+  similarity: 0.65
 solutions:
 - documentation-as-code
 - knowledge-sharing-practices

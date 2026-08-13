@@ -7,17 +7,17 @@ category:
 - Performance
 related_problems:
 - slug: log-spam
-  similarity: 0.65
-- slug: lazy-loading
-  similarity: 0.65
+  similarity: 0.75
 - slug: excessive-disk-io
-  similarity: 0.6
-- slug: logging-configuration-issues
-  similarity: 0.6
-- slug: imperative-data-fetching-logic
-  similarity: 0.6
-- slug: excessive-object-allocation
-  similarity: 0.6
+  similarity: 0.75
+- slug: slow-database-queries
+  similarity: 0.7
+- slug: high-database-resource-utilization
+  similarity: 0.65
+- slug: inefficient-code
+  similarity: 0.65
+- slug: memory-leaks
+  similarity: 0.65
 solutions:
 - observability-and-monitoring
 - asynchronous-logging

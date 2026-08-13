@@ -6,18 +6,18 @@ category:
 - Code
 - Performance
 related_problems:
-- slug: race-conditions
-  similarity: 0.65
 - slug: resource-contention
+  similarity: 0.65
+- slug: race-conditions
   similarity: 0.65
 - slug: deadlock-conditions
   similarity: 0.6
-- slug: atomic-operation-overhead
-  similarity: 0.55
+- slug: thread-pool-exhaustion
+  similarity: 0.6
 - slug: false-sharing
-  similarity: 0.55
+  similarity: 0.6
 - slug: memory-barrier-inefficiency
-  similarity: 0.55
+  similarity: 0.6
 solutions:
 - query-optimization-process
 - concurrency-control

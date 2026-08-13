@@ -9,14 +9,14 @@ related_problems:
   similarity: 0.65
 - slug: inefficient-code
   similarity: 0.65
+- slug: slow-database-queries
+  similarity: 0.6
 - slug: slow-application-performance
+  similarity: 0.6
+- slug: high-number-of-database-queries
   similarity: 0.6
 - slug: inefficient-frontend-code
   similarity: 0.6
-- slug: unused-indexes
-  similarity: 0.55
-- slug: poor-caching-strategy
-  similarity: 0.55
 solutions:
 - caching-strategy
 - profiling

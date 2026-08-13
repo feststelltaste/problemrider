@@ -6,11 +6,17 @@ category:
 - Security
 related_problems:
 - slug: secret-management-problems
+  similarity: 0.65
+- slug: authentication-bypass-vulnerabilities
+  similarity: 0.6
+- slug: password-security-weaknesses
   similarity: 0.6
 - slug: cross-site-scripting-vulnerabilities
   similarity: 0.55
 - slug: authorization-flaws
-  similarity: 0.5
+  similarity: 0.55
+- slug: inadequate-error-handling
+  similarity: 0.55
 solutions:
 - security-hardening-process
 - authentication

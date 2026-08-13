@@ -7,18 +7,18 @@ category:
 - Communication
 - Process
 related_problems:
+- slug: difficult-developer-onboarding
+  similarity: 0.75
 - slug: reviewer-inexperience
   similarity: 0.75
 - slug: insufficient-design-skills
   similarity: 0.7
-- slug: incomplete-knowledge
+- slug: inadequate-mentoring-structure
   similarity: 0.7
-- slug: inability-to-innovate
+- slug: knowledge-gaps
   similarity: 0.65
-- slug: difficult-developer-onboarding
-  similarity: 0.6
-- slug: inconsistent-knowledge-acquisition
-  similarity: 0.6
+- slug: inappropriate-skillset
+  similarity: 0.65
 solutions:
 - pair-and-mob-programming
 - structured-onboarding-program

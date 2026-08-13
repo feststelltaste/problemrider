@@ -9,16 +9,16 @@ category:
 related_problems:
 - slug: quality-blind-spots
   similarity: 0.7
+- slug: knowledge-gaps
+  similarity: 0.65
+- slug: slow-incident-resolution
+  similarity: 0.65
 - slug: feature-gaps
-  similarity: 0.6
+  similarity: 0.65
 - slug: poor-operational-concept
   similarity: 0.6
-- slug: knowledge-gaps
-  similarity: 0.55
-- slug: system-integration-blindness
-  similarity: 0.55
-- slug: maintenance-bottlenecks
-  similarity: 0.55
+- slug: poor-test-coverage
+  similarity: 0.6
 solutions:
 - observability-and-monitoring
 - chaos-engineering

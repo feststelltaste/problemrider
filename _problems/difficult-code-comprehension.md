@@ -6,16 +6,16 @@ category:
 related_problems:
 - slug: difficult-to-understand-code
   similarity: 0.85
-- slug: complex-and-obscure-logic
-  similarity: 0.75
 - slug: difficult-code-reuse
-  similarity: 0.75
-- slug: difficult-to-test-code
   similarity: 0.7
 - slug: increased-cognitive-load
   similarity: 0.7
-- slug: inconsistent-codebase
-  similarity: 0.65
+- slug: complex-and-obscure-logic
+  similarity: 0.7
+- slug: difficult-developer-onboarding
+  similarity: 0.7
+- slug: debugging-difficulties
+  similarity: 0.7
 solutions:
 - clean-code
 - loose-coupling

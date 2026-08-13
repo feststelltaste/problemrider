@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: fear-of-change
-  similarity: 0.85
+  similarity: 0.8
 - slug: resistance-to-change
+  similarity: 0.75
+- slug: maintenance-paralysis
+  similarity: 0.7
+- slug: brittle-codebase
+  similarity: 0.7
+- slug: refactoring-avoidance
   similarity: 0.7
 - slug: fear-of-failure
   similarity: 0.7
-- slug: history-of-failed-changes
-  similarity: 0.65
-- slug: maintenance-paralysis
-  similarity: 0.65
-- slug: refactoring-avoidance
-  similarity: 0.65
 solutions:
 - blue-green-canary-deployments
 - feature-flags

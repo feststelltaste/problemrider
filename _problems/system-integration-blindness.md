@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: inadequate-integration-tests
   similarity: 0.75
-- slug: missing-end-to-end-tests
-  similarity: 0.7
-- slug: hidden-dependencies
-  similarity: 0.65
-- slug: poor-interfaces-between-applications
+- slug: integration-difficulties
   similarity: 0.65
 - slug: quality-blind-spots
   similarity: 0.65
-- slug: cascade-failures
+- slug: unpredictable-system-behavior
+  similarity: 0.6
+- slug: poor-interfaces-between-applications
+  similarity: 0.6
+- slug: missing-end-to-end-tests
   similarity: 0.6
 solutions:
 - documentation-as-code

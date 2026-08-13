@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: delayed-bug-fixes
-  similarity: 0.8
+  similarity: 0.85
 - slug: slow-incident-resolution
+  similarity: 0.7
+- slug: lack-of-ownership-and-accountability
+  similarity: 0.7
+- slug: decision-avoidance
+  similarity: 0.7
+- slug: accumulated-decision-debt
+  similarity: 0.7
+- slug: accumulation-of-workarounds
   similarity: 0.65
-- slug: delayed-value-delivery
-  similarity: 0.65
-- slug: missed-deadlines
-  similarity: 0.6
-- slug: debugging-difficulties
-  similarity: 0.6
-- slug: delayed-project-timelines
-  similarity: 0.6
 solutions:
 - continuous-feedback
 - root-cause-analysis

@@ -8,17 +8,17 @@ category:
 - Security
 related_problems:
 - slug: configuration-drift
-  similarity: 0.6
-- slug: data-migration-integrity-issues
-  similarity: 0.55
-- slug: legacy-configuration-management-chaos
-  similarity: 0.55
+  similarity: 0.65
 - slug: legacy-api-versioning-nightmare
-  similarity: 0.55
+  similarity: 0.65
+- slug: legacy-configuration-management-chaos
+  similarity: 0.6
+- slug: legacy-skill-shortage
+  similarity: 0.6
+- slug: system-stagnation
+  similarity: 0.6
 - slug: vendor-dependency-entrapment
-  similarity: 0.5
-- slug: legacy-system-documentation-archaeology
-  similarity: 0.5
+  similarity: 0.6
 solutions:
 - security-hardening-process
 - assistive-technology-support

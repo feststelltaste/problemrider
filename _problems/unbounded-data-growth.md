@@ -7,14 +7,14 @@ category:
 - Performance
 related_problems:
 - slug: unbounded-data-structures
-  similarity: 0.8
+  similarity: 0.85
+- slug: uncontrolled-codebase-growth
+  similarity: 0.65
 - slug: unreleased-resources
   similarity: 0.6
-- slug: uncontrolled-codebase-growth
-  similarity: 0.6
-- slug: algorithmic-complexity-problems
-  similarity: 0.55
 - slug: memory-leaks
+  similarity: 0.6
+- slug: log-spam
   similarity: 0.55
 - slug: gradual-performance-degradation
   similarity: 0.55

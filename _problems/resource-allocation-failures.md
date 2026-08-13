@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: unreleased-resources
   similarity: 0.8
-- slug: thread-pool-exhaustion
-  similarity: 0.6
-- slug: memory-fragmentation
-  similarity: 0.6
 - slug: database-connection-leaks
-  similarity: 0.6
+  similarity: 0.7
 - slug: memory-leaks
   similarity: 0.6
-- slug: resource-waste
+- slug: misconfigured-connection-pools
+  similarity: 0.6
+- slug: excessive-object-allocation
+  similarity: 0.6
+- slug: high-connection-count
   similarity: 0.6
 solutions:
 - change-management-process

@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: testing-environment-fragility
-  similarity: 0.7
-- slug: inadequate-test-data-management
-  similarity: 0.65
-- slug: inadequate-integration-tests
-  similarity: 0.6
-- slug: automated-tooling-ineffectiveness
-  similarity: 0.6
-- slug: inefficient-development-environment
-  similarity: 0.6
+  similarity: 0.75
 - slug: insufficient-testing
-  similarity: 0.55
+  similarity: 0.65
+- slug: tool-limitations
+  similarity: 0.65
+- slug: increased-manual-testing-effort
+  similarity: 0.65
+- slug: inefficient-development-environment
+  similarity: 0.65
+- slug: poor-test-coverage
+  similarity: 0.6
 solutions:
 - test-coverage-strategy
 - containerized-databases

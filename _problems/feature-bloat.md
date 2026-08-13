@@ -7,18 +7,18 @@ category:
 - Business
 - Management
 related_problems:
-- slug: feature-factory
-  similarity: 0.65
 - slug: feature-creep
-  similarity: 0.65
-- slug: large-feature-scope
-  similarity: 0.65
-- slug: reduced-feature-quality
+  similarity: 0.7
+- slug: feature-factory
   similarity: 0.6
-- slug: feature-gaps
-  similarity: 0.55
-- slug: gold-plating
-  similarity: 0.55
+- slug: bloated-class
+  similarity: 0.6
+- slug: second-system-effect
+  similarity: 0.6
+- slug: feature-creep-without-refactoring
+  similarity: 0.6
+- slug: complex-implementation-paths
+  similarity: 0.6
 solutions:
 - change-management-process
 - formal-change-control-process

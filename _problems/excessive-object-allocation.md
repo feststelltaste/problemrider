@@ -7,17 +7,17 @@ category:
 - Performance
 related_problems:
 - slug: garbage-collection-pressure
-  similarity: 0.7
-- slug: excessive-logging
-  similarity: 0.6
+  similarity: 0.8
+- slug: algorithmic-complexity-problems
+  similarity: 0.65
 - slug: memory-fragmentation
-  similarity: 0.6
+  similarity: 0.65
 - slug: memory-leaks
   similarity: 0.6
-- slug: algorithmic-complexity-problems
-  similarity: 0.55
-- slug: inefficient-code
-  similarity: 0.55
+- slug: high-client-side-resource-consumption
+  similarity: 0.6
+- slug: resource-allocation-failures
+  similarity: 0.6
 solutions:
 - memory-management-optimization
 - profiling

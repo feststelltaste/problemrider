@@ -1,11 +1,24 @@
 ---
 title: Custom Report Sprawl
-description: Hundreds of bespoke reports, forms, and extracts accumulate with no record of who uses them, so none can be changed or removed with confidence.
+description: Hundreds of bespoke reports, forms, and extracts accumulate with no record
+  of who uses them, so none can be changed or removed with confidence.
 category:
 - Business
 - Database
 - Process
 related_problems:
+- slug: excessive-customization
+  similarity: 0.7
+- slug: low-code-customization-sprawl
+  similarity: 0.65
+- slug: customization-outside-version-control
+  similarity: 0.65
+- slug: entity-attribute-value-overuse
+  similarity: 0.6
+- slug: authorization-role-explosion
+  similarity: 0.6
+- slug: reimplemented-standard-functionality
+  similarity: 0.6
 solutions:
 - feature-usage-measurement
 - variant-consolidation

@@ -7,18 +7,18 @@ category:
 - Communication
 - Process
 related_problems:
-- slug: stakeholder-dissatisfaction
+- slug: slow-development-velocity
+  similarity: 0.7
+- slug: gradual-performance-degradation
   similarity: 0.65
 - slug: stakeholder-confidence-loss
   similarity: 0.65
+- slug: customer-dissatisfaction
+  similarity: 0.65
 - slug: stakeholder-frustration
-  similarity: 0.6
-- slug: negative-user-feedback
-  similarity: 0.55
-- slug: user-frustration
-  similarity: 0.55
-- slug: quality-degradation
-  similarity: 0.55
+  similarity: 0.65
+- slug: increased-bug-count
+  similarity: 0.65
 solutions:
 - impact-mapping
 - product-strategy-alignment

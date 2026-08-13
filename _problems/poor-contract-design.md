@@ -7,17 +7,17 @@ category:
 - Process
 - Security
 related_problems:
-- slug: poor-planning
+- slug: legal-disputes
+  similarity: 0.65
+- slug: process-design-flaws
+  similarity: 0.6
+- slug: complex-implementation-paths
+  similarity: 0.55
+- slug: wasted-development-effort
+  similarity: 0.55
+- slug: scope-change-resistance
   similarity: 0.55
 - slug: insufficient-design-skills
-  similarity: 0.55
-- slug: process-design-flaws
-  similarity: 0.55
-- slug: incomplete-projects
-  similarity: 0.55
-- slug: inconsistent-codebase
-  similarity: 0.55
-- slug: constantly-shifting-deadlines
   similarity: 0.55
 solutions:
 - contract-testing

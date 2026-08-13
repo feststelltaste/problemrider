@@ -8,16 +8,16 @@ category:
 - Team
 related_problems:
 - slug: reduced-individual-productivity
-  similarity: 0.75
-- slug: development-disruption
-  similarity: 0.7
+  similarity: 0.85
 - slug: slow-development-velocity
+  similarity: 0.8
+- slug: increased-stress-and-burnout
+  similarity: 0.75
+- slug: inefficient-development-environment
+  similarity: 0.7
+- slug: inefficient-processes
   similarity: 0.7
 - slug: reduced-team-flexibility
-  similarity: 0.65
-- slug: poor-teamwork
-  similarity: 0.65
-- slug: team-dysfunction
   similarity: 0.65
 solutions:
 - cross-functional-skill-development

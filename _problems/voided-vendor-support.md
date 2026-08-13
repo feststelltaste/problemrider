@@ -1,11 +1,24 @@
 ---
 title: Voided Vendor Support
-description: The vendor declines to diagnose problems because the installation is modified, so the organization pays for support it can no longer use.
+description: The vendor declines to diagnose problems because the installation is
+  modified, so the organization pays for support it can no longer use.
 category:
 - Dependencies
 - Operations
 - Business
 related_problems:
+- slug: core-modification-of-standard-software
+  similarity: 0.65
+- slug: vendor-dependency-entrapment
+  similarity: 0.65
+- slug: upgrade-blocked-by-customization
+  similarity: 0.6
+- slug: reimplemented-standard-functionality
+  similarity: 0.55
+- slug: implementation-partner-dependency
+  similarity: 0.55
+- slug: excessive-customization
+  similarity: 0.55
 solutions:
 - vendor-management-practice
 - explicit-extension-points

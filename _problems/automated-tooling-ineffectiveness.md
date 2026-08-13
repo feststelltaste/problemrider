@@ -6,18 +6,18 @@ category:
 - Code
 - Process
 related_problems:
-- slug: inadequate-test-infrastructure
-  similarity: 0.6
+- slug: inconsistent-coding-standards
+  similarity: 0.65
+- slug: inconsistent-behavior
+  similarity: 0.65
 - slug: tool-limitations
   similarity: 0.6
 - slug: inconsistent-codebase
-  similarity: 0.55
-- slug: code-review-inefficiency
-  similarity: 0.55
-- slug: mixed-coding-styles
-  similarity: 0.55
-- slug: inconsistent-coding-standards
-  similarity: 0.55
+  similarity: 0.6
+- slug: difficult-code-reuse
+  similarity: 0.6
+- slug: undefined-code-style-guidelines
+  similarity: 0.6
 solutions:
 - static-analysis-and-linting
 - code-quality-gates

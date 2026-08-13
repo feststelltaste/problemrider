@@ -1,11 +1,24 @@
 ---
 title: Retention Obligations Block Change
-description: Legal retention duties attach to data whose format and system nobody can change, so the obligation freezes the system that holds it.
+description: Legal retention duties attach to data whose format and system nobody
+  can change, so the obligation freezes the system that holds it.
 category:
 - Database
 - Operations
 - Security
 related_problems:
+- slug: schema-evolution-paralysis
+  similarity: 0.55
+- slug: regulatory-compliance-drift
+  similarity: 0.55
+- slug: data-migration-integrity-issues
+  similarity: 0.55
+- slug: data-migration-complexities
+  similarity: 0.5
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.5
+- slug: system-stagnation
+  similarity: 0.5
 solutions:
 - retention-and-disposal-policy
 - data-archiving

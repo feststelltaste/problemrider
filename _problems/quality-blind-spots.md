@@ -9,16 +9,16 @@ category:
 related_problems:
 - slug: poor-test-coverage
   similarity: 0.75
-- slug: insufficient-testing
-  similarity: 0.7
 - slug: monitoring-gaps
   similarity: 0.7
-- slug: missing-end-to-end-tests
-  similarity: 0.65
 - slug: system-integration-blindness
   similarity: 0.65
-- slug: testing-complexity
-  similarity: 0.6
+- slug: test-debt
+  similarity: 0.65
+- slug: insufficient-testing
+  similarity: 0.65
+- slug: missing-end-to-end-tests
+  similarity: 0.65
 solutions:
 - definition-of-done
 - abuse-case-definition

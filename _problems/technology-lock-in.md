@@ -7,17 +7,17 @@ category:
 - Code
 related_problems:
 - slug: vendor-lock-in
-  similarity: 0.75
+  similarity: 0.7
 - slug: technology-isolation
-  similarity: 0.65
-- slug: technology-stack-fragmentation
-  similarity: 0.6
-- slug: vendor-dependency-entrapment
   similarity: 0.6
 - slug: system-stagnation
   similarity: 0.6
-- slug: obsolete-technologies
-  similarity: 0.6
+- slug: integration-difficulties
+  similarity: 0.55
+- slug: difficult-code-reuse
+  similarity: 0.55
+- slug: vendor-dependency-entrapment
+  similarity: 0.55
 solutions:
 - anti-corruption-layer
 - dependency-management-strategy

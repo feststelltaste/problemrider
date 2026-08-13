@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: difficult-developer-onboarding
-  similarity: 0.75
-- slug: high-turnover
-  similarity: 0.65
-- slug: inconsistent-onboarding-experience
-  similarity: 0.65
+  similarity: 0.8
 - slug: developer-frustration-and-burnout
-  similarity: 0.6
+  similarity: 0.7
+- slug: high-turnover
+  similarity: 0.7
 - slug: author-frustration
-  similarity: 0.6
-- slug: stakeholder-frustration
-  similarity: 0.6
+  similarity: 0.7
+- slug: inexperienced-developers
+  similarity: 0.65
+- slug: inefficient-development-environment
+  similarity: 0.65
 solutions:
 - structured-onboarding-program
 - integrated-onboarding

@@ -1,11 +1,24 @@
 ---
 title: Upgrade Blocked by Customization
-description: Vendor releases cannot be applied because the accumulated local adaptation would have to be reconciled and revalidated each time.
+description: Vendor releases cannot be applied because the accumulated local adaptation
+  would have to be reconciled and revalidated each time.
 category:
 - Dependencies
 - Operations
 - Process
 related_problems:
+- slug: core-modification-of-standard-software
+  similarity: 0.7
+- slug: excessive-customization
+  similarity: 0.65
+- slug: vendor-dependency-entrapment
+  similarity: 0.65
+- slug: voided-vendor-support
+  similarity: 0.6
+- slug: reimplemented-standard-functionality
+  similarity: 0.55
+- slug: schema-evolution-paralysis
+  similarity: 0.55
 solutions:
 - fit-to-standard-principle
 - explicit-extension-points

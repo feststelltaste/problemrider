@@ -6,16 +6,18 @@ category:
 - Architecture
 - Requirements
 related_problems:
-- slug: database-schema-design-problems
-  similarity: 0.55
 - slug: api-versioning-conflicts
-  similarity: 0.55
-- slug: poor-user-experience-ux-design
-  similarity: 0.5
+  similarity: 0.65
 - slug: legacy-api-versioning-nightmare
-  similarity: 0.5
+  similarity: 0.6
 - slug: poor-interfaces-between-applications
-  similarity: 0.5
+  similarity: 0.6
+- slug: database-schema-design-problems
+  similarity: 0.6
+- slug: poor-user-experience-ux-design
+  similarity: 0.55
+- slug: breaking-changes
+  similarity: 0.55
 solutions:
 - api-first-design
 - contract-testing

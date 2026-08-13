@@ -6,17 +6,17 @@ category:
 - Architecture
 - Code
 related_problems:
-- slug: difficult-code-comprehension
-  similarity: 0.75
 - slug: difficult-to-understand-code
   similarity: 0.7
+- slug: difficult-code-comprehension
+  similarity: 0.7
 - slug: difficult-to-test-code
-  similarity: 0.7
-- slug: inconsistent-codebase
-  similarity: 0.7
-- slug: complex-and-obscure-logic
+  similarity: 0.65
+- slug: brittle-codebase
   similarity: 0.65
 - slug: code-duplication
+  similarity: 0.65
+- slug: partial-bug-fixes
   similarity: 0.65
 solutions:
 - modularization-and-bounded-contexts

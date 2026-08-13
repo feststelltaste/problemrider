@@ -6,17 +6,17 @@ category:
 - Performance
 - Process
 related_problems:
-- slug: unreleased-resources
+- slug: capacity-mismatch
   similarity: 0.65
 - slug: wasted-development-effort
+  similarity: 0.65
+- slug: staff-availability-issues
+  similarity: 0.6
+- slug: uneven-workload-distribution
   similarity: 0.6
 - slug: project-resource-constraints
   similarity: 0.6
-- slug: resource-allocation-failures
-  similarity: 0.6
-- slug: capacity-mismatch
-  similarity: 0.6
-- slug: scaling-inefficiencies
+- slug: inefficient-processes
   similarity: 0.55
 solutions:
 - impact-mapping

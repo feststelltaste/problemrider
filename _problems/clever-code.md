@@ -9,14 +9,14 @@ related_problems:
 - slug: complex-and-obscure-logic
   similarity: 0.7
 - slug: difficult-to-understand-code
+  similarity: 0.7
+- slug: defensive-coding-practices
   similarity: 0.65
-- slug: difficult-code-comprehension
-  similarity: 0.65
-- slug: inconsistent-codebase
+- slug: increased-cognitive-load
   similarity: 0.6
 - slug: spaghetti-code
   similarity: 0.6
-- slug: defensive-coding-practices
+- slug: difficult-code-comprehension
   similarity: 0.6
 solutions:
 - incremental-refactoring

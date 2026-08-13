@@ -6,18 +6,18 @@ category:
 - Process
 - Team
 related_problems:
-- slug: review-process-avoidance
-  similarity: 0.7
 - slug: team-members-not-engaged-in-review-process
-  similarity: 0.7
-- slug: inadequate-code-reviews
-  similarity: 0.7
+  similarity: 0.85
 - slug: reviewer-anxiety
-  similarity: 0.7
-- slug: reviewer-inexperience
-  similarity: 0.65
+  similarity: 0.75
+- slug: review-process-avoidance
+  similarity: 0.75
+- slug: reduced-code-submission-frequency
+  similarity: 0.75
+- slug: inadequate-code-reviews
+  similarity: 0.75
 - slug: code-review-inefficiency
-  similarity: 0.65
+  similarity: 0.7
 solutions:
 - code-review-process-reform
 - code-review-guidelines

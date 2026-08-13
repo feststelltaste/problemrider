@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: reviewer-anxiety
-  similarity: 0.7
-- slug: conflicting-reviewer-opinions
-  similarity: 0.7
+  similarity: 0.75
 - slug: fear-of-conflict
-  similarity: 0.65
-- slug: stakeholder-frustration
-  similarity: 0.6
-- slug: code-review-inefficiency
-  similarity: 0.6
-- slug: new-hire-frustration
-  similarity: 0.6
+  similarity: 0.75
+- slug: conflicting-reviewer-opinions
+  similarity: 0.75
+- slug: developer-frustration-and-burnout
+  similarity: 0.7
+- slug: team-members-not-engaged-in-review-process
+  similarity: 0.7
+- slug: reduced-code-submission-frequency
+  similarity: 0.7
 solutions:
 - sustainable-pace-practices
 - code-review-guidelines

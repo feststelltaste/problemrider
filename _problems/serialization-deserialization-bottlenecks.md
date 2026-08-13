@@ -7,13 +7,17 @@ category:
 - Performance
 related_problems:
 - slug: algorithmic-complexity-problems
-  similarity: 0.5
+  similarity: 0.6
+- slug: slow-response-times-for-lists
+  similarity: 0.6
+- slug: microservice-communication-overhead
+  similarity: 0.6
+- slug: high-client-side-resource-consumption
+  similarity: 0.55
+- slug: high-api-latency
+  similarity: 0.55
 - slug: database-query-performance-issues
-  similarity: 0.5
-- slug: atomic-operation-overhead
-  similarity: 0.5
-- slug: endianness-conversion-overhead
-  similarity: 0.5
+  similarity: 0.55
 solutions:
 - api-first-design
 - caching-strategy

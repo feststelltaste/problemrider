@@ -7,17 +7,17 @@ category:
 - Testing
 related_problems:
 - slug: difficult-to-understand-code
-  similarity: 0.7
+  similarity: 0.75
+- slug: debugging-difficulties
+  similarity: 0.65
 - slug: difficult-code-reuse
-  similarity: 0.7
-- slug: testing-complexity
-  similarity: 0.7
-- slug: difficult-code-comprehension
-  similarity: 0.7
-- slug: complex-and-obscure-logic
   similarity: 0.65
 - slug: legacy-code-without-tests
-  similarity: 0.6
+  similarity: 0.65
+- slug: difficult-code-comprehension
+  similarity: 0.65
+- slug: tight-coupling-issues
+  similarity: 0.65
 solutions:
 - test-coverage-strategy
 - abstracted-file-system-access

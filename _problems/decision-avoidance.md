@@ -7,17 +7,17 @@ category:
 - Team
 related_problems:
 - slug: delayed-decision-making
+  similarity: 0.85
+- slug: accumulated-decision-debt
   similarity: 0.8
 - slug: decision-paralysis
   similarity: 0.75
-- slug: accumulated-decision-debt
+- slug: analysis-paralysis
   similarity: 0.75
 - slug: avoidance-behaviors
   similarity: 0.7
-- slug: maintenance-paralysis
-  similarity: 0.65
-- slug: analysis-paralysis
-  similarity: 0.6
+- slug: work-blocking
+  similarity: 0.7
 solutions:
 - architecture-decision-records
 - architecture-review-board

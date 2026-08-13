@@ -6,18 +6,18 @@ category:
 - Code
 - Process
 related_problems:
-- slug: configuration-chaos
-  similarity: 0.75
-- slug: configuration-drift
-  similarity: 0.7
 - slug: legacy-configuration-management-chaos
   similarity: 0.65
-- slug: change-management-chaos
-  similarity: 0.6
-- slug: poor-system-environment
-  similarity: 0.55
+- slug: configuration-drift
+  similarity: 0.65
+- slug: customization-outside-version-control
+  similarity: 0.65
 - slug: environment-variable-issues
-  similarity: 0.55
+  similarity: 0.65
+- slug: change-management-chaos
+  similarity: 0.65
+- slug: configuration-chaos
+  similarity: 0.6
 solutions:
 - infrastructure-as-code
 - externalized-configuration

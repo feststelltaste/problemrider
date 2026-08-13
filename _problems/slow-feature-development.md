@@ -8,16 +8,16 @@ category:
 related_problems:
 - slug: slow-development-velocity
   similarity: 0.8
-- slug: inefficient-development-environment
-  similarity: 0.65
 - slug: delayed-value-delivery
-  similarity: 0.65
+  similarity: 0.75
+- slug: inefficient-development-environment
+  similarity: 0.7
 - slug: large-feature-scope
-  similarity: 0.65
-- slug: slow-application-performance
-  similarity: 0.65
-- slug: development-disruption
-  similarity: 0.65
+  similarity: 0.7
+- slug: long-lived-feature-branches
+  similarity: 0.7
+- slug: feature-creep-without-refactoring
+  similarity: 0.7
 solutions:
 - architecture-roadmap
 - development-workflow-automation

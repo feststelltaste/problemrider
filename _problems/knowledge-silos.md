@@ -7,18 +7,18 @@ category:
 - Process
 - Team
 related_problems:
-- slug: knowledge-sharing-breakdown
-  similarity: 0.8
+- slug: knowledge-dependency
+  similarity: 0.75
 - slug: team-silos
+  similarity: 0.75
+- slug: knowledge-sharing-breakdown
+  similarity: 0.75
+- slug: knowledge-gaps
+  similarity: 0.75
+- slug: single-points-of-failure
   similarity: 0.7
 - slug: information-fragmentation
   similarity: 0.7
-- slug: knowledge-dependency
-  similarity: 0.7
-- slug: tacit-knowledge
-  similarity: 0.7
-- slug: duplicated-research-effort
-  similarity: 0.65
 solutions:
 - knowledge-sharing-practices
 - pair-and-mob-programming

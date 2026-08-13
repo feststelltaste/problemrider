@@ -6,17 +6,17 @@ category:
 - Operations
 related_problems:
 - slug: environment-variable-issues
+  similarity: 0.7
+- slug: testing-environment-fragility
+  similarity: 0.65
+- slug: configuration-chaos
+  similarity: 0.65
+- slug: configuration-drift
   similarity: 0.65
 - slug: poor-system-environment
   similarity: 0.65
-- slug: inconsistent-behavior
+- slug: manual-deployment-processes
   similarity: 0.65
-- slug: configuration-chaos
-  similarity: 0.6
-- slug: deployment-coupling
-  similarity: 0.6
-- slug: deployment-risk
-  similarity: 0.6
 solutions:
 - ci-cd-pipeline
 - infrastructure-as-code

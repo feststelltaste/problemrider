@@ -6,17 +6,17 @@ category:
 - Communication
 - Process
 related_problems:
-- slug: knowledge-silos
-  similarity: 0.7
 - slug: knowledge-sharing-breakdown
   similarity: 0.7
-- slug: poor-documentation
+- slug: knowledge-gaps
+  similarity: 0.7
+- slug: knowledge-silos
   similarity: 0.7
 - slug: information-decay
   similarity: 0.65
-- slug: incomplete-knowledge
-  similarity: 0.65
 - slug: technology-stack-fragmentation
+  similarity: 0.65
+- slug: implicit-knowledge
   similarity: 0.65
 solutions:
 - documentation-as-code

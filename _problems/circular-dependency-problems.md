@@ -11,13 +11,13 @@ related_problems:
 - slug: circular-references
   similarity: 0.65
 - slug: hidden-dependencies
+  similarity: 0.65
+- slug: dependency-version-conflicts
   similarity: 0.6
-- slug: shared-dependencies
+- slug: deployment-coupling
   similarity: 0.6
 - slug: cascade-failures
   similarity: 0.6
-- slug: tangled-cross-cutting-concerns
-  similarity: 0.55
 solutions:
 - event-driven-architecture
 - incremental-refactoring

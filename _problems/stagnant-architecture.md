@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: system-stagnation
-  similarity: 0.75
+  similarity: 0.85
 - slug: architectural-mismatch
+  similarity: 0.7
+- slug: resistance-to-change
   similarity: 0.7
 - slug: technical-architecture-limitations
   similarity: 0.65
-- slug: resistance-to-change
-  similarity: 0.6
-- slug: second-system-effect
-  similarity: 0.6
-- slug: vendor-lock-in
-  similarity: 0.6
+- slug: rapid-system-changes
+  similarity: 0.65
+- slug: schema-evolution-paralysis
+  similarity: 0.65
 solutions:
 - architecture-decision-records
 - strangler-fig-pattern

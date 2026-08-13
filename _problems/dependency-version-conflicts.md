@@ -8,15 +8,15 @@ category:
 - Operations
 related_problems:
 - slug: api-versioning-conflicts
-  similarity: 0.7
-- slug: deployment-environment-inconsistencies
-  similarity: 0.55
+  similarity: 0.65
+- slug: merge-conflicts
+  similarity: 0.6
 - slug: abi-compatibility-issues
-  similarity: 0.55
+  similarity: 0.6
+- slug: deployment-environment-inconsistencies
+  similarity: 0.6
 - slug: circular-dependency-problems
-  similarity: 0.55
-- slug: hidden-dependencies
-  similarity: 0.55
+  similarity: 0.6
 - slug: legacy-api-versioning-nightmare
   similarity: 0.55
 solutions:

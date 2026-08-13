@@ -7,17 +7,17 @@ category:
 - Code
 related_problems:
 - slug: monolithic-functions-and-classes
-  similarity: 0.75
+  similarity: 0.8
+- slug: excessive-class-size
+  similarity: 0.7
 - slug: poorly-defined-responsibilities
   similarity: 0.65
-- slug: single-entry-point-design
+- slug: bloated-class
+  similarity: 0.65
+- slug: complex-implementation-paths
   similarity: 0.6
-- slug: excessive-class-size
+- slug: large-pull-requests
   similarity: 0.6
-- slug: over-reliance-on-utility-classes
-  similarity: 0.6
-- slug: misunderstanding-of-oop
-  similarity: 0.55
 solutions:
 - incremental-refactoring
 - modularization-and-bounded-contexts

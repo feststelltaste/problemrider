@@ -6,14 +6,16 @@ category:
 - Process
 - Security
 related_problems:
+- slug: data-migration-complexities
+  similarity: 0.55
 - slug: data-migration-integrity-issues
+  similarity: 0.55
+- slug: cross-system-data-synchronization-problems
+  similarity: 0.55
+- slug: deployment-risk
   similarity: 0.55
 - slug: regulatory-compliance-drift
   similarity: 0.55
-- slug: insufficient-audit-logging
-  similarity: 0.55
-- slug: authorization-flaws
-  similarity: 0.5
 - slug: legacy-business-logic-extraction-difficulty
   similarity: 0.5
 solutions:

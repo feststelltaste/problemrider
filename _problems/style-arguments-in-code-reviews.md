@@ -6,18 +6,18 @@ category:
 - Code
 - Process
 related_problems:
+- slug: undefined-code-style-guidelines
+  similarity: 0.75
 - slug: superficial-code-reviews
-  similarity: 0.65
-- slug: mixed-coding-styles
+  similarity: 0.7
+- slug: code-review-inefficiency
   similarity: 0.65
 - slug: nitpicking-culture
   similarity: 0.65
-- slug: undefined-code-style-guidelines
-  similarity: 0.6
-- slug: code-review-inefficiency
-  similarity: 0.6
-- slug: inadequate-initial-reviews
-  similarity: 0.6
+- slug: inadequate-code-reviews
+  similarity: 0.65
+- slug: conflicting-reviewer-opinions
+  similarity: 0.65
 solutions:
 - code-review-process-reform
 - static-analysis-and-linting

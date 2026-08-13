@@ -8,16 +8,16 @@ category:
 - Team
 related_problems:
 - slug: procedural-programming-in-oop-languages
-  similarity: 0.75
+  similarity: 0.7
 - slug: misunderstanding-of-oop
-  similarity: 0.75
+  similarity: 0.7
 - slug: over-reliance-on-utility-classes
   similarity: 0.65
 - slug: insufficient-design-skills
   similarity: 0.6
 - slug: difficult-code-reuse
-  similarity: 0.6
-- slug: difficult-code-comprehension
+  similarity: 0.55
+- slug: undefined-code-style-guidelines
   similarity: 0.55
 solutions:
 - architecture-reviews

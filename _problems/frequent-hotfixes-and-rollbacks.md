@@ -7,18 +7,18 @@ category:
 - Operations
 - Process
 related_problems:
+- slug: missing-rollback-strategy
+  similarity: 0.65
+- slug: long-release-cycles
+  similarity: 0.65
+- slug: high-bug-introduction-rate
+  similarity: 0.65
+- slug: increased-technical-shortcuts
+  similarity: 0.65
 - slug: large-risky-releases
   similarity: 0.65
 - slug: release-instability
-  similarity: 0.6
-- slug: high-defect-rate-in-production
-  similarity: 0.6
-- slug: complex-deployment-process
-  similarity: 0.55
-- slug: manual-deployment-processes
-  similarity: 0.55
-- slug: deployment-risk
-  similarity: 0.55
+  similarity: 0.65
 solutions:
 - blue-green-canary-deployments
 - ci-cd-pipeline

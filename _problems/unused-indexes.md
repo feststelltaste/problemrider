@@ -6,18 +6,18 @@ category:
 - Code
 - Performance
 related_problems:
-- slug: inefficient-database-indexing
+- slug: queries-that-prevent-index-usage
   similarity: 0.7
 - slug: index-fragmentation
   similarity: 0.7
-- slug: queries-that-prevent-index-usage
-  similarity: 0.7
+- slug: inefficient-database-indexing
+  similarity: 0.65
 - slug: incorrect-index-type
-  similarity: 0.7
+  similarity: 0.6
 - slug: database-query-performance-issues
-  similarity: 0.65
+  similarity: 0.6
 - slug: high-number-of-database-queries
-  similarity: 0.65
+  similarity: 0.55
 solutions:
 - query-optimization-process
 - performance-measurements

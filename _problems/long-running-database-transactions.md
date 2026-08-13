@@ -8,16 +8,16 @@ category:
 related_problems:
 - slug: long-running-transactions
   similarity: 0.95
-- slug: high-connection-count
-  similarity: 0.55
-- slug: high-database-resource-utilization
-  similarity: 0.55
 - slug: slow-database-queries
-  similarity: 0.55
-- slug: database-connection-leaks
-  similarity: 0.55
-- slug: resource-contention
-  similarity: 0.55
+  similarity: 0.7
+- slug: high-database-resource-utilization
+  similarity: 0.7
+- slug: high-number-of-database-queries
+  similarity: 0.65
+- slug: high-connection-count
+  similarity: 0.65
+- slug: lazy-loading
+  similarity: 0.65
 solutions:
 - evolutionary-database-design
 - query-optimization-process

@@ -9,15 +9,15 @@ category:
 related_problems:
 - slug: skill-development-gaps
   similarity: 0.7
+- slug: inexperienced-developers
+  similarity: 0.65
+- slug: insufficient-design-skills
+  similarity: 0.65
 - slug: inconsistent-knowledge-acquisition
-  similarity: 0.7
-- slug: knowledge-dependency
   similarity: 0.65
 - slug: uneven-workload-distribution
   similarity: 0.6
-- slug: incomplete-knowledge
-  similarity: 0.6
-- slug: inconsistent-onboarding-experience
+- slug: poor-teamwork
   similarity: 0.6
 solutions:
 - pair-and-mob-programming

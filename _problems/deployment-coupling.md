@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: tight-coupling-issues
   similarity: 0.7
-- slug: ripple-effect-of-changes
-  similarity: 0.65
 - slug: shared-dependencies
+  similarity: 0.65
+- slug: complex-deployment-process
+  similarity: 0.65
+- slug: high-coupling-low-cohesion
   similarity: 0.65
 - slug: deployment-risk
   similarity: 0.6
-- slug: deployment-environment-inconsistencies
-  similarity: 0.6
-- slug: missing-rollback-strategy
+- slug: ripple-effect-of-changes
   similarity: 0.6
 solutions:
 - ci-cd-pipeline

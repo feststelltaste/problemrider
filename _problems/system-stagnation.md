@@ -8,16 +8,16 @@ category:
 - Management
 related_problems:
 - slug: stagnant-architecture
-  similarity: 0.75
+  similarity: 0.85
 - slug: resistance-to-change
-  similarity: 0.7
-- slug: quality-degradation
   similarity: 0.65
+- slug: information-decay
+  similarity: 0.65
+- slug: quality-degradation
+  similarity: 0.6
+- slug: increasing-brittleness
+  similarity: 0.6
 - slug: obsolete-technologies
-  similarity: 0.6
-- slug: technology-lock-in
-  similarity: 0.6
-- slug: maintenance-paralysis
   similarity: 0.6
 solutions:
 - strangler-fig-pattern

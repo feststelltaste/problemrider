@@ -10,15 +10,15 @@ related_problems:
 - slug: architectural-mismatch
   similarity: 0.75
 - slug: team-coordination-issues
-  similarity: 0.65
+  similarity: 0.6
+- slug: inadequate-mentoring-structure
+  similarity: 0.6
+- slug: process-software-misfit
+  similarity: 0.6
+- slug: misaligned-deliverables
+  similarity: 0.6
 - slug: capacity-mismatch
   similarity: 0.6
-- slug: team-dysfunction
-  similarity: 0.6
-- slug: scaling-inefficiencies
-  similarity: 0.55
-- slug: inadequate-mentoring-structure
-  similarity: 0.55
 solutions:
 - clear-ownership-model
 - clear-roles-and-ownership

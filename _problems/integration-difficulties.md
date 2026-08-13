@@ -8,17 +8,17 @@ category:
 - Testing
 related_problems:
 - slug: poor-interfaces-between-applications
-  similarity: 0.6
-- slug: legacy-api-versioning-nightmare
-  similarity: 0.6
-- slug: inadequate-integration-tests
-  similarity: 0.6
+  similarity: 0.7
 - slug: architectural-mismatch
-  similarity: 0.55
-- slug: cross-system-data-synchronization-problems
-  similarity: 0.55
+  similarity: 0.7
 - slug: system-integration-blindness
-  similarity: 0.55
+  similarity: 0.65
+- slug: strangler-fig-pattern-failures
+  similarity: 0.65
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.65
+- slug: technology-isolation
+  similarity: 0.65
 solutions:
 - anti-corruption-layer
 - adapter

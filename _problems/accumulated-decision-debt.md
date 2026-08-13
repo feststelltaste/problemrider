@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: decision-avoidance
-  similarity: 0.75
+  similarity: 0.8
 - slug: delayed-decision-making
+  similarity: 0.75
+- slug: decision-paralysis
   similarity: 0.7
 - slug: high-technical-debt
-  similarity: 0.65
-- slug: decision-paralysis
-  similarity: 0.6
+  similarity: 0.7
+- slug: delayed-issue-resolution
+  similarity: 0.7
 - slug: accumulation-of-workarounds
-  similarity: 0.6
-- slug: test-debt
-  similarity: 0.6
+  similarity: 0.65
 solutions:
 - architecture-decision-records
 - decision-rights-and-escalation

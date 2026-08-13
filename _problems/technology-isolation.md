@@ -10,13 +10,13 @@ related_problems:
   similarity: 0.75
 - slug: obsolete-technologies
   similarity: 0.7
-- slug: technology-lock-in
-  similarity: 0.65
 - slug: legacy-skill-shortage
   similarity: 0.65
-- slug: vendor-lock-in
+- slug: integration-difficulties
   similarity: 0.65
-- slug: reduced-innovation
+- slug: vendor-dependency-entrapment
+  similarity: 0.65
+- slug: vendor-lock-in
   similarity: 0.6
 solutions:
 - knowledge-sharing-practices

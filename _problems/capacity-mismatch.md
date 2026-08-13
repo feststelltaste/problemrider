@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: bottleneck-formation
-  similarity: 0.6
-- slug: organizational-structure-mismatch
-  similarity: 0.6
-- slug: staff-availability-issues
-  similarity: 0.6
+  similarity: 0.65
+- slug: uneven-work-flow
+  similarity: 0.65
 - slug: work-queue-buildup
-  similarity: 0.6
-- slug: maintenance-bottlenecks
-  similarity: 0.6
+  similarity: 0.65
 - slug: resource-waste
-  similarity: 0.6
+  similarity: 0.65
+- slug: uneven-workload-distribution
+  similarity: 0.65
+- slug: staff-availability-issues
+  similarity: 0.65
 solutions:
 - capacity-planning
 - elastic-scaling

@@ -7,17 +7,17 @@ category:
 - Architecture
 - Code
 related_problems:
-- slug: misunderstanding-of-oop
-  similarity: 0.6
 - slug: high-coupling-low-cohesion
+  similarity: 0.7
+- slug: over-reliance-on-utility-classes
+  similarity: 0.65
+- slug: misunderstanding-of-oop
   similarity: 0.6
 - slug: tight-coupling-issues
   similarity: 0.6
-- slug: over-reliance-on-utility-classes
-  similarity: 0.55
+- slug: poorly-defined-responsibilities
+  similarity: 0.6
 - slug: incomplete-knowledge
-  similarity: 0.55
-- slug: complex-and-obscure-logic
   similarity: 0.55
 solutions:
 - incremental-refactoring

@@ -6,17 +6,17 @@ category:
 - Process
 - Team
 related_problems:
-- slug: incomplete-knowledge
-  similarity: 0.6
 - slug: nitpicking-culture
-  similarity: 0.6
-- slug: team-coordination-issues
-  similarity: 0.55
-- slug: time-pressure
+  similarity: 0.65
+- slug: gold-plating
   similarity: 0.55
 - slug: unproductive-meetings
   similarity: 0.55
-- slug: development-disruption
+- slug: feature-creep
+  similarity: 0.55
+- slug: style-arguments-in-code-reviews
+  similarity: 0.55
+- slug: fear-of-conflict
   similarity: 0.55
 solutions:
 - psychological-safety-practices

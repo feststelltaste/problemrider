@@ -6,17 +6,17 @@ description: The project's end date is repeatedly pushed back to accommodate new
 category:
 - Process
 related_problems:
-- slug: missed-deadlines
-  similarity: 0.75
+- slug: frequent-changes-to-requirements
+  similarity: 0.8
 - slug: delayed-project-timelines
   similarity: 0.75
-- slug: frequent-changes-to-requirements
+- slug: missed-deadlines
   similarity: 0.75
 - slug: unrealistic-deadlines
   similarity: 0.7
 - slug: changing-project-scope
-  similarity: 0.65
-- slug: eager-to-please-stakeholders
+  similarity: 0.7
+- slug: slow-development-velocity
   similarity: 0.65
 solutions:
 - formal-change-control-process

@@ -10,14 +10,14 @@ related_problems:
   similarity: 0.85
 - slug: high-connection-count
   similarity: 0.8
+- slug: high-database-resource-utilization
+  similarity: 0.7
 - slug: database-connection-leaks
   similarity: 0.65
 - slug: high-number-of-database-queries
-  similarity: 0.6
-- slug: high-database-resource-utilization
-  similarity: 0.6
-- slug: database-query-performance-issues
-  similarity: 0.6
+  similarity: 0.65
+- slug: slow-database-queries
+  similarity: 0.65
 solutions:
 - query-optimization-process
 - connection-pooling

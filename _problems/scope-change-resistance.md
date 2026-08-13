@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: changing-project-scope
   similarity: 0.75
+- slug: resistance-to-change
+  similarity: 0.7
 - slug: no-formal-change-control-process
-  similarity: 0.65
-- slug: scope-creep
-  similarity: 0.65
-- slug: eager-to-please-stakeholders
+  similarity: 0.7
+- slug: fear-of-change
+  similarity: 0.6
+- slug: frequent-changes-to-requirements
   similarity: 0.6
 - slug: project-resource-constraints
-  similarity: 0.55
-- slug: resistance-to-change
   similarity: 0.55
 solutions:
 - change-management-process

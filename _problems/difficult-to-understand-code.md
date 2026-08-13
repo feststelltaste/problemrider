@@ -9,14 +9,14 @@ related_problems:
   similarity: 0.85
 - slug: complex-and-obscure-logic
   similarity: 0.75
+- slug: difficult-to-test-code
+  similarity: 0.75
+- slug: increased-cognitive-load
+  similarity: 0.7
+- slug: debugging-difficulties
+  similarity: 0.7
 - slug: difficult-code-reuse
   similarity: 0.7
-- slug: difficult-to-test-code
-  similarity: 0.7
-- slug: increased-cognitive-load
-  similarity: 0.65
-- slug: clever-code
-  similarity: 0.65
 solutions:
 - clean-code
 - design-by-contract

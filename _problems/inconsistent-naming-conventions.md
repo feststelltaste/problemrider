@@ -7,17 +7,17 @@ category:
 - Communication
 related_problems:
 - slug: poor-naming-conventions
-  similarity: 0.75
+  similarity: 0.8
 - slug: inconsistent-coding-standards
-  similarity: 0.75
+  similarity: 0.8
 - slug: inconsistent-codebase
+  similarity: 0.8
+- slug: undefined-code-style-guidelines
   similarity: 0.7
 - slug: mixed-coding-styles
+  similarity: 0.7
+- slug: code-duplication
   similarity: 0.65
-- slug: undefined-code-style-guidelines
-  similarity: 0.6
-- slug: conflicting-reviewer-opinions
-  similarity: 0.6
 solutions:
 - static-analysis-and-linting
 - ubiquitous-language

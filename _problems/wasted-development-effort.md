@@ -6,18 +6,18 @@ category:
 - Performance
 - Process
 related_problems:
+- slug: implementation-rework
+  similarity: 0.7
 - slug: inefficient-processes
   similarity: 0.7
-- slug: incomplete-projects
-  similarity: 0.65
-- slug: resource-waste
-  similarity: 0.6
-- slug: implementation-rework
-  similarity: 0.6
-- slug: uneven-work-flow
-  similarity: 0.6
 - slug: process-design-flaws
-  similarity: 0.6
+  similarity: 0.65
+- slug: work-blocking
+  similarity: 0.65
+- slug: duplicated-work
+  similarity: 0.65
+- slug: increased-cost-of-development
+  similarity: 0.65
 solutions:
 - development-environment-optimization
 - development-workflow-automation

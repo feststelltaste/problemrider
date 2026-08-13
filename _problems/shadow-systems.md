@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: hidden-dependencies
   similarity: 0.6
-- slug: poor-documentation
-  similarity: 0.55
 - slug: implicit-knowledge
+  similarity: 0.6
+- slug: implementation-partner-dependency
   similarity: 0.55
-- slug: technology-stack-fragmentation
-  similarity: 0.55
-- slug: obsolete-technologies
+- slug: information-fragmentation
   similarity: 0.55
 - slug: vendor-dependency-entrapment
+  similarity: 0.55
+- slug: technology-stack-fragmentation
   similarity: 0.55
 solutions:
 - user-centered-design

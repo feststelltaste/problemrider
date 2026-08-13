@@ -7,17 +7,17 @@ category:
 - Database
 related_problems:
 - slug: database-schema-design-problems
-  similarity: 0.7
-- slug: modernization-strategy-paralysis
-  similarity: 0.6
-- slug: data-migration-integrity-issues
-  similarity: 0.6
-- slug: maintenance-paralysis
-  similarity: 0.55
-- slug: legacy-api-versioning-nightmare
-  similarity: 0.55
+  similarity: 0.65
 - slug: stagnant-architecture
-  similarity: 0.55
+  similarity: 0.65
+- slug: maintenance-paralysis
+  similarity: 0.6
+- slug: entity-attribute-value-overuse
+  similarity: 0.6
+- slug: system-stagnation
+  similarity: 0.6
+- slug: custom-report-sprawl
+  similarity: 0.6
 solutions:
 - evolutionary-database-design
 - backward-compatible-schema-migrations

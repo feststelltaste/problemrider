@@ -10,13 +10,13 @@ related_problems:
   similarity: 0.9
 - slug: vendor-dependency-entrapment
   similarity: 0.75
-- slug: vendor-relationship-strain
-  similarity: 0.65
+- slug: implementation-partner-dependency
+  similarity: 0.7
 - slug: vendor-lock-in
   similarity: 0.65
-- slug: knowledge-dependency
-  similarity: 0.55
-- slug: shared-dependencies
+- slug: vendor-relationship-strain
+  similarity: 0.65
+- slug: single-points-of-failure
   similarity: 0.55
 solutions:
 - anti-corruption-layer

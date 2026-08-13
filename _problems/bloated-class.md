@@ -6,17 +6,17 @@ category:
 - Code
 related_problems:
 - slug: excessive-class-size
-  similarity: 0.75
+  similarity: 0.8
 - slug: monolithic-functions-and-classes
-  similarity: 0.6
-- slug: uncontrolled-codebase-growth
-  similarity: 0.55
-- slug: over-reliance-on-utility-classes
-  similarity: 0.55
+  similarity: 0.65
 - slug: god-object-anti-pattern
+  similarity: 0.65
+- slug: uncontrolled-codebase-growth
+  similarity: 0.6
+- slug: feature-bloat
+  similarity: 0.6
+- slug: poorly-defined-responsibilities
   similarity: 0.55
-- slug: feature-creep
-  similarity: 0.5
 solutions:
 - incremental-refactoring
 - code-metrics

@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: inefficient-development-environment
+  similarity: 0.8
+- slug: reduced-individual-productivity
   similarity: 0.7
 - slug: inefficient-processes
   similarity: 0.65
-- slug: reduced-individual-productivity
+- slug: inadequate-test-infrastructure
   similarity: 0.65
-- slug: bottleneck-formation
-  similarity: 0.6
-- slug: context-switching-overhead
-  similarity: 0.6
-- slug: technical-architecture-limitations
-  similarity: 0.6
+- slug: work-blocking
+  similarity: 0.65
+- slug: increased-manual-work
+  similarity: 0.65
 solutions:
 - development-environment-optimization
 - development-workflow-automation

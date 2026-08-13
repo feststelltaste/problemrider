@@ -7,14 +7,14 @@ category:
 - Process
 related_problems:
 - slug: development-disruption
-  similarity: 0.75
-- slug: time-pressure
-  similarity: 0.65
-- slug: uneven-work-flow
-  similarity: 0.65
+  similarity: 0.7
 - slug: constantly-shifting-deadlines
   similarity: 0.65
-- slug: operational-overhead
+- slug: slow-feature-development
+  similarity: 0.65
+- slug: developer-frustration-and-burnout
+  similarity: 0.65
+- slug: time-pressure
   similarity: 0.65
 - slug: frequent-changes-to-requirements
   similarity: 0.65

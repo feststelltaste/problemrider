@@ -8,16 +8,16 @@ category:
 related_problems:
 - slug: sql-injection-vulnerabilities
   similarity: 0.65
-- slug: cross-site-scripting-vulnerabilities
-  similarity: 0.6
-- slug: insufficient-audit-logging
-  similarity: 0.6
 - slug: logging-configuration-issues
   similarity: 0.6
+- slug: cross-site-scripting-vulnerabilities
+  similarity: 0.55
+- slug: insufficient-audit-logging
+  similarity: 0.55
+- slug: error-message-information-disclosure
+  similarity: 0.55
 - slug: log-spam
   similarity: 0.55
-- slug: authentication-bypass-vulnerabilities
-  similarity: 0.5
 solutions:
 - observability-and-monitoring
 - security-hardening-process

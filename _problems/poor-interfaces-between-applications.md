@@ -7,17 +7,17 @@ category:
 - Code
 - Testing
 related_problems:
+- slug: integration-difficulties
+  similarity: 0.7
 - slug: inadequate-integration-tests
   similarity: 0.65
-- slug: api-versioning-conflicts
-  similarity: 0.65
 - slug: system-integration-blindness
-  similarity: 0.65
-- slug: integration-difficulties
   similarity: 0.6
-- slug: legacy-api-versioning-nightmare
+- slug: technology-stack-fragmentation
   similarity: 0.6
-- slug: poor-documentation
+- slug: rest-api-design-issues
+  similarity: 0.6
+- slug: tight-coupling-issues
   similarity: 0.6
 solutions:
 - anti-corruption-layer

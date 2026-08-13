@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: inadequate-code-reviews
-  similarity: 0.8
+  similarity: 0.85
 - slug: insufficient-code-review
-  similarity: 0.75
+  similarity: 0.8
 - slug: inadequate-initial-reviews
   similarity: 0.75
-- slug: nitpicking-culture
-  similarity: 0.7
 - slug: review-process-breakdown
-  similarity: 0.65
+  similarity: 0.75
 - slug: code-review-inefficiency
-  similarity: 0.65
+  similarity: 0.7
+- slug: reviewer-inexperience
+  similarity: 0.7
 solutions:
 - code-review-process-reform
 - code-reviews

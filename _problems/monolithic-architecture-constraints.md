@@ -9,16 +9,16 @@ category:
 related_problems:
 - slug: monolithic-functions-and-classes
   similarity: 0.7
-- slug: brittle-codebase
-  similarity: 0.6
-- slug: maintenance-bottlenecks
-  similarity: 0.6
-- slug: uncontrolled-codebase-growth
-  similarity: 0.6
 - slug: technical-architecture-limitations
-  similarity: 0.6
+  similarity: 0.65
 - slug: scaling-inefficiencies
   similarity: 0.6
+- slug: deployment-coupling
+  similarity: 0.6
+- slug: god-object-anti-pattern
+  similarity: 0.55
+- slug: complex-implementation-paths
+  similarity: 0.55
 solutions:
 - event-driven-architecture
 - modularization-and-bounded-contexts

@@ -11,14 +11,14 @@ related_problems:
   similarity: 0.75
 - slug: stagnant-architecture
   similarity: 0.7
-- slug: technical-architecture-limitations
+- slug: complex-implementation-paths
   similarity: 0.7
-- slug: second-system-effect
-  similarity: 0.6
-- slug: capacity-mismatch
-  similarity: 0.6
 - slug: integration-difficulties
-  similarity: 0.55
+  similarity: 0.7
+- slug: technical-architecture-limitations
+  similarity: 0.65
+- slug: rapid-system-changes
+  similarity: 0.65
 solutions:
 - anti-corruption-layer
 - strangler-fig-pattern

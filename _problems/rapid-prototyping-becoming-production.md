@@ -7,17 +7,17 @@ category:
 - Code
 - Process
 related_problems:
-- slug: brittle-codebase
-  similarity: 0.55
+- slug: legacy-code-without-tests
+  similarity: 0.6
 - slug: increased-technical-shortcuts
+  similarity: 0.6
+- slug: copy-paste-programming
+  similarity: 0.6
+- slug: lower-code-quality
   similarity: 0.55
-- slug: process-design-flaws
+- slug: inadequate-code-reviews
   similarity: 0.55
-- slug: convenience-driven-development
-  similarity: 0.55
-- slug: rapid-system-changes
-  similarity: 0.55
-- slug: test-debt
+- slug: accumulation-of-workarounds
   similarity: 0.55
 solutions:
 - architecture-reviews

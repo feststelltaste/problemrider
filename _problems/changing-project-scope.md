@@ -6,17 +6,17 @@ category:
 - Management
 - Process
 related_problems:
-- slug: scope-creep
-  similarity: 0.8
-- slug: frequent-changes-to-requirements
-  similarity: 0.75
 - slug: scope-change-resistance
+  similarity: 0.75
+- slug: frequent-changes-to-requirements
   similarity: 0.75
 - slug: no-formal-change-control-process
   similarity: 0.7
 - slug: constantly-shifting-deadlines
-  similarity: 0.65
-- slug: reduced-team-flexibility
+  similarity: 0.7
+- slug: scope-creep
+  similarity: 0.7
+- slug: unclear-goals-and-priorities
   similarity: 0.65
 solutions:
 - evolutionary-requirements-development

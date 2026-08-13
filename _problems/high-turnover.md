@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: difficult-developer-onboarding
+  similarity: 0.75
+- slug: team-churn-impact
   similarity: 0.7
 - slug: new-hire-frustration
+  similarity: 0.7
+- slug: developer-frustration-and-burnout
   similarity: 0.65
-- slug: team-churn-impact
+- slug: increased-cognitive-load
   similarity: 0.65
-- slug: mentor-burnout
-  similarity: 0.6
-- slug: high-bug-introduction-rate
-  similarity: 0.6
-- slug: inconsistent-onboarding-experience
-  similarity: 0.6
+- slug: overworked-teams
+  similarity: 0.65
 solutions:
 - structured-onboarding-program
 - knowledge-rotation

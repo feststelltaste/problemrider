@@ -7,17 +7,17 @@ category:
 - Management
 - Security
 related_problems:
+- slug: poor-contract-design
+  similarity: 0.65
+- slug: vendor-relationship-strain
+  similarity: 0.6
+- slug: delayed-project-timelines
+  similarity: 0.55
+- slug: stakeholder-frustration
+  similarity: 0.55
 - slug: stakeholder-dissatisfaction
   similarity: 0.55
-- slug: budget-overruns
-  similarity: 0.55
-- slug: vendor-relationship-strain
-  similarity: 0.55
-- slug: poor-contract-design
-  similarity: 0.5
-- slug: power-struggles
-  similarity: 0.5
-- slug: stakeholder-frustration
+- slug: stakeholder-confidence-loss
   similarity: 0.5
 solutions:
 - contract-testing

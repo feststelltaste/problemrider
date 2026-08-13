@@ -8,17 +8,17 @@ category:
 - Testing
 related_problems:
 - slug: data-migration-integrity-issues
-  similarity: 0.75
-- slug: data-migration-complexities
-  similarity: 0.65
+  similarity: 0.7
 - slug: synchronization-problems
+  similarity: 0.7
+- slug: data-migration-complexities
+  similarity: 0.7
+- slug: integration-difficulties
+  similarity: 0.65
+- slug: legacy-api-versioning-nightmare
   similarity: 0.6
-- slug: legacy-configuration-management-chaos
+- slug: legacy-business-logic-extraction-difficulty
   similarity: 0.6
-- slug: modernization-strategy-paralysis
-  similarity: 0.55
-- slug: poor-interfaces-between-applications
-  similarity: 0.55
 solutions:
 - anti-corruption-layer
 - evolutionary-database-design

@@ -6,17 +6,17 @@ category:
 - Business
 - Process
 related_problems:
-- slug: delayed-issue-resolution
-  similarity: 0.65
 - slug: slow-feature-development
-  similarity: 0.65
+  similarity: 0.75
 - slug: increased-time-to-market
   similarity: 0.65
-- slug: delayed-bug-fixes
+- slug: incomplete-projects
   similarity: 0.65
-- slug: misaligned-deliverables
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.65
+- slug: delayed-bug-fixes
   similarity: 0.6
-- slug: constantly-shifting-deadlines
+- slug: large-feature-scope
   similarity: 0.6
 solutions:
 - architecture-roadmap

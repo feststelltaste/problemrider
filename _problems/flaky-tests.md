@@ -9,14 +9,14 @@ related_problems:
 - slug: testing-environment-fragility
   similarity: 0.7
 - slug: outdated-tests
+  similarity: 0.65
+- slug: configuration-chaos
   similarity: 0.6
-- slug: testing-complexity
-  similarity: 0.55
 - slug: difficult-to-test-code
   similarity: 0.55
-- slug: quality-blind-spots
+- slug: inadequate-test-infrastructure
   similarity: 0.55
-- slug: inadequate-integration-tests
+- slug: test-debt
   similarity: 0.55
 solutions:
 - test-coverage-strategy

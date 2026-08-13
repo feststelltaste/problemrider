@@ -7,18 +7,18 @@ category:
 - Process
 - Requirements
 related_problems:
-- slug: convenience-driven-development
-  similarity: 0.55
-- slug: inexperienced-developers
-  similarity: 0.5
 - slug: decision-avoidance
-  similarity: 0.5
+  similarity: 0.6
+- slug: feature-gaps
+  similarity: 0.6
 - slug: feedback-isolation
-  similarity: 0.5
-- slug: decision-paralysis
-  similarity: 0.5
-- slug: inadequate-requirements-gathering
-  similarity: 0.5
+  similarity: 0.6
+- slug: wasted-development-effort
+  similarity: 0.6
+- slug: requirements-ambiguity
+  similarity: 0.55
+- slug: work-blocking
+  similarity: 0.55
 solutions:
 - boring-technologies
 - design-by-contract

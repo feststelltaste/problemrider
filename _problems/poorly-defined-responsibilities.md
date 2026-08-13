@@ -10,12 +10,12 @@ related_problems:
   similarity: 0.7
 - slug: god-object-anti-pattern
   similarity: 0.65
-- slug: lack-of-ownership-and-accountability
-  similarity: 0.6
 - slug: high-coupling-low-cohesion
-  similarity: 0.6
-- slug: requirements-ambiguity
-  similarity: 0.6
+  similarity: 0.65
+- slug: lack-of-ownership-and-accountability
+  similarity: 0.65
+- slug: difficult-to-understand-code
+  similarity: 0.65
 - slug: tight-coupling-issues
   similarity: 0.6
 solutions:

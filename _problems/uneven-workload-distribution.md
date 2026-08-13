@@ -9,16 +9,16 @@ category:
 related_problems:
 - slug: uneven-work-flow
   similarity: 0.7
+- slug: duplicated-work
+  similarity: 0.65
 - slug: overworked-teams
   similarity: 0.65
-- slug: inappropriate-skillset
-  similarity: 0.6
-- slug: load-balancing-problems
-  similarity: 0.6
 - slug: inconsistent-knowledge-acquisition
-  similarity: 0.6
+  similarity: 0.65
+- slug: duplicated-effort
+  similarity: 0.65
 - slug: capacity-mismatch
-  similarity: 0.55
+  similarity: 0.65
 solutions:
 - cross-functional-skill-development
 - sustainable-pace-practices

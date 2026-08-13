@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: work-blocking
-  similarity: 0.75
+  similarity: 0.85
 - slug: delayed-decision-making
   similarity: 0.7
-- slug: rushed-approvals
-  similarity: 0.6
-- slug: decision-avoidance
-  similarity: 0.6
-- slug: decision-paralysis
-  similarity: 0.6
+- slug: knowledge-dependency
+  similarity: 0.7
 - slug: cascade-delays
-  similarity: 0.6
+  similarity: 0.7
+- slug: rushed-approvals
+  similarity: 0.7
+- slug: decision-avoidance
+  similarity: 0.65
 solutions:
 - clear-ownership-model
 - formal-change-control-process

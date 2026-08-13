@@ -7,18 +7,18 @@ category:
 - Code
 - Performance
 related_problems:
+- slug: database-query-performance-issues
+  similarity: 0.7
 - slug: inefficient-code
   similarity: 0.7
-- slug: graphql-complexity-issues
-  similarity: 0.6
-- slug: complex-and-obscure-logic
-  similarity: 0.6
-- slug: database-query-performance-issues
-  similarity: 0.6
-- slug: inefficient-frontend-code
-  similarity: 0.6
-- slug: slow-application-performance
-  similarity: 0.6
+- slug: n-plus-one-query-problem
+  similarity: 0.65
+- slug: excessive-object-allocation
+  similarity: 0.65
+- slug: imperative-data-fetching-logic
+  similarity: 0.65
+- slug: gradual-performance-degradation
+  similarity: 0.65
 solutions:
 - efficient-algorithms
 - profiling

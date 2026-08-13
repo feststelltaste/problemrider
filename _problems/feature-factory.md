@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: feature-bloat
-  similarity: 0.65
-- slug: feature-gaps
+  similarity: 0.6
+- slug: increased-technical-shortcuts
+  similarity: 0.6
+- slug: reduced-feature-quality
   similarity: 0.55
 - slug: short-term-focus
   similarity: 0.55
-- slug: reduced-feature-quality
+- slug: cargo-culting
   similarity: 0.55
-- slug: large-feature-scope
-  similarity: 0.5
-- slug: difficulty-quantifying-benefits
-  similarity: 0.5
+- slug: slow-feature-development
+  similarity: 0.55
 solutions:
 - continuous-feedback
 - impact-mapping

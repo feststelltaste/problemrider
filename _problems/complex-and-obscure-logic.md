@@ -5,17 +5,17 @@ description: The code is hard to understand due to convoluted logic, lack of com
 category:
 - Code
 related_problems:
-- slug: difficult-code-comprehension
-  similarity: 0.75
-- slug: spaghetti-code
-  similarity: 0.75
 - slug: difficult-to-understand-code
   similarity: 0.75
 - slug: clever-code
   similarity: 0.7
-- slug: inconsistent-codebase
+- slug: difficult-code-comprehension
+  similarity: 0.7
+- slug: increased-cognitive-load
+  similarity: 0.7
+- slug: spaghetti-code
   similarity: 0.65
-- slug: legacy-business-logic-extraction-difficulty
+- slug: debugging-difficulties
   similarity: 0.65
 solutions:
 - incremental-refactoring

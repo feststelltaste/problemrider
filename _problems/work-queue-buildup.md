@@ -6,18 +6,18 @@ category:
 - Performance
 - Process
 related_problems:
+- slug: bottleneck-formation
+  similarity: 0.8
+- slug: task-queues-backing-up
+  similarity: 0.75
 - slug: growing-task-queues
   similarity: 0.7
-- slug: bottleneck-formation
-  similarity: 0.7
-- slug: task-queues-backing-up
-  similarity: 0.7
 - slug: work-blocking
-  similarity: 0.65
+  similarity: 0.7
 - slug: insufficient-worker-capacity
-  similarity: 0.65
-- slug: uneven-work-flow
-  similarity: 0.6
+  similarity: 0.7
+- slug: extended-cycle-times
+  similarity: 0.7
 solutions:
 - backpressure
 - capacity-planning

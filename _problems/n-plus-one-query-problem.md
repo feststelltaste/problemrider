@@ -8,17 +8,17 @@ category:
 - Performance
 related_problems:
 - slug: high-number-of-database-queries
+  similarity: 0.8
+- slug: imperative-data-fetching-logic
+  similarity: 0.8
+- slug: slow-database-queries
   similarity: 0.75
 - slug: lazy-loading
-  similarity: 0.7
-- slug: imperative-data-fetching-logic
+  similarity: 0.75
+- slug: slow-response-times-for-lists
   similarity: 0.7
 - slug: database-query-performance-issues
-  similarity: 0.65
-- slug: slow-database-queries
-  similarity: 0.65
-- slug: inefficient-database-indexing
-  similarity: 0.55
+  similarity: 0.7
 solutions:
 - efficient-algorithms
 - api-calls-optimization

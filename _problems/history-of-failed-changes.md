@@ -6,18 +6,18 @@ category:
 - Culture
 - Process
 related_problems:
+- slug: resistance-to-change
+  similarity: 0.75
+- slug: fear-of-change
+  similarity: 0.75
+- slug: fear-of-failure
+  similarity: 0.7
+- slug: maintenance-paralysis
+  similarity: 0.7
 - slug: fear-of-breaking-changes
   similarity: 0.65
 - slug: past-negative-experiences
   similarity: 0.65
-- slug: fear-of-change
-  similarity: 0.65
-- slug: resistance-to-change
-  similarity: 0.65
-- slug: fear-of-failure
-  similarity: 0.6
-- slug: perfectionist-culture
-  similarity: 0.6
 solutions:
 - architecture-decision-records
 - blameless-postmortems

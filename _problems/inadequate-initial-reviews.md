@@ -6,18 +6,18 @@ category:
 - Code
 - Process
 related_problems:
+- slug: inadequate-code-reviews
+  similarity: 0.8
+- slug: insufficient-code-review
+  similarity: 0.8
+- slug: reviewer-inexperience
+  similarity: 0.75
 - slug: superficial-code-reviews
   similarity: 0.75
-- slug: insufficient-code-review
-  similarity: 0.7
-- slug: inadequate-code-reviews
-  similarity: 0.7
 - slug: code-review-inefficiency
-  similarity: 0.7
+  similarity: 0.75
 - slug: review-process-breakdown
-  similarity: 0.65
-- slug: reviewer-inexperience
-  similarity: 0.65
+  similarity: 0.75
 solutions:
 - code-review-process-reform
 - code-review-guidelines

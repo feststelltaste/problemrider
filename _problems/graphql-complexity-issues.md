@@ -7,18 +7,18 @@ category:
 - Performance
 - Security
 related_problems:
-- slug: algorithmic-complexity-problems
-  similarity: 0.6
 - slug: database-query-performance-issues
-  similarity: 0.6
-- slug: testing-complexity
-  similarity: 0.55
-- slug: complex-and-obscure-logic
-  similarity: 0.55
+  similarity: 0.65
+- slug: algorithmic-complexity-problems
+  similarity: 0.65
 - slug: high-number-of-database-queries
-  similarity: 0.55
+  similarity: 0.6
 - slug: n-plus-one-query-problem
-  similarity: 0.5
+  similarity: 0.55
+- slug: database-schema-design-problems
+  similarity: 0.55
+- slug: complex-implementation-paths
+  similarity: 0.55
 solutions:
 - api-first-design
 - contract-testing

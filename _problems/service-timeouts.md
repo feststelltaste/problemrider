@@ -7,17 +7,17 @@ category:
 - Performance
 related_problems:
 - slug: upstream-timeouts
-  similarity: 0.85
-- slug: high-connection-count
-  similarity: 0.6
+  similarity: 0.9
 - slug: external-service-delays
-  similarity: 0.6
+  similarity: 0.8
 - slug: high-api-latency
-  similarity: 0.6
+  similarity: 0.8
 - slug: network-latency
-  similarity: 0.6
-- slug: increased-error-rates
-  similarity: 0.55
+  similarity: 0.7
+- slug: system-outages
+  similarity: 0.65
+- slug: service-discovery-failures
+  similarity: 0.65
 solutions:
 - blue-green-canary-deployments
 - event-driven-architecture

@@ -11,6 +11,8 @@ related_problems:
   similarity: 0.65
 - slug: stack-overflow-errors
   similarity: 0.55
+- slug: null-pointer-dereferences
+  similarity: 0.5
 solutions:
 - fuzz-testing
 - input-validation

@@ -6,17 +6,17 @@ category:
 - Database
 - Performance
 related_problems:
-- slug: slow-database-queries
-  similarity: 0.75
-- slug: database-query-performance-issues
-  similarity: 0.75
 - slug: n-plus-one-query-problem
+  similarity: 0.8
+- slug: slow-database-queries
+  similarity: 0.8
+- slug: database-query-performance-issues
+  similarity: 0.8
+- slug: high-connection-count
   similarity: 0.75
-- slug: lazy-loading
-  similarity: 0.7
-- slug: high-database-resource-utilization
-  similarity: 0.7
 - slug: imperative-data-fetching-logic
+  similarity: 0.75
+- slug: high-database-resource-utilization
   similarity: 0.7
 solutions:
 - query-optimization-process

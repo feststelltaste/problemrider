@@ -7,18 +7,18 @@ category:
 - Process
 - Team
 related_problems:
+- slug: work-queue-buildup
+  similarity: 0.8
 - slug: maintenance-bottlenecks
   similarity: 0.75
-- slug: work-queue-buildup
-  similarity: 0.7
 - slug: work-blocking
-  similarity: 0.65
+  similarity: 0.75
+- slug: review-bottlenecks
+  similarity: 0.7
 - slug: capacity-mismatch
-  similarity: 0.6
-- slug: single-points-of-failure
-  similarity: 0.6
-- slug: tool-limitations
-  similarity: 0.6
+  similarity: 0.65
+- slug: process-design-flaws
+  similarity: 0.65
 solutions:
 - event-driven-architecture
 - parallelization

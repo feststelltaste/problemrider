@@ -6,9 +6,17 @@ category:
 - Code
 - Performance
 related_problems:
+- slug: buffer-overflow-vulnerabilities
+  similarity: 0.65
 - slug: memory-leaks
+  similarity: 0.6
+- slug: excessive-object-allocation
+  similarity: 0.6
+- slug: null-pointer-dereferences
+  similarity: 0.6
+- slug: integer-overflow-underflow
   similarity: 0.55
-- slug: resource-allocation-failures
+- slug: memory-fragmentation
   similarity: 0.55
 solutions:
 - memory-management-optimization

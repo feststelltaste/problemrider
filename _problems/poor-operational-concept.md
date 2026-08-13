@@ -6,15 +6,15 @@ category:
 - Operations
 - Process
 related_problems:
+- slug: monitoring-gaps
+  similarity: 0.6
 - slug: poor-system-environment
   similarity: 0.6
-- slug: operational-overhead
+- slug: lack-of-ownership-and-accountability
+  similarity: 0.6
+- slug: configuration-chaos
   similarity: 0.6
 - slug: immature-delivery-strategy
-  similarity: 0.6
-- slug: poor-planning
-  similarity: 0.6
-- slug: monitoring-gaps
   similarity: 0.6
 - slug: poor-documentation
   similarity: 0.55

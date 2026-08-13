@@ -6,18 +6,18 @@ category:
 - Code
 - Process
 related_problems:
+- slug: high-technical-debt
+  similarity: 0.7
+- slug: difficult-developer-onboarding
+  similarity: 0.7
 - slug: fear-of-change
-  similarity: 0.6
-- slug: brittle-codebase
-  similarity: 0.55
-- slug: history-of-failed-changes
-  similarity: 0.55
-- slug: slow-feature-development
-  similarity: 0.55
-- slug: increased-cost-of-development
-  similarity: 0.55
+  similarity: 0.7
 - slug: frequent-changes-to-requirements
-  similarity: 0.55
+  similarity: 0.7
+- slug: high-bug-introduction-rate
+  similarity: 0.7
+- slug: slow-feature-development
+  similarity: 0.7
 solutions:
 - architecture-roadmap
 - regression-testing

@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: mentor-burnout
-  similarity: 0.6
+  similarity: 0.7
 - slug: inexperienced-developers
-  similarity: 0.6
-- slug: inconsistent-knowledge-acquisition
-  similarity: 0.55
-- slug: organizational-structure-mismatch
-  similarity: 0.55
+  similarity: 0.7
+- slug: difficult-developer-onboarding
+  similarity: 0.7
 - slug: inconsistent-onboarding-experience
-  similarity: 0.55
-- slug: insufficient-design-skills
-  similarity: 0.5
+  similarity: 0.65
+- slug: new-hire-frustration
+  similarity: 0.65
+- slug: inconsistent-knowledge-acquisition
+  similarity: 0.65
 solutions:
 - pair-and-mob-programming
 - security-training

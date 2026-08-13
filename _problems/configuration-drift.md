@@ -7,17 +7,17 @@ category:
 - Operations
 related_problems:
 - slug: configuration-chaos
-  similarity: 0.8
-- slug: inadequate-configuration-management
-  similarity: 0.7
+  similarity: 0.75
 - slug: regulatory-compliance-drift
-  similarity: 0.6
-- slug: change-management-chaos
-  similarity: 0.6
+  similarity: 0.65
+- slug: inadequate-configuration-management
+  similarity: 0.65
+- slug: deployment-environment-inconsistencies
+  similarity: 0.65
 - slug: legacy-configuration-management-chaos
-  similarity: 0.6
-- slug: rapid-system-changes
-  similarity: 0.6
+  similarity: 0.65
+- slug: change-management-chaos
+  similarity: 0.65
 solutions:
 - infrastructure-as-code
 - automated-migration-tools

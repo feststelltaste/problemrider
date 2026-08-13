@@ -8,16 +8,16 @@ category:
 - Process
 related_problems:
 - slug: high-turnover
-  similarity: 0.65
-- slug: reduced-team-productivity
-  similarity: 0.6
-- slug: team-silos
-  similarity: 0.6
-- slug: team-members-not-engaged-in-review-process
-  similarity: 0.6
-- slug: information-decay
-  similarity: 0.6
+  similarity: 0.7
 - slug: lower-code-quality
+  similarity: 0.65
+- slug: difficult-developer-onboarding
+  similarity: 0.6
+- slug: knowledge-gaps
+  similarity: 0.6
+- slug: knowledge-dependency
+  similarity: 0.6
+- slug: change-management-chaos
   similarity: 0.6
 solutions:
 - structured-onboarding-program

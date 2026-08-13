@@ -7,18 +7,18 @@ category:
 - Management
 - Performance
 related_problems:
-- slug: high-maintenance-costs
-  similarity: 0.8
 - slug: increased-cost-of-development
+  similarity: 0.8
+- slug: high-maintenance-costs
   similarity: 0.75
 - slug: maintenance-overhead
-  similarity: 0.7
-- slug: maintenance-bottlenecks
-  similarity: 0.6
+  similarity: 0.65
 - slug: increasing-brittleness
-  similarity: 0.55
+  similarity: 0.65
 - slug: quality-degradation
-  similarity: 0.55
+  similarity: 0.6
+- slug: high-technical-debt
+  similarity: 0.6
 solutions:
 - technical-debt-backlog
 - standard-software

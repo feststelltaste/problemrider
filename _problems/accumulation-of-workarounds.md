@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: workaround-culture
-  similarity: 0.75
-- slug: increased-technical-shortcuts
-  similarity: 0.65
+  similarity: 0.9
 - slug: high-technical-debt
+  similarity: 0.7
+- slug: increased-technical-shortcuts
+  similarity: 0.7
+- slug: complex-implementation-paths
+  similarity: 0.7
+- slug: delayed-issue-resolution
   similarity: 0.65
-- slug: maintenance-paralysis
-  similarity: 0.6
-- slug: accumulated-decision-debt
-  similarity: 0.6
-- slug: refactoring-avoidance
-  similarity: 0.6
+- slug: hidden-dependencies
+  similarity: 0.65
 solutions:
 - incremental-refactoring
 - technical-debt-backlog

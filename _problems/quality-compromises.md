@@ -6,17 +6,17 @@ category:
 - Code
 - Process
 related_problems:
+- slug: lower-code-quality
+  similarity: 0.7
 - slug: reduced-feature-quality
   similarity: 0.65
-- slug: lower-code-quality
+- slug: increased-technical-shortcuts
+  similarity: 0.65
+- slug: deadline-pressure
   similarity: 0.65
 - slug: quality-degradation
   similarity: 0.65
-- slug: inconsistent-quality
-  similarity: 0.6
-- slug: increased-technical-shortcuts
-  similarity: 0.6
-- slug: insufficient-testing
+- slug: test-debt
   similarity: 0.6
 solutions:
 - definition-of-done

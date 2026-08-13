@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: code-duplication
-  similarity: 0.7
+  similarity: 0.75
+- slug: inconsistent-codebase
+  similarity: 0.65
+- slug: increased-technical-shortcuts
+  similarity: 0.65
 - slug: difficult-code-reuse
   similarity: 0.65
-- slug: inconsistent-codebase
-  similarity: 0.6
-- slug: clever-code
-  similarity: 0.6
-- slug: insufficient-design-skills
-  similarity: 0.6
 - slug: defensive-coding-practices
-  similarity: 0.6
+  similarity: 0.65
+- slug: inconsistent-coding-standards
+  similarity: 0.65
 solutions:
 - incremental-refactoring
 - aspect-oriented-programming-aop

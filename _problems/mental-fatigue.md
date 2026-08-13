@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: developer-frustration-and-burnout
-  similarity: 0.65
-- slug: cognitive-overload
-  similarity: 0.6
-- slug: reduced-individual-productivity
-  similarity: 0.55
-- slug: mentor-burnout
-  similarity: 0.55
-- slug: increased-stress-and-burnout
-  similarity: 0.55
+  similarity: 0.75
 - slug: increased-cognitive-load
-  similarity: 0.55
+  similarity: 0.75
+- slug: cognitive-overload
+  similarity: 0.75
+- slug: context-switching-overhead
+  similarity: 0.7
+- slug: avoidance-behaviors
+  similarity: 0.65
+- slug: mentor-burnout
+  similarity: 0.65
 solutions:
 - sustainable-pace-practices
 - work-in-progress-limits

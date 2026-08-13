@@ -5,17 +5,17 @@ description: Internal conflicts between departments or managers interfere with d
 category:
 - Management
 related_problems:
+- slug: project-authority-vacuum
+  similarity: 0.6
 - slug: competing-priorities
+  similarity: 0.6
+- slug: team-confusion
   similarity: 0.6
 - slug: team-dysfunction
   similarity: 0.6
 - slug: product-direction-chaos
-  similarity: 0.6
-- slug: decision-paralysis
-  similarity: 0.6
-- slug: team-confusion
-  similarity: 0.6
-- slug: project-authority-vacuum
+  similarity: 0.55
+- slug: project-resource-constraints
   similarity: 0.55
 solutions:
 - clear-ownership-model

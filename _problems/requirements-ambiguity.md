@@ -10,15 +10,15 @@ related_problems:
 - slug: inadequate-requirements-gathering
   similarity: 0.65
 - slug: frequent-changes-to-requirements
+  similarity: 0.65
+- slug: unclear-goals-and-priorities
+  similarity: 0.6
+- slug: complex-implementation-paths
   similarity: 0.6
 - slug: team-confusion
   similarity: 0.6
 - slug: poorly-defined-responsibilities
   similarity: 0.6
-- slug: unclear-goals-and-priorities
-  similarity: 0.55
-- slug: unclear-sharing-expectations
-  similarity: 0.55
 solutions:
 - evolutionary-requirements-development
 - requirements-analysis

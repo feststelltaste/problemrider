@@ -8,17 +8,17 @@ category:
 - Performance
 related_problems:
 - slug: unbounded-data-growth
-  similarity: 0.8
-- slug: data-structure-cache-inefficiency
-  similarity: 0.6
+  similarity: 0.85
 - slug: uncontrolled-codebase-growth
   similarity: 0.6
+- slug: data-structure-cache-inefficiency
+  similarity: 0.6
+- slug: algorithmic-complexity-problems
+  similarity: 0.55
 - slug: unreleased-resources
   similarity: 0.55
-- slug: algorithmic-complexity-problems
-  similarity: 0.5
-- slug: alignment-and-padding-issues
-  similarity: 0.5
+- slug: gradual-performance-degradation
+  similarity: 0.55
 solutions:
 - efficient-algorithms
 - profiling

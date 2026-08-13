@@ -6,15 +6,15 @@ category:
 - Management
 - Team
 related_problems:
-- slug: maintenance-bottlenecks
-  similarity: 0.65
-- slug: obsolete-technologies
-  similarity: 0.65
+- slug: skill-development-gaps
+  similarity: 0.7
 - slug: technology-isolation
   similarity: 0.65
-- slug: skill-development-gaps
+- slug: vendor-dependency-entrapment
   similarity: 0.65
 - slug: legacy-system-documentation-archaeology
+  similarity: 0.65
+- slug: obsolete-technologies
   similarity: 0.65
 - slug: technology-stack-fragmentation
   similarity: 0.65

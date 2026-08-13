@@ -8,12 +8,16 @@ category:
 related_problems:
 - slug: authentication-bypass-vulnerabilities
   similarity: 0.75
-- slug: password-security-weaknesses
-  similarity: 0.55
-- slug: insufficient-audit-logging
+- slug: authorization-role-explosion
+  similarity: 0.6
+- slug: error-message-information-disclosure
   similarity: 0.55
 - slug: session-management-issues
-  similarity: 0.5
+  similarity: 0.55
+- slug: password-security-weaknesses
+  similarity: 0.55
+- slug: sql-injection-vulnerabilities
+  similarity: 0.55
 solutions:
 - security-hardening-process
 - abuse-case-definition

@@ -7,13 +7,13 @@ category:
 - Team
 related_problems:
 - slug: knowledge-sharing-breakdown
-  similarity: 0.7
+  similarity: 0.65
 - slug: team-confusion
-  similarity: 0.7
+  similarity: 0.65
+- slug: incomplete-knowledge
+  similarity: 0.6
 - slug: knowledge-silos
-  similarity: 0.65
-- slug: communication-risk-within-project
-  similarity: 0.65
+  similarity: 0.6
 - slug: unclear-goals-and-priorities
   similarity: 0.6
 - slug: communication-breakdown

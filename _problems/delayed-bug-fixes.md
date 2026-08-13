@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: delayed-issue-resolution
-  similarity: 0.8
-- slug: partial-bug-fixes
-  similarity: 0.7
-- slug: delayed-value-delivery
-  similarity: 0.65
+  similarity: 0.85
 - slug: debugging-difficulties
-  similarity: 0.65
-- slug: slow-incident-resolution
-  similarity: 0.6
+  similarity: 0.7
 - slug: long-release-cycles
-  similarity: 0.6
+  similarity: 0.7
+- slug: slow-incident-resolution
+  similarity: 0.65
+- slug: delayed-project-timelines
+  similarity: 0.65
+- slug: high-bug-introduction-rate
+  similarity: 0.65
 solutions:
 - regression-testing
 - error-reporting-and-analysis

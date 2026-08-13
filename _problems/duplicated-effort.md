@@ -8,16 +8,16 @@ category:
 - Team
 related_problems:
 - slug: duplicated-work
-  similarity: 0.9
+  similarity: 0.95
 - slug: duplicated-research-effort
-  similarity: 0.9
-- slug: code-duplication
-  similarity: 0.7
-- slug: team-coordination-issues
-  similarity: 0.65
+  similarity: 0.85
 - slug: team-confusion
-  similarity: 0.65
+  similarity: 0.7
 - slug: communication-breakdown
+  similarity: 0.7
+- slug: code-duplication
+  similarity: 0.65
+- slug: team-coordination-issues
   similarity: 0.65
 solutions:
 - knowledge-sharing-practices

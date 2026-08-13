@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: gradual-performance-degradation
   similarity: 0.75
-- slug: inconsistent-quality
-  similarity: 0.65
 - slug: lower-code-quality
-  similarity: 0.65
-- slug: quality-compromises
-  similarity: 0.65
+  similarity: 0.7
 - slug: increasing-brittleness
-  similarity: 0.65
+  similarity: 0.7
+- slug: inconsistent-quality
+  similarity: 0.7
 - slug: information-decay
+  similarity: 0.7
+- slug: increased-bug-count
   similarity: 0.65
 solutions:
 - definition-of-done

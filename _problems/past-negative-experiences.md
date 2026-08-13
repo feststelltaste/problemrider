@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: history-of-failed-changes
   similarity: 0.65
+- slug: fear-of-breaking-changes
+  similarity: 0.6
+- slug: fear-of-change
+  similarity: 0.6
+- slug: resistance-to-change
+  similarity: 0.55
 - slug: brittle-codebase
   similarity: 0.55
-- slug: fear-of-breaking-changes
-  similarity: 0.55
-- slug: inconsistent-onboarding-experience
-  similarity: 0.55
-- slug: outdated-tests
-  similarity: 0.55
-- slug: inexperienced-developers
+- slug: maintenance-paralysis
   similarity: 0.55
 solutions:
 - blameless-postmortems

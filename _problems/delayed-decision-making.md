@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: decision-avoidance
-  similarity: 0.8
+  similarity: 0.85
+- slug: accumulated-decision-debt
+  similarity: 0.75
 - slug: decision-paralysis
-  similarity: 0.7
+  similarity: 0.75
+- slug: work-blocking
+  similarity: 0.75
 - slug: approval-dependencies
   similarity: 0.7
-- slug: accumulated-decision-debt
+- slug: analysis-paralysis
   similarity: 0.7
-- slug: work-blocking
-  similarity: 0.65
-- slug: delayed-project-timelines
-  similarity: 0.65
 solutions:
 - architecture-decision-records
 - decision-rights-and-escalation

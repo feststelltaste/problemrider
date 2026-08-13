@@ -8,17 +8,17 @@ category:
 - Testing
 related_problems:
 - slug: large-risky-releases
-  similarity: 0.65
+  similarity: 0.75
+- slug: extended-review-cycles
+  similarity: 0.7
+- slug: increased-manual-testing-effort
+  similarity: 0.7
+- slug: delayed-bug-fixes
+  similarity: 0.7
+- slug: long-build-and-test-times
+  similarity: 0.7
 - slug: extended-cycle-times
   similarity: 0.65
-- slug: increased-manual-testing-effort
-  similarity: 0.6
-- slug: manual-deployment-processes
-  similarity: 0.6
-- slug: extended-review-cycles
-  similarity: 0.6
-- slug: delayed-bug-fixes
-  similarity: 0.6
 solutions:
 - ci-cd-pipeline
 - continuous-delivery

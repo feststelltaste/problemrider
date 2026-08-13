@@ -7,16 +7,16 @@ category:
 - Code
 related_problems:
 - slug: insufficient-testing
-  similarity: 0.75
+  similarity: 0.8
 - slug: high-bug-introduction-rate
+  similarity: 0.7
+- slug: inadequate-test-data-management
   similarity: 0.65
 - slug: increased-bug-count
   similarity: 0.65
-- slug: large-risky-releases
-  similarity: 0.6
-- slug: complex-deployment-process
-  similarity: 0.6
-- slug: frequent-hotfixes-and-rollbacks
+- slug: release-instability
+  similarity: 0.65
+- slug: high-technical-debt
   similarity: 0.6
 solutions:
 - definition-of-done

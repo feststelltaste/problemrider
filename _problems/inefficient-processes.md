@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: process-design-flaws
-  similarity: 0.7
+  similarity: 0.75
+- slug: inefficient-development-environment
+  similarity: 0.75
 - slug: code-review-inefficiency
   similarity: 0.7
 - slug: wasted-development-effort
   similarity: 0.7
-- slug: inefficient-development-environment
-  similarity: 0.65
-- slug: uneven-work-flow
-  similarity: 0.65
-- slug: tool-limitations
-  similarity: 0.65
+- slug: increased-manual-work
+  similarity: 0.7
+- slug: work-blocking
+  similarity: 0.7
 solutions:
 - development-environment-optimization
 - development-workflow-automation

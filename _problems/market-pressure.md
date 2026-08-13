@@ -6,18 +6,18 @@ category:
 - Business
 - Management
 related_problems:
-- slug: power-struggles
-  similarity: 0.55
-- slug: competing-priorities
-  similarity: 0.55
 - slug: deadline-pressure
-  similarity: 0.55
+  similarity: 0.7
 - slug: increased-time-to-market
+  similarity: 0.6
+- slug: time-pressure
+  similarity: 0.6
+- slug: increased-technical-shortcuts
+  similarity: 0.6
+- slug: competitive-disadvantage
   similarity: 0.55
 - slug: product-direction-chaos
   similarity: 0.55
-- slug: eager-to-please-stakeholders
-  similarity: 0.5
 solutions:
 - impact-mapping
 - product-strategy-alignment
