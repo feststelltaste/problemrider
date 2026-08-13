@@ -46,8 +46,6 @@ Master data ownership gaps occur when the reference data on which many processes
 <br/>  Any migration must first resolve the accumulated duplicates and inconsistencies, which is frequently the largest part of the effort.
 - [Duplicated Effort](duplicated-effort.md)
 <br/>  Several departments independently maintain, correct, and reconcile overlapping views of the same entities.
-- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
-<br/>  Problems that belong to everyone belong to no one, so each correction is made locally and the cause is never addressed.
 - [Custom Report Sprawl](custom-report-sprawl.md)
 <br/>  Contradictory outputs proliferate because each department reports on its own interpretation of the shared data.
 

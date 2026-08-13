@@ -83,10 +83,10 @@ class RelationshipDescriptionGenerator:
                             'metadata': metadata,
                             'indicators': self._extract_section(markdown_content, 'Indicators'),
                             'symptoms': self._extract_section(markdown_content, 'Symptoms'),
-                            'root_causes': self._extract_section(markdown_content, 'Root Causes'),
+                            'root_causes': self._extract_section(markdown_content, 'Causes'),
                             'indicators_raw': self._extract_section_raw(markdown_content, 'Indicators'),
                             'symptoms_raw': self._extract_section_raw(markdown_content, 'Symptoms'),
-                            'root_causes_raw': self._extract_section_raw(markdown_content, 'Root Causes'),
+                            'root_causes_raw': self._extract_section_raw(markdown_content, 'Causes'),
                             'description_section': self._extract_section(markdown_content, 'Description')
                         }
             except Exception as e:

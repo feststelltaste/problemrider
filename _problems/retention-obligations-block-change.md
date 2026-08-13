@@ -43,8 +43,6 @@ Retention obligations block change when data an organization is legally required
 <br/>  Every option for the system founders on the retained data, and because the obligation is unexamined, no option can be evaluated properly.
 - [Data Migration Complexities](data-migration-complexities.md)
 <br/>  Migrating retained records requires demonstrating that meaning and integrity are preserved, which is a far stronger requirement than moving them.
-- [Regulatory Compliance Drift](regulatory-compliance-drift.md)
-<br/>  Retention practice was set once and never revisited, so it no longer matches obligations that have changed since.
 - [Legacy Skill Shortage](legacy-skill-shortage.md)
 <br/>  Systems kept alive for retention require skills nobody is acquiring, and the pool shrinks throughout the retention period.
 - [Vendor Dependency Entrapment](vendor-dependency-entrapment.md)

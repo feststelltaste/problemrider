@@ -48,8 +48,6 @@ Authorization role explosion occurs when the permission model of a packaged syst
 <br/>  The permission model is rarely counted as debt at all, so its accumulation is not reported and its cost is not attributed to anything.
 - [User Frustration](user-frustration.md)
 <br/>  Users are blocked by missing permissions and over-granted elsewhere, and the resolution cycle for each is slow.
-- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
-<br/>  Roles created ad hoc have no owner, so there is nobody to ask whether one is still needed or what it was for.
 
 ## Causes ▼
 

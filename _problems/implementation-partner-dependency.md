@@ -46,8 +46,6 @@ Implementation partner dependency occurs when the knowledge of how a packaged sy
 <br/>  An imbalanced dependency produces resentment on the customer side and complacency on the supplier side, and both show in the relationship.
 - [Modernization Strategy Paralysis](modernization-strategy-paralysis.md)
 <br/>  Assessing options requires understanding the current installation, which the organization cannot do without asking the party with an interest in the answer.
-- [Legacy Skill Shortage](legacy-skill-shortage.md)
-<br/>  Internal capability never develops, because every occasion on which it might have been built was outsourced.
 - [Poor Documentation](poor-documentation.md)
 <br/>  Documentation is a deliverable the partner is paid to produce and has no operational need to maintain, so it stops matching reality quickly.
 

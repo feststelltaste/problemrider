@@ -62,10 +62,6 @@ In many packaged systems the customizations — configuration, custom fields, wo
 <br/>  Staff administering the package often come from an operations rather than a development background, and version control is not part of the practice they learned.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  Establishing an export and deployment pipeline delivers nothing visible, while making the change directly delivers it today.
-- [Manual Deployment Processes](manual-deployment-processes.md)
-<br/>  Where promotion between environments is manual anyway, keeping a versioned source appears to add work without removing any.
-- [Lack of Ownership and Accountability](lack-of-ownership-and-accountability.md)
-<br/>  With no one accountable for the state of the configuration, no one is responsible for making it reproducible.
 
 ## Detection Methods ○
 

@@ -58,8 +58,6 @@ Entity-attribute-value overuse occurs when data that has a known, stable structu
 <br/>  Defects that a typed schema would have made impossible — a date in a numeric field, a missing mandatory attribute — become ordinary runtime failures.
 - [Imperative Data Fetching Logic](imperative-data-fetching-logic.md)
 <br/>  Assembling objects from attribute rows pushes data access logic into procedural application code rather than into declarative queries.
-- [Database Schema Design Problems](database-schema-design-problems.md)
-<br/>  The generic model is itself the schema problem, and it prevents the normalization, typing, and relationships a designed schema would provide.
 
 ## Causes ▼
 

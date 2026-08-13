@@ -106,7 +106,7 @@ class CausalRelationshipValidator:
                             'description': metadata.get('description', ''),
                             'metadata': metadata,
                             'symptoms': self._extract_section(markdown_content, 'Indicators'),
-                            'root_causes': self._extract_section(markdown_content, 'Root Causes'),
+                            'root_causes': self._extract_section(markdown_content, 'Causes'),
                             'description_section': self._extract_section(markdown_content, 'Description')
                         }
             except Exception as e:
@@ -551,7 +551,7 @@ Be rigorous: correlation and co-occurrence are NOT causation. Require clear mech
     
     def _update_section_with_confidence(self, content: str, relationships: List[Dict], section_type: str) -> str:
         """Update a section with confidence scores and reorder by confidence."""
-        section_name = "Indicators" if section_type == 'symptoms' else "Root Causes"
+        section_name = "Indicators" if section_type == 'symptoms' else "Causes"
         
         # Find section boundaries
         section_start = re.search(rf'^## {section_name}.*$', content, re.MULTILINE)

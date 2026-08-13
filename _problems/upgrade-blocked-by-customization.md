@@ -66,8 +66,6 @@ Upgrade blockage occurs when the effort to bring an installation onto a new vend
 <br/>  Without automated regression coverage, revalidating a full package installation is a manual exercise measured in person-months.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  In any given quarter the upgrade is less urgent than whatever is being delivered, and this comparison is made repeatedly with the same result.
-- [Modernization ROI Justification Failure](modernization-roi-justification-failure.md)
-<br/>  An upgrade produces no visible business capability, so it competes poorly against work that does and is deferred on those grounds.
 
 ## Detection Methods ○
 

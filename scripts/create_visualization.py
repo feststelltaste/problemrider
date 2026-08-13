@@ -73,7 +73,7 @@ def create_visualization():
             continue
 
         # Split content into sections
-        sections = re.split(r'##\s*(Symptoms|Root Causes)', md_content)
+        sections = re.split(r'##\s*(Symptoms|Causes)', md_content)
         
         # Process sections to create directed edges
         for i in range(1, len(sections), 2):
@@ -89,7 +89,7 @@ def create_visualization():
                         # Arrow from the linked symptom to the current problem
                         edges.append({"source": target_filename, "target": source_filename})
                         incoming_connections[source_filename] += 1
-                    elif section_title == 'Root Causes':
+                    elif section_title == 'Causes':
                         # The current problem is caused by the linked root cause
                         # Arrow from the current problem to the linked root cause
                         edges.append({"source": source_filename, "target": target_filename})

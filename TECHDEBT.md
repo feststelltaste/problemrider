@@ -1,32 +1,29 @@
 # Technical Debt
 
-## Causal Analysis Script Uses Problem Titles Instead of Filenames
+## Causal Links Are Recorded on Only One Side
 
-**Problem**: The causal reasoning script (`scripts/start_causal_reasoning.py`) uses problem titles from YAML frontmatter instead of markdown filenames as identifiers, creating an additional layer of complexity in title-to-filename mapping.
+**Problem**: A link under `## Symptoms ▲` of problem A and a link under `## Causes ▼`
+of problem B express the same directed claim, but only 14% of the 3,456 causal claims
+in the catalog are recorded on both sides. 1,739 exist only as a symptom of the cause,
+1,229 only as a cause of the effect.
 
-**Impact**: 
-- Complex title-to-slug conversion required for file operations
-- Potential mismatches between cache keys and actual filenames  
-- Additional complexity in the `update_causal_relationships.py` script to map titles back to files
-- Risk of errors when titles don't convert cleanly to expected slugs
-- Maintenance burden when problem titles change but filenames remain consistent
+**Impact**:
+- The two problem files disagree about whether a relation exists, so which one a reader
+  lands on determines what they see
+- The graph cannot be trusted for analysis, prioritization, or visualization
+- Cycles spanning 40 problems exist, indicating the graph has lost any hierarchy
 
-**Root Cause**: The script processes problems by extracting titles from YAML frontmatter (line 39: `title = front.get('title')`) and uses these titles throughout the causal analysis cache instead of using the more stable filename-based slugs. Cache keys are generated using `get_pair_key(title_a, title_b)` rather than slug-based keys.
+**Root Cause**: Symptoms and causes were authored per problem file, by an LLM prompt
+(`.claude/commands/pr/link_problems.md`) that considers one file at a time. Nothing ever
+reconciled the two directions against each other.
 
 **Suggested Resolution**:
-1. Modify `start_causal_reasoning.py` to use problem slugs (filenames) as primary identifiers
-2. Update cache structure to use slug-based keys instead of title-based keys  
-3. Ensure the `update_causal_relationships.py` script can work directly with slug-based mappings
-4. Add validation to ensure slug-title mapping consistency
-5. Consider using slugs as the source of truth with titles as display-only metadata
-
-**Priority**: Medium - creates complexity but current workarounds are functional
-
-**Created by**: Markus  
-**Date**: 2025-08-22
-
----
-
+1. Run `scripts/validate_causal_links.py --asymmetry-report FILE` to produce the work list
+2. For each asymmetric claim decide whether to add the missing side or drop the claim;
+   this needs judgement per pair, since the `<br/>` description has to be written from
+   the other problem's perspective
+3. Extend `pr:link_problems` so that adding a link requires writing both sides
+4. Treat the asymmetry percentage as a tracked quality measure
 
 ## Visualization Script Often Forgotten and Not Executed
 
