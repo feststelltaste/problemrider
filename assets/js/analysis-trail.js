@@ -3,8 +3,8 @@
 
   // Versioned storage prevents edges created by an older navigation-based
   // implementation from being mixed with the semantic causal graph.
-  var storageKey = 'problemrider-analysis-trail-v6';
-  var pendingKey = 'problemrider-analysis-trail-pending-edge-v6';
+  var storageKey = 'problemrider-analysis-trail-v7';
+  var pendingKey = 'problemrider-analysis-trail-pending-edge-v7';
   var expandedKey = 'problemrider-analysis-trail-expanded-v1';
   var historyKey = 'problemrider-analysis-trail-history-v1';
   var maxNodes = 24;
@@ -75,7 +75,7 @@
     // navigated from that problem to the solution.
     if (link.closest('.related-solutions')) return { label: 'addresses', direction: 'reverse', targetType: 'solution' };
     if (link.closest('.addressed-problems')) return { label: 'addresses', direction: 'forward', targetType: 'problem' };
-    if (link.closest('.related-problems')) return { label: 'related', direction: 'forward', targetType: 'problem' };
+    if (link.closest('.related-problems')) return null;
     return null;
   }
 
@@ -114,7 +114,7 @@
     var pending;
     try { pending = JSON.parse(window.sessionStorage.getItem(pendingKey)); } catch (error) { pending = null; }
     window.sessionStorage.removeItem(pendingKey);
-    if (!pending || !node || pending.from === node.id) return;
+    if (!pending || !node || pending.from === node.id || pending.label === 'related') return;
     if (!trail.nodes.some(function (item) { return item.id === pending.from; })) return;
     if (pending.targetType) {
       var targetNode = trail.nodes.filter(function (item) { return item.id === node.id; })[0];
