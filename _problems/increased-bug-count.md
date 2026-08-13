@@ -30,6 +30,7 @@ solutions:
 - change-impact-analysis
 - production-like-test-data
 - defect-triage-process
+- duplication-detection
 layout: problem
 ---
 

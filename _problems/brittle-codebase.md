@@ -35,6 +35,7 @@ solutions:
 - improvement-budget
 - quality-ratchet
 - debt-classification
+- duplication-detection
 layout: problem
 ---
 

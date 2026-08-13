@@ -35,6 +35,7 @@ solutions:
 - debt-accrual-analysis
 - large-scale-refactoring
 - automated-code-migration
+- duplication-detection
 layout: problem
 ---
 

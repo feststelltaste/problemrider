@@ -48,6 +48,7 @@ solutions:
 - production-like-test-data
 - defect-triage-process
 - exploratory-testing
+- duplication-detection
 layout: problem
 ---
 

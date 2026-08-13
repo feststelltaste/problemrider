@@ -21,6 +21,7 @@ problems:
 - maintenance-cost-increase
 - brittle-codebase
 - convenience-driven-development
+- code-duplication
 layout: solution
 ---
 

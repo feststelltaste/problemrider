@@ -32,6 +32,7 @@ solutions:
 - quality-ratchet
 - debt-accrual-analysis
 - automated-code-migration
+- duplication-detection
 layout: problem
 ---
 

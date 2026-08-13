@@ -30,6 +30,7 @@ solutions:
 - change-impact-analysis
 - workaround-registry
 - application-portfolio-inventory
+- duplication-detection
 layout: problem
 ---
 

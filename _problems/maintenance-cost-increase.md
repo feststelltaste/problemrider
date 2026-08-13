@@ -37,6 +37,7 @@ solutions:
 - technical-debt-assessment
 - continuous-dependency-updates
 - automated-code-migration
+- duplication-detection
 layout: problem
 ---
 

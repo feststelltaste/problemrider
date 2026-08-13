@@ -45,6 +45,7 @@ solutions:
 - automated-code-migration
 - large-scale-refactoring
 - continuous-dependency-updates
+- duplication-detection
 layout: problem
 ---
 

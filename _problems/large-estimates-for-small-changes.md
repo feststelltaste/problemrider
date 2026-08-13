@@ -30,6 +30,7 @@ solutions:
 - debt-remediation-estimation
 - technical-debt-assessment
 - automated-code-migration
+- duplication-detection
 layout: problem
 ---
 

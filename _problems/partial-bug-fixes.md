@@ -28,6 +28,7 @@ solutions:
 - code-reviews
 - exploratory-testing
 - change-impact-analysis
+- duplication-detection
 layout: problem
 ---
 

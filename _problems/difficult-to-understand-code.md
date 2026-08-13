@@ -30,6 +30,7 @@ solutions:
 - internal-technical-coaching
 - ubiquitous-language
 - technical-debt-assessment
+- duplication-detection
 layout: problem
 ---
 

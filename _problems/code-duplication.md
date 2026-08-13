@@ -31,6 +31,9 @@ solutions:
 - communities-of-practice
 - automated-code-migration
 - large-scale-refactoring
+- duplication-detection
+- quality-ratchet
+- debt-accrual-analysis
 layout: problem
 ---
 

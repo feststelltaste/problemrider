@@ -20,6 +20,7 @@ problems:
 - maintenance-cost-increase
 - convenience-driven-development
 - short-term-focus
+- code-duplication
 layout: solution
 ---
 

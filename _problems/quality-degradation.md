@@ -33,6 +33,7 @@ solutions:
 - quality-ratchet
 - debt-accrual-analysis
 - code-hotspot-analysis
+- duplication-detection
 layout: problem
 ---
 
