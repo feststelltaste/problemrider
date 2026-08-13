@@ -67,6 +67,8 @@ Maintenance overhead is the excessive effort required to keep a software system 
 <br/>  Without tests, developers must spend extra time manually verifying that maintenance changes don't break existing functionality.
 - [Difficult Code Comprehension](difficult-code-comprehension.md)
 <br/>  Code that is hard to understand requires disproportionate time to maintain, as developers must first decipher it before making changes.
+- [API Versioning Conflicts](api-versioning-conflicts.md)
+<br/>  Keeping multiple incompatible API versions running in parallel multiplies the code paths, tests, and documentation that must be maintained simultaneously.
 
 ## Detection Methods ○
 - **Time Tracking:** Track the amount of time that the team spends on maintenance tasks versus new development. A high ratio is a clear sign of a problem.

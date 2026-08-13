@@ -48,8 +48,6 @@ Alignment and padding issues occur when data structures are organized in ways th
 
 - [Data Structure Cache Inefficiency](data-structure-cache-inefficiency.md)
 <br/>  Wasted padding bytes reduce the amount of useful data per cache line, directly degrading cache efficiency.
-- [Memory Fragmentation](memory-fragmentation.md)
-<br/>  Oversized structures due to padding waste memory and contribute to fragmentation when many instances are allocated.
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Poor memory layout from alignment issues reduces cache utilization and increases memory bandwidth, slowing performance.
 

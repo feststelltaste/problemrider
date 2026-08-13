@@ -61,6 +61,8 @@ Delayed project timelines occur when software projects consistently take longer 
 
 ## Causes ▼
 
+- [Approval Dependencies](approval-dependencies.md)
+<br/>  Work cannot proceed while awaiting sign-off from specific approvers, directly extending project timelines.
 - [Poor Planning](poor-planning.md)
 <br/>  Inadequate estimation, unclear scope, and insufficient risk assessment lead to unrealistic project timelines.
 - [Scope Creep](scope-creep.md)
@@ -71,6 +73,8 @@ Delayed project timelines occur when software projects consistently take longer 
 <br/>  Constant interruptions from production issues pull developers away from planned work, delaying project progress.
 - [Unrealistic Schedule](unrealistic-schedule.md)
 <br/>  Schedules that don't account for actual complexity and risk set projects up for inevitable delays.
+- [Analysis Paralysis](analysis-paralysis.md)
+<br/>  Teams stuck in endless research and analysis delay the start of implementation, directly pushing back project timelines.
 
 ## Detection Methods ○
 

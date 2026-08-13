@@ -56,6 +56,8 @@ Lock contention occurs when multiple threads frequently compete for the same syn
 <br/>  Adding more threads or cores provides diminishing or negative returns when they all contend for the same locks.
 - [Resource Contention](resource-contention.md)
 <br/>  Lock contention is a direct form of resource contention where threads compete for synchronization primitives rather than doing productive work.
+- [Atomic Operation Overhead](atomic-operation-overhead.md)
+<br/>  Developers trying to avoid lock contention may over-use atomic operations, shifting the bottleneck rather than eliminating it.
 
 ## Causes ▼
 

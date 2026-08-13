@@ -65,6 +65,8 @@ Inconsistent behavior is a common problem in software systems. It occurs when th
 <br/>  Unpredictable behavior erodes user confidence in the system's reliability and correctness.
 - [Testing Complexity](testing-complexity.md)
 <br/>  Quality assurance must verify the same business process in multiple locations, multiplying testing effort.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Encountering unpredictable outcomes for the same operation erodes user confidence and satisfaction with the product.
 
 ## Causes ▼
 

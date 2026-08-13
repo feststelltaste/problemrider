@@ -67,6 +67,8 @@ Increased cost of development occurs when the total expense of building and main
 <br/>  Rising maintenance burden consumes development budget that would otherwise go to productive feature work.
 - [Increasing Brittleness](increasing-brittleness.md)
 <br/>  A fragile codebase requires extensive testing and risk mitigation for even simple changes, driving up costs.
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  Working around architectural limitations significantly increases the cost of implementing new features.
 
 ## Detection Methods ○
 - **Cost Per Feature Tracking:** Monitor the total cost to deliver similar features over time

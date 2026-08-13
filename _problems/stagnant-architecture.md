@@ -78,7 +78,9 @@ Stagnant architecture occurs when a system's fundamental design and structure re
 - [Resistance to Change](resistance-to-change.md)
 <br/>  Resistance to change directly causes architecture to stagnate, as teams avoid the modernization and refactoring neede....
 - [Short-Term Focus](short-term-focus.md)
-<br/>  Short-term focus already lists stagnant architecture as a symptom, and management prioritizing features over architec....
+<br/>  Management's persistent prioritization of immediate feature delivery leaves no room for the sustained investment needed to evolve or modernize the architecture.
+- [Accumulated Decision Debt](accumulated-decision-debt.md)
+<br/>  When key architectural decisions are perpetually deferred and compound into an interdependent backlog, the architecture has no path to evolve.
 
 ## Detection Methods ○
 

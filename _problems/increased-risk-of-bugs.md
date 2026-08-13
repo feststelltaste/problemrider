@@ -68,6 +68,10 @@ Increased risk of bugs occurs when the structure, complexity, or clarity of code
 <br/>  Tightly coupled code means changes in one area can unpredictably affect other areas, increasing the risk of unintended bugs.
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Low-quality code with inconsistent patterns and poor structure makes it harder to reason about correctness, raising bug risk.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Developers lacking experience are more likely to introduce defects through misunderstanding of code or business logic.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  Layered workarounds create unexpected interactions and edge cases between old and new logic paths, making it more likely that changes introduce bugs.
 
 ## Detection Methods ○
 - **Bug Pattern Analysis:** Track which areas of code or types of changes are most likely to introduce bugs

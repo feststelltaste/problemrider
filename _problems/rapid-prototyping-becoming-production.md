@@ -61,6 +61,8 @@ Rapid prototyping becoming production occurs when code initially written as a qu
 <br/>  Teams fear touching fragile prototype-turned-production code because they don't understand its full behavior and lack test safety nets.
 - [Increased Technical Shortcuts](increased-technical-shortcuts.md)
 <br/>  A culture of taking shortcuts normalizes deploying prototype-quality code to production.
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Simplified authentication and developer backdoors added for prototype convenience remain active in production, allowing security checks to be bypassed.
 
 ## Causes ▼
 

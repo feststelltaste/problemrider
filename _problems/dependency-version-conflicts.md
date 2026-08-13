@@ -66,6 +66,8 @@ Dependency version conflicts occur when applications or their dependencies requi
 <br/>  Incompatible dependency versions cause unexpected runtime errors and method-not-found exceptions in production.
 - [Integration Difficulties](integration-difficulties.md)
 <br/>  Version conflicts between libraries make integrating new components or upgrading existing ones extremely difficult.
+- [ABI Compatibility Issues](abi-compatibility-issues.md)
+<br/>  Different components depending on different versions of the same library is a primary cause of ABI incompatibilities.
 
 ## Causes ▼
 

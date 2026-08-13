@@ -93,6 +93,8 @@ Integration difficulties arise when systems cannot easily connect with external 
 
 ## Causes ▼
 
+- [ABI Compatibility Issues](abi-compatibility-issues.md)
+<br/>  For integrations involving compiled or native components (e.g., shared libraries, plugins), binary interface mismatches between library versions make integration extremely difficult.
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Using outdated protocols and data formats creates fundamental incompatibilities with modern services.
 - [Architectural Mismatch](architectural-mismatch.md)
@@ -101,6 +103,8 @@ Integration difficulties arise when systems cannot easily connect with external 
 <br/>  Tightly coupled internal components make it difficult to add clean integration points for external services.
 - [Stagnant Architecture](stagnant-architecture.md)
 <br/>  An architecture that has not evolved over time falls behind modern integration standards and patterns.
+- [API Versioning Conflicts](api-versioning-conflicts.md)
+<br/>  Incompatible or poorly managed API versions between services mean each integration must reconcile mismatched contracts, turning routine connections into difficult, custom integration work.
 
 ## Detection Methods ○
 

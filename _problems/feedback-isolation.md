@@ -57,6 +57,8 @@ Feedback isolation occurs when development teams work for extended periods witho
 <br/>  Development work done without feedback validation often turns out to be wrong, representing wasted effort.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Stakeholders become unhappy when they finally see the product and it does not match their expectations.
+- [Assumption-Based Development](assumption-based-development.md)
+<br/>  When isolated teams choose to keep working rather than pause and escalate for clarification, they fill the resulting information gaps with assumptions about user needs.
 
 ## Causes ▼
 

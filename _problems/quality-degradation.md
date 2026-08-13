@@ -57,9 +57,13 @@ Quality degradation occurs when software systems experience a steady decline in 
 <br/>  System performance steadily worsens as quality issues compound and inefficiencies accumulate.
 - [Stakeholder Dissatisfaction](stakeholder-dissatisfaction.md)
 <br/>  Declining reliability and usability erodes user and stakeholder confidence in the system.
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  As degraded quality surfaces directly to users through bugs, inconsistencies, and unreliability, customers become dissatisfied with the product.
 
 ## Causes ▼
 
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Management's persistent prioritization of immediate delivery leaves no time for refactoring, testing investment, or addressing code health, allowing quality to erode over time.
 - [Quality Compromises](quality-compromises.md)
 <br/>  Deliberately lowering quality standards creates the shortcuts and debt that drive gradual quality decline.
 - [Insufficient Testing](insufficient-testing.md)

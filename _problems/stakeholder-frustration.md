@@ -61,6 +61,8 @@ Stakeholder frustration occurs when business stakeholders become dissatisfied wi
 
 ## Causes ▼
 
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Where stakeholders have visibility into complaint volume, churn, or satisfaction scores, rising customer dissatisfaction becomes a source of frustration with the development team.
 - [Delayed Project Timelines](delayed-project-timelines.md)
 <br/>  Repeatedly missing delivery dates is a primary source of stakeholder frustration.
 - [Stakeholder-Developer Communication Gap](stakeholder-developer-communication-gap.md)
@@ -69,6 +71,8 @@ Stakeholder frustration occurs when business stakeholders become dissatisfied wi
 <br/>  Frequent bugs in delivered features frustrate stakeholders who expect reliable, working software.
 - [Constantly Shifting Deadlines](constantly-shifting-deadlines.md)
 <br/>  Repeated deadline extensions frustrate stakeholders and undermine their trust in development commitments.
+- [Analysis Paralysis](analysis-paralysis.md)
+<br/>  Stakeholders grow frustrated watching teams spend months analyzing options without producing any tangible, shippable progress.
 
 ## Detection Methods ○
 

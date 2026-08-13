@@ -97,6 +97,8 @@ Fear of change is a psychological and practical barrier that prevents developers
 <br/>  A track record of changes causing production incidents creates a culture of caution and anxiety around modifications.
 - [Blame Culture](blame-culture.md)
 <br/>  When mistakes are punished rather than treated as learning opportunities, developers become risk-averse and avoid making changes.
+- [High Technical Debt](high-technical-debt.md)
+<br/>  A codebase burdened with accumulated shortcuts and complexity makes the consequences of any change harder to predict, reinforcing developers' reluctance to modify it.
 
 ## Detection Methods ○
 - **Developer Surveys:** Ask team members about their confidence level when making changes to different parts of the system

@@ -64,6 +64,8 @@ Resource contention occurs when multiple processes or threads compete for the sa
 <br/>  Infrastructure that doesn't match actual demand patterns leads to resource contention during peak usage periods.
 - [Scaling Inefficiencies](scaling-inefficiencies.md)
 <br/>  Inability to scale components independently means bottlenecked components create resource contention for the entire system.
+- [Atomic Operation Overhead](atomic-operation-overhead.md)
+<br/>  Multiple threads competing for atomic variables create CPU-level resource contention through cache coherency traffic.
 
 ## Detection Methods ○
 

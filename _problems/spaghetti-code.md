@@ -53,6 +53,8 @@ Spaghetti code refers to source code that has become tangled, unstructured, and 
 <br/>  Spaghetti code's tangled dependencies mean changes in one area frequently break unrelated functionality.
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Adding features to spaghetti code requires extensive time to understand the tangled logic and safely integrate changes.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  Beyond individual features, tangled control flow slows the team's overall throughput on bug fixes and maintenance as well.
 - [High Bug Introduction Rate](high-bug-introduction-rate.md)
 <br/>  The unpredictable control flow and hidden dependencies in spaghetti code make it a constant source of bugs.
 - [Fear of Change](fear-of-change.md)

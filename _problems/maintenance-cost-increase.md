@@ -74,6 +74,8 @@ Maintenance cost increase occurs when the resources required to keep software sy
 <br/>  Duplicated code multiplies maintenance effort since the same fix or change must be applied in multiple places.
 - [Obsolete Technologies](obsolete-technologies.md)
 <br/>  Maintaining systems on obsolete technologies is expensive due to scarce expertise and lack of vendor support.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  Every subsequent change must navigate around existing workarounds, so maintenance effort grows as the web of temporary fixes expands.
 
 ## Detection Methods ○
 

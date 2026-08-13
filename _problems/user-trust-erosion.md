@@ -63,6 +63,8 @@ User trust erosion is the gradual loss of confidence that users have in a softwa
 <br/>  A rising number of defects signals declining quality to users, undermining their trust.
 - [User Confusion](user-confusion.md)
 <br/>  Confusing system behavior makes users feel the system is unreliable, eroding their trust.
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Discovering that their accounts or data were accessible without proper authentication severely damages users' confidence in the system.
 
 ## Detection Methods ○
 - **User Satisfaction Surveys:** Regularly survey users to gauge their satisfaction with the system.

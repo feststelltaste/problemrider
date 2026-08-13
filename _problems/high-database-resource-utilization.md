@@ -75,6 +75,8 @@ High database resource utilization can be a major cause of poor application perf
 <br/>  Too many open database connections consume memory and CPU resources on the database server.
 - [Database Query Performance Issues](database-query-performance-issues.md)
 <br/>  Poorly optimized queries consume excessive CPU and I/O on the database server, directly contributing to high resource....
+- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
+<br/>  When inefficient algorithms are implemented inside the database layer (complex stored procedures, poorly structured queries, or row-by-row processing) rather than in application code, they consume excessive database CPU and memory resources.
 
 ## Detection Methods ○
 

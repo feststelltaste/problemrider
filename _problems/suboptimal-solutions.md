@@ -66,6 +66,8 @@ Suboptimal solutions occur when implemented systems or processes technically fun
 <br/>  Lack of domain or technical knowledge leads developers to choose approaches that work but are far from optimal.
 - [Assumption-Based Development](assumption-based-development.md)
 <br/>  Building solutions based on unvalidated assumptions about user needs produces features that miss the mark.
+- [Accumulated Decision Debt](accumulated-decision-debt.md)
+<br/>  When a backlog of deferred, interdependent decisions must finally be resolved under pressure, the constrained options that remain often force suboptimal choices.
 
 ## Detection Methods ○
 

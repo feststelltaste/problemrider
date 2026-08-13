@@ -67,11 +67,15 @@ Poor documentation occurs when the written information about a system, its archi
 - [Slow Knowledge Transfer](slow-knowledge-transfer.md)
 <br/>  Poor documentation forces knowledge transfer to happen through slow one-on-one conversations rather than self-service reading.
 - [Assumption-Based Development](assumption-based-development.md)
-<br/>  When documentation is unreliable, developers resort to guessing about system behavior rather than looking it up.
+<br/>  When documentation of existing business rules or system behavior is missing or unreliable, developers may guess at that specific behavior rather than looking it up; most other assumption-based development instead stems from requirements-gathering or stakeholder-communication gaps rather than general documentation quality.
 - [Increased Risk of Bugs](increased-risk-of-bugs.md)
 <br/>  Without accurate documentation of business rules and system behavior, developers are more likely to introduce bugs from misunderstanding.
 - [Extended Research Time](extended-research-time.md)
 <br/>  Developers spend excessive time reverse-engineering system behavior that should be documented.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Without documentation, developers must reverse-engineer the codebase before they can add features, slowing delivery.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  Time spent deciphering undocumented systems compounds across the team, dragging down overall delivery pace beyond any single task.
 
 ## Causes ▼
 

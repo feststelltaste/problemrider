@@ -56,6 +56,8 @@ Inadequate mentoring structure occurs when organizations do not have a well-defi
 <br/>  Ad-hoc mentoring means new hires learn different things at different depths depending on their informal mentor.
 - [Skill Development Gaps](skill-development-gaps.md)
 <br/>  Without structured mentoring, new team members develop uneven skills with significant blind spots.
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  Without experienced mentors to guide them, junior developers have no pathway to develop proper engineering skills.
 
 ## Causes ▼
 

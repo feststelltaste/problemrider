@@ -54,6 +54,8 @@ Reduced innovation occurs when development teams lose their drive to explore new
 
 ## Causes ▼
 
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Exhausted and disengaged developers lack the spare energy and motivation to explore new approaches or propose improvements.
 - [Fear of Failure](fear-of-failure.md)
 <br/>  Fear of negative consequences from trying new approaches makes teams default to safe, familiar solutions.
 - [Resistance to Change](resistance-to-change.md)

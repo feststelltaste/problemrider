@@ -109,6 +109,8 @@ User frustration occurs when software systems consistently fail to meet user exp
 <br/>  Sluggish system response times frustrate users who must wait for basic operations to complete.
 - [User Confusion](user-confusion.md)
 <br/>  Users who are confused by the system become frustrated when they cannot accomplish their goals.
+- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
+<br/>  Slow, resource-hungry operations caused by poor algorithmic choices leave users waiting for tasks that should complete quickly, typically by first making the application feel slow overall.
 
 ## Detection Methods ○
 

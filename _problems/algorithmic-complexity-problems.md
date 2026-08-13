@@ -50,19 +50,15 @@ Algorithmic complexity problems occur when code uses algorithms or data structur
 <br/>  Inefficient algorithms directly cause slow application performance, especially as data volumes grow.
 - [Gradual Performance Degradation](gradual-performance-degradation.md)
 <br/>  Poor algorithmic complexity causes performance to degrade gradually as data grows over time.
-- [Scaling Inefficiencies](scaling-inefficiencies.md)
-<br/>  Algorithms with poor complexity characteristics prevent the system from scaling efficiently with increased load.
 - [High Database Resource Utilization](high-database-resource-utilization.md)
-<br/>  Inefficient algorithms processing database results consume excessive CPU and memory resources.
+<br/>  When inefficient algorithms are implemented inside the database layer (complex stored procedures, poorly structured queries, or row-by-row processing) rather than in application code, they consume excessive database CPU and memory resources.
 - [User Frustration](user-frustration.md)
-<br/>  Users experience long wait times for operations that should be fast, leading to frustration with the application.
+<br/>  Slow, resource-hungry operations caused by poor algorithmic choices leave users waiting for tasks that should complete quickly, typically by first making the application feel slow overall.
 
 ## Causes ▼
 
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Developers lacking computer science fundamentals may not recognize poor algorithmic choices or know better alternatives.
-- [Insufficient Testing](insufficient-testing.md)
-<br/>  Testing only with small data sets fails to reveal algorithmic complexity issues that appear at production scale.
 - [Deadline Pressure](deadline-pressure.md)
 <br/>  Time pressure leads developers to implement the first working solution without considering its algorithmic efficiency.
 - [Cargo Culting](cargo-culting.md)

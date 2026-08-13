@@ -68,6 +68,8 @@ High technical debt is the implied cost of rework caused by choosing an easy (li
 
 ## Symptoms ▲
 
+- [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
+<br/>  Constantly wrestling with debt-laden code to make even simple changes is demoralizing and contributes to chronic frustration and burnout.
 - [High Maintenance Costs](high-maintenance-costs.md)
 <br/>  Accumulated shortcuts and code complexity make every change more expensive, increasing the overall cost of maintaining the system.
 - [Slow Development Velocity](slow-development-velocity.md)
@@ -81,10 +83,14 @@ High technical debt is the implied cost of rework caused by choosing an easy (li
 - [Inability to Innovate](inability-to-innovate.md)
 <br/>  Teams spend so much effort managing debt-laden code that they have no capacity to explore new approaches or technologies.
 - [Increased Cost of Development](increased-cost-of-development.md)
-<br/>  Technical debt directly increases the cost of all development work as developers must navigate complexity, work aroun....
+<br/>  Technical debt directly increases the cost of all development work as developers must navigate complexity, work around shortcuts, and perform extra testing to compensate.
+- [Slow Feature Development](slow-feature-development.md)
+<br/>  Technical debt in the codebase forces developers to spend excessive time working around existing problems before implementing new features.
 
 ## Causes ▼
 
+- [Short-Term Focus](short-term-focus.md)
+<br/>  Management's persistent prioritization of immediate delivery over long-term health prevents dedicated time or budget from being allocated to address design shortcuts, letting them accumulate as debt.
 - [Refactoring Avoidance](refactoring-avoidance.md)
 <br/>  When code is never improved or restructured, design shortcuts and complexity accumulate over time into significant debt.
 - [Time Pressure](time-pressure.md)
@@ -95,6 +101,12 @@ High technical debt is the implied cost of rework caused by choosing an easy (li
 <br/>  Without tests, refactoring is risky, so debt-laden code remains untouched and accumulates further.
 - [Implementation Starts Without Design](implementation-starts-without-design.md)
 <br/>  Coding without upfront design leads to ad-hoc architecture and implementation shortcuts that become technical debt.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  Each workaround is itself a piece of technical debt, so as workarounds pile up they directly raise the overall debt level of the codebase.
+- [Accumulated Decision Debt](accumulated-decision-debt.md)
+<br/>  Deferred decisions are eventually resolved with temporary or ad-hoc solutions that become permanent, adding directly to the system's technical debt.
+- [Architectural Mismatch](architectural-mismatch.md)
+<br/>  Forcing new requirements into an incompatible architecture creates significant technical debt through compromised designs.
 
 ## Detection Methods ○
 

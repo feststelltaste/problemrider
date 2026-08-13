@@ -58,6 +58,8 @@ High turnover occurs when developers frequently leave the team, often shortly af
 <br/>  New developers unfamiliar with the system are more likely to introduce bugs due to lack of domain knowledge and system understanding.
 - [Increased Cost of Development](increased-cost-of-development.md)
 <br/>  Constant recruitment, onboarding, and lost productivity from frequent departures directly increase the overall cost o....
+- [Inexperienced Developers](inexperienced-developers.md)
+<br/>  High turnover means experienced developers leave and are replaced by less experienced ones, reducing overall team expertise.
 
 ## Causes ▼
 

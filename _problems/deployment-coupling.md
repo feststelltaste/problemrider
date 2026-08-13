@@ -64,6 +64,8 @@ Deployment coupling is a situation where multiple components or services must be
 <br/>  Monolithic architectures inherently bundle all components into a single deployable unit.
 - [Shared Dependencies](shared-dependencies.md)
 <br/>  Shared libraries or services create deployment coupling when updates to the shared component require coordinated releases.
+- [API Versioning Conflicts](api-versioning-conflicts.md)
+<br/>  When services lack a backward-compatibility layer or gateway to absorb version differences, unresolved API version conflicts can force teams to coordinate deployments across multiple services.
 
 ## Detection Methods ○
 - **Deployment Process Mapping:** Map out the steps in the deployment process to identify bottlenecks and areas for improvement.

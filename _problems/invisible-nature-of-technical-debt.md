@@ -74,6 +74,8 @@ The invisible nature of technical debt occurs when the costs and impacts of accu
 <br/>  When there is no budget for addressing debt, developers resort to more shortcuts, compounding the problem.
 - [Difficulty Quantifying Benefits](difficulty-quantifying-benefits.md)
 <br/>  When technical debt is invisible to stakeholders, it becomes even harder to quantify the benefits of addressing it.
+- [Short-Term Focus](short-term-focus.md)
+<br/>  When technical debt is invisible to decision-makers, they naturally gravitate toward short-term priorities with visible, measurable outcomes, since there is no visible signal warning them about the cost of neglect.
 
 ## Causes ▼
 
@@ -81,8 +83,6 @@ The invisible nature of technical debt occurs when the costs and impacts of accu
 <br/>  Poor communication between developers and business stakeholders prevents effective explanation of technical debt impacts.
 - [Feature Factory](feature-factory.md)
 <br/>  A culture that values only feature output makes non-feature technical work invisible and undervalued.
-- [Short-Term Focus](short-term-focus.md)
-<br/>  When technical debt is invisible to decision-makers, they naturally gravitate toward short-term priorities with visible, measurable outcomes.
 
 ## Detection Methods ○
 

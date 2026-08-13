@@ -81,6 +81,8 @@ Difficult code comprehension is a situation where developers have a hard time un
 <br/>  Overly complex business logic embedded in convoluted code structures makes comprehension extremely difficult.
 - [Information Decay](information-decay.md)
 <br/>  Outdated or missing documentation means developers must rely solely on reading code to understand intent.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  Multiple alternative code paths and conditional workarounds layered on top of the original logic make the code extremely hard to follow.
 
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers if they find the codebase easy to read and understand.

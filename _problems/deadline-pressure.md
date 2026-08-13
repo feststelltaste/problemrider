@@ -59,9 +59,17 @@ Deadline pressure occurs when development teams face intense time constraints th
 <br/>  Rushing under pressure causes developers to make more mistakes and skip validation steps, introducing more bugs.
 - [Delayed Bug Fixes](delayed-bug-fixes.md)
 <br/>  Deadline pressure causes teams to prioritize feature delivery over bug fixes, directly leading to delayed bug fixes.
+- [Accumulation of Workarounds](accumulation-of-workarounds.md)
+<br/>  Under repeated time pressure, developers repeatedly choose quick workarounds over proper fixes, and these individual choices compound into a growing web of workarounds.
+- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
+<br/>  Time pressure leads developers to implement the first working solution without considering its algorithmic efficiency.
+- [Assumption-Based Development](assumption-based-development.md)
+<br/>  When a compressed timeline falls specifically during requirements clarification, developers proceed on unvalidated assumptions rather than taking time to confirm understanding with stakeholders.
 
 ## Causes ▼
 
+- [Short-Term Focus](short-term-focus.md)
+<br/>  A management culture that consistently prioritizes immediate feature delivery over sustainability leads it to set and maintain aggressive delivery deadlines as the primary lever for enforcing that priority.
 - [Unrealistic Deadlines](unrealistic-deadlines.md)
 <br/>  Management sets deadlines that don't account for actual development effort, creating intense pressure on the team.
 - [Poor Planning](poor-planning.md)

@@ -51,11 +51,19 @@ Inexperienced developers refers to a situation where team members lack the knowl
 - [Lower Code Quality](lower-code-quality.md)
 <br/>  Inexperienced developers often produce code with anti-patterns, poor structure, and inconsistent practices.
 - [Increased Technical Shortcuts](increased-technical-shortcuts.md)
-<br/>  Lack of experience leads developers to choose expedient solutions without understanding long-term consequences.
+<br/>  Under delivery pressure, developers who lack experience tend to default to the simplest approach they know rather than a properly designed one, since they may not recognize better alternatives or the long-term consequences.
 - [Inefficient Code](inefficient-code.md)
 <br/>  Without knowledge of performance optimization, inexperienced developers write computationally expensive code.
 - [Code Duplication](code-duplication.md)
-<br/>  Inexperienced developers frequently duplicate code because they don't know about existing implementations or don't un....
+<br/>  Inexperienced developers frequently duplicate code because they don't know about existing implementations or don't understand how to properly abstract and reuse existing logic.
+- [Algorithmic Complexity Problems](algorithmic-complexity-problems.md)
+<br/>  Developers lacking computer science fundamentals may not recognize poor algorithmic choices or know better alternatives.
+- [Alignment and Padding Issues](alignment-and-padding-issues.md)
+<br/>  Developers unfamiliar with hardware memory alignment requirements unknowingly create inefficient structure layouts.
+- [Atomic Operation Overhead](atomic-operation-overhead.md)
+<br/>  Developers unfamiliar with concurrent programming nuances may overuse atomic operations without understanding their performance cost.
+- [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
+<br/>  Developers without security expertise often implement custom authentication logic with subtle flaws that allow it to be bypassed.
 
 ## Causes ▼
 
@@ -64,7 +72,7 @@ Inexperienced developers refers to a situation where team members lack the knowl
 - [Skill Development Gaps](skill-development-gaps.md)
 <br/>  Lack of training programs and mentorship opportunities prevents junior developers from developing their skills.
 - [Difficult Developer Onboarding](difficult-developer-onboarding.md)
-<br/>  Poor onboarding processes fail to bring new developers up to speed on the system and its practices.
+<br/>  When onboarding does not teach best practices and system conventions, junior hires in particular can remain under-skilled well past their start date, whereas experienced hires typically still ramp up despite a slow onboarding.
 - [Inadequate Mentoring Structure](inadequate-mentoring-structure.md)
 <br/>  Without experienced mentors to guide them, junior developers have no pathway to develop proper engineering skills.
 

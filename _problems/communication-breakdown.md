@@ -56,6 +56,8 @@ Communication breakdown occurs when team members cannot effectively share inform
 <br/>  Failure to share information about ongoing work makes it difficult for developers to coordinate their efforts.
 - [Merge Conflicts](merge-conflicts.md)
 <br/>  Teams unaware of each other's work modify the same code areas, creating frequent version control conflicts.
+- [API Versioning Conflicts](api-versioning-conflicts.md)
+<br/>  When API provider and consumer teams fail to coordinate, version changes get released without agreement, producing incompatible API versions.
 
 ## Causes ▼
 

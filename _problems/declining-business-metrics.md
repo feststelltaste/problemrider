@@ -62,6 +62,8 @@ Declining business metrics represents the measurable deterioration of key busine
 
 ## Causes ▼
 
+- [Customer Dissatisfaction](customer-dissatisfaction.md)
+<br/>  Widespread customer dissatisfaction reduces usage and increases churn, directly lowering engagement, conversion, and revenue metrics.
 - [Slow Application Performance](slow-application-performance.md)
 <br/>  Sluggish application performance drives users away, directly causing drops in engagement, conversion, and revenue metrics.
 - [High Defect Rate in Production](high-defect-rate-in-production.md)

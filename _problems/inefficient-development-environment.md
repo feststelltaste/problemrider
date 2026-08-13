@@ -48,6 +48,8 @@ An inefficient development environment creates friction in the daily workflow of
 
 - [Slow Feature Development](slow-feature-development.md)
 <br/>  Slow build times, test execution, and complex workflows reduce the amount of productive development time available.
+- [Slow Development Velocity](slow-development-velocity.md)
+<br/>  Cumulative time lost to slow tooling and workflows drags down the team's overall delivery pace, not just individual feature work.
 - [Reduced Team Productivity](reduced-team-productivity.md)
 <br/>  Environment friction directly reduces the team's overall output as developers spend time waiting and troubleshooting tools.
 - [Developer Frustration and Burnout](developer-frustration-and-burnout.md)
