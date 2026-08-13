@@ -117,7 +117,7 @@
   &__node { stroke: #fff; stroke-width: 2px; fill: #111; }
   &__node--solution { fill: #007acc; }
   &__node.is-current { stroke: #007acc; stroke-width: 3px; }
-  &__node-link:hover .analysis-trail__node { stroke: #007acc; stroke-width: 3px; }
+  &__node-link:hover .analysis-trail__node { stroke: #111; stroke-width: 3px; }
   &__node-label {
     fill: #555;
     stroke: #f8f9fa;
@@ -176,9 +176,15 @@
   }
   &__node-menu-list button { border-radius: 3px; text-align: left; }
   &__node-menu-show-all { font-weight: bold; text-align: center !important; }
-  &__remove-node { cursor: pointer; }
+  &__remove-node { cursor: pointer; opacity: 0; pointer-events: none; }
+  &__node-link:hover .analysis-trail__remove-node,
+  &__node-link:focus .analysis-trail__remove-node,
+  &__node-link:focus-within .analysis-trail__remove-node {
+    opacity: 1;
+    pointer-events: auto;
+  }
   &__remove-node circle { fill: #fff; stroke: #a0aec0; stroke-width: 1px; }
-  &__remove-node text { fill: #52616b; font-size: 12px; pointer-events: none; }
+  &__remove-node text { fill: #52616b; font-size: 9px; pointer-events: none; }
   &__remove-node:hover circle,
   &__remove-node:focus circle { fill: #e53e3e; stroke: #c53030; }
   &__remove-node:hover text,
@@ -188,7 +194,7 @@
 .analysis-trail-menu-button {
   position: fixed;
   z-index: 15;
-  top: 3.5rem;
+  top: calc(3.5rem + 20px);
   right: 0;
   display: flex;
   flex-direction: column;

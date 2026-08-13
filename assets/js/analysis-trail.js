@@ -3,8 +3,8 @@
 
   // Versioned storage prevents edges created by an older navigation-based
   // implementation from being mixed with the semantic causal graph.
-  var storageKey = 'problemrider-analysis-trail-v7';
-  var pendingKey = 'problemrider-analysis-trail-pending-edge-v7';
+  var storageKey = 'problemrider-analysis-trail-v9';
+  var pendingKey = 'problemrider-analysis-trail-pending-edge-v9';
   var expandedKey = 'problemrider-analysis-trail-expanded-v1';
   var historyKey = 'problemrider-analysis-trail-history-v1';
   var maxNodes = 24;
@@ -17,12 +17,12 @@
       var saved = JSON.parse(window.sessionStorage.getItem(storageKey));
       if (saved && Array.isArray(saved.nodes) && Array.isArray(saved.edges)) {
         saved.positions = saved.positions || {};
-        saved.pan = saved.pan || { x: 0, y: 0 };
+        saved.pan = saved.pan || { x: 0, y: 300 };
         return saved;
       }
-      return { nodes: [], edges: [], positions: {}, pan: { x: 0, y: 0 } };
+      return { nodes: [], edges: [], positions: {}, pan: { x: 0, y: 300 } };
     } catch (error) {
-      return { nodes: [], edges: [], positions: {}, pan: { x: 0, y: 0 } };
+      return { nodes: [], edges: [], positions: {}, pan: { x: 0, y: 300 } };
     }
   }
 
@@ -255,10 +255,10 @@
     var currentNodeId = trail.nodes[trail.nodes.length - 1].id;
     var width = 1200;
     var height = 900;
-    var zoom = Math.max(0.2, Math.min(3, trail.zoom || 1));
+    var zoom = Math.max(0.2, Math.min(3, trail.zoom || 3));
     var visibleWidth = width / zoom;
     var visibleHeight = height / zoom;
-    var pan = trail.pan || { x: 0, y: 0 };
+    var pan = trail.pan || { x: 0, y: 300 };
     var viewBoxX = (width - visibleWidth) / 2 - pan.x;
     var viewBoxY = (height - visibleHeight) / 2 - pan.y;
     var svg = svgElement('svg', { viewBox: viewBoxX + ' ' + viewBoxY + ' ' + visibleWidth + ' ' + visibleHeight, role: 'img', 'aria-label': 'Analysis workbench graph' });
@@ -328,10 +328,10 @@
         line.setAttribute('y', position.y + 24 + index * 10);
       });
       if (elements.removeCircle) {
-        elements.removeCircle.setAttribute('cx', position.x + 12);
-        elements.removeCircle.setAttribute('cy', position.y - 24);
-        elements.removeIcon.setAttribute('x', position.x + 12);
-        elements.removeIcon.setAttribute('y', position.y - 21.5);
+        elements.removeCircle.setAttribute('cx', position.x);
+        elements.removeCircle.setAttribute('cy', position.y - 20);
+        elements.removeIcon.setAttribute('x', position.x);
+        elements.removeIcon.setAttribute('y', position.y - 16.5);
       }
     }
 
@@ -478,9 +478,9 @@
           tabindex: '0',
           'aria-label': 'Remove ' + node.title + ' from the analysis trail'
         });
-        remove.appendChild(svgElement('circle', { cx: position.x + 12, cy: position.y - 24, r: '6' }));
-        var removeIcon = svgElement('text', { x: position.x + 12, y: position.y - 21.5, 'text-anchor': 'middle' });
-        removeIcon.textContent = '×';
+        remove.appendChild(svgElement('circle', { cx: position.x, cy: position.y - 20, r: '7' }));
+        var removeIcon = svgElement('text', { x: position.x, y: position.y - 16.5, 'text-anchor': 'middle' });
+        removeIcon.textContent = '🗑';
         remove.appendChild(removeIcon);
         var removeTitle = svgElement('title');
         removeTitle.textContent = 'Remove leaf node';
@@ -504,7 +504,7 @@
             removeNode();
           }
         });
-        svg.appendChild(remove);
+        link.appendChild(remove);
         nodeElements[node.id].removeCircle = remove.firstChild;
         nodeElements[node.id].removeIcon = removeIcon;
       }
@@ -567,7 +567,7 @@
         clientY: event.clientY,
         scaleX: visibleWidth / bounds.width,
         scaleY: visibleHeight / bounds.height,
-        pan: snapshot(trail.pan || { x: 0, y: 0 })
+        pan: snapshot(trail.pan || { x: 0, y: 300 })
       };
       svg.setPointerCapture(event.pointerId);
       svg.classList.add('is-panning');
@@ -671,7 +671,7 @@
       rememberChange(trail);
       window.sessionStorage.removeItem(storageKey);
       window.sessionStorage.removeItem(pendingKey);
-      var freshTrail = { nodes: [], edges: [], positions: {}, pan: { x: 0, y: 0 }, zoom: 1 };
+      var freshTrail = { nodes: [], edges: [], positions: {}, pan: { x: 0, y: 300 }, zoom: 3 };
       if (node) addCurrentNode(freshTrail, node);
       trail = freshTrail;
       saveTrail(freshTrail);
@@ -680,7 +680,7 @@
 
     function changeZoom(change) {
       rememberChange(trail);
-      trail.zoom = Math.max(0.2, Math.min(3, (trail.zoom || 1) + change));
+      trail.zoom = Math.max(0.2, Math.min(3, (trail.zoom || 3) + change));
       saveTrail(trail);
       render(trail);
     }
