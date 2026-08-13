@@ -12,6 +12,23 @@
   var maxEdges = 30;
   var namespace = 'http://www.w3.org/2000/svg';
   var spacePressed = false;
+  var pendingAdd = null;
+
+  function openAddModal(sourceNode, position) {
+    var modal = document.querySelector('[data-analysis-trail-add-modal]');
+    var type = document.querySelector('[data-analysis-trail-add-modal-type]');
+    var text = document.querySelector('[data-analysis-trail-add-modal-text]');
+    var results = document.querySelector('[data-analysis-trail-add-search-results]');
+    var selection = document.querySelector('[data-analysis-trail-add-selection]');
+    if (!modal || !type || !text) return;
+    pendingAdd = { sourceNode: sourceNode, position: { x: position.x, y: position.y }, selected: null };
+    type.value = 'symptom';
+    text.value = '';
+    if (results) { results.innerHTML = ''; results.hidden = true; }
+    if (selection) selection.textContent = 'Custom node will be created.';
+    modal.hidden = false;
+    text.focus();
+  }
 
   function getTrail() {
     try {
@@ -29,6 +46,18 @@
 
   function saveTrail(trail) {
     window.sessionStorage.setItem(storageKey, JSON.stringify(trail));
+    updateMenuCount();
+  }
+
+  function updateMenuCount() {
+    var badge = document.querySelector('[data-analysis-trail-count]');
+    if (!badge) return;
+    try {
+      var saved = JSON.parse(window.sessionStorage.getItem(storageKey));
+      var count = saved && Array.isArray(saved.nodes) ? saved.nodes.length : 0;
+      badge.textContent = String(count);
+      badge.hidden = count === 0;
+    } catch (error) { badge.hidden = true; }
   }
 
   function snapshot(trail) {
@@ -315,6 +344,13 @@
     var nodeElements = {};
     var nodeMenu;
     var menuHideTimer;
+    var menuHideDelay = 500;
+    var activeControlLink;
+    // Both controls sit above the circle, side by side: "−" left, "+" right.
+    // Keeping the area below the node free lets every label use the same offset.
+    var controlOffsetX = 6;
+    var controlCircleY = -17;
+    var controlTextY = -13;
 
     function updateEdge(edgeInfo) {
       var from = positions[edgeInfo.edge.from];
@@ -346,31 +382,31 @@
       elements.circle.setAttribute('cx', position.x);
       elements.circle.setAttribute('cy', position.y);
       elements.text.setAttribute('x', position.x);
-      elements.text.setAttribute('y', position.y + 24);
+      elements.text.setAttribute('y', position.y + elements.labelOffset);
       elements.labelLines.forEach(function (line, index) {
         line.setAttribute('x', position.x);
-        line.setAttribute('y', position.y + 24 + index * 10);
+        line.setAttribute('y', position.y + elements.labelOffset + index * 10);
       });
       if (elements.removeIcon) {
-        elements.removeHit.setAttribute('cx', position.x);
-        elements.removeHit.setAttribute('cy', position.y - 17);
-        var removeLines = elements.removeIcon.querySelectorAll('line');
-        if (removeLines.length === 2) {
-          removeLines[0].setAttribute('x1', position.x - 4);
-          removeLines[0].setAttribute('y1', position.y - 21);
-          removeLines[0].setAttribute('x2', position.x + 4);
-          removeLines[0].setAttribute('y2', position.y - 13);
-          removeLines[1].setAttribute('x1', position.x + 4);
-          removeLines[1].setAttribute('y1', position.y - 21);
-          removeLines[1].setAttribute('x2', position.x - 4);
-          removeLines[1].setAttribute('y2', position.y - 13);
-        }
+        elements.removeHit.setAttribute('cx', position.x - controlOffsetX);
+        elements.removeHit.setAttribute('cy', position.y + controlCircleY);
+        elements.removeIcon.setAttribute('x', position.x - controlOffsetX);
+        elements.removeIcon.setAttribute('y', position.y + controlTextY);
       }
     }
 
     function updateGraph() {
       edgeElements.forEach(updateEdge);
       Object.keys(nodeElements).forEach(updateNode);
+      Object.keys(nodeElements).forEach(function (nodeId) {
+        var addNode = nodeElements[nodeId].addNode;
+        var position = positions[nodeId];
+        if (!addNode || !position) return;
+        addNode.querySelector('circle').setAttribute('cx', position.x + controlOffsetX);
+        addNode.querySelector('circle').setAttribute('cy', position.y + controlCircleY);
+        addNode.querySelector('text').setAttribute('x', position.x + controlOffsetX);
+        addNode.querySelector('text').setAttribute('y', position.y + controlTextY);
+      });
     }
 
     function updateViewBox() {
@@ -384,7 +420,15 @@
 
     function scheduleMenuHide() {
       window.clearTimeout(menuHideTimer);
-      menuHideTimer = window.setTimeout(hideNodeMenu, 250);
+      menuHideTimer = window.setTimeout(function () {
+        hideNodeMenu();
+        if (activeControlLink) activeControlLink.classList.remove('is-controls-visible');
+        activeControlLink = null;
+      }, menuHideDelay);
+    }
+
+    function keepMenuOpen() {
+      window.clearTimeout(menuHideTimer);
     }
 
     function navigateToReference(sourceNode, kind, reference) {
@@ -404,6 +448,7 @@
     function showNodeMenu(sourceNode) {
       window.clearTimeout(menuHideTimer);
       hideNodeMenu();
+      if (sourceNode.custom) return;
       var position = positions[sourceNode.id];
       if (!position) return;
       nodeMenu = document.createElement('div');
@@ -508,22 +553,39 @@
     });
     displayNodes.forEach(function (node) {
       var position = positions[node.id];
-      var link = svgElement('a', { href: node.url, class: 'analysis-trail__node-link' });
+      var canAddNode = node.id.indexOf('problem:') === 0 || node.type === 'problem';
+      // Both controls sit above the node, so every label keeps the same distance.
+      var labelOffset = 24;
+      // The controls live next to the link, not inside it. Anything nested in an
+      // SVG <a> inherits its text decoration, which showed up as stray underline
+      // fragments beneath the "+" and "−" glyphs.
+      var group = svgElement('g', { class: 'analysis-trail__node-group' });
+      var link = svgElement('a', { href: node.custom ? '#' : node.url, class: 'analysis-trail__node-link', 'aria-label': node.title });
       var circle = svgElement('circle', { cx: position.x, cy: position.y, r: '10', class: 'analysis-trail__node analysis-trail__node--' + node.type.replace(/\s+/g, '-') + (node.id === currentNodeId ? ' is-current' : '') });
-      var title = svgElement('title');
-      title.textContent = node.title;
-      circle.appendChild(title);
+      // No <title> here: the browser renders it as a native tooltip that covers
+      // the reference menu. The label next to the node already names it.
       link.appendChild(circle);
-      var text = svgElement('text', { x: position.x, y: position.y + 24, class: 'analysis-trail__node-label', 'text-anchor': 'middle' });
+      var text = svgElement('text', { x: position.x, y: position.y + labelOffset, class: 'analysis-trail__node-label', 'text-anchor': 'middle' });
       var lines = labelLines(node.title, 20);
       lines.forEach(function (line, index) {
-        var span = svgElement('tspan', { x: position.x, y: position.y + 24 + index * 10 });
+        var span = svgElement('tspan', { x: position.x, y: position.y + labelOffset + index * 10 });
         span.textContent = line;
         text.appendChild(span);
       });
       link.appendChild(text);
-      svg.appendChild(link);
-      nodeElements[node.id] = { circle: circle, text: text, labelLines: Array.prototype.slice.call(text.querySelectorAll('tspan')) };
+      group.appendChild(link);
+      svg.appendChild(group);
+      nodeElements[node.id] = { node: node, group: group, link: link, circle: circle, text: text, labelOffset: labelOffset, labelLines: Array.prototype.slice.call(text.querySelectorAll('tspan')) };
+      if (canAddNode) {
+        var addNode = svgElement('g', { class: 'analysis-trail__add-node', role: 'button', tabindex: '0', 'aria-label': 'Add node to ' + node.title });
+        addNode.appendChild(svgElement('circle', { cx: position.x + controlOffsetX, cy: position.y + controlCircleY, r: '6' }));
+        var addMark = svgElement('text', { x: position.x + controlOffsetX, y: position.y + controlTextY, 'text-anchor': 'middle' });
+        addMark.textContent = '+';
+        addNode.appendChild(addMark);
+        addNode.addEventListener('click', function (event) { event.preventDefault(); event.stopPropagation(); openAddModal(node, positions[node.id]); });
+        group.appendChild(addNode);
+        nodeElements[node.id].addNode = addNode;
+      }
 
       // Every node can be removed; any connected arrows are removed as well.
       {
@@ -534,12 +596,9 @@
           style: 'text-decoration:none',
           'aria-label': 'Remove ' + node.title + ' from the analysis trail'
         });
-        var removeHit = svgElement('circle', { cx: position.x, cy: position.y - 17, r: '12', class: 'analysis-trail__remove-hit' });
-        // Draw the X as two SVG lines instead of a text glyph so link
-        // underline styles can never affect the delete control.
-        var removeIcon = svgElement('g', { class: 'analysis-trail__remove-icon' });
-        removeIcon.appendChild(svgElement('line', { x1: position.x - 4, y1: position.y - 21, x2: position.x + 4, y2: position.y - 13 }));
-        removeIcon.appendChild(svgElement('line', { x1: position.x + 4, y1: position.y - 21, x2: position.x - 4, y2: position.y - 13 }));
+        var removeHit = svgElement('circle', { cx: position.x - controlOffsetX, cy: position.y + controlCircleY, r: '6', class: 'analysis-trail__remove-hit' });
+        var removeIcon = svgElement('text', { x: position.x - controlOffsetX, y: position.y + controlTextY, class: 'analysis-trail__remove-icon', 'text-anchor': 'middle' });
+        removeIcon.textContent = '−';
         remove.appendChild(removeHit);
         remove.appendChild(removeIcon);
         var removeTitle = svgElement('title');
@@ -564,13 +623,14 @@
             removeNode();
           }
         });
-        link.appendChild(remove);
+        group.appendChild(remove);
         nodeElements[node.id].removeHit = removeHit;
         nodeElements[node.id].removeIcon = removeIcon;
       }
     });
     var draggedNodeId = null;
     var dragged = false;
+    var dragStart;
     var suppressClick = false;
     var panning = false;
     var panStart;
@@ -586,25 +646,27 @@
 
     Object.keys(nodeElements).forEach(function (nodeId) {
       var nodeElement = nodeElements[nodeId];
+      // The hover state now lives on the wrapping group so it also covers the
+      // controls that were moved out of the link.
+      var nodeGroup = nodeElement.group;
+      nodeGroup.addEventListener('pointerenter', function () {
+        keepMenuOpen();
+        if (activeControlLink && activeControlLink !== nodeGroup) activeControlLink.classList.remove('is-controls-visible');
+        activeControlLink = nodeGroup;
+        nodeGroup.classList.add('is-controls-visible');
+        showNodeMenu(nodeElement.node);
+      });
+      nodeGroup.addEventListener('pointerleave', scheduleMenuHide);
       nodeElement.circle.addEventListener('pointerdown', function (event) {
         if (event.button !== 0) return;
         if (spacePressed) return;
         event.stopPropagation();
         draggedNodeId = nodeId;
         dragged = false;
+        dragStart = { clientX: event.clientX, clientY: event.clientY };
         svg.setPointerCapture(event.pointerId);
       });
-      nodeElement.circle.addEventListener('pointerup', function (event) {
-        if (draggedNodeId === nodeId && !dragged) {
-          event.preventDefault();
-          window.location.href = nodeElement.circle.parentElement.getAttribute('href');
-        }
-      });
-      nodeElement.circle.addEventListener('pointerenter', function () {
-        showNodeMenu(trail.nodes.filter(function (item) { return item.id === nodeId; })[0]);
-      });
-      nodeElement.circle.addEventListener('pointerleave', scheduleMenuHide);
-      nodeElement.circle.parentElement.addEventListener('click', function (event) {
+      nodeElement.link.addEventListener('click', function (event) {
         if (suppressClick) {
           event.preventDefault();
           suppressClick = false;
@@ -636,11 +698,16 @@
     svg.addEventListener('pointermove', function (event) {
       var point = svgPoint(event);
       if (draggedNodeId) {
+        if (!dragged) {
+          var movementX = event.clientX - dragStart.clientX;
+          var movementY = event.clientY - dragStart.clientY;
+          if (Math.sqrt(movementX * movementX + movementY * movementY) < 4) return;
+          dragged = true;
+        }
         positions[draggedNodeId] = {
           x: Math.max(14, Math.min(width - 14, point.x)),
           y: Math.max(18, Math.min(height - 18, point.y))
         };
-        dragged = true;
         updateGraph();
       } else if (panning) {
         if (!panChanged) rememberChange(trail);
@@ -655,14 +722,20 @@
       }
     });
     svg.addEventListener('pointerup', function (event) {
+      var releasedNodeId = draggedNodeId;
       if (draggedNodeId && dragged) {
         rememberChange(trail);
         trail.positions[draggedNodeId] = positions[draggedNodeId];
         saveTrail(trail);
         suppressClick = true;
       }
+      if (releasedNodeId && !dragged) {
+        var clickedNode = trail.nodes.filter(function (item) { return item.id === releasedNodeId; })[0];
+        if (clickedNode && !clickedNode.custom) window.location.href = clickedNode.url;
+      }
       if (svg.hasPointerCapture(event.pointerId)) svg.releasePointerCapture(event.pointerId);
       draggedNodeId = null;
+      dragStart = null;
       if (panning && panChanged) {
         saveTrail(trail);
         suppressClick = true;
@@ -674,6 +747,7 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
+    updateMenuCount();
     var speedNav = document.querySelector('[data-analysis-trail-speed-nav]');
     if (speedNav) {
       var savedSpeedNav = window.sessionStorage.getItem(speedNavKey);
@@ -714,6 +788,172 @@
     });
     var trail = getTrail();
     var node = currentNode();
+    var addModal = document.querySelector('[data-analysis-trail-add-modal]');
+    var addModalType = document.querySelector('[data-analysis-trail-add-modal-type]');
+    var addModalText = document.querySelector('[data-analysis-trail-add-modal-text]');
+    if (addModal && addModal.parentElement !== document.body) document.body.appendChild(addModal);
+    var addSearchResults = document.querySelector('[data-analysis-trail-add-search-results]');
+    var addSelection = document.querySelector('[data-analysis-trail-add-selection]');
+    var catalog = { problems: [], solutions: [] };
+    try { catalog = JSON.parse(document.querySelector('[data-analysis-trail-catalog]').textContent); } catch (error) { catalog = { problems: [], solutions: [] }; }
+
+    function closeAddModal() {
+      addModal.hidden = true;
+      pendingAdd = null;
+      addSearchResults.innerHTML = '';
+      addSearchResults.hidden = true;
+    }
+
+    function updateAddSearch() {
+      if (!pendingAdd) return;
+      pendingAdd.selected = null;
+      addSelection.textContent = 'Custom node will be created.';
+      addSearchResults.innerHTML = '';
+      var query = addModalText.value.trim().toLowerCase();
+      if (!query) { addSearchResults.hidden = true; return; }
+      var pool = addModalType.value === 'solution' ? catalog.solutions : catalog.problems;
+      var matches = pool.filter(function (item) {
+        return item.id !== pendingAdd.sourceNode.id && item.title.toLowerCase().indexOf(query) !== -1;
+      }).slice(0, 8);
+      matches.forEach(function (item) {
+        var result = document.createElement('button');
+        result.type = 'button';
+        result.setAttribute('role', 'option');
+        result.textContent = item.title;
+        result.addEventListener('click', function () {
+          pendingAdd.selected = item;
+          addModalText.value = item.title;
+          addSelection.textContent = 'Existing ' + (addModalType.value === 'solution' ? 'solution' : 'problem') + ' selected.';
+          addSearchResults.hidden = true;
+        });
+        addSearchResults.appendChild(result);
+      });
+      addSearchResults.hidden = matches.length === 0;
+    }
+
+    addModalText.addEventListener('input', updateAddSearch);
+    addModalType.addEventListener('change', updateAddSearch);
+    document.querySelector('[data-analysis-trail-add-modal-cancel]').addEventListener('click', closeAddModal);
+    document.querySelector('[data-analysis-trail-add-modal-submit]').addEventListener('click', function () {
+      if (!pendingAdd || !addModalText.value.trim()) return;
+      var sourceNode = pendingAdd.sourceNode;
+      var kind = addModalType.value;
+      var selected = pendingAdd.selected;
+      if (!selected) {
+        var exactPool = kind === 'solution' ? catalog.solutions : catalog.problems;
+        selected = exactPool.filter(function (item) {
+          return item.id !== sourceNode.id && item.title.toLowerCase() === addModalText.value.trim().toLowerCase();
+        })[0] || null;
+      }
+      var targetId = selected ? selected.id : 'custom:' + Date.now() + '-' + Math.random().toString(36).slice(2, 8);
+      var targetNode = {
+        id: targetId,
+        title: selected ? selected.title : addModalText.value.trim(),
+        type: kind === 'cause' ? 'root cause' : kind,
+        custom: !selected,
+        url: selected ? selected.url : '#'
+      };
+      rememberChange(trail);
+      addCurrentNode(trail, targetNode);
+      var sourcePosition = pendingAdd.position;
+      trail.positions[targetId] = { x: Math.min(1186, sourcePosition.x + 190), y: sourcePosition.y };
+      var edge = kind === 'cause' ? { from: sourceNode.id, to: targetId, label: 'causes' } : { from: targetId, to: sourceNode.id, label: kind === 'solution' ? 'addresses' : 'causes' };
+      if (!trail.edges.some(function (item) { return item.from === edge.from && item.to === edge.to && item.label === edge.label; })) trail.edges.push(edge);
+      if (trail.edges.length > maxEdges) trail.edges.shift();
+      saveTrail(trail);
+      closeAddModal();
+      render(trail);
+    });
+    addModalText.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') document.querySelector('[data-analysis-trail-add-modal-submit]').click();
+      if (event.key === 'Escape') closeAddModal();
+    });
+
+    // Quick search reuses the same catalog as the add-node search, but it drops
+    // the hit straight onto the canvas instead of attaching it to a source node.
+    var quickSearch = document.querySelector('[data-analysis-trail-quick-search]');
+    var quickFilter = document.querySelector('[data-analysis-trail-quick-filter]');
+    var quickResults = document.querySelector('[data-analysis-trail-quick-results]');
+
+    function quickPool() {
+      var kind = quickFilter ? quickFilter.value : 'all';
+      var problems = kind === 'solution' ? [] : catalog.problems.map(function (item) { return { item: item, type: 'problem' }; });
+      var solutions = kind === 'problem' ? [] : catalog.solutions.map(function (item) { return { item: item, type: 'solution' }; });
+      return problems.concat(solutions);
+    }
+
+    function freePosition() {
+      // Drop new nodes into the first free slot of a coarse grid so repeated
+      // searches do not stack every hit on the same spot.
+      var used = Object.keys(trail.positions).map(function (id) { return trail.positions[id]; });
+      for (var row = 0; row < 20; row++) {
+        for (var column = 0; column < 6; column++) {
+          var candidate = { x: 120 + column * 190, y: 60 + row * 90 };
+          var taken = used.some(function (position) {
+            return Math.abs(position.x - candidate.x) < 90 && Math.abs(position.y - candidate.y) < 50;
+          });
+          if (!taken) return candidate;
+        }
+      }
+      return { x: 120, y: 60 };
+    }
+
+    function addQuickNode(entry) {
+      var existing = trail.nodes.some(function (item) { return item.id === entry.item.id; });
+      rememberChange(trail);
+      addCurrentNode(trail, {
+        id: entry.item.id,
+        title: entry.item.title,
+        type: entry.type,
+        custom: false,
+        url: entry.item.url
+      });
+      if (!existing) trail.positions[entry.item.id] = freePosition();
+      saveTrail(trail);
+      render(trail);
+    }
+
+    function updateQuickSearch() {
+      if (!quickResults) return;
+      quickResults.innerHTML = '';
+      var query = quickSearch.value.trim().toLowerCase();
+      if (!query) { quickResults.hidden = true; return; }
+      var matches = quickPool().filter(function (entry) {
+        return entry.item.title.toLowerCase().indexOf(query) !== -1;
+      }).slice(0, 8);
+      matches.forEach(function (entry) {
+        var result = document.createElement('button');
+        result.type = 'button';
+        result.setAttribute('role', 'option');
+        var badge = document.createElement('span');
+        badge.className = 'analysis-trail__quick-badge analysis-trail__quick-badge--' + entry.type;
+        badge.textContent = entry.type === 'solution' ? 'Solution' : 'Problem';
+        result.appendChild(badge);
+        result.appendChild(document.createTextNode(entry.item.title));
+        result.addEventListener('click', function () {
+          quickSearch.value = '';
+          quickResults.hidden = true;
+          addQuickNode(entry);
+        });
+        quickResults.appendChild(result);
+      });
+      quickResults.hidden = matches.length === 0;
+    }
+
+    if (quickSearch && quickResults) {
+      quickSearch.addEventListener('input', updateQuickSearch);
+      if (quickFilter) quickFilter.addEventListener('change', updateQuickSearch);
+      quickSearch.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') { quickSearch.value = ''; quickResults.hidden = true; }
+        if (event.key === 'Enter') {
+          var first = quickResults.querySelector('button');
+          if (first) first.click();
+        }
+      });
+      document.addEventListener('click', function (event) {
+        if (!quickResults.contains(event.target) && event.target !== quickSearch) quickResults.hidden = true;
+      });
+    }
     addCurrentNode(trail, node);
     addPendingEdge(trail, node);
     saveTrail(trail);
@@ -772,6 +1012,107 @@
     var zoomOut = document.querySelector('[data-analysis-trail-zoom-out]');
     if (zoomIn) zoomIn.addEventListener('click', function () { changeZoom(0.2); });
     if (zoomOut) zoomOut.addEventListener('click', function () { changeZoom(-0.2); });
+
+    function graphSvgForRasterExport() {
+      var svg = document.querySelector('[data-analysis-trail-graph] svg');
+      if (!svg) return null;
+      var exportSvg = svg.cloneNode(true);
+      exportSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+      exportSvg.setAttribute('xmlns:xlink', 'http://www.w3.org/1999/xlink');
+      exportSvg.setAttribute('style', 'background:#fff;font-family:Arial,sans-serif');
+      exportSvg.querySelectorAll('.analysis-trail__edge').forEach(function (edge) {
+        edge.setAttribute('fill', 'none');
+        edge.setAttribute('stroke', edge.classList.contains('analysis-trail__edge--related') ? '#e5e7eb' : (edge.classList.contains('analysis-trail__edge--contextual-causes') ? '#d7dce2' : '#a0aec0'));
+        edge.setAttribute('stroke-width', edge.classList.contains('analysis-trail__edge--related') ? '1' : '1.6');
+        if (edge.classList.contains('analysis-trail__edge--addresses')) edge.setAttribute('stroke-dasharray', '5 3');
+      });
+      exportSvg.querySelectorAll('.analysis-trail__node').forEach(function (nodeElement) {
+        var solution = nodeElement.classList.contains('analysis-trail__node--solution');
+        nodeElement.setAttribute('fill', solution ? '#007acc' : '#111');
+        nodeElement.setAttribute('stroke', nodeElement.classList.contains('is-current') ? (solution ? '#111' : '#007acc') : (solution ? 'transparent' : '#fff'));
+        nodeElement.setAttribute('stroke-width', '2');
+      });
+      exportSvg.querySelectorAll('.analysis-trail__node-label').forEach(function (label) {
+        label.setAttribute('fill', '#555');
+        label.setAttribute('stroke', '#fff');
+        label.setAttribute('stroke-width', '3');
+        label.setAttribute('paint-order', 'stroke');
+        label.setAttribute('font-family', 'Arial, sans-serif');
+        label.setAttribute('font-size', '8');
+      });
+      exportSvg.querySelectorAll('.analysis-trail__remove-node,.analysis-trail__add-node').forEach(function (control) { control.remove(); });
+      var viewBox = svg.viewBox.baseVal;
+      exportSvg.setAttribute('width', viewBox.width);
+      exportSvg.setAttribute('height', viewBox.height);
+      return { source: new XMLSerializer().serializeToString(exportSvg), width: viewBox.width, height: viewBox.height };
+    }
+
+    function pngWithDpi(blob, dpi) {
+      return blob.arrayBuffer().then(function (buffer) {
+        var source = new Uint8Array(buffer);
+        var pixelsPerMeter = Math.round(dpi / 0.0254);
+        var type = new Uint8Array([112, 72, 89, 115]);
+        var data = new Uint8Array(9);
+        var dataView = new DataView(data.buffer);
+        dataView.setUint32(0, pixelsPerMeter);
+        dataView.setUint32(4, pixelsPerMeter);
+        data[8] = 1;
+        var crcInput = new Uint8Array(type.length + data.length);
+        crcInput.set(type); crcInput.set(data, type.length);
+        var crc = 0xffffffff;
+        for (var index = 0; index < crcInput.length; index++) {
+          crc ^= crcInput[index];
+          for (var bit = 0; bit < 8; bit++) crc = (crc >>> 1) ^ ((crc & 1) ? 0xedb88320 : 0);
+        }
+        crc = (crc ^ 0xffffffff) >>> 0;
+        var chunk = new Uint8Array(21);
+        var chunkView = new DataView(chunk.buffer);
+        chunkView.setUint32(0, 9);
+        chunk.set(type, 4);
+        chunk.set(data, 8);
+        chunkView.setUint32(17, crc);
+        var result = new Uint8Array(source.length + chunk.length);
+        result.set(source.slice(0, 33), 0);
+        result.set(chunk, 33);
+        result.set(source.slice(33), 54);
+        return new Blob([result], { type: 'image/png' });
+      });
+    }
+
+    var pngExportButton = document.querySelector('[data-analysis-trail-png-export]');
+    if (pngExportButton) pngExportButton.addEventListener('click', function () {
+      var exported = graphSvgForRasterExport();
+      if (!exported) return;
+      var scale = 300 / 96;
+      var canvas = document.createElement('canvas');
+      canvas.width = Math.max(1, Math.round(exported.width * scale));
+      canvas.height = Math.max(1, Math.round(exported.height * scale));
+      var context = canvas.getContext('2d');
+      context.fillStyle = '#fff';
+      context.fillRect(0, 0, canvas.width, canvas.height);
+      var image = new Image();
+      var svgUrl = URL.createObjectURL(new Blob([exported.source], { type: 'image/svg+xml;charset=utf-8' }));
+      image.onload = function () {
+        context.drawImage(image, 0, 0, canvas.width, canvas.height);
+        URL.revokeObjectURL(svgUrl);
+        canvas.toBlob(function (blob) {
+          if (!blob) return;
+          pngWithDpi(blob, 300).then(function (pngBlob) {
+            var link = document.createElement('a');
+            link.href = URL.createObjectURL(pngBlob);
+            var timestamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z');
+            link.download = 'analysis-workbench-300dpi-' + timestamp + '.png';
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+            URL.revokeObjectURL(link.href);
+          });
+        }, 'image/png');
+      };
+      image.onerror = function () { URL.revokeObjectURL(svgUrl); window.alert('Could not create the PNG export.'); };
+      image.src = svgUrl;
+    });
+
     var exportButton = document.querySelector('[data-analysis-trail-export]');
     if (exportButton) exportButton.addEventListener('click', function () {
       var svg = document.querySelector('[data-analysis-trail-graph] svg');
@@ -789,7 +1130,7 @@
       });
       exportSvg.querySelectorAll('.analysis-trail__node').forEach(function (nodeElement) {
         nodeElement.setAttribute('fill', nodeElement.classList.contains('analysis-trail__node--solution') ? '#007acc' : '#111');
-        nodeElement.setAttribute('stroke', '#fff');
+        nodeElement.setAttribute('stroke', nodeElement.classList.contains('is-current') ? (nodeElement.classList.contains('analysis-trail__node--solution') ? '#111' : '#007acc') : (nodeElement.classList.contains('analysis-trail__node--solution') ? 'transparent' : '#fff'));
         nodeElement.setAttribute('stroke-width', '2');
       });
       exportSvg.querySelectorAll('.analysis-trail__node-label').forEach(function (label) {
@@ -807,7 +1148,8 @@
         '.analysis-trail__edge--related{stroke:#e5e7eb;stroke-width:1}',
         '.analysis-trail__edge--addresses{stroke-dasharray:5 3}',
         '.analysis-trail__node{fill:#111;stroke:#fff;stroke-width:2}',
-        '.analysis-trail__node--solution{fill:#007acc}',
+        '.analysis-trail__node--solution{fill:#007acc;stroke:transparent}',
+        '.analysis-trail__node--solution.is-current{stroke:#111}',
         '.analysis-trail__node-label{fill:#555;stroke:#fff;stroke-width:3;paint-order:stroke;font-size:8px}',
         '.analysis-trail__remove-node{display:none}'
       ].join('');
@@ -823,6 +1165,161 @@
       link.click();
       link.remove();
       URL.revokeObjectURL(url);
+    });
+
+    var drawioExportButton = document.querySelector('[data-analysis-trail-drawio-export]');
+    if (drawioExportButton) drawioExportButton.addEventListener('click', function () {
+      function xmlEscape(value) {
+        return String(value == null ? '' : value)
+          .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+      }
+
+      var cells = [
+        '<mxCell id="0"/>',
+        '<mxCell id="1" parent="0"/>'
+      ];
+      trail.nodes.forEach(function (node) {
+        var position = trail.positions[node.id] || { x: 0, y: 0 };
+        var isSolution = node.type === 'solution';
+        var fill = isSolution ? '#c9daf8' : '#f4cccc';
+        var stroke = isSolution ? '#1155cc' : '#cc0000';
+        var cellId = xmlEscape(node.id);
+        cells.push('<mxCell id="' + cellId + '" value="' + xmlEscape(node.title) + '" style="rounded=1;whiteSpace=wrap;html=1;fillColor=' + fill + ';strokeColor=' + stroke + ';" vertex="1" parent="1"><mxGeometry x="' + Number(position.x || 0) + '" y="' + Number(position.y || 0) + '" width="180" height="60" as="geometry"/></mxCell>');
+      });
+      trail.edges.forEach(function (edge, index) {
+        var style = 'endArrow=block;endFill=1;strokeColor=#adb5bd;';
+        if (edge.label === 'related') style += 'dashed=1;';
+        cells.push('<mxCell id="edge-' + index + '" value="' + xmlEscape(edge.label || '') + '" style="' + style + '" edge="1" parent="1" source="' + xmlEscape(edge.from) + '" target="' + xmlEscape(edge.to) + '"><mxGeometry relative="1" as="geometry"/></mxCell>');
+      });
+
+      var source = '<?xml version="1.0" encoding="UTF-8"?><mxfile host="app.diagrams.net"><diagram name="Analysis Workbench"><mxGraphModel><root>' + cells.join('') + '</root></mxGraphModel></diagram></mxfile>';
+      var blob = new Blob([source], { type: 'application/xml;charset=utf-8' });
+      var link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      var timestamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z');
+      link.download = 'analysis-workbench-drawio-' + timestamp + '.drawio';
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(link.href);
+    });
+
+    var excalidrawExportButton = document.querySelector('[data-analysis-trail-excalidraw-export]');
+    if (excalidrawExportButton) excalidrawExportButton.addEventListener('click', function () {
+      function id(prefix, index) { return prefix + '-' + index + '-' + Date.now(); }
+      function colorFor(node) { return node.type === 'solution' ? { background: '#c9daf8', stroke: '#1155cc' } : { background: '#f4cccc', stroke: '#cc0000' }; }
+      function positionFor(node) {
+        var position = trail.positions[node.id] || { x: 0, y: 0 };
+        var spread = 2.5;
+        return { x: 600 + (position.x - 600) * spread, y: 450 + (position.y - 450) * spread };
+      }
+      var elements = [];
+      var elementIds = {};
+      var boxElements = {};
+      trail.nodes.forEach(function (node, index) {
+        var position = positionFor(node);
+        var colors = colorFor(node);
+        var boxId = id('box', index);
+        var textId = id('text', index);
+        elementIds[node.id] = boxId;
+        var box = { type: 'rectangle', version: 1, versionNonce: index + 1, isDeleted: false, id: boxId, fillStyle: 'solid', strokeWidth: 2, strokeStyle: 'solid', roughness: 0, opacity: 100, angle: 0, x: position.x - 90, y: position.y - 30, strokeColor: colors.stroke, backgroundColor: colors.background, width: 180, height: 60, seed: index + 1, groupIds: [], roundness: { type: 3 }, boundElements: [{ id: textId, type: 'text' }], updated: Date.now(), link: null, locked: false };
+        boxElements[node.id] = box;
+        elements.push(box);
+        elements.push({ type: 'text', version: 1, versionNonce: index + 1001, isDeleted: false, id: textId, text: node.title, originalText: node.title, autoResize: false, lineHeight: 1.25, baseline: 16, fontSize: 14, fontFamily: 1, textAlign: 'center', verticalAlign: 'middle', containerId: boxId, strokeColor: '#1e1e1e', backgroundColor: 'transparent', fillStyle: 'solid', strokeWidth: 1, strokeStyle: 'solid', roughness: 0, opacity: 100, angle: 0, x: position.x - 80, y: position.y - 10, width: 160, height: 20, seed: index + 2001, groupIds: [], boundElements: [], updated: Date.now(), link: node.custom ? null : node.url, locked: false });
+      });
+      trail.edges.forEach(function (edge, index) {
+        var from = positionFor(trail.nodes.filter(function (node) { return node.id === edge.from; })[0] || {});
+        var to = positionFor(trail.nodes.filter(function (node) { return node.id === edge.to; })[0] || {});
+        var fromId = elementIds[edge.from];
+        var toId = elementIds[edge.to];
+        if (!fromId || !toId) return;
+        var arrowId = id('arrow', index);
+        var deltaX = to.x - from.x;
+        var deltaY = to.y - from.y;
+        var scale = Math.min(Math.abs(deltaX) ? 90 / Math.abs(deltaX) : Infinity, Math.abs(deltaY) ? 30 / Math.abs(deltaY) : Infinity);
+        var startX = from.x + deltaX * scale;
+        var startY = from.y + deltaY * scale;
+        var endX = to.x - deltaX * scale;
+        var endY = to.y - deltaY * scale;
+        boxElements[edge.from].boundElements.push({ id: arrowId, type: 'arrow' });
+        boxElements[edge.to].boundElements.push({ id: arrowId, type: 'arrow' });
+        elements.push({ type: 'arrow', version: 1, versionNonce: index + 3001, isDeleted: false, id: arrowId, fillStyle: 'solid', strokeWidth: 2, strokeStyle: edge.label === 'related' ? 'dashed' : 'solid', roughness: 0, opacity: 100, angle: 0, x: startX, y: startY, strokeColor: '#adb5bd', backgroundColor: 'transparent', width: endX - startX, height: endY - startY, seed: index + 4001, points: [[0, 0], [endX - startX, endY - startY]], startBinding: { elementId: fromId, focus: 0, gap: 5 }, endBinding: { elementId: toId, focus: 0, gap: 5 }, startArrowhead: null, endArrowhead: 'arrow', updated: Date.now(), link: null, locked: false });
+      });
+      var payload = { type: 'excalidraw', version: 2, source: 'problemrider', elements: elements, appState: { viewBackgroundColor: '#ffffff' }, files: {} };
+      var blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+      var link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      var timestamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z');
+      link.download = 'analysis-workbench-excalidraw-' + timestamp + '.excalidraw';
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(link.href);
+    });
+
+    var saveWorkbenchButton = document.querySelector('[data-analysis-trail-save]');
+    if (saveWorkbenchButton) saveWorkbenchButton.addEventListener('click', function () {
+      var payload = {
+        format: 'problemrider-analysis-workbench',
+        version: 1,
+        exportedAt: new Date().toISOString(),
+        trail: snapshot(trail)
+      };
+      var blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+      var link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      var timestamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}Z$/, 'Z');
+      link.download = 'analysis-workbench-' + timestamp + '.json';
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(link.href);
+    });
+
+    function validatedWorkbench(payload) {
+      if (!payload || payload.format !== 'problemrider-analysis-workbench' || payload.version !== 1 || !payload.trail) throw new Error('Unsupported workbench file');
+      var source = payload.trail;
+      if (!Array.isArray(source.nodes) || !Array.isArray(source.edges)) throw new Error('Invalid workbench data');
+      var allowedTypes = ['problem', 'symptom', 'root cause', 'solution'];
+      var nodes = source.nodes.slice(0, maxNodes).filter(function (item) {
+        return item && typeof item.id === 'string' && typeof item.title === 'string' && allowedTypes.indexOf(item.type) !== -1;
+      }).map(function (item) {
+        var custom = item.custom === true;
+        var safeUrl = custom ? '#' : (typeof item.url === 'string' && /^\/(problems|solutions)\/[^/]+\.html(?:\?.*)?$/.test(item.url) ? item.url : '#');
+        return { id: item.id.slice(0, 250), title: item.title.slice(0, 500), type: item.type, custom: custom || safeUrl === '#', url: safeUrl };
+      });
+      var ids = {};
+      nodes.forEach(function (item) { ids[item.id] = true; });
+      var edges = source.edges.slice(0, maxEdges).filter(function (item) {
+        return item && ids[item.from] && ids[item.to] && typeof item.label === 'string';
+      }).map(function (item) { return { from: item.from, to: item.to, label: item.label.slice(0, 80) }; });
+      var positions = {};
+      nodes.forEach(function (item) {
+        var position = source.positions && source.positions[item.id];
+        if (position && Number.isFinite(position.x) && Number.isFinite(position.y)) positions[item.id] = { x: position.x, y: position.y };
+      });
+      var pan = source.pan && Number.isFinite(source.pan.x) && Number.isFinite(source.pan.y) ? { x: source.pan.x, y: source.pan.y } : { x: 0, y: 300 };
+      var result = { nodes: nodes, edges: edges, positions: positions, pan: pan };
+      if (Number.isFinite(source.zoom)) result.zoom = Math.max(0.2, Math.min(3, source.zoom));
+      return result;
+    }
+
+    var loadWorkbenchButton = document.querySelector('[data-analysis-trail-load]');
+    var loadWorkbenchFile = document.querySelector('[data-analysis-trail-load-file]');
+    if (loadWorkbenchButton) loadWorkbenchButton.addEventListener('click', function () { loadWorkbenchFile.click(); });
+    if (loadWorkbenchFile) loadWorkbenchFile.addEventListener('change', function () {
+      var file = loadWorkbenchFile.files && loadWorkbenchFile.files[0];
+      if (!file) return;
+      file.text().then(function (content) {
+        var imported = validatedWorkbench(JSON.parse(content));
+        rememberChange(trail);
+        trail = imported;
+        saveTrail(trail);
+        render(trail);
+      }).catch(function () {
+        window.alert('This is not a valid ProblemRider Analysis Workbench file.');
+      }).finally(function () { loadWorkbenchFile.value = ''; });
     });
 
     function restoreHistory(direction) {

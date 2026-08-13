@@ -13,18 +13,76 @@
       <button type="button" class="analysis-trail__zoom" data-analysis-trail-zoom-in aria-label="Zoom in">+</button>
       <button type="button" class="analysis-trail__zoom" data-analysis-trail-undo aria-label="Undo graph change">↶</button>
       <button type="button" class="analysis-trail__zoom" data-analysis-trail-redo aria-label="Redo graph change">↷</button>
-      <button type="button" class="analysis-trail__mode" data-analysis-trail-export aria-label="Download graph as SVG">SVG</button>
+      <span class="analysis-trail__exports" aria-label="Graph exports">
+        <span class="analysis-trail__export-primary">
+          <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-export aria-label="Download graph as SVG">SVG</button>
+          <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-png-export aria-label="Download graph as 300 DPI PNG">PNG</button>
+        </span>
+        <span class="analysis-trail__export-secondary">
+          <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-drawio-export aria-label="Export graph for Draw.io">Draw.io</button>
+          <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-excalidraw-export aria-label="Export graph for Excalidraw">Excalidraw</button>
+        </span>
+      </span>
+      <span class="analysis-trail__workbench-files" aria-label="Save or load Analysis Workbench">
+        <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-save>Save</button>
+        <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-load>Load</button>
+        <input type="file" data-analysis-trail-load-file accept="application/json,.json" hidden>
+      </span>
       <button type="button" class="analysis-trail__mode" data-analysis-trail-mode aria-pressed="false">Close</button>
       <button type="button" class="analysis-trail__reset" data-analysis-trail-reset>Reset</button>
     </div>
   </div>
   <div class="analysis-trail__graph" data-analysis-trail-graph aria-live="polite"></div>
-  <ul class="analysis-trail__legend" aria-label="Connection legend">
-    <li><span class="analysis-trail__legend-line analysis-trail__legend-line--causes"></span>Causes</li>
-    <li><span class="analysis-trail__legend-line analysis-trail__legend-line--addresses"></span>Addresses</li>
-    <li><span class="analysis-trail__legend-line analysis-trail__legend-line--similar"></span>Similar</li>
-  </ul>
-  <p class="analysis-trail__hint">Your path is saved in this browser tab. Select a node to return to it.</p>
+  <div class="analysis-trail__add-modal" data-analysis-trail-add-modal hidden>
+    <div class="analysis-trail__add-modal-content" role="dialog" aria-modal="true" aria-labelledby="analysis-trail-add-modal-title">
+      <h3 id="analysis-trail-add-modal-title">Add node</h3>
+      <label>Type
+        <select data-analysis-trail-add-modal-type>
+          <option value="symptom">Symptom</option>
+          <option value="cause">Cause</option>
+          <option value="solution">Solution</option>
+        </select>
+      </label>
+      <label>Text
+        <input type="text" data-analysis-trail-add-modal-text placeholder="Type to search or add custom text" autocomplete="off">
+      </label>
+      <div class="analysis-trail__add-search-results" data-analysis-trail-add-search-results role="listbox" hidden></div>
+      <p class="analysis-trail__add-selection" data-analysis-trail-add-selection>Custom node will be created.</p>
+      <div class="analysis-trail__add-modal-actions">
+        <button type="button" data-analysis-trail-add-modal-cancel>Cancel</button>
+        <button type="button" data-analysis-trail-add-modal-submit>Add node</button>
+      </div>
+    </div>
+  </div>
+  <div class="analysis-trail__legend-row">
+    <ul class="analysis-trail__legend" aria-label="Connection legend">
+      <li><span class="analysis-trail__legend-node analysis-trail__legend-node--problem"></span>Problem</li>
+      <li><span class="analysis-trail__legend-node analysis-trail__legend-node--solution"></span>Solution</li>
+      <li><span class="analysis-trail__legend-line analysis-trail__legend-line--causes"></span>Causes</li>
+      <li><span class="analysis-trail__legend-line analysis-trail__legend-line--addresses"></span>Addresses</li>
+      <li><span class="analysis-trail__legend-line analysis-trail__legend-line--similar"></span>Similar</li>
+    </ul>
+    <div class="analysis-trail__quick-search">
+      <select data-analysis-trail-quick-filter aria-label="Limit quick search to a type">
+        <option value="all">All</option>
+        <option value="problem">Problems</option>
+        <option value="solution">Solutions</option>
+      </select>
+      <input type="search" data-analysis-trail-quick-search placeholder="Quick search…" aria-label="Search problems and solutions" autocomplete="off">
+      <div class="analysis-trail__quick-results" data-analysis-trail-quick-results role="listbox" hidden></div>
+    </div>
+  </div>
 </aside>
+
+<script type="application/json" data-analysis-trail-catalog>
+{
+  "problems": [
+    {% for item in site.problems %}{"id": {{ item.slug | prepend: 'problem:' | jsonify }}, "title": {{ item.title | jsonify }}, "url": {{ item.url | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
+  ],
+  "solutions": [
+    {% for item in site.solutions %}{"id": {{ item.slug | prepend: 'solution:' | jsonify }}, "title": {{ item.title | jsonify }}, "url": {{ item.url | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
+  ]
+}
+</script>
 
 <script src="{{ '/assets/js/analysis-trail.js' | relative_url }}" defer></script>
