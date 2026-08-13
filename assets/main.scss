@@ -14,7 +14,7 @@
   width: auto;
   padding: 1.1rem;
   border: 1px solid #ddd;
-  border-top: 1px solid #111;
+  border-top: 2px solid #007acc;
   border-radius: 8px;
   background: #fff;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
@@ -194,14 +194,14 @@
   &__node-menu-list.is-expanded { max-height: none; }
   &__node-menu-list button { border-radius: 3px; text-align: left; }
   &__node-menu-show-all { font-weight: bold; text-align: center !important; }
-  &__remove-node { cursor: pointer; opacity: 0; pointer-events: auto; }
+  &__remove-node { cursor: pointer; opacity: 0; pointer-events: auto; text-decoration: none; }
   &__node-link:hover .analysis-trail__remove-node,
   &__node-link:focus .analysis-trail__remove-node,
   &__node-link:focus-within .analysis-trail__remove-node {
     opacity: 1;
     pointer-events: auto;
   }
-  &__remove-node text { fill: #111; font-size: 15px; font-weight: bold; pointer-events: auto; }
+  &__remove-node text { fill: #111; font-size: 15px; font-weight: bold; pointer-events: auto; text-decoration: none; }
   &__remove-hit { fill: transparent; stroke: none; pointer-events: painted; }
   &__remove-node:hover text,
   &__remove-node:focus text { fill: #e53e3e; }
@@ -305,7 +305,7 @@
       padding: 2rem;
       border: 0;
       border-left: 1px solid #ddd;
-      border-top: 1px solid #111;
+      border-top: 2px solid #007acc;
       border-radius: 0;
       box-shadow: -3px 0 12px rgba(0, 0, 0, 0.08);
 
