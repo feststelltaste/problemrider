@@ -7,6 +7,7 @@
   var pendingKey = 'problemrider-analysis-trail-pending-edge-v12';
   var expandedKey = 'problemrider-analysis-trail-expanded-v1';
   var historyKey = 'problemrider-analysis-trail-history-v1';
+  var speedNavKey = 'problemrider-analysis-trail-speed-nav-v1';
   var maxNodes = 24;
   var maxEdges = 30;
   var namespace = 'http://www.w3.org/2000/svg';
@@ -613,10 +614,20 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
+    var speedNav = document.querySelector('[data-analysis-trail-speed-nav]');
+    if (speedNav) {
+      var savedSpeedNav = window.sessionStorage.getItem(speedNavKey);
+      if (savedSpeedNav !== null) speedNav.checked = savedSpeedNav === 'true';
+      speedNav.addEventListener('change', function () {
+        window.sessionStorage.setItem(speedNavKey, String(speedNav.checked));
+      });
+    }
+
     // Number keys provide quick section navigation on problem and solution
     // detail pages: 1 = first heading, 2 = second heading, and so on.
     document.addEventListener('keydown', function (event) {
       if (!/^[1-9]$/.test(event.key) || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+      if (speedNav && !speedNav.checked) return;
       if (/^(INPUT|TEXTAREA|SELECT|BUTTON)$/.test(event.target.tagName) || event.target.isContentEditable) return;
       var headings = Array.prototype.slice.call(document.querySelectorAll('.page-main-content h1, .page-main-content h2, .page-main-content h3'));
       var heading = headings[Number(event.key) - 1];

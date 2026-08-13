@@ -38,6 +38,20 @@
     align-items: center;
   }
 
+  &__speed-nav {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 0.25rem;
+    color: #555;
+    font-size: 0.72rem;
+    line-height: 1.1;
+    cursor: pointer;
+
+    input { margin: 0.1rem 0 0; }
+    span { display: flex; flex-direction: column; }
+    small { color: #888; font-size: 0.62rem; }
+  }
+
   &__summary,
   &__hint,
   &__empty {
