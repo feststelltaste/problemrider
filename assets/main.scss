@@ -150,11 +150,13 @@
     li { display: flex; align-items: center; gap: 0.25rem; }
   }
 
+  // The legend uses exactly the stroke colours of the graph edges, so a legend
+  // entry and the line it explains never differ in shade.
   &__legend-line {
     position: relative;
     display: inline-block;
     width: 1.25rem;
-    border-top: 2px solid #4a5568;
+    border-top: 2px solid #cbd5e1;
 
     &--causes::after,
     &--addresses::after {
@@ -165,12 +167,12 @@
       height: 0;
       border-top: 4px solid transparent;
       border-bottom: 4px solid transparent;
-      border-left: 5px solid #4a5568;
+      border-left: 5px solid #cbd5e1;
       content: '';
     }
 
     &--addresses { border-top-style: dashed; }
-    &--similar { border-top-color: #e5e7eb; }
+    &--similar { border-top-color: #f1f5f9; }
   }
 
   &__legend-node {
@@ -232,9 +234,9 @@
   &__graph svg { display: block; width: 100%; min-height: 185px; cursor: grab; }
   &__graph svg.is-panning { cursor: grabbing; }
   &__graph svg.is-space-panning { cursor: grab; }
-  &__edge { fill: none; stroke: #a0aec0; stroke-width: 1.6; }
-  &__edge--contextual-causes { stroke: #d7dce2; stroke-width: 1.2; }
-  &__edge--related { stroke: #e5e7eb; stroke-width: 1; }
+  &__edge { fill: none; stroke: #cbd5e1; stroke-width: 1.6; }
+  &__edge--contextual-causes { stroke: #e2e8f0; stroke-width: 1.2; }
+  &__edge--related { stroke: #f1f5f9; stroke-width: 1; }
   &__edge--addresses { stroke-dasharray: 5 3; }
   &__node { stroke: #fff; stroke-width: 2px; fill: #111; cursor: pointer; }
   &__node-link,
@@ -249,17 +251,11 @@
   // Highlighting only ever changes the stroke colour. Varying the width would
   // change how much of the fill the stroke covers and make the circles differ
   // in size.
-  &__node.is-current,
-  &__node-group:hover .analysis-trail__node,
-  &__node-group:focus-within .analysis-trail__node { stroke: #007acc; }
-  &__node--solution.is-current,
-  &__node-group:hover .analysis-trail__node--solution,
-  &__node-group:focus-within .analysis-trail__node--solution { stroke: #111; }
+  &__node.is-current { stroke: #007acc; }
+  &__node--solution.is-current { stroke: #111; }
   &__node-label {
     fill: #555;
-    stroke: #fff;
-    stroke-width: 3px;
-    paint-order: stroke;
+    stroke: none;
     font-size: 8px;
     cursor: pointer;
   }
@@ -343,23 +339,32 @@
     text-decoration: none !important;
     text-decoration-line: none !important;
   }
+  // Only the second click, which sets is-controls-visible, shows the controls.
+  // Reacting to plain focus made them flash up on the first click, because the
+  // click focuses the node link before the article starts loading. Keyboard
+  // users still reach them through :focus-visible, which a mouse click does not
+  // trigger. Those rules stay separate: a browser without :has() drops the whole
+  // rule it appears in, which must not take the click behaviour with it.
   &__remove-node { opacity: 0; pointer-events: none; cursor: pointer; text-decoration: none !important; transition: opacity 0.25s ease-in-out; }
-  &__node-group.is-controls-visible .analysis-trail__remove-node,
-  &__node-group:focus-within .analysis-trail__remove-node {
+  &__node-group.is-controls-visible .analysis-trail__remove-node {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  &__node-group:has(:focus-visible) .analysis-trail__remove-node {
     opacity: 1;
     pointer-events: auto;
   }
   &__add-node { opacity: 0; pointer-events: none; transition: opacity 0.25s ease-in-out; }
-  &__node-group.is-controls-visible .analysis-trail__add-node,
-  &__node-group:focus-within .analysis-trail__add-node { opacity: 1; pointer-events: auto; }
+  &__node-group.is-controls-visible .analysis-trail__add-node { opacity: 1; pointer-events: auto; }
+  &__node-group:has(:focus-visible) .analysis-trail__add-node { opacity: 1; pointer-events: auto; }
   &__add-node circle { fill: transparent; stroke: none; cursor: pointer; }
   &__add-node text { fill: #111; font: normal 11px Arial, sans-serif; pointer-events: none; text-decoration: none !important; text-transform: none; }
   &__add-node:hover text, &__add-node:focus text { fill: #27ae60; }
 
   &__link-node { opacity: 0; pointer-events: none; cursor: pointer; transition: opacity 0.25s ease-in-out; }
   &__node-group.is-controls-visible .analysis-trail__link-node,
-  &__node-group.is-link-source .analysis-trail__link-node,
-  &__node-group:focus-within .analysis-trail__link-node { opacity: 1; pointer-events: auto; }
+  &__node-group.is-link-source .analysis-trail__link-node { opacity: 1; pointer-events: auto; }
+  &__node-group:has(:focus-visible) .analysis-trail__link-node { opacity: 1; pointer-events: auto; }
   &__link-hit { fill: transparent; stroke: none; pointer-events: painted; }
   &__link-icon {
     pointer-events: none;
@@ -393,6 +398,25 @@
   &__add-modal[hidden] { display: none; }
   &__add-modal-content { width: min(520px, calc(100vw - 2rem)); padding: 1.5rem; border-radius: 12px; background: #fff; box-shadow: 0 8px 30px rgba(0,0,0,0.3); font-size: 1rem; }
   &__add-modal-content h3 { margin: 0 0 0.75rem; font-size: 1.35rem; color: #111; }
+  &__add-modal-type-group { margin-bottom: 0.9rem; }
+  &__add-modal-type-label { display: block; font-weight: 500; margin-bottom: 0.35rem; font-size: 0.95rem; color: #444; }
+  &__add-modal-type-buttons { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  &__type-btn {
+    padding: 0.45rem 0.85rem;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 8px;
+    background: #fff;
+    color: #475569;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    &:hover { border-color: #007acc; color: #007acc; background: #f0f7ff; }
+    &.is-active { background: #007acc; border-color: #007acc; color: #fff; font-weight: 600; box-shadow: 0 2px 6px rgba(0, 122, 204, 0.3); }
+  }
+  // The modal offers different types per source node, so the ones that do not
+  // fit are hidden rather than removed.
+  &__type-btn[hidden] { display: none; }
   &__add-modal-content label { display: grid; gap: 0.35rem; margin-bottom: 0.9rem; color: #444; font-size: 0.95rem; font-weight: 500; }
   &__add-modal-content input, &__add-modal-content select { width: 100%; box-sizing: border-box; padding: 0.65rem 0.85rem; border: 1.5px solid #80bfff; border-radius: 6px; background: #fff; font: inherit; font-size: 0.95rem; }
   &__add-modal-actions { display: flex; justify-content: flex-end; gap: 0.6rem; margin-top: 1.2rem; }

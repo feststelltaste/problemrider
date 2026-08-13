@@ -37,15 +37,18 @@
   <div class="analysis-trail__add-modal" data-analysis-trail-add-modal hidden>
     <div class="analysis-trail__add-modal-content" role="dialog" aria-modal="true" aria-labelledby="analysis-trail-add-modal-title">
       <h3 id="analysis-trail-add-modal-title">Add node</h3>
-      <label>Type
-        <select data-analysis-trail-add-modal-type>
-          <option value="symptom">Symptom</option>
-          <option value="cause">Cause</option>
-          <option value="similar">Similar problem</option>
-          <option value="solution">Solution</option>
-        </select>
-      </label>
-      <label>Text
+      <div class="analysis-trail__add-modal-type-group" aria-label="Select node type">
+        <span class="analysis-trail__add-modal-type-label">Type</span>
+        <div class="analysis-trail__add-modal-type-buttons" data-analysis-trail-add-modal-type-buttons>
+          <button type="button" class="analysis-trail__type-btn is-active" data-type="cause">Cause</button>
+          <button type="button" class="analysis-trail__type-btn" data-type="symptom">Symptom</button>
+          <button type="button" class="analysis-trail__type-btn" data-type="similar">Similar problem</button>
+          <button type="button" class="analysis-trail__type-btn" data-type="solution">Solution</button>
+          <button type="button" class="analysis-trail__type-btn" data-type="similar-solution">Similar solution</button>
+          <button type="button" class="analysis-trail__type-btn" data-type="addressed-problem">Addressed problem</button>
+        </div>
+      </div>
+      <label>Text / Search
         <input type="text" data-analysis-trail-add-modal-text placeholder="Type to search or add custom text" autocomplete="off">
       </label>
       <div class="analysis-trail__add-search-results" data-analysis-trail-add-search-results role="listbox" hidden></div>

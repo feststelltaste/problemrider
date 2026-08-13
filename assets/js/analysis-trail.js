@@ -8,6 +8,7 @@
   var expandedKey = 'problemrider-analysis-trail-expanded-v1';
   var historyKey = 'problemrider-analysis-trail-history-v1';
   var speedNavKey = 'problemrider-analysis-trail-speed-nav-v2';
+  var focusKey = 'problemrider-analysis-trail-focus-v1';
   var maxNodes = 200;
   var maxEdges = 30;
   var namespace = 'http://www.w3.org/2000/svg';
@@ -25,15 +26,67 @@
     });
   }
 
+  // The node the user currently looks at. Kept outside the trail order and
+  // persisted, so a full page load starts with exactly one active node instead
+  // of whatever node happened to be added last.
+  var focusedNodeId = null;
+  try { focusedNodeId = window.sessionStorage.getItem(focusKey); } catch (error) { focusedNodeId = null; }
+  // Node whose reference menu and controls are currently open, kept outside the
+  // render scope so an asynchronous re-render can restore it.
+  var menuOpenNodeId = null;
+
+  function setFocusedNodeId(nodeId) {
+    focusedNodeId = nodeId || null;
+    try {
+      if (focusedNodeId) window.sessionStorage.setItem(focusKey, focusedNodeId);
+      else window.sessionStorage.removeItem(focusKey);
+    } catch (error) { /* session storage is optional */ }
+  }
+
+  // The article is replaced in place, so nothing resets the scroll offset by
+  // itself. Every possible scroll container is reset because the layout scrolls
+  // the window in the wide layout and the content column in the narrow one.
+  function scrollArticleToTop() {
+    var pageContent = document.querySelector('.page-content');
+    if (pageContent) pageContent.scrollTop = 0;
+    var pageMain = document.querySelector('.page-main-content');
+    if (pageMain) pageMain.scrollTop = 0;
+    if (document.scrollingElement) document.scrollingElement.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    window.scrollTo(0, 0);
+  }
+
+  var currentAddType = 'cause';
+
+  function addTypeUsesSolutionCatalog(type) {
+    return type === 'solution' || type === 'similar-solution';
+  }
+
+  // Every type stays available on every node, because an entry can play both
+  // roles. Only the preselection follows the node the "+" was used on.
+  function updateTypeButtonsDOM() {
+    var buttons = document.querySelectorAll('.analysis-trail__type-btn');
+    buttons.forEach(function (btn) {
+      btn.hidden = false;
+      if (btn.getAttribute('data-type') === currentAddType) {
+        btn.classList.add('is-active');
+      } else {
+        btn.classList.remove('is-active');
+      }
+    });
+  }
+
   function openAddModal(sourceNode, position) {
     var modal = document.querySelector('[data-analysis-trail-add-modal]');
-    var type = document.querySelector('[data-analysis-trail-add-modal-type]');
     var text = document.querySelector('[data-analysis-trail-add-modal-text]');
     var results = document.querySelector('[data-analysis-trail-add-search-results]');
     var selection = document.querySelector('[data-analysis-trail-add-selection]');
-    if (!modal || !type || !text) return;
+    if (!modal || !text) return;
     pendingAdd = { sourceNode: sourceNode, position: { x: position.x, y: position.y }, selected: null };
-    type.value = 'symptom';
+    var isSolutionSource = sourceNode.id.indexOf('solution:') === 0 || sourceNode.type === 'solution';
+    currentAddType = isSolutionSource ? 'similar-solution' : 'cause';
+    updateTypeButtonsDOM();
     text.value = '';
     if (results) { results.innerHTML = ''; results.hidden = true; }
     if (selection) selection.textContent = 'Custom node will be created.';
@@ -311,7 +364,9 @@
       return (typeOrder[first.type] === undefined ? 1 : typeOrder[first.type]) -
         (typeOrder[second.type] === undefined ? 1 : typeOrder[second.type]);
     });
-    var currentNodeId = trail.nodes[trail.nodes.length - 1].id;
+    // Only the focused node is marked. Without an explicit focus no node is
+    // active, so a page that carries no article leaves the graph unmarked.
+    var currentNodeId = trail.nodes.some(function (item) { return item.id === focusedNodeId; }) ? focusedNodeId : null;
     var width = 1200;
     var height = 900;
     var zoom = Math.max(0.2, Math.min(3, trail.zoom || 2));
@@ -323,7 +378,7 @@
     var svg = svgElement('svg', { viewBox: viewBoxX + ' ' + viewBoxY + ' ' + visibleWidth + ' ' + visibleHeight, role: 'img', 'aria-label': 'Analysis workbench graph' });
     var defs = svgElement('defs');
     var marker = svgElement('marker', { id: 'analysis-trail-arrow', viewBox: '0 0 10 10', refX: '8', refY: '5', markerWidth: '8', markerHeight: '8', orient: 'auto' });
-    marker.appendChild(svgElement('path', { d: 'M 0 0 L 10 5 L 0 10 z', fill: '#a0aec0' }));
+    marker.appendChild(svgElement('path', { d: 'M 0 0 L 10 5 L 0 10 z', fill: '#cbd5e1' }));
     defs.appendChild(marker);
     svg.appendChild(defs);
 
@@ -514,12 +569,29 @@
       nodeMenu = null;
       if (activeControlLink) activeControlLink.classList.remove('is-controls-visible');
       activeControlLink = null;
+      menuOpenNodeId = null;
+    }
+
+    // Opens the reference menu together with the "+", "−" and connect controls.
+    // Re-rendering the graph rebuilds every node, so the open menu is restored
+    // from menuOpenNodeId instead of disappearing behind an async render.
+    function openNodeMenu(nodeId) {
+      var elements = nodeElements[nodeId];
+      if (!elements) return;
+      showNodeMenu(elements.node);
+      if (activeControlLink && activeControlLink !== elements.group) activeControlLink.classList.remove('is-controls-visible');
+      activeControlLink = elements.group;
+      elements.group.classList.add('is-controls-visible');
+      menuOpenNodeId = nodeId;
     }
 
     function loadPageDynamically(url, shouldPushState) {
       if (!url || url === '#') return;
       var mainContent = document.querySelector('.page-main-content');
       if (!mainContent) return;
+      // A pending connection is bound to the page it was started on, and its
+      // source node would otherwise keep the same blue ring as the active node.
+      stopLinking();
 
       mainContent.style.opacity = '0.5';
 
@@ -536,6 +608,7 @@
 
         mainContent.innerHTML = newMain.innerHTML;
         mainContent.style.opacity = '1';
+        scrollArticleToTop();
 
         if (doc.title) document.title = doc.title;
 
@@ -552,6 +625,9 @@
             url: url
           };
           node = newArticleNode;
+          // The article that is now on screen is the active node, no matter how
+          // it was reached.
+          setFocusedNodeId(newArticleNode.id);
           addCurrentNode(trail, newArticleNode);
           addPendingEdge(trail, newArticleNode);
           saveTrail(trail);
@@ -561,9 +637,9 @@
           });
         }
 
-        var pageMain = document.querySelector('.page-main-content');
-        if (pageMain) pageMain.scrollTop = 0;
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        // Focusing a node or a link inside the new article can scroll the page
+        // again after the swap, so the offset is reset once more afterwards.
+        window.requestAnimationFrame(scrollArticleToTop);
       }).catch(function (error) {
         console.warn('Dynamic page load failed:', error);
         mainContent.style.opacity = '1';
@@ -615,7 +691,6 @@
         action.textContent = menuAction.label;
         function openActionList(event) {
           if (event) event.stopPropagation();
-          keepMenuOpen();
           var existingList = nodeMenu.querySelector('.analysis-trail__node-menu-list[data-kind="' + kind + '"]');
           if (existingList) return;
           var list = document.createElement('div');
@@ -687,6 +762,7 @@
         nodeMenu.appendChild(action);
       });
       container.appendChild(nodeMenu);
+      updateNodeMenuPosition();
     }
 
     trail.edges.forEach(function (edge) {
@@ -721,7 +797,9 @@
     });
     displayNodes.forEach(function (node) {
       var position = positions[node.id];
-      var canAddNode = node.id.indexOf('problem:') === 0 || node.type === 'problem';
+      // Every node can grow the graph: problems gain causes, symptoms and
+      // solutions, solutions gain similar solutions and addressed problems.
+      var canAddNode = true;
       // Both controls sit above the node, so every label keeps the same distance.
       var labelOffset = 19;
       // The controls live next to the link, not inside it. Anything nested in an
@@ -855,12 +933,44 @@
       nodeElements[linkingFrom].group.classList.add('is-link-source');
     }
 
-    var lastNodeClickTime = 0;
-    var lastNodeClickId = null;
+    // Exactly one node carries the focus ring, so switching focus always clears
+    // the ring and the controls of every other node.
+    function markActiveNode(nodeId) {
+      Object.keys(nodeElements).forEach(function (id) {
+        var elements = nodeElements[id];
+        if (id === nodeId) elements.circle.classList.add('is-current');
+        else elements.circle.classList.remove('is-current');
+        if (id !== nodeId) elements.group.classList.remove('is-controls-visible');
+      });
+    }
+
+    // 2-Step Click Model:
+    // 1st click on an unfocused node: focuses it and loads its article.
+    // 2nd click on the focused node: toggles the reference menus and controls.
+    function activateNode(nodeId) {
+      var nodeElement = nodeElements[nodeId];
+      if (!nodeElement) return;
+
+      if (currentNodeId === nodeId) {
+        if (menuOpenNodeId === nodeId) hideNodeMenu();
+        else openNodeMenu(nodeId);
+        return;
+      }
+
+      hideNodeMenu();
+      currentNodeId = nodeId;
+      setFocusedNodeId(nodeId);
+      markActiveNode(nodeId);
+      // A focused SVG link makes the browser scroll it into view, which would
+      // fight the scroll reset of the freshly loaded article.
+      if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
+      if (!nodeElement.node.custom && nodeElement.node.url && nodeElement.node.url !== '#') {
+        loadPageDynamically(nodeElement.node.url, true);
+      }
+    }
 
     Object.keys(nodeElements).forEach(function (nodeId) {
       var nodeElement = nodeElements[nodeId];
-      var nodeGroup = nodeElement.group;
 
       nodeElement.link.addEventListener('pointerdown', function (event) {
         if (event.button !== 0) return;
@@ -872,14 +982,16 @@
         svg.setPointerCapture(event.pointerId);
       });
 
+      // Pointer interaction is handled once, on pointer up, so a click can never
+      // load the same article twice. Only keyboard activation, which produces a
+      // click without a pointer sequence, is handled here.
       nodeElement.link.addEventListener('click', function (event) {
         event.preventDefault();
         if (suppressClick) {
           suppressClick = false;
           return;
         }
-
-        // Linking mode: connect source and target
+        if (event.detail !== 0) return;
         if (linkingFrom) {
           if (linkingFrom !== nodeId) {
             var sourceId = linkingFrom;
@@ -889,42 +1001,10 @@
           }
           return;
         }
-
-        // 2-Step Click Model:
-        // 1st click on unfocused node: loads article & focuses node (no menus).
-        // 2nd click on focused node: toggles reference action boxes & controls!
-        var isFocused = (currentNodeId === nodeId);
-
-        if (isFocused) {
-          // 2nd Click: Toggle open/close action boxes & controls
-          if (nodeMenu && activeControlLink === nodeGroup) {
-            hideNodeMenu();
-          } else {
-            if (activeControlLink && activeControlLink !== nodeGroup) activeControlLink.classList.remove('is-controls-visible');
-            activeControlLink = nodeGroup;
-            nodeGroup.classList.add('is-controls-visible');
-            showNodeMenu(nodeElement.node);
-          }
-        } else {
-          // 1st Click: Remove focus ring from ALL other nodes and focus this clicked node
-          hideNodeMenu();
-          currentNodeId = nodeId;
-          Object.keys(nodeElements).forEach(function (id) {
-            if (nodeElements[id] && nodeElements[id].circle) {
-              nodeElements[id].circle.classList.remove('is-current');
-            }
-          });
-          nodeElement.circle.classList.add('is-current');
-
-          if (nodeElement.node.url && nodeElement.node.url !== '#') {
-            loadPageDynamically(nodeElement.node.url, true);
-          }
-        }
+        activateNode(nodeId);
       });
       nodeElement.link.addEventListener('dblclick', function (event) {
         event.preventDefault();
-        if (nodeElement.node.custom || !nodeElement.node.url || nodeElement.node.url === '#') return;
-        loadPageDynamically(nodeElement.node.url, true);
       });
     });
 
@@ -995,10 +1075,7 @@
             stopLinking();
           }
         } else {
-          var clickedNode = trail.nodes.filter(function (item) { return item.id === releasedNodeId; })[0];
-          if (clickedNode && !clickedNode.custom && clickedNode.url && clickedNode.url !== '#') {
-            loadPageDynamically(clickedNode.url, true);
-          }
+          activateNode(releasedNodeId);
         }
       }
       if (svg.hasPointerCapture(event.pointerId)) svg.releasePointerCapture(event.pointerId);
@@ -1010,9 +1087,12 @@
       }
       panning = false;
       svg.classList.remove('is-panning');
-      scheduleMenuHide();
     });
     container.appendChild(svg);
+    // The menu is positioned from the live geometry, so it can only be restored
+    // once the new graph sits in the document.
+    if (menuOpenNodeId && nodeElements[menuOpenNodeId]) openNodeMenu(menuOpenNodeId);
+    else menuOpenNodeId = null;
   }
 
   document.addEventListener('DOMContentLoaded', function () {
@@ -1058,8 +1138,11 @@
     });
     var trail = getTrail();
     var node = currentNode();
+    // Entering a page defines the active node. Any node that was active in an
+    // earlier session or on the previous page is deactivated here, so the graph
+    // never shows more than one focus ring.
+    setFocusedNodeId(node ? node.id : null);
     var addModal = document.querySelector('[data-analysis-trail-add-modal]');
-    var addModalType = document.querySelector('[data-analysis-trail-add-modal-type]');
     var addModalText = document.querySelector('[data-analysis-trail-add-modal-text]');
     if (addModal && addModal.parentElement !== document.body) document.body.appendChild(addModal);
     var addSearchResults = document.querySelector('[data-analysis-trail-add-search-results]');
@@ -1081,7 +1164,7 @@
       addSearchResults.innerHTML = '';
       var query = addModalText.value.trim().toLowerCase();
       if (!query) { addSearchResults.hidden = true; return; }
-      var pool = addModalType.value === 'solution' ? catalog.solutions : catalog.problems;
+      var pool = addTypeUsesSolutionCatalog(currentAddType) ? catalog.solutions : catalog.problems;
       var matches = pool.filter(function (item) {
         return item.id !== pendingAdd.sourceNode.id && item.title.toLowerCase().indexOf(query) !== -1;
       }).slice(0, 8);
@@ -1093,7 +1176,7 @@
         result.addEventListener('click', function () {
           pendingAdd.selected = item;
           addModalText.value = item.title;
-          addSelection.textContent = 'Existing ' + (addModalType.value === 'solution' ? 'solution' : 'problem') + ' selected.';
+          addSelection.textContent = 'Existing ' + (addTypeUsesSolutionCatalog(currentAddType) ? 'solution' : 'problem') + ' selected.';
           addSearchResults.hidden = true;
         });
         addSearchResults.appendChild(result);
@@ -1101,16 +1184,24 @@
       addSearchResults.hidden = matches.length === 0;
     }
 
+    var typeButtons = document.querySelectorAll('.analysis-trail__type-btn');
+    typeButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        currentAddType = btn.getAttribute('data-type');
+        updateTypeButtonsDOM();
+        updateAddSearch();
+      });
+    });
+
     addModalText.addEventListener('input', updateAddSearch);
-    addModalType.addEventListener('change', updateAddSearch);
     document.querySelector('[data-analysis-trail-add-modal-cancel]').addEventListener('click', closeAddModal);
     document.querySelector('[data-analysis-trail-add-modal-submit]').addEventListener('click', function () {
       if (!pendingAdd || !addModalText.value.trim()) return;
       var sourceNode = pendingAdd.sourceNode;
-      var kind = addModalType.value;
+      var kind = currentAddType;
       var selected = pendingAdd.selected;
       if (!selected) {
-        var exactPool = kind === 'solution' ? catalog.solutions : catalog.problems;
+        var exactPool = addTypeUsesSolutionCatalog(kind) ? catalog.solutions : catalog.problems;
         selected = exactPool.filter(function (item) {
           return item.id !== sourceNode.id && item.title.toLowerCase() === addModalText.value.trim().toLowerCase();
         })[0] || null;
@@ -1118,7 +1209,8 @@
       var targetId = selected ? selected.id : 'custom:' + Date.now() + '-' + Math.random().toString(36).slice(2, 8);
       var nodeType = 'problem';
       if (kind === 'cause') nodeType = 'root cause';
-      else if (kind === 'solution' || kind === 'symptom') nodeType = kind;
+      else if (kind === 'symptom') nodeType = 'symptom';
+      else if (addTypeUsesSolutionCatalog(kind)) nodeType = 'solution';
       var targetNode = {
         id: targetId,
         title: selected ? selected.title : addModalText.value.trim(),
@@ -1130,11 +1222,13 @@
       addCurrentNode(trail, targetNode);
       var sourcePosition = pendingAdd.position;
       trail.positions[targetId] = { x: Math.min(1186, sourcePosition.x + 190), y: sourcePosition.y };
-      // A similar problem gets the plain, undirected similarity line; causes
-      // point away from the source, symptoms and solutions point back to it.
-      var edge = kind === 'similar' ? { from: sourceNode.id, to: targetId, label: 'related' } :
+      // A similar problem or solution gets the plain, undirected similarity
+      // line; causes point away from the source, symptoms and solutions point
+      // back to it, and a solution always points at the problem it addresses.
+      var edge = (kind === 'similar' || kind === 'similar-solution') ? { from: sourceNode.id, to: targetId, label: 'related' } :
         (kind === 'cause' ? { from: sourceNode.id, to: targetId, label: 'causes' } :
-          { from: targetId, to: sourceNode.id, label: kind === 'solution' ? 'addresses' : 'causes' });
+          (kind === 'addressed-problem' ? { from: sourceNode.id, to: targetId, label: 'addresses' } :
+            { from: targetId, to: sourceNode.id, label: kind === 'solution' ? 'addresses' : 'causes' }));
       if (!trail.edges.some(function (item) { return item.from === edge.from && item.to === edge.to && item.label === edge.label; })) trail.edges.push(edge);
       if (trail.edges.length > maxEdges) trail.edges.shift();
       saveTrail(trail);
@@ -1353,7 +1447,7 @@
       exportSvg.setAttribute('style', 'background:#fff;font-family:Arial,sans-serif');
       exportSvg.querySelectorAll('.analysis-trail__edge').forEach(function (edge) {
         edge.setAttribute('fill', 'none');
-        edge.setAttribute('stroke', edge.classList.contains('analysis-trail__edge--related') ? '#e5e7eb' : (edge.classList.contains('analysis-trail__edge--contextual-causes') ? '#d7dce2' : '#a0aec0'));
+        edge.setAttribute('stroke', edge.classList.contains('analysis-trail__edge--related') ? '#f1f5f9' : (edge.classList.contains('analysis-trail__edge--contextual-causes') ? '#e2e8f0' : '#cbd5e1'));
         edge.setAttribute('stroke-width', edge.classList.contains('analysis-trail__edge--related') ? '1' : '1.6');
         if (edge.classList.contains('analysis-trail__edge--addresses')) edge.setAttribute('stroke-dasharray', '5 3');
       });
@@ -1365,9 +1459,9 @@
       });
       exportSvg.querySelectorAll('.analysis-trail__node-label').forEach(function (label) {
         label.setAttribute('fill', '#555');
-        label.setAttribute('stroke', '#fff');
-        label.setAttribute('stroke-width', '3');
-        label.setAttribute('paint-order', 'stroke');
+        label.removeAttribute('stroke');
+        label.removeAttribute('stroke-width');
+        label.removeAttribute('paint-order');
         label.setAttribute('font-family', 'Arial, sans-serif');
         label.setAttribute('font-size', '8');
       });
@@ -1454,7 +1548,7 @@
       exportSvg.setAttribute('style', 'background:#fff;font-family:Arial,sans-serif');
       exportSvg.querySelectorAll('.analysis-trail__edge').forEach(function (edge) {
         edge.setAttribute('fill', 'none');
-        edge.setAttribute('stroke', edge.classList.contains('analysis-trail__edge--related') ? '#e5e7eb' : (edge.classList.contains('analysis-trail__edge--contextual-causes') ? '#d7dce2' : '#a0aec0'));
+        edge.setAttribute('stroke', edge.classList.contains('analysis-trail__edge--related') ? '#f1f5f9' : (edge.classList.contains('analysis-trail__edge--contextual-causes') ? '#e2e8f0' : '#cbd5e1'));
         edge.setAttribute('stroke-width', edge.classList.contains('analysis-trail__edge--related') ? '1' : '1.6');
         if (edge.classList.contains('analysis-trail__edge--addresses')) edge.setAttribute('stroke-dasharray', '5 3');
         if (!edge.classList.contains('analysis-trail__edge--related')) edge.setAttribute('marker-end', 'url(#analysis-trail-arrow)');
@@ -1466,22 +1560,22 @@
       });
       exportSvg.querySelectorAll('.analysis-trail__node-label').forEach(function (label) {
         label.setAttribute('fill', '#555');
-        label.setAttribute('stroke', '#fff');
-        label.setAttribute('stroke-width', '3');
-        label.setAttribute('paint-order', 'stroke');
+        label.removeAttribute('stroke');
+        label.removeAttribute('stroke-width');
+        label.removeAttribute('paint-order');
         label.setAttribute('font-family', 'Arial, sans-serif');
         label.setAttribute('font-size', '8');
       });
       var exportStyle = document.createElementNS(namespace, 'style');
       exportStyle.textContent = [
-        '.analysis-trail__edge{fill:none;stroke:#a0aec0;stroke-width:1.6}',
-        '.analysis-trail__edge--contextual-causes{stroke:#d7dce2;stroke-width:1.2}',
-        '.analysis-trail__edge--related{stroke:#e5e7eb;stroke-width:1}',
+        '.analysis-trail__edge{fill:none;stroke:#cbd5e1;stroke-width:1.6}',
+        '.analysis-trail__edge--contextual-causes{stroke:#e2e8f0;stroke-width:1.2}',
+        '.analysis-trail__edge--related{stroke:#f1f5f9;stroke-width:1}',
         '.analysis-trail__edge--addresses{stroke-dasharray:5 3}',
         '.analysis-trail__node{fill:#111;stroke:#fff;stroke-width:2}',
         '.analysis-trail__node--solution{fill:#007acc;stroke:transparent}',
         '.analysis-trail__node--solution.is-current{stroke:#111}',
-        '.analysis-trail__node-label{fill:#555;stroke:#fff;stroke-width:3;paint-order:stroke;font-size:8px}',
+        '.analysis-trail__node-label{fill:#555;font-size:8px}',
         '.analysis-trail__remove-node{display:none}'
       ].join('');
       exportSvg.insertBefore(exportStyle, exportSvg.firstChild);
