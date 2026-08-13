@@ -119,7 +119,14 @@
     if (!trail.nodes.some(function (item) { return item.id === pending.from; })) return;
     if (pending.targetType) {
       var targetNode = trail.nodes.filter(function (item) { return item.id === node.id; })[0];
-      if (targetNode) targetNode.type = pending.targetType;
+      if (targetNode) {
+        var previousType = targetNode.type;
+        targetNode.type = pending.targetType;
+        // A node reached through a semantic reference must use the matching
+        // type row (symptoms at the top, causes at the bottom). Do not carry
+        // over the temporary position it had while loading as a problem.
+        if (previousType !== pending.targetType) delete trail.positions[node.id];
+      }
     }
     var from = pending.direction === 'reverse' ? node.id : pending.from;
     var to = pending.direction === 'reverse' ? pending.from : node.id;
@@ -750,6 +757,27 @@
       var exportSvg = svg.cloneNode(true);
       exportSvg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
       exportSvg.setAttribute('xmlns:xlink', 'http://www.w3.org/1999/xlink');
+      exportSvg.setAttribute('style', 'background:#fff;font-family:Arial,sans-serif');
+      exportSvg.querySelectorAll('.analysis-trail__edge').forEach(function (edge) {
+        edge.setAttribute('fill', 'none');
+        edge.setAttribute('stroke', edge.classList.contains('analysis-trail__edge--related') ? '#e5e7eb' : (edge.classList.contains('analysis-trail__edge--contextual-causes') ? '#d7dce2' : '#a0aec0'));
+        edge.setAttribute('stroke-width', edge.classList.contains('analysis-trail__edge--related') ? '1' : '1.6');
+        if (edge.classList.contains('analysis-trail__edge--addresses')) edge.setAttribute('stroke-dasharray', '5 3');
+        if (!edge.classList.contains('analysis-trail__edge--related')) edge.setAttribute('marker-end', 'url(#analysis-trail-arrow)');
+      });
+      exportSvg.querySelectorAll('.analysis-trail__node').forEach(function (nodeElement) {
+        nodeElement.setAttribute('fill', nodeElement.classList.contains('analysis-trail__node--solution') ? '#007acc' : '#111');
+        nodeElement.setAttribute('stroke', '#fff');
+        nodeElement.setAttribute('stroke-width', '2');
+      });
+      exportSvg.querySelectorAll('.analysis-trail__node-label').forEach(function (label) {
+        label.setAttribute('fill', '#555');
+        label.setAttribute('stroke', '#fff');
+        label.setAttribute('stroke-width', '3');
+        label.setAttribute('paint-order', 'stroke');
+        label.setAttribute('font-family', 'Arial, sans-serif');
+        label.setAttribute('font-size', '8');
+      });
       var exportStyle = document.createElementNS(namespace, 'style');
       exportStyle.textContent = [
         '.analysis-trail__edge{fill:none;stroke:#a0aec0;stroke-width:1.6}',
