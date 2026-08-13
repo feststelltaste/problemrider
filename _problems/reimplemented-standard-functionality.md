@@ -1,6 +1,6 @@
 ---
 title: Reimplemented Standard Functionality
-description: Capability the package already provides has been built again as a custom development, adding maintenance burden while removing the benefit of buying the product.
+description: Capability the product already provides has been built again as a custom development, adding maintenance burden while removing the benefit of buying the product.
 category:
 - Architecture
 - Process
@@ -22,7 +22,7 @@ layout: problem
 
 ## Description
 
-Reimplemented standard functionality occurs when an organization builds, as a custom development inside a packaged system, capability that the package already offers. It happens because nobody established what the standard could do before deciding to build. The reasons are mundane: the product's documentation is large and unfamiliar, the standard implementation looks slightly different from what was requested, an external consultancy earns more from development than from configuration, or the requirement arrived phrased as a solution rather than a need. The organization then pays twice — the purchase price for functionality it does not use, and the ongoing maintenance for a version it must keep working itself. The custom implementation typically also lags: the vendor improves the standard feature over the years while the local copy remains as it was written.
+Reimplemented standard functionality occurs when an organization builds, as a custom development inside a commercially purchased software system, capability that the product already offers. It happens because nobody established what the standard could do before deciding to build. The reasons are mundane: the product's documentation is large and unfamiliar, the standard implementation looks slightly different from what was requested, an external consultancy earns more from development than from configuration, or the requirement arrived phrased as a solution rather than a need. The organization then pays twice — the purchase price for functionality it does not use, and the ongoing maintenance for a version it must keep working itself. The custom implementation typically also lags: the vendor improves the standard feature over the years while the local copy remains as it was written.
 
 ## Indicators ⟡
 

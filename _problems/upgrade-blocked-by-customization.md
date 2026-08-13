@@ -63,7 +63,7 @@ Upgrade blockage occurs when the effort to bring an installation onto a new vend
 - [Customization Outside Version Control](customization-outside-version-control.md)
 <br/>  Where the customization inventory cannot be listed, the upgrade cannot be scoped, so estimates are large and defensive.
 - [Increased Manual Testing Effort](increased-manual-testing-effort.md)
-<br/>  Without automated regression coverage, revalidating a full package installation is a manual exercise measured in person-months.
+<br/>  Without automated regression coverage, revalidating a full product installation is a manual exercise measured in person-months.
 - [Short-Term Focus](short-term-focus.md)
 <br/>  In any given quarter the upgrade is less urgent than whatever is being delivered, and this comparison is made repeatedly with the same result.
 

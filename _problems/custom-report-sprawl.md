@@ -23,7 +23,7 @@ layout: problem
 
 ## Description
 
-Custom report sprawl occurs when the bespoke outputs of a packaged system — reports, forms, extracts, dashboards, printed documents — accumulate over years without any of them ever being retired. Each was requested by someone, built quickly, and never revisited. Because outputs are cheap to add and invisible when unused, the inventory grows monotonically until it contains several hundred items of which a small fraction are actually consulted. The cost is not the storage but the coupling: every one of these outputs reads the data model directly, so a schema change, an upgrade, or a data migration must consider all of them. They also produce inconsistent answers, because the same business figure has been calculated slightly differently in eleven places by eleven people over a decade.
+Custom report sprawl occurs when the bespoke outputs of a commercially purchased software system — reports, forms, extracts, dashboards, printed documents — accumulate over years without any of them ever being retired. Each was requested by someone, built quickly, and never revisited. Because outputs are cheap to add and invisible when unused, the inventory grows monotonically until it contains several hundred items of which a small fraction are actually consulted. The cost is not the storage but the coupling: every one of these outputs reads the data model directly, so a schema change, an upgrade, or a data migration must consider all of them. They also produce inconsistent answers, because the same business figure has been calculated slightly differently in eleven places by eleven people over a decade.
 
 ## Indicators ⟡
 

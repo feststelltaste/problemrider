@@ -21,7 +21,7 @@ layout: problem
 
 ## Description
 
-Voided vendor support occurs when local modification of a packaged product removes the organization's practical access to the support it is paying for. The refusal is rarely absolute. More often it is procedural: the vendor asks for the problem to be reproduced on an unmodified installation, which the organization cannot provide, or narrows its responsibility to the delivered code, which is not what is running. The effect is the same. The organization continues paying a support fee, and every incident is diagnosed internally by people with far less knowledge of the product than the vendor has. Because the refusal happens per incident rather than as a formal withdrawal, the position is often not recognized as a decision anyone made — it accumulated.
+Voided vendor support occurs when local modification of a commercial software product removes the organization's practical access to the support it is paying for. The refusal is rarely absolute. More often it is procedural: the vendor asks for the problem to be reproduced on an unmodified installation, which the organization cannot provide, or narrows its responsibility to the delivered code, which is not what is running. The effect is the same. The organization continues paying a support fee, and every incident is diagnosed internally by people with far less knowledge of the product than the vendor has. Because the refusal happens per incident rather than as a formal withdrawal, the position is often not recognized as a decision anyone made — it accumulated.
 
 ## Indicators ⟡
 
