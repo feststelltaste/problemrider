@@ -891,9 +891,9 @@
         }
 
         // 2-Step Click Model:
-        // 1st click on node: loads article & focuses node.
-        // 2nd click on already focused node: opens/toggles reference & add menus!
-        if (node && node.id === nodeId) {
+        // 1st click on an unfocused node: loads article & focuses node.
+        // 2nd click on an already focused node (currentNodeId === nodeId): toggles reference & add menus!
+        if (currentNodeId === nodeId) {
           if (nodeMenu && activeControlLink === nodeGroup) {
             hideNodeMenu();
           } else {
