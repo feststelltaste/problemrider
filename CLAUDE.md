@@ -109,3 +109,7 @@ The catalog uses 15 core categories to organize problems:
 15. **Culture** - individual issues, workplace health, organizational problems
 
 New categories may be added only if really needed and cannot be reasonably mapped to one of the existing 15 categories.
+
+## Development Workflow Rules
+
+* Do not automatically trigger `bundle exec jekyll build` / `jekyll serve` after intermediate code edits during active iteration steps. Only run build commands when explicitly asked by the user or when all task changes are completely finished.
