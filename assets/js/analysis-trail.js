@@ -8,7 +8,7 @@
   var expandedKey = 'problemrider-analysis-trail-expanded-v1';
   var historyKey = 'problemrider-analysis-trail-history-v1';
   var speedNavKey = 'problemrider-analysis-trail-speed-nav-v1';
-  var maxNodes = 24;
+  var maxNodes = 200;
   var maxEdges = 30;
   var namespace = 'http://www.w3.org/2000/svg';
   var spacePressed = false;
@@ -174,6 +174,17 @@
     }).then(function (html) {
       return localReferences(new window.DOMParser().parseFromString(html, 'text/html'), kind);
     });
+  }
+
+  function nodeFromReference(reference) {
+    var match = reference.url.match(/\/(problems|solutions)\/([^/]+)\.html/);
+    if (!match) return null;
+    return {
+      id: (match[1] === 'solutions' ? 'solution:' : 'problem:') + match[2],
+      title: reference.title,
+      type: match[1] === 'solutions' ? 'solution' : 'problem',
+      url: reference.url
+    };
   }
 
   function addContextualCausalEdges(trail) {
@@ -417,17 +428,20 @@
               });
               list.appendChild(referenceButton);
             }
-            var initiallyVisible = 10;
-            references.slice(0, initiallyVisible).forEach(addReference);
-            if (references.length > initiallyVisible) {
+            references.forEach(addReference);
+            if (references.length) {
               var showAll = document.createElement('button');
               showAll.type = 'button';
               showAll.className = 'analysis-trail__node-menu-show-all';
-              showAll.textContent = 'Show all nodes (' + references.length + ')';
+              showAll.textContent = 'Add all nodes (' + references.length + ')';
               showAll.addEventListener('click', function () {
                 showAll.remove();
-                list.classList.add('is-expanded');
-                references.slice(initiallyVisible).forEach(addReference);
+                references.forEach(function (reference) {
+                  var referenceNode = nodeFromReference(reference);
+                  if (referenceNode) addCurrentNode(trail, referenceNode);
+                });
+                saveTrail(trail);
+                render(trail);
               });
               list.appendChild(showAll);
             }
