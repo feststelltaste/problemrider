@@ -187,10 +187,30 @@
     text-align: center;
     font-size: 1.2rem;
     color: #666;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  // The experimental-content warning has to be read, not skimmed past, so it
+  // gets the accent colour and a filled background rather than small italics.
+  .site-disclaimer {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    padding: 1rem 1.25rem;
+    background: #eaf4fb;
+    border: 1px solid #b8dcf2;
+    border-left: 5px solid #007acc;
+    border-radius: 4px;
+    color: #10486b;
+    font-size: 1rem;
+    line-height: 1.5;
+
+    strong {
+      color: #005b99;
+    }
   }
 }
 
@@ -315,7 +335,8 @@
 }
 
 // Problems page styles
-.problems-page {
+.problems-page,
+.solutions-page {
   .page-description {
     color: #666;
     font-size: 1.1rem;
@@ -345,18 +366,23 @@
   }
 }
 
-.problems-list {
-  .problem-item {
+// The solutions overview mirrors the problems overview, so both lists share
+// one set of rules rather than keeping two copies in sync.
+.problems-list,
+.solutions-list {
+  .problem-item,
+  .solution-item {
     border-bottom: 1px solid #eee;
     padding: 1.5rem 0;
-    
+
     &:last-child {
       border-bottom: none;
     }
-    
-    .problem-header {
+
+    .problem-header,
+    .solution-header {
       margin-bottom: 1rem;
-      
+
       h2 {
         margin: 0 0 0.5rem 0;
         
@@ -370,25 +396,26 @@
         }
       }
       
-      .problem-description {
+      .problem-description,
+      .solution-description {
         margin: 0;
         color: #666;
         line-height: 1.4;
       }
-      
-      .problem-symptoms, .problem-root-causes {
+
+      .problem-symptoms, .problem-root-causes, .solution-problems {
         margin: 0.3rem 0;
         font-size: 0.75rem;
         color: #888;
         line-height: 1.2;
-        
-        .symptoms-label, .root-causes-label {
+
+        .symptoms-label, .root-causes-label, .problems-label {
           font-weight: bold;
           color: #666;
           margin-right: 0.3rem;
         }
-        
-        .symptom-tag, .root-cause-tag {
+
+        .symptom-tag, .root-cause-tag, .problem-tag {
           color: #777;
           margin-right: 0.2rem;
           
@@ -428,20 +455,32 @@
         .root-causes-label {
           color: #198754; // Bootstrap success color for root causes
         }
-        
+
         .root-cause-tag {
           color: #198754;
         }
       }
+
+      .solution-problems {
+        .problems-label {
+          color: #007acc;
+        }
+
+        .problem-tag {
+          color: #007acc;
+        }
+      }
     }
-    
-    .problem-meta {
-      .problem-categories {
+
+    .problem-meta,
+    .solution-meta {
+      .problem-categories,
+      .solution-categories {
         display: flex;
         gap: 0.5rem;
         flex-wrap: wrap;
       }
-      
+
       .category-tag {
         font-size: 0.8rem;
         color: #007acc;
@@ -519,38 +558,74 @@
     padding-bottom: 0.5rem;
   }
   
-  .category-count {
-    color: #666;
-    font-size: 0.9rem;
+  // Jump links to the two sections of the card, doubling as the item counts.
+  .category-jump {
+    display: flex;
+    gap: 0.5rem;
     margin-bottom: 1.5rem;
+
+    a {
+      font-size: 0.8rem;
+      color: #007acc;
+      background: #e6f3ff;
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+      text-decoration: none;
+
+      &:hover {
+        background: #cce7fa;
+      }
+    }
   }
-  
-  .category-problems {
-    .category-problem {
+
+  .category-section {
+    & + .category-section {
+      margin-top: 2rem;
+    }
+
+    .category-section-title {
+      margin: 0 0 1rem 0;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #888;
+      scroll-margin-top: 1rem;
+    }
+  }
+
+  .category-problems,
+  .category-solutions {
+    .category-item {
       margin-bottom: 1rem;
       padding-bottom: 1rem;
       border-bottom: 1px solid #f0f0f0;
-      
+
       &:last-child {
         border-bottom: none;
         margin-bottom: 0;
       }
-      
-      h3 {
+
+      h4 {
         margin: 0 0 0.25rem 0;
         font-size: 1rem;
-        
+        font-weight: bold;
+
         a {
           color: #333;
           text-decoration: none;
-          
+
           &:hover {
             color: #007acc;
           }
         }
+
+        .qt-link {
+          font-size: 0.7rem;
+          color: #007acc;
+        }
       }
-      
-      .problem-description {
+
+      .item-description {
         margin: 0;
         color: #666;
         font-size: 0.85rem;
@@ -558,7 +633,7 @@
       }
     }
   }
-  
+
 }
 
 .show-more {
@@ -579,7 +654,7 @@
     }
   }
   
-  .hidden-problems {
+  .hidden-items {
     margin-top: 1rem;
   }
 }
