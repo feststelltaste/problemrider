@@ -16,6 +16,11 @@
   var pendingAdd = null;
   // Node id the user started a connection from, or null when not connecting.
   var linkingFrom = null;
+  // Populated once from the page's [data-analysis-trail-catalog] script tag.
+  // Hoisted to module scope because both the add-node modal (defined in the
+  // init function) and the per-node reference menu (defined inside render())
+  // need to search the same catalog.
+  var catalog = { problems: [], solutions: [] };
 
   function stopLinking() {
     linkingFrom = null;
@@ -285,6 +290,97 @@
       type: kind === 'causes' ? 'root cause' : (kind === 'symptoms' ? 'symptom' : (match[1] === 'solutions' ? 'solution' : 'problem')),
       url: reference.url
     };
+  }
+
+  // Direction and label of the edge a reference of a given kind creates,
+  // shared by the per-item "+" button and the catalog search fallback.
+  function relationForKind(kind, sourceId, targetId) {
+    return {
+      symptoms: { from: targetId, to: sourceId, label: 'causes' },
+      causes: { from: sourceId, to: targetId, label: 'causes' },
+      solutions: { from: targetId, to: sourceId, label: 'addresses' },
+      'addressed-problems': { from: sourceId, to: targetId, label: 'addresses' },
+      'similar-problems': { from: sourceId, to: targetId, label: 'related' },
+      'similar-solutions': { from: sourceId, to: targetId, label: 'related' }
+    }[kind];
+  }
+
+  function catalogNodeTypeForKind(kind) {
+    if (kind === 'causes') return 'root cause';
+    if (kind === 'symptoms') return 'symptom';
+    if (kind === 'solutions' || kind === 'similar-solutions') return 'solution';
+    return 'problem';
+  }
+
+  function catalogPoolForKind(kind) {
+    return (kind === 'solutions' || kind === 'similar-solutions') ? catalog.solutions : catalog.problems;
+  }
+
+  // The manual search box searches everything, problems and solutions alike,
+  // rather than only the half `catalogPoolForKind` would restrict it to —
+  // each entry keeps its own real type so a solution is still labeled as a
+  // solution even when found from a "Causes" search.
+  function fullCatalogPool() {
+    return catalog.problems.map(function (item) {
+      return { id: item.id, title: item.title, url: item.url, type: 'problem' };
+    }).concat(catalog.solutions.map(function (item) {
+      return { id: item.id, title: item.title, url: item.url, type: 'solution' };
+    }));
+  }
+
+  // Adds one reference node and its edge to the trail without navigating away
+  // from the current page. Does not save/render on its own so a caller can
+  // batch several additions before doing either.
+  function addReferenceToTrail(trail, sourceNode, kind, referenceNode) {
+    addCurrentNode(trail, referenceNode);
+    var relation = relationForKind(kind, sourceNode.id, referenceNode.id);
+    if (relation && relation.from !== relation.to && !trail.edges.some(function (edge) {
+      return edge.from === relation.from && edge.to === relation.to && edge.label === relation.label;
+    })) trail.edges.push(relation);
+    if (trail.edges.length > maxEdges) trail.edges.shift();
+    saveTrail(trail);
+  }
+
+  // "Show more" prioritizes items that a handful of similar problems already
+  // list under the same heading, since those tend to be more relevant than an
+  // arbitrary slice of the full catalog. Falls back to the catalog to fill up
+  // to 20 suggestions.
+  function relatedSimilarKindFor(kind) {
+    if (kind === 'symptoms' || kind === 'causes' || kind === 'solutions') return 'similar-problems';
+    return null;
+  }
+
+  function collectShowMoreCandidates(sourceNode, kind, excludeIds) {
+    var pool = catalogPoolForKind(kind);
+    var similarKind = relatedSimilarKindFor(kind);
+    var similarPromise = similarKind ?
+      referencesForNode(sourceNode, similarKind).catch(function () { return []; }) :
+      window.Promise.resolve([]);
+    return similarPromise.then(function (similarReferences) {
+      var similarNodes = similarReferences.map(function (reference) {
+        return nodeFromReference(reference, similarKind);
+      }).filter(Boolean).slice(0, 6);
+      return window.Promise.all(similarNodes.map(function (similarNode) {
+        return referencesForNode(similarNode, kind).catch(function () { return []; });
+      })).then(function (groups) {
+        var prioritized = [];
+        var seen = {};
+        groups.forEach(function (group) {
+          group.forEach(function (reference) {
+            var candidateNode = nodeFromReference(reference, kind);
+            if (!candidateNode || seen[candidateNode.id] || excludeIds[candidateNode.id]) return;
+            seen[candidateNode.id] = true;
+            prioritized.push(candidateNode);
+          });
+        });
+        pool.forEach(function (item) {
+          if (prioritized.length >= 20 || seen[item.id] || excludeIds[item.id]) return;
+          seen[item.id] = true;
+          prioritized.push({ id: item.id, title: item.title, type: catalogNodeTypeForKind(kind), url: item.url });
+        });
+        return prioritized.slice(0, 20);
+      });
+    });
   }
 
   function addContextualCausalEdges(trail) {
@@ -712,51 +808,165 @@
           list.style.transform = 'none';
           nodeMenu.querySelectorAll('.analysis-trail__node-menu-list').forEach(function (item) { item.remove(); });
           nodeMenu.appendChild(list);
+          // Every row lets the user either open the reference's own page (title)
+          // or attach it to the graph right away without leaving this page ("+").
+          function renderAddableRow(candidateNode) {
+            var row = document.createElement('div');
+            row.className = 'analysis-trail__node-menu-list-item';
+            var isCustom = candidateNode.custom || !candidateNode.url || candidateNode.url === '#';
+            var titleControl = document.createElement(isCustom ? 'span' : 'button');
+            titleControl.className = 'analysis-trail__node-menu-list-title';
+            titleControl.textContent = candidateNode.title;
+            if (!isCustom) {
+              titleControl.type = 'button';
+              titleControl.addEventListener('click', function () {
+                navigateToReference(sourceNode, kind, candidateNode);
+              });
+            }
+            var addButton = document.createElement('button');
+            addButton.type = 'button';
+            addButton.className = 'analysis-trail__node-menu-list-add';
+            addButton.title = 'Add to the graph without leaving this page';
+            addButton.setAttribute('aria-label', 'Add ' + candidateNode.title + ' to the graph');
+            addButton.textContent = '+';
+            addButton.addEventListener('click', function () {
+              rememberChange(trail);
+              addReferenceToTrail(trail, sourceNode, kind, candidateNode);
+              addButton.disabled = true;
+              addButton.textContent = '✓';
+              render(trail);
+            });
+            row.appendChild(titleControl);
+            row.appendChild(addButton);
+            return row;
+          }
+
+          // Sits at the top of the list: a plain search over every problem or
+          // solution in the catalog (whichever this kind draws from), not just
+          // what is already linked below — that list already covers "local".
+          // Falls back to creating a custom node when nothing matches.
+          var searchWrap = document.createElement('div');
+          searchWrap.className = 'analysis-trail__node-menu-search';
+          var searchInput = document.createElement('input');
+          searchInput.type = 'text';
+          searchInput.className = 'analysis-trail__node-menu-search-input';
+          searchInput.placeholder = 'Search…';
+          searchInput.setAttribute('aria-label', 'Search or add a new ' + kind + ' node');
+          var searchResults = document.createElement('div');
+          searchResults.className = 'analysis-trail__node-menu-search-results';
+          searchResults.setAttribute('role', 'listbox');
+          searchResults.hidden = true;
+
+          // Rows already rendered below (references plus "Show more" picks),
+          // excluded from the catalog search so it never suggests a duplicate.
+          var shownIds = {};
+          shownIds[sourceNode.id] = true;
+
+          function addAndClose(candidateNode) {
+            rememberChange(trail);
+            addReferenceToTrail(trail, sourceNode, kind, candidateNode);
+            searchInput.value = '';
+            searchResults.hidden = true;
+            render(trail);
+          }
+
+          function updateSearch() {
+            searchResults.innerHTML = '';
+            var query = searchInput.value.trim();
+            if (!query) { searchResults.hidden = true; return; }
+            var lowerQuery = query.toLowerCase();
+            var matches = fullCatalogPool().filter(function (item) {
+              return item.id !== sourceNode.id && !shownIds[item.id] &&
+                !trail.nodes.some(function (existing) { return existing.id === item.id; }) &&
+                item.title.toLowerCase().indexOf(lowerQuery) !== -1;
+            }).slice(0, 8);
+            // Same mechanism as the reference rows above: the title opens the
+            // article, the round "+" attaches it without navigating away. A
+            // matched problem still takes this kind's type (root cause,
+            // symptom, ...); a matched solution stays a solution regardless.
+            matches.forEach(function (item) {
+              var type = item.type === 'solution' ? 'solution' : catalogNodeTypeForKind(kind);
+              var row = renderAddableRow({ id: item.id, title: item.title, type: type, url: item.url });
+              row.setAttribute('role', 'option');
+              searchResults.appendChild(row);
+            });
+            var custom = document.createElement('button');
+            custom.type = 'button';
+            custom.className = 'analysis-trail__node-menu-search-custom';
+            custom.textContent = 'Add "' + query + '" as a new node';
+            custom.addEventListener('click', function () {
+              addAndClose({
+                id: 'custom:' + Date.now() + '-' + Math.random().toString(36).slice(2, 8),
+                title: query,
+                type: catalogNodeTypeForKind(kind),
+                custom: true,
+                url: '#'
+              });
+            });
+            searchResults.appendChild(custom);
+            searchResults.hidden = false;
+          }
+
+          searchInput.addEventListener('input', updateSearch);
+          searchInput.addEventListener('keydown', function (event) {
+            if (event.key === 'Enter') {
+              // Enter quick-adds the top hit instead of navigating to it, so it
+              // takes the same "+" a click would use, not the title link.
+              var first = searchResults.querySelector('.analysis-trail__node-menu-list-add') ||
+                searchResults.querySelector('.analysis-trail__node-menu-search-custom');
+              if (first) first.click();
+            }
+            if (event.key === 'Escape') { searchInput.value = ''; updateSearch(); }
+          });
+
+          searchWrap.appendChild(searchInput);
+          searchWrap.appendChild(searchResults);
+          list.appendChild(searchWrap);
+
           referencesForNode(sourceNode, kind).then(function (references) {
-            list.innerHTML = '';
-            if (!references.length) {
-              list.textContent = 'No references.';
-              return;
-            }
-            function addReference(reference) {
-              var referenceButton = document.createElement('button');
-              referenceButton.type = 'button';
-              referenceButton.textContent = reference.title;
-              referenceButton.addEventListener('click', function () {
-                navigateToReference(sourceNode, kind, reference);
-              });
-              list.appendChild(referenceButton);
-            }
-            references.forEach(addReference);
             if (references.length) {
-              var showAll = document.createElement('button');
-              showAll.type = 'button';
-              showAll.className = 'analysis-trail__node-menu-show-all';
-              showAll.textContent = 'Add all nodes (' + references.length + ')';
-              showAll.addEventListener('click', function () {
-                showAll.remove();
-                references.forEach(function (reference) {
-                  var referenceNode = nodeFromReference(reference, kind);
-                  if (!referenceNode) return;
-                  addCurrentNode(trail, referenceNode);
-                  var relation = {
-                    symptoms: { from: referenceNode.id, to: sourceNode.id, label: 'causes' },
-                    causes: { from: sourceNode.id, to: referenceNode.id, label: 'causes' },
-                    solutions: { from: referenceNode.id, to: sourceNode.id, label: 'addresses' },
-                    'addressed-problems': { from: sourceNode.id, to: referenceNode.id, label: 'addresses' },
-                    'similar-problems': { from: sourceNode.id, to: referenceNode.id, label: 'related' },
-                    'similar-solutions': { from: sourceNode.id, to: referenceNode.id, label: 'related' }
-                  }[kind];
-                  if (relation && relation.from !== relation.to && !trail.edges.some(function (edge) {
-                    return edge.from === relation.from && edge.to === relation.to && edge.label === relation.label;
-                  })) trail.edges.push(relation);
-                });
-                saveTrail(trail);
-                render(trail);
+              references.forEach(function (reference) {
+                var candidateNode = nodeFromReference(reference, kind);
+                if (!candidateNode) return;
+                shownIds[candidateNode.id] = true;
+                list.appendChild(renderAddableRow(candidateNode));
               });
-              list.appendChild(showAll);
+            } else {
+              var empty = document.createElement('p');
+              empty.className = 'analysis-trail__node-menu-empty';
+              empty.textContent = 'No linked references yet.';
+              list.appendChild(empty);
             }
-          }).catch(function () { list.textContent = 'Could not load references.'; });
+
+            var showMore = document.createElement('button');
+            showMore.type = 'button';
+            showMore.className = 'analysis-trail__node-menu-show-all';
+            showMore.textContent = 'Show more';
+            showMore.addEventListener('click', function () {
+              showMore.disabled = true;
+              showMore.textContent = 'Loading…';
+              trail.nodes.forEach(function (existing) { shownIds[existing.id] = true; });
+              collectShowMoreCandidates(sourceNode, kind, shownIds).then(function (candidates) {
+                showMore.remove();
+                if (!candidates.length) {
+                  var none = document.createElement('p');
+                  none.className = 'analysis-trail__node-menu-empty';
+                  none.textContent = 'No further catalog matches.';
+                  list.appendChild(none);
+                  return;
+                }
+                list.classList.add('is-expanded');
+                candidates.forEach(function (candidateNode) {
+                  shownIds[candidateNode.id] = true;
+                  list.appendChild(renderAddableRow(candidateNode));
+                });
+              }).catch(function () {
+                showMore.disabled = false;
+                showMore.textContent = 'Show more';
+              });
+            });
+            list.appendChild(showMore);
+          }).catch(function () { list.appendChild(document.createTextNode('Could not load references.')); });
         }
         action.addEventListener('click', openActionList);
         nodeMenu.appendChild(action);
@@ -1147,7 +1357,6 @@
     if (addModal && addModal.parentElement !== document.body) document.body.appendChild(addModal);
     var addSearchResults = document.querySelector('[data-analysis-trail-add-search-results]');
     var addSelection = document.querySelector('[data-analysis-trail-add-selection]');
-    var catalog = { problems: [], solutions: [] };
     try { catalog = JSON.parse(document.querySelector('[data-analysis-trail-catalog]').textContent); } catch (error) { catalog = { problems: [], solutions: [] }; }
 
     function closeAddModal() {

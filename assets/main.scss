@@ -320,6 +320,144 @@
   &__node-menu-show-all { font-weight: bold; text-align: center !important; }
   &__node-menu--add { width: max-content; height: auto; pointer-events: auto; }
   &__node-menu--add .analysis-trail__node-menu-action { min-width: 9.5rem; text-align: left; }
+
+  // One existing reference rendered as a single pill: the title opens the
+  // page, the round "+" inside the same box attaches it to the graph right
+  // away without navigating away.
+  &__node-menu-list-item {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    border: 1.5px solid #80bfff;
+    border-radius: 10px;
+    padding: 0.35rem 0.35rem 0.35rem 0.9rem;
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0, 102, 178, 0.2);
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover, &:focus-within {
+      border-color: #007acc;
+      box-shadow: 0 6px 18px rgba(0, 122, 204, 0.4);
+    }
+  }
+  &__node-menu-list-title {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0.25rem 0 !important;
+    color: #0066b2;
+    text-align: left;
+
+    // The generic `.analysis-trail__node-menu-list button:hover` rule outranks
+    // a plain class selector (it also matches on the `button` tag), and would
+    // otherwise win with white text over this transparent background —
+    // invisible. `!important` is needed to actually land the deep-blue hover.
+    &:hover, &:focus {
+      background: transparent !important;
+      color: #004c85 !important;
+      box-shadow: none !important;
+      transform: none !important;
+    }
+  }
+  span.analysis-trail__node-menu-list-title {
+    color: #555;
+    cursor: default;
+  }
+  &__node-menu-list-add {
+    flex: 0 0 auto;
+    width: 1.7rem;
+    height: 1.7rem;
+    border: 1.5px solid #80bfff !important;
+    border-radius: 50% !important;
+    padding: 0 !important;
+    background: #edf6ff;
+    color: #0066b2;
+    text-align: center !important;
+    font-size: 1.1rem !important;
+    line-height: 1 !important;
+    box-shadow: none !important;
+
+    &:hover, &:focus {
+      background: #007acc;
+      color: #fff;
+      border-color: #007acc !important;
+      transform: scale(1.08) !important;
+    }
+  }
+  &__node-menu-list-add:disabled {
+    opacity: 0.6;
+    cursor: default;
+    transform: none !important;
+
+    &:hover, &:focus {
+      background: #edf6ff;
+      color: #0066b2;
+      border-color: #80bfff !important;
+      transform: none !important;
+    }
+  }
+  &__node-menu-empty {
+    margin: 0;
+    color: #666;
+    font-size: 0.85rem;
+    font-weight: normal;
+    line-height: 1.4;
+  }
+
+  // Catalog search for this reference kind, plus the "create a new node"
+  // fallback when nothing in the catalog matches the query.
+  &__node-menu-search {
+    position: relative;
+    margin-top: 0.35rem;
+    padding-top: 0.6rem;
+    border-top: 1px solid #dceafd;
+  }
+  &__node-menu-search-input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    border: 1.5px solid #80bfff;
+    border-radius: 8px;
+    background: #fff;
+    color: #222;
+    font: inherit;
+    font-size: 0.9rem;
+  }
+  &__node-menu-search-results {
+    display: grid;
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+    max-height: 10rem;
+    overflow-y: auto;
+    padding: 0.4rem;
+    border: 1.5px solid #80bfff;
+    border-radius: 8px;
+
+    &[hidden] { display: none; }
+
+    // Only the flat "create a new node" fallback lives directly in here — the
+    // catalog matches above it are full `&__node-menu-list-item` pills, which
+    // already carry their own styling and must not be flattened by this rule.
+    > button {
+      border: 1.5px dashed #80bfff;
+      border-radius: 8px;
+      padding: 0.55rem 0.75rem;
+      font-size: 0.9rem;
+      font-weight: normal;
+      box-shadow: none;
+
+      &:hover, &:focus { box-shadow: none; transform: none; }
+    }
+  }
+  &__node-menu-search-custom {
+    color: #0066b2;
+    font-style: italic;
+  }
   &__node-hover-hit {
     fill: rgba(0, 0, 0, 0.001);
     stroke: none;
@@ -519,16 +657,22 @@
 }
 
 @media screen and (min-width: 701px) {
+  // The article column scrolls inside its own box instead of the document.
+  // Without this, the native scrollbar for the article sat at the outer edge
+  // of the browser window — behind the fixed workbench pane, nowhere near the
+  // column it actually scrolled — instead of hugging the article itself.
   body.analysis-trail-expanded {
-    display: block;
-    min-height: 100vh;
-    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
   }
 
   body.analysis-trail-expanded .site-header,
   body.analysis-trail-expanded .site-footer {
     position: relative;
     z-index: 21;
+    flex: 0 0 auto;
     width: var(--analysis-trail-split, 50%);
     box-sizing: border-box;
     background: #fff;
@@ -555,9 +699,10 @@
   }
 
   body.analysis-trail-expanded .page-content {
+    flex: 1 1 auto;
     width: var(--analysis-trail-split, 50%);
-    height: auto;
-    overflow: visible;
+    min-height: 0;
+    overflow-y: auto;
     overflow-x: hidden;
   }
 
@@ -571,7 +716,12 @@
     }
 
     .analysis-trail {
-      display: block;
+      // A flex column, rather than a fixed calc() height on the graph, lets it
+      // claim exactly whatever room the header and legend do not need instead
+      // of a conservative estimate that left it stuck near the top with dead
+      // space below.
+      display: flex;
+      flex-direction: column;
       position: fixed;
       z-index: 20;
       top: 0;
@@ -657,11 +807,14 @@
       }
 
       &__graph {
-        max-height: calc(100vh - 275px);
+        flex: 1 1 auto;
+        min-height: 0;
+        max-height: none;
       }
 
       &__graph svg {
-        min-height: calc(100vh - 300px);
+        height: 100%;
+        min-height: 0;
       }
     }
   }
