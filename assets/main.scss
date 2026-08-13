@@ -268,6 +268,10 @@
 
 @media screen and (min-width: 701px) {
   body.analysis-trail-expanded {
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr) auto;
+    height: 100vh;
+    overflow: hidden;
     overflow-x: hidden;
   }
 
@@ -302,6 +306,10 @@
 
   body.analysis-trail-expanded .page-content {
     width: 50%;
+    min-height: 0;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .page-with-analysis-trail.is-analysis-trail-expanded {
@@ -427,6 +435,22 @@
     li {
       margin-bottom: 0.5rem;
     }
+  }
+}
+
+// Guidance and explanatory passages in solution bodies are authored as
+// Markdown blockquotes, but should read as understated supporting text rather
+// than pull quotes. Keep the content in normal document flow and distinguish it
+// with italics only.
+.solution-content {
+  line-height: 1.6;
+
+  blockquote {
+    margin: 1rem 0;
+    padding: 0;
+    border: 0;
+    color: inherit;
+    font-style: italic;
   }
 }
 
