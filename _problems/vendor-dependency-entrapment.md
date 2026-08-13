@@ -31,6 +31,8 @@ solutions:
 - modernization-options-comparison
 - cost-of-delay
 - system-decommissioning
+- continuous-dependency-updates
+- automated-code-migration
 layout: problem
 ---
 

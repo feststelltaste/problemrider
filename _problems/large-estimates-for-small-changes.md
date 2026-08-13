@@ -29,6 +29,7 @@ solutions:
 - preparatory-refactoring
 - debt-remediation-estimation
 - technical-debt-assessment
+- automated-code-migration
 layout: problem
 ---
 

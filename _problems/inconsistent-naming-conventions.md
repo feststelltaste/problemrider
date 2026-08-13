@@ -29,6 +29,8 @@ solutions:
 - code-review-guidelines
 - communities-of-practice
 - clean-code
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 

@@ -29,6 +29,8 @@ solutions:
 - code-reading-sessions
 - code-hotspot-analysis
 - communities-of-practice
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 

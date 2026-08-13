@@ -30,6 +30,7 @@ solutions:
 - regular-stakeholder-demonstrations
 - executive-sponsorship
 - staged-investment-with-decision-gates
+- large-scale-refactoring
 layout: problem
 ---
 

@@ -33,6 +33,8 @@ solutions:
 - communities-of-practice
 - quality-ratchet
 - debt-accrual-analysis
+- large-scale-refactoring
+- automated-code-migration
 layout: problem
 ---
 

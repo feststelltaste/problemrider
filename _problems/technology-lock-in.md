@@ -68,6 +68,8 @@ solutions:
 - risk-quantification
 - cost-of-delay
 - staged-investment-with-decision-gates
+- automated-code-migration
+- continuous-dependency-updates
 layout: problem
 ---
 

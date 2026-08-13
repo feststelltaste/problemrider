@@ -35,6 +35,8 @@ solutions:
 - debt-accrual-analysis
 - quality-ratchet
 - technical-debt-assessment
+- continuous-dependency-updates
+- automated-code-migration
 layout: problem
 ---
 

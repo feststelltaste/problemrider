@@ -38,6 +38,9 @@ solutions:
 - modernization-options-comparison
 - risk-quantification
 - no-regret-moves
+- large-scale-refactoring
+- automated-code-migration
+- continuous-dependency-updates
 layout: problem
 ---
 

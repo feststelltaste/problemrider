@@ -27,6 +27,8 @@ solutions:
 - ci-cd-pipeline
 - clean-code
 - quality-ratchet
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 

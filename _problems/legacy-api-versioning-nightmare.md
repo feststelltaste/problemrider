@@ -35,6 +35,8 @@ solutions:
 - standardized-interfaces
 - versioning-scheme
 - deprecation-strategy
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 

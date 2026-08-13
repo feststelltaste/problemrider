@@ -34,6 +34,8 @@ solutions:
 - quality-ratchet
 - technical-debt-assessment
 - debt-accrual-analysis
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 

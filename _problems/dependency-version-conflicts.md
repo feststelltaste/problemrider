@@ -36,6 +36,9 @@ solutions:
 - supply-chain-security
 - third-party-dependency-check
 - technology-radar
+- continuous-dependency-updates
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 

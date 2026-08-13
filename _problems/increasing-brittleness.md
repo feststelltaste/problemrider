@@ -38,6 +38,8 @@ solutions:
 - debt-classification
 - quality-ratchet
 - debt-accrual-analysis
+- continuous-dependency-updates
+- automated-code-migration
 layout: problem
 ---
 

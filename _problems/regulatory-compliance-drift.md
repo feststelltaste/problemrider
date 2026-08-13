@@ -63,6 +63,7 @@ solutions:
 - cost-of-delay
 - executive-sponsorship
 - baseline-measurement
+- continuous-dependency-updates
 layout: problem
 ---
 

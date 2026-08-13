@@ -34,6 +34,7 @@ solutions:
 - cost-of-delay
 - executive-sponsorship
 - modernization-options-comparison
+- continuous-dependency-updates
 layout: problem
 ---
 

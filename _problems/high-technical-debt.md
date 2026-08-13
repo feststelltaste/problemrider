@@ -42,6 +42,9 @@ solutions:
 - baseline-measurement
 - risk-quantification
 - value-hierarchy
+- automated-code-migration
+- large-scale-refactoring
+- continuous-dependency-updates
 layout: problem
 ---
 

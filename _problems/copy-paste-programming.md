@@ -31,6 +31,7 @@ solutions:
 - code-reading-sessions
 - quality-ratchet
 - debt-accrual-analysis
+- automated-code-migration
 layout: problem
 ---
 

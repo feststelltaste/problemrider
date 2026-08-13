@@ -29,6 +29,8 @@ solutions:
 - lightweight-design-review
 - code-reading-sessions
 - preparatory-refactoring
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 

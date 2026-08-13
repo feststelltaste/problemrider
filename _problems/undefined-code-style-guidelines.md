@@ -31,6 +31,8 @@ solutions:
 - code-quality-gates
 - code-review-guidelines
 - quality-ratchet
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 

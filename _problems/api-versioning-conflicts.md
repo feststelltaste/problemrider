@@ -35,6 +35,9 @@ solutions:
 - tolerant-reader
 - version-control
 - versioning-scheme
+- automated-code-migration
+- large-scale-refactoring
+- continuous-dependency-updates
 layout: problem
 ---
 

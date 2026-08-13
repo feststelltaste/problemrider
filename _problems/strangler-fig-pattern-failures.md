@@ -29,6 +29,7 @@ solutions:
 - bubble-context
 - incremental-refactoring
 - parallel-run
+- large-scale-refactoring
 layout: problem
 ---
 

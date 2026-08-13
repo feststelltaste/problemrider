@@ -37,6 +37,8 @@ solutions:
 - small-change-batches
 - change-impact-analysis
 - parallel-run
+- continuous-dependency-updates
+- automated-code-migration
 layout: problem
 ---
 

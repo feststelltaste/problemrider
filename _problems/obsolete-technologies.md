@@ -44,6 +44,9 @@ solutions:
 - risk-quantification
 - cost-of-delay
 - executive-sponsorship
+- continuous-dependency-updates
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 

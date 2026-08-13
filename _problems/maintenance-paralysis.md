@@ -32,6 +32,8 @@ solutions:
 - technical-debt-assessment
 - debt-classification
 - debt-remediation-estimation
+- automated-code-migration
+- large-scale-refactoring
 layout: problem
 ---
 

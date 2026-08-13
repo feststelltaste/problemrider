@@ -30,6 +30,8 @@ solutions:
 - change-impact-analysis
 - technology-radar
 - application-portfolio-inventory
+- continuous-dependency-updates
+- large-scale-refactoring
 layout: problem
 ---
 

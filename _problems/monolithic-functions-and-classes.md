@@ -30,6 +30,7 @@ solutions:
 - preparatory-refactoring
 - characterization-tests
 - code-reading-sessions
+- automated-code-migration
 layout: problem
 ---
 

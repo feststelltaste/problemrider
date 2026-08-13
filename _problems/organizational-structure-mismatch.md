@@ -29,6 +29,7 @@ solutions:
 - value-stream-mapping
 - knowledge-rotation
 - executive-sponsorship
+- large-scale-refactoring
 layout: problem
 ---
 
