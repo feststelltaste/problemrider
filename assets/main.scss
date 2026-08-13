@@ -201,6 +201,12 @@
     text-decoration: none !important;
     text-decoration-line: none !important;
   }
+  &__node-link .analysis-trail__remove-node,
+  &__node-link .analysis-trail__remove-node:hover,
+  &__node-link .analysis-trail__remove-node:focus {
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+  }
   &__node-link:hover .analysis-trail__remove-node,
   &__node-link:focus .analysis-trail__remove-node,
   &__node-link:focus-within .analysis-trail__remove-node {

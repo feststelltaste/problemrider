@@ -513,10 +513,11 @@
           class: 'analysis-trail__remove-node',
           role: 'button',
           tabindex: '0',
+          style: 'text-decoration:none',
           'aria-label': 'Remove ' + node.title + ' from the analysis trail'
         });
         var removeHit = svgElement('circle', { cx: position.x, cy: position.y - 17, r: '12', class: 'analysis-trail__remove-hit' });
-        var removeIcon = svgElement('text', { x: position.x, y: position.y - 17, 'text-anchor': 'middle' });
+        var removeIcon = svgElement('text', { x: position.x, y: position.y - 17, 'text-anchor': 'middle', style: 'text-decoration:none' });
         removeIcon.textContent = '×';
         remove.appendChild(removeHit);
         remove.appendChild(removeIcon);
