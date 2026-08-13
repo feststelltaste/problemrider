@@ -3,8 +3,8 @@
 
   // Versioned storage prevents edges created by an older navigation-based
   // implementation from being mixed with the semantic causal graph.
-  var storageKey = 'problemrider-analysis-trail-v4';
-  var pendingKey = 'problemrider-analysis-trail-pending-edge-v4';
+  var storageKey = 'problemrider-analysis-trail-v5';
+  var pendingKey = 'problemrider-analysis-trail-pending-edge-v5';
   var expandedKey = 'problemrider-analysis-trail-expanded-v1';
   var historyKey = 'problemrider-analysis-trail-history-v1';
   var maxNodes = 24;
@@ -60,7 +60,7 @@
       while (previous) {
         if (previous.tagName === 'H2') {
           var heading = previous.textContent.trim();
-          if (heading.indexOf('Symptoms') === 0 || heading.indexOf('Symptom') === 0) return { label: 'causes', direction: 'forward', targetType: 'symptom' };
+          if (heading.indexOf('Symptoms') === 0 || heading.indexOf('Symptom') === 0) return { label: 'causes', direction: 'reverse', targetType: 'symptom' };
           if (heading.indexOf('Root Causes') === 0 || heading.indexOf('Causes') === 0) return { label: 'causes', direction: 'reverse', targetType: 'root cause' };
           break;
         }
@@ -196,7 +196,7 @@
     var currentNodeId = trail.nodes[trail.nodes.length - 1].id;
     var width = 1200;
     var height = 900;
-    var zoom = Math.max(0.2, Math.min(3, trail.zoom || 0.75));
+    var zoom = Math.max(0.2, Math.min(3, trail.zoom || 1));
     var visibleWidth = width / zoom;
     var visibleHeight = height / zoom;
     var viewBoxX = (width - visibleWidth) / 2;
@@ -288,7 +288,7 @@
 
     function navigateToReference(sourceNode, kind, reference) {
       var relationship = {
-        symptoms: { label: 'causes', direction: 'forward', targetType: 'symptom' },
+        symptoms: { label: 'causes', direction: 'reverse', targetType: 'symptom' },
         causes: { label: 'causes', direction: 'reverse', targetType: 'root cause' },
         solutions: { label: 'addresses', direction: 'reverse', targetType: 'solution' },
         'addressed-problems': { label: 'addresses', direction: 'forward', targetType: 'problem' }
@@ -524,7 +524,7 @@
       rememberChange(trail);
       window.sessionStorage.removeItem(storageKey);
       window.sessionStorage.removeItem(pendingKey);
-      var freshTrail = { nodes: [], edges: [], positions: {}, zoom: 0.75 };
+      var freshTrail = { nodes: [], edges: [], positions: {}, zoom: 1 };
       if (node) addCurrentNode(freshTrail, node);
       trail = freshTrail;
       saveTrail(freshTrail);
@@ -533,7 +533,7 @@
 
     function changeZoom(change) {
       rememberChange(trail);
-      trail.zoom = Math.max(0.2, Math.min(3, (trail.zoom || 0.75) + change));
+      trail.zoom = Math.max(0.2, Math.min(3, (trail.zoom || 1) + change));
       saveTrail(trail);
       render(trail);
     }
