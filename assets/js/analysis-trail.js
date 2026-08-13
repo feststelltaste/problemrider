@@ -349,8 +349,17 @@
       if (elements.removeIcon) {
         elements.removeHit.setAttribute('cx', position.x);
         elements.removeHit.setAttribute('cy', position.y - 17);
-        elements.removeIcon.setAttribute('x', position.x);
-        elements.removeIcon.setAttribute('y', position.y - 17);
+        var removeLines = elements.removeIcon.querySelectorAll('line');
+        if (removeLines.length === 2) {
+          removeLines[0].setAttribute('x1', position.x - 4);
+          removeLines[0].setAttribute('y1', position.y - 21);
+          removeLines[0].setAttribute('x2', position.x + 4);
+          removeLines[0].setAttribute('y2', position.y - 13);
+          removeLines[1].setAttribute('x1', position.x + 4);
+          removeLines[1].setAttribute('y1', position.y - 21);
+          removeLines[1].setAttribute('x2', position.x - 4);
+          removeLines[1].setAttribute('y2', position.y - 13);
+        }
       }
     }
 
@@ -479,9 +488,13 @@
       var from = positions[edge.from];
       var to = positions[edge.to];
       if (!from || !to) return;
-      var edgeClass = 'analysis-trail__edge analysis-trail__edge--' + edge.label.replace(/\s+/g, '-');
+      // Similar relationships are always plain, light-grey lines. Treat the
+      // older descriptive labels as related too so persisted trails cannot
+      // accidentally render an arrow for a similarity link.
+      var isRelated = edge.label === 'related' || /^similar/.test(edge.label || '');
+      var edgeClass = 'analysis-trail__edge analysis-trail__edge--' + (isRelated ? 'related' : edge.label.replace(/\s+/g, '-'));
       var pathAttributes = { class: edgeClass };
-      if (edge.label !== 'related') pathAttributes['marker-end'] = 'url(#analysis-trail-arrow)';
+      if (!isRelated) pathAttributes['marker-end'] = 'url(#analysis-trail-arrow)';
       var path = svgElement('path', pathAttributes);
       svg.appendChild(path);
       var edgeInfo = { edge: edge, path: path };
