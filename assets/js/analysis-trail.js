@@ -3,8 +3,8 @@
 
   // Versioned storage prevents edges created by an older navigation-based
   // implementation from being mixed with the semantic causal graph.
-  var storageKey = 'problemrider-analysis-trail-v9';
-  var pendingKey = 'problemrider-analysis-trail-pending-edge-v9';
+  var storageKey = 'problemrider-analysis-trail-v12';
+  var pendingKey = 'problemrider-analysis-trail-pending-edge-v12';
   var expandedKey = 'problemrider-analysis-trail-expanded-v1';
   var historyKey = 'problemrider-analysis-trail-history-v1';
   var maxNodes = 24;
@@ -255,7 +255,7 @@
     var currentNodeId = trail.nodes[trail.nodes.length - 1].id;
     var width = 1200;
     var height = 900;
-    var zoom = Math.max(0.2, Math.min(3, trail.zoom || 3));
+    var zoom = Math.max(0.2, Math.min(3, trail.zoom || 2));
     var visibleWidth = width / zoom;
     var visibleHeight = height / zoom;
     var pan = trail.pan || { x: 0, y: 300 };
@@ -671,7 +671,7 @@
       rememberChange(trail);
       window.sessionStorage.removeItem(storageKey);
       window.sessionStorage.removeItem(pendingKey);
-      var freshTrail = { nodes: [], edges: [], positions: {}, pan: { x: 0, y: 300 }, zoom: 3 };
+      var freshTrail = { nodes: [], edges: [], positions: {}, pan: { x: 0, y: 300 }, zoom: 2 };
       if (node) addCurrentNode(freshTrail, node);
       trail = freshTrail;
       saveTrail(freshTrail);
@@ -680,14 +680,14 @@
 
     function changeZoom(change) {
       rememberChange(trail);
-      trail.zoom = Math.max(0.2, Math.min(3, (trail.zoom || 3) + change));
+      trail.zoom = Math.max(0.2, Math.min(3, (trail.zoom || 2) + change));
       saveTrail(trail);
       render(trail);
     }
     var zoomIn = document.querySelector('[data-analysis-trail-zoom-in]');
     var zoomOut = document.querySelector('[data-analysis-trail-zoom-out]');
-    if (zoomIn) zoomIn.addEventListener('click', function () { changeZoom(0.1); });
-    if (zoomOut) zoomOut.addEventListener('click', function () { changeZoom(-0.1); });
+    if (zoomIn) zoomIn.addEventListener('click', function () { changeZoom(0.2); });
+    if (zoomOut) zoomOut.addEventListener('click', function () { changeZoom(-0.2); });
 
     function restoreHistory(direction) {
       var history = getHistory();
