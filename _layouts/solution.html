@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="solution">
+<article class="solution" data-analysis-node data-analysis-node-id="solution:{{ page.slug }}" data-analysis-node-title="{{ page.title | escape }}" data-analysis-node-type="solution">
   <header class="solution-header">
     <h1 class="solution-title">
       {{ page.title }}
@@ -76,6 +76,23 @@ layout: default
     </ul>
   </section>
   {% endif %}
+
+  <div class="analysis-trail-similar-solutions" hidden>
+    {% for candidate in site.solutions %}
+      {% if candidate.slug != page.slug %}
+        {% assign shares_problem = false %}
+        {% for problem_slug in page.problems %}
+          {% if candidate.problems contains problem_slug %}
+            {% assign shares_problem = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% if shares_problem %}
+          <a href="{{ candidate.url | relative_url }}">{{ candidate.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
 
   <nav class="solution-navigation">
     <a href="{{ '/solutions/' | relative_url }}" class="back-to-solutions">← Back to Solutions Overview</a>

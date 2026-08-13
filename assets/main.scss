@@ -3,6 +3,378 @@
 
 @import "minima";
 
+.page-with-analysis-trail {
+  display: block;
+}
+
+.analysis-trail {
+  display: none;
+  position: sticky;
+  top: 0;
+  width: auto;
+  padding: 1.1rem;
+  border: 1px solid #ddd;
+  border-top: 5px solid #007acc;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    align-items: flex-start;
+
+    h2 {
+      display: inline-block;
+      margin: 0 0.5rem 0 0;
+      font-size: 1.1rem;
+      color: #333;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+  }
+
+  &__speed-nav {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 0.25rem;
+    color: #555;
+    font-size: 0.72rem;
+    line-height: 1.1;
+    cursor: pointer;
+
+    input { margin: 0.1rem 0 0; }
+    span { display: flex; flex-direction: column; }
+    small { color: #888; font-size: 0.62rem; }
+  }
+
+  &__summary,
+  &__hint,
+  &__empty {
+    margin: 0.35rem 0 0;
+    color: #666;
+    font-size: 0.78rem;
+    line-height: 1.35;
+  }
+
+  &__hint {
+    margin-top: 0.8rem;
+    padding-top: 0.7rem;
+    border-top: 1px solid #eee;
+  }
+
+  &__legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.65rem;
+    margin: 0.7rem 0 0;
+    padding: 0;
+    list-style: none;
+    color: #666;
+    font-size: 0.72rem;
+
+    li { display: flex; align-items: center; gap: 0.25rem; }
+  }
+
+  &__legend-line {
+    display: inline-block;
+    width: 1.25rem;
+    border-top: 2px solid #4a5568;
+
+    &--addresses { border-top-style: dashed; }
+    &--similar { border-top-color: #e5e7eb; }
+  }
+
+  &__reset,
+  &__zoom,
+  &__mode {
+    border: 1px solid #c3e0ff;
+    border-radius: 12px;
+    padding: 0.3rem 0.6rem;
+    color: #007acc;
+    background: #e6f3ff;
+    font: inherit;
+    font-size: 0.78rem;
+    cursor: pointer;
+
+    &:hover,
+    &:focus { background: #007acc; border-color: #007acc; color: #fff; }
+  }
+
+  &__zoom {
+    min-width: 1.7rem;
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  &__graph {
+    position: relative;
+    margin-top: 0.85rem;
+    padding: 2rem 0.15rem 0.35rem;
+    max-height: 360px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background: #fff;
+  }
+  &__graph svg { display: block; width: 100%; min-height: 185px; cursor: grab; }
+  &__graph svg.is-panning { cursor: grabbing; }
+  &__graph svg.is-space-panning { cursor: grab; }
+  &__edge { fill: none; stroke: #a0aec0; stroke-width: 1.6; }
+  &__edge--contextual-causes { stroke: #d7dce2; stroke-width: 1.2; }
+  &__edge--related { stroke: #e5e7eb; stroke-width: 1; }
+  &__edge--addresses { stroke-dasharray: 5 3; }
+  &__node { stroke: #fff; stroke-width: 2px; fill: #111; }
+  &__node--solution { fill: #007acc; }
+  &__node.is-current { stroke: #007acc; stroke-width: 3px; }
+  &__node-link:hover .analysis-trail__node { stroke: #007acc; stroke-width: 3px; }
+  &__node-label {
+    fill: #555;
+    stroke: #fff;
+    stroke-width: 3px;
+    paint-order: stroke;
+    font-size: 8px;
+    cursor: pointer;
+  }
+  &__node-menu {
+    position: absolute;
+    z-index: 5;
+    width: 0;
+    height: 0;
+  }
+  &__node-menu-action,
+  &__node-menu-list button {
+    border: 1px solid #c3e0ff;
+    border-radius: 10px;
+    padding: 0.2rem 0.4rem;
+    color: #007acc;
+    background: #e6f3ff;
+    font: inherit;
+    font-size: 0.68rem;
+    cursor: pointer;
+  }
+  &__node-menu-action { position: absolute; white-space: nowrap; }
+  &__node-menu-action--symptoms { right: 13px; bottom: 5px; }
+  &__node-menu-action--causes { right: 13px; top: 5px; }
+  &__node-menu-action--solutions { left: 13px; top: 5px; }
+  &__node-menu-action--similar-problems { left: 13px; bottom: 5px; }
+  &__node-menu-action--addressed-problems {
+    right: 13px;
+    bottom: 5px;
+  }
+  &__node-menu-action--similar-solutions { right: 13px; top: 5px; }
+  &__node-menu-action:hover,
+  &__node-menu-action:focus,
+  &__node-menu-list button:hover,
+  &__node-menu-list button:focus { color: #fff; background: #007acc; }
+  &__node-menu-list {
+    position: absolute;
+    top: 34px;
+    left: 18px;
+    display: grid;
+    gap: 0.2rem;
+    width: 170px;
+    padding: 0.35rem;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #c3e0ff;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    color: #666;
+    font-size: 0.7rem;
+  }
+  &__node-menu-list.is-expanded { max-height: none; }
+  &__node-menu-list button { border-radius: 3px; text-align: left; }
+  &__node-menu-show-all { font-weight: bold; text-align: center !important; }
+  &__remove-node {
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: auto;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+  }
+  &__node-link .analysis-trail__remove-node,
+  &__node-link .analysis-trail__remove-node:hover,
+  &__node-link .analysis-trail__remove-node:focus {
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+  }
+  &__node-link:hover .analysis-trail__remove-node,
+  &__node-link:focus .analysis-trail__remove-node,
+  &__node-link:focus-within .analysis-trail__remove-node {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  &__remove-node text {
+    fill: #111;
+    font-size: 15px;
+    font-weight: bold;
+    pointer-events: auto;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+  }
+  &__remove-icon,
+  &__remove-icon line {
+    fill: none;
+    stroke: #111;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    pointer-events: none;
+    text-decoration: none !important;
+  }
+  &__remove-hit { fill: transparent; stroke: none; pointer-events: painted; }
+  &__remove-node:hover text,
+  &__remove-node:focus text { fill: #e53e3e; }
+  &__remove-node:hover .analysis-trail__remove-icon line,
+  &__remove-node:focus .analysis-trail__remove-icon line { stroke: #e53e3e; }
+}
+
+.analysis-trail-menu-button {
+  position: fixed;
+  z-index: 15;
+  top: calc(3.5rem + 20px);
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  border: 0;
+  border-radius: 6px 0 0 6px;
+  padding: 0.7rem 0.45rem;
+  color: #fff;
+  background: #007acc;
+  box-shadow: -2px 2px 6px rgba(0, 61, 102, 0.2);
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+
+  span {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
+  &__icon {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  &:hover,
+  &:focus { background: #005a99; color: #fff; }
+}
+
+.site-nav .analysis-trail-menu-button {
+  color: #fff;
+
+  &:hover,
+  &:focus { color: #fff; }
+}
+
+@media screen and (min-width: 701px) {
+  body.analysis-trail-expanded {
+    display: block;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  body.analysis-trail-expanded .site-header,
+  body.analysis-trail-expanded .site-footer {
+    position: relative;
+    z-index: 21;
+    width: 50%;
+    box-sizing: border-box;
+    background: #fff;
+  }
+
+  body.analysis-trail-expanded .site-header {
+    width: 50%;
+  }
+
+  body.analysis-trail-expanded .site-footer {
+    max-height: none;
+  }
+
+  body.analysis-trail-expanded .site-header .wrapper,
+  body.analysis-trail-expanded .site-footer .wrapper {
+    max-width: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  body.analysis-trail-expanded .page-content .wrapper {
+    max-width: none;
+    padding: 0;
+  }
+
+  body.analysis-trail-expanded .page-content {
+    width: 50%;
+    height: auto;
+    overflow: visible;
+    overflow-x: hidden;
+  }
+
+  .page-with-analysis-trail.is-analysis-trail-expanded {
+    .page-main-content {
+      position: relative;
+      z-index: 1;
+      box-sizing: border-box;
+      max-width: none;
+      padding: 0 2rem 2rem;
+    }
+
+    .analysis-trail {
+      display: block;
+      position: fixed;
+      z-index: 20;
+      inset: 0 0 0 50%;
+      width: auto;
+      box-sizing: border-box;
+      overflow-y: auto;
+      padding: 2rem;
+      border: 0;
+      border-left: 1px solid #ddd;
+      border-top: 5px solid #007acc;
+      border-radius: 0;
+      box-shadow: -3px 0 12px rgba(0, 0, 0, 0.08);
+
+      &__graph {
+        max-height: calc(100vh - 275px);
+      }
+
+      &__graph svg {
+        min-height: calc(100vh - 300px);
+      }
+    }
+  }
+
+  body.analysis-trail-expanded .analysis-trail-menu-button { display: none; }
+}
+
+@media screen and (max-width: 700px) {
+  .page-with-analysis-trail { display: block; }
+
+  .analysis-trail {
+    position: static;
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  .page-with-analysis-trail.is-analysis-trail-expanded .analysis-trail {
+    display: block;
+  }
+
+  body.analysis-trail-expanded .analysis-trail-menu-button { display: none; }
+
+  .analysis-trail__graph { max-height: 320px; }
+}
+
 .problem-header {
   margin-bottom: 2rem;
   
@@ -71,6 +443,22 @@
     li {
       margin-bottom: 0.5rem;
     }
+  }
+}
+
+// Guidance and explanatory passages in solution bodies are authored as
+// Markdown blockquotes, but should read as understated supporting text rather
+// than pull quotes. Keep the content in normal document flow and distinguish it
+// with italics only.
+.solution-content {
+  line-height: 1.6;
+
+  blockquote {
+    margin: 1rem 0;
+    padding: 0;
+    border: 0;
+    color: inherit;
+    font-style: italic;
   }
 }
 

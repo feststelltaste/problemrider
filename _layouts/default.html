@@ -9,7 +9,16 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {{ content }}
+        {% if page.collection == 'problems' or page.collection == 'solutions' %}
+        <div class="page-with-analysis-trail">
+          <div class="page-main-content">
+            {{ content }}
+          </div>
+          {%- include analysis-trail.html -%}
+        </div>
+        {% else %}
+          {{ content }}
+        {% endif %}
       </div>
     </main>
 
