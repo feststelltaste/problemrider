@@ -10,11 +10,11 @@
 .analysis-trail {
   display: none;
   position: sticky;
-  top: 1.5rem;
+  top: 0;
   width: auto;
   padding: 1.1rem;
   border: 1px solid #ddd;
-  border-top: 3px solid #007acc;
+  border-top: 1px solid #111;
   border-radius: 8px;
   background: #fff;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
@@ -218,8 +218,8 @@
   border-radius: 6px 0 0 6px;
   padding: 0.7rem 0.45rem;
   color: #fff;
-  background: #111;
-  box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.25);
+  background: #007acc;
+  box-shadow: -2px 2px 6px rgba(0, 61, 102, 0.2);
   font: inherit;
   font-weight: bold;
   cursor: pointer;
@@ -235,7 +235,7 @@
   }
 
   &:hover,
-  &:focus { background: #333; color: #fff; }
+  &:focus { background: #005a99; color: #fff; }
 }
 
 .site-nav .analysis-trail-menu-button {
@@ -289,7 +289,7 @@
       z-index: 1;
       box-sizing: border-box;
       max-width: none;
-      padding: 2rem;
+      padding: 0 2rem 2rem;
     }
 
     .analysis-trail {
@@ -303,7 +303,7 @@
       padding: 2rem;
       border: 0;
       border-left: 1px solid #ddd;
-      border-top: 3px solid #007acc;
+      border-top: 1px solid #111;
       border-radius: 0;
       box-shadow: -3px 0 12px rgba(0, 0, 0, 0.08);
 
