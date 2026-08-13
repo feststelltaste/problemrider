@@ -14,6 +14,7 @@ problems:
 - silent-data-corruption
 - rest-api-design-issues
 - null-pointer-dereferences
+- entity-attribute-value-overuse
 layout: solution
 ---
 

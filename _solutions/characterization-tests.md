@@ -31,6 +31,7 @@ problems:
 - increasing-brittleness
 - monolithic-functions-and-classes
 - brittle-codebase
+- entity-attribute-value-overuse
 layout: solution
 ---
 

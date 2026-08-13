@@ -45,6 +45,7 @@ solutions:
 - saga-pattern
 - parallel-run
 - production-like-test-data
+- typed-schema-extraction
 layout: problem
 ---
 

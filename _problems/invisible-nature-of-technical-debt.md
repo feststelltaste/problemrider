@@ -39,6 +39,8 @@ solutions:
 - debt-classification
 - debt-remediation-estimation
 - debt-accrual-analysis
+- attribute-usage-analysis
+- customization-cost-attribution
 layout: problem
 ---
 

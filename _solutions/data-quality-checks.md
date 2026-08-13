@@ -11,6 +11,7 @@ problems:
 - inconsistent-behavior
 - unpredictable-system-behavior
 - unbounded-data-growth
+- entity-attribute-value-overuse
 layout: solution
 ---
 

@@ -29,6 +29,7 @@ problems:
 - short-term-focus
 - difficulty-quantifying-benefits
 - feature-bloat
+- excessive-customization
 layout: solution
 ---
 

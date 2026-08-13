@@ -38,6 +38,8 @@ solutions:
 - continuous-dependency-updates
 - automated-code-migration
 - duplication-detection
+- customization-cost-attribution
+- variant-consolidation
 layout: problem
 ---
 

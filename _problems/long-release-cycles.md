@@ -28,6 +28,8 @@ solutions:
 - value-stream-mapping
 - delivery-performance-metrics
 - fast-feedback-loops
+- variant-consolidation
+- explicit-extension-points
 layout: problem
 ---
 

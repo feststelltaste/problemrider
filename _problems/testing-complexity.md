@@ -30,6 +30,9 @@ solutions:
 - contract-testing
 - simulation-environments
 - exploratory-testing
+- explicit-extension-points
+- variant-consolidation
+- typed-schema-extraction
 layout: problem
 ---
 

@@ -13,6 +13,7 @@ problems:
 - increased-cost-of-development
 - slow-feature-development
 - technology-lock-in
+- excessive-customization
 layout: solution
 ---
 

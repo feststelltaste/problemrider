@@ -11,6 +11,7 @@ problems:
 - schema-evolution-paralysis
 - deployment-risk
 - breaking-changes
+- entity-attribute-value-overuse
 layout: solution
 ---
 

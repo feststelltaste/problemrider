@@ -41,6 +41,7 @@ solutions:
 - system-decommissioning
 - written-first-communication
 - risk-quantification
+- explicit-extension-points
 layout: problem
 ---
 

@@ -36,6 +36,7 @@ solutions:
 - technical-debt-assessment
 - debt-remediation-estimation
 - debt-classification
+- attribute-usage-analysis
 layout: problem
 ---
 

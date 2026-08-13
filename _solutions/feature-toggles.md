@@ -16,6 +16,7 @@ problems:
 - increased-time-to-market
 - large-pull-requests
 - strangler-fig-pattern-failures
+- excessive-customization
 layout: solution
 ---
 

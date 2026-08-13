@@ -34,6 +34,7 @@ solutions:
 - duplication-detection
 - quality-ratchet
 - debt-accrual-analysis
+- variant-consolidation
 layout: problem
 ---
 

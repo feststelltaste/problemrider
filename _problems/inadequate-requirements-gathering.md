@@ -42,6 +42,7 @@ solutions:
 - regular-stakeholder-demonstrations
 - domain-immersion
 - exploratory-testing
+- attribute-usage-analysis
 layout: problem
 ---
 

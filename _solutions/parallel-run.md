@@ -21,6 +21,7 @@ problems:
 - schema-evolution-paralysis
 - maintenance-paralysis
 - release-anxiety
+- entity-attribute-value-overuse
 layout: solution
 ---
 

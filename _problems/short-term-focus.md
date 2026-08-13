@@ -36,6 +36,7 @@ solutions:
 - value-hierarchy
 - debt-classification
 - debt-accrual-analysis
+- customization-cost-attribution
 layout: problem
 ---
 

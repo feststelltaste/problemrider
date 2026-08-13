@@ -31,6 +31,7 @@ solutions:
 - definition-of-ready
 - delivery-performance-metrics
 - value-hierarchy
+- customization-cost-attribution
 layout: problem
 ---
 

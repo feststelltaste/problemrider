@@ -30,6 +30,9 @@ solutions:
 - definition-of-done
 - outcome-based-goal-setting
 - regular-stakeholder-demonstrations
+- customization-cost-attribution
+- variant-consolidation
+- explicit-extension-points
 layout: problem
 ---
 

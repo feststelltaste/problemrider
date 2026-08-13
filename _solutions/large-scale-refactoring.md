@@ -24,6 +24,7 @@ problems:
 - over-reliance-on-utility-classes
 - refactoring-avoidance
 - strangler-fig-pattern-failures
+- excessive-customization
 layout: solution
 ---
 

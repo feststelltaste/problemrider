@@ -14,6 +14,7 @@ problems:
 - imperative-data-fetching-logic
 - lazy-loading
 - poor-caching-strategy
+- entity-attribute-value-overuse
 layout: solution
 ---
 

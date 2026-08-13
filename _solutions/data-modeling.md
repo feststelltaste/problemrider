@@ -16,6 +16,7 @@ problems:
 - queries-that-prevent-index-usage
 - schema-evolution-paralysis
 - unused-indexes
+- entity-attribute-value-overuse
 layout: solution
 ---
 

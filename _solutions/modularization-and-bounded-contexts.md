@@ -28,6 +28,7 @@ problems:
 - single-entry-point-design
 - team-coordination-issues
 - technical-architecture-limitations
+- excessive-customization
 layout: solution
 ---
 

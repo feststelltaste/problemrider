@@ -31,6 +31,8 @@ solutions:
 - ubiquitous-language
 - technical-debt-assessment
 - duplication-detection
+- attribute-usage-analysis
+- typed-schema-extraction
 layout: problem
 ---
 

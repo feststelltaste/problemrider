@@ -31,6 +31,7 @@ solutions:
 - production-like-test-data
 - defect-triage-process
 - duplication-detection
+- typed-schema-extraction
 layout: problem
 ---
 

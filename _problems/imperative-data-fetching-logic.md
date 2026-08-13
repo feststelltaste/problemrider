@@ -31,6 +31,7 @@ solutions:
 - profiling
 - performance-measurements
 - index-lifecycle-management
+- typed-schema-extraction
 layout: problem
 ---
 

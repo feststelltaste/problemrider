@@ -48,6 +48,7 @@ solutions:
 - fitness-functions
 - saga-pattern
 - dependency-breaking-techniques
+- explicit-extension-points
 layout: problem
 ---
 

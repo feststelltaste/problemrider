@@ -32,6 +32,9 @@ solutions:
 - cost-of-delay
 - value-hierarchy
 - benefits-realization-tracking
+- customization-cost-attribution
+- variant-consolidation
+- explicit-extension-points
 layout: problem
 ---
 

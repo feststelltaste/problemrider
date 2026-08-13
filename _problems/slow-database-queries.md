@@ -40,6 +40,8 @@ solutions:
 - sampling
 - vertical-scaling
 - index-lifecycle-management
+- typed-schema-extraction
+- attribute-usage-analysis
 layout: problem
 ---
 

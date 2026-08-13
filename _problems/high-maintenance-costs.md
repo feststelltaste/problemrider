@@ -41,6 +41,9 @@ solutions:
 - modernization-options-comparison
 - risk-quantification
 - value-hierarchy
+- customization-cost-attribution
+- variant-consolidation
+- explicit-extension-points
 layout: problem
 ---
 

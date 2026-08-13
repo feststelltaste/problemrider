@@ -27,6 +27,8 @@ solutions:
 - feature-driven-development
 - delivery-performance-metrics
 - fast-feedback-loops
+- explicit-extension-points
+- variant-consolidation
 layout: problem
 ---
 

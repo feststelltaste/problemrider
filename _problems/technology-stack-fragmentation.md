@@ -41,6 +41,7 @@ solutions:
 - large-scale-refactoring
 - automated-code-migration
 - continuous-dependency-updates
+- variant-consolidation
 layout: problem
 ---
 

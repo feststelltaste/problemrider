@@ -29,6 +29,7 @@ solutions:
 - profiling
 - performance-measurements
 - continuous-performance-monitoring
+- typed-schema-extraction
 layout: problem
 ---
 

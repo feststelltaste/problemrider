@@ -31,6 +31,7 @@ solutions:
 - static-code-analysis
 - continuous-performance-monitoring
 - index-lifecycle-management
+- typed-schema-extraction
 layout: problem
 ---
 

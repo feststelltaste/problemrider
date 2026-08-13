@@ -32,6 +32,7 @@ solutions:
 - cost-of-delay
 - value-hierarchy
 - no-regret-moves
+- customization-cost-attribution
 layout: problem
 ---
 

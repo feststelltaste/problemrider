@@ -29,6 +29,8 @@ solutions:
 - object-relational-mapping-orm
 - platform-independent-data-storage
 - database-abstraction
+- attribute-usage-analysis
+- typed-schema-extraction
 layout: problem
 ---
 

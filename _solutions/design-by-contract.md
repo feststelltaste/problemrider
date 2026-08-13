@@ -20,6 +20,7 @@ problems:
 - null-pointer-dereferences
 - improper-event-listener-management
 - stack-overflow-errors
+- entity-attribute-value-overuse
 layout: solution
 ---
 

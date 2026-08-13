@@ -29,6 +29,9 @@ solutions:
 - production-like-test-data
 - contract-testing
 - data-modeling
+- typed-schema-extraction
+- attribute-usage-analysis
+- explicit-extension-points
 layout: problem
 ---
 

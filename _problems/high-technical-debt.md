@@ -46,6 +46,10 @@ solutions:
 - large-scale-refactoring
 - continuous-dependency-updates
 - duplication-detection
+- attribute-usage-analysis
+- explicit-extension-points
+- typed-schema-extraction
+- variant-consolidation
 layout: problem
 ---
 

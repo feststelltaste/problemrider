@@ -15,6 +15,7 @@ problems:
 - cross-system-data-synchronization-problems
 - unbounded-data-growth
 - long-running-database-transactions
+- entity-attribute-value-overuse
 layout: solution
 ---
 

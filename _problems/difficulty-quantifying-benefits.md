@@ -49,6 +49,7 @@ solutions:
 - technical-debt-assessment
 - debt-remediation-estimation
 - debt-classification
+- customization-cost-attribution
 layout: problem
 ---
 

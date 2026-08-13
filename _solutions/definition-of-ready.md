@@ -32,6 +32,7 @@ problems:
 - large-feature-scope
 - planning-dysfunction
 - product-direction-chaos
+- excessive-customization
 layout: solution
 ---
 

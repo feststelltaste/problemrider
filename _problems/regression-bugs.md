@@ -49,6 +49,7 @@ solutions:
 - defect-triage-process
 - exploratory-testing
 - duplication-detection
+- explicit-extension-points
 layout: problem
 ---
 

@@ -30,6 +30,8 @@ solutions:
 - explicit-prioritization-framework
 - capacity-based-planning
 - outcome-based-goal-setting
+- customization-cost-attribution
+- explicit-extension-points
 layout: problem
 ---
 

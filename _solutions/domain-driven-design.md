@@ -19,6 +19,7 @@ problems:
 - poor-naming-conventions
 - insufficient-design-skills
 - procedural-programming-in-oop-languages
+- entity-attribute-value-overuse
 layout: solution
 ---
 

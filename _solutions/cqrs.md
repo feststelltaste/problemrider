@@ -12,6 +12,7 @@ problems:
 - monolithic-architecture-constraints
 - slow-response-times-for-lists
 - imperative-data-fetching-logic
+- entity-attribute-value-overuse
 layout: solution
 ---
 
