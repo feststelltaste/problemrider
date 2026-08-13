@@ -138,7 +138,9 @@
   function localReferences(pageDocument, kind) {
     var links = [];
     var selector = kind === 'solutions' ? '.related-solutions a[href]' :
-      (kind === 'addressed-problems' ? '.addressed-problems a[href]' : '');
+      (kind === 'addressed-problems' ? '.addressed-problems a[href]' :
+        (kind === 'similar-solutions' ? '.analysis-trail-similar-solutions a[href]' :
+          (kind === 'similar-problems' ? '.related-problems a[href]' : '')));
     if (selector) {
       links = Array.prototype.slice.call(pageDocument.querySelectorAll(selector));
     } else {
@@ -259,7 +261,7 @@
     var pan = trail.pan || { x: 0, y: 0 };
     var viewBoxX = (width - visibleWidth) / 2 - pan.x;
     var viewBoxY = (height - visibleHeight) / 2 - pan.y;
-    var svg = svgElement('svg', { viewBox: viewBoxX + ' ' + viewBoxY + ' ' + visibleWidth + ' ' + visibleHeight, role: 'img', 'aria-label': 'Analysis navigation graph' });
+    var svg = svgElement('svg', { viewBox: viewBoxX + ' ' + viewBoxY + ' ' + visibleWidth + ' ' + visibleHeight, role: 'img', 'aria-label': 'Analysis workbench graph' });
     var defs = svgElement('defs');
     var marker = svgElement('marker', { id: 'analysis-trail-arrow', viewBox: '0 0 10 10', refX: '8', refY: '5', markerWidth: '8', markerHeight: '8', orient: 'auto' });
     marker.appendChild(svgElement('path', { d: 'M 0 0 L 10 5 L 0 10 z', fill: '#a0aec0' }));
@@ -326,10 +328,10 @@
         line.setAttribute('y', position.y + 24 + index * 10);
       });
       if (elements.removeCircle) {
-        elements.removeCircle.setAttribute('cx', position.x + 10);
-        elements.removeCircle.setAttribute('cy', position.y - 10);
-        elements.removeIcon.setAttribute('x', position.x + 10);
-        elements.removeIcon.setAttribute('y', position.y - 7.5);
+        elements.removeCircle.setAttribute('cx', position.x + 12);
+        elements.removeCircle.setAttribute('cy', position.y - 24);
+        elements.removeIcon.setAttribute('x', position.x + 12);
+        elements.removeIcon.setAttribute('y', position.y - 21.5);
       }
     }
 
@@ -357,7 +359,9 @@
         symptoms: { label: 'causes', direction: 'reverse', targetType: 'symptom' },
         causes: { label: 'causes', direction: 'forward', targetType: 'root cause' },
         solutions: { label: 'addresses', direction: 'reverse', targetType: 'solution' },
-        'addressed-problems': { label: 'addresses', direction: 'forward', targetType: 'problem' }
+        'addressed-problems': { label: 'addresses', direction: 'forward', targetType: 'problem' },
+        'similar-solutions': { label: 'related', direction: 'forward', targetType: 'solution' },
+        'similar-problems': { label: 'related', direction: 'forward', targetType: 'problem' }
       }[kind];
       relationship.from = sourceNode.id;
       window.sessionStorage.setItem(pendingKey, JSON.stringify(relationship));
@@ -380,8 +384,8 @@
       nodeMenu.style.top = top + 'px';
 
       var menuActions = sourceNode.id.indexOf('solution:') === 0 ?
-        [{ kind: 'addressed-problems', label: 'Addressed Problems' }] :
-        [{ kind: 'symptoms', label: 'Symptoms' }, { kind: 'causes', label: 'Causes' }, { kind: 'solutions', label: 'Solutions' }];
+        [{ kind: 'addressed-problems', label: 'Addressed Problems' }, { kind: 'similar-solutions', label: 'Similar Solutions' }] :
+        [{ kind: 'symptoms', label: 'Symptoms' }, { kind: 'causes', label: 'Causes' }, { kind: 'solutions', label: 'Solutions' }, { kind: 'similar-problems', label: 'Similar Problems' }];
       menuActions.forEach(function (menuAction) {
         var kind = menuAction.kind;
         var action = document.createElement('button');
@@ -405,7 +409,7 @@
               list.textContent = 'No references.';
               return;
             }
-            references.forEach(function (reference) {
+            function addReference(reference) {
               var referenceButton = document.createElement('button');
               referenceButton.type = 'button';
               referenceButton.textContent = reference.title;
@@ -413,7 +417,20 @@
                 navigateToReference(sourceNode, kind, reference);
               });
               list.appendChild(referenceButton);
-            });
+            }
+            var initiallyVisible = 10;
+            references.slice(0, initiallyVisible).forEach(addReference);
+            if (references.length > initiallyVisible) {
+              var showAll = document.createElement('button');
+              showAll.type = 'button';
+              showAll.className = 'analysis-trail__node-menu-show-all';
+              showAll.textContent = 'Show all (' + references.length + ')';
+              showAll.addEventListener('click', function () {
+                showAll.remove();
+                references.slice(initiallyVisible).forEach(addReference);
+              });
+              list.appendChild(showAll);
+            }
           }).catch(function () { list.textContent = 'Could not load references.'; });
         });
         nodeMenu.appendChild(action);
@@ -461,8 +478,8 @@
           tabindex: '0',
           'aria-label': 'Remove ' + node.title + ' from the analysis trail'
         });
-        remove.appendChild(svgElement('circle', { cx: position.x + 10, cy: position.y - 10, r: '6' }));
-        var removeIcon = svgElement('text', { x: position.x + 10, y: position.y - 7.5, 'text-anchor': 'middle' });
+        remove.appendChild(svgElement('circle', { cx: position.x + 12, cy: position.y - 24, r: '6' }));
+        var removeIcon = svgElement('text', { x: position.x + 12, y: position.y - 21.5, 'text-anchor': 'middle' });
         removeIcon.textContent = '×';
         remove.appendChild(removeIcon);
         var removeTitle = svgElement('title');
