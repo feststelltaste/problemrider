@@ -517,8 +517,11 @@
           'aria-label': 'Remove ' + node.title + ' from the analysis trail'
         });
         var removeHit = svgElement('circle', { cx: position.x, cy: position.y - 17, r: '12', class: 'analysis-trail__remove-hit' });
-        var removeIcon = svgElement('text', { x: position.x, y: position.y - 17, 'text-anchor': 'middle', style: 'text-decoration:none' });
-        removeIcon.textContent = '×';
+        // Draw the X as two SVG lines instead of a text glyph so link
+        // underline styles can never affect the delete control.
+        var removeIcon = svgElement('g', { class: 'analysis-trail__remove-icon' });
+        removeIcon.appendChild(svgElement('line', { x1: position.x - 4, y1: position.y - 21, x2: position.x + 4, y2: position.y - 13 }));
+        removeIcon.appendChild(svgElement('line', { x1: position.x + 4, y1: position.y - 21, x2: position.x - 4, y2: position.y - 13 }));
         remove.appendChild(removeHit);
         remove.appendChild(removeIcon);
         var removeTitle = svgElement('title');

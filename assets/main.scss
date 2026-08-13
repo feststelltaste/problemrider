@@ -221,9 +221,20 @@
     text-decoration: none !important;
     text-decoration-line: none !important;
   }
+  &__remove-icon,
+  &__remove-icon line {
+    fill: none;
+    stroke: #111;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    pointer-events: none;
+    text-decoration: none !important;
+  }
   &__remove-hit { fill: transparent; stroke: none; pointer-events: painted; }
   &__remove-node:hover text,
   &__remove-node:focus text { fill: #e53e3e; }
+  &__remove-node:hover .analysis-trail__remove-icon line,
+  &__remove-node:focus .analysis-trail__remove-icon line { stroke: #e53e3e; }
 }
 
 .analysis-trail-menu-button {
