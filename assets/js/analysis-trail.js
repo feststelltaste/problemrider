@@ -292,12 +292,17 @@
       (groupedNodes[node.type] || groupedNodes.problem).push(node);
     });
     var rowY = { symptom: 28, problem: 98, solution: 168, 'root cause': 238 };
+    // Keep automatically placed nodes close together. Circles have a 20px
+    // diameter, so a 40px centre distance leaves roughly 20px of clear space
+    // between neighbouring circles while still keeping labels readable.
+    var nodeCenterSpacing = 40;
     var positions = {};
     displayNodes.forEach(function (node, index) {
       var group = groupedNodes[node.type] || groupedNodes.problem;
       var groupIndex = group.indexOf(node);
+      var rowWidth = Math.max(0, (group.length - 1) * nodeCenterSpacing);
       var defaultPosition = {
-        x: Math.round(width * (groupIndex + 1) / (group.length + 1)),
+        x: Math.max(14, Math.min(width - 14, Math.round((width - rowWidth) / 2 + groupIndex * nodeCenterSpacing))),
         y: rowY[node.type] || rowY.problem
       };
       var savedPosition = trail.positions[node.id];
