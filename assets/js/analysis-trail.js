@@ -891,9 +891,12 @@
         }
 
         // 2-Step Click Model:
-        // 1st click on an unfocused node: loads article & focuses node.
-        // 2nd click on an already focused node (currentNodeId === nodeId): toggles reference & add menus!
-        if (currentNodeId === nodeId) {
+        // 1st click on unfocused node: loads article & focuses node (no menus).
+        // 2nd click on focused node: toggles reference action boxes & controls!
+        var isFocused = (currentNodeId === nodeId);
+
+        if (isFocused) {
+          // 2nd Click: Toggle open/close action boxes & controls
           if (nodeMenu && activeControlLink === nodeGroup) {
             hideNodeMenu();
           } else {
@@ -903,7 +906,16 @@
             showNodeMenu(nodeElement.node);
           }
         } else {
+          // 1st Click: Remove focus ring from ALL other nodes and focus this clicked node
           hideNodeMenu();
+          currentNodeId = nodeId;
+          Object.keys(nodeElements).forEach(function (id) {
+            if (nodeElements[id] && nodeElements[id].circle) {
+              nodeElements[id].circle.classList.remove('is-current');
+            }
+          });
+          nodeElement.circle.classList.add('is-current');
+
           if (nodeElement.node.url && nodeElement.node.url !== '#') {
             loadPageDynamically(nodeElement.node.url, true);
           }
