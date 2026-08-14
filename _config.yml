@@ -68,8 +68,10 @@ exclude:
   - AGENTS.md
   - CLAUDE.md
   - GEMINI.md
+  - MISTAKES.md
   - problem-pattern-template.md
   - solution-pattern-template.md
+  - quality-tactics-reference.md
   - SOLUTIONS_PLAN.md
   - neo4j_simple/
   - scripts/*
@@ -78,5 +80,6 @@ exclude:
   - README.md
   - git-tail.sh
   - _embeddings/
+  - plans/
   - TECHDEBT.md
   - ARCH.md
