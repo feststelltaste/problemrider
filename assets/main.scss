@@ -315,9 +315,7 @@
     color: #222;
     font-size: 0.98rem;
   }
-  &__node-menu-list.is-expanded { max-height: none; }
   &__node-menu-list button { border-radius: 8px; text-align: left; padding: 0.6rem 0.9rem; line-height: 1.45; }
-  &__node-menu-show-all { font-weight: bold; text-align: center !important; }
   &__node-menu--add { width: max-content; height: auto; pointer-events: auto; }
   &__node-menu--add .analysis-trail__node-menu-action { min-width: 9.5rem; text-align: left; }
 
@@ -594,6 +592,25 @@
   to { opacity: 1; transform: scale(1); }
 }
 
+// Sits next to .site-title (floated left, like it) rather than inside
+// .site-nav's .trigger: on problem/solution pages the fixed Analysis
+// Workbench button shares that row and, at some widths, ended up sitting on
+// top of the trigger's items — including this one — swallowing clicks meant
+// for the checkbox.
+.site-nav__speed-nav {
+  display: inline-flex;
+  float: left;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0 0 0 20px;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  color: $grey-color-dark;
+  font-size: 16px;
+  cursor: pointer;
+
+  input { margin: 0; }
+}
+
 .analysis-trail-menu-button {
   position: fixed;
   z-index: 15;
@@ -657,37 +674,31 @@
 }
 
 @media screen and (min-width: 701px) {
-  // The article column scrolls inside its own box instead of the document.
-  // Without this, the native scrollbar for the article sat at the outer edge
-  // of the browser window — behind the fixed workbench pane, nowhere near the
-  // column it actually scrolled — instead of hugging the article itself.
   body.analysis-trail-expanded {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+    display: block;
+    min-height: 100vh;
     overflow: hidden;
   }
 
-  body.analysis-trail-expanded .site-header,
-  body.analysis-trail-expanded .site-footer {
+  body.analysis-trail-expanded .site-header {
     position: relative;
     z-index: 21;
-    flex: 0 0 auto;
     width: var(--analysis-trail-split, 50%);
     box-sizing: border-box;
     background: #fff;
   }
 
-  body.analysis-trail-expanded .site-header {
-    width: var(--analysis-trail-split, 50%);
-  }
-
+  // The footer normally only shows up once the document is scrolled all the
+  // way past the article. The article now scrolls in its own fixed box
+  // instead (see .page-content below) rather than the document, and the
+  // footer is not part of that box — showing it here would pin it in place
+  // on the left instead of only reaching it at the article's end, so it is
+  // hidden in this split view instead.
   body.analysis-trail-expanded .site-footer {
-    max-height: none;
+    display: none;
   }
 
-  body.analysis-trail-expanded .site-header .wrapper,
-  body.analysis-trail-expanded .site-footer .wrapper {
+  body.analysis-trail-expanded .site-header .wrapper {
     max-width: none;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -698,10 +709,20 @@
     padding: 0;
   }
 
+  // Scrolls in its own box pinned below the header instead of the document,
+  // so its scrollbar sits at the split boundary next to the workbench pane
+  // instead of at the outer edge of the browser window. --analysis-trail-
+  // header-height is measured in JS since the header's height depends on how
+  // its nav wraps at the current split width.
   body.analysis-trail-expanded .page-content {
-    flex: 1 1 auto;
+    position: fixed;
+    z-index: 1;
+    top: var(--analysis-trail-header-height, 0px);
+    bottom: 0;
+    left: 0;
     width: var(--analysis-trail-split, 50%);
-    min-height: 0;
+    height: auto;
+    box-sizing: border-box;
     overflow-y: auto;
     overflow-x: hidden;
   }

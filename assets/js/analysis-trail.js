@@ -21,6 +21,11 @@
   // init function) and the per-node reference menu (defined inside render())
   // need to search the same catalog.
   var catalog = { problems: [], solutions: [] };
+  // The article currently on screen. Hoisted to module scope (rather than a
+  // local in the init function) because loadPageDynamically below — called
+  // both from inside render() and from the plain-link click handler in the
+  // init function, two separate closures — updates it on every navigation.
+  var node = null;
 
   function stopLinking() {
     linkingFrom = null;
@@ -312,13 +317,9 @@
     return 'problem';
   }
 
-  function catalogPoolForKind(kind) {
-    return (kind === 'solutions' || kind === 'similar-solutions') ? catalog.solutions : catalog.problems;
-  }
-
   // The manual search box searches everything, problems and solutions alike,
-  // rather than only the half `catalogPoolForKind` would restrict it to —
-  // each entry keeps its own real type so a solution is still labeled as a
+  // instead of only the half a kind would normally restrict it to — each
+  // entry keeps its own real type so a solution is still labeled as a
   // solution even when found from a "Causes" search.
   function fullCatalogPool() {
     return catalog.problems.map(function (item) {
@@ -339,48 +340,6 @@
     })) trail.edges.push(relation);
     if (trail.edges.length > maxEdges) trail.edges.shift();
     saveTrail(trail);
-  }
-
-  // "Show more" prioritizes items that a handful of similar problems already
-  // list under the same heading, since those tend to be more relevant than an
-  // arbitrary slice of the full catalog. Falls back to the catalog to fill up
-  // to 20 suggestions.
-  function relatedSimilarKindFor(kind) {
-    if (kind === 'symptoms' || kind === 'causes' || kind === 'solutions') return 'similar-problems';
-    return null;
-  }
-
-  function collectShowMoreCandidates(sourceNode, kind, excludeIds) {
-    var pool = catalogPoolForKind(kind);
-    var similarKind = relatedSimilarKindFor(kind);
-    var similarPromise = similarKind ?
-      referencesForNode(sourceNode, similarKind).catch(function () { return []; }) :
-      window.Promise.resolve([]);
-    return similarPromise.then(function (similarReferences) {
-      var similarNodes = similarReferences.map(function (reference) {
-        return nodeFromReference(reference, similarKind);
-      }).filter(Boolean).slice(0, 6);
-      return window.Promise.all(similarNodes.map(function (similarNode) {
-        return referencesForNode(similarNode, kind).catch(function () { return []; });
-      })).then(function (groups) {
-        var prioritized = [];
-        var seen = {};
-        groups.forEach(function (group) {
-          group.forEach(function (reference) {
-            var candidateNode = nodeFromReference(reference, kind);
-            if (!candidateNode || seen[candidateNode.id] || excludeIds[candidateNode.id]) return;
-            seen[candidateNode.id] = true;
-            prioritized.push(candidateNode);
-          });
-        });
-        pool.forEach(function (item) {
-          if (prioritized.length >= 20 || seen[item.id] || excludeIds[item.id]) return;
-          seen[item.id] = true;
-          prioritized.push({ id: item.id, title: item.title, type: catalogNodeTypeForKind(kind), url: item.url });
-        });
-        return prioritized.slice(0, 20);
-      });
-    });
   }
 
   function addContextualCausalEdges(trail) {
@@ -425,6 +384,70 @@
   function nodeX(type, width) {
     var positions = { 'root cause': 0.16, problem: 0.45, symptom: 0.72, solution: 0.88 };
     return Math.round(width * (positions[type] || 0.5));
+  }
+
+  // Module-level (not nested in render()) so the plain-<a> click handler in
+  // the init function can call it directly — that handler and render() are
+  // sibling closures, so a version nested in render() is invisible to it.
+  function loadPageDynamically(trail, url, shouldPushState) {
+    if (!url || url === '#') return;
+    var mainContent = document.querySelector('.page-main-content');
+    if (!mainContent) return;
+    // A pending connection is bound to the page it was started on, and its
+    // source node would otherwise keep the same blue ring as the active node.
+    stopLinking();
+
+    mainContent.style.opacity = '0.5';
+
+    window.fetch(url).then(function (response) {
+      if (!response.ok) throw new Error('Could not load page');
+      return response.text();
+    }).then(function (html) {
+      var doc = new window.DOMParser().parseFromString(html, 'text/html');
+      var newMain = doc.querySelector('.page-main-content');
+      if (!newMain) {
+        mainContent.style.opacity = '1';
+        return;
+      }
+
+      mainContent.innerHTML = newMain.innerHTML;
+      mainContent.style.opacity = '1';
+      scrollArticleToTop();
+
+      if (doc.title) document.title = doc.title;
+
+      if (shouldPushState !== false && window.history && window.history.pushState) {
+        window.history.pushState({ url: url }, doc.title || '', url);
+      }
+
+      var article = doc.querySelector('[data-analysis-node]');
+      if (article) {
+        var newArticleNode = {
+          id: article.getAttribute('data-analysis-node-id'),
+          title: article.getAttribute('data-analysis-node-title'),
+          type: article.getAttribute('data-analysis-node-type'),
+          url: url
+        };
+        node = newArticleNode;
+        // The article that is now on screen is the active node, no matter how
+        // it was reached.
+        setFocusedNodeId(newArticleNode.id);
+        addCurrentNode(trail, newArticleNode);
+        addPendingEdge(trail, newArticleNode);
+        saveTrail(trail);
+        render(trail);
+        addContextualCausalEdges(trail).then(function (changed) {
+          if (changed) render(trail);
+        });
+      }
+
+      // Focusing a node or a link inside the new article can scroll the page
+      // again after the swap, so the offset is reset once more afterwards.
+      window.requestAnimationFrame(scrollArticleToTop);
+    }).catch(function (error) {
+      console.warn('Dynamic page load failed:', error);
+      mainContent.style.opacity = '1';
+    });
   }
 
   function labelLines(title, maximumLength) {
@@ -681,72 +704,11 @@
       menuOpenNodeId = nodeId;
     }
 
-    function loadPageDynamically(url, shouldPushState) {
-      if (!url || url === '#') return;
-      var mainContent = document.querySelector('.page-main-content');
-      if (!mainContent) return;
-      // A pending connection is bound to the page it was started on, and its
-      // source node would otherwise keep the same blue ring as the active node.
-      stopLinking();
-
-      mainContent.style.opacity = '0.5';
-
-      window.fetch(url).then(function (response) {
-        if (!response.ok) throw new Error('Could not load page');
-        return response.text();
-      }).then(function (html) {
-        var doc = new window.DOMParser().parseFromString(html, 'text/html');
-        var newMain = doc.querySelector('.page-main-content');
-        if (!newMain) {
-          mainContent.style.opacity = '1';
-          return;
-        }
-
-        mainContent.innerHTML = newMain.innerHTML;
-        mainContent.style.opacity = '1';
-        scrollArticleToTop();
-
-        if (doc.title) document.title = doc.title;
-
-        if (shouldPushState !== false && window.history && window.history.pushState) {
-          window.history.pushState({ url: url }, doc.title || '', url);
-        }
-
-        var article = doc.querySelector('[data-analysis-node]');
-        if (article) {
-          var newArticleNode = {
-            id: article.getAttribute('data-analysis-node-id'),
-            title: article.getAttribute('data-analysis-node-title'),
-            type: article.getAttribute('data-analysis-node-type'),
-            url: url
-          };
-          node = newArticleNode;
-          // The article that is now on screen is the active node, no matter how
-          // it was reached.
-          setFocusedNodeId(newArticleNode.id);
-          addCurrentNode(trail, newArticleNode);
-          addPendingEdge(trail, newArticleNode);
-          saveTrail(trail);
-          render(trail);
-          addContextualCausalEdges(trail).then(function (changed) {
-            if (changed) render(trail);
-          });
-        }
-
-        // Focusing a node or a link inside the new article can scroll the page
-        // again after the swap, so the offset is reset once more afterwards.
-        window.requestAnimationFrame(scrollArticleToTop);
-      }).catch(function (error) {
-        console.warn('Dynamic page load failed:', error);
-        mainContent.style.opacity = '1';
-      });
-    }
-
     window.addEventListener('popstate', function (event) {
       if (event.state && event.state.url) {
-        loadPageDynamically(event.state.url, false);
+        loadPageDynamically(trail, event.state.url, false);
       } else {
-        loadPageDynamically(window.location.pathname + window.location.search, false);
+        loadPageDynamically(trail, window.location.pathname + window.location.search, false);
       }
     });
 
@@ -761,7 +723,7 @@
       }[kind];
       relationship.from = sourceNode.id;
       window.sessionStorage.setItem(pendingKey, JSON.stringify(relationship));
-      loadPageDynamically(reference.url, true);
+      loadPageDynamically(trail, reference.url, true);
     }
 
     function showNodeMenu(sourceNode) {
@@ -937,35 +899,6 @@
               empty.textContent = 'No linked references yet.';
               list.appendChild(empty);
             }
-
-            var showMore = document.createElement('button');
-            showMore.type = 'button';
-            showMore.className = 'analysis-trail__node-menu-show-all';
-            showMore.textContent = 'Show more';
-            showMore.addEventListener('click', function () {
-              showMore.disabled = true;
-              showMore.textContent = 'Loading…';
-              trail.nodes.forEach(function (existing) { shownIds[existing.id] = true; });
-              collectShowMoreCandidates(sourceNode, kind, shownIds).then(function (candidates) {
-                showMore.remove();
-                if (!candidates.length) {
-                  var none = document.createElement('p');
-                  none.className = 'analysis-trail__node-menu-empty';
-                  none.textContent = 'No further catalog matches.';
-                  list.appendChild(none);
-                  return;
-                }
-                list.classList.add('is-expanded');
-                candidates.forEach(function (candidateNode) {
-                  shownIds[candidateNode.id] = true;
-                  list.appendChild(renderAddableRow(candidateNode));
-                });
-              }).catch(function () {
-                showMore.disabled = false;
-                showMore.textContent = 'Show more';
-              });
-            });
-            list.appendChild(showMore);
           }).catch(function () { list.appendChild(document.createTextNode('Could not load references.')); });
         }
         action.addEventListener('click', openActionList);
@@ -1175,7 +1108,7 @@
       // fight the scroll reset of the freshly loaded article.
       if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
       if (!nodeElement.node.custom && nodeElement.node.url && nodeElement.node.url !== '#') {
-        loadPageDynamically(nodeElement.node.url, true);
+        loadPageDynamically(trail, nodeElement.node.url, true);
       }
     }
 
@@ -1307,20 +1240,25 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     updateMenuCount();
-    var speedNav = document.querySelector('[data-analysis-trail-speed-nav]');
-    if (speedNav) {
-      var savedSpeedNav = window.sessionStorage.getItem(speedNavKey);
-      if (savedSpeedNav !== null) speedNav.checked = savedSpeedNav === 'true';
-      speedNav.addEventListener('change', function () {
-        window.sessionStorage.setItem(speedNavKey, String(speedNav.checked));
+    // The same checkbox appears in the site header (available on every page)
+    // and inside the Analysis Workbench panel; both stay in sync and share
+    // one persisted setting.
+    var speedNavs = document.querySelectorAll('[data-analysis-trail-speed-nav]');
+    var speedNavEnabled = window.sessionStorage.getItem(speedNavKey) === 'true';
+    speedNavs.forEach(function (input) {
+      input.checked = speedNavEnabled;
+      input.addEventListener('change', function () {
+        speedNavEnabled = input.checked;
+        speedNavs.forEach(function (other) { other.checked = speedNavEnabled; });
+        window.sessionStorage.setItem(speedNavKey, String(speedNavEnabled));
       });
-    }
+    });
 
     // Number keys provide quick section navigation on problem and solution
     // detail pages: 1 = first heading, 2 = second heading, and so on.
     document.addEventListener('keydown', function (event) {
       if (!/^[1-9]$/.test(event.key) || event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
-      if (speedNav && !speedNav.checked) return;
+      if (!speedNavEnabled) return;
       if (/^(INPUT|TEXTAREA|SELECT|BUTTON)$/.test(event.target.tagName) || event.target.isContentEditable) return;
       var headings = Array.prototype.slice.call(document.querySelectorAll('.page-main-content h1, .page-main-content h2, .page-main-content h3'));
       var heading = headings[Number(event.key) - 1];
@@ -1347,7 +1285,7 @@
       }
     });
     var trail = getTrail();
-    var node = currentNode();
+    node = currentNode();
     // Entering a page defines the active node. Any node that was active in an
     // earlier session or on the previous page is deactivated here, so the graph
     // never shows more than one focus ring.
@@ -1544,6 +1482,18 @@
       if (changed) render(trail);
     });
 
+    // The article column is pinned below the header instead of scrolling the
+    // whole document, so its own scrollbar sits at the split boundary next to
+    // the workbench instead of at the outer edge of the browser window. That
+    // needs the header's actual height, which varies with the split (the nav
+    // wraps differently at different widths), so it is measured rather than
+    // assumed.
+    function syncHeaderHeight() {
+      var header = document.querySelector('.site-header');
+      if (!header) return;
+      document.documentElement.style.setProperty('--analysis-trail-header-height', header.getBoundingClientRect().height + 'px');
+    }
+
     var trailLayout = document.querySelector('.page-with-analysis-trail');
     var modeButton = document.querySelector('[data-analysis-trail-mode]');
     var openButton = document.querySelector('[data-analysis-trail-open]');
@@ -1553,19 +1503,27 @@
       document.body.classList.toggle('analysis-trail-expanded', isExpanded);
       if (modeButton) modeButton.setAttribute('aria-pressed', String(isExpanded));
       window.sessionStorage.setItem(expandedKey, String(isExpanded));
+      if (isExpanded) syncHeaderHeight();
       render(trail);
     }
-    if (window.sessionStorage.getItem(expandedKey) === 'true') setExpanded(true);
-    if (modeButton) modeButton.addEventListener('click', function () {
-      setExpanded(!trailLayout.classList.contains('is-analysis-trail-expanded'));
+    window.addEventListener('resize', function () {
+      if (document.body.classList.contains('analysis-trail-expanded')) syncHeaderHeight();
     });
-    if (openButton) openButton.addEventListener('click', function () { setExpanded(true); });
 
+    // Restored before the initial setExpanded() call below, so the header
+    // height it measures reflects the actual persisted split width instead
+    // of the default 50%.
     var splitKey = 'problemrider-analysis-trail-split-v1';
     var savedSplit = window.sessionStorage.getItem(splitKey);
     if (savedSplit) {
       document.documentElement.style.setProperty('--analysis-trail-split', savedSplit + '%');
     }
+
+    if (window.sessionStorage.getItem(expandedKey) === 'true') setExpanded(true);
+    if (modeButton) modeButton.addEventListener('click', function () {
+      setExpanded(!trailLayout.classList.contains('is-analysis-trail-expanded'));
+    });
+    if (openButton) openButton.addEventListener('click', function () { setExpanded(true); });
 
     var resizer = document.querySelector('[data-analysis-trail-resizer]');
     if (resizer) {
@@ -1587,6 +1545,7 @@
         percent = Math.max(20, Math.min(80, percent));
         document.documentElement.style.setProperty('--analysis-trail-split', percent + '%');
         window.sessionStorage.setItem(splitKey, percent.toFixed(2));
+        syncHeaderHeight();
       });
 
       resizer.addEventListener('pointerup', function (event) {
@@ -1623,7 +1582,7 @@
           window.sessionStorage.setItem(pendingKey, JSON.stringify(edge));
         }
       }
-      loadPageDynamically(target.pathname + target.search, true);
+      loadPageDynamically(trail, target.pathname + target.search, true);
     });
 
     var reset = document.querySelector('[data-analysis-trail-reset]');
