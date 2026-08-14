@@ -367,6 +367,12 @@
     cursor: default;
   }
   &__node-menu-list-add {
+    // text-align + line-height alone center the glyph horizontally but not
+    // vertically inside a fixed-height circle — flex centering is the part
+    // that actually lands the "+" (and the "✓" it swaps to) in the middle.
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 0 0 auto;
     width: 1.7rem;
     height: 1.7rem;

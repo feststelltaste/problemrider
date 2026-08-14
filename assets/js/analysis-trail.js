@@ -317,16 +317,8 @@
     return 'problem';
   }
 
-  // The manual search box searches everything, problems and solutions alike,
-  // instead of only the half a kind would normally restrict it to — each
-  // entry keeps its own real type so a solution is still labeled as a
-  // solution even when found from a "Causes" search.
-  function fullCatalogPool() {
-    return catalog.problems.map(function (item) {
-      return { id: item.id, title: item.title, url: item.url, type: 'problem' };
-    }).concat(catalog.solutions.map(function (item) {
-      return { id: item.id, title: item.title, url: item.url, type: 'solution' };
-    }));
+  function catalogPoolForKind(kind) {
+    return (kind === 'solutions' || kind === 'similar-solutions') ? catalog.solutions : catalog.problems;
   }
 
   // Adds one reference node and its edge to the trail without navigating away
@@ -837,18 +829,19 @@
             var query = searchInput.value.trim();
             if (!query) { searchResults.hidden = true; return; }
             var lowerQuery = query.toLowerCase();
-            var matches = fullCatalogPool().filter(function (item) {
+            // Restricted to this kind's own catalog (problems for causes/
+            // symptoms/similar-problems/addressed-problems, solutions for
+            // solutions/similar-solutions) — searching for a cause must not
+            // surface solutions, and vice versa.
+            var matches = catalogPoolForKind(kind).filter(function (item) {
               return item.id !== sourceNode.id && !shownIds[item.id] &&
                 !trail.nodes.some(function (existing) { return existing.id === item.id; }) &&
                 item.title.toLowerCase().indexOf(lowerQuery) !== -1;
             }).slice(0, 8);
             // Same mechanism as the reference rows above: the title opens the
-            // article, the round "+" attaches it without navigating away. A
-            // matched problem still takes this kind's type (root cause,
-            // symptom, ...); a matched solution stays a solution regardless.
+            // article, the round "+" attaches it without navigating away.
             matches.forEach(function (item) {
-              var type = item.type === 'solution' ? 'solution' : catalogNodeTypeForKind(kind);
-              var row = renderAddableRow({ id: item.id, title: item.title, type: type, url: item.url });
+              var row = renderAddableRow({ id: item.id, title: item.title, type: catalogNodeTypeForKind(kind), url: item.url });
               row.setAttribute('role', 'option');
               searchResults.appendChild(row);
             });
