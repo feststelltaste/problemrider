@@ -17,7 +17,7 @@ layout: default
       {% if page.category %}
         <div class="solution-categories">
           {% for category in page.category %}
-            <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag">{{ category }}</a>
+            <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag" data-category="{{ category }}">{{ category }}</a>
           {% endfor %}
         </div>
       {% endif %}

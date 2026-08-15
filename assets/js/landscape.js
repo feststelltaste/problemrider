@@ -1,9 +1,12 @@
 (function () {
   'use strict';
 
-  // Same 15 category colors used by the (now retired) force-directed
-  // landscape view, so returning visitors see a familiar color coding.
-  var categoryColors = {
+  // Single source of truth is _data/category_colors.yml — landscape.html
+  // embeds it as window.CATEGORY_COLORS so this map, the article category
+  // tags (see main.scss's own Liquid loop over the same data file), and the
+  // legend all draw from the same 15 colors. The literal fallback below only
+  // matters if that script tag is ever missing.
+  var categoryColors = window.CATEGORY_COLORS || {
     'Architecture': '#3498db',
     'Business': '#e74c3c',
     'Code': '#f39c12',
@@ -249,14 +252,17 @@
     // indices) — a Set has neither, so that used to silently yield [].
     var categories = Array.from(new Set((data[tab] || []).map(function (node) { return node.category; }))).sort();
     categories.forEach(function (category) {
-      var item = document.createElement('div');
-      item.className = 'landscape__legend-item';
-      var swatch = document.createElement('span');
-      swatch.className = 'landscape__legend-color';
-      swatch.style.background = colorFor(category);
-      item.appendChild(swatch);
-      item.appendChild(document.createTextNode(category));
-      legend.appendChild(item);
+      // Reuses the exact same class as a map node's label — a swatch next
+      // to plain text was a second, separate way of showing the same color
+      // that didn't quite match the pill-shaped, bordered look of the nodes
+      // themselves. This way the legend entries and the nodes they're a key
+      // for are visibly the same kind of chip, just smaller.
+      var chip = document.createElement('span');
+      chip.className = 'landscape-node__label landscape__legend-chip';
+      chip.textContent = category;
+      chip.style.setProperty('--node-color', colorFor(category));
+      chip.style.setProperty('--node-bg', hexToRgba(colorFor(category), 0.12));
+      legend.appendChild(chip);
     });
   }
 
@@ -568,4 +574,16 @@
   } else {
     updateArticleVisibility();
   }
+
+  // The Space-to-pan listener is on `document`, so it fires regardless of
+  // which element inside the page is focused — but not if focus is still
+  // outside the page entirely (e.g. the browser's own address bar, right
+  // after typing/pasting the URL and hitting enter, before ever clicking
+  // into the page). Proactively pulling focus onto the map — once up front,
+  // and again the moment the pointer actually enters it — closes that gap
+  // without needing an explicit click first.
+  if (map.focus) map.focus({ preventScroll: true });
+  map.addEventListener('pointerenter', function () {
+    if (document.activeElement !== map) map.focus({ preventScroll: true });
+  });
 })();

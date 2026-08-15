@@ -931,6 +931,30 @@
   }
 }
 
+// Per-category color, one rule per entry in _data/category_colors.yml — the
+// same file the /landscape/ map and its legend read via
+// window.CATEGORY_COLORS (see landscape.html), so a category is the same
+// color everywhere. Only the article's category-tag pills carry
+// [data-category] (added in _layouts/problem.html / solution.html); the
+// plain .category-tag rule above stays as the fallback for every other
+// place category-tag is used (listing cards, the /categories/ page, ...).
+// Full-strength color as the border, a translucent tint of it as the fill —
+// same treatment as the landscape legend swatches and map node labels.
+{% for entry in site.data.category_colors %}
+  {% assign name = entry[0] %}
+  {% assign hex = entry[1] %}
+  .category-tag[data-category="{{ name }}"] {
+    color: {{ hex }};
+    background: rgba({{ hex }}, 0.12);
+    border-color: {{ hex }};
+
+    &:hover {
+      background: {{ hex }};
+      color: #fff;
+    }
+  }
+{% endfor %}
+
 .problem-content {
   line-height: 1.6;
   
