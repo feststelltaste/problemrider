@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Continuous feedback replaces a long development cycle followed by late validation with regular, structured opportunities for stakeholders and real users to inspect working software and influence its direction before too much has been built on a wrong assumption. This matters most in legacy modernization, where the actual requirements are frequently the undocumented daily workarounds of people who have used the old system for years — knowledge that a single upfront requirements phase reliably misses. Frequent demos, an accessible staging environment, and a visible triage process that shows contributors their input led to action keep that knowledge flowing throughout the project rather than surfacing all at once, too late, when the replacement is shown for the first time.
+
 ## How to Apply ◆
 
 > Continuous feedback replaces the risky pattern of long development cycles followed by late-stage validation with frequent, structured opportunities for stakeholders and users to inspect and influence the evolving product.

@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Blue-green deployment runs two identical production environments side by side, sending live traffic to only one at a time, so that releasing a new version means switching a router to the already-verified other environment instead of modifying the running one in place. This turns rollback from a slow, risky reversal of an in-place deployment into an instant traffic switch back to the environment that was serving requests moments earlier, which is exactly the property that legacy systems with a history of long, high-ceremony release windows and difficult rollbacks need most. The approach does roughly double infrastructure cost for the duration of a deployment and requires database schema changes to stay backward compatible across both versions, which is often the hardest adjustment for legacy systems whose migration practices assume only one version is ever running.
+
 ## How to Apply ◆
 
 > Blue-green deployment addresses one of the most acute risks in legacy system operations — the high-stakes, infrequent release that accumulates months of change and dreads a difficult rollback.

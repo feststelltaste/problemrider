@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+API-first design treats the interface contract between components — its shape, its data formats, its rate limits — as the thing to be designed and agreed upon before any implementation work begins, rather than as a byproduct of whatever the implementation happened to produce. This reverses the common legacy pattern where interfaces evolved accidentally over years of ad-hoc changes, leaving consumers to reverse-engineer undocumented behavior at integration time. Writing the specification first, using a format like OpenAPI or GraphQL SDL as the single source of truth, lets consumer and provider teams review and agree on a contract before either side commits to code, and lets tooling generate clients, validation, and contract tests directly from that agreed shape.
+
 ## How to Apply ◆
 
 > In legacy systems, API-first design shifts the conversation from "what does the code already do" to "what contract should exist between components," which is essential when modernizing systems where interfaces evolved accidentally over years of ad-hoc changes.

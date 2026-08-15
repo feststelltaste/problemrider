@@ -34,6 +34,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Concurrency control restructures how a system accesses shared mutable state and distributes work across threads or processes, so that operations can safely run in parallel instead of the single-threaded or ad hoc multi-threaded patterns many legacy systems grew up with. Mapping every piece of shared state and where it is read and written is the necessary first step, since introducing synchronization, immutable data patterns, or asynchronous processing on top of an unaudited legacy codebase without first understanding its shared state is how new race conditions and deadlocks get introduced. Done carefully — narrow lock scopes, optimistic concurrency for low-conflict database operations, timeouts on every blocking call — concurrency control raises throughput and prevents thread pool exhaustion, at the cost of a category of bugs that is notoriously hard to reproduce and diagnose once introduced.
+
 ## How to Apply ◆
 
 > Legacy systems often evolved in single-threaded or poorly coordinated multi-threaded environments. Introducing proper concurrency control means restructuring how shared resources are accessed, how work is distributed across threads or processes, and how the system behaves under concurrent load.

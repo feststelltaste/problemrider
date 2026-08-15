@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A dependency management strategy systematically inventories, updates, and scans a system's external libraries, replacing years of unmanaged drift — pinned ancient versions, no lock files, no visibility into what a transitive dependency tree even contains — with a deliberate, policy-driven process. Legacy systems are where this drift accumulates most severely, since avoiding updates because a past attempt caused an integration crisis is a completely rational short-term response that compounds into exactly the multi-version upgrade project everyone was trying to avoid. Generating a full dependency inventory, introducing lock files, and updating one library at a time against a written policy converts an unbounded, silently accumulating risk into a routine, visible maintenance task.
+
 ## How to Apply ◆
 
 > Legacy systems frequently accumulate years of unmanaged dependency drift — libraries pinned to ancient versions, no lock files, and no visibility into transitive vulnerabilities — making systematic dependency management both urgent and technically challenging to introduce.

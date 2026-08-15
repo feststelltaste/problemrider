@@ -38,6 +38,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Design by Contract makes a function's preconditions, postconditions, and invariants explicit and — ideally — executable, replacing the implicit assumptions about what callers must provide and what a function guarantees that accumulate silently in legacy code over years of undocumented development. Because these assumptions are usually never written down, different callers in a legacy codebase often disagree about them — one caller pre-validates input the function also validates, another skips validation the function silently assumes was done — and the resulting mismatch is exactly the class of bug this practice surfaces immediately, as an assertion failure, rather than as a subtle production incident months later. Introducing contracts gradually on the code a team is already touching, rather than attempting to retrofit them everywhere at once, keeps the practice from becoming its own maintenance burden.
+
 ## How to Apply ◆
 
 > In legacy systems, Design by Contract replaces the implicit assumptions that have accumulated over years of undocumented development with explicit, verifiable agreements about what each component expects, guarantees, and maintains. This makes the hidden rules of the legacy codebase visible and enforceable.

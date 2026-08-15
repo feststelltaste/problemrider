@@ -38,6 +38,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+An architecture roadmap translates a long-term target architecture into a sequenced set of concrete, deliverable increments, replacing the open-ended debate over "how should we modernize this system" with a plan the team can actually start executing. Legacy modernization efforts frequently stall for years in exactly that debate, torn between a full rewrite, a commercial replacement, and incremental refactoring, because no option has been broken down into steps small enough to commit to. Building the roadmap from a factual baseline of the current architecture, prioritizing increments by business value and risk, and reviewing it on a regular cadence keeps the plan grounded and adaptable rather than becoming a static document nobody follows.
+
 ## How to Apply ◆
 
 > An architecture roadmap translates long-term architectural goals into a sequenced, time-bound plan that teams can execute incrementally while continuing to deliver business value.

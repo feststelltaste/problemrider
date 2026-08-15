@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+An empty state replaces a blank screen — the default a legacy system shows when there is simply no data yet — with a clear explanation of why nothing is there and what to do next, so a new user doesn't have to guess whether the system is broken or they're missing something. Legacy interfaces routinely say nothing at all in this situation, which is a particularly bad first impression for anyone encountering the system for the first time, since it offers no path forward at the exact moment guidance would matter most. Designing these states with a concrete call to action, and distinguishing them visually from actual error states, turns what is otherwise a confusing dead end into the system's first piece of onboarding.
+
 ## How to Apply ◆
 
 > Legacy systems often display blank screens or empty tables with no explanation when there is no data to show, leaving users confused about whether the system is broken or they need to take action.

@@ -55,6 +55,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Docs as Code stores documentation as plain-text files in the same version-controlled repository as the code they describe, reviewed through the same pull request workflow, rather than in a separate wiki that drifts out of sync the moment nobody is actively maintaining it. Legacy systems depend heavily on institutional knowledge that lives only in a few people's heads and in scattered, stale wiki pages and email threads, which is precisely the material this practice is meant to capture — starting with the most critical undocumented areas and requiring any behavior-changing pull request to update the relevant docs alongside it. Because both code and documentation travel through the same commit history and review process, the record stays current by construction instead of by discipline alone, and it leaves a durable, authored trail of what was learned and when — valuable long after the person who learned it has moved on.
+
 ## How to Apply ◆
 
 > In legacy contexts, Docs as Code turns undocumented institutional knowledge into versioned, reviewable artifacts that live alongside the code they describe.

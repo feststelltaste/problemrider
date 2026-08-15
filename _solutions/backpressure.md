@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Backpressure gives a consumer an explicit way to signal an overwhelmed producer to slow down, rather than letting the producer keep generating work at full speed while a queue grows without bound. Legacy systems very often lack this feedback loop entirely — queues have no maximum size, producers have no way to learn that a downstream consumer has fallen behind — so a load spike turns into unbounded memory growth and, eventually, a cascading failure. Introducing bounded queues, rate limiting, and flow-control protocols at every producer-consumer boundary converts that failure mode into predictable, deliberate degradation: excess work is throttled, delayed, or rejected instead of accepted and silently piling up.
+
 ## How to Apply ◆
 
 > Legacy systems frequently lack any mechanism for downstream components to signal upstream producers that they are overwhelmed. Without backpressure, producers continue generating work at full speed while consumers fall further behind, leading to queue buildup, memory exhaustion, and cascading failures. Introducing backpressure creates a feedback loop that keeps the system in a sustainable operating range.

@@ -35,6 +35,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A feature toggle separates deploying code from releasing it to users, letting a new implementation sit inactive in production behind a configuration switch until it has been verified, then activated instantly — and reverted just as instantly — without a redeployment. This decoupling is especially valuable in legacy modernization, where a new implementation of legacy behavior can be shipped as an inactive release toggle, gradually rolled out by percentage or by account, and instantly reverted if an undocumented edge case surfaces at production scale, none of which a traditional legacy rollback process could offer at that speed. The risk is that toggles left in place after their purpose ends become a form of dead code that looks like intentional configuration, so giving every toggle a maximum lifespan at creation and treating an expired one as a bug is what keeps the mechanism from turning into the same kind of debt it was meant to help remove.
+
 ## How to Apply ◆
 
 > In legacy modernization, feature toggles decouple the act of deploying new code from the act of exposing it to users, making it possible to ship changes to a fragile production environment in small, reversible steps.

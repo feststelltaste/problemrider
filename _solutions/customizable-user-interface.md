@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A customizable user interface lets individual users adjust layout, theme, notification behavior, and shortcuts to match their own preferences and workflow, rather than presenting every user with the single rigid arrangement most legacy systems impose. That rigidity is what pushes users toward workarounds — squinting at small fixed fonts, ignoring irrelevant dashboard widgets, building external tools to compensate — because the official interface cannot adapt to how they actually work. Persisting these preferences per account so they follow the user across sessions and devices increases both productivity and a sense of ownership over the tool, though the combinatorial space of configurations it creates makes thorough testing and support meaningfully harder.
+
 ## How to Apply ◆
 
 > Legacy systems impose rigid interfaces that cannot adapt to individual user preferences. Allowing customization empowers users to work more efficiently within the system rather than around it.

@@ -33,6 +33,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A feedback mechanism gives users a structured, in-context way to report problems and suggest improvements — an embedded widget, a categorized form — rather than the informal email or phone call that a legacy system without any built-in channel forces them to rely on. Because those informal channels are so easy to lose track of, legacy system users frequently stop reporting issues entirely once they notice nothing ever comes of it, which quietly erodes trust and buries exactly the usability problems the development team most needs visibility into. The mechanism only holds up if the team actually closes the loop — acknowledging receipt and communicating back when something is fixed — since collecting feedback without visibly acting on it is worse than not asking at all.
+
 ## How to Apply ◆
 
 > Legacy systems rarely include built-in channels for user feedback, forcing users to report issues through email, phone calls, or informal conversations that are easily lost. Structured feedback mechanisms close this gap.

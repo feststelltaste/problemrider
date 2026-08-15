@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Choosing an efficient algorithm means replacing a quadratic or worse operation — a nested-loop lookup, a linear scan repeated per request — with one whose complexity actually matches the data volume the system now handles, rather than the volume it was originally written for. Legacy code very often carries exactly this mismatch: an algorithmic choice that was invisible when a table held a few hundred rows becomes the dominant cost once it holds millions, with nobody having revisited the choice in between. Profiling to find the actual hot path before optimizing, and validating the replacement against production-scale data rather than a small development set, is what turns this into a targeted, high-return fix instead of speculative rewriting of code that was never actually the bottleneck.
+
 ## How to Apply ◆
 
 > Legacy systems often accumulate inefficient algorithms over years of incremental development, where the original data volumes were small enough that poor algorithmic choices went unnoticed. Replacing these with efficient alternatives is one of the highest-impact performance improvements available.

@@ -34,6 +34,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Event-driven architecture decouples components by having them publish and react to asynchronous events — "order placed," "payment received" — through a broker, rather than calling each other directly and synchronously along a tightly woven chain. In a legacy context this is most valuable as a seam: it lets new components subscribe to events a legacy system already produces (or can be made to produce via a change-data-capture bridge) without requiring simultaneous, coordinated changes across the old system's call chains, and it stops a slow or unavailable legacy component from blocking the entire request path for everything downstream. The tradeoff is that debugging a process spanning a legacy publisher, a broker, and several consumers has no single call stack to inspect, and legacy systems rarely publish events natively, so retrofitting this pattern usually means adding outbox tables or polling bridges that carry their own fragility.
+
 ## How to Apply ◆
 
 > In a legacy context, event-driven architecture is most valuable as a decoupling mechanism that lets new and old components evolve independently without requiring simultaneous changes across tightly woven call chains.

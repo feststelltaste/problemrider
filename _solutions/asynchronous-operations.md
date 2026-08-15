@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Moving a time-intensive operation off the synchronous request path — into a background job that the user is notified about on completion — keeps the interface responsive instead of freezing while a report compiles or an export runs. Legacy systems frequently execute exactly these operations synchronously simply because that was the only pattern available when they were built, which means every long call blocks the UI and, on the server side, ties up a request-handling thread for the full duration of the work. Converting the interaction to submit-and-notify, backed by a message or task queue, relieves both problems at once, though it requires infrastructure the legacy system may not already have and introduces its own complexity in tracking operation state and communicating failure back to the user.
+
 ## How to Apply ◆
 
 > Legacy systems often execute long-running operations synchronously, freezing the user interface and frustrating users. Moving these operations to background processing improves perceived responsiveness.

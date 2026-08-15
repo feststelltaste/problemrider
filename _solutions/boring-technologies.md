@@ -33,6 +33,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Choosing boring technology means deliberately favoring tools whose failure modes are already well understood and that the team already has genuine expertise in, over novel alternatives chosen for their appeal rather than their fit — it does not mean choosing outdated technology. Legacy modernization efforts are particularly vulnerable to the opposite temptation: a rewrite is exactly the moment when an unfamiliar framework, database, or architecture pattern looks most attractive, and exactly the moment the team can least afford the unknowns it introduces. Requiring an explicit "boring alternative" analysis before adopting anything new, and evaluating choices against the team's actual expertise rather than industry trends, keeps novelty from being adopted for its own sake while still leaving room for genuinely justified change.
+
 ## How to Apply ◆
 
 > In legacy system contexts, "boring technology" does not mean obsolete technology — it means choosing tools and approaches where the failure modes are well understood, the team has genuine expertise, and the operational costs are predictable. This directly counteracts the tendency to adopt flashy solutions that create new problems while trying to solve old ones.

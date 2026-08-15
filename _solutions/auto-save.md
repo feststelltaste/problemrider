@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Auto-save periodically persists a user's in-progress work — a form, a document — without requiring an explicit save action, so that a session timeout, a crash, or simply forgetting to click "save" no longer means the work is lost. Legacy systems that rely purely on explicit manual saves are especially exposed to this failure mode, often compounded by aggressive session timeouts that were configured for reasons nobody now remembers. Implementing it well means saving drafts even while a form is incomplete or invalid, showing a clear indicator of when the last save happened, and handling the conflict that arises if a recovered draft collides with changes made elsewhere.
+
 ## How to Apply ◆
 
 > Legacy systems frequently rely on explicit manual saves, leading to data loss when sessions time out, browsers crash, or users forget to save. Auto-save protects user work transparently.

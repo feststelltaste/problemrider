@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Contract testing verifies that a service continues to satisfy the specific expectations each of its consumers actually depends on, using executable tests derived from those expectations rather than trusting that an interface change won't break anything downstream. Legacy systems accumulate exactly the kind of implicit, undocumented integration contracts this practice makes explicit — assumptions about data formats and behavior baked into consumers nobody has fully cataloged. Adopting a consumer-driven approach, where each consumer defines the subset of the contract it relies on and the provider verifies it satisfies all of them, is especially valuable when the full set of consumers isn't even known upfront, letting a provider evolve or clean up a messy interface without guessing which change will break which caller.
+
 ## How to Apply ◆
 
 > Legacy systems are riddled with implicit contracts — undocumented assumptions about how components communicate, what data formats they exchange, and what behavior they depend on. Contract testing makes these assumptions explicit and verifiable, enabling safe modification of systems where the ripple effects of changes are otherwise unpredictable.
