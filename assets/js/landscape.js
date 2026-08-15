@@ -82,8 +82,15 @@
   };
   var currentTab = 'problems';
 
+  // window.SITE_BASEURL (from landscape.html, via Liquid's site.baseurl) is
+  // "" in local dev but "/problemrider" in production — GitHub Pages serves
+  // this project under that path, not domain root. Every Liquid-rendered
+  // link already accounts for this via the relative_url filter; this is the
+  // one place that builds a URL in plain JS, so it needs the same prefix
+  // handed to it explicitly or the fetch 404s in production only.
+  var baseurl = window.SITE_BASEURL || '';
   function urlFor(kind, id) {
-    return '/' + kind + '/' + id + '.html';
+    return baseurl + '/' + kind + '/' + id + '.html';
   }
 
   function applyTransform() {

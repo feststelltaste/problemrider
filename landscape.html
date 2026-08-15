@@ -377,6 +377,16 @@ permalink: /landscape/
     </div>
 </div>
 
-<script>window.CATEGORY_COLORS = {{ site.data.category_colors | jsonify }};</script>
+<script>
+  window.CATEGORY_COLORS = {{ site.data.category_colors | jsonify }};
+  // GitHub Pages serves this project under /problemrider/, not domain root —
+  // the CI build passes --baseurl accordingly (see .github/workflows/jekyll.yml),
+  // which every Liquid-rendered link already accounts for via the
+  // relative_url filter. landscape.js constructs article URLs itself in
+  // plain JS, so it needs the same prefix handed to it explicitly, or those
+  // fetches 404 in production despite working fine in local dev (where
+  // baseurl is empty).
+  window.SITE_BASEURL = {{ site.baseurl | jsonify }};
+</script>
 <script src="{{ '/assets/js/landscape-data.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 <script src="{{ '/assets/js/landscape.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
