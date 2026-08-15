@@ -79,7 +79,7 @@ exclude:
   - GEMINI.md
   - README.md
   - git-tail.sh
-  - _embeddings/
+  - embeddings/
   - plans/
   - TECHDEBT.md
   - ARCH.md
