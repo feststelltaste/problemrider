@@ -24,12 +24,21 @@ permalink: /landscape/
         display: flex;
         flex-direction: column;
         height: calc(100vh - 60px - 1rem); /* Account for header plus our own margin below */
+        /* 100vh on mobile browsers is the height with the address bar
+           hidden — the page gets clipped by that bar every time it's
+           actually showing (e.g. right after load, or after scrolling up).
+           100dvh tracks the *current* visible viewport instead, so the
+           layout doesn't jump or clip as the bar shows/hides. Kept as a
+           fallback-first pair since dvh support is recent enough that a
+           browser without it should just keep the old behavior. */
+        height: calc(100dvh - 60px - 1rem);
         margin: 0.75rem 1.5rem 0.25rem;
     }
 
     .landscape__tabs {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
         gap: 0.5rem;
         padding: 0.6rem 1rem;
         border-bottom: 1px solid #dee2e6;
@@ -187,6 +196,13 @@ permalink: /landscape/
            distracting focus ring around the whole map for what is, from the
            user's perspective, not really a form control. */
         outline: none;
+        /* Without this, a touch drag is ambiguous between "the browser's own
+           page-scroll/pinch-zoom gesture" and "our own pointermove-based
+           panning/pinch handling in landscape.js" — the two fight each
+           other, and on most mobile browsers the native gesture wins,
+           breaking touch panning entirely. This hands all touch gestures on
+           the map to our own JS instead. */
+        touch-action: none;
     }
     .landscape__map.is-panning,
     .landscape__map.is-space-panning {
@@ -342,8 +358,52 @@ permalink: /landscape/
         .landscape__resizer {
             display: none;
         }
+        /* The tabs row now wraps (see .landscape__tabs above) instead of
+           squeezing the search box down to an unusable 140px — it gets its
+           own full-width row underneath the tabs whenever there isn't room
+           for both on one line. */
+        .landscape__search {
+            flex: 1 1 100%;
+        }
         .landscape__search input {
-            width: 140px;
+            flex: 1 1 auto;
+            width: auto;
+            max-width: none;
+        }
+        /* Buttons wrap onto a second line inside the panel rather than
+           running off the edge of a narrow screen — right-aligned to match
+           the panel's own edge, same as the legend already does. */
+        .landscape__controls {
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            max-width: calc(100vw - 28px);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .landscape {
+            margin: 0.5rem 0.75rem 0.25rem;
+        }
+        .landscape__tabs {
+            padding: 0.5rem 0.75rem;
+        }
+        .landscape__article {
+            padding: 1rem 1.1rem;
+        }
+        .landscape__side-panel {
+            top: 10px;
+            right: 10px;
+        }
+        .landscape__legend {
+            min-width: 0;
+            max-width: calc(100vw - 28px);
+        }
+        /* Denser labels at phone width — the map still has the same amount
+           of content to show in noticeably less space. */
+        .landscape-node__label {
+            font-size: 10.5px;
+            max-width: 92px;
+            padding: 2px 5px;
         }
     }
 </style>

@@ -417,7 +417,41 @@
   var panning = false;
   var panStart = null;
 
+  // Two-finger pinch-to-zoom. Pointer Events unify mouse/touch/pen, so a
+  // one-finger touch drag already works through the plain panning code
+  // below — this layers the second-finger case on top of it. Every active
+  // touch is tracked by pointerId (regardless of where it landed, including
+  // on a node label — a real pinch can't be expected to keep both fingers
+  // off of every label), so a second finger arriving can always take over
+  // from a single-finger pan already in progress.
+  var activePointers = {};
+  var pinch = null;
+
+  function pointerPoints() {
+    return Object.keys(activePointers).map(function (id) { return activePointers[id]; });
+  }
+
   map.addEventListener('pointerdown', function (event) {
+    activePointers[event.pointerId] = { x: event.clientX, y: event.clientY };
+    var pointerCount = Object.keys(activePointers).length;
+
+    if (pointerCount >= 2) {
+      try { map.setPointerCapture(event.pointerId); } catch (error) { /* pointer already gone */ }
+      panning = false;
+      panStart = null;
+      var points = pointerPoints().slice(0, 2);
+      var rect = map.getBoundingClientRect();
+      pinch = {
+        startDistance: Math.max(1, Math.hypot(points[0].x - points[1].x, points[0].y - points[1].y)),
+        startZoom: tabState[currentTab].zoom,
+        startPanX: tabState[currentTab].panX,
+        startPanY: tabState[currentTab].panY,
+        startMidX: (points[0].x + points[1].x) / 2 - rect.left,
+        startMidY: (points[0].y + points[1].y) / 2 - rect.top
+      };
+      return;
+    }
+
     var onLabel = event.target.closest('.landscape-node__label');
     if (onLabel && !spacePressed) return;
     if (onLabel && spacePressed) suppressNodeClick = true;
@@ -428,18 +462,52 @@
   });
 
   map.addEventListener('pointermove', function (event) {
+    if (activePointers[event.pointerId]) {
+      activePointers[event.pointerId] = { x: event.clientX, y: event.clientY };
+    }
+
+    if (pinch) {
+      var points = pointerPoints().slice(0, 2);
+      if (points.length < 2) return;
+      var state = tabState[currentTab];
+      var rect = map.getBoundingClientRect();
+      var distance = Math.max(1, Math.hypot(points[0].x - points[1].x, points[0].y - points[1].y));
+      var midX = (points[0].x + points[1].x) / 2 - rect.left;
+      var midY = (points[0].y + points[1].y) / 2 - rect.top;
+      var newZoom = clampZoom(pinch.startZoom * (distance / pinch.startDistance));
+      var scaleChange = newZoom / pinch.startZoom;
+      // The world point under the pinch's starting midpoint stays under
+      // wherever that midpoint has since moved to, at the new zoom — same
+      // "zoom around a fixed screen point" math as zoomBy() above, just
+      // with that point itself allowed to move (so a two-finger pinch can
+      // pan at the same time, same as any map app).
+      state.panX = midX - (pinch.startMidX - pinch.startPanX) * scaleChange;
+      state.panY = midY - (pinch.startMidY - pinch.startPanY) * scaleChange;
+      state.zoom = newZoom;
+      state.adjusted = true;
+      applyTransform();
+      return;
+    }
+
     if (!panning || !panStart) return;
-    var state = tabState[currentTab];
-    state.panX = panStart.panX + (event.clientX - panStart.x);
-    state.panY = panStart.panY + (event.clientY - panStart.y);
-    state.adjusted = true;
+    var panState = tabState[currentTab];
+    panState.panX = panStart.panX + (event.clientX - panStart.x);
+    panState.panY = panStart.panY + (event.clientY - panStart.y);
+    panState.adjusted = true;
     applyTransform();
   });
 
-  function stopPanning() {
-    panning = false;
-    panStart = null;
-    map.classList.remove('is-panning');
+  function stopPanning(event) {
+    if (event && activePointers[event.pointerId] !== undefined) {
+      delete activePointers[event.pointerId];
+    }
+    var remaining = Object.keys(activePointers).length;
+    if (remaining < 2) pinch = null;
+    if (remaining === 0) {
+      panning = false;
+      panStart = null;
+      map.classList.remove('is-panning');
+    }
     // A pan started on top of a node label may or may not still dispatch a
     // native click depending on how the browser resolves pointer capture —
     // clear the flag on the next tick either way, so a real future click on
