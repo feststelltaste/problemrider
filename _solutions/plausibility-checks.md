@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Plausibility checks are lightweight validation rules — range checks, format validation, cross-field consistency assertions, business-rule assertions — applied at data entry points, computation boundaries, and output stages to catch values that are structurally well-formed but substantively implausible, such as a negative invoice amount or an impossibly high consumption reading. Unlike full business-rule engines, they are meant to be cheap, targeted guards placed exactly where bad data is most likely to enter or where its consequences would be most costly. In legacy systems this is particularly valuable because such systems often accumulated their calculation logic over many changes to business rules, integrations, and data formats, creating exactly the kind of silent, compounding data corruption that a plausibility check is designed to catch at the moment it occurs rather than months later when a customer or auditor notices the effect. Plausibility checks are also a natural safeguard to place at data migration and import points, since migrations are a common source of unit-conversion errors, encoding mismatches, and truncated values that pass basic format validation but fail an obvious sanity test. The tradeoff is that checks calibrated too strictly will reject legitimate historical edge cases that a decades-old system has accumulated, and every check added to a hot execution path carries some performance cost that must be weighed against the risk it mitigates.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Security tests by external parties bring in independent specialists to assess a system's security, rather than relying solely on internal reviews that inevitably carry the same blind spots and assumptions the team has already internalized. Internal teams testing their own legacy systems tend to focus scrutiny on the components they consider current or important, which is precisely why external testers — with no such preconceptions — regularly find critical vulnerabilities in interfaces the internal team had written off as deprecated or unimportant. Scheduling these engagements regularly and holding external findings to the same remediation rigor as internally discovered ones extracts real, ongoing value from the exercise, though comprehensive external assessments are expensive and the testers still need enough context on the system's business logic to test it meaningfully rather than only its surface.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

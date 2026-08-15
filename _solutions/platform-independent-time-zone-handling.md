@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Platform-independent time zone handling replaces implicit reliance on a host operating system's local time zone and date/time APIs with an explicit, abstracted approach: storing all timestamps in UTC, attaching explicit time zone metadata to every date/time field, and using a dedicated time zone database such as IANA/Olson together with a proper date/time library rather than string-based manipulation or system calls that silently depend on wherever the code happens to execute. This matters acutely for legacy systems because date and time logic in older codebases frequently assumes the server's local time zone implicitly, without ever recording which zone was assumed, and that assumption becomes visible — and destructive — the moment the system is migrated to different infrastructure, such as moving on-premises servers to cloud regions spread across multiple time zones. Because the original assumption was never made explicit, the resulting bugs are subtle and hard to trace: a scheduling discrepancy of a few hours that only manifests depending on which server or region handled a given request, and that can silently corrupt already-stored historical data rather than fail loudly. Retrofitting this into an existing system typically requires a one-time data migration to add UTC-normalized, explicitly zoned values to millions of existing records, alongside introducing conversion logic at every user-facing boundary going forward. The benefit is that date/time behavior becomes deterministic regardless of where in the infrastructure a request is processed, which is a prerequisite for any multi-region or multi-cloud modernization effort.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

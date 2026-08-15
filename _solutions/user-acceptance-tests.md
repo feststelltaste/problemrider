@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+User acceptance testing is a formal validation stage in which the actual users of a system — not developers, not QA engineers — verify that a replacement or new capability correctly supports the real business workflows they depend on, using acceptance criteria agreed on collaboratively before development began. It differs from automated and developer-led testing in what it can catch: internal correctness and unit-level behavior are covered elsewhere, but only the people who perform the work daily can recognize when a technically correct implementation nonetheless fails to match how the job actually gets done. This distinction is decisive in legacy modernization, where replacement systems are built against documented requirements that inevitably miss tacit knowledge embedded in years of undocumented workarounds and habitual usage patterns that never made it into any specification. Structuring UAT around complete end-to-end business workflows, run against production-like data, surfaces exactly these gaps — a legacy capability quietly relied upon that the new system's designers never knew to replicate — while there is still time before the legacy system is decommissioned and rollback becomes costly or impossible. Because UAT sits at the very end of the delivery pipeline, findings at this stage can be schedule-threatening, which makes explicit sign-off criteria and adequate lead time before go-live essential rather than optional.
+
 ## How to Apply ◆
 
 > In legacy modernization, user acceptance tests serve as the final gate before decommissioning legacy components, ensuring the replacement actually works for the people who depend on it.

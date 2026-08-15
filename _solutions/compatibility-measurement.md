@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Compatibility measurement quantifies the current state of a system's compatibility posture through defined metrics — API contract violation rates, the percentage of consumers still on deprecated versions, integration test pass rates — collected through instrumentation at gateways and integration points rather than inferred anecdotally from whichever incidents happen to get reported. Turning compatibility into a measured, dashboarded property is what makes an otherwise invisible kind of technical debt visible to both engineering and management, in the same way that code metrics make code quality legible to people who are not reading the code itself. This is particularly important in legacy landscapes with many long-lived integrations, where the actual state of compatibility — which consumers have migrated off a deprecated interface, which contract tests are silently failing, how much traffic a deprecated endpoint still receives — is otherwise known only piecemeal, if at all, and tends to surface only when something breaks. With that visibility in place, a deprecation deadline is no longer just a calendar date announced and hoped for; a dashboard showing which consumers have not yet migrated becomes a concrete early warning that can drive targeted outreach before the deadline arrives rather than a scramble after it passes. Including compatibility metrics as part of release readiness reviews embeds this awareness directly into the normal release cadence instead of treating it as a separate, occasional audit exercise. The main risk is that meaningful metrics require real cross-team agreement on what to measure and why, and a dashboard that generates numbers nobody acts on produces measurement fatigue rather than the intended improvement in compatibility outcomes.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

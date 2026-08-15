@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.55
 ---
 
+## Description
+
+A fluent interface is an API design style in which method calls are chained together so that a sequence of configuration steps reads like a declarative, near-natural-language statement, typically implemented through a builder whose intermediate return types can be constrained to enforce a valid call order. Legacy APIs built around long parameter lists or many individual setter calls are a common source of misconfiguration, because nothing about the interface itself indicates which parameters are required, which are optional, or in what combination they need to be set, and every misuse looks like ordinary code until it fails at runtime. Wrapping such legacy constructors or factories behind a fluent builder — each method handling one configuration aspect, with sensible defaults so callers specify only what actually differs from the common case — turns object construction into a self-documenting, discoverable sequence that an IDE's autocomplete can effectively guide the caller through. The cost is that a good fluent interface takes real upfront design effort to get right, chained calls compress multiple operations into a single line that can make stack traces harder to interpret during debugging, and the type-level tricks sometimes used to enforce call order add their own complexity to the type hierarchy.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

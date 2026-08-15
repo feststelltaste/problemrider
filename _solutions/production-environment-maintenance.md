@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Production environment maintenance is the discipline of scheduling and performing routine upkeep tasks — disk space checks, log rotation, certificate renewal, database statistics refresh, index rebuilds, backup verification, security patching — on a defined cadence rather than only in response to an active incident. Documenting these procedures so any team member can execute them consistently is as much a part of the solution as the tasks themselves, since undocumented maintenance performed only by one specialist is itself a form of the knowledge concentration that legacy systems are prone to. This matters for legacy systems in particular because they tend to accumulate exactly the kind of slow, invisible degradation that scheduled maintenance is designed to catch — stale query optimizer statistics, log files silently consuming disk space, expiring certificates nobody tracked — precisely because such systems have often outlived the original team that understood their operational quirks and any informal maintenance habits that existed. Regular inspection converts these silent, compounding risks into scheduled, low-stakes work items, and frequently surfaces the actual root cause of a recurring but previously unexplained problem, such as a quarterly slowdown that turns out to trace back to statistics going stale on a fixed schedule. The cost is planned downtime for systems without rolling update capability and ongoing staff time that competes directly with feature development, which is exactly the tradeoff that causes maintenance to be deprioritized under schedule pressure until neglect compounds into an outage.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

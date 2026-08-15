@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Feature-Driven Development structures work around a running list of small, client-valued features, each expressed in a consistent form such as "calculate the total premium for a policy renewal," with individual ownership assigned per feature and progress tracked through short, fixed-length iterations that each deliver a set of completed features end to end. Legacy modernization efforts often stall on the opposite pattern: broad, vaguely scoped initiatives like "improve the inventory module" that never produce a visible, demonstrable unit of progress and give stakeholders nothing concrete to evaluate or reprioritize against. Decomposing modernization work into a feature list organized by business capability gives stakeholders a completion percentage they can actually interpret, and gives the team a natural mechanism for reprioritizing mid-effort — shifting focus to whichever feature area turns out to matter more — without needing a full re-plan every time priorities shift. Because features are the unit of both planning and ownership, cross-cutting concerns such as security, performance, or infrastructure work do not fit the model cleanly and need to be tracked separately, and individual feature ownership can itself create new knowledge silos unless deliberately paired with code review and knowledge-sharing practices.
+
 ## How to Apply ◆
 
 - Decompose legacy system improvements into client-valued features expressed as "<action> the <result> <by|for|of|to> a(n) <object>" (e.g., "Calculate the total premium for a policy renewal").

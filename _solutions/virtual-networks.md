@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A virtual network abstracts an application's network configuration away from any specific physical topology — hardware appliances, fixed IP ranges, VLANs — by expressing connectivity and policy as software, whether through cloud virtual private clouds, overlay networks, or software-defined networking tools, and by replacing hardcoded addresses with DNS-based service discovery. Legacy systems frequently accumulate a deep, often invisible dependency on the specific physical network they were originally deployed into: configuration files hardcode IP addresses, application logic assumes a particular VLAN segmentation, and nobody currently on the team can say with confidence which of these assumptions are load-bearing versus incidental. This coupling becomes a direct blocker to infrastructure change — a data center consolidation or a cloud migration cannot proceed until every one of these implicit topology assumptions has been found and addressed, and finding them by inspection alone is slow and error-prone. Introducing a virtual network layer lets the application keep resolving the services it depends on through stable, abstract names rather than physical addresses, decoupling the application from wherever those services actually happen to run at any given moment. This makes it possible to move the underlying infrastructure — between data centers, into the cloud, or between environments — without touching the application code that depends on it, at the cost of an added abstraction layer that can make low-level network troubleshooting more involved than working with a direct physical connection.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+A requirements traceability matrix is an explicit, bidirectional mapping that links each business requirement to the code, database structures, and tests that implement or verify it, making visible a relationship that in most legacy systems exists only implicitly, if at all. Building one typically means reverse-engineering the system's actual behavior and any surviving documentation to reconstruct what requirements the code was originally meant to satisfy, since the original requirements documents — if they ever existed — have usually been lost or superseded long before the current maintainers arrived. This matters acutely in legacy modernization because without such a mapping, any proposed change or migration carries hidden risk: a module that looks like dead code may in fact be the only implementation of a regulatory requirement, and a requirement that looks satisfied may in reality have no automated test protecting it. The matrix turns this invisible risk into a visible worklist, showing exactly which requirements lack test coverage, which code no longer maps to any active requirement and is therefore a candidate for removal, and which parts of the system must be verified before a legacy component can safely be decommissioned. It is particularly valuable in regulated industries, where auditors expect documented evidence that every compliance-relevant requirement is both implemented and tested, evidence that a legacy system's tribal knowledge alone cannot provide. Because the matrix degrades into actively misleading documentation the moment it stops being updated, its value depends entirely on treating its maintenance as a standing part of the change process rather than a one-time reconstruction exercise.
+
 ## How to Apply ◆
 
 > In legacy systems, a requirements traceability matrix helps teams understand which parts of the codebase implement which business requirements — knowledge that is often completely lost over years of undocumented changes.

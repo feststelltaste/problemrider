@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Reactive programming restructures I/O-bound code around non-blocking, asynchronous data streams — using libraries such as RxJava, Project Reactor, or RxJS — so that a request awaiting a slow downstream response no longer occupies a dedicated thread for the duration of that wait, and backpressure mechanisms keep fast producers from overwhelming slower consumers. In a legacy thread-per-request architecture, this addresses a specific and common failure mode: a fixed-size thread pool becomes exhausted under load because most of its threads are simply blocked waiting on responses from downstream services, so the system runs out of capacity for new requests even though its actual CPU and network utilization remain low. Legacy systems tend to accumulate this vulnerability gradually as more downstream dependencies are added over time, each one adding another point where a thread can be held blocked, until a slowdown in any single downstream service is enough to cascade into an outage for the whole system. Adopting reactive programming incrementally — at integration boundaries rather than as a wholesale rewrite — lets a legacy system absorb far more concurrent load with a much smaller, fixed pool of event-loop threads, since threads are no longer tied up waiting rather than working. The cost is a genuinely steep learning curve for teams used to sequential, imperative code, materially more complex debugging and stack traces, and the risk that mixing reactive and blocking code paths — easy to do accidentally during an incremental migration — reintroduces the very thread starvation the migration was meant to fix.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A user story frames a piece of required functionality from the perspective of the person who will use it — typically in the form "As a [role], I want [capability], so that [value]" — forcing an explicit statement of why a capability matters rather than simply what it should do. This framing is a deliberate corrective for one of the most persistent failure patterns in legacy modernization projects: treating every existing screen, field, and batch process in the legacy system as an unquestioned requirement that must be faithfully reproduced, on the assumption that if it existed before, it must be needed. Many legacy features, however, exist not because a user genuinely needs them but because they compensate for some technical limitation of the old system — a manual recalculation trigger that only exists because the legacy batch job could not run frequently enough, for instance — and reproducing them wholesale carries forward complexity that a modern architecture may not require at all. Writing requirements as user stories, validated against what a user is actually trying to accomplish, exposes these cases and lets the team consciously decide whether a piece of legacy functionality survives migration on its own merits rather than by default. This approach also enables incremental delivery, since stories can be broken down, prioritized by value and migration risk, and validated independently, giving the modernization effort continuous evidence that it is heading in the right direction rather than betting everything on a single big-bang cutover.
+
 ## How to Apply ◆
 
 > In legacy modernization, user stories shift the focus from replicating technical features to delivering user value, preventing the common trap of rebuilding everything "because the old system had it."

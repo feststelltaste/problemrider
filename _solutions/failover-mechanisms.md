@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Failover mechanisms are the broader set of techniques — at the infrastructure level through load balancers, DNS failover, or container orchestration, and at the application level through database connection failover, message queue rerouting, or circuit breakers — that automatically redirect traffic or work away from a failed component toward a healthy redundant one, without requiring a human to notice the failure and intervene manually. Legacy systems often lack any of this: a dropped broker connection or a failed dependency has historically meant a manual restart and a real outage, because the original design assumed the component in question would simply keep working. Adding automatic failover at the specific points where legacy components are known to fail — with carefully tuned thresholds so transient blips do not trigger unnecessary switchovers, and circuit breakers alongside failover to stop the switch itself from cascading — turns what used to require an on-call engineer and twenty minutes of downtime into a five-second automatic recovery. The mechanism has to be exercised deliberately through chaos engineering or scheduled drills to have any confidence it will work under a real failure, since failover logic that has never actually been triggered outside a test is itself a common source of surprises, and asynchronous replication behind a failover path always carries some risk of data consistency gaps during the switch.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

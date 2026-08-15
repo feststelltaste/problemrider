@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Security metrics are defined, regularly collected measurements — such as mean time to patch, vulnerability density, incident frequency, and false positive rates — that convert an organization's security posture from an implicit impression into an explicit, trackable quantity. The mechanism depends on consistent collection over time rather than one-off measurement: a single data point says little, but a trend line showing patch time improving or vulnerability density concentrating in specific components reveals where security posture is genuinely changing and where resources are actually needed, which is difficult to perceive through intuition alone. This is particularly valuable for legacy systems because the security risk embedded in old code tends to be invisible by default — nobody experiences a slowly aging authentication library as an event the way they experience an outage — so without metrics, the case for investing in legacy security improvement has no evidence to draw on and loses out to work with more visible, immediate payoff. Turning that invisible risk into a number, such as showing that legacy components have a patch time several times longer than newer ones, gives teams a concrete artifact to justify budget and prioritize remediation, and lets progress be demonstrated rather than merely asserted. The corresponding risk is that poorly chosen metrics measure activity instead of outcome and can be gamed — closing findings without actually fixing them, for instance — so the metrics chosen need to reflect genuine risk reduction rather than merely being convenient to collect.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

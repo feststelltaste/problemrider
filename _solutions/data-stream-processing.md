@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Data stream processing replaces batch-oriented data handling with continuous, incremental processing of records as they arrive, typically built on a streaming platform (Kafka, Pulsar, Kinesis) that captures events and a stream processor that applies logic to each event individually or over a bounded time window, rather than waiting to process an accumulated batch on a fixed schedule. The mechanism trades the batch model's concentrated periodic load for a continuous, distributed one, and in doing so collapses the latency between an event occurring and the system reacting to it from the length of the batch interval down to seconds. This distinction is consequential in legacy systems that still run critical logic — fraud detection, alerting, reconciliation — as nightly or hourly batch jobs purely because that was the only processing model available when the job was first written, with the result that by the time a problem is detected through the batch job, the window in which anything could have been done about it has already closed. Migrating to stream processing is typically done incrementally, running the new stream processor in parallel with the existing batch job so that the two can be compared for correctness before the batch job is retired, and requires deciding on a specific delivery guarantee (at-least-once or exactly-once) that fits the business requirement rather than assuming the guarantee the legacy batch code implicitly provided. Because legacy systems frequently do not emit events natively, adopting streaming often first requires an adapter — change data capture or a polling bridge — to produce an event stream out of a system that was never designed to do so.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

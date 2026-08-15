@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Error reporting and analysis introduces dedicated tooling — services like Sentry, Rollbar, or Bugsnag — that automatically captures unhandled exceptions and critical errors with full context, deduplicates and groups occurrences of the same underlying defect, and routes them through a defined workflow with severity classifications, ownership, and resolution tracking. This goes beyond raw logging by turning individual error occurrences into managed issues: instead of a stream of log lines that has to be manually correlated, the team sees a ranked list of distinct error groups with frequency and impact data attached. Legacy systems that previously relied on an informal mix of user complaints, support tickets, and developer observations to learn about production problems typically discover, once such tooling is introduced, that a small number of error groups account for the overwhelming majority of production failures — defects that had been reported piecemeal as user complaints for a long time without anyone connecting them to a single root cause. Because this requires instrumenting the legacy application to emit rich error reports and integrating a paid or self-hosted tracking service, the main costs are the integration effort itself and the need to calibrate severity classification carefully enough to avoid either alert fatigue or missed critical issues, along with attention to what user data ends up captured in the reports.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

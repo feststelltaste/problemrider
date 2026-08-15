@@ -33,6 +33,8 @@ related_solutions:
 
 A health check endpoint is a lightweight, standardized HTTP interface that a service exposes so that load balancers, orchestrators, and monitoring tools can query its status programmatically instead of inferring it indirectly from things like an open TCP port. The pattern distinguishes between liveness checks, which answer only whether the process is running, and readiness checks, which verify that the service can actually handle a request — including its critical dependencies such as database connectivity or downstream availability. This distinction matters a great deal for legacy services, which frequently enter states where the process is technically alive but functionally stuck — deadlocked, out of database connections, or waiting on an unresponsive dependency — a condition that a simple port check cannot detect but a well-designed readiness probe can. Retrofitting health endpoints onto legacy components gives infrastructure the information it needs to automatically route traffic away from unhealthy instances and to sequence deployments safely, capabilities that legacy systems built before this pattern was standard often lack entirely. Because health checks are the input that automated orchestration acts on, a check that reports too little (bare liveness) provides false confidence, while one that checks too much (expensive downstream calls) risks becoming a performance liability or a cause of cascading failure in its own right — so scoping what each check actually verifies is itself a central design decision.
 
+## How to Apply ◆
+
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
 
 - Add lightweight HTTP endpoints to legacy services that report readiness and liveness status

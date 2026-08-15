@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Streaming replaces batch-oriented data processing — where records accumulate in a staging area and are processed periodically in scheduled runs — with continuous, event-by-event processing as data arrives, typically built on a platform such as Kafka, Kinesis, or RabbitMQ Streams, often combined with change data capture to extract events from a legacy database without modifying its code. Batch processing was frequently the only practical architecture available when many legacy systems were built, but batch windows do not scale gracefully: as data volume grows, an hourly job that once finished comfortably within its window eventually takes longer than an hour to run, and the backlog it produces compounds indefinitely rather than resolving itself. Streaming addresses this structurally rather than by tuning the existing batch job, because it processes each event as it occurs instead of waiting to accumulate and then process a large intermediate dataset, which both eliminates the backlog failure mode and collapses end-to-end latency from hours down to seconds. This is particularly relevant to legacy modernization because it allows real-time capabilities — live customer-facing status updates, near-real-time analytics — to be layered onto a legacy system's data without necessarily rewriting the system that produces the data, provided a change-data-capture mechanism can observe it. The cost is a genuine increase in operational complexity: streaming pipelines require specialized tooling to debug, exactly-once processing semantics are difficult to guarantee, and legacy systems built entirely around a batch mental model may need real refactoring before they can produce events at all.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

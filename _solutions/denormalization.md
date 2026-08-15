@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Denormalization deliberately introduces controlled redundancy into a database schema — duplicating or pre-computing values that would otherwise require an expensive join or aggregation at query time — trading write-time complexity and extra storage for dramatically faster reads. In practice, this means adding computed or cached columns for frequently needed derived values directly onto the tables consumers query, or maintaining separate summary tables, and then keeping those denormalized values synchronized with their source of truth through triggers, application-level hooks, or event handlers rather than trusting them to stay correct on their own. Legacy systems accumulate exactly the conditions that make this worthwhile: schemas normalized decades ago for data integrity reasons now serve read-heavy access patterns that require joining across many tables just to render a single page, and under real production load those joins routinely turn what should be a fast lookup into a multi-second query. Applying denormalization selectively, starting with read-heavy and write-light areas, lets a team eliminate the worst-offending queries without restructuring the schema wholesale, while documenting which source tables remain authoritative keeps the redundancy from turning into an unmanageable web of competing "truths." Because every denormalized value can drift from its source over time due to a missed update path or a bug in a synchronization hook, the pattern requires ongoing reconciliation checks to catch and correct inconsistencies before they are mistaken for authoritative data.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

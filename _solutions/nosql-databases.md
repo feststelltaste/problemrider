@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+NoSQL databases store data in flexible, often schema-less formats — documents, key-value pairs, wide columns, or graphs — instead of the fixed relational tables that most legacy systems were built around. This flexibility lets data structures evolve without the migration ceremony that relational schema changes require, and it lets specific access patterns (high-volume writes, deeply nested documents, graph traversals) be served by a storage engine designed for them rather than forced into a relational shape. In legacy contexts, where years of ad hoc schema extensions have often produced sprawling entity-attribute-value tables or brittle migration scripts, NoSQL adoption is usually most effective as a targeted offload of specific workloads rather than a wholesale replacement of the relational core, since it trades away transactional guarantees and mature query capabilities that legacy business logic may still depend on.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

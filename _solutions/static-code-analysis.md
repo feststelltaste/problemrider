@@ -46,6 +46,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Static code analysis is the automated inspection of source code without executing it, using tools such as SonarQube, ESLint, PMD, or FindBugs to detect programming errors, security vulnerabilities, and quality or performance anti-patterns by pattern-matching against the code's structure. Unlike manual code review, it scales to codebases of any size at a fixed, repeatable cost, which makes it especially valuable for legacy systems where the sheer volume of code — often hundreds of thousands of lines accumulated over many years — makes exhaustive manual security or quality review impractical. Because static analysis tools encode known vulnerability patterns (SQL injection, buffer overflows, cross-site scripting) and quality anti-patterns as rules, they surface issues that predate current secure-coding awareness and that no one has had the time or reason to look for since the code was written. In legacy contexts, the practical challenge is less about running the tool and more about triage: an initial scan of an old, unreviewed codebase routinely produces thousands of findings, most of which are lower-priority or false positives, so the tool's value depends on establishing a baseline, gating new code against regression while working down the existing backlog incrementally, and tuning the rule set to avoid the alert fatigue that causes developers to ignore the tool altogether. Static analysis cannot, however, catch runtime-only defects or business logic errors, so it complements rather than replaces testing and human review.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

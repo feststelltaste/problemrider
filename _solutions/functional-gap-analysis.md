@@ -33,6 +33,8 @@ related_solutions:
 
 Functional gap analysis is a structured comparison between what a system currently does and what the business actually needs it to do, producing an explicit, prioritized list of mismatches rather than a vague sense that the system is "falling behind." The method inventories existing capabilities, gathers current and anticipated requirements from stakeholders, and classifies the differences into missing functionality, underperforming functionality, and functionality that has become irrelevant. This is distinct from purely technical assessments of code quality: a legacy system can be well-engineered internally and still fail the business because it was built for a different scale, market, or regulatory environment than it now operates in. In legacy modernization work, gap analysis provides the evidence base for deciding between incremental extension and targeted replacement, because it reveals whether shortfalls are shallow and fixable or structural and pervasive. It also protects against two opposite failure modes: over-investing in modernizing capabilities the system already handles adequately, and under-investing in the specific areas — often newer business lines or integration needs — where the legacy system was never designed to compete.
 
+## How to Apply ◆
+
 - Document the legacy system's current capabilities systematically: what it does, how well it does it, and where it falls short.
 - Gather current and future business requirements from stakeholders and compare them against the legacy system's capability inventory.
 - Categorize gaps: missing features, underperforming features, features with excessive workarounds, and features that no longer serve business needs.

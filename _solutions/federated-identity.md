@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Federated identity delegates authentication to a specialized, trusted external identity provider using OAuth 2.0 or OpenID Connect, rather than having each application maintain its own user database, password storage, and login logic, typically by placing an authentication proxy in front of the legacy application that intercepts unauthenticated requests, redirects to the identity provider, and translates the returned token's claims into the application's existing user and authorization model. Legacy systems frequently accumulate their own bespoke authentication code built up over many years, often with weak password hashing, no multi-factor authentication, and inconsistent enforcement across the many applications an organization runs, each maintaining a separate, siloed set of credentials. Introducing an authentication proxy or middleware layer allows federation to be adopted without modifying the legacy application's authentication code directly, and because password storage and MFA enforcement move to a single, purpose-built identity provider, this eliminates an entire category of security risk that previously had to be replicated correctly in every legacy application separately. The dependency this creates is significant, though: the identity provider becomes a single point of failure for authentication across every federated application, integrating OAuth/OIDC with legacy custom authentication can require substantial middleware development, and legacy authorization logic that is tightly coupled to the old user model can make the underlying identity migration itself a long project.
+
 ## How to Apply ◆
 
 > Legacy systems frequently maintain their own user databases with custom authentication logic, creating security risks from password storage, inconsistent authentication policies, and the burden of maintaining identity management. Federated identity delegates authentication to specialized, trusted identity providers.

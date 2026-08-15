@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Red teaming is an authorized, realistic simulation of how a determined adversary would actually attack a system, combining techniques such as credential theft, privilege escalation, and lateral movement into a coherent multi-step attack chain, rather than the isolated, tool-driven vulnerability enumeration typical of an automated scan. Its value lies precisely in that realism: it tests whether a chain of individually minor weaknesses can be combined into serious compromise, and whether the organization's detection and response capabilities would actually catch an attack of that shape as it unfolds, not just whether a single flaw exists in isolation. Legacy systems are a natural focus for red team exercises because their long operational history tends to have accumulated exactly the kind of overlooked, compounding weaknesses that a chained attack exploits — an unpatched endpoint nobody remembers is still exposed, an admin interface still running on default credentials set up before anyone currently on the team joined. A well-run exercise produces evidence, not just findings: a demonstrated attack chain that reached from an external-facing legacy component into an internal system is a far more persuasive basis for securing remediation funding from leadership than a list of theoretical vulnerabilities ever is. The practice is costly to run well, since skilled practitioners are expensive and an exercise with poorly controlled scope can cause real operational disruption, and its findings are only valuable if the organization has the capacity to actually act on them — otherwise a red team report just becomes one more entry in an already overwhelming backlog of unaddressed legacy system issues.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

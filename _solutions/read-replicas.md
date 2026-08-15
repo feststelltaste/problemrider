@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Read replicas are read-only copies of a primary database, kept current through the database engine's built-in replication, to which an application's read queries are routed while writes continue to go to the primary — either through changes to the data access layer or transparently via a connection proxy for legacy applications that cannot easily be modified. This is a common and comparatively low-disruption way to scale a legacy system's database tier because it requires no change to the schema or the fundamental data model, only a routing decision about which queries go where, which makes it feasible even for systems whose core logic is too risky or poorly understood to refactor directly. It is particularly effective in legacy systems that grew a single database instance to serve both transactional application traffic and heavier analytical or reporting queries side by side, since those reporting queries are exactly the kind of read-heavy, latency-tolerant workload that can be moved off the primary entirely, eliminating the lock contention they cause against transactional writes. The unavoidable consequence of asynchronous replication is replication lag, meaning replicas may briefly serve stale data, so any legacy workflow that depends on immediately reading its own just-written value must be identified and explicitly routed to the primary rather than a replica. Beyond that consistency caveat, each replica adds ongoing infrastructure and operational cost, and schema changes must now be coordinated and applied consistently across the primary and every replica rather than a single database instance.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

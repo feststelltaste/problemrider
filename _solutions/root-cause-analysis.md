@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Root cause analysis is a structured investigation technique — commonly using methods such as the "5 Whys" or a fishbone diagram — that is conducted after a production incident to trace the chain of causation back from the visible symptom to the underlying condition that actually produced it, rather than stopping at whatever proximate cause is easiest to fix. Its output is a clear separation between the symptom that triggered the incident, the contributing factors that made it possible, and the true root cause, together with concrete follow-up actions assigned to specific owners. This distinction is critical in legacy systems, where the path of least resistance during an incident is almost always to apply a quick, localized patch and move on, which tends to leave the actual underlying defect — an unindexed table, a race condition, an assumption baked into code written a decade ago — untouched and free to resurface, often repeatedly, in slightly different guises. Because legacy systems accumulate incidents whose root causes are frequently shared across seemingly unrelated symptoms, a disciplined root cause analysis practice reveals systemic patterns over time, occasionally showing that a single structural fix eliminates an entire category of recurring firefighting that had consumed disproportionate engineering effort. Conducted well, with cross-functional participation and without assigning blame, it converts the operational cost of production incidents into an accumulating body of organizational knowledge about exactly how the legacy system tends to fail.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Platform-independent scripting languages — Python, Ruby, Node.js, and similar — are used to write automation, build, and configuration tooling that runs identically on Windows, Linux, and macOS, in contrast to shell-specific scripts such as PowerShell or Bash that depend on the conventions and utilities of a single operating system. Adopting them for legacy system automation means replacing OS-specific constructs for path manipulation, process control, and environment access with the scripting language's cross-platform libraries, so the same script executes correctly regardless of where it runs. This is particularly relevant to legacy modernization because organizations running mixed infrastructure often end up maintaining parallel script sets — one PowerShell version for Windows servers, one Bash version for Linux — that must be kept in sync manually, and drift between the two is a common, avoidable source of deployment incidents. Consolidating automation onto a single cross-platform scripting language removes that duplication, reduces the onboarding burden of learning two toolchains, and makes it easier to test deployment automation uniformly in CI regardless of target platform. The cost is a runtime dependency that native shell scripts do not require, and some genuinely simple, single-platform tasks may still be more concise expressed as native shell commands than through a general-purpose scripting language.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

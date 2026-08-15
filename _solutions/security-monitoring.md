@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Security monitoring is the continuous capture, aggregation, and analysis of security-relevant events across a system's components, using detection rules and alerts to surface known attack patterns, anomalous behavior, and policy violations while they are happening rather than discovering them afterward through their consequences. The mechanism depends on centralizing events from disparate sources into a single point of correlation — a SIEM or equivalent — because attacks that span multiple components, including ones that mix legacy and modern parts of a system, only become visible as a coherent pattern once their individual events are viewed together rather than scattered across separate, unconnected logs. Legacy systems pose a particular challenge here because their components frequently log to local files in inconsistent, non-standard formats, or in some cases barely log at all, which means the visibility that monitoring depends on has to be built rather than simply switched on; custom parsers and instrumentation are often prerequisites rather than afterthoughts. The payoff of doing this work is substantial precisely because legacy systems are otherwise opaque: attacks that unfold slowly, such as low-and-slow data exfiltration through compromised credentials used only in narrow, unusual patterns, are specifically the kind that go undetected indefinitely without monitoring and are exactly what centralized, correlated event analysis is designed to surface. The corresponding cost is that high event volumes without careful tuning produce alert fatigue, which itself becomes a source of missed detections, so building monitoring capability for legacy components must be paired with ongoing effort to refine detection rules rather than treated as a one-time deployment.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

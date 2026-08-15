@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Multi-cloud infrastructure as code provisions infrastructure declaratively through provider-agnostic modules — typically built with tools like Terraform or Pulumi — that expose a uniform interface while abstracting away the provider-specific resource definitions underneath, so the same module can target AWS, Azure, or another cloud with only its variables changed. This works by codifying what was previously manual console configuration and ad hoc shell scripts into version-controlled, reviewable definitions, starting from the simplest environment and validating that it reproduces the existing manual setup before extending the approach further. Legacy systems are frequently locked into a single cloud provider not because that provider was deliberately chosen for technical reasons but because the infrastructure was built up incrementally through manual clicks and provider-specific scripts over years, with nobody documenting the resulting topology in a form that could be reproduced elsewhere. This kind of accidental lock-in leaves an organization with no leverage in vendor pricing negotiations and no practical disaster recovery option if the primary provider has an outage or a contractual dispute, since redeploying the system anywhere else would mean reconstructing its infrastructure from scratch. Adopting provider-agnostic IaC changes vendor lock-in from an unavoidable structural condition into a deliberate, revisitable choice, though the abstraction that makes this portability possible also means giving up some provider-specific optimizations and advanced managed services that do not have an equivalent on other clouds.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

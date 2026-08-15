@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Proactive capacity management forecasts future resource needs by correlating historical utilization data with business growth signals — seasonal cycles, user growth, planned feature launches — and provisions infrastructure ahead of the predicted demand, rather than reacting to an outage or a performance crisis after the fact. It requires establishing a repeated cadence of data collection, trend modeling, and cross-functional review that brings engineering, operations, and business stakeholders together around a shared capacity calendar rather than leaving capacity decisions to whichever team notices a problem first. This is particularly important for legacy systems because they frequently carry known, recurring bottlenecks — a batch processing window that cannot be shortened, a fixed connection pool, hardware nearing end of life — that become predictable failure points under load, and a system with a long operational history usually has enough data to make that pattern of recurring stress visible if anyone analyzes it. Where legacy systems differ from greenfield ones is that capacity constraints are often structural rather than purely a matter of adding hardware, so proactive capacity management sometimes surfaces the need for an architectural change rather than a simple scale-up, and that discovery is far more useful made two months ahead of a known peak than during the peak itself. The tradeoff is that forecasts are only as good as the historical data and growth assumptions behind them, and over-provisioning for a pessimistic scenario wastes budget just as under-provisioning risks an outage.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

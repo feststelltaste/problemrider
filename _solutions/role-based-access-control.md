@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Role-based access control (RBAC) is an authorization model in which permissions are granted to roles that correspond to business functions — such as claims adjuster or system administrator — rather than to individual users directly, so that a user's access rights follow from the roles they are assigned instead of being configured one permission at a time. Centralizing authorization decisions this way replaces scattered, inline permission checks embedded throughout an application with a single, consistent set of role definitions that all components consult, which also makes every access decision auditable in one place. Legacy systems very often evolved the opposite model: individually assigned permissions accumulated user by user over many years, as each new hire was granted the same access as the last person or one-off exceptions were carved out to unblock a specific request, leaving a permission structure that nobody fully understands and that requires disproportionate administrative effort simply to maintain. Migrating such a system to RBAC requires first inventorying what access actually exists today — which frequently reveals significant over-provisioning that had gone unnoticed for years — and then mapping that reality onto a smaller set of business-meaningful roles. The payoff in a legacy modernization context is substantial: onboarding and offboarding become fast and low-risk operations instead of manual, error-prone ones, and the resulting audit trail directly supports the regulatory compliance obligations that legacy systems in regulated industries are frequently found to be falling short of.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Self-monitoring and diagnosis embeds health checks and internal consistency verification directly inside a component, so it can detect its own resource leaks, data inconsistencies, and logic errors from within its own execution context rather than relying entirely on external monitoring that can only observe symptoms from the outside. This distinction matters for legacy systems specifically because many of the subtlest failure modes — a background thread silently dying on a malformed input, a slow accumulation of an internal invariant violation — produce no externally visible signal at all until the failure has already caused damage, and external health metrics can look completely normal the entire time. Diagnostic endpoints and structured logging of internal findings make these otherwise invisible issues actionable, and pairing detection with automatic remediation for known patterns, such as clearing a cache or restarting a stalled thread, converts diagnosis into self-healing. The self-monitoring code itself has to be correct and lightweight, since flawed diagnostic logic can produce false alarms or add overhead of its own.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

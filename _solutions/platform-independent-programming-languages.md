@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Platform-independent programming languages are languages whose compiled or interpreted output runs unmodified across multiple operating systems and hardware architectures, typically by targeting a portable runtime — the JVM, .NET's CLR, a language's own bytecode — or by compiling to statically linked binaries with no OS-specific dependencies, as Go does. Choosing such a language for new or replacement components decouples the system from the assumptions embedded in platform-specific languages like classic VB6 or Delphi, whose runtime and tooling tie the codebase permanently to a single operating system. In legacy modernization this matters because platform-locked languages are one of the more stubborn forms of technology lock-in: as an organization's infrastructure shifts toward Linux-based or cloud-native environments, a legacy codebase written in a Windows-only language becomes an obstacle to that shift, and the talent pool able and willing to maintain it keeps shrinking. Migrating away from a platform-specific language is rarely a single cutover; it typically proceeds module by module, with interoperability mechanisms such as REST APIs or message queues bridging the new, portable components and the remaining legacy code during a multi-year transition. The tradeoff is that portable languages can lag platform-native code on raw performance for compute-intensive work, and the migration itself consumes significant engineering effort before any functional improvement becomes visible to users.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

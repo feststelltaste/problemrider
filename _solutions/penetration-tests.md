@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A penetration test simulates a real attacker working against the system — chaining weaknesses, testing business logic, and attempting privilege escalation — to find exploitable vulnerabilities that automated scanners and code review cannot surface on their own. Legacy systems are a common target for exactly the kind of findings this method specializes in: default credentials left on forgotten administrative interfaces, deprecated protocol configurations, and business-logic flaws in workflows nobody has scrutinized in years, none of which a static scan would catch because they require an attacker's judgment to recognize as exploitable. Because the exercise is point-in-time and resource-intensive, it works best as a recurring practice — at minimum annually and after significant changes — with prior findings tracked to verify that remediation actually closed the exploitable path rather than merely hiding it.
+
 ## How to Apply ◆
 
 > Legacy systems often contain security vulnerabilities that automated scanners miss because they require understanding of business logic, chaining of multiple weaknesses, or exploitation techniques specific to the legacy technology stack. Penetration testing simulates real-world attacks to discover exploitable vulnerabilities.

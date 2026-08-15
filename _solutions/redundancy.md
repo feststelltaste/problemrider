@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Redundancy is the deliberate duplication of critical components, services, or infrastructure so that the failure of one instance does not take down the system as a whole. Instead of relying on a single application server, database, or network path, redundant architectures run multiple equivalent instances in parallel, with a failover or load-balancing mechanism directing traffic away from any instance that becomes unavailable. The concept applies at every layer — hardware, network, data, and application — and can be implemented as active-active configurations that share load continuously or active-passive configurations that keep a standby ready to take over. In legacy systems, redundancy is often the fastest way to eliminate single points of failure that were never questioned when the system was small and its uptime requirements were modest, because it can frequently be layered onto an existing architecture without rewriting the application logic itself. It matters especially during modernization because a legacy system undergoing incremental change is more exposed to outages than a stable one, and redundancy provides the safety margin needed to keep the business running while the underlying architecture is reshaped. The tradeoff is that redundancy trades capital and operational cost for reduced risk, and its protection is only as good as the diversity and testing of the redundant paths themselves.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

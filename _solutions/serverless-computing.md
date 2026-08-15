@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Serverless computing runs code in response to events without the caller managing any underlying server, scaling automatically with demand and billing only for actual execution time rather than for provisioned capacity that mostly sits idle. For legacy modernization, the practical value is usually not migrating the whole system but offloading specific, well-bounded workloads — image processing, report generation, webhook handling — out of a monolith and onto serverless functions, routed selectively through an API gateway while the bulk of the legacy application keeps running unchanged. This targeted extraction relieves exactly the kind of resource contention that occurs when a CPU-intensive, on-demand task inside a monolith degrades performance for every other concurrent user, without requiring the rest of the legacy system to be touched at all. The tradeoffs are real, though: cold-start latency can be a poor fit for latency-sensitive operations, state has to be externalized since functions are stateless, and the approach introduces a new form of vendor lock-in to whichever cloud platform hosts the functions.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

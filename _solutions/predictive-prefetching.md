@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Predictive prefetching extends the same idea as predictive loading down to the level of individual interaction signals — mouse movement, scroll position, hover state, navigation history — using these low-level cues to trigger the loading of route bundles, API responses, or static assets for the specific next screen a user appears headed toward, often through service workers operating during browser idle time. Because it operates at this finer granularity, it can be layered on top of an existing legacy frontend without deep architectural changes, giving a slow legacy editor or content page a near-instant feel by having its resources already cached in the browser by the time the user actually clicks through. This makes it attractive for legacy modernization efforts under time or budget pressure, where a full rewrite of a slow page is not feasible but a bounded frontend enhancement is. The technique depends on high-confidence heuristics and a capped prefetch budget to avoid the failure mode where speculative requests for unlikely next actions waste bandwidth and add unnecessary load to an already-strained legacy backend. It also interacts poorly with systems that have tight rate limiting or short-lived authentication tokens, since speculative requests consume the same quota and token budget as requests the user actually intends to make, so the prefetching logic must be aware of those constraints rather than operating independently of them.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

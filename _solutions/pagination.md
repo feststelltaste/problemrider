@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Pagination splits a large result set into smaller, bounded chunks that are requested and rendered incrementally, rather than returning an entire dataset in a single response. Legacy systems are especially prone to needing this retrofit: endpoints and screens originally built when a table held a few hundred rows silently become liabilities once that table grows into the millions, exhausting memory on both server and client and turning previously instant queries into multi-second ones. Introducing pagination — whether simple offset-based paging or the more scalable cursor-based approach — bounds both the query cost and the response size, but it must be added carefully to existing APIs, since consumers that currently expect a complete result set can break once pagination becomes mandatory rather than optional.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

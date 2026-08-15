@@ -39,6 +39,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Story mapping is a facilitation technique that arranges a system's user stories into a two-dimensional map — high-level user activities laid out left to right in the order they occur, with the detailed tasks that support each activity stacked underneath — so that the complete shape of a user journey becomes visible at once, rather than remaining hidden inside a flat, undifferentiated backlog. This spatial structure is what a list of hundreds of stories cannot provide: it shows not just what functionality exists, but how the pieces relate to one another along the path a real user actually follows, and it makes gaps — places where users currently rely on manual workarounds or shadow systems — visually obvious rather than buried in a spreadsheet. In legacy replacement projects, this addresses a specific and common failure mode, where a team builds features in an order that makes technical sense but leaves no point at which users can complete an entire workflow end to end, because the backlog gave no visibility into which stories belonged to the same journey. Drawing a release line across the map to define a minimum viable replacement then turns that visibility into a concrete, negotiated delivery plan, one that stakeholders and developers construct together rather than one imposed unilaterally by either side. The cost is that constructing an initial map for a large legacy system is itself a significant facilitation undertaking requiring multiple workshops with diverse stakeholders, and the map only stays useful if it is actively kept current as migration work progresses.
+
 ## How to Apply ◆
 
 > In legacy modernization, story mapping reveals which parts of the user journey the legacy system covers well, where it falls short, and what the replacement must prioritize.

@@ -25,6 +25,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Nonstop forwarding is an architectural pattern that separates the control plane, which computes routing and configuration decisions, from the data plane, which forwards individual requests using the last computed state. Because the data plane keeps operating from cached routing information even while the control plane restarts or fails, traffic continues flowing through outages that would otherwise interrupt every in-flight request. This decoupling matters in legacy systems where routing, gateway, or orchestration components have accumulated tight coupling between configuration logic and request handling, making every control-plane restart a visible outage. Applying the pattern typically means introducing a persistent, independently addressable forwarding layer that can survive process restarts, which is itself a useful forcing function for untangling legacy network and service components that were never designed with this separation in mind.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

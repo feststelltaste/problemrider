@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+A self-test is a check a component runs against its own dependencies and configuration — database connectivity, required environment variables, third-party API reachability — at startup or periodically during operation, refusing to accept traffic until every check passes. Legacy deployments are especially prone to failing in exactly the ways self-tests are designed to catch: a missing environment variable or a stale connection string that would otherwise only surface once real traffic hits the broken code path, after which someone has to spend time manually working backward to the actual cause. Running these checks automatically at startup converts a slow, manual diagnostic process into an immediate, specific failure message, and using self-test results as a deployment gate stops an unhealthy instance from ever receiving production traffic in the first place — though the tests have to stay fast and side-effect-free, since a slow or overly invasive self-test creates its own operational problems.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

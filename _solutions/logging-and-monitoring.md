@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Logging and monitoring, in the security sense, is the disciplined capture of security-relevant events — authentication attempts, authorization decisions, data access, administrative actions, configuration changes — into a structured, centralized, tamper-resistant record that can be searched, correlated, and alerted on in near real time. The mechanism combines a defined logging policy specifying which events must be captured, structured fields (identity, source, action, outcome) that make those events machine-searchable, forwarding to a centralized SIEM that correlates activity across components, and detection rules that turn raw events into actionable alerts for patterns such as repeated failed logins or unusual data export volumes. Legacy systems typically get this backwards: they log too little of what matters for security, because authentication and authorization events were never considered worth recording when the system was first built, while simultaneously logging too much operational noise, so that even where a genuine security signal exists it is buried under routine debug output and impossible to search. This combination means that security incidents in legacy environments frequently go undetected for extended periods — a credential-stuffing attack or a terminated employee's still-active account can persist for weeks or months simply because nothing in the existing logs was designed to surface it. Building this capability into a legacy system requires deliberately separating security-relevant events from operational logging and retrofitting instrumentation at all the places sensitive actions occur, which is invasive but is also usually the only way to gain the forensic and detection capability that compliance regimes such as PCI DSS, HIPAA, or GDPR require.
+
 ## How to Apply ◆
 
 > Legacy systems often log too little for security purposes (missing authentication events, access decisions) while logging too much noise (verbose debug output, redundant health checks). Security-focused logging and monitoring captures the right events and makes them actionable.

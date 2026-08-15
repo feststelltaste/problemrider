@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Dependency injection is the practice of supplying a component with the objects it depends on from the outside — typically through constructor parameters — rather than having the component construct or look up those dependencies itself using `new` calls or static factory methods. Making dependencies explicit in this way means a class's constructor signature becomes a complete, visible list of what it needs to function, and any of those dependencies can be swapped for an alternative implementation — a test double, a different environment-specific implementation, a cloud storage adapter in place of a local file system — without modifying the class itself. This is foundational to legacy modernization because code that creates its own dependencies internally is, by construction, resistant to unit testing: exercising a single class inevitably pulls in every concrete dependency it constructs, which is precisely why legacy codebases built on static helpers and direct instantiation typically have little to no automated test coverage. Adopting dependency injection in an existing system proceeds incrementally, extracting interfaces for the dependencies of the most testability-constrained classes first and refactoring their constructors to accept those interfaces as parameters, often introducing a DI container to manage the resulting object wiring once enough classes have been converted. Beyond enabling tests, making dependencies explicit routinely exposes structural problems that had been hidden inside implicit object graphs — circular dependencies and classes with an unreasonably large number of collaborators — surfacing design issues that the legacy code's implicit wiring had been quietly obscuring.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

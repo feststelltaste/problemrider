@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Fault-tolerant data structures are designed to detect, and where possible automatically recover from, corruption or partial writes rather than silently propagating bad data or crashing outright — through mechanisms like checksums or version fields embedded in records, redundant or self-verifying structures such as integrity-checked B-trees, and defensive deserialization that validates structural invariants before accepting incoming data. This matters most for the critical, long-lived data structures at the core of legacy systems, where race conditions, partial writes, or format drift accumulated over years can corrupt state in ways that go unnoticed until the corruption has already propagated into downstream calculations or reports. Adding integrity verification and recovery logic — the ability to rebuild or repair a structure from a known-good state or a log — turns previously silent, mysterious data problems into visible, detected events, and does so without requiring a full replacement of the surrounding legacy code that reads and writes the structure. The tradeoff is added memory and CPU overhead for the redundancy and validation itself, migration effort to retrofit existing data formats, and the risk that self-healing behavior papers over a concurrency or logic bug that actually needs to be fixed at its source rather than continually corrected around.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

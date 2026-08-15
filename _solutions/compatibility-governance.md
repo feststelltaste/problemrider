@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Compatibility governance assigns explicit ownership for compatibility decisions — typically to a designated steward, role, or architecture board — and establishes the processes, backlogs, and review cadences needed to plan how interfaces evolve across releases rather than leaving compatibility to accumulate as an unowned, ambient concern. It typically includes a compatibility backlog that tracks known issues and planned breaking changes, a required impact assessment step in the change and release process, and periodic review meetings where the state of integrations across the organization is examined collectively rather than piecemeal by whichever team happens to touch an interface next. This structure addresses a specific organizational failure mode common in legacy landscapes with many interconnected internal services: because no single team or role is accountable for compatibility across the whole system, breaking changes happen not through malice or carelessness but simply because nobody owned the responsibility to catch them, and the organization discovers the problem only when an integration partner's system fails downstream. Making ownership explicit converts this from a reactive, whack-a-mole pattern of firefighting individual breaks into a proactive planning discipline, where a governance board can see proposed changes across teams before they ship and coordinate deprecation timelines that give consumers advance notice instead of a surprise. The publication of a compatibility roadmap alongside the product roadmap is what actually gives external and internal consumers the lead time to adapt, rather than learning about an upcoming break only when it happens. Governance carries its own risk of becoming a slow, ceremonial bottleneck if the review process is too heavy relative to the pace of change it oversees, or if the board has no real enforcement mechanism and its decisions are simply ignored by teams under delivery pressure.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

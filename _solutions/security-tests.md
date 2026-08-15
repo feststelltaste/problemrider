@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Security tests verify specific security properties — authentication, authorization, input validation, cryptographic correctness — through specialized methods such as static analysis (SAST), dynamic scanning (DAST), and targeted unit tests, rather than treating security as something checked only occasionally through a separate audit. Integrating these tests into the CI/CD pipeline catches vulnerabilities at the point they are introduced, which matters enormously for legacy codebases being actively modified during modernization, since every refactor is an opportunity to reintroduce a vulnerability pattern the code has already been fixed for once. Automated security tests inevitably surface false positives that require expert triage to distinguish from genuine findings, and they verify known vulnerability patterns rather than guaranteeing the absence of novel attacks, but the repeatable safety net they provide is what makes it possible to touch legacy security-sensitive code with any confidence at all.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Secure configuration is the practice of defining, automating, and continuously verifying a security-hardened configuration baseline — covering enabled services, open ports, default accounts, and secret handling — for every environment a system runs in, so that production, staging, and development converge on the same known-good state rather than drifting apart through untracked manual changes. Achieving this typically requires infrastructure-as-code tooling to deploy configuration consistently, dedicated secret management systems to keep credentials out of configuration files entirely, and automated scanning that detects any deviation from the documented baseline soon after it occurs. Legacy systems are particularly prone to configuration drift because their environments have often been touched manually, by different administrators, over many years, with no single record of what the correct configuration is actually supposed to look like — a state of affairs that a security audit typically surfaces the hard way, by finding that production nodes differ from each other in ways nobody had noticed or approved. Bringing such a system under secure configuration management means first documenting what the baseline should be, then automating its enforcement, which for legacy components not designed for automated configuration can itself require meaningful tooling investment. Once in place, the practice closes one of the most common root causes of legacy security incidents — an accidentally-enabled debug feature or an open port that predates anyone's memory of why it exists — by making configuration state visible, comparable, and enforced rather than assumed.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Compatibility as error is the practice of treating any backward-incompatible change to an API, schema, or interface as a build-breaking defect that blocks a release, rather than as an acceptable tradeoff or a piece of technical debt to be addressed later. It is enforced by wiring automated compatibility checks — contract tests that compare a proposed change against the previous stable version's schema — directly into the CI pipeline, so a regression is caught and blocks the merge before it ever reaches consumers, with the same urgency normally reserved for a failing security scan. This reframing matters in legacy contexts because compatibility breakage there tends to be treated reactively: a breaking change ships, an integration partner's system fails, and the team scrambles to patch the fallout after the fact, repeating the same costly cycle release after release. Making compatibility failures release-blocking by policy converts that reactive posture into a proactive one, since the cost of a break is now paid immediately by the change's author, in the form of a failed build, rather than downstream by every integration consumer weeks or months later. It does not forbid intentional breaking changes outright, but routes them through an explicit approval gate that requires a stated migration plan, distinguishing deliberate, coordinated evolution from accidental regression. The obvious risk is that overly strict or poorly tuned checks generate false positives that erode trust in the gate and invite teams to route around it, so the compatibility test suite itself needs to be trustworthy enough to justify blocking a release on its result.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

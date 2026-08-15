@@ -34,6 +34,8 @@ related_solutions:
 
 A functional spike is a short, strictly time-boxed experiment designed to answer one specific, high-risk question before a team commits to a larger body of work — for example, whether a business rule can be extracted from a monolith without breaking dependent workflows, or whether a modern engine can replicate years of hand-tuned legacy behavior. Unlike a proof of concept aimed at production quality, a spike deliberately produces throwaway code; its output is not software but evidence, in the form of a concrete answer that replaces assumption with observation. This distinguishes it from a technical spike, which investigates implementation feasibility, by focusing instead on business-level risk: whether a proposed change preserves the behavior stakeholders actually depend on. Legacy systems are especially prone to accumulating undocumented business logic and hidden dependencies that only surface when someone actually attempts a change, which is exactly the kind of risk a spike is built to surface cheaply and early. By converting a costly commitment into a small, bounded experiment, functional spikes let teams discover infeasibility, hidden coupling, or unexpected complexity within days instead of after months of a failed migration, and they give stakeholders concrete evidence to weigh against the alternative of prolonged analysis paralysis.
 
+## How to Apply ◆
+
 > In legacy systems, functional spikes help teams reduce uncertainty before committing to costly changes by running short, focused experiments.
 
 - Identify the highest-risk assumptions in a planned legacy modernization effort — for example, whether a critical business rule can be extracted from a monolith without breaking dependent workflows.

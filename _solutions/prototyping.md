@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Prototyping is the practice of building low-commitment representations of a proposed change — ranging from paper sketches to clickable mockups to narrowly working code — specifically to reduce uncertainty about whether users accustomed to an existing legacy workflow will accept a proposed replacement, before that replacement is built in full. Unlike a finished increment of the system, a prototype's value lies entirely in the feedback it generates: fidelity is chosen deliberately for the question being asked, and an explicit agreement that the prototype's code will be discarded and rewritten is treated as part of the practice, not an afterthought. In legacy modernization specifically, prototyping is used to de-risk the two hardest sources of uncertainty in a replacement effort: whether the new design matches workflows users have never had to articulate because the legacy system simply does it that way, and whether a proposed integration approach against a legacy database or API will actually work before committing engineering time to building it in full. Structured feedback sessions that have legacy users directly compare the prototype against their current task, rather than evaluate it in the abstract, are what convert a subjective design opinion into concrete, actionable input for the backlog. The recurring failure mode is that prototype code, built under the same time pressure as the rest of the project, quietly becomes production code — a shortcut that reintroduces the very technical debt the modernization effort was meant to reduce, which is why establishing the prototype/production boundary up front is treated as inseparable from the practice itself.
+
 ## How to Apply ◆
 
 > Prototyping in legacy contexts focuses on reducing uncertainty about whether a proposed change or replacement will satisfy users who are accustomed to specific legacy workflows.

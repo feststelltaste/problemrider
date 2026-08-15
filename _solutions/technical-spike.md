@@ -37,6 +37,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+A technical spike is a strictly time-boxed investigation — typically one to three days — built to answer a single, specific architectural question through the simplest possible prototype, with the code itself discarded once the answer is captured. Legacy modernization decisions are especially prone to stalling in unresolved debate precisely because they often hinge on unknowns that no amount of discussion can settle — whether a migration approach will actually perform under load, whether a new framework integrates cleanly with a legacy API — and a spike replaces that debate with empirical evidence gathered directly against the real system. Discarding the prototype code afterward, rather than letting it slip toward production, keeps the exercise honest: the value is the answer to the question, not a head start on the implementation, and a spike whose scope is not held tightly can quietly turn into an open-ended side project instead of a fast, decisive input to the actual decision.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

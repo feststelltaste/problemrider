@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Data replication creates and continuously synchronizes copies of a dataset across multiple systems or nodes, using synchronous or asynchronous mechanisms depending on how strict the required consistency is, so that the same data is available from more than one location for reading, failover, or geographic distribution. In practice this usually means designating a primary system of record and one or more replicas that receive a continuous stream of changes — either through native database replication or through change data capture that observes the primary without requiring modifications to it — with monitoring in place to detect replication lag or synchronization failures. For legacy systems, replication addresses two distinct pain points at once: a single database instance that has to serve both transactional and reporting workloads suffers lock contention and slowdowns when the two compete for the same resources, and a single database instance with no standby is also a single point of failure that turns any hardware issue into an extended outage. Directing read-heavy reporting traffic to replicas relieves the primary, while a geographically separated replica doubles as a disaster recovery target that can be promoted if the primary becomes unavailable. The tradeoff inherent to replication is that copies are not instantaneously consistent — replication lag can produce stale reads, and any configuration allowing writes to more than one copy introduces conflicts that must be resolved by an explicit strategy rather than left to chance.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

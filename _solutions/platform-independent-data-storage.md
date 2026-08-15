@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Platform-independent data storage means selecting database engines, storage formats, and data access patterns that are not tied to a single vendor's proprietary runtime, licensing model, or operating system. In practice this means favoring systems with open standards and multiple compatible implementations — PostgreSQL over Oracle-specific features, ANSI SQL over vendor extensions, or portable formats like JSON and Parquet over proprietary binary blobs — and introducing an abstraction layer between application code and the storage engine so the underlying technology can be swapped without rewriting business logic. For legacy systems, this matters because storage-layer decisions made decades ago tend to calcify into permanent vendor lock-in: stored procedures written in a proprietary SQL dialect, a database-specific full-text search engine, or licensing terms that scale unfavorably with data volume all become forcing functions that block migration to cheaper or more modern infrastructure. Retrofitting platform independence into an existing system is inherently a migration exercise, since the coupling to a specific vendor's schema and feature set is usually deeply embedded rather than isolated behind a clean boundary from the start. The payoff is negotiating leverage against vendor pricing, the freedom to run in whatever cloud or on-premises environment a client or regulation demands, and a credible exit path the moment the current storage vendor's roadmap or cost structure stops fitting the business.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

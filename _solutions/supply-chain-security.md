@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Supply chain security establishes visibility and trust over every third-party component a system depends on, typically through a Software Bill of Materials (SBOM) that inventories dependencies and provenance verification that confirms they come from trusted, unmodified sources. Legacy systems routinely carry hundreds of transitive dependencies accumulated over years, many no longer actively maintained, without anyone having ever produced a complete inventory of what is actually in the build — which means a newly disclosed supply-chain vulnerability or a compromised package cannot even be checked against the system with any confidence. Generating an SBOM and wiring vulnerability scanning into the build pipeline turns that blind spot into an actionable, continuously updated list, though legacy dependencies that predate modern package-signing practices or that have been vendored and modified locally resist full provenance verification and require manual judgment instead.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

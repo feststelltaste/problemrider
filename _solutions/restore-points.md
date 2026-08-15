@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+A restore point is a captured snapshot of system state — a database at a specific point in time, a virtual machine image, or a configuration baseline — taken immediately before a risky operation such as a deployment, migration, or configuration change, so that the system can be returned to a known-good state if that operation goes wrong. Unlike routine backups taken on a fixed schedule, restore points are created on demand around specific change events and tagged with metadata describing exactly what change prompted them, which makes it straightforward to identify and use the correct one during an incident. This is particularly important in legacy systems undergoing modernization, where schema migrations, data transformations, and infrastructure changes are inherently higher-risk than in a system that is otherwise left untouched, precisely because the legacy code paths being modified are the least tested and least understood parts of the system. Without a restore point, a failed migration that corrupts referential integrity partway through can turn into a multi-day manual data-repair effort; with one, the same failure becomes a bounded, minutes-long rollback followed by a second, corrected attempt. Restore points thus function as a safety net specifically scoped to change events, lowering the perceived and actual risk of each individual modernization step and making teams more willing to attempt changes they would otherwise defer indefinitely out of fear of an unrecoverable mistake.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

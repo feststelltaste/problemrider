@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Exploiting the memory hierarchy means organizing data and code so that they take advantage of locality — spatial locality from laying related data contiguously in memory, and temporal locality from reusing data that is already resident in a fast cache level — rather than triggering repeated, expensive round trips to slower memory tiers such as main memory or disk. In practice this involves reorganizing data structures for contiguous access (arrays instead of linked lists), aligning structures to cache line boundaries to avoid false sharing between threads, and restructuring hot loops so that prefetching hardware can predict and exploit sequential access patterns instead of chasing pointers scattered across memory. Legacy codebases accumulate memory-hierarchy-unfriendly patterns for a mundane reason: they were often written at a time, or by developers, unaware of or unconcerned with cache behavior, favoring flexible pointer-based structures like linked lists over contiguous arrays, and those choices are rarely revisited once the code works, even as data volumes grow and the cost of poor locality compounds. Because these optimizations work directly with how the underlying hardware moves data rather than changing the algorithm's complexity class, they can produce substantial, multiplicative speedups in data-intensive legacy code paths without requiring a rewrite of the business logic itself. The cost of pursuing them is that cache-friendly data layouts are typically less intuitive and harder to maintain than the straightforward object-oriented structures they replace, and any benefit gained is tied to the specific hardware architecture the code runs on, which is a tradeoff worth making deliberately rather than applying broadly across a legacy codebase.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

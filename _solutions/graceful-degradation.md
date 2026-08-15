@@ -34,6 +34,8 @@ related_solutions:
 
 Graceful degradation is the design property that allows a system to continue serving its most important functions in a reduced capacity when parts of it fail or become overloaded, rather than failing completely. It works by classifying features according to business criticality, defining fallback behaviors for the less critical ones — cached data, simplified responses, disabled non-essential features — and detecting overload or partial failure early enough to switch into a degraded mode before the system reaches a hard failure threshold. This differs from redundancy or failover, which aim to keep full functionality available by masking a failure entirely; graceful degradation instead accepts a visible, controlled reduction in service as the deliberate alternative to an uncontrolled outage. Legacy systems are frequently vulnerable to complete outages precisely because components that should be independent — a recommendation engine and the checkout flow, for instance — share resources or fail-fast code paths that were never designed with isolation in mind, so a spike in load on a peripheral feature can take down the entire application. Introducing graceful degradation into such a system means retrofitting boundaries around non-essential functionality so that its failure or throttling cannot cascade into core workflows, converting what would otherwise be a full outage into a temporary, contained loss of secondary functionality that most users may not even notice.
 
+## How to Apply ◆
+
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
 
 - Classify system features by business criticality to determine which can be degraded and which must remain fully available

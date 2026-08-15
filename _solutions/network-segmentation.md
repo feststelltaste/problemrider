@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Network segmentation divides a network into distinct zones — each with its own trust level and its own set of allowed communication paths — so that a compromise in one zone does not automatically grant an attacker or a spreading failure access to every other component. It is implemented through firewalls, network policies, or software-defined boundaries that enforce a default-deny posture: only explicitly permitted ports, protocols, and source/destination pairs may cross a zone boundary, and everything else is blocked and logged. Legacy environments are prime candidates for this treatment because they frequently grew up on flat networks where every server could reach every other server directly, a pattern that made ad hoc integration easy at the time but leaves no internal barrier once perimeter defenses are bypassed. This is especially consequential for legacy components that cannot be patched or upgraded for compatibility reasons: segmentation lets such systems be isolated behind strict, monitored boundaries as a compensating control, containing their risk without requiring the underlying vulnerability to be fixed. Segmentation also constrains the blast radius of non-security incidents such as malware outbreaks or cascading failures, since a fault confined to one segment cannot propagate through unrestricted network paths to reach unrelated systems. The main cost is that the very interdependencies segmentation is meant to control are often undocumented in legacy environments, so introducing strict boundaries requires careful discovery of real traffic patterns to avoid breaking functioning integrations.
+
 ## How to Apply ◆
 
 > Legacy systems often operate on flat networks where any compromised component can reach any other component. Network segmentation divides the network into zones with different trust levels, limiting lateral movement and containing the blast radius of compromises.

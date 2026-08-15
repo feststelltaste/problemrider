@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Regular backups are scheduled, automated copies of a system's data and configuration state, taken at intervals defined by how much data loss the business can tolerate — its recovery point objective — and stored separately from the production environment so that a failure affecting the live system does not also destroy its backups. Strategies typically combine full backups with incremental or differential backups to balance completeness against storage cost and backup-window duration, and are only as trustworthy as the restoration process has been proven to be through regular test restores. In legacy systems, backup practices are frequently a historical afterthought: a monthly tape rotation instituted decades ago and never revisited, even as the system's data volume, business criticality, and regulatory obligations have grown far beyond what that original schedule was designed to protect. Because legacy systems are also the ones most likely to suffer from age-related hardware failure, undocumented data corruption bugs, and unproven migration scripts, a disciplined backup regime is a prerequisite for taking any bolder modernization action with confidence, since it guarantees that a failed migration attempt or a corrupting bug can be undone rather than becoming a permanent loss. Establishing regular, verified backups is therefore usually one of the earliest investments made before deeper legacy modernization work begins, precisely because it lowers the cost of every subsequent mistake.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

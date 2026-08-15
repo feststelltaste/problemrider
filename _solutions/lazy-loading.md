@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Lazy loading delays the retrieval or initialization of a resource — a UI component, a database association, an image, or a data page — until the point where it is genuinely required by the user's current interaction, instead of fetching everything a screen or object might ever need at construction time. It is implemented through mechanisms such as bundle splitting and dynamic imports on the frontend, lazy-initialized associations in an ORM, or virtual scrolling and pagination for large lists, all of which share the same underlying idea of substituting a deferred reference for immediate materialization. Legacy applications commonly grew their eager-loading habits organically: a screen that once showed a handful of records now renders thousands, or a startup routine that once initialized a few modules now boots dozens of subsystems nobody remembers is unused, and because nothing forced a reconsideration of that loading strategy, resource consumption crept upward year after year. Introducing lazy loading into such a system directly targets the slow startup times, bloated memory footprints, and sluggish list rendering that accumulate this way, without requiring the surrounding legacy code to be rewritten — the loading boundary can usually be inserted at the point of access rather than throughout the codebase. Because the deferred cost still has to be paid eventually, often at an unpredictable moment visible to the end user, lazy loading in legacy contexts needs to be paired with clear loading indicators and safeguards against patterns like N+1 queries, where a lazy association accessed inside a loop silently multiplies the number of deferred fetches.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

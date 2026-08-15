@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A virtual development environment defines everything a developer needs to run and modify an application — services, databases, message brokers, dependencies, configuration — as code, typically through Docker Compose, Vagrant, or devcontainers, and stores that definition in version control alongside the application itself rather than in a wiki page or a colleague's memory. This directly targets a chronic problem in legacy systems: over years, the set of local dependencies required to run the application grows organically and undocumented, until new developer onboarding depends on tribal knowledge, a perpetually stale setup guide, and days of trial and error before a working local environment even exists. By codifying the environment instead of describing it in prose, the same environment can be reproduced identically on every machine with a single command, which eliminates both the onboarding delay and the broader class of "works on my machine" discrepancies that arise when developers' local setups have quietly diverged from each other and from production over time. It also lets developers keep several projects with conflicting dependency versions on the same machine without conflict, since each project's environment is fully isolated. The tradeoff is local resource consumption and the ongoing maintenance burden of keeping the environment definition current as the legacy system's real dependencies evolve, but for legacy systems with genuinely complex local setup requirements this is usually a small price against the onboarding cost it replaces.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

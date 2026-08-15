@@ -51,6 +51,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Load testing subjects a system to simulated traffic — request volumes, concurrent users, and data sizes intended to approximate or exceed real production conditions — in order to observe how it behaves and where it breaks before those conditions occur unplanned in production. Tools such as JMeter, Gatling, or k6 generate the synthetic load against realistic scenarios and production-like data volumes, while the team observes response times, error rates, and resource saturation to establish a performance baseline and detect regressions in subsequent runs, including extended soak tests designed to reveal slow leaks that only manifest after sustained operation. Legacy systems are frequently deployed and left running for years without ever having their actual capacity limits measured, because the original load testing (if any was done) reflected traffic patterns and data volumes from a much earlier point in the system's life, leaving the team to discover the real limits only when a seasonal peak or unexpected surge pushes the system past a threshold nobody knew existed. Running load tests against such a system deliberately, ahead of a known high-demand event, converts an unknown and often catastrophic failure mode — connection pool exhaustion, table locking under concurrency, a reporting query that only becomes slow at scale — into a known, fixable defect discovered under controlled conditions. Because legacy systems often lack a test environment that faithfully mirrors production topology and data scale, the biggest practical obstacle to load testing them is usually not the tooling but assembling an environment and dataset realistic enough that the results can be trusted.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

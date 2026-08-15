@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A walking skeleton is a minimal but fully functional, end-to-end implementation of a system's core architecture — spanning UI, business logic, persistence, and deployment — built to prove that the architectural approach actually works in practice before any real feature effort is invested on top of it. Unlike a prototype meant to be discarded, the skeleton is kept deployable and is deliberately grown by adding "flesh" to its proven bones, incrementally implementing real functionality once the underlying architecture has already been validated. This addresses a specific and common failure pattern in legacy modernization: projects that stall in extended design phases, producing diagrams and specifications for months without a single line of working code, because the perceived risk and scale of replacing the legacy system induces paralysis rather than action. By forcing the team to build something real and deployable immediately, even if it does almost nothing functionally, the walking skeleton retires the biggest architectural unknowns early — whether the deployment pipeline actually works, whether the chosen components can genuinely integrate — while the cost of being wrong is still small. It also gives stakeholders a tangible, running system to react to far earlier than a traditional big-design-upfront approach would, though the team has to guard against two predictable failure modes: prematurely adding real features before the architecture is proven, and stakeholders mistaking the skeleton's necessarily minimal quality for the intended quality of the finished product.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

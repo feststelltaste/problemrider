@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A performance budget is a measurable target — page load under two seconds, API response under 500 milliseconds, a maximum bundle size — that is treated as a requirement to be enforced rather than an aspiration to be hoped for. Legacy systems rarely fail performance catastrophically; they degrade gradually as feature after feature is added without anyone tracking the cumulative cost, until the system that once felt fast has quietly become sluggish enough that nobody quite remembers when it changed. Wiring budget checks into the CI/CD pipeline turns that invisible drift into an immediate, visible build failure at the moment a change would exceed the limit, giving the team objective criteria — rather than a subjective argument — for evaluating whether a new feature's performance cost is acceptable.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Security training builds developers' and operators' ability to recognize and prevent security issues themselves, through role-based curricula and hands-on exercises, ideally built from the organization's own codebase rather than generic material disconnected from the systems people actually work on. Legacy systems carry security concerns that generic security training rarely addresses directly — outdated authentication mechanisms, deprecated APIs, patterns that were acceptable when the code was written but are recognized vulnerabilities today — so training that uses the team's real legacy vulnerabilities as teaching material builds exactly the pattern recognition needed to catch similar issues during modernization work. Making this training a required, recurring part of onboarding and ongoing development, rather than a one-time event, is what keeps the underlying knowledge from fading, though building and maintaining that training content is itself a real investment that competes with delivery work for the same developer time.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

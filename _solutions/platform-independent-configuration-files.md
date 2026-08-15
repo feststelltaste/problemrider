@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Platform-independent configuration files store settings in standardized, widely supported formats such as YAML, JSON, or TOML instead of platform-specific mechanisms like the Windows registry or custom binary formats that only one operating system's tooling can read or edit. Legacy applications that grew up on a single platform often accumulate configuration data in exactly these non-portable forms, which becomes a serious obstacle the moment a new deployment target — a different OS, a container, a customer's environment — needs to read or modify that same configuration. Migrating configuration to a standard format with schema validation lets the same tooling, documentation, and automation work across every environment the system needs to run in, though the migration itself has to be tested carefully since legacy formats sometimes encode platform-specific semantics that do not translate cleanly.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

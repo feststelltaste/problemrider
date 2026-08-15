@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Fitness functions are automated tests, run continuously as part of the CI pipeline, that check a defined architectural property — coupling limits between modules, absence of cyclic dependencies, latency thresholds, deployment independence — and fail the build when that property degrades beyond an agreed threshold, giving architecture the same kind of continuous, objective verification that unit tests give business logic. Legacy systems undergoing modernization are especially vulnerable to architectural regression: without an automated check, a change that quietly reintroduces a cross-module database access or a circular dependency looks identical to any other passing commit, and the drift only becomes visible much later, in an expensive architecture review or a production incident, by which point undoing it is far more costly. Implementing fitness functions for the properties most at risk during a specific modernization effort — coupling, if the goal is decomposing a monolith; latency, if the goal is preserving performance through a rewrite — catches these regressions at the moment they are introduced and gives the team an objective, continuously visible measure of whether the architecture is actually moving toward its stated goal or just accumulating more exceptions to it. The approach depends on having clear architectural goals in the first place, something legacy systems that grew organically often lack, and on setting thresholds thoughtfully, since fitness functions that are too strict flag too many pre-existing violations to be useful while functions that measure the wrong property create a false sense of architectural health.
+
 ## How to Apply ◆
 
 > In legacy systems, fitness functions provide automated, continuous verification that the architecture is evolving in the right direction rather than silently degrading with every change.

@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Platform independence means a system can run on different operating systems, hardware, or cloud environments without modification, achieved by replacing OS-specific calls, native libraries, and hardcoded path assumptions with cross-platform abstractions or standard-library equivalents. Legacy systems accumulate platform dependence gradually and invisibly — a Windows-specific file path here, a vendor-specific API call there — until the accumulated total becomes a form of vendor lock-in that is only discovered when a migration, cost pressure, or compliance mandate forces a move to different infrastructure. Containerizing the runtime and abstracting file-system and build-tool interactions makes that migration tractable by isolating what actually needs to change, though the resulting abstractions can mean giving up platform-specific optimizations that a tightly coupled implementation could otherwise exploit.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

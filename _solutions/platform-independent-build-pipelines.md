@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A platform-independent build pipeline defines its steps in a portable format — a Makefile, shell scripts, or containerized build images — that any CI server can execute, rather than encoding the build logic in a specific vendor's proprietary plugins and pipeline syntax. Legacy build systems frequently drift into deep coupling with one CI platform over years of incremental configuration, to the point that migrating vendors looks like it requires rewriting every pipeline from scratch. Keeping the actual build logic in portable, version-controlled scripts and reducing the CI-specific configuration to a thin wrapper around them means a vendor migration becomes a matter of rewriting that thin layer, not the substance of the build — at the cost of giving up some vendor-specific conveniences like native caching or matrix builds that the portable layer cannot fully replicate.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

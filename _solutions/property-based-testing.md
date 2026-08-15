@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Property-based testing generates a large number of random inputs and checks that a general property — an invariant that must hold for all valid inputs, such as idempotency, a round-trip guarantee, or a range constraint — remains true, rather than asserting specific expected outputs for a fixed, hand-picked set of example inputs. When a property fails, the framework's shrinking mechanism automatically reduces the failing input to its smallest reproducing form, which turns a random, possibly large counterexample into a minimal, debuggable test case. This is particularly effective for legacy code because such code is frequently exercised only by a handful of example-based tests written years ago for the scenarios the original author happened to think of, leaving broad swaths of the input space — and the edge cases and boundary conditions the original tests never covered — effectively unverified. Because random input generation actively searches for inputs that violate the stated properties, it routinely surfaces defects that have been present in production code for years without ever being triggered by the narrow set of manually written examples, such as an integer overflow in a rarely used code path. The initial cost is conceptual: articulating properties as universal statements about behavior requires a different mindset than writing example assertions, and not every piece of legacy code has properties that are easy to state, which limits where the technique can be applied without custom input generators for domain-specific types.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

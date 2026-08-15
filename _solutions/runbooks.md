@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A runbook is a written, step-by-step procedure for handling a specific operational task or incident — including diagnostic steps, resolution actions, escalation paths, and rollback instructions — written at a level of detail that lets someone unfamiliar with the system follow it successfully under pressure. Runbooks are most useful when stored in a searchable, version-controlled location, linked directly to the monitoring dashboards and log queries relevant to each procedure, and updated immediately after any incident that exposed a gap in the existing documentation. In legacy systems, operational knowledge of exactly how to diagnose and resolve recurring failure modes very often exists only in the heads of one or two long-tenured engineers who built or have maintained the system for years, which creates a severe single point of failure in the organization itself: when that person is unavailable during an incident, resolution time can stretch from minutes to hours even for problems that are, in principle, well understood. Writing runbooks converts this tacit, person-bound knowledge into an explicit, shareable asset, which directly reduces both incident resolution time and the organization's dependency on specific individuals for keeping a legacy system running. The investment does require ongoing upkeep, since a runbook that has drifted out of sync with how the system actually behaves can actively mislead whoever follows it during a subsequent incident, making stale runbooks worse in some respects than having no runbook at all.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

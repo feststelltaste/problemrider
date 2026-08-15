@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Load balancing distributes incoming requests across multiple instances of a service or application, using an algorithm such as round-robin, least-connections, or weighted distribution combined with health checks that route traffic away from instances that are failing or overloaded. Mechanically, a load balancer sits in front of the application tier as a single addressable entry point, forwarding each request to whichever backend instance is best positioned to handle it at that moment, which converts a fleet of individual servers into what looks, from the outside, like one reliable service. Legacy applications were frequently built and deployed as a single instance, both because early traffic volumes did not require more and because the application itself was written with in-memory session state that makes running multiple instances awkward — so the system has no path to horizontal scaling and no redundancy, meaning any single-server slowdown or crash becomes a full outage. Introducing load balancing in front of such a system offers an immediate resilience and capacity gain even before the underlying application is refactored, though its full benefit is only realized once the legacy application is made stateless or moved to externalized session storage, since sticky sessions are otherwise needed as a stopgap that limits how evenly load can actually be spread. Because the load balancer itself becomes a new critical path once introduced, it must be deployed redundantly, or it simply relocates the single point of failure problem it was meant to solve.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Defense lines implement security as a series of independent layers — network segmentation, transport encryption, application-level input validation and authorization, database-level access controls, data-at-rest encryption, and monitoring — so that a failure or bypass of any single control does not by itself result in a complete compromise of the system. The mechanism rests on the principle that no critical asset should depend on exactly one control for its protection: for example, defending against SQL injection combines input validation at the application boundary, parameterized queries at the data access layer, and a least-privilege database account that limits what an attacker can reach even if the first two layers are somehow defeated. This matters for legacy systems because they typically evolved with a single dominant control — a firewall, a login check — implicitly treated as sufficient, an assumption made in an earlier threat environment that leaves the system fully exposed the moment that one control is bypassed or its underlying assumption (such as trusting everything inside the network perimeter) stops holding. Layering additional, independent controls onto such a system can be done incrementally, adding one defensive layer at a time without requiring a full security redesign, and each additional layer also buys time for detection and response even in cases where the preventive controls in front of it eventually fail. The corresponding cost is architectural and operational complexity: more layers means more configuration surface to understand and more latency accumulating end to end, and overlapping controls can create a false sense of security if teams assume some other layer is handling a threat that in fact no layer covers.
+
 ## How to Apply ◆
 
 > Legacy systems typically rely on a single security control (often a firewall or login check) as their sole defense. Defense in depth implements multiple independent layers of security so that a failure in any single control does not result in a complete compromise.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Privacy by design is the practice of treating data protection as an architectural constraint from the outset — minimizing what personal data is collected, encrypting or pseudonymizing it according to sensitivity, restricting access by role, and building in retention and deletion policies — rather than treating privacy as a compliance checklist applied after the system is built. Applied to an existing legacy system, this necessarily becomes a retrofit: a full inventory of what personal data exists and where, followed by adding the encryption, access control, consent tracking, and automated retention mechanisms that would have been designed in from the start had the regulatory landscape existed at the time the system was built. This is especially costly in legacy contexts because personal data in older systems is often scattered undocumented across many tables and integrations, accumulated through years of ad hoc schema changes with no centralized data map, so the initial audit step alone can be a substantial undertaking before any technical remediation begins. The effort is nonetheless usually forced by external pressure — a regulation such as GDPR taking effect, or a data breach — because the absence of privacy controls in a decades-old system represents both acute regulatory exposure and a wide, largely undocumented attack surface. The tradeoff is that data minimization and anonymization, applied retroactively, can conflict with existing business processes and support workflows that were built assuming full, unrestricted access to historical personal data.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

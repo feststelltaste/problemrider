@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Progressive loading delivers content in stages of increasing completeness or quality — text before images, a low-resolution preview before the full-quality asset, a summary before full detail — so that something meaningful appears on screen immediately while the remaining, heavier content continues loading in the background. It typically involves restructuring API responses so essential data arrives first, using placeholder or skeleton UI while full content is pending, and prioritizing above-the-fold content over content the user has not yet scrolled to. This is a useful lever specifically for legacy systems because it addresses perceived performance without requiring any change to the backend that is actually producing the slow response — a legacy system whose data model or query performance is expensive or risky to touch can still feel dramatically faster to the user purely through how the existing, unchanged payload is sequenced and rendered on the client. The approach is especially effective on slow network connections, where a single large monolithic response takes many seconds to arrive in full but a staged delivery lets the user start reading or engaging with early content within a fraction of a second. The tradeoff is added complexity: splitting content delivery into stages means more requests overall, potential layout shifts as later content arrives, and a larger testing surface since each loading stage needs independent verification.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

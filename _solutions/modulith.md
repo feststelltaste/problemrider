@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+A modulith keeps a system deployed as a single unit while enforcing hard internal boundaries between its logical modules — typically through language-level mechanisms such as packages or build modules, explicit public APIs for each module, and architectural fitness tests like ArchUnit that fail the build if code reaches across a boundary it should not. It achieves many of the coupling and clarity benefits associated with microservices — well-defined interfaces, restricted internal access, clear ownership of a bounded area of functionality — without introducing the network calls, independent deployments, and distributed-systems failure modes that come with actually splitting the system into separate services. In a legacy monolith, this addresses a very specific failure pattern: domain logic that has become interleaved across packages with no enforced boundaries, so that a change to one area silently ripples into others because nothing in the codebase prevents modules from reaching into each other's internals. Because a modulith remains a single deployable artifact, it is markedly easier to retrofit onto legacy code than a full microservices decomposition, making it a practical stepping stone for teams that recognize their monolith's coupling is a problem but do not yet have the operational maturity, or the clearly enough understood domain boundaries, to justify distributed services. Its principal risk is that, unlike a genuine service boundary enforced by network calls, the boundaries in a modulith are enforced only by discipline and tooling within a single codebase, so without consistently run fitness tests they tend to erode again under the same deadline pressure that caused the original entanglement.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

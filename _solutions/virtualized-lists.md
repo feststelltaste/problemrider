@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.6
 ---
 
+## Description
+
+Virtualized lists render only the rows currently visible within a scroll viewport, plus a small buffer, and recycle the same limited set of DOM elements as the user scrolls, instead of creating one DOM element for every item in a dataset that may contain tens of thousands of rows. Many legacy frontend components predate this technique and simply render every row of a table or list unconditionally, an approach that scales acceptably for small datasets but degrades catastrophically as the underlying data grows — a pattern common in legacy systems that were built when data volumes were far smaller and nobody anticipated the dataset eventually reaching the size it has today. The performance cost is not a rare edge case at that point but a routine, reproducible freeze on every page load, since the browser has to construct, lay out, and eventually garbage-collect an enormous number of DOM nodes for a view where the user can only ever look at a handful of them at once. Replacing the naive rendering with a virtualization library restores responsiveness by keeping the DOM element count bounded and roughly constant regardless of dataset size, at the cost of added rendering complexity — particularly for variable-height rows — and the loss of certain browser-native behaviors like in-page text search, which typically has to be replaced with an explicit server-side search feature to compensate.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

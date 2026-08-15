@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Microservices architecture decomposes a system into a set of small, independently deployable services, each aligned to a specific business capability, communicating over the network through well-defined APIs rather than through in-process method calls or a shared database. Extraction from an existing legacy monolith is typically done incrementally through the Strangler Fig pattern, identifying bounded contexts using domain-driven design, and routing traffic to new services one at a time while the monolith continues to handle everything not yet extracted, rather than attempting a wholesale rewrite. Legacy monoliths tend to reach a point where every change, however small, requires redeploying and retesting the entire application because all of its subsystems are compiled and shipped together, which slows delivery, concentrates risk in every release, and makes it impossible for one team to scale or evolve their part of the system independently of every other team's schedule. Microservices directly address this by making the unit of deployment, scaling, and technology choice the individual service rather than the whole application, which also creates a natural mapping between service ownership and team boundaries and allows legacy technology to be replaced gradually, service by service, instead of all at once. The tradeoff legacy teams take on in return is a substantial increase in distributed systems complexity — network latency, partial failures, and cross-service data consistency — that a monolith never had to deal with, and premature or overly fine-grained decomposition of a poorly understood legacy system frequently produces a "distributed monolith" that is harder to operate than the system it replaced.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

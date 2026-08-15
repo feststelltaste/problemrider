@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Virtualization gives an application its own operating system instance, isolated from whatever else runs on the underlying physical hardware, so that its specific runtime, library, and configuration requirements no longer have to coexist with — and potentially conflict with — those of any other application sharing the same machine. This directly resolves a common legacy pathology: multiple applications accumulated on the same bare-metal server over years, each depending on a different, sometimes incompatible version of a shared runtime or library, so that patching or upgrading one application risks silently breaking another that happens to share the same host. By giving each legacy application its own VM image capturing the exact OS, runtime, and dependency versions it needs, virtualization lets applications with conflicting or even mutually exclusive requirements coexist safely on the same physical infrastructure, and infrastructure-as-code tooling makes that environment reproducible across development, staging, and production rather than subtly drifting between them. Snapshot capability also gives teams the confidence to attempt risky changes to fragile legacy systems, since a bad patch or upgrade can be rolled back to a known-good state within minutes rather than requiring a lengthy manual recovery. The cost is the overhead of running a full OS per instance and the operational skill required to manage a virtualization platform, which is why lighter-weight containerization is often preferred wherever a legacy application's OS-level requirements permit it.
+
 ## How to Apply ◆
 
 - Migrate legacy applications from bare-metal shared servers to individual virtual machines, giving each application its own OS and dependency stack.

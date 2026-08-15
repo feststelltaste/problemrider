@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Semantic versioning encodes compatibility intent directly into a version number — MAJOR for breaking changes, MINOR for backward-compatible additions, PATCH for backward-compatible fixes — so that consumers of a library or API can judge whether an update is safe to adopt just by reading the version, without inspecting a changelog or the code itself. Legacy ecosystems built from many interdependent shared components are particularly exposed to unversioned or inconsistently versioned changes, where any update can silently break a downstream consumer with no warning at all. Retrofitting semver onto legacy components requires an initial audit to establish a sound baseline version, but once adopted consistently and enforced through the CI pipeline, it gives every team a shared, reliable vocabulary for the impact of a change and lets automated dependency tools make safe upgrade decisions on their own.
+
 ## How to Apply ◆
 
 - Adopt the MAJOR.MINOR.PATCH versioning scheme for all libraries, APIs, and shared components in the legacy system.

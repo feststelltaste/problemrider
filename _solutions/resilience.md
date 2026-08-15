@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Resilience describes the ability of a system to continue operating, in a possibly degraded but still useful mode, when parts of it fail or its environment behaves in unexpected ways, rather than collapsing entirely at the first fault. It is achieved through a combination of specific patterns — circuit breakers that stop calling a failing dependency, timeouts that bound how long a component waits for a response, bulkheads that isolate resource pools so one overloaded component cannot starve others, and redundancy that provides an alternative path when a primary one is unavailable. Legacy systems are frequently the opposite of resilient by construction: components were built assuming their dependencies would always be available and always respond quickly, so a single slow or failing service tends to cascade into a total outage rather than a contained, partial one. Retrofitting resilience patterns at the integration points of a legacy system is usually far more tractable than rewriting the system's internals, because the patterns wrap existing calls rather than requiring an understanding of what happens inside them. This makes resilience an especially practical investment during modernization, since it directly reduces the blast radius of the very failures that incremental legacy changes are most likely to introduce, and it builds the organizational confidence needed to keep changing the system without fear that any single mistake will bring the whole platform down.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

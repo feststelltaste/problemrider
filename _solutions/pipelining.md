@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Pipelining decomposes a sequential processing workflow into discrete stages connected by queues, so that each stage can work on a different data item concurrently instead of the whole workflow waiting for one item to pass fully through every stage before starting the next. Legacy batch and ETL jobs are frequently built as one long sequential chain — extract, then transform, then load — where each phase idles while waiting for the previous one to fully finish, even though the stages could clearly overlap. Restructuring such a workflow into an explicit pipeline increases overall throughput by keeping every stage continuously busy, and it also makes the bottleneck stage visible and independently scalable rather than hidden inside one monolithic process. The added complexity shows up in error handling: a failure partway through a pipeline is harder to reason about than a failure in a single sequential script, and backpressure between stages has to be managed deliberately or a fast producer will overwhelm a slow consumer.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
