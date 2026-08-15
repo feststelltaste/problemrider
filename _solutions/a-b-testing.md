@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A/B testing is a controlled experiment in which two or more variants of a feature, workflow, or interface are shown to different segments of live users simultaneously, with the resulting behavioral or business metrics compared to determine which variant performs better. Rather than deciding a change is an improvement by internal conviction or aesthetic preference, the method treats every proposed change to the system as a hypothesis to be validated against real usage data before it is rolled out fully. In legacy systems, where years of accumulated assumptions about user behavior are baked into the UI and workflow but rarely revisited, A/B testing offers a way to challenge those assumptions incrementally and safely, without committing to a risky big-bang redesign. It also converts vague complaints about user experience into measurable outcomes, making it possible to prioritize modernization effort by quantified impact rather than by whoever complains loudest. Because legacy codebases are often not built with experimentation in mind, applying this technique typically requires first adding feature flagging and analytics instrumentation as a prerequisite, which is itself a useful forcing function for improving the system's observability and modularity.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

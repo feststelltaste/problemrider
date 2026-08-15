@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Backward-compatible schema migrations apply the expand-and-contract pattern to database schema evolution: a new column or table is added first, existing data is backfilled or transformed by a background process, application code is updated to use the new structure while still tolerating the old one, and only in a later, separate deployment is the old structure finally removed. Splitting what looks like a single schema change into several sequential, independently deployable steps is precisely what allows the database schema and the application code to change on different, overlapping timelines rather than in perfect lockstep. This matters in legacy systems because their databases are typically large, long-lived, and read by more than the application that owns the schema — reporting tools, other services, and batch jobs may query the same tables directly — so a naive single-step rename or drop of a column risks breaking consumers the team does not fully control or even know about. The multi-step approach also makes rollback of the application code alone possible without touching the database, which is exactly the scenario a risky legacy deployment most needs, since reverting a schema change on a live, multi-terabyte table is often far more dangerous than reverting application code. The cost is coordination overhead: multiple releases must track which migration phase the environment is in, and temporary duplication of columns adds transitional complexity that must eventually be cleaned up rather than left to accumulate indefinitely.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

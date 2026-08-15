@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+A deprecation strategy is a formal, staged process for retiring features, APIs, or code paths that are no longer wanted, replacing the informal habit of simply leaving old functionality in place indefinitely because removing it feels risky or nobody owns the decision. It defines explicit lifecycle stages — announcement, a deprecation warning period, soft removal where the feature is hidden but the code remains as a safety net, and finally hard removal where the code is deleted — and attaches concrete dates and communication obligations to each stage. This turns "we should really get rid of that someday" into a tracked commitment with a deadline, which is precisely what legacy systems typically lack: without such a structure, deprecated code accumulates silently for years because no single stakeholder has both the authority and the motivation to finish removing it. In a legacy modernization context, a deprecation strategy is the mechanism that actually shrinks the system rather than merely adding new functionality alongside old, unused functionality that continues to consume maintenance effort, security patching, and cognitive load. Its effect compounds over time, since every successfully completed deprecation cycle reduces the surface area that future modernization work has to account for.
+
 ## How to Apply ◆
 
 > In legacy systems, deprecated features and APIs often linger indefinitely because there is no systematic process for removing them — a deprecation strategy provides the discipline to actually complete the removal.

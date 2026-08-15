@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Compatibility testing systematically verifies that software behaves correctly across the full range of platforms, versions, and integration partners it is expected to support, typically by defining an explicit compatibility matrix and automating test execution against each combination in it. Legacy systems accumulate this kind of variety over time — multiple supported database backends, operating system versions, and client integrations that were each added for a specific customer or migration reason and never retired — so the space of configurations that must keep working grows quietly until nobody can enumerate it from memory anymore. Making the matrix explicit forces that knowledge back into the open, and running it in CI rather than only before major releases turns platform- and version-specific regressions into build failures instead of field incidents. Containerized test environments make it practical to reproduce older or less common target configurations reliably, without maintaining dedicated physical hardware for each one. The approach is deliberately bounded by usage data: testing every theoretical combination is rarely worthwhile, so coverage is concentrated on the platform and version combinations that production traffic actually exercises.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

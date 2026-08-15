@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+CQRS (Command Query Responsibility Segregation) separates the model used to write data from the model used to read it, allowing each to be optimized, and scaled, independently instead of forcing both through a single normalized schema designed primarily around one of the two concerns. Legacy systems commonly evolved a single relational schema that served transactional writes well at the time it was designed, but as reporting and analytical query needs grew alongside transaction volume, both workloads began competing for the same database resources, degrading each other in ways that no amount of indexing alone could fully resolve. Introducing a separate, denormalized read model — populated asynchronously from domain events emitted by the write side — lets complex reporting queries run against a schema built specifically for them, while the transactional database is freed to focus purely on write throughput and consistency. This separation is deliberately applied selectively, to the specific parts of a system where read and write access patterns have diverged enough to justify it, rather than as a system-wide architectural overhaul. The tradeoff is the introduction of eventual consistency between the two models and the added operational complexity of maintaining synchronization and handling projection failures, both of which need to be weighed against the performance problem CQRS is meant to solve.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

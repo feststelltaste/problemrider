@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Disaster recovery is the set of documented procedures, infrastructure, and rehearsed practices that let an organization restore a system to operation after a major disruption — hardware failure, site loss, data corruption, or catastrophic outage — within an agreed time frame and with an agreed maximum amount of lost data. It rests on two explicit targets, the Recovery Time Objective and the Recovery Point Objective, which force the organization to state in advance how much downtime and data loss it can actually tolerate for a given system, rather than discovering the answer during an outage. Legacy systems are disproportionately exposed to disaster scenarios because they frequently run on aging, under-redundant infrastructure, depend on undocumented configurations, and were built before formal continuity planning was standard practice — the dependencies that recovery must sequence correctly are often known only informally, if at all. Disaster recovery planning forces this tacit knowledge into the open: building runbooks and testing restoration means someone must first establish what actually depends on what, which is valuable groundwork for modernization quite apart from its use in an actual emergency. Because backups and procedures silently decay if they are never exercised, the discipline only delivers on its promise when recovery is rehearsed regularly rather than assumed to work.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

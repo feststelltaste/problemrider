@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+A service level indicator is a directly measured, quantitative signal of user-facing behavior — latency, error rate, throughput, or a similar metric — captured continuously from the running system rather than inferred or reported anecdotally. SLIs are the raw measurement layer beneath service level objectives and agreements: without a reliable SLI, an SLO target is unenforceable and an SLA commitment is unverifiable. In legacy systems, this measurement layer is often the missing piece, because components were built before observability was a design concern and expose no natural hooks for capturing request timing, success rates, or queue depth. Defining SLIs therefore starts with deciding what "good" looks like from the user's perspective and then instrumenting, retrofitting, or externally probing the legacy system until that signal can be captured reliably and attributed to a specific boundary (such as load-balancer-to-response latency, excluding client network time). The resulting data replaces guesswork and tribal knowledge about system health with a continuous, trendable record, which is what makes it possible to notice slow degradation — a creeping p99 latency increase, a shrinking error margin — long before it manifests as an outage. Because SLIs are the foundation for error budgets and burn-rate alerting, getting the indicator definition right is a prerequisite for every downstream reliability practice built on top of it.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Distributed tracing attaches a unique trace identifier to a request at the moment it enters the system and propagates that identifier through every downstream service call, database query, and message queue interaction the request touches, recording each step as a timed span that can later be reassembled into a single end-to-end picture of what happened and how long each part took. This directly addresses a blind spot created when a legacy monolith is decomposed into microservices: each individual service's logs may show perfectly normal response times in isolation, while the actual user-facing latency or failure is caused by an interaction between several services that no single service's logs can reveal. Legacy modernization efforts that proceed by incrementally carving services out of a monolith are especially prone to this problem, because the resulting system has distributed complexity without yet having distributed observability to match, leaving teams unable to say with confidence which of several services is responsible for a given slowdown. Instrumenting legacy services for tracing typically has to be done incrementally, starting with whichever request paths are most common or most frequently implicated in incidents, since retrofitting tracing across an entire system with mixed technologies at once is rarely practical. Once in place, trace data turns "the system feels slow somewhere" into a precise, visualized answer of exactly which service and which operation on the critical path is responsible, which substantially shortens investigation time compared to correlating separate log files by hand.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

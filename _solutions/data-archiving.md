@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Data archiving moves data that is no longer actively needed — typically identified by age or declining access frequency — out of the primary, performance-critical storage tier and into cheaper, slower storage where it remains available but no longer burdens day-to-day operations. Unlike deletion, archiving preserves the data for compliance, audit, or occasional historical lookup, but relocates it so that the active dataset the application queries against stays small and fast. This distinction matters greatly in legacy systems, where retention obligations or simple institutional caution have left years or decades of transactional history sitting in the same tables that power daily operations, causing indexes to bloat, backups to take longer, and even routine lookups to slow down as the database engine works through data nobody is actually using anymore. A well-designed archival process is automated and reversible: it runs on a defined schedule against clear criteria, and it is paired with a restoration path so that archived records can still be produced when an audit or a customer inquiry requires them. Because application queries in legacy systems were often written without any date-bounding assumption, introducing archiving typically also requires updating those queries to explicitly target the active dataset, closing a gap that let unbounded growth accumulate unnoticed in the first place.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

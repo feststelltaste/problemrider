@@ -45,6 +45,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Continuous performance monitoring instruments a running application to collect response times, error rates, throughput, and resource utilization on an ongoing basis, and compares them against established baselines so that deviations are surfaced automatically rather than discovered when users complain. Performance degradation in legacy systems is frequently gradual rather than sudden — a query that slows as a table grows, a cache that becomes less effective as data volume increases — and gradual degradation is exactly the kind of problem that goes unnoticed without systematic, continuous observation, since no single deployment or code change appears to be the obvious cause. Monitoring across infrastructure, application, and business levels simultaneously makes it possible to trace a symptom like slow page loads back to a specific mechanism, such as a single database query whose execution time crept upward over months as the underlying table grew, without having to guess where to look first. Integrating the same monitoring into the deployment pipeline additionally converts performance regressions from a slow-burning production mystery into an immediate, attributable signal tied to the change that caused it. Because instrumentation itself consumes resources and can generate a large volume of data, and poorly tuned alert thresholds risk alert fatigue that causes real problems to be ignored, the practice needs to be scoped and tuned deliberately rather than instrumented everywhere at maximum verbosity by default.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

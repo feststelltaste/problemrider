@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Batch processing groups many individual operations — database writes, API calls, file operations — into a single collected unit that is executed together, amortizing fixed per-operation costs like connection setup, transaction overhead, and network round trips across many items instead of paying them once per item. The mechanism trades latency for throughput: individual items wait until a batch fills or a time window elapses, but the aggregate cost of processing the whole set drops substantially compared to handling each one separately. This is a natural fit for legacy systems that were originally built to process one record at a time and have since been pushed far beyond the transaction volumes their per-item design was ever intended for, resulting in the database or downstream system spending most of its capacity on per-call overhead rather than actual work. Introducing batching does not usually require rearchitecting the legacy system's core logic — it requires identifying which individually-processed operations can be safely collected and reordered, and replacing single-row database calls with bulk equivalents the database already supports but the legacy code never used. The tradeoff is that a failure now affects an entire batch rather than a single item, so restartability and partial-retry handling become necessary design concerns that a purely per-item system never had to address.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

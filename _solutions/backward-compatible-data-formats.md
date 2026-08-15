@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Backward-compatible data formats are schema designs — using formats like Avro, Protocol Buffers, or JSON Schema — that allow producers and consumers of data to evolve independently, because new fields are added as optional with defaults, existing fields are never repurposed, and removals happen only after a deprecation period once all consumers have migrated away. A schema registry and validation at the point of data ingestion enforce these rules mechanically, catching an incompatible change before it corrupts data downstream rather than after. This matters for legacy systems because data formats there were frequently designed ad hoc, without any evolution strategy, so consumers and producers are implicitly coupled to one exact shape of the data and any format change — even one that looks minor — risks silently breaking systems that were never built to tolerate unexpected fields or missing ones. Introducing explicit schema evolution rules retrofits that missing discipline: it lets a legacy system migrate its data format gradually, verifying round-trip compatibility (new writer, old reader) before committing, instead of the common alternative of a single high-risk cutover where every producer and consumer must change simultaneously. The cost is a constraint on what a single release can change and the ongoing complexity of supporting older schema versions, which is a deliberate and usually worthwhile trade against the data corruption and coordination failures that ungoverned format changes tend to produce in tightly interconnected legacy environments.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A canonical data model is a single, shared representation of core business entities and data structures that all integrating systems translate to and from, replacing a web of direct, system-specific mappings with a hub-and-spoke arrangement centered on one agreed format. Each system needs only one translator, to and from the canonical form, rather than a separate translator for every other system it exchanges data with, which turns the quadratic growth of point-to-point integration mappings into a linear one as systems are added or removed. In legacy landscapes that have accumulated dozens of bespoke integrations over years, each with its own subtly different field mappings, this collapsing of translation logic is what makes the integration surface tractable again and stops small format discrepancies from compounding into ongoing reconciliation problems. The model also creates a shared vocabulary for the business concepts an organization actually uses, which is frequently missing when legacy systems were built by different teams using inconsistent terms for the same entities. Introducing a canonical model into an existing landscape is itself a modernization act: it requires negotiating a model that is neutral enough to serve every legacy system's needs without becoming a lowest-common-denominator abstraction that discards the nuance each system depends on. Because every connected system is a stakeholder in the canonical schema, its evolution has to be governed carefully, since a change made for one integration ripples to all the others that depend on the same shared contract.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Cross-platform serialization replaces language-native serialization mechanisms — Java's Serializable, .NET's BinaryFormatter, Python's pickle — with platform-neutral, explicitly schema-defined formats such as JSON, Protocol Buffers, or Avro, so that data produced by one language runtime can be consumed directly by a system written in a different one. Legacy systems that adopted a language-native serialization format early on typically did so because it was the path of least resistance at the time, but that choice becomes an active blocker the moment the organization wants to introduce a service in a different language — a Python analytics service that cannot deserialize Java's Serializable format, for instance — forcing an awkward translation layer or blocking the new service entirely. Cross-platform formats also close a security gap that comes with several language-native serializers, which have a history of deserialization vulnerabilities that stem from the format's own design rather than from application code. Explicit, versioned schemas combined with tolerant readers that ignore unknown fields make it possible for the format to evolve without breaking existing consumers, which matters in a legacy integration landscape where not every consumer of a data stream can be identified or upgraded at the same time. The migration itself typically runs both old and new formats in parallel for a transition period, since consumers cannot all be cut over simultaneously and the parallel run gives a safety margin for finding gaps in the new format's coverage before decommissioning the old one.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

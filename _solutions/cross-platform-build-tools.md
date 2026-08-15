@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Cross-platform build tools such as CMake, Bazel, or Gradle generate platform-appropriate build artifacts from a single, declarative build definition, so that compiling for Linux, Windows, and macOS no longer requires maintaining separate, hand-written project files for each. Legacy codebases frequently end up with exactly that duplication — a Makefile maintained for Linux alongside a completely separate IDE project file maintained for Windows — and because the two are edited independently, they drift apart over time until a feature works correctly on one platform and silently fails on the other, often hidden behind preprocessor guards nobody has looked at in years. Migrating to a single cross-platform build definition surfaces this drift immediately, since anything the unified configuration cannot express consistently across platforms becomes visible rather than staying buried in divergent, rarely-compared scripts. Beyond eliminating duplicate maintenance effort, a shared build tool also lowers the barrier for new team members, who previously had to learn two entirely different build systems just to be productive on either platform. The migration itself is rarely trivial for an established legacy build system, and it introduces a long-term dependency on the chosen tool's ecosystem, so it is typically undertaken gradually rather than as a single cutover.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

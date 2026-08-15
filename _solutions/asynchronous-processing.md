@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Asynchronous processing decouples the moment a request is accepted from the moment its work is actually executed, by handing the work off to a queue, event bus, or non-blocking call and returning control to the caller before the work completes. Where synchronous processing forces a caller to hold a thread, a connection, and often a lock open until every downstream step finishes, asynchronous processing lets the caller proceed immediately while the actual work runs independently, later reporting completion through a callback, poll, or event. In legacy systems this matters because years of incremental feature growth typically bolted every new dependency — an external payment gateway, a reporting subsystem, an audit log — onto the same synchronous request path, so a single slow or unavailable downstream service propagates its latency all the way back to the end user and can exhaust shared thread pools under load. Introducing asynchronicity breaks that direct coupling: slow operations are moved off the critical path, request-handling capacity is no longer held hostage by external response times, and the system gains headroom to absorb load spikes without falling over. The tradeoff legacy teams must accept is that asynchronous flows trade immediate consistency and simple call-stack debugging for eventual consistency, retry logic, and the operational burden of monitoring queues — all necessary because the original synchronous design offers no natural place to observe in-flight work once it is decoupled.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

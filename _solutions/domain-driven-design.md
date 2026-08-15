@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Domain-Driven Design is an approach to structuring software so that its code directly mirrors the concepts, language, and boundaries of the business domain it serves, using a shared ubiquitous language between developers and domain experts, explicit bounded contexts, and tactical patterns such as entities, value objects, aggregates, and domain events in place of procedural or anemic data models. Legacy systems frequently drift far from this ideal over time: business logic accretes across stored procedures, service classes, and UI code in whatever location was convenient when each feature was added, and a single term like "policy" can end up meaning subtly different things in different parts of the system, leading to a persistent stakeholder-developer communication gap. Applying DDD to such a system means deliberately identifying where these bounded contexts actually lie, often via workshops with domain experts, and then refactoring the corresponding logic so the code's structure and vocabulary match how the business actually talks and thinks about that part of the domain. Because the effort of building this shared understanding is substantial, it pays off best when concentrated on the core domain — the part of the system that gives the business its actual competitive differentiation — rather than spread evenly across every subdomain including generic, undifferentiated ones. Retrofitting DDD onto an established legacy codebase is necessarily gradual and carries real risk of being misapplied without experienced guidance, but done well it collapses the translation distance between what the business needs and what the code expresses, which shows up concretely as faster, less error-prone delivery of domain-specific features.
+
 ## How to Apply ◆
 
 - Develop a ubiquitous language shared between developers and domain experts, replacing the technical jargon embedded in legacy code.

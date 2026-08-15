@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A canary release deploys a new version of software to a small, controlled subset of production traffic while the majority continues to run on the proven stable version, using traffic routing (weighted load balancing, feature flags, or service mesh rules) to control exposure. The technique substitutes a single high-stakes cutover with a graded, observable rollout: health metrics from the canary population are compared against the baseline, and the release is either promoted incrementally or rolled back automatically if it degrades. For legacy systems, where releases are often infrequent, poorly tested, and associated with high anxiety because full-scale failure is costly and hard to reverse, canary releases convert the moment of deployment from a binary gamble into a series of small, reversible bets. Because only a fraction of users is exposed at any point, defects that would otherwise cause organization-wide outages are contained and caught early, using real production conditions rather than staging approximations. This is especially valuable when legacy test suites are thin or unreliable, since canary releases add a layer of empirical, metrics-based validation that does not depend on tests correctly anticipating every failure mode. The approach does presuppose infrastructure capable of running two versions concurrently and routing traffic between them, which is often the harder legacy-modernization prerequisite that has to be built first.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+An Anti-Corruption Layer is a dedicated boundary module that sits between a legacy or external system and the rest of the codebase, translating the external system's data model, vocabulary, and error semantics into clean domain types before anything else in the application is allowed to see them. Unlike a simple adapter, its purpose is explicitly defensive: it exists to stop a legacy system's idiosyncrasies — obscure status codes, fixed-width record formats, inconsistent identifiers, mismatched terminology — from bleeding into and corrupting the design of the new or surrounding system. This distinction matters most in legacy modernization, where new services frequently must keep talking to an old mainframe, a vendor system, or several redundant legacy sources at once, each with its own conventions that have no natural place in a clean domain model. By concentrating all legacy-specific translation and error handling inside the ACL, the rest of the system stays internally consistent even when it depends on several legacy sources that disagree with each other, and the ACL becomes the single, well-understood place where legacy behavior changes must be absorbed. It also provides a natural seam for a Strangler Fig migration, since new functionality can be built against the clean domain model while the ACL continues bridging to the legacy system until it is eventually retired. The pattern requires ongoing investment to build and maintain per integration, and if developers bypass it for convenience or let it grow into an ad-hoc data store of its own, it can end up recreating the very complexity it was designed to contain.
+
 ## How to Apply ◆
 
 > In legacy integration work, the Anti Corruption Layer is the primary defense against letting an old system's data model, naming conventions, and error codes bleed into new code.

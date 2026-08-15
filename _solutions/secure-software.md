@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Secure software, in this context, is the set of practices that removes known, exploitable vulnerability classes — injection flaws, authentication bypasses, buffer overflows, hardcoded secrets — from an existing codebase before they can be triggered and cause a reliability incident, rather than treating security defects purely as a compliance concern separate from system stability. The underlying mechanism is that security vulnerabilities and reliability incidents are not distinct categories in practice: an exploited SQL injection or a triggered buffer overflow produces the same outage, data loss, or availability impact as any other severe defect, it merely arrives through an adversarial rather than an accidental path. Legacy code is disproportionately exposed here because it was often written before secure coding practices were widely taught or tooled, its dependencies have accumulated known CVEs faster than anyone has patched them, and its authentication and encryption mechanisms may predate standards that are now considered baseline. Applying this solution means running security audits and static analysis against the legacy codebase specifically to surface these patterns, then closing them through input validation, parameterized queries, dependency updates, and proper secret management, treating each fix as a reliability improvement rather than only a security one. Because legacy systems frequently lack the test coverage that would make such changes low-risk, remediation must be sequenced carefully, but the payoff is that it addresses the same root causes that would otherwise resurface as unpredictable outages regardless of whether they are framed as security or stability problems.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

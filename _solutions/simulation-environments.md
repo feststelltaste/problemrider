@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A simulation environment is a purpose-built stand-in for a legacy system's real dependencies — databases, external partner APIs, message queues, mainframes — constructed with tools such as Testcontainers, WireMock, or LocalStack so that the surrounding application can be exercised realistically without touching production infrastructure or live data. It differs from a shared staging environment in that it is disposable, reproducible on demand, and can be configured to reproduce conditions that are difficult or dangerous to trigger in a real system, such as a network partition, a partner outage, or a specific historical data state. This matters for legacy modernization because production access is frequently restricted by regulatory constraints, data sensitivity, or the sheer risk of disturbing a fragile system that nobody fully understands anymore, which otherwise forces teams to either test against nothing or test destructively against production. Simulation environments give migration and rewrite efforts a safe, repeatable stage on which to rehearse data transformations, validate integration behavior, and reproduce edge cases before they are attempted for real. The tradeoff is fidelity: a simulation is only as useful as its accuracy to the actual legacy system's behavior, and that accuracy has to be actively maintained as the real system continues to evolve underneath it.
+
 ## How to Apply ◆
 
 - Build simulation environments that replicate legacy system dependencies (databases, external services, message queues) using tools like WireMock, LocalStack, or Testcontainers.

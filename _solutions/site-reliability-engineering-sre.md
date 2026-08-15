@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Site Reliability Engineering is a discipline that applies software engineering rigor to operations, treating reliability as a property that can be measured, budgeted, and systematically improved rather than a matter of manual effort and luck. Its core mechanisms — error budgets tied to service level objectives, blameless postmortems, a hard cap on the proportion of time spent on manual "toil," and progressive rollout strategies — together convert operations from a reactive, person-dependent activity into an engineering practice with feedback loops. This reframing addresses a pattern especially common around legacy systems: operational knowledge concentrated in one or two individuals, incidents handled through ad hoc firefighting rather than documented procedure, and no principled way to decide when reliability work should take priority over new features. SRE's error-budget mechanism supplies exactly that missing decision rule, while its toil-automation and runbook practices distribute the knowledge that would otherwise stay locked inside a single expert's head. Adopting SRE for a legacy estate is as much an organizational change as a technical one, since it requires management to accept that a spent error budget genuinely halts feature work, and it typically starts by instrumenting the legacy system well enough to measure the SLOs the whole practice depends on.
+
 ## How to Apply ◆
 
 > Legacy systems frequently lack operational discipline, leading to chronic firefighting and unpredictable reliability. SRE principles bring engineering rigor to operations, treating operational work as a software problem that can be measured, automated, and systematically improved.

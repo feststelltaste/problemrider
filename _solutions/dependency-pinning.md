@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Dependency pinning fixes the exact version of every direct and transitive dependency a system relies on, so that a build or deployment resolves to the same set of packages every time it runs, regardless of when or where it is executed. Rather than allowing version ranges to resolve dynamically at build time, pinning records precise version identifiers — typically via lock files or explicitly versioned manifests — and treats any change to those versions as a deliberate, reviewable action rather than an incidental side effect of rebuilding. In legacy systems, where dependency graphs have often grown deep and tangled over many years without anyone tracking exactly which versions were in play, this practice converts an invisible and constantly shifting foundation into a known, stable one. It directly counters the class of failures where a system behaves differently across environments or after a routine rebuild simply because a transitive dependency resolved to a newer version with subtly different behavior. This matters especially during modernization work, where teams need a stable baseline to reason about before introducing changes — without pinning, it becomes impossible to tell whether a regression was caused by the team's own refactoring or by an unrelated upstream update. Pinning does not freeze a system in place permanently; it shifts dependency updates from an implicit, uncontrolled event to an explicit, scheduled one that can be tested and rolled back deliberately.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

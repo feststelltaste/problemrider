@@ -25,6 +25,10 @@ related_solutions:
   similarity: 0.6
 ---
 
+## Description
+
+Domain data versioning records the full history of changes to critical business entities — who changed what, when, and often why — using mechanisms such as temporal or audit tables, entity-level versioning, or event sourcing, rather than allowing each update to silently overwrite the entity's previous state. Many legacy systems were built with only a "current state" model, since audit trails were not a priority decades ago, which means that once a value has been overwritten there is no way to recover what it used to be or when or why it changed — a gap that becomes acutely painful the moment a dispute, an audit, or an unexplained data anomaly requires reconstructing history that was never captured. Adding versioning after the fact turns an opaque, single-snapshot data model into one where any past state can be reconstructed and compared against the current one, which directly supports debugging silent data corruption and proving compliance during regulatory or legal review. It is also disproportionately valuable during data migrations, since comparing versioned source and target histories gives a much stronger correctness check than comparing final snapshots alone. The tradeoff is a genuine increase in storage volume and write overhead on every modification, along with added complexity in the data access layer for querying historical states, so retention policies and query patterns need to be deliberately scoped rather than versioning everything indefinitely by default.
+
 ## How to Apply ◆
 
 - Implement temporal tables or audit tables that record every change to critical domain entities along with timestamps, users, and change reasons.

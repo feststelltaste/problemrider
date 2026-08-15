@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Domain patterns are proven, well-documented solution structures for recurring problems within a specific business domain — such as the accounting industry's double-entry bookkeeping pattern or established enterprise integration patterns — that a team can apply instead of continuing to rely on ad-hoc, home-grown logic that was invented locally to solve the same recurring problem. Legacy systems accumulate exactly this kind of home-grown logic over time: a problem the industry has already solved cleanly gets reinvented internally as a set of scattered validation checks or reconciliation scripts, often because no one on the team at the time was aware that an established pattern existed. Replacing such ad-hoc logic with the corresponding domain pattern does more than simplify the code — it can make entire categories of bugs structurally impossible, as with an accounting pattern that guarantees every transaction is balanced by construction rather than by scattered checks that can be bypassed or missed. This substitution also pays a comprehension dividend: a developer who already knows the standard pattern from prior experience in the industry can work productively in the refactored code immediately, without needing to first reverse-engineer the custom implementation it replaced. The main risk is force-fitting a pattern to a problem it does not actually match, which trades one kind of unnecessary complexity for another, so applying domain patterns still requires genuine domain literacy rather than pattern-matching by name alone.
+
 ## How to Apply ◆
 
 - Study domain-specific patterns relevant to the legacy system's industry (e.g., Martin Fowler's Analysis Patterns, enterprise integration patterns, accounting patterns).

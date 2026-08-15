@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+API calls optimization is the practice of reducing the number, size, and latency cost of the network requests a client must make to accomplish a task, typically by consolidating chatty sequences of fine-grained calls into fewer, coarser-grained ones, adding pagination and field selection, and batching related operations into a single round trip. Legacy APIs frequently exhibit chatty designs because each endpoint was added independently over time to satisfy a specific screen or integration need, without anyone stepping back to consider how many round trips a typical client workflow actually requires; the result is pages that issue a dozen or more sequential calls to render, each adding its own network latency on top of the others. This problem compounds on high-latency or bandwidth-constrained connections, such as mobile networks, where every additional round trip is felt directly by the end user as slower page loads and higher server load from processing many small requests instead of fewer larger ones. Optimizing these calls means analyzing actual usage patterns to find the highest-impact consolidation opportunities, then redesigning the API surface — without necessarily touching the underlying legacy business logic — so that a client can retrieve what it needs in one or two calls instead of many. The approach directly improves response time, throughput, and bandwidth consumption, but coarser-grained endpoints are inherently less flexible and can become complex to maintain, so the redesign requires close coordination between the teams that consume and produce the API to avoid simply moving the chattiness problem into an overly rigid contract.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

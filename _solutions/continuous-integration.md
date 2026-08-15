@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Continuous integration requires every developer to merge code changes into a shared main branch frequently — ideally at least daily — with an automated build and test run triggered on each integration, so that conflicts and regressions are caught within minutes rather than accumulating unnoticed across long-lived branches. Legacy codebases that lack this discipline tend to develop integration cycles measured in weeks, where branches diverge for so long that merging them becomes a dedicated, dreaded activity involving days of conflict resolution and regression hunting, which in turn discourages developers from integrating more often and reinforces the pattern. Making the feedback loop fast — commonly cited as under fifteen minutes — is what makes frequent integration practical rather than merely mandated, since a slow pipeline recreates the same incentive to batch changes that long-lived branches created in the first place. Adding compatibility and contract tests alongside unit tests to this pipeline extends its value beyond catching logic regressions to catching interface-breaking changes automatically, which matters particularly in legacy systems where undocumented dependencies between components are common. The practice's effectiveness is bounded by the state of the existing test suite: a legacy codebase with little or no test coverage gets a build signal from continuous integration, but not yet the safety net that makes frequent integration low-risk, so test investment and CI adoption tend to need to progress together.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

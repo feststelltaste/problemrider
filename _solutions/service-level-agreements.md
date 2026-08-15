@@ -35,6 +35,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A service level agreement is a formal, negotiated commitment between a service provider and its consumers that defines measurable targets for availability, performance, and support responsiveness, along with the consequences when those targets are missed. Unlike an internal aspiration, an SLA is a contract-grade artifact: it specifies exactly how each metric is measured, over what time window, and what remediation — credits, escalation, penalty clauses — follows a breach. Legacy systems frequently operate for years without any such agreement, leaving "acceptable" performance as a matter of unspoken assumption that shifts depending on who is asked and how recently something broke. This absence becomes a serious liability once a legacy system underpins customer-facing commitments, vendor contracts, or regulatory obligations, because there is no objective basis for deciding whether the system is performing adequately or for prioritizing scarce engineering time toward reliability work. Introducing SLAs forces an explicit conversation about what the legacy system can realistically deliver today versus what stakeholders assume it delivers, which is often the first moment a chronic performance or availability gap becomes visible and actionable. Once in place, the SLA also becomes a lever for justifying modernization investment, since a quantified shortfall is far easier to fund than a vague complaint about instability.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

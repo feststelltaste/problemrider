@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A service mesh is an infrastructure layer, typically implemented as a set of sidecar proxies deployed alongside each service instance, that intercepts and manages all network traffic between services without requiring changes to application code. It centralizes cross-cutting communication concerns — mutual TLS encryption, retries, timeouts, circuit breaking, load balancing, and distributed tracing — that would otherwise need to be implemented redundantly, and often inconsistently, inside every service. This externalization is particularly valuable for legacy systems, where inter-service communication frequently predates modern security and resilience practices: connections may be unencrypted, timeout and retry behavior may be hard-coded or entirely absent, and there is often no visibility into how legacy components actually talk to one another until a mesh's tracing surfaces the real dependency graph. Because the mesh operates at the network layer rather than inside application code, it can be introduced incrementally around existing legacy services, adding protocol translation, traffic shaping, and security controls as a wrapper rather than as a rewrite. This same traffic-shaping capability makes the mesh a practical mechanism for gradual migration, since a percentage of traffic can be routed to a modernized replacement service while the rest continues to flow to the legacy implementation, allowing behavior to be validated under real load before a full cutover.
+
 ## How to Apply ◆
 
 - Deploy a service mesh (e.g., Istio, Linkerd) as a sidecar proxy layer alongside existing legacy services to gain traffic management without modifying application code.

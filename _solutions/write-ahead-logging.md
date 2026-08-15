@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Write-ahead logging is a durability technique in which every intended change to a data store is first recorded in a sequential, append-only log and only afterward applied to the actual data structures it describes. The log entry captures enough information — the operation, its parameters, and a sequence number — to either replay the change forward or, if needed, reconstruct the state that preceded it, and it is only considered complete once flushed to durable storage. This ordering is the essential property: because the log is written and made durable before the corresponding in-place modification is confirmed, a crash occurring mid-write leaves behind a trail that a recovery process can use to finish or undo the interrupted operation, rather than leaving the data store in an ambiguous, partially-applied state. In legacy systems, this matters because many older data-handling components update records directly and assume writes either fully succeed or the system never crashes mid-operation — an assumption that regularly fails during unplanned outages, power loss, or abrupt process termination, and one of the more common sources of silent data corruption in aging systems. Write-ahead logging also extends naturally to legacy data migration efforts: because it produces a durable, ordered record of every change, it lets a migration process resume from the exact point of interruption instead of requiring a full re-comparison of source and target datasets. Most mature databases and messaging systems already implement this technique internally, so applying it in legacy modernization work is often a matter of enabling and correctly configuring existing WAL mechanisms rather than building new logging infrastructure from scratch.
+
 ## How to Apply ◆
 
 > Legacy systems often modify data in place without any recovery mechanism, meaning that a crash during a write operation can leave data in a corrupted, partially-updated state. Write-ahead logging ensures that all changes are recorded in a durable log before they are applied, enabling reliable recovery after failures.

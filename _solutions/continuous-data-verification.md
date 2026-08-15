@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Continuous data verification runs scheduled or real-time checks against stored or in-transit data to confirm it still satisfies defined integrity rules — referential integrity, value ranges, cross-field consistency, and agreement between replicas or synchronized systems — rather than trusting that data remains correct once it has been written. Legacy systems are especially prone to silent data corruption because they often involve multiple data stores that were integrated at different times, synchronized through custom scripts with their own undiscovered edge cases, and modified over the years by ad-hoc manual fixes that bypassed normal validation. Without ongoing verification, this kind of corruption tends to surface only indirectly, for example when a user or a downstream report notices a discrepancy long after the data diverged, at which point tracing the root cause is far harder than it would have been at the moment of divergence. By comparing data against integrity rules continuously and tracking quality metrics over time, the practice turns corruption from a rare, alarming discovery into a routine, quickly investigated finding, and it can catch subtle synchronization bugs — such as timezone handling errors around daylight saving transitions — that would otherwise go unnoticed for months. The approach only detects problems; it does not fix them, so it must be paired with a remediation process, and defining sufficiently comprehensive rules for a complex legacy data model is itself a substantial undertaking.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

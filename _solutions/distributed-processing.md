@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Distributed processing decomposes a computational workload into independent units of work that execute concurrently across multiple machines rather than sequentially on one, using a work distribution framework such as MapReduce, Spark, or a task queue with worker pools to coordinate execution and aggregate results. This matters specifically where a workload's total size has outgrown what a single machine can do in an acceptable amount of time — a common situation for legacy batch jobs, reports, and simulations that were designed decades ago for the data volumes of that era and have not been re-architected as those volumes grew. Because legacy processing pipelines are frequently written as one large sequential pass over the data, distributing them requires first identifying which parts of the pipeline are actually independent and decomposing the pipeline accordingly, along with making individual units of work idempotent so that a failed task can simply be retried on another node. The payoff is that processing time drops roughly in proportion to the number of nodes applied to the problem, and the resulting architecture also gains fault tolerance, since the failure of one node no longer invalidates an entire run. This comes at the cost of distributed-systems complexity — network failures, partial failures, and coordination overhead — that a single-machine batch job never had to contend with, and not every legacy processing task can be decomposed this way, since some computations are inherently sequential.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

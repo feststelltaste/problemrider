@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Cross-version testing runs the software's test suite against multiple versions of its runtime dependencies — language runtimes, frameworks, databases, operating systems — rather than validating only against the single version combination the development team happens to use locally. Legacy systems in production are rarely all running the exact same dependency versions; different customers or deployments settle on different database versions, different runtime patch levels, and different upgrade timelines, and a bug that only manifests against one specific version combination can remain invisible in a team's own test environment indefinitely. Automating this as a version matrix in CI, rather than testing manually and only occasionally, converts an implicit assumption — "this works across the versions our users actually run" — into something continuously verified, and it also generates the evidence needed to make an informed decision about when it is finally safe to drop support for an old version. Because the matrix grows combinatorially with the number of dependency versions in play, the practice is deliberately scoped to the upgrade paths users actually take rather than every theoretical combination, which keeps CI cost and execution time proportional to the risk being managed. This makes cross-version testing a targeted way to catch the "works on my version" class of production issue before it reaches customers running an older or newer dependency than the one the team tested against.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

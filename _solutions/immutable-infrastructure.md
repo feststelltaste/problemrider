@@ -33,7 +33,9 @@ related_solutions:
   similarity: 0.7
 ---
 
-## How to Apply ◆
+## Description
+
+Immutable infrastructure replaces the practice of modifying running servers in place with the practice of building a complete, versioned artifact — a machine image, container, or deployment package — and deploying it as a wholesale replacement for the previous version whenever a change is needed. No manual changes are made to running instances; every configuration or code change must flow through the same build pipeline that produced the original artifact. This directly targets a failure mode endemic to long-lived legacy environments: years of ad hoc manual patches, one-off configuration tweaks, and undocumented fixes applied directly to production servers, which cause configuration drift where no two servers are actually configured alike and deployments that work on one machine fail unpredictably on another. Adopting immutable infrastructure for a legacy application generally requires first externalizing any state the application currently keeps on the instance itself — local files, in-memory sessions — into databases or object storage, since an instance built this way must be freely and completely replaceable without losing anything of value. Once that precondition is met, rollback becomes as simple as redeploying the previous artifact rather than attempting to manually reverse an unknown set of changes, and every deployed version is traceable and auditable by construction — though the tradeoff is longer build times, since entire images must be rebuilt for even small changes, and a cultural shift away from the SSH-and-fix habits that legacy operations teams often rely on.
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
 

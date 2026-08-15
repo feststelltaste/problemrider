@@ -39,6 +39,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A checklist is a short, explicit, ordered list of the steps or requirements that must be completed for a given repetitive and error-prone process, used as an external memory aid that does not depend on any individual remembering every step correctly under pressure. It works by converting tacit expectations about "how this is supposed to be done" into a visible artifact that can be followed consistently regardless of who is performing the task or how experienced they are. In legacy systems, where deployment steps, review criteria, and incident procedures have often accumulated as unwritten conventions known only to a few long-tenured team members, checklists are a low-cost way to externalize that implicit knowledge before it is lost to turnover. They are particularly effective against errors of omission — the class of mistake where someone simply forgets a necessary step rather than performing a step incorrectly — which is exactly the failure mode that dominates in complex, rarely-changed legacy processes. Because checklists require no tooling investment to introduce, they are often the first, immediately actionable step in stabilizing a chaotic process, and can later serve as the specification from which automated checks are built one item at a time. Their value depends entirely on active maintenance, however: a checklist that is not updated as the underlying process changes quietly turns into a false source of confidence rather than a safeguard.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

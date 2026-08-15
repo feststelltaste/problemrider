@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Authorization is the runtime enforcement of an access-control decision: for every request, it checks whether the authenticated identity making that request holds the permission required for the specific resource or operation being accessed, and denies the request if not. It differs from Authentication, which only establishes who is asking, and it differs from an Authorization Concept, which is the design document rather than the mechanism that executes it. In legacy systems, authorization enforcement is often scattered — some endpoints check permissions, others were added later and never wired into the check, and batch jobs or reporting tools bypass the application layer entirely and reach the data directly — which means a system can look secure at its main entry points while remaining wide open through side doors. Centralizing this logic into a single enforcement point, checked consistently at both the API layer and the data-access layer, and defaulting to deny rather than allow, closes exactly the gaps that accumulate when authorization checks are added piecemeal over a system's lifetime rather than designed in from the start. This matters most in legacy modernization because every new integration, migration script, or reporting extension is a fresh opportunity to reintroduce an unchecked path unless enforcement is centralized rather than repeated ad hoc at each new call site.
+
 ## How to Apply ◆
 
 > Legacy systems often implement authorization inconsistently — some endpoints check permissions while others do not, or authorization logic is scattered throughout the codebase with no central enforcement point. Systematic authorization ensures that every access to resources and operations is verified against a defined permission model.

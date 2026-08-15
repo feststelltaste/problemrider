@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Continuous deployment extends continuous delivery one step further by removing the manual approval gate entirely: every change that passes the automated pipeline is deployed to production automatically, with no human deciding when or whether a given build goes live. For legacy systems this is typically the last stage of a longer journey rather than a starting point, because it depends on prerequisites many legacy environments lack outright — a comprehensive automated test suite that can substitute for manual verification, reliable automated rollback, and pipeline steps that handle legacy-specific complications such as database migrations or coordination with dependent systems. Where manual deployment procedures exist only as tribal knowledge or a runbook passed between operators, the discipline required to automate them fully also forces that knowledge to be made explicit, which is itself a valuable side effect independent of the deployment speed gained. Once achieved, continuous deployment collapses the feedback loop between a code change and its production validation from weeks to minutes, and because each deployed change is small, incidents tend to become easier to diagnose and roll back rather than more frequent. The risk this trades against is that automation without adequate monitoring can push defects to production faster than a manual process ever could, so investment in automated testing and observability has to keep pace with the increasing deployment frequency.
+
 ## How to Apply ◆
 
 > In legacy systems, continuous deployment is often the end goal of a long journey — teams must first build confidence through continuous integration and continuous delivery before fully automating production deployments.

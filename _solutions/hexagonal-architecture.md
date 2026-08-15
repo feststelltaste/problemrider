@@ -29,7 +29,9 @@ related_solutions:
   similarity: 0.7
 ---
 
-## How to Apply ◆
+## Description
+
+Hexagonal architecture, also known as ports and adapters, separates a system's core business logic from the infrastructure it depends on by defining ports — interfaces expressing what the domain needs from and offers to the outside world — and adapters that implement those ports for specific technologies such as a database, a message queue, or a UI framework. The domain code depends only on the ports it defines, never on concrete infrastructure, which inverts the typical direction of dependency found in legacy systems where business rules are interleaved directly with JDBC calls, SOAP clients, or UI event handlers. This inversion is what makes the pattern valuable specifically for legacy modernization: because business logic no longer imports infrastructure packages, it becomes possible to test that logic in milliseconds using in-memory stubs instead of spinning up a live database, and to replace an underlying technology — migrating from one database vendor to another, for instance — by rewriting only the adapter, leaving the domain untouched. Retrofitting this boundary onto an already deeply coupled legacy system is rarely done all at once; it is typically introduced incrementally at the specific seams causing the most pain, wrapping one category of legacy infrastructure call behind a port interface at a time. The cost is added indirection and more files and interfaces than a tightly coupled equivalent, which is a reasonable trade for a legacy system undergoing active modernization but can be overkill for a small, stable system that will never need its infrastructure swapped out.
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
 

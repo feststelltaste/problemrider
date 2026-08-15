@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Configuration checks document the security-relevant settings a system is expected to run with — TLS versions and cipher suites, firewall rules, authentication parameters, file permissions, service account privileges — as an explicit baseline, and then verify the running system against that baseline on a recurring schedule rather than only at initial setup. Legacy systems accumulate configuration drift almost by default: settings get changed during incident response and never reverted, default credentials survive because nobody thought to rotate them, and services enabled for a long-forgotten debugging session are still listening years later. None of this shows up as a code change, so code review and version control — the usual safety nets for legacy systems — do not catch it, which is exactly why a separate, standing verification mechanism is needed. Automated scanning tools compare actual state against the documented baseline and surface deviations as findings, turning invisible drift into something the team can act on before it is discovered by an attacker or an auditor instead. Because the check is only as good as the baseline behind it, the practice requires upfront effort to capture what "correctly configured" means for a given legacy component, and ongoing maintenance to keep that definition current as legitimate changes are made.
+
 ## How to Apply ◆
 
 > Legacy systems accumulate security misconfigurations over years of ad-hoc changes, patches, and personnel turnover. Configuration checks systematically document expected security settings and verify them regularly against actual system state.

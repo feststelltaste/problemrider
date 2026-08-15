@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Backward compatibility is the property that a new version of a system, API, or data format continues to satisfy existing clients, integrations, and stored data without requiring them to change, achieved by treating existing contracts as fixed and evolving only through additive, non-breaking changes. Rather than a single technique, it is an explicit constraint placed on how change is allowed to happen: new fields and endpoints may be added, but existing ones are not modified or removed, and any change that would violate this is deferred or executed through a separate, deprecated pathway. It matters acutely for legacy systems because such systems typically accumulate a wide and often invisible set of downstream dependents — other internal systems, external partners, batch jobs, and reports — built over many years by people no longer around to explain what depends on what, so an ordinary-looking modification can silently break integrations nobody remembers exist. Committing to backward compatibility converts every release into a low-risk event for those dependents, who can upgrade whenever convenient rather than being forced into synchronized migrations, at the direct cost of the interface itself: obligations accumulate, fields outlive their usefulness, and some architectural improvements become impossible without eventually breaking the guarantee. The specific instruments that make this practical — Backward Compatible APIs, Backward Compatible Data Formats, and Backward-Compatible Schema Migrations — apply the same additive principle at different layers of the same legacy system.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

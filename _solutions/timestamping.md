@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Timestamping attaches a recorded moment in time to data or events — when a record was created, when it was last modified, when a status changed, or when a message was sent — so that the temporal dimension of system behavior becomes an explicit, queryable fact rather than something inferred after the case. Many legacy systems were built before this was treated as a default requirement, so tables lack creation and modification timestamps, logs mix local time zones inconsistently, and there is no reliable way to determine the order in which two related changes occurred. This absence becomes acutely painful during modernization, when data must be migrated, synchronized between old and new systems, or reconciled after a discrepancy is found, because without timestamps there is no principled way to decide which of two conflicting values is authoritative or how a sequence of events unfolded. The mechanism itself is simple — record a timestamp at the moment an event happens, standardize on UTC, and use consistent precision — but its effect compounds: it turns debugging from speculative reconstruction into evidence-based investigation, gives audit and compliance requirements a factual basis, and provides the ordering signal that conflict resolution, event sourcing, and change data capture all depend on. In a legacy context, retrofitting timestamps is often the first prerequisite for any other data-integrity or migration effort, since none of those efforts can reason about correctness without knowing when things happened relative to each other.
+
 ## How to Apply ◆
 
 > Legacy systems frequently lack consistent temporal tracking of data changes, making it impossible to determine when records were created, modified, or in what order events occurred. Systematic timestamping establishes a reliable temporal record that supports debugging, auditing, and data integrity verification.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Domain modeling produces an explicit representation — diagrams, CRC cards, or similar artifacts — of the business domain's concepts, attributes, and relationships, built collaboratively with domain experts and deliberately independent of how the system currently implements them. Its diagnostic value in legacy systems comes from comparing this independently-derived model against the system's actual data structures and code organization: legacy code frequently uses generic technical abstractions like "Record" or "Transaction" that accreted over time, while the business itself thinks in terms of specific, meaningful concepts such as "Purchase Order" or "Shipment," and the comparison makes that divergence visible and concrete rather than a vague sense that "the code doesn't quite match the business." This visibility is what makes domain modeling actionable for modernization — it does not just describe the domain, it locates precisely where and how the implementation has drifted from it, which then guides where refactoring effort should be spent first. A domain model built this way also becomes a shared communication artifact that lets developers and stakeholders verify they mean the same thing by the same term during planning, closing a gap that otherwise resurfaces requirement by requirement. Because business understanding evolves, the model needs to be treated as a living artifact revisited over time rather than a one-off document, though building it well in the first place requires real time investment from domain experts that has to be weighed against the risk of over-modeling before any refactoring benefit is realized.
+
 ## How to Apply ◆
 
 - Collaborate with domain experts to identify the key business concepts, their attributes, and relationships in the legacy system's domain.

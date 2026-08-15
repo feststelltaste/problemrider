@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Containerization packages an application together with its exact runtime, libraries, and configuration into a single, portable image that runs identically regardless of the underlying host, replacing environment-specific installation scripts and manual setup procedures with a declarative build definition. Legacy applications are often tightly coupled to a specific operating system version, a particular set of installed libraries, or manual configuration steps that were performed once, years ago, and never fully documented — a coupling that turns routine events like a server hardware refresh or an OS end-of-life into existential risk for the application. By capturing the entire runtime dependency tree inside the image, containerization decouples the legacy application from the host it happens to run on, so that the same image can move from a developer's laptop to staging to production, and eventually onto modern orchestration infrastructure, without the "works on my machine" discrepancies that come from environment drift. This same portability makes containerization a practical enabler of incremental modernization strategies such as the Strangler Fig pattern, since a containerized legacy application can run alongside newly built services in the same cluster while functionality migrates piece by piece. The tradeoff is added operational surface area — orchestration, networking, and persistent storage all need to be managed — and legacy applications with deep OS- or hardware-level dependencies can resist being contained cleanly.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

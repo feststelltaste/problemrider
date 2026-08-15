@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Security architecture analysis is a structured examination of a system's design — its components, data flows, trust boundaries, and integration points — for conceptual security weaknesses that exist independently of any individual line of code, such as missing authentication between internal services, absent network segmentation, or implicit trust assumptions that no longer hold. Unlike code-level reviews or vulnerability scans, which find specific exploitable defects, this analysis operates at the level of architectural decisions: it asks whether the system's structure itself creates systemic exposure, for example by allowing lateral movement between components once any single one is compromised, or by concentrating excessive trust in a component that was never designed to be a security boundary. Legacy systems are especially prone to this kind of gap because their architecture typically evolved incrementally over many years without anyone revisiting the security assumptions made at each stage, so trust relationships that were reasonable when the system was small and internal often remain unexamined long after the system has grown, been exposed to new integrations, or been split across teams. Performing this analysis requires reconstructing an accurate picture of the current architecture — frequently a nontrivial exercise on its own, since legacy documentation is rarely current — and then evaluating it against known weakness patterns and reference architectures rather than against a checklist of individual bugs. Its value for legacy modernization is that it identifies which architectural changes would eliminate whole categories of future vulnerabilities, giving teams a basis for prioritizing structural remediation over an endless sequence of point fixes.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

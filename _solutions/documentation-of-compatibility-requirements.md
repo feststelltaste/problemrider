@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Compatibility documentation is a maintained, living record of exactly which platforms, runtime versions, integration partners, and configurations a system supports, along with its known limitations and incompatibilities, kept close enough to the code that it is realistic to expect it to stay current. In many legacy systems this information exists only as tacit knowledge held by one or two long-tenured engineers, discovered the hard way through trial and error, or scattered across old tickets and email threads that nobody can search effectively — meaning compatibility knowledge is present in the organization but effectively unavailable to anyone who was not there when it was learned. Writing it down as an explicit, owned artifact converts that fragile, person-dependent knowledge into a self-service resource that survives staff turnover, which is exactly the failure mode legacy systems are most exposed to given how much of their operational knowledge accumulates informally over long lifespans. This is particularly valuable during modernization work, where new team members and downstream integrators need fast, reliable answers about what a legacy component can and cannot be expected to interoperate with, without waiting on the one person who happens to remember. The practice only pays off if it is treated as a living document reviewed at every release, since outdated compatibility documentation is arguably worse than none at all — it creates false confidence rather than admitted uncertainty.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

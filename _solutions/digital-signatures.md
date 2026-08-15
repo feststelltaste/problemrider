@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Digital signatures use asymmetric cryptography to bind a piece of content — code, a document, a data message — to the private key of whoever signed it, producing a verifiable proof that the content has not been altered since signing and that it genuinely originated from the claimed party. Any recipient holding the corresponding public key can independently check this proof without needing to trust the transmission channel itself, which makes signatures fundamentally different from perimeter-based trust models that legacy systems tend to rely on. Many legacy systems were built when network boundaries were assumed to be trustworthy and internal file shares, deployment pipelines, and partner data exchanges carried no integrity verification at all, leaving them structurally unable to detect tampering even when it happens in plain sight. Introducing digital signatures into such a system closes that gap for artifacts that matter most: build outputs entering a deployment pipeline, database migrations, and messages exchanged with external partners can all be independently verified before they are trusted or acted upon. This is especially relevant to modernization efforts, since it is exactly the aging, informally-secured transmission and deployment paths of legacy infrastructure that are most likely to lack any integrity check today. The technique proves authenticity and integrity, not correctness or safety, so it must be combined with other controls to catch malicious content that happens to be properly signed.
+
 ## How to Apply ◆
 
 > Legacy systems often lack mechanisms to verify the authenticity and integrity of code, documents, and data — making it impossible to detect tampering or prove authorship. Digital signatures provide cryptographic proof that content has not been modified since it was signed by a known party.

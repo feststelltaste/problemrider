@@ -35,6 +35,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Automated tests are code that exercises other code and checks its output against an expected result without human intervention, run repeatedly and cheaply enough to be executed on every change rather than only before a release. Their core function is to convert a manual, expensive verification activity into a nearly free, continuous one, which changes what kinds of changes a team can afford to make. In a legacy system, this is transformative precisely because legacy code is, by definition, code that people are afraid to touch: without tests, every change is validated only by manual regression testing or by hoping nothing breaks, which is slow, incomplete, and directly responsible for the fear of change that keeps legacy systems ossified. Building a test suite for such a system rarely starts with textbook unit tests, since the code was not written with testability in mind; it typically starts with characterization tests that pin down current behavior, followed by targeted coverage of the highest-risk, most frequently changed areas, since exhaustive coverage of the entire legacy codebase is rarely achievable in one effort. The tests then function as a safety net that makes further refactoring and modernization safe, which is why automated testing is so often the first investment a legacy modernization effort makes rather than the last.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

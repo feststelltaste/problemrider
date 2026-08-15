@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A Web Application Firewall is a filtering layer placed in front of a web application that inspects incoming HTTP traffic and blocks requests matching known attack patterns, such as SQL injection payloads, cross-site scripting attempts, or malformed authentication traffic, before those requests ever reach the application code. It operates as a reverse proxy or inline appliance, evaluating each request against a rule set — typically derived from the OWASP Top 10 and refined with application-specific patterns — and either passing, blocking, or flagging it for review. For legacy systems, this mechanism matters because the underlying application code is often riddled with vulnerabilities that are expensive and risky to fix directly: raw SQL concatenation scattered across thousands of call sites, unescaped output in templates written before secure coding practices were standard, or authentication logic too brittle to touch without extensive regression testing. A WAF provides a compensating control that shrinks the exploitable attack surface immediately, without requiring any change to the legacy codebase itself, buying the time needed to remediate the actual vulnerabilities safely. It is deployed at the network edge rather than within the application, which makes it one of the few security measures that can be applied to legacy systems with no access to source code or no appetite for redeployment risk. Because it depends on pattern matching rather than fixing the underlying flaw, it is best understood as a mitigating shield rather than a cure, and its effectiveness has to be continuously tuned against both false positives and evolving attacker techniques.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

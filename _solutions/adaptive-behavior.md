@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Adaptive behavior means adjusting what a system shows or how it behaves based on the context, role, preferences, or observed usage patterns of the individual user, rather than presenting every user with an identical, one-size-fits-all interface. Concretely, this can mean role-based defaults, personalized dashboards, progressive disclosure of advanced functionality, or navigation that surfaces a user's most frequently used features rather than an exhaustive, undifferentiated menu. Legacy applications commonly grew by accretion, adding feature after feature to the same screens for every user regardless of role, until the interface reflects the union of everyone's needs rather than any one person's actual workflow, producing high cognitive load and low satisfaction even though the underlying functionality is sound. Introducing adaptive behavior lets a legacy system's existing functionality be re-surfaced more usefully without a full UI rewrite, since the underlying operations remain the same and only the presentation and defaults change based on interaction data or role. This is a relatively low-risk, incremental way to modernize a legacy UI's perceived usability, because it can be layered on top of existing screens and rolled out to user segments gradually. The tradeoff is added complexity and testing surface, since the system must now behave correctly across many different personalized configurations instead of one uniform path, and inconsistent adaptation can itself confuse users if it is not designed and communicated carefully.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

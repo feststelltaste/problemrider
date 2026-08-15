@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Threat modeling is a structured analytical exercise that maps a system's components, data flows, and trust boundaries, then systematically asks what could go wrong at each point — who might attack it, how, and with what consequence. Methodologies such as STRIDE or PASTA give this process a repeatable checklist instead of relying on whichever risks happen to occur to whoever is in the room, which matters because unaided intuition tends to focus on familiar, recently discussed threats and miss the rest. In legacy systems, threat modeling is especially valuable precisely because the original design rationale is usually gone: assumptions about network trust, user behavior, or deployment topology that were reasonable when the system was built have often quietly become false as the surrounding environment evolved, and nobody currently on the team decided to accept the resulting risk — it simply accumulated unnoticed. Producing an explicit diagram and threat list forces those historical assumptions into the open, where they can be evaluated against the current threat landscape rather than inherited by default. The output also gives security investment a rational basis in an environment where remediation resources are limited and legacy architecture cannot always be redesigned outright, letting teams direct effort at the highest-risk exposures instead of spreading it evenly across a system nobody fully understands anymore.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
