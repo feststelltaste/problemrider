@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+An API deprecation policy is a formal, published set of rules governing how an old interface version is retired, defining the phases a deprecated endpoint moves through — announcement, sunset-header emission, reduced support, and final removal — along with the minimum time window consumers are guaranteed before something breaks. Legacy systems tend to accumulate API versions indefinitely in the absence of such a policy, because removing an old endpoint feels risky when nobody is certain which consumers still depend on it, so teams keep every version alive by default and the maintenance burden compounds with each new version added. A deprecation policy reverses this default: instead of an endpoint living forever unless someone actively decides to remove it, it is retired on a predictable schedule unless someone actively decides to extend it, which requires usage monitoring to identify which consumers have not yet migrated and communication channels — changelogs, developer portals, direct outreach — to make the timeline unavoidable to miss. Adopting the policy therefore trades a fixed governance and communication overhead for a bounded, shrinking maintenance surface, rather than an ever-growing set of legacy interface versions each needing separate support. It matters most where legacy platforms have accumulated numerous parallel API generations, since the freed engineering capacity from retiring old versions is what makes properly designed replacement APIs affordable to build in the first place.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

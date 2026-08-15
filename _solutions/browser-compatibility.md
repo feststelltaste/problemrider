@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Browser compatibility is the practice of building web frontends against standardized HTML, CSS, and JavaScript APIs rather than browser-specific behavior, using progressive enhancement (core functionality works everywhere, enhancements layer on top) and feature detection instead of user-agent sniffing to decide what a given browser can handle. The mechanism protects a frontend against the two things that make browser-specific code fragile over time: vendor-specific APIs disappearing when that vendor's browser is discontinued, and user-agent strings becoming unreliable signals as browsers change their identification behavior. Legacy web applications are especially exposed to this because many were built during a period when one specific browser, often Internet Explorer, dominated the target environment closely enough that developers wrote directly against its proprietary behavior — ActiveX controls, vendor CSS prefixes, quirks-mode rendering — rather than against the emerging web standards of the time. When that dominant browser eventually reaches end of life or user share collapses, all of that browser-specific code becomes simultaneously and often invisibly broken for the growing share of users on standards-compliant browsers, since nothing in the legacy code base was built to detect or degrade gracefully for a different rendering engine. Retrofitting browser compatibility means auditing for these non-standard dependencies, replacing them with standards-based equivalents and polyfills where necessary, and establishing an explicit, tested support matrix going forward rather than an implicit dependency on whatever browser happened to be standard when the code was written.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

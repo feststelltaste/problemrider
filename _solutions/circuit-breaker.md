@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A circuit breaker is a protective wrapper placed around a call to an external service or dependency that monitors for repeated failures and, once a failure threshold is crossed, "opens" to stop further calls from being attempted at all, failing fast with a fallback response instead of continuing to hit a service that is known to be unhealthy. After a configured interval it moves to a "half-open" state that allows a small number of probe requests through to test whether the dependency has recovered, closing again if they succeed. This directly targets a common legacy system failure pattern in which synchronous calls to a struggling downstream service accumulate in a thread pool or connection pool as each caller blocks waiting for a timeout, eventually exhausting that resource and causing an outage in a component that itself has nothing wrong with it. Because many legacy systems were built with tightly coupled, synchronous integration points and no isolation between them, a single slow or failing dependency can otherwise cascade into a system-wide failure far larger than the original problem. By failing fast and substituting a defined fallback — cached data, a degraded response, or a clear error — the circuit breaker converts an unbounded, resource-consuming failure into a bounded, predictable one. Its effectiveness depends on designing sensible fallback behavior for each protected call and on tuning thresholds against the dependency's actual behavior, since a poorly configured breaker can either fail to trip in time or reject legitimate traffic during ordinary transient blips.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

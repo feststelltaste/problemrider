@@ -28,7 +28,9 @@ related_solutions:
   similarity: 0.8
 ---
 
-## How to Apply ◆
+## Description
+
+Incident management is a defined, repeatable process for detecting, responding to, and learning from operational disruptions, built around explicit severity levels, a designated incident commander role, prepared communication channels, and documented runbooks for known failure modes. Legacy systems tend to accumulate incidents that are handled ad hoc — resolved by whoever happens to be available at the time, using knowledge that exists only in that person's head — because the systems predate any formal incident process and the institutional habit of documenting failures was never established. Introducing structure around this activity does two things simultaneously: it shortens the time to resolution during any single incident by removing decision-making delays and role ambiguity in a high-stress moment, and it converts each incident into a durable source of organizational learning through blameless post-incident reviews that are tracked over time rather than forgotten once the immediate fire is out. This second effect is particularly valuable for legacy systems, where the same handful of root causes are often responsible for a large share of recurring incidents; a consistent review process is what surfaces that pattern instead of letting each occurrence be treated as an isolated, unrelated event. The cost of this structure is process overhead, which can become counterproductive if procedures are too rigid to accommodate an incident that does not fit the predefined categories, so the process must remain adaptable even as it becomes more formal.
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
 

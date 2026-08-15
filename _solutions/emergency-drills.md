@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Emergency drills are rehearsed simulations of security incidents and operational emergencies — ranging from verbal tabletop exercises to full simulated incidents in non-production environments — conducted specifically to test whether an organization's incident response procedures, tooling, and personnel actually work before a real crisis forces the question. Legacy systems are disproportionately at risk here because their response procedures, if they exist at all, are frequently undocumented, written once and never revisited, or dependent on the tribal knowledge of specific individuals who may no longer be reachable or even still employed when an incident occurs. A drill exposes exactly this kind of decay under low-stakes, controlled conditions: outdated escalation contact lists, runbooks that reference infrastructure that no longer exists, or backup restoration procedures that were assumed to work but have never actually been exercised end to end. Because this decay is silent and compounds over time — infrastructure keeps changing while an unrehearsed runbook stays frozen at whatever it described when written — drills need to be repeated on a regular cadence and rotated across scenarios and participants, rather than run once and considered done. Their value is realized specifically when findings are tracked to resolution and re-tested in subsequent drills, since a single drill that reveals a gap without a systematic follow-up mechanism only documents the problem rather than fixing it.
+
 ## How to Apply ◆
 
 > Legacy systems are particularly vulnerable during security incidents because response procedures are often undocumented, untested, and dependent on individuals who may not be available. Emergency drills build organizational muscle memory for incident response before a real crisis occurs.

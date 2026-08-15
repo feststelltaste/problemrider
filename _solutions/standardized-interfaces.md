@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Standardized interfaces means replacing proprietary or ad hoc integration mechanisms — custom TCP protocols, SOAP endpoints with idiosyncratic conventions, file-drop integrations — with widely adopted interface styles such as REST, GraphQL, or gRPC, described using standard specification formats like OpenAPI or Protocol Buffers so that any consumer can integrate using common tools rather than a bespoke adapter built specifically for that one legacy system. Legacy landscapes tend to accumulate a different integration style for every system that was ever connected to them, and each new consumer team then has to invest weeks learning and coding against that system's particular quirks before any real integration work can begin. Introducing a facade or API gateway that exposes a standardized interface in front of the legacy implementation lets that cost be paid once, centrally, rather than repeatedly by every new consumer, and it decouples the consumer's integration effort from whatever the legacy backend happens to look like internally. This decoupling is what makes standardized interfaces valuable specifically during modernization: because consumers integrate against the stable, standardized contract rather than the legacy implementation directly, the backend behind that contract can be replaced incrementally without consumers needing to change anything. The corresponding cost is the upfront effort of building and governing that facade layer, and the risk that a generic standard interface cannot perfectly express every capability the legacy system originally offered, requiring deliberate compromises in the contract design.
+
 ## How to Apply ◆
 
 - Replace proprietary or ad-hoc interfaces in legacy systems with industry-standard styles such as REST, GraphQL, or gRPC.

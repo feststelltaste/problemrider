@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Business process modeling captures how a business process actually functions — through stakeholder interviews and direct observation of real workflows rather than reliance on existing documentation — and represents it visually, typically in BPMN, so both business and technical stakeholders share the same understanding of the process independent of any particular system's implementation. The mechanism's value lies specifically in the gap it is built to expose: documented procedures and actual practice diverge, often significantly, and only by observing what people actually do can that divergence be found and reconciled. Legacy systems are a common source of exactly this divergence, because users adapt to a system's limitations over years by developing informal workarounds that never make it into any specification, yet represent genuine business needs the system fails to meet directly. Mapping legacy system functionality against the resulting process model reveals which parts of the system support which processes and surfaces the workarounds as real requirements rather than as noise to be ignored during a replacement effort. Modernization projects that skip this step risk the most common failure mode of legacy replacement: building a new system that faithfully reproduces old software behavior instead of the actual business process the old software was only ever an imperfect vehicle for.
+
 ## How to Apply ◆
 
 - Interview business stakeholders and observe actual workflows to capture how business processes really work, not just how documentation says they should work.

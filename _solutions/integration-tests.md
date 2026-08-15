@@ -30,7 +30,9 @@ related_solutions:
   similarity: 0.75
 ---
 
-## How to Apply ◆
+## Description
+
+Integration tests verify that two or more components of a system actually work together correctly — a database access layer talking to a real database, a service call reaching an actual downstream dependency — as opposed to unit tests, which verify components in isolation, often with the very boundaries between them mocked away. This distinction is where legacy systems are most exposed: unit tests can pass in full while a serialization mismatch or a contract violation between the order service and the inventory service goes completely undetected, because no test actually exercises the real interaction path between them. Legacy systems accumulate exactly this kind of risk over time, as components originally built together and validated as a whole are gradually treated as separate, individually-tested units without anyone verifying that the seams between them still hold. Building an integration test suite for such a system means identifying the integration points that have caused the most production incidents historically and using test containers or embedded databases to exercise the real interaction path at those seams repeatably and in isolation from the shared, often-contended staging environments legacy systems tend to rely on. This gives teams a safety net specifically for the class of failure that unit tests cannot see, and it becomes indispensable during refactoring or migration efforts where components are being decomposed or replaced and the seams between them are exactly the area under the most active change and the most risk.
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
 

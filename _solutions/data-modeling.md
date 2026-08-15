@@ -34,6 +34,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Data modeling produces a conceptual representation of business entities and their relationships that is independent of any particular system's physical schema, typically expressed as entity-relationship diagrams that describe what the business considers a customer, an order, or a product to be, and how those concepts relate to one another. Building this model for a legacy system means reverse-engineering the existing schema and reconciling it against interviews with the people who actually use the data, which routinely surfaces a gap between the two: physical tables that represent obsolete or duplicated versions of the same concept, and business rules that are enforced only in scattered application code rather than in any documented or enforced part of the data model itself. This matters for legacy modernization because a schema built up through years of ad-hoc, feature-by-feature extension does not, by itself, tell anyone what the business actually needs to represent — the conceptual model has to be reconstructed deliberately, and once it exists it becomes the reference point against which the physical schema's design problems (unnecessary complexity, missing constraints, redundant tables) become visible and can be evaluated for consolidation. In a migration or replacement project specifically, the conceptual model functions as the blueprint that determines which physical tables map to which target entities, which relationships need to be formalized for the first time, and which implicit business rules need to be extracted out of application code and into the new system's explicit domain layer.
+
 ## How to Apply ◆
 
 - Create a conceptual data model that captures business entities and their relationships independently of the legacy system's physical schema.

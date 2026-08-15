@@ -37,6 +37,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Code conventions are an explicit, shared, and tool-enforced set of rules for how code is formatted and structured — naming, indentation, file organization, common idioms — applied consistently across a codebase rather than left to each developer's individual preference. Once documented, they are typically enforced automatically through formatters and linters wired into the build or CI pipeline, so that adherence is a mechanical property of the code rather than something reviewers have to police by eye. Legacy codebases accumulate multiple, inconsistent styles almost by default, since they are written by different developers over long spans of time without a shared standard, and the resulting inconsistency directly increases the cognitive cost of reading and modifying any part of the system. Establishing conventions after the fact is different from establishing them on a greenfield project, though, because retrofitting a single style onto an entire legacy codebase in one pass produces enormous, unreviewable diffs and destroys the value of blame history; the more workable path is applying conventions only to files as they are touched, letting consistency spread gradually along with actual maintenance activity. Beyond readability, agreed and automated conventions also remove an entire category of unproductive code review discussion — style debates — that otherwise consumes review time that should go toward logic and design. The main cost is the upfront effort of reaching agreement across a team with entrenched individual habits, and the risk that legacy code incompatible with modern formatting tooling requires manual exceptions.
+
 ## How to Apply ◆
 
 > In legacy systems with multiple coding styles accumulated over years and developers, establishing and enforcing conventions brings consistency that makes the codebase navigable.

@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Data partitioning divides a large dataset into smaller, independently manageable segments — by date range, hash, geography, or another key chosen to match query patterns — so that operations touching only a subset of the data can be restricted to the relevant partitions instead of scanning the entire table. The mechanism depends on partition pruning: when a query's filter includes the partitioning key, the database engine can skip every partition that cannot contain matching rows, turning what would be a full-table scan into a scan bounded by however much data actually falls within the requested range. This is a direct response to a common legacy-system trajectory, where a single table accumulates years of transactional history until routine queries — even year-end reports or daily reconciliations — have to wade through hundreds of millions of rows that are mostly irrelevant to the question being asked. Beyond query performance, partitioning also makes maintenance operations such as backups and index rebuilds tractable again by letting them operate on individual partitions rather than the dataset as a whole, and it gives data lifecycle management (archiving or dropping old partitions) a clean, low-cost mechanism to act on. The key risk is that the partition key has to be chosen well upfront, since it is difficult to change after the fact, and any query that omits it loses the pruning benefit and may perform worse than before partitioning was introduced.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

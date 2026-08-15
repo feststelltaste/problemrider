@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Error logging is the discipline of capturing every error and exception the running system encounters in a standardized, structured record — timestamp, severity, error type, message, stack trace, correlation ID, and relevant business context — and routing it to a central location where it can be searched and correlated across services. Legacy systems rarely arrive with this discipline already in place; instead they tend to log inconsistently across modules, with one part of the codebase using one logging library, another writing to flat files, and yet another printing straight to standard error, so that reconstructing what happened during an incident means manually stitching together several incompatible sources. Standardizing on a single structured format, typically JSON, and centralizing collection through a log aggregation platform turns error logging from scattered forensic debris into a searchable dataset that supports both individual incident response and pattern detection across time. The same centralization that makes diagnosis faster also raises the stakes for what ends up in a log entry, since sensitive data captured incidentally becomes a privacy and security liability the moment logs are aggregated and made broadly searchable.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

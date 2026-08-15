@@ -28,7 +28,9 @@ related_solutions:
   similarity: 0.7
 ---
 
-## How to Apply ◆
+## Description
+
+Interoperability tests verify that a system correctly exchanges data with external partner systems in both directions, using realistic scenarios including edge cases such as empty payloads, maximum-size messages, and unusual character encodings, ideally run against actual partner instances or high-fidelity simulators rather than the system's own idealized model of what a partner will send. This differs from integration tests focused on components within a single system's boundary: interoperability tests specifically target the interface contract between organizationally separate systems, where neither side has full visibility or control over what changes the other side might make. Legacy systems frequently participate in long-standing data exchange relationships — HL7 messaging between hospital systems, EDI feeds between supply chain partners — where the interface contract was established years ago, is rarely revisited, and drifts slowly out of sync as each side evolves independently, so failures at these boundaries tend to surface only in production, well after a release has shipped. Running a dedicated interoperability suite before each release, ideally built collaboratively with the partner teams on the other side of the interface, catches this drift proactively rather than leaving it to be discovered through a live data synchronization failure. The tradeoff is that these tests are inherently slower and more fragile than in-process tests, since they depend on external systems whose own issues can be mistaken for defects in the system under test, and coordinating shared test environments and realistic test data across organizational boundaries adds real logistical overhead.
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
 

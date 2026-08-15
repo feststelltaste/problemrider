@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Two-factor authentication requires a user to prove their identity with two independent kinds of evidence — typically something they know, like a password, plus something they have or are, like a time-based one-time code, a hardware token, or a push notification — so that a compromised password alone is no longer sufficient to gain access. This matters acutely for legacy systems because their authentication mechanisms were frequently built in an era when password-only login was the norm and account-takeover techniques like credential stuffing and password reuse across breached sites were far less prevalent threats than they are today, leaving these systems defending high-value access with a control that has become weak relative to the current attack landscape. Because retrofitting the legacy authentication code itself can be invasive and risky, the second factor is often layered in through an authentication proxy or an external identity provider sitting in front of the legacy login flow, letting the system gain modern protection without requiring changes to fragile, poorly understood internal authentication logic. Prioritizing rollout to the most privileged accounts first — administrators, database access, deployment credentials — targets the second factor at the access points where a single stolen password would otherwise cause the most damage. The practice trades some login friction and support overhead for lost second factors in exchange for a substantial reduction in the risk of account compromise, which is usually a favorable trade for systems that cannot otherwise keep pace with evolving credential-based attacks.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

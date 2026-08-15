@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+The bulkhead pattern divides a system's resource pools — threads, database connections, memory — into separate, isolated partitions assigned to different functions, so that exhaustion or failure in one partition cannot consume the capacity that another partition needs to keep functioning. The mechanism is named after ship design for exactly this reason: a compartment that floods should not sink the whole vessel, and a slow or failing dependency should not, by consuming a shared thread pool, take down unrelated functionality that happens to share the same process. Legacy systems are particularly prone to the failure this pattern prevents because they were frequently built as monoliths where all functionality quietly shares one thread pool or one connection pool by default, with no one having deliberately decided that recommendation-engine calls and checkout-processing calls should be able to starve each other. Introducing bulkheads means identifying which functions are critical and which are not, and giving each its own reserved capacity — separate thread pools, separate connection pools, sometimes separate infrastructure entirely — so that a slow third-party API called by a non-critical feature degrades only that feature rather than cascading into a site-wide outage. The tradeoff is that reserved-but-unused capacity in an under-loaded partition is wasted resource that a fully shared pool would have put to use, so bulkhead boundaries need to be sized deliberately rather than applied uniformly everywhere.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Emulation reproduces the behavior of a foreign hardware platform or operating system in software, running on modern infrastructure, so that a legacy application can continue executing unmodified even after the original hardware or OS it depended on has become obsolete or unobtainable. This is directly relevant to systems facing technology lock-in around discontinued hardware platforms, where the application logic itself may still be valid and valuable — sometimes representing decades of validated, hard-won domain logic — while the physical or platform substrate it requires is disappearing out from under it. Rather than forcing an immediate, high-risk rewrite of that logic under time pressure, emulation lets the existing code keep running exactly as it always has, buying the organization time to plan and properly fund a real migration on its own schedule rather than in a hardware-failure emergency. This makes emulation explicitly a bridge strategy rather than a destination: it typically comes with a performance penalty relative to native execution, and emulated environments can harbor subtle behavioral differences from the original platform that only surface as rare, hard-to-diagnose bugs. Treated as a permanent solution rather than a deliberately time-boxed one, it also accumulates its own risk, since the emulation tooling itself can eventually become unsupported, effectively just relocating the original obsolescence problem one layer down rather than resolving it.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

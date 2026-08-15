@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Specialized hardware refers to offloading specific compute-intensive operations from general-purpose CPUs onto hardware built to accelerate them — GPUs for data-parallel workloads, FPGAs or ASICs for fixed-function processing, SSL offload appliances for TLS handshakes, or NVMe storage for I/O-bound workloads. Rather than optimizing the software implementation of a bottleneck, this approach changes the execution substrate itself, which can deliver order-of-magnitude improvements for operations that are inherently well-suited to parallel or fixed-function processing. In legacy modernization contexts, this matters when profiling reveals that a specific operation — image reconstruction, encryption, compression, matrix computation — is the dominant bottleneck and that no amount of algorithmic or code-level optimization within the existing architecture will close the gap, because the general-purpose CPU is simply the wrong tool for that particular workload. Because the hardware acceleration can often be isolated behind a narrow interface, it is possible to modernize only the bottlenecked component this way while leaving the rest of a legacy application untouched, which limits the blast radius of the change compared to a full rewrite. The tradeoff is that this solution trades a software problem for a hardware dependency, introducing procurement lead times, specialized operational knowledge, and a capital expenditure profile that is fundamentally different from the incremental cost of software-only alternatives, so it is best reserved for cases where profiling has clearly ruled out cheaper approaches.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

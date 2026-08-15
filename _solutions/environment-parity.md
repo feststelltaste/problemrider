@@ -33,6 +33,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Environment parity is the practice of keeping development, testing, staging, and production environments as close to identical as possible in operating system version, runtime version, configuration, data volume, and topology, typically enforced through infrastructure-as-code, containerization, and automated provisioning rather than manual setup. It directly targets the mismatch class of failure where code behaves correctly wherever it was validated and then breaks somewhere else, a mismatch that legacy systems are especially prone to because their environments were often built by hand over many years by different people using whatever tools and versions were current at the time. Each environment in such a system tends to drift further from the others with every ad hoc fix, undocumented patch, or manually installed dependency, until staging becomes nearly useless as a predictor of production behavior. By deriving every environment from the same automated templates and monitoring continuously for drift, environment parity turns pre-production testing back into a meaningful signal and removes an entire category of "worked everywhere except production" incidents that otherwise consume disproportionate debugging effort in legacy modernization work.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

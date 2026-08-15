@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Standardized deployment scripts replace ad hoc, per-environment deployment procedures — manual SSH commands, environment-specific shell scripts, wiki-documented steps — with a single, parameterized automation script or playbook, built with tools such as Ansible or Terraform, that runs identically across development, staging, and production. Legacy systems frequently accumulate deployment processes that diverge subtly between environments because each was patched ad hoc by whoever was on call at the time, and the resulting inconsistency is a recurring source of environment-specific incidents that are hard to reproduce and even harder to prevent. By capturing the deployment logic once, parameterizing only what genuinely differs between environments, and storing the result in version control alongside the application code, this practice turns what was tribal knowledge scattered across scripts and memory into an explicit, reviewable, and repeatable artifact. This matters for legacy modernization specifically because inconsistent deployment is often what makes any change to a legacy system feel risky in the first place — if deploying is unpredictable, every other improvement inherits that unpredictability. The upfront cost is the effort of reconciling the differences across environments into one coherent script, and the resulting automation still needs operational staff who understand the tooling well enough to diagnose a failure when the script itself breaks.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -33,6 +33,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Trunk-based development is a source control workflow in which developers integrate small, short-lived changes into the main branch at least daily, rather than working in isolation on long-lived feature branches that diverge from main for weeks or months before being merged. Incomplete work is made safe to merge continuously by hiding it behind feature flags, and a fast, comprehensive CI pipeline validates every integration so that main stays in a releasable state at essentially all times. The practice is a direct countermeasure to a pattern common in legacy codebases with entrenched branching habits: branches that live long enough to drift substantially from main, producing merge conflicts that consume days of rework and integration bugs that surface only when it is expensive to untangle which of many accumulated changes caused them. By collapsing the interval between writing code and integrating it, trunk-based development converts integration from a rare, high-stakes event into a routine, low-risk one, which is precisely the shift legacy teams need when large, risky, infrequent releases have historically made every change feel dangerous. Adopting it in a legacy context typically requires upfront investment in CI speed and test reliability, since the whole model depends on fast, trustworthy feedback on every small merge — without that investment, frequent integration just surfaces the same problems faster rather than actually resolving them.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

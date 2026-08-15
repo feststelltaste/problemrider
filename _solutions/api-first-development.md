@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+API-first development means defining a service's interface contract — using a specification format such as OpenAPI, GraphQL schema, or Protocol Buffers — before writing the implementation behind it, and then treating that contract as the stable, authoritative agreement that both the implementation and its consumers must honor. Server stubs and client SDKs can be generated directly from the specification, and automated tests validate that the running implementation actually conforms to what was specified, so the contract does not drift silently from reality the way ad hoc documentation often does. Legacy systems frequently expose functionality through an inconsistent mix of interfaces — SOAP services, raw database views, batch file imports — that grew organically without any unifying contract, which makes every new integration an exercise in reverse-engineering rather than reading a specification. Applying API-first thinking to such a system typically means designing a clean contract for the legacy system's most-used capabilities and placing it in front of the existing implementation, so that new consumers integrate against a stable, well-defined interface while the legacy internals continue running unchanged behind it. This separation is what later allows the legacy implementation to be replaced piece by piece, since consumers depend only on the contract and are unaffected as long as it remains stable across the swap. The upfront design discipline required, and the difficulty of fully capturing a complex undocumented legacy system's real behavior in a single specification, are the main costs that must be weighed against the integration and parallel-development benefits the approach provides.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

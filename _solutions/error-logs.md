@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+This solution is the practice of systematically and periodically reviewing the errors a system has already logged, rather than only opening the log files reactively while an incident is in progress, treating error logs as a standing data source that can reveal problems no one is currently looking for. In many legacy systems, thousands of errors accumulate every day without anyone examining them as long as the system stays nominally up, which means recurring low-severity errors can quietly corrupt data or waste effort for months or years before anyone notices the pattern, only surfacing once someone finally reviews the logs with intent. Establishing a regular cadence for this review, categorizing recurring errors by frequency and business impact, and assigning ownership for follow-up turns a large volume of previously ignored noise into a prioritized, actionable backlog of reliability work. Because this is a scheduled activity rather than an automated tool, its main cost is the dedicated time it takes away from feature work and the risk that, without adequate tooling, the sheer volume of legacy error output makes manual review impractical.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Encryption transforms data into a form unreadable without the correct key, protecting it both in transit across networks and at rest in storage, so that its confidentiality no longer depends entirely on network perimeter security or physical access controls holding perfectly. Legacy systems were frequently built during eras when perimeter-based trust was considered sufficient, leaving unencrypted HTTP connections, plaintext database links, unencrypted file transfers, and plaintext configuration files as routine, unremarked design choices rather than deliberate risk acceptances. Retrofitting encryption onto such a system typically means introducing measures the original design never anticipated: TLS termination proxies in front of components that cannot natively support modern TLS, transparent or column-level encryption added to databases that were never built with it, and dedicated key management systems to keep keys separate from the data they protect. Because legacy systems often carry sensitive data — health records, payment details, personal information — accumulated over long operational histories, encryption is frequently what closes the gap between actual practice and regulatory requirements such as PCI DSS, HIPAA, or GDPR, and it provides a layer of defense in depth that continues to protect data even if a network is compromised or storage media is stolen. Its costs are concrete rather than hypothetical: computational overhead on hardware not originally sized for cryptographic work, key management becoming a critical single point of failure, and encrypted data becoming harder to search, index, and debug without additional engineering effort.
+
 ## How to Apply ◆
 
 > Legacy systems frequently transmit and store sensitive data without encryption, relying on network perimeter security or physical access controls that are insufficient for modern threat models. Implementing encryption protects data both in transit and at rest.

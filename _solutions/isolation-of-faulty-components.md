@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Isolation of faulty components is the practice of erecting containment boundaries around a system's parts so that a failure in one does not propagate to the rest. Mechanically, this relies on techniques such as circuit breakers that stop calling a failing dependency, bulkheads that partition thread pools and connections per component, process or container isolation that prevents resource exhaustion from spreading, and automatic detection triggers based on health checks and error rates that decide when a component should be cut off. In legacy systems, components were rarely designed with failure containment in mind — tight coupling, shared memory space, and shared connection pools mean that a single overloaded or malfunctioning module can exhaust resources or corrupt state for everything else running alongside it, turning a local defect into a cascading, system-wide outage. Retrofitting isolation boundaries onto such a system does not fix the underlying fault, but it changes the failure mode from total collapse to a degraded, partially available system, buying time to diagnose and repair the actual defect. This is particularly valuable during modernization, where legacy components are being incrementally replaced or strangled: isolation lets teams treat an old, fragile component as a quarantined unit whose failures are expected and contained, rather than as a landmine that must never trip.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

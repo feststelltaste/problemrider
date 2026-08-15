@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Standard software means replacing a custom-built, in-house implementation of common functionality with a mature, widely used commercial or open-source product that already solves the same problem for many other organizations. Legacy systems accumulate custom solutions to problems — authentication, reporting, workflow orchestration, scheduling — that were not competitive differentiators even at the time they were built, but became so precisely because someone chose to reinvent rather than adopt, and the resulting bespoke component now requires specialized, scarce internal knowledge to keep running. This solution targets that specific pattern: it identifies functionality that is generic rather than business-differentiating, and substitutes the ongoing burden of maintaining a custom implementation with a vendor or community's continuous investment in security patches, feature development, and broader available expertise. In modernization work, this is often one of the highest-leverage moves available, because it removes single points of failure tied to the one developer who understands an obscure custom module, while freeing engineering capacity to focus on the parts of the system that actually differentiate the business. The tradeoff is a shift from build-time flexibility to vendor dependency: standard software may not replicate every legacy edge case, forcing an honest evaluation of whether an edge case is a genuine requirement or simply an artifact of how the legacy system happened to be built, and migration itself requires careful data and integration work that is easy to underestimate.
+
 ## How to Apply ◆
 
 > Legacy systems frequently contain custom implementations of functionality that is now available as mature, well-maintained standard software — replacing these custom components reduces maintenance burden significantly.

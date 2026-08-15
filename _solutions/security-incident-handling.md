@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Security incident handling is the formal definition of roles, escalation paths, communication procedures, and severity classification that governs how an organization responds once a security incident has occurred, replacing improvised, ad hoc reaction with a predefined, rehearsed process. The mechanism works because incident response quality degrades sharply under the pressure and uncertainty of an actual breach: without a plan, different teams independently take conflicting actions, evidence gets destroyed by well-intentioned but uncoordinated remediation steps such as a premature system restart, and customer communication is delayed simply because no one is designated to own it. A defined process replaces these improvised decisions with pre-agreed ones, made calmly in advance rather than under duress, and reduces the incident to executing a rehearsed runbook rather than inventing a response in real time. Legacy systems raise the stakes here because they often lack the instrumentation needed for clean forensic investigation, meaning the response process itself — what gets touched, in what order, and by whom — has an outsized effect on whether the root cause can even be determined afterward. For legacy modernization efforts, establishing this process before an incident occurs, and validating it through drills and tabletop exercises rather than waiting for a live event to be the first test, converts an organization's incident response from a source of additional damage into a contained, bounded event with a known time to resolution.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

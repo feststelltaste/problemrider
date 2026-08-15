@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Data quality checks are automated rules — mandatory fields, valid value ranges, referential integrity, format constraints, and business-specific validations — that are run periodically against a database, or applied at the point of entry, to detect and report data that violates the organization's expectations for correctness. The mechanism works at two points in the data lifecycle: checks applied at entry prevent new bad data from being created, while checks run periodically against existing data surface problems that already exist, categorized by severity so cleanup effort can be prioritized. In legacy systems this is essential precisely because entry-point validation was often weak or absent for years, allowing duplicate records, orphaned references, and inconsistent formats to accumulate silently until they surface as debugging mysteries or, worse, as corrupted reports that no one questioned until the numbers were visibly wrong. Data quality checks are especially critical before any migration, since a comprehensive quality assessment run against the legacy source lets the team quantify and address issues before they are carried into a new system, rather than discovering and fixing them after go-live when the cost of remediation is far higher. Because cleansing itself can be risky when the "correct" shape of the data is not well understood, quality checks are typically implemented as a detection and reporting mechanism first, with cleansing scripts applied in controlled, reviewed batches rather than as an automatic corrective action.
+
 ## How to Apply ◆
 
 - Define data quality rules based on business requirements: mandatory fields, valid ranges, referential integrity, format constraints, and business logic validations.

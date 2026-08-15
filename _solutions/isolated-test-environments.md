@@ -29,7 +29,9 @@ related_solutions:
   similarity: 0.7
 ---
 
-## How to Apply ◆
+## Description
+
+Isolated test environments are dedicated, on-demand environments — typically provisioned through infrastructure-as-code and containerization — that mirror production configuration closely enough for realistic testing while remaining fully separated from the environments other teams or test suites are using at the same time. Legacy systems frequently end up tested in a single shared staging environment because standing up additional environments that faithfully reproduce an aging, dependency-heavy configuration is expensive and was never automated, which leads directly to test interference: one team's data changes silently corrupt another team's test run, and a large share of test failures end up being spent on distinguishing "is this a real bug" from "is this environment contamination" rather than on actual defects. Provisioning environments on demand, with automated cleanup between runs, removes this ambiguity by construction and additionally enables genuine parallel test execution, since teams are no longer competing for a single shared resource. This is closely related to interoperability testing, which also depends on realistic environments, but isolated test environments address the more basic precondition of environment reliability and reproducibility that has to be in place before interoperability or integration results can be trusted at all. The primary constraints are cost, since maintaining several environments in sync with production is ongoing work, and license limitations, since legacy systems built on commercially licensed software may face real constraints on how many parallel environment instances a license actually permits.
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
 

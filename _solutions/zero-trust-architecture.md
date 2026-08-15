@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Zero Trust Architecture is a security model built on the principle of "never trust, always verify": no request is granted access merely because it originates from inside a particular network segment, and every access attempt is instead authenticated, authorized, and evaluated against context — identity, device posture, and requested resource — regardless of where it comes from. This replaces the traditional perimeter-based model, in which anything inside the firewall was implicitly trusted, with continuous, per-request verification enforced through mechanisms such as identity-aware proxies, mutual TLS, and fine-grained access policies applied at the level of individual services rather than network zones. In legacy environments this shift is particularly consequential because such systems were frequently designed under the opposite assumption: internal traffic was trusted by default, authentication happened once at the network edge, and components communicated with each other with little regard for who or what was actually calling them. That assumption is precisely what allows a single compromised credential or breached host to turn into unrestricted lateral movement across an entire estate of interconnected legacy applications. Retrofitting zero trust principles onto such a system — typically by placing identity-aware proxies in front of legacy applications that cannot natively authenticate every request, and by micro-segmenting the network to contain lateral movement — reduces the blast radius of a breach without necessarily requiring the legacy applications themselves to be rewritten. The tradeoff is that this retrofit is architecturally invasive and rarely fast: it touches network topology, authentication flows, and inter-service communication all at once, and is realistically pursued as a long-term, incremental modernization effort rather than a discrete project with a defined end date.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

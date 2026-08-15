@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Data flow control establishes explicit rules for which data is allowed to move between which components, in what form, and after what filtering or masking, rather than letting data pass freely across every boundary a legacy system happens to have. It requires first mapping how data actually moves through the system — where it originates, what it passes through, and where trust boundaries are crossed — and then enforcing, at each of those boundaries, that only the fields a consumer actually needs are transmitted, that sensitive values are masked or tokenized before reaching components that do not need the real value, and that data entering or leaving the system is validated and sanitized. This matters acutely in legacy systems because components were typically wired together long before anyone thought about least-privilege data access: APIs return entire database records to every consumer regardless of need, logging captures full request bodies including sensitive fields, and implicit trust in the network perimeter substitutes for any check on what specific data a given component can see. Establishing data flow control shrinks the blast radius of any single compromised component or leaked log file, because no component holds more data than its function requires, and it gives an organization the visibility over its own data movement that regulations such as GDPR or HIPAA expect it to be able to demonstrate. The tradeoff is that legacy integration patterns — shared databases, flat-file exchanges, chatty APIs — resist being cleanly separated at defined boundaries, so introducing flow control is as much an exercise in re-architecting interfaces as it is in adding filtering logic.
+
 ## How to Apply ◆
 
 > Legacy systems often pass data freely between components without filtering, validation, or access control, creating opportunities for data leakage, injection attacks, and unauthorized access to sensitive information. Data flow control establishes explicit rules for what data can move between which components and in what form.

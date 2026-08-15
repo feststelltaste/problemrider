@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Security frameworks are structured, industry-accepted models — such as the NIST Cybersecurity Framework, CIS Controls, or OWASP — that organize security practice into defined domains or functions, giving organizations a common reference against which to map existing controls, identify coverage gaps, and prioritize improvement work. The mechanism is comparative: rather than each team inventing its own notion of what "good security" covers, the framework supplies a checklist of domains that collectively represent an accepted baseline, and mapping current practice against it exposes where effort has been concentrated versus neglected — a pattern that is otherwise hard to see from inside an organization that has only ever compared itself to its own history. This is especially useful for legacy systems because their security posture has typically evolved reactively, driven by whichever incidents or audits happened to occur, so investment tends to cluster around certain domains (commonly preventive controls) while others (commonly detection and response) are left comparatively undeveloped without anyone having deliberately decided that. Adopting a framework surfaces this imbalance in structured form and gives it a common vocabulary that can be communicated to both technical teams and non-technical stakeholders. The risk in legacy contexts is that a framework's full scope can be overwhelming relative to the resources available, so the framework's value in modernization work comes specifically from using it to redirect existing effort toward underserved domains rather than trying to achieve uniform maturity everywhere at once.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

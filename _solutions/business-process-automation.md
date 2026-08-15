@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Business process automation extracts business rules and workflow logic that are currently embedded inside legacy application code — often scattered across stored procedures, conditional branches, and manual handoffs — into an explicit process engine driven by BPMN process models and DMN decision tables that business analysts, not only developers, can read and modify. The mechanism separates what a business process should do from how a particular legacy system happens to implement it today, making previously implicit rules visible and giving them a home outside the code where they can be reviewed, versioned, and changed independently of a deployment cycle. This is directly relevant to legacy modernization because business logic in old systems frequently accreted over years without ever being modeled explicitly anywhere, meaning the "documentation" of a critical business rule is, in practice, the code itself plus whichever few people still remember why it was written that way. Migrating such logic to a process engine, incrementally and starting with well-understood, high-volume processes, both clarifies the rule for the first time in years and removes the fragile manual handoffs (email, spreadsheets) that often persist around legacy systems precisely because the system itself could not express the full process. The cost is the operational overhead of a new piece of infrastructure and the difficulty of the extraction itself, which is hardest exactly where the business logic is most deeply intertwined with legacy technical implementation.
+
 ## How to Apply ◆
 
 - Extract business rules currently embedded in legacy code into a business process engine (Camunda, Flowable, or similar BPMN-based tools).

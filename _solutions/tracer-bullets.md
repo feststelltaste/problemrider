@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+A tracer bullet is a thin, end-to-end implementation of a single representative scenario that passes through every layer of a proposed architecture — UI, business logic, data access, integration, deployment, and monitoring — built deliberately as production code rather than as a throwaway prototype. The point is not to deliver a finished feature but to fire a real request through the entire intended technology stack early, so that integration assumptions get tested against reality instead of remaining theoretical until much later in the project. This is particularly valuable in legacy modernization, where the riskiest unknowns rarely live in the new components themselves but in how they will actually interact with the legacy system's authentication quirks, connection pool limits, data formats, and network topology — details that are almost never fully documented and that only surface once something concrete tries to talk to the legacy system. By keeping the tracer bullet narrow but genuinely complete from end to end, a team can discover integration and deployment problems while they are still cheap to fix, rather than after dozens of features have been built on top of unvalidated architectural assumptions. Because the implementation is retained and expanded rather than discarded, the tracer bullet also becomes the first working reference point for the target architecture, giving stakeholders visible, deployable progress and the team direct experience with the new stack before delivery pressure sets in.
+
 ## How to Apply ◆
 
 > In legacy modernization, tracer bullets validate the entire technical stack end-to-end with a simplified implementation before investing in full feature development.

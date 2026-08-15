@@ -45,6 +45,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A code quality gate is an automated, non-negotiable check — static analysis results, test coverage thresholds, complexity limits, dependency and security scans — that a code change must pass before it can be merged, enforced mechanically in the CI/CD pipeline rather than depending on a reviewer's individual diligence or mood. Because the checks run automatically on every pull request, they apply the same standard uniformly regardless of who is submitting the change or how rushed the review cycle is. This addresses a pattern especially common in legacy systems, where new code tends to match the quality of the code already around it simply because "that is how it's done here," gradually eroding overall quality with each addition unless something actively stops that drift. Introducing gates onto an already large, inconsistent legacy codebase has to start from thresholds calibrated to its current, often poor, baseline rather than an idealized target, since gates set too strictly on day one get bypassed or disabled rather than driving improvement; thresholds are then tightened incrementally as the codebase actually improves. A coverage ratchet — requiring new code to meet a higher bar than the legacy baseline it is added alongside — is a common mechanism for this, letting overall quality improve gradually without demanding an immediate, unrealistic jump. Quality gates free reviewers to spend their attention on design and logic instead of mechanically checking things a tool can check faster and more consistently, though they measure only what tooling can detect and provide no signal at all on deeper design or architectural fitness questions.
+
 ## How to Apply ◆
 
 > In legacy systems, quality gates prevent new code from making things worse — they are the minimum investment needed to stop the bleeding while modernization proceeds.

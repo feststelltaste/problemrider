@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Business metrics are measurable indicators — conversion rate, order fulfillment time, revenue per session — defined specifically to capture the business outcomes a system is meant to support, instrumented directly into the system so that its actual behavior, not just its technical characteristics, can be observed and tracked over time. The mechanism requires close collaboration between business and technical stakeholders to identify which outcomes actually matter and then adding, often lightweight, instrumentation to a system that may never have been designed to expose this kind of data. This matters for legacy modernization because the business impact of a legacy system's shortcomings — slow pages, failed checkouts, manual workarounds — is usually felt qualitatively long before anyone can state it quantitatively, which leaves the team unable to justify modernization investment in terms decision-makers can act on, since technical debt and system decay are otherwise invisible in normal business reporting. Establishing a baseline before modernization work begins, and then tracking the same metrics afterward, converts the value of that work from an assumed improvement into a demonstrated one. The risk is that poorly chosen metrics can incentivize the wrong optimizations, and that defining genuinely meaningful ones takes real collaborative effort rather than simply wiring up whatever data happens to be easy to extract from the legacy system.
+
 ## How to Apply ◆
 
 - Identify key business outcomes the legacy system supports (revenue processing, customer onboarding time, order fulfillment rate) and define measurable metrics for each.

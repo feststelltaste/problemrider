@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Security by design means treating security as a first-class architectural driver from the outset of a design decision — on par with performance, scalability, and maintainability — rather than as a set of controls layered on afterward through patches and configuration hardening. The mechanism relies on techniques such as threat modeling during design, applying least privilege and defense-in-depth as default structural properties rather than optional add-ons, and capturing security rationale in architecture decision records so that trade-offs are visible and revisitable later. This differs qualitatively from fixing vulnerabilities after the fact: a component designed from the start with no direct database access from other services, mutual authentication between all internal calls, and per-tenant encryption keys prevents entire classes of vulnerabilities structurally, whereas the same properties bolted onto an existing flat-trust architecture require expensive, risky retrofitting and typically leave gaps. This distinction matters acutely in legacy modernization: most legacy architectures were built when today's threat landscape and security expectations did not yet exist, and their flat trust models, direct component-to-component access, and absent audit trails are consequences of decisions made under a different set of assumptions rather than oversights that can be individually patched away. Applying security by design during a modernization effort — for instance when extracting a new service from a legacy monolith — is an opportunity to avoid replicating the monolith's inherited weaknesses in the new component, even though doing so typically extends the initial design and implementation timeline.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

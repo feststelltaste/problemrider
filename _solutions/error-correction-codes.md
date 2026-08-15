@@ -25,6 +25,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Error correction codes add structured, computable redundancy to data — parity bits, Hamming codes, Reed-Solomon codes, or CRC combined with forward error correction — so that a receiver or reader can detect and, within the code's designed capacity, automatically reconstruct data that has been corrupted in transit or storage, without requiring retransmission or manual intervention. In legacy contexts this matters most at the boundaries where old and new components meet: aging serial links, legacy protocols never designed with integrity checking, or archival storage on media that degrades over time, all of which are common in systems that predate today's more resilient transport and storage layers. Adding error correction at these boundaries lets a team improve reliability without touching the legacy protocol's core logic, and the correction rate itself becomes a useful health signal, flagging degrading cables, connectors, or storage media before they fail outright. The tradeoff is that correction capacity is finite and bounded by the chosen code, adds processing and data-size overhead, and can, if used carelessly, mask an infrastructure problem that actually needs to be replaced rather than corrected around.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -33,6 +33,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Error handling covers the mechanisms by which a system detects that something has gone wrong, decides what to do about it, and communicates the outcome — failing fast for unrecoverable conditions, retrying transient failures with backoff, or degrading gracefully for non-critical functionality — rather than leaving behavior undefined at failure points. Legacy codebases accumulate a particular failure mode here: generic catch-all blocks that log something vague like "an error occurred" and swallow the original exception, added over years by developers who wanted the application to keep running rather than crash, at the cost of erasing the information needed to diagnose the actual problem later. Replacing these catch-alls with specific handlers tied to distinct error types, adding contextual information to every failure, and centralizing the handling logic at defined boundaries turns error handling from noise into a diagnostic tool, which is exactly what is needed when a system's original authors and documentation are no longer available to fill in the gaps. Because retrofitting this into working legacy code touches many call paths at once, the main risk is inadvertently changing observable behavior that downstream consumers have silently come to depend on, so the effort has to proceed incrementally and be paired with sufficient test coverage.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

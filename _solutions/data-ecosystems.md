@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A data ecosystem is a shared infrastructure of common platforms, exchange protocols, and governance conventions that lets many independent systems publish and consume data without each pair of systems negotiating its own private integration. Instead of every system connecting directly to every other system it needs data from, participants agree on shared standards — canonical models for core entities, common event or query interfaces, and a catalog that documents what data exists, who owns it, and how reliable it is. This addresses a structural problem specific to organizations built from years of merger, expansion, and locally optimized legacy systems: each system defines its own version of shared concepts like customer or product, and any cross-system need is met with another point-to-point integration, which compounds over time into a tangle that is expensive to understand and nearly impossible to change safely. By establishing a data ecosystem, an organization converts that combinatorial integration problem into a hub-and-spoke one, where new systems plug into the shared layer instead of negotiating bespoke connections to every legacy system they need to interact with. This also creates the technical precondition for incremental legacy replacement, since a new system can be built against the shared data layer's contracts rather than against the idiosyncrasies of the system it is meant to eventually replace.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

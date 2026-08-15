@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Architecture conformity analysis automatically checks whether a codebase's actual dependencies and communication patterns match a set of intended architectural rules — such as which layers may call which, or which modules may communicate directly — using tools like ArchUnit, Structure101, or Sonargraph that can encode these rules as executable checks run in continuous integration. In legacy systems the architecture that was originally designed and the architecture that actually exists in the code diverge steadily over years of urgent fixes and shortcuts, until the diagrams in whatever documentation still exists no longer describe how the system truly behaves, and nobody can say with confidence how many violations of the original design have accumulated. Making this drift visible is the necessary first step before it can be addressed: by encoding the intended rules as automated checks, previously invisible violations — such as presentation code calling database repositories directly, bypassing an entire business layer — become an explicit, countable metric rather than a vague sense that the architecture is not what it used to be. Because a legacy codebase with no history of enforcement will typically already contain a large number of violations, conformity analysis is usually introduced with a baseline of accepted violations and a target for gradual reduction, rather than a hard gate that would block all further development. Running these checks continuously also prevents new violations from being added while the team works through the existing backlog, which is what makes conformity analysis a durable process rather than a one-time cleanup, and it is often the discovery that legacy layer boundaries were fully enforceable after all that unlocks subsequent modernization steps such as swapping out a data access layer.
+
 ## How to Apply ◆
 
 > In legacy systems, the actual architecture almost always diverges from the intended architecture — conformity analysis makes this drift visible and actionable.
