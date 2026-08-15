@@ -47,6 +47,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Static code analysis scans source code automatically for known problem patterns — null dereferences, hardcoded credentials, excessive complexity — without requiring a human reviewer to first understand what the code does, which is exactly what makes it valuable against a legacy codebase nobody fully understands anymore. A first scan of a genuinely old system routinely turns up thousands of findings, which is precisely why the right first move is freezing that count rather than treating it as an immediate to-do list: gate new code against introducing further violations, then work the backlog down opportunistically as a debt inventory rather than an emergency. The tool's blind spot is real, though — it can flag a resource leak or a naming inconsistency, but it has no way to see a wrong business assumption or an inappropriate abstraction, which is exactly the kind of design-level debt that tends to dominate in older systems.
+
 ## How to Apply ◆
 
 > In a legacy codebase, static analysis is one of the few tools that can scan the full extent of years of accumulated problems without requiring anyone to understand the code first.

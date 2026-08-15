@@ -43,6 +43,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+A technical debt backlog captures each known piece of debt as a concrete, business-impact-estimated item — not "the user service is messy" but a specific description of what's tangled and what it costs — and prioritizes it the same way any other work is prioritized, rather than letting debt remain an invisible drag that everyone feels but nobody can point to. Legacy systems accumulate exactly this kind of debt at a scale that makes an initial full inventory genuinely overwhelming, which is why the backlog has to be triaged into a manageable, high-impact-first sequence rather than treated as a single mass to clear before anything else can happen. Making debt visible this way is the backlog's entire value and also its main political risk, since stakeholders who never had to see the accumulated cost before may not welcome finally being shown the bill — but a fixed percentage of every sprint committed to debt reduction, backed by concrete business-impact numbers, is what turns that visibility into sustained investment rather than a one-time report that changes nothing.
+
 ## How to Apply ◆
 
 > In legacy systems where technical debt is enormous, invisible, and accumulated over years, creating a managed backlog is the prerequisite for any systematic improvement — without it, remediation is reactive and endless.

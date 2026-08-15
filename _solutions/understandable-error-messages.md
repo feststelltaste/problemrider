@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+An understandable error message explains what happened, why, and what the user can do about it in plain language, rather than surfacing the raw technical exception, database constraint code, or stack trace that legacy systems routinely display straight from the layer where the failure actually occurred. A message like a raw Oracle constraint violation means nothing to the person who triggered it and reliably becomes a support call, whereas the same failure translated into what it means for their specific action lets them fix it themselves. Rewriting a legacy system's full catalog of error messages this way is genuinely substantial work across hundreds of call sites, and it has a real security dimension too — the technical detail still needs to be logged server-side for diagnosis, just never surfaced to the end user, where it would otherwise leak internal implementation details alongside the confusion.
+
 ## How to Apply ◆
 
 > Legacy systems often display raw technical error messages, stack traces, or cryptic error codes that are meaningless to end users. Understandable error messages explain problems in human terms and guide recovery.

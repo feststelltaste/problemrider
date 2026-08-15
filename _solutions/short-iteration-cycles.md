@@ -40,6 +40,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Short iteration cycles force a team to deliver a working, demonstrable increment every one to two weeks, replacing the long, unchecked planning horizons that let a legacy modernization project run for months before anyone discovers a planning assumption was wrong. That delayed discovery is what turns a manageable correction into a project-threatening crisis in the traditional long-cycle model, since the gap between plan and reality only becomes visible at a milestone far too distant to react to cheaply. Using each iteration's actual completed work — not theoretical capacity — as the basis for the next iteration's commitment builds real, evidence-based planning credibility over just three to five cycles, something no amount of upfront long-range planning can substitute for.
+
 ## How to Apply ◆
 
 > In legacy systems where projects historically run for months or years before delivering any result, short iteration cycles create natural checkpoints that make planning failures visible early enough to correct, rather than allowing them to compound into project-threatening crises.

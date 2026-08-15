@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+A video tutorial demonstrates a specific workflow visually and step by step, which succeeds where written documentation routinely fails for the complex, multi-screen procedures that legacy systems are especially prone to accumulating. Keeping each video short and focused on one task, with clear narration explaining not just what to click but why, lets new staff learn a procedure at their own pace instead of requiring an experienced colleague to walk them through it in person every time. The tradeoff is real maintenance debt: a video showing a screen that has since changed is actively worse than no video at all, since it now confidently walks the viewer through steps that no longer exist, so a library of these has to be revisited every time the underlying interface changes.
+
 ## How to Apply ◆
 
 > Legacy systems with complex workflows are difficult to learn from written documentation alone. Video tutorials provide visual, step-by-step demonstrations that users can follow at their own pace.

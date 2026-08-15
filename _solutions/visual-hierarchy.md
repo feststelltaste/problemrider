@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Visual hierarchy uses size, weight, color, and spacing to signal which elements on a screen matter most, so a user can scan and understand a layout at a glance rather than having to read every field with equal effort. Legacy interfaces frequently present everything with identical visual weight — the same font size for a case's status as for its internal tracking code — which effectively hides importance entirely rather than merely failing to highlight it, forcing users to carefully read through irrelevant fields just to locate the one that actually matters right now. Restoring a deliberate hierarchy, with primary actions visually dominant and secondary information de-emphasized rather than removed, requires genuine design judgment that legacy-focused engineering teams don't always have on hand, and it has to be applied consistently across the system or the inconsistency itself becomes a new source of the same disorientation it was meant to fix.
+
 ## How to Apply ◆
 
 > Legacy systems often present all information with equal visual weight, making it difficult for users to identify what is important. Visual hierarchy uses size, color, contrast, and spacing to guide attention.

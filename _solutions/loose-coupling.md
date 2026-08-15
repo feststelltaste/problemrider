@@ -34,6 +34,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Loose coupling minimizes the direct dependencies between modules so that a change in one place doesn't cascade unpredictably into others, replacing hard references and shared internal state with well-defined interfaces. Legacy systems accumulate the opposite of this over years of convenient shortcuts — components reaching directly into each other's classes and sharing database tables — until a single change like adding a new shipping carrier requires touching order processing, invoicing, and three database tables at once. Introducing interfaces at the highest-coupling hotspots first, found through dependency-graph analysis rather than guesswork, shrinks that blast radius directly, though decoupling can be taken too far: past a certain point it just fragments functionality that genuinely belongs together, trading coupling for a different kind of complexity.
+
 ## How to Apply ◆
 
 > Achieving loose coupling in legacy systems requires systematic identification and reduction of unnecessary dependencies between components, replacing direct references with well-defined interfaces and communication patterns.

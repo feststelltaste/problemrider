@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A user community is a peer platform — a forum, a chat channel — where users of a system help each other, share workarounds, and collectively surface problems, rather than each power user's hard-won expertise staying isolated in their own head or their immediate team. Legacy systems in large organizations routinely have exactly this pattern: a regional office with one person who deeply understands the system, sharing that knowledge only through informal hallway conversation with nobody else able to benefit. Seeding the community with real content and assigning active moderators who escalate genuine bugs to the development team is what keeps it from decaying into an unanswered complaint board, and done well it becomes a continuous, low-friction feedback channel that also reduces the routine support load landing on the formal help desk.
+
 ## How to Apply ◆
 
 > Legacy system knowledge often resides with isolated individuals. User communities create peer networks where users help each other, share best practices, and collectively advocate for improvements.

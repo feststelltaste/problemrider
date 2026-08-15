@@ -35,6 +35,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A usability test observes real, representative users attempting genuine tasks with the system, using a think-aloud protocol that reveals not just where they struggle but why — evidence that is fundamentally different from and more reliable than a developer's own intuition about the interface. That intuition is exactly what fails in a legacy system: the people building and maintaining it have adapted to its quirks over years and can no longer see the confusion a new or occasional user experiences within the first five minutes. Five to eight participants per session is enough to surface roughly eighty percent of usability issues, and running this periodically rather than once often uncovers shadow systems and workarounds the team never knew existed — evidence of gaps the interface itself was never going to reveal on its own.
+
 ## How to Apply ◆
 
 > Legacy systems are rarely tested with actual users, so usability problems accumulate undetected for years. Systematic usability testing reveals problems that developers and product owners cannot see because they are too familiar with the system.
