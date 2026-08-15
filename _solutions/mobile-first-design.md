@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Mobile-first design starts a screen's design from the constraints of a small touch device and progressively enhances it for larger screens, rather than starting from a legacy desktop layout — built for a mouse and a large monitor — and trying to shrink it down afterward. That desktop-first assumption is baked deep into most legacy interfaces, which is why they degrade so badly on a phone: hover-dependent menus that have no touch equivalent, tap targets sized for a cursor, entire data sets sent to the client regardless of what a small screen could even display. Redesigning mobile-first forces a genuine prioritization of the small set of tasks a user actually needs while away from their desk, rather than attempting to cram the entire legacy feature set into a screen that was never going to fit it.
+
 ## How to Apply ◆
 
 > Legacy systems were typically designed for desktop use with large screens and mouse input. As mobile usage grows, these systems become increasingly unusable on smaller devices, creating pressure for mobile-first redesign.

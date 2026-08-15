@@ -33,6 +33,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Integrated onboarding guides a new user through their first key actions directly inside the live application — tooltips, a guided tour, task-based segments — rather than leaving them to learn a legacy system's outdated conventions purely through trial, error, and an experienced colleague's patience. Legacy interfaces are disproportionately hard to learn this way precisely because their conventions predate current design norms and much of how to actually use them is tribal knowledge that was never written down anywhere a new user could find it. Building the onboarding to be replayable, adaptive to what a user has already learned, and role-specific rather than a generic tour of everything, converts a dependency on senior colleagues' time into a consistent, self-service experience — provided the content is kept current, since an onboarding tour pointing at UI elements that have since moved is worse than no tour at all.
+
 ## How to Apply ◆
 
 > Legacy systems are notoriously difficult for new users to learn because the interface conventions are outdated and tribal knowledge is required to operate them effectively. Integrated onboarding smooths the learning curve.

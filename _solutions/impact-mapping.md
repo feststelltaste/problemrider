@@ -34,6 +34,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Impact mapping works backward from a measurable business goal, through the actors whose behavior must change and the specific behavioral impacts that would achieve the goal, to the minimum deliverables that could produce those impacts — rather than starting from a feature request and hoping it matters. This re-establishes a connection that legacy organizations frequently lose entirely, where development ships steadily without any traceable link to business outcomes, prioritization is driven by whoever advocates loudest, and work accumulates that nobody can justify in terms of actual impact. Because every proposed deliverable must trace back through a specific actor to a specific goal, the map doubles as a natural filter against exactly the kind of scope creep and feature-factory output that has no such traceable justification, though it depends on leadership being willing to commit to goals specific enough to create real accountability.
+
 ## How to Apply ◆
 
 > Legacy organizations frequently lose the connection between development work and business outcomes, leading to feature factories that ship functionality without impact, product direction chaos driven by the loudest stakeholder, and wasted effort on work that doesn't address actual competitive threats. Impact mapping re-establishes this connection by working backward from business goals through actors and impacts to concrete deliverables.

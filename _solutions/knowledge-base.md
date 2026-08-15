@@ -50,6 +50,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A knowledge base is a searchable collection of articles, structured consistently and built from the most common support requests, that captures the tribal knowledge legacy systems accumulate in the heads of the few people who have used them longest. Because that knowledge typically exists nowhere else, every departure of an experienced user or developer is effectively a small knowledge crisis, and the base's entire value comes from writing that knowledge down before it walks out the door rather than after. Its usefulness depends entirely on staying current: an unmaintained knowledge base with stale articles actively misleads users and erodes exactly the trust it exists to build, which is why a lightweight contribution and review workflow matters as much as the initial content itself.
+
 ## How to Apply ◆
 
 > Legacy systems accumulate vast amounts of tribal knowledge that exists only in the heads of experienced users and developers. A searchable knowledge base captures and shares this knowledge systematically.

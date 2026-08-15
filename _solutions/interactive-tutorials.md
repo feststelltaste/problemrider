@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+An interactive tutorial walks a user through an actual task inside the live application, highlighting each relevant element and waiting for the real action before advancing, which teaches far more effectively than static documentation for the complex, multi-screen workflows legacy systems are especially prone to accumulating. Providing a sandbox or practice mode matters more here than in a typical modern application, since mistakes made while learning a legacy workflow on real data can have real consequences that a newer, more forgiving system might not carry. The tradeoff is that these tutorials are expensive to build and fragile to maintain — any change to the tutorialized workflow's interface risks breaking the tutorial's step-by-step script, so they're worth reserving for the highest-impact, most error-prone workflows rather than attempting comprehensive coverage.
+
 ## How to Apply ◆
 
 > Interactive tutorials go beyond static documentation by guiding users through actual tasks within the live application, providing hands-on learning that builds confidence and competence.

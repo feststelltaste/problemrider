@@ -50,6 +50,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Refactoring restructures code's internal shape — extracting a method, breaking apart a god class, replacing a conditional with polymorphism — while deliberately preserving its external behavior, so the code becomes easier to work with without changing what it does. In legacy systems the accumulated scale of structural decay makes a one-time cleanup both impractical and risky, which is why the practice has to become continuous and proportional to actual work: the boy scout rule of leaving whatever code a developer is already touching a little cleaner than they found it, backed by characterization tests that record existing behavior — including its quirks — before any structural change is attempted. Applied this way, refactoring pays for itself directly in reduced time and risk for every subsequent change to that code, though attempting it without adequate test coverage genuinely risks altering an undocumented side effect some other part of the system silently depends on.
+
 ## How to Apply ◆
 
 > In legacy systems, refactoring must be introduced as a disciplined, continuous practice rather than a one-time cleanup project, because the scale of accumulated debt makes any attempt to address it all at once both impractical and risky.

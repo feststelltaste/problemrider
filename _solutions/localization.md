@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Localization adapts an application's language, date and number formats, and cultural conventions to the region it's actually being used in, rather than assuming the single language and locale it was originally built for years ago. Legacy systems built for one market routinely hit this wall the moment an organization expands internationally: dates rendered ambiguously, currency separators that mean something different abroad, error messages that only make sense in the original language — problems that are confusing at best and costly at worst. Extracting hardcoded strings into resource files and introducing locale-aware formatting closes this gap, though the effort compounds with every language supported, since testing multiplies per locale and every new feature adds an ongoing translation obligation across all of them.
+
 ## How to Apply ◆
 
 > Legacy systems were often built for a single language and region. As organizations expand, the lack of localization becomes a significant barrier to adoption in new markets.

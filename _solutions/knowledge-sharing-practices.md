@@ -41,6 +41,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A knowledge management system deliberately captures institutional knowledge — architecture decisions, operational runbooks, undocumented business rules discovered during debugging — as it surfaces, rather than treating documentation as a project to be tackled later. In legacy systems this is less a documentation nicety than a direct risk-mitigation strategy, since so much of what keeps the system running exists only in the heads of a small number of people whose departure can turn a routine question into a multi-day investigation or a production incident. Starting with the components that would cause the longest outage if their one knowledgeable person left tomorrow, and adopting a "three strikes" rule that turns any question asked a third time into a permanent article, converts scattered tribal knowledge into something searchable — though the system only stays useful if it's reviewed and updated as the system evolves, since stale legacy documentation can actively mislead someone into executing the wrong procedure on a fragile system.
+
 ## How to Apply ◆
 
 > In legacy system contexts, a knowledge management system is not primarily a documentation tool — it is a risk mitigation strategy for the institutional knowledge that exists only in the heads of people who may leave.

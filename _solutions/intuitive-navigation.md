@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Intuitive navigation restructures a system's menu hierarchy around how users actually think about their tasks, rather than around the module or database structure a legacy navigation menu typically reflects after years of organic, unplanned growth. That organic growth is why legacy systems so often end up with dozens of top-level menu items labeled with internal codes like "SYS_CONFIG" that mean nothing to the person using them, forcing users to build their own cheat sheets just to remember where things are. Rebuilding the hierarchy from card-sorting exercises with real users, limiting the top level to a handful of task-oriented categories, and adding a global search as an escape hatch for users who already know what they want closes that gap — at the cost of disrupting the muscle memory of exactly the experienced users the old, confusing layout had trained.
+
 ## How to Apply ◆
 
 > Legacy systems often have navigation structures that evolved organically over years, reflecting the system's technical architecture rather than user tasks. Restructuring navigation around user goals makes the system discoverable and efficient.
