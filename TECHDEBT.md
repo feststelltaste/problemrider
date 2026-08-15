@@ -31,23 +31,23 @@ reconciled the two directions against each other.
 3. Extend `pr:link_problems` so that adding a link requires writing both sides
 4. Treat the asymmetry percentage as a tracked quality measure
 
-## Visualization Script Often Forgotten and Not Executed
+## Landscape Data Script Often Forgotten and Not Executed
 
-**Problem**: The graph visualization script (`scripts/create_visualization.py`) is a separate manual process that is often forgotten and not executed, leading to outdated or missing visualization content.
+**Problem**: The landscape layout script (`scripts/create_landscape.py`, previously `create_visualization.py`) is a separate manual process that is often forgotten and not executed, leading to outdated or missing landscape content.
 
 **Impact**: 
-- Stale visualization data that doesn't reflect current problem catalog
+- Stale `assets/js/landscape-data.js` that doesn't reflect the current problem/solution catalog
 - Manual process easily forgotten during development workflow
-- Inconsistent user experience with outdated graph relationships
-- Developer friction when visualization is needed but not current
-- Potential confusion for users seeing outdated problem connections
+- Inconsistent user experience with outdated clustering (new problems/solutions missing from the map, or placed by a stale embedding)
+- Developer friction when the landscape is needed but not current
+- Potential confusion for users seeing outdated item positions
 
-**Root Cause**: The visualization generation is decoupled from the main build process and requires manual execution, making it easy to overlook during regular development and content updates.
+**Root Cause**: The landscape generation is decoupled from the main build process and requires manual execution (plus a local embedding cache under `embeddings/`), making it easy to overlook during regular development and content updates.
 
 **Suggested Resolution**:
-1. Integrate visualization generation into the Jekyll build process
-2. Add automation to regenerate visualization on content changes
-3. Create git hooks to remind developers to update visualization
+1. Integrate landscape data generation into the Jekyll build process
+2. Add automation to regenerate the landscape data on content changes
+3. Create git hooks to remind developers to update the landscape data
 4. Consider moving to client-side dynamic visualization generation
 5. Add documentation or scripts to automate the visualization update process
 

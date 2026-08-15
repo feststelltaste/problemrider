@@ -11,305 +11,442 @@ permalink: /landscape/
     .page-content {
         padding: 0;
     }
-    .wrapper {
-        max-width: 1200px;
-        margin: 0 auto;
+    /* Scoped to the main-content wrapper only — `.wrapper` is also the class
+       the site header/footer use for their own centered, max-width column,
+       and a bare `.wrapper` override here was flattening those too. */
+    .page-content .wrapper {
+        max-width: none;
+        margin: 0;
         padding: 0;
     }
-    #visualization-container {
-        width: 90vw;
-        max-width: 1200px;
-        height: calc(100vh - 60px); /* Account for header */
-        margin: 0 auto;
-    }
-    .node circle {
-        stroke: #fff;
-        stroke-width: 1.5px;
-        cursor: pointer;
-    }
-    .node text {
-        font-size: 12px;
-        pointer-events: none;
-        text-anchor: middle;
-        fill: #343a40;
-    }
-    .link {
-        stroke: #adb5bd;
-        stroke-opacity: 0.6;
-    }
-    .tooltip {
-        position: absolute;
-        background-color: rgba(0, 0, 0, 0.8);
-        color: #fff;
-        padding: 10px;
-        border-radius: 5px;
-        font-size: 14px;
-        max-width: 300px;
-        pointer-events: none;
-        opacity: 0;
-        transition: opacity 0.2s;
-    }
-    .legend {
-        position: absolute;
-        top: 80px; /* Account for header */
-        left: 20px;
-        background-color: rgba(255, 255, 255, 0.9);
-        padding: 10px;
-        border-radius: 5px;
-        font-family: sans-serif;
-        font-size: 12px;
-    }
-    .legend-item {
-        display: flex;
-        align-items: center;
-        margin-bottom: 5px;
-    }
-    .legend-color {
-        width: 15px;
-        height: 15px;
-        margin-right: 5px;
-        border-radius: 50%;
-    }
-    .controls {
-        position: absolute;
-        top: 80px; /* Account for header */
-        right: 20px;
-        background-color: rgba(255, 255, 255, 0.9);
-        padding: 15px;
-        border-radius: 8px;
-        font-family: sans-serif;
-        font-size: 12px;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        max-width: 200px;
-    }
-    .controls h4 {
-        margin: 0 0 10px 0;
-        font-size: 14px;
-        color: #343a40;
-        border-bottom: 1px solid #dee2e6;
-        padding-bottom: 5px;
-    }
-    .control-item {
-        display: flex;
-        align-items: center;
-        margin-bottom: 8px;
-        line-height: 1.4;
-    }
-    .control-icon {
-        font-size: 16px;
-        margin-right: 8px;
-        width: 20px;
-        text-align: center;
-    }
-    .control-text {
-        color: #495057;
-    }
-    .export-button {
-        width: 100%;
-        margin-top: 8px;
-        padding: 8px 10px;
-        border: 1px solid #667eea;
-        border-radius: 4px;
-        background: #667eea;
-        color: white;
-        cursor: pointer;
-        font-size: 12px;
-    }
-    .export-button:hover {
-        background: #764ba2;
-    }
-    .modal {
-        display: none;
-        position: fixed;
-        z-index: 1000;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,0.5);
-        backdrop-filter: blur(3px);
-    }
-    .modal-content {
-        background-color: #fefefe;
-        margin: 2% auto;
-        padding: 0;
-        border-radius: 8px;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-        width: 90%;
-        max-width: 800px;
-        max-height: 90vh;
-        overflow: hidden;
+
+    .landscape {
         display: flex;
         flex-direction: column;
+        height: calc(100vh - 60px - 1rem); /* Account for header plus our own margin below */
+        /* 100vh on mobile browsers is the height with the address bar
+           hidden — the page gets clipped by that bar every time it's
+           actually showing (e.g. right after load, or after scrolling up).
+           100dvh tracks the *current* visible viewport instead, so the
+           layout doesn't jump or clip as the bar shows/hides. Kept as a
+           fallback-first pair since dvh support is recent enough that a
+           browser without it should just keep the old behavior. */
+        height: calc(100dvh - 60px - 1rem);
+        margin: 0.75rem 1.5rem 0.25rem;
     }
-    .modal-header {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        padding: 20px;
+
+    .landscape__tabs {
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        padding: 0.6rem 1rem;
+        border-bottom: 1px solid #dee2e6;
+        background: #f8f9fa;
+        flex: 0 0 auto;
     }
-    .modal-title {
-        margin: 0;
-        font-size: 24px;
-        font-weight: 600;
-    }
-    .modal-category {
-        background: rgba(255,255,255,0.2);
-        padding: 4px 12px;
-        border-radius: 20px;
-        font-size: 12px;
+    .landscape__tab {
+        border: 1px solid #c3e0ff;
+        border-radius: 12px;
+        padding: 0.4rem 1rem;
+        color: #007acc;
+        background: #e6f3ff;
+        font: inherit;
+        font-size: 0.85rem;
         font-weight: 500;
-    }
-    .close {
-        color: white;
-        font-size: 28px;
-        font-weight: bold;
         cursor: pointer;
-        background: none;
-        border: none;
-        padding: 0;
-        width: 30px;
-        height: 30px;
+    }
+    .landscape__tab:hover,
+    .landscape__tab:focus {
+        background: #007acc;
+        border-color: #007acc;
+        color: #fff;
+    }
+    .landscape__tab.is-active {
+        background: #007acc;
+        border-color: #007acc;
+        color: #fff;
+    }
+    .landscape__search {
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+    }
+    .landscape__search input {
+        font-size: 0.85rem;
+        padding: 0.35rem 0.6rem;
+        border: 1px solid #ced4da;
+        border-radius: 6px;
+        width: 220px;
+        max-width: 40vw;
+    }
+    .landscape__search-count {
+        font-size: 0.75rem;
+        color: #6c757d;
+        min-width: 5.5rem;
+    }
+
+    .landscape__body {
+        flex: 1 1 auto;
+        display: flex;
+        min-height: 0;
+    }
+
+    .landscape__article {
+        flex: 0 0 var(--landscape-split, 38%);
+        max-width: 75vw;
+        min-width: 260px;
+        overflow-y: auto;
+        border-right: 1px solid #dee2e6;
+        padding: 1.5rem 1.75rem;
+        background: #fff;
+    }
+    .landscape__article.is-hidden {
+        display: none;
+    }
+    .landscape__resizer {
+        flex: 0 0 9px;
+        width: 9px;
+        position: relative;
+        /* The handle below is wider than this 9px column and overflows into
+           the map area on both sides — without a z-index above it, the map
+           pane (later in source order) paints over that overflow and clips
+           the handle. */
+        z-index: 5;
+        cursor: col-resize;
+        touch-action: none;
+        user-select: none;
+    }
+    .landscape__resizer.is-hidden {
+        display: none;
+    }
+    .landscape__resizer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 2px;
+        transform: translateX(-50%);
+        background: #dee2e6;
+        transition: background 0.15s ease, width 0.15s ease;
+    }
+    .landscape__resizer:hover::before,
+    .landscape__resizer.is-dragging::before {
+        background: #007acc;
+        width: 3px;
+    }
+    .landscape__resizer-handle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 14px;
+        height: 34px;
+        background: #fff;
+        border: 1px solid #c3e0ff;
+        border-radius: 6px;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.15);
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 50%;
-        transition: background-color 0.2s;
+        font-size: 12px;
+        color: #007acc;
     }
-    .close:hover {
-        background-color: rgba(255,255,255,0.2);
+    .landscape__resizer:hover .landscape__resizer-handle,
+    .landscape__resizer.is-dragging .landscape__resizer-handle {
+        border-color: #007acc;
+        background: #e6f3ff;
     }
-    .modal-body {
-        padding: 25px;
-        overflow-y: auto;
-        flex: 1;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        line-height: 1.6;
+    .landscape__placeholder {
+        color: #6c757d;
+        font-style: italic;
+        margin-top: 2rem;
+        text-align: center;
     }
-    .modal-description {
-        font-size: 16px;
-        color: #000;
-        font-weight: bold;
-        margin-bottom: 20px;
-        padding: 15px;
-        background: #f8f9fa;
-        border-left: 4px solid #667eea;
-        border-radius: 0 4px 4px 0;
-    }
-    .loading {
+    .landscape__article .loading,
+    .landscape__article .error {
         text-align: center;
         padding: 40px;
         color: #6c757d;
     }
-    .error {
-        text-align: center;
-        padding: 40px;
+    .landscape__article .error {
         color: #dc3545;
     }
-    .modal-body h2 {
-        color: #495057;
-        border-bottom: 2px solid #e9ecef;
-        padding-bottom: 8px;
-        margin-top: 25px;
-        margin-bottom: 15px;
+
+    .landscape__map-wrap {
+        flex: 1 1 auto;
+        position: relative;
+        overflow: hidden;
+        background: #fbfbfd;
+        /* Dragging to pan (or a fast double-click) otherwise selects node
+           label text, which looks broken mid-drag. */
+        -webkit-user-select: none;
+        user-select: none;
     }
-    .modal-body ul {
-        padding-left: 20px;
+    .landscape__map {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        cursor: grab;
+        /* Focusable via JS (tabindex="-1") so a keydown-Space fired right
+           after page load — before the user has clicked anything — reliably
+           reaches our document-level Space listener, without showing a
+           distracting focus ring around the whole map for what is, from the
+           user's perspective, not really a form control. */
+        outline: none;
+        /* Without this, a touch drag is ambiguous between "the browser's own
+           page-scroll/pinch-zoom gesture" and "our own pointermove-based
+           panning/pinch handling in landscape.js" — the two fight each
+           other, and on most mobile browsers the native gesture wins,
+           breaking touch panning entirely. This hands all touch gestures on
+           the map to our own JS instead. */
+        touch-action: none;
     }
-    .modal-body li {
-        margin-bottom: 8px;
+    .landscape__map.is-panning,
+    .landscape__map.is-space-panning {
+        cursor: grab;
     }
-    .modal-body strong {
-        color: #495057;
+    .landscape__map.is-panning {
+        cursor: grabbing;
     }
-    .modal-body a {
-        color: #667eea;
-        text-decoration: none;
+    .landscape__map.is-space-panning .landscape-node__label {
+        cursor: grab;
     }
-    .modal-body a:hover {
-        text-decoration: underline;
+    .landscape__map-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform-origin: 0 0;
     }
-    .modal-body pre {
-        background: #f8f9fa;
-        border: 1px solid #e9ecef;
+
+    .landscape-node {
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+    .landscape-node__label {
+        display: block;
+        font: inherit;
+        font-size: 11.5px;
+        line-height: 1.25;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        text-align: center;
+        max-width: 118px;
+        white-space: normal;
+        word-wrap: break-word;
+        padding: 3px 6px;
         border-radius: 4px;
-        padding: 15px;
-        overflow-x: auto;
-        font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-        font-size: 14px;
-        line-height: 1.4;
-        margin: 15px 0;
-    }
-    .modal-body code {
-        background: #f8f9fa;
-        padding: 2px 6px;
-        border-radius: 3px;
-        font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
-        font-size: 14px;
-        color: #e83e8c;
-    }
-    .modal-body pre code {
-        background: none;
-        padding: 0;
-        color: #495057;
-    }
-    .problem-link {
-        color: #667eea;
-        text-decoration: underline;
+        border: none;
+        background: var(--node-bg, rgba(108, 117, 125, 0.12));
+        color: #23272b;
         cursor: pointer;
-        font-weight: 500;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.06);
     }
-    .problem-link:hover {
-        color: #764ba2;
-        text-decoration: underline;
+    .landscape-node__label:hover {
+        z-index: 5;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+    .landscape-node.is-active .landscape-node__label {
+        z-index: 6;
+        font-weight: 700;
+        box-shadow: 0 0 0 2px var(--node-color, #667eea), 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .landscape-node.is-dimmed .landscape-node__label {
+        opacity: 0.15;
+    }
+    .landscape-node.is-matched .landscape-node__label {
+        box-shadow: 0 0 0 2px #ffc107;
+    }
+
+    .landscape__side-panel {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 6px;
+        max-height: calc(100% - 28px);
+    }
+    .landscape__legend-tab {
+        border: 1px solid #c3e0ff;
+        background: #e6f3ff;
+        color: #007acc;
+        border-radius: 12px;
+        font: inherit;
+        font-size: 0.78rem;
+        padding: 0.3rem 0.6rem;
+        cursor: pointer;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    .landscape__legend-tab:hover,
+    .landscape__legend-tab:focus {
+        background: #007acc;
+        border-color: #007acc;
+        color: #fff;
+    }
+    .landscape__legend-tab[aria-expanded="true"] {
+        background: #007acc;
+        border-color: #007acc;
+        color: #fff;
+    }
+    .landscape__legend {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 5px;
+        background: rgba(255, 255, 255, 0.92);
+        padding: 10px 12px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        overflow-y: auto;
+        min-width: 140px;
+    }
+    .landscape__legend.is-collapsed {
+        display: none;
+    }
+    /* Same chip as a map node's own label (.landscape-node__label is shared
+       verbatim, see landscape.js) — only the sizing differs, so the legend
+       reads as "these are the same colored chips, just listed out" instead
+       of a second, differently-styled color key. */
+    .landscape__legend-chip {
+        max-width: none;
+        white-space: nowrap;
+        cursor: default;
+    }
+    .landscape__legend-chip:hover {
+        box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+    }
+
+    .landscape__controls {
+        display: flex;
+        gap: 6px;
+    }
+    .landscape__controls button {
+        border: 1px solid #c3e0ff;
+        background: #e6f3ff;
+        color: #007acc;
+        border-radius: 12px;
+        font: inherit;
+        font-size: 0.78rem;
+        padding: 0.3rem 0.6rem;
+        cursor: pointer;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    .landscape__controls button:hover,
+    .landscape__controls button:focus {
+        background: #007acc;
+        border-color: #007acc;
+        color: #fff;
+    }
+
+    .landscape__article article {
+        max-width: none;
+    }
+
+    @media (max-width: 800px) {
+        .landscape__body {
+            flex-direction: column;
+        }
+        .landscape__article {
+            flex: 0 0 42vh;
+            max-width: none;
+            border-right: none;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .landscape__resizer {
+            display: none;
+        }
+        /* The tabs row now wraps (see .landscape__tabs above) instead of
+           squeezing the search box down to an unusable 140px — it gets its
+           own full-width row underneath the tabs whenever there isn't room
+           for both on one line. */
+        .landscape__search {
+            flex: 1 1 100%;
+        }
+        .landscape__search input {
+            flex: 1 1 auto;
+            width: auto;
+            max-width: none;
+        }
+        /* Buttons wrap onto a second line inside the panel rather than
+           running off the edge of a narrow screen — right-aligned to match
+           the panel's own edge, same as the legend already does. */
+        .landscape__controls {
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            max-width: calc(100vw - 28px);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .landscape {
+            margin: 0.5rem 0.75rem 0.25rem;
+        }
+        .landscape__tabs {
+            padding: 0.5rem 0.75rem;
+        }
+        .landscape__article {
+            padding: 1rem 1.1rem;
+        }
+        .landscape__side-panel {
+            top: 10px;
+            right: 10px;
+        }
+        .landscape__legend {
+            min-width: 0;
+            max-width: calc(100vw - 28px);
+        }
+        /* Denser labels at phone width — the map still has the same amount
+           of content to show in noticeably less space. */
+        .landscape-node__label {
+            font-size: 10.5px;
+            max-width: 92px;
+            padding: 2px 5px;
+        }
     }
 </style>
 
-<div class="tooltip"></div>
-<div class="legend"></div>
-<div class="controls">
-    <h4>Navigation</h4>
-    <div class="control-item">
-        <span class="control-icon">&#128433;&#65039;</span>
-        <span class="control-text">Scroll to zoom</span>
+<div class="landscape" data-landscape>
+    <div class="landscape__tabs" role="tablist" aria-label="Landscape view">
+        <button type="button" class="landscape__tab is-active" data-landscape-tab="problems" role="tab" aria-selected="true">Problems</button>
+        <button type="button" class="landscape__tab" data-landscape-tab="solutions" role="tab" aria-selected="false">Solutions</button>
+        <div class="landscape__search">
+            <input type="search" data-landscape-search placeholder="Search…" aria-label="Search this view">
+            <span class="landscape__search-count" data-landscape-search-count></span>
+        </div>
     </div>
-    <div class="control-item">
-        <span class="control-icon">&#9995;</span>
-        <span class="control-text">Drag to pan</span>
-    </div>
-    <div class="control-item">
-        <span class="control-icon">&#128070;</span>
-        <span class="control-text">Drag nodes to move</span>
-    </div>
-    <div class="control-item">
-        <span class="control-icon">&#128065;&#65039;</span>
-        <span class="control-text">Hover for details</span>
-    </div>
-    <div class="control-item">
-        <span class="control-icon">&#128196;</span>
-        <span class="control-text">Double-click for full details</span>
-    </div>
-    <button id="miro-export" class="export-button" type="button">Export for Miro (CSV)</button>
-</div>
-
-<div id="modal" class="modal">
-    <div class="modal-content">
-        <div class="modal-header">
-            <div>
-                <h2 class="modal-title" id="modal-title">Problem Title</h2>
-                <span class="modal-category" id="modal-category">Category</span>
+    <div class="landscape__body">
+        <div class="landscape__article is-hidden" data-landscape-article></div>
+        <div class="landscape__resizer is-hidden" data-landscape-resizer title="Drag to resize columns" aria-label="Resize columns"><span class="landscape__resizer-handle"></span></div>
+        <div class="landscape__map-wrap">
+            <div class="landscape__map" data-landscape-map tabindex="-1">
+                <div class="landscape__map-inner" data-landscape-map-inner></div>
             </div>
-            <span class="close" id="modal-close">&times;</span>
-        </div>
-        <div class="modal-body" id="modal-body">
-            <div class="loading">Loading...</div>
+            <div class="landscape__side-panel">
+                <div class="landscape__controls">
+                    <button type="button" data-landscape-zoom-out aria-label="Zoom out">−</button>
+                    <button type="button" data-landscape-zoom-in aria-label="Zoom in">+</button>
+                    <button type="button" data-landscape-reset>Reset view</button>
+                    <button type="button" class="landscape__legend-tab" data-landscape-legend-toggle aria-expanded="true" aria-controls="landscape-legend">Legend</button>
+                </div>
+                <div class="landscape__legend" id="landscape-legend" data-landscape-legend></div>
+            </div>
         </div>
     </div>
 </div>
 
-<div id="visualization-container"></div>
-
-<script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="../assets/js/visualization.js"></script>
+<script>
+  window.CATEGORY_COLORS = {{ site.data.category_colors | jsonify }};
+  // GitHub Pages serves this project under /problemrider/, not domain root —
+  // the CI build passes --baseurl accordingly (see .github/workflows/jekyll.yml),
+  // which every Liquid-rendered link already accounts for via the
+  // relative_url filter. landscape.js constructs article URLs itself in
+  // plain JS, so it needs the same prefix handed to it explicitly, or those
+  // fetches 404 in production despite working fine in local dev (where
+  // baseurl is empty).
+  window.SITE_BASEURL = {{ site.baseurl | jsonify }};
+</script>
+<script src="{{ '/assets/js/landscape-data.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+<script src="{{ '/assets/js/landscape.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

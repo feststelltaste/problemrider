@@ -19,6 +19,7 @@ from calculate_related_problems import (
 
 
 SOLUTION_EMBEDDING_SECTIONS = (
+    ("Description", "description"),
     ("How to Apply", "how_to_apply"),
     ("Tradeoffs", "tradeoffs"),
     ("How It Could Be", "how_it_could_be"),

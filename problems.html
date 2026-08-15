@@ -72,7 +72,7 @@ permalink: /problems/
           <div class="problem-meta">
             <div class="problem-categories">
               {% for category in problem.category %}
-                <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag">{{ category }}</a>
+                <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag" data-category="{{ category }}">{{ category }}</a>
               {% endfor %}
             </div>
           </div>

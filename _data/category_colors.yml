@@ -1,0 +1,21 @@
+# Single source of truth for the per-category color used across the site:
+# the /landscape/ map nodes and legend, and the category-tag pills on every
+# problem/solution article page. landscape.html exposes this as
+# window.CATEGORY_COLORS for landscape.js; main.scss (which Jekyll also runs
+# through Liquid, per its own "---\n---" front matter) loops over it to
+# generate the .category-tag[data-category="..."] rules.
+Architecture: "#3498db"
+Business: "#e74c3c"
+Code: "#f39c12"
+Communication: "#9b59b6"
+Culture: "#e67e22"
+Database: "#2ecc71"
+Dependencies: "#16a085"
+Management: "#e91e63"
+Operations: "#34495e"
+Performance: "#f1c40f"
+Process: "#27ae60"
+Requirements: "#8e44ad"
+Security: "#c0392b"
+Team: "#1abc9c"
+Testing: "#ff6b35"
