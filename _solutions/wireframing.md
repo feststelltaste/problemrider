@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Wireframing produces a low-cost, low-fidelity visual layout of a screen — sketched on paper or in a simple tool — for stakeholders and users to react to and refine before any code gets written, rather than letting implementation begin on nothing more than the team's own understanding of a requirement. Legacy modernization work is particularly prone to skipping this step, since there's often pressure to just start building given how much is already known about the old system, but that shortcut is exactly what leads to a team spending several sprints on a screen that turns out not to match the actual workflow at all. Iterating on the wireframe itself costs almost nothing compared to reworking implemented code, which is the entire justification for spending a day or two on this before development begins rather than after the mismatch is discovered the expensive way.
+
 ## How to Apply ◆
 
 > Legacy system modernization often begins coding before the team has a shared understanding of what the improved interface should look like. Wireframing creates low-cost visual representations that align stakeholders before development begins.

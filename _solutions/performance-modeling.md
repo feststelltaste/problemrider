@@ -34,6 +34,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Performance modeling builds a mathematical or simulated representation of a system's critical paths — typically as a queueing network — using measured arrival rates, service times, and resource utilization as inputs, so that the impact of a proposed change can be predicted before any resources are committed to implementing it. This matters most for legacy systems facing a capacity question with real money attached: whether the current architecture can absorb a projected increase in load, and if not, precisely where it will break first. A validated model frequently reveals that the actual bottleneck is not where intuition assumes — a lock contention issue in the database rather than raw CPU capacity, for instance — which redirects investment toward the change that will actually relieve the constraint instead of the one that merely seemed obvious. The tradeoff is that building an accurate model requires real performance-engineering expertise and production data of sufficient quality, and the model itself needs recalibration as the system continues to evolve.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

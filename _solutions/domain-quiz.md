@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+A domain quiz is a structured set of targeted questions, designed collaboratively with domain experts, that tests developers' understanding of the business concepts, rules, and edge cases embedded in a system — used during onboarding or run periodically with the whole team to surface gaps in domain knowledge before those gaps cause implementation errors. This is a deliberately low-stakes format for making implicit knowledge explicit and testable: legacy systems typically encode years of accumulated business rules and quirks that were never fully documented, so a developer's confidence in their own understanding is not a reliable signal of whether that understanding is actually correct or complete. Running a quiz surfaces exactly where that confidence is misplaced — often revealing that even experienced team members carry gaps around specific undocumented rules or historical decisions — before those gaps manifest as pricing errors, incorrect calculations, or other business-logic defects in production. Because the questions are written jointly with domain experts, the quiz results also function as a diagnostic for the documentation itself, pointing directly at which areas of the system's actual behavior are least well captured anywhere written down. Used well, a domain quiz functions as a recurring pulse check on institutional knowledge rather than a one-time onboarding gate, which matters most in systems where that knowledge is thin, uneven across the team, and at risk of walking out the door with any one person.
+
 ## How to Apply ◆
 
 - Create quizzes that test developers' understanding of key business concepts, rules, and processes implemented in the legacy system.

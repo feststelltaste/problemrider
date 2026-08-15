@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A persona is a fictional but evidence-based composite of a real user group — their goals, technical skill level, frustrations, and the tasks they actually perform — built from interviews and, where available, usage analytics rather than assumption. In legacy modernization, personas serve a specific and valuable purpose: they stop the team from defaulting to rebuilding every existing feature simply because it existed in the old system, by forcing an explicit answer to which user type actually needs which capability. Referencing three to five well-researched personas during prioritization and design review keeps discussions anchored in real user needs instead of technical preference, though the practice only helps if the personas are grounded in genuine research — personas built on assumption can mislead a team just as confidently as no personas at all.
+
 ## How to Apply ◆
 
 > In legacy modernization, personas help teams understand who actually uses the old system and what they need, rather than simply replicating every existing feature.

@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Data aggregation summarizes fine-grained records into compact, pre-computed units — hourly, daily, or monthly totals, averages, or counts — so that queries needing an overview no longer have to scan and recompute over the full volume of raw data each time they run. The mechanism separates the concern of collecting detailed data from the concern of answering summary questions about it: detailed rows keep accumulating at the source, while a separate aggregation process periodically or incrementally rolls them up into secondary tables or materialized views tailored to known reporting needs. In legacy systems, this matters because years of uncontrolled data growth combined with reporting queries that were designed for a much smaller dataset routinely turn dashboards and periodic reports into multi-minute operations that compete with transactional workloads for the same database resources. Aggregation lets a legacy system keep its detailed history intact for audit and drill-down purposes while giving reporting consumers a dataset that is orders of magnitude smaller and cheaper to query. Because the aggregates are derived rather than authoritative, they also provide a natural boundary at which fine-grained data can later be archived or discarded without affecting the summaries that most consumers actually rely on.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

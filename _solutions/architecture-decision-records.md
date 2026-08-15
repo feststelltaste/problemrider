@@ -41,6 +41,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+An architecture decision record captures a specific decision — what was chosen, what alternatives were considered, and why — as a short, permanent document stored alongside the code it concerns. Legacy systems accumulate decisions whose rationale nobody remembers, forcing every new maintainer to reverse-engineer intent from code alone or to re-litigate settled questions from scratch. Writing ADRs retroactively for the most consequential past decisions, and proactively for every decision going forward, turns that undocumented history into a traceable record that explains not just what the system does but why it looks the way it does.
+
 ## How to Apply ◆
 
 > In legacy systems, the absence of decision rationale forces every team member to reverse-engineer intent from code, so ADRs work best when introduced retroactively for the most impactful past choices and proactively for all future ones.

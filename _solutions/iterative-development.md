@@ -43,6 +43,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Iterative development delivers working software in short, fixed-length cycles — a demonstrable increment every one to four weeks — rather than committing to a single long release built against upfront assumptions that, in legacy modernization, are especially likely to be wrong. Trading the illusion of long-range certainty for short-range predictability backed by actual delivered evidence matters most exactly where trust has already been damaged by a history of missed deadlines and cancelled multi-year rewrite attempts, since a track record of small, kept commitments is what rebuilds stakeholder confidence that a big upfront plan never could. The real difficulty in legacy contexts is that early iterations often have to spend their capacity on foundational plumbing — test automation, deployment pipelines — before any business-visible feature appears, which can look like slow progress to stakeholders expecting features from iteration one.
+
 ## How to Apply ◆
 
 > In legacy systems where long release cycles, big-bang deployments, and waterfall-style planning have become the norm, iterative development introduces short, predictable delivery cycles that reduce risk and restore stakeholder confidence through demonstrated progress rather than promised progress.

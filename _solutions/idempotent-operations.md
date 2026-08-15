@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Idempotent operations are operations whose result is the same whether they are executed once or multiple times with the same input — an outcome achieved through techniques such as idempotency keys, upsert-based database writes, and consumers that check whether a message's work has already been completed before acting on it again. Where idempotency design describes the activity of retrofitting this property into a legacy system's operations, idempotent operations describes the resulting property itself: the standing guarantee that a caller, message broker, or retry mechanism can rely on when deciding whether it is safe to resend a request. This guarantee matters disproportionately in legacy architectures because their integration points — batch file transfers, message queues, point-to-point API calls built before "at-least-once delivery" was a named concern — were frequently designed assuming a request would be processed exactly once, an assumption that unreliable networks and distributed message redelivery routinely violate in practice. Once operations are made idempotent, error handling collapses considerably: instead of building bespoke compensation logic for every possible partial failure, a caller can simply retry and trust that the outcome will not change, and message consumers can tolerate redelivery without special-casing it. The corresponding cost is the storage and lifecycle management of idempotency keys and cached results, and the reality that some workflows resist idempotency altogether and need a different strategy, such as distributed transactions or sagas, to handle repeated or partial execution safely.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

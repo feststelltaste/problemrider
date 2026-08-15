@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Data integrity comprises the constraints and mechanisms — foreign keys, uniqueness and check constraints, transactional atomicity, and complementary application-level validation — that keep stored data accurate, internally consistent, and free of contradictions such as orphaned references or impossible values. The core mechanism is defense at multiple levels: database-level constraints act as a hard backstop that rejects invalid states regardless of which application code path attempted to create them, while application-level validation catches problems earlier and provides better error messages, and neither substitutes for the other. In legacy systems, integrity constraints are frequently missing entirely because they were never added during initial development or were deliberately relaxed to work around some now-forgotten obstacle, and the result, after years of operation, is an accumulation of silently corrupted data: contacts pointing at deleted companies, duplicate entities, and inconsistencies that only surface when someone tries to build a reliable report or migration on top of the data. Restoring integrity to such a system is necessarily incremental, since constraints cannot simply be turned on over data that already violates them — existing violations first have to be found and resolved, often through purpose-built cleanup scripts, before the constraint that would have prevented them can be safely enabled. Once in place, these constraints convert data quality problems from a recurring investigative burden into build-time or transaction-time failures that surface immediately, at the moment the bad state would otherwise have been created.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Physical security protects the actual hardware a legacy system runs on — server rooms, network closets, removable media, workstations with direct system access — from unauthorized access, theft, tampering, and environmental damage, through structural and organizational controls such as badge access, environmental monitoring, and visitor management. Legacy infrastructure is disproportionately exposed here because it often predates modern facility standards and has accumulated shared keys, undocumented access, and unmonitored entry points over years of operation, none of which any logical security control can compensate for: physical access to the hardware defeats software protections entirely. Establishing individually tracked access credentials, environmental monitoring, and secure destruction procedures for retired media closes an attack surface that is easy to overlook precisely because it is not a code or network problem, but it requires facilities investment that competes with other security priorities for budget.
+
 ## How to Apply ◆
 
 > Legacy systems often run on physical hardware in server rooms with outdated or inadequate physical access controls. Physical security protects IT infrastructure from unauthorized physical access, theft, tampering, and environmental hazards.

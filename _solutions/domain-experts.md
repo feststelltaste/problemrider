@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Involving domain experts directly means embedding people with deep business knowledge inside the development team's daily work — reviews, pairing sessions, walkthroughs — rather than treating them as a resource reachable only through a formal request channel when a question happens to come up. This is particularly consequential for legacy systems, where the people who originally encoded the business rules into the software have frequently left the organization, leaving behind logic that runs correctly but whose rationale, edge cases, and assumptions are no longer known to anyone actively maintaining the system. A domain expert working alongside developers can validate whether extracted or reimplemented business rules are actually complete and correct, and can catch the specific and costly failure mode where a legacy implementation faithfully encodes a rule that was superseded by a regulatory or business change years ago but never updated in the code. Their presence also closes the stakeholder-developer communication gap in real time, during design and implementation, rather than after a feature has already shipped with a misunderstanding baked in. Because expert time is scarce and a single expert's account can still reflect an idealized rather than actual process, their knowledge should be captured in structured, durable documentation as it is transferred, reducing the risk that critical understanding once again becomes concentrated in one person who might eventually leave.
+
 ## How to Apply ◆
 
 - Embed domain experts directly in development teams rather than having them available only through formal request channels.

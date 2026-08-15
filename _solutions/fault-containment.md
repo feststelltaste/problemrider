@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Fault containment limits the blast radius of a failure to the specific component where it originated, using techniques such as bulkhead isolation of resources, separate thread or connection pools per functional area, circuit breakers at integration boundaries, and process- or container-level isolation, so a fault in one part of the system cannot exhaust resources or propagate failures into unrelated parts. This addresses a defining characteristic of many legacy monoliths: components that were never designed with failure isolation in mind end up sharing a single process, memory space, and resource pool, so that a fault in a peripheral feature — a reporting module running out of memory, for instance — can take down an entirely unrelated critical path that happens to share the same server. Introducing isolation boundaries around the highest-risk components, with timeouts on every cross-component call so a slow dependency cannot silently block everything downstream of it, turns an all-or-nothing failure mode into a contained, recoverable one and creates natural seams that also support incremental modernization later. The cost is that retrofitting isolation into a monolith is itself substantial refactoring work, duplicates resources across the newly separate fault domains, and requires monitoring specifically built to detect faults that, by design, no longer surface as a full outage.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

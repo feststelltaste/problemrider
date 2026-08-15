@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Vertical scaling increases the capacity of a single component — more CPU cores, more memory, faster storage — rather than distributing load across additional instances, and it requires no changes to application code, which makes it the fastest available lever for relieving a performance bottleneck. Its appeal in legacy contexts is precisely that it can be applied without touching software that nobody fully understands anymore: a legacy application whose architecture assumes a single-instance deployment, or that simply cannot be safely refactored for horizontal scaling on any reasonable timeline, can often still be given meaningfully more headroom just by upgrading the hardware or infrastructure it already runs on. The mechanism only pays off, however, if the actual bottleneck is correctly diagnosed first — CPU, memory, I/O, or network — since throwing additional resources at a component that isn't the real constraint accomplishes nothing. Because vertical scaling has a hard ceiling determined by available hardware and a non-linear cost curve as instances get larger, it functions best as a deliberate short-term measure that buys time and breathing room for a legacy system under acute performance pressure, rather than as a permanent substitute for addressing the architectural bottlenecks that limit any single instance's capacity. Used this way, it converts an urgent capacity crisis into a manageable one, giving the team the room to plan a more structural fix — partitioning, horizontal scaling, or an architecture change — without that planning happening under emergency conditions.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

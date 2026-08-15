@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Code metrics are quantitative measurements of source code properties — cyclomatic complexity, class and method length, coupling between components, duplication percentage — collected automatically through static analysis tools and tracked over time to give an objective, comparable picture of code quality. Rather than relying on developers' subjective sense that "this part of the codebase is bad," metrics translate that intuition into numbers that can be compared across modules, tracked as trends, and communicated to people who are not reading the code themselves. This translation is exactly what legacy modernization efforts need, because technical debt in a legacy system is otherwise largely invisible to the stakeholders who decide where investment goes — they cannot see the tangled logic or brittle coupling that developers feel every time they touch the code, but they can understand a dashboard showing that a handful of classes account for a disproportionate share of complexity and defects. Combining metrics with change-frequency data is what makes them actionable rather than merely descriptive, since it identifies the specific intersection of "complex" and "frequently modified" code where refactoring investment yields the highest return, instead of spreading effort thinly and uniformly across an entire legacy codebase. Tracking metric trends over the course of a refactoring initiative also gives a team concrete evidence of improvement to show stakeholders, converting a qualitative argument about code quality into a quantitative one. The corresponding risk is that metrics can be gamed — complexity numbers can be reduced by mechanically splitting methods without any real gain in comprehensibility — and important quality attributes like naming clarity or architectural fit are not captured by any automated metric at all.
+
 ## How to Apply ◆
 
 > In legacy systems, code metrics make the invisible visible — they quantify the technical debt and complexity that developers feel but cannot easily communicate to stakeholders.

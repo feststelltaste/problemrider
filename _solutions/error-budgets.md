@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+An error budget quantifies the maximum amount of unreliability a system is allowed to accumulate over a period, calculated as the complement of a service level objective — for example, a 99.9% availability SLO leaves a monthly error budget of roughly 43 minutes of downtime. Rather than treating every incident as a unilateral failure to be minimized at all costs, the error budget reframes reliability as a resource that can be spent: as long as consumption stays within the budget, the team is free to prioritize feature velocity, and once it is exhausted, policy dictates that work shifts to stability. This is especially useful in legacy systems trapped in a cycle of shipping features, causing incidents, and then firefighting reactively, because it replaces subjective, often political arguments about "how reliable is reliable enough" with an objective, pre-agreed threshold that both engineering and product stakeholders can see depleting in real time. The mechanism only works, though, if the underlying monitoring can measure reliability accurately and the SLOs are calibrated realistically; done well, it turns the tension between velocity and stability into a managed trade-off instead of a source of blame.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

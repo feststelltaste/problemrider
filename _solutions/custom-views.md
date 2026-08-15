@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Custom views let each user configure which columns, filters, and sort order they see for a given data set, rather than forcing every role to work with the single fixed layout a legacy system typically provides. Because a legacy table was usually built to show every available field to everyone, users doing very different jobs against the same data end up exporting to spreadsheets just to see the subset relevant to their own task — precisely the shadow-system behavior that saved, switchable views are meant to eliminate. The tradeoff is added complexity in the data and rendering layer, and support becomes harder since a reported problem may only reproduce in a configuration the support team cannot see.
+
 ## How to Apply ◆
 
 > Legacy systems typically provide a single fixed view for each data set, forcing all users to work with the same layout regardless of their role or task. Custom views let users tailor the interface to their needs.

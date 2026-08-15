@@ -42,6 +42,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Reforming the code review process means introducing or tightening the review gate that legacy systems frequently lack entirely, so that hotfixes and workarounds no longer enter the codebase completely unchallenged. Beyond catching defects before they merge, a deliberately structured review — small change sets, reviewers rotated across unfamiliar modules, a checklist tuned to legacy-specific risks like hidden side effects in shared state — doubles as a knowledge-spreading and documentation mechanism for systems where both are otherwise thin. The review comments themselves often become the closest thing a legacy module has to a design record, explaining decisions that would otherwise live only in one person's memory.
+
 ## How to Apply ◆
 
 > In legacy systems where quality controls are weak or absent, reforming the code review process is one of the most direct interventions for arresting further decay.

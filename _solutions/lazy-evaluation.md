@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Lazy evaluation defers the computation or loading of a value until the moment it is actually needed, rather than computing it eagerly as soon as it is declared or constructed. The mechanism typically takes the form of a proxy, a supplier or thunk, a generator, or a lazily-initialized ORM association that intercepts the first access and only then performs the expensive work — database query, object construction, or computation — caching or discarding the result afterward as appropriate. Legacy systems frequently default to eager initialization because it is simpler to reason about at write time: entire object graphs, collections, or configuration trees are loaded up front regardless of whether a given code path will ever use them, which becomes increasingly expensive as the system's data volume grows over the years while the eager-loading code itself is never revisited. Applying lazy evaluation to such code shifts cost from "always, whether needed or not" to "only when actually used," which is especially effective in legacy systems where a large fraction of preloaded data serves rarely exercised features or edge cases. The tradeoff that matters most in a legacy context is that lazy evaluation trades predictable, front-loaded latency for latency that appears unpredictably at first access, which can surface as new, hard-to-diagnose slowdowns unless the team accounts for it explicitly, particularly around the N+1 query problem in lazily-loaded ORM relationships.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Business event processing models significant occurrences in a business's operation — an order placed, a payment received, a shipment dispatched — as explicit, named events published to an event bus or message broker, rather than as implicit steps buried inside a larger procedural transaction. The mechanism decouples the system that recognizes an event from every system that needs to react to it: producers publish what happened without knowing or caring who is listening, and consumers subscribe to the events relevant to them and process them independently, often asynchronously. This directly targets a pattern common in legacy systems, where a single procedural transaction spans multiple business concerns — inventory, billing, shipping — inside one all-or-nothing database transaction, so that a failure anywhere in the chain fails the entire operation and no single business event is ever visible or traceable on its own. Restructuring such a legacy workflow around explicit events lets each concern be handled, scaled, and even replaced independently, and it makes business logic traceable through an event stream instead of buried in procedural code that only reveals its behavior by being read line by line. The cost is that immediate consistency gives way to eventual consistency, which a legacy system's design and its users may have implicitly relied on, and event-driven flows are inherently harder to trace and debug than a single synchronous call stack, so compensating transactions and monitoring become necessary additions rather than optional ones.
+
 ## How to Apply ◆
 
 - Identify key business events in the legacy system (order placed, payment received, shipment dispatched) and model them explicitly rather than embedding them in procedural flows.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Keyboard support makes every interactive element in an application fully operable without a mouse — reachable in a logical tab order, triggerable with Enter or Space, navigable in custom controls with arrow keys — rather than assuming, as legacy interfaces built for mouse-and-desktop use commonly do, that clicking is the only way in. That assumption excludes users with motor disabilities entirely and slows down everyone else who would be faster with a keyboard shortcut, which is why full keyboard operability functions as both an accessibility requirement and a real productivity feature at once. Retrofitting it into custom legacy controls — a drag-and-drop list, a bespoke date picker — that were built with only mouse interaction in mind is usually the hardest and most refactoring-heavy part of the work.
+
 ## How to Apply ◆
 
 > Legacy systems often require mouse interaction for critical operations, excluding keyboard-only users and slowing down power users who prefer keyboard shortcuts. Full keyboard support is both an accessibility requirement and a productivity feature.

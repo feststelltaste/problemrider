@@ -25,6 +25,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Ping is the simplest form of availability monitoring: a monitoring system actively sends periodic requests to a component and treats the response — or its absence — as the signal of whether that component is up. Using application-level pings, such as an HTTP request or a lightweight database query, rather than network-level ICMP alone, catches failures from the actual perspective a real caller experiences, which matters for legacy components that may respond to a network ping while their application logic has silently stopped functioning. This technique is valued in legacy environments precisely because it requires no instrumentation of the component itself — it works against anything that can respond to a request — making it a low-cost way to close a monitoring gap in systems too old or too fragile to modify directly, at the cost of only detecting failures a response can reveal rather than deeper functional correctness.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

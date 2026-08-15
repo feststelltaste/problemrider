@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Version control for compatibility is the practice of deliberately tracking, branching, and governing changes that affect how different consumers of an API, library, or data format can interoperate with it, so that compatibility-relevant decisions are made explicitly rather than emerging as a side effect of whatever the current maintainers happen to change. This typically means maintaining parallel supported versions for a defined deprecation window, documenting a compatibility matrix of which versions work together, and running automated compatibility tests across the combinations still in active use. It addresses a specific failure mode common around legacy integrations: a central system serves many consumers that were built at different times and are on different upgrade cycles, and without a deliberate versioning discipline, any change made for one consumer's benefit risks silently breaking another that nobody thought to check. The practice is what allows a legacy platform to keep evolving — applying security fixes, adding capabilities — without forcing every dependent integration to upgrade in lockstep, which is rarely realistic when some consumers are maintained by external parties with their own release schedules. The cost is real: maintaining multiple live versions and backporting fixes across them is genuinely more work than maintaining one, which is why the practice pairs a firm deprecation policy with the parallel-version support, so that the burden of supporting old versions does not simply accumulate indefinitely.
+
 ## How to Apply ◆
 
 - Maintain parallel version branches for legacy APIs and libraries that have consumers on different upgrade timelines.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Database abstraction inserts a dedicated data access layer — an ORM, repository interfaces, or a hand-built adapter layer — between business logic and the raw SQL or database-specific constructs a legacy system depends on, so that consumers of data interact with an abstraction rather than directly with the underlying database engine's dialect and features. Queries and persistence logic pass through this layer instead of being written inline throughout the codebase, and any operation that genuinely requires vendor-specific functionality is isolated into clearly marked adapter modules rather than left scattered through business code. This is central to legacy modernization because legacy codebases frequently accumulate thousands of raw, vendor-specific SQL statements over the years — proprietary functions, dialect-specific syntax, embedded stored procedure calls — that couple the entire application tightly to one database vendor and make it effectively impossible to test business logic without a live database connection. Once abstracted, the same interfaces that hide the database vendor also make substituting an in-memory or test implementation for unit testing straightforward, decoupling correctness testing from database availability. Migrating a legacy system's queries into the abstraction layer is necessarily incremental given the sheer volume typically involved, but it turns a database vendor migration from a rewrite of the entire application into a bounded exercise focused on the abstraction layer and its adapters.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

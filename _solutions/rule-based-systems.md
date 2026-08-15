@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A rule-based system extracts business logic that would otherwise be buried in deeply nested conditionals, sprawling switch statements, or procedural code into an explicit collection of discrete rules, each expressed as a clear condition-and-action pair, typically evaluated by a dedicated rule engine rather than embedded inline in application code. This makes the logic legible on its own terms, independent of the surrounding code's structure, and — depending on the chosen rules format — potentially reviewable or even editable by domain experts rather than only by developers who can read the original implementation. The technique is particularly valuable when modernizing legacy systems whose business logic has accreted over many years across thousands of lines of procedural code, since that logic is frequently the single largest source of both risk and value in the system: risk, because nobody fully understands what all of it does or why; and value, because it encodes years of accumulated business decisions, regulatory adjustments, and edge-case handling that cannot simply be discarded. Extracting this logic into explicit rules, with domain experts validating each one against their understanding of the business, often uncovers rules whose original purpose has been forgotten, rules that now conflict with each other, and rules that no longer reflect current regulations — discoveries that are themselves valuable inputs to the modernization effort. Because the extraction can proceed incrementally, rule by rule, without requiring a big-bang rewrite of the surrounding system, it offers a practical path to detangling legacy business logic that a full rearchitecture would make prohibitively risky.
+
 ## How to Apply ◆
 
 > In legacy systems, extracting tangled business logic into explicit rules makes behavior visible, testable, and modifiable by domain experts rather than requiring deep code archaeology.

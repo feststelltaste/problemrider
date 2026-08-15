@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Infrastructure as Code defines servers, networks, and configuration as version-controlled definitions that provision the environment reproducibly, replacing years of manual, undocumented changes applied directly by whoever happened to be handling operations that day. Legacy infrastructure is where this manual accumulation is most severe and most dangerous: environments that have drifted apart in ways nobody fully understands, resources whose original purpose only one departed engineer ever knew, and a "works in production but not staging" problem rooted entirely in that drift. Importing existing resources into IaC incrementally, starting with whatever changes most frequently and causes the most incidents, converts that invisible and undocumented state into something auditable and reproducible — though the migration itself carries real risk, since state file corruption or an incautious import can be as disruptive as the problems it's meant to fix.
+
 ## How to Apply ◆
 
 > Applying Infrastructure as Code to a legacy system means converting years of accumulated manual configuration and tribal knowledge into version-controlled, auditable definitions — starting with the most volatile and least understood parts of the infrastructure.

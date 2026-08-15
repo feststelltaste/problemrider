@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Abstraction layers introduce technology-neutral interfaces between business logic and the hardware, vendor SDKs, or platform-specific APIs that the logic depends on, so that the concrete implementation behind the interface can be swapped without touching the code that uses it. Each supported platform or vendor gets its own adapter implementing the shared interface, and dependency injection wires the correct adapter in at runtime based on the deployment environment. Legacy systems often accumulate direct dependencies on a single vendor's SDK or a specific hardware platform because that was the only option available when the system was built, and over years this turns a single vendor's business decision — a price increase, an end-of-life announcement, a licensing change — into an existential risk for the whole system. By interposing an abstraction layer, the business logic becomes independent of any single supplier, and a vendor or platform migration becomes a matter of writing a new adapter rather than rewriting the application. This is particularly valuable in legacy modernization because it allows the old and new platform to run side by side during a gradual cutover, rather than forcing a risky big-bang replacement. The approach does add a layer of indirection, so it is typically introduced first at the most painful and highest-risk coupling points rather than applied uniformly across the entire system.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

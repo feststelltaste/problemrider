@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Event-driven integration replaces direct, synchronous calls between systems with asynchronous messages published to and consumed from a broker, so that producers emit immutable facts about what has happened rather than issuing commands to consumers that must be available and responsive right now. This decouples the two sides both temporally and spatially: a consumer that is down, slow, or not yet built does not block the producer, and the broker buffers messages until the consumer catches up. In legacy systems built around long chains of synchronous calls between components, this coupling is often the direct cause of cascading failures, where one slow or unavailable downstream service degrades or breaks the entire request, and of the difficulty of adding new consumers without touching the producer's code. Introducing a broker such as Kafka or RabbitMQ at the highest-value integration points, and doing so incrementally rather than all at once, lets a team break this coupling gradually while keeping the legacy producer largely intact, though it also trades immediate consistency for eventual consistency and introduces new operational surface area — broker infrastructure, dead-letter queues, message ordering — that synchronous calls never had to deal with.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

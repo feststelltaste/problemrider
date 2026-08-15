@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Evolutionary requirements development refines requirements progressively, in short cycles with concrete examples, rather than attempting to specify everything completely before implementation begins. This matters especially for legacy modernization, where the original stakeholders who could have written a complete specification are frequently gone and the actual requirement is whatever undocumented behavior the current system happens to exhibit — something that can only be discovered through iterative refinement with the people using the system today, not derived from a document. Maintaining a continuously groomed backlog instead of a specification frozen and approved once keeps the process honest about how much is genuinely known at any given point, though it demands sustained stakeholder availability that is often scarce precisely because those same people are busy keeping the legacy system running.
+
 ## How to Apply ◆
 
 > In legacy systems where requirements were often defined years ago and the original stakeholders may no longer be available, evolutionary requirements development replaces the impossible goal of complete upfront specification with a disciplined process of progressive refinement that keeps pace with actual understanding.

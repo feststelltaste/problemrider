@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A subject matter review has domain experts examine a completed piece of work against real business scenarios, rather than against the acceptance criteria developers themselves wrote, so that the review can catch business-logic errors no amount of technical testing would surface. This is especially important in legacy modernization, where the true specification for a replacement system's behavior is frequently the tacit knowledge of the people who use the legacy system daily rather than anything documented, meaning a technically correct reimplementation can still be quietly wrong in ways only a domain expert would notice. Walking experts through the replacement using their actual daily workflows, and giving them side-by-side comparisons against legacy output for the same inputs, surfaces discrepancies that automated regression tests — built from the same assumptions as the code — cannot detect on their own. Because domain experts are typically the busiest people in the organization, scheduling these reviews well and structuring them tightly enough to stay focused on quality rather than open-ended feature discussion is what makes the practice sustainable.
+
 ## How to Apply ◆
 
 > In legacy modernization, subject matter reviews ensure that replacement implementations actually match the business intent behind legacy system behavior, not just its technical surface.

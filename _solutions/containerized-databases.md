@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Containerized databases package a database engine, its configuration, and optionally its schema and seed data into a container image, so that a fully working, disposable database instance can be started on demand instead of relying on a single shared server. Legacy development setups commonly funnel every developer and every CI run through one shared database instance, which drifts into an inconsistent schema state as different branches apply conflicting migrations, and which turns test data pollution and provisioning delays into a routine source of friction. Giving each developer and each CI job its own containerized, disposable instance removes that contention entirely: schema migrations can be tried, broken, and reset locally without waiting for a DBA or coordinating with other developers, and a fresh, isolated database is available for every test run. This makes containerized databases especially valuable for validating schema migrations safely before they touch a shared environment, since mistakes only affect a throwaway container. The approach is best suited to development, testing, and CI rather than production use as-is, because it does not automatically replicate production-grade performance, backup, and failover characteristics, and very large legacy datasets may need to be subsetted before they fit into a practical container-based workflow.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

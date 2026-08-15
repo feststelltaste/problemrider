@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A consistent user interface applies the same components, interaction patterns, and navigation structure across every part of an application, so a user who learns one screen already knows how the rest of the system behaves. Legacy systems built by different teams over many years routinely end up with several unrelated navigation paradigms and visual styles coexisting in the same product, forcing users to re-learn the interface every time they move between modules. Introducing a shared component library and style guide, and applying it retroactively to the most heavily used screens first, closes that gap incrementally without requiring a full rewrite of every module at once.
+
 ## How to Apply ◆
 
 > Legacy systems developed over many years by different teams often have wildly inconsistent interfaces. Establishing UI consistency reduces the learning curve and builds user confidence.

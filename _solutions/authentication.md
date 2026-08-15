@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Authentication is the mechanism by which a system verifies that a user or another system is who it claims to be, typically by checking a presented credential (password, token, certificate, or biometric factor) against a securely stored reference and issuing a session or token that stands in for that verified identity in subsequent requests. Its correctness depends entirely on implementation details — the strength of the password hashing algorithm, the unpredictability of session tokens, the presence of rate limiting and account lockout — details that are exactly where legacy systems tend to have drifted furthest from current practice. Custom-built authentication logic written years or decades ago frequently predates modern hashing standards, uses sequential or otherwise guessable session identifiers, or leaks information through inconsistent error messages, none of which was considered a serious risk at the time but all of which are now well-understood attack vectors. Because authentication is the gatekeeping layer every other security control sits behind, weaknesses here undermine authorization, audit logging, and data protection regardless of how well those other layers are built. Modernizing authentication in a legacy context is as much a migration problem as a security one: existing credentials, sessions, and integrations must keep working while the underlying mechanism is replaced underneath them, usually through techniques like transparent re-hashing on login rather than a forced, disruptive cutover.
+
 ## How to Apply ◆
 
 > Legacy systems frequently rely on outdated authentication mechanisms — plaintext passwords, weak hashing algorithms, or custom-built authentication logic with known vulnerabilities. Modernizing authentication is a foundational step toward securing any legacy system.

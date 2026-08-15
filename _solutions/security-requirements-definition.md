@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Security requirements definition elicits and documents specific, testable security expectations — derived from regulatory obligations, industry standards, and organizational risk assessments — as an explicit part of the requirements set rather than an implicit assumption nobody has written down. Legacy systems frequently reach a compliance review or an incident only to reveal that no such requirements were ever formally captured, leaving the team unable to say with any confidence which security expectations the system actually meets. Writing requirements as testable statements and tracing them through design, implementation, and testing turns "we assume this is secure enough" into a gap analysis that can be prioritized and acted on, though eliciting requirements that are comprehensive enough to be useful takes real security expertise and close collaboration with stakeholders who do not always agree on priority.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

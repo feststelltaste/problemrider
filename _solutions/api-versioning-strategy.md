@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+An API versioning strategy is an explicit, organization-wide decision about how API versions are identified and routed — via URL path, query parameter, custom header, or content negotiation — paired with a clear, documented definition of what constitutes a breaking versus a non-breaking change. Without such a strategy, legacy systems tend to accumulate versioning conventions ad hoc, as different teams or even different developers on the same team invent their own approach whenever a breaking change becomes unavoidable, leaving the codebase with several incompatible versioning schemes layered on top of each other. Choosing a single mechanism and documenting it as a binding standard removes this inconsistency and lets version routing be implemented once, in a centralized layer such as an API gateway or reverse proxy, rather than reimplemented differently inside every service. This is particularly important during legacy modernization, when new implementations are rolled out gradually alongside old ones and consumers need a stable, predictable way to know which contract they are talking to and when they will need to migrate. A versioning strategy on its own does not prevent version sprawl, however; it must be paired with a deprecation policy that actually retires old versions, or the number of concurrently supported versions will keep growing regardless of how consistently they are labeled.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

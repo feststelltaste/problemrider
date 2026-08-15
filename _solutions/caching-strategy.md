@@ -35,6 +35,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Caching stores the result of an expensive operation — a database query, an external service call, a file read — so that subsequent requests for the same data can be served from memory instead of repeating the original cost. Legacy systems typically evolved without any deliberate caching strategy at all, since the workload at the time never demanded one, which means the same reference data or the same slow external call is fetched fresh on every single request even years later. Introducing caching at the boundaries where it pays off most — reference data, external dependencies, repeated file reads — is one of the highest-return, lowest-risk performance improvements available to a legacy system, provided invalidation is wired into every path that can modify the underlying data, since a missed invalidation path is what turns a cache into a source of silent, hard-to-reproduce staleness bugs.
+
 ## How to Apply ◆
 
 > Legacy systems typically evolved without a deliberate caching strategy. Data is fetched from databases, filesystems, or external services on every request because the original workload never demanded otherwise. Introducing caching requires understanding the system's data access patterns and adding cache layers where they deliver the most benefit with acceptable staleness risk.

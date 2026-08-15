@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+A dead letter queue is a dedicated destination for messages that a processing pipeline has failed to handle successfully after a defined number of retries, capturing the original payload along with error details, retry count, and timestamp instead of discarding the message or letting it block the pipeline behind it. This gives asynchronous processing an explicit failure path: rather than a single poison message stalling the entire queue or a transient downstream outage silently dropping data, failed messages are diverted to a separate location where they can be inspected, diagnosed, and replayed once the underlying issue is fixed. This is particularly important in legacy message-driven systems, which were frequently built with error handling that amounted to logging a failure and discarding the message, an approach that quietly loses data during any downstream outage and leaves no trace of what was lost until a customer or auditor asks about a transaction that never happened. Introducing a dead letter queue converts these silent losses into a durable, inspectable backlog, and pairing it with monitoring on queue depth turns processing failures into an operational signal the team can act on rather than a mystery discovered much later. Because replaying a dead-lettered message re-triggers whatever processing initially failed, the target system needs to tolerate reprocessing safely — an idempotency requirement that dead letter queues expose rather than create, and one that legacy systems built without that guarantee will need to address before replay can be used with confidence.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

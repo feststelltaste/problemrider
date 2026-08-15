@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Direct feedback embeds lightweight mechanisms for capturing user input — rating widgets, feedback buttons, contextual surveys — directly inside the running application, so that reactions to the system are collected at the moment and in the context where they occur, rather than being filtered through help desks, account managers, or periodic surveys. Because the feedback is tied to a specific screen, action, or workflow, it retains the contextual detail that gets lost when complaints travel through intermediaries, and it surfaces problems that users experience but never think to formally report. In legacy systems, this matters because the people who built the original interface are frequently gone, and the assumptions baked into old workflows have often drifted far from what users now actually need or tolerate — direct feedback is one of the few channels that exposes this drift directly from the people living with it daily. It also creates a continuously available signal that developers can consult when deciding which parts of an aging, hard-to-change system are worth the risk and cost of a targeted rework. For this signal to remain useful, feedback must be reviewed, triaged, and visibly acted upon; a channel that only collects complaints without a response loop quickly trains users to stop using it.
+
 ## How to Apply ◆
 
 - Add lightweight feedback mechanisms directly into the legacy application: feedback buttons, rating widgets, or contextual surveys on key screens.

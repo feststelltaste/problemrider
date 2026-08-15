@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Standardized protocols means selecting transport and messaging protocols with broad, multi-vendor ecosystem support — HTTP/2, AMQP, MQTT, gRPC — in place of proprietary protocols that only a single vendor's tooling or middleware can speak. Legacy systems, especially in industrial or telecommunications contexts, often communicate using a protocol that was proprietary from the start or that became a de facto lock-in mechanism over time, meaning the organization's ability to integrate, monitor, or even keep the system running depends entirely on one vendor's continued goodwill, licensing terms, and support lifecycle. This dependency becomes acute the moment that vendor changes its pricing, discontinues the middleware, or simply becomes harder to find developers for, at which point the organization discovers it has no real alternative. Migrating to a standardized protocol — typically via an interim protocol bridge or adapter placed in front of the legacy system so the transition can happen incrementally rather than as a single risky cutover — restores the ability to choose from a broad, competitive ecosystem of tools, libraries, and available engineering talent. The corresponding costs are the development and testing effort of the migration itself, the operational overhead of running a bridge during the transition period, and the possibility that a standardized protocol lacks some specialized feature the proprietary one provided, which must be evaluated before committing to the change.
+
 ## How to Apply ◆
 
 - Inventory all communication protocols currently used across the legacy landscape and identify proprietary or obsolete ones.

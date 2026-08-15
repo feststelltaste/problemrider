@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Optimistic UI updates change what the user sees immediately after an action, before the server has actually confirmed the request succeeded, with rollback logic reverting the interface if the confirmation never arrives. This technique masks the latency of slow backend round-trips by assuming the common case — success — and only paying the cost of correction in the rare case of failure. It is especially useful for legacy systems whose APIs cannot easily be made faster, since the perceived responsiveness of the application can be improved substantially at the presentation layer without touching the backend at all. The approach depends on the server being able to reject the optimistic action safely and idempotently, so it is best applied first to predictable, high-success-rate interactions before extending it to riskier or more consequential operations.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

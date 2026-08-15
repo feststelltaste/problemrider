@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A portability checklist is a structured, maintained list of platform-dependency risks — OS-specific path separators, line-ending conventions, character encoding assumptions, endianness, database-specific SQL, file system assumptions — that reviewers work through during code review, architecture review, and technology selection to catch portability issues before they reach production. It is a process-level solution rather than a technical one: it does not fix anything by itself but forces a systematic, repeatable check that would otherwise depend on an individual reviewer happening to remember the relevant pitfall. This matters for legacy modernization because portability assumptions baked into old code are usually invisible until the system is actually moved to a new platform, and by then the fix is far more expensive than catching the assumption during the original code review. A checklist also functions as institutional memory: it captures the platform quirks a team has been burned by in the past and passes that knowledge to new team members who were not present when the original portability incident occurred. Its main limitation is that a checklist is only as good as the discipline behind it — manual checklist items risk becoming a perfunctory rubber stamp under time pressure, and portability issues outside the enumerated categories will simply be missed regardless of how thoroughly the listed items are checked.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

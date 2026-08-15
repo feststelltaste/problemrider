@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+An API gateway is a single entry point placed in front of one or more backend services that centralizes concerns such as protocol translation, request routing, versioning, authentication, and rate limiting, so that consumers interact with one consistent interface regardless of how heterogeneous or fragmented the services behind it actually are. In legacy environments this is frequently the fastest way to make old, hard-to-consume interfaces — a collection of aging SOAP services, for instance — usable by modern clients without touching the legacy implementations at all, because the gateway can perform protocol translation (such as SOAP to REST, or XML to JSON) and present a clean, modern-looking API on the outside. Placing cross-cutting concerns like authentication and logging at the gateway also removes the need to reimplement them consistently inside every legacy service, many of which may have grown their own incompatible ad hoc versions of these concerns over the years. Because the gateway becomes the single seam between consumers and whatever runs behind it, it enables incremental backend migration: a service behind the gateway can be replaced or rewritten without changing anything the consumer-facing contract exposes, as long as the gateway's routing and transformation rules are updated accordingly. This concentration of responsibility is also the gateway's main risk, since it becomes a single point of failure that must be built for high availability, and if left unchecked it can accumulate business logic that properly belongs in the services themselves rather than in the routing layer.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

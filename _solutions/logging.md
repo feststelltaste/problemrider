@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Logging is the practice of instrumenting a system to record structured, contextual information about its own behavior — requests received, decisions made, errors encountered — as it runs, so that what actually happened can be reconstructed after the fact rather than only inferred or guessed at. Effective logging combines consistent severity levels, structured fields such as request and correlation identifiers that let a single transaction be traced across components, and centralized aggregation that makes the resulting records searchable rather than scattered across individual machines. Legacy systems frequently sit at one of two unhelpful extremes: either they log almost nothing beyond a bare process-alive signal, with errors caught and silently swallowed, or they log so voluminously and without structure that genuinely important events are indistinguishable from routine noise — in both cases, when something goes wrong, the team is left reconstructing behavior from memory and speculation rather than evidence. Retrofitting proper logging into such a codebase is invasive, since instrumentation has to be added at many existing entry points, error handlers, and integration boundaries that were never designed with observability in mind, but it directly targets the debugging difficulties and slow incident resolution that are otherwise chronic in poorly instrumented legacy systems. Because logs can also become a liability, the same effort must ensure sensitive data — credentials, tokens, personal information — is never written to them, which is easy to overlook when logging statements are added ad hoc under time pressure rather than following a deliberate policy.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

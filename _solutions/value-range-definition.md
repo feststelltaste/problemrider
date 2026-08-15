@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Value range definition makes the acceptable bounds for an input or output field an explicit, enforced rule — a minimum, a maximum, a set of valid states — rather than an implicit assumption that lives only in whatever behavior the code happens to exhibit. In legacy systems these bounds are frequently unenforced or enforced inconsistently across different entry points, so the same field might be validated strictly in one screen and accepted unchecked through a batch import or a direct database update, with no single place where the actual rule is written down. Making the range explicit requires first observing what values production data actually contains, since documentation is often stale or missing, and then codifying validation at every boundary the value can enter through, so that invalid data is rejected at the edge rather than propagating inward where it becomes progressively harder to trace back to its origin. This matters especially for modernization efforts, where a legacy system's silent tolerance of technically invalid values — negative stock quantities used as an informal back-order mechanism, for example — often turns out to encode an undocumented business practice that a stricter replacement system will reject outright unless that practice is deliberately modeled rather than merely blocked. Getting value ranges right therefore requires distinguishing between values that are actually invalid and values that reflect a real, if undocumented, business rule the legacy system was quietly accommodating.
+
 ## How to Apply ◆
 
 > In legacy systems, value ranges are often enforced inconsistently or not at all — making them explicit prevents data corruption and catches integration errors at system boundaries.

@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A powerful search function lets users find any record, document, or feature by typing what they remember about it, rather than navigating a deep menu hierarchy or scrolling a long list — something many legacy systems never offer at all. Its absence is what drives users to build their own private lookup systems, memorized folder paths, or personal spreadsheets mapping names to locations, because the alternative the system itself offers is simply too slow. Full-text search with fuzzy matching and faceted filtering eliminates that need almost immediately, but it depends on indexing infrastructure the legacy system's data model may not currently support, and results have to respect the same authorization boundaries the rest of the system enforces or the search becomes a security gap of its own.
+
 ## How to Apply ◆
 
 > Legacy systems often lack search functionality entirely, forcing users to navigate through deep menu hierarchies or scroll through long lists to find what they need. A powerful search function is one of the highest-impact usability improvements.

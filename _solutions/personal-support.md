@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Personal support puts trained staff with real knowledge of a specific system's quirks, workarounds, and history in front of users who can't resolve an issue themselves, rather than routing them to a generic help desk with no system-specific context. Legacy systems particularly need this because they tend to lack the self-service documentation a newer system might have, and their complexity often exceeds what a generalist support agent can meaningfully help with. A ticketing system that tracks every interaction turns this from a pure cost center into a data source — revealing which recurring problems are actually worth fixing in the system itself rather than being explained to users indefinitely, though over-relying on personal support can let exactly those underlying usability problems go unaddressed for years.
+
 ## How to Apply ◆
 
 > Legacy systems are complex and often lack self-service help resources. Trained personal support provides a safety net for users who cannot resolve issues on their own.

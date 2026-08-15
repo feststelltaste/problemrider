@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Transparent performance metrics make system response times, error rates, and throughput openly visible to everyone with a stake in the system's health, not just the operations team that happens to have access to the monitoring backend. In practice this means putting real dashboards where developers, product owners, and sometimes customers can actually see them, rather than leaving performance data buried in logs that only get consulted after something has already gone wrong. Legacy systems are especially prone to the opposite condition: performance degrades gradually over years, each individual regression too small to trigger an alert, and because nobody outside operations was watching, the erosion becomes visible to the business only once it has become severe enough to generate complaints. Making the same data openly visible closes that gap by turning performance from an operations-only concern into a shared, ambient fact that product managers, developers, and stakeholders absorb continuously rather than encountering as a surprise. It also creates a natural feedback loop after every deployment, since a regression becomes immediately attributable rather than getting lost in a slow accumulation of "the system feels slower lately." The practice requires enough instrumentation to produce meaningful metrics in the first place, which is not always present in older systems, and it demands care in how the numbers are presented so that a non-technical audience does not misread them or lose confidence unnecessarily.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

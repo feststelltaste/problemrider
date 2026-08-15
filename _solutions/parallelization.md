@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Parallelization decomposes independent units of work so they execute concurrently across multiple cores, threads, or processes instead of one after another. Many legacy systems were written as single-threaded batch jobs or request handlers at a time when hardware was the bottleneck rather than the software's ability to use it, so they leave modern multi-core capacity almost entirely unused. Identifying which parts of a workload are truly independent — records in a batch, requests in a queue, tests in a suite — and executing them concurrently can produce near-linear speedups for exactly those workloads, without changing what the code actually computes. The catch is that legacy code frequently carries hidden shared mutable state, and parallelizing around it without first eliminating or properly synchronizing that state introduces race conditions and deadlocks that are far harder to diagnose than the performance problem it was meant to solve.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

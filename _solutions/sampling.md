@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Sampling processes and analyzes a representative subset of data rather than the complete dataset, using a strategy — random, stratified, or reservoir sampling among others — chosen to match the statistical requirements of the task, and applied at the point of data collection so that only the necessary subset is ever gathered in the first place. This is particularly effective for workloads such as monitoring, trend analysis, and testing, where processing every single data point adds cost without adding proportional insight, and where a well-chosen sample yields conclusions statistically indistinguishable from analyzing the full dataset. Legacy systems frequently accumulate monitoring, logging, and tracing data at a volume that was never anticipated when the original collection mechanism was designed, and by the time this becomes a problem, the exhaustive collection habit is often too deeply embedded in the system's operational tooling to simply switch off; sampling offers a way to reduce that volume dramatically without abandoning observability altogether. It is especially useful when combined with stratification that guarantees full capture of the rarest and most important events — such as capturing 100 percent of error traces while sampling only a small fraction of successful ones — so that the exact cases most valuable for debugging are never the ones lost to the reduction. Because sampled results are approximations rather than exact figures, the methodology and its confidence intervals need to be documented and periodically validated against full-data analysis, so that consumers of the sampled data understand its limitations rather than mistaking it for a complete record.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -42,6 +42,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+SOLID collects five object-oriented design principles — single responsibility, open/closed, Liskov substitution, interface segregation, dependency inversion — into a shared, concrete vocabulary for what a well-structured class actually looks like. In legacy systems this is rarely an academic exercise: a god class that has absorbed a dozen unrelated responsibilities over years of feature additions, or a conditional chain that gets a new branch every time a variant is added, are both direct violations that make every subsequent change more expensive than the last, and naming exactly which principle a piece of code violates turns a vague "this feels wrong" code review comment into an actionable, specific suggestion. Applied incrementally, starting wherever the pain from a violation is currently worst, SOLID gives developers with a procedural background a structured path into object-oriented thinking, though applying it mechanically — an interface for every class regardless of whether a second implementation will ever exist — creates its own kind of unnecessary indirection.
+
 ## How to Apply ◆
 
 > In legacy systems, SOLID principles are not an academic exercise — they are the most direct path to reducing the pain of every change. Introducing them incrementally, starting where the pain is worst, transforms a codebase that resists change into one that accommodates it.

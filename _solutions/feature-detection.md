@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Feature detection queries a runtime environment for whether a specific capability is actually present — testing for a concrete API or behavior directly — rather than branching on a version number or identifier and assuming what that version implies about available functionality. Legacy codebases that branch on version strings, such as browser user-agent sniffing or OS version checks, are fragile in a specific way: the assumed correlation between a version number and a capability breaks the moment a new version changes what it supports, or a previously reliable identifier gets spoofed or deprecated, and every such break requires another round of manual updates to the version-matching logic. Replacing these checks with direct capability probes, encapsulated behind an abstraction layer with a graceful fallback for every detected absence, removes that maintenance burden entirely and lets the same code run correctly across a wider and less predictable range of environments, degrading smoothly rather than failing outright where a capability is missing. The cost is a small amount of runtime overhead for the probes themselves, less exercised fallback code paths that can hide their own latent bugs, and added branching complexity from maintaining multiple execution paths side by side.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

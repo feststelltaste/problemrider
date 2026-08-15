@@ -39,6 +39,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Automated tests, run regularly rather than by hand, verify that software still behaves as expected after a change — but building this coverage into a legacy system that has none means starting with characterization tests that record what the code actually does today, including its bugs, rather than jumping straight to asserting what it should do. Because a legacy codebase without tests makes every change a gamble against silent regression, the right strategy targets coverage where it delivers the most safety per hour invested: the payment flows, authentication logic, and integration points that change often and cause real damage when broken, rather than chasing uniform coverage across code nobody touches. Achieving meaningful coverage this way takes months of consistent, disciplined effort, and a badly written test — one that asserts something so broad it can never fail — creates exactly the false confidence that a real test suite is supposed to prevent.
+
 ## How to Apply ◆
 
 > Legacy systems typically operate without automated tests, making every change a gamble against regressions; building test coverage strategically — starting with the highest-risk code rather than pursuing uniform coverage — delivers safety where it matters most without halting delivery.

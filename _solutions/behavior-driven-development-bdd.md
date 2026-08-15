@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Behavior-driven development structures both specification and testing around Given-When-Then scenarios written in a shared, semi-formal language that domain experts, testers, and developers can all read, review, and execute as automated tests through frameworks like Cucumber or SpecFlow. The mechanism forces business behavior to be stated explicitly and unambiguously before implementation, and then keeps that statement executable, so it cannot silently drift out of sync with the code the way a prose specification document typically does. This is particularly valuable in legacy modernization because the actual behavior of an old system is frequently undocumented, encoded only in code paths and the memory of a small number of long-tenured developers, and any rewrite risks silently diverging from decades of accumulated business rules and edge cases that were never written down anywhere else. Running BDD scenarios written against the legacy system's current behavior against a new implementation gives a concrete, business-readable definition of "migrated successfully" — a scenario either passes or it does not — replacing a vague, subjective sense that a migration "looks right." The cost is that this technique depends on sustained access to domain experts to author and validate scenarios, and scenarios that are written too technically or too superficially lose the communication value that is BDD's entire reason for existing over conventional automated tests.
+
 ## How to Apply ◆
 
 > In legacy modernization, BDD creates a shared specification language that captures legacy system behavior in a format both domain experts and developers can verify.

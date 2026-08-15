@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Decision tables extract complex conditional business logic — deeply nested if-else chains or large switch statements — out of code and into a tabular representation that maps combinations of input conditions directly to their corresponding outputs or actions, one row per rule. Structuring the logic this way makes both the individual rules and the completeness of the rule set visible in a form that business stakeholders, not just developers, can review, since gaps (condition combinations no row addresses) and contradictions become apparent as missing or duplicate rows rather than being buried in the control flow of nested conditionals. This is directly relevant to legacy systems because business rules affecting pricing, eligibility, or routing frequently accrete over years into conditional logic so deeply nested that no one, including its original authors, can confidently state what every combination of inputs actually produces. Once extracted into a table and validated against business stakeholders' expectations, the same table becomes the natural source for test cases, since every row is a concrete input-output pair that the implementation needs to satisfy, and re-implementing the logic with a lightweight rules engine or table-driven code shrinks what was previously large amounts of conditional logic to a fraction of its original size. The tradeoff is that not all business logic decomposes cleanly into a flat table of conditions and outcomes, and extracting the rules in the first place requires the same careful domain analysis that made the original logic hard to untangle.
+
 ## How to Apply ◆
 
 - Identify complex conditional logic in the legacy codebase (deeply nested if-else chains, switch statements with many cases) that represents business rules.

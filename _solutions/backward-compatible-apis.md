@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Backward-compatible APIs are interface contracts that evolve only by addition — new optional fields, new endpoints, new response attributes — while existing fields, endpoints, and status codes retain their original meaning and behavior indefinitely, so that clients written against an older version of the contract continue to function unmodified against a newer one. The mechanism relies on both sides holding up their end: the server must never repurpose or remove what already exists, and consumers must act as tolerant readers that ignore fields they do not recognize rather than failing on them. This discipline is especially relevant to legacy systems because their APIs frequently accumulated consumers over many years — internal services, partner integrations, batch jobs — many of which are poorly documented or entirely unknown to the current team, making a coordinated breaking-change rollout across all of them practically impossible. Contract tests that encode old consumers' expectations act as a guardrail, catching accidental breaking changes before they reach production rather than after a partner integration silently fails. The tradeoff is that the API accumulates deprecated fields and dual code paths over time, since nothing is ever cleanly removed without a separate, deliberate deprecation cycle — a cost legacy teams accept because it is smaller than the cost of breaking integrations they cannot even fully enumerate.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

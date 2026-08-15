@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Secure protocols means restricting all network communication — client-server traffic, service-to-service calls, and administrative access — to protocol versions and cipher suites that are currently considered cryptographically sound, and retiring everything else. In practice this covers transport-layer protocols such as TLS, remote access protocols such as SSH, and application-layer protocols like SMTP or database wire protocols, all of which accumulate deprecated versions over a system's lifetime as new vulnerabilities are found and old ones are patched only by version replacement rather than in place. Legacy systems are particularly prone to running outdated protocol versions because upgrading them was never anyone's assigned responsibility, external integration partners froze on whatever version existed when the connection was first built, and the operational risk of touching a working network configuration discouraged proactive upgrades. The mechanism is comparatively simple — protocol version negotiation is a configuration setting on servers and clients rather than an application code change — but its effect is disproportionate: eliminating an entire class of known cryptographic weaknesses at once, rather than patching individual exploits as they surface. Because protocol enforcement sits below the application layer, it can often be rolled out independently of a broader modernization effort, making it one of the more tractable security improvements available for a legacy estate. The main constraint in legacy contexts is compatibility: aging clients, embedded devices, or third-party integrations may simply be unable to negotiate a current protocol version, which turns a configuration change into a coordination and migration problem.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

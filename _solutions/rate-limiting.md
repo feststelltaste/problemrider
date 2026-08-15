@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Rate limiting caps the number of requests a client, API key, or endpoint may make within a given time window, typically enforced at an API gateway or reverse proxy using algorithms such as token bucket or sliding window, with requests beyond the limit rejected with an informative 429 response rather than allowed to overwhelm the backend. This is especially relevant for legacy systems because they were frequently designed and sized for a fixed, bounded set of consumers and a load profile that has since grown well beyond the original assumptions, leaving no architectural headroom to absorb an unexpected surge from a single misbehaving client or integration. A single poorly implemented downstream integration hammering a legacy endpoint can exhaust a shared resource — a database connection pool, for instance — and degrade the experience for every other consumer of that same legacy backend, a failure mode that rate limiting converts from an uncontrolled, system-wide outage into a predictable, isolated rejection of the offending traffic alone. Placed at the gateway, rate limiting protects the legacy system without requiring any change to the legacy code itself, which matters because that code is frequently the part of the system least safe or least understood well enough to modify directly. The tradeoff is that setting effective limits requires an accurate understanding of the legacy system's actual sustainable throughput, and limits set incorrectly either fail to protect the backend or needlessly throttle legitimate high-volume usage during genuine business peaks.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

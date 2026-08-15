@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Standardized data formats are widely adopted, platform-independent representations — JSON, XML, CSV, Protocol Buffers, Avro — used in place of proprietary or custom-built formats for data exchange between systems. A legacy system's proprietary binary format is typically the product of decisions made under different constraints decades earlier, and it persists because replacing it seems riskier than living with it, even though it now means every new integration requires a bespoke parser and a developer who understands undocumented byte-level conventions that only a handful of people in the organization still carry in their heads. Migrating to a standardized format with a published schema (JSON Schema, XML Schema, Avro schema) replaces that tribal knowledge with tooling that exists in every mainstream language and platform, so integration partners can build against the data without custom adapter development. This is particularly consequential in modernization efforts because data migration and system replacement both depend on being able to move data in and out of the legacy system reliably; a proprietary format turns that into a bespoke reverse-engineering exercise, while a standardized one turns it into routine, well-supported work. The main cost is that human-readable, standardized formats such as JSON or XML are generally less compact and slower to parse than the proprietary binary formats they replace, which matters for high-volume exchanges, and that schema evolution has to be actively managed to avoid breaking existing consumers as the format changes over time.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

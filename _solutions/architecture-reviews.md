@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+An architecture review is a structured, recurring evaluation of a system's design — using a format like ATAM or a simple checklist rather than free-form debate — that checks proposed and existing decisions against actual quality requirements and business needs. In legacy systems, this serves a double purpose: it catches coupling, over-engineering, and cargo-culted patterns while the cost of fixing them is still low, and it builds design judgment in the team by making the reasoning behind every decision explicit and open to challenge. Including reviewers external to the team, and holding both new proposals and the existing system's trajectory to the same standard, keeps the review from simply reinforcing the assumptions that produced the current design in the first place.
+
 ## How to Apply ◆
 
 > In legacy systems, architecture reviews serve a dual purpose: they catch design problems before they become entrenched, and they build the design skills that the team needs to stop creating those problems in the first place. The review process itself is a teaching mechanism.

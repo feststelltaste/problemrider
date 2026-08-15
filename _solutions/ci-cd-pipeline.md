@@ -45,6 +45,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+A CI/CD pipeline automates the build, test, and deployment of a change from commit to production, replacing a manual, ritual-based release process with one that is repeatable, auditable, and does not depend on a few people who happen to know the steps by heart. Legacy systems are the environments where this manual ritual is most entrenched and most fragile: deployment knowledge concentrated in one or two people nearing retirement, environment differences nobody has documented, and a release process so risky that teams delay it for months, which only makes the eventual release riskier still. Building the pipeline by first documenting the existing manual process in full, then automating it step by step — build and test first, then database migrations, then automated rollback — turns deployment from a dreaded event into a routine, low-stakes operation, though achieving that for a genuinely legacy environment requires real investment in closing environment inconsistencies that have accumulated for years.
+
 ## How to Apply ◆
 
 > Legacy systems typically rely on manual, ritual-based deployment processes that concentrate knowledge in a few people and make every release a high-risk event; introducing a CI/CD pipeline replaces that fragile ritual with a repeatable, auditable automated process.

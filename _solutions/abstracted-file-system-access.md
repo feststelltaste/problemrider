@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Abstracted file system access replaces direct, platform-specific calls to read, write, and enumerate files with calls through a narrow interface that defines these operations independently of any particular storage backend. Concrete implementations of that interface then handle the details of talking to the local disk, a cloud object store, or an in-memory stand-in used for tests, while the rest of the codebase depends only on the abstraction. Legacy applications frequently accumulate hardcoded file paths, OS-specific path separators, and direct System.IO- or POSIX-style calls scattered throughout business logic, which ties the application to a single deployment environment and makes automated testing dependent on real disk state. Introducing this abstraction lets such code run unchanged across different operating systems and storage technologies, and it is frequently the enabling step for migrating file-based legacy applications into containerized or cloud-native environments where local disk access is no longer guaranteed or desirable. Because file operations are now mediated through an interface, an in-memory implementation can also be substituted in unit tests, removing a common source of slow, flaky legacy test suites. The abstraction must be introduced incrementally in most legacy codebases, since a full, one-shot replacement of file access across a large system is rarely feasible.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

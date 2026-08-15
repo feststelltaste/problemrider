@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Content negotiation lets a single endpoint serve multiple representations of the same resource by having the client and server agree on format, language, and encoding through standard HTTP headers such as Accept, Accept-Language, and Content-Type, rather than exposing a separate endpoint for every representation. Legacy APIs frequently committed early to a single format — often XML — and when a new class of client needed something different, such as JSON for mobile consumers, the path of least resistance was to bolt on parallel, format-specific endpoints that then had to be kept in sync with the originals indefinitely. Content negotiation avoids that duplication by moving the format decision into the request itself: the server inspects what the client is willing to accept and responds accordingly, so old and new clients can be served from the same route during a gradual migration to new formats. Because it relies on well-established HTTP semantics, it is predictable for experienced API consumers and composes naturally with API versioning schemes based on custom media types. The mechanism does add complexity to request handling, serialization, and cache behavior — particularly around the Vary header — and not every HTTP client implements negotiation correctly, which is a relevant constraint when legacy integration partners are involved.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

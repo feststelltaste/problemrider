@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Input constraints replace a free-text field with a control — a dropdown, a date picker, a numeric stepper — that makes it physically impossible to enter certain classes of invalid data, rather than validating bad input only after it's been typed and submitted. Legacy systems frequently use free text for data that actually has a fixed set of valid values, which over years produces dozens of near-duplicate variants of the same concept that make reporting and aggregation unreliable. Replacing the field with a constrained control and a sensible default, based on what most users actually select, prevents this drift going forward, though the legacy database usually needs a one-time cleanup of the existing dirty data before the new constraint can be applied consistently.
+
 ## How to Apply ◆
 
 > Legacy systems often use free-text fields for data that has a constrained set of valid values, leading to data quality issues and user errors. Input constraints guide users toward valid entries.

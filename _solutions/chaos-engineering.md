@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Chaos engineering is the discipline of deliberately injecting controlled failures into a system — killing processes, degrading network connections, exhausting resources, disabling dependencies — in order to empirically validate whether the system's resilience assumptions actually hold, rather than trusting that they do because the architecture was designed that way. Each experiment starts from an explicit hypothesis about expected behavior under a specific fault, and the experiment either confirms that hypothesis or exposes a gap between the assumed and actual failure behavior. This is especially important in legacy systems, where failover logic, retry behavior, and single points of failure have often accumulated undocumented and untested over many years, so that nobody in the current team can say with confidence what actually happens when a given dependency goes down. Rather than waiting for a real production incident to reveal these gaps at the worst possible time, chaos engineering surfaces them under controlled conditions, with the team present, monitoring active, and an abort mechanism ready to halt the experiment if the blast radius grows too large. The practice depends on the system already having reasonably mature observability, since without it the impact of an injected fault cannot be reliably measured or contained, which is often the harder prerequisite in legacy environments that predate proper monitoring. Over time, running these experiments systematically shifts a team's relationship to failure from fear and avoidance toward confidence grounded in evidence, which is often what actually enables faster and more frequent legacy system changes.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

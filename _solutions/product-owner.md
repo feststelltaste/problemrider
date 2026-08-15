@@ -40,6 +40,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A dedicated Product Owner is a single person with genuine authority to decide what the team builds, in what order, and when it's acceptable — replacing the diffuse responsibility that in legacy projects usually means several managers, a committee, or whoever complains loudest all effectively deciding scope independently. That diffusion is what produces the scope chaos and conflicting guidance so common in long-running legacy efforts, since developers have no single authoritative source to check a requirement against and no one with the standing to say no to a request. Concentrating that authority in one accountable person — who takes stakeholder requests directly instead of letting them reach developers unfiltered — only works if the role carries real decision-making power; a Product Owner in name only, who must escalate every choice to a committee anyway, just adds a layer of process on top of the same underlying paralysis.
+
 ## How to Apply ◆
 
 > In legacy system projects where responsibility for what gets built is often diffused across multiple managers, committee decisions, or whoever speaks loudest, a dedicated Product Owner creates the single point of accountability that prevents scope chaos and decision paralysis.

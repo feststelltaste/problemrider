@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Cognitive load minimization restructures an interface around what a user is actually trying to do, rather than around the internal system or database structure the legacy screen happened to expose directly. Legacy interfaces routinely display every available field simultaneously, in whatever order the underlying schema dictates, forcing users to visually scan and mentally filter information that a redesigned screen would simply not show them for that task. Grouping related fields, hiding rarely needed detail behind progressive disclosure, and replacing cryptic internal codes with readable labels reduces the mental effort of using the system, though it has to be done without burying functionality that power users who have memorized the old layout genuinely still rely on.
+
 ## How to Apply ◆
 
 > Legacy interfaces often expose internal system complexity directly to users, creating high cognitive load. Minimizing this load means restructuring the interface around user tasks rather than system structure.

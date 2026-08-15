@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A smoke test is a small, fast suite of end-to-end checks — typically covering login, core transactions, and other operations whose failure would render the system unusable — run immediately after every deployment to confirm that the system is fundamentally operational before any deeper verification occurs. The name comes from hardware testing, where powering on a device and checking for smoke is the first, cheapest possible signal that something is catastrophically wrong. In legacy systems that lack comprehensive automated test suites, smoke testing offers an unusually favorable ratio of protection to effort: it does not require understanding the system's full behavior, only identifying the handful of paths whose breakage would be immediately and severely disruptive. Wired into the deployment pipeline as a gate that blocks promotion or triggers automatic rollback on failure, it converts what would otherwise be an hours-long delay between a broken deployment and its discovery — often via a user complaint — into a signal produced within minutes. This makes smoke testing a practical first investment for teams that are otherwise deploying legacy changes on faith, though its shallowness means it is deliberately unable to catch subtle regressions or edge-case defects, which still require the deeper testing layers it is meant to complement rather than replace.
+
 ## How to Apply ◆
 
 > Legacy systems often lack comprehensive test suites, making every deployment a gamble. Smoke tests provide a lightweight safety net that verifies core functionality works after deployment, catching catastrophic failures before they reach users.

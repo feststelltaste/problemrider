@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Customizing adapts a system's behavior to the specific requirements of different user groups through configuration-driven mechanisms — feature flags, tenant-specific settings, plugin architectures, extension points — rather than through hard-coded, one-size-fits-all logic that treats every user the same way. Legacy systems are especially prone to this rigidity because their core workflows were typically designed around the needs of a single original user group, and as the system's user base diversified over time, groups whose workflows do not match that original design were left to build their own workarounds — spreadsheets, manual processes, shadow systems — outside the software rather than within it. Introducing extension points and configuration-driven behavior lets these divergent needs be met without modifying the core system for each one individually, and critically, without forking the codebase into parallel, separately maintained versions for each user group. Separating customization from core code also protects the investment during upgrades, since custom configuration that lives outside the core system is not at risk of being silently overwritten the next time the underlying software is updated. Left unchecked, however, customization has a tendency to accumulate its own technical debt, since every additional customization point multiplies the testing matrix and creates a new opportunity for configuration-related bugs and unexpected interactions between different customizations.
+
 ## How to Apply ◆
 
 - Identify areas where the legacy system's one-size-fits-all approach fails specific user groups and prioritize customization efforts accordingly.

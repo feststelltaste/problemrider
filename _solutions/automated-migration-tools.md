@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Automated migration tools replace manual, one-off data and configuration transfer procedures with scripted, repeatable pipelines that move information between environments or system versions using version-controlled migration definitions, transformation logic, and built-in validation steps such as checksums and referential-integrity checks. The underlying mechanism treats a migration as code rather than as a sequence of manual commands remembered by whoever ran it last time, which means the same migration can be rehearsed against staging data, reviewed, and rerun deterministically instead of being reconstructed from memory or tribal knowledge under production pressure. This is particularly consequential for legacy systems, where migrations have historically been executed manually by whoever understood the old schema well enough to write the right SQL by hand, a process that is slow, undocumented, and prone to silent data corruption discovered only after the fact. Frameworks like Flyway, Liquibase, or Alembic give that process a structure — explicit versioning, ordered execution, and rollback scripts — that legacy migration practices typically lack entirely. The corresponding cost is that building this tooling for a genuinely messy legacy schema, with its undocumented constraints and inconsistent data, requires real upfront investment, and the automation can still fail on edge cases that a careful human operator might have caught, so validation and rehearsal remain essential rather than optional steps.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

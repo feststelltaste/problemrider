@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Connection pooling maintains a set of pre-established, reusable connections to a resource — most commonly a database, but equally applicable to HTTP clients, LDAP servers, or message brokers — so that requests borrow a ready connection from the pool instead of paying the cost of establishing and tearing down a new one every time. Establishing a connection typically involves a TCP handshake, authentication, and often TLS negotiation, all of which are fixed costs that scale with request volume rather than with actual work done; under load this overhead alone can push a database to its connection limit long before it runs out of real capacity. Legacy applications frequently create a connection per request out of simplicity, a pattern that was invisible at low traffic and only becomes a bottleneck as usage grows, often compounded by connection leaks where code acquires a connection but never returns it. Pooling caps the number of concurrent connections to a size the backing resource can actually sustain, which both improves response times by removing setup latency from the request path and protects the resource from being overwhelmed by unbounded connection growth. Getting the pool size, timeout, and validation settings right is essential, since an undersized or misconfigured pool merely relocates the bottleneck from connection creation to connection queuing.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

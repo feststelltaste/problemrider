@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A style guide documents the visual design, interaction patterns, and code-level conventions a team commits to, as a living, browsable reference rather than a static document nobody consults. Legacy systems built by successive teams over years reliably drift into a state where the finance module's buttons look nothing like the HR module's, because nobody was ever working from a shared standard — the style guide exists specifically to stop that fragmentation from continuing even if it can't retroactively fix everything already built. It only earns its keep if it's genuinely enforced through code review and kept current as new patterns emerge, since a style guide describing conventions the codebase has already moved past becomes exactly the kind of ignored artifact it was meant to prevent.
+
 ## How to Apply ◆
 
 > Legacy systems developed over many years by multiple teams accumulate inconsistencies in visual design, interaction patterns, and code conventions. A style guide establishes standards that prevent further fragmentation.

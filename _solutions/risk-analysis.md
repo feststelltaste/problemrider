@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Risk analysis is the structured process of identifying potential risks to a system — security vulnerabilities, operational weaknesses, unsupported technology, accumulated technical debt — and assessing each by its likelihood and potential business impact, so that limited remediation effort can be directed at the risks that matter most rather than spread thinly across everything that could conceivably go wrong. The output is typically a risk register that names each risk, scores it, assigns an owner, and tracks its mitigation status, turning a diffuse sense of unease about a legacy system into a concrete, prioritized worklist. This matters in legacy modernization because the risks accumulated in an old system are usually numerous, poorly documented, and individually unquantified — everyone senses that the system is risky but few can articulate which specific risk is most likely to cause a costly incident, which makes it nearly impossible to justify a rational investment case for tackling any one of them first. A structured risk analysis exposes patterns that intuition alone misses, such as several seemingly unrelated risks all tracing back to a single unsupported middleware component, which turns a diffuse modernization mandate into a focused, defensible priority. Because legacy systems' documentation is often incomplete, risk scoring in this context necessarily involves genuine uncertainty, and the register itself requires periodic review to stay useful as the system and its environment continue to change.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

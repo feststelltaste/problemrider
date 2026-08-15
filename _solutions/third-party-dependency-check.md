@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A third-party dependency check continuously scans a system's external dependencies — using tools such as OWASP Dependency-Check, Snyk, or Dependabot — against known vulnerability databases and maintenance-status signals, rather than trusting that a library which functions correctly today is also still safe and supported. Legacy systems accumulate dependencies that quietly become unmaintained or vulnerable over years without anyone noticing, precisely because a library with no active issues gives no outward signal that its maintainer disappeared or that a critical vulnerability was disclosed against it. Automating this check inside the CI/CD pipeline, backed by a clear policy for how quickly known vulnerabilities must be addressed, converts an easily neglected manual task into a routine one — though legacy systems with deeply embedded, hard-to-upgrade dependencies still face real risk of cascading version conflicts once an update is actually attempted.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

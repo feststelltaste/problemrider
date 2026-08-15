@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Feedback gives visible or audible confirmation that a user's action — a click, a submission, a command — actually registered, closing the gap left by legacy interfaces that silently complete or silently fail an operation with no acknowledgment at all. That silence is what drives users to click "save" repeatedly or contact support just to confirm something worked, since a system that gives no signal is indistinguishable from one that is broken. Confirmations, progress indicators for anything taking more than a second, and inline validation as users type all close that gap, though feedback that contradicts the actual system state — a "saved successfully" message on a save that silently failed — is worse than saying nothing at all.
+
 ## How to Apply ◆
 
 > Legacy systems often provide no visible feedback for user actions, leaving users uncertain about whether their click, submission, or command was registered. Proper feedback closes this communication gap.

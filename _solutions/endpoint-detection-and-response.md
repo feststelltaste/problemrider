@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Endpoint Detection and Response deploys agents on servers and workstations that continuously monitor process execution, file integrity, and behavioral patterns against an established baseline, enabling both real-time detection of compromise and, where confidence is high enough, automated containment actions such as isolating an endpoint from the network. This is particularly consequential for legacy systems because they frequently run on endpoints — older Windows Server versions, dedicated factory-floor workstations, unpatched Linux hosts — that receive infrequent security patching out of fear of breaking application compatibility, and consequently accumulate known, exploitable vulnerabilities that persist far longer than they would in actively maintained infrastructure. Without EDR, a compromise on such an endpoint can go undetected for months, since legacy systems often lack any application-level security instrumentation of their own and rely entirely on the assumption that nothing bad is happening — an assumption EDR replaces with actual continuous observation. Because legacy systems frequently exhibit predictable, repetitive, low-variance usage patterns, behavioral baselining is often unusually effective at flagging genuinely anomalous activity, such as an unexpected process spawned from a service account that has never behaved that way before. The tradeoffs are concrete: EDR agents consume CPU and memory on servers that may already be resource-constrained, compatibility with older operating systems is not guaranteed, and automated isolation actions carry a real risk of causing an unplanned outage if triggered incorrectly against a critical production endpoint.
+
 ## How to Apply ◆
 
 > Legacy systems often run on endpoints (servers, workstations, terminals) with minimal or no threat detection, making it impossible to identify compromise until significant damage has occurred. Endpoint Detection and Response (EDR) provides continuous visibility into endpoint activity and enables rapid threat response.

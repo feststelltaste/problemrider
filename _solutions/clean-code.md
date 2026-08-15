@@ -47,6 +47,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Clean code applies a small set of readability principles — intention-revealing names, short functions, no hidden side effects, consistent formatting — to make source code easier to understand at a glance, which matters most in exactly the codebases that have accumulated the most cognitive overhead over time. In a legacy system, clean code is not a rewrite; it is a standard applied incrementally to whatever code a developer is already touching, using the "boy scout rule" of leaving each file a little clearer than it was found rather than attempting to clean the entire codebase in one pass. Because naming and function length carry the highest impact for the least effort, they are usually the first standards worth enforcing, with an automated formatter removing the purely stylistic arguments so review time can focus on logic and structure instead.
+
 ## How to Apply ◆
 
 > In legacy systems, clean code is not about rewriting from scratch — it is about establishing and gradually enforcing readability standards that make the existing codebase progressively easier to understand, reducing the cognitive burden that slows every developer who touches it.

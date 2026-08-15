@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Architecture workshops are recurring, structured sessions — typically monthly or quarterly — in which developers from different teams jointly examine, document, and propose changes to a shared system's architecture through hands-on activities such as collaborative diagramming or guided codebase exploration, rather than passive status presentations. In legacy systems maintained by multiple teams, understanding of the architecture tends to fragment along team boundaries: each group deeply understands the parts of the system it touches daily but has only a partial, sometimes outdated picture of how those parts connect to everything else, and nobody holds the complete picture on their own. Bringing people from different teams into the same room to jointly map data flows or discuss a specific architectural concern surfaces exactly this kind of fragmented knowledge — hidden circular dependencies, undocumented integration points, and diverging mental models of how the system actually works — which no individual team's internal meetings would reveal on their own. Because each workshop is focused on one concrete architectural concern rather than an open-ended discussion, it produces actionable outcomes such as a concrete plan to break a discovered dependency cycle, rather than a general conversation that goes nowhere. This makes the workshops a low-cost, recurring mechanism for building shared architectural understanding and generating cross-team momentum toward a jointly understood target architecture, which is often a precondition for any coordinated modernization effort to succeed. The main costs are the simultaneous time commitment from multiple team members and the need for skilled facilitation, since without both, workshops risk degenerating into unfocused debate that produces no follow-up action.
+
 ## How to Apply ◆
 
 > In legacy environments, architecture workshops break down knowledge silos and build shared understanding of both the current system and the target architecture.

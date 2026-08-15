@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Secure coding guidelines are a written, mandatory set of rules that specify how developers must handle recurring risk areas such as input validation, output encoding, authentication, session management, and error handling, tailored to the specific languages and frameworks the system actually uses. Their value depends on being enforced rather than merely published — through automated static analysis integrated into CI builds and through explicit checklist items in code review — so that the guidelines shape what gets merged rather than existing as a document nobody consults. Legacy codebases are frequently the product of years of accretion by different teams and even different generations of developers, each bringing their own, often inconsistent, assumptions about how to validate input or handle errors safely, which means the same vulnerability class can appear in dozens of independently written variations across the code. Authoring secure coding guidelines directly from an analysis of the vulnerability patterns actually found in that codebase — rather than adopting a generic industry checklist — makes the guidelines immediately relevant and lets static analysis rules be tuned to catch exactly the mistakes the team has historically made. The guidelines also reduce the system's dependence on any individual developer's security expertise, since the standard itself, rather than institutional memory, becomes the baseline that both new and experienced developers are held to.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

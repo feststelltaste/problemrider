@@ -37,6 +37,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Requirements analysis systematically collects and documents what a system actually needs to do, using structured techniques — contextual inquiry, reverse-engineering the existing system's actual behavior, decomposing vague goals into testable acceptance criteria — rather than a single workshop or a stakeholder's best guess. In legacy modernization this is especially consequential because the real specification is often locked inside decades-old code and the habitual workarounds of long-tenured staff who no longer think to mention them, meaning requirements gathered only by asking "what do you want" reliably miss the constraints that actually break a replacement system later. Investing this time upfront catches the gap between documented and actual system behavior before it becomes expensive rework, though taken too far the same instinct produces analysis paralysis — a real risk in legacy contexts where the full scope is often genuinely unknowable in advance, so the analysis has to be scoped to what the current project needs rather than a complete accounting of the whole system.
+
 ## How to Apply ◆
 
 > In legacy systems where requirements are often locked inside the heads of long-tenured staff, embedded in decades-old code, or documented in outdated specifications that no longer reflect reality, systematic requirements analysis replaces guesswork with structured discovery.

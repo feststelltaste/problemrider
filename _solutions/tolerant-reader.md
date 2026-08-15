@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.55
 ---
 
+## Description
+
+The tolerant reader pattern configures a message or API consumer to ignore fields it does not recognize and to extract only the data it actually needs, rather than binding strictly to the full structure of whatever payload a producer happens to send. Concretely, this means disabling strict deserialization failures on unknown properties and designing extraction logic around an explicit, minimal set of required fields instead of an implicit dependency on the entire schema. The pattern directly addresses a recurring failure mode in legacy integration landscapes: a producer adds or reorders a field for its own purposes, and every strictly bound consumer breaks simultaneously, even though none of them needed the changed part of the payload. This coupling is especially costly in legacy systems, where a single data source often feeds many downstream consumers built at different times by different teams, and where coordinating a synchronized change across all of them is slow, political, and error-prone. By loosening the consumer's grip on the full contract to just the fields it uses, the tolerant reader pattern lets producers evolve additively without triggering cross-team change requests, effectively decoupling the pace of schema evolution from the pace of consumer updates. The tradeoff is that a consumer can silently miss new fields it might have wanted, so the pattern works best when paired with clear documentation of what each consumer actually relies on.
+
 ## How to Apply ◆
 
 - Configure deserializers in consumer services to ignore unknown fields rather than failing on unexpected properties (e.g., `DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES = false` in Jackson).

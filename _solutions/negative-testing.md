@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Negative testing is the practice of deliberately feeding a system invalid, malformed, boundary, or malicious input and asserting that it fails safely, rather than exercising only the "happy path" that valid inputs traverse. Where functional testing confirms that a feature does what it should when given reasonable input, negative testing probes what the system does when it is given input it was never designed to handle — empty values, oversized payloads, wrong types, out-of-range numbers, and known attack patterns such as injection strings. In legacy systems, this distinction matters because decades of incremental feature work tend to concentrate testing effort on demonstrating that new functionality works, while error paths accumulate silently and are rarely exercised until an attacker or an unusual production event finally reaches them. Because legacy error handling is frequently implemented ad hoc — string concatenation into queries, raw exception messages surfaced to users, missing bounds checks — these paths are disproportionately likely to contain the injection, disclosure, and crash vulnerabilities that negative testing is designed to surface. The technique is comparatively cheap to retrofit: it does not require rewriting business logic, only adding test cases that submit adversarial input to interfaces that already exist. Once discovered, findings are typically fixed locally (parameterization, validation, generic error messages) and then locked in as automated regression tests so the same defect cannot silently return as the legacy system continues to change.
+
 ## How to Apply ◆
 
 > Legacy system tests typically verify that the system works correctly with valid inputs but never test what happens with invalid, unexpected, or malicious inputs. Negative testing deliberately provides bad inputs to verify that error handling is correct and secure.

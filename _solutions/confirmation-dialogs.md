@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A confirmation dialog interrupts an irreversible action — a deletion, a bulk update, a status change that cannot be undone — to require explicit, deliberate confirmation before it executes, rather than letting a single accidental click trigger something permanent. Legacy interfaces often place these destructive actions right next to routine ones, styled identically, with no safeguard at all, which is precisely why accidental data loss in such systems so often ends up requiring a developer to manually restore from backup. An effective dialog states the specific, concrete consequence rather than a generic "are you sure," and is reserved for genuinely destructive actions — overusing it on routine operations trains users to dismiss it reflexively, which defeats its purpose exactly when it matters most.
+
 ## How to Apply ◆
 
 > Legacy systems often execute destructive operations immediately upon button click, with no opportunity for the user to reconsider. Adding confirmation dialogs for irreversible actions prevents costly mistakes.

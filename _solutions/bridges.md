@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+The bridge pattern separates an abstraction hierarchy (what a client thinks it is calling) from its implementation hierarchy (how that operation is actually carried out), connecting the two through an interface injected at construction time rather than through inheritance, so that either hierarchy can be extended without touching or duplicating the other. Its purpose is to avoid the combinatorial explosion that occurs when a system needs to support multiple variants along two independent dimensions — multiple output formats, multiple platforms, multiple drivers — and inheritance-based designs respond to that by creating one class per combination. Legacy systems frequently arrive at exactly this state organically: a class hierarchy created for one implementation variant is copied and modified for each new one that comes along, since introducing a proper abstraction boundary was more work than duplicating an existing class under deadline pressure. Retrofitting a bridge into such a hierarchy means identifying where abstraction and implementation concerns are mixed together, and incrementally extracting a bridge interface one implementation variant at a time while the legacy hierarchy continues to function unmodified for the rest. The benefit is a sharp reduction in duplicated logic and much cheaper support for new variants going forward, at the cost of an added layer of indirection that is only worthwhile once a system genuinely needs more than one implementation variant.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

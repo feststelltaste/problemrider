@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Architecture documentation is a deliberately maintained, structured description of a system's actual architecture — typically using a lightweight standard format such as arc42 or C4, covering context, containers, components, and key decisions — kept accurate enough to serve as a reliable basis for modernization decisions. In legacy systems, architecture documentation either does not exist at all or describes a version of the system that is years out of date, because the original design documents were never updated as the system evolved through countless incremental changes, leaving new developers to reconstruct an understanding of the system through code archaeology and hallway conversations instead of reading a document. Producing useful documentation for such a system means documenting the architecture as it actually is today, not as it was originally intended to be, since inaccurate documentation actively misleads readers and is worse than having none at all. The most valuable and most commonly missing artifact is usually a high-level context diagram showing the legacy system's external integrations and data flows, supplemented by Architecture Decision Records that capture the rationale behind both historical and modernization-era decisions so that settled questions are not silently revisited or undone. Storing this documentation alongside the code in version control, rather than in a separate wiki, and scheduling periodic reviews are what keep it from decaying back into the same stale, misleading state it started in. The payoff is a shared reference that dramatically reduces onboarding time and supports impact analysis for proposed changes, but documentation alone does not stop architectural decay — it needs to be paired with governance and enforcement to remain trustworthy over time.
+
 ## How to Apply ◆
 
 > In legacy systems, architecture documentation often does not exist or reflects a version of the system from years ago — creating accurate, living documentation is essential for enabling informed modernization decisions.

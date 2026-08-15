@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Consumer-driven contracts invert the usual direction of interface testing: instead of a provider unilaterally deciding what its interface looks like and hoping consumers keep up, each consumer specifies exactly which fields, endpoints, and behaviors it actually depends on, and that specification becomes an executable contract the provider must satisfy on every change. Tools such as Pact run these contracts in the provider's CI pipeline, so a change that would silently break a consumer fails the build before it merges rather than after it reaches production. This matters most in legacy landscapes that have grown into many services with implicit, undocumented dependencies between them, where nobody on the provider side can enumerate every consumer's actual usage of an interface from memory, and where breaking changes historically surfaced only as production incidents. Because contracts capture the interface shape consumers rely on rather than full end-to-end behavior, they are cheaper to run and maintain than broad integration test suites, and they let teams replace some of those brittle integration tests outright. The approach does require consumer teams to write and keep their contracts current, and it only provides safety for the interactions that are actually under contract, so the practice is most valuable when applied first to the most fragile or business-critical integration points.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A versioning scheme is an explicit, documented policy for when and why a version number changes, defining precisely what distinguishes a breaking change from a feature addition from a bug fix for a given artifact — a library, a data format, or an API — so that the version number itself communicates real information rather than being an arbitrary counter. Semantic versioning, date-based versioning, and URI-based versioning each suit different kinds of artifacts, and the choice matters less than the consistency and clarity with which it is applied and documented. Legacy environments frequently accumulate components that were never versioned meaningfully at all — incrementing build numbers with no defined relationship to compatibility — leaving downstream consumers with no reliable signal about whether an update is safe to take or requires careful review, which in turn forces manual, case-by-case investigation before every upgrade. Introducing a deliberate versioning scheme, even retroactively by auditing a legacy component's current state and assigning it a sensible baseline version, restores that signal and makes it possible to automate upgrade decisions with confidence, since a version bump now reliably indicates the nature of what changed. This is a comparatively low-cost intervention relative to its effect: it requires ongoing discipline from the teams applying version bumps, but it removes a significant amount of manual coordination overhead across a legacy portfolio, particularly one made up of many interdependent internal libraries and services.
+
 ## How to Apply ◆
 
 - Choose a versioning scheme appropriate to the artifact type: semantic versioning for libraries, date-based versioning for data formats, or URI-based versioning for APIs.

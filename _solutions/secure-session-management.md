@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Secure session management is the practice of identifying an authenticated user across multiple requests using session tokens that are unpredictable, time-bounded, and properly invalidated, rather than relying on identifiers that are guessable, long-lived, or exposed in places an attacker can observe. The underlying mechanism rests on a handful of properties working together: session identifiers must be generated with a cryptographically secure random source so they cannot be predicted or enumerated, sessions must expire after a bounded period of inactivity and an absolute maximum lifetime, identifiers must be regenerated at the moment a user's privilege level changes (most importantly at login) to defeat session fixation, and session state should be stored server-side with only an opaque reference held by the client. Legacy applications frequently violate several of these properties at once because they were built before session hijacking and fixation were well understood as attack classes — sequential integer IDs, session tokens embedded in URLs, or session lifetimes measured in days rather than minutes are common findings in systems built more than a decade ago. Modernizing session handling matters disproportionately for legacy systems because a compromised session token grants an attacker the same access as the legitimate user without needing to break authentication at all, making it one of the more direct paths to account takeover in older codebases that still carry these weaknesses. Because session logic is usually threaded through many parts of an application, correcting it is rarely a localized fix, which is what makes it a genuine modernization effort rather than a simple configuration change.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

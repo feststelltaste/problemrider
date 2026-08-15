@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Environment variables for configuration is the practice of externalizing values that differ between deployment targets — database URLs, API keys, feature flags, service endpoints — into the process environment rather than compiling or bundling them into the application artifact, following the twelve-factor app principle that configuration should vary by deployment while code does not. Legacy applications frequently hardcode such values directly in source files or maintain a separate, checked-in configuration file per environment, which both couples the build to a specific target and risks leaking production credentials into version control. Reading configuration from environment variables at startup, with validation that fails fast when required values are missing, decouples the build from the deployment target: the same artifact can move from development through staging to production unchanged. This is particularly valuable during legacy modernization because it removes one of the recurring causes of environment-specific defects and creates the seam needed for containerized or cloud-native deployment, where injecting environment variables is the native configuration mechanism. The approach has limits, however: it handles flat key-value settings well but becomes awkward for hierarchical configuration, and because any process in the same environment can typically read these variables, secrets still need additional protection such as a dedicated vault.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

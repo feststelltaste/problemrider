@@ -41,6 +41,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Capacity planning forecasts future resource needs — database connections, worker threads, memory, queue throughput — by correlating measured current consumption with business growth projections, rather than discovering the system's limits only when it fails under load. Legacy systems very often run with no such model at all: pool sizes and thread counts set once at initial deployment, never revisited as usage grew year over year, until a routine increase in load crosses a threshold nobody was watching for. Building even a simple model from a measured baseline, and setting alert thresholds well before actual saturation, converts what would otherwise be an emergency scaling incident into a planned, unhurried capacity change.
+
 ## How to Apply ◆
 
 > Legacy systems often run without any formal understanding of their resource limits or growth trajectories. Capacity planning introduces a disciplined approach to forecasting demand and ensuring the system can meet it before failures occur.

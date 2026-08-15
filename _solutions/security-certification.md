@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Security certification is the process of formally assessing an organization's security practices against an externally defined, recognized standard — such as ISO 27001, SOC 2, or PCI DSS — and obtaining an independent attestation that those practices meet the standard's requirements. The mechanism operates through a gap analysis that compares current controls against the certification's requirements, a remediation roadmap that closes the identified gaps, and a formal audit by certified assessors that verifies compliance, followed by ongoing evidence collection to maintain the certification over time. For organizations carrying legacy systems, certification is often the first forcing function that surfaces just how much security-relevant knowledge and process exists only informally: infrastructure grown organically over years typically has no coherent access control documentation, no formal change management record, and no consistent monitoring, none of which becomes visible until an external standard requires it to be demonstrated in writing. Pursuing certification is therefore valuable in legacy modernization less for the certificate itself than for the discipline it imposes — it converts tribal knowledge into documented procedure, gives security work a fixed deadline and external validation criteria instead of indefinitely deferred priority, and creates a recurring re-assessment cycle that keeps controls from silently decaying again. The risk is that under time or cost pressure the process degrades into satisfying the letter of the standard without genuinely improving security, which is why gap analysis findings need to be tracked with the same rigor as any other engineering backlog rather than treated as one-time audit preparation.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

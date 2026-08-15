@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.6
 ---
 
+## Description
+
+Focus management controls where keyboard focus goes as modals open and close and as dynamic content appears or disappears, so a keyboard or screen-reader user never loses their place in the interface. Legacy systems built with no attention to this routinely leave focus stranded behind an overlay or at the top of the page after a dialog closes, forcing exactly the users who most depend on the keyboard to tab through the entire page just to get back to where they were. Trapping focus inside an open modal and returning it to the triggering element on close are the two changes that fix the majority of these problems, and both tend to be surprisingly small in code even though their effect on usability is large.
+
 ## How to Apply ◆
 
 > Legacy systems frequently mismanage keyboard focus, causing users to lose their place when modals open, dialogs close, or dynamic content appears. Proper focus management is essential for keyboard and assistive technology users.

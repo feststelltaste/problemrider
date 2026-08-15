@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Contextual help embeds guidance directly at the point in the interface where a user needs it — a tooltip on a confusing field, an inline explanation next to a cryptic error — instead of relying on a separate manual that most users never open. Legacy systems tend to have exactly the fields and workflows that most need this: quirks whose purpose was clear only to the original developer, now presented with no explanation at all to the people using the system daily. Placing help content close to the element it describes, and keeping it current as the system evolves, turns a common source of support tickets into something users can resolve themselves in the moment.
+
 ## How to Apply ◆
 
 > Legacy systems often have either no help at all or a separate help manual that users never consult. Contextual help embeds guidance directly where users need it, reducing confusion and support requests.

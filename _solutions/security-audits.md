@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Security audits are periodic, systematic reviews of a system's code, infrastructure, configuration, and processes against defined security baselines, combining automated scanning with manual expert judgment to detect drift, gaps, and violations before they are discovered through an incident instead. The mechanism is fundamentally about creating a scheduled checkpoint: rather than assuming that security controls, once put in place, continue to function and remain correctly configured indefinitely, an audit periodically verifies that assumption against reality, covering access rights, patch levels, logging configuration, encryption, and third-party dependencies. Legacy systems are a natural target for this practice because they accumulate exactly the kind of unnoticed drift audits are designed to catch — accounts belonging to employees who left years ago, logging that was silently disabled during some past maintenance window, database servers running unpatched versions nobody flagged — problems that arise gradually and without a triggering event, so nothing about normal operation would surface them. Because audits are point-in-time snapshots, they cannot substitute for continuous monitoring, but they are well suited to catching the accumulated, slow-moving decay that is characteristic of long-lived systems with incomplete documentation and diffused ownership. In a legacy modernization context, a regular audit cadence also creates the accountability structure — assigned findings, remediation deadlines, and follow-up verification — needed to work down a backlog of inherited security debt in a systematic rather than ad hoc way.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

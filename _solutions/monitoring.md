@@ -47,6 +47,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Monitoring is the continuous collection and observation of a system's technical and business signals — metrics, logs, traces, error rates, response times, and resource utilization — surfaced through dashboards and alerting so that problems can be detected and diagnosed proactively rather than discovered only when a user reports them. Implementing it means instrumenting applications to emit metrics, aggregating logs centrally across all components, adding distributed tracing so a single request can be followed across service boundaries, and tuning alert thresholds and severities so the signal reaches the right people at the right urgency. Legacy systems are frequently operated with monitoring that amounts to little more than confirming a process is still running, which means the team has no visibility into gradual degradation, resource exhaustion, or intermittent errors until they escalate into an incident severe enough for someone downstream to notice and report it. Establishing real monitoring over such a system is often the single highest-leverage first step in any modernization effort, because it converts years of opaque, undocumented runtime behavior into observable data — memory leaks, slow queries that degrade with data growth, race conditions — that can then be diagnosed and fixed with evidence instead of guesswork. The risk of doing this poorly is that monitoring, once in place, can just as easily produce false confidence or alert fatigue as it can produce insight, so the instrumentation needs to be paired with disciplined threshold review to keep signal-to-noise workable as the legacy system and its failure modes continue to evolve.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

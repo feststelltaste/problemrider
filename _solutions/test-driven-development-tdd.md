@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Test-driven development writes a failing test before any implementation code, makes it pass with the minimal change needed, and then refactors — a Red-Green-Refactor cycle that uses testability itself as a design constraint rather than an afterthought applied once the code already exists. Retrofitting TDD onto an entire legacy codebase at once is rarely realistic, so the practice is usually applied first to new code and bug fixes, paired with characterization tests that capture existing behavior before any legacy code under modification is touched at all. Because code that is hard to test is very often a sign of tangled dependencies and poor separation of concerns, the discipline of writing the test first tends to surface and pressure-test exactly the design problems that make legacy code fragile in the first place, at the cost of an initial productivity dip while a team builds real proficiency with the cycle.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

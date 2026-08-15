@@ -43,6 +43,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Database optimization tunes indexes, query plans, and server configuration to match a database's actual current data volume and access patterns, recovering performance a legacy schema lost as it grew far beyond the scale it was originally designed for. Because legacy tables were frequently created with only a primary-key index and stale statistics accumulate silently over years, a query that once took milliseconds can end up doing a full table scan across millions of rows with nobody having touched the query itself — the cause is entirely in the database's own state, not the application. Enabling slow query logging to find the real workload, then adding indexes and refreshing statistics to match it, routinely delivers 100x improvements without touching a line of application code, though write-heavy legacy tables can just as easily be hurt by over-indexing added without regard for insert cost.
+
 ## How to Apply ◆
 
 > Legacy databases were designed for original data volumes and access patterns that often differ dramatically from current production load — systematic query optimization recovers performance without requiring expensive hardware upgrades or risky schema rewrites.

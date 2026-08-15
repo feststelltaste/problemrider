@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+An accessibility concept is a deliberate design and engineering effort to make software usable by people with disabilities, covering aspects such as keyboard navigation, screen reader compatibility, color contrast, and alternative text for non-text content, typically measured against an established standard such as the WCAG guidelines. Rather than treating accessibility as a checklist applied after the fact, the concept establishes accessibility as a design constraint that shapes markup, interaction patterns, and visual design from the outset. Legacy user interfaces are frequently built with non-semantic markup — layout tables, custom widgets with no keyboard support, div-based controls with no ARIA roles — because accessibility was not a widely enforced requirement at the time they were built, which leaves users of assistive technology unable to complete even basic tasks. Introducing an accessibility concept into such a system means auditing existing screens against a recognized standard, prioritizing remediation by usage frequency and severity of the barrier, and retrofitting semantic structure into markup that was never designed to carry it. Because this work directly changes how interactive elements are structured, it typically also improves usability for users without disabilities, and in many jurisdictions it additionally closes a regulatory compliance gap that carries legal risk if left unaddressed. Sustaining the improvement requires an accessibility style guide and ongoing testing with assistive technologies, since new legacy-style shortcuts can just as easily reintroduce the same barriers during future development.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

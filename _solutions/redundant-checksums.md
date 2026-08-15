@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Redundant checksums apply two or more independent checksum or hash algorithms — for example a fast CRC32 alongside a cryptographically stronger SHA-256 — to the same piece of data so that corruption has to slip past multiple, mathematically unrelated verification methods before it goes undetected. Because different algorithms have different collision characteristics and blind spots, the probability that a corrupted byte pattern happens to preserve both checksums simultaneously is vastly lower than evading a single check. This matters in legacy systems because many of them were built with a single, often weak, checksum scheme — or none at all — chosen decades ago under different assumptions about data volume and threat models, and silent data corruption in such systems frequently goes unnoticed until it surfaces as a hard-to-diagnose downstream defect. Redundant checksums are particularly valuable during data migration efforts, where verifying that millions of records transferred from a legacy store to a new platform are bit-for-bit identical is a prerequisite for trusting the new system at all. The technique is cheap to retrofit at data boundaries — ingestion, storage, and transmission points — without touching the core application logic, which makes it a pragmatic first step toward stronger data integrity guarantees in systems that cannot be rearchitected quickly.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -34,6 +34,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+The Strangler Fig Pattern replaces a legacy system one capability at a time, routing traffic through a proxy that sends each migrated piece of functionality to its new implementation while everything not yet migrated keeps flowing to the legacy system unchanged. This directly avoids the all-or-nothing rewrite, which fails disproportionately often in legacy contexts precisely because the hidden complexity a big-bang rewrite has to fully re-solve before it can go live is exactly what nobody can scope accurately in advance. Starting with capabilities that are both frequently changed and cleanly separable from the rest of the system gives the team relief exactly where the legacy code currently hurts most, while building the routing and characterization-testing muscle needed before tackling the deeply entangled core — though without a firm mandate to decommission each migrated piece, the pattern just as easily produces two permanent systems running side by side instead of the intended transition.
+
 ## How to Apply ◆
 
 > In legacy system modernization, the Strangler Fig Pattern replaces the dangerous all-or-nothing rewrite with a controlled, capability-by-capability migration that keeps the legacy system fully operational throughout.

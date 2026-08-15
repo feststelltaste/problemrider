@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Platform-independent configuration management centralizes an application's settings behind a single management approach — a tool like Consul, etcd, or Spring Cloud Config — instead of leaving configuration scattered across whatever mechanism happens to be native to each deployment platform. Organizations running legacy systems across heterogeneous infrastructure often end up maintaining entirely separate configuration approaches per platform, such as Windows Group Policy alongside ad hoc Linux configuration scripts, doubling the maintenance burden and creating opportunities for the two to silently drift apart. Introducing a configuration abstraction layer that resolves settings from a common source, with local fallback, removes that duplication and decouples configuration from the operating environment entirely, which is also what makes a future platform migration feasible without a parallel migration of every configuration mechanism. The centralized store itself becomes a critical dependency, though, so its own availability has to be treated as seriously as the systems that depend on it.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

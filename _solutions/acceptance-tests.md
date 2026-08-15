@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Acceptance tests are automated tests that verify a system fulfills its business requirements from the perspective of an end user or business stakeholder, rather than checking implementation details the way unit tests do. They are typically written against a business-readable specification format, using tools such as Cucumber, FitNesse, or Robot Framework, so that the same scenario definitions can be understood, reviewed, and even authored by non-developers. In legacy systems that were never covered by automated tests, acceptance tests fill a specific and urgent gap: they capture what the system is currently expected to do at the level that matters most to the business, giving the team a safety net before touching code whose internal behavior nobody fully understands anymore. This makes acceptance tests a prerequisite for safe modernization work such as extracting modules, replacing components, or migrating platforms, because a passing acceptance suite is direct evidence that a change has not altered externally visible business behavior. Building this suite for an existing legacy system requires significant upfront investment, since the tests must be written retroactively for functionality that already exists rather than test-first alongside new development, and it also requires close collaboration with domain experts who can confirm the tests reflect actual business intent rather than assumed behavior. Over time the suite doubles as executable documentation of the system's behavior, often the most reliable documentation the legacy system has.
+
 ## How to Apply ◆
 
 - Define acceptance criteria for each business requirement and translate them into automated test cases before or alongside implementation.

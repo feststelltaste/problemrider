@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Code generation is the automated production of source code from a template, schema, or other machine-readable specification, replacing manually written, repetitive boilerplate with output derived mechanically and consistently from a single source of truth. Typical candidates are data access objects, API client stubs, serialization logic, and configuration classes — structurally predictable code that varies only in details already captured elsewhere, such as a database schema or an API specification. In legacy modernization work this is particularly valuable when migrating many structurally similar components at once, for example generating a repository class, DTO, and endpoint for each of hundreds of legacy database tables rather than writing each by hand, which both accelerates the migration and guarantees that naming, error handling, and mapping conventions are applied identically everywhere instead of drifting subtly from one hand-written file to the next. Because the generated code is derived from its source metadata rather than authored directly, updating the template and regenerating propagates a change uniformly across every generated artifact in one step, which is otherwise a tedious and error-prone activity to perform by hand across a large legacy estate. This benefit comes with a corresponding dependency: the generation templates and tooling themselves become critical infrastructure that must be maintained, and developers need to understand generated output well enough to debug it when something goes wrong, which can be harder than debugging code they wrote themselves. Keeping generated code clearly separated from hand-written code, and keeping the generation step wired into the build so it cannot silently fall out of sync with its source, is what keeps this approach maintainable over time.
+
 ## How to Apply ◆
 
 > In legacy systems, code generation reduces boilerplate duplication and enforces consistency by generating repetitive code from templates or metadata rather than writing it by hand.

@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A data strategy is an organization-level definition of shared data standards, formats, integration patterns, and ownership assignments that spans multiple systems, rather than leaving each team or legacy system to make its own local decisions about how data should be structured and exchanged. It typically includes canonical models for entities shared across systems, an explicit choice of integration patterns (event-driven, API-based, batch) matched to different use cases, named data stewards accountable for specific data domains, and a roadmap that prioritizes which of the organization's existing ad-hoc integrations should be consolidated first. This matters in legacy environments precisely because the absence of such a strategy is what produces the fragmentation typical of organizations with many legacy systems in the first place: the same business concept represented in several incompatible formats across different databases, with no agreed single source of truth, forcing staff to manually reconcile records that should never have diverged. A data strategy does not by itself fix any single system, but it gives every subsequent modernization decision — which format to adopt, which system owns which entity, which integration pattern to use for a new connection — a consistent frame of reference instead of ad-hoc improvisation repeated system by system. Its principal risk is becoming a document that is agreed upon but never executed, since a strategy only has value once it is enforced through concrete integration and governance decisions rather than filed away as an aspiration.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

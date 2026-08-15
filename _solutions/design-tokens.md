@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Design tokens extract visual design decisions — colors, spacing, typography, radii — out of scattered hardcoded values in CSS and stylesheets into a single, platform-agnostic source of truth that generates the actual styling for every technology in use. Legacy systems that have grown through years of separate frontend efforts, sometimes across multiple frameworks, typically end up with several slightly different shades of the same brand color and inconsistent spacing nobody intended, simply because there was never one place those decisions lived. Migrating to tokens incrementally, replacing hardcoded values as files are touched during normal maintenance rather than in one large rewrite, lets a system-wide visual change or a new theme become a token update instead of a search-and-replace across thousands of lines of legacy styling.
+
 ## How to Apply ◆
 
 > Legacy systems often have visual design decisions scattered throughout the codebase as hardcoded values. Design tokens centralize these decisions into a single source of truth that can be applied across platforms.

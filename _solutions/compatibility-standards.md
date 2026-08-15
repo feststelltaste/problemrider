@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Compatibility standards are a written, binding definition of what "compatible" means for a given system boundary — covering API design conventions, data format evolution rules, schema migration practices, and versioning schemes — enforced through the delivery process rather than left to individual judgment. Instead of every team privately deciding what counts as a breaking change, the standard becomes a shared reference that code reviewers, architecture decision records, and CI pipelines all check against. In legacy landscapes that have grown through years of uncoordinated team decisions, differing tacit definitions of compatibility accumulate quietly until an integration fails, often long after the change that caused it shipped. Writing the rules down converts these unspoken assumptions into something explicit and auditable, and wiring them into automated linting and contract validation turns compliance into a property of the pipeline rather than a matter of individual diligence. The standard is most effective when it targets failure patterns the organization has actually experienced — breaking changes, inconsistent coding standards, drifting API versions — rather than being drafted as an abstract policy with no enforcement path behind it.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

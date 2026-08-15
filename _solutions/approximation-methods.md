@@ -25,6 +25,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Approximation methods replace exact, resource-intensive computations with heuristics or statistical estimations that produce a result within an acceptable, bounded margin of error at a fraction of the computational cost — using techniques such as probabilistic data structures for cardinality estimation (HyperLogLog), Bloom filters for membership tests, sampling for large-dataset analytics, or bounding-box checks in place of exact geospatial distance calculations. Legacy systems that compute exact results for operations like unique visitor counts or large-scale aggregate queries often do so using data structures whose memory and CPU cost scales linearly or worse with data volume, an approach that was viable when the system was built but degrades into unacceptable latency or memory pressure as the data volume the system was never designed for keeps growing. Approximation methods break that scaling problem by trading a small, well-understood, and typically negligible amount of precision for a dramatic reduction in the resources required, which is often the only practical way to keep a legacy system's analytics or search features responsive without a full redesign of its data model. Because the results are inherently imprecise, adopting this approach requires explicitly agreeing on acceptable error margins with stakeholders beforehand, since the tradeoff is unacceptable for use cases such as financial or regulatory reporting where an exact number is a hard requirement rather than a nice-to-have. Once deployed, the approximation's actual accuracy should be monitored in production, since the error characteristics of these techniques can shift as the underlying data distribution changes over time.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

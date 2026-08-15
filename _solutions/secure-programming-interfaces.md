@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Using secure programming interfaces means relying on the security features already built into current libraries and frameworks — input sanitization, CSRF protection, secure session handling, automatic output escaping — instead of implementing and maintaining custom, hand-rolled equivalents of the same functionality. Because these library features are used and scrutinized by a far larger population of developers and security researchers than any single team's custom code could ever be, they tend to correctly handle edge cases that home-grown implementations miss, simply through the accumulated exposure of widespread use. This matters in legacy systems particularly often, because many of them predate the availability of these mature library features altogether, meaning their security-relevant code — an HTML escaping function, a session token generator — was written from scratch at a time when the safer standard approach simply did not yet exist as an off-the-shelf option. Migrating from such custom code to a modern framework's built-in equivalent both closes gaps the original implementation never accounted for and removes a body of security-critical code that the team would otherwise need to keep maintaining and re-auditing indefinitely. The migration is not without risk of its own, since upgrading a legacy framework to gain these features can introduce breaking changes elsewhere, and any switch away from custom security code needs to be validated carefully to confirm that the replacement provides genuinely equivalent — or better — protection before the old implementation is removed.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

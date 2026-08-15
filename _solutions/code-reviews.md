@@ -58,6 +58,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Code review is the practice of having one or more other developers examine a proposed code change before it is merged, checking it for correctness, adherence to conventions, and adequate test coverage, and using the review itself as a structured checkpoint rather than an informal courtesy. In legacy systems the practice carries additional weight beyond catching bugs: because critical logic is often understood by only a small number of long-tenured developers, rotating reviewers across the team is a direct mechanism for spreading that knowledge and reducing the bus-factor risk that concentrates around a handful of individuals. Reviews are also where undocumented business rules embedded deep in legacy code get caught before being inadvertently broken, since a reviewer familiar with a module's quirks can flag a change that looks correct in isolation but violates a constraint that exists only in institutional memory. Keeping changes small enough to review thoroughly matters more in legacy contexts than in greenfield ones, since large, sprawling legacy refactoring efforts are otherwise nearly impossible to review meaningfully in one pass. The practice's value is entirely contingent on the review actually being substantive: a review culture that degenerates into rubber-stamping approvals provides the appearance of a safety net without any of its actual protection, while excessive nitpicking or slow turnaround can make the process a bottleneck that teams learn to route around instead of engage with.
+
 ## How to Apply ◆
 
 - Establish code review as a mandatory step before merging any change to the main branch of the legacy codebase.

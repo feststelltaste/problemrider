@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Probabilistic data structures — Bloom filters for set membership, HyperLogLog for cardinality estimation, Count-Min Sketch for frequency counting — trade a small, bounded, and quantifiable margin of error for orders-of-magnitude reductions in memory and computation compared to exact data structures, by encoding approximate rather than precise answers to specific classes of query. Adopting them means first identifying which use cases in the system can tolerate an approximate answer — most commonly analytics, deduplication checks, and caching decisions rather than anything requiring an audit trail — and then wrapping the structure behind an API that documents its error bounds so downstream consumers understand exactly what guarantee they are and are not getting. This solution becomes relevant to legacy modernization when a system's exact computation, built years ago on the assumption of a much smaller dataset, no longer scales: an exact unique-visitor count implemented as a full hash set eventually consumes tens of gigabytes of memory and takes minutes to compute, a cost that was invisible when the dataset was small and becomes a hard operational constraint once it has grown by orders of magnitude. Replacing the exact structure with its probabilistic counterpart can turn a batch job measured in minutes into a real-time calculation using a tiny, constant memory footprint, which is often the difference between a report available the next day and a metric available live. The corresponding risk is that the approximate result is unacceptable for anything business-critical or audit-relevant, and teams unfamiliar with the underlying probabilistic guarantees may either misuse the structure outside its valid error bounds or distrust it even when it is functioning correctly.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

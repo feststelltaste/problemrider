@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+The mediator pattern introduces a dedicated object that encapsulates the communication and coordination logic between a set of components, so that those components no longer hold direct references to and call each other but instead interact exclusively through the mediator. Mechanically, this converts a dense, many-to-many web of direct dependencies into a simpler, star-shaped structure where every component depends only on the mediator, which then owns the responsibility for orchestrating how they work together. In legacy systems, clusters of classes frequently accrete direct references to one another over years of incremental feature additions, until a change to one component requires understanding and modifying a dozen others that all coordinate with it directly and in slightly different ways — a hallmark of the tangled, spaghetti-like coupling that makes legacy code disproportionately expensive to change. Introducing a mediator around such a cluster does not reduce the total amount of coordination logic in the system, but it consolidates and centralizes it, so that adding, removing, or replacing one component only requires updating its interaction with the mediator rather than every other component it used to reference directly. The risk to watch for, especially when retrofitting this pattern onto legacy code, is that the mediator itself can accumulate so much logic over time that it becomes a new god object and a new bottleneck, so it needs to be scoped narrowly to coordination and kept free of business logic that belongs elsewhere.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

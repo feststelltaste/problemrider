@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+An on-site customer is a real user or domain representative embedded directly with the development team, available to answer questions about actual system behavior in minutes rather than through slow, indirect channels. This practice is particularly valuable in legacy modernization, where the specification for how the system should behave is frequently the undocumented, tribal knowledge of the people who use it daily rather than anything written down — meaning the on-site customer often becomes the only reliable source of truth for why a workflow works the way it does. By validating features against real usage patterns continuously, rather than through late-stage acceptance testing, the team catches misunderstandings before they compound into significant rework, and captures the workarounds and unofficial processes that would otherwise be lost entirely once the legacy system is decommissioned.
+
 ## How to Apply ◆
 
 > In legacy modernization projects, having a customer representative embedded with the development team prevents the common failure mode of building technically excellent replacements that miss actual user needs.

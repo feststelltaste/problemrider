@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A security community is a network of internal and external peers, experts, and practitioners — internal guilds, external conferences, mailing lists, vulnerability databases, and relationships with specialized consultants — that teams draw on to acquire security knowledge they do not have in-house and to stay aware of emerging threats relevant to their specific technology stack. The mechanism is peer learning rather than formal instruction: knowledge about a newly disclosed vulnerability, an unusual attack pattern, or a hard-won mitigation technique typically reaches practitioners through informal channels well before it becomes codified in a standard or a vendor advisory, so participating in these channels functions as an early warning system in addition to a learning resource. This matters disproportionately for legacy systems because the technologies involved — older frameworks, mainframe protocols, deprecated libraries — are frequently no longer covered by mainstream security discourse, meaning that the people who still understand their specific risks are a shrinking, specialized population concentrated in niche communities rather than general security media. Without such connections, teams maintaining legacy technology are effectively isolated from developments in their own threat landscape and rely solely on whatever expertise happens to already exist internally, which tends to erode as staff turn over. Building a security community, whether through an internal guild that meets regularly or through cultivated relationships with outside specialists, is therefore as much about preventing this isolation as it is about active knowledge transfer, though it requires enough structure to produce concrete outcomes rather than becoming purely social.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

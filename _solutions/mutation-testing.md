@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Mutation testing evaluates the quality of a test suite, rather than the code it tests, by automatically introducing small, deliberate changes — mutants — into the production code, such as flipping a conditional or changing an arithmetic operator, and then running the existing tests against each mutant to see whether at least one test fails. A mutant that causes no test to fail is a "surviving mutant," and it demonstrates concretely that the test suite would not have caught that specific class of bug had it occurred naturally, which makes mutation score a far more direct measure of test effectiveness than line or branch coverage, both of which only confirm that code was executed, not that its behavior was actually verified. Legacy systems often carry a false sense of security around their test suites: a codebase can show high line coverage while its tests only assert that a method ran without throwing an exception, never checking that the method produced the correct result, and that gap is invisible to coverage tooling but is exactly what mutation testing exposes. Running mutation testing against critical legacy business logic — rather than the whole codebase at once, which would be prohibitively slow — surfaces exactly which of the existing tests are load-bearing and which are decorative, giving the team a concrete, prioritized list of weak spots to rewrite before relying on that suite as a safety net for further changes. Because mutation testing runs the full test suite once per mutant, it is computationally expensive and can also generate equivalent mutants that no test could ever detect because they don't actually change program behavior, so it needs to be scoped deliberately rather than applied indiscriminately across a large legacy codebase.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

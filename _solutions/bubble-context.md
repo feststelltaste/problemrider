@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A bubble context is a deliberately isolated region of new code, given its own clean domain model and modern coding conventions, connected to the surrounding legacy system only through explicit adapter or translation classes placed at the bubble's boundary. The mechanism works by refusing to let the legacy system's data model, naming conventions, or architectural patterns leak into the new code — anything entering or leaving the bubble is translated at the boundary, so inside the bubble, developers can work as if the legacy system did not have the problems it has. This is valuable specifically because a full rewrite of a legacy system is rarely feasible in one step, yet building new features directly inside the legacy code base tends to force those features to inherit the legacy system's denormalized data model and inconsistent patterns simply because that is what is already there to build against. The bubble context lets a team add new functionality using current practices immediately, without waiting for a broader modernization effort to finish, and creates a natural seed that can gradually expand — as more functionality moves inside the bubble, its boundary effectively grows until it can eventually replace the legacy system it once merely coexisted with. The cost is the translation layer itself: it must be maintained as both models evolve, and if multiple bubbles are introduced inconsistently across a system, the result can be a patchwork that is harder to understand than either a fully legacy or fully modern architecture would have been on its own.
+
 ## How to Apply ◆
 
 > In legacy systems, bubble context creates a clean boundary around new code, preventing it from being contaminated by legacy patterns while coexisting with the old system.

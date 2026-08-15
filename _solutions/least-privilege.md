@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+The principle of least privilege holds that every user account, service account, and process should be granted only the specific permissions it needs to perform its function, and nothing more. Implementing it is a matter of systematically auditing existing access — database grants, file system permissions, network reachability, administrative and sudo rights — and reducing each one down to the minimum required, often supplemented with just-in-time elevation mechanisms so that broader access is available only temporarily and under audit when genuinely needed. Legacy systems tend to drift in the opposite direction over time: service accounts are granted administrative rights because it was the fastest way to get a feature working under deadline pressure, one-off debugging access is never revoked once the incident is resolved, and default accounts shipped with old middleware or databases remain active because nobody remembers they exist. The result is that an application compromise — a SQL injection, a stolen credential, a hijacked process — inherits far more reach than the legitimate application logic ever required, turning what should have been a contained incident into full access to unrelated data and systems. Least privilege does not prevent the initial compromise, but it bounds its consequences, which is why it is one of the most direct ways to limit blast radius in a legacy environment where the original access decisions were made loosely and have never been revisited since. The cost of applying it retroactively is that legacy applications often have undocumented dependencies on broad permissions, so tightening access requires careful testing to avoid breaking functionality that silently relied on the excess.
+
 ## How to Apply ◆
 
 > Legacy systems commonly grant excessive permissions to users, service accounts, and processes — often because it was easier than determining the minimum required access. The principle of least privilege restricts every entity to only the permissions necessary for its specific function.

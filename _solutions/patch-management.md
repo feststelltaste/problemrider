@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Patch management is the systematic process of tracking, evaluating, testing, and applying security updates across every software component in a system, rather than leaving updates to happen ad hoc or not at all. Legacy systems are disproportionately exposed here: the same fear of breaking undocumented, untested functionality that keeps teams from refactoring also keeps them from patching, which leaves known, publicly disclosed vulnerabilities unaddressed for years. A disciplined process — inventorying components against vulnerability databases, testing patches in a staging environment before production, and defining rollback procedures — closes that exposure window deliberately instead of by luck. For components that have gone fully end-of-life and can no longer be patched at all, the same process should trigger compensating controls such as network isolation or virtual patching, since patching alone cannot protect software the vendor has stopped supporting.
+
 ## How to Apply ◆
 
 > Legacy systems are frequently left unpatched due to fear of breaking functionality, lack of testing infrastructure, or vendor abandonment. Patch management establishes systematic processes for evaluating, testing, and applying security updates.

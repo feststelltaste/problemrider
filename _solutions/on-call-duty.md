@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+On-call duty is a formal rotation that assigns specific people the responsibility of responding to production incidents outside normal working hours, replacing the informal arrangement where the same one or two people who understand the legacy system get called every time something breaks. Establishing a rotation with clear escalation paths, documented runbooks, and defined response expectations distributes operational knowledge across the team instead of concentrating it in a few overburdened individuals. In legacy systems, where institutional knowledge is often thin and unevenly spread, a well-run on-call rotation forces that knowledge to be written down and shared as part of onboarding new rotation members, while also creating accountability for fixing the recurring issues that generate repeat pages rather than tolerating them indefinitely.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

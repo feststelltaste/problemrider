@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+An authorization concept is the documented, human-readable design that precedes and governs any technical access-control implementation: it defines which data classifications exist, which roles need access to each, what operations each role may perform, and the separation-of-duties and review processes that keep those grants honest over time. Rather than an enforcement mechanism itself, it is the blueprint that Authorization and role-based access control implement — the artifact that lets someone answer "should this role have this permission" from a written rationale rather than from institutional memory or historical accident. Legacy systems typically never had such a document: permissions were granted individually, in response to specific requests, over many years, with no one tasked with periodically checking whether the resulting pattern still made sense, which is how systems arrive at the state where large fractions of users hold access they no longer need. Building an authorization concept for an existing legacy system is therefore primarily a discovery and reconciliation effort — reverse-engineering the access patterns that actually exist, comparing them against what the business genuinely requires, and formalizing the difference as an explicit, reviewable model rather than an implicit one. Its value shows up directly in compliance audits, where a system with a written authorization concept can demonstrate its access-control rationale, while a system without one can only describe what has been observed to happen.
+
 ## How to Apply ◆
 
 > Legacy systems often lack a documented authorization concept, resulting in ad-hoc permission assignments that accumulate over years. An authorization concept defines a clear model for who can access what data and functions, serving as the blueprint for implementation.

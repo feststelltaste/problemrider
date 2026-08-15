@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+This solution opens up a codebase's development process — public code review, transparent issue tracking, and structured contribution guidelines — to a wider audience than the team that historically owned it exclusively, whether that means the rest of the organization or, for open-source projects, the public at large. Legacy systems are especially prone to concentrating both knowledge and review capacity in a single small team, so that technical debt and known defects sit quietly in a private backlog for years, invisible to anyone who might otherwise have the spare capacity or fresh perspective to address them. Making the codebase, its issues, and its pull requests broadly visible — with clear contribution guidelines and labeled "good first issue" style entry points — invites outside reviewers and occasional contributors to catch problems the owning team has become too close to see and to pick off cleanup work that never rises to the top of an internal backlog. The obvious cost is governance: incoming contributions need review effort and quality gates to avoid degrading the codebase, some legacy code may be too security-sensitive for broad visibility in the first place, and public exposure of a codebase's actual state can itself be an uncomfortable adjustment for the team that has maintained it.
+
 ## How to Apply ◆
 
 > In legacy system contexts, open development practices increase transparency and attract fresh perspectives that can challenge entrenched assumptions about how the system must work.

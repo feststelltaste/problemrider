@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Resource usage optimization systematically finds and eliminates waste in memory, disk I/O, and network consumption, recovering capacity that a legacy system has typically lost not to any single cause but to years of small, uncoordinated additions that were never individually worth revisiting. An unbounded in-memory cache, a batch job issuing one query per record instead of a page at a time, session objects that never expire — none of these were deliberate decisions, but together they're exactly why a legacy system that once ran comfortably on its hardware now edges toward swapping or crashing under the same nominal load. A resource consumption audit under realistic load typically finds that a small number of operations account for most of the waste, which is what makes this a high-return, low-architectural-risk way to extend the useful life of existing infrastructure before resorting to a costly upgrade.
+
 ## How to Apply ◆
 
 > Legacy systems often consume far more memory, disk I/O, and network bandwidth than necessary because resource efficiency was not a design priority during initial development, and incremental additions over years have compounded wasteful patterns. Systematic resource usage optimization identifies and eliminates this waste, extending the useful life of existing infrastructure.

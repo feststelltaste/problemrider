@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Cold start mitigation covers a set of techniques for reducing the latency an application incurs the moment it starts from an idle or newly provisioned state — the delay from class loading, dependency injection container initialization, JIT warmup, and eager resource setup that a running, already-warm instance does not pay. It matters in serverless functions, container platforms, and JVM-based applications alike, wherever new instances are created dynamically in response to scaling events or after idle periods, since the first requests routed to a fresh instance experience latency far above the application's steady-state performance. This is a significant problem for legacy applications, particularly older JVM-based systems, moved into containerized or auto-scaling environments they were never designed for: extensive classpath scanning, eager bean loading, and schema validation that were tolerable when the application started once and ran for months become a recurring tax every time a new instance spins up, and during scaling events new instances can receive traffic before initialization has actually finished, causing cascading timeouts. Techniques such as lazy initialization of non-critical components, provisioned or pre-warmed instances, smaller container images, and ahead-of-time compilation each attack a different source of startup latency, and are usually combined rather than applied singly. Readiness probes that genuinely wait for full initialization before accepting traffic are what prevent the scaling-event failure mode specifically, closing the gap between "instance exists" and "instance is actually ready to serve requests." The tradeoff is that pre-warming and provisioned concurrency cost real infrastructure spend to maintain instances that would otherwise have scaled down, and techniques like ahead-of-time compilation may not support every runtime feature — reflection or dynamic proxies, for instance — that older legacy code relies on.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+The saga pattern manages a business transaction that spans multiple services or databases by decomposing it into a sequence of local transactions, each of which is paired with a compensating action that can undo its effects if a later step in the sequence fails, thereby achieving eventual consistency without relying on a distributed two-phase commit. The sequence can be coordinated either through choreography, where each service reacts to events emitted by the previous step, or through orchestration, where a central coordinator explicitly directs each step and tracks the saga's overall state. This pattern becomes necessary specifically when a legacy system that once relied on a single database transaction to guarantee atomicity across several operations is decomposed into separate services during modernization, since that decomposition breaks the original transactional guarantee and requires an explicit mechanism to restore equivalent consistency. Because each local transaction can use the data store and isolation level best suited to it, the saga pattern also removes the tight coupling that a shared distributed transaction would otherwise impose across the newly separated services, which is often one of the primary goals of the decomposition in the first place. The pattern's cost is a real increase in design complexity: compensating actions must be designed for every step, some operations — such as a sent email or a shipped physical good — cannot be cleanly compensated at all, and the resulting temporary inconsistency between saga steps, along with the difficulty of debugging a failed multi-service saga, are prices that must be weighed against the coupling the pattern removes.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

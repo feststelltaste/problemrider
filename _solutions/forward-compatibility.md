@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Forward compatibility means designing a data format, protocol, or API so that a version of the system consuming it today can tolerate fields, values, or extensions that do not yet exist but might appear in a future version, generally by following the robustness principle — being conservative in what is sent, liberal in what is accepted — rather than rejecting anything unrecognized outright. This is the mirror image of backward compatibility: instead of asking whether new software can still handle old data, it asks whether software written today will keep working once the format or protocol it depends on is extended in ways nobody has designed yet, a question that matters directly to how long a legacy system can keep running without forced, disruptive upgrades every time an upstream or downstream system evolves. Building this tolerance in up front — ignoring unknown fields instead of rejecting them, avoiding tight coupling to a fixed, closed set of enum values or status codes — lets producers add new capabilities without waiting for every consumer to be updated in lockstep, extending the useful life of systems that would otherwise require a synchronized upgrade across many independent consumers. The risk is that tolerant parsing can silently swallow data that should genuinely have caused a failure, that designing for hypothetical future changes adds complexity that may never be exercised, and that testing forward compatibility is inherently speculative since it can only simulate scenarios someone thought to anticipate.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

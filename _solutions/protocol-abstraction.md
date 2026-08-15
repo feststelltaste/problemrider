@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Protocol abstraction introduces a communication interface that is defined independently of any specific wire protocol — HTTP, gRPC, SOAP, a message queue — with protocol-specific adapters implementing that interface for each mechanism the system actually needs to speak, so that the protocol in use becomes a matter of configuration and adapter selection rather than something hardcoded throughout the business logic. This is directly relevant to legacy modernization because integration protocols age even when the business logic behind them does not: a legacy system built around SOAP, for instance, does not need its core logic rewritten just because new partners require REST or gRPC — only a new adapter needs to be added behind the existing abstraction. The practical effect is that protocol migration and protocol coexistence both become tractable: new consumers can be onboarded on a modern protocol in a fraction of the time a full service-layer refactor would take, while existing consumers on the legacy protocol continue to be served without disruption through their original adapter. The cost of this indirection is that protocol-specific capabilities — streaming, bidirectional communication, protocol-specific error semantics — do not always map cleanly onto a shared abstract interface, and an abstraction designed too conservatively risks becoming a lowest-common-denominator interface that fails to expose the very features that made a given protocol worth adopting in the first place. Maintaining several protocol adapters in parallel also multiplies the testing surface, since each adapter must be independently verified to preserve the same semantic contract as the abstract interface promises.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Data deduplication identifies records, files, or blocks that are redundant copies of the same underlying information and consolidates them into a single authoritative instance, using exact matching (checksums, hashing) for identical content or fuzzy matching (on names, addresses, identifiers) for near-identical records created through inconsistent processes. In legacy systems, duplicates typically accumulate for structural reasons rather than by accident: multiple entry channels feeding the same customer or product concept without a shared identity check, migrations that re-imported data already present, or the simple absence of uniqueness constraints at the point of storage. Left unaddressed, this redundancy inflates storage and processing costs, but more importantly it corrodes trust in the data itself, since reports, customer counts, and downstream automation all silently double-count or contact the same entity multiple times. Deduplication addresses this at two levels: a one-time or periodic cleanup pass that finds and merges existing duplicates, and preventive constraints or checks that stop new duplicates from being created going forward. Because merging necessarily involves deciding which of several conflicting values is authoritative, deduplication is inseparable from establishing a master data ownership model, and it is also the point at which false positives are most dangerous, since an incorrect merge silently destroys the distinctness of two records that were never actually the same entity.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

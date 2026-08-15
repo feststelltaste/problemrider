@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Compatibility testing by users moves part of the verification effort out of the lab and into the real, uncontrolled environments where the software actually runs, by having a set of real users exercise pre-release builds under their own configurations. Internal test environments, however carefully constructed, can only approximate the combinatorial variety of operating systems, browsers, database versions, and integration partners that exist across a real user base, and legacy systems in particular tend to have accumulated decades of such variety among their installed base. Structured test scripts and dedicated feedback channels turn what would otherwise be informal complaints into a systematic input to the release process, so that compatibility problems surface as findings to triage rather than as support tickets after general availability. Because users are chosen specifically for the diversity of their environments, this approach catches interaction effects between the software and its surroundings that no internally maintained test matrix would think to construct. It works best as a complement to, not a replacement for, automated compatibility testing, since it trades speed and predictability for authentic environmental coverage.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Specification by example is a collaborative practice in which developers, testers, and domain experts define expected system behavior through concrete, real-world input-output pairs rather than abstract prose requirements, and then express those examples in a structured, automatable format so they double as executable tests. The technique directly addresses one of the hardest problems in legacy modernization: the original requirements were often never documented, the people who wrote the system are gone, and the only remaining source of truth for what the system is actually supposed to do is its own observed behavior — which the legacy system itself can be run against to generate the initial set of examples. Because each example is concrete rather than abstract, it eliminates the ambiguity that causes replacement systems to diverge subtly from legacy behavior on edge cases nobody thought to write down, and because the examples are automated, they can be run against both the old and new systems simultaneously to produce a direct, continuously verifiable measure of migration parity. The resulting body of examples becomes living documentation that outlives the legacy system itself, capturing business rules that existed only as implicit behavior. The practice does require regular, sustained access to domain experts who understand the legacy system's quirks, and finding the right granularity of examples — enough to cover meaningful edge cases without becoming an unmanageable, brittle mass — is a skill that takes iteration to develop.
+
 ## How to Apply ◆
 
 > In legacy modernization, specification by example bridges the gap between undocumented legacy behavior and clearly defined replacement requirements by using concrete examples as the shared language between domain experts and developers.

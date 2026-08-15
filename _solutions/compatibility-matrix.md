@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A compatibility matrix is an explicit, documented statement of which combinations of operating systems, runtime versions, databases, browsers, or other environment variables a system officially supports, converting an implicit and often inconsistent assumption about "what should work" into a concrete, testable, and publishable specification. Once defined, the matrix drives what gets tested in CI, ensuring the configurations that matter most — the ones customers or the largest consumers actually run — receive coverage, while everything outside the matrix is explicitly out of scope for support. This is especially useful for legacy systems that have accumulated support for a wide, undocumented range of environments over many years without anyone ever writing down which combinations were actually verified to work, leaving both the support team and customers guessing whenever an issue is reported on an unfamiliar configuration. Publishing the matrix externally also lets consumers self-diagnose whether their environment is supported before they file a ticket, and gives the team a defensible basis for declining to investigate bug reports that fall outside the documented boundaries. Reviewing and updating the matrix at each release is what keeps it aligned with reality, letting the team deliberately retire aging, costly-to-test configurations instead of supporting them indefinitely out of inertia. The tradeoff is that testing every combination in the matrix consumes real CI time and infrastructure, so an overly broad matrix can become as impractical to maintain fully as having no matrix at all, and customers still running unsupported configurations may reasonably feel abandoned when support is formally withdrawn.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A schema registry is a central service that stores, versions, and enforces compatibility rules for the data contracts — typically Avro, Protobuf, or JSON Schema definitions — that services use to exchange messages or events, rejecting schema changes that would break existing consumers before they ever reach production. Compatibility is enforced in defined modes (backward, forward, or full) as part of the CI/CD pipeline, so an incompatible field removal or type change is caught at build time rather than surfacing later as a runtime deserialization failure. This addresses a specific failure mode common in legacy systems that have grown into a web of services exchanging data through informally agreed, undocumented formats: because no single source of truth for those formats exists, one team's seemingly harmless change to a shared event structure can silently break several other services that were never consulted about the change. Introducing a schema registry into such an environment is usually done incrementally, by first registering the existing, already-informal contracts as a baseline and then bringing all subsequent schema evolution under the registry's governance, rather than attempting to redesign every data contract at once. Beyond preventing breaking changes, the registry's version history becomes a form of living documentation of how each data contract has evolved, which is valuable in legacy environments where the original rationale for a given field or format would otherwise be lost.
+
 ## How to Apply ◆
 
 - Introduce a central schema registry (e.g., Confluent Schema Registry, Apicurio) where all service contracts are stored and versioned.

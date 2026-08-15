@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.6
 ---
 
+## Description
+
+A domain-based authorization concept defines access control rules in terms of business roles, responsibilities, and data ownership — who is treating this patient, who owns this order — rather than in terms of low-level technical permissions attached directly to database tables, columns, or system resources. This reframing matters because legacy systems frequently grew their permission models opportunistically over many years, granting access at whatever technical layer was convenient at the time, which produces exactly the kind of accumulated, un-auditable over-permissioning that no one can fully account for after enough time has passed. Expressing authorization in business terms instead means each rule can be validated directly against an actual business policy by someone who understands that policy, rather than requiring a technical translation step that introduces both error and ambiguity. Centralizing this logic — rather than leaving permission checks scattered throughout the legacy codebase wherever a developer once decided a check was needed — also makes the resulting rules auditable as a single artifact, which is essential for regulatory compliance in domains like healthcare or finance. Retrofitting this model onto a legacy system requires first mapping the system's existing, often undocumented access patterns against what the business actually intends, a process that reliably surfaces years of excessive permissions granted through ad-hoc requests that were never revisited or revoked.
+
 ## How to Apply ◆
 
 - Define authorization rules in terms of business roles and data ownership rather than technical permissions on system resources.

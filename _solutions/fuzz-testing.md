@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Fuzz testing feeds a program large volumes of randomly generated or systematically mutated input and monitors for crashes, hangs, memory corruption, or other anomalous behavior, without any prior assumption about what the correct output should be. This makes it fundamentally different from conventional testing, which checks whether known inputs produce expected outputs: a fuzzer instead searches for the inputs that break the program, discovering failure modes that no test author anticipated. Legacy systems are particularly fertile ground for this technique because their input-handling code — custom parsers, protocol handlers, file format readers — was frequently written decades ago under threat models that no longer hold, and has often never been exercised with malformed, oversized, or adversarial input in the years since. Mutation-based fuzzers that instrument the running code can explore deep and unusual execution paths when source is available, while black-box fuzzers can still probe external interfaces of legacy components whose internals are opaque or undocumented. Because fuzzing requires no specification of correct behavior, it sidesteps the central obstacle to testing legacy code — the absence of documentation — and instead directly targets the classes of vulnerability, such as buffer overflows and integer overflows, that are most likely to have survived unnoticed in old, rarely-touched input paths.
+
 ## How to Apply ◆
 
 > Legacy systems often contain input handling code that was never tested with unexpected, malformed, or adversarial inputs. Fuzz testing systematically generates random and semi-random inputs to discover crashes, hangs, memory errors, and other unexpected behaviors that indicate security vulnerabilities.

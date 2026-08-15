@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Domain-aligned architecture restructures a system's modules so that its internal boundaries mirror the boundaries of the business domain it serves — grouping code around concepts like "Order Management" or "Shipment Tracking" — instead of grouping it around technical layers such as controllers, services, and repositories that cut across every business concept at once. This distinction matters enormously in legacy systems, where technical-layer organization is the default outcome of how software was traditionally taught and structured, and it produces a specific, recognizable symptom: a single business change requires touching several technical layers simultaneously and coordinating across whichever teams own each layer. By reorganizing code along domain lines instead, a change to one business capability becomes localized to the module that owns it, which directly reduces the ripple effect of changes that plagues systems where technical and business structure have diverged. Aligning team ownership with these same domain boundaries compounds the benefit, since a team that owns a domain end-to-end no longer needs to synchronize releases with other teams to ship a domain-specific feature. The restructuring itself is necessarily gradual and requires real domain understanding to draw the boundaries correctly, but it also produces natural seams along which a monolith can later be split into separately deployable services, should that become the goal.
+
 ## How to Apply ◆
 
 - Map the legacy system's current module structure against the business domain to identify where technical decomposition diverges from business boundaries.

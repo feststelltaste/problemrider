@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Mass test data generation produces large volumes of synthetic records — matching production schemas, distributions, cardinalities, and referential integrity constraints — using data generation libraries or custom generators, so that tests can be run against data volumes comparable to or exceeding what the system handles in production. The generated data can substitute for production snapshots entirely, or complement anonymized production data where synthetic generation alone cannot capture subtle real-world correlations, and because it is scripted and versioned alongside the schema it can be regenerated and torn down automatically on every test run. Legacy systems accumulate a specific class of bug that only appears at realistic data scale — a query that performs acceptably against a thousand rows but times out against fifty million, a stored procedure with an implicit assumption that breaks once cardinalities shift, a migration script that behaves differently once volume triggers a different execution plan — and these bugs are invisible in small, hand-crafted test datasets. Mass-generated test data surfaces exactly this class of problem before it reaches production, which is especially valuable when regulatory constraints prevent the team from simply using a copy of real production data for testing, as is common with healthcare or financial legacy systems. The tradeoff is that building generators capable of respecting a legacy schema's undocumented constraints and business rules is itself a nontrivial reverse-engineering exercise, and the generators then require ongoing maintenance to stay valid as the schema evolves.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

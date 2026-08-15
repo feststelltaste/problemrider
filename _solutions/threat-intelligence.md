@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Threat intelligence is the systematic collection, correlation, and interpretation of information about active attackers, their tools, and their methods, gathered from vulnerability databases, vendor advisories, industry sharing communities, and dedicated feeds. Rather than waiting for an incident to reveal that a system is exposed, teams use this external information to anticipate which threats are currently being exploited in the wild and to check whether their own technology stack is a plausible target. For legacy systems this practice carries particular weight: the platforms, protocols, and libraries involved are often old enough that mainstream security attention has moved elsewhere, so the few active disclosures that do surface for them tend to be highly relevant and time-sensitive rather than background noise. Because legacy environments frequently lack modern instrumentation and cannot rely on the vendor patch cadence that newer stacks enjoy, external threat intelligence becomes one of the few early-warning mechanisms available before an exploited weakness turns into an incident. It also helps translate an abstract inventory of old software into a prioritized list of concrete, currently active risks, which is essential when patching capacity is limited and every hardening effort has to be justified against competing maintenance demands. Used well, it shifts security work from reactive firefighting toward informed anticipation grounded in what attackers are actually doing right now.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

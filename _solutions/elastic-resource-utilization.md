@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Elastic resource utilization automatically adjusts the compute resources allocated to a system in response to real-time load, scaling capacity out when demand rises and back in when it falls, instead of running on a fixed amount of hardware sized for either the average case or, worse, for the worst case that occurs only rarely. Legacy systems are frequently deployed on exactly this kind of fixed, statically-provisioned hardware, which means they either sit over-provisioned and wastefully idle most of the time or fail outright the moment traffic exceeds whatever capacity was originally planned for — a mismatch that becomes especially visible during unpredictable demand spikes the original architecture never anticipated. Achieving elasticity typically requires the legacy application to first become horizontally scalable, which means externalizing session state, containerizing the deployment, and exposing the load and performance metrics that an auto-scaling policy needs to make its decisions — work that is nontrivial for applications originally built with an assumption of a single, persistent server. Once in place, this removes manual capacity planning as a bottleneck for variable workloads and lets infrastructure spend track actual usage rather than worst-case peaks, often reducing cost even as reliability improves. The tradeoffs are real: scale-out lag can leave a brief performance dip during a very sudden spike, misconfigured policies can either overspend or under-provision, and the resulting distributed, dynamically-sized deployment is inherently harder to monitor and debug than the single fixed server it replaced.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

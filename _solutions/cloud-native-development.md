@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Cloud-native development is an approach to building and operating applications that is designed around the properties cloud platforms actually provide — elastic scaling, managed infrastructure, disposable and stateless instances — rather than treating the cloud as just a different place to run the same architecture that was designed for fixed, dedicated servers. It typically means externalizing state, configuration, and file storage out of the application process itself, adopting patterns such as the twelve-factor app principles, and relying on managed services for databases, queues, and caches instead of operating that infrastructure by hand. For legacy systems, many of which were architected around assumptions like persistent local storage, static IP addresses, or long-lived server instances that are provisioned once for peak load and then sit mostly idle, cloud-native development requires deliberately unwinding those assumptions rather than simply redeploying the existing binary onto cloud compute. Doing so incrementally, for example through strangler fig migrations that peel components off the legacy monolith one at a time, is generally safer for these systems than attempting a wholesale rewrite. The payoff is that infrastructure can now scale to match actual demand instead of being sized for a worst case that rarely occurs, and operational burden shifts from manual capacity management to automated, managed services. This shift is not risk-free, since the resulting cloud-native architecture is typically harder to reason about and debug than the monolithic deployment it replaces, and dependence on a specific cloud provider's managed services can reintroduce a new form of the same vendor lock-in the legacy system was trying to escape.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

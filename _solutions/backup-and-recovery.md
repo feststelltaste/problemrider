@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Backup and recovery is the discipline of maintaining independent, verified copies of a system's data and state so that it can be restored to a known-good point after corruption, failure, or attack, governed by explicit Recovery Point and Recovery Time Objectives that state how much data loss and how much downtime are acceptable. The mechanism only works if it is tested: a backup that has never been restored is, functionally, unverified, and legacy systems are especially prone to exactly this failure mode because backup jobs configured years ago run silently and are rarely revisited until the moment they are needed and turn out to have been failing unnoticed. Legacy systems compound the risk further by accumulating multiple interdependent data stores — databases, file systems, configuration, certificates, encryption keys — each potentially backed up (or not) by a different, undocumented process set up by someone no longer at the company. Establishing real backup and recovery in this context means inventorying every data store, applying a consistent strategy such as the 3-2-1 rule across all of them, and then proving recoverability through scheduled restore drills rather than assuming that a backup job completing without error means the data is actually recoverable. This is the last line of defense in a modernization effort — it is what makes every other risky change (migrations, schema evolution, deployments) reversible rather than a one-way door.
+
 ## How to Apply ◆
 
 > Legacy systems often have backup procedures that were configured years ago and never tested for actual recoverability. Backup and recovery ensures that data can be reliably restored after failures, corruption, or security incidents.

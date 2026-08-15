@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Functional tests verify that a system behaves correctly from the perspective of its business workflows, exercising complete scenarios — placing an order, calculating a claim, generating a report — rather than isolated units of code. In legacy systems, where original specifications are often lost and the authors who understood the intended behavior have moved on, functional tests take on a second role beyond defect detection: they become the closest available substitute for documentation, recording what the system is supposed to do in an executable, unambiguous form. This overlaps with characterization testing, which captures what the code actually does regardless of whether that behavior was intended, and the two techniques are frequently combined when working with undocumented legacy code — characterization tests anchor current behavior first, and functional tests are then layered in to express the business rules that behavior is supposed to satisfy. Because legacy codebases often have unclear or nonexistent unit boundaries due to tight coupling, functional tests operating at the end-to-end, business-scenario level are frequently more practical to write first than granular unit tests. Their central value in a modernization context is that they convert refactoring and extraction work from a leap of faith into a verifiable activity: a change that passes the functional test suite is a change that has not altered observable business behavior, which is the primary guarantee legacy work needs.
+
 ## How to Apply ◆
 
 > In legacy systems, functional tests are the primary safety net that enables change — without them, every modification is a gamble.

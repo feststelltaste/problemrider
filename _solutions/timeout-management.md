@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Timeout management is the discipline of explicitly bounding how long a system will wait for any external call — a database query, an HTTP request, a socket connection, a file operation — before giving up and failing in a controlled way rather than blocking indefinitely. Without an explicit timeout, a call defaults to waiting forever, or to whatever ambiguous default the underlying library happens to choose, and a single slow dependency silently ties up a thread, a connection, and eventually every other resource that depends on that same limited pool. Legacy systems are disproportionately exposed to this failure mode because they were frequently written in an era of synchronous, tightly coupled integrations, before timeout configuration was treated as a first-class design concern, and because the accumulation of undocumented call sites makes it hard to even know which operations lack protection. The mechanism works by converting an open-ended wait into a bounded one and pairing that boundary with graceful failure handling — releasing held resources, logging enough context to diagnose the cause, and optionally triggering a circuit breaker so that a persistently slow dependency stops being retried altogether. In modernization work this matters because legacy systems are often held together by exactly the kind of implicit, unbounded dependencies that produce cascading outages, and closing that gap converts one of the most common causes of full-system unresponsiveness into a fast, visible, and recoverable failure.
+
 ## How to Apply ◆
 
 > Legacy systems frequently make external calls — to databases, APIs, file systems, or downstream services — without any timeout configuration, risking indefinite blocking that can exhaust threads, connections, and memory. Systematic timeout management ensures that slow or unresponsive dependencies fail fast rather than silently consuming resources.

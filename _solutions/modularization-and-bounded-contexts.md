@@ -45,6 +45,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Modularization divides a system into small, independent components with explicit, enforced boundaries, imposing structure on a codebase that in a legacy system typically evolved for years with no such boundaries at all. A dependency analysis of a genuinely legacy codebase routinely reveals coupling far worse than anyone assumed, which is why the work has to start with a small number of major, well-understood business capabilities rather than an ambitious, fine-grained decomposition drawn before the domain is actually understood. Enforcing the resulting boundaries with build-level tooling and architecture tests, rather than trusting package-naming convention alone, is what keeps them from eroding again within weeks — since without that enforcement, and especially without addressing the shared database that legacy systems almost always have underneath everything, the boundaries remain organizational fiction rather than a real constraint on how the code can change.
+
 ## How to Apply ◆
 
 > Applying modularization to a legacy system means imposing explicit boundaries on a codebase that evolved without them, starting with the highest-pain areas and using enforcement tools to stop the boundaries from immediately dissolving again.

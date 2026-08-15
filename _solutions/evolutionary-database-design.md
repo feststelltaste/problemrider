@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Evolutionary database design manages schema changes as version-controlled migration scripts run through a tool like Flyway or Liquibase, rather than as manual ALTER statements applied directly against production by whoever happens to be on call. Legacy databases are typically managed as exactly that kind of static, manually altered artifact, with schema history that exists nowhere except in the memory of whoever made each change — which is what makes reproducing production locally, or reasoning about what changed and why, so difficult. Establishing a baseline migration for the current schema and applying the expand-and-contract pattern for anything that would break a running consumer brings schema evolution under the same review and CI discipline as application code, at the cost of real added complexity during the transition period every such change requires.
+
 ## How to Apply ◆
 
 > Legacy databases are typically managed as static, manually altered artifacts — introducing version-controlled migration scripts transforms them into first-class, maintainable components of the system.

@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Security policies for development are mandatory, documented rules governing how software is built — covering secure coding practices, code review requirements, dependency management, and handling of secrets — that establish a consistent baseline expectation across teams instead of leaving security practice to each developer's individual knowledge and judgment. The mechanism substitutes explicit rules and automated enforcement, such as pre-commit hooks and CI pipeline checks, for tacit convention, so that whether a given team commits secrets to version control, validates input consistently, or reviews security-sensitive code paths no longer depends on which developers happen to be on that team. This matters especially where an organization runs many parallel teams maintaining separate legacy codebases, because without a shared policy each team's practices drift independently over years, typically converging on inconsistent and sometimes contradictory conventions for the exact same concern — as when some teams use environment variables for credentials while others hardcode them and still others have no consistent approach at all. A written policy alone changes little; its effect comes from being paired with automated enforcement that makes violations visible and blocked at the point of change rather than discovered later, and from being calibrated so that a legacy codebase's existing backlog of violations is remediated on a pragmatic timeline rather than triggering unworkable blanket enforcement on day one. For modernization efforts, this solution's value is establishing a durable baseline that prevents newly introduced code from reproducing the same inconsistencies the modernization effort is trying to move away from.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

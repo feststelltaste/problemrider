@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.6
 ---
 
+## Description
+
+Data enrichment supplements existing records with additional attributes drawn from external sources — reference databases, commercial data providers, or other internal systems — rather than requiring that missing or outdated information be captured through manual re-entry. An enrichment pipeline typically runs on ingestion or on a schedule, matches legacy records against the external source using available identifiers, and writes the resulting fields into the system either as additions to the original record or, more safely, into a separate store that preserves which values came from the legacy system and which were added later. This technique is particularly relevant to legacy systems because their data was frequently captured under older, more limited business processes and has degraded or fallen out of date over years of operation, creating gaps — missing classifications, stale contact details, absent geolocation — that block new features or analytics the organization now wants to build on top of old data. Because enrichment introduces a dependency on an external source's availability, quality, and update cadence, pipelines need validation against business rules and a fallback strategy for when that source cannot be reached. Preserving lineage between original and enriched values is essential, since it keeps the enrichment auditable and reversible if the external source later proves to be wrong.
+
 ## How to Apply ◆
 
 - Identify gaps in legacy data that reduce system effectiveness (e.g., missing geolocation, outdated contact information, incomplete classification).

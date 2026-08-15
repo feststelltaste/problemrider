@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Horizontal scaling increases a system's capacity by adding more instances of it running behind a load balancer, rather than by making a single instance more powerful, and it achieves near-linear capacity growth as long as any instance can handle any incoming request interchangeably. That last condition is the crux of the pattern's relevance to legacy modernization: many legacy applications hold session state, file caches, or scheduled task state in the memory of a single server, which makes them fundamentally unable to run as multiple interchangeable instances no matter how much load-balancing infrastructure is added around them. Applying horizontal scaling to such a system therefore typically starts with a prerequisite refactoring step — externalizing session storage to a shared cache, moving uploaded files to object storage, removing instance-bound scheduled jobs — before the actual scaling infrastructure of load balancers, health checks, and auto-scaling policies can provide any benefit. Once that statelessness is achieved, horizontal scaling offers two advantages simultaneously: capacity that grows with commodity instances rather than increasingly expensive vertical hardware upgrades, and improved availability, since the failure of any single instance no longer takes down the whole service. The tradeoff is that the database and other shared resources the instances all depend on can become the new bottleneck once the application tier itself is no longer the constraint, so horizontal scaling of the application layer is rarely a complete answer on its own.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Prepared statements — parameterized queries where the SQL structure is fixed and user-supplied values are passed separately rather than concatenated into the query string — are the standard defense against SQL injection, because the database driver treats parameters strictly as data, never as executable SQL syntax, regardless of what characters they contain. Introducing them into a legacy codebase generally means auditing every query construction site for string concatenation or interpolation patterns, replacing each one with the parameterized API of the relevant database driver, and adding static analysis rules so newly written code cannot silently reintroduce the same vulnerable pattern. This is a high-priority concern in legacy systems specifically because older codebases — often written before parameterized query APIs were idiomatic, or maintained by successive developers unfamiliar with the original conventions — tend to accumulate large numbers of raw, concatenated SQL statements, sometimes numbering in the hundreds across a single application. Beyond closing the injection vulnerability itself, prepared statements have a secondary benefit for legacy systems under performance pressure: because the query structure is fixed and reusable, the database can cache its execution plan across invocations, which frequently improves query performance as a side effect of the security fix. The main practical difficulty is that a small number of dynamic query patterns — variable table or column names — cannot be parameterized directly and require a separate allow-listing approach, and stored procedures that build SQL dynamically via constructs like `EXEC` or `sp_executesql` need their own remediation path.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

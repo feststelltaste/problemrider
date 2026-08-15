@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Functional debt management treats gaps and defects in what a system does — as opposed to how cleanly it is built — as a distinct, trackable category of technical debt. Where technical debt describes internal code quality issues like duplication or poor structure, functional debt describes user-facing shortfalls: features that behave incorrectly, incompletely, or require workarounds to use at all. In legacy systems, functional debt accumulates silently because it rarely triggers build failures or static analysis warnings — it only surfaces through user complaints, support tickets, and informal tribal knowledge about "the export that always truncates" or "the report you have to run twice." Managing it means building an explicit inventory of these gaps, assessing each one's business cost rather than its technical interest, and feeding that assessment into prioritization alongside new feature work. This reframing matters for legacy modernization because functional debt is often what stakeholders actually mean when they say a system is "outdated," even when the underlying code is technically sound, and because a modernization effort that ignores it risks faithfully reproducing the same functional shortcomings in a newer technology stack.
+
 ## How to Apply ◆
 
 - Distinguish functional debt (features that work poorly or incompletely) from technical debt (internal code quality issues) and track them separately.

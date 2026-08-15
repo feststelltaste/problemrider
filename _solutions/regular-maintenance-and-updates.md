@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Regular maintenance and updates is the discipline of applying operating system patches, dependency upgrades, certificate renewals, and other routine housekeeping tasks on a defined, recurring schedule rather than deferring them until they become unavoidable. It relies on maintenance windows communicated in advance, staging environments that mirror production closely enough to catch regressions before rollout, and a maintenance log that creates an audit trail of what changed and when. Legacy systems are especially prone to skipping this discipline, since every update carries a perceived risk of breaking fragile, poorly tested code, which creates an incentive to defer maintenance indefinitely — an incentive that compounds over time, because the longer updates are deferred, the larger and riskier the eventual catch-up upgrade becomes, and the further the system drifts from vendor-supported, patchable versions. This dynamic is what eventually forces organizations into emergency, multi-version-jump upgrades under the pressure of a disclosed vulnerability or an end-of-support deadline, which are far more disruptive than the small incremental updates that were avoided along the way. By treating maintenance as a small, regular, low-risk activity rather than a rare, high-stakes event, teams keep a legacy system within reach of its current supported versions, which keeps every future update — including the eventual modernization effort itself — smaller and safer.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

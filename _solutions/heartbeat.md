@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A heartbeat is a signal that a component sends at regular intervals to a monitoring system purely to assert that it is still running, distinct from a health check endpoint in that it is pushed by the component itself rather than pulled on demand by an external caller. This push-based model is particularly well suited to legacy background processes and batch jobs that have no request-driven interface to poll in the first place — a nightly reconciliation job or a long-running queue consumer can report "I am still alive and at this point in my work" without anyone needing to ask. The absence of an expected heartbeat, rather than the presence of an error, becomes the actionable signal: when a legacy job silently hangs with no exception and no log output, which is a common failure mode in older systems with minimal instrumentation, the missing heartbeat is often the only sign that anything is wrong at all. This shifts detection from passive discovery — a downstream team eventually noticing missing data hours later — to active alerting within seconds of the expected interval elapsing, which is frequently one of the cheapest monitoring improvements available for legacy systems that predate modern observability tooling. Because a component can keep sending heartbeats while behaving incorrectly, the mechanism proves only that a process is alive, not that it is doing its job correctly, so it complements rather than replaces deeper functional monitoring.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

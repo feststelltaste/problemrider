@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Retry is the practice of automatically re-attempting an operation that failed due to a transient condition — a brief network interruption, a momentarily unavailable dependency, a temporary timeout — instead of surfacing the failure to the user or requiring manual intervention immediately. Effective retry logic distinguishes between errors worth retrying, such as connection timeouts, and errors that will never succeed no matter how many times they are repeated, such as authentication failures or validation errors, and it spaces repeated attempts using exponential backoff and jitter to avoid overwhelming an already struggling dependency. In legacy systems, integration points with external services or between internally decomposed components are frequently the least reliable part of the architecture, having been added incrementally over the years without the resilience patterns that would be considered standard in a system designed today; retry is one of the cheapest ways to close that gap, since it can usually be added around an existing call without modifying the underlying operation. It is especially effective at eliminating the class of failures that previously required a human to notice, diagnose, and manually resubmit a failed request, which in legacy operational environments often consumed disproportionate support effort for problems that resolved themselves within seconds. The technique does carry a specific hazard in legacy contexts, however: many older operations were never designed to be idempotent, so blindly retrying them can produce duplicate transactions or side effects, which is why retry must be paired with an explicit check — or a redesign — that makes the underlying operation safe to repeat.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

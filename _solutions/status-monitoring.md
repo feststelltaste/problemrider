@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Status monitoring is the continuous observation of a system's components — application servers, databases, queues, batch processors, external integrations — to expose their current health as an ongoing signal rather than something inferred after the fact from user complaints or downstream symptoms. For components that can be modified, this typically means health check endpoints reporting readiness and liveness; for legacy components that cannot be touched, it means external probes such as HTTP checks, TCP port checks, or log watchers that infer health without requiring any code change to the monitored system itself. The core problem status monitoring solves in legacy contexts is that many such systems operate as black boxes by default — nobody added observability when they were built, because observability was not yet a standard practice, and by the time it becomes valuable the system is too fragile or too poorly understood to instrument confidently. Aggregating these signals into a centralized dashboard, alerting on user-visible symptoms rather than internal causes, and tracking resource trends over time converts operational awareness from something reactive and person-dependent into something anyone can check at a glance. This is what allows slow degradation — a connection pool climbing toward saturation, a dependency's error rate creeping upward — to be caught and addressed before it becomes an outage, rather than being discovered only once users are already affected. The tradeoff is that the monitoring infrastructure itself becomes something to maintain, and poorly tuned alert thresholds can produce enough noise that operators start ignoring the very signals meant to protect them.
+
 ## How to Apply ◆
 
 > Legacy systems frequently operate as black boxes with no visibility into their internal state. Status monitoring makes system health observable, enabling teams to detect and respond to problems before they escalate into outages.

@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Monitoring system integrity continuously verifies that a system's binaries, configuration files, database schemas, and deployment artifacts match an expected, version-controlled baseline, typically using checksums or cryptographic hashes to detect any deviation, whether it results from an unauthorized change, an accidental misconfiguration, or silent corruption. Detected deviations trigger immediate alerts with enough context — what changed, when, and on which host — to support rapid investigation, and the same mechanism doubles as continuous evidence for regulatory compliance scans that check system state against required baselines. Legacy systems are particularly prone to configuration drift because they are frequently maintained through manual patches and ad hoc changes applied directly to production servers rather than through a controlled, code-reviewed deployment pipeline, which means inconsistencies between servers that are supposed to be identical accumulate silently and are only discovered once they cause a customer-visible defect. Integrity monitoring closes this gap by making unauthorized or accidental drift visible immediately after it occurs rather than weeks or months later when its downstream effects finally surface as an unexplained calculation error or an intermittent failure. The ongoing cost of this visibility is that the baseline itself must be kept current every time a legitimate change is made, since a stale baseline produces false-positive alerts that erode trust in the monitoring and eventually get ignored.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

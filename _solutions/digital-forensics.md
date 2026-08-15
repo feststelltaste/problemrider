@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Digital forensics, in the context of legacy system operation, is the practice of proactively establishing the logging, evidence preservation, and investigative procedures needed to reconstruct exactly what happened during a security incident — who accessed what, when, how, and with what effect. It is a preparedness discipline rather than a reactive one: comprehensive logging, tamper-evident log aggregation, synchronized timestamps, and defined chain-of-custody procedures must all exist before an incident occurs, because they cannot be retrofitted onto an attack that has already taken place. Legacy systems are particularly exposed here, since they were frequently built in eras with weaker logging conventions, and operational habits such as aggressive log rotation to save disk space routinely destroy the very evidence an investigation would need. Without this groundwork, a suspected breach in a legacy system often cannot be resolved at all — the timeline cannot be reconstructed, the scope cannot be bounded, and neither legal action nor regulatory reporting can proceed on solid evidence. Establishing digital forensics capability is therefore less about reacting to a specific attack and more about ensuring that whatever incident eventually occurs in an aging, under-instrumented system leaves a trail that investigators can actually follow.
+
 ## How to Apply ◆
 
 > Legacy systems often destroy or fail to collect the evidence needed to investigate security incidents. Digital forensics preparedness ensures that when incidents occur, sufficient evidence exists and can be reliably collected, preserved, and analyzed.

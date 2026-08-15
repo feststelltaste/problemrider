@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Output encoding transforms untrusted data into a representation that is safe for the specific context it is being inserted into — HTML body, HTML attribute, JavaScript, URL, SQL, or a log entry — so that the data is always treated as inert content rather than as executable instructions. Legacy systems frequently concatenate user-supplied strings directly into these contexts without any such transformation, which is exactly how injection attacks like cross-site scripting and log forging succeed. Because encoding rules differ by context, applying the wrong one (HTML-encoding data destined for a JavaScript context, for instance) provides no real protection, which makes context-aware templating engines far more reliable than manual, ad hoc encoding scattered through legacy code. Output encoding is best understood as a second, independent layer of defense that complements input validation: even input that slips past validation cannot execute if it is properly encoded at every point it is rendered.
+
 ## How to Apply ◆
 
 > Legacy systems frequently insert data into output contexts (HTML, SQL, JavaScript, URLs, logs) without encoding it for the target context, enabling injection attacks. Output encoding transforms data into a safe representation for each specific output context.

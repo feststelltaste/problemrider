@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+A bounded context is an explicitly drawn boundary around a portion of a system within which a particular domain model, its terminology, and its business rules apply consistently, with translation happening deliberately at the boundary whenever information crosses into a different context. The mechanism works by accepting that a single universal model that means the same thing everywhere is unrealistic for any system of real size — the same word, such as "customer," legitimately means different things to billing and to support — and instead of forcing one shared definition, it partitions the system so each part can define its own model without corrupting the others. Legacy systems are frequently the opposite of this: a single entity or table accreted fields and conditional logic from every department that ever needed something slightly different from it, producing a bloated, deeply coupled model that no one team can change without affecting every other team that also depends on it. Introducing bounded contexts into such a system means identifying where these implicit boundaries already exist in practice, formalizing them with explicit interfaces and anti-corruption layers, and giving each context ownership of its own data rather than leaving them to share tables directly. The result is that each context can evolve, deploy, and be reasoned about independently, which is also what makes bounded contexts the natural decomposition boundary when a monolith is eventually being broken apart into separate services.
+
 ## How to Apply ◆
 
 - Identify distinct business domains within the legacy system where the same terms have different meanings or where business rules differ (e.g., "customer" in billing vs. support).

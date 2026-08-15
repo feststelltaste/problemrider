@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Security regression tests are automated test cases that specifically reproduce a previously discovered and fixed vulnerability, so that the exact attack vector which once succeeded is retried against the system on every build to confirm the fix still holds. Unlike general functional regression tests, they are written directly from a vulnerability report or penetration test finding, encoding the specific payload, input, or sequence of requests that previously bypassed a security control. This matters in legacy systems because security fixes there are often applied as narrow, localized patches to code that is otherwise poorly understood, poorly tested, and subject to frequent, uncoordinated changes by different teams — conditions under which a fixed vulnerability is highly prone to reappearing, whether through a reversion, a parallel code path that received the same flaw independently, or a refactor that inadvertently undoes the original fix. By running these tests continuously in the CI/CD pipeline rather than relying on periodic manual penetration tests, teams get immediate feedback the moment a change reintroduces a known weakness, closing the gap between when a regression is introduced and when it is caught. Over time, the growing suite of security regression tests becomes an executable record of the system's security history, capturing institutional knowledge that would otherwise depend on individuals remembering incidents from years past.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

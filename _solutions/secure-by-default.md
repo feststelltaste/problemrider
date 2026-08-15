@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Secure by default means shipping and configuring a system so that its out-of-the-box settings are already the most restrictive ones consistent with the system functioning, rather than requiring an administrator to actively harden it after installation — disabling unnecessary services and debug endpoints, using strong default credentials or none at all, and ensuring error messages never leak internal details such as stack traces or connection strings. The underlying principle is that security should not depend on every operator remembering and correctly performing a hardening step, since in practice, some fraction of deployments will always skip that step. Legacy systems are especially exposed here because many of them were built or configured at a time when insecure defaults — verbose debug output, default admin passwords, open diagnostic ports — were the industry norm rather than the exception, and those defaults have often persisted untouched for years simply because nobody revisited the original installation. Retrofitting secure-by-default settings into such a system means auditing what the current defaults actually are, which frequently surfaces forgotten configurations nobody would have knowingly approved, and then building a hardened configuration profile that becomes the new baseline for every environment going forward. Because legacy systems can have undocumented dependencies on the very insecure behaviors being removed, changing defaults must be rolled out carefully, but the resulting reduction in attack surface applies automatically to every future deployment without relying on continued administrator vigilance.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Code coverage analysis measures what proportion of a codebase's lines, branches, or paths are actually exercised by an automated test suite, turning an otherwise invisible property of the system — how much of it is actually protected against regression — into a quantifiable, trackable metric. Coverage tools are integrated into the build pipeline so that the metric is measured on every change and can be tracked as a trend rather than a one-time snapshot. In legacy systems, which frequently have little to no automated test coverage to begin with, this measurement is what makes it possible to identify precisely where the highest-risk blind spots are, particularly by cross-referencing coverage data with change frequency: code that is both frequently modified and untested is where regressions are most likely to originate. Rather than pursuing a uniform coverage percentage across an entire legacy codebase, which is rarely a realistic or valuable goal, coverage analysis supports a targeted strategy of directing limited testing effort at the specific modules where it will reduce the most risk. A coverage ratchet — a rule that forbids the overall percentage from decreasing — further protects gains already made by ensuring new code does not quietly erode the safety net being built. The metric has a well-known failure mode, though: a high coverage number can create false confidence when it reflects lines merely being executed rather than their behavior and edge cases being meaningfully asserted against, so coverage should be read as an indicator of where tests are missing rather than proof that existing tests are adequate.
+
 ## How to Apply ◆
 
 > In legacy systems, code coverage analysis reveals which parts of the codebase are protected by tests and which are blind spots where changes carry the highest risk.

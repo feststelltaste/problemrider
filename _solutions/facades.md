@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A facade is a single, simplified interface placed in front of a complex subsystem, delegating every call through to the existing lower-level classes and functions without changing their internal structure, so that most consumers only ever need to learn the facade's handful of high-level methods rather than the subsystem's full surface area. Legacy subsystems frequently grow dozens of public classes over years of incremental extension, with no single obvious entry point for someone who just wants to accomplish a common task, which turns onboarding into an exercise in archaeology and makes every new integration a fresh occasion to misuse the subsystem's internals. Introducing a facade for the subsystem's most common use cases gives new consumers a stable, learnable contract while leaving advanced users free to reach past it into the subsystem directly when they genuinely need to, and because the facade sits at a clean boundary, it also becomes a convenient seam for later replacing the subsystem entirely without having to touch every caller. The risk is that, once everything is routed through it, the facade can turn into a bottleneck or start absorbing logic that really belongs in the subsystem itself, and maintaining both the facade and any direct access paths in parallel adds surface area that must be kept consistent.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

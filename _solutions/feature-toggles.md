@@ -33,6 +33,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Feature toggles are conditional switches — held in a configuration file, database flag, or dedicated feature-flag service — that wrap new functionality so it can be deployed to production in a disabled state and activated later, independently of the deployment itself, which decouples the act of shipping code from the act of releasing it to users. This is particularly valuable for legacy system changes that cannot tolerate a big-bang cutover: a toggle lets both an old and a new code path coexist in production simultaneously, so a risky rewrite of legacy logic can be routed to a small percentage of traffic, compared against the existing behavior, and rolled back instantly by flipping the toggle rather than through an emergency redeploy. Because the toggle acts as an immediate kill switch, teams gain the confidence to make legacy changes that would otherwise feel too risky to attempt, and percentage-based rollouts or user-segment targeting let a change be validated with real production traffic before it fully replaces the legacy path. The tradeoff is that toggles left in the codebase past their useful life become their own form of technical debt, the number of possible toggle-state combinations makes exhaustive testing impractical, and every toggle adds a conditional branch that makes already-complex legacy code harder to read.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

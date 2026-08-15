@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+An FAQ compiles the answers to the handful of questions that generate a disproportionate share of support volume, built directly from support ticket data rather than guessed at, and made searchable in one place instead of scattered across tribal knowledge. Legacy systems reliably generate exactly this kind of repetitive question load, since their documentation is typically outdated or missing entirely and the real explanation for a quirky field or workflow exists only in the memory of whoever has used the system longest. The practice only pays off if it is actively maintained — an FAQ answer describing behavior from a previous version is worse than no FAQ at all, since it actively misleads the very users it's meant to help.
+
 ## How to Apply ◆
 
 > Legacy systems generate repetitive support questions because documentation is outdated, incomplete, or inaccessible. A well-maintained FAQ addresses the most common questions in one easily searchable location.

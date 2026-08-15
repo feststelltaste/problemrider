@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A watchdog is a supervising process that observes one or more other processes and takes action when they stop behaving correctly, either by failing to respond, failing to make progress, or terminating unexpectedly. It works by requiring the monitored process to periodically prove it is alive and functioning — through a heartbeat signal, a progress marker, or a response to a health check — and by treating the absence of that proof within an expected time window as evidence of failure. Once a failure is detected, the watchdog can escalate through a configured chain of actions: restarting the process, killing a stuck instance so it can be recovered, or alerting an operator when automated recovery is not possible or has already been tried too often. This pattern is particularly valuable for legacy systems because such systems frequently run components that were never built with self-monitoring in mind and that fail in silent, ungraceful ways — a hung batch job, a deadlocked thread pool, a message consumer that has quietly stopped consuming. Rather than requiring an invasive rewrite to add proper observability, a watchdog can be layered on top of an existing process as an external supervisor, turning an opaque failure mode into a detectable and often self-healing one. In doing so it directly counters the pattern of constant firefighting and slow incident resolution that legacy operations teams experience when failures are discovered only through downstream symptoms or user complaints, hours after the actual fault occurred.
+
 ## How to Apply ◆
 
 > Legacy systems often fail silently, with no mechanism to detect when a component has stopped functioning correctly. Watchdog processes provide automated detection and recovery for failures that would otherwise go unnoticed until users report symptoms.

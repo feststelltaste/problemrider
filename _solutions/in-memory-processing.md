@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+In-memory processing moves frequently accessed data out of disk-based storage and into main memory — via an in-memory data grid, an in-memory database feature, or application-level data structures — so that reads and writes avoid disk seek latency entirely and complete in microseconds rather than milliseconds. Many legacy systems were architected around the assumption that disk-backed relational storage was the only economically viable option at the time they were built, an assumption that has since been overtaken by the falling cost of memory, leaving hot, frequently-read reference data or working sets sitting on disk for no reason other than historical inertia. This becomes a critical bottleneck specifically in workloads with sudden concentrated demand — real-time risk calculations during a market open, session lookups during a traffic spike — where disk I/O saturation causes cascading delays that no amount of query optimization on the disk-based path can fully resolve. Moving the relevant working set into memory, typically alongside a persistence mechanism such as snapshotting or write-ahead logging to protect against data loss on failure, converts these calculations from I/O-bound to CPU-bound and enables real-time responsiveness that a disk-backed legacy design structurally cannot provide. The corresponding constraint is that memory capacity is far more expensive and finite than disk, so this approach is deliberately scoped to the specific hot subset of data that benefits from it rather than applied as a wholesale replacement for the system's persistent store.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

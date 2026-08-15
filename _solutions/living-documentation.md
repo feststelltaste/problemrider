@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Living documentation is documentation that is generated from, embedded in, or continuously verified against the system it describes, so that it evolves automatically alongside the code rather than drifting away from it the moment it is written. In practice this means storing documentation as version-controlled text next to the code it documents, generating API references directly from code annotations or OpenAPI specifications, writing architecture decision records at the moment decisions are made rather than after the fact, and using executable specifications that fail a build the instant the described behavior and the actual behavior diverge. Legacy systems are the environment where conventional documentation fails hardest: wikis and Word documents are written once during an initial project phase and then abandoned, while the system itself keeps changing for years, so by the time a new maintainer needs the documentation it describes a system that no longer exists, and the resulting distrust means people stop consulting it and stop updating it, accelerating the decay. Living documentation breaks this cycle by removing the manual synchronization step entirely — because the documentation is either derived mechanically from the code or actively enforced by tests, it cannot silently fall out of date without the build itself signaling the discrepancy. This matters most in legacy modernization work, where institutional knowledge about why the system behaves as it does is often concentrated in a few people who may leave, and where new team members otherwise have no reliable way to distinguish current, accurate context from years-old, superseded notes.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

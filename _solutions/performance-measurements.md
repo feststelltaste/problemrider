@@ -63,6 +63,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Performance measurement instruments a system's code paths to continuously collect and store timing and resource-usage metrics in production, rather than relying on isolated benchmarks or user complaints to reveal how the system is actually behaving. Legacy systems accumulate performance regressions silently over years of incremental changes, and without a historical record of percentile response times, resource utilization, and their correlation to specific deployments, degradation only becomes visible once it has already reached crisis levels. Capturing full distributions — p50, p95, p99 — rather than averages exposes tail-latency problems that averages hide entirely, and correlating that data with deployment events turns "the system got slower at some point" into "this specific change caused it," which is the difference between an investigation that takes minutes and one that takes weeks.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

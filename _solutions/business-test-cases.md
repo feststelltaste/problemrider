@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Business test cases are test scenarios authored collaboratively with business users and expressed in business language, then reviewed and validated by those same users to confirm that the test accurately reflects what correct behavior actually means from the business's point of view rather than from a developer's assumption about it. The mechanism closes a specific gap: developers writing tests based on their own understanding of business rules will, by construction, only catch deviations from that same understanding, and cannot catch cases where the developer's understanding of the rule was wrong in the first place. This matters most in legacy systems whose business logic — payroll calculations, benefit rules, tax handling — accumulated real-world edge cases over years of operation that were never fully documented anywhere except in the memory of the specialists who handle exceptions daily, and whose absence from any test suite is exactly why subtle calculation errors can persist undetected for years. Involving business specialists directly in writing and reviewing test cases surfaces precisely these edge cases, because domain experts encounter and remember scenarios that a technical reading of the code would never suggest looking for. The ongoing cost is the recurring demand on business users' time and attention, and the risk that even they will gravitate toward the common cases they see daily rather than the rarer edge cases where legacy defects are most likely to be hiding.
+
 ## How to Apply ◆
 
 - Collaborate with business users to identify critical business workflows and translate them into test cases expressed in business language.

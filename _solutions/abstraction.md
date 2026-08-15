@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Abstraction is the general practice of defining explicit interfaces or contracts at the boundaries between components, so that each side depends only on the agreed contract rather than on the other side's concrete implementation details. Once such a contract is in place, either side can change internally — swap a data structure, replace a library, rewrite an algorithm — as long as it continues to honor the contract, which decouples the pace and risk of change on one side from the other. Legacy systems tend to accumulate the opposite condition over time: modules reach directly into each other's internals, business logic instantiates concrete vendor classes, and a change anywhere ripples unpredictably everywhere, because no stable boundary was ever established. Introducing abstraction at these boundaries is usually done incrementally, often as part of a Strangler Fig migration, by wrapping an existing component behind a newly defined interface before its internals are touched, which turns a monolith's rigid internal structure into a set of independently replaceable parts. This is also what makes many other structural remedies possible in the first place: dependency injection, mocking in tests, and vendor substitution all rely on a prior abstraction step to have somewhere to attach to. Because contracts are only useful if they remain stable, introducing abstraction prematurely — before it is clear where variation is actually needed — can add complexity without a corresponding benefit.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

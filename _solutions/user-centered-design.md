@@ -35,6 +35,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+User-centered design builds an interface around actual user research — interviews, journey maps, usability testing — rather than around the technical constraints and developer assumptions that shaped it originally, which is precisely how most legacy interfaces came to exist in the first place. Legacy systems in particular tend to mirror their database schema or the original developer's mental model rather than the workflow of the person actually using them, and the gap this creates is what drives users toward shadow spreadsheets and personal workarounds that the development team may not even know exist until someone finally asks. Establishing a regular research and testing cadence, and prioritizing fixes where user traffic and support tickets are actually concentrated, turns UX improvement into a data-driven, incremental practice rather than a single speculative redesign — though it requires research capability many legacy-focused teams don't already have, and it can temporarily increase inconsistency between the parts of the system already modernized and the parts still waiting their turn.
+
 ## How to Apply ◆
 
 > Legacy systems frequently suffer from interfaces that were designed around technical constraints and developer assumptions rather than actual user needs. Introducing user-centered design practices into legacy modernization efforts ensures that improvements address real problems rather than imagined ones.

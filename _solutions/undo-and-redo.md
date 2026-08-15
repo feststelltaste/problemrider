@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Undo and redo let a user reverse an action and reapply it, converting what would otherwise be a permanent, irreversible operation into something safe to attempt and easy to back out of. Legacy systems that never implemented this force users into a defensive crouch — copying entire records or pages to backup folders before making any edit, moving slowly and anxiously because every action might be the one they can't take back — which is a direct tax on both speed and willingness to explore the system's actual capabilities. A full action-history stack is the most complete version of this, but a simpler time-limited "Undo" link on a success confirmation handles the most common case for far less implementation cost, and for anything touching the database, building undo through soft deletes or an audit trail is far more tractable than attempting to reverse a legacy transaction directly.
+
 ## How to Apply ◆
 
 > Legacy systems rarely support undo, making every action potentially irreversible and causing users to be cautious, slow, and anxious. Adding undo and redo capability enables confident exploration and quick error recovery.

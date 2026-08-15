@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+API security is the application of layered controls — token-based authentication, rate limiting, request schema validation, response filtering, and transport encryption — to protect an API against abuse and exploitation, typically enforced at a centralized point such as an API gateway rather than scattered throughout application code. Many legacy APIs were originally designed for a small set of trusted internal consumers operating behind a corporate firewall, using authentication mechanisms such as basic auth or IP allow-lists that offered adequate protection only as long as that perimeter assumption held; as those APIs are gradually opened to partners, mobile clients, and third-party integrations, the original threat model no longer matches how the API is actually being used and exposed. Because legacy application code is often risky or slow to modify safely, the practical starting point is to add these controls at a gateway in front of the legacy backend, which lets authentication, throttling, and input validation be hardened without touching source code that few people fully understand anymore. Schema validation and response filtering at this layer also compensate for legacy code that may not handle unexpected or malformed input safely, intercepting attacks such as injection attempts before they ever reach backend logic that was never written with adversarial input in mind. This approach trades a small amount of added latency and a new piece of critical infrastructure for a substantial and rapid reduction in attack surface — protections that would otherwise require months of careful, risky refactoring inside the legacy codebase can instead be deployed at the gateway within days.
+
 ## How to Apply ◆
 
 > Legacy APIs often lack fundamental security controls, having been designed for internal use behind firewalls that no longer provide adequate protection. API security hardens these interfaces against modern threats through layered controls.

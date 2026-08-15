@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Security culture is the embedding of security as a shared organizational value — reflected in everyday behavior, leadership priorities, and how incidents are treated — rather than as a set of rules imposed on developers from outside. The mechanism operates through visible leadership commitment, blameless handling of security incidents so that reporting a vulnerability is rewarded rather than punished, and inclusion of security objectives in ordinary team goals, all of which shift security from a compliance obligation enforced by a separate function into a norm that people uphold because it is genuinely valued, not merely because it is checked. This distinction is particularly consequential in legacy environments, where a blame culture around defects often causes exactly the opposite of the desired outcome: developers who fear consequences for surfacing a security problem quietly patch it without documentation or avoid raising it at all, which is how known weaknesses persist silently in old code for years. Changing this requires sustained, visible investment from leadership rather than a single initiative, because culture change is inherently slow, hard to measure, and easily undermined by any single incident handled the old way. For legacy modernization specifically, security culture is the precondition that makes other security solutions durable: policies, training, and tooling all depend on people being willing to engage with security honestly, and without that underlying willingness, technical controls tend to be worked around rather than followed.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

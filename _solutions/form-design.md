@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Good form design groups related fields, breaks long forms into focused multi-step wizards, and shows fields only when they're relevant, rather than presenting every field a legacy database table happens to have on one overwhelming screen. Because legacy forms were typically laid out in whatever order the schema dictated rather than the order a user actually thinks through a task, they force users to hold the entire form's structure in mind just to find the handful of fields relevant to their specific case. Restructuring around the user's actual workflow — with inline validation per step rather than one wall of errors at final submission — reduces both error rates and abandonment, at the cost of needing careful state management to preserve data across steps in what is often a legacy frontend never built with that in mind.
+
 ## How to Apply ◆
 
 > Legacy systems often present all data entry fields on a single screen in the order they appear in the database, overwhelming users with dozens of fields at once. Thoughtful form design reduces errors and improves completion rates.

@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Distributed caching places frequently read, infrequently changed data in an in-memory store — such as Redis, Memcached, or Hazelcast — that sits between the application tier and the database and is shared across every application instance, rather than each instance keeping its own local, inconsistent cache. Requests check the shared cache first and only fall through to the database on a miss, which removes repeated, redundant queries for the same reference data from the database's workload entirely. Legacy systems frequently reach the limits of a single database instance not because the underlying data is large but because the same queries — product catalogs, configuration lookups, session data — are executed far more often than the underlying data actually changes, and no caching layer exists to absorb that repetition. Introducing a distributed cache addresses this specific pattern without requiring the database itself to be re-architected, which makes it an attractive lever in legacy contexts where deeper database changes are expensive or risky. Because the cache is shared, it also allows the application tier to scale horizontally without each new instance adding a proportional new load to the database — a property that individual, per-instance caches cannot provide. The tradeoff is that cache invalidation must now be actively managed, since serving stale data becomes a real risk the moment data changes are not reliably reflected in the cache.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

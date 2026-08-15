@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A pattern language is a shared vocabulary of proven, named solutions to recurring design problems, built up so that a team can refer to "the Adapter here" or "a State machine there" instead of re-explaining a design from scratch every time. Legacy codebases that grew without this shared vocabulary tend to accumulate several different, undocumented solutions to the same underlying problem, each written by a different developer who was unaware of — or unable to find — the others. Deliberately cataloging which patterns apply to the system's domain and technology, and using them consistently in design discussions and code reviews, replaces that inconsistency with a codebase where developers recognize familiar structural idioms and can navigate unfamiliar modules faster. The risk is applying patterns out of habit rather than fit: a pattern imposed where it does not belong adds ceremony without solving anything, so the language is only valuable when paired with judgment about when a pattern genuinely matches the problem at hand.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

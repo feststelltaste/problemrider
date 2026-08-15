@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Rolling updates deploy a new version of a system incrementally, instance by instance or in small batches, rather than replacing an entire fleet of servers simultaneously, with health checks validating each updated instance before the rollout proceeds to the next one. Because old and new versions of the application run side by side for the duration of the rollout, this approach both eliminates the downtime that a big-bang deployment would otherwise require and limits the blast radius of a bad release to whatever fraction of the fleet has been updated when a problem is first detected. For legacy systems, which are often deployed as a fixed set of long-lived servers rather than dynamically scaled infrastructure, rolling updates offer a way to reduce deployment risk without first re-architecting the system into something more cloud-native, since the technique operates at the deployment layer rather than requiring changes to the application itself. The approach does impose one significant precondition on the application, however: it must tolerate running two versions concurrently, which means database schema changes and any shared state must remain compatible across both versions for the duration of the rollout — a constraint that legacy applications with tightly coupled schemas or singleton in-memory state may not satisfy without additional work. Where that precondition can be met, rolling updates turn what was previously a scheduled maintenance window with full-fleet exposure into an incremental, self-checking process that halts automatically the moment early batches show signs of trouble.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

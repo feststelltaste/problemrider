@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Refactoring katas are short, repeatable coding exercises — such as the Gilded Rose, Tennis Refactoring, or Trip Service kata — that give developers a safe, low-stakes environment to practice specific refactoring techniques like Extract Method or Replace Conditional with Polymorphism before applying them to production code. Because the exercises use small, well-known code samples rather than the team's actual legacy system, developers can experiment freely, make mistakes, and repeat the exercise until a technique becomes automatic, without any risk of breaking something that matters. This distinction matters in legacy contexts because much of the reluctance to refactor old code stems not from a lack of theoretical knowledge but from a lack of practiced, muscle-memory-level skill in applying transformations safely — teams that have spent years only adding features to legacy code, rather than restructuring it, often lack the confidence to touch it at all. Regular kata practice rebuilds that confidence gradually and creates a shared vocabulary of technique names and approaches across the team, so that when someone proposes extracting a value object or replacing a conditional with polymorphism during a real code review, everyone understands what is meant and how to do it safely. Over time, the skills exercised in katas transfer directly to the legacy codebase, turning refactoring from an intimidating, occasional event into a routine part of daily work.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

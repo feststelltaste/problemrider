@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Audit trail management is the practice of recording every security-relevant action a system performs — who did what, when, from where, and with what outcome — in a form that cannot be silently altered or deleted after the fact, typically enforced through append-only storage and cryptographic chaining between successive records. The mechanism works by treating the audit log as a first-class, independently secured data store rather than an incidental byproduct of application logging, so that even someone with full administrative access to the application database cannot rewrite history without breaking a verifiable hash chain. Legacy systems are a natural site of failure here because logging was frequently added ad hoc over the years to solve immediate debugging needs, producing incomplete, mutable, or co-located logs that satisfy neither forensic investigation nor regulatory scrutiny once the system has been in production long enough to accumulate real compliance exposure. Retrofitting audit trail management into such a system means identifying every action with legal or business significance that the original design never anticipated needing to prove, and routing it through a separate, tamper-evident channel rather than patching the existing, unprotected log table. The payoff is a system that can answer "who touched this record and why" years after the fact, which is precisely the question legacy systems are least equipped to answer and regulators, auditors, and courts are most likely to ask.
+
 ## How to Apply ◆
 
 > Legacy systems often have inadequate or easily tampered audit trails, making it impossible to meet compliance requirements or investigate security incidents. Audit trail management establishes immutable, comprehensive records of all security-relevant actions.

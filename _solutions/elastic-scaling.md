@@ -35,6 +35,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Elastic scaling adjusts the number of running instances or workers dynamically based on actual measured demand, replacing the fixed resource allocation that most legacy systems were provisioned with once, at installation time, and never revisited since. That static provisioning is what causes both failure modes at once over a system's lifetime: capacity wasted during quiet periods and outright saturation during load spikes the original sizing never anticipated. Instrumenting real demand signals — queue depth, connection count, utilization — and scaling stateless components first against those signals lets infrastructure track actual load instead of a years-old guess, though genuinely legacy components with hardcoded configuration or in-memory state usually need to be made scale-ready before elastic scaling can help them at all.
+
 ## How to Apply ◆
 
 > Legacy systems are typically deployed with fixed resource allocations determined at installation time and rarely revisited. Elastic scaling replaces static provisioning with dynamic resource adjustment that matches infrastructure capacity to actual demand, preventing both overprovisioning waste and underprovisioning failures.

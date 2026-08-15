@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Object-relational mapping translates between the relational rows and columns of a database and the objects an application manipulates in code, so that developers work with domain entities instead of hand-written SQL and result sets. This indirection decouples application logic from a specific database dialect, which is exactly the coupling that traps legacy systems when a database migration, licensing change, or performance problem forces a vendor switch. In a legacy codebase with thousands of scattered raw queries, introducing an ORM behind a repository layer lets teams migrate incrementally — mapping stable, simple entities first while leaving performance-critical or unconventional queries as native SQL — rather than requiring a rewrite of the entire data access layer at once. The tradeoff is that ORM-generated queries can be less efficient than hand-tuned SQL, so the abstraction typically needs an escape hatch for cases where it gets in the way.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

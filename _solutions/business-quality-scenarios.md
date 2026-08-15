@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Business quality scenarios express non-functional requirements — availability, performance, reliability — in a concrete stimulus-response format that states who or what triggers a condition, what the system does in response, and what measurable outcome counts as acceptable, deriving the specific numbers from real business concerns rather than generic engineering targets. The mechanism forces vague aspirations like "the system should be fast and reliable" into testable statements such as a defined response time under a defined concurrent load, which can be automated as part of a test suite and checked objectively rather than argued about subjectively. This is particularly important in legacy modernization because quality requirements in older systems were frequently never stated at all, leaving architects to guess at acceptable performance or availability targets when deciding where to invest scarce modernization effort, with no way to tell whether a proposed change actually addresses a business-relevant concern or merely a technical preference. Deriving scenarios directly from business events — month-end processing load, failover time during a database outage — ties architectural decisions to actual business impact and gives modernization work concrete, prioritized acceptance criteria instead of an open-ended quality improvement mandate. The ongoing cost is that scenarios require continued collaboration with business stakeholders to stay current, and not every quality attribute translates naturally into a business-scale scenario, so some technical qualities remain harder to express this way.
+
 ## How to Apply ◆
 
 - Define quality scenarios using the stimulus-response format: who/what triggers the scenario, what happens, and what measurable response is expected.

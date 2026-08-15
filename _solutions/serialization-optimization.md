@@ -33,6 +33,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Serialization optimization replaces a verbose, reflection-based serialization format with a more compact or more efficient one — binary formats like Protocol Buffers for service-to-service calls, selective field inclusion for client-facing JSON — reducing the CPU, memory, and network cost of converting data to and from wire format. Legacy systems frequently default to whatever format was chosen for human readability or historical convenience years ago, and as service-to-service call volume and payload size have grown since then, that choice can end up consuming a genuinely large fraction of total request time — 20 to 40 percent is common — entirely invisible until someone profiles the serialization layer specifically rather than the business logic around it. The gain is substantial and doesn't require touching business logic at all, but it does trade away human-readability for debugging and requires a careful transition period if the format change has to roll out to a system already running in production.
+
 ## How to Apply ◆
 
 > Legacy systems frequently use verbose serialization formats chosen for human readability or historical reasons rather than performance. As data volumes and service communication frequency grow, serialization overhead becomes a significant fraction of total processing time. Optimizing serialization reduces latency, memory consumption, and network bandwidth usage without requiring changes to business logic.

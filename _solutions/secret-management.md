@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Secret management moves credentials into a dedicated vault with access policies and automated rotation, replacing the plaintext passwords and API keys that legacy systems routinely accumulate in source code, configuration files, or shared wikis over years of expedient shortcuts. Those hardcoded credentials are usually the single highest-impact fix available in a legacy security review, since they're both trivially exploitable if ever exposed and, in most legacy systems, effectively un-rotatable — nobody wants to change a password that's copy-pasted into dozens of files with no single source of truth. Migrating service by service, starting with the most sensitive credentials, and bridging services that can't yet call the vault directly through an environment-variable adapter, makes the transition safe to do incrementally, though the vault itself then becomes a new hard dependency whose own unavailability can block every service that depends on it.
+
 ## How to Apply ◆
 
 > Legacy systems routinely store credentials in source code, flat configuration files, or shared wikis — replacing those practices with centralized secret management is the highest-impact security step a modernization effort can take.

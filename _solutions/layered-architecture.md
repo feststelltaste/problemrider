@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Layered architecture organizes a system into a stack of horizontal layers — typically presentation, business logic, and data access — where each layer exposes a defined interface and depends only on the layer directly beneath it, never the reverse. The dependency rule is the mechanism that does the actual work: by forbidding a layer from reaching past its immediate neighbor, it prevents presentation code from touching the database directly or business rules from leaking into UI controllers, which is precisely the kind of entanglement that accumulates in unmanaged legacy code over time. In a legacy system context, layering is often less about designing from scratch and more about archaeology and extraction: identifying where SQL, validation logic, and rendering code have become interleaved in the same file or class, and carving out the responsibilities into their proper layer one violation at a time. Because each layer can be tested and modified independently once boundaries are established, the blast radius of a change shrinks from "anywhere in the codebase" to "within one layer," which directly counters the ripple-effect-of-changes and difficult-code-comprehension problems that plague tangled legacy code. Layering does not eliminate coupling — it organizes it — so its value in modernization comes from making the remaining dependencies visible, predictable, and enforceable rather than implicit and scattered.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

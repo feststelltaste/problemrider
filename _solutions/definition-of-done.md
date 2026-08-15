@@ -50,6 +50,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A Definition of Done is an explicit, universal quality bar — code reviewed, tests passing, deployed to a test environment — that every work item must clear before it counts as finished, replacing the implicit and often inconsistent standard of "the developer says it works." In legacy contexts, where "done" has historically meant exactly that, a DoD is frequently the first mechanism that stops half-finished changes from quietly eroding an already fragile system, and it doubles as a forcing function that surfaces gaps in the team's own quality infrastructure — missing test environments, missing rollback verification — that the DoD cannot be met without addressing. Calibrating the DoD to what the team can realistically achieve now, and raising it deliberately as capability improves, keeps it a real standard rather than a document that gets waived under pressure.
+
 ## How to Apply ◆
 
 > In legacy contexts where "done" has historically meant "the developer says it works," a formal Definition of Done is often the first mechanism that prevents partially-finished changes from silently eroding an already fragile system.

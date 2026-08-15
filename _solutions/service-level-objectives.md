@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A service level objective is an internally agreed target value for a service level indicator over a defined time window — for example, 99.9% of requests completing within two seconds, measured over a rolling 28-day period. Where an SLI is simply what is measured and an SLA is what is contractually promised to an external party, the SLO is the operating threshold engineering teams hold themselves to, and it is what turns a raw metric into an actionable decision rule. The gap it closes in legacy systems is the absence of a shared definition of "reliable enough": without it, every slowdown or blip is treated as equally urgent, escalations are driven by whoever complains loudest, and engineers have no principled basis for deciding whether a given failure warrants an all-hands response or can be tolerated. By deriving an error budget from the SLO — the amount of allowable failure before the target is breached — the practice creates an explicit, quantified trigger for when reliability work should take priority over feature development, replacing political negotiation with a shared, data-backed rule. This is especially valuable in legacy modernization, where the SLO also functions as a target for the replacement system and a baseline against which the gap between current and desired reliability can be measured and communicated to stakeholders funding the effort.
+
 ## How to Apply ◆
 
 > Legacy systems often operate without clearly defined reliability targets, making it impossible to distinguish acceptable degradation from genuine incidents. Service Level Objectives provide measurable thresholds that align engineering priorities with business expectations.

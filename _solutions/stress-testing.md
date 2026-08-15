@@ -35,6 +35,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Stress testing deliberately pushes a system beyond its expected peak load — gradually increasing traffic, exhausting resources such as database connections or memory, or injecting failures like process kills and network partitions — until it degrades or breaks, in order to discover its actual capacity ceiling and failure modes rather than assuming they are understood. This differs from ordinary load testing in intent: the goal is not to confirm the system handles expected traffic but to deliberately find where and how it stops handling traffic, which is information that can only be obtained by actually causing the failure under controlled conditions. Legacy systems are especially prone to failing in ways nobody anticipated, because their original capacity assumptions were set long ago against traffic patterns that have since changed, and the components involved were often never designed with graceful degradation in mind — a connection pool exhaustion might trigger an unhandled crash rather than a controlled backpressure response, for instance. Running stress tests surfaces these failure modes — a queue's overflow mechanism silently dropping messages instead of applying backpressure, a crash instead of a degraded response — while the system is under observation in a controlled environment, rather than during an actual production incident when the same discovery is far more costly and far less calm. The results directly inform where circuit breakers, auto-scaling rules, and alerting thresholds should be set, but the practice requires an isolated environment to avoid corrupting real data or state, and it consumes significant infrastructure resources to execute meaningfully.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

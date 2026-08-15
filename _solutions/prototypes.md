@@ -34,6 +34,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Business prototypes are deliberately incomplete, disposable representations of a proposed system — wireframes, clickable mockups, or narrowly scoped working software — built specifically to let stakeholders and end users see and interact with a proposed design before any commitment is made to full implementation. Their defining characteristic is that they are throwaway artifacts: the goal is validated learning about whether a design direction actually works for its users, not a codebase to be extended into production. This matters acutely in legacy modernization because the people who have used a legacy system for years have accumulated strong, often undocumented expectations about how workflows should feel, and those expectations rarely survive intact in a written requirements document — an agent who has spent fifteen years multitasking across several open panels in a legacy interface will notice immediately, in a five-minute prototype session, a linear replacement workflow that a requirements review would never have flagged. Presenting prototypes to the actual population of legacy system users, rather than only to project stakeholders, surfaces exactly this kind of workflow mismatch while it is still cheap to change, months before it would otherwise be caught in acceptance testing. The central risk that distinguishes prototypes from ordinary early-stage development is scope confusion: stakeholders can easily mistake a working-looking prototype for near-finished software, and rushed prototype code that is not clearly bounded as disposable has a tendency to end up shipped into production, carrying its shortcuts with it.
+
 ## How to Apply ◆
 
 > Business prototypes in legacy modernization let stakeholders see and interact with proposed replacements before committing to full implementation, reducing the risk of building the wrong thing.

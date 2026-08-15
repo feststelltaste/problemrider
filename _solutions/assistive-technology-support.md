@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Assistive technology support ensures a legacy interface actually works with the tools — screen readers, magnifiers, alternative input devices — that many users depend on to operate it at all, something most legacy UIs were never built with in mind. Because these systems typically rely on purely visual cues and non-semantic markup, retrofitting support means auditing against accessibility standards like WCAG, replacing generic elements with proper semantic and ARIA-annotated controls, and testing with real assistive tools rather than automated scanners alone, which catch only a fraction of real issues. Beyond the direct compliance and legal exposure this addresses, the same changes — clear focus indicators, sufficient contrast, meaningful labels — tend to make the interface more usable for everyone, not only the users the retrofit was aimed at.
+
 ## How to Apply ◆
 
 > Legacy systems were often built without any consideration for assistive technologies such as screen readers, magnifiers, or alternative input devices. Retrofitting accessibility support is essential for compliance and inclusivity.

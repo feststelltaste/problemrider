@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Redundant data storage means maintaining multiple copies of the same dataset across different disks, storage systems, or geographic locations so that the loss or corruption of any single copy does not mean the loss of the data itself. Implementations range from local RAID arrays and database replication to cross-region replicas and offsite archives, and can be synchronous — guaranteeing zero data loss but adding write latency — or asynchronous, which is faster but risks losing the most recent transactions during a failure. Legacy systems are frequently found running on aging, single-instance storage hardware that has never failed yet, which is precisely why its eventual failure tends to be catastrophic: without a second copy, a single disk or controller fault can erase years of business data that predates any modern backup discipline. Introducing redundant storage is often one of the first steps in de-risking a legacy environment before deeper modernization work begins, because it converts a hardware failure from an existential data-loss event into a routine failover. It also creates a foundation that later modernization efforts — such as migrating to cloud storage or splitting a monolithic database — can build on, since a system already accustomed to replicated storage is easier to migrate incrementally without a single cutover moment of maximum risk.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

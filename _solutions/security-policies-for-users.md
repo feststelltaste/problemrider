@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Security policies for users define the mandatory rules governing how people are expected to interact securely with an application — password requirements, acceptable use, data handling, remote access — stated clearly enough to be enforced and communicated in terms tied to the systems people actually use. In legacy environments, gaps in an application's own capabilities frequently push users toward risky workarounds, such as sharing credentials because the system has no delegation feature, so an effective user policy has to be paired with closing the underlying gap rather than only prohibiting the workaround. Policies that are enforced through technical controls where possible, rather than relying purely on voluntary compliance, hold up better than documentation alone, but overly burdensome rules that ignore how people actually need to work tend to generate exactly the unsafe workarounds they were meant to prevent.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

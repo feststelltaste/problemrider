@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Data format conversion provides dedicated components that translate data between the format a legacy system natively produces or expects and the format required by another system it must exchange data with, typically implemented as a discrete conversion service or library rather than logic embedded in each consumer. When both formats must remain in use simultaneously — most commonly during a phased migration — the converter operates bidirectionally, translating incoming data into the modern format for new consumers while translating outgoing data back into the legacy format for consumers that have not yet migrated. This pattern is central to legacy modernization because it is rarely feasible to switch every system that reads or writes a given format at once: a converter lets the legacy format and the target format coexist for as long as needed, decoupling the pace of consumer migration from the timeline of the source system's own replacement. Centralizing the conversion logic in one place, rather than letting every consumer implement its own translation, also prevents the subtle drift that occurs when multiple ad-hoc converters interpret the same legacy format slightly differently. Because any translation between formats risks losing precision or altering meaning at the edges, converted data needs to be validated against the target schema, and conversion failures need to be logged and monitored rather than silently swallowed.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

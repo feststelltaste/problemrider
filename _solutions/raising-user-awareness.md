@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Raising user awareness is a set of ongoing educational activities — training sessions, simulated phishing campaigns, role-specific modules, security bulletins — intended to build a human layer of defense against threats like social engineering and credential theft that technical controls alone cannot fully address, since many attacks are designed specifically to exploit a person's judgment rather than a system's code. Applied to legacy environments, it directly targets a common and specific weakness: legacy systems are disproportionately likely to be operated with shared accounts, weak passwords, and other informal access practices that accumulated over a long operational history, precisely because the humans using them were never given a structured reason to change those habits. Awareness programs also function as an unplanned discovery mechanism — asking employees to think critically about their own access and credentials tends to surface undocumented shared accounts and other artifacts of that same informal history, findings that then justify a broader access review. The approach is complementary rather than a substitute for technical hardening, since improved awareness reduces the likelihood and impact of social engineering but does nothing on its own to close a technical vulnerability elsewhere in the legacy stack. Its main costs are the need for continuous content refresh as threats evolve, the reputational risk of overly aggressive simulated attacks damaging trust, and the general difficulty of proving a clear return on investment for a program whose success is measured by incidents that did not happen.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

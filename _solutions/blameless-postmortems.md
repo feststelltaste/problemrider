@@ -44,6 +44,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A blameless postmortem reconstructs what happened during an incident and what contributing factors allowed it, deliberately separated from any judgment about who is at fault, so that engineers can describe honestly what they saw and did without fear of professional consequence. Legacy systems generate an unusually rich vein of findings for this practice, since their incidents routinely expose undocumented configuration, forgotten dependencies, and behavior that surprises even the most senior people on the team. Treating each incident as multiple contributing factors rather than a single root cause, and protecting the process explicitly from performance reviews, is what makes the resulting archive of findings a genuine, growing source of institutional knowledge rather than a ritual nobody trusts.
+
 ## How to Apply ◆
 
 > In legacy environments where incidents are frequent and blame is the norm, blameless postmortems break the cycle of repeated failures by surfacing the systemic weaknesses that aging systems accumulate over decades.

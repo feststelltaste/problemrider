@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Security-relevant metrics quantify a system's security posture through indicators such as vulnerability age, patch compliance rate, and attack surface size, turning security from a subjective impression into something that can be tracked, trended, and compared across a portfolio of applications. This is particularly valuable for organizations maintaining many legacy systems at once, where intuition about "which application is riskiest" is frequently wrong until the metrics are actually collected and compared side by side. Automating collection from vulnerability scanners, code analysis tools, and incident systems, and tracking leading indicators alongside lagging ones, gives teams an evidence base for prioritizing remediation investment rather than distributing it evenly or by whoever complains loudest — though metrics tied carelessly to incentives can be gamed, and some real risks resist quantification entirely.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Microservices are independently deployable, business-capability-aligned services that let separate teams design, build, release, and scale their part of a system on their own schedule, coordinating through explicit API contracts instead of through the shared codebase and shared release calendar. Adopting this approach in a legacy context is done through incremental extraction rather than a rewrite: boundaries are identified where data sharing and business lifecycle are naturally minimal, functionality is peeled off into a new service one step at a time using the strangler fig pattern, and observability is put in place before extraction begins because a distributed system without tracing and centralized logs is far harder to debug than the monolith it replaces. Legacy monoliths tend to force every team into the same deployment cadence and the same technology stack regardless of whether that fits the problem each team is actually solving, which slows time to market and prevents any one part of the system from being scaled, released, or modernized independently of the rest. Restructuring around microservices removes that shared bottleneck, letting a team rewrite or scale its own service without coordinating with every other team, but the degree of decomposition matters enormously in practice: extracting too many, too finely-grained services from a system whose data coupling was never well understood tends to replace a slow but comprehensible monolith with a fast-failing web of synchronous service calls that is considerably harder to reason about and operate. The realistic legacy modernization path therefore favors coarser, business-aligned services extracted gradually and validated one at a time, rather than a big-bang decomposition into as many services as the domain model can theoretically support.
+
 ## How to Apply ◆
 
 > Decomposing a legacy monolith into microservices is one of the most common — and most frequently botched — modernization strategies. Success requires careful boundary identification and incremental extraction.

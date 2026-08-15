@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Compression re-encodes data into a smaller representation, either losslessly (so the original can be reconstructed exactly, as with gzip or Brotli) or lossily (accepting some quality reduction in exchange for a much smaller size, as with certain image or audio formats), and it can be applied at the protocol level, at rest, or within application payloads. Legacy systems frequently store and transmit data in verbose, uncompressed forms because compression was never revisited after the original implementation, leaving large XML or text payloads, ever-growing log files, and archival data consuming disk space and network bandwidth far beyond what the actual information content requires. Applying compression at the right layer — HTTP compression for API responses, at-rest compression for infrequently accessed archival data, protocol-level compression for inter-service traffic — directly attacks storage growth and transfer latency without requiring any change to the underlying data model or business logic. The choice of algorithm matters: fast, low-ratio algorithms suit real-time paths where CPU overhead must stay minimal, while high-ratio algorithms are appropriate for archival data that is rarely read. Because compression trades CPU cycles for space and bandwidth, it is particularly effective as a low-risk, incremental intervention in legacy systems where the bottleneck has shifted from compute to I/O or network transfer over the years.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

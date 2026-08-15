@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Consistent terminology maps every domain concept to a single canonical name and enforces it across the interface, code, and documentation, replacing the different words for the same thing that accumulate as different teams add features over years. Legacy systems are especially prone to this drift — "account number," "account ID," and "client reference" all meaning the same field in different screens — which causes exactly the kind of data-entry errors and confusion that a shared glossary, applied consistently through code review and UI updates, is meant to eliminate.
+
 ## How to Apply ◆
 
 > Legacy systems accumulate inconsistent terminology as different teams and developers add features over the years, using different words for the same concept. Standardizing terms reduces confusion for both users and developers.

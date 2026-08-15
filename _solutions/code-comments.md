@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Code comments are annotations embedded directly in source code that explain aspects of the code the code itself cannot express — most importantly the reasoning behind a decision, rather than a restatement of what the code visibly does. Used well, they capture the "why": the business rule that a piece of logic encodes, the constraint that forced a particular workaround, the historical context that makes an otherwise-illogical piece of code actually necessary. In legacy systems this function is disproportionately valuable, because the people who made the original decisions have frequently left the organization, no external documentation survives, and the code is the only remaining trace of institutional knowledge that would otherwise vanish entirely. A comment explaining that an odd calculation stems from a specific regulatory agreement, for instance, is often the only thing standing between that logic staying intact and a future maintainer "fixing" it into a production incident because it looked like an obvious bug. Comments work alongside clear naming and structure rather than replacing them — the "what" should ideally be legible from the code itself, leaving comments to carry only the context that cannot be inferred no matter how the code is written. Their central weakness is that they are never checked by a compiler or test suite, so a comment that is not kept in sync with the code it describes silently becomes actively misleading rather than merely unhelpful, which is a real risk in legacy code that gets modified without anyone revisiting its accompanying commentary.
+
 ## How to Apply ◆
 
 > In legacy systems, strategic code comments explain the "why" behind decisions that cannot be understood from the code alone, preserving institutional knowledge that would otherwise be lost.

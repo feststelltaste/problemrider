@@ -47,6 +47,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Observability instruments a system with structured logging, correlation IDs, distributed tracing, and metrics so that new questions about its behavior can be asked and answered after the fact, rather than only recognizing failure modes the team has already seen before. Legacy systems benefit disproportionately from this because they have typically been operated with the least visibility of any system in the organization — free-text logs scattered across servers reachable only by SSH, no correlation between a user-facing symptom and its root cause anywhere in the stack — which is exactly why incident investigation in these systems so often takes hours of manual log correlation instead of a single query. Retrofitting even basic structured logging with a correlation ID at the system boundary is usually the single highest-value change possible, though the retrofit itself is genuinely labor-intensive across a large, inconsistently instrumented codebase, and unmanaged telemetry volume can itself become a significant new operational cost.
+
 ## How to Apply ◆
 
 > Adding observability to a legacy system means building the ability to ask new questions about system behavior — starting with the failure modes the team has already encountered but cannot currently explain.

@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Exceptions are a language-level mechanism for signaling that an operation could not complete as expected, propagating that failure up the call stack until code that knows how to handle it catches it, in contrast to encoding errors as integer return codes, boolean flags, or other values a caller can silently ignore. Many legacy codebases, especially those originating in C-style languages, rely on the latter approach, and because nothing forces a caller to check a return value, ignored error codes are a common route by which a failure at one point in the code silently becomes data corruption or a crash somewhere else entirely, with no direct link between cause and eventual symptom. Migrating such code to a typed exception hierarchy, and catching those exceptions only at well-defined boundaries such as the API layer or a batch job's entry point rather than around every call, makes failure states impossible to overlook and gives the team a stack trace and structured context to work with when something does go wrong. The transition has to be done carefully, though, since introducing exceptions into code that previously relied on error codes can change observable behavior if not tested thoroughly, and in performance-sensitive paths on some platforms the cost of throwing exceptions frequently is non-trivial enough that they should be reserved for genuinely exceptional conditions rather than routine control flow.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

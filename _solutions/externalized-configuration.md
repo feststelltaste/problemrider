@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Externalized configuration moves environment-specific settings — connection strings, file paths, credentials, feature flags — out of the application's compiled artifact and into external sources such as configuration files, environment variables, or a dedicated configuration service that is read at startup or runtime rather than baked in at build time. Legacy applications frequently take the opposite approach, embedding such values directly in source code or in property files that are compiled into the deployable artifact, which forces a separate build for every environment and creates a real risk that the wrong environment's settings — most dangerously, production credentials in a staging build or vice versa — end up where they should not be. By introducing a configuration-loading layer with sensible defaults, hierarchical overrides, and startup validation that fails fast on missing required values, the same build artifact can be promoted unchanged from development through staging to production, which both removes an entire class of environment-related deployment incidents and creates the natural seam needed to migrate secrets into a dedicated vault. The cost is a new runtime dependency on the external configuration source being available and correctly populated, and for legacy systems where configuration values are deeply hardcoded throughout the code, extracting them can itself be a substantial refactoring effort.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

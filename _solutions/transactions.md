@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A transaction groups a set of related data modifications into a single atomic unit that either commits in its entirety or rolls back completely, so that a failure partway through an operation never leaves the system in an inconsistent, half-updated state. This guarantee is provided by the database through isolation levels and rollback mechanisms, but it only takes effect where the application explicitly demarcates transaction boundaries — and many legacy systems never did, having been written to rely on auto-commit mode where each statement is its own implicit transaction with no atomicity across the sequence of statements that together represent one real-world business operation. This gap is a common source of exactly the kind of silent data corruption that plagues aging systems: an order recorded without its corresponding inventory decrement, a debit posted without its matching credit, discovered only much later as a discrepancy nobody can explain. Wrapping such multi-step operations in proper transactions, choosing isolation levels no stricter than necessary, and extending the concept to sagas with compensating actions where a single ACID transaction cannot span multiple services, restores the all-or-nothing guarantee that the original implementation lacked. In legacy modernization, transactions are frequently one of the first correctness fixes applied, because they close a defect class that otherwise keeps generating new, hard-to-reproduce data integrity incidents indefinitely.
+
 ## How to Apply ◆
 
 > Legacy systems often perform multi-step data modifications without transactional guarantees, leaving data in inconsistent states when failures occur midway through an operation. Proper transaction management ensures that related operations either all succeed or all fail as a unit.

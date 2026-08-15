@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Tree shaking is a build-time optimization performed by module bundlers that statically analyzes a codebase's import and export graph and strips out any code that is never actually referenced, so the shipped bundle contains only what the application uses rather than everything a dependency happens to provide. It relies on the static, analyzable structure of ES modules to determine reachability at build time, which is why legacy CommonJS code — with its dynamic `require()` calls that cannot always be resolved without running the program — frequently defeats it and needs conversion before the optimization can take effect. In legacy frontend codebases this matters because bundle size tends to grow monotonically over years: whole utility libraries get imported for a handful of functions, disabled features stay bundled because nobody removed their imports, and barrel files re-export everything indiscriminately, none of which shows up as a functional bug but all of which quietly taxes every page load. Tree shaking addresses this without requiring anyone to manually hunt down and delete dead code path by path; instead, the build process itself removes what static analysis proves is unreachable, given enough structural cleanup (ES modules, side-effect-free package markers, avoidance of overly broad barrel exports) to make the analysis effective. Because it operates entirely within the build pipeline, it can be adopted incrementally alongside other modernization work, delivering measurable page-load improvements without requiring a rewrite of the application's runtime behavior.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

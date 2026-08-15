@@ -26,6 +26,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Asynchronous logging decouples the act of writing a log entry from the thread handling the request that generated it, by handing log events off to a buffer — typically a ring buffer or lock-free queue — that a separate thread drains and writes to disk, so the request-handling thread never blocks waiting for log I/O to complete. Legacy applications frequently log synchronously by default, since that was the simplest implementation available when logging frameworks like Log4j were first configured, and under low traffic this cost is invisible; but as traffic grows, every concurrent request contending for the same synchronous file write becomes a source of thread contention and latency spikes that appear to be unrelated performance problems until profiling traces them back to the logging calls themselves. Switching the logging configuration to an asynchronous appender removes this bottleneck without requiring any change to the actual logging statements scattered throughout the legacy codebase, since only the appender configuration changes, not the calling code — a rare case where a meaningful performance fix in a legacy system requires touching almost nothing of the application logic itself. Because log events are now buffered rather than written immediately, an application crash before the buffer is flushed can lose the most recent entries, so this approach also requires a graceful shutdown procedure that flushes pending events, along with an explicit overflow policy for what happens when the queue fills faster than it can be drained. Monitoring the async queue's depth in production is necessary to detect when logging still cannot keep up with the request rate, at which point either the buffer sizing or the overflow policy needs to be revisited rather than reverting to synchronous logging.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

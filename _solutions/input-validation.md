@@ -31,6 +31,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Input validation checks that data entering a system — through web forms, API calls, file uploads, or messages from other systems — conforms to an expected type, length, range, and format before that data is acted upon, ideally using an allowlist approach that defines what is accepted rather than a denylist that tries to enumerate what is rejected, since denylists are structurally incomplete against new encoding tricks. Legacy systems are disproportionately exposed here because many entry points were built at a time when trusting input from users and other systems was the default assumption rather than an explicit design decision, leaving string concatenation into SQL queries, unchecked file uploads, and unvalidated numeric fields scattered across dozens or hundreds of endpoints that accumulated over the system's lifetime. Retrofitting validation onto such a system is necessarily incremental and entry-point by entry-point, and it must be enforced server-side regardless of any client-side checks that exist, since client-side validation is a convenience that any attacker can simply bypass. Input validation is also explicitly a complement to, not a substitute for, structural defenses such as parameterized queries — the two together provide defense in depth, where parameterized queries eliminate SQL injection at the architectural level and validation catches malformed or malicious input at the boundary before it reaches any downstream logic at all. The ongoing cost is that validation rules must evolve alongside business requirements, since overly strict rules reject legitimate edge cases like valid international characters, while stale rules fail to catch newly discovered attack patterns.
+
 ## How to Apply ◆
 
 > Legacy systems frequently trust input from users and external systems without validation, creating vulnerabilities ranging from injection attacks to data corruption. Comprehensive input validation ensures that all data entering the system conforms to expected formats, types, and ranges.

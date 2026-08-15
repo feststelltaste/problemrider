@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Event storming is a collaborative workshop format, developed within the Domain-Driven Design community, in which developers, domain experts, and stakeholders jointly reconstruct a business process using sticky notes: first placing domain events in chronological order, then adding the commands that trigger them, the aggregates responsible for handling those commands, and the policies that connect one event to the next automatically. The technique is particularly effective against a specific legacy problem — that the actual behavior of an old system is often known only in fragments, scattered across the heads of a few long-tenured people, with no single artifact describing the full process end to end. Because the workshop format surfaces this knowledge collectively and visually, in a matter of hours rather than the weeks a written specification effort might take, it tends to reveal contradictions, undocumented side channels, and gaps in the team's shared understanding that no individual participant knew about beforehand. The clusters of events and aggregates that emerge from the session also double as natural candidate boundaries for decomposing a monolith, making event storming as valuable for planning a modernization's target architecture as it is for understanding the current one — though its output is only as durable as the effort put into formalizing it afterward, since sticky notes on a wall are not lasting documentation.
+
 ## How to Apply ◆
 
 - Organize workshops with developers, domain experts, and stakeholders using sticky notes on a large wall or digital whiteboard.

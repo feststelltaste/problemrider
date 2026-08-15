@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Platform-independent test frameworks such as pytest, JUnit, xUnit, or Jest are testing tools explicitly designed to execute the same test suite unmodified across every operating system a legacy system targets, in contrast to platform-coupled frameworks like MSTest that assume Windows-specific behavior such as registry access or particular file path conventions. Applying this solution means auditing existing tests for such platform-specific dependencies and replacing them with cross-platform equivalents — configuration files instead of registry lookups, portable path construction instead of hardcoded separators — and then running the full suite on every target platform as part of continuous integration. This is directly relevant to legacy modernization because a migration effort, such as moving a .NET Framework application to cross-platform .NET, is only validated if its test suite can run on the new target platforms too; a test suite still wired to Windows-only assumptions cannot verify the very portability the migration is meant to achieve. Beyond migration validation, cross-platform test execution surfaces subtle portability bugs — case-sensitivity differences, path separator assumptions — that would otherwise only be discovered in production on the new platform. The tradeoff is increased CI resource consumption from running the suite across multiple platforms, and some genuinely platform-specific test scenarios remain difficult to express in a fully abstracted way.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

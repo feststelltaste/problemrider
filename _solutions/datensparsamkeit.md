@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Datensparsamkeit — data minimization — restricts what personal and sensitive data a system collects and how long it retains it to only what is strictly necessary for an active, specific business purpose, replacing the default legacy posture of collecting and keeping everything indefinitely just in case. Applying it means auditing every stored data element to establish whether the business purpose it once served is still valid, removing collection of fields at the source once that purpose no longer applies, and implementing automated retention and deletion or anonymization processes rather than relying on manual cleanup that tends to be deferred indefinitely. This is particularly consequential for legacy systems because they were typically built and extended long before data protection regulation made minimization a legal expectation, and as a result they tend to have quietly accumulated years of personal data for customers who are no longer active and fields that were once required but are no longer used by any current process. Reducing that footprint directly reduces the harm a future data breach or unauthorized access incident can cause — data that was never retained cannot be exfiltrated — and it simultaneously narrows the scope of compliance obligations and the security controls needed to satisfy them. The corresponding risk is that historical data, once deleted or anonymized, cannot be recovered if a legitimate future business need for it emerges, and that data dependencies across interconnected legacy systems are rarely documented well enough to guarantee that removing data in one system will not silently break something in another.
+
 ## How to Apply ◆
 
 > Legacy systems tend to collect and retain all available data indefinitely, often storing sensitive information that is no longer needed for any business purpose. Datensparsamkeit (data minimization) reduces risk by limiting data collection and retention to what is strictly necessary.

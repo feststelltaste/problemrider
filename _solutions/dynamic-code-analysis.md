@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Dynamic code analysis tests a system's security properties by actually executing it and observing its runtime behavior — sending it crafted inputs, monitoring memory behavior, or instrumenting internal data flow — rather than reasoning about vulnerabilities from source code alone. This distinction is especially important for legacy systems, since static review of old code is frequently incomplete or impossible: source may be partially lost, written in memory-unsafe languages whose failure modes only manifest under specific runtime conditions, or too entangled with runtime configuration and third-party dependencies for a static reviewer to reason about safely. Tools in this category range from Dynamic Application Security Testing that probes a running application the way an external attacker would, to Interactive Application Security Testing that observes internal data flow during execution, to memory analyzers like Valgrind or AddressSanitizer that catch buffer overflows and use-after-free errors invisible to any source-level review. Because dynamic analysis only exercises the code paths it actually triggers, it complements rather than replaces static analysis and manual review — a static scan might flag suspicious string concatenation as a code-quality concern, but only a dynamic test can confirm whether that pattern is actually exploitable in practice. This matters for legacy system modernization specifically because it lets a team establish which of many long-standing, previously unverified risk signals in old code represent real, currently exploitable vulnerabilities worth prioritizing, versus theoretical weaknesses that have never been reachable in practice.
+
 ## How to Apply ◆
 
 > Legacy systems often cannot be fully analyzed through static code review alone due to complex runtime behavior, dynamic configuration, and third-party dependencies. Dynamic analysis tests security properties by executing the application and observing its behavior under various conditions.

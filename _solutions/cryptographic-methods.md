@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Cryptographic methods, as a solution, means auditing and replacing whatever encryption, hashing, and random-number-generation mechanisms a legacy system actually uses with proven, vetted, standardized algorithms and established libraries, rather than continuing to rely on whatever was considered adequate when the system was originally built. Legacy systems frequently still run deprecated algorithms — DES, MD5, SHA-1, RC4 — or custom-built encryption schemes that were never subjected to serious cryptographic scrutiny, simply because nobody has revisited the cryptography since the original implementation, and these choices provide only the appearance of security against modern computational capability and attack techniques. The risk is compounded when legacy code implements even a strong algorithm incorrectly — using ECB mode, which reveals data patterns, or seeding tokens with a non-cryptographic random number generator like Java's `Math.random()` — since implementation detail failures like these can negate the security benefit of an otherwise sound algorithm entirely. Migrating to current standards (AES-256, SHA-256/SHA-3, bcrypt/Argon2id, CSPRNGs) using established libraries such as OpenSSL or libsodium rather than custom code addresses both problems at once: it replaces weak algorithms and removes the risk of a subtly incorrect from-scratch implementation. Because migrating already-encrypted data requires a window where it exists decrypted under the old scheme before being re-encrypted under the new one, and because algorithm changes can break integrations that expect the legacy format, this modernization is typically executed as a carefully staged rolling migration rather than an instantaneous cutover.
+
 ## How to Apply ◆
 
 > Legacy systems often use deprecated cryptographic algorithms (DES, MD5, SHA-1, RC4) or custom-built encryption schemes that provide false security. Modernizing cryptographic methods ensures that data protection relies on proven, vetted algorithms.

@@ -42,6 +42,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Monitoring system utilization continuously collects resource consumption metrics — CPU, memory, disk, network, thread counts, connection pool usage, database lock waits and buffer cache hit ratios — across all hosts and components of a system, and surfaces them through dashboards and threshold-based alerts that warn before a resource is actually exhausted rather than after. By correlating this utilization data with business metrics and historical trends, teams can also project when current infrastructure will run out of headroom, turning capacity planning into a data-driven exercise rather than a reactive scramble. Legacy systems commonly operate with no such visibility at all, which means that when performance degrades, the team's first instinct is often to blame the application code and propose a rewrite, since resource-level data that could point to the actual cause — disk I/O saturation from a backup job, an undersized connection pool, memory pressure from a leak — simply does not exist. Introducing utilization monitoring into such an environment frequently reveals that the real bottleneck is an infrastructure or configuration issue rather than an application defect, which can redirect effort away from an expensive rewrite and toward a comparatively cheap infrastructure fix. Because monitoring agents themselves consume some of the resources they are measuring, and because legacy hosts are often already resource-constrained, this instrumentation needs to be deployed with an awareness of its own footprint, alongside ongoing attention to threshold tuning so that the resulting alerts remain a meaningful signal rather than background noise.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

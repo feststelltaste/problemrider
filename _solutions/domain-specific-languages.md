@@ -28,6 +28,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+A domain-specific language lets business rules — pricing logic, validation rules, workflow definitions — be expressed directly in vocabulary and structure native to the domain, either as an internal fluent API layered on top of the existing general-purpose language or as an external language with its own custom syntax and parser, instead of being buried inside general-purpose code that only developers can read. Legacy systems routinely express exactly these kinds of rules as deeply nested conditionals scattered through thousands of lines of ordinary application code, which makes it effectively impossible for the business analysts or actuaries who actually own the rules to verify that the code implements their intent correctly. Migrating such logic into a DSL — incrementally, and validated against existing behavior at each step — closes that verification gap directly, since domain experts can then read, and sometimes even author, the rules themselves without going through a developer intermediary. This also decouples the expression of a business rule from its technical implementation, which means that when a rule changes — as pricing models and regulatory requirements frequently do — the change can be made in domain terms and takes a fraction of the time that modifying and re-testing general-purpose code once required. The upfront cost is real: designing a DSL well demands specialized skill, and a poorly designed one becomes harder to understand than the code it replaced, so this approach is best reserved for domains where business rules are both complex and subject to frequent change.
+
 ## How to Apply ◆
 
 - Identify areas of the legacy codebase where business rules are expressed in general-purpose code that is difficult for non-developers to understand.

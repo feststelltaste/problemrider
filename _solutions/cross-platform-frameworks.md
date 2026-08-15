@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Cross-platform frameworks such as Kotlin Multiplatform, Flutter, or .NET MAUI let a single codebase target multiple platforms, typically by sharing business logic across platforms while leaving genuinely platform-specific concerns — UI rendering, hardware access — implemented natively where needed. Organizations running separate native applications for each platform, maintained by separate teams, commonly discover that keeping feature parity between them is a permanent, losing battle: one platform's team ships faster than the other's, and the gap between the two versions widens with each release cycle rather than closing. Migrating the shared business logic — the parts that do not inherently depend on a specific platform, such as domain rules, scheduling logic, or offline synchronization — onto a cross-platform framework removes the duplicated implementation effort that caused the parity gap in the first place, without necessarily touching the platform-specific UI layers that benefit most from staying native. Because a full rewrite of two established native codebases at once is high-risk, this is typically approached as a gradual migration that starts with the most clearly separable, non-platform-specific logic and expands from there. The tradeoff is a new dependency on the framework's own roadmap and platform-feature coverage, some potential performance cost for UI- or hardware-intensive operations, and the reality that not every legacy codebase can be cleanly separated into shareable and platform-specific layers in the first place.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

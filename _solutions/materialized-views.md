@@ -32,6 +32,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+A materialized view precomputes and physically stores the result of a query — typically one that aggregates or joins large tables — so that subsequent reads against it return instantly from the stored result instead of recomputing the underlying joins and aggregations on every access, at the cost of the stored result becoming stale until it is next refreshed on a periodic, on-demand, or incremental schedule. This is a database-layer optimization that can often be introduced without touching legacy application code at all, since existing queries can simply be redirected to the materialized view instead of the base tables. Legacy systems frequently contain long-lived reporting and dashboard queries that join five or more tables and were fast enough when the system was small, but have degraded gradually as data volume grew year over year, until a query that once took milliseconds now takes tens of seconds and consumes a disproportionate share of database capacity during business hours. Materializing the result of such a query shifts the computational cost from every read to a scheduled refresh, which is a favorable trade whenever the underlying data does not need to be reflected in real time, and this staleness tolerance is precisely the kind of tradeoff that must be made explicit and documented so downstream consumers understand what freshness guarantee they are actually getting. Because materialized views add storage and refresh-schedule maintenance on top of the schema, they also add a small amount of surface area to future schema migrations, which is a cost worth weighing against the performance gained.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Cross-platform build scripts replace platform-specific shell scripts — Windows batch files, bash scripts assuming a particular Unix environment — with scripting languages or build tools whose behavior is consistent regardless of the host operating system, so that the same build process runs unmodified on any developer's or CI agent's machine. Legacy build processes accumulate dozens of small, platform-bound scripts over years, each one written to solve an immediate problem on whatever OS the author happened to be using, and this accretion becomes an active liability the moment the organization needs to standardize on a different platform, run CI on multiple agent types, or simply onboard a developer using a different OS than the original author. Rewriting the build logic in a genuinely cross-platform language or tool, and avoiding hardcoded path separators, line endings, and OS-specific commands within it, eliminates an entire class of "works on my OS" build failures at the root rather than working around them case by case. Because a full rewrite of an established build process is risky, incremental migration — wrapping existing platform-specific scripts inside cross-platform entry points and replacing internals piece by piece — is usually the more practical path for legacy systems. The residual cost is that some build steps genuinely require platform-specific tools that cannot be abstracted away, and the chosen cross-platform tool itself becomes a new, long-term dependency for the whole team.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

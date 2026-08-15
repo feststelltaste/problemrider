@@ -27,6 +27,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+A checksum is a small, fixed-size value computed from a larger block of data using an algorithm such as CRC32 or SHA-256, such that any change to the original data is very likely to change the computed value, making checksums an efficient way to detect corruption or unauthorized modification without comparing the full data itself. They are generated at the point data is produced or transmitted and recomputed at the point it is consumed, with a mismatch signaling that the data was altered somewhere along the way. This is especially relevant in legacy modernization work involving data migration, where records move between systems with different encodings, precision handling, or storage formats, and silent corruption during transfer can go completely unnoticed until it surfaces much later as an inexplicable business discrepancy. Adding checksum verification at both ends of a migration batch converts that risk from an invisible, cumulative problem into an immediately detectable one, since a failed checksum comparison flags exactly which records need investigation before they are trusted downstream. The same mechanism protects ongoing data flows in legacy systems — file transfers, message queues, API payloads — where transmission errors over unreliable channels might otherwise corrupt data without any visible symptom. Checksums are not a substitute for stronger integrity guarantees like cryptographic signing when tampering rather than accidental corruption is the concern, and their protective value is limited to whatever algorithm strength is chosen for the task.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

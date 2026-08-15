@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Abuse case definition is a requirements-analysis technique that systematically documents how a system's functionality could be misused or attacked, producing a companion abuse case for every legitimate use case that the system was originally designed around. Where a use case describes what an authorized user is trying to accomplish, its abuse case describes what an attacker could achieve by exploiting the same functionality, together with the actor, the attack vector, the preconditions, and the resulting impact. Legacy systems are especially exposed to this gap because their original requirements were typically written when the system operated behind a firewall or internal network, and security threats were neither anticipated nor documented as first-class requirements; over time, the system's actual exposure has grown while its requirements have not been revisited. Defining abuse cases retroactively turns implicit, unstated security assumptions into explicit and testable statements, giving the team a structured way to decide which threats matter most and to translate them directly into concrete security test cases. Because the exercise requires both deep knowledge of the legacy system's internals and current knowledge of attacker techniques, it works best as a collaborative workshop between developers and security specialists rather than a task either group can complete alone. The resulting abuse case catalog also serves as durable documentation that justifies subsequent security investment to stakeholders who might otherwise not see the risk in functionality that has "always worked fine."
+
 ## How to Apply ◆
 
 > Legacy systems are typically built with only legitimate use cases in mind, leaving security considerations as an afterthought. Abuse case definition systematically identifies how attackers can misuse the system, transforming implicit security assumptions into explicit, testable requirements.

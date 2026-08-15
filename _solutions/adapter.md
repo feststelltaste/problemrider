@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+The Adapter pattern introduces a thin translation class or module that implements the interface expected by consuming code while internally delegating to a component whose existing interface does not match — converting calls, parameters, and return values between the two shapes without adding any business logic of its own. It is one of the most direct tools for integrating a legacy component into a newer architecture, because it lets the legacy side remain completely untouched while giving the rest of the system a clean, purpose-built interface to depend on. This is especially valuable in legacy modernization when a component's original interface was designed for a technology or protocol that no longer matches how the rest of the system communicates — a mainframe using fixed-width copybook records, a SOAP service in a REST-oriented landscape, or a third-party library whose API design does not fit the application's own conventions. By wrapping such a dependency behind an adapter that exposes the interface the application actually wants, breaking changes and vendor-specific quirks are absorbed at a single, well-defined translation point instead of leaking throughout the codebase. Adapters also enable parallel development, since a team can build against the target interface immediately while the adapter is developed independently to bridge the gap to the legacy side. Because an adapter only translates structure, it must be kept simple and easily testable in isolation; letting business rules creep into the translation layer, or accumulating too many undisciplined adapters, recreates the very coupling problems the pattern was meant to solve.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

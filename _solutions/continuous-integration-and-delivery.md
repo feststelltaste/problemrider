@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.8
 ---
 
+## Description
+
+Continuous integration and delivery combines an automated build-and-test loop triggered on every commit with a staged deployment pipeline that carries the resulting artifact through test, staging, and production environments under automated gates, replacing the separate manual integration and deployment phases that legacy release processes tend to accumulate independently. Legacy projects frequently end up with releases preceded by weeks of manual integration and testing effort, precisely because integration and deployment were never automated together and each remained its own slow, error-prone, largely manual exercise performed only right before a release. Building the pipeline incrementally — starting with the most reliable tests and the most error-prone manual steps — lets a team convert that batch-oriented process into a continuous one without requiring full test coverage or a rewritten build system on day one. Because the same immutable, versioned artifact moves through every stage of the pipeline, what gets tested in staging is exactly what reaches production, closing a common gap in legacy release processes where "works in the test environment" and "works in production" were only loosely related claims. The combined practice shortens the feedback loop from code change to production validation dramatically, but it requires meaningful upfront investment in automation for legacy build processes and enough automated test coverage that the pipeline's green signal can actually be trusted.
+
 ## How to Apply ◆
 
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.
