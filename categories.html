@@ -14,21 +14,9 @@ permalink: /categories/
   <div class="category-overview">
     <p>The catalog organizes problems and solutions into 15 core categories:</p>
     <div class="category-tags">
-      <a href="#Architecture" class="category-tag">Architecture</a>
-      <a href="#Business" class="category-tag">Business</a>
-      <a href="#Code" class="category-tag">Code</a>
-      <a href="#Communication" class="category-tag">Communication</a>
-      <a href="#Culture" class="category-tag">Culture</a>
-      <a href="#Database" class="category-tag">Database</a>
-      <a href="#Dependencies" class="category-tag">Dependencies</a>
-      <a href="#Management" class="category-tag">Management</a>
-      <a href="#Operations" class="category-tag">Operations</a>
-      <a href="#Performance" class="category-tag">Performance</a>
-      <a href="#Process" class="category-tag">Process</a>
-      <a href="#Requirements" class="category-tag">Requirements</a>
-      <a href="#Security" class="category-tag">Security</a>
-      <a href="#Team" class="category-tag">Team</a>
-      <a href="#Testing" class="category-tag">Testing</a>
+      {% for entry in site.data.category_colors %}
+        <a href="#{{ entry[0] }}" class="category-tag" data-category="{{ entry[0] }}">{{ entry[0] }}</a>
+      {% endfor %}
     </div>
   </div>
 
@@ -42,7 +30,7 @@ permalink: /categories/
         {% assign category_problems = site.problems | where_exp: "item", "item.category contains category" | sort: 'title' %}
         {% assign category_solutions = site.solutions | where_exp: "item", "item.category contains category" | sort: 'title' %}
         <div class="category-card" id="{{ category }}">
-          <h2 class="category-title">{{ category }}</h2>
+          <h2 class="category-title" data-category="{{ category }}">{{ category }}</h2>
 
           <nav class="category-jump">
             <a href="#{{ category }}-problems">{{ category_problems.size }} problem{% if category_problems.size != 1 %}s{% endif %}</a>

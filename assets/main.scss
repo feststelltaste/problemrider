@@ -39,20 +39,6 @@
     align-items: center;
   }
 
-  &__speed-nav {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 0.25rem;
-    color: #555;
-    font-size: 0.72rem;
-    line-height: 1.1;
-    cursor: pointer;
-
-    input { margin: 0.1rem 0 0; }
-    span { display: flex; flex-direction: column; }
-    small { color: #888; font-size: 0.62rem; }
-  }
-
   &__summary,
   &__empty {
     margin: 0.35rem 0 0;
@@ -603,20 +589,6 @@
 // Workbench button shares that row and, at some widths, ended up sitting on
 // top of the trigger's items — including this one — swallowing clicks meant
 // for the checkbox.
-.site-nav__speed-nav {
-  display: inline-flex;
-  float: left;
-  align-items: center;
-  gap: 0.35rem;
-  margin: 0 0 0 20px;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  color: $grey-color-dark;
-  font-size: 16px;
-  cursor: pointer;
-
-  input { margin: 0; }
-}
-
 .analysis-trail-menu-button {
   position: fixed;
   z-index: 15;
@@ -867,46 +839,70 @@
   .analysis-trail__graph { max-height: 320px; }
 }
 
-.problem-header {
+// Grey/white on purpose, unlike the blue category tags it sits next to — a
+// view toggle, not a category.
+.speed-nav-toggle {
+  margin-left: auto;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 0.2rem 0.55rem;
+  color: #666;
+  background: #fff;
+  font: inherit;
+  font-size: 0.68rem;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    background: #f1f3f5;
+    border-color: #adb5bd;
+    color: #333;
+  }
+
+  &[aria-pressed="true"] {
+    background: #495057;
+    border-color: #495057;
+    color: #fff;
+  }
+}
+
+// Problem and solution detail pages share the exact same header look — one
+// rule for both so they can never drift apart again.
+.problem-header,
+.solution-header {
   margin-bottom: 2rem;
-  
-  .problem-title {
+
+  .problem-title,
+  .solution-title {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
   }
-  
-  .problem-description {
+
+  .problem-description,
+  .solution-description {
     font-size: 1.2rem;
     color: #666;
     font-style: italic;
     margin-bottom: 1rem;
   }
-  
-  .problem-meta {
-    .problem-categories {
-      display: flex;
-      gap: 0.5rem;
-      flex-wrap: wrap;
-    }
-    
-    .category-tag {
-      font-size: 0.8rem;
-      color: #007acc;
-      background: #e6f3ff;
-      padding: 0.3rem 0.6rem;
-      border-radius: 12px;
-      text-decoration: none;
-      border: 1px solid #c3e0ff;
-      transition: all 0.2s;
-      
-      &:hover {
-        background: #007acc;
-        color: white;
-        transform: translateY(-1px);
-        box-shadow: 0 2px 4px rgba(0, 122, 204, 0.3);
-      }
-    }
-    
+
+  .problem-meta,
+  .solution-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+
+    // .problem-categories/.solution-categories layout and .category-tag's
+    // own box styling are both global rules now (search this file for
+    // "Shared across every .category-tag/.category-categories usage") —
+    // this used to duplicate both here, scoped to only this one context,
+    // which is exactly how the homepage's .problem-card .problem-categories
+    // (a completely different ancestor chain) ended up with plain unstyled
+    // links: the duplicated rule simply never matched there.
+
     // Legacy support for old problem-category class
     .problem-category {
       background: #f0f0f0;
@@ -917,6 +913,73 @@
     }
   }
 }
+
+// Shared across every .category-tag/.category-categories usage (article
+// headers, listing cards, the homepage's featured cards, the /categories/
+// page): one flat rule each for the box shape and for the flex-wrap layout
+// around it, instead of duplicating both inside every different ancestor
+// context they show up in. That duplication is exactly what caused several
+// rounds of "works here, not there" bugs — a context that used a slightly
+// different wrapper (the homepage's .problem-card, for one) just never
+// matched any of the copies, and its .category-tag rendered with no box
+// styling at all. Individual contexts still override just the one property
+// they legitimately need to differ on (padding, mostly) below.
+.category-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.problem-categories,
+.solution-categories,
+.category-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+// Per-category color, one rule per entry in _data/category_colors.yml — the
+// same file the /landscape/ map and its legend read via
+// window.CATEGORY_COLORS (see landscape.html), so a category is the same
+// color everywhere. Full-strength color as the border, a translucent tint
+// of it as the fill — same treatment as the landscape legend swatches and
+// map node labels. Every .category-tag on the site now carries
+// [data-category] (see _layouts/problem.html, _layouts/solution.html,
+// index.html, problems.html, solutions.html, categories.html), so this is
+// the only place still setting an actual color.
+{% for entry in site.data.category_colors %}
+  {% assign name = entry[0] %}
+  {% assign hex = entry[1] %}
+  .category-tag[data-category="{{ name }}"] {
+    color: #1a1a1a;
+    background: rgba({{ hex }}, 0.12);
+    // border-color alone is a no-op without a style/width — nothing here
+    // set those, so this rule never actually drew a visible border before.
+    border: 1.5px solid {{ hex }};
+
+    &:hover {
+      background: {{ hex }};
+      color: #fff;
+    }
+  }
+
+  // The /categories/ page's own card heading for this category. Qualified
+  // with the .category-card ancestor (3 selectors) so it unambiguously
+  // outranks .category-card .category-title's plain blue default (2
+  // selectors) regardless of where each rule sits in the file.
+  .category-card .category-title[data-category="{{ name }}"] {
+    color: {{ hex }};
+    border-bottom-color: {{ hex }};
+  }
+{% endfor %}
 
 .problem-content {
   line-height: 1.6;
@@ -1354,19 +1417,12 @@
 
     .problem-meta,
     .solution-meta {
-      .problem-categories,
-      .solution-categories {
-        display: flex;
-        gap: 0.5rem;
-        flex-wrap: wrap;
-      }
-
+      // Layout and box styling both come from the global rules now (see
+      // "Shared across every .category-tag/.category-categories usage").
+      // Only the more compact padding these dense list rows need stays
+      // as a local override.
       .category-tag {
-        font-size: 0.8rem;
-        color: #007acc;
-        background: #e6f3ff;
         padding: 0.2rem 0.5rem;
-        border-radius: 12px;
       }
     }
   }
@@ -1392,28 +1448,12 @@
     color: #666;
   }
   
-  .category-tags {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-    
-    .category-tag {
-      font-size: 0.8rem;
-      color: #007acc;
-      background: #e6f3ff;
-      padding: 0.4rem 0.8rem;
-      border-radius: 12px;
-      text-decoration: none;
-      border: 1px solid #c3e0ff;
-      transition: all 0.2s;
-      
-      &:hover {
-        background: #007acc;
-        color: white;
-        transform: translateY(-1px);
-        box-shadow: 0 2px 4px rgba(0, 122, 204, 0.3);
-      }
-    }
+  // Layout and box styling both come from the global rules now (see
+  // "Shared across every .category-tag/.category-categories usage"). Only
+  // this section's larger, more prominent padding stays as a local
+  // override.
+  .category-tag {
+    padding: 0.4rem 0.8rem;
   }
 }
 

@@ -8,6 +8,7 @@ Gemfile.lock
 
 # Python
 .ipynb_checkpoints/
+__pycache__/
 
 # User output files
 neo4j_simple/

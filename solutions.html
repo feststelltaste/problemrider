@@ -44,7 +44,7 @@ permalink: /solutions/
           <div class="solution-meta">
             <div class="solution-categories">
               {% for category in solution.category %}
-                <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag">{{ category }}</a>
+                <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag" data-category="{{ category }}">{{ category }}</a>
               {% endfor %}
             </div>
           </div>

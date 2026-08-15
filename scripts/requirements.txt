@@ -20,3 +20,6 @@ tqdm>=4.64.0                  # Progress bars with timing information
 # For causal relationship validation and description generation
 networkx>=2.8.0               # Graph structure for causal modeling
 openai>=1.0.0                 # LLM-based causal reasoning
+
+# For the /landscape/ clustered similarity view
+umap-learn>=0.5.0             # Reduces embeddings to 2D for create_landscape.py

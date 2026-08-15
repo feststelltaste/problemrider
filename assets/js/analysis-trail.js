@@ -1233,17 +1233,27 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     updateMenuCount();
-    // The same checkbox appears in the site header (available on every page)
-    // and inside the Analysis Workbench panel; both stay in sync and share
-    // one persisted setting.
+    // One toggle button sits next to the heading on every problem/solution
+    // page; the persisted setting is what actually drives the number-key
+    // behavior below.
     var speedNavs = document.querySelectorAll('[data-analysis-trail-speed-nav]');
     var speedNavEnabled = window.sessionStorage.getItem(speedNavKey) === 'true';
-    speedNavs.forEach(function (input) {
-      input.checked = speedNavEnabled;
-      input.addEventListener('change', function () {
-        speedNavEnabled = input.checked;
-        speedNavs.forEach(function (other) { other.checked = speedNavEnabled; });
+    function applySpeedNavState() {
+      speedNavs.forEach(function (button) {
+        button.setAttribute('aria-pressed', String(speedNavEnabled));
+      });
+    }
+    applySpeedNavState();
+    speedNavs.forEach(function (button) {
+      button.addEventListener('click', function () {
+        speedNavEnabled = !speedNavEnabled;
+        applySpeedNavState();
         window.sessionStorage.setItem(speedNavKey, String(speedNavEnabled));
+        // The keydown handler below ignores number keys while a BUTTON has
+        // focus (so it doesn't interfere with other controls) — but a click
+        // leaves focus right here, on this very button, which would make
+        // speed nav appear broken the instant it's turned on.
+        button.blur();
       });
     });
 
@@ -1561,12 +1571,27 @@
     }
 
     document.addEventListener('click', function (event) {
+      // Dynamic loading only ever makes sense on a page that already has the
+      // analysis-trail main-content wrapper (a problem/solution article).
+      // Without this, a nav link clicked from a page that lacks it (landscape,
+      // home, categories, ...) got its navigation cancelled by this handler
+      // and then silently dropped, since loadPageDynamically bails out when
+      // that wrapper is missing on the *current* page.
+      if (!document.querySelector('.page-main-content')) return;
       var link = event.target.closest('a[href]');
       if (!link || link.target === '_blank' || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
       var target;
       try { target = new URL(link.href, window.location.href); } catch (error) { return; }
       if (target.origin !== window.location.origin) return;
-      if (!/\.html$/.test(target.pathname) && !/\/(problems|solutions)\//.test(target.pathname)) return;
+      // Only actual problem/solution *articles* (.../problems/<slug>.html) —
+      // not the plain /problems/ or /solutions/ listing pages. Those match
+      // `/\/(problems|solutions)\//` too since it's just a substring test, but
+      // they use the plain layout without a `.page-main-content` wrapper of
+      // their own, so loadPageDynamically's fetch of the *target* page would
+      // find nothing to swap in and silently no-op — same failure as above,
+      // just triggered from the opposite direction (clicking away from an
+      // article instead of clicking while already on a non-article page).
+      if (!/\/(problems|solutions)\/[^/]+\.html$/.test(target.pathname)) return;
       event.preventDefault();
       if (node) {
         var edge = edgeForLink(link);

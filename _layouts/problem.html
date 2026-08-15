@@ -8,15 +8,16 @@ layout: default
     {% if page.description %}
       <p class="problem-description">{{ page.description }}</p>
     {% endif %}
-    {% if page.category %}
-      <div class="problem-meta">
+    <div class="problem-meta">
+      {% if page.category %}
         <div class="problem-categories">
           {% for category in page.category %}
-            <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag">{{ category }}</a>
+            <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag" data-category="{{ category }}">{{ category }}</a>
           {% endfor %}
         </div>
-      </div>
-    {% endif %}
+      {% endif %}
+      <button type="button" class="speed-nav-toggle" data-analysis-trail-speed-nav aria-pressed="false" title="Number keys 1-9 jump to headings on this page">Speed nav</button>
+    </div>
   </header>
 
   <div class="problem-content">
