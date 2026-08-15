@@ -28,9 +28,10 @@ The scope of the problem area ends at the requirements and management level (for
 
 * Solutions live in the `_solutions/` directory, one file per solution.
 * Each problem links to its solutions via a `solutions:` list of solution slugs in its front matter.
-* Solutions that correspond to a tactic in the [Quality Tactics](https://qualitytactics.de/en/) book carry a `quality_tactics_url` field. Their `title` and `description` are automatically synced from the Quality Tactics tactic files by running `scripts/sync_quality_tactics.py`. The body content (How to Apply, Tradeoffs, Examples) is never overwritten by the sync.
+* Solutions that correspond to a tactic in the [Quality Tactics](https://qualitytactics.de/en/) book carry a `quality_tactics_url` field. Their `title` and front-matter `description` are automatically synced from the Quality Tactics tactic files by running `scripts/sync_quality_tactics.py`. The body content (Description, How to Apply, Tradeoffs, Examples) is never overwritten by the sync.
 * A standalone reference of all 539 Quality Tactics (title, short description, URL, category) is available in `quality-tactics-reference.md`. Use this file to look up or pick tactics without needing the `qualitaetstaktiken` repo. The sync script also falls back to this file automatically when the sibling repo is absent.
-* Solutions without a Quality Tactics equivalent omit `quality_tactics_url` and include a `## Description` section in the body.
+* Solutions without a Quality Tactics equivalent omit `quality_tactics_url`.
+* Every solution, QT-backed or not, includes a `## Description` section in the body — a fuller paragraph beyond the one-line front-matter `description`.
 * The `solution-pattern-template.md` file defines the format for solution files.
 
 ## Guiding Principle
@@ -70,9 +71,9 @@ Or for fast local serving with incremental updates:
 
 `bundle exec jekyll serve --incremental`
 
-### Graph Visualization Prototype
+### Landscape View
 
-Run the `scripts/create_visualization.py` with Python to generate the D3 graph visualization.
+Run `scripts/create_landscape.py` with Python to regenerate `assets/js/landscape-data.js`, the data file behind the `/landscape/` page. It reduces each problem's/solution's cached embedding (from `embeddings/problems/` / `embeddings/solutions/`, produced by `calculate_related_problems.py` / `calculate_related_solutions.py`) to a 2D position via UMAP, runs k-means on the original embeddings to find real cluster groups (UMAP alone tends to blur into one haze) and pushes those groups further apart, then nudges apart labels that would otherwise overlap. Re-run it whenever problems/solutions are added or their embeddings change. Use `--separation` to control how far apart cluster groups are pushed and `--min-label-distance` for how much room individual labels get (see `--help`).
 
 ### Helper Scripts
 
@@ -80,6 +81,7 @@ The `scripts/` directory contains more utility scripts for maintaining the catal
 
 * `calculate_related_problems.py`: Generates semantic similarity scores for related_problems sections using sentence-transformers. Updates all problem files with automatically calculated relationships based on content similarity.
 * `calculate_related_solutions.py`: Generates semantic similarity scores for related_solutions sections using the same embedding mechanism. Updates all solution files with automatically calculated similar solutions.
+* `create_landscape.py`: Generates the UMAP-based clustered layout data (`assets/js/landscape-data.js`) for the `/landscape/` page, for both problems and solutions.
 * `backlog_refinement.py`: Takes ideas withing the file `scripts/backlog/candidates.md` and sorts them into different files depending on already existing or similar problems.
 * `sync_quality_tactics.py`: Syncs `title` and `description` from the Quality Tactics tactic files into `_solutions/` front matter for solutions that have a `quality_tactics_url`. Uses the `qualitaetstaktiken` sibling repo when available, otherwise falls back to `quality-tactics-reference.md`. Use `--dry-run` to preview.
 * `sync_problem_solution_links.py`: Keeps the problem <-> solution links consistent in both directions. Builds the union of the `solutions:` lists in `_problems/` and the `problems:` lists in `_solutions/`, writes it back to both sides, and reports links pointing to missing files. Run it after adding or changing links on either side. Use `--dry-run` to preview.

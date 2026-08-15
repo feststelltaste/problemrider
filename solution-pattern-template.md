@@ -14,8 +14,12 @@ problems:
 layout: solution
 ---
 
-<!-- For QT-backed solutions: omit ## Description — the front matter description covers it.
-     For non-QT solutions: add a ## Description section here. -->
+## Description
+> A fuller paragraph elaborating on the short front-matter `description`. Required for every
+> solution, QT-backed or not — the front-matter description is a one-liner synced from Quality
+> Tactics (or hand-written), not a substitute for this section.
+
+<a short paragraph, 2-5 sentences>
 
 ## How to Apply ◆
 > Concrete steps, approaches, or practices to implement this solution in a legacy system context.

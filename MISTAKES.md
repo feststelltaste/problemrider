@@ -166,6 +166,42 @@ only. Before asking anyone to verify a JS/CSS change live in a browser, run one
 plain `bundle exec jekyll build` to force every page's cache-busting timestamp to
 update. (Now documented in `CLAUDE.md`.)
 
+## 9. A new non-article page silently broke nav clicks — from *and* to it — via a click handler that assumed every page (both ends) is an article
+
+**What happened:** Clicking "Problems" or "Solutions" in the site nav did
+nothing at all — no navigation, no error — from two different starting
+points: from the new `/landscape/` page (or home, categories, any non-article
+page), and *also* from a perfectly normal problem/solution article page.
+
+**Root cause:** `analysis-trail.js` has a document-wide `click` listener that
+hijacks any link whose path matches `/\.html$/` or `/\/(problems|solutions)\//`
+so it can load it into `.page-main-content` without a full page reload. That
+path test is a plain substring match, so it matches the `/problems/` and
+`/solutions/` *listing* pages just as readily as a link to one specific
+article. The listing pages use the plain `{{ content }}` layout, not the
+`problem`/`solution` layout, so they never render a `.page-main-content`
+wrapper. That breaks the hijack on *either* side of the navigation:
+- Clicked *from* a page without that wrapper (landscape, home, ...): the
+  handler still calls `event.preventDefault()`, but `loadPageDynamically`
+  bails out immediately since the *current* page has nothing to swap into.
+- Clicked *from* an article *to* the listing page: `loadPageDynamically` gets
+  as far as fetching the target, but finds no `.page-main-content` in *that*
+  response either, so it resets and quietly gives up.
+
+The first fix attempt only guarded the current-page case, which fixed
+landscape → nav-click but left article → nav-click broken — same underlying
+overly-broad path test, just tripping the failure from the other direction.
+
+**Rule:** A "hijack this link and load it dynamically" handler needs the
+wrapper element on *both* ends of the navigation — the current page (to swap
+into) and the fetched target (to swap in) — not just one. The robust fix is
+narrowing the path test itself to exactly what the handler can actually
+handle (here: `/\/(problems|solutions)\/[^/]+\.html$/`, real articles only),
+rather than guarding one direction and assuming the other is fine. When a
+"only fetch this if X" check and a "does X actually exist here" check are two
+different regexes/conditions in two different functions, expect them to
+drift out of sync — check both directions before calling a fix complete.
+
 ---
 
 **Overall pattern:** almost every entry above is a change that looked correct in
