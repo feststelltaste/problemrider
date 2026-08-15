@@ -35,6 +35,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+System hardening closes off unnecessary services, default credentials, and outdated protocol configurations at the infrastructure layer, bringing a server's security posture up from whatever was acceptable in its original deployment year to something defensible today. Legacy servers are disproportionately exposed here because their configuration has usually never been revisited since initial installation — forgotten FTP or Telnet daemons, an administrator password nobody has changed in a decade, TLS settings that predate current minimum standards — none of which require any application vulnerability at all to exploit. Because hardening operates entirely at the infrastructure level, it's one of the few significant security improvements achievable even when the legacy application's source code can't be touched, though it has to be tested carefully in staging first, since a legacy application may silently depend on exactly the permissive default a hardening benchmark recommends removing.
+
 ## How to Apply ◆
 
 > Legacy systems are often deployed with the security posture of their original release year — unnecessary services running, default credentials unchanged, and TLS configurations permitting protocols deprecated a decade ago — making systematic hardening one of the highest-return security investments available.

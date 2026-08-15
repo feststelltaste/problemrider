@@ -61,6 +61,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Profiling measures exactly where a running application spends CPU time, allocates memory, and waits on I/O, replacing guesswork about what's slow with direct evidence from flame graphs, heap dumps, and query plans. Legacy systems accumulate performance problems gradually over years of incremental change, and without measurement teams reliably guess wrong about the cause — assuming the database is the bottleneck when it's actually an uncompiled regex re-created on every call, for instance — which sends real effort at a fix that doesn't move the needle. Profiling under production-representative load, not a small synthetic test, is essential precisely because many of the worst legacy performance problems, like an O(n²) algorithm or a slow memory leak, only show themselves at real data scale.
+
 ## How to Apply ◆
 
 > Legacy systems accumulate performance problems over years of incremental changes, and teams often resort to guessing which code is slow rather than measuring. Profiling replaces speculation with evidence by revealing exactly where CPU time, memory, and I/O are consumed, enabling targeted optimization of the code paths that actually matter.

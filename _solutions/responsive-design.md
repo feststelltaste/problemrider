@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Responsive design lets a single interface adapt its layout automatically to whatever screen size it's viewed on, replacing the fixed-width, fixed-pixel layouts most legacy systems were built for when desktop monitors were the only real target. That fixed assumption is why legacy interfaces so often break outright on a tablet or phone — table-based layouts that don't reflow, buttons sized for a mouse cursor that are nearly untappable with a finger — even though the underlying functionality would be perfectly usable on a smaller device if the layout could adjust. Converting to fluid, CSS-based layouts with defined breakpoints closes this gap without requiring a separate mobile application, though retrofitting it into dense legacy data grids and multi-panel screens is real, substantial frontend work, not a simple style tweak.
+
 ## How to Apply ◆
 
 > Legacy systems built for fixed-resolution desktop monitors break on tablets, phones, and modern high-resolution displays. Responsive design ensures the interface adapts to any screen size.

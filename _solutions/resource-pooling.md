@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Resource pooling reuses a managed set of expensive-to-create resources — database connections, threads, buffers — instead of creating and destroying one per request, a pattern legacy code often defaults to simply because it predates the pooling libraries now considered standard. That per-request creation is expensive in a way that's invisible until load increases: a system that works fine with a handful of concurrent users can exhaust a database's connection limit or overwhelm the OS scheduler with threads the moment real traffic arrives, failing in a way that has nothing to do with the business logic itself. Introducing a proven pooling library with sizes set from actual measured concurrency, rather than accepting defaults, fixes this cleanly, though pooled resources are less forgiving of leaks than unpooled ones — a connection checked out and never returned permanently shrinks the pool rather than merely wasting one allocation.
+
 ## How to Apply ◆
 
 > Legacy systems frequently create and destroy resources on every request — database connections, threads, network sockets, large objects — because the original design predates modern pooling libraries or the workload was never expected to grow. Introducing resource pooling replaces this wasteful pattern with managed reuse.

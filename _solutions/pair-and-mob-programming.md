@@ -65,6 +65,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Pair programming puts two developers at one workstation on the same task, and mob programming extends that to the whole team working together on one problem at a time, replacing solo work with continuous, real-time knowledge exchange. This matters most in legacy systems where critical understanding is concentrated in one or two people, since pairing on exactly those high-bus-factor modules — with the knowledgeable developer navigating while someone new drives — transfers tacit understanding far faster than any document could, and surfaces undocumented assumptions the instant the navigator has to say them out loud. The real cost is that it looks like reduced individual output to anyone measuring throughput per developer, which is precisely the wrong lens for work whose actual return is a codebase that no longer depends on one person's memory.
+
 ## How to Apply ◆
 
 > In legacy systems where critical knowledge is concentrated in a small number of individuals, pair and mob programming are the most direct interventions for transferring that knowledge before it is lost.

@@ -30,6 +30,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Plain language rewrites interface text, error messages, and documentation in clear, everyday wording, replacing the jargon and cryptic codes that accumulate in legacy systems as each generation of developers adds text intended for the next developer rather than the actual user. An error like "Constraint violation: FK_CASE_PARTY_REF integrity check failed" means nothing to the person seeing it and reliably turns into a support call, whereas the same failure explained in terms of what happened and what to do about it lets someone resolve it themselves. The effort is genuinely large for a sprawling legacy system with hundreds of such messages, and maintaining the standard requires ongoing vigilance in review, since developers left unchecked will keep reverting to the technical phrasing that comes naturally to them.
+
 ## How to Apply ◆
 
 > Legacy systems accumulate technical jargon, cryptic abbreviations, and developer-oriented language in their interfaces and documentation. Plain language replaces this with clear, user-oriented writing.

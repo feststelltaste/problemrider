@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.65
 ---
 
+## Description
+
+Real-time input validation checks a field as the user fills it in — on blur or after a brief pause — and shows the result immediately next to that field, rather than waiting for full-form submission to reveal every error at once on a reloaded page. That submit-and-reload pattern is exactly how many legacy forms still behave, often losing the user's other entered data in the process, which turns a single mistake into a frustrating cycle of resubmission and re-entry. Validating inline, with specific and actionable messages rather than a generic "invalid input," fixes this directly, though every validation rule then has to be kept in sync between the client-side check and the server-side check that must remain the actual authority.
+
 ## How to Apply ◆
 
 > Legacy systems typically validate input only when the entire form is submitted, often reloading the page and losing partial data. Real-time validation catches errors as users type, preventing frustration and data loss.

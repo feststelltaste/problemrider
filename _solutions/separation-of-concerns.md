@@ -43,6 +43,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Separation of concerns divides a system into clearly defined, independent areas of responsibility — computation kept apart from side effects, cross-cutting concerns like logging pulled out of business logic — so that each part can be understood and changed without holding the whole system in mind at once. In legacy systems this separation is rarely absent by original design; it erodes gradually as years of incremental, convenience-driven changes blur what were once clear boundaries, until a single class handles validation, computation, logging, and notification all at once and a change to any one of them risks silently breaking another. Co-change analysis — which files in version control tend to change together — is often the fastest way to find exactly where these boundaries have been violated, and restoring them pays off directly in reduced blast radius for future changes, though over-separating into an explosion of tiny classes can just as easily recreate the same navigability problem in a different shape.
+
 ## How to Apply ◆
 
 > In legacy systems, separation of concerns is rarely absent because no one thought of it — it has eroded over years of incremental modifications that blurred once-clear boundaries. Restoring it requires deliberate identification and enforcement of concern boundaries, starting with the areas that cause the most development pain.

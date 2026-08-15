@@ -36,6 +36,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+Regression testing re-runs an existing suite of tests after every change to catch unintended breakage, converting the otherwise invisible risk of a legacy modification into something visible before it reaches production. Without this safety net, a legacy team operates in a state of permanent uncertainty — every change might silently break something, and the only way to find out is when a user reports it — which is exactly what produces maintenance paralysis, where the team becomes afraid to touch code that genuinely needs to change. Building the suite doesn't require complete coverage from day one: starting with characterization tests on the specific areas the team is currently modifying, and writing a regression test for every bug fix so it can never silently return, grows the safety net exactly where it's needed most.
+
 ## How to Apply ◆
 
 > Legacy systems without regression testing operate in a state of permanent uncertainty: every change might break something, but the team has no way to know until users report problems. Introducing regression testing into a legacy codebase is not about achieving 100% coverage from day one — it is about systematically building a safety net that enables confident modification of the most critical and frequently changed areas.

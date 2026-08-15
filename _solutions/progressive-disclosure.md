@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.7
 ---
 
+## Description
+
+Progressive disclosure shows only the core actions most users need by default, moving advanced or rarely used options behind an expandable section or an "Advanced" toggle, rather than exposing every possible field and setting at once. Legacy interfaces tend to grow the opposite way over time — every feature added over the years ends up permanently visible, on equal footing with the handful of actions that actually matter for daily use, which overwhelms exactly the users progressive disclosure is meant to help. The risk in the other direction is real too: hiding a feature too aggressively can make experienced power users believe it no longer exists, so the line between what's shown by default and what's tucked away has to be drawn from actual usage data, not assumption.
+
 ## How to Apply ◆
 
 > Legacy systems tend to expose all functionality simultaneously, overwhelming users with options they rarely need. Progressive disclosure shows essential features first and reveals complexity only when needed.

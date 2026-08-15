@@ -29,6 +29,10 @@ related_solutions:
   similarity: 0.75
 ---
 
+## Description
+
+User-facing performance optimization targets what a person actually experiences — skeleton screens, virtual scrolling, deferred loading of non-critical content — rather than raw server-side metrics that may not reflect perceived speed at all. Legacy interfaces are especially prone to full-page reloads and blank-screen waits, both of which feel far slower than the same backend response time would if the interface gave any indication that something was happening. Because these techniques can be applied one screen at a time without touching the backend, they're often the fastest way to make a sluggish legacy system feel modern, though there's a real risk of these fixes masking an underlying backend problem that genuinely needs to be fixed rather than perceptually smoothed over.
+
 ## How to Apply ◆
 
 > Legacy systems often suffer from slow perceived performance due to full page reloads, unoptimized rendering, and blocking operations. User-facing performance optimization targets what users actually experience rather than raw server metrics.
