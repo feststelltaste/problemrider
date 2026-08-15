@@ -6,7 +6,7 @@ Usage:
     python scripts/calculate_related_solutions.py --use-local --local-url http://localhost:1234
     python scripts/calculate_related_solutions.py --file asynchronous-operations
 
-Embeddings are cached locally in _solution_embeddings/ and are not committed.
+Embeddings are cached locally in embeddings/solutions/ and are not committed.
 """
 
 import argparse
@@ -49,7 +49,7 @@ def main():
 
     analyzer = SimpleEmbeddingAnalyzer(
         problems_dir="_solutions",
-        embeddings_dir="_solution_embeddings",
+        embeddings_dir="embeddings/solutions",
         related_field="related_solutions",
         item_label="solutions",
         embedding_sections=SOLUTION_EMBEDDING_SECTIONS,

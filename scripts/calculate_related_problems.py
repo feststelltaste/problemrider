@@ -10,9 +10,9 @@ Usage:
     
 Environment variables:
     LOCAL_EMBEDDING_URL: Default URL for local embedding service (default: http://host.docker.internal:1234)
-    
+
 Cache:
-    Embeddings are cached in _embeddings/[problem-name].yaml files for faster subsequent runs.
+    Embeddings are cached in embeddings/problems/[problem-name].yaml files for faster subsequent runs.
 """
 
 import yaml
@@ -60,7 +60,7 @@ class SimpleEmbeddingAnalyzer:
         problems_dir: str = "_problems",
         use_local: bool = False,
         local_url: str = None,
-        embeddings_dir: str = "_embeddings",
+        embeddings_dir: str = "embeddings/problems",
         related_field: str = "related_problems",
         item_label: str = "problems",
         embedding_sections: Tuple[Tuple[str, str], ...] = (("Description", "description"), ("Indicators", "indicators")),
@@ -126,7 +126,7 @@ class SimpleEmbeddingAnalyzer:
     
     def _save_embedding_to_file(self, problem_key: str, embedding: np.ndarray, content_hash: str) -> None:
         """Save embedding and metadata to a separate YAML cache file."""
-        self.embeddings_dir.mkdir(exist_ok=True)
+        self.embeddings_dir.mkdir(parents=True, exist_ok=True)
         
         # Create embedding file path
         embedding_file = self.embeddings_dir / f"{problem_key}.yaml"
