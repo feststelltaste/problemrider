@@ -13,7 +13,7 @@ related_problems:
 - slug: high-technical-debt
   similarity: 0.7
 - slug: maintenance-cost-increase
-  similarity: 0.65
+  similarity: 0.7
 - slug: context-switching-overhead
   similarity: 0.65
 - slug: increased-cognitive-load

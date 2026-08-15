@@ -12,9 +12,9 @@ related_problems:
   similarity: 0.75
 - slug: fear-of-failure
   similarity: 0.7
-- slug: maintenance-paralysis
-  similarity: 0.7
 - slug: fear-of-breaking-changes
+  similarity: 0.65
+- slug: maintenance-paralysis
   similarity: 0.65
 - slug: past-negative-experiences
   similarity: 0.65

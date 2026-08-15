@@ -8,9 +8,9 @@ category:
 related_problems:
 - slug: resistance-to-change
   similarity: 0.75
-- slug: refactoring-avoidance
-  similarity: 0.75
 - slug: fear-of-change
+  similarity: 0.75
+- slug: refactoring-avoidance
   similarity: 0.75
 - slug: fear-of-breaking-changes
   similarity: 0.7

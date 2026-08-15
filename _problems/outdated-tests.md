@@ -11,12 +11,12 @@ related_problems:
 - slug: legacy-code-without-tests
   similarity: 0.65
 - slug: testing-environment-fragility
-  similarity: 0.65
+  similarity: 0.6
 - slug: test-debt
   similarity: 0.6
-- slug: poor-test-coverage
-  similarity: 0.6
 - slug: information-decay
+  similarity: 0.6
+- slug: poor-test-coverage
   similarity: 0.6
 solutions:
 - test-coverage-strategy

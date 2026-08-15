@@ -9,7 +9,7 @@ related_problems:
 - slug: modernization-roi-justification-failure
   similarity: 0.7
 - slug: maintenance-paralysis
-  similarity: 0.6
+  similarity: 0.65
 - slug: analysis-paralysis
   similarity: 0.6
 - slug: strangler-fig-pattern-failures

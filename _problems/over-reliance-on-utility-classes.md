@@ -14,9 +14,9 @@ related_problems:
   similarity: 0.65
 - slug: poor-encapsulation
   similarity: 0.65
-- slug: inefficient-code
+- slug: insufficient-design-skills
   similarity: 0.6
-- slug: high-coupling-low-cohesion
+- slug: inefficient-code
   similarity: 0.6
 solutions:
 - incremental-refactoring

@@ -17,7 +17,7 @@ related_problems:
   similarity: 0.6
 - slug: increased-risk-of-bugs
   similarity: 0.6
-- slug: outdated-tests
+- slug: frequent-hotfixes-and-rollbacks
   similarity: 0.6
 solutions:
 - test-coverage-strategy

@@ -6,9 +6,9 @@ category:
 - Code
 - Process
 related_problems:
-- slug: maintenance-paralysis
-  similarity: 0.75
 - slug: resistance-to-change
+  similarity: 0.75
+- slug: maintenance-paralysis
   similarity: 0.75
 - slug: fear-of-change
   similarity: 0.75

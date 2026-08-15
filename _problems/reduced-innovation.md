@@ -16,7 +16,7 @@ related_problems:
 - slug: reduced-team-productivity
   similarity: 0.65
 - slug: maintenance-paralysis
-  similarity: 0.65
+  similarity: 0.6
 - slug: history-of-failed-changes
   similarity: 0.6
 solutions:

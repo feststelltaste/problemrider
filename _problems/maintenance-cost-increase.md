@@ -12,7 +12,7 @@ related_problems:
 - slug: high-maintenance-costs
   similarity: 0.75
 - slug: maintenance-overhead
-  similarity: 0.65
+  similarity: 0.7
 - slug: increasing-brittleness
   similarity: 0.65
 - slug: quality-degradation

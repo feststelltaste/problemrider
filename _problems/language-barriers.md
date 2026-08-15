@@ -13,9 +13,9 @@ related_problems:
   similarity: 0.6
 - slug: poor-communication
   similarity: 0.55
-- slug: team-dysfunction
-  similarity: 0.55
 - slug: team-confusion
+  similarity: 0.55
+- slug: team-dysfunction
   similarity: 0.55
 - slug: poor-teamwork
   similarity: 0.55
