@@ -2546,3 +2546,243 @@ solutions:
     title_de: Dependency Injection
     description_de: Externe Verwaltung und Injektion von Abhängigkeiten zwischen Komponenten.
     slug_de: dependency-injection
+  dependency-management-strategy:
+    title_de: Abhängigkeitsmanagement
+    description_de: Systematisierung der Verwaltung und Aktualisierung externer Abhängigkeiten.
+    slug_de: abhaengigkeitsmanagement
+  dependency-pinning:
+    title_de: Dependency Pinning
+    description_de: Fixierung externer Abhängigkeitsversionen für reproduzierbare, kompatible Builds.
+    slug_de: dependency-pinning
+  deprecation-strategy:
+    title_de: Deprecation-Strategie
+    description_de: Systematische Kennzeichnung und schrittweise Entfernung veralteter Funktionen.
+    slug_de: deprecation-strategie
+  design-by-contract:
+    title_de: Design by Contract
+    description_de: Spezifikation von Vorbedingungen, Nachbedingungen und Invarianten für überprüfbares Verhalten.
+    slug_de: design-by-contract
+  design-tokens:
+    title_de: Design Tokens und Theming
+    description_de: Plattformunabhängige Kodierung visueller Design-Entscheidungen für Theming und Konsistenz.
+    slug_de: design-tokens-und-theming
+  development-environment-optimization:
+    title_de: Optimierung der Entwicklungsumgebung
+    description_de: Beseitigung von Reibungsverlusten im täglichen Entwicklungsworkflow durch Investition in schnelle Builds, zuverlässiges Tooling, automatisierte repetitive Aufgaben und Self-Service-Infrastruktur, sodass Entwickler ihre Zeit auf wertvolle Arbeit statt auf den Kampf mit ihren Werkzeugen verwenden.
+    slug_de: optimierung-der-entwicklungsumgebung
+  development-workflow-automation:
+    title_de: Automatisierung des Entwicklungsworkflows
+    description_de: Automatisierung repetitiver Entwicklungsaufgaben, Umgebungseinrichtung und manueller Prozesse, um Entwicklern Zeit für wertvolle Arbeit zu geben und fehleranfällige manuelle Schritte zu reduzieren.
+    slug_de: automatisierung-des-entwicklungsworkflows
+  digital-forensics:
+    title_de: Digitale Forensik
+    description_de: Etablierung von Methoden zur Untersuchung von Sicherheitsvorfällen und Straftaten.
+    slug_de: digitale-forensik
+  digital-signatures:
+    title_de: Digitale Signaturen
+    description_de: Nutzung kryptografischer Signaturen für Code-Signierung, Dokumentenverifikation und Nachweis der Urheberschaft.
+    slug_de: digitale-signaturen
+  direct-feedback:
+    title_de: Direktes Feedback
+    description_de: Einholung von Nutzerfeedback direkt im Softwaresystem.
+    slug_de: direktes-feedback
+  disaster-recovery:
+    title_de: Disaster Recovery
+    description_de: Methoden zur Wiederherstellung des Betriebs nach Katastrophen oder größeren Störungen.
+    slug_de: disaster-recovery
+  distributed-caching:
+    title_de: Verteiltes Caching
+    description_de: Zwischenspeicherung häufig benötigter Daten auf mehreren Computern.
+    slug_de: verteiltes-caching
+  distributed-processing:
+    title_de: Verteilte Verarbeitung
+    description_de: Aufteilung der Verarbeitung auf mehrere unabhängige Systeme.
+    slug_de: verteilte-verarbeitung
+  distributed-tracing:
+    title_de: Distributed Tracing
+    description_de: Verfolgung von Anfragen über Microservice-Grenzen hinweg mitsamt ihrer Performance-Auswirkung.
+    slug_de: distributed-tracing
+  documentation-as-code:
+    title_de: Docs as Code
+    description_de: Behandlung und Verwaltung von Dokumentation wie Quellcode.
+    slug_de: docs-as-code
+  documentation-of-compatibility-requirements:
+    title_de: Kompatibilitätsdokumentation
+    description_de: Pflege einer lebenden Aufzeichnung unterstützter Plattformen, Versionen und bekannter Einschränkungen.
+    slug_de: kompatibilitaetsdokumentation
+  domain-aligned-architecture:
+    title_de: Domänenausgerichtete Architektur
+    description_de: Ausrichtung der Softwarestruktur an Domänenstrukturen und -prozessen.
+    slug_de: domaenenausgerichtete-architektur
+  domain-based-authorization-concept:
+    title_de: Domänenbasiertes Autorisierungskonzept
+    description_de: Steuerung des Zugriffs auf sensible Daten basierend auf fachlichen Berechtigungen.
+    slug_de: domaenenbasiertes-autorisierungskonzept
+  domain-data-versioning:
+    title_de: Versionierung von Domänendaten
+    description_de: Nachverfolgung und Wiederherstellung von Änderungen an domänenspezifischen Daten.
+    slug_de: versionierung-von-domaenendaten
+  domain-driven-design:
+    title_de: Domain-Driven Design
+    description_de: Strukturierung der Softwarearchitektur basierend auf der Geschäftsdomäne.
+    slug_de: domain-driven-design
+  domain-experts:
+    title_de: Fachexperten
+    description_de: Direkte Einbindung von Fachexperten in die Entwicklung.
+    slug_de: fachexperten
+  domain-immersion:
+    title_de: Domäneneintauchen
+    description_de: Entwickler zur Beobachtung der tatsächlichen Arbeit schicken, die das System unterstützt, sodass Anforderungen verstanden statt nur transkribiert werden.
+    slug_de: domaeneneintauchen
+  domain-modeling:
+    title_de: Domänenmodellierung
+    description_de: Abbildung von Domänenkonzepten und -beziehungen in einem Domänenmodell.
+    slug_de: domaenenmodellierung
+  domain-patterns:
+    title_de: Domänenmuster
+    description_de: Anwendung bewährter Lösungen für wiederkehrende Geschäftsprobleme.
+    slug_de: domaenenmuster
+  domain-quiz:
+    title_de: Domänen-Quiz
+    description_de: Überprüfung von Domänenwissen durch gezielte Fragen.
+    slug_de: domaenen-quiz
+  domain-specific-languages:
+    title_de: Domänenspezifische Sprachen
+    description_de: Nutzung von Programmiersprachen, die speziell an die Domäne angepasst sind, für fachliche Ausdrücke und Regeln.
+    slug_de: domaenenspezifische-sprachen
+  duplication-detection:
+    title_de: Duplikaterkennung
+    description_de: Systematisches Auffinden, wo Code kopiert wurde, und Prüfung, ob die Kopien auseinandergedriftet sind — denn die gefährlichen Duplikate sind die, von denen niemand weiß.
+    slug_de: duplikaterkennung
+  dynamic-code-analysis:
+    title_de: Dynamische Code-Analyse
+    description_de: Prüfung von Sicherheitseigenschaften durch Ausführung und Beobachtung des Programmverhaltens.
+    slug_de: dynamische-code-analyse
+  efficient-algorithms:
+    title_de: Effiziente Algorithmen
+    description_de: Wahl effizienter Algorithmen für häufige oder kritische Operationen.
+    slug_de: effiziente-algorithmen
+  elastic-resource-utilization:
+    title_de: Elastische Ressourcennutzung
+    description_de: Automatische Anpassung von Ressourcen basierend auf aktueller Last.
+    slug_de: elastische-ressourcennutzung
+  elastic-scaling:
+    title_de: Elastische Skalierung
+    description_de: Dynamische Anpassung der Ressourcenzuweisung an die aktuelle Last.
+    slug_de: elastische-skalierung
+  emergency-drills:
+    title_de: Notfallübungen
+    description_de: Training von Verhalten bei Sicherheitsvorfällen und Testen von Notfallprozessen.
+    slug_de: notfalluebungen
+  empty-states-and-first-use-guidance:
+    title_de: Leerzustände und Erstnutzungshilfen
+    description_de: Gestaltung aussagekräftiger Leerzustände mit klarer Anleitung, was als Nächstes zu tun ist.
+    slug_de: leerzustaende-und-erstnutzungshilfen
+  emulation:
+    title_de: Emulation
+    description_de: Nachbildung des Verhaltens einer fremden Plattform, sodass bestehende Software ohne Änderung läuft.
+    slug_de: emulation
+  encryption:
+    title_de: Verschlüsselung
+    description_de: Verschlüsselung von Daten bei Übertragung und Speicherung.
+    slug_de: verschluesselung
+  endpoint-detection-and-response:
+    title_de: Endpoint Detection and Response
+    description_de: Kontinuierliche Echtzeit-Überwachung von Endpunkten auf Bedrohungen.
+    slug_de: endpoint-detection-and-response
+  environment-parity:
+    title_de: Umgebungsparität
+    description_de: Sicherstellung der Konsistenz zwischen Entwicklungs-, Test- und Produktivumgebungen.
+    slug_de: umgebungsparitaet
+  environment-variables-for-configuration:
+    title_de: Umgebungsvariablen für Konfiguration
+    description_de: Steuerung von Konfigurationseinstellungen über Umgebungsvariablen.
+    slug_de: umgebungsvariablen-fuer-konfiguration
+  error-budgets:
+    title_de: Error Budgets
+    description_de: Quantifizierung akzeptabler Unzuverlässigkeit als Balance zwischen Feature-Geschwindigkeit und Zuverlässigkeit.
+    slug_de: error-budgets
+  error-correction-codes:
+    title_de: Fehlerkorrekturcodes
+    description_de: Nutzung von Codes zur Erkennung und Korrektur von Fehlern in Daten.
+    slug_de: fehlerkorrekturcodes
+  error-handling:
+    title_de: Fehlerbehandlung
+    description_de: Mechanismen zur Erkennung, Protokollierung und Behandlung von Fehlern.
+    slug_de: fehlerbehandlung
+  error-logging:
+    title_de: Fehlerprotokollierung
+    description_de: Erfassung und Speicherung von Fehlern und Ausnahmen.
+    slug_de: fehlerprotokollierung
+  error-logs:
+    title_de: Fehlerprotokolle
+    description_de: Systematische Analyse von Fehlerprotokollen.
+    slug_de: fehlerprotokolle
+  error-reporting-and-analysis:
+    title_de: Fehlerberichterstattung und -analyse
+    description_de: Systematische Erfassung, Analyse und Behebung von Fehlern und Problemen.
+    slug_de: fehlerberichterstattung-und-analyse
+  event-driven-architecture:
+    title_de: Event-Driven Architecture
+    description_de: Entkopplung von Komponenten durch asynchrone Events.
+    slug_de: event-driven-architecture
+  event-driven-integration:
+    title_de: Ereignisgetriebene Integration
+    description_de: Entkopplung von Produzenten und Konsumenten über asynchrone Message-Broker-Kommunikation.
+    slug_de: ereignisgetriebene-integration
+  event-storming:
+    title_de: Event Storming
+    description_de: Entdeckung von Domain Events, Commands und Aggregates in kollaborativen Workshops.
+    slug_de: event-storming
+  evolutionary-database-design:
+    title_de: Evolutionäres Datenbankdesign
+    description_de: Schrittweise Weiterentwicklung von Datenbankschemata durch versionskontrollierte Migrationen.
+    slug_de: evolutionaeres-datenbankdesign
+  evolutionary-requirements-development:
+    title_de: Evolutionäre Anforderungsentwicklung
+    description_de: Schrittweise Detaillierung und Verfeinerung von Anforderungen über den gesamten Projektverlauf.
+    slug_de: evolutionaere-anforderungsentwicklung
+  exceptions:
+    title_de: Exceptions
+    description_de: Nutzung von Exceptions zur Signalisierung und Behandlung von Fehlerzuständen.
+    slug_de: exceptions
+  executive-sponsorship:
+    title_de: Executive Sponsorship
+    description_de: Sicherung eines benannten, ranghohen Sponsors, der das Ergebnis verantwortet, die Finanzierung verteidigt und Hindernisse beseitigt, die das Team nicht selbst entfernen kann.
+    slug_de: executive-sponsorship
+  explicit-extension-points:
+    title_de: Explizite Erweiterungspunkte
+    description_de: Definition einer begrenzten, versionierten Menge von Stellen, an denen kundenspezifisches Verhalten andocken darf, sodass Variation an den Rändern statt im gesamten Kern lebt.
+    slug_de: explizite-erweiterungspunkte
+  explicit-prioritization-framework:
+    title_de: Explizites Priorisierungs-Framework
+    description_de: Etablierung einer einzigen priorisierten Liste mit festgelegten Kriterien und einem verantwortlichen Eigentümer, sodass Priorität einmal entschieden statt fortlaufend neu verhandelt wird.
+    slug_de: explizites-priorisierungs-framework
+  exploratory-testing:
+    title_de: Exploratives Testen
+    description_de: Eine erfahrene Person das System bewusst und ohne Skript in zeitlich begrenzten Sitzungen mit dokumentierten Befunden untersuchen lassen, um zu entdecken, was niemand zu spezifizieren bedachte.
+    slug_de: exploratives-testen
+  externalized-configuration:
+    title_de: Externalisierte Konfiguration
+    description_de: Trennung umgebungsspezifischer Einstellungen von der Anwendungslogik.
+    slug_de: externalisierte-konfiguration
+  facades:
+    title_de: Facades
+    description_de: Nutzung von Facades, um komplexe Subsysteme hinter einer vereinfachten Schnittstelle zu verbergen.
+    slug_de: facades
+  failover-cluster:
+    title_de: Failover-Cluster
+    description_de: Redundante Pflege von Servern oder Systemen als funktionale Gruppe.
+    slug_de: failover-cluster
+  failover-mechanisms:
+    title_de: Failover-Mechanismen
+    description_de: Automatischer Wechsel zu redundanten Komponenten im Fehlerfall.
+    slug_de: failover-mechanismen
+  fair-source:
+    title_de: Offene Entwicklungspraktiken
+    description_de: Verbesserung der Codequalität durch öffentliches Code-Review, transparentes Issue-Tracking und externe Beiträge.
+    slug_de: offene-entwicklungspraktiken
+  fast-feedback-loops:
+    title_de: Schnelle Feedback-Loops
+    description_de: Die Zeit von einer Änderung bis zum Wissen, ob sie funktioniert hat, als primäre Engineering-Metrik behandeln und angehen, was immer sie dominiert.
+    slug_de: schnelle-feedback-loops
