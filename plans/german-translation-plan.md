@@ -23,23 +23,24 @@ Zweites Kernproblem: Mehrere Skripte und ein Client-seitiges Script matchen Absc
 ## Entschieden
 
 - **URL-Präfix `de/`:** Die deutsche Seite lebt unter `/de/...` (z. B. `/de/problems/foo.html`, `/de/`, `/de/solutions/`, `/de/categories/`), die englische bleibt unverändert auf der bestehenden Root-URL. Bestätigt vom Nutzer.
+- **Deutsche Slugs:** Die Dateinamen (und damit URLs) in `_problems_de`/`_solutions_de` sind **eigene, aus dem deutschen Titel abgeleitete Slugs** (lowercase, Bindestriche, wie in `CLAUDE.md` für alle Markdown-Dateinamen gefordert) — sie sind **nicht** identisch mit dem englischen Dateinamen. Bestätigt vom Nutzer. Das ändert Entscheidung 1 (Dateibaum) und Entscheidung 6 (Sprachumschalter) unten gegenüber der ursprünglichen "gleicher Slug"-Annahme.
 
 ## Offene Architekturentscheidungen
 
 ### 1. Wie werden EN/DE-Inhalte strukturiert?
 
-**Empfehlung:** Kein Übersetzungs-Plugin (`jekyll-polyglot` o.ä.), sondern zwei zusätzliche eigene Collections `problems_de` und `solutions_de`, die dieselben Dateinamen/Slugs wie ihre englischen Pendants verwenden und via `permalink` unter `/de/` ausgegeben werden:
+**Empfehlung:** Kein Übersetzungs-Plugin (`jekyll-polyglot` o.ä.), sondern zwei zusätzliche eigene Collections `problems_de` und `solutions_de`, die via `permalink` unter `/de/` ausgegeben werden, aber **eigene, aus dem deutschen Titel abgeleitete Dateinamen** tragen (siehe "Entschieden" oben):
 
 ```
-_problems/foo.md        (Englisch, bestehend, unverändert)
-_problems_de/foo.md     (Deutsch, neu)
-_solutions/bar.md       (Englisch, bestehend, unverändert)
-_solutions_de/bar.md    (Deutsch, neu)
+_problems/foo.md                    (Englisch, bestehend, unverändert)
+_problems_de/deutscher-slug.md      (Deutsch, neu, eigener Dateiname)
+_solutions/bar.md                   (Englisch, bestehend, unverändert)
+_solutions_de/anderer-slug.md       (Deutsch, neu, eigener Dateiname)
 ```
 
 - `_config.yml`: neue Collection-Einträge mit `permalink: /de/problems/:name.html` bzw. `/de/solutions/:name.html`.
 - `lang: de` in den Defaults für diese Collections, `lang: en` explizit (oder `site.lang`-Default) für die bestehenden.
-- Gleicher Slug = trivial berechenbares Gegenstück für Sprachumschalter und `hreflang`-Tags (`/problems/foo.html` ↔ `/de/problems/foo.html`).
+- **Da der Dateiname/Slug zwischen EN und DE nicht mehr übereinstimmt, braucht jede DE-Datei ein Front-Matter-Feld, das auf ihr englisches Original zurückverweist**, z. B. `en_slug: foo`. Das Gegenstück lässt sich dann genau wie die bestehenden `related_problems`/`solutions`-Lookups per Liquid auflösen: `site.problems_de | where: "en_slug", page.slug | first` (EN→DE) bzw. `site.problems | where: "slug", page.en_slug | first` (DE→EN) — passt zum bereits in `problem.html`/`solution.html` verwendeten Muster, ohne die 1013 bestehenden englischen Dateien anfassen zu müssen.
 - Warum kein Plugin: `jekyll-polyglot`/`jekyll-multiple-languages-plugin` gehen von 1:1 gespiegelten Dateibäumen mit eigenem URL-Rewriting aus und bringen ihre eigene Slug-/Permalink-Logik mit, die mit den bestehenden custom `permalink`-Patterns und `jekyll-relative-links` kollidieren kann. Zwei eigene Collections sind mehr Handarbeit in `_config.yml`, aber vollständig unter unserer Kontrolle und ändern nichts an der bestehenden `_problems`/`_solutions`-Pipeline (Sync-Skripte, Embeddings, Landscape).
 - Der Build läuft über eine eigene GitHub-Actions-Pipeline (`.github/workflows/jekyll.yml`, `bundle exec jekyll build`), nicht über die eingeschränkte `github-pages`-Gem-Whitelist — ein Plugin wäre also technisch möglich, wird hier aber trotzdem nicht empfohlen (s.o.).
 
@@ -59,11 +60,11 @@ Alle sichtbaren Strings in `_layouts/*.html`, `_includes/*.html`, `index.html`, 
 
 ### 5. Related Problems/Solutions & Landscape
 
-`related_problems`, `related_solutions`, `solutions`/`problems`-Listen sowie die Landscape-Cluster basieren auf Embeddings des **englischen** Texts. Statt für Deutsch neu zu berechnen (zweiter Embedding-Lauf, zweite Landscape-Generierung, doppelte Pflege): Die deutschen Dateien übernehmen exakt dieselben Slug-Listen aus ihrem englischen Original (nur die angezeigten Titel/Beschreibungen kommen aus der jeweiligen deutschen Collection zur Laufzeit). Landscape-Seite bleibt vorerst englisch-only; Sprachumschalter zeigt "Landscape" auf der deutschen Seite optional ausgegraut/verlinkt zur EN-Version, bis eine deutsche Landscape-Variante separat entschieden wird.
+`related_problems`, `related_solutions`, `solutions`/`problems`-Listen sowie die Landscape-Cluster basieren auf Embeddings des **englischen** Texts. Statt für Deutsch neu zu berechnen (zweiter Embedding-Lauf, zweite Landscape-Generierung, doppelte Pflege): Die deutschen Dateien übernehmen exakt dieselben (englischen) Slug-Listen aus ihrem englischen Original 1:1 — diese Felder bleiben also **englische Slugs**, auch in der DE-Datei. Weil DE-Dateinamen jetzt eigene Slugs haben (s. o.), müssen `_layouts/problem.html`/`solution.html` beim Auflösen dieser Listen sprachabhängig den passenden Join-Key wählen: auf EN-Seiten wie bisher `site.problems | where: "slug", related_slug`, auf DE-Seiten `site.problems_de | where: "en_slug", related_slug` (statt `"slug"`). Das ist ein kleiner, aber notwendiger Umbau der bestehenden Layout-Logik, siehe Phase 0/1. Landscape-Seite bleibt vorerst englisch-only; Sprachumschalter zeigt "Landscape" auf der deutschen Seite optional ausgegraut/verlinkt zur EN-Version, bis eine deutsche Landscape-Variante separat entschieden wird.
 
 ### 6. Wo lebt der Sprachumschalter?
 
-Ein Link/Button im `header.html`, der zur Gegenstück-URL wechselt (gleicher Slug, anderes Präfix). Für Collection-Seiten (`page.collection == 'problems'/'solutions'`) berechenbar aus `page.slug`; für die vier Übersichtsseiten (`/`, `/problems/`, `/solutions/`, `/categories/`) feste Paare (`/` ↔ `/de/`, etc.).
+Ein Link/Button im `header.html`, der zur Gegenstück-URL wechselt. Da EN- und DE-Slug nicht mehr identisch sind, kann die Zielseite nicht mehr aus dem aktuellen `page.slug` + geändertem Präfix berechnet werden, sondern muss über das `en_slug`-Feld nachgeschlagen werden (s. Entscheidung 1): auf einer EN-Problemseite `site.problems_de | where: "en_slug", page.slug | first`, auf einer DE-Problemseite direkt `site.problems | where: "slug", page.en_slug | first` (analog für Lösungen). Fehlt das Gegenstück (weil eine Datei noch nicht übersetzt ist), Umschalter ausblenden statt auf 404 zu verlinken. Für die vier Übersichtsseiten (`/`, `/problems/`, `/solutions/`, `/categories/`) reichen feste Paare (`/` ↔ `/de/`, etc.), da die überhaupt keinen Slug haben.
 
 ## Umfang (Ist-Stand)
 
@@ -82,11 +83,12 @@ Gesamt ca. **1013 Katalog-Dateien** plus ca. 14 Chrome-Dateien.
 ## Phasen
 
 ### Phase 0 — Vorbereitung (Voraussetzung für alles Weitere)
-- [ ] Entscheidungen 1–6 oben bestätigen (bzw. mit Nutzer klären, falls Einwände)
+- [ ] Verbleibende Entscheidungen 2–5 oben bestätigen (1 und 6-Grundlage — URL-Präfix, deutsche Slugs — sind bereits entschieden)
 - [ ] `_config.yml`: Collections `problems_de`/`solutions_de`, Defaults, `lang`-Feld
 - [ ] Abschnitts-Erkennung auf Glyphen umstellen (Entscheidung 2), inkl. Regressionslauf von `check_links.py` und `validate_causal_links.py --detail` auf dem bestehenden englischen Bestand
+- [ ] `_layouts/problem.html`/`solution.html`: sprachabhängige Auflösung der `related_problems`/`related_solutions`/`solutions`/`problems`-Listen umbauen (Join-Key `slug` vs. `en_slug`, s. Entscheidung 5)
 - [ ] `_data/categories_de.yml` und `_data/i18n.yml` (oder `en.yml`/`de.yml`) anlegen
-- [ ] Sprachumschalter in `header.html` bauen (zunächst auf Dummy-Zielen testbar)
+- [ ] Sprachumschalter in `header.html` bauen, Auflösung über `en_slug` (s. Entscheidung 6), zunächst auf Dummy-Zielen testbar
 
 ### Phase 1 — Chrome/UI übersetzen
 - [ ] `_layouts/default.html`, `_layouts/problem.html`, `_layouts/solution.html`
@@ -98,15 +100,17 @@ Gesamt ca. **1013 Katalog-Dateien** plus ca. 14 Chrome-Dateien.
 Ergebnis: `/de/` ist erreichbar, navigierbar, aber Problem-/Lösungsseiten liefern noch 404 bzw. sind leer.
 
 ### Phase 2 — Titel-Übersetzungstabelle (Grundlage für Phase 3)
-- [ ] Für alle 1013 Slugs den deutschen Titel + deutsche Kurzbeschreibung vorab erzeugen (z. B. per Skript/Agenten-Batch, Ergebnis in einer Zwischentabelle, etwa `scripts/i18n/titles_de.csv` oder `_data/titles_de.yml`, Spalten: `slug`, `collection`, `title_de`, `description_de`)
+- [ ] Für alle 1013 Slugs den deutschen Titel + deutsche Kurzbeschreibung **und einen daraus abgeleiteten deutschen Slug** vorab erzeugen (z. B. per Skript/Agenten-Batch, Ergebnis in einer Zwischentabelle, etwa `scripts/i18n/titles_de.csv` oder `_data/titles_de.yml`, Spalten: `slug` (EN, Join-Key), `collection`, `title_de`, `description_de`, `slug_de` (neuer Dateiname, lowercase/Bindestriche))
+- [ ] `slug_de`-Werte auf Eindeutigkeit prüfen (Kollisionen zweier unterschiedlicher EN-Slugs auf denselben deutschen Slug sind zu erwarten und müssen manuell aufgelöst werden, z. B. durch Anhängen eines unterscheidenden Worts)
 - [ ] Titel manuell/durch Review gegenprüfen: Title-Case-Regeln gelten auch für die deutsche Variante? (zu klären — im Deutschen ist durchgehende Großschreibung der Substantive ungewöhnlich; siehe offene Frage unten)
-- [ ] Diese Tabelle ist die einzige Quelle für Linktexte in Phase 3 — verhindert, dass zwei Dateien denselben Zielslug unterschiedlich übersetzen
+- [ ] Diese Tabelle ist die einzige Quelle für Linktexte **und Ziel-Dateinamen** in Phase 3 — verhindert, dass zwei Dateien denselben Zielslug unterschiedlich übersetzen oder unterschiedliche Dateinamen für dasselbe Original vergeben
 
 ### Phase 3 — Inhalte übersetzen (der große Teil)
 Batch-weise, z. B. 25–50 Dateien pro Durchgang, mit Fortschrittstabelle unten. Pro Datei:
-- [ ] Front Matter: `title`/`description` aus der Titeltabelle übernehmen, `lang: de` setzen, `category`/`related_problems`/`related_solutions`/`solutions`/`problems` unverändert (Slugs) übernehmen (Entscheidung 5)
+- [ ] Neue Datei unter `_problems_de/<slug_de>.md` bzw. `_solutions_de/<slug_de>.md` anlegen (Dateiname = `slug_de` aus der Titeltabelle, **nicht** der englische Dateiname)
+- [ ] Front Matter: `title`/`description` aus der Titeltabelle übernehmen, `lang: de` setzen, `en_slug: <englischer Slug>` setzen (Rückverweis, s. Entscheidung 1/6), `category`/`related_problems`/`related_solutions`/`solutions`/`problems` unverändert als englische Slugs übernehmen (Entscheidung 5)
 - [ ] Fließtext übersetzen, Abschnittsstruktur/Glyphen 1:1 beibehalten
-- [ ] Jeden internen Link umschreiben: Linktext = deutscher Titel aus der Tabelle, Pfad zeigt auf die `_de`-Collection
+- [ ] Jeden internen Link umschreiben: Linktext = deutscher Titel aus der Tabelle, Pfad zeigt auf `<slug_de>.md` in der `_de`-Collection (aus der Titeltabelle nachschlagen, nicht den EN-Dateinamen wiederverwenden)
 - [ ] Nach jedem Batch: `python scripts/check_links.py` und `python scripts/validate_causal_links.py --detail` auf die neue Collection anwenden (Skripte müssen dafür ein Verzeichnis-Argument bekommen statt hart `_problems`/`_solutions` anzunehmen — ggf. kleiner Parametrisierungs-Task vorab)
 
 Empfehlung zur Ausführung: sobald Phase 0–2 stehen, eignet sich dieser Teil für eine pipeline-artige Bearbeitung (Datei → Übersetzen → Link-Validierung) über mehrere Agenten/Durchläufe, weil es sich um 1013 weitgehend gleichförmige, aber inhaltlich zu prüfende Einheiten handelt. Sollte der Nutzer das ausdrücklich wünschen, kann das über das Workflow-Tool orchestriert werden; das ist aber eine Ausführungsentscheidung für später, nicht Teil dieses Plans.
