@@ -1,6 +1,10 @@
+{% assign current_lang = page.lang | default: site.lang | default: "en" %}
+{% assign t = site.data.i18n[current_lang] %}
+{% assign nav_prefix = "" %}
+{% if current_lang == "de" %}{% assign nav_prefix = "/de" %}{% endif %}
 <header class="site-header" role="banner">
   <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ nav_prefix | append: '/' | relative_url }}">{{ site.title | escape }}</a>
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -13,10 +17,10 @@
       </label>
 
       <div class="trigger">
-        <a class="page-link" href="{{ '/problems/' | relative_url }}">Problems</a>
-        <a class="page-link" href="{{ '/solutions/' | relative_url }}">Solutions</a>
-        <a class="page-link" href="{{ '/categories/' | relative_url }}">Categories</a>
-        <a class="page-link" href="{{ '/landscape/' | relative_url }}">Landscape</a>
+        <a class="page-link" href="{{ nav_prefix | append: '/problems/' | relative_url }}">{{ t['nav.problems'] }}</a>
+        <a class="page-link" href="{{ nav_prefix | append: '/solutions/' | relative_url }}">{{ t['nav.solutions'] }}</a>
+        <a class="page-link" href="{{ nav_prefix | append: '/categories/' | relative_url }}">{{ t['nav.categories'] }}</a>
+        <a class="page-link" href="{{ nav_prefix | append: '/landscape/' | relative_url }}">{{ t['nav.landscape'] }}</a>
         {% if page.collection == 'problems' or page.collection == 'solutions' %}
           <button type="button" class="page-link analysis-trail-menu-button" data-analysis-trail-open>
             <svg class="analysis-trail-menu-button__icon" viewBox="0 0 18 16" aria-hidden="true" focusable="false">
@@ -25,7 +29,7 @@
               <circle cx="15" cy="8" r="2" fill="currentColor" />
               <circle cx="4" cy="13" r="2" fill="currentColor" />
             </svg>
-            <span>Analysis Workbench</span>
+            <span>{{ t['nav.analysis_workbench'] }}</span>
             <span class="analysis-trail-menu-button__count" data-analysis-trail-count hidden>0</span>
           </button>
         {% endif %}
@@ -66,8 +70,7 @@
           {% if switch_candidate %}{% assign language_switch_url = switch_candidate_url %}{% endif %}
         {% endif %}
         {% if language_switch_url %}
-          {% assign current_lang = page.lang | default: site.lang | default: "en" %}
-          <a class="page-link language-switch" href="{{ language_switch_url | relative_url }}" hreflang="{% if current_lang == 'de' %}en{% else %}de{% endif %}">{{ site.data.i18n[current_lang]['nav.language_switch'] }}</a>
+          <a class="page-link language-switch" href="{{ language_switch_url | relative_url }}" hreflang="{% if current_lang == 'de' %}en{% else %}de{% endif %}">{{ t['nav.language_switch'] }}</a>
         {% endif %}
       </div>
     </nav>

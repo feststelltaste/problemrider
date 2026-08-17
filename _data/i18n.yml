@@ -25,6 +25,7 @@ en:
   footer.github_repository: GitHub Repository
   footer.license_prefix: "Content licensed under"
   footer.license_name: CC BY-SA 4.0
+  footer.tagline: A comprehensive catalog of software development problems, their symptoms, their root causes, and the solutions that address them
 
   # Home page (index.html)
   home.please_note: "Please note:"
@@ -155,6 +156,7 @@ de:
   footer.github_repository: GitHub-Repository
   footer.license_prefix: "Inhalte lizenziert unter"
   footer.license_name: CC BY-SA 4.0
+  footer.tagline: Ein umfassender Katalog typischer Probleme in der Softwareentwicklung, ihrer Symptome, Grundursachen und der Lösungen, die sie adressieren
 
   # Home page (index.html)
   home.please_note: "Bitte beachten:"
