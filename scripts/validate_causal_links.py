@@ -40,17 +40,21 @@ from collections import Counter, defaultdict
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROBLEMS_DIR = os.path.join(REPO_ROOT, '_problems')
 
-SYMPTOMS_HEADING = 'Symptoms ▲'
-CAUSES_HEADING = 'Causes ▼'
+# Sections are matched by their trailing glyph, not the English heading word,
+# so this also works on translated (e.g. German) problem files that keep the
+# same glyphs but translate the heading text itself (see
+# plans/german-translation-plan.md, Decision 2).
+SYMPTOMS_GLYPH = '▲'
+CAUSES_GLYPH = '▼'
 
 # A problem this far above the median out- or in-degree is reported as a hub.
 HUB_FACTOR = 6
 
 
-def read_section_links(body, heading):
+def read_section_links(body, glyph):
     """Return the problem slugs linked in one section of a problem file."""
     match = re.search(
-        rf'^## {re.escape(heading)}\n(.*?)(?=^## |\Z)',
+        rf'^## .*{re.escape(glyph)}\s*\n(.*?)(?=^## |\Z)',
         body,
         re.DOTALL | re.MULTILINE,
     )
@@ -70,8 +74,8 @@ def load_problems():
         title = re.search(r'^title: (.*)$', content, re.MULTILINE)
         problems[filename[:-3]] = {
             'title': title.group(1) if title else filename[:-3],
-            'symptoms': read_section_links(content, SYMPTOMS_HEADING),
-            'causes': read_section_links(content, CAUSES_HEADING),
+            'symptoms': read_section_links(content, SYMPTOMS_GLYPH),
+            'causes': read_section_links(content, CAUSES_GLYPH),
         }
     return problems
 

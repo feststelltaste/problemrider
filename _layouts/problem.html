@@ -86,9 +86,14 @@ document.addEventListener('DOMContentLoaded', function() {
   // Find all sections with Symptoms ▲ or Root Causes ▼ headings
   const sections = document.querySelectorAll('h2');
   
+  // Matched by trailing glyph, not the English heading word, so this also
+  // applies to translated (e.g. German) problem pages that keep the same
+  // glyphs but translate the heading text itself. This also fixes a
+  // pre-existing bug: the actual heading is "Causes ▼", not "Root Causes ▼",
+  // so the Causes section never matched before.
   sections.forEach(section => {
     const sectionText = section.textContent.trim();
-    if (sectionText.includes('Symptoms ▲') || sectionText.includes('Root Causes ▼')) {
+    if (sectionText.includes('▲') || sectionText.includes('▼')) {
       // Check if this section already has a show-more button to prevent duplicates
       let nextElement = section.nextElementSibling;
       let hasShowMoreButton = false;
