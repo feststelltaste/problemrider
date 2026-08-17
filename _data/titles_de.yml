@@ -256,5 +256,245 @@ problems:
     title_de: Kundenunzufriedenheit
     description_de: Nutzer werden frustriert durch Probleme mit Zuverlässigkeit, Performance oder Nutzbarkeit des Systems.
     slug_de: kundenunzufriedenheit
+  customization-outside-version-control:
+    title_de: Anpassungen außerhalb der Versionskontrolle
+    description_de: Konfiguration und individuelle Logik liegen in der Datenbank eines kommerziell erworbenen Softwaresystems, sodass sie nicht diffbar, überprüfbar, reproduzierbar oder nachverfolgbar sind.
+    slug_de: anpassungen-ausserhalb-der-versionskontrolle
+  cv-driven-development:
+    title_de: CV-getriebene Entwicklung
+    description_de: Technologien oder Praktiken werden primär gewählt, um den eigenen Lebenslauf aufzuwerten, statt um Geschäftsprobleme zu lösen.
+    slug_de: cv-getriebene-entwicklung
+  data-migration-complexities:
+    title_de: Komplexität der Datenmigration
+    description_de: Komplexe Datenmigrationsprozesse bergen Risiken von Datenverlust, Datenkorruption oder verlängerten Ausfallzeiten bei Systemaktualisierungen.
+    slug_de: komplexitaet-der-datenmigration
+  data-migration-integrity-issues:
+    title_de: Integritätsprobleme bei der Datenmigration
+    description_de: Daten verlieren bei der Migration von Legacy- zu modernen Systemen aufgrund von Schema-Unstimmigkeiten und Formatinkompatibilitäten an Integrität, Konsistenz oder Bedeutung.
+    slug_de: integritaetsprobleme-bei-der-datenmigration
+  data-protection-risk:
+    title_de: Datenschutzrisiko
+    description_de: Der Umgang mit personenbezogenen oder sensiblen Daten weist keine ausreichenden Schutzmaßnahmen auf, was das Projekt rechtlichen und ethischen Problemen aussetzt.
+    slug_de: datenschutzrisiko
+  data-structure-cache-inefficiency:
+    title_de: Cache-Ineffizienz von Datenstrukturen
+    description_de: Datenstrukturen sind so organisiert, dass sie schlechte Cache-Performance verursachen, was zu übermäßiger Speicherzugriffslatenz und geringerem Durchsatz führt.
+    slug_de: cache-ineffizienz-von-datenstrukturen
+  database-connection-leaks:
+    title_de: Datenbankverbindungslecks
+    description_de: Datenbankverbindungen werden geöffnet, aber nicht ordnungsgemäß geschlossen, was zur Erschöpfung des Connection-Pools und zu Anwendungsausfällen führt.
+    slug_de: datenbankverbindungslecks
+  database-query-performance-issues:
+    title_de: Performance-Probleme bei Datenbankabfragen
+    description_de: Schlecht optimierte Datenbankabfragen verursachen langsame Antwortzeiten, hohen Ressourcenverbrauch und Skalierungsprobleme.
+    slug_de: performance-probleme-bei-datenbankabfragen
+  database-schema-design-problems:
+    title_de: Probleme im Datenbankschema-Design
+    description_de: Schlechtes Datenbankschema-Design erzeugt Performance-Probleme, Datenintegritätsprobleme und Wartungsschwierigkeiten.
+    slug_de: probleme-im-datenbankschema-design
+  deadline-pressure:
+    title_de: Termindruck
+    description_de: Intensiver Druck, Termine einzuhalten, führt zu überstürzten Entscheidungen, Abkürzungen und Qualitätseinbußen in der Softwareentwicklung.
+    slug_de: termindruck
+  deadlock-conditions:
+    title_de: Deadlock-Zustände
+    description_de: Mehrere Threads oder Prozesse warten unbegrenzt darauf, dass der jeweils andere Ressourcen freigibt, was zum Einfrieren des Systems und zur Nichtreaktion der Anwendung führt.
+    slug_de: deadlock-zustaende
+  debugging-difficulties:
+    title_de: Debugging-Schwierigkeiten
+    description_de: Das Finden und Beheben von Fehlern wird durch komplexe Code-Architektur, schlechtes Logging oder unzureichende Entwicklungswerkzeuge erschwert.
+    slug_de: debugging-schwierigkeiten
+  decision-avoidance:
+    title_de: Entscheidungsvermeidung
+    description_de: Wichtige technische Entscheidungen werden wiederholt aufgeschoben, was Fortschritt verhindert und Engpässe in der Entwicklungsarbeit erzeugt.
+    slug_de: entscheidungsvermeidung
+  decision-paralysis:
+    title_de: Entscheidungslähmung
+    description_de: Entwickler tun sich schwer, ohne klare Vorgaben Entscheidungen zu treffen, was die Entwicklung verlangsamt und für viel Frustration im Team sorgt.
+    slug_de: entscheidungslaehmung
+  declining-business-metrics:
+    title_de: Sinkende Geschäftskennzahlen
+    description_de: Wichtige Geschäftskennzahlen wie Nutzerbindung, Konversionsraten, Umsatz und Stakeholder-Vertrauen verschlechtern sich aufgrund technischer Probleme.
+    slug_de: sinkende-geschaeftskennzahlen
+  defensive-coding-practices:
+    title_de: Defensive Programmierpraktiken
+    description_de: Entwickler schreiben übermäßig ausführlichen Code, exzessive Kommentare oder unnötige defensive Logik, um erwarteter Kritik im Code-Review zuvorzukommen.
+    slug_de: defensive-programmierpraktiken
+  delayed-bug-fixes:
+    title_de: Verzögerte Fehlerbehebungen
+    description_de: Bekannte Probleme bleiben über längere Zeit ungelöst, was fortlaufende Probleme und Nutzerfrustration verursacht.
+    slug_de: verzoegerte-fehlerbehebungen
+  delayed-decision-making:
+    title_de: Verzögerte Entscheidungsfindung
+    description_de: Wichtige Entscheidungen, die den Entwicklungsfortschritt betreffen, werden aufgeschoben oder dauern übermäßig lange, was Engpässe und Unsicherheit erzeugt.
+    slug_de: verzoegerte-entscheidungsfindung
+  delayed-issue-resolution:
+    title_de: Verzögerte Problemlösung
+    description_de: Probleme bestehen länger fort, weil sich niemand für ihre Behebung verantwortlich fühlt, was zu angehäuften technischen Schulden und Nutzerfrustration führt.
+    slug_de: verzoegerte-problemloesung
+  delayed-project-timelines:
+    title_de: Verzögerte Projektzeitpläne
+    description_de: Projekte dauern durchgängig länger als geplant, verpassen Termine und verlängern Lieferzeitpläne über die ursprünglichen Schätzungen hinaus.
+    slug_de: verzoegerte-projektzeitplaene
+  delayed-value-delivery:
+    title_de: Verzögerte Wertlieferung
+    description_de: Nutzer müssen längere Zeit auf neue Funktionen oder Fehlerbehebungen warten, was zu Frustration und Wettbewerbsnachteilen führt.
+    slug_de: verzoegerte-wertlieferung
+  dependency-on-supplier:
+    title_de: Abhängigkeit vom Zulieferer
+    description_de: Externe Anbieter kontrollieren kritische Teile des Systems, was die organisatorische Flexibilität verringert und das Lock-in-Risiko erhöht.
+    slug_de: abhaengigkeit-vom-zulieferer
+  dependency-version-conflicts:
+    title_de: Versionskonflikte bei Abhängigkeiten
+    description_de: Widersprüchliche Versionen von Abhängigkeiten verursachen Laufzeitfehler, Build-Fehlschläge und unerwartetes Verhalten in Anwendungen.
+    slug_de: versionskonflikte-bei-abhaengigkeiten
+  deployment-coupling:
+    title_de: Deployment-Kopplung
+    description_de: Eine Situation, in der mehrere Komponenten oder Services gemeinsam deployt werden müssen, selbst wenn sich nur eine davon geändert hat.
+    slug_de: deployment-kopplung
+  deployment-environment-inconsistencies:
+    title_de: Inkonsistenzen zwischen Deployment-Umgebungen
+    description_de: Unterschiede zwischen Deployment-Umgebungen führen dazu, dass Anwendungen sich unterschiedlich verhalten oder beim Umzug zwischen Umgebungen fehlschlagen.
+    slug_de: inkonsistenzen-zwischen-deployment-umgebungen
+  deployment-risk:
+    title_de: Deployment-Risiko
+    description_de: System-Deployments bergen aufgrund irreversibler Änderungen und fehlender Wiederherstellungsmechanismen ein hohes Ausfallrisiko.
+    slug_de: deployment-risiko
+  developer-frustration-and-burnout:
+    title_de: Entwicklerfrustration und Burnout
+    description_de: Entwickler sind aufgrund anhaltender Probleme im Arbeitsumfeld und in der Codebasis demotiviert, distanziert und erschöpft.
+    slug_de: entwicklerfrustration-und-burnout
+  development-disruption:
+    title_de: Störung der Entwicklung
+    description_de: Das Entwicklungsteam wird ständig durch dringende Produktionsprobleme unterbrochen, was geplante Arbeit stört und die Gesamtproduktivität senkt.
+    slug_de: stoerung-der-entwicklung
+  difficult-code-comprehension:
+    title_de: Schwer verständliche Codebasis
+    description_de: Eine Situation, in der Entwickler Schwierigkeiten haben, die Codebasis zu verstehen.
+    slug_de: schwer-verstaendliche-codebasis
+  difficult-code-reuse:
+    title_de: Schwierige Code-Wiederverwendung
+    description_de: Code lässt sich schwer in anderen Kontexten wiederverwenden, weil er nicht modular und wiederverwendbar gestaltet ist.
+    slug_de: schwierige-code-wiederverwendung
+  difficult-developer-onboarding:
+    title_de: Schwieriges Onboarding neuer Entwickler
+    description_de: Neue Teammitglieder brauchen aufgrund komplexer Systeme, schlechter Dokumentation und unzureichender Onboarding-Prozesse ungewöhnlich lange, um produktiv zu werden.
+    slug_de: schwieriges-onboarding-neuer-entwickler
+  difficult-to-test-code:
+    title_de: Schwer testbarer Code
+    description_de: Komponenten lassen sich aufgrund enger Kopplung, globaler Abhängigkeiten oder komplexer Voraussetzungen nicht leicht isoliert testen.
+    slug_de: schwer-testbarer-code
+  difficult-to-understand-code:
+    title_de: Schwer verständlicher Code
+    description_de: Es ist schwer, den Zweck von Modulen oder Funktionen zu erfassen, ohne viele andere Teile des Systems zu verstehen, was die Entwicklung verlangsamt und Fehler begünstigt.
+    slug_de: schwer-verstaendlicher-code
+  difficulty-quantifying-benefits:
+    title_de: Schwierigkeiten beim Quantifizieren von Nutzen
+    description_de: Es ist schwer, den ROI von Refactoring-Arbeit im Vergleich zu neuen Features zu messen, sodass technische Verbesserungen bei Priorisierungsentscheidungen oft den Kürzeren ziehen.
+    slug_de: schwierigkeiten-beim-quantifizieren-von-nutzen
+  dma-coherency-issues:
+    title_de: DMA-Kohärenzprobleme
+    description_de: Direct-Memory-Access-Operationen stehen im Konflikt mit der CPU-Cache-Kohärenz, was zu Datenkorruption oder inkonsistenten Datenansichten zwischen CPU und DMA-Geräten führt.
+    slug_de: dma-kohaerenzprobleme
+  duplicated-effort:
+    title_de: Doppelter Aufwand
+    description_de: Mehrere Teammitglieder arbeiten unwissentlich an denselben Problemen oder implementieren unabhängig voneinander ähnliche Lösungen.
+    slug_de: doppelter-aufwand
+  duplicated-research-effort:
+    title_de: Doppelter Recherche-Aufwand
+    description_de: Mehrere Teammitglieder recherchieren unabhängig voneinander dieselben Themen, was Zeit verschwendet und den Aufbau von kollektivem Wissen verhindert.
+    slug_de: doppelter-recherche-aufwand
+  duplicated-work:
+    title_de: Doppelte Arbeit
+    description_de: Mehrere Teammitglieder arbeiten unwissentlich an denselben Aufgaben oder lösen dieselben Probleme, was zu verschwendetem Aufwand und potenziellen Konflikten führt.
+    slug_de: doppelte-arbeit
+  eager-to-please-stakeholders:
+    title_de: Übermäßige Gefälligkeit gegenüber Stakeholdern
+    description_de: Das Projektteam stimmt jeder neuen Anfrage der Stakeholder zu, ohne zurückzufragen oder Kompromisse zu erklären, was zu Scope Creep und weiteren Problemen führen kann.
+    slug_de: uebermaessige-gefaelligkeit-gegenueber-stakeholdern
+  endianness-conversion-overhead:
+    title_de: Overhead durch Endianness-Konvertierung
+    description_de: Häufige Byte-Reihenfolge-Konvertierungen zwischen unterschiedlichen Endianness-Formaten erzeugen Performance-Overhead bei der Datenverarbeitung und Netzwerkkommunikation.
+    slug_de: overhead-durch-endianness-konvertierung
+  entity-attribute-value-overuse:
+    title_de: Übermäßiger Einsatz von Entity-Attribute-Value
+    description_de: Geschäftsdaten werden als generische Attributzeilen statt als typisierte Spalten gespeichert, sodass die Datenbank die gespeicherten Daten nicht mehr erzwingen, indizieren oder erklären kann.
+    slug_de: uebermaessiger-einsatz-von-entity-attribute-value
+  environment-variable-issues:
+    title_de: Probleme mit Umgebungsvariablen
+    description_de: Unsachgemäße Verwaltung von Umgebungsvariablen verursacht Konfigurationsprobleme, Sicherheitslücken und Deployment-Fehlschläge.
+    slug_de: probleme-mit-umgebungsvariablen
+  error-message-information-disclosure:
+    title_de: Informationspreisgabe durch Fehlermeldungen
+    description_de: Fehlermeldungen geben sensible Systeminformationen preis, die Angreifer nutzen können, um Systemarchitektur und Schwachstellen zu verstehen.
+    slug_de: informationspreisgabe-durch-fehlermeldungen
+  excessive-class-size:
+    title_de: Übermäßige Klassengröße
+    description_de: Klassen werden übermäßig groß und komplex, was sie schwer verständlich, wartbar und testbar macht.
+    slug_de: uebermaessige-klassengroesse
+  excessive-customization:
+    title_de: Übermäßige Anpassung
+    description_de: So viel kunden- oder standortspezifisches Verhalten häuft sich an, dass keine zwei Installationen gleich sind und jede Änderung gegen jede Variante geprüft werden muss.
+    slug_de: uebermaessige-anpassung
+  excessive-disk-io:
+    title_de: Übermäßige Festplatten-I/O
+    description_de: Das System führt eine hohe Anzahl an Festplatten-Lese-/Schreiboperationen aus, was auf ineffizienten Datenzugriff oder ineffiziente Verarbeitung hinweist.
+    slug_de: uebermaessige-festplatten-io
+  excessive-logging:
+    title_de: Übermäßiges Logging
+    description_de: Anwendungen erzeugen ein sehr hohes Volumen an Logs, was übermäßigen Speicherplatz verbraucht und potenziell die Performance beeinträchtigt.
+    slug_de: uebermaessiges-logging
+  excessive-object-allocation:
+    title_de: Übermäßige Objektallokation
+    description_de: Code erzeugt eine große Anzahl temporärer Objekte, was den Garbage Collector belastet und die Performance verschlechtert.
+    slug_de: uebermaessige-objektallokation
+  extended-cycle-times:
+    title_de: Verlängerte Durchlaufzeiten
+    description_de: Die Zeit vom Beginn der Arbeit bis zu ihrer Fertigstellung und Auslieferung wird deutlich länger als die tatsächlich benötigte Arbeitszeit.
+    slug_de: verlaengerte-durchlaufzeiten
+  extended-research-time:
+    title_de: Verlängerte Rechercheszeit
+    description_de: Entwickler verbringen einen erheblichen Teil ihres Tages mit Recherche statt mit Umsetzung, aufgrund von Wissenslücken oder komplexen Legacy-Systemen.
+    slug_de: verlaengerte-recherchezeit
+  extended-review-cycles:
+    title_de: Verlängerte Review-Zyklen
+    description_de: Code-Reviews erfordern mehrere Runden von Feedback und Überarbeitung, was die Zeit von der Code-Einreichung bis zur Freigabe erheblich verlängert.
+    slug_de: verlaengerte-review-zyklen
+  external-service-delays:
+    title_de: Verzögerungen durch externe Services
+    description_de: Eine API hängt von anderen Services (Drittanbieter oder intern) ab, die langsam antworten, was die API selbst langsam macht.
+    slug_de: verzoegerungen-durch-externe-services
+  false-sharing:
+    title_de: False Sharing
+    description_de: Mehrere CPU-Kerne greifen auf unterschiedliche Variablen zu, die sich auf derselben Cache-Line befinden, was unnötigen Cache-Kohärenz-Verkehr und Performance-Einbußen verursacht.
+    slug_de: false-sharing
+  fear-of-breaking-changes:
+    title_de: Angst vor Breaking Changes
+    description_de: Das Team scheut sich, Änderungen an der Codebasis vorzunehmen, aus Angst, bestehende Funktionalität zu brechen, was zu einem stagnierenden und veralteten System führen kann.
+    slug_de: angst-vor-breaking-changes
+  fear-of-change:
+    title_de: Angst vor Veränderung
+    description_de: Entwickler zögern, bestehenden Code zu ändern, aufgrund des hohen Risikos, etwas zu brechen.
+    slug_de: angst-vor-veraenderung
+  fear-of-conflict:
+    title_de: Angst vor Konflikt
+    description_de: Reviewer vermeiden es, komplexe Logik oder Designentscheidungen zu hinterfragen, und geben stattdessen einfacheres, weniger konfrontatives Feedback.
+    slug_de: angst-vor-konflikt
+  fear-of-failure:
+    title_de: Angst vor Scheitern
+    description_de: Eine allgegenwärtige Angst, Fehler zu machen oder zu scheitern, kann zu Untätigkeit, Risikoscheu und mangelnder Innovationsbereitschaft im Entwicklungsteam führen.
+    slug_de: angst-vor-scheitern
+  feature-bloat:
+    title_de: Feature-Aufblähung
+    description_de: Produkte werden durch zahlreiche Funktionen übermäßig komplex, was das Kernwertversprechen verwässert und Nutzer verwirrt.
+    slug_de: feature-aufblaehung
+  feature-creep-without-refactoring:
+    title_de: Feature-Creep ohne Refactoring
+    description_de: Die kontinuierliche Ergänzung neuer Funktionen in einer Codebasis, ohne sich Zeit für Refactoring und Designverbesserung zu nehmen.
+    slug_de: feature-creep-ohne-refactoring
+  feature-creep:
+    title_de: Feature-Creep
+    description_de: Der Umfang eines Features oder einer Komponente wächst im Laufe der Zeit schrittweise, was zu einem komplexen und aufgeblähten System führt, das schwer zu warten ist.
+    slug_de: feature-creep
 
 solutions: {}
