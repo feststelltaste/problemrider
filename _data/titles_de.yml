@@ -3986,3 +3986,87 @@ solutions:
     title_de: Value Stream Mapping
     description_de: Abbildung jedes Schritts von der Anfrage bis zur Produktion mit Bearbeitungs- und Wartezeit, sodass die Wartezeit — die fast immer den Großteil ausmacht — sichtbar und angehbar wird.
     slug_de: value-stream-mapping
+  variant-consolidation:
+    title_de: Konsolidierung von Varianten
+    description_de: Regelmäßiges Zusammenführen der Varianten, die mehrere Kunden teilen, zurück in das Standardprodukt, und Abschalten derer, von denen nichts mehr abhängt.
+    slug_de: konsolidierung-von-varianten
+  vendor-management-practice:
+    title_de: Vendor-Management-Praxis
+    description_de: Behandlung jedes externen Lieferanten als verwaltetes Risiko mit einem benannten Verantwortlichen, nachverfolgten Verpflichtungen, getesteten Ausstiegsoptionen und einer Beziehung, die Meinungsverschiedenheiten übersteht.
+    slug_de: vendor-management-praxis
+  version-control:
+    title_de: Versionskontrolle für Kompatibilität
+    description_de: Nachverfolgung und Verwaltung kompatibilitätsrelevanter Änderungen über parallele Versionen hinweg.
+    slug_de: versionskontrolle-fuer-kompatibilitaet
+  versioning-scheme:
+    title_de: Versionierungsschema
+    description_de: Definition, wann und warum sich Versionsnummern ändern, um Kompatibilitätsabsicht zu signalisieren.
+    slug_de: versionierungsschema
+  vertical-scaling:
+    title_de: Vertikale Skalierung
+    description_de: Steigerung der Performance einzelner Komponenten.
+    slug_de: vertikale-skalierung
+  video-tutorials:
+    title_de: Video-Tutorials
+    description_de: Angebot von Video-Tutorials, die Features und Arbeitsabläufe visuell demonstrieren.
+    slug_de: video-tutorials
+  virtual-development-environments:
+    title_de: Virtuelle Entwicklungsumgebungen
+    description_de: Bereitstellung von Entwicklungsumgebungen in virtuellen Maschinen oder Containern.
+    slug_de: virtuelle-entwicklungsumgebungen
+  virtual-networks:
+    title_de: Virtuelle Netzwerke
+    description_de: Abstraktion von Netzwerkkonfigurationen durch virtuelle Netzwerke.
+    slug_de: virtuelle-netzwerke
+  virtualization:
+    title_de: Virtualisierung
+    description_de: Isolierung von Anwendungen mit eigener Betriebssysteminstanz, um Ressourcen- und Abhängigkeitskonflikte zu vermeiden.
+    slug_de: virtualisierung
+  virtualized-lists:
+    title_de: Virtualisierte Listen
+    description_de: Effiziente Darstellung großer Datenlisten durch virtuelle Scroll-Bereiche.
+    slug_de: virtualisierte-listen
+  visual-hierarchy:
+    title_de: Visuelle Hierarchie
+    description_de: Hervorhebung wichtiger Elemente in der Nutzeroberfläche und Schaffung einer klaren visuellen Struktur.
+    slug_de: visuelle-hierarchie
+  vulnerability-scans:
+    title_de: Schwachstellenscans
+    description_de: Regelmäßige Überprüfung von Systemen und Anwendungen auf bekannte Schwachstellen.
+    slug_de: schwachstellenscans
+  walking-skeleton:
+    title_de: Walking Skeleton
+    description_de: Entwicklung eines minimalen, lauffähigen Systems mit den zentralen Architekturideen.
+    slug_de: walking-skeleton
+  watchdog:
+    title_de: Watchdog
+    description_de: Überwachungskomponente zur Erkennung und Behandlung von Systemfehlern oder Ausfällen.
+    slug_de: watchdog
+  web-application-firewall:
+    title_de: Web Application Firewall
+    description_de: Filterung von HTTP-Traffic auf Anwendungsebene gegen Web-Angriffe.
+    slug_de: web-application-firewall
+  wireframing:
+    title_de: Wireframing
+    description_de: Erstellung vorläufiger visueller Darstellungen als Diskussionsgrundlage.
+    slug_de: wireframing
+  work-in-progress-limits:
+    title_de: Work-in-Progress-Limits
+    description_de: Begrenzung, wie viele Elemente das Team begonnen, aber nicht abgeschlossen haben darf, sodass Arbeit fertiggestellt statt angehäuft wird.
+    slug_de: work-in-progress-limits
+  workaround-registry:
+    title_de: Workaround-Register
+    description_de: Erfassung jedes Workarounds in dem Moment, in dem er eingeführt wird — was er verbirgt, was er kostet und was ihn überflüssig machen würde — sodass temporäre Fixes nicht unbemerkt dauerhaft werden.
+    slug_de: workaround-register
+  write-ahead-logging:
+    title_de: Write-Ahead Logging
+    description_de: Aufzeichnung von Änderungen in einem dauerhaften Append-Only-Log, bevor sie angewendet werden.
+    slug_de: write-ahead-logging
+  written-first-communication:
+    title_de: Schriftlich-zuerst-Kommunikation
+    description_de: Standardmäßige Nutzung dauerhafter schriftlicher Kommunikation für Entscheidungen, Kontext und Vorschläge, sodass Wissen das Gespräch überdauert und Menschen erreicht, die nicht daran teilgenommen haben.
+    slug_de: schriftlich-zuerst-kommunikation
+  zero-trust-architecture:
+    title_de: Zero Trust Architecture
+    description_de: "„Niemals vertrauen, immer verifizieren“ — Überprüfung jeder Anfrage unabhängig vom Netzwerkstandort."
+    slug_de: zero-trust-architecture
