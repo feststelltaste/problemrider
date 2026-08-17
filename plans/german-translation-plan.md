@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 abgeschlossen (komplette Chrome/UI-Übersetzung + alle 5 Übersichtsseiten unter `/de/`) — 0 / 1013 Katalog-Dateien übersetzt (Phase 2/3 stehen noch aus)**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — 0 / 1013 Katalog-Dateien inhaltlich übersetzt (Phase 3 steht noch aus, ist der mit Abstand größte Teil)**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -107,14 +107,13 @@ Nicht build-getestet (kein `bundle exec jekyll build` ausgeführt, siehe Projekt
 
 `_data/i18n.yml` ist im Zuge dessen auf 149 EN/DE-Schlüsselpaare gewachsen (Parität nach jeder Ergänzung geprüft). Alle neuen/geänderten Dateien wurden von Hand auf Liquid-Tag-Balance, Front-Matter-Validität (`ruby -ryaml`) und (für die beiden JS-Dateien) Syntaxfehler (`node -c`) geprüft, aber nicht gegen einen echten `bundle exec jekyll build` getestet (Projektregel, s. Phase 0) — steht spätestens in Phase 4 an.
 
-**Ergebnis:** Die komplette Chrome/UI-Schicht ist zweisprachig. `/de/`, `/de/problems/`, `/de/solutions/`, `/de/categories/`, `/de/landscape/` sind erreichbar, vollständig navigierbar und zeigen leere Listen (weil `_problems_de`/`_solutions_de` noch keinen Inhalt haben — das ist Phase 2/3).
+**Ergebnis:** Die komplette Chrome/UI-Schicht ist zweisprachig. `/de/`, `/de/problems/`, `/de/solutions/`, `/de/categories/`, `/de/landscape/` sind erreichbar, vollständig navigierbar und zeigen leere Listen (weil `_problems_de`/`_solutions_de` noch keinen Inhalt haben — das ist Phase 3).
 
-Ergebnis bisher: `/de/`, `/de/problems/`, `/de/solutions/`, `/de/categories/`, `/de/landscape/` sind alle angelegt und vollständig navigierbar (Chrome komplett übersetzt), zeigen aber leere Listen, weil `_problems_de`/`_solutions_de` noch keinen Inhalt haben (Phase 2/3).
-
-### Phase 2 — Titel-Übersetzungstabelle (Grundlage für Phase 3)
-- [ ] Für alle 1013 Slugs den deutschen Titel (normale deutsche Groß-/Kleinschreibung, keine NYT-Regel) + deutsche Kurzbeschreibung **und einen daraus abgeleiteten deutschen Slug** vorab erzeugen (z. B. per Skript/Agenten-Batch, Ergebnis in einer Zwischentabelle, etwa `scripts/i18n/titles_de.csv` oder `_data/titles_de.yml`, Spalten: `slug` (EN, Join-Key), `collection`, `title_de`, `description_de`, `slug_de` (neuer Dateiname, lowercase/Bindestriche))
-- [ ] `slug_de`-Werte auf Eindeutigkeit prüfen; bei Kollision (zwei EN-Slugs übersetzen auf denselben deutschen Slug) einen unterscheidenden Zusatz an den Slug anhängen (Default-Konvention, kein separater Klärungsbedarf)
-- [ ] Diese Tabelle ist die einzige Quelle für Linktexte **und Ziel-Dateinamen** in Phase 3 — verhindert, dass zwei Dateien denselben Zielslug unterschiedlich übersetzen oder unterschiedliche Dateinamen für dasselbe Original vergeben
+### Phase 2 — Titel-Übersetzungstabelle (Grundlage für Phase 3) — ✅ abgeschlossen
+- [x] `_data/titles_de.yml` angelegt: für alle 1013 Slugs (452 Probleme, 561 Lösungen) deutscher Titel (normale deutsche Groß-/Kleinschreibung, keine NYT-Regel), deutsche Kurzbeschreibung und ein daraus abgeleiteter deutscher Slug (`slug_de`, lowercase/Bindestriche, Umlaute transliteriert ä→ae/ö→oe/ü→ue/ß→ss), verteilt über ~17 Batches (je ~60 Einträge, alphabetisch nach EN-Slug), nach jedem Batch committet
+- [x] `slug_de`- und `title_de`-Werte auf Eindeutigkeit geprüft (je einmal am Ende über die komplette Tabelle, zusätzlich nach jedem Batch); mehrere im Katalog bereits vorhandene Bedeutungsüberschneidungen im Englischen (z. B. `difficult-code-comprehension` vs. `difficult-to-understand-code`, `feature-flags` vs. `feature-toggles`, `ci-cd-pipeline` vs. `continuous-delivery`, `code-review-process-reform` vs. `code-reviews`, `static-analysis-and-linting` vs. `static-code-analysis`) mit eigens unterscheidenden deutschen Titeln aufgelöst, ohne die englischen Originale anzufassen
+- [x] Vollständigkeit verifiziert: jeder EN-Slug aus `_problems/`/`_solutions/` hat genau einen Eintrag, keine überzähligen Keys
+- [x] Diese Tabelle ist jetzt die einzige Quelle für Linktexte **und Ziel-Dateinamen** in Phase 3
 
 ### Phase 3 — Inhalte übersetzen (der große Teil)
 Batch-weise, z. B. 25–50 Dateien pro Durchgang, mit Fortschrittstabelle unten. Pro Datei:
