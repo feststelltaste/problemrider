@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Planungsphase — 0 / 1013 Katalog-Dateien übersetzt**
+Status: **Phase 0 abgeschlossen — 0 / 1013 Katalog-Dateien übersetzt**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -88,13 +88,15 @@ Gesamt ca. **1013 Katalog-Dateien** plus ca. 14 Chrome-Dateien.
 
 ## Phasen
 
-### Phase 0 — Vorbereitung (Voraussetzung für alles Weitere)
-- [ ] Verbleibende Entscheidungen 2–5 oben bestätigen (1 und 6-Grundlage — URL-Präfix, deutsche Slugs — sind bereits entschieden)
-- [ ] `_config.yml`: Collections `problems_de`/`solutions_de`, Defaults, `lang`-Feld
-- [ ] Abschnitts-Erkennung auf Glyphen umstellen (Entscheidung 2), inkl. Regressionslauf von `check_links.py` und `validate_causal_links.py --detail` auf dem bestehenden englischen Bestand
-- [ ] `_layouts/problem.html`/`solution.html`: sprachabhängige Auflösung der `related_problems`/`related_solutions`/`solutions`/`problems`-Listen umbauen (Join-Key `slug` vs. `en_slug`, s. Entscheidung 5)
-- [ ] `_data/categories_de.yml` und `_data/i18n.yml` (oder `en.yml`/`de.yml`) anlegen
-- [ ] Sprachumschalter in `header.html` bauen, Auflösung über `en_slug` (s. Entscheidung 6), zunächst auf Dummy-Zielen testbar
+### Phase 0 — Vorbereitung (Voraussetzung für alles Weitere) — ✅ abgeschlossen
+- [x] Entscheidungen 1–6 umgesetzt, keine Einwände aufgekommen
+- [x] `_config.yml`: Collections `problems_de`/`solutions_de` (Permalinks unter `/de/`), Defaults, `lang`-Feld (`en`/`de`), `site.lang: en`; leere `_problems_de`/`_solutions_de`-Verzeichnisse mit `.gitkeep` angelegt
+- [x] Abschnitts-Erkennung auf Glyphen umgestellt (Entscheidung 2): `scripts/validate_causal_links.py` (`SYMPTOMS_GLYPH`/`CAUSES_GLYPH`) und das Show-more-Script in `_layouts/problem.html` matchen jetzt auf `▲`/`▼` statt auf den englischen Wortlaut; dabei auch den Bestandsbug behoben, dass die JS-Prüfung nach `'Root Causes ▼'` statt `'Causes ▼'` suchte und die Causes-Sektion nie traf. Regressionslauf von `validate_causal_links.py` vor/nach der Änderung ergab identische Zahlen (452 Probleme, 3447 Claims)
+- [x] `_layouts/problem.html`/`solution.html`: sprachabhängige Auflösung der `related_problems`/`related_solutions`/`solutions`/`problems`-Listen umgebaut (Join-Key `slug` auf EN-Seiten, `en_slug` auf DE-Seiten, s. Entscheidung 5); der EN-Zweig ist Zeile für Zeile identisch zum bisherigen Code, also kein Verhaltensunterschied für die heutige englische Seite
+- [x] `_data/categories_de.yml` (15 Kategorie-Labels, Keys gegen den tatsächlichen Bestand verifiziert) und `_data/i18n.yml` (109 EN/DE-Schlüssel für Chrome-Strings, Parität geprüft) angelegt — noch nicht in Layouts/Seiten verdrahtet, das ist Phase 1
+- [x] Sprachumschalter in `header.html` gebaut: Collection-Seiten lösen über `en_slug` auf, Übersichtsseiten über Swap des `/de/`-Präfixes plus Existenzprüfung in `site.pages`; ohne Gegenstück bleibt der Link ausgeblendet (aktuell also überall, bis Phase 1/3 Inhalte liefern)
+
+Nicht build-getestet (kein `bundle exec jekyll build` ausgeführt, siehe Projektregel zu Builds während der Iteration in `CLAUDE.md`) — Layout-Änderungen wurden von Hand geprüft; der englische Pfad ist unverändert, ein voller Build-Test ist ohnehin Teil von Phase 4.
 
 ### Phase 1 — Chrome/UI übersetzen
 - [ ] `_layouts/default.html`, `_layouts/problem.html`, `_layouts/solution.html`
