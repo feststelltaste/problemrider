@@ -1696,5 +1696,133 @@ problems:
     title_de: Werkzeugeinschränkungen
     description_de: Unzureichende Entwicklungswerkzeuge verlangsamen gängige Aufgaben und verringern Entwicklerproduktivität und -zufriedenheit.
     slug_de: werkzeugeinschraenkungen
+  unbounded-data-growth:
+    title_de: Unbegrenztes Datenwachstum
+    description_de: Datenstrukturen, Caches oder Datenbanken wachsen unbegrenzt ohne angemessene Bereinigung, Größenlimits oder Archivierungsstrategien.
+    slug_de: unbegrenztes-datenwachstum
+  unbounded-data-structures:
+    title_de: Unbegrenzte Datenstrukturen
+    description_de: Datenstrukturen, die ohne angemessene Bereinigung oder Größenlimits unbegrenzt wachsen, was zu Speichererschöpfung und Performance-Verschlechterung führt.
+    slug_de: unbegrenzte-datenstrukturen
+  unclear-documentation-ownership:
+    title_de: Unklare Verantwortlichkeit für Dokumentation
+    description_de: Fehlende klare Verantwortlichkeit für die Pflege von Dokumentation führt zu veralteten, inkonsistenten oder fehlenden Informationen.
+    slug_de: unklare-verantwortlichkeit-fuer-dokumentation
+  unclear-goals-and-priorities:
+    title_de: Unklare Ziele und Prioritäten
+    description_de: Ständig wechselnde Prioritäten und fehlende klare Richtung führen zu einem Gefühl der Sinnlosigkeit bei Teammitgliedern.
+    slug_de: unklare-ziele-und-prioritaeten
+  unclear-sharing-expectations:
+    title_de: Unklare Erwartungen beim Teilen von Informationen
+    description_de: Eine Situation, in der unklar ist, welche Informationen mit dem Rest des Teams geteilt werden sollten.
+    slug_de: unklare-erwartungen-beim-teilen-von-informationen
+  uncontrolled-codebase-growth:
+    title_de: Unkontrolliertes Wachstum der Codebasis
+    description_de: Eine Situation, in der eine Codebasis ohne jegliche Kontrolle oder Planung an Größe und Komplexität wächst.
+    slug_de: unkontrolliertes-wachstum-der-codebasis
+  undefined-code-style-guidelines:
+    title_de: Undefinierte Code-Stil-Richtlinien
+    description_de: Dem Team fehlen klare, vereinbarte Coding-Standards, was zu subjektivem Stil-Feedback und inkonsistentem Code führt.
+    slug_de: undefinierte-code-stil-richtlinien
+  uneven-work-flow:
+    title_de: Ungleichmäßiger Arbeitsfluss
+    description_de: Arbeit schreitet in unregelmäßigen Schüben voran, statt reibungslos durch den Entwicklungsprozess zu fließen.
+    slug_de: ungleichmaessiger-arbeitsfluss
+  uneven-workload-distribution:
+    title_de: Ungleichmäßige Arbeitslastverteilung
+    description_de: Arbeit wird nicht fair oder effektiv unter Teammitgliedern verteilt, was dazu führt, dass manche überlastet sind, während andere unterausgelastet bleiben.
+    slug_de: ungleichmaessige-arbeitslastverteilung
+  unmotivated-employees:
+    title_de: Unmotivierte Mitarbeiter
+    description_de: Teammitgliedern fehlt Engagement und Begeisterung, sie tragen nur minimal zum Projekterfolg bei und beeinträchtigen die Teammoral.
+    slug_de: unmotivierte-mitarbeiter
+  unoptimized-file-access:
+    title_de: Unoptimierter Dateizugriff
+    description_de: Anwendungen lesen oder schreiben Dateien ineffizient, was zu übermäßiger Festplatten-I/O und langsamer Performance führt.
+    slug_de: unoptimierter-dateizugriff
+  unpredictable-system-behavior:
+    title_de: Unvorhersehbares Systemverhalten
+    description_de: Änderungen in einem Teil des Systems haben aufgrund versteckter Abhängigkeiten unerwartete Nebeneffekte in scheinbar unabhängigen Bereichen.
+    slug_de: unvorhersehbares-systemverhalten
+  unproductive-meetings:
+    title_de: Unproduktive Meetings
+    description_de: Meetings, die erheblich Zeit verbrauchen, aber wenig Fortschritt oder konkrete Entscheidungen liefern.
+    slug_de: unproduktive-meetings
+  unrealistic-deadlines:
+    title_de: Unrealistische Termine
+    description_de: Das Management setzt aggressive Termine, die den tatsächlich benötigten Aufwand nicht berücksichtigen, was Qualitätseinbußen und nicht nachhaltige Arbeitspraktiken zur Folge hat.
+    slug_de: unrealistische-termine
+  unrealistic-schedule:
+    title_de: Unrealistischer Zeitplan
+    description_de: Projektzeitpläne basieren auf optimistischen Annahmen statt auf realistischen Schätzungen, was zu Stress und Abkürzungen führt.
+    slug_de: unrealistischer-zeitplan
+  unreleased-resources:
+    title_de: Nicht freigegebene Ressourcen
+    description_de: Objekte, Verbindungen, Datei-Handles oder andere Systemressourcen werden zugewiesen, aber nie ordentlich freigegeben oder geschlossen.
+    slug_de: nicht-freigegebene-ressourcen
+  unused-indexes:
+    title_de: Ungenutzte Indizes
+    description_de: Die Datenbank hat Indizes, die von keiner Abfrage jemals genutzt werden, aber trotzdem Speicherplatz verbrauchen und Overhead bei Schreiboperationen hinzufügen.
+    slug_de: ungenutzte-indizes
+  upgrade-blocked-by-customization:
+    title_de: Upgrade durch Anpassungen blockiert
+    description_de: Hersteller-Releases können nicht angewendet werden, weil die angehäufte lokale Anpassung jedes Mal abgeglichen und neu validiert werden müsste.
+    slug_de: upgrade-durch-anpassungen-blockiert
+  upstream-timeouts:
+    title_de: Upstream-Timeouts
+    description_de: Services, die eine API nutzen, scheitern, weil sie innerhalb ihres konfigurierten Timeout-Fensters keine Antwort erhalten.
+    slug_de: upstream-timeouts
+  user-confusion:
+    title_de: Nutzerverwirrung
+    description_de: Endnutzer erleben unterschiedliches Verhalten bei eigentlich identischen Operationen, was zu Frustration und Vertrauensverlust in das System führt.
+    slug_de: nutzerverwirrung
+  user-frustration:
+    title_de: Nutzerfrustration
+    description_de: Nutzer werden unzufrieden mit Zuverlässigkeit, Nutzbarkeit oder Performance des Systems, was zu geringerer Akzeptanz und negativem Feedback führt.
+    slug_de: nutzerfrustration
+  user-trust-erosion:
+    title_de: Erosion des Nutzervertrauens
+    description_de: Häufige Probleme und Notfall-Fixes beschädigen das Vertrauen der Nutzer in die Zuverlässigkeit des Systems, was zu geringerem Nutzerengagement und geringerer Zufriedenheit führt.
+    slug_de: erosion-des-nutzervertrauens
+  vendor-dependency-entrapment:
+    title_de: Gefangenschaft durch Anbieterabhängigkeit
+    description_de: Legacy-Systeme geraten in die Falle eingestellter Anbieterprodukte, was teure individuelle Support-Verträge oder einen kompletten Systemersatz erzwingt.
+    slug_de: gefangenschaft-durch-anbieterabhaengigkeit
+  vendor-dependency:
+    title_de: Anbieterabhängigkeit
+    description_de: Übermäßige Abhängigkeit von externen Anbietern oder Zulieferern schafft Risiken, wenn diese nicht mehr verfügbar sind, Konditionen ändern oder Erwartungen nicht erfüllen.
+    slug_de: anbieterabhaengigkeit
+  vendor-lock-in:
+    title_de: Vendor Lock-in
+    description_de: Das System ist übermäßig von den Werkzeugen oder APIs eines bestimmten Anbieters abhängig, was zukünftige Optionen einschränkt.
+    slug_de: vendor-lock-in
+  vendor-relationship-strain:
+    title_de: Belastete Anbieterbeziehung
+    description_de: Spannungen und Konflikte entstehen zwischen der Organisation und externen Anbietern aufgrund fehlausgerichteter Erwartungen, schlechter Kommunikation oder Vertragsproblemen.
+    slug_de: belastete-anbieterbeziehung
+  virtual-memory-thrashing:
+    title_de: Virtual-Memory-Thrashing
+    description_de: Das System tauscht ständig Seiten zwischen physischem Speicher und Festplatte aus, was aufgrund übermäßiger Paging-Aktivität zu schwerer Performance-Verschlechterung führt.
+    slug_de: virtual-memory-thrashing
+  voided-vendor-support:
+    title_de: Erloschener Anbieter-Support
+    description_de: Der Anbieter weigert sich, Probleme zu diagnostizieren, weil die Installation verändert wurde, sodass die Organisation für Support bezahlt, den sie nicht mehr nutzen kann.
+    slug_de: erloschener-anbieter-support
+  wasted-development-effort:
+    title_de: Verschwendeter Entwicklungsaufwand
+    description_de: Erhebliche Entwicklungsarbeit wird aufgrund schlechter Planung, sich ändernder Anforderungen oder ineffizienter Prozesse aufgegeben, überarbeitet oder obsolet.
+    slug_de: verschwendeter-entwicklungsaufwand
+  work-blocking:
+    title_de: Arbeitsblockade
+    description_de: Entwicklungsaufgaben können ohne ausstehende Genehmigungen nicht fortgesetzt werden, was Engpässe und Verzögerungen im Entwicklungsprozess erzeugt.
+    slug_de: arbeitsblockade
+  work-queue-buildup:
+    title_de: Aufstauung von Arbeitswarteschlangen
+    description_de: Aufgaben häufen sich in Warteschlangen an, die auf Engpassressourcen oder -prozesse warten, was Verzögerungen erzeugt und den Gesamtsystemdurchsatz verringert.
+    slug_de: aufstauung-von-arbeitswarteschlangen
+  workaround-culture:
+    title_de: Workaround-Kultur
+    description_de: Teams implementieren zunehmend komplexe Workarounds, statt Grundprobleme zu beheben, was Schichten technischer Schulden schafft.
+    slug_de: workaround-kultur
 
 solutions: {}
