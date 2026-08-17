@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — 0 / 1013 Katalog-Dateien inhaltlich übersetzt (Phase 3 steht noch aus, ist der mit Abstand größte Teil)**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 37 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–5), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -144,6 +144,11 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 
 | Batch | Umfang | Status |
 |---|---|---|
-| — | noch nicht gestartet | — |
+| 1 | Probleme: abi-compatibility-issues, accumulated-decision-debt, accumulation-of-workarounds, algorithmic-complexity-problems, alignment-and-padding-issues (5 Dateien) | ✅ |
+| 2 | Probleme: analysis-paralysis, api-versioning-conflicts, approval-dependencies, architectural-mismatch, assumption-based-development, atomic-operation-overhead, authentication-bypass-vulnerabilities, author-frustration (8 Dateien) | ✅ |
+| 3 | Probleme: authorization-flaws, authorization-role-explosion, automated-tooling-ineffectiveness, avoidance-behaviors, bikeshedding, blame-culture, bloated-class, bottleneck-formation (8 Dateien) | ✅ |
+| 4 | Probleme: breaking-changes, brittle-codebase, budget-overruns, buffer-overflow-vulnerabilities, cache-invalidation-problems, capacity-mismatch, cargo-culting, cascade-delays (8 Dateien) | ✅ |
+| 5 | Probleme: cascade-failures, change-management-chaos, changing-project-scope, circular-dependency-problems, circular-references, clever-code, code-duplication, code-review-inefficiency (8 Dateien) | ✅ |
+| 6+ | Restliche Probleme (alphabetisch ab „code-“) + alle 561 Lösungen | offen |
 
-*(Tabelle wird um Zeilen mit Slug-Bereichen/Dateilisten und Datum ergänzt, sobald Phase 3 beginnt.)*
+Stand: 37 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
