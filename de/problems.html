@@ -1,0 +1,129 @@
+---
+layout: default
+title: Alle Probleme
+permalink: /de/problems/
+lang: de
+---
+
+{% assign t = site.data.i18n["de"] %}
+<div class="problems-page">
+  <h1>{{ t['problems_page.title'] }}</h1>
+
+  <p class="page-description">
+    {{ t['problems_page.description'] | replace: '%{count}', site.problems_de.size }}
+  </p>
+
+  <div class="search-filter">
+    <input type="text" id="problem-search" placeholder="{{ t['problems_page.search_placeholder'] }}" />
+    <select id="category-filter">
+      <option value="">{{ t['problems_page.all_categories'] }}</option>
+      {% assign all_categories = site.problems_de | map: 'category' | join: ',' | split: ',' | uniq | sort %}
+      {% for category in all_categories %}
+        {% if category != "" %}
+          {% assign category_label = site.data.categories_de[category] | default: category %}
+          <option value="{{ category }}">{{ category_label }}</option>
+        {% endif %}
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="problems-list" id="problems-list">
+    {% assign sorted_problems = site.problems_de | sort: 'title' %}
+    {% for problem in sorted_problems %}
+      <article class="problem-item" data-categories="{{ problem.category | join: ',' | downcase }}" data-title="{{ problem.title | downcase }}" data-description="{{ problem.description | downcase }}">
+        <header class="problem-header">
+          {% if problem.symptoms and problem.symptoms.size > 0 %}
+            <div class="problem-symptoms">
+              <small class="symptoms-label">{{ t['problems_page.symptoms_label'] }}</small>
+              {% for symptom in problem.symptoms limit: 5 %}
+                {% assign symptom_slug = symptom | downcase | replace: ' ', '-' | replace: ',', '' | replace: '(', '' | replace: ')', '' | replace: "'", '' | replace: '"', '' %}
+                {% assign symptom_page = site.problems_de | where: "slug", symptom_slug | first %}
+                {% if symptom_page %}
+                  <small class="symptom-tag"><a href="{{ symptom_page.url | relative_url }}">{{ symptom }}</a></small>{% unless forloop.last %},{% endunless %}
+                {% else %}
+                  <small class="symptom-tag">{{ symptom }}</small>{% unless forloop.last %},{% endunless %}
+                {% endif %}
+              {% endfor %}
+              {% if problem.symptoms.size > 5 %}
+                {% assign symptoms_remaining = problem.symptoms.size | minus: 5 %}
+                <small class="more-indicator">{{ t['problems_page.more_indicator'] | replace: '%{count}', symptoms_remaining }}</small>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          <h2><a href="{{ problem.url | relative_url }}">{{ problem.title }}</a></h2>
+
+          {% if problem.root_causes and problem.root_causes.size > 0 %}
+            <div class="problem-root-causes">
+              <small class="root-causes-label">{{ t['problems_page.leads_to_label'] }}</small>
+              {% for root_cause in problem.root_causes limit: 5 %}
+                {% assign root_cause_slug = root_cause | downcase | replace: ' ', '-' | replace: ',', '' | replace: '(', '' | replace: ')', '' | replace: "'", '' | replace: '"', '' %}
+                {% assign root_cause_page = site.problems_de | where: "slug", root_cause_slug | first %}
+                {% if root_cause_page %}
+                  <small class="root-cause-tag"><a href="{{ root_cause_page.url | relative_url }}">{{ root_cause }}</a></small>{% unless forloop.last %},{% endunless %}
+                {% else %}
+                  <small class="root-cause-tag">{{ root_cause }}</small>{% unless forloop.last %},{% endunless %}
+                {% endif %}
+              {% endfor %}
+              {% if problem.root_causes.size > 5 %}
+                {% assign root_causes_remaining = problem.root_causes.size | minus: 5 %}
+                <small class="more-indicator">{{ t['problems_page.more_indicator'] | replace: '%{count}', root_causes_remaining }}</small>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          {% if problem.description %}
+            <p class="problem-description">{{ problem.description }}</p>
+          {% endif %}
+        </header>
+
+        {% if problem.category %}
+          <div class="problem-meta">
+            <div class="problem-categories">
+              {% for category in problem.category %}
+                {% assign category_label = site.data.categories_de[category] | default: category %}
+                <a href="{{ '/de/categories/' | relative_url }}#{{ category }}" class="category-tag" data-category="{{ category }}">{{ category_label }}</a>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('problem-search');
+  const categoryFilter = document.getElementById('category-filter');
+  const problemsList = document.getElementById('problems-list');
+  const problemItems = problemsList.querySelectorAll('.problem-item');
+
+  function filterProblems() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const selectedCategory = categoryFilter.value.toLowerCase();
+
+    problemItems.forEach(item => {
+      const title = item.dataset.title;
+      const description = item.dataset.description;
+      const categories = item.dataset.categories;
+
+      const matchesSearch = !searchTerm ||
+        title.includes(searchTerm) ||
+        description.includes(searchTerm);
+
+      const matchesCategory = !selectedCategory ||
+        categories.includes(selectedCategory);
+
+      if (matchesSearch && matchesCategory) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+
+  searchInput.addEventListener('input', filterProblems);
+  categoryFilter.addEventListener('change', filterProblems);
+});
+</script>
