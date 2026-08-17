@@ -1825,4 +1825,244 @@ problems:
     description_de: Teams implementieren zunehmend komplexe Workarounds, statt Grundprobleme zu beheben, was Schichten technischer Schulden schafft.
     slug_de: workaround-kultur
 
-solutions: {}
+solutions:
+  a-b-testing:
+    title_de: A/B-Testing
+    description_de: Vergleich verschiedener Versionen, um das Nutzererlebnis zu optimieren.
+    slug_de: a-b-testing
+  abstracted-file-system-access:
+    title_de: Abstrahierter Dateisystemzugriff
+    description_de: Umsetzung von Dateisystemoperationen über eine Abstraktionsschicht.
+    slug_de: abstrahierter-dateisystemzugriff
+  abstraction-layers:
+    title_de: Abstraktionsschichten
+    description_de: Kapselung hardwarespezifischer Details durch Abstraktionsschichten.
+    slug_de: abstraktionsschichten
+  abstraction:
+    title_de: Abstraktion
+    description_de: Entkopplung von Komponenten durch Verträge, sodass Implementierungen unabhängig voneinander variieren können.
+    slug_de: abstraktion
+  abuse-case-definition:
+    title_de: Definition von Missbrauchsfällen
+    description_de: Beschreibung unerwünschter Nutzungsfälle aus der Perspektive von Angreifern.
+    slug_de: definition-von-missbrauchsfaellen
+  acceptance-tests:
+    title_de: Abnahmetests
+    description_de: Verifikation der Erfüllung von Geschäftsanforderungen durch automatisierte Tests.
+    slug_de: abnahmetests
+  accessibility-concept:
+    title_de: Barrierefreiheitskonzept
+    description_de: Gestaltung von Software, um sie für Menschen mit Behinderungen zugänglich und nutzbar zu machen.
+    slug_de: barrierefreiheitskonzept
+  adapter:
+    title_de: Adapter
+    description_de: Übersetzung zwischen inkompatiblen Schnittstellen durch eine vermittelnde Schicht.
+    slug_de: adapter
+  adaptive-behavior:
+    title_de: Adaptives Verhalten
+    description_de: Anpassung des Systemverhaltens basierend auf Kontext, Präferenzen oder Verhalten des Nutzers.
+    slug_de: adaptives-verhalten
+  anti-corruption-layer:
+    title_de: Anti-Corruption Layer
+    description_de: Schutz bestehender Systeme vor negativen Einflüssen externer Systeme.
+    slug_de: anti-corruption-layer
+  api-calls-optimization:
+    title_de: Optimierung von API-Aufrufen
+    description_de: Effiziente Gestaltung von API-Aufrufen.
+    slug_de: optimierung-von-api-aufrufen
+  api-deprecation-policy:
+    title_de: API-Deprecation-Richtlinie
+    description_de: Außerbetriebnahme alter Schnittstellen mit Sunset-Headern, Zeitplänen und Migrationsanleitungen.
+    slug_de: api-deprecation-richtlinie
+  api-documentation:
+    title_de: API-Dokumentation
+    description_de: Detaillierte Beschreibung von Schnittstellen und ihrer Nutzung.
+    slug_de: api-dokumentation
+  api-first-design:
+    title_de: API-First-Design
+    description_de: Definition und Gestaltung von Schnittstellen vor der Implementierung der Anwendungslogik.
+    slug_de: api-first-design
+  api-first-development:
+    title_de: API-First-Entwicklung
+    description_de: Entwicklung von Anwendungen mit klar definierten APIs als Grundlage.
+    slug_de: api-first-entwicklung
+  api-gateway:
+    title_de: API-Gateway
+    description_de: Zentralisierung von Protokollübersetzung, Versionierung und Routing über einen einzigen Einstiegspunkt.
+    slug_de: api-gateway
+  api-security:
+    title_de: API-Sicherheit
+    description_de: Absicherung von APIs durch Rate Limiting, Schema-Validierung, Gateways und tokenbasierte Authentifizierung.
+    slug_de: api-sicherheit
+  api-versioning-strategy:
+    title_de: API-Versionierungsstrategie
+    description_de: Wahl eines konkreten Mechanismus zur Identifikation und Weiterleitung zwischen API-Versionen.
+    slug_de: api-versionierungsstrategie
+  application-portfolio-inventory:
+    title_de: Anwendungsportfolio-Inventar
+    description_de: Pflege eines einzigen Verzeichnisses darüber, welche Systeme existieren, was sie tun, wer sie besitzt, wovon sie abhängen und in welchem Zustand sie sind.
+    slug_de: anwendungsportfolio-inventar
+  approximation-methods:
+    title_de: Approximationsmethoden
+    description_de: Nutzung von Heuristiken und Schätzungen statt exakter Berechnungen.
+    slug_de: approximationsmethoden
+  architecture-conformity-analysis:
+    title_de: Analyse der Architekturkonformität
+    description_de: Prüfung der Übereinstimmung der Softwarearchitektur mit definierten Architekturprinzipien.
+    slug_de: analyse-der-architekturkonformitaet
+  architecture-decision-records:
+    title_de: Architecture Decision Records (ADR)
+    description_de: Dokumentation wichtiger architektonischer Entscheidungen und ihrer Begründungen.
+    slug_de: architecture-decision-records
+  architecture-documentation:
+    title_de: Architekturdokumentation
+    description_de: Erstellung und Pflege detaillierter Dokumentation der Softwarearchitektur.
+    slug_de: architekturdokumentation
+  architecture-governance:
+    title_de: Architektur-Governance
+    description_de: Definition und Durchsetzung architektonischer Prinzipien und bewährter Praktiken.
+    slug_de: architektur-governance
+  architecture-review-board:
+    title_de: Architecture Review Board
+    description_de: Einrichtung eines Gremiums zur Überwachung und Steuerung der Architekturentwicklung.
+    slug_de: architecture-review-board
+  architecture-reviews:
+    title_de: Architektur-Reviews
+    description_de: Systematische und regelmäßige Überprüfung der Softwarearchitektur.
+    slug_de: architektur-reviews
+  architecture-roadmap:
+    title_de: Architektur-Roadmap
+    description_de: Langfristige Planung und Steuerung der Architekturentwicklung.
+    slug_de: architektur-roadmap
+  architecture-workshops:
+    title_de: Architektur-Workshops
+    description_de: Durchführung regelmäßiger Workshops zur Weiterentwicklung der Softwarearchitektur.
+    slug_de: architektur-workshops
+  aspect-oriented-programming-aop:
+    title_de: Aspektorientierte Programmierung (AOP)
+    description_de: Trennung von Querschnittsbelangen von der Kernfunktionalität.
+    slug_de: aspektorientierte-programmierung-aop
+  assistive-technology-support:
+    title_de: Unterstützung assistiver Technologien
+    description_de: Sicherstellung der Nutzbarkeit assistiver Technologien.
+    slug_de: unterstuetzung-assistiver-technologien
+  asynchronous-logging:
+    title_de: Asynchrones Logging
+    description_de: Entkopplung des Logging-Prozesses von der Hauptanwendung.
+    slug_de: asynchrones-logging
+  asynchronous-operations:
+    title_de: Asynchrone Operationen
+    description_de: Ausführung zeitintensiver Operationen im Hintergrund, ohne die UI zu blockieren.
+    slug_de: asynchrone-operationen
+  asynchronous-processing:
+    title_de: Asynchrone Verarbeitung
+    description_de: Entkopplung von Aufrufen und Ausführung durch Asynchronität.
+    slug_de: asynchrone-verarbeitung
+  attribute-usage-analysis:
+    title_de: Attributnutzungsanalyse
+    description_de: Messung, welche Attribute tatsächlich befüllt, abgefragt und variiert werden, sodass ein generisches Datenmodell durch Evidenz statt durch Vermutungen ersetzt werden kann.
+    slug_de: attributnutzungsanalyse
+  audit-trail-management:
+    title_de: Audit-Trail-Management
+    description_de: Pflege fälschungssicherer, unveränderlicher, kryptografisch verketteter Audit-Datensätze für rechtliche und Compliance-Zwecke.
+    slug_de: audit-trail-management
+  authentication:
+    title_de: Authentifizierung
+    description_de: Überprüfung der Identität von Nutzern und Systemen.
+    slug_de: authentifizierung
+  authorization-concept:
+    title_de: Autorisierungskonzept
+    description_de: Definition des Zugriffs auf kritische Daten und Funktionen.
+    slug_de: autorisierungskonzept
+  authorization:
+    title_de: Autorisierung
+    description_de: Steuerung des Zugriffs auf Ressourcen basierend auf Berechtigungen.
+    slug_de: autorisierung
+  auto-save:
+    title_de: Auto-Save
+    description_de: Automatisches Speichern der Nutzerarbeit in regelmäßigen Abständen gegen Datenverlust.
+    slug_de: auto-save
+  automated-code-migration:
+    title_de: Automatisierte Code-Migration
+    description_de: Ausdruck einer repetitiven Codeänderung als ausführbares Rezept, das den Syntaxbaum umschreibt, sodass eine Migration über Tausende von Aufrufstellen überprüfbar und wiederholbar wird.
+    slug_de: automatisierte-code-migration
+  automated-migration-tools:
+    title_de: Automatisierte Migrationswerkzeuge
+    description_de: Automatisierung der Migration von Daten, Konfiguration und Zustand beim Wechsel zwischen Umgebungen.
+    slug_de: automatisierte-migrationswerkzeuge
+  automated-tests:
+    title_de: Automatisierte Tests
+    description_de: Automatisierte Verifikation von Funktionalität auf verschiedenen Ebenen.
+    slug_de: automatisierte-tests
+  backpressure:
+    title_de: Backpressure
+    description_de: Signalisierung an Produzenten, langsamer zu werden, wenn Konsumenten überlastet werden.
+    slug_de: backpressure
+  backup-and-recovery:
+    title_de: Backup und Recovery
+    description_de: Sicherstellung regelmäßiger Datensicherung und Wiederherstellbarkeit.
+    slug_de: backup-und-recovery
+  backward-compatibility:
+    title_de: Abwärtskompatibilität
+    description_de: Gewährleistung, dass neue Versionen weiterhin mit bestehenden Clients, Daten und Integrationen funktionieren.
+    slug_de: abwaertskompatibilitaet
+  backward-compatible-apis:
+    title_de: Abwärtskompatible APIs
+    description_de: Weiterentwicklung von API-Verträgen, ohne bestehende Konsumenten zu brechen.
+    slug_de: abwaertskompatible-apis
+  backward-compatible-data-formats:
+    title_de: Abwärtskompatible Datenformate
+    description_de: Sicherstellung der Abwärtskompatibilität bei der Einführung neuer Datenformate.
+    slug_de: abwaertskompatible-datenformate
+  backward-compatible-schema-migrations:
+    title_de: Abwärtskompatible Schema-Migrationen
+    description_de: Berücksichtigung der Abwärtskompatibilität bei Datenbankschemata und Migrationen.
+    slug_de: abwaertskompatible-schema-migrationen
+  baseline-measurement:
+    title_de: Baseline-Messung
+    description_de: "Messung des aktuellen Zustands, bevor man ihn ändert, denn ein Nutzen ohne \"Vorher\" lässt sich hinterher nie nachweisen."
+    slug_de: baseline-messung
+  batch-processing:
+    title_de: Batch-Verarbeitung
+    description_de: Sammlung und gemeinsame Verarbeitung mehrerer Jobs.
+    slug_de: batch-verarbeitung
+  behavior-driven-development-bdd:
+    title_de: Behavior-Driven Development (BDD)
+    description_de: Entwicklung auf Basis erwarteten Systemverhaltens.
+    slug_de: behavior-driven-development-bdd
+  benefits-realization-tracking:
+    title_de: Nutzenrealisierungs-Tracking
+    description_de: Rückblick nach Abschluss der Arbeit, um zu berichten, ob der versprochene Nutzen tatsächlich eingetreten ist — auch wenn das nicht der Fall war.
+    slug_de: nutzenrealisierungs-tracking
+  blameless-postmortems:
+    title_de: Blameless Postmortems
+    description_de: Systematisches Lernen aus Vorfällen mit Fokus auf systemische Verbesserungen.
+    slug_de: blameless-postmortems
+  blue-green-canary-deployments:
+    title_de: Blue-Green-Deployment
+    description_de: Betrieb zweier paralleler Produktivumgebungen, um Ausfallzeiten zu minimieren.
+    slug_de: blue-green-deployment
+  boring-technologies:
+    title_de: Bewährte Technologien
+    description_de: Nutzung erprobter und ausgereifter Technologien.
+    slug_de: bewaehrte-technologien
+  bounded-contexts:
+    title_de: Bounded Contexts
+    description_de: Trennung von Geschäftsbereichen mit unterschiedlichen Begriffen und Regeln voneinander.
+    slug_de: bounded-contexts
+  bridges:
+    title_de: Bridges
+    description_de: Abstraktionshierarchien und Implementierungshierarchien unabhängig voneinander weiterentwickeln lassen.
+    slug_de: bridges
+  browser-compatibility:
+    title_de: Browser-Kompatibilität
+    description_de: Sicherstellung der Browser-Kompatibilität durch Nutzung von Webstandards und Progressive Enhancement.
+    slug_de: browser-kompatibilitaet
+  bubble-context:
+    title_de: Bubble Context
+    description_de: Klare Abgrenzung von Erweiterungen gegenüber bestehenden Code-Teilen.
+    slug_de: bubble-context
+  bulkhead:
+    title_de: Bulkhead
+    description_de: Aufteilung eines Systems in isolierte Bereiche, um Fehlerausbreitung zu begrenzen.
+    slug_de: bulkhead
