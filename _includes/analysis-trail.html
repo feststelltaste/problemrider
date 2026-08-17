@@ -1,76 +1,84 @@
+{% assign current_lang = page.lang | default: site.lang | default: "en" %}
+{% assign t = site.data.i18n[current_lang] %}
+{% assign catalog_problems = site.problems %}
+{% assign catalog_solutions = site.solutions %}
+{% if current_lang == "de" %}
+  {% assign catalog_problems = site.problems_de %}
+  {% assign catalog_solutions = site.solutions_de %}
+{% endif %}
 <aside class="analysis-trail" aria-labelledby="analysis-trail-title" data-analysis-trail>
-  <div class="analysis-trail__resizer" data-analysis-trail-resizer title="Drag to resize columns" aria-label="Resize columns"><span class="analysis-trail__resizer-handle"></span></div>
+  <div class="analysis-trail__resizer" data-analysis-trail-resizer title="{{ t['analysis_trail.resize_columns'] }}" aria-label="{{ t['analysis_trail.resize_columns'] }}"><span class="analysis-trail__resizer-handle"></span></div>
   <div class="analysis-trail__header">
     <div>
-      <h2 id="analysis-trail-title">Analysis Workbench</h2>
-      <p id="analysis-trail-summary" class="analysis-trail__summary">Open a problem or solution to start.</p>
+      <h2 id="analysis-trail-title">{{ t['analysis_trail.title'] }}</h2>
+      <p id="analysis-trail-summary" class="analysis-trail__summary">{{ t['analysis_trail.empty_summary'] }}</p>
     </div>
-    <div class="analysis-trail__actions" aria-label="Analysis trail controls">
-      <button type="button" class="analysis-trail__zoom" data-analysis-trail-zoom-out aria-label="Zoom out">−</button>
-      <button type="button" class="analysis-trail__zoom" data-analysis-trail-zoom-in aria-label="Zoom in">+</button>
-      <button type="button" class="analysis-trail__zoom" data-analysis-trail-undo aria-label="Undo graph change">↶</button>
-      <button type="button" class="analysis-trail__zoom" data-analysis-trail-redo aria-label="Redo graph change">↷</button>
-      <span class="analysis-trail__exports" aria-label="Graph exports">
+    <div class="analysis-trail__actions" aria-label="{{ t['analysis_trail.controls_label'] }}">
+      <button type="button" class="analysis-trail__zoom" data-analysis-trail-zoom-out aria-label="{{ t['analysis_trail.zoom_out'] }}">−</button>
+      <button type="button" class="analysis-trail__zoom" data-analysis-trail-zoom-in aria-label="{{ t['analysis_trail.zoom_in'] }}">+</button>
+      <button type="button" class="analysis-trail__zoom" data-analysis-trail-undo aria-label="{{ t['analysis_trail.undo'] }}">↶</button>
+      <button type="button" class="analysis-trail__zoom" data-analysis-trail-redo aria-label="{{ t['analysis_trail.redo'] }}">↷</button>
+      <span class="analysis-trail__exports" aria-label="{{ t['analysis_trail.exports_label'] }}">
         <span class="analysis-trail__export-primary">
-          <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-export aria-label="Download graph as SVG">SVG</button>
-          <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-png-export aria-label="Download graph as 300 DPI PNG">PNG</button>
+          <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-export aria-label="{{ t['analysis_trail.export_svg_label'] }}">{{ t['analysis_trail.export_svg'] }}</button>
+          <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-png-export aria-label="{{ t['analysis_trail.export_png_label'] }}">{{ t['analysis_trail.export_png'] }}</button>
         </span>
         <span class="analysis-trail__export-secondary">
-          <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-drawio-export aria-label="Export graph for Draw.io">Draw.io</button>
-          <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-excalidraw-export aria-label="Export graph for Excalidraw">Excalidraw</button>
+          <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-drawio-export aria-label="{{ t['analysis_trail.export_drawio_label'] }}">{{ t['analysis_trail.export_drawio'] }}</button>
+          <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-excalidraw-export aria-label="{{ t['analysis_trail.export_excalidraw_label'] }}">{{ t['analysis_trail.export_excalidraw'] }}</button>
         </span>
       </span>
-      <span class="analysis-trail__workbench-files" aria-label="Save or load Analysis Workbench">
-        <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-save>Save</button>
-        <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-load>Load</button>
+      <span class="analysis-trail__workbench-files" aria-label="{{ t['analysis_trail.workbench_files_label'] }}">
+        <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-save>{{ t['analysis_trail.save'] }}</button>
+        <button type="button" class="analysis-trail__mode analysis-trail__export-button" data-analysis-trail-load>{{ t['analysis_trail.load'] }}</button>
         <input type="file" data-analysis-trail-load-file accept="application/json,.json" hidden>
       </span>
-      <button type="button" class="analysis-trail__mode" data-analysis-trail-mode aria-pressed="false">Close</button>
-      <button type="button" class="analysis-trail__reset" data-analysis-trail-reset>Reset</button>
+      <button type="button" class="analysis-trail__mode" data-analysis-trail-mode aria-pressed="false">{{ t['analysis_trail.close'] }}</button>
+      <button type="button" class="analysis-trail__reset" data-analysis-trail-reset>{{ t['analysis_trail.reset'] }}</button>
     </div>
   </div>
   <div class="analysis-trail__graph" data-analysis-trail-graph aria-live="polite"></div>
   <div class="analysis-trail__add-modal" data-analysis-trail-add-modal hidden>
     <div class="analysis-trail__add-modal-content" role="dialog" aria-modal="true" aria-labelledby="analysis-trail-add-modal-title">
-      <h3 id="analysis-trail-add-modal-title">Add node</h3>
-      <div class="analysis-trail__add-modal-type-group" aria-label="Select node type">
-        <span class="analysis-trail__add-modal-type-label">Type</span>
+      <h3 id="analysis-trail-add-modal-title">{{ t['analysis_trail.add_node_title'] }}</h3>
+      <div class="analysis-trail__add-modal-type-group" aria-label="{{ t['analysis_trail.select_node_type'] }}">
+        <span class="analysis-trail__add-modal-type-label">{{ t['analysis_trail.type_label'] }}</span>
         <div class="analysis-trail__add-modal-type-buttons" data-analysis-trail-add-modal-type-buttons>
-          <button type="button" class="analysis-trail__type-btn is-active" data-type="cause">Cause</button>
-          <button type="button" class="analysis-trail__type-btn" data-type="symptom">Symptom</button>
-          <button type="button" class="analysis-trail__type-btn" data-type="problem">Problem</button>
-          <button type="button" class="analysis-trail__type-btn" data-type="similar">Similar problem</button>
-          <button type="button" class="analysis-trail__type-btn" data-type="solution">Solution</button>
-          <button type="button" class="analysis-trail__type-btn" data-type="similar-solution">Similar solution</button>
-          <button type="button" class="analysis-trail__type-btn" data-type="addressed-problem">Addressed problem</button>
+          <button type="button" class="analysis-trail__type-btn is-active" data-type="cause">{{ t['analysis_trail.type_cause'] }}</button>
+          <button type="button" class="analysis-trail__type-btn" data-type="symptom">{{ t['analysis_trail.type_symptom'] }}</button>
+          <button type="button" class="analysis-trail__type-btn" data-type="problem">{{ t['analysis_trail.type_problem'] }}</button>
+          <button type="button" class="analysis-trail__type-btn" data-type="similar">{{ t['analysis_trail.type_similar'] }}</button>
+          <button type="button" class="analysis-trail__type-btn" data-type="solution">{{ t['analysis_trail.type_solution'] }}</button>
+          <button type="button" class="analysis-trail__type-btn" data-type="similar-solution">{{ t['analysis_trail.type_similar_solution'] }}</button>
+          <button type="button" class="analysis-trail__type-btn" data-type="addressed-problem">{{ t['analysis_trail.type_addressed_problem'] }}</button>
         </div>
       </div>
-      <label>Text / Search
-        <input type="text" data-analysis-trail-add-modal-text placeholder="Type to search or add custom text" autocomplete="off">
+      <label>{{ t['analysis_trail.text_search_label'] }}
+        <input type="text" data-analysis-trail-add-modal-text placeholder="{{ t['analysis_trail.text_search_placeholder'] }}" autocomplete="off">
       </label>
       <div class="analysis-trail__add-search-results" data-analysis-trail-add-search-results role="listbox" hidden></div>
-      <p class="analysis-trail__add-selection" data-analysis-trail-add-selection>Custom node will be created.</p>
+      <p class="analysis-trail__add-selection" data-analysis-trail-add-selection>{{ t['analysis_trail.custom_node_hint'] }}</p>
       <div class="analysis-trail__add-modal-actions">
-        <button type="button" data-analysis-trail-add-modal-cancel>Cancel</button>
-        <button type="button" data-analysis-trail-add-modal-submit>Add node</button>
+        <button type="button" data-analysis-trail-add-modal-cancel>{{ t['analysis_trail.cancel'] }}</button>
+        <button type="button" data-analysis-trail-add-modal-submit>{{ t['analysis_trail.add_node'] }}</button>
       </div>
     </div>
   </div>
   <div class="analysis-trail__legend-row">
-    <ul class="analysis-trail__legend" aria-label="Connection legend">
-      <li><span class="analysis-trail__legend-node analysis-trail__legend-node--problem"></span>Problem</li>
-      <li><span class="analysis-trail__legend-node analysis-trail__legend-node--solution"></span>Solution</li>
-      <li><span class="analysis-trail__legend-line analysis-trail__legend-line--causes"></span>Causes</li>
-      <li><span class="analysis-trail__legend-line analysis-trail__legend-line--addresses"></span>Addresses</li>
-      <li><span class="analysis-trail__legend-line analysis-trail__legend-line--similar"></span>Similar</li>
+    <ul class="analysis-trail__legend" aria-label="{{ t['analysis_trail.legend_label'] }}">
+      <li><span class="analysis-trail__legend-node analysis-trail__legend-node--problem"></span>{{ t['analysis_trail.legend_problem'] }}</li>
+      <li><span class="analysis-trail__legend-node analysis-trail__legend-node--solution"></span>{{ t['analysis_trail.legend_solution'] }}</li>
+      <li><span class="analysis-trail__legend-line analysis-trail__legend-line--causes"></span>{{ t['analysis_trail.legend_causes'] }}</li>
+      <li><span class="analysis-trail__legend-line analysis-trail__legend-line--addresses"></span>{{ t['analysis_trail.legend_addresses'] }}</li>
+      <li><span class="analysis-trail__legend-line analysis-trail__legend-line--similar"></span>{{ t['analysis_trail.legend_similar'] }}</li>
     </ul>
     <div class="analysis-trail__quick-search">
-      <select data-analysis-trail-quick-filter aria-label="Limit quick search to a type">
-        <option value="all">All</option>
-        <option value="problem">Problems</option>
-        <option value="solution">Solutions</option>
+      <select data-analysis-trail-quick-filter aria-label="{{ t['analysis_trail.quick_filter_label'] }}">
+        <option value="all">{{ t['analysis_trail.quick_filter_all'] }}</option>
+        <option value="problem">{{ t['analysis_trail.quick_filter_problems'] }}</option>
+        <option value="solution">{{ t['analysis_trail.quick_filter_solutions'] }}</option>
       </select>
-      <input type="search" data-analysis-trail-quick-search placeholder="Quick search…" aria-label="Search problems and solutions" autocomplete="off">
+      <input type="search" data-analysis-trail-quick-search placeholder="{{ t['analysis_trail.quick_search_placeholder'] }}" aria-label="{{ t['analysis_trail.search_aria_label'] }}" autocomplete="off">
       <div class="analysis-trail__quick-results" data-analysis-trail-quick-results role="listbox" hidden></div>
     </div>
   </div>
@@ -79,10 +87,10 @@
 <script type="application/json" data-analysis-trail-catalog>
 {
   "problems": [
-    {% for item in site.problems %}{"id": {{ item.slug | prepend: 'problem:' | jsonify }}, "title": {{ item.title | jsonify }}, "url": {{ item.url | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
+    {% for item in catalog_problems %}{"id": {{ item.slug | prepend: 'problem:' | jsonify }}, "title": {{ item.title | jsonify }}, "url": {{ item.url | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
   ],
   "solutions": [
-    {% for item in site.solutions %}{"id": {{ item.slug | prepend: 'solution:' | jsonify }}, "title": {{ item.title | jsonify }}, "url": {{ item.url | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
+    {% for item in catalog_solutions %}{"id": {{ item.slug | prepend: 'solution:' | jsonify }}, "title": {{ item.title | jsonify }}, "url": {{ item.url | relative_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}
   ]
 }
 </script>

@@ -142,6 +142,12 @@ en:
   analysis_trail.quick_filter_problems: Problems
   analysis_trail.quick_filter_solutions: Solutions
   analysis_trail.quick_search_placeholder: "Quick search…"
+  analysis_trail.controls_label: Analysis trail controls
+  analysis_trail.legend_label: Connection legend
+  analysis_trail.search_aria_label: Search problems and solutions
+  analysis_trail.exports_label: Graph exports
+  analysis_trail.workbench_files_label: Save or load Analysis Workbench
+  analysis_trail.quick_filter_label: Limit quick search to a type
 
 de:
   # Site header / navigation (header.html)
@@ -273,3 +279,9 @@ de:
   analysis_trail.quick_filter_problems: Probleme
   analysis_trail.quick_filter_solutions: Lösungen
   analysis_trail.quick_search_placeholder: "Schnellsuche…"
+  analysis_trail.controls_label: Steuerung der Analyse-Werkbank
+  analysis_trail.legend_label: Verbindungslegende
+  analysis_trail.search_aria_label: Probleme und Lösungen durchsuchen
+  analysis_trail.exports_label: Graph-Exporte
+  analysis_trail.workbench_files_label: Analyse-Werkbank speichern oder laden
+  analysis_trail.quick_filter_label: Schnellsuche auf einen Typ beschränken
