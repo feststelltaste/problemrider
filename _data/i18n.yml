@@ -82,6 +82,8 @@ en:
   landscape.reset_view: Reset view
   landscape.legend: Legend
   landscape.resize_columns: Drag to resize columns
+  landscape.view_label: Landscape view
+  landscape.search_aria_label: Search this view
 
   # Problem layout (_layouts/problem.html)
   problem_layout.speed_nav: Speed nav
@@ -220,6 +222,8 @@ de:
   landscape.reset_view: Ansicht zurücksetzen
   landscape.legend: Legende
   landscape.resize_columns: Ziehen, um Spalten anzupassen
+  landscape.view_label: Landscape-Ansicht
+  landscape.search_aria_label: Diese Ansicht durchsuchen
 
   # Problem layout (_layouts/problem.html)
   problem_layout.speed_nav: Schnellnavigation
