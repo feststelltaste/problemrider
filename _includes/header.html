@@ -29,6 +29,46 @@
             <span class="analysis-trail-menu-button__count" data-analysis-trail-count hidden>0</span>
           </button>
         {% endif %}
+
+        {% comment %}
+          Language switcher (plans/german-translation-plan.md, Decision 6).
+          related_problems/solutions-style slug lists always store English
+          slugs, so a German collection page looks up its English original
+          via en_slug, and vice versa. Overview/static pages (home, the
+          four listing pages, or anything else) have no slug to join on, so
+          the EN<->DE counterpart is found by swapping the /de/ URL prefix
+          and confirming a page actually exists there. Either way, if no
+          counterpart is found (most content isn't translated yet), the
+          switcher stays hidden rather than linking to a 404.
+        {% endcomment %}
+        {% assign language_switch_url = nil %}
+        {% if page.collection == 'problems' %}
+          {% if page.lang == 'de' %}
+            {% assign switch_target = site.problems | where: "slug", page.en_slug | first %}
+          {% else %}
+            {% assign switch_target = site.problems_de | where: "en_slug", page.slug | first %}
+          {% endif %}
+          {% if switch_target %}{% assign language_switch_url = switch_target.url %}{% endif %}
+        {% elsif page.collection == 'solutions' %}
+          {% if page.lang == 'de' %}
+            {% assign switch_target = site.solutions | where: "slug", page.en_slug | first %}
+          {% else %}
+            {% assign switch_target = site.solutions_de | where: "en_slug", page.slug | first %}
+          {% endif %}
+          {% if switch_target %}{% assign language_switch_url = switch_target.url %}{% endif %}
+        {% else %}
+          {% if page.url contains "/de/" %}
+            {% assign switch_candidate_url = page.url | remove_first: "/de" %}
+          {% else %}
+            {% assign switch_candidate_url = "/de" | append: page.url %}
+          {% endif %}
+          {% assign switch_candidate = site.pages | where: "url", switch_candidate_url | first %}
+          {% if switch_candidate %}{% assign language_switch_url = switch_candidate_url %}{% endif %}
+        {% endif %}
+        {% if language_switch_url %}
+          {% assign current_lang = page.lang | default: site.lang | default: "en" %}
+          <a class="page-link language-switch" href="{{ language_switch_url | relative_url }}" hreflang="{% if current_lang == 'de' %}en{% else %}de{% endif %}">{{ site.data.i18n[current_lang]['nav.language_switch'] }}</a>
+        {% endif %}
       </div>
     </nav>
   </div>
