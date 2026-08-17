@@ -20,11 +20,15 @@ Laut `CLAUDE.md` müssen interne Links den **exakten Titel** der Zielseite als L
 
 Zweites Kernproblem: Mehrere Skripte und ein Client-seitiges Script matchen Abschnitte über den **exakten englischen Überschriftentext** (`## Symptoms ▲`, `## Causes ▼`, siehe `scripts/validate_causal_links.py:43-44` und den Inline-`<script>` in `_layouts/problem.html`, der nach `'Symptoms ▲'` / `'Root Causes ▼'` sucht). Übersetzte Überschriften wie `## Symptome ▲` würden diese Erkennung stillschweigend brechen. Muss vor der Massenübersetzung behoben werden (siehe Entscheidung 2).
 
+## Entschieden
+
+- **URL-Präfix `de/`:** Die deutsche Seite lebt unter `/de/...` (z. B. `/de/problems/foo.html`, `/de/`, `/de/solutions/`, `/de/categories/`), die englische bleibt unverändert auf der bestehenden Root-URL. Bestätigt vom Nutzer.
+
 ## Offene Architekturentscheidungen
 
 ### 1. Wie werden EN/DE-Inhalte strukturiert?
 
-**Empfehlung:** Kein Übersetzungs-Plugin (`jekyll-polyglot` o.ä.), sondern zwei zusätzliche eigene Collections `problems_de` und `solutions_de`, die dieselben Dateinamen/Slugs wie ihre englischen Pendants verwenden:
+**Empfehlung:** Kein Übersetzungs-Plugin (`jekyll-polyglot` o.ä.), sondern zwei zusätzliche eigene Collections `problems_de` und `solutions_de`, die dieselben Dateinamen/Slugs wie ihre englischen Pendants verwenden und via `permalink` unter `/de/` ausgegeben werden:
 
 ```
 _problems/foo.md        (Englisch, bestehend, unverändert)
