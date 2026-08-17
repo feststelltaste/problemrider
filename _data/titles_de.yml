@@ -2306,3 +2306,243 @@ solutions:
     title_de: Containerisierte Datenbanken
     description_de: Betrieb von Datenbanken in Containern.
     slug_de: containerisierte-datenbanken
+  content-negotiation:
+    title_de: Content Negotiation
+    description_de: Aushandlung von Format, Sprache und Kodierung zwischen Client und Server über HTTP.
+    slug_de: content-negotiation
+  contextual-help:
+    title_de: Kontextbezogene Hilfe
+    description_de: Bereitstellung von Hilfeinformationen und Erklärungen direkt im aktuellen Aufgabenkontext.
+    slug_de: kontextbezogene-hilfe
+  continuous-data-verification:
+    title_de: Kontinuierliche Datenverifikation
+    description_de: Regelmäßige Überprüfung der Datenintegrität bei Speicherung oder Übertragung.
+    slug_de: kontinuierliche-datenverifikation
+  continuous-delivery:
+    title_de: Kontinuierliche Auslieferung
+    description_de: Häufige und inkrementelle Auslieferung von Funktionalität.
+    slug_de: kontinuierliche-auslieferung
+  continuous-dependency-updates:
+    title_de: Kontinuierliche Abhängigkeitsaktualisierungen
+    description_de: Abhängigkeits-Upgrades in kleinen automatisierten Schritten übernehmen, sobald sie veröffentlicht werden, sodass sie sich nie zu einer Migration anhäufen, die niemand anzugehen wagt.
+    slug_de: kontinuierliche-abhaengigkeitsaktualisierungen
+  continuous-deployment:
+    title_de: Continuous Deployment
+    description_de: Vollautomatisiertes Deployment von Software-Änderungen in die Produktivumgebung.
+    slug_de: continuous-deployment
+  continuous-feedback:
+    title_de: Kontinuierliches Feedback
+    description_de: Regelmäßiges Einholen und Umsetzen von Feedback von Nutzern und Stakeholdern.
+    slug_de: kontinuierliches-feedback
+  continuous-integration-and-delivery:
+    title_de: Continuous Integration and Delivery
+    description_de: Automatisierte Prozesse für Software-Integration, -Tests und -Deployment.
+    slug_de: continuous-integration-and-delivery
+  continuous-integration:
+    title_de: Continuous Integration
+    description_de: Regelmäßige Integration von Codeänderungen in ein gemeinsames Repository.
+    slug_de: continuous-integration
+  continuous-performance-monitoring:
+    title_de: Kontinuierliches Performance-Monitoring
+    description_de: Fortlaufende Überwachung und Analyse der Anwendungsperformance in Produktion.
+    slug_de: kontinuierliches-performance-monitoring
+  contract-testing:
+    title_de: Contract Testing
+    description_de: Verifikation, dass Service-Schnittstellen vereinbarten Vertragsänderungen entsprechen.
+    slug_de: contract-testing
+  cost-of-delay:
+    title_de: Cost of Delay
+    description_de: Quantifizierung, was jeder Monat des Nicht-Handelns kostet, sodass Aufschub zu einer bepreisten Entscheidung wird statt zu einer kostenlosen.
+    slug_de: cost-of-delay
+  cqrs:
+    title_de: CQRS
+    description_de: Trennung von Lese- und Schreibmodellen in unabhängig optimierte und skalierte Pfade.
+    slug_de: cqrs
+  cross-functional-skill-development:
+    title_de: Funktionsübergreifende Kompetenzentwicklung
+    description_de: Systematische Erweiterung der Fähigkeiten von Teammitgliedern über Technologien, Systemkomponenten und Rollen hinweg, um Single Points of Failure zu reduzieren und die Teamresilienz zu erhöhen.
+    slug_de: funktionsuebergreifende-kompetenzentwicklung
+  cross-platform-build-scripts:
+    title_de: Plattformübergreifende Build-Skripte
+    description_de: Umsetzung von Build-Prozessen mit plattformübergreifenden Skriptsprachen.
+    slug_de: plattformuebergreifende-build-skripte
+  cross-platform-build-tools:
+    title_de: Plattformübergreifende Build-Werkzeuge
+    description_de: Nutzung von Build-Werkzeugen, die für mehrere Plattformen kompilieren können.
+    slug_de: plattformuebergreifende-build-werkzeuge
+  cross-platform-frameworks:
+    title_de: Plattformübergreifende Frameworks
+    description_de: Nutzung von Entwicklungs-Frameworks, die plattformübergreifende Anwendungen ermöglichen.
+    slug_de: plattformuebergreifende-frameworks
+  cross-platform-serialization:
+    title_de: Plattformübergreifende Serialisierung
+    description_de: Nutzung von Daten-Serialisierern, die über verschiedene Systeme hinweg kompatibel sind.
+    slug_de: plattformuebergreifende-serialisierung
+  cross-version-testing:
+    title_de: Versionsübergreifende Tests
+    description_de: Testen der Software mit unterschiedlichen Versionen.
+    slug_de: versionsuebergreifende-tests
+  cryptographic-methods:
+    title_de: Kryptografische Methoden
+    description_de: Nutzung erprobter und standardisierter Algorithmen und Protokolle für kryptografische Funktionen.
+    slug_de: kryptografische-methoden
+  custom-views:
+    title_de: Benutzerdefinierte Ansichten
+    description_de: Nutzern erlauben, eigene Ansichten und Layouts zu erstellen.
+    slug_de: benutzerdefinierte-ansichten
+  customizable-user-interface:
+    title_de: Anpassbare Nutzeroberfläche
+    description_de: Nutzern erlauben, die Nutzeroberfläche nach ihren Präferenzen zu ändern.
+    slug_de: anpassbare-nutzeroberflaeche
+  customization-cost-attribution:
+    title_de: Zuordnung von Anpassungskosten
+    description_de: Nachverfolgung, was die Wartung jeder kundenspezifischen Variante kostet, und Zuordnung zu demjenigen, der sie angefragt hat, sodass eine Zusage zu einer bepreisten Entscheidung wird.
+    slug_de: zuordnung-von-anpassungskosten
+  customization-under-version-control:
+    title_de: Anpassungen unter Versionskontrolle
+    description_de: Export der Konfiguration und individuellen Logik eines paketierten Systems in Textartefakte, sodass sie wie jeder andere Code diffbar, überprüfbar, rückgängig zu machen und deploybar sind.
+    slug_de: anpassungen-unter-versionskontrolle
+  customizing:
+    title_de: Customizing
+    description_de: Anpassung von Software an spezifische Anforderungen und Bedürfnisse der Nutzer.
+    slug_de: customizing
+  dark-launches:
+    title_de: Dark Launches
+    description_de: Begrenzung der Auswirkungsreichweite neuer Features durch verstecktes Deployment für eine Teilmenge der Nutzer.
+    slug_de: dark-launches
+  data-aggregation:
+    title_de: Datenaggregation
+    description_de: Zusammenfassung feingranularer Daten zu kompakteren Einheiten.
+    slug_de: datenaggregation
+  data-archiving:
+    title_de: Datenarchivierung
+    description_de: Auslagerung selten benötigter Daten auf kosteneffizientere Speichermedien.
+    slug_de: datenarchivierung
+  data-deduplication:
+    title_de: Datendeduplizierung
+    description_de: Erkennung und Beseitigung redundanter Daten in Speichersystemen.
+    slug_de: datendeduplizierung
+  data-ecosystems:
+    title_de: Daten-Ökosysteme
+    description_de: Ermöglichung von Interoperabilität durch gemeinsame Datenplattformen, Standards und Austauschprotokolle.
+    slug_de: daten-oekosysteme
+  data-enrichment:
+    title_de: Datenanreicherung
+    description_de: Ergänzung von Daten mit zusätzlichen Informationen aus externen Quellen.
+    slug_de: datenanreicherung
+  data-export:
+    title_de: Datenexport und -Portabilität
+    description_de: Ermöglichung, dass Nutzer ihre Daten in standardisierten, portablen Formaten für Migration und Compliance exportieren können.
+    slug_de: datenexport-und-portabilitaet
+  data-flow-control:
+    title_de: Datenflusskontrolle
+    description_de: Steuerung und Filterung von Datenflüssen zwischen Komponenten und Systemen.
+    slug_de: datenflusskontrolle
+  data-format-conversion:
+    title_de: Datenformatkonvertierung
+    description_de: Bereitstellung von Mechanismen zur Konvertierung zwischen verschiedenen Datenformaten.
+    slug_de: datenformatkonvertierung
+  data-formats:
+    title_de: Datenformate
+    description_de: Nutzung standardisierter und weit verbreiteter Datenformate für den Datenaustausch.
+    slug_de: datenformate
+  data-integration:
+    title_de: Datenintegration
+    description_de: Zusammenführung von Daten aus verschiedenen Quellen und einheitliche Bereitstellung.
+    slug_de: datenintegration
+  data-integrity:
+    title_de: Datenintegrität
+    description_de: Mechanismen zur Sicherstellung von Datengenauigkeit, -konsistenz und -zuverlässigkeit.
+    slug_de: datenintegritaet
+  data-modeling:
+    title_de: Datenmodellierung
+    description_de: Abbildung von Geschäftskonzepten und -beziehungen in einem konzeptuellen Datenmodell.
+    slug_de: datenmodellierung
+  data-partitioning:
+    title_de: Datenpartitionierung
+    description_de: Aufteilung großer Datensätze über mehrere Computer oder Speichereinheiten.
+    slug_de: datenpartitionierung
+  data-quality-checks:
+    title_de: Datenqualitätsprüfungen
+    description_de: Sicherstellung der Datenqualität durch Validierung, Bereinigung und Anreicherung.
+    slug_de: datenqualitaetspruefungen
+  data-replication:
+    title_de: Datenreplikation
+    description_de: Erstellung und Synchronisierung von Datenkopien über mehrere Systeme hinweg.
+    slug_de: datenreplikation
+  data-strategy:
+    title_de: Datenstrategie
+    description_de: Definition gemeinsamer Datenstandards, -formate und Integrationsmuster über Systeme hinweg.
+    slug_de: datenstrategie
+  data-stream-processing:
+    title_de: Datenstromverarbeitung
+    description_de: Kontinuierliche Verarbeitung von Daten aus Echtzeit-Datenquellen.
+    slug_de: datenstromverarbeitung
+  database-abstraction:
+    title_de: Datenbankabstraktion
+    description_de: Umsetzung von Datenbankzugriffen über eine abstrahierte Schicht.
+    slug_de: datenbankabstraktion
+  datensparsamkeit:
+    title_de: Datensparsamkeit
+    description_de: Nur personenbezogene Daten erheben und speichern, die für den Zweck notwendig sind.
+    slug_de: datensparsamkeit
+  dead-letter-queue:
+    title_de: Dead Letter Queue
+    description_de: Weiterleitung fehlgeschlagener Nachrichten an eine dedizierte Warteschlange zur späteren Prüfung und Wiederverarbeitung, statt sie zu verlieren.
+    slug_de: dead-letter-queue
+  debt-accrual-analysis:
+    title_de: Analyse der Schuldenentstehung
+    description_de: Herausfinden, warum Schulden immer wieder an denselben Stellen entstehen, und den Mechanismus beheben — denn Schulden abzubauen, während die Entstehung weitergeht, ist ein Laufband.
+    slug_de: analyse-der-schuldenentstehung
+  debt-classification:
+    title_de: Schuldenklassifizierung
+    description_de: Sortierung technischer Schulden danach, ob sie tatsächlich etwas kosten, sodass Aufwand in die Schulden fließt, die kosten, und der Rest ohne schlechtes Gewissen liegen bleiben kann.
+    slug_de: schuldenklassifizierung
+  debt-remediation-estimation:
+    title_de: Schätzung der Schuldenbehebung
+    description_de: Aufwandsschätzung für jeden Schuldenposten, sodass die Summe zu einer endlichen Zahl wird — denn ein ungeschätztes Problem lässt sich nicht planen und fühlt sich unendlich an.
+    slug_de: schaetzung-der-schuldenbehebung
+  decision-rights-and-escalation:
+    title_de: Entscheidungsrechte und Eskalationspfade
+    description_de: Festhalten, wer was innerhalb welcher Grenzen entscheidet und was passiert, wenn eine Entscheidung stockt, sodass unentschiedene Fragen die Arbeit nicht länger blockieren.
+    slug_de: entscheidungsrechte-und-eskalationspfade
+  decision-tables:
+    title_de: Entscheidungstabellen
+    description_de: Definition und Auswertung komplexer Geschäftsregeln in tabellarischer Form.
+    slug_de: entscheidungstabellen
+  defect-triage-process:
+    title_de: Defekt-Triage-Prozess
+    description_de: Bewertung jedes gemeldeten Defekts anhand festgelegter Kriterien in regelmäßigem Takt, Klassifizierung seiner Ursache und Nutzung der angesammelten Klassifizierung, um Kategorien statt Einzelfälle zu beheben.
+    slug_de: defekt-triage-prozess
+  defense-lines:
+    title_de: Verteidigungslinien
+    description_de: Umsetzung von Sicherheitsmechanismen in mehreren Schichten und Ebenen.
+    slug_de: verteidigungslinien
+  definition-of-done:
+    title_de: Definition of Done
+    description_de: Definition klarer Kriterien für die Fertigstellung von Funktionalität.
+    slug_de: definition-of-done
+  definition-of-ready:
+    title_de: Definition of Ready
+    description_de: Vereinbarung, was ein Arbeitspaket enthalten muss, bevor das Team damit beginnt, sodass halb spezifizierte Arbeit nicht mehr in die Entwicklung gelangt und dort steckenbleibt.
+    slug_de: definition-of-ready
+  delivery-performance-metrics:
+    title_de: Auslieferungs-Performance-Metriken
+    description_de: Nachverfolgung von Lead Time, Deployment-Häufigkeit, Change-Failure-Rate und Wiederherstellungszeit als Set, sodass sowohl Verbesserungen als auch Regressionen sichtbar werden.
+    slug_de: auslieferungs-performance-metriken
+  denormalization:
+    title_de: Denormalisierung
+    description_de: Einführung kontrollierter Redundanz in Datenbankschemata für schnellere Lesezugriffe.
+    slug_de: denormalisierung
+  dependency-breaking-techniques:
+    title_de: Techniken zum Aufbrechen von Abhängigkeiten
+    description_de: Schaffung von Nahtstellen in nicht testbarem Code — extrahieren, umhüllen, parametrisieren, subklassieren — sodass ein Fragment isoliert und ohne den Rest des Systems ausgeführt werden kann.
+    slug_de: techniken-zum-aufbrechen-von-abhaengigkeiten
+  dependency-injection-container:
+    title_de: Dependency-Injection-Container
+    description_de: Zentralisierte Verwaltung und Bereitstellung von Abhängigkeiten.
+    slug_de: dependency-injection-container
+  dependency-injection:
+    title_de: Dependency Injection
+    description_de: Externe Verwaltung und Injektion von Abhängigkeiten zwischen Komponenten.
+    slug_de: dependency-injection
