@@ -1216,5 +1216,245 @@ problems:
     title_de: Schlechte Schnittstellen zwischen Anwendungen
     description_de: Getrennte oder schlecht definierte Schnittstellen führen zu brüchigen Integrationen und inkonsistenten Daten.
     slug_de: schlechte-schnittstellen-zwischen-anwendungen
+  poor-naming-conventions:
+    title_de: Schlechte Namenskonventionen
+    description_de: Variablen, Funktionen, Klassen und andere Codeelemente werden so benannt, dass sie ihren Zweck oder ihre Bedeutung nicht klar vermitteln.
+    slug_de: schlechte-namenskonventionen
+  poor-operational-concept:
+    title_de: Schlechtes Betriebskonzept
+    description_de: Fehlende Planung für Monitoring, Wartung oder Support führt zu Instabilität nach dem Launch.
+    slug_de: schlechtes-betriebskonzept
+  poor-planning:
+    title_de: Schlechte Planung
+    description_de: Teams haben keine klaren Pläne oder realistischen Schätzungen des Arbeitsaufwands, was zu Projektverzögerungen und Problemen bei der Ressourcenzuweisung führt.
+    slug_de: schlechte-planung
+  poor-project-control:
+    title_de: Schlechte Projektsteuerung
+    description_de: Der Projektfortschritt wird nicht wirksam überwacht, sodass Probleme unbemerkt bleiben, bis eine Behebung schwierig oder unmöglich wird.
+    slug_de: schlechte-projektsteuerung
+  poor-system-environment:
+    title_de: Schlechte Systemumgebung
+    description_de: Das System wird in einer instabilen, falsch konfigurierten oder ungeeigneten Umgebung betrieben, die Ausfälle, Performance-Probleme und operative Schwierigkeiten verursacht.
+    slug_de: schlechte-systemumgebung
+  poor-teamwork:
+    title_de: Schlechte Teamarbeit
+    description_de: Teammitglieder arbeiten isoliert, widersetzen sich Zusammenarbeit oder es fehlt an gegenseitigem Respekt, was die Gesamteffektivität verringert.
+    slug_de: schlechte-teamarbeit
+  poor-test-coverage:
+    title_de: Schlechte Testabdeckung
+    description_de: Kritische Teile der Codebasis werden nicht durch Tests abgedeckt, was blinde Flecken in der Qualitätssicherung erzeugt.
+    slug_de: schlechte-testabdeckung
+  poor-user-experience-ux-design:
+    title_de: Schlechtes Nutzererlebnis (UX-Design)
+    description_de: Die Anwendung ist schwer zu bedienen, verwirrend oder erfüllt die Nutzerbedürfnisse nicht.
+    slug_de: schlechtes-nutzererlebnis-ux-design
+  poorly-defined-responsibilities:
+    title_de: Schlecht definierte Verantwortlichkeiten
+    description_de: Module oder Klassen sind nicht mit einer einzigen, klaren Verantwortlichkeit gestaltet, was zu Verwirrung und enger Kopplung führt.
+    slug_de: schlecht-definierte-verantwortlichkeiten
+  power-struggles:
+    title_de: Machtkämpfe
+    description_de: Interne Konflikte zwischen Abteilungen oder Führungskräften stören Entscheidungsfindung und Projektfortschritt.
+    slug_de: machtkaempfe
+  premature-technology-introduction:
+    title_de: Verfrühte Technologieeinführung
+    description_de: Neue Frameworks, Werkzeuge oder Plattformen werden ohne angemessene Bewertung eingeführt, was Risiko und Lernaufwand zu Projekten hinzufügt.
+    slug_de: verfruehte-technologieeinfuehrung
+  priority-thrashing:
+    title_de: Prioritäten-Thrashing
+    description_de: Arbeitsprioritäten ändern sich häufig und unerwartet, was ständigen Aufgabenwechsel verursacht und den geplanten Arbeitsfluss stört.
+    slug_de: prioritaeten-thrashing
+  procedural-background:
+    title_de: Prozeduraler Hintergrund
+    description_de: Entwickler mit einem Hintergrund in prozeduraler Programmierung tun sich möglicherweise schwer, sich an eine objektorientierte Denkweise anzupassen, was zu prozeduralem Code in einer objektorientierten Sprache führt.
+    slug_de: prozeduraler-hintergrund
+  procedural-programming-in-oop-languages:
+    title_de: Prozedurale Programmierung in OOP-Sprachen
+    description_de: Code wird in einem prozeduralen Stil innerhalb objektorientierter Sprachen geschrieben, was zu großen, monolithischen Funktionen und schlechter Kapselung führt.
+    slug_de: prozedurale-programmierung-in-oop-sprachen
+  process-design-flaws:
+    title_de: Fehler im Prozessdesign
+    description_de: Entwicklungsprozesse sind schlecht gestaltet, was Ineffizienzen, Engpässe und Hindernisse für produktive Arbeit erzeugt.
+    slug_de: fehler-im-prozessdesign
+  process-software-misfit:
+    title_de: Fehlpassung zwischen Prozess und Software
+    description_de: Die Software wurde so verbogen, dass sie zu einem historisch gewachsenen Prozess passt, statt den Prozess gegen das zu prüfen, was das Produkt voraussetzt.
+    slug_de: fehlpassung-zwischen-prozess-und-software
+  procrastination-on-complex-tasks:
+    title_de: Prokrastination bei komplexen Aufgaben
+    description_de: Schwierige oder kognitiv anspruchsvolle Arbeit wird durchgängig zugunsten einfacherer, unmittelbar befriedigenderer Aufgaben aufgeschoben.
+    slug_de: prokrastination-bei-komplexen-aufgaben
+  product-direction-chaos:
+    title_de: Chaos in der Produktrichtung
+    description_de: Mehrere Stakeholder liefern widersprüchliche Prioritäten ohne klare Produktführung, was Teamverwirrung und verschwendeten Aufwand verursacht.
+    slug_de: chaos-in-der-produktrichtung
+  project-authority-vacuum:
+    title_de: Vakuum an Projektautorität
+    description_de: Kritischen Projekten fehlt ausreichende organisatorische Unterstützung und Sponsoring durch die Führungsebene, um Widerstand zu überwinden und Ressourcen zu sichern.
+    slug_de: vakuum-an-projektautoritaet
+  project-resource-constraints:
+    title_de: Projekt-Ressourcenbeschränkungen
+    description_de: Projekte können aufgrund schlechter Planung oder konkurrierender Prioritäten nicht das nötige Budget, Personal oder organisatorische Ressourcen erhalten.
+    slug_de: projekt-ressourcenbeschraenkungen
+  quality-blind-spots:
+    title_de: Qualitäts-blinde Flecken
+    description_de: Kritisches Systemverhalten und Fehlermodi bleiben aufgrund von Lücken in Testabdeckung und Verifikationspraktiken unentdeckt.
+    slug_de: qualitaets-blinde-flecken
+  quality-compromises:
+    title_de: Qualitätskompromisse
+    description_de: Qualitätsstandards werden bewusst gesenkt oder Abkürzungen genommen, um Termine, Budgets oder andere Einschränkungen einzuhalten, was langfristige Probleme erzeugt.
+    slug_de: qualitaetskompromisse
+  quality-degradation:
+    title_de: Qualitätsverschlechterung
+    description_de: Die Systemqualität nimmt im Laufe der Zeit ab, aufgrund angehäufter technischer Schulden, Abkürzungen und unzureichender Qualitätspraktiken.
+    slug_de: qualitaetsverschlechterung
+  queries-that-prevent-index-usage:
+    title_de: Abfragen, die die Indexnutzung verhindern
+    description_de: Die Art, wie eine Abfrage geschrieben ist, kann die Datenbank daran hindern, einen verfügbaren Index zu nutzen, was langsamere Full-Table-Scans oder weniger effiziente Index-Scans erzwingt.
+    slug_de: abfragen-die-die-indexnutzung-verhindern
+  race-conditions:
+    title_de: Race Conditions
+    description_de: Mehrere Threads greifen gleichzeitig ohne angemessene Synchronisation auf gemeinsame Ressourcen zu, was zu unvorhersehbarem Verhalten und Datenkorruption führt.
+    slug_de: race-conditions
+  rapid-prototyping-becoming-production:
+    title_de: Rapid Prototyping wird zu Produktion
+    description_de: Schnell für Prototypen oder Proof-of-Concepts geschriebener Code landet ohne angemessene Engineering-Praktiken in Produktivsystemen.
+    slug_de: rapid-prototyping-wird-zu-produktion
+  rapid-system-changes:
+    title_de: Schnelle Systemänderungen
+    description_de: Häufige Änderungen an Systemarchitektur, APIs oder Kernfunktionalität überholen Dokumentation und Teamverständnis.
+    slug_de: schnelle-systemaenderungen
+  rapid-team-growth:
+    title_de: Schnelles Teamwachstum
+    description_de: Teams wachsen schnell an Größe, ohne angemessene Vorbereitung, was bestehende Infrastruktur und Unterstützungssysteme überfordert.
+    slug_de: schnelles-teamwachstum
+  rate-limiting-issues:
+    title_de: Probleme mit Rate Limiting
+    description_de: Rate-Limiting-Mechanismen sind falsch konfiguriert, zu restriktiv oder unwirksam, was legitime Anfragen blockiert oder Missbrauch nicht verhindert.
+    slug_de: probleme-mit-rate-limiting
+  reduced-code-submission-frequency:
+    title_de: Verringerte Häufigkeit von Code-Einreichungen
+    description_de: Entwickler bündeln mehrere Änderungen oder verzögern Einreichungen, um häufige Code-Review-Zyklen zu vermeiden, was Feedback-Qualität und Integrationshäufigkeit verringert.
+    slug_de: verringerte-haeufigkeit-von-code-einreichungen
+  reduced-feature-quality:
+    title_de: Verringerte Feature-Qualität
+    description_de: Weniger Zeit steht für den Feinschliff gelieferter Features zur Verfügung, was zu Nutzererlebnissen und Funktionalität geringerer Qualität führt.
+    slug_de: verringerte-feature-qualitaet
+  reduced-individual-productivity:
+    title_de: Verringerte individuelle Produktivität
+    description_de: Einzelne Entwickler erledigen weniger Aufgaben und brauchen länger, um Probleme zu lösen, trotz gleichbleibendem Arbeitseinsatz.
+    slug_de: verringerte-individuelle-produktivitaet
+  reduced-innovation:
+    title_de: Verringerte Innovation
+    description_de: Teams werden neuen Ideen gegenüber ablehnend und konzentrieren sich nur auf das Nötigste, um durchzukommen.
+    slug_de: verringerte-innovation
+  reduced-predictability:
+    title_de: Verringerte Vorhersagbarkeit
+    description_de: Entwicklungszeitpläne, Ergebnisse und Systemverhalten werden schwer genau vorhersagbar, was Planung und Erwartungsmanagement erschwert.
+    slug_de: verringerte-vorhersagbarkeit
+  reduced-review-participation:
+    title_de: Verringerte Review-Beteiligung
+    description_de: Viele Teammitglieder vermeiden die Teilnahme an Code-Reviews, was die Review-Last auf wenige Personen konzentriert und die Abdeckung verringert.
+    slug_de: verringerte-review-beteiligung
+  reduced-team-flexibility:
+    title_de: Verringerte Teamflexibilität
+    description_de: Die Fähigkeit des Teams, sich an ändernde Anforderungen anzupassen, Arbeit neu zuzuweisen oder auf unerwartete Herausforderungen zu reagieren, ist erheblich eingeschränkt.
+    slug_de: verringerte-teamflexibilitaet
+  reduced-team-productivity:
+    title_de: Verringerte Teamproduktivität
+    description_de: Die Gesamtleistung und Effektivität des Entwicklungsteams sinkt aufgrund verschiedener systemischer Probleme und Ineffizienzen.
+    slug_de: verringerte-teamproduktivitaet
+  refactoring-avoidance:
+    title_de: Refactoring-Vermeidung
+    description_de: Das Entwicklungsteam vermeidet aktiv das Refactoring der Codebasis, selbst wenn es dessen Notwendigkeit anerkennt, aus Angst, neue Fehler einzuführen.
+    slug_de: refactoring-vermeidung
+  regression-bugs:
+    title_de: Regressionsfehler
+    description_de: Neue Funktionen oder Fixes brechen unbeabsichtigt bestehende Funktionalität, die zuvor korrekt funktionierte.
+    slug_de: regressionsfehler
+  regulatory-compliance-drift:
+    title_de: Regulatorische Compliance-Drift
+    description_de: Legacy-Systeme hinken sich entwickelnden regulatorischen Anforderungen hinterher, was Compliance-Lücken erzeugt, die teuer und riskant zu schließen sind.
+    slug_de: regulatorische-compliance-drift
+  reimplemented-standard-functionality:
+    title_de: Neu implementierte Standardfunktionalität
+    description_de: Eine Fähigkeit, die das Produkt bereits bietet, wurde erneut als individuelle Entwicklung gebaut, was Wartungsaufwand hinzufügt und den Nutzen des Produktkaufs zunichtemacht.
+    slug_de: neu-implementierte-standardfunktionalitaet
+  release-anxiety:
+    title_de: Release-Angst
+    description_de: Das Entwicklungsteam ist wegen des hohen Fehlschlagsrisikos und des Drucks, es richtig zu machen, ängstlich und gestresst bezüglich Deployments.
+    slug_de: release-angst
+  release-instability:
+    title_de: Release-Instabilität
+    description_de: Produktions-Releases sind häufig instabil, was Störungen für Nutzer verursacht und sofortige Aufmerksamkeit des Entwicklungsteams erfordert.
+    slug_de: release-instabilitaet
+  requirements-ambiguity:
+    title_de: Anforderungsmehrdeutigkeit
+    description_de: Systemanforderungen sind unklar, unvollständig oder für mehrere Interpretationen offen, was zu fehlausgerichteten Implementierungen und Nacharbeit führt.
+    slug_de: anforderungsmehrdeutigkeit
+  resistance-to-change:
+    title_de: Widerstand gegen Veränderung
+    description_de: Teams zögern, Teile des Systems zu refaktorisieren oder zu verbessern, aufgrund wahrgenommenen Risikos und Aufwands, was zu Stagnation führt.
+    slug_de: widerstand-gegen-veraenderung
+  resource-allocation-failures:
+    title_de: Fehler bei der Ressourcenzuweisung
+    description_de: Objekte, Verbindungen, Datei-Handles oder andere Systemressourcen werden zugewiesen, aber nie ordentlich freigegeben oder geschlossen, was zu Ressourcenerschöpfung führt.
+    slug_de: fehler-bei-der-ressourcenzuweisung
+  resource-contention:
+    title_de: Ressourcenkonkurrenz
+    description_de: Der Server ist überlastet, und die Anwendung konkurriert um begrenzte Ressourcen wie CPU, Speicher oder I/O.
+    slug_de: ressourcenkonkurrenz
+  resource-waste:
+    title_de: Ressourcenverschwendung
+    description_de: Verfügbare Ressourcen werden nicht effektiv genutzt, was zu Unterauslastung führt, während andere Bereiche eingeschränkt oder überlastet bleiben.
+    slug_de: ressourcenverschwendung
+  rest-api-design-issues:
+    title_de: Probleme im REST-API-Design
+    description_de: Schlechtes REST-API-Design verletzt REST-Prinzipien, erzeugt Nutzbarkeitsprobleme und führt zu ineffizienten Client-Server-Interaktionen.
+    slug_de: probleme-im-rest-api-design
+  retention-obligations-block-change:
+    title_de: Aufbewahrungspflichten blockieren Änderungen
+    description_de: Gesetzliche Aufbewahrungspflichten hängen an Daten, deren Format und System niemand ändern kann, sodass die Pflicht das System einfriert, das sie enthält.
+    slug_de: aufbewahrungspflichten-blockieren-aenderungen
+  review-bottlenecks:
+    title_de: Review-Engpässe
+    description_de: Der Code-Review-Prozess wird zu einem erheblichen Engpass, was die Auslieferung neuer Funktionen und Fehlerbehebungen verzögert.
+    slug_de: review-engpaesse
+  review-process-avoidance:
+    title_de: Vermeidung des Review-Prozesses
+    description_de: Teammitglieder suchen aktiv nach Wegen, Code-Review-Anforderungen zu umgehen oder zu minimieren, was den Qualitätssicherungsprozess untergräbt.
+    slug_de: vermeidung-des-review-prozesses
+  review-process-breakdown:
+    title_de: Zusammenbruch des Review-Prozesses
+    description_de: Code-Review-Praktiken schaffen es aufgrund systemischer Prozessfehler nicht, kritische Probleme zu identifizieren, aussagekräftiges Feedback zu geben oder die Codequalität zu verbessern.
+    slug_de: zusammenbruch-des-review-prozesses
+  reviewer-anxiety:
+    title_de: Reviewer-Angst
+    description_de: Teammitglieder fühlen sich unsicher und ängstlich bei der Durchführung von Code-Reviews, was zu Vermeidung oder oberflächlichen Review-Praktiken führt.
+    slug_de: reviewer-angst
+  reviewer-inexperience:
+    title_de: Unerfahrenheit der Reviewer
+    description_de: Reviewern fehlt die Erfahrung, um tiefere Probleme zu identifizieren, sodass sie sich auf das konzentrieren, was sie verstehen.
+    slug_de: unerfahrenheit-der-reviewer
+  ripple-effect-of-changes:
+    title_de: Wellenwirkung von Änderungen
+    description_de: Eine kleine Änderung in einem Teil des Systems erfordert Anpassungen in vielen anderen, scheinbar unabhängigen Teilen, was auf hohe Kopplung hinweist.
+    slug_de: wellenwirkung-von-aenderungen
+  rushed-approvals:
+    title_de: Übereilte Genehmigungen
+    description_de: Pull Requests werden aufgrund von Zeitdruck oder Prozessproblemen schnell genehmigt, ohne gründliche Prüfung.
+    slug_de: uebereilte-genehmigungen
+  scaling-inefficiencies:
+    title_de: Ineffizienzen bei der Skalierung
+    description_de: Eine Situation, in der es schwierig oder unmöglich ist, verschiedene Teile eines Systems unabhängig voneinander zu skalieren.
+    slug_de: ineffizienzen-bei-der-skalierung
+  schema-evolution-paralysis:
+    title_de: Lähmung der Schema-Evolution
+    description_de: Das Datenbankschema kann aufgrund umfangreicher Abhängigkeiten und fehlendem Migrations-Tooling nicht geändert werden, um neue Anforderungen zu unterstützen.
+    slug_de: laehmung-der-schema-evolution
+  scope-change-resistance:
+    title_de: Widerstand gegen Scope-Änderungen
+    description_de: Notwendige Änderungen am Projektumfang werden aufgrund von Prozesseinschränkungen, Vertragsbeschränkungen oder organisatorischer Trägheit vermieden oder abgelehnt.
+    slug_de: widerstand-gegen-scope-aenderungen
 
 solutions: {}
