@@ -24,6 +24,10 @@ Zweites Kernproblem: Mehrere Skripte und ein Client-seitiges Script matchen Absc
 
 - **URL-Präfix `de/`:** Die deutsche Seite lebt unter `/de/...` (z. B. `/de/problems/foo.html`, `/de/`, `/de/solutions/`, `/de/categories/`), die englische bleibt unverändert auf der bestehenden Root-URL. Bestätigt vom Nutzer.
 - **Deutsche Slugs:** Die Dateinamen (und damit URLs) in `_problems_de`/`_solutions_de` sind **eigene, aus dem deutschen Titel abgeleitete Slugs** (lowercase, Bindestriche, wie in `CLAUDE.md` für alle Markdown-Dateinamen gefordert) — sie sind **nicht** identisch mit dem englischen Dateinamen. Bestätigt vom Nutzer. Das ändert Entscheidung 1 (Dateibaum) und Entscheidung 6 (Sprachumschalter) unten gegenüber der ursprünglichen "gleicher Slug"-Annahme.
+- **Title Case:** Deutsche Titel folgen normaler deutscher Groß-/Kleinschreibung (nur Substantive, Satzanfänge, Eigennamen groß) — **nicht** der NYT-Title-Case-Regel aus `CLAUDE.md`, die eine rein englische Konvention ist. `convert_titles.py` gilt also nicht für `_de`-Titel; die deutsche Titeltabelle (Phase 2) braucht keine Title-Case-Prüfung. Bestätigt vom Nutzer.
+- **Anglizismen bleiben:** Etablierte englische Fachbegriffe (Legacy System, Technical Debt, Root Cause, Code Smell, Refactoring, Onboarding, Feature Flag, …) werden im deutschen Fließtext **beibehalten**, nicht eingedeutscht — keine Fall-für-Fall-Entscheidung nötig. Bestätigt vom Nutzer. Ein schlankes `_data/glossary_de.yml` ist trotzdem sinnvoll, aber nur um Schreibweise/Grammatik konsistent zu halten (z. B. einheitlich "Legacy-System" mit Bindestrich, einheitliche Groß-/Kleinschreibung bei eingebetteten Fachbegriffen), nicht um zu entscheiden, ob übersetzt wird.
+- **Vollständiger Umfang, kein MVP zuerst:** Es wird direkt der komplette Katalog übersetzt (alle 452 Probleme + 561 Lösungen), keine kleinere Teilmenge als Machbarkeitsnachweis vorab. Bestätigt vom Nutzer. Phase 3 bleibt trotzdem batchweise organisiert (siehe dort) — das ist nur zur Fortschrittskontrolle, keine Umfangs-Begrenzung.
+- **Landscape-Seite wird mitübersetzt:** `/de/landscape/` bekommt eine deutsche Version. Die zugrundeliegende Cluster-Berechnung (UMAP/k-means auf den Embeddings, `scripts/create_landscape.py`) wird **nicht** neu für Deutsch gerechnet — Positionen/Cluster bleiben identisch zur englischen Landscape, nur die angezeigten Labels/Titel werden aus `_data/titles_de.yml`/den `_de`-Collections gezogen (Layout-technisch: `landscape.js` bzw. die Datengenerierung braucht einen deutschen Label-Layer über denselben Koordinaten). Bestätigt vom Nutzer, siehe Entscheidung 5 unten für Details.
 
 ## Offene Architekturentscheidungen
 
@@ -60,7 +64,9 @@ Alle sichtbaren Strings in `_layouts/*.html`, `_includes/*.html`, `index.html`, 
 
 ### 5. Related Problems/Solutions & Landscape
 
-`related_problems`, `related_solutions`, `solutions`/`problems`-Listen sowie die Landscape-Cluster basieren auf Embeddings des **englischen** Texts. Statt für Deutsch neu zu berechnen (zweiter Embedding-Lauf, zweite Landscape-Generierung, doppelte Pflege): Die deutschen Dateien übernehmen exakt dieselben (englischen) Slug-Listen aus ihrem englischen Original 1:1 — diese Felder bleiben also **englische Slugs**, auch in der DE-Datei. Weil DE-Dateinamen jetzt eigene Slugs haben (s. o.), müssen `_layouts/problem.html`/`solution.html` beim Auflösen dieser Listen sprachabhängig den passenden Join-Key wählen: auf EN-Seiten wie bisher `site.problems | where: "slug", related_slug`, auf DE-Seiten `site.problems_de | where: "en_slug", related_slug` (statt `"slug"`). Das ist ein kleiner, aber notwendiger Umbau der bestehenden Layout-Logik, siehe Phase 0/1. Landscape-Seite bleibt vorerst englisch-only; Sprachumschalter zeigt "Landscape" auf der deutschen Seite optional ausgegraut/verlinkt zur EN-Version, bis eine deutsche Landscape-Variante separat entschieden wird.
+`related_problems`, `related_solutions`, `solutions`/`problems`-Listen sowie die Landscape-Cluster basieren auf Embeddings des **englischen** Texts. Statt für Deutsch neu zu berechnen (zweiter Embedding-Lauf, zweite Landscape-Generierung, doppelte Pflege): Die deutschen Dateien übernehmen exakt dieselben (englischen) Slug-Listen aus ihrem englischen Original 1:1 — diese Felder bleiben also **englische Slugs**, auch in der DE-Datei. Weil DE-Dateinamen jetzt eigene Slugs haben (s. o.), müssen `_layouts/problem.html`/`solution.html` beim Auflösen dieser Listen sprachabhängig den passenden Join-Key wählen: auf EN-Seiten wie bisher `site.problems | where: "slug", related_slug`, auf DE-Seiten `site.problems_de | where: "en_slug", related_slug` (statt `"slug"`). Das ist ein kleiner, aber notwendiger Umbau der bestehenden Layout-Logik, siehe Phase 0/1.
+
+**Landscape (Entscheidung: wird übersetzt, s. "Entschieden" oben):** `assets/js/landscape-data.js` wird nicht neu generiert — die x/y-Positionen und Cluster kommen unverändert aus dem englischen Lauf von `create_landscape.py`. Für `/de/landscape/` braucht `landscape.js` (oder die Datengenerierung) zusätzlich einen Titel-Lookup pro Knoten, der bei `lang: de` den deutschen Titel aus der Phase-2-Titeltabelle statt des englischen `title`-Felds zieht — die Koordinaten je Slug bleiben gleich, nur das angezeigte Label wechselt. Umsetzung dafür einplanen (kleiner Zusatzschritt in Phase 1 oder Phase 3, je nachdem wann die Titeltabelle steht).
 
 ### 6. Wo lebt der Sprachumschalter?
 
@@ -100,9 +106,8 @@ Gesamt ca. **1013 Katalog-Dateien** plus ca. 14 Chrome-Dateien.
 Ergebnis: `/de/` ist erreichbar, navigierbar, aber Problem-/Lösungsseiten liefern noch 404 bzw. sind leer.
 
 ### Phase 2 — Titel-Übersetzungstabelle (Grundlage für Phase 3)
-- [ ] Für alle 1013 Slugs den deutschen Titel + deutsche Kurzbeschreibung **und einen daraus abgeleiteten deutschen Slug** vorab erzeugen (z. B. per Skript/Agenten-Batch, Ergebnis in einer Zwischentabelle, etwa `scripts/i18n/titles_de.csv` oder `_data/titles_de.yml`, Spalten: `slug` (EN, Join-Key), `collection`, `title_de`, `description_de`, `slug_de` (neuer Dateiname, lowercase/Bindestriche))
-- [ ] `slug_de`-Werte auf Eindeutigkeit prüfen (Kollisionen zweier unterschiedlicher EN-Slugs auf denselben deutschen Slug sind zu erwarten und müssen manuell aufgelöst werden, z. B. durch Anhängen eines unterscheidenden Worts)
-- [ ] Titel manuell/durch Review gegenprüfen: Title-Case-Regeln gelten auch für die deutsche Variante? (zu klären — im Deutschen ist durchgehende Großschreibung der Substantive ungewöhnlich; siehe offene Frage unten)
+- [ ] Für alle 1013 Slugs den deutschen Titel (normale deutsche Groß-/Kleinschreibung, keine NYT-Regel) + deutsche Kurzbeschreibung **und einen daraus abgeleiteten deutschen Slug** vorab erzeugen (z. B. per Skript/Agenten-Batch, Ergebnis in einer Zwischentabelle, etwa `scripts/i18n/titles_de.csv` oder `_data/titles_de.yml`, Spalten: `slug` (EN, Join-Key), `collection`, `title_de`, `description_de`, `slug_de` (neuer Dateiname, lowercase/Bindestriche))
+- [ ] `slug_de`-Werte auf Eindeutigkeit prüfen; bei Kollision (zwei EN-Slugs übersetzen auf denselben deutschen Slug) einen unterscheidenden Zusatz an den Slug anhängen (Default-Konvention, kein separater Klärungsbedarf)
 - [ ] Diese Tabelle ist die einzige Quelle für Linktexte **und Ziel-Dateinamen** in Phase 3 — verhindert, dass zwei Dateien denselben Zielslug unterschiedlich übersetzen oder unterschiedliche Dateinamen für dasselbe Original vergeben
 
 ### Phase 3 — Inhalte übersetzen (der große Teil)
@@ -113,10 +118,10 @@ Batch-weise, z. B. 25–50 Dateien pro Durchgang, mit Fortschrittstabelle unten.
 - [ ] Jeden internen Link umschreiben: Linktext = deutscher Titel aus der Tabelle, Pfad zeigt auf `<slug_de>.md` in der `_de`-Collection (aus der Titeltabelle nachschlagen, nicht den EN-Dateinamen wiederverwenden)
 - [ ] Nach jedem Batch: `python scripts/check_links.py` und `python scripts/validate_causal_links.py --detail` auf die neue Collection anwenden (Skripte müssen dafür ein Verzeichnis-Argument bekommen statt hart `_problems`/`_solutions` anzunehmen — ggf. kleiner Parametrisierungs-Task vorab)
 
-Empfehlung zur Ausführung: sobald Phase 0–2 stehen, eignet sich dieser Teil für eine pipeline-artige Bearbeitung (Datei → Übersetzen → Link-Validierung) über mehrere Agenten/Durchläufe, weil es sich um 1013 weitgehend gleichförmige, aber inhaltlich zu prüfende Einheiten handelt. Sollte der Nutzer das ausdrücklich wünschen, kann das über das Workflow-Tool orchestriert werden; das ist aber eine Ausführungsentscheidung für später, nicht Teil dieses Plans.
+Umfang: alle 1013 Dateien, kein Teilausschnitt (s. "Entschieden" oben). Empfehlung zur Ausführung: sobald Phase 0–2 stehen, eignet sich dieser Teil für eine pipeline-artige Bearbeitung (Datei → Übersetzen → Link-Validierung) über mehrere Agenten/Durchläufe, weil es sich um 1013 weitgehend gleichförmige, aber inhaltlich zu prüfende Einheiten handelt. Sollte der Nutzer das ausdrücklich wünschen, kann das über das Workflow-Tool orchestriert werden; das ist aber eine Ausführungsentscheidung für später, nicht Teil dieses Plans.
 
 ### Phase 4 — Qualitätssicherung
-- [ ] Stichprobenartige fachliche Prüfung der Übersetzung (Terminologie konsistent? z. B. "Legacy System", "Technical Debt" — bewusst Anglizismus lassen oder eindeutschen? → offene Frage)
+- [ ] Stichprobenartige fachliche Prüfung der Übersetzung (Anglizismen konsistent beibehalten, s. "Entschieden" oben — hier geht es nur noch um einheitliche Schreibweise, nicht um die Grundsatzfrage)
 - [ ] Vollständigkeitscheck: jede `_problems/*.md` hat ein Pendant in `_problems_de/`, jede `_solutions/*.md` ein Pendant in `_solutions_de/`
 - [ ] Build-Test: `bundle exec jekyll build` (voller Build, kein `--incremental`, da neue Collections/Content) + Stichproben-Navigation auf `/de/`
 
@@ -124,12 +129,11 @@ Empfehlung zur Ausführung: sobald Phase 0–2 stehen, eignet sich dieser Teil f
 - [ ] Workflow-Regeln (`pr:generate_new_problems`, `pr:add_tech_debt`, manuelles Hinzufügen) so ergänzen, dass neue EN-Einträge eine offene ToDo-Markierung für die DE-Übersetzung bekommen (z. B. Eintrag in einer Rückstandsliste), statt dass `_problems_de`/`_solutions_de` stillschweigend veraltet
 - [ ] Turnusmäßiger Nachzieh-Lauf (analog zu `calculate_related_problems.py`) für neu hinzugekommene Dateien
 
-## Offene Fragen (vor Phase 2 zu klären)
+## Offene Fragen
 
-1. **Title Case im Deutschen:** Die Titel-Case-Regel (NYT Manual of Style) ist eine englische Konvention. Deutsche Titel folgen üblicherweise normaler Satz-/Titelgroßschreibung (nur Substantive + Satzanfang groß). Vorschlag: für `_de`-Collections deutsche Standard-Großschreibung verwenden, nicht die NYT-Regel erzwingen — bitte bestätigen.
-2. **Terminologie-Glossar:** Etablierte Fachbegriffe (Legacy System, Technical Debt, Root Cause, Code Smell, Refactoring, Onboarding …) — 1:1 im Original belassen oder eindeutschen? Empfehlung: gängige, im deutschen Software-Engineering-Sprachgebrauch etablierte Anglizismen beibehalten (z. B. "Legacy-System", "Refactoring", "Onboarding"), nur dort eindeutschen, wo ein ebenso gebräuchliches deutsches Wort existiert (z. B. "Root Cause" → "Grundursache"). Ein kurzes Glossar vor Phase 3 als `_data/glossary_de.yml` festhalten, damit alle Batches dieselben Begriffe konsistent verwenden.
-3. **Umfang der Landscape-Seite auf Deutsch:** vorerst ausgeklammert (s. Entscheidung 5) — reicht das, oder soll sie von Anfang an mit übersetzten Labels mitgezogen werden?
-4. **MVP vs. Vollausbau:** Reicht als erster Wurf eine deutsche Chrome-Übersetzung (Phase 0–1) plus eine kleine Teilmenge an Problemen/Lösungen (z. B. die am stärksten vernetzten 50) als Machbarkeitsnachweis, bevor alle 1013 Dateien übersetzt werden? Empfehlung: ja, um Format/Tooling/Terminologie an einer überschaubaren Menge zu validieren, bevor der große Batch läuft.
+Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang und Vollausbau-vs.-MVP sind entschieden (s. "Entschieden" oben). Verbleibt nur ein kleiner Implementierungsdetail-Punkt, keine Entscheidung, die der Nutzer treffen muss:
+
+- Exakte Namenskonvention für den Zusatz bei `slug_de`-Kollisionen (Phase 2) — wird beim Erzeugen der Titeltabelle pragmatisch festgelegt (z. B. unterscheidendes Wort aus dem Kontext anhängen).
 
 ## Fortschritt Phase 3 (wird bei Bearbeitung aktualisiert)
 
