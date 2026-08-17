@@ -3746,3 +3746,243 @@ solutions:
     title_de: Spezialisierte Hardware
     description_de: Nutzung hardwarebeschleunigter Funktionen oder spezialisierter Hardwarekomponenten.
     slug_de: spezialisierte-hardware
+  specification-by-example:
+    title_de: Specification by Example
+    description_de: Kollaborative Definition von Anforderungen durch konkrete Beispiele, die zu ausführbaren Spezifikationen werden.
+    slug_de: specification-by-example
+  staged-investment-with-decision-gates:
+    title_de: Gestufte Investition mit Entscheidungspunkten
+    description_de: Finanzierung der Modernisierung in Tranchen, von denen jede Information erkauft, mit einer festgelegten Entscheidung an jedem Tor — einschließlich der Entscheidung, aufzuhören.
+    slug_de: gestufte-investition-mit-entscheidungspunkten
+  stakeholder-feedback-loops:
+    title_de: Stakeholder-Feedback-Loops
+    description_de: Strukturierte Mechanismen für regelmäßige Stakeholder-Einbindung über den gesamten Entwicklungszyklus, um Ausrichtung und Vertrauen zu erhalten.
+    slug_de: stakeholder-feedback-loops
+  standard-software:
+    title_de: Standardsoftware
+    description_de: Nutzung erprobter Standardsoftware, statt gewöhnliche Funktionalität selbst zu entwickeln.
+    slug_de: standardsoftware
+  standardized-data-formats:
+    title_de: Standardisierte Datenformate
+    description_de: Nutzung weit verbreiteter, plattformunabhängiger Datenformate für den Datenaustausch.
+    slug_de: standardisierte-datenformate
+  standardized-deployment-scripts:
+    title_de: Standardisierte Deployment-Skripte
+    description_de: Erstellung einheitlicher Skripte für Deployment und Konfiguration über verschiedene Plattformen hinweg.
+    slug_de: standardisierte-deployment-skripte
+  standardized-interfaces:
+    title_de: Standardisierte Schnittstellen
+    description_de: Übernahme weit akzeptierter Schnittstellenstile, sodass jeder Konsument ohne maßgeschneiderte Adapter integrieren kann.
+    slug_de: standardisierte-schnittstellen
+  standardized-protocols:
+    title_de: Standardisierte Protokolle
+    description_de: Wahl von Transport- und Messaging-Protokollen mit breiter Ökosystem-Unterstützung.
+    slug_de: standardisierte-protokolle
+  static-analysis-and-linting:
+    title_de: Statische Analyse und Linting
+    description_de: Automatische Überprüfung von Quellcode auf potenzielle Probleme.
+    slug_de: statische-analyse-und-linting
+  static-code-analysis:
+    title_de: Statische Codeanalyse
+    description_de: Automatische Prüfung von Quellcode auf Programmierfehler und Sicherheitslücken.
+    slug_de: statische-codeanalyse
+  status-monitoring:
+    title_de: Statusüberwachung
+    description_de: Kontinuierliche Überwachung des Zustands und der Performance von Komponenten oder Services.
+    slug_de: statusueberwachung
+  story-mapping:
+    title_de: Story Mapping
+    description_de: Visualisierung vollständiger Nutzerreisen als zweidimensionale Karte von Lücken und Prioritäten.
+    slug_de: story-mapping
+  strangler-fig-pattern:
+    title_de: Strangler-Fig-Pattern
+    description_de: Schrittweiser Ersatz von Legacy-Systemen durch Weiterleitung von Traffic zu neuen Implementierungen.
+    slug_de: strangler-fig-pattern
+  strategic-code-deletion:
+    title_de: Strategisches Löschen von Code
+    description_de: Gezielte Entfernung überflüssigen oder veralteten Codes zur Reduzierung der Codebasis.
+    slug_de: strategisches-loeschen-von-code
+  streaming:
+    title_de: Streaming
+    description_de: Kontinuierliche Verarbeitung und Übertragung von Daten.
+    slug_de: streaming
+  stress-testing:
+    title_de: Stresstests
+    description_de: Testen der Software unter extremen Lastbedingungen.
+    slug_de: stresstests
+  structured-communication-protocols:
+    title_de: Strukturierte Kommunikationsprotokolle
+    description_de: Etablierung expliziter Regeln, Kanäle und Taktungen dafür, wie Informationen innerhalb und außerhalb des Projektteams fließen, statt ad-hoc-Kommunikation durch bewusste Praktiken zu ersetzen.
+    slug_de: strukturierte-kommunikationsprotokolle
+  structured-onboarding-program:
+    title_de: Strukturiertes Onboarding-Programm
+    description_de: Ein bewusster, wiederholbarer Onboarding-Prozess, der neuen Teammitgliedern in den ersten Wochen geführten Zugang zu Personen, Wissen, Werkzeugen und Codebasis-Kontext gibt.
+    slug_de: strukturiertes-onboarding-programm
+  style-guide:
+    title_de: Style Guide
+    description_de: Sicherstellung konsistenten Designs und Nutzererlebnisses.
+    slug_de: style-guide
+  subject-matter-reviews:
+    title_de: Fachliche Reviews
+    description_de: Arbeitsergebnisse von Fachexperten überprüfen und freigeben lassen.
+    slug_de: fachliche-reviews
+  supply-chain-security:
+    title_de: Supply-Chain-Sicherheit
+    description_de: Absicherung der Software-Lieferkette durch SBOMs und Herkunftsverifikation.
+    slug_de: supply-chain-sicherheit
+  sustainable-pace-practices:
+    title_de: Praktiken für nachhaltiges Arbeitstempo
+    description_de: Schutz von Teamgesundheit und langfristiger Produktivität durch Steuerung der Arbeitslast, Begrenzung von Kontextwechseln und Sicherstellung von Erholungszeit durch explizite Richtlinien und Workflow-Gestaltung.
+    slug_de: praktiken-fuer-nachhaltiges-arbeitstempo
+  system-decommissioning:
+    title_de: Systemabschaltung
+    description_de: Bewusste Außerbetriebnahme von Systemen — mit Verantwortlichen, Terminen, einem Datenplan und verifizierter Abschaltung — statt sie laufen zu lassen, weil niemand entschieden hat, sie zu stoppen.
+    slug_de: systemabschaltung
+  team-autonomy-and-empowerment:
+    title_de: Teamautonomie und Empowerment
+    description_de: Delegation von Entscheidungsbefugnis an Teams und Einzelpersonen, wodurch zentralisierte Genehmigungsengpässe durch Vertrauen, klare Grenzen und Rechenschaftspflicht für Ergebnisse ersetzt werden.
+    slug_de: teamautonomie-und-empowerment
+  team-boundaries-aligned-to-architecture:
+    title_de: Teamgrenzen an der Architektur ausgerichtet
+    description_de: Ziehen von Teamgrenzen entlang der tatsächlichen Systemgrenzen, sodass die meisten Änderungen von einem Team ohne teamübergreifende Koordination abgeschlossen werden können.
+    slug_de: teamgrenzen-an-der-architektur-ausgerichtet
+  team-retrospectives:
+    title_de: Team-Retrospektiven
+    description_de: Regelmäßige Überprüfung der Arbeitsweise des Teams und Änderung jeweils einer Sache, wobei die Änderungen wie jede andere Arbeit nachverfolgt werden.
+    slug_de: team-retrospektiven
+  team-working-agreements:
+    title_de: Team-Arbeitsvereinbarungen
+    description_de: Explizitmachen der ungeschriebenen Erwartungen des Teams — wie Entscheidungen getroffen werden, wie mit Meinungsverschiedenheiten umgegangen wird, was geteilt wird, wofür ein Meeting da ist — und Überarbeitung, wenn sie scheitern.
+    slug_de: team-arbeitsvereinbarungen
+  technical-debt-assessment:
+    title_de: Bewertung technischer Schulden
+    description_de: Untersuchung eines Bereichs im Detail, zeitlich begrenzt, mit einem schriftlichen Bild dessen, was dort tatsächlich falsch ist — ersetzt allgemeine Sorge durch konkrete Befunde.
+    slug_de: bewertung-technischer-schulden
+  technical-debt-backlog:
+    title_de: Management technischer Schulden
+    description_de: Systematische Identifikation, Nachverfolgung und Priorisierung technischer Schulden.
+    slug_de: management-technischer-schulden
+  technical-skills-development:
+    title_de: Entwicklung technischer Fähigkeiten
+    description_de: Systematische Investition in Teamfähigkeiten durch gezielte Schulungen, Mentoring, Code-Katas und angeleitete Praxis, um Kompetenzlücken zu schließen, die wiederkehrende Design- und Implementierungsfehler verursachen.
+    slug_de: entwicklung-technischer-faehigkeiten
+  technical-spike:
+    title_de: Technischer Spike
+    description_de: Validierung, dass eine Architektur unter erwartetem Wachstum wartbar bleibt.
+    slug_de: technischer-spike
+  technology-radar:
+    title_de: Technologie-Radar
+    description_de: Pflege einer expliziten, regelmäßig überprüften Liste, welche Technologien die Organisation übernimmt, toleriert oder abschaltet — und Einhaltung der Entscheidungen.
+    slug_de: technologie-radar
+  test-coverage-strategy:
+    title_de: Strategie für automatisierte Tests
+    description_de: Automatische Durchführung und regelmäßige Ausführung von Software-Tests.
+    slug_de: strategie-fuer-automatisierte-tests
+  test-driven-development-tdd:
+    title_de: Test-Driven Development (TDD)
+    description_de: Schreiben von Tests vor der eigentlichen Implementierung.
+    slug_de: test-driven-development-tdd
+  third-party-dependency-check:
+    title_de: Prüfung von Drittanbieter-Abhängigkeiten
+    description_de: Regelmäßige Überprüfung von Abhängigkeiten von externer Software.
+    slug_de: pruefung-von-drittanbieter-abhaengigkeiten
+  threat-intelligence:
+    title_de: Threat Intelligence
+    description_de: Sammlung und Analyse von Informationen über aktuelle Bedrohungen und Angriffsmethoden.
+    slug_de: threat-intelligence
+  threat-modeling:
+    title_de: Threat Modeling
+    description_de: Durchführung systematischer Analyse von Bedrohungen, Angreifern und Gegenmaßnahmen.
+    slug_de: threat-modeling
+  timeout-management:
+    title_de: Timeout-Management
+    description_de: Definition und Durchsetzung von Timeouts für alle externen Aufrufe gegen unbegrenztes Blockieren.
+    slug_de: timeout-management
+  timestamping:
+    title_de: Zeitstempelung
+    description_de: Hinzufügen von Zeitstempeln zu Daten oder Ereignissen zur zeitlichen Nachverfolgung.
+    slug_de: zeitstempelung
+  tolerant-reader:
+    title_de: Tolerant-Reader-Pattern
+    description_de: Ignorieren unbekannter Felder und Toleranz gegenüber strukturellen Ergänzungen auf Konsumentenseite.
+    slug_de: tolerant-reader-pattern
+  total-cost-of-ownership-transparency:
+    title_de: Transparenz der Gesamtbetriebskosten
+    description_de: Messung und Veröffentlichung dessen, was ein Legacy-System tatsächlich kostet, um am Laufen zu bleiben — Wartung, Vorfälle, Lizenzen und verlorene Kapazität — sodass Investitionsentscheidungen auf Zahlen statt auf Eindrücken beruhen.
+    slug_de: transparenz-der-gesamtbetriebskosten
+  tracer-bullets:
+    title_de: Tracer Bullets
+    description_de: Frühzeitige Validierung durchgängiger Funktionalität durch vereinfachte Implementierungen.
+    slug_de: tracer-bullets
+  transactions:
+    title_de: Transaktionen
+    description_de: Gruppierung mehrerer Operationen in eine atomare, konsistente Einheit.
+    slug_de: transaktionen
+  transparent-performance-metrics:
+    title_de: Transparente Performance-Metriken
+    description_de: Offene Darstellung von Systemperformance und Verarbeitungszeiten.
+    slug_de: transparente-performance-metriken
+  tree-shaking:
+    title_de: Tree Shaking
+    description_de: Entfernung ungenutzten Codes während des Builds.
+    slug_de: tree-shaking
+  trunk-based-development:
+    title_de: Trunk-Based Development
+    description_de: Kontinuierliche Integration kurzlebiger Branches in den Main-Branch für schnelle, sichere Änderungen.
+    slug_de: trunk-based-development
+  trust-boundaries:
+    title_de: Vertrauensgrenzen
+    description_de: Definition von Grenzen zwischen Systemen und Komponenten mit unterschiedlichen Vertrauensstufen.
+    slug_de: vertrauensgrenzen
+  two-factor-authentication:
+    title_de: Zwei-Faktor-Authentifizierung
+    description_de: Überprüfung der Identität mithilfe zweier unabhängiger Faktoren.
+    slug_de: zwei-faktor-authentifizierung
+  typed-schema-extraction:
+    title_de: Extraktion typisierter Schemata
+    description_de: Beförderung der Attribute, die wirklich Teil der Domäne sind, in typisierte, eingeschränkte Spalten, sodass nur der spärliche Rest generisch bleibt.
+    slug_de: extraktion-typisierter-schemata
+  ubiquitous-language:
+    title_de: Ubiquitous Language
+    description_de: Ausrichtung des Vokabulars von Entwicklern und Fachexperten in Code und Gespräch.
+    slug_de: ubiquitous-language
+  understandable-error-messages:
+    title_de: Verständliche Fehlermeldungen
+    description_de: Anzeige klarer, kontextbezogener Fehlermeldungen, wenn Probleme auftreten.
+    slug_de: verstaendliche-fehlermeldungen
+  undo-and-redo:
+    title_de: Rückgängig machen und Wiederholen
+    description_de: Nutzern erlauben, Aktionen rückgängig zu machen und erneut anzuwenden, zur Fehlerbehebung und zum Erkunden.
+    slug_de: rueckgaengig-machen-und-wiederholen
+  usability-tests:
+    title_de: Usability-Tests
+    description_de: Durchführung von Tests mit repräsentativen Nutzern.
+    slug_de: usability-tests
+  user-acceptance-tests:
+    title_de: Abnahmetests durch Nutzer
+    description_de: Bestätigung der Erfüllung von Anforderungen durch formale Abnahmetests mit Nutzern.
+    slug_de: abnahmetests-durch-nutzer
+  user-centered-design:
+    title_de: Nutzerzentriertes Design
+    description_de: Einbeziehung von Nutzerbedürfnissen, -erwartungen und -fähigkeiten von Anfang an.
+    slug_de: nutzerzentriertes-design
+  user-communities:
+    title_de: Nutzer-Communities
+    description_de: Etablierung einer Plattform für Austausch und Unterstützung unter Nutzern.
+    slug_de: nutzer-communities
+  user-stories:
+    title_de: User Stories
+    description_de: Formulierung von Anforderungen aus Nutzerperspektive.
+    slug_de: user-stories
+  value-hierarchy:
+    title_de: Werthierarchie
+    description_de: Pflege einer expliziten Kette von jedem technischen Arbeitsschritt bis zu einem Geschäftsziel, sodass Wert nachverfolgt statt behauptet werden kann.
+    slug_de: werthierarchie
+  value-range-definition:
+    title_de: Definition von Wertebereichen
+    description_de: Definition akzeptabler Wertebereiche für Eingaben und Ausgaben.
+    slug_de: definition-von-wertebereichen
+  value-stream-mapping:
+    title_de: Value Stream Mapping
+    description_de: Abbildung jedes Schritts von der Anfrage bis zur Produktion mit Bearbeitungs- und Wartezeit, sodass die Wartezeit — die fast immer den Großteil ausmacht — sichtbar und angehbar wird.
+    slug_de: value-stream-mapping
