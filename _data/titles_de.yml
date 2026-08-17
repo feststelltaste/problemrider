@@ -3506,3 +3506,243 @@ solutions:
     title_de: Wiederherstellungspunkte
     description_de: Regelmäßige Sicherung des Systemzustands.
     slug_de: wiederherstellungspunkte
+  retention-and-disposal-policy:
+    title_de: Aufbewahrungs- und Löschrichtlinie
+    description_de: Festlegung, was in welcher Form wie lange aufbewahrt werden muss und was gelöscht werden muss, sodass die Aufbewahrungspflicht die Daten einschränkt, statt das haltende System einzufrieren.
+    slug_de: aufbewahrungs-und-loeschrichtlinie
+  retry:
+    title_de: Retry
+    description_de: Wiederholung fehlgeschlagener Operationen zur Behandlung vorübergehender Fehler.
+    slug_de: retry
+  risk-analysis:
+    title_de: Risikoanalyse
+    description_de: Identifikation, Bewertung und Behandlung von Risiken.
+    slug_de: risikoanalyse
+  risk-quantification:
+    title_de: Risikoquantifizierung
+    description_de: Ausdruck des Legacy-Risikos als erwarteten Verlust in Geld — Wahrscheinlichkeit mal Auswirkung — sodass vermiedener Schaden in einer Finanzierungsentscheidung mit Umsatz konkurrieren kann.
+    slug_de: risikoquantifizierung
+  role-based-access-control:
+    title_de: Rollenbasierte Zugriffskontrolle
+    description_de: Steuerung des Zugriffs auf Anwendungskomponenten basierend auf Rollen.
+    slug_de: rollenbasierte-zugriffskontrolle
+  role-model-rationalization:
+    title_de: Bereinigung des Rollenmodells
+    description_de: Wiederaufbau eines explodierten Berechtigungsmodells aus Evidenz darüber, was Menschen tatsächlich tun, und Etablierung eines Prozesses, durch den Zugriff sowohl entzogen als auch gewährt wird.
+    slug_de: bereinigung-des-rollenmodells
+  rollback-mechanisms:
+    title_de: Rollback-Mechanismen
+    description_de: Fähigkeit, Änderungen rückgängig zu machen und zu einem vorherigen stabilen Zustand zurückzukehren.
+    slug_de: rollback-mechanismen
+  rolling-updates:
+    title_de: Rolling Updates
+    description_de: Schrittweise Aktualisierung von Servern oder Instanzen.
+    slug_de: rolling-updates
+  root-cause-analysis:
+    title_de: Ursachenanalyse
+    description_de: Systematische Analyse der Ursachen von Ausfällen.
+    slug_de: ursachenanalyse
+  rule-based-systems:
+    title_de: Regelbasierte Systeme
+    description_de: Definition von Regeln, die das Verhalten der Software steuern.
+    slug_de: regelbasierte-systeme
+  runbooks:
+    title_de: Runbooks
+    description_de: Bereitstellung detaillierter Anweisungen zur Bearbeitung von Aufgaben und Vorfällen.
+    slug_de: runbooks
+  saga-pattern:
+    title_de: Saga Pattern
+    description_de: Verwaltung verteilter Transaktionen durch Sequenzen lokaler Transaktionen mit kompensierenden Aktionen.
+    slug_de: saga-pattern
+  sampling:
+    title_de: Sampling
+    description_de: Nutzung einer repräsentativen Teilmenge von Daten für Analyse oder Tests.
+    slug_de: sampling
+  schema-registry:
+    title_de: Schema Registry
+    description_de: Zentrale Verwaltung von Schemata mit erzwungener Datenvertrags-Kompatibilität über Services hinweg.
+    slug_de: schema-registry
+  search-function:
+    title_de: Suchfunktion
+    description_de: Bereitstellung einer leistungsfähigen Suchfunktion für Inhalte und Funktionen.
+    slug_de: suchfunktion
+  secret-management:
+    title_de: Secret Management
+    description_de: Verwaltung von Anwendungs-Secrets mittels dedizierter Vaults und Rotationsrichtlinien.
+    slug_de: secret-management
+  secure-by-default:
+    title_de: Secure by Default
+    description_de: Ausrichtung von Standardeinstellungen und Auslieferungszustand auf maximale Sicherheit.
+    slug_de: secure-by-default
+  secure-coding-guidelines:
+    title_de: Richtlinien für sichere Programmierung
+    description_de: Definition verbindlicher Regeln und bewährter Praktiken für sichere Programmierung.
+    slug_de: richtlinien-fuer-sichere-programmierung
+  secure-configuration:
+    title_de: Sichere Konfiguration
+    description_de: Auslieferung und Betrieb von Systemen mit sicheren Standardeinstellungen.
+    slug_de: sichere-konfiguration
+  secure-programming-interfaces:
+    title_de: Sichere Programmierschnittstellen
+    description_de: Nutzung von Bibliotheken und Frameworks mit Sicherheitsfunktionen.
+    slug_de: sichere-programmierschnittstellen
+  secure-protocols:
+    title_de: Sichere Protokolle
+    description_de: Nutzung ausschließlich sicherer und aktueller Versionen von Netzwerkprotokollen.
+    slug_de: sichere-protokolle
+  secure-session-management:
+    title_de: Sicheres Session-Management
+    description_de: Verwaltung von Sessions basierend auf zufälligen, zeitlich begrenzten IDs.
+    slug_de: sicheres-session-management
+  secure-software-development:
+    title_de: Sichere Softwareentwicklung
+    description_de: Etablierung von Sicherheit als integralem Bestandteil des Entwicklungsprozesses.
+    slug_de: sichere-softwareentwicklung
+  secure-software:
+    title_de: Sichere Software
+    description_de: Verhinderung von Zuverlässigkeitsvorfällen, die durch Sicherheitslücken verursacht werden.
+    slug_de: sichere-software
+  security-architecture-analysis:
+    title_de: Sicherheitsarchitekturanalyse
+    description_de: Untersuchung von Architektur und Design auf konzeptionelle Sicherheitslücken.
+    slug_de: sicherheitsarchitekturanalyse
+  security-audits:
+    title_de: Sicherheitsaudits
+    description_de: Regelmäßige Überprüfung von Systemen und Prozessen auf Sicherheit.
+    slug_de: sicherheitsaudits
+  security-by-design:
+    title_de: Security by Design
+    description_de: Berücksichtigung von Sicherheit bereits im Design von Architektur und Implementierung.
+    slug_de: security-by-design
+  security-certification:
+    title_de: Sicherheitszertifizierung
+    description_de: Einführung eines strukturierten Rahmens zur Bewertung und Verbesserung von Sicherheitspraktiken.
+    slug_de: sicherheitszertifizierung
+  security-community:
+    title_de: Security Community
+    description_de: Förderung sicheren Softwaredesigns durch Austausch mit Experten und Kollegen.
+    slug_de: security-community
+  security-culture:
+    title_de: Sicherheitskultur
+    description_de: Verankerung von Sicherheit als geteiltem Wert im Unternehmen.
+    slug_de: sicherheitskultur
+  security-frameworks:
+    title_de: Sicherheits-Frameworks
+    description_de: Nutzung strukturierter Ansätze zur Identifikation und Minderung von Sicherheitsrisiken.
+    slug_de: sicherheits-frameworks
+  security-hardening-process:
+    title_de: System-Hardening
+    description_de: Verbesserung des Sicherheitszustands von Systemen und Komponenten.
+    slug_de: system-hardening
+  security-incident-handling:
+    title_de: Umgang mit Sicherheitsvorfällen
+    description_de: Klare Regelung von Prozessen und Verantwortlichkeiten für den Umgang mit Sicherheitsvorfällen.
+    slug_de: umgang-mit-sicherheitsvorfaellen
+  security-metrics:
+    title_de: Sicherheitsmetriken
+    description_de: Definition, Erfassung und Bewertung von Metriken zur Quantifizierung des Sicherheitsstatus.
+    slug_de: sicherheitsmetriken
+  security-monitoring:
+    title_de: Sicherheitsmonitoring
+    description_de: Kontinuierliche Erfassung und Analyse sicherheitsrelevanter Ereignisse und Daten.
+    slug_de: sicherheitsmonitoring
+  security-policies-for-development:
+    title_de: Sicherheitsrichtlinien für die Entwicklung
+    description_de: Definition verbindlicher Regeln für die sichere Softwareentwicklung.
+    slug_de: sicherheitsrichtlinien-fuer-die-entwicklung
+  security-policies-for-users:
+    title_de: Sicherheitsrichtlinien für Nutzer
+    description_de: Definition verbindlicher Regeln für die sichere Nutzung von Anwendungen.
+    slug_de: sicherheitsrichtlinien-fuer-nutzer
+  security-relevant-metrics:
+    title_de: Sicherheitsrelevante Metriken
+    description_de: Definition und Erfassung von Metriken zur Quantifizierung des Sicherheitsniveaus.
+    slug_de: sicherheitsrelevante-metriken
+  security-requirements-definition:
+    title_de: Definition von Sicherheitsanforderungen
+    description_de: Erhebung und Dokumentation spezifischer Anforderungen an die Informationssicherheit.
+    slug_de: definition-von-sicherheitsanforderungen
+  security-tests-by-external-parties:
+    title_de: Sicherheitstests durch externe Parteien
+    description_de: Beauftragung unabhängiger Sicherheitsexperten zum Testen der Anwendung.
+    slug_de: sicherheitstests-durch-externe-parteien
+  security-tests:
+    title_de: Sicherheitstests
+    description_de: Verifikation von Sicherheitseigenschaften durch spezialisierte Testmethoden.
+    slug_de: sicherheitstests
+  security-training:
+    title_de: Sicherheitsschulung
+    description_de: Sensibilisierung und Weiterbildung von Mitarbeitern zu Sicherheitsthemen.
+    slug_de: sicherheitsschulung
+  self-monitoring-and-diagnosis:
+    title_de: Selbstüberwachung und Diagnose
+    description_de: Fähigkeit eines Systems, seinen eigenen Zustand zu überwachen und Probleme zu erkennen.
+    slug_de: selbstueberwachung-und-diagnose
+  self-service-developer-platform:
+    title_de: Self-Service-Entwicklerplattform
+    description_de: Dinge, für die Entwickler um Erlaubnis bitten oder warten müssen — Umgebungen, Zugriff, Deployments, Daten — in Fähigkeiten verwandeln, die sie selbst innerhalb von Leitplanken aufrufen können.
+    slug_de: self-service-entwicklerplattform
+  self-test:
+    title_de: Selbsttest
+    description_de: Fähigkeit einer Komponente, ihren eigenen Zustand und ihre Funktionsfähigkeit zu prüfen.
+    slug_de: selbsttest
+  semantic-versioning:
+    title_de: Semantic Versioning
+    description_de: Kommunikation der Kompatibilitätsabsicht durch strukturierte Versionsnummern.
+    slug_de: semantic-versioning
+  separation-of-concerns:
+    title_de: Separation of Concerns
+    description_de: Aufteilung von Funktionalitäten in klar abgegrenzte, unabhängige Bereiche.
+    slug_de: separation-of-concerns
+  serialization-optimization:
+    title_de: Serialisierungsoptimierung
+    description_de: Wahl effizienter Serialisierungsformate für performance-kritischen Datenaustausch.
+    slug_de: serialisierungsoptimierung
+  serverless-computing:
+    title_de: Serverless Computing
+    description_de: Ausführung von Code ohne Verwaltung der zugrunde liegenden Infrastruktur.
+    slug_de: serverless-computing
+  service-level-agreements:
+    title_de: Service Level Agreements
+    description_de: Definition von Erwartungen an Softwareverfügbarkeit und -performance.
+    slug_de: service-level-agreements
+  service-level-indicators:
+    title_de: Service Level Indicators
+    description_de: Nachverfolgung zentraler Metriken der Softwarezuverlässigkeit und -performance.
+    slug_de: service-level-indicators
+  service-level-objectives:
+    title_de: Service Level Objectives
+    description_de: Definition messbarer Ziele für Systemzuverlässigkeit und -performance.
+    slug_de: service-level-objectives
+  service-mesh:
+    title_de: Service Mesh
+    description_de: Verwaltung von Traffic auf Infrastrukturebene mit transparenter Protokollübersetzung, mTLS und Routing.
+    slug_de: service-mesh
+  short-iteration-cycles:
+    title_de: Kurze Iterationszyklen
+    description_de: Erzwingung inkrementellen, wartbaren Designs durch zeitlich begrenzte Auslieferungszyklen.
+    slug_de: kurze-iterationszyklen
+  simulation-environments:
+    title_de: Simulationsumgebungen
+    description_de: Nachbildung realer Systeme als simulierte Umgebung.
+    slug_de: simulationsumgebungen
+  site-reliability-engineering-sre:
+    title_de: Site Reliability Engineering (SRE)
+    description_de: Anwendung von Prinzipien für stabilen Systembetrieb.
+    slug_de: site-reliability-engineering-sre
+  small-change-batches:
+    title_de: Kleine Änderungspakete
+    description_de: Jede Änderung klein genug halten, um als einzelne Einheit verstanden, geprüft, getestet und rückgängig gemacht zu werden, und sie integrieren, bevor die nächste beginnt.
+    slug_de: kleine-aenderungspakete
+  smoke-testing:
+    title_de: Smoke Testing
+    description_de: Durchführung einer Reihe grundlegender Tests zur Verifikation der Kernfunktionalität eines Systems.
+    slug_de: smoke-testing
+  solid-principles:
+    title_de: SOLID-Prinzipien
+    description_de: Anwendung grundlegender Designprinzipien für objektorientierte Programmierung.
+    slug_de: solid-prinzipien
+  specialized-hardware:
+    title_de: Spezialisierte Hardware
+    description_de: Nutzung hardwarebeschleunigter Funktionen oder spezialisierter Hardwarekomponenten.
+    slug_de: spezialisierte-hardware
