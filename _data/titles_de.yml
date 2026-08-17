@@ -1,0 +1,260 @@
+# German title/description/slug translation table (plans/german-translation-plan.md,
+# Phase 2). Keyed by the ENGLISH slug (the existing filename in _problems/ or
+# _solutions/ without .md). This table is the single source of truth for:
+#   - the German title/description used when creating the _problems_de/
+#     _solutions_de front matter in Phase 3
+#   - the German filename (slug_de) for that new file
+#   - the link text used whenever another German file links to this one
+# German slugs are lowercase/hyphenated per CLAUDE.md, with umlauts
+# transliterated (ä→ae, ö→oe, ü→ue, ß→ss) for URL safety, matching existing
+# German web conventions. Established English loanwords are kept in German
+# titles/descriptions where they're already the common term in German
+# software-engineering usage (Decision "Anglizismen bleiben").
+#
+# Status: work in progress, filled in incrementally in batches. Not yet
+# complete for all 452 problems / 561 solutions - see
+# plans/german-translation-plan.md Phase 2 progress notes.
+
+problems:
+  abi-compatibility-issues:
+    title_de: ABI-Kompatibilitätsprobleme
+    description_de: Inkompatibilitäten der Binärschnittstelle (ABI) zwischen verschiedenen Versionen von Bibliotheken oder Systemkomponenten führen zu Laufzeitfehlern oder undefiniertem Verhalten.
+    slug_de: abi-kompatibilitaetsprobleme
+  accumulated-decision-debt:
+    title_de: Angehäufte Entscheidungsschulden
+    description_de: Aufgeschobene Entscheidungen erzeugen für künftige Entscheidungen zusätzliche Komplexität und machen das System schwerer verständlich und veränderbar.
+    slug_de: angehaeufte-entscheidungsschulden
+  accumulation-of-workarounds:
+    title_de: Anhäufung von Workarounds
+    description_de: Statt Kernprobleme zu beheben, schaffen Entwickler aufwendige Workarounds, die Komplexität hinzufügen, ohne die zugrunde liegenden Probleme zu lösen.
+    slug_de: anhaeufung-von-workarounds
+  algorithmic-complexity-problems:
+    title_de: Probleme mit algorithmischer Komplexität
+    description_de: Code verwendet ineffiziente Algorithmen oder Datenstrukturen, was zu Performance-Engpässen führt.
+    slug_de: probleme-mit-algorithmischer-komplexitaet
+  alignment-and-padding-issues:
+    title_de: Ausrichtungs- und Padding-Probleme
+    description_de: Datenstrukturen haben aufgrund schlechter Ausrichtung und übermäßigem Padding ein ineffizientes Speicherlayout.
+    slug_de: ausrichtungs-und-padding-probleme
+  analysis-paralysis:
+    title_de: Analyse-Lähmung
+    description_de: Teams bleiben in Recherchephasen stecken, ohne zur Umsetzung überzugehen, was Fortschritt verhindert.
+    slug_de: analyse-laehmung
+  api-versioning-conflicts:
+    title_de: API-Versionierungskonflikte
+    description_de: Inkonsistente oder schlecht verwaltete API-Versionierung erzeugt Kompatibilitätsprobleme und bricht bestehende Integrationen.
+    slug_de: api-versionierungskonflikte
+  approval-dependencies:
+    title_de: Freigabe-Abhängigkeiten
+    description_de: Der Arbeitsfortschritt wird häufig durch die Notwendigkeit von Freigaben bestimmter Personen blockiert.
+    slug_de: freigabe-abhaengigkeiten
+  architectural-mismatch:
+    title_de: Architektonische Fehlpassung
+    description_de: Neue Geschäftsanforderungen passen nicht gut zu bestehenden architektonischen Einschränkungen.
+    slug_de: architektonische-fehlpassung
+  assumption-based-development:
+    title_de: Annahmenbasierte Entwicklung
+    description_de: Entwickler treffen Entscheidungen auf Basis von Annahmen über Anforderungen oder Nutzerbedürfnisse, statt sie zu verifizieren.
+    slug_de: annahmenbasierte-entwicklung
+  atomic-operation-overhead:
+    title_de: Overhead durch atomare Operationen
+    description_de: Übermäßiger Einsatz atomarer Operationen erzeugt Performance-Engpässe durch Speicher- und Synchronisationsaufwand.
+    slug_de: overhead-durch-atomare-operationen
+  authentication-bypass-vulnerabilities:
+    title_de: Schwachstellen zur Umgehung der Authentifizierung
+    description_de: Sicherheitslücken, die es Angreifern erlauben, Authentifizierungsmechanismen zu umgehen und unbefugten Zugriff zu erlangen.
+    slug_de: schwachstellen-zur-umgehung-der-authentifizierung
+  author-frustration:
+    title_de: Frustration der Autoren
+    description_de: Entwickler werden frustriert durch unvorhersehbares, widersprüchliches oder willkürlich wirkendes Feedback.
+    slug_de: frustration-der-autoren
+  authorization-flaws:
+    title_de: Autorisierungsfehler
+    description_de: Unzureichende Zugriffskontrollmechanismen erlauben Nutzern, Aktionen auszuführen oder auf Ressourcen zuzugreifen, die ihnen nicht zustehen.
+    slug_de: autorisierungsfehler
+  authorization-role-explosion:
+    title_de: Explosion der Autorisierungsrollen
+    description_de: Das Rollen- und Berechtigungsmodell ist auf Tausende von Einträgen angewachsen, die jeweils nur von wenigen Nutzern verwendet werden.
+    slug_de: explosion-der-autorisierungsrollen
+  automated-tooling-ineffectiveness:
+    title_de: Wirkungslosigkeit automatisierter Werkzeuge
+    description_de: Automatisierte Werkzeuge wie Linter und Formatter werden nicht effektiv genutzt oder durchgesetzt.
+    slug_de: wirkungslosigkeit-automatisierter-werkzeuge
+  avoidance-behaviors:
+    title_de: Vermeidungsverhalten
+    description_de: Komplexe Aufgaben werden aufgeschoben oder ganz vermieden, aufgrund kognitiver Überlastung, Angst oder mangelndem Vertrauen.
+    slug_de: vermeidungsverhalten
+  bikeshedding:
+    title_de: Bikeshedding
+    description_de: Reviewer konzentrieren sich auf triviale Punkte wie Leerzeichen und Variablennamen, statt auf wesentliche Designfragen.
+    slug_de: bikeshedding
+  blame-culture:
+    title_de: Schuldzuweisungskultur
+    description_de: Fehler werden bestraft statt konstruktiv angegangen, was Risikobereitschaft und Offenheit entmutigt.
+    slug_de: schuldzuweisungskultur
+  bloated-class:
+    title_de: Aufgeblähte Klasse
+    description_de: Eine Klasse, die so groß geworden ist, dass sie schwer zu verstehen, zu warten und zu testen ist.
+    slug_de: aufgeblaehte-klasse
+  bottleneck-formation:
+    title_de: Engpassbildung
+    description_de: Bestimmte Teammitglieder, Prozesse oder Systemkomponenten werden zu Engpässen, die den Gesamtfortschritt limitieren.
+    slug_de: engpassbildung
+  breaking-changes:
+    title_de: Breaking Changes
+    description_de: API-Aktualisierungen brechen bestehende Client-Integrationen und verursachen Kompatibilitätsprobleme.
+    slug_de: breaking-changes
+  brittle-codebase:
+    title_de: Brüchige Codebasis
+    description_de: Der bestehende Code lässt sich nur schwer ändern, ohne neue Fehler einzuführen, was Wartung riskant macht.
+    slug_de: bruechige-codebasis
+  budget-overruns:
+    title_de: Budgetüberschreitungen
+    description_de: Das Projekt kostet mehr als ursprünglich geplant, aufgrund zusätzlicher Arbeit.
+    slug_de: budgetueberschreitungen
+  buffer-overflow-vulnerabilities:
+    title_de: Pufferüberlauf-Schwachstellen
+    description_de: Programme schreiben Daten über die Grenzen zugewiesener Speicherpuffer hinaus, was zu Abstürzen oder Sicherheitslücken führt.
+    slug_de: pufferueberlauf-schwachstellen
+  cache-invalidation-problems:
+    title_de: Probleme bei der Cache-Invalidierung
+    description_de: Zwischengespeicherte Daten werden veraltet oder inkonsistent mit der zugrunde liegenden Datenquelle.
+    slug_de: probleme-bei-der-cache-invalidierung
+  capacity-mismatch:
+    title_de: Kapazitäts-Fehlanpassung
+    description_de: Verfügbare Kapazität an unterschiedlichen Stufen des Entwicklungsprozesses passt nicht zusammen.
+    slug_de: kapazitaets-fehlanpassung
+  cargo-culting:
+    title_de: Cargo-Culting
+    description_de: Unkritische Übernahme technischer Lösungen, ohne deren zugrunde liegende Prinzipien zu verstehen.
+    slug_de: cargo-culting
+  cascade-delays:
+    title_de: Kaskadierende Verzögerungen
+    description_de: Verpasste Termine in einem Bereich verursachen Verzögerungen in abhängigen Arbeitssträngen.
+    slug_de: kaskadierende-verzoegerungen
+  cascade-failures:
+    title_de: Kaskadierende Ausfälle
+    description_de: Eine einzelne Änderung löst eine Kettenreaktion von Ausfällen über mehrere Systemkomponenten hinweg aus.
+    slug_de: kaskadierende-ausfaelle
+  change-management-chaos:
+    title_de: Chaos im Change-Management
+    description_de: Änderungen an Systemen erfolgen ohne Koordination, Aufsicht oder Auswirkungsanalyse.
+    slug_de: chaos-im-change-management
+  changing-project-scope:
+    title_de: Sich änderndes Projekt-Scope
+    description_de: Häufige Richtungswechsel im Projekt verwirren das Team und verhindern stetigen Fortschritt.
+    slug_de: sich-aenderndes-projekt-scope
+  circular-dependency-problems:
+    title_de: Probleme durch zirkuläre Abhängigkeiten
+    description_de: Komponenten hängen zirkulär voneinander ab, was Initialisierungsprobleme verursacht.
+    slug_de: probleme-durch-zirkulaere-abhaengigkeiten
+  circular-references:
+    title_de: Zirkuläre Referenzen
+    description_de: Zwei oder mehr Objekte referenzieren sich gegenseitig auf eine Weise, die die Garbage Collection verhindert.
+    slug_de: zirkulaere-referenzen
+  clever-code:
+    title_de: Übertrieben cleverer Code
+    description_de: Code, der geschrieben wurde, um technisches Können zu demonstrieren statt Klarheit, was ihn schwer verständlich macht.
+    slug_de: uebertrieben-cleverer-code
+  code-duplication:
+    title_de: Code-Duplizierung
+    description_de: Ähnlicher oder identischer Code existiert an mehreren Stellen, was die Wartung erschwert.
+    slug_de: code-duplizierung
+  code-review-inefficiency:
+    title_de: Ineffizienz im Code-Review
+    description_de: Der Code-Review-Prozess nimmt übermäßig viel Zeit in Anspruch, bietet begrenzten Nutzen oder erzeugt Reibung.
+    slug_de: ineffizienz-im-code-review
+  cognitive-overload:
+    title_de: Kognitive Überlastung
+    description_de: Entwickler müssen zu viele komplexe Systeme oder Konzepte gleichzeitig im Kopf behalten.
+    slug_de: kognitive-ueberlastung
+  communication-breakdown:
+    title_de: Kommunikationszusammenbruch
+    description_de: Teammitglieder scheitern daran, Informationen wirksam zu teilen, Arbeit zu koordinieren oder zusammenzuarbeiten.
+    slug_de: kommunikationszusammenbruch
+  communication-risk-outside-project:
+    title_de: Kommunikationsrisiko außerhalb des Projekts
+    description_de: Externe Stakeholder bleiben uninformiert, was zu Überraschungen und Fehlausrichtungen führt.
+    slug_de: kommunikationsrisiko-ausserhalb-des-projekts
+  communication-risk-within-project:
+    title_de: Kommunikationsrisiko innerhalb des Projekts
+    description_de: Missverständnisse und unklare Botschaften verringern Koordination und Vertrauen zwischen Projektbeteiligten.
+    slug_de: kommunikationsrisiko-innerhalb-des-projekts
+  competing-priorities:
+    title_de: Konkurrierende Prioritäten
+    description_de: Mehrere dringende Projekte oder Initiativen konkurrieren um dieselben begrenzten Ressourcen.
+    slug_de: konkurrierende-prioritaeten
+  competitive-disadvantage:
+    title_de: Wettbewerbsnachteil
+    description_de: Nutzer wechseln zu Wettbewerbern, die eine bessere Erfahrung oder mehr Funktionen bieten.
+    slug_de: wettbewerbsnachteil
+  complex-and-obscure-logic:
+    title_de: Komplexe und unklare Logik
+    description_de: Der Code ist aufgrund verschachtelter Logik, fehlender Kommentare oder schlechter Struktur schwer verständlich.
+    slug_de: komplexe-und-unklare-logik
+  complex-deployment-process:
+    title_de: Komplexer Deployment-Prozess
+    description_de: Der Prozess der Software-Auslieferung in die Produktion ist manuell, zeitaufwendig und fehleranfällig.
+    slug_de: komplexer-deployment-prozess
+  complex-domain-model:
+    title_de: Komplexes Domänenmodell
+    description_de: Die abgebildete Geschäftsdomäne ist von Natur aus komplex, was die Software schwer verständlich macht.
+    slug_de: komplexes-domaenenmodell
+  complex-implementation-paths:
+    title_de: Komplexe Implementierungspfade
+    description_de: Einfache Geschäftsanforderungen erfordern aufgrund architektonischer Einschränkungen komplexe technische Lösungen.
+    slug_de: komplexe-implementierungspfade
+  configuration-chaos:
+    title_de: Konfigurationschaos
+    description_de: Systemkonfigurationen sind inkonsistent, schwer zu verwalten und anfällig für Drift.
+    slug_de: konfigurationschaos
+  configuration-drift:
+    title_de: Konfigurations-Drift
+    description_de: Systemkonfigurationen weichen im Laufe der Zeit schrittweise von den vorgesehenen Standards ab.
+    slug_de: konfigurations-drift
+  conflicting-reviewer-opinions:
+    title_de: Widersprüchliche Reviewer-Meinungen
+    description_de: Mehrere Reviewer geben widersprüchliche Rückmeldungen zu denselben Codeänderungen.
+    slug_de: widerspruechliche-reviewer-meinungen
+  constant-firefighting:
+    title_de: Ständiges Feuerlöschen
+    description_de: Das Entwicklungsteam ist dauerhaft damit beschäftigt, Fehler zu beheben und dringende Probleme zu lösen.
+    slug_de: staendiges-feuerloeschen
+  constantly-shifting-deadlines:
+    title_de: Ständig verschobene Termine
+    description_de: Das Enddatum des Projekts wird wiederholt verschoben, um neue Feature-Anforderungen unterzubringen.
+    slug_de: staendig-verschobene-termine
+  context-switching-overhead:
+    title_de: Overhead durch Kontextwechsel
+    description_de: Entwickler müssen ständig zwischen verschiedenen Werkzeugen, Systemen oder Problembereichen wechseln.
+    slug_de: overhead-durch-kontextwechsel
+  convenience-driven-development:
+    title_de: Bequemlichkeitsgetriebene Entwicklung
+    description_de: Eine Entwicklungspraxis, bei der Entwickler die einfachste und bequemste Lösung wählen statt der angemessensten.
+    slug_de: bequemlichkeitsgetriebene-entwicklung
+  copy-paste-programming:
+    title_de: Copy-Paste-Programmierung
+    description_de: Entwickler kopieren häufig Code, statt wiederverwendbare Komponenten zu erstellen.
+    slug_de: copy-paste-programmierung
+  core-modification-of-standard-software:
+    title_de: Kernmodifikation von Standardsoftware
+    description_de: Der Code des Herstellers wurde direkt verändert, statt über unterstützte Erweiterungspunkte angepasst zu werden.
+    slug_de: kernmodifikation-von-standardsoftware
+  cross-site-scripting-vulnerabilities:
+    title_de: Cross-Site-Scripting-Schwachstellen
+    description_de: Unzureichende Eingabevalidierung und Ausgabekodierung erlaubt Angreifern, bösartigen Code einzuschleusen.
+    slug_de: cross-site-scripting-schwachstellen
+  cross-system-data-synchronization-problems:
+    title_de: Probleme bei der systemübergreifenden Datensynchronisation
+    description_de: Die Aufrechterhaltung der Datenkonsistenz zwischen Legacy- und modernen Systemen während der Migration ist schwierig.
+    slug_de: probleme-bei-der-systemuebergreifenden-datensynchronisation
+  custom-report-sprawl:
+    title_de: Wildwuchs an individuellen Reports
+    description_de: Hunderte maßgeschneiderter Reports, Formulare und Extrakte häufen sich an, ohne Aufzeichnung, wer sie nutzt oder warum.
+    slug_de: wildwuchs-an-individuellen-reports
+  customer-dissatisfaction:
+    title_de: Kundenunzufriedenheit
+    description_de: Nutzer werden frustriert durch Probleme mit Zuverlässigkeit, Performance oder Nutzbarkeit des Systems.
+    slug_de: kundenunzufriedenheit
+
+solutions: {}
