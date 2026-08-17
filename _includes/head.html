@@ -4,6 +4,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- comment -%}
+    hreflang alternates (plans/german-translation-plan.md, Decision 6 /
+    Phase 1). Mirrors the language-switcher lookup in header.html: a
+    problem/solution page joins on en_slug against the other-language
+    collection; anything else (home, the four overview pages) swaps the
+    /de/ URL prefix and confirms a page actually exists there. Emits
+    nothing if no counterpart is found (most content isn't translated
+    yet), same as the switcher staying hidden.
+  {%- endcomment -%}
+  {%- assign current_lang = page.lang | default: site.lang | default: "en" -%}
+  {%- assign hreflang_alt_url = nil -%}
+  {%- assign hreflang_alt_lang = "de" -%}
+  {%- if current_lang == "de" -%}{%- assign hreflang_alt_lang = "en" -%}{%- endif -%}
+  {%- if page.collection == "problems" -%}
+    {%- if page.lang == "de" -%}
+      {%- assign hreflang_target = site.problems | where: "slug", page.en_slug | first -%}
+    {%- else -%}
+      {%- assign hreflang_target = site.problems_de | where: "en_slug", page.slug | first -%}
+    {%- endif -%}
+    {%- if hreflang_target -%}{%- assign hreflang_alt_url = hreflang_target.url -%}{%- endif -%}
+  {%- elsif page.collection == "solutions" -%}
+    {%- if page.lang == "de" -%}
+      {%- assign hreflang_target = site.solutions | where: "slug", page.en_slug | first -%}
+    {%- else -%}
+      {%- assign hreflang_target = site.solutions_de | where: "en_slug", page.slug | first -%}
+    {%- endif -%}
+    {%- if hreflang_target -%}{%- assign hreflang_alt_url = hreflang_target.url -%}{%- endif -%}
+  {%- else -%}
+    {%- if page.url contains "/de/" -%}
+      {%- assign hreflang_candidate_url = page.url | remove_first: "/de" -%}
+    {%- else -%}
+      {%- assign hreflang_candidate_url = "/de" | append: page.url -%}
+    {%- endif -%}
+    {%- assign hreflang_candidate = site.pages | where: "url", hreflang_candidate_url | first -%}
+    {%- if hreflang_candidate -%}{%- assign hreflang_alt_url = hreflang_candidate_url -%}{%- endif -%}
+  {%- endif -%}
+  {%- if hreflang_alt_url -%}
+  <link rel="alternate" hreflang="{{ current_lang }}" href="{{ page.url | absolute_url }}" />
+  <link rel="alternate" hreflang="{{ hreflang_alt_lang }}" href="{{ hreflang_alt_url | absolute_url }}" />
+  <link rel="alternate" hreflang="x-default" href="{% if current_lang == 'de' %}{{ hreflang_alt_url | absolute_url }}{% else %}{{ page.url | absolute_url }}{% endif %}" />
+  {%- endif -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
