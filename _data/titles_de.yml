@@ -976,5 +976,245 @@ problems:
     title_de: Lang laufende Datenbanktransaktionen
     description_de: Datenbanktransaktionen bleiben über längere Zeiträume offen, halten Locks und verbrauchen Ressourcen, was andere Operationen blockieren kann.
     slug_de: lang-laufende-datenbanktransaktionen
+  long-running-transactions:
+    title_de: Lang laufende Transaktionen
+    description_de: Datenbanktransaktionen, die über längere Zeit offen bleiben, können Locks halten, Ressourcen verbrauchen und andere Operationen blockieren.
+    slug_de: lang-laufende-transaktionen
+  low-code-customization-sprawl:
+    title_de: Wildwuchs bei Low-Code-Anpassungen
+    description_de: Geschäftslogik häuft sich im eigenen Skripting- und Workflow-Tooling einer Plattform an, wo sie sich Tests, Reviews und jeder anderen Engineering-Praxis entzieht.
+    slug_de: wildwuchs-bei-low-code-anpassungen
+  lower-code-quality:
+    title_de: Geringere Codequalität
+    description_de: Ausgebrannte oder gehetzte Entwickler machen mit höherer Wahrscheinlichkeit Fehler, was zu einer Zunahme von Defekten führt.
+    slug_de: geringere-codequalitaet
+  maintenance-bottlenecks:
+    title_de: Wartungsengpässe
+    description_de: Eine Situation, in der nur eine kleine Anzahl von Entwicklern Änderungen an einem kritischen Teil des Systems vornehmen kann.
+    slug_de: wartungsengpaesse
+  maintenance-cost-increase:
+    title_de: Anstieg der Wartungskosten
+    description_de: Die für Wartung, Support und Aktualisierung von Softwaresystemen benötigten Ressourcen wachsen im Laufe der Zeit und verbrauchen zunehmend größere Teile der Entwicklungsbudgets.
+    slug_de: anstieg-der-wartungskosten
+  maintenance-overhead:
+    title_de: Wartungs-Overhead
+    description_de: Ein unverhältnismäßig großer Teil der Zeit und des Aufwands wird für die Wartung des bestehenden Systems aufgewendet, oft aufgrund von dupliziertem Code und fehlenden wiederverwendbaren Komponenten.
+    slug_de: wartungs-overhead
+  maintenance-paralysis:
+    title_de: Wartungslähmung
+    description_de: Teams vermeiden notwendige Verbesserungen, weil sie nicht verifizieren können, dass Änderungen bestehende Funktionalität nicht brechen.
+    slug_de: wartungslaehmung
+  manual-deployment-processes:
+    title_de: Manuelle Deployment-Prozesse
+    description_de: Releases erfordern menschliches Eingreifen, was die Wahrscheinlichkeit für Fehler und Inkonsistenzen erhöht.
+    slug_de: manuelle-deployment-prozesse
+  market-pressure:
+    title_de: Marktdruck
+    description_de: Externe Wettbewerbskräfte oder Marktbedingungen treiben übereilte Entscheidungen, Scope-Änderungen und unrealistische Erwartungen an.
+    slug_de: marktdruck
+  master-data-ownership-gaps:
+    title_de: Lücken in der Verantwortlichkeit für Stammdaten
+    description_de: Zentrale Referenzdaten werden über Module und Abteilungen hinweg geteilt, ohne dass es einen Verantwortlichen gibt, sodass ihre Qualität sich verschlechtert und niemand für die Korrektur zuständig ist.
+    slug_de: luecken-in-der-verantwortlichkeit-fuer-stammdaten
+  memory-barrier-inefficiency:
+    title_de: Ineffizienz von Memory Barriers
+    description_de: Übermäßige oder falsch platzierte Memory Barriers stören die CPU-Pipeline-Optimierung und verringern die Performance in Multithreading-Anwendungen.
+    slug_de: ineffizienz-von-memory-barriers
+  memory-fragmentation:
+    title_de: Speicherfragmentierung
+    description_de: Verfügbarer Speicher wird in kleine, nicht zusammenhängende Blöcke aufgeteilt, was die Allokation größerer Objekte trotz ausreichendem Gesamtspeicher verhindert.
+    slug_de: speicherfragmentierung
+  memory-leaks:
+    title_de: Speicherlecks
+    description_de: Anwendungen geben nicht mehr benötigten Speicher nicht frei, was zu allmählich steigendem Speicherverbrauch und schließlich zu Performance-Verschlechterung oder Abstürzen führt.
+    slug_de: speicherlecks
+  memory-swapping:
+    title_de: Memory Swapping
+    description_de: Dem Datenbankserver geht der physische Speicher aus und er beginnt, Festplatten-Swap-Speicher zu nutzen, was die Performance drastisch verlangsamt.
+    slug_de: memory-swapping
+  mental-fatigue:
+    title_de: Mentale Erschöpfung
+    description_de: Entwickler berichten, sich erschöpft und mental ausgelaugt zu fühlen, ohne wesentliche Arbeit zu erledigen, oft aufgrund kognitiven Overheads und ineffizienter Arbeitsabläufe.
+    slug_de: mentale-erschoepfung
+  mentor-burnout:
+    title_de: Mentoren-Burnout
+    description_de: Erfahrene Teammitglieder werden durch übermäßige Mentoring- und Wissenstransferverantwortung überfordert und erschöpft.
+    slug_de: mentoren-burnout
+  merge-conflicts:
+    title_de: Merge-Konflikte
+    description_de: Mehrere Entwickler ändern häufig dieselben großen Funktionen oder Dateien, was Versionskontrollkonflikte erzeugt, die die Entwicklung verlangsamen.
+    slug_de: merge-konflikte
+  micromanagement-culture:
+    title_de: Mikromanagement-Kultur
+    description_de: Eine Management-Kultur, die Genehmigungen für Routineentscheidungen verlangt, was die Teamautonomie verringert und unnötige Engpässe schafft.
+    slug_de: mikromanagement-kultur
+  microservice-communication-overhead:
+    title_de: Kommunikations-Overhead zwischen Microservices
+    description_de: Übermäßige Netzwerkkommunikation zwischen Microservices erzeugt Latenz, verringert Zuverlässigkeit und beeinträchtigt die Gesamtsystemperformance.
+    slug_de: kommunikations-overhead-zwischen-microservices
+  misaligned-deliverables:
+    title_de: Fehlausgerichtete Liefergegenstände
+    description_de: Das gelieferte Produkt oder Feature entspricht nicht den Erwartungen oder Anforderungen der Stakeholder.
+    slug_de: fehlausgerichtete-liefergegenstaende
+  misconfigured-connection-pools:
+    title_de: Falsch konfigurierte Connection Pools
+    description_de: Anwendungs-Connection-Pools sind unsachgemäß eingerichtet, was zu ineffizienter Ressourcennutzung oder Verbindungserschöpfung führt.
+    slug_de: falsch-konfigurierte-connection-pools
+  missed-deadlines:
+    title_de: Verpasste Termine
+    description_de: Projekte überschreiten regelmäßig ihre geschätzten Fertigstellungszeiten und Teams verfehlen durchgängig Sprintziele und Lieferzusagen.
+    slug_de: verpasste-termine
+  missing-end-to-end-tests:
+    title_de: Fehlende End-to-End-Tests
+    description_de: Vollständige Nutzerabläufe werden nicht von Anfang bis Ende getestet, wodurch workflow-brechende Fehler in die Produktion gelangen.
+    slug_de: fehlende-end-to-end-tests
+  missing-rollback-strategy:
+    title_de: Fehlende Rollback-Strategie
+    description_de: Es gibt keine getestete Methode, ein Deployment rückgängig zu machen, wenn etwas schiefgeht, was das Risiko erhöht.
+    slug_de: fehlende-rollback-strategie
+  misunderstanding-of-oop:
+    title_de: Missverständnis der Objektorientierung
+    description_de: Mangelndes Verständnis der grundlegenden Prinzipien der objektorientierten Programmierung kann zu schlecht designtem und schwer wartbarem Code führen.
+    slug_de: missverstaendnis-der-objektorientierung
+  mixed-coding-styles:
+    title_de: Gemischte Coding-Stile
+    description_de: Eine Situation, in der unterschiedliche Teile der Codebasis unterschiedliche Formatierung, Namenskonventionen und Designmuster verwenden.
+    slug_de: gemischte-coding-stile
+  modernization-roi-justification-failure:
+    title_de: Scheiternde ROI-Rechtfertigung für Modernisierung
+    description_de: Unfähigkeit, überzeugende Business Cases für die Modernisierung von Legacy-Systemen aufzubauen, aufgrund versteckter technischer Schulden und unklarer Nutzenquantifizierung.
+    slug_de: scheiternde-roi-rechtfertigung-fuer-modernisierung
+  modernization-strategy-paralysis:
+    title_de: Lähmung der Modernisierungsstrategie
+    description_de: Teams werden von Modernisierungsoptionen (Neuschreiben, Refactoring, Ersetzen, Abschalten) überwältigt und treffen keine Entscheidungen, wodurch Systeme in der Schwebe bleiben.
+    slug_de: laehmung-der-modernisierungsstrategie
+  monitoring-gaps:
+    title_de: Monitoring-Lücken
+    description_de: Unzureichendes Produktions-Monitoring und mangelnde Observability erschweren es, Probleme zeitnah zu erkennen und zu diagnostizieren, was zu längeren Ausfällen und schwerwiegenderen Folgen führt.
+    slug_de: monitoring-luecken
+  monolithic-architecture-constraints:
+    title_de: Einschränkungen durch monolithische Architektur
+    description_de: Große monolithische Codebasen werden mit wachsender Größe und Komplexität schwer zu warten, zu skalieren und zu deployen.
+    slug_de: einschraenkungen-durch-monolithische-architektur
+  monolithic-functions-and-classes:
+    title_de: Monolithische Funktionen und Klassen
+    description_de: Einzelne Funktionen oder Klassen übernehmen zu viele unzusammenhängende Verantwortlichkeiten, was sie schwer verständlich und veränderbar macht.
+    slug_de: monolithische-funktionen-und-klassen
+  n-plus-one-query-problem:
+    title_de: N+1-Abfrageproblem
+    description_de: Eine Anwendung führt zahlreiche unnötige Datenbankaufrufe aus, um verwandte Daten abzurufen, wo eine einzelne, effizientere Abfrage ausreichen würde, was zu erheblicher Performance-Verschlechterung führt.
+    slug_de: n-plus-1-abfrageproblem
+  negative-brand-perception:
+    title_de: Negative Markenwahrnehmung
+    description_de: Nutzer verbinden die Marke aufgrund technischer Probleme mit schlechter Qualität oder Unzuverlässigkeit.
+    slug_de: negative-markenwahrnehmung
+  negative-user-feedback:
+    title_de: Negatives Nutzerfeedback
+    description_de: Nutzer beschweren sich über langsame Ladezeiten, Anwendungsabstürze oder andere Probleme, was auf Unzufriedenheit mit der Performance oder Nutzbarkeit der Anwendung hinweist.
+    slug_de: negatives-nutzerfeedback
+  network-latency:
+    title_de: Netzwerklatenz
+    description_de: Verzögerungen bei der Datenübertragung über das Netzwerk erhöhen die Antwortzeiten erheblich und beeinträchtigen die Anwendungsperformance.
+    slug_de: netzwerklatenz
+  new-hire-frustration:
+    title_de: Frustration neuer Mitarbeiter
+    description_de: Kürzlich eingestellte Entwickler erleben erhebliche Frustration aufgrund von Hindernissen, die sie daran hindern, effektiv zum Team beizutragen.
+    slug_de: frustration-neuer-mitarbeiter
+  nitpicking-culture:
+    title_de: Nitpicking-Kultur
+    description_de: Code-Reviews konzentrieren sich übermäßig auf kleine, unbedeutende Details, während wichtige Design- und Funktionalitätsprobleme übersehen werden.
+    slug_de: nitpicking-kultur
+  no-continuous-feedback-loop:
+    title_de: Kein kontinuierlicher Feedback-Loop
+    description_de: Stakeholder werden nicht durchgängig in den Entwicklungsprozess einbezogen, und Feedback wird nur ganz am Ende eingeholt, was zu fehlausgerichteten Liefergegenständen führt.
+    slug_de: kein-kontinuierlicher-feedback-loop
+  no-formal-change-control-process:
+    title_de: Kein formaler Änderungskontrollprozess
+    description_de: Änderungen am Projektumfang oder an den Anforderungen werden nicht formal bewertet oder genehmigt, was zu unkontrolliertem Scope Creep und Projektverzögerungen führt.
+    slug_de: kein-formaler-aenderungskontrollprozess
+  null-pointer-dereferences:
+    title_de: Nullzeiger-Dereferenzierungen
+    description_de: Programme versuchen, über Null- oder ungültige Zeiger auf Speicher zuzugreifen, was Abstürze und potenzielle Sicherheitslücken verursacht.
+    slug_de: nullzeiger-dereferenzierungen
+  obsolete-technologies:
+    title_de: Veraltete Technologien
+    description_de: Das System verlässt sich auf veraltete Werkzeuge, Frameworks oder Sprachen, die die Umsetzung moderner Entwicklungspraktiken erschweren.
+    slug_de: veraltete-technologien
+  operational-overhead:
+    title_de: Operativer Overhead
+    description_de: Ein erheblicher Teil an Zeit und Ressourcen wird für Notfallreaktionen und Feuerlöschen aufgewendet, statt für geplante Entwicklung und Innovation.
+    slug_de: operativer-overhead
+  organizational-structure-mismatch:
+    title_de: Fehlpassung der Organisationsstruktur
+    description_de: Eine Situation, in der die Struktur der Organisation nicht zur Architektur des Systems passt.
+    slug_de: fehlpassung-der-organisationsstruktur
+  outdated-tests:
+    title_de: Veraltete Tests
+    description_de: Tests werden nicht aktualisiert, wenn sich der Code ändert, was zu falsch-positiven oder falsch-negativen Ergebnissen und verringertem Vertrauen führt.
+    slug_de: veraltete-tests
+  over-reliance-on-utility-classes:
+    title_de: Übermäßige Abhängigkeit von Utility-Klassen
+    description_de: Der übermäßige Einsatz von Utility-Klassen mit statischen Methoden kann zu einem prozeduralen Programmierstil und fehlendem objektorientiertem Design führen.
+    slug_de: uebermaessige-abhaengigkeit-von-utility-klassen
+  overworked-teams:
+    title_de: Überlastete Teams
+    description_de: Hohe Arbeitsbelastung führt zu Burnout, Fehlern und langfristigen Einbußen bei Qualität und Produktivität.
+    slug_de: ueberlastete-teams
+  partial-bug-fixes:
+    title_de: Teilweise Fehlerbehebungen
+    description_de: Probleme scheinen gelöst zu sein, tauchen aber in anderen Kontexten wieder auf, weil der Fix nicht auf alle Instanzen des duplizierten Codes angewendet wurde.
+    slug_de: teilweise-fehlerbehebungen
+  password-security-weaknesses:
+    title_de: Schwachstellen bei der Passwortsicherheit
+    description_de: Schwache Passwortrichtlinien, unzureichende Speichermechanismen und schlechte Authentifizierungspraktiken erzeugen Sicherheitslücken.
+    slug_de: schwachstellen-bei-der-passwortsicherheit
+  past-negative-experiences:
+    title_de: Negative Erfahrungen aus der Vergangenheit
+    description_de: Eine Situation, in der Entwickler zögern, Änderungen an der Codebasis vorzunehmen, aufgrund negativer Erfahrungen in der Vergangenheit.
+    slug_de: negative-erfahrungen-aus-der-vergangenheit
+  perfectionist-culture:
+    title_de: Perfektionismus-Kultur
+    description_de: Eine Kultur des Perfektionismus und die Zurückhaltung, irgendetwas zu veröffentlichen, das nicht zu 100% perfekt ist, kann zu Analyse-Lähmung und langen Release-Zyklen führen.
+    slug_de: perfektionismus-kultur
+  perfectionist-review-culture:
+    title_de: Perfektionistische Review-Kultur
+    description_de: Die Teamkultur legt Wert darauf, Code durch Reviews perfekt zu machen, statt sich auf sinnvolle Verbesserungen zu konzentrieren, was zu übermäßigen Überarbeitungszyklen führt.
+    slug_de: perfektionistische-review-kultur
+  planning-credibility-issues:
+    title_de: Probleme mit der Glaubwürdigkeit der Planung
+    description_de: Künftige Schätzungen und Pläne werden aufgrund einer Historie ungenauer Vorhersagen und verpasster Zusagen infrage gestellt oder ignoriert.
+    slug_de: probleme-mit-der-glaubwuerdigkeit-der-planung
+  planning-dysfunction:
+    title_de: Planungsdysfunktion
+    description_de: Projektplanungsprozesse schaffen es nicht, realistische Zeitpläne zu erstellen, Ressourcen effektiv zuzuweisen oder Projektkomplexitäten und -risiken zu berücksichtigen.
+    slug_de: planungsdysfunktion
+  poor-caching-strategy:
+    title_de: Schlechte Caching-Strategie
+    description_de: Daten, die zwischengespeichert werden könnten, werden bei jeder Anfrage von der Quelle abgerufen, was unnötigen Overhead hinzufügt und die Latenz erhöht.
+    slug_de: schlechte-caching-strategie
+  poor-communication:
+    title_de: Schlechte Kommunikation
+    description_de: Die Zusammenarbeit bricht zusammen, da Entwickler isolierter werden und weniger bereit sind, sich mit Kollegen auszutauschen.
+    slug_de: schlechte-kommunikation
+  poor-contract-design:
+    title_de: Schlechtes Vertragsdesign
+    description_de: Rechtliche Vereinbarungen und Verträge spiegeln nicht die Projektrealitäten, technischen Anforderungen wider oder erlauben nicht die während der Entwicklung nötige Flexibilität.
+    slug_de: schlechtes-vertragsdesign
+  poor-documentation:
+    title_de: Schlechte Dokumentation
+    description_de: Systemdokumentation ist veraltet, unvollständig, ungenau oder schwer auffindbar und effektiv nutzbar.
+    slug_de: schlechte-dokumentation
+  poor-domain-model:
+    title_de: Schlechtes Domänenmodell
+    description_de: Zentrale Geschäftskonzepte werden im System schlecht verstanden oder abgebildet, was zu brüchiger Logik und Missverständnissen führt.
+    slug_de: schlechtes-domaenenmodell
+  poor-encapsulation:
+    title_de: Schlechte Kapselung
+    description_de: Daten und das auf ihnen operierende Verhalten sind nicht in einer einzigen, kohäsiven Einheit gebündelt, was zu fehlendem Data Hiding und hoher Kopplung führt.
+    slug_de: schlechte-kapselung
+  poor-interfaces-between-applications:
+    title_de: Schlechte Schnittstellen zwischen Anwendungen
+    description_de: Getrennte oder schlecht definierte Schnittstellen führen zu brüchigen Integrationen und inkonsistenten Daten.
+    slug_de: schlechte-schnittstellen-zwischen-anwendungen
 
 solutions: {}
