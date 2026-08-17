@@ -736,5 +736,245 @@ problems:
     title_de: Falsche maximale Connection-Pool-Größe
     description_de: Die maximale Anzahl an Verbindungen in einem Datenbank-Connection-Pool ist falsch eingestellt, was entweder zu Ressourcenverschwendung oder Verbindungserschöpfung führt.
     slug_de: falsche-maximale-connection-pool-groesse
+  increased-bug-count:
+    title_de: Erhöhte Fehleranzahl
+    description_de: Änderungen führen häufiger zu neuen Defekten, was zu einer höheren Fehlerrate in der Produktion und verschlechterter Softwarequalität führt.
+    slug_de: erhoehte-fehleranzahl
+  increased-cognitive-load:
+    title_de: Erhöhte kognitive Last
+    description_de: Entwickler müssen übermäßig viel mentale Energie aufwenden, um inkonsistenten, komplexen oder schlecht strukturierten Code zu verstehen und mit ihm zu arbeiten.
+    slug_de: erhoehte-kognitive-last
+  increased-cost-of-development:
+    title_de: Erhöhte Entwicklungskosten
+    description_de: Die Kosten, Fehler zu beheben und schlechten Code zu warten, sind deutlich höher, als Probleme von Anfang an zu vermeiden.
+    slug_de: erhoehte-entwicklungskosten
+  increased-customer-support-load:
+    title_de: Erhöhte Last im Kundensupport
+    description_de: Nutzer kontaktieren den Support häufiger aufgrund von Frustration oder der Unfähigkeit, Aufgaben abzuschließen.
+    slug_de: erhoehte-last-im-kundensupport
+  increased-error-rates:
+    title_de: Erhöhte Fehlerraten
+    description_de: Ein ungewöhnlicher oder anhaltender Anstieg der Häufigkeit von Fehlern, die von einer Anwendung oder einem Service gemeldet werden.
+    slug_de: erhoehte-fehlerraten
+  increased-manual-testing-effort:
+    title_de: Erhöhter manueller Testaufwand
+    description_de: Ein unverhältnismäßig großer Teil der Zeit wird aufgrund fehlender Automatisierung für manuelles Testen aufgewendet.
+    slug_de: erhoehter-manueller-testaufwand
+  increased-manual-work:
+    title_de: Erhöhte manuelle Arbeit
+    description_de: Entwickler verbringen Zeit mit repetitiven Aufgaben, die automatisiert werden sollten, was die für tatsächliche Entwicklungsarbeit verfügbare Zeit verringert.
+    slug_de: erhoehte-manuelle-arbeit
+  increased-risk-of-bugs:
+    title_de: Erhöhtes Risiko für Fehler
+    description_de: Codekomplexität und mangelnde Klarheit erhöhen die Wahrscheinlichkeit, dass Entwickler bei Änderungen Defekte einführen.
+    slug_de: erhoehtes-risiko-fuer-fehler
+  increased-stress-and-burnout:
+    title_de: Erhöhter Stress und Burnout
+    description_de: Teammitglieder sind aufgrund unrealistischer Erwartungen und Zeitdrucks überlastet und gestresst, was Moral und Produktivität senkt.
+    slug_de: erhoehter-stress-und-burnout
+  increased-technical-shortcuts:
+    title_de: Zunehmende technische Abkürzungen
+    description_de: Der Druck zu liefern führt zu mehr schnellen Fixes und Workarounds statt richtiger Lösungen, was künftige Wartungsprobleme schafft.
+    slug_de: zunehmende-technische-abkuerzungen
+  increased-time-to-market:
+    title_de: Erhöhte Time-to-Market
+    description_de: Es dauert länger, neue Funktionen und Produkte auf den Markt zu bringen, was potenziell zu Wettbewerbsnachteilen und entgangenen Umsatzmöglichkeiten führt.
+    slug_de: erhoehte-time-to-market
+  increasing-brittleness:
+    title_de: Zunehmende Brüchigkeit
+    description_de: Softwaresysteme werden im Laufe der Zeit fragiler und anfälliger für Ausfälle, wobei kleine Änderungen unvorhersehbare und weitreichende Auswirkungen haben.
+    slug_de: zunehmende-bruechigkeit
+  index-fragmentation:
+    title_de: Index-Fragmentierung
+    description_de: Im Laufe der Zeit, während Daten eingefügt, aktualisiert und gelöscht werden, werden Datenbank-Indizes unorganisiert, was ihre Effizienz verringert.
+    slug_de: index-fragmentierung
+  individual-recognition-culture:
+    title_de: Kultur der individuellen Anerkennung
+    description_de: Eine Kultur, in der individuelle Leistungen mehr geschätzt werden als Teamleistungen.
+    slug_de: kultur-der-individuellen-anerkennung
+  inefficient-code:
+    title_de: Ineffizienter Code
+    description_de: Der Code, der für die Bearbeitung einer Anfrage zuständig ist, ist rechenintensiv oder enthält Performance-Engpässe.
+    slug_de: ineffizienter-code
+  inefficient-database-indexing:
+    title_de: Ineffiziente Datenbankindizierung
+    description_de: Der Datenbank fehlen geeignete Indizes für gängige Abfragemuster, was langsame Full-Table-Scans für Datenabrufoperationen erzwingt.
+    slug_de: ineffiziente-datenbankindizierung
+  inefficient-development-environment:
+    title_de: Ineffiziente Entwicklungsumgebung
+    description_de: Das Team wird durch eine langsame und umständliche Entwicklungsumgebung ausgebremst.
+    slug_de: ineffiziente-entwicklungsumgebung
+  inefficient-frontend-code:
+    title_de: Ineffizienter Frontend-Code
+    description_de: Unoptimiertes JavaScript, übermäßige DOM-Manipulation oder komplexe CSS-Animationen, die rechenintensiv sind.
+    slug_de: ineffizienter-frontend-code
+  inefficient-processes:
+    title_de: Ineffiziente Prozesse
+    description_de: Schlechte Arbeitsabläufe, übermäßige Meetings oder bürokratische Verfahren verschwenden Entwicklungszeit und verringern die Teamproduktivität.
+    slug_de: ineffiziente-prozesse
+  inexperienced-developers:
+    title_de: Unerfahrene Entwickler
+    description_de: Dem Entwicklungsteam fehlen das Wissen und die Erfahrung, um bewährte Praktiken und wartbare Lösungen umzusetzen.
+    slug_de: unerfahrene-entwickler
+  information-decay:
+    title_de: Informationsverfall
+    description_de: Systemdokumentation wird im Laufe der Zeit veraltet, ungenau oder unvollständig, was sie für Entscheidungsfindung und Systemverständnis unzuverlässig macht.
+    slug_de: informationsverfall
+  information-fragmentation:
+    title_de: Informationsfragmentierung
+    description_de: Kritisches Systemwissen ist über mehrere Orte und Formate verstreut, was es schwer auffindbar und pflegbar macht.
+    slug_de: informationsfragmentierung
+  insecure-data-transmission:
+    title_de: Unsichere Datenübertragung
+    description_de: Sensible Daten werden ohne angemessene Verschlüsselung oder Sicherheitskontrollen übertragen, was sie Abhören und unbefugtem Zugriff aussetzt.
+    slug_de: unsichere-datenuebertragung
+  insufficient-audit-logging:
+    title_de: Unzureichendes Audit-Logging
+    description_de: Unzureichende Protokollierung sicherheitsrelevanter Ereignisse erschwert es, Einbrüche zu erkennen, Vorfälle zu untersuchen oder Compliance einzuhalten.
+    slug_de: unzureichendes-audit-logging
+  insufficient-code-review:
+    title_de: Unzureichendes Code-Review
+    description_de: Code-Review-Prozesse übersehen Designfehler, Bugs oder Qualitätsprobleme aufgrund unzureichender Tiefe, Zeit oder Expertise.
+    slug_de: unzureichendes-code-review
+  insufficient-design-skills:
+    title_de: Unzureichende Design-Fähigkeiten
+    description_de: Dem Entwicklungsteam fehlen die nötigen Fähigkeiten und Erfahrung, um gut strukturierte, wartbare Software zu entwerfen und zu bauen.
+    slug_de: unzureichende-design-faehigkeiten
+  insufficient-testing:
+    title_de: Unzureichendes Testen
+    description_de: Der Testprozess ist nicht umfassend genug, was zu einer hohen Fehlerrate in der Produktion führt.
+    slug_de: unzureichendes-testen
+  insufficient-worker-capacity:
+    title_de: Unzureichende Worker-Kapazität
+    description_de: Es gibt nicht genügend Worker-Prozesse oder Threads, um das eingehende Aufgabenvolumen in einem asynchronen System zu bewältigen, was zu wachsenden Warteschlangen führt.
+    slug_de: unzureichende-worker-kapazitaet
+  integer-overflow-underflow:
+    title_de: Integer-Überlauf und -Unterlauf
+    description_de: Arithmetische Operationen erzeugen Ergebnisse, die die durch Integer-Datentypen darstellbaren Maximal- oder Minimalwerte überschreiten, was zu unerwartetem Verhalten führt.
+    slug_de: integer-ueberlauf-und-unterlauf
+  integration-difficulties:
+    title_de: Integrationsschwierigkeiten
+    description_de: Die Anbindung an moderne Services erfordert aufgrund architektonischer Einschränkungen oder veralteter Integrationsmuster umfangreiche Workarounds.
+    slug_de: integrationsschwierigkeiten
+  interrupt-overhead:
+    title_de: Interrupt-Overhead
+    description_de: Übermäßige Hardware-Interrupts stören den CPU-Ausführungsfluss, was zu häufigen Kontextwechseln führt und die Anwendungsperformance verringert.
+    slug_de: interrupt-overhead
+  invisible-nature-of-technical-debt:
+    title_de: Unsichtbarkeit technischer Schulden
+    description_de: Die Auswirkung technischer Schulden ist für nicht-technische Stakeholder nicht sichtbar, was es schwer macht, ihre Behebung zu rechtfertigen und Ressourcen dafür bereitzustellen.
+    slug_de: unsichtbarkeit-technischer-schulden
+  knowledge-dependency:
+    title_de: Wissensabhängigkeit
+    description_de: Teammitglieder bleiben länger als für ihre Rolle und Betriebszugehörigkeit angemessen von bestimmten erfahrenen Personen für Wissen und Entscheidungsfindung abhängig.
+    slug_de: wissensabhaengigkeit
+  knowledge-gaps:
+    title_de: Wissenslücken
+    description_de: Mangelndes Verständnis von Systemen, Geschäftsanforderungen oder technischen Domänen führt zu verlängerter Rechercheszeit und suboptimalen Lösungen.
+    slug_de: wissensluecken
+  knowledge-sharing-breakdown:
+    title_de: Zusammenbruch des Wissensaustauschs
+    description_de: Der Prozess des Wissens- und Erfahrungsaustauschs zwischen Teammitgliedern ist ineffektiv, was zu Informationssilos und verringertem Teamlernen führt.
+    slug_de: zusammenbruch-des-wissensaustauschs
+  knowledge-silos:
+    title_de: Wissenssilos
+    description_de: Wichtige Rechercheergebnisse und Expertise bleiben auf einzelne Teammitglieder beschränkt, was Wissensaustausch und Teamlernen verhindert.
+    slug_de: wissenssilos
+  lack-of-ownership-and-accountability:
+    title_de: Fehlende Eigenverantwortung und Rechenschaftspflicht
+    description_de: Keine klare Verantwortlichkeit für die Pflege von Codequalität, Dokumentation oder bestimmten Systemkomponenten im Zeitverlauf.
+    slug_de: fehlende-eigenverantwortung-und-rechenschaftspflicht
+  language-barriers:
+    title_de: Sprachbarrieren
+    description_de: Unterschiede in Sprache oder Terminologie behindern reibungslose Kommunikation und Verständnis im Team.
+    slug_de: sprachbarrieren
+  large-estimates-for-small-changes:
+    title_de: Große Schätzungen für kleine Änderungen
+    description_de: Das Team liefert durchgängig große Zeitschätzungen für scheinbar kleine Änderungen, was auf zugrunde liegende Codekomplexität und Risiko hinweist.
+    slug_de: grosse-schaetzungen-fuer-kleine-aenderungen
+  large-feature-scope:
+    title_de: Großer Feature-Umfang
+    description_de: Features sind zu groß, um in kleinere, inkrementelle Änderungen zerlegt zu werden, was zu langlebigen Branches und Integrationsproblemen führt.
+    slug_de: grosser-feature-umfang
+  large-pull-requests:
+    title_de: Große Pull Requests
+    description_de: Pull Requests sind zu groß, um effektiv geprüft zu werden, was zu oberflächlichen Reviews und übersehenen Problemen führt.
+    slug_de: grosse-pull-requests
+  large-risky-releases:
+    title_de: Große, riskante Releases
+    description_de: Seltene Releases führen zu großen, komplexen Deployments, die schwer zu testen sind, anfällig für Fehlschläge sind und erhebliche Auswirkungen auf Nutzer haben, wenn sie schiefgehen.
+    slug_de: grosse-riskante-releases
+  lazy-loading:
+    title_de: Lazy Loading
+    description_de: Die Nutzung von Lazy Loading in einem ORM-Framework führt zu einer großen Anzahl unnötiger Datenbankabfragen, was die Anwendungsperformance erheblich verschlechtern kann.
+    slug_de: lazy-loading
+  legacy-api-versioning-nightmare:
+    title_de: Albtraum der Legacy-API-Versionierung
+    description_de: Legacy-Systeme mit schlecht gestalteten APIs schaffen Versionierungs- und Abwärtskompatibilitätsherausforderungen, die sich im Laufe der Zeit verstärken.
+    slug_de: albtraum-der-legacy-api-versionierung
+  legacy-business-logic-extraction-difficulty:
+    title_de: Schwierigkeit bei der Extraktion von Legacy-Geschäftslogik
+    description_de: Kritische Geschäftsregeln sind tief in Legacy-Codestrukturen eingebettet, was sie nahezu unmöglich zu identifizieren und zu extrahieren macht.
+    slug_de: schwierigkeit-bei-der-extraktion-von-legacy-geschaeftslogik
+  legacy-code-without-tests:
+    title_de: Legacy-Code ohne Tests
+    description_de: Bestehende Legacy-Systeme haben oft keine automatisierten Tests, was es schwierig macht, sie schrittweise hinzuzufügen und den Code sicher zu ändern.
+    slug_de: legacy-code-ohne-tests
+  legacy-configuration-management-chaos:
+    title_de: Chaos im Legacy-Konfigurationsmanagement
+    description_de: Konfigurationseinstellungen sind hartcodiert, undokumentiert oder in proprietären Formaten gespeichert, die moderne Deployment-Praktiken verhindern.
+    slug_de: chaos-im-legacy-konfigurationsmanagement
+  legacy-skill-shortage:
+    title_de: Mangel an Legacy-Fachkräften
+    description_de: Ein kritischer Mangel an Entwicklern mit Kenntnissen über Legacy-Technologien erzeugt Engpässe und Single Points of Failure für die Systemwartung.
+    slug_de: mangel-an-legacy-fachkraeften
+  legacy-system-documentation-archaeology:
+    title_de: Dokumentations-Archäologie bei Legacy-Systemen
+    description_de: Kritisches Systemwissen existiert nur in veralteten Dokumentationsformaten, überholten Diagrammen und dem Stammeswissen ausgeschiedener Mitarbeiter.
+    slug_de: dokumentations-archaeologie-bei-legacy-systemen
+  legal-disputes:
+    title_de: Rechtsstreitigkeiten
+    description_de: Konflikte über Verträge, Liefergegenstände oder Verantwortlichkeiten eskalieren zu Rechtsverfahren, was Ressourcen verbraucht und Beziehungen schädigt.
+    slug_de: rechtsstreitigkeiten
+  limited-team-learning:
+    title_de: Begrenztes Teamlernen
+    description_de: Eine Situation, in der ein Team nicht aus seinen Fehlern lernt und sich im Laufe der Zeit nicht verbessert.
+    slug_de: begrenztes-teamlernen
+  load-balancing-problems:
+    title_de: Probleme beim Load Balancing
+    description_de: Load-Balancing-Mechanismen verteilen Traffic ineffizient oder passen sich nicht an sich ändernde Bedingungen an, was Performance-Probleme und Service-Instabilität verursacht.
+    slug_de: probleme-beim-load-balancing
+  lock-contention:
+    title_de: Lock Contention
+    description_de: Mehrere Threads konkurrieren um dieselben Locks, was Threads blockiert und die Effizienz paralleler Ausführung verringert.
+    slug_de: lock-contention
+  log-injection-vulnerabilities:
+    title_de: Log-Injection-Schwachstellen
+    description_de: Unbereinigte Nutzereingaben in Log-Nachrichten erlauben Angreifern, bösartigen Inhalt einzuschleusen, der die Log-Integrität kompromittieren oder Log-Verarbeitungssysteme ausnutzen kann.
+    slug_de: log-injection-schwachstellen
+  log-spam:
+    title_de: Log-Spam
+    description_de: Die Anwendungs- oder Datenbank-Logs werden mit einer großen Anzahl ähnlich aussehender Abfragen überflutet, was es schwierig macht, andere Probleme zu erkennen und zu diagnostizieren.
+    slug_de: log-spam
+  logging-configuration-issues:
+    title_de: Probleme bei der Logging-Konfiguration
+    description_de: Unsachgemäße Logging-Konfiguration führt zu fehlenden kritischen Informationen, übermäßigem Log-Volumen oder Sicherheitslücken.
+    slug_de: probleme-bei-der-logging-konfiguration
+  long-build-and-test-times:
+    title_de: Lange Build- und Testzeiten
+    description_de: Eine Situation, in der es lange dauert, ein System zu bauen und zu testen.
+    slug_de: lange-build-und-testzeiten
+  long-lived-feature-branches:
+    title_de: Langlebige Feature-Branches
+    description_de: Code wird nicht zeitnah geprüft und gemergt, was zu Integrationsproblemen und erhöhtem Risiko führt.
+    slug_de: langlebige-feature-branches
+  long-release-cycles:
+    title_de: Lange Release-Zyklen
+    description_de: Releases verzögern sich aufgrund langwieriger manueller Testphasen oder in letzter Minute entdeckter Fehler.
+    slug_de: lange-release-zyklen
+  long-running-database-transactions:
+    title_de: Lang laufende Datenbanktransaktionen
+    description_de: Datenbanktransaktionen bleiben über längere Zeiträume offen, halten Locks und verbrauchen Ressourcen, was andere Operationen blockieren kann.
+    slug_de: lang-laufende-datenbanktransaktionen
 
 solutions: {}
