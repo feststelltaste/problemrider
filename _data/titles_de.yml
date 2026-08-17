@@ -3266,3 +3266,243 @@ solutions:
     title_de: Physische Sicherheit
     description_de: Zugangs- und Zutrittsschutz für IT-Infrastruktur durch bauliche und organisatorische Maßnahmen.
     slug_de: physische-sicherheit
+  pilot-projects:
+    title_de: Pilotprojekte
+    description_de: Eine Änderung an einem kleinen, echten, reversiblen Fall beweisen, bevor sich die Organisation darauf festlegt — und das Ergebnis entscheiden lassen, auch wenn es negativ ausfällt.
+    slug_de: pilotprojekte
+  ping:
+    title_de: Ping
+    description_de: Aktives Senden von Anfragen an eine Komponente, um ihre Verfügbarkeit zu prüfen.
+    slug_de: ping
+  pipelining:
+    title_de: Pipelining
+    description_de: Gleichzeitige Ausführung sequenzieller Verarbeitungsschritte.
+    slug_de: pipelining
+  plain-language:
+    title_de: Einfache Sprache
+    description_de: Nutzung einfacher und klarer Formulierungen.
+    slug_de: einfache-sprache
+  platform-independence:
+    title_de: Plattformunabhängigkeit
+    description_de: Ausführbarkeit von Software auf verschiedenen Systemen und Umgebungen ohne Änderungen ermöglichen.
+    slug_de: plattformunabhaengigkeit
+  platform-independent-build-pipelines:
+    title_de: Plattformunabhängige Build-Pipelines
+    description_de: Umsetzung von CI/CD-Pipelines, die auf unterschiedlichen Build-Servern laufen.
+    slug_de: plattformunabhaengige-build-pipelines
+  platform-independent-configuration-files:
+    title_de: Plattformunabhängige Konfigurationsdateien
+    description_de: Speicherung von Konfigurationen in standardisierten, plattformunabhängigen Formaten.
+    slug_de: plattformunabhaengige-konfigurationsdateien
+  platform-independent-configuration-management:
+    title_de: Plattformunabhängiges Konfigurationsmanagement
+    description_de: Speicherung von Konfigurationseinstellungen in plattformunabhängigen Formaten.
+    slug_de: plattformunabhaengiges-konfigurationsmanagement
+  platform-independent-data-storage:
+    title_de: Plattformunabhängige Datenspeicherung
+    description_de: Wahl von Datenbanksystemen und Speicherlösungen, die auf verschiedenen Plattformen verfügbar sind.
+    slug_de: plattformunabhaengige-datenspeicherung
+  platform-independent-logging-frameworks:
+    title_de: Plattformunabhängige Logging-Frameworks
+    description_de: Nutzung von Logging-Frameworks, die auf verschiedenen Systemen konsistent funktionieren.
+    slug_de: plattformunabhaengige-logging-frameworks
+  platform-independent-programming-languages:
+    title_de: Plattformunabhängige Programmiersprachen
+    description_de: Nutzung von Programmiersprachen, die ohne Änderungen auf verschiedenen Systemen laufen.
+    slug_de: plattformunabhaengige-programmiersprachen
+  platform-independent-scripting-languages:
+    title_de: Plattformunabhängige Skriptsprachen
+    description_de: Nutzung von Skriptsprachen für Automatisierung und Konfiguration.
+    slug_de: plattformunabhaengige-skriptsprachen
+  platform-independent-test-frameworks:
+    title_de: Plattformunabhängige Test-Frameworks
+    description_de: Nutzung von Test-Frameworks, die auf verschiedenen Plattformen konsistent funktionieren.
+    slug_de: plattformunabhaengige-test-frameworks
+  platform-independent-time-zone-handling:
+    title_de: Plattformunabhängige Zeitzonenbehandlung
+    description_de: Verwaltung von Zeitzonen und Datumsformaten über eine abstrahierte Schicht.
+    slug_de: plattformunabhaengige-zeitzonenbehandlung
+  plausibility-checks:
+    title_de: Plausibilitätsprüfungen
+    description_de: Überprüfung von Eingaben, Daten oder Zuständen auf Gültigkeit, um potenzielle Fehler frühzeitig zu erkennen.
+    slug_de: plausibilitaetspruefungen
+  portability-checklists:
+    title_de: Portabilitäts-Checklisten
+    description_de: Erstellung von Checklisten zur Prüfung der Portabilität auf verschiedene Systeme und Plattformen.
+    slug_de: portabilitaets-checklisten
+  predictive-loading:
+    title_de: Prädiktives Laden
+    description_de: Proaktives Laden von Daten, die wahrscheinlich als Nächstes benötigt werden.
+    slug_de: praediktives-laden
+  predictive-prefetching:
+    title_de: Prädiktives Prefetching
+    description_de: Laden wahrscheinlich benötigter Inhalte, abgeleitet aus aktueller Nutzung.
+    slug_de: praediktives-prefetching
+  preparatory-refactoring:
+    title_de: Vorbereitendes Refactoring
+    description_de: Vor einer Änderung den Code so umstrukturieren, dass die Änderung einfach wird — dann die einfache Änderung vornehmen, als zwei getrennte Schritte.
+    slug_de: vorbereitendes-refactoring
+  prepared-statements:
+    title_de: Prepared Statements
+    description_de: Nutzung parametrisierter Abfragen zur Verhinderung von SQL-Injection.
+    slug_de: prepared-statements
+  privacy-by-design:
+    title_de: Privacy by Design
+    description_de: Einbettung des Datenschutzes in die Systemarchitektur von Anfang an.
+    slug_de: privacy-by-design
+  proactive-capacity-management:
+    title_de: Proaktives Kapazitätsmanagement
+    description_de: Vorhersage und Planung benötigter Ressourcen basierend auf Wachstumsprognosen.
+    slug_de: proaktives-kapazitaetsmanagement
+  probabilistic-data-structures:
+    title_de: Probabilistische Datenstrukturen
+    description_de: Nutzung von Datenstrukturen, die Genauigkeit gegen Speicherplatz eintauschen.
+    slug_de: probabilistische-datenstrukturen
+  product-owner:
+    title_de: Product Owner
+    description_de: Zuweisung der Verantwortung für Geschäftsanforderungen und Abnahme an eine dedizierte Rolle.
+    slug_de: product-owner
+  product-strategy-alignment:
+    title_de: Ausrichtung der Produktstrategie
+    description_de: Verknüpfung von Entwicklungsprioritäten mit messbaren Geschäftsergebnissen durch explizite Produktvision, ergebnisbasierte Roadmaps und regelmäßige Validierung, dass Features den beabsichtigten Wert liefern.
+    slug_de: ausrichtung-der-produktstrategie
+  production-environment-maintenance:
+    title_de: Wartung der Produktivumgebung
+    description_de: Durchführung regelmäßiger Inspektionen und Wartung zur Aufrechterhaltung der Zuverlässigkeit.
+    slug_de: wartung-der-produktivumgebung
+  production-like-test-data:
+    title_de: Produktionsnahe Testdaten
+    description_de: Aufbau von Testdaten aus anonymisierten Produktionsdaten, sodass Tests auf die unordentlichen, historisch gewachsenen Datensätze treffen, die synthetische Daten nie enthalten.
+    slug_de: produktionsnahe-testdaten
+  production-readiness-criteria:
+    title_de: Kriterien für Produktionsreife
+    description_de: Definition dessen, was eine Komponente bieten muss — Observability, Wiederherstellung, Ownership, Dokumentation — bevor sie Produktivlast tragen darf.
+    slug_de: kriterien-fuer-produktionsreife
+  profiling:
+    title_de: Profiling
+    description_de: Detaillierte Analyse der Anwendungsperformance zur Laufzeit.
+    slug_de: profiling
+  progressive-disclosure:
+    title_de: Progressive Disclosure
+    description_de: Schrittweises Offenlegen von Informationen und Funktionen, sobald Nutzer sie benötigen.
+    slug_de: progressive-disclosure
+  progressive-loading:
+    title_de: Progressives Laden
+    description_de: Inkrementelles Laden von Inhalten mit zunehmender Qualität.
+    slug_de: progressives-laden
+  property-based-testing:
+    title_de: Property-Based Testing
+    description_de: Verifikation von Software durch zufällige Eingaben und Eigenschaften.
+    slug_de: property-based-testing
+  protocol-abstraction:
+    title_de: Protokollabstraktion
+    description_de: Entkopplung von Kommunikationsprotokollen durch Abstraktion.
+    slug_de: protokollabstraktion
+  prototypes:
+    title_de: Prototypen
+    description_de: Frühzeitige Validierung von Eignung und Nutzbarkeit durch fachliche Prototypen.
+    slug_de: prototypen
+  prototyping:
+    title_de: Prototyping
+    description_de: Frühes Einholen von Feedback zu Funktionalität und Nutzbarkeit.
+    slug_de: prototyping
+  psychological-safety-practices:
+    title_de: Praktiken für psychologische Sicherheit
+    description_de: Schaffung eines Umfelds, in dem sich Teammitglieder sicher fühlen, sich zu äußern, zu widersprechen, Fehler zuzugeben und Bedenken zu äußern, ohne Angst vor Bestrafung oder Demütigung.
+    slug_de: praktiken-fuer-psychologische-sicherheit
+  quality-ratchet:
+    title_de: Qualitäts-Ratsche
+    description_de: Verlangen, dass Qualitätsmaße sich niemals gegenüber dem heutigen Stand verschlechtern, statt absolute Schwellenwerte zu setzen, die eine Legacy-Codebasis nie erreichen kann.
+    slug_de: qualitaets-ratsche
+  query-optimization-process:
+    title_de: Datenbankoptimierung
+    description_de: Anpassung von Datenbankdesign und -konfiguration für optimale Performance.
+    slug_de: datenbankoptimierung
+  raising-user-awareness:
+    title_de: Sensibilisierung der Nutzer
+    description_de: Sensibilisierung und Schulung von Mitarbeitern und Nutzern zu Sicherheitsthemen.
+    slug_de: sensibilisierung-der-nutzer
+  rate-limiting:
+    title_de: Rate Limiting
+    description_de: Steuerung eingehender Anfrageraten gegen Systemüberlastung bei Traffic-Spitzen.
+    slug_de: rate-limiting
+  reactive-programming:
+    title_de: Reaktive Programmierung
+    description_de: Entwicklung von Anwendungen, die auf Ereignisse reagieren und Datenströme verarbeiten.
+    slug_de: reaktive-programmierung
+  read-replicas:
+    title_de: Read Replicas
+    description_de: Verteilung der Abfragelast auf schreibgeschützte Datenbank-Replikate abseits des Primärsystems.
+    slug_de: read-replicas
+  real-time-input-validation:
+    title_de: Echtzeit-Eingabevalidierung
+    description_de: Validierung von Nutzereingaben in Echtzeit mit sofortigem Feedback bei Fehlern.
+    slug_de: echtzeit-eingabevalidierung
+  red-teaming:
+    title_de: Red Teaming
+    description_de: Durchführung umfassender und realistischer Angriffe auf die eigenen Systeme.
+    slug_de: red-teaming
+  redundancy:
+    title_de: Redundanz
+    description_de: Mehrfache Instanzen kritischer Komponenten oder Systeme.
+    slug_de: redundanz
+  redundant-checksums:
+    title_de: Redundante Prüfsummen
+    description_de: Nutzung mehrerer unterschiedlicher Prüfsummenalgorithmen.
+    slug_de: redundante-pruefsummen
+  redundant-data-storage:
+    title_de: Redundante Datenspeicherung
+    description_de: Speicherung von Daten auf mehreren Medien oder Systemen.
+    slug_de: redundante-datenspeicherung
+  refactoring-katas:
+    title_de: Refactoring-Katas
+    description_de: Durchführung regelmäßiger Übungen zur Verbesserung der Codequalität.
+    slug_de: refactoring-katas
+  regression-testing:
+    title_de: Regressionstests
+    description_de: Erneutes Ausführen bestehender Tests nach jeder Änderung gegen unbeabsichtigte Brüche.
+    slug_de: regressionstests
+  regression-tests:
+    title_de: Sicherheits-Regressionstests
+    description_de: Erneutes Testen zuvor behobener Sicherheitslücken, um ihr Wiederauftreten zu verhindern.
+    slug_de: sicherheits-regressionstests
+  regular-backups:
+    title_de: Regelmäßige Backups
+    description_de: Regelmäßige Sicherung von Daten und Systemzuständen.
+    slug_de: regelmaessige-backups
+  regular-maintenance-and-updates:
+    title_de: Regelmäßige Wartung und Updates
+    description_de: Durchführung geplanter Wartung und Installation von Updates.
+    slug_de: regelmaessige-wartung-und-updates
+  regular-stakeholder-demonstrations:
+    title_de: Regelmäßige Stakeholder-Demonstrationen
+    description_de: Arbeitende Software den Personen zeigen, die sie angefragt haben, in festem Takt, sodass Missverständnisse in Tagen statt erst bei der Auslieferung sichtbar werden.
+    slug_de: regelmaessige-stakeholder-demonstrationen
+  requirements-analysis:
+    title_de: Anforderungsanalyse
+    description_de: Systematische Erhebung, Analyse und Dokumentation funktionaler Anforderungen.
+    slug_de: anforderungsanalyse
+  requirements-traceability-matrix:
+    title_de: Anforderungs-Rückverfolgbarkeitsmatrix
+    description_de: Pflege expliziter bidirektionaler Zuordnungen von Anforderungen über Design, Code bis zu Tests.
+    slug_de: anforderungs-rueckverfolgbarkeitsmatrix
+  resilience:
+    title_de: Resilienz
+    description_de: Fähigkeit eines Systems, unter widrigen Bedingungen oder Fehlern funktionsfähig zu bleiben.
+    slug_de: resilienz
+  resource-pooling:
+    title_de: Resource Pooling
+    description_de: Gemeinsame Nutzung von Ressourcen durch Bündelung in wiederverwendbaren Pools.
+    slug_de: resource-pooling
+  resource-usage-optimization:
+    title_de: Optimierung der Ressourcennutzung
+    description_de: Minimierung des Verbrauchs knapper Ressourcen.
+    slug_de: optimierung-der-ressourcennutzung
+  responsive-design:
+    title_de: Responsive Design
+    description_de: Automatische Anpassung der Nutzeroberfläche an verschiedene Bildschirmgrößen und Geräte.
+    slug_de: responsive-design
+  restore-points:
+    title_de: Wiederherstellungspunkte
+    description_de: Regelmäßige Sicherung des Systemzustands.
+    slug_de: wiederherstellungspunkte
