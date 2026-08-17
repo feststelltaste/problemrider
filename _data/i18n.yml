@@ -1,0 +1,273 @@
+# UI chrome strings (navigation, buttons, labels, headings) for the
+# English/German site chrome, per plans/german-translation-plan.md
+# Decision 4. NOT for catalog content (problem/solution titles, bodies,
+# category keys, or the long home-page intro prose) - those are
+# translated directly in their own files/collections.
+#
+# Usage (wired up in Phase 1, not yet in this commit):
+#   {{ site.data.i18n[page.lang | default: site.lang]['nav.problems'] }}
+# or via a small `t` include that does the same lookup with an `en`
+# fallback when a key is missing for the current language.
+#
+# Placeholders use a %{name} convention (e.g. "Show %{count} more") -
+# whatever templating replaces them at the call site (Liquid `replace`,
+# or JS `.replace('%{count}', n)`) is a Phase 1 implementation detail.
+en:
+  # Site header / navigation (header.html)
+  nav.problems: Problems
+  nav.solutions: Solutions
+  nav.categories: Categories
+  nav.landscape: Landscape
+  nav.analysis_workbench: Analysis Workbench
+  nav.language_switch: Deutsch
+
+  # Footer (footer.html)
+  footer.github_repository: GitHub Repository
+  footer.license_prefix: "Content licensed under"
+  footer.license_name: CC BY-SA 4.0
+
+  # Home page (index.html)
+  home.please_note: "Please note:"
+  home.random_problems: Random Problems
+  home.catalog_stats: Catalog Stats
+  home.total_problems: Total Problems
+  home.total_solutions: Total Solutions
+  home.categories: Categories
+  home.explore: Explore
+  home.browse_all_problems: Browse All Problems
+  home.browse_all_problems_desc: View the complete catalog of problems, their symptoms, and their root causes
+  home.browse_all_solutions: Browse All Solutions
+  home.browse_all_solutions_desc: View every solution from A to Z and the problems each one addresses
+  home.disclaimer: This is an experimental project leveraging LLMs to generate interconnected problem networks. The app and content are provided "as-is," without warranties of any kind. Use it at your own risk!
+
+  # Problems overview page (problems.html)
+  problems_page.title: All Problems
+  problems_page.description: "Browse the complete catalog of %{count} problems, their symptoms, and root causes."
+  problems_page.search_placeholder: Search problems...
+  problems_page.all_categories: All Categories
+  problems_page.symptoms_label: "Symptoms:"
+  problems_page.leads_to_label: "Leads to:"
+  problems_page.more_indicator: "+%{count} more"
+
+  # Solutions overview page (solutions.html)
+  solutions_page.title: All Solutions
+  solutions_page.description: "Browse %{count} solutions for common legacy system problems. Solutions marked QT link to the Quality Tactics book."
+  solutions_page.search_placeholder: Search solutions...
+  solutions_page.all_categories: All Categories
+  solutions_page.addresses_label: "Addresses:"
+  solutions_page.more_indicator: "+%{count} more"
+
+  # Categories page (categories.html)
+  categories_page.title: Browse by Category
+  categories_page.description: Explore problems and solutions organized by category to find what relates to specific domains.
+  categories_page.overview_intro: "The catalog organizes problems and solutions into 15 core categories:"
+  categories_page.problems_heading: Problems
+  categories_page.solutions_heading: Solutions
+  categories_page.show_more: "Show %{count} more"
+  categories_page.show_less: Show less
+  categories_page.back_to_top: "↑ Back to Top"
+  categories_page.problem_count_one: "%{count} problem"
+  categories_page.problem_count_other: "%{count} problems"
+  categories_page.solution_count_one: "%{count} solution"
+  categories_page.solution_count_other: "%{count} solutions"
+
+  # Landscape page (landscape.html)
+  landscape.tab_problems: Problems
+  landscape.tab_solutions: Solutions
+  landscape.search_placeholder: "Search…"
+  landscape.zoom_out: Zoom out
+  landscape.zoom_in: Zoom in
+  landscape.reset_view: Reset view
+  landscape.legend: Legend
+  landscape.resize_columns: Drag to resize columns
+
+  # Problem layout (_layouts/problem.html)
+  problem_layout.speed_nav: Speed nav
+  problem_layout.speed_nav_title: Number keys 1-9 jump to headings on this page
+  problem_layout.related_problems: Related Problems
+  problem_layout.possible_solutions: Possible Solutions
+  problem_layout.back_to_problems: "← Back to Problems Overview"
+  problem_layout.show_more: "Show %{count} more"
+  problem_layout.show_less: Show less
+
+  # Solution layout (_layouts/solution.html)
+  solution_layout.speed_nav: Speed nav
+  solution_layout.speed_nav_title: Number keys 1-9 jump to headings on this page
+  solution_layout.similar_solutions: Similar Solutions
+  solution_layout.problems_addressed: Problems Addressed
+  solution_layout.back_to_solutions: "← Back to Solutions Overview"
+
+  # Analysis Workbench (_includes/analysis-trail.html)
+  analysis_trail.title: Analysis Workbench
+  analysis_trail.empty_summary: Open a problem or solution to start.
+  analysis_trail.resize_columns: Drag to resize columns
+  analysis_trail.zoom_out: Zoom out
+  analysis_trail.zoom_in: Zoom in
+  analysis_trail.undo: Undo graph change
+  analysis_trail.redo: Redo graph change
+  analysis_trail.export_svg: SVG
+  analysis_trail.export_svg_label: Download graph as SVG
+  analysis_trail.export_png: PNG
+  analysis_trail.export_png_label: Download graph as 300 DPI PNG
+  analysis_trail.export_drawio: Draw.io
+  analysis_trail.export_drawio_label: Export graph for Draw.io
+  analysis_trail.export_excalidraw: Excalidraw
+  analysis_trail.export_excalidraw_label: Export graph for Excalidraw
+  analysis_trail.save: Save
+  analysis_trail.load: Load
+  analysis_trail.close: Close
+  analysis_trail.reset: Reset
+  analysis_trail.add_node_title: Add node
+  analysis_trail.select_node_type: Select node type
+  analysis_trail.type_label: Type
+  analysis_trail.type_cause: Cause
+  analysis_trail.type_symptom: Symptom
+  analysis_trail.type_problem: Problem
+  analysis_trail.type_similar: Similar problem
+  analysis_trail.type_solution: Solution
+  analysis_trail.type_similar_solution: Similar solution
+  analysis_trail.type_addressed_problem: Addressed problem
+  analysis_trail.text_search_label: Text / Search
+  analysis_trail.text_search_placeholder: Type to search or add custom text
+  analysis_trail.custom_node_hint: Custom node will be created.
+  analysis_trail.cancel: Cancel
+  analysis_trail.add_node: Add node
+  analysis_trail.legend_problem: Problem
+  analysis_trail.legend_solution: Solution
+  analysis_trail.legend_causes: Causes
+  analysis_trail.legend_addresses: Addresses
+  analysis_trail.legend_similar: Similar
+  analysis_trail.quick_filter_all: All
+  analysis_trail.quick_filter_problems: Problems
+  analysis_trail.quick_filter_solutions: Solutions
+  analysis_trail.quick_search_placeholder: "Quick search…"
+
+de:
+  # Site header / navigation (header.html)
+  nav.problems: Probleme
+  nav.solutions: Lösungen
+  nav.categories: Kategorien
+  nav.landscape: Landscape
+  nav.analysis_workbench: Analyse-Werkbank
+  nav.language_switch: English
+
+  # Footer (footer.html)
+  footer.github_repository: GitHub-Repository
+  footer.license_prefix: "Inhalte lizenziert unter"
+  footer.license_name: CC BY-SA 4.0
+
+  # Home page (index.html)
+  home.please_note: "Bitte beachten:"
+  home.random_problems: Zufällige Probleme
+  home.catalog_stats: Katalog-Statistik
+  home.total_problems: Probleme gesamt
+  home.total_solutions: Lösungen gesamt
+  home.categories: Kategorien
+  home.explore: Erkunden
+  home.browse_all_problems: Alle Probleme durchsuchen
+  home.browse_all_problems_desc: Der vollständige Katalog aller Probleme, ihrer Symptome und Grundursachen
+  home.browse_all_solutions: Alle Lösungen durchsuchen
+  home.browse_all_solutions_desc: Jede Lösung von A bis Z und die Probleme, die sie jeweils adressiert
+  home.disclaimer: Dies ist ein experimentelles Projekt, das LLMs nutzt, um vernetzte Problem-Netzwerke zu erzeugen. App und Inhalte werden „wie besehen“ bereitgestellt, ohne jegliche Gewährleistung. Nutzung auf eigenes Risiko!
+
+  # Problems overview page (problems.html)
+  problems_page.title: Alle Probleme
+  problems_page.description: "Der vollständige Katalog von %{count} Problemen, ihren Symptomen und Grundursachen."
+  problems_page.search_placeholder: Probleme durchsuchen...
+  problems_page.all_categories: Alle Kategorien
+  problems_page.symptoms_label: "Symptome:"
+  problems_page.leads_to_label: "Führt zu:"
+  problems_page.more_indicator: "+%{count} weitere"
+
+  # Solutions overview page (solutions.html)
+  solutions_page.title: Alle Lösungen
+  solutions_page.description: "%{count} Lösungen für typische Probleme in Legacy-Systemen. Mit QT markierte Lösungen verlinken auf das Quality-Tactics-Buch."
+  solutions_page.search_placeholder: Lösungen durchsuchen...
+  solutions_page.all_categories: Alle Kategorien
+  solutions_page.addresses_label: "Adressiert:"
+  solutions_page.more_indicator: "+%{count} weitere"
+
+  # Categories page (categories.html)
+  categories_page.title: Nach Kategorie durchsuchen
+  categories_page.description: Probleme und Lösungen nach Kategorie erkunden, um zu finden, was zu bestimmten Themengebieten passt.
+  categories_page.overview_intro: "Der Katalog gliedert Probleme und Lösungen in 15 Kernkategorien:"
+  categories_page.problems_heading: Probleme
+  categories_page.solutions_heading: Lösungen
+  categories_page.show_more: "%{count} weitere anzeigen"
+  categories_page.show_less: Weniger anzeigen
+  categories_page.back_to_top: "↑ Nach oben"
+  categories_page.problem_count_one: "%{count} Problem"
+  categories_page.problem_count_other: "%{count} Probleme"
+  categories_page.solution_count_one: "%{count} Lösung"
+  categories_page.solution_count_other: "%{count} Lösungen"
+
+  # Landscape page (landscape.html)
+  landscape.tab_problems: Probleme
+  landscape.tab_solutions: Lösungen
+  landscape.search_placeholder: "Suchen…"
+  landscape.zoom_out: Verkleinern
+  landscape.zoom_in: Vergrößern
+  landscape.reset_view: Ansicht zurücksetzen
+  landscape.legend: Legende
+  landscape.resize_columns: Ziehen, um Spalten anzupassen
+
+  # Problem layout (_layouts/problem.html)
+  problem_layout.speed_nav: Schnellnavigation
+  problem_layout.speed_nav_title: Zifferntasten 1-9 springen zu Überschriften auf dieser Seite
+  problem_layout.related_problems: Verwandte Probleme
+  problem_layout.possible_solutions: Mögliche Lösungen
+  problem_layout.back_to_problems: "← Zurück zur Problem-Übersicht"
+  problem_layout.show_more: "%{count} weitere anzeigen"
+  problem_layout.show_less: Weniger anzeigen
+
+  # Solution layout (_layouts/solution.html)
+  solution_layout.speed_nav: Schnellnavigation
+  solution_layout.speed_nav_title: Zifferntasten 1-9 springen zu Überschriften auf dieser Seite
+  solution_layout.similar_solutions: Ähnliche Lösungen
+  solution_layout.problems_addressed: Adressierte Probleme
+  solution_layout.back_to_solutions: "← Zurück zur Lösungs-Übersicht"
+
+  # Analysis Workbench (_includes/analysis-trail.html)
+  analysis_trail.title: Analyse-Werkbank
+  analysis_trail.empty_summary: Ein Problem oder eine Lösung öffnen, um zu starten.
+  analysis_trail.resize_columns: Ziehen, um Spalten anzupassen
+  analysis_trail.zoom_out: Verkleinern
+  analysis_trail.zoom_in: Vergrößern
+  analysis_trail.undo: Graph-Änderung rückgängig machen
+  analysis_trail.redo: Graph-Änderung wiederherstellen
+  analysis_trail.export_svg: SVG
+  analysis_trail.export_svg_label: Graph als SVG herunterladen
+  analysis_trail.export_png: PNG
+  analysis_trail.export_png_label: Graph als 300-DPI-PNG herunterladen
+  analysis_trail.export_drawio: Draw.io
+  analysis_trail.export_drawio_label: Graph für Draw.io exportieren
+  analysis_trail.export_excalidraw: Excalidraw
+  analysis_trail.export_excalidraw_label: Graph für Excalidraw exportieren
+  analysis_trail.save: Speichern
+  analysis_trail.load: Laden
+  analysis_trail.close: Schließen
+  analysis_trail.reset: Zurücksetzen
+  analysis_trail.add_node_title: Knoten hinzufügen
+  analysis_trail.select_node_type: Knotentyp auswählen
+  analysis_trail.type_label: Typ
+  analysis_trail.type_cause: Ursache
+  analysis_trail.type_symptom: Symptom
+  analysis_trail.type_problem: Problem
+  analysis_trail.type_similar: Ähnliches Problem
+  analysis_trail.type_solution: Lösung
+  analysis_trail.type_similar_solution: Ähnliche Lösung
+  analysis_trail.type_addressed_problem: Adressiertes Problem
+  analysis_trail.text_search_label: Text / Suche
+  analysis_trail.text_search_placeholder: Tippen, um zu suchen oder eigenen Text hinzuzufügen
+  analysis_trail.custom_node_hint: Es wird ein eigener Knoten erstellt.
+  analysis_trail.cancel: Abbrechen
+  analysis_trail.add_node: Knoten hinzufügen
+  analysis_trail.legend_problem: Problem
+  analysis_trail.legend_solution: Lösung
+  analysis_trail.legend_causes: Verursacht
+  analysis_trail.legend_addresses: Adressiert
+  analysis_trail.legend_similar: Ähnlich
+  analysis_trail.quick_filter_all: Alle
+  analysis_trail.quick_filter_problems: Probleme
+  analysis_trail.quick_filter_solutions: Lösungen
+  analysis_trail.quick_search_placeholder: "Schnellsuche…"
