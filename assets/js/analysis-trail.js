@@ -1,6 +1,60 @@
 (function () {
   'use strict';
 
+  // Strings this file builds dynamically (aria-labels, menu items, alerts)
+  // that can't be pre-rendered as static markup by _includes/analysis-trail.html
+  // (see plans/german-translation-plan.md, Decision 4). The defaults below are
+  // the original English text, used as a fallback if the page never set
+  // window.ANALYSIS_TRAIL_I18N (e.g. an include that's out of sync), so this
+  // never breaks even if that object is missing a key.
+  var i18n = (function () {
+    var defaults = {
+      customNodeHint: 'Custom node will be created.',
+      emptySummary: 'Open a problem or solution to start.',
+      itemsCountOne: '%{count} item in this analysis.',
+      itemsCountOther: '%{count} items in this analysis.',
+      graphAriaLabel: 'Analysis workbench graph',
+      referencesFor: 'References for %{title}',
+      menuAddressedProblems: 'Addressed Problems',
+      menuSimilarSolutions: 'Similar Solutions',
+      menuSymptoms: 'Symptoms',
+      menuCauses: 'Causes',
+      menuSolutions: 'Solutions',
+      menuSimilarProblems: 'Similar Problems',
+      addToGraphTitle: 'Add to the graph without leaving this page',
+      addNodeAria: 'Add %{title} to the graph',
+      searchOrAddNode: 'Search or add a new %{kind} node',
+      addCustomNode: 'Add "%{query}" as a new node',
+      noReferences: 'No linked references yet.',
+      loadReferencesFailed: 'Could not load references.',
+      edgeHint: 'Double-click to flip direction, make it a similar link, or remove it',
+      addNodeTo: 'Add node to %{title}',
+      connectNodeTo: 'Connect %{title} to another node',
+      connectHint: 'Connect to another node',
+      removeNodeFrom: 'Remove %{title} from the analysis trail',
+      removeLeafHint: 'Remove leaf node',
+      existingSolutionSelected: 'Existing solution selected.',
+      existingProblemSelected: 'Existing problem selected.',
+      pngExportFailed: 'Could not create the PNG export.',
+      invalidWorkbenchFile: 'This is not a valid ProblemRider Analysis Workbench file.',
+      emptyPathHint: 'Your analysis path will appear here.',
+      searchPlaceholder: 'Search…',
+      legendSolution: 'Solution',
+      legendProblem: 'Problem'
+    };
+    var provided = window.ANALYSIS_TRAIL_I18N || {};
+    var merged = {};
+    Object.keys(defaults).forEach(function (key) { merged[key] = provided[key] || defaults[key]; });
+    return merged;
+  })();
+
+  // Replaces every %{name} placeholder in a template string with values[name].
+  function fillTemplate(template, values) {
+    return Object.keys(values || {}).reduce(function (text, key) {
+      return text.split('%{' + key + '}').join(values[key]);
+    }, template);
+  }
+
   // Versioned storage prevents edges created by an older navigation-based
   // implementation from being mixed with the semantic causal graph.
   var storageKey = 'problemrider-analysis-trail-v12';
@@ -99,7 +153,7 @@
     updateTypeButtonsDOM();
     text.value = '';
     if (results) { results.innerHTML = ''; results.hidden = true; }
-    if (selection) selection.textContent = 'Custom node will be created.';
+    if (selection) selection.textContent = i18n.customNodeHint;
     modal.hidden = false;
     text.focus();
   }
@@ -166,8 +220,12 @@
       while (previous) {
         if (previous.tagName === 'H2') {
           var heading = previous.textContent.trim();
-          if (heading.indexOf('Symptoms') === 0 || heading.indexOf('Symptom') === 0) return { label: 'causes', direction: 'reverse', targetType: 'symptom' };
-          if (heading.indexOf('Root Causes') === 0 || heading.indexOf('Causes') === 0) return { label: 'causes', direction: 'forward', targetType: 'root cause' };
+          // Matched by trailing glyph, not the English heading word, so this
+          // also works on translated (e.g. German) pages that keep the same
+          // glyphs but translate the heading text itself (see
+          // plans/german-translation-plan.md, Decision 2).
+          if (heading.indexOf('▲') !== -1) return { label: 'causes', direction: 'reverse', targetType: 'symptom' };
+          if (heading.indexOf('▼') !== -1) return { label: 'causes', direction: 'forward', targetType: 'root cause' };
           break;
         }
         previous = previous.previousElementSibling;
@@ -255,10 +313,13 @@
     if (selector) {
       links = Array.prototype.slice.call(pageDocument.querySelectorAll(selector));
     } else {
-      var headingStart = kind === 'symptoms' ? 'Symptoms' : 'Causes';
+      // Matched by trailing glyph, not the English heading word, so this also
+      // works on translated (e.g. German) pages (see
+      // plans/german-translation-plan.md, Decision 2). ▲/▼ are unique to the
+      // Symptoms/Causes headings (see problem-pattern-template.md).
       var heading = Array.prototype.slice.call(pageDocument.querySelectorAll('h2')).filter(function (item) {
         var text = item.textContent.trim();
-        return kind === 'causes' ? /^(Root )?Causes/.test(text) : /^Symptoms?/.test(text);
+        return kind === 'causes' ? text.indexOf('▼') !== -1 : text.indexOf('▲') !== -1;
       })[0];
       if (heading) {
         var sibling = heading.nextElementSibling;
@@ -464,12 +525,12 @@
     if (!container || !summary) return;
     container.innerHTML = '';
     if (!trail.nodes.length) {
-      summary.textContent = 'Open a problem or solution to start.';
-      container.innerHTML = '<p class="analysis-trail__empty">Your analysis path will appear here.</p>';
+      summary.textContent = i18n.emptySummary;
+      container.innerHTML = '<p class="analysis-trail__empty">' + i18n.emptyPathHint + '</p>';
       return;
     }
 
-    summary.textContent = trail.nodes.length + (trail.nodes.length === 1 ? ' item in this analysis.' : ' items in this analysis.');
+    summary.textContent = fillTemplate(trail.nodes.length === 1 ? i18n.itemsCountOne : i18n.itemsCountOther, { count: trail.nodes.length });
     var typeOrder = { symptom: 0, problem: 1, solution: 2, 'root cause': 3 };
     var displayNodes = trail.nodes.slice().sort(function (first, second) {
       return (typeOrder[first.type] === undefined ? 1 : typeOrder[first.type]) -
@@ -486,7 +547,7 @@
     var pan = trail.pan || { x: 0, y: 300 };
     var viewBoxX = (width - visibleWidth) / 2 - pan.x;
     var viewBoxY = (height - visibleHeight) / 2 - pan.y;
-    var svg = svgElement('svg', { viewBox: viewBoxX + ' ' + viewBoxY + ' ' + visibleWidth + ' ' + visibleHeight, role: 'img', 'aria-label': 'Analysis workbench graph' });
+    var svg = svgElement('svg', { viewBox: viewBoxX + ' ' + viewBoxY + ' ' + visibleWidth + ' ' + visibleHeight, role: 'img', 'aria-label': i18n.graphAriaLabel });
     var defs = svgElement('defs');
     var marker = svgElement('marker', { id: 'analysis-trail-arrow', viewBox: '0 0 10 10', refX: '8', refY: '5', markerWidth: '8', markerHeight: '8', orient: 'auto' });
     marker.appendChild(svgElement('path', { d: 'M 0 0 L 10 5 L 0 10 z', fill: '#cbd5e1' }));
@@ -726,13 +787,13 @@
       if (!position) return;
       nodeMenu = document.createElement('div');
       nodeMenu.className = 'analysis-trail__node-menu';
-      nodeMenu.setAttribute('aria-label', 'References for ' + sourceNode.title);
+      nodeMenu.setAttribute('aria-label', fillTemplate(i18n.referencesFor, { title: sourceNode.title }));
       nodeMenu.sourceNode = sourceNode;
       updateNodeMenuPosition();
 
       var menuActions = sourceNode.id.indexOf('solution:') === 0 ?
-        [{ kind: 'addressed-problems', label: 'Addressed Problems' }, { kind: 'similar-solutions', label: 'Similar Solutions' }] :
-        [{ kind: 'symptoms', label: 'Symptoms' }, { kind: 'causes', label: 'Causes' }, { kind: 'solutions', label: 'Solutions' }, { kind: 'similar-problems', label: 'Similar Problems' }];
+        [{ kind: 'addressed-problems', label: i18n.menuAddressedProblems }, { kind: 'similar-solutions', label: i18n.menuSimilarSolutions }] :
+        [{ kind: 'symptoms', label: i18n.menuSymptoms }, { kind: 'causes', label: i18n.menuCauses }, { kind: 'solutions', label: i18n.menuSolutions }, { kind: 'similar-problems', label: i18n.menuSimilarProblems }];
       menuActions.forEach(function (menuAction) {
         var kind = menuAction.kind;
         var action = document.createElement('button');
@@ -780,8 +841,8 @@
             var addButton = document.createElement('button');
             addButton.type = 'button';
             addButton.className = 'analysis-trail__node-menu-list-add';
-            addButton.title = 'Add to the graph without leaving this page';
-            addButton.setAttribute('aria-label', 'Add ' + candidateNode.title + ' to the graph');
+            addButton.title = i18n.addToGraphTitle;
+            addButton.setAttribute('aria-label', fillTemplate(i18n.addNodeAria, { title: candidateNode.title }));
             addButton.textContent = '+';
             addButton.addEventListener('click', function () {
               rememberChange(trail);
@@ -804,8 +865,8 @@
           var searchInput = document.createElement('input');
           searchInput.type = 'text';
           searchInput.className = 'analysis-trail__node-menu-search-input';
-          searchInput.placeholder = 'Search…';
-          searchInput.setAttribute('aria-label', 'Search or add a new ' + kind + ' node');
+          searchInput.placeholder = i18n.searchPlaceholder;
+          searchInput.setAttribute('aria-label', fillTemplate(i18n.searchOrAddNode, { kind: kind }));
           var searchResults = document.createElement('div');
           searchResults.className = 'analysis-trail__node-menu-search-results';
           searchResults.setAttribute('role', 'listbox');
@@ -848,7 +909,7 @@
             var custom = document.createElement('button');
             custom.type = 'button';
             custom.className = 'analysis-trail__node-menu-search-custom';
-            custom.textContent = 'Add "' + query + '" as a new node';
+            custom.textContent = fillTemplate(i18n.addCustomNode, { query: query });
             custom.addEventListener('click', function () {
               addAndClose({
                 id: 'custom:' + Date.now() + '-' + Math.random().toString(36).slice(2, 8),
@@ -889,10 +950,10 @@
             } else {
               var empty = document.createElement('p');
               empty.className = 'analysis-trail__node-menu-empty';
-              empty.textContent = 'No linked references yet.';
+              empty.textContent = i18n.noReferences;
               list.appendChild(empty);
             }
-          }).catch(function () { list.appendChild(document.createTextNode('Could not load references.')); });
+          }).catch(function () { list.appendChild(document.createTextNode(i18n.loadReferencesFailed)); });
         }
         action.addEventListener('click', openActionList);
         nodeMenu.appendChild(action);
@@ -914,7 +975,7 @@
       if (!isRelated) pathAttributes['marker-end'] = 'url(#analysis-trail-arrow)';
       var hit = svgElement('path', { class: 'analysis-trail__edge-hit' });
       var hitTitle = svgElement('title');
-      hitTitle.textContent = 'Double-click to flip direction, make it a similar link, or remove it';
+      hitTitle.textContent = i18n.edgeHint;
       hit.appendChild(hitTitle);
       svg.appendChild(hit);
       var path = svgElement('path', pathAttributes);
@@ -959,7 +1020,7 @@
       svg.appendChild(group);
       nodeElements[node.id] = { node: node, group: group, link: link, circle: circle, hoverHit: hoverHit, text: text, labelOffset: labelOffset, labelLines: Array.prototype.slice.call(text.querySelectorAll('tspan')) };
       if (canAddNode) {
-        var addNode = svgElement('g', { class: 'analysis-trail__add-node', role: 'button', tabindex: '0', 'aria-label': 'Add node to ' + node.title });
+        var addNode = svgElement('g', { class: 'analysis-trail__add-node', role: 'button', tabindex: '0', 'aria-label': fillTemplate(i18n.addNodeTo, { title: node.title }) });
         addNode.appendChild(svgElement('circle', { cx: position.x + controlOffsetX, cy: position.y + controlCircleY, r: '6' }));
         var addMark = svgElement('text', { x: position.x + controlOffsetX, y: position.y + controlTextY, 'text-anchor': 'middle' });
         addMark.textContent = '+';
@@ -976,7 +1037,7 @@
           class: 'analysis-trail__link-node',
           role: 'button',
           tabindex: '0',
-          'aria-label': 'Connect ' + node.title + ' to another node'
+          'aria-label': fillTemplate(i18n.connectNodeTo, { title: node.title })
         });
         var linkHit = svgElement('circle', { cx: position.x, cy: position.y + controlCircleY, r: '6', class: 'analysis-trail__link-hit' });
         // Two small nodes joined by a line, matching what the control creates.
@@ -987,7 +1048,7 @@
         linkNode.appendChild(linkHit);
         linkNode.appendChild(linkIcon);
         var linkTitle = svgElement('title');
-        linkTitle.textContent = 'Connect to another node';
+        linkTitle.textContent = i18n.connectHint;
         linkNode.appendChild(linkTitle);
         linkNode.addEventListener('click', function (event) {
           event.preventDefault();
@@ -1011,7 +1072,7 @@
           role: 'button',
           tabindex: '0',
           style: 'text-decoration:none',
-          'aria-label': 'Remove ' + node.title + ' from the analysis trail'
+          'aria-label': fillTemplate(i18n.removeNodeFrom, { title: node.title })
         });
         var removeHit = svgElement('circle', { cx: position.x - controlOffsetX, cy: position.y + controlCircleY, r: '6', class: 'analysis-trail__remove-hit' });
         var removeIcon = svgElement('text', { x: position.x - controlOffsetX, y: position.y + controlTextY, class: 'analysis-trail__remove-icon', 'text-anchor': 'middle' });
@@ -1019,7 +1080,7 @@
         remove.appendChild(removeHit);
         remove.appendChild(removeIcon);
         var removeTitle = svgElement('title');
-        removeTitle.textContent = 'Remove leaf node';
+        removeTitle.textContent = i18n.removeLeafHint;
         remove.appendChild(removeTitle);
         var removeNode = function () {
           rememberChange(trail);
@@ -1310,7 +1371,7 @@
     function updateAddSearch() {
       if (!pendingAdd) return;
       pendingAdd.selected = null;
-      addSelection.textContent = 'Custom node will be created.';
+      addSelection.textContent = i18n.customNodeHint;
       addSearchResults.innerHTML = '';
       var query = addModalText.value.trim().toLowerCase();
       if (!query) { addSearchResults.hidden = true; return; }
@@ -1326,7 +1387,7 @@
         result.addEventListener('click', function () {
           pendingAdd.selected = item;
           addModalText.value = item.title;
-          addSelection.textContent = 'Existing ' + (addTypeUsesSolutionCatalog(currentAddType) ? 'solution' : 'problem') + ' selected.';
+          addSelection.textContent = addTypeUsesSolutionCatalog(currentAddType) ? i18n.existingSolutionSelected : i18n.existingProblemSelected;
           addSearchResults.hidden = true;
         });
         addSearchResults.appendChild(result);
@@ -1450,7 +1511,7 @@
         result.setAttribute('role', 'option');
         var badge = document.createElement('span');
         badge.className = 'analysis-trail__quick-badge analysis-trail__quick-badge--' + entry.type;
-        badge.textContent = entry.type === 'solution' ? 'Solution' : 'Problem';
+        badge.textContent = entry.type === 'solution' ? i18n.legendSolution : i18n.legendProblem;
         result.appendChild(badge);
         result.appendChild(document.createTextNode(entry.item.title));
         result.addEventListener('click', function () {
@@ -1722,7 +1783,7 @@
           });
         }, 'image/png');
       };
-      image.onerror = function () { URL.revokeObjectURL(svgUrl); window.alert('Could not create the PNG export.'); };
+      image.onerror = function () { URL.revokeObjectURL(svgUrl); window.alert(i18n.pngExportFailed); };
       image.src = svgUrl;
     });
 
@@ -1931,7 +1992,7 @@
         saveTrail(trail);
         render(trail);
       }).catch(function () {
-        window.alert('This is not a valid ProblemRider Analysis Workbench file.');
+        window.alert(i18n.invalidWorkbenchFile);
       }).finally(function () { loadWorkbenchFile.value = ''; });
     });
 

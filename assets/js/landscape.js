@@ -24,6 +24,14 @@
     'Testing': '#ff6b35'
   };
 
+  // See window.CATEGORY_COLORS above for the pattern; landscape.html sets
+  // this from _data/i18n.yml (see plans/german-translation-plan.md,
+  // Decision 4). The fallback keeps the original English text.
+  var i18n = window.LANDSCAPE_I18N || {
+    searchMatchOne: '%{count} match',
+    searchMatchOther: '%{count} matches'
+  };
+
   function colorFor(category) {
     return categoryColors[category] || '#6c757d';
   }
@@ -389,7 +397,7 @@
       element.classList.toggle('is-dimmed', !isMatch);
       if (isMatch) matches++;
     });
-    searchCount.textContent = query ? (matches + ' match' + (matches === 1 ? '' : 'es')) : '';
+    searchCount.textContent = query ? (matches === 1 ? i18n.searchMatchOne : i18n.searchMatchOther).replace('%{count}', matches) : '';
   }
 
   // --- Pan & zoom -----------------------------------------------------

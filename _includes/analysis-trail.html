@@ -95,4 +95,43 @@
 }
 </script>
 
+<script>
+  // Read by assets/js/analysis-trail.js for strings it builds dynamically
+  // (aria-labels, menu items, alerts) that can't be pre-rendered as static
+  // markup. %{name}-style placeholders are filled in by the JS itself.
+  window.ANALYSIS_TRAIL_I18N = {
+    customNodeHint: {{ t['analysis_trail.custom_node_hint'] | jsonify }},
+    emptySummary: {{ t['analysis_trail.empty_summary'] | jsonify }},
+    itemsCountOne: {{ t['analysis_trail.items_count_one'] | jsonify }},
+    itemsCountOther: {{ t['analysis_trail.items_count_other'] | jsonify }},
+    graphAriaLabel: {{ t['analysis_trail.graph_aria_label'] | jsonify }},
+    referencesFor: {{ t['analysis_trail.references_for'] | jsonify }},
+    menuAddressedProblems: {{ t['analysis_trail.menu_addressed_problems'] | jsonify }},
+    menuSimilarSolutions: {{ t['analysis_trail.menu_similar_solutions'] | jsonify }},
+    menuSymptoms: {{ t['analysis_trail.menu_symptoms'] | jsonify }},
+    menuCauses: {{ t['analysis_trail.menu_causes'] | jsonify }},
+    menuSolutions: {{ t['analysis_trail.menu_solutions'] | jsonify }},
+    menuSimilarProblems: {{ t['analysis_trail.menu_similar_problems'] | jsonify }},
+    addToGraphTitle: {{ t['analysis_trail.add_to_graph_title'] | jsonify }},
+    addNodeAria: {{ t['analysis_trail.add_node_aria'] | jsonify }},
+    searchOrAddNode: {{ t['analysis_trail.search_or_add_node'] | jsonify }},
+    addCustomNode: {{ t['analysis_trail.add_custom_node'] | jsonify }},
+    noReferences: {{ t['analysis_trail.no_references'] | jsonify }},
+    loadReferencesFailed: {{ t['analysis_trail.load_references_failed'] | jsonify }},
+    edgeHint: {{ t['analysis_trail.edge_hint'] | jsonify }},
+    addNodeTo: {{ t['analysis_trail.add_node_to'] | jsonify }},
+    connectNodeTo: {{ t['analysis_trail.connect_node_to'] | jsonify }},
+    connectHint: {{ t['analysis_trail.connect_hint'] | jsonify }},
+    removeNodeFrom: {{ t['analysis_trail.remove_node_from'] | jsonify }},
+    removeLeafHint: {{ t['analysis_trail.remove_leaf_hint'] | jsonify }},
+    existingSolutionSelected: {{ t['analysis_trail.existing_solution_selected'] | jsonify }},
+    existingProblemSelected: {{ t['analysis_trail.existing_problem_selected'] | jsonify }},
+    pngExportFailed: {{ t['analysis_trail.png_export_failed'] | jsonify }},
+    invalidWorkbenchFile: {{ t['analysis_trail.invalid_workbench_file'] | jsonify }},
+    emptyPathHint: {{ t['analysis_trail.empty_path_hint'] | jsonify }},
+    searchPlaceholder: {{ t['analysis_trail.search_placeholder'] | jsonify }},
+    legendSolution: {{ t['analysis_trail.legend_solution'] | jsonify }},
+    legendProblem: {{ t['analysis_trail.legend_problem'] | jsonify }}
+  };
+</script>
 <script src="{{ '/assets/js/analysis-trail.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

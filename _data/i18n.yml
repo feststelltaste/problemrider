@@ -84,6 +84,8 @@ en:
   landscape.resize_columns: Drag to resize columns
   landscape.view_label: Landscape view
   landscape.search_aria_label: Search this view
+  landscape.search_match_one: "%{count} match"
+  landscape.search_match_other: "%{count} matches"
 
   # Problem layout (_layouts/problem.html)
   problem_layout.speed_nav: Speed nav
@@ -151,6 +153,36 @@ en:
   analysis_trail.exports_label: Graph exports
   analysis_trail.workbench_files_label: Save or load Analysis Workbench
   analysis_trail.quick_filter_label: Limit quick search to a type
+  # Strings read by assets/js/analysis-trail.js at runtime via the
+  # window.ANALYSIS_TRAIL_I18N object (see _includes/analysis-trail.html).
+  analysis_trail.items_count_one: "%{count} item in this analysis."
+  analysis_trail.items_count_other: "%{count} items in this analysis."
+  analysis_trail.graph_aria_label: Analysis workbench graph
+  analysis_trail.references_for: "References for %{title}"
+  analysis_trail.menu_addressed_problems: Addressed Problems
+  analysis_trail.menu_similar_solutions: Similar Solutions
+  analysis_trail.menu_symptoms: Symptoms
+  analysis_trail.menu_causes: Causes
+  analysis_trail.menu_solutions: Solutions
+  analysis_trail.menu_similar_problems: Similar Problems
+  analysis_trail.add_to_graph_title: Add to the graph without leaving this page
+  analysis_trail.add_node_aria: "Add %{title} to the graph"
+  analysis_trail.search_or_add_node: "Search or add a new %{kind} node"
+  analysis_trail.add_custom_node: "Add \"%{query}\" as a new node"
+  analysis_trail.no_references: No linked references yet.
+  analysis_trail.load_references_failed: Could not load references.
+  analysis_trail.edge_hint: Double-click to flip direction, make it a similar link, or remove it
+  analysis_trail.add_node_to: "Add node to %{title}"
+  analysis_trail.connect_node_to: "Connect %{title} to another node"
+  analysis_trail.connect_hint: Connect to another node
+  analysis_trail.remove_node_from: "Remove %{title} from the analysis trail"
+  analysis_trail.remove_leaf_hint: Remove leaf node
+  analysis_trail.existing_solution_selected: Existing solution selected.
+  analysis_trail.existing_problem_selected: Existing problem selected.
+  analysis_trail.png_export_failed: Could not create the PNG export.
+  analysis_trail.invalid_workbench_file: This is not a valid ProblemRider Analysis Workbench file.
+  analysis_trail.empty_path_hint: Your analysis path will appear here.
+  analysis_trail.search_placeholder: "Search…"
 
 de:
   # Site header / navigation (header.html)
@@ -224,6 +256,8 @@ de:
   landscape.resize_columns: Ziehen, um Spalten anzupassen
   landscape.view_label: Landscape-Ansicht
   landscape.search_aria_label: Diese Ansicht durchsuchen
+  landscape.search_match_one: "%{count} Treffer"
+  landscape.search_match_other: "%{count} Treffer"
 
   # Problem layout (_layouts/problem.html)
   problem_layout.speed_nav: Schnellnavigation
@@ -291,3 +325,31 @@ de:
   analysis_trail.exports_label: Graph-Exporte
   analysis_trail.workbench_files_label: Analyse-Werkbank speichern oder laden
   analysis_trail.quick_filter_label: Schnellsuche auf einen Typ beschränken
+  analysis_trail.items_count_one: "%{count} Eintrag in dieser Analyse."
+  analysis_trail.items_count_other: "%{count} Einträge in dieser Analyse."
+  analysis_trail.graph_aria_label: Graph der Analyse-Werkbank
+  analysis_trail.references_for: "Referenzen für %{title}"
+  analysis_trail.menu_addressed_problems: Adressierte Probleme
+  analysis_trail.menu_similar_solutions: Ähnliche Lösungen
+  analysis_trail.menu_symptoms: Symptome
+  analysis_trail.menu_causes: Ursachen
+  analysis_trail.menu_solutions: Lösungen
+  analysis_trail.menu_similar_problems: Ähnliche Probleme
+  analysis_trail.add_to_graph_title: Zum Graphen hinzufügen, ohne diese Seite zu verlassen
+  analysis_trail.add_node_aria: "%{title} zum Graphen hinzufügen"
+  analysis_trail.search_or_add_node: Suchen oder neuen Knoten hinzufügen
+  analysis_trail.add_custom_node: "„%{query}“ als neuen Knoten hinzufügen"
+  analysis_trail.no_references: Noch keine verknüpften Referenzen.
+  analysis_trail.load_references_failed: Referenzen konnten nicht geladen werden.
+  analysis_trail.edge_hint: Doppelklick, um die Richtung umzukehren, es zu einer Ähnlich-Verknüpfung zu machen oder zu entfernen
+  analysis_trail.add_node_to: "Knoten zu %{title} hinzufügen"
+  analysis_trail.connect_node_to: "%{title} mit einem anderen Knoten verbinden"
+  analysis_trail.connect_hint: Mit einem anderen Knoten verbinden
+  analysis_trail.remove_node_from: "%{title} aus der Analyse entfernen"
+  analysis_trail.remove_leaf_hint: Blattknoten entfernen
+  analysis_trail.existing_solution_selected: Vorhandene Lösung ausgewählt.
+  analysis_trail.existing_problem_selected: Vorhandenes Problem ausgewählt.
+  analysis_trail.png_export_failed: PNG-Export konnte nicht erstellt werden.
+  analysis_trail.invalid_workbench_file: Dies ist keine gültige ProblemRider-Analyse-Werkbank-Datei.
+  analysis_trail.empty_path_hint: Der Analysepfad erscheint hier.
+  analysis_trail.search_placeholder: "Suchen…"
