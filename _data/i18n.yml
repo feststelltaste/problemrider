@@ -28,6 +28,7 @@ en:
   footer.tagline: A comprehensive catalog of software development problems, their symptoms, their root causes, and the solutions that address them
 
   # Home page (index.html)
+  home.site_description: A comprehensive catalog of common software development problems, their symptoms, and root causes — and the solutions that address them. Every problem links to the practices, patterns, and tactics you can apply when you are facing it. This resource helps developers, project managers, and teams identify issues, understand where they come from, and decide what to work on next.
   home.please_note: "Please note:"
   home.random_problems: Random Problems
   home.catalog_stats: Catalog Stats
@@ -165,6 +166,7 @@ de:
   footer.tagline: Ein umfassender Katalog typischer Probleme in der Softwareentwicklung, ihrer Symptome, Grundursachen und der Lösungen, die sie adressieren
 
   # Home page (index.html)
+  home.site_description: Ein umfassender Katalog typischer Probleme in der Softwareentwicklung, ihrer Symptome und Grundursachen — sowie der Lösungen, die sie adressieren. Jedes Problem verlinkt auf die Praktiken, Muster und Taktiken, die sich anwenden lassen, wenn man mit ihm konfrontiert ist. Diese Ressource hilft Entwicklern, Projektleitern und Teams, Probleme zu erkennen, ihre Ursachen zu verstehen und zu entscheiden, woran als Nächstes gearbeitet werden sollte.
   home.please_note: "Bitte beachten:"
   home.random_problems: Zufällige Probleme
   home.catalog_stats: Katalog-Statistik
