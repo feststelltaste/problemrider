@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 abgeschlossen — 0 / 1013 Katalog-Dateien übersetzt**
+Status: **Phase 0 abgeschlossen, Phase 1 fast fertig (Chrome + alle 5 Übersichtsseiten unter `/de/` stehen; JS-Strings in `landscape.js`/`analysis-trail.js` und hreflang/Sitemap offen) — 0 / 1013 Katalog-Dateien übersetzt**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -99,13 +99,15 @@ Gesamt ca. **1013 Katalog-Dateien** plus ca. 14 Chrome-Dateien.
 Nicht build-getestet (kein `bundle exec jekyll build` ausgeführt, siehe Projektregel zu Builds während der Iteration in `CLAUDE.md`) — Layout-Änderungen wurden von Hand geprüft; der englische Pfad ist unverändert, ein voller Build-Test ist ohnehin Teil von Phase 4.
 
 ### Phase 1 — Chrome/UI übersetzen
-- [ ] `_layouts/default.html`, `_layouts/problem.html`, `_layouts/solution.html`
-- [ ] `_includes/header.html`, `footer.html`, `head.html`, `analysis-trail.html`
-- [ ] `index.html`, `problems.html`, `solutions.html`, `categories.html`, `landscape.html` (deutsche Kopien unter `/de/`)
-- [ ] UI-Strings in `analysis-trail.js`, `landscape.js` auf `_data/i18n.yml` umstellen
+- [x] `_layouts/problem.html`, `solution.html`: Speed-nav, Related/Possible/Similar/Addressed-Überschriften, Back-Links (inkl. `/de/`-Zielpfade), Kategorie-Labels und die JS-Show-more/-less-Texte (jetzt über ein `%{count}`-Template statt hartcodiertem Satz) laufen über `site.data.i18n[current_lang]`
+- [x] `_includes/header.html`: Nav-Labels + `/de/`-Präfix, Site-Title-Link zeigt auf die Startseite der aktuellen Sprache; `_includes/footer.html`: GitHub-Link/Lizenzzeile/Tagline übersetzt (neuer `footer.tagline`-Key). `_includes/head.html` brauchte keine Änderung (kein sichtbarer Text). `_includes/analysis-trail.html`: jeder String inkl. aller aria-labels übersetzt, eingebetteter JSON-Katalog liest jetzt `site.problems_de`/`site.solutions_de` auf deutschen Seiten
+- [x] `index.html`, `problems.html`, `solutions.html`, `categories.html`, `landscape.html`: deutsche Kopien unter `de/` angelegt (`/de/`, `/de/problems/`, `/de/solutions/`, `/de/categories/`, `/de/landscape/`); alle iterieren `site.problems_de`/`site.solutions_de` statt der englischen Collections. `de/landscape.html`s `<style>`-Block ist Byte-für-Byte identisch zum Original (verifiziert per `diff`) — nur das Markup wurde übersetzt. Bekannte Lücke: die Knoten-Labels auf der Landscape-Karte selbst kommen weiterhin aus `landscape-data.js` (englische Titel aus dem einmaligen Embedding-Lauf) — ein deutscher Label-Layer für die Karte ist eigene Folgearbeit, im Code kommentiert
+- [ ] UI-Strings in `analysis-trail.js`, `landscape.js` auf `_data/i18n.yml` umstellen (verbleibende dynamische JS-Strings außerhalb der HTML-Includes, z. B. in `landscape.js` selbst erzeugte Texte)
 - [ ] `hreflang`-Alternates + Sitemap-Eintrag prüfen (`jekyll-seo-tag`, `jekyll-sitemap`)
 
-Ergebnis: `/de/` ist erreichbar, navigierbar, aber Problem-/Lösungsseiten liefern noch 404 bzw. sind leer.
+`_data/i18n.yml` ist im Zuge dessen auf 119 EN/DE-Schlüsselpaare gewachsen (Parität nach jeder Ergänzung geprüft). Alle neuen Dateien/Änderungen sind von Hand auf Liquid-Syntax und Front-Matter-Validität geprüft (`ruby -ryaml`), aber nicht gegen einen echten `bundle exec jekyll build` getestet (Projektregel, s. Phase 0) — steht spätestens in Phase 4 an.
+
+Ergebnis bisher: `/de/`, `/de/problems/`, `/de/solutions/`, `/de/categories/`, `/de/landscape/` sind alle angelegt und vollständig navigierbar (Chrome komplett übersetzt), zeigen aber leere Listen, weil `_problems_de`/`_solutions_de` noch keinen Inhalt haben (Phase 2/3).
 
 ### Phase 2 — Titel-Übersetzungstabelle (Grundlage für Phase 3)
 - [ ] Für alle 1013 Slugs den deutschen Titel (normale deutsche Groß-/Kleinschreibung, keine NYT-Regel) + deutsche Kurzbeschreibung **und einen daraus abgeleiteten deutschen Slug** vorab erzeugen (z. B. per Skript/Agenten-Batch, Ergebnis in einer Zwischentabelle, etwa `scripts/i18n/titles_de.csv` oder `_data/titles_de.yml`, Spalten: `slug` (EN, Join-Key), `collection`, `title_de`, `description_de`, `slug_de` (neuer Dateiname, lowercase/Bindestriche))
