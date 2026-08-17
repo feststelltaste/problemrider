@@ -2786,3 +2786,243 @@ solutions:
     title_de: Schnelle Feedback-Loops
     description_de: Die Zeit von einer Änderung bis zum Wissen, ob sie funktioniert hat, als primäre Engineering-Metrik behandeln und angehen, was immer sie dominiert.
     slug_de: schnelle-feedback-loops
+  fault-containment:
+    title_de: Fehlereindämmung
+    description_de: Begrenzung der Auswirkung von Fehlern auf einen kleinen Teil des Systems.
+    slug_de: fehlereindaemmung
+  fault-tolerant-data-structures:
+    title_de: Fehlertolerante Datenstrukturen
+    description_de: Nutzung von Datenstrukturen, die trotz Fehlern oder Inkonsistenzen funktionsfähig bleiben.
+    slug_de: fehlertolerante-datenstrukturen
+  feature-detection:
+    title_de: Feature Detection
+    description_de: Abfrage von Systemfähigkeiten zur Laufzeit statt Verlass auf Versionsnummern.
+    slug_de: feature-detection
+  feature-driven-development:
+    title_de: Feature-Driven Development
+    description_de: Strukturierung und Umsetzung von Softwarefunktionalität in Form von Features.
+    slug_de: feature-driven-development
+  feature-flags:
+    title_de: Feature Flags
+    description_de: Aktivieren oder Deaktivieren von Funktionen über Konfigurationsschalter.
+    slug_de: feature-flags
+  feature-toggles:
+    title_de: Feature Toggles
+    description_de: Aktivieren und Deaktivieren von Features für flexible Rollouts.
+    slug_de: feature-toggles
+  feature-usage-measurement:
+    title_de: Feature-Nutzungsmessung
+    description_de: Instrumentierung des Systems, um zu erfassen, welche Features tatsächlich von wem genutzt werden, sodass Wartungsaufwand und Löschentscheidungen auf Evidenz beruhen.
+    slug_de: feature-nutzungsmessung
+  federated-identity:
+    title_de: Federated Identity (OAuth/OIDC)
+    description_de: Delegation der Authentifizierung an vertrauenswürdige externe Identitätsanbieter.
+    slug_de: federated-identity-oauth-oidc
+  feedback-mechanisms:
+    title_de: Feedback-Mechanismen
+    description_de: Bereitstellung von Möglichkeiten für Nutzer, Feedback, Verbesserungsvorschläge oder Problemberichte einzureichen.
+    slug_de: feedback-mechanismen
+  feedback:
+    title_de: Feedback
+    description_de: Bereitstellung visueller oder akustischer Bestätigungen für Nutzerinteraktionen.
+    slug_de: feedback
+  fit-to-standard-principle:
+    title_de: Fit-to-Standard-Prinzip
+    description_de: Die Übernahme des eigenen Prozesses des Produkts zum Standard machen und verlangen, dass jede Abweichung von jemandem begründet, bemessen und genehmigt wird, der ihre Kosten trägt.
+    slug_de: fit-to-standard-prinzip
+  fitness-functions:
+    title_de: Fitness Functions
+    description_de: Regelmäßige Überprüfung der Einhaltung von Architekturrichtlinien.
+    slug_de: fitness-functions
+  fluent-interfaces:
+    title_de: Fluent Interfaces
+    description_de: API-Design mit natürlichsprachenähnlicher Methodenverkettung.
+    slug_de: fluent-interfaces
+  focus-management:
+    title_de: Fokus-Management
+    description_de: Verwaltung des Tastaturfokus für Modals, Overlays und dynamische UI-Änderungen.
+    slug_de: fokus-management
+  form-design:
+    title_de: Formular-Design und mehrstufige Assistenten
+    description_de: Strukturierung komplexer Dateneingabe durch gruppierte Felder, Assistenten und bedingte Sichtbarkeit.
+    slug_de: formular-design-und-mehrstufige-assistenten
+  formal-change-control-process:
+    title_de: Formaler Änderungskontrollprozess
+    description_de: Strukturierte Bewertung und Genehmigung von Änderungen an Projektumfang, Anforderungen und Liefergegenständen, um unkontrollierte Scope-Ausweitung zu verhindern.
+    slug_de: formaler-aenderungskontrollprozess
+  forward-compatibility:
+    title_de: Vorwärtskompatibilität
+    description_de: Sicherstellung der Kompatibilität bestehender Systeme mit zukünftigen Versionen.
+    slug_de: vorwaertskompatibilitaet
+  frequently-asked-questions-faq:
+    title_de: Häufig gestellte Fragen (FAQ)
+    description_de: Zusammenstellung häufig gestellter Fragen und Antworten zu gängigen Software-Themen.
+    slug_de: haeufig-gestellte-fragen-faq
+  functional-debt-management:
+    title_de: Management funktionaler Schulden
+    description_de: Identifikation und Priorisierung problematischer Umsetzung funktionaler Anforderungen.
+    slug_de: management-funktionaler-schulden
+  functional-gap-analysis:
+    title_de: Analyse funktionaler Lücken
+    description_de: Identifikation fehlender Funktionalität durch Vergleich von Fähigkeiten mit Anforderungen.
+    slug_de: analyse-funktionaler-luecken
+  functional-spike:
+    title_de: Funktionaler Spike
+    description_de: Untersuchung geschäftlicher Risiken durch zeitlich begrenzte Experimente.
+    slug_de: funktionaler-spike
+  functional-tests:
+    title_de: Funktionale Tests
+    description_de: Verifikation der Softwarefunktionalität durch systematisches Testen.
+    slug_de: funktionale-tests
+  fuzz-testing:
+    title_de: Fuzz-Testing
+    description_de: Testen mit zufällig generierten Eingabedaten, um unerwartetes Verhalten aufzudecken.
+    slug_de: fuzz-testing
+  graceful-degradation:
+    title_de: Graceful Degradation
+    description_de: Fähigkeit eines Systems, bei Ausfällen oder Überlast in eingeschränkter Kapazität weiterzuarbeiten.
+    slug_de: graceful-degradation
+  graph-databases:
+    title_de: Graphdatenbanken
+    description_de: Ermöglichung der Speicherung und Abfrage verknüpfter Daten in Form von Knoten und Kanten.
+    slug_de: graphdatenbanken
+  health-check-endpoints:
+    title_de: Health-Check-Endpunkte
+    description_de: Bereitstellung standardisierter Health-Check-APIs für Load-Balancer- und Orchestrator-Monitoring.
+    slug_de: health-check-endpunkte
+  heartbeat:
+    title_de: Heartbeat
+    description_de: Regelmäßige Übermittlung des Lebenszeichens einer Komponente an eine Monitoring-Instanz.
+    slug_de: heartbeat
+  hexagonal-architecture:
+    title_de: Hexagonale Architektur
+    description_de: Isolierung der Geschäftslogik von der Infrastruktur durch Ports und Adapter.
+    slug_de: hexagonale-architektur
+  high-availability-architectures:
+    title_de: Hochverfügbarkeitsarchitekturen
+    description_de: Für maximale Verfügbarkeit und Fehlertoleranz konzipierte Architekturen.
+    slug_de: hochverfuegbarkeitsarchitekturen
+  high-cohesion:
+    title_de: Hohe Kohäsion
+    description_de: Sicherstellung, dass jedes Modul einen fokussierten, klar definierten Zweck mit eng verwandten Verantwortlichkeiten hat.
+    slug_de: hohe-kohaesion
+  honeypots:
+    title_de: Honeypots
+    description_de: Einsatz speziell abgesicherter Systeme als Köder für Angreifer.
+    slug_de: honeypots
+  horizontal-scaling:
+    title_de: Horizontale Skalierung
+    description_de: Steigerung der Performance durch Hinzufügen weiterer Komponenten.
+    slug_de: horizontale-skalierung
+  idempotency-design:
+    title_de: Idempotenz-Design
+    description_de: Gestaltung sicher wiederholbarer Operationen ohne unbeabsichtigte Nebeneffekte.
+    slug_de: idempotenz-design
+  idempotent-operations:
+    title_de: Idempotente Operationen
+    description_de: Gestaltung von Operationen so, dass wiederholte Ausführung dasselbe Ergebnis liefert wie eine einzelne Ausführung.
+    slug_de: idempotente-operationen
+  image-and-asset-optimization:
+    title_de: Bild- und Asset-Optimierung
+    description_de: Optimierung von Bildern, Schriftarten und statischen Assets für kleinere Nutzlasten und schnellere Ladezeiten.
+    slug_de: bild-und-asset-optimierung
+  immutable-infrastructure:
+    title_de: Immutable Infrastructure
+    description_de: Keine Änderung von Infrastrukturkomponenten, sondern Ersatz durch neue Versionen.
+    slug_de: immutable-infrastructure
+  impact-mapping:
+    title_de: Impact Mapping
+    description_de: Abbildung von Geschäftszielen über Akteure und Wirkungen zu konkreten Liefergegenständen.
+    slug_de: impact-mapping
+  improvement-budget:
+    title_de: Verbesserungsbudget
+    description_de: Reservierung eines festen, geschützten Anteils der Kapazität jeder Periode für Wartung, Refactoring und Risikoreduktion, sodass Verbesserung nie mit Features um Genehmigung konkurriert.
+    slug_de: verbesserungsbudget
+  in-memory-processing:
+    title_de: In-Memory-Verarbeitung
+    description_de: Vorhaltung aller Daten im Hauptspeicher statt auf langsamen Speichermedien.
+    slug_de: in-memory-verarbeitung
+  incident-management:
+    title_de: Incident Management
+    description_de: Strukturierter Prozess zum Umgang mit Störungen und Ausfällen.
+    slug_de: incident-management
+  incident-response-measures:
+    title_de: Maßnahmen zur Reaktion auf Sicherheitsvorfälle
+    description_de: Etablierung von Prozessen und Werkzeugen zur Reaktion auf Sicherheitsvorfälle.
+    slug_de: massnahmen-zur-reaktion-auf-sicherheitsvorfaelle
+  incremental-refactoring:
+    title_de: Refactoring
+    description_de: Regelmäßige Umstrukturierung von Code, ohne das externe Verhalten zu ändern.
+    slug_de: refactoring
+  index-lifecycle-management:
+    title_de: Index-Lifecycle-Management
+    description_de: Behandlung von Datenbank-Indizes als gepflegte Assets — überprüft anhand tatsächlicher Abfragemuster, auf Nutzung gemessen und entfernt, wenn sie ihre Kosten nicht mehr rechtfertigen.
+    slug_de: index-lifecycle-management
+  infrastructure-as-code:
+    title_de: Infrastructure as Code
+    description_de: Definition und Verwaltung von Infrastruktur durch Code.
+    slug_de: infrastructure-as-code
+  input-constraints-and-defaults:
+    title_de: Eingabebeschränkungen und Standardwerte
+    description_de: Einschränkung der Eingabe durch Dropdowns, Datumsauswahl, Schieberegler und sinnvolle Standardwerte.
+    slug_de: eingabebeschraenkungen-und-standardwerte
+  input-validation:
+    title_de: Eingabevalidierung
+    description_de: Validierung aller Eingaben von Nutzern und externen Systemen.
+    slug_de: eingabevalidierung
+  integrated-onboarding:
+    title_de: Integriertes Onboarding
+    description_de: Orchestrierung eines ganzheitlichen Erstnutzungserlebnisses mit schrittweiser Offenlegung und kontextbezogener Anleitung.
+    slug_de: integriertes-onboarding
+  integration-tests:
+    title_de: Integrationstests
+    description_de: Durchführung von Tests zur Verifikation des Zusammenspiels verschiedener Systemkomponenten.
+    slug_de: integrationstests
+  interactive-tutorials:
+    title_de: Interaktive Tutorials
+    description_de: Einbettung praktischer, schrittweiser Übungen für Lernaufgaben jeder Komplexität.
+    slug_de: interaktive-tutorials
+  internal-technical-coaching:
+    title_de: Internes technisches Coaching
+    description_de: Jemandem explizite, geschützte Zeit geben, um die technische Praxis des Teams zu heben, indem er mit Menschen zusammenarbeitet statt sie nur zu unterrichten.
+    slug_de: internes-technisches-coaching
+  interoperability-tests:
+    title_de: Interoperabilitätstests
+    description_de: Durchführung dedizierter Interoperabilitätstests.
+    slug_de: interoperabilitaetstests
+  intuitive-navigation:
+    title_de: Intuitive Navigation
+    description_de: Umsetzung einer logischen und leicht verständlichen Navigationsstruktur.
+    slug_de: intuitive-navigation
+  isolated-test-environments:
+    title_de: Isolierte Testumgebungen
+    description_de: Bereitstellung isolierter Testumgebungen zur Verifikation von Kompatibilität und Interoperabilität.
+    slug_de: isolierte-testumgebungen
+  isolation-of-faulty-components:
+    title_de: Isolation fehlerhafter Komponenten
+    description_de: Entwicklung von Mechanismen zur Isolation fehlerhafter Komponenten.
+    slug_de: isolation-fehlerhafter-komponenten
+  iterative-development:
+    title_de: Iterative Entwicklung
+    description_de: Inkrementelle Entwicklung und Auslieferung von Software in kurzen Zyklen.
+    slug_de: iterative-entwicklung
+  key-management:
+    title_de: Schlüsselverwaltung
+    description_de: Etablierung von Verfahren für die sichere Erzeugung, Verteilung und Speicherung kryptografischer Schlüssel.
+    slug_de: schluesselverwaltung
+  keyboard-support:
+    title_de: Tastaturunterstützung
+    description_de: Bedienbarkeit der Software über die Tastatur ermöglichen.
+    slug_de: tastaturunterstuetzung
+  knowledge-base:
+    title_de: Wissensdatenbank
+    description_de: Aufbau einer durchsuchbaren Wissensdatenbank mit Artikeln, Anleitungen und Problemlösungen.
+    slug_de: wissensdatenbank
+  knowledge-rotation:
+    title_de: Wissensrotation
+    description_de: Bewusste Verteilung von Arbeitswissen über jedes kritische Subsystem auf mehrere Personen, mit Messung statt Annahme der Verteilung.
+    slug_de: wissensrotation
+  knowledge-sharing-practices:
+    title_de: Wissensmanagement-System
+    description_de: Zentrale Sammlung und Verteilung von Wissen über das Softwareprojekt.
+    slug_de: wissensmanagement-system
