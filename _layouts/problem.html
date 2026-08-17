@@ -36,7 +36,13 @@ layout: default
           {% assign related_slug = related %}
           {% assign similarity_score = nil %}
         {% endif %}
-        {% assign related_problem = site.problems | where: "slug", related_slug | first %}
+        {% if page.lang == "de" %}
+          {% comment %} related_problems always stores English slugs (see plans/german-translation-plan.md
+             Decision 5), so on a German page look up the DE counterpart by its en_slug back-reference. {% endcomment %}
+          {% assign related_problem = site.problems_de | where: "en_slug", related_slug | first %}
+        {% else %}
+          {% assign related_problem = site.problems | where: "slug", related_slug | first %}
+        {% endif %}
         {% if related_problem %}
           <li>
             <a href="{{ related_problem.url | relative_url }}">{{ related_problem.title }}</a>
@@ -59,7 +65,11 @@ layout: default
     <h2>Possible Solutions</h2>
     <ul class="related-solutions-list">
       {% for sol_slug in page.solutions %}
-        {% assign solution = site.solutions | where: "slug", sol_slug | first %}
+        {% if page.lang == "de" %}
+          {% assign solution = site.solutions_de | where: "en_slug", sol_slug | first %}
+        {% else %}
+          {% assign solution = site.solutions | where: "slug", sol_slug | first %}
+        {% endif %}
         {% if solution %}
           <li>
             <a href="{{ solution.url | relative_url }}">{{ solution.title }}</a>

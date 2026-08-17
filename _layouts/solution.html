@@ -41,7 +41,13 @@ layout: default
           {% assign related_slug = related %}
           {% assign similarity_score = nil %}
         {% endif %}
-        {% assign related_solution = site.solutions | where: "slug", related_slug | first %}
+        {% if page.lang == "de" %}
+          {% comment %} related_solutions always stores English slugs (see plans/german-translation-plan.md
+             Decision 5), so on a German page look up the DE counterpart by its en_slug back-reference. {% endcomment %}
+          {% assign related_solution = site.solutions_de | where: "en_slug", related_slug | first %}
+        {% else %}
+          {% assign related_solution = site.solutions | where: "slug", related_slug | first %}
+        {% endif %}
         {% if related_solution %}
           <li>
             <a href="{{ related_solution.url | relative_url }}">{{ related_solution.title }}</a>
@@ -64,7 +70,11 @@ layout: default
     <h2>Problems Addressed</h2>
     <ul class="addressed-problems-list">
       {% for problem_slug in page.problems %}
-        {% assign problem = site.problems | where: "slug", problem_slug | first %}
+        {% if page.lang == "de" %}
+          {% assign problem = site.problems_de | where: "en_slug", problem_slug | first %}
+        {% else %}
+          {% assign problem = site.problems | where: "slug", problem_slug | first %}
+        {% endif %}
         {% if problem %}
           <li>
             <a href="{{ problem.url | relative_url }}">{{ problem.title }}</a>
@@ -79,7 +89,15 @@ layout: default
   {% endif %}
 
   <div class="analysis-trail-similar-solutions" hidden>
-    {% for candidate in site.solutions %}
+    {% comment %} page.problems always stores English slugs (Decision 5), so comparing them
+       against candidate.problems works the same regardless of which language collection
+       the candidates come from - only the candidate source itself needs to switch. {% endcomment %}
+    {% if page.lang == "de" %}
+      {% assign candidates = site.solutions_de %}
+    {% else %}
+      {% assign candidates = site.solutions %}
+    {% endif %}
+    {% for candidate in candidates %}
       {% if candidate.slug != page.slug %}
         {% assign shares_problem = false %}
         {% for problem_slug in page.problems %}
