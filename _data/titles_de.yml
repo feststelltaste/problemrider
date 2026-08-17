@@ -2066,3 +2066,243 @@ solutions:
     title_de: Bulkhead
     description_de: Aufteilung eines Systems in isolierte Bereiche, um Fehlerausbreitung zu begrenzen.
     slug_de: bulkhead
+  business-event-processing:
+    title_de: Verarbeitung von Business Events
+    description_de: Erkennung, Verarbeitung und Reaktion auf Geschäftsereignisse.
+    slug_de: verarbeitung-von-business-events
+  business-metrics:
+    title_de: Geschäftskennzahlen
+    description_de: Definition von Geschäftskennzahlen zur Bewertung von Funktionalität und Qualität der Software.
+    slug_de: geschaeftskennzahlen
+  business-process-automation:
+    title_de: Geschäftsprozessautomatisierung
+    description_de: Abbildung von Geschäftskonzepten und -regeln in einem ausführbaren Modell.
+    slug_de: geschaeftsprozessautomatisierung
+  business-process-modeling:
+    title_de: Geschäftsprozessmodellierung
+    description_de: Erhebung von Geschäftsanforderungen durch Modellierung der zugrunde liegenden Geschäftsprozesse.
+    slug_de: geschaeftsprozessmodellierung
+  business-quality-scenarios:
+    title_de: Business-Qualitätsszenarien
+    description_de: Spezifikation und Verifikation von Qualitätsanforderungen durch geschäftsgetriebene Szenarien.
+    slug_de: business-qualitaetsszenarien
+  business-test-cases:
+    title_de: Fachliche Testfälle
+    description_de: Erstellung von Testfällen aus fachlicher Perspektive und Überprüfung durch Nutzer.
+    slug_de: fachliche-testfaelle
+  caching-strategy:
+    title_de: Caching
+    description_de: Zwischenspeicherung häufig benötigter Daten.
+    slug_de: caching
+  canary-releases:
+    title_de: Canary Releases
+    description_de: Schrittweise Einführung von Änderungen für eine begrenzte Nutzergruppe, um Risiko zu minimieren.
+    slug_de: canary-releases
+  canonical-data-model:
+    title_de: Kanonisches Datenmodell
+    description_de: Standardisierung eines gemeinsamen Datenmodells über Systeme hinweg statt Punkt-zu-Punkt-Transformationen.
+    slug_de: kanonisches-datenmodell
+  canonicalization:
+    title_de: Kanonisierung
+    description_de: Transformation von Eingabedaten in eine kanonische Darstellung.
+    slug_de: kanonisierung
+  capacity-based-planning:
+    title_de: Kapazitätsbasierte Planung
+    description_de: Ableitung von Zusagen aus gemessenem historischem Durchsatz statt aus gewünschten Terminen, ausgedrückt als Bandbreiten mit angegebener Konfidenz.
+    slug_de: kapazitaetsbasierte-planung
+  capacity-planning:
+    title_de: Kapazitätsplanung
+    description_de: Schätzung künftigen Ressourcenbedarfs aus Wachstumsprognosen und Performance-Modellen.
+    slug_de: kapazitaetsplanung
+  certificate-management:
+    title_de: Zertifikatsmanagement
+    description_de: Verwaltung von X.509-Zertifikats-Lebenszyklen einschließlich PKI, Widerruf und Pinning.
+    slug_de: zertifikatsmanagement
+  change-impact-analysis:
+    title_de: Änderungsauswirkungsanalyse
+    description_de: Ermittlung, was eine vorgeschlagene Änderung tatsächlich betrifft — Aufrufer, Daten, Konsumenten, Betrieb — bevor man sich darauf festlegt, mithilfe von Tooling statt Erinnerung.
+    slug_de: aenderungsauswirkungsanalyse
+  change-management-process:
+    title_de: Änderungsmanagement-Prozess
+    description_de: Etablierung eines formalen, schlanken Prozesses zur Bewertung, Genehmigung und Nachverfolgung von Änderungen an Umfang, Anforderungen und Systemkonfiguration, der unkontrollierte Drift verhindert und gleichzeitig notwendige Anpassung ermöglicht.
+    slug_de: aenderungsmanagement-prozess
+  chaos-engineering:
+    title_de: Chaos Engineering
+    description_de: Gezielte Einführung von Störungen, um die Widerstandsfähigkeit des Systems zu testen.
+    slug_de: chaos-engineering
+  characterization-tests:
+    title_de: Charakterisierungstests
+    description_de: Festhalten dessen, was Legacy-Code aktuell tut — korrekt oder nicht — als ausführbare Tests, was ein Sicherheitsnetz für die Änderung von Code mit unbekanntem beabsichtigtem Verhalten schafft.
+    slug_de: charakterisierungstests
+  checklists:
+    title_de: Checklisten
+    description_de: Systematische Abarbeitung von Schritten und Anforderungen.
+    slug_de: checklisten
+  checksums:
+    title_de: Prüfsummen
+    description_de: Berechnung von Prüfsummen zur Erkennung von Datenfehlern oder -änderungen.
+    slug_de: pruefsummen
+  ci-cd-pipeline:
+    title_de: Continuous Delivery
+    description_de: Automatische Vorbereitung von Software-Änderungen für das Produktiv-Deployment.
+    slug_de: continuous-delivery
+  circuit-breaker:
+    title_de: Circuit Breaker
+    description_de: Mechanismus zum Schutz vor Fehlern und Überlast in verteilten Systemen.
+    slug_de: circuit-breaker
+  clean-code:
+    title_de: Clean Code
+    description_de: Strukturierung von Quellcode nach etablierten Prinzipien für Lesbarkeit und Wartbarkeit.
+    slug_de: clean-code
+  clear-ownership-model:
+    title_de: Klares Ownership-Modell
+    description_de: Zuweisung expliziter, dokumentierter Verantwortlichkeit für Code, Services und Entscheidungen an bestimmte Personen oder Teams, wodurch Unklarheit darüber beseitigt wird, wer wofür zuständig ist.
+    slug_de: klares-ownership-modell
+  clear-roles-and-ownership:
+    title_de: Klare Rollen und Verantwortlichkeiten
+    description_de: Definition expliziter Verantwortungsgrenzen, Komponenten-Ownership und Rechenschaftsstrukturen, sodass jeder Teil des Systems und jede Art von Entscheidung einen bekannten Verantwortlichen hat.
+    slug_de: klare-rollen-und-verantwortlichkeiten
+  cloud-native-development:
+    title_de: Cloud-Native-Entwicklung
+    description_de: Entwicklung und Optimierung von Anwendungen speziell für Cloud-Umgebungen.
+    slug_de: cloud-native-entwicklung
+  code-comments:
+    title_de: Code-Kommentare
+    description_de: Anreicherung von Code mit aussagekräftigen Kommentaren und Dokumentationsblöcken.
+    slug_de: code-kommentare
+  code-conventions:
+    title_de: Code-Konventionen
+    description_de: Definition und Durchsetzung einheitlicher Richtlinien für Code-Formatierung und -Struktur.
+    slug_de: code-konventionen
+  code-coverage-analysis:
+    title_de: Code-Coverage-Analyse
+    description_de: Messung des Anteils an Code, der von Tests abgedeckt wird.
+    slug_de: code-coverage-analyse
+  code-generation:
+    title_de: Codegenerierung
+    description_de: Automatische Erstellung von Code-Teilen basierend auf Templates oder Metadaten.
+    slug_de: codegenerierung
+  code-hotspot-analysis:
+    title_de: Code-Hotspot-Analyse
+    description_de: Kombination von Änderungshäufigkeit aus der Versionskontrolle mit Komplexitäts- und Fehlerdaten, um den kleinen Anteil an Code zu identifizieren, bei dem sich Verbesserungsaufwand tatsächlich lohnt.
+    slug_de: code-hotspot-analyse
+  code-metrics:
+    title_de: Code-Metriken
+    description_de: Sammlung und Analyse quantitativer Messgrößen zur Bewertung der Codequalität.
+    slug_de: code-metriken
+  code-quality-gates:
+    title_de: Code-Quality-Gates
+    description_de: Sicherstellung der Codequalität durch standardisierte, automatisierte Prüfungen.
+    slug_de: code-quality-gates
+  code-reading-sessions:
+    title_de: Code-Lesesitzungen
+    description_de: Gemeinsames, lautes Lesen bestehenden Codes als geplante Gruppenaktivität — der schnellste Weg, Verständnis für ein System zu verbreiten, das niemand vollständig versteht.
+    slug_de: code-lesesitzungen
+  code-review-guidelines:
+    title_de: Code-Review-Richtlinien
+    description_de: Schriftliche Vereinbarung darüber, wofür ein Review dient, was Reviewer prüfen müssen, was lediglich eine Meinung ist und wann eine Änderung gut genug zum Mergen ist.
+    slug_de: code-review-richtlinien
+  code-review-process-reform:
+    title_de: Systematische Code-Reviews
+    description_de: Systematische Überprüfung des Quellcodes durch Feedback von Kollegen.
+    slug_de: systematische-code-reviews
+  code-reviews:
+    title_de: Code-Reviews
+    description_de: Durchführung regelmäßiger Reviews des Quellcodes durch Teammitglieder.
+    slug_de: code-reviews
+  code-splitting:
+    title_de: Code Splitting
+    description_de: Aufteilung des Anwendungscodes in kleinere Chunks.
+    slug_de: code-splitting
+  cognitive-load-minimization:
+    title_de: Minimierung kognitiver Last
+    description_de: Gestaltung der Nutzeroberfläche, damit sie intuitiv und leicht verständlich ist.
+    slug_de: minimierung-kognitiver-last
+  cold-start-mitigation:
+    title_de: Cold-Start-Minderung
+    description_de: Proaktive Reduzierung der Initialisierungslatenz in Serverless-, Container- und JVM-Anwendungen.
+    slug_de: cold-start-minderung
+  collaborative-problem-solving:
+    title_de: Ensemble Programming
+    description_de: Lösung komplexer Design- und Debugging-Herausforderungen durch gemeinsame Programmierung als Gruppe an einem Arbeitsplatz.
+    slug_de: ensemble-programming
+  communities-of-practice:
+    title_de: Communities of Practice
+    description_de: Schaffung fester teamübergreifender Gruppen rund um ein gemeinsames Handwerk — Testing, ein Subsystem, eine Sprache — sodass sich Wissen und Standards horizontal statt über das Management verbreiten.
+    slug_de: communities-of-practice
+  compatibility-as-error:
+    title_de: Kompatibilität als Fehlerkriterium
+    description_de: Behandlung von Kompatibilitätsregressionen als build-brechende Defekte, nicht als akzeptable technische Schulden.
+    slug_de: kompatibilitaet-als-fehlerkriterium
+  compatibility-certification:
+    title_de: Kompatibilitätszertifizierung
+    description_de: Einholung einer Bestätigung durch Dritte, dass Software definierte Kompatibilitätsstandards erfüllt.
+    slug_de: kompatibilitaetszertifizierung
+  compatibility-governance:
+    title_de: Kompatibilitäts-Governance
+    description_de: Zuweisung von Verantwortlichkeit, Nachverfolgung von Problemen und Planung der Kompatibilitätsentwicklung über Releases hinweg.
+    slug_de: kompatibilitaets-governance
+  compatibility-matrix:
+    title_de: Kompatibilitätsmatrix
+    description_de: Definition unterstützter Konfigurationskombinationen.
+    slug_de: kompatibilitaetsmatrix
+  compatibility-measurement:
+    title_de: Kompatibilitätsmessung
+    description_de: Quantifizierung des Kompatibilitätsstatus durch Metriken, Audits und Risikobewertungen.
+    slug_de: kompatibilitaetsmessung
+  compatibility-requirements:
+    title_de: Kompatibilitätsanforderungen
+    description_de: Explizite und verbindliche Formulierung impliziter Kompatibilitätsannahmen.
+    slug_de: kompatibilitaetsanforderungen
+  compatibility-standards:
+    title_de: Kompatibilitätsstandards
+    description_de: Definition verbindlicher Regeln für kompatible Entwicklung und deren Durchsetzung im Auslieferungsprozess.
+    slug_de: kompatibilitaetsstandards
+  compatibility-testing-by-users:
+    title_de: Kompatibilitätstests durch Nutzer
+    description_de: Sicherstellung der Kompatibilität durch von Nutzern durchgeführte Tests.
+    slug_de: kompatibilitaetstests-durch-nutzer
+  compatibility-testing:
+    title_de: Kompatibilitätstests
+    description_de: Verifikation, dass Software auf Zielplattformen, -versionen und mit Integrationspartnern korrekt funktioniert.
+    slug_de: kompatibilitaetstests
+  compression:
+    title_de: Kompression
+    description_de: Reduzierung des Speicherbedarfs mit oder ohne Verlust.
+    slug_de: kompression
+  concurrency-control:
+    title_de: Nebenläufigkeit
+    description_de: Gleichzeitige Ausführung mehrerer Aufgaben innerhalb eines einzelnen Prozesses.
+    slug_de: nebenlaeufigkeit
+  configuration-checks:
+    title_de: Konfigurationsprüfungen
+    description_de: Dokumentation und regelmäßige Überprüfung sicherheitsrelevanter Einstellungen.
+    slug_de: konfigurationspruefungen
+  confirmation-dialogs:
+    title_de: Bestätigungsdialoge für destruktive Aktionen
+    description_de: Erfordernis expliziter Nutzerbestätigung vor Ausführung irreversibler Operationen.
+    slug_de: bestaetigungsdialoge-fuer-destruktive-aktionen
+  connection-pooling:
+    title_de: Connection Pooling
+    description_de: Wiederverwendung bereits etablierter Verbindungen statt Neuerstellung pro Anfrage.
+    slug_de: connection-pooling
+  consistent-terminology:
+    title_de: Konsistente Terminologie
+    description_de: Nutzung einheitlicher Begriffe in der gesamten Software.
+    slug_de: konsistente-terminologie
+  consistent-user-interface:
+    title_de: Konsistente Nutzeroberfläche
+    description_de: Vereinheitlichung von Design und Verhalten der Nutzeroberfläche über alle Software-Teile hinweg.
+    slug_de: konsistente-nutzeroberflaeche
+  consumer-driven-contracts:
+    title_de: Consumer-Driven Contracts
+    description_de: Verträge, die die Erwartungen der Schnittstellennutzer definieren.
+    slug_de: consumer-driven-contracts
+  containerization:
+    title_de: Containerisierung
+    description_de: Kapselung von Anwendungen und ihren Abhängigkeiten in Containern.
+    slug_de: containerisierung
+  containerized-databases:
+    title_de: Containerisierte Datenbanken
+    description_de: Betrieb von Datenbanken in Containern.
+    slug_de: containerisierte-datenbanken
