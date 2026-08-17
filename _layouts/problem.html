@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign current_lang = page.lang | default: site.lang | default: "en" %}
+{% assign t = site.data.i18n[current_lang] %}
 <article class="problem" data-analysis-node data-analysis-node-id="problem:{{ page.slug }}" data-analysis-node-title="{{ page.title | escape }}" data-analysis-node-type="problem">
   <header class="problem-header">
     <h1 class="problem-title">{{ page.title }}</h1>
@@ -10,13 +12,16 @@ layout: default
     {% endif %}
     <div class="problem-meta">
       {% if page.category %}
+        {% assign categories_overview_path = "/categories/" %}
+        {% if current_lang == "de" %}{% assign categories_overview_path = "/de/categories/" %}{% endif %}
         <div class="problem-categories">
           {% for category in page.category %}
-            <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag" data-category="{{ category }}">{{ category }}</a>
+            {% assign category_label = site.data.categories_de[category] | default: category %}
+            <a href="{{ categories_overview_path | relative_url }}#{{ category }}" class="category-tag" data-category="{{ category }}">{% if current_lang == "de" %}{{ category_label }}{% else %}{{ category }}{% endif %}</a>
           {% endfor %}
         </div>
       {% endif %}
-      <button type="button" class="speed-nav-toggle" data-analysis-trail-speed-nav aria-pressed="false" title="Number keys 1-9 jump to headings on this page">Speed nav</button>
+      <button type="button" class="speed-nav-toggle" data-analysis-trail-speed-nav aria-pressed="false" title="{{ t['problem_layout.speed_nav_title'] }}">{{ t['problem_layout.speed_nav'] }}</button>
     </div>
   </header>
 
@@ -26,7 +31,7 @@ layout: default
 
   {% if page.related_problems and page.related_problems.size > 0 %}
   <section class="related-problems">
-    <h2>Related Problems</h2>
+    <h2>{{ t['problem_layout.related_problems'] }}</h2>
     <ul class="related-problems-list">
       {% for related in page.related_problems %}
         {% if related.slug %}
@@ -62,7 +67,7 @@ layout: default
 
   {% if page.solutions and page.solutions.size > 0 %}
   <section class="related-solutions">
-    <h2>Possible Solutions</h2>
+    <h2>{{ t['problem_layout.possible_solutions'] }}</h2>
     <ul class="related-solutions-list">
       {% for sol_slug in page.solutions %}
         {% if page.lang == "de" %}
@@ -87,12 +92,22 @@ layout: default
   {% endif %}
 
   <nav class="problem-navigation">
-    <a href="{{ '/problems/' | relative_url }}" target="_self" class="back-to-problems">← Back to Problems Overview</a>
+    {% assign problems_overview_path = "/problems/" %}
+    {% if current_lang == "de" %}{% assign problems_overview_path = "/de/problems/" %}{% endif %}
+    <a href="{{ problems_overview_path | relative_url }}" target="_self" class="back-to-problems">{{ t['problem_layout.back_to_problems'] }}</a>
   </nav>
 </article>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  // Localized show-more/show-less strings for this page's language (see
+  // _data/i18n.yml). showMoreTemplate carries a %{count} placeholder.
+  const showMoreTemplate = {{ t['problem_layout.show_more'] | jsonify }};
+  const showLessText = {{ t['problem_layout.show_less'] | jsonify }};
+  function showMoreText(count) {
+    return showMoreTemplate.replace('%{count}', count);
+  }
+
   // Find all sections with Symptoms ▲ or Root Causes ▼ headings
   const sections = document.querySelectorAll('h2');
   
@@ -147,26 +162,26 @@ document.addEventListener('DOMContentLoaded', function() {
           
           const showMoreBtn = document.createElement('button');
           showMoreBtn.className = 'show-more-btn';
-          showMoreBtn.textContent = `Show ${listItems.length - maxVisible} more`;
-          
+          showMoreBtn.textContent = showMoreText(listItems.length - maxVisible);
+
           let expanded = false;
-          
+
           showMoreBtn.addEventListener('click', function() {
             const hiddenItems = nextElement.querySelectorAll('.hidden-item');
-            
+
             if (!expanded) {
               // Show all hidden items
               hiddenItems.forEach(item => {
                 item.style.display = 'list-item';
               });
-              showMoreBtn.textContent = 'Show less';
+              showMoreBtn.textContent = showLessText;
               expanded = true;
             } else {
               // Hide items again
               hiddenItems.forEach(item => {
                 item.style.display = 'none';
               });
-              showMoreBtn.textContent = `Show ${listItems.length - maxVisible} more`;
+              showMoreBtn.textContent = showMoreText(listItems.length - maxVisible);
               expanded = false;
             }
           });

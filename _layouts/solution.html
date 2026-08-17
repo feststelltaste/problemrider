@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign current_lang = page.lang | default: site.lang | default: "en" %}
+{% assign t = site.data.i18n[current_lang] %}
 <article class="solution" data-analysis-node data-analysis-node-id="solution:{{ page.slug }}" data-analysis-node-title="{{ page.title | escape }}" data-analysis-node-type="solution">
   <header class="solution-header">
     <h1 class="solution-title">
@@ -15,13 +17,16 @@ layout: default
     {% endif %}
     <div class="solution-meta">
       {% if page.category %}
+        {% assign categories_overview_path = "/categories/" %}
+        {% if current_lang == "de" %}{% assign categories_overview_path = "/de/categories/" %}{% endif %}
         <div class="solution-categories">
           {% for category in page.category %}
-            <a href="{{ '/categories/' | relative_url }}#{{ category }}" class="category-tag" data-category="{{ category }}">{{ category }}</a>
+            {% assign category_label = site.data.categories_de[category] | default: category %}
+            <a href="{{ categories_overview_path | relative_url }}#{{ category }}" class="category-tag" data-category="{{ category }}">{% if current_lang == "de" %}{{ category_label }}{% else %}{{ category }}{% endif %}</a>
           {% endfor %}
         </div>
       {% endif %}
-      <button type="button" class="speed-nav-toggle" data-analysis-trail-speed-nav aria-pressed="false" title="Number keys 1-9 jump to headings on this page">Speed nav</button>
+      <button type="button" class="speed-nav-toggle" data-analysis-trail-speed-nav aria-pressed="false" title="{{ t['solution_layout.speed_nav_title'] }}">{{ t['solution_layout.speed_nav'] }}</button>
     </div>
   </header>
 
@@ -31,7 +36,7 @@ layout: default
 
   {% if page.related_solutions and page.related_solutions.size > 0 %}
   <section class="related-solutions">
-    <h2>Similar Solutions</h2>
+    <h2>{{ t['solution_layout.similar_solutions'] }}</h2>
     <ul class="related-solutions-list">
       {% for related in page.related_solutions %}
         {% if related.slug %}
@@ -67,7 +72,7 @@ layout: default
 
   {% if page.problems and page.problems.size > 0 %}
   <section class="addressed-problems">
-    <h2>Problems Addressed</h2>
+    <h2>{{ t['solution_layout.problems_addressed'] }}</h2>
     <ul class="addressed-problems-list">
       {% for problem_slug in page.problems %}
         {% if page.lang == "de" %}
@@ -114,6 +119,8 @@ layout: default
   </div>
 
   <nav class="solution-navigation">
-    <a href="{{ '/solutions/' | relative_url }}" class="back-to-solutions">← Back to Solutions Overview</a>
+    {% assign solutions_overview_path = "/solutions/" %}
+    {% if current_lang == "de" %}{% assign solutions_overview_path = "/de/solutions/" %}{% endif %}
+    <a href="{{ solutions_overview_path | relative_url }}" class="back-to-solutions">{{ t['solution_layout.back_to_solutions'] }}</a>
   </nav>
 </article>
