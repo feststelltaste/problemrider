@@ -1,0 +1,28 @@
+# German display labels for the 15 core category keys used in front matter
+# (see CLAUDE.md "Categories" and plans/german-translation-plan.md,
+# Decision 3). The keys below MUST match the English category strings
+# exactly, since those stay the canonical internal keys (used in
+# category: front matter, /categories/#Anchor URLs, and the JS filter
+# logic in problems.html/solutions.html/categories.html) even on German
+# pages — only the displayed label changes, looked up via this file when
+# page.lang == "de".
+#
+# Widely used English tech loanwords are kept bare rather than forced
+# into a German equivalent (Code, Performance, Team, Management, Business,
+# Testing), per the "keep anglicisms" decision in the plan; the rest use
+# their established German noun.
+Process: Prozess
+Architecture: Architektur
+Code: Code
+Performance: Performance
+Team: Team
+Communication: Kommunikation
+Management: Management
+Security: Sicherheit
+Business: Business
+Operations: Betrieb
+Testing: Testing
+Database: Datenbank
+Dependencies: Abhängigkeiten
+Requirements: Anforderungen
+Culture: Kultur
