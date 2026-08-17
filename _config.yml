@@ -2,6 +2,7 @@ title: ProblemRider
 description: A comprehensive catalog of software development problems, their symptoms, their root causes, and the solutions that address them
 baseurl: ""
 url: "https://feststelltaste.github.io/problemrider"
+lang: en
 
 # Build settings
 markdown: kramdown
@@ -9,6 +10,11 @@ highlighter: rouge
 theme: minima
 
 # Collections
+# problems_de/solutions_de hold the German translation (see
+# plans/german-translation-plan.md). They use their own German-derived
+# filenames/slugs rather than mirroring the English ones, so each entry
+# carries an `en_slug` front-matter field pointing back to its English
+# original for cross-linking and the language switcher.
 collections:
   problems:
     output: true
@@ -16,6 +22,12 @@ collections:
   solutions:
     output: true
     permalink: /:collection/:name.html
+  problems_de:
+    output: true
+    permalink: /de/problems/:name.html
+  solutions_de:
+    output: true
+    permalink: /de/solutions/:name.html
 
 # Defaults
 defaults:
@@ -24,11 +36,25 @@ defaults:
       type: "problems"
     values:
       layout: "problem"
+      lang: "en"
   - scope:
       path: ""
       type: "solutions"
     values:
       layout: "solution"
+      lang: "en"
+  - scope:
+      path: ""
+      type: "problems_de"
+    values:
+      layout: "problem"
+      lang: "de"
+  - scope:
+      path: ""
+      type: "solutions_de"
+    values:
+      layout: "solution"
+      lang: "de"
   - scope:
       path: ""
       type: "posts"
