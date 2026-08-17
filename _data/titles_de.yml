@@ -1456,5 +1456,245 @@ problems:
     title_de: Widerstand gegen Scope-Änderungen
     description_de: Notwendige Änderungen am Projektumfang werden aufgrund von Prozesseinschränkungen, Vertragsbeschränkungen oder organisatorischer Trägheit vermieden oder abgelehnt.
     slug_de: widerstand-gegen-scope-aenderungen
+  scope-creep:
+    title_de: Scope Creep
+    description_de: Projektanforderungen wachsen kontinuierlich ohne angemessene Kontrolle oder Auswirkungsanalyse, was Zeitpläne, Budgets und die ursprünglichen Ziele gefährdet.
+    slug_de: scope-creep
+  second-system-effect:
+    title_de: Zweitsystem-Effekt
+    description_de: Lehren aus einem alten System führen zu Überkompensation, was aufgeblähte oder übermäßig ambitionierte Designs schafft.
+    slug_de: zweitsystem-effekt
+  secret-management-problems:
+    title_de: Probleme beim Secret Management
+    description_de: Unzureichender Umgang mit sensiblen Zugangsdaten und Secrets erzeugt Sicherheitslücken und operative Herausforderungen.
+    slug_de: probleme-beim-secret-management
+  serialization-deserialization-bottlenecks:
+    title_de: Engpässe bei Serialisierung/Deserialisierung
+    description_de: Ineffiziente Serialisierung und Deserialisierung von Daten erzeugt Performance-Engpässe bei API-Kommunikation und Datenpersistenzoperationen.
+    slug_de: engpaesse-bei-serialisierung-deserialisierung
+  service-discovery-failures:
+    title_de: Fehler bei der Service Discovery
+    description_de: Service-Discovery-Mechanismen scheitern daran, Services zu finden oder zu verbinden, was Kommunikationsausfälle und Systeminstabilität in verteilten Architekturen verursacht.
+    slug_de: fehler-bei-der-service-discovery
+  service-timeouts:
+    title_de: Service-Timeouts
+    description_de: Services schaffen es nicht, Anfragen innerhalb eines akzeptablen Zeitlimits abzuschließen, was Fehler, Kaskadenausfälle und Systeminstabilität verursacht.
+    slug_de: service-timeouts
+  session-management-issues:
+    title_de: Probleme im Session-Management
+    description_de: Schlechte Session-Verwaltung erzeugt Sicherheitslücken durch Session Hijacking, Fixation oder unsachgemäßes Lifecycle-Management.
+    slug_de: probleme-im-session-management
+  shadow-systems:
+    title_de: Schattensysteme
+    description_de: Alternative Lösungen, die außerhalb offizieller Kanäle entwickelt werden, untergraben Standardisierung und schaffen versteckte Abhängigkeiten.
+    slug_de: schattensysteme
+  shared-database:
+    title_de: Gemeinsam genutzte Datenbank
+    description_de: Eine Situation, in der mehrere Services oder Komponenten eine einzige Datenbank gemeinsam nutzen.
+    slug_de: gemeinsam-genutzte-datenbank
+  shared-dependencies:
+    title_de: Gemeinsam genutzte Abhängigkeiten
+    description_de: Eine Situation, in der mehrere Komponenten oder Services einen gemeinsamen Satz von Bibliotheken und Frameworks teilen.
+    slug_de: gemeinsam-genutzte-abhaengigkeiten
+  short-term-focus:
+    title_de: Kurzfristiger Fokus
+    description_de: Das Management priorisiert die unmittelbare Auslieferung von Features gegenüber langfristiger Code-Gesundheit und architektonischen Verbesserungen, was Nachhaltigkeitsprobleme schafft.
+    slug_de: kurzfristiger-fokus
+  silent-data-corruption:
+    title_de: Stille Datenkorruption
+    description_de: Daten werden korrumpiert, ohne Fehler oder Warnungen auszulösen, was zu falschen Ergebnissen und Verlust der Datenintegrität führt.
+    slug_de: stille-datenkorruption
+  single-entry-point-design:
+    title_de: Design mit einzigem Einstiegspunkt
+    description_de: Ein Design, bei dem alle Anfragen an ein System durch ein einziges Objekt oder eine einzige Komponente gehen müssen.
+    slug_de: design-mit-einzigem-einstiegspunkt
+  single-points-of-failure:
+    title_de: Single Points of Failure
+    description_de: Fortschritt wird blockiert, wenn bestimmte Wissensträger oder Systemkomponenten nicht verfügbar sind, was kritische Abhängigkeiten schafft.
+    slug_de: single-points-of-failure
+  skill-development-gaps:
+    title_de: Lücken in der Kompetenzentwicklung
+    description_de: Teammitglieder entwickeln aufgrund von Vermeidung, Spezialisierung oder unzureichenden Lernmöglichkeiten keine Expertise in wichtigen Technologien oder Domänen.
+    slug_de: luecken-in-der-kompetenzentwicklung
+  slow-application-performance:
+    title_de: Langsame Anwendungsperformance
+    description_de: Nutzerseitige Funktionen, die auf der API basieren, fühlen sich träge oder unresponsiv an.
+    slug_de: langsame-anwendungsperformance
+  slow-database-queries:
+    title_de: Langsame Datenbankabfragen
+    description_de: Die Anwendungsperformance verschlechtert sich aufgrund ineffizienten Datenabrufs aus der Datenbank.
+    slug_de: langsame-datenbankabfragen
+  slow-development-velocity:
+    title_de: Langsame Entwicklungsgeschwindigkeit
+    description_de: Das Team schafft es durchgängig nicht, Features und Fehlerbehebungen in einem vorhersehbaren und akzeptablen Tempo zu liefern, wobei die Gesamtproduktivität systematisch sinkt.
+    slug_de: langsame-entwicklungsgeschwindigkeit
+  slow-feature-development:
+    title_de: Langsame Feature-Entwicklung
+    description_de: Das Tempo der Entwicklung und Auslieferung neuer Features ist durchgängig langsam, oft aufgrund der Komplexität und Brüchigkeit der bestehenden Codebasis.
+    slug_de: langsame-feature-entwicklung
+  slow-incident-resolution:
+    title_de: Langsame Vorfallslösung
+    description_de: Probleme und Ausfälle benötigen übermäßig viel Zeit zur Diagnose und Lösung, was die Geschäftsauswirkung und Nutzerfrustration verlängert.
+    slug_de: langsame-vorfallsloesung
+  slow-knowledge-transfer:
+    title_de: Langsamer Wissenstransfer
+    description_de: Eine Situation, in der neue Teammitglieder lange brauchen, um produktiv zu werden.
+    slug_de: langsamer-wissenstransfer
+  slow-response-times-for-lists:
+    title_de: Langsame Antwortzeiten für Listen
+    description_de: Webseiten oder API-Endpunkte, die Listen von Elementen anzeigen, laden deutlich langsamer als solche, die einzelne Elemente anzeigen, oft aufgrund ineffizienten Datenabrufs.
+    slug_de: langsame-antwortzeiten-fuer-listen
+  spaghetti-code:
+    title_de: Spaghetticode
+    description_de: Code mit verworrener, unstrukturierter Logik, der nahezu unmöglich sicher zu verstehen, zu debuggen oder zu ändern ist.
+    slug_de: spaghetticode
+  sql-injection-vulnerabilities:
+    title_de: SQL-Injection-Schwachstellen
+    description_de: Unzureichende Eingabebereinigung erlaubt Angreifern, bösartigen SQL-Code einzuschleusen, was Datenbanksicherheit und Datenintegrität kompromittieren kann.
+    slug_de: sql-injection-schwachstellen
+  stack-overflow-errors:
+    title_de: Stack-Overflow-Fehler
+    description_de: Programme überschreiten den zugewiesenen Stack-Speicher aufgrund übermäßiger Rekursion oder großer lokaler Variablen, was Anwendungsabstürze verursacht.
+    slug_de: stack-overflow-fehler
+  staff-availability-issues:
+    title_de: Probleme mit der Personalverfügbarkeit
+    description_de: Benötigte Rollen bleiben unbesetzt oder Mitarbeiter sind überbucht, was die Umsetzungskapazität und den Projektfortschritt verringert.
+    slug_de: probleme-mit-der-personalverfuegbarkeit
+  stagnant-architecture:
+    title_de: Stagnierende Architektur
+    description_de: Die Systemarchitektur entwickelt sich nicht weiter, um sich ändernden Geschäftsanforderungen gerecht zu werden, weil größeres Refactoring durchgängig vermieden wird.
+    slug_de: stagnierende-architektur
+  stakeholder-confidence-loss:
+    title_de: Vertrauensverlust bei Stakeholdern
+    description_de: Geschäftspartner verlieren das Vertrauen in die Fähigkeit des Entwicklungsteams, Zusagen einzuhalten, was Spannungen erzeugt und die Zusammenarbeit verringert.
+    slug_de: vertrauensverlust-bei-stakeholdern
+  stakeholder-developer-communication-gap:
+    title_de: Kommunikationslücke zwischen Stakeholdern und Entwicklern
+    description_de: Ein anhaltendes Missverständnis zwischen dem, was Stakeholder erwarten, und dem, was das Entwicklungsteam baut, was zu Nacharbeit und Unzufriedenheit führt.
+    slug_de: kommunikationsluecke-zwischen-stakeholdern-und-entwicklern
+  stakeholder-dissatisfaction:
+    title_de: Unzufriedenheit der Stakeholder
+    description_de: Geschäftliche Stakeholder werden unzufrieden mit Projektergebnissen, Entwicklungsgeschwindigkeit oder Kommunikationsqualität.
+    slug_de: unzufriedenheit-der-stakeholder
+  stakeholder-frustration:
+    title_de: Frustration der Stakeholder
+    description_de: Geschäftliche Stakeholder werden frustriert über Entwicklungsfortschritt, Qualität oder Kommunikation, was zu angespannten Beziehungen und verringerter Unterstützung führt.
+    slug_de: frustration-der-stakeholder
+  strangler-fig-pattern-failures:
+    title_de: Fehlschläge des Strangler-Fig-Patterns
+    description_de: Die schrittweise Modernisierung mittels Strangler-Fig-Pattern stockt aufgrund komplexer Abhängigkeiten und Herausforderungen bei der Datenkonsistenz.
+    slug_de: fehlschlaege-des-strangler-fig-patterns
+  style-arguments-in-code-reviews:
+    title_de: Stildiskussionen in Code-Reviews
+    description_de: Eine Situation, in der ein erheblicher Teil der Zeit in Code-Reviews damit verbracht wird, über triviale Stilfragen zu diskutieren, statt sich auf Logik und Design zu konzentrieren.
+    slug_de: stildiskussionen-in-code-reviews
+  suboptimal-solutions:
+    title_de: Suboptimale Lösungen
+    description_de: Gelieferte Lösungen funktionieren, sind aber ineffizient, schwer zu bedienen oder adressieren die zugrunde liegenden Probleme, die sie lösen sollten, nicht vollständig.
+    slug_de: suboptimale-loesungen
+  superficial-code-reviews:
+    title_de: Oberflächliche Code-Reviews
+    description_de: Code-Reviews konzentrieren sich nur auf oberflächliche Probleme wie Formatierung und Stil, während wichtige Design-, Logik- oder Sicherheitsprobleme übersehen werden.
+    slug_de: oberflaechliche-code-reviews
+  synchronization-problems:
+    title_de: Synchronisationsprobleme
+    description_de: Aktualisierungen an einer Kopie duplizierter Logik werden nicht auf andere Kopien angewendet, was zu divergierendem Verhalten im System führt.
+    slug_de: synchronisationsprobleme
+  system-integration-blindness:
+    title_de: Blindheit bei der Systemintegration
+    description_de: Komponenten funktionieren isoliert korrekt, scheitern aber bei der Integration, was Lücken im End-to-End-Systemverständnis offenbart.
+    slug_de: blindheit-bei-der-systemintegration
+  system-outages:
+    title_de: Systemausfälle
+    description_de: Serviceunterbrechungen und Systemausfälle treten häufig auf, was Geschäftsstörungen und Nutzerfrustration verursacht.
+    slug_de: systemausfaelle
+  system-stagnation:
+    title_de: Systemstagnation
+    description_de: Softwaresysteme bleiben über längere Zeiträume unverändert und entwickeln sich nicht weiter, um neuen Anforderungen, Technologien oder Geschäftsbedürfnissen gerecht zu werden.
+    slug_de: systemstagnation
+  tacit-knowledge:
+    title_de: Implizites Erfahrungswissen
+    description_de: Wissen, das sich nur schwer an eine andere Person weitergeben lässt, indem man es aufschreibt oder verbalisiert.
+    slug_de: implizites-erfahrungswissen
+  tangled-cross-cutting-concerns:
+    title_de: Verworrene Querschnittsbelange
+    description_de: Eine Situation, in der Querschnittsbelange wie Logging, Sicherheit und Transaktionen eng mit der Geschäftslogik verwoben sind.
+    slug_de: verworrene-querschnittsbelange
+  task-queues-backing-up:
+    title_de: Aufstauende Task-Queues
+    description_de: Asynchrone Jobs oder Nachrichten brauchen länger zur Verarbeitung, was Warteschlangen wachsen lässt und kritische Operationen verzögert.
+    slug_de: aufstauende-task-queues
+  team-churn-impact:
+    title_de: Auswirkung von Team-Fluktuation
+    description_de: Im Laufe der Zeit, wenn Entwickler dem Team beitreten und es verlassen, bringen sie inkonsistente Praktiken und Wissenslücken mit, die die Codequalität verschlechtern.
+    slug_de: auswirkung-von-team-fluktuation
+  team-confusion:
+    title_de: Teamverwirrung
+    description_de: Teammitgliedern ist unklar, was Projektziele, Prioritäten, Verantwortlichkeiten oder Prozesse angeht, was zu fehlausgerichteten Bemühungen und verschwendeter Arbeit führt.
+    slug_de: teamverwirrung
+  team-coordination-issues:
+    title_de: Probleme bei der Teamkoordination
+    description_de: Eine Situation, in der mehrere Entwickler oder Teams Schwierigkeiten haben, an derselben Codebasis zusammenzuarbeiten.
+    slug_de: probleme-bei-der-teamkoordination
+  team-demoralization:
+    title_de: Demoralisierung des Teams
+    description_de: Teammitglieder verlieren Motivation, Vertrauen und Begeisterung für ihre Arbeit aufgrund anhaltender Probleme oder organisatorischer Schwierigkeiten.
+    slug_de: demoralisierung-des-teams
+  team-dysfunction:
+    title_de: Team-Dysfunktion
+    description_de: Teammitglieder können aufgrund widersprüchlicher Ziele, zwischenmenschlicher Probleme oder struktureller Schwierigkeiten, die koordinierte Anstrengung verhindern, nicht effektiv zusammenarbeiten.
+    slug_de: team-dysfunktion
+  team-members-not-engaged-in-review-process:
+    title_de: Teammitglieder nicht in den Review-Prozess eingebunden
+    description_de: Code-Reviews werden oft denselben Personen zugewiesen, oder Reviewer geben kein aussagekräftiges Feedback, was zu einem Engpass und verringerter Qualität führt.
+    slug_de: teammitglieder-nicht-in-den-review-prozess-eingebunden
+  team-silos:
+    title_de: Team-Silos
+    description_de: Entwicklungsteams oder einzelne Entwickler arbeiten isoliert, was zu doppeltem Aufwand, inkonsistenten Lösungen und mangelndem Wissensaustausch führt.
+    slug_de: team-silos
+  technical-architecture-limitations:
+    title_de: Einschränkungen der technischen Architektur
+    description_de: Das Design der Systemarchitektur schafft Einschränkungen, die Performance, Skalierbarkeit, Wartbarkeit oder Entwicklungsgeschwindigkeit begrenzen.
+    slug_de: einschraenkungen-der-technischen-architektur
+  technology-isolation:
+    title_de: Technologie-Isolation
+    description_de: Das System wird zunehmend von modernen Technologie-Stacks isoliert, was die Fähigkeit einschränkt, Talente anzuziehen und neue Fähigkeiten zu nutzen.
+    slug_de: technologie-isolation
+  technology-lock-in:
+    title_de: Technologie-Lock-in
+    description_de: Eine Situation, in der es schwierig oder unmöglich ist, aufgrund der hohen Kosten oder des Aufwands zu einer neuen Technologie zu wechseln.
+    slug_de: technologie-lock-in
+  technology-stack-fragmentation:
+    title_de: Fragmentierung des Technologie-Stacks
+    description_de: Legacy-Systeme schaffen isolierte Technologie-Inseln, die Standardisierung verhindern und die operative Komplexität in der gesamten Organisation erhöhen.
+    slug_de: fragmentierung-des-technologie-stacks
+  test-debt:
+    title_de: Testschulden
+    description_de: Das angehäufte Risiko aus unzureichender oder vernachlässigter Qualitätssicherung, was zu einem fragilen Produkt und langsamer Entwicklungsgeschwindigkeit führt.
+    slug_de: testschulden
+  testing-complexity:
+    title_de: Testkomplexität
+    description_de: Die Qualitätssicherung muss dieselbe Funktionalität an mehreren Stellen verifizieren, was den Testaufwand und das Risiko übersehener Fehler erhöht.
+    slug_de: testkomplexitaet
+  testing-environment-fragility:
+    title_de: Brüchigkeit der Testumgebung
+    description_de: Die Testinfrastruktur ist unzuverlässig, schwer zu warten und bildet Produktionsbedingungen nicht akkurat ab, was die Testwirksamkeit untergräbt.
+    slug_de: bruechigkeit-der-testumgebung
+  thread-pool-exhaustion:
+    title_de: Erschöpfung des Thread-Pools
+    description_de: Alle verfügbaren Threads im Thread-Pool werden durch lang laufende oder blockierte Operationen verbraucht, was die Verarbeitung neuer Aufgaben verhindert.
+    slug_de: erschoepfung-des-thread-pools
+  tight-coupling-issues:
+    title_de: Probleme durch enge Kopplung
+    description_de: Komponenten sind übermäßig voneinander abhängig, was Änderungen erschwert und Systemflexibilität und Wartbarkeit verringert.
+    slug_de: probleme-durch-enge-kopplung
+  time-pressure:
+    title_de: Zeitdruck
+    description_de: Teams werden gezwungen, Abkürzungen zu nehmen, um unmittelbare Termine einzuhalten, wodurch richtige Lösungen aufgeschoben und wichtige Aufgaben wie Code-Reviews überstürzt werden.
+    slug_de: zeitdruck
+  tool-limitations:
+    title_de: Werkzeugeinschränkungen
+    description_de: Unzureichende Entwicklungswerkzeuge verlangsamen gängige Aufgaben und verringern Entwicklerproduktivität und -zufriedenheit.
+    slug_de: werkzeugeinschraenkungen
 
 solutions: {}
