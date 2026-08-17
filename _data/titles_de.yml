@@ -3026,3 +3026,243 @@ solutions:
     title_de: Wissensmanagement-System
     description_de: Zentrale Sammlung und Verteilung von Wissen über das Softwareprojekt.
     slug_de: wissensmanagement-system
+  large-scale-refactoring:
+    title_de: Groß angelegtes Refactoring
+    description_de: Durchführung einer verhaltenserhaltenden Änderung über viele Module oder Repositories in nachverfolgten Batches mit benanntem Verantwortlichen, sodass umfassende Refactorings tatsächlich abgeschlossen werden.
+    slug_de: gross-angelegtes-refactoring
+  layered-architecture:
+    title_de: Schichtenarchitektur
+    description_de: Aufteilung des Softwaresystems in logische Schichten mit klaren Verantwortlichkeiten.
+    slug_de: schichtenarchitektur
+  lazy-evaluation:
+    title_de: Lazy Evaluation
+    description_de: Laden und Verarbeiten von Daten nur bei Bedarf.
+    slug_de: lazy-evaluation
+  lazy-loading:
+    title_de: Lazy Loading
+    description_de: Verzögertes Laden von Daten und Ressourcen bis zum Moment der tatsächlichen Nutzung.
+    slug_de: lazy-loading
+  least-privilege:
+    title_de: Least Privilege
+    description_de: Ausstattung von Nutzern und Prozessen nur mit den minimal notwendigen Rechten.
+    slug_de: least-privilege
+  lightweight-design-review:
+    title_de: Schlankes Design-Review
+    description_de: Besprechung des beabsichtigten Ansatzes für nicht-triviale Änderungen vor der Umsetzung, in einer kurzen Sitzung mit schriftlicher Skizze, sodass Designprobleme auftauchen, bevor Code existiert.
+    slug_de: schlankes-design-review
+  living-documentation:
+    title_de: Living Documentation
+    description_de: Aktuelle und leicht zugängliche Dokumentation als integraler Bestandteil der Entwicklung.
+    slug_de: living-documentation
+  load-balancing:
+    title_de: Load Balancing
+    description_de: Verteilung der Arbeitslast auf mehrere Ressourcen.
+    slug_de: load-balancing
+  load-shedding:
+    title_de: Load Shedding
+    description_de: Gezieltes Verwerfen niedrig priorisierter Anfragen bei Überlast, um kritische Kapazität zu erhalten.
+    slug_de: load-shedding
+  load-testing:
+    title_de: Lasttests
+    description_de: Bewertung von Systemperformance und -stabilität unter hoher Last.
+    slug_de: lasttests
+  localization:
+    title_de: Lokalisierung
+    description_de: Anpassung der Software an unterschiedliche Sprachen, Regionen und kulturelle Konventionen.
+    slug_de: lokalisierung
+  logging-and-monitoring:
+    title_de: Logging und Monitoring
+    description_de: Protokollierung und Überwachung sicherheitsrelevanter Ereignisse.
+    slug_de: logging-und-monitoring
+  logging-guidelines:
+    title_de: Logging-Richtlinien
+    description_de: Vereinbarung, was auf welcher Ebene geloggt wird, was niemals geloggt werden darf und wie lange es aufbewahrt wird — sodass Logs zu einem Diagnosewerkzeug werden statt zu einem Volumenproblem.
+    slug_de: logging-richtlinien
+  logging:
+    title_de: Logging
+    description_de: Umsetzung umfassender Protokollierung und Überwachung des Systemverhaltens.
+    slug_de: logging
+  loose-coupling:
+    title_de: Lose Kopplung
+    description_de: Minimierung von Abhängigkeiten zwischen Modulen, damit sich Änderungen nicht kaskadieren.
+    slug_de: lose-kopplung
+  malware-protection:
+    title_de: Malware-Schutz
+    description_de: Erkennung und Abwehr von Malware durch technische Maßnahmen.
+    slug_de: malware-schutz
+  mass-test-data-generation:
+    title_de: Massentestdatengenerierung
+    description_de: Erzeugung großer Mengen künstlicher Testdaten mit realistischen Eigenschaften.
+    slug_de: massentestdatengenerierung
+  master-data-stewardship:
+    title_de: Stammdaten-Stewardship
+    description_de: Jedem gemeinsam genutzten Referenzobjekt einen verantwortlichen Steward, einen definierten Erstellungsprozess und einen gemessenen Qualitätsstandard geben, sodass abteilungsübergreifende Daten einen Eigentümer haben.
+    slug_de: stammdaten-stewardship
+  materialized-views:
+    title_de: Materialisierte Sichten
+    description_de: Optimierung der Datenbankabfrageperformance durch Speicherung von Abfrageergebnissen.
+    slug_de: materialisierte-sichten
+  mediator:
+    title_de: Mediator
+    description_de: Entkopplung direkter Kommunikation zwischen Komponenten.
+    slug_de: mediator
+  memory-hierarchy:
+    title_de: Speicherhierarchie
+    description_de: Nutzung der Lokalität von Speicherzugriffen auf verschiedenen Ebenen.
+    slug_de: speicherhierarchie
+  memory-management-optimization:
+    title_de: Optimierung des Speichermanagements
+    description_de: Systematische Identifikation und Behebung speicherbezogener Performance-Probleme durch Profiling, begrenzte Datenstrukturen, Objekt-Lebenszyklus-Management und allokationsbewusste Design-Patterns.
+    slug_de: optimierung-des-speichermanagements
+  microservices-architecture:
+    title_de: Microservices-Architektur
+    description_de: Aufteilung der Anwendung in kleine, unabhängige Services.
+    slug_de: microservices-architektur
+  microservices:
+    title_de: Microservices
+    description_de: Ermöglichung schnellen Produktexperimentierens durch unabhängige, geschäftsausgerichtete Services.
+    slug_de: microservices
+  mikado-method:
+    title_de: Mikado-Methode
+    description_de: Entdeckung des tatsächlichen Abhängigkeitsgraphen einer großen Änderung durch Ausprobieren, Aufzeichnen, was bricht, Zurücksetzen und Beheben der Voraussetzungen zuerst.
+    slug_de: mikado-methode
+  mobile-first-design:
+    title_de: Mobile-First-Design
+    description_de: Gestaltung von Anwendungen primär zuerst für mobile Geräte.
+    slug_de: mobile-first-design
+  modernization-options-comparison:
+    title_de: Vergleich von Modernisierungsoptionen
+    description_de: Abschalten, Beibehalten, Kapseln, Ersetzen und Neuschreiben als bepreiste Alternativen nebeneinander präsentieren, statt um Genehmigung für eine bevorzugte Antwort zu bitten.
+    slug_de: vergleich-von-modernisierungsoptionen
+  modularization-and-bounded-contexts:
+    title_de: Modularisierung
+    description_de: Aufteilung der Anwendung in kleine, unabhängige und wiederverwendbare Komponenten.
+    slug_de: modularisierung
+  modulith:
+    title_de: Modulith
+    description_de: Strukturierung der Systemarchitektur in unabhängige, austauschbare Module.
+    slug_de: modulith
+  monitoring-system-integrity:
+    title_de: Überwachung der Systemintegrität
+    description_de: Kontinuierliche Verifikation der Integrität von Systemkomponenten, Konfigurationen und Daten.
+    slug_de: ueberwachung-der-systemintegritaet
+  monitoring-system-utilization:
+    title_de: Überwachung der Systemauslastung
+    description_de: Kontinuierliche Überwachung von Ressourcennutzung und Systemperformance.
+    slug_de: ueberwachung-der-systemauslastung
+  monitoring:
+    title_de: Monitoring
+    description_de: Kontinuierliche Überwachung von Systemzuständen, Performance und Fehlern.
+    slug_de: monitoring
+  multi-cloud-iac:
+    title_de: Multi-Cloud Infrastructure as Code
+    description_de: Deklarative Bereitstellung von Infrastruktur mit anbieterunabhängigen Modulen für mehrere Clouds.
+    slug_de: multi-cloud-infrastructure-as-code
+  mutation-testing:
+    title_de: Mutationstests
+    description_de: Testen der Robustheit von Software-Tests durch gezielte Codeänderungen.
+    slug_de: mutationstests
+  negative-testing:
+    title_de: Negativtests
+    description_de: Gezieltes Testen ungültiger Eingaben und Grenzfälle zur Prüfung der Fehlerbehandlung.
+    slug_de: negativtests
+  network-segmentation:
+    title_de: Netzwerksegmentierung
+    description_de: Aufteilung des Netzwerks in Sicherheitszonen mit getrennten Vertrauensstufen.
+    slug_de: netzwerksegmentierung
+  no-regret-moves:
+    title_de: No-Regret-Maßnahmen
+    description_de: Identifikation der Modernisierungsschritte, die sich unter jeder plausiblen Zukunft auszahlen, und diese zuerst umsetzen, solange das Ziel noch unentschieden ist.
+    slug_de: no-regret-massnahmen
+  nonstop-forwarding:
+    title_de: Nonstop Forwarding
+    description_de: Kontinuierliche Anfragenweiterleitung trotz Fehlern oder Ausfällen.
+    slug_de: nonstop-forwarding
+  nosql-databases:
+    title_de: NoSQL-Datenbanken
+    description_de: Speicherung von Daten in flexiblen, schemalosen Formaten.
+    slug_de: nosql-datenbanken
+  object-relational-mapping-orm:
+    title_de: Object-Relational Mapping (ORM)
+    description_de: Abstraktion von Datenbankinteraktionen durch Objekte.
+    slug_de: object-relational-mapping-orm
+  observability-and-monitoring:
+    title_de: Observability
+    description_de: Umsetzung strukturierten Loggings, verteilten Tracings und Metriken.
+    slug_de: observability
+  on-call-duty:
+    title_de: Bereitschaftsdienst
+    description_de: Sicherstellung, dass Mitarbeiter verfügbar sind, um schnell auf Vorfälle und Probleme zu reagieren.
+    slug_de: bereitschaftsdienst
+  on-site-customer:
+    title_de: On-Site Customer
+    description_de: Direkte Einbindung von Kunden in die Entwicklung.
+    slug_de: on-site-customer
+  optimistic-ui-updates:
+    title_de: Optimistische UI-Updates
+    description_de: Reduzierung wahrgenommener Latenz durch Aktualisierung der Oberfläche vor Server-Bestätigung.
+    slug_de: optimistische-ui-updates
+  outcome-based-goal-setting:
+    title_de: Ergebnisbasierte Zielsetzung
+    description_de: Formulierung von Zielen als Veränderungen in der Welt mit angehängtem Maß, nicht als Listen zu bauender Dinge, sodass Auslieferung nach Wirkung statt nach Volumen beurteilt werden kann.
+    slug_de: ergebnisbasierte-zielsetzung
+  output-encoding:
+    title_de: Output-Encoding
+    description_de: Maskierung von Ausgaben zur Verhinderung von Injection-Angriffen.
+    slug_de: output-encoding
+  pagination:
+    title_de: Paginierung
+    description_de: Laden großer Datenausgaben in kleinere, handhabbare Abschnitte.
+    slug_de: paginierung
+  pair-and-mob-programming:
+    title_de: Pair Programming
+    description_de: Zwei Entwickler arbeiten gemeinsam an einer Aufgabe an einem Arbeitsplatz.
+    slug_de: pair-programming
+  parallel-run:
+    title_de: Parallelbetrieb
+    description_de: Alte und neue Implementierung nebeneinander mit echtem Traffic betreiben, ihre Ausgaben vergleichen und erst umschalten, wenn die Unterschiede verstanden sind.
+    slug_de: parallelbetrieb
+  parallelization:
+    title_de: Parallelisierung
+    description_de: Gleichzeitige Ausführung mehrerer Berechnungen oder Aufgaben.
+    slug_de: parallelisierung
+  patch-management:
+    title_de: Patch-Management
+    description_de: Zeitnahe Anwendung von Sicherheitsupdates und Patches.
+    slug_de: patch-management
+  pattern-language:
+    title_de: Pattern Language
+    description_de: Anwendung bewährter Lösungsmuster für wiederkehrende Designprobleme.
+    slug_de: pattern-language
+  penetration-tests:
+    title_de: Penetrationstests
+    description_de: Aufdeckung von Sicherheitslücken durch simulierte Angriffe.
+    slug_de: penetrationstests
+  performance-budgets:
+    title_de: Performance-Budgets
+    description_de: Definition von Performance-Kennzahlen als Teil der Anforderungen.
+    slug_de: performance-budgets
+  performance-measurements:
+    title_de: Performance-Messungen
+    description_de: Kontinuierliche Messung und Speicherung von Performance-Metriken in Produktion.
+    slug_de: performance-messungen
+  performance-modeling:
+    title_de: Performance-Modellierung
+    description_de: Vorhersage des Performance-Verhaltens durch mathematische Modelle.
+    slug_de: performance-modellierung
+  performance-optimization:
+    title_de: Performance-Optimierung
+    description_de: Verbesserung der wahrgenommenen Reaktionsfähigkeit durch nutzerseitige Performance-Techniken.
+    slug_de: performance-optimierung
+  personal-support:
+    title_de: Persönlicher Support
+    description_de: Angebot persönlichen Supports durch geschultes Personal für Nutzerfragen und -probleme.
+    slug_de: persoenlicher-support
+  personas:
+    title_de: Personas
+    description_de: Charakterisierung repräsentativer Nutzertypen durch fiktive Personen.
+    slug_de: personas
+  physical-security:
+    title_de: Physische Sicherheit
+    description_de: Zugangs- und Zutrittsschutz für IT-Infrastruktur durch bauliche und organisatorische Maßnahmen.
+    slug_de: physische-sicherheit
