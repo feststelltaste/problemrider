@@ -496,5 +496,245 @@ problems:
     title_de: Feature-Creep
     description_de: Der Umfang eines Features oder einer Komponente wächst im Laufe der Zeit schrittweise, was zu einem komplexen und aufgeblähten System führt, das schwer zu warten ist.
     slug_de: feature-creep
+  feature-factory:
+    title_de: Feature-Fabrik
+    description_de: Die Organisation priorisiert das Ausliefern von Features gegenüber dem Verständnis ihrer Geschäftswirkung und ihres Nutzerwerts.
+    slug_de: feature-fabrik
+  feature-gaps:
+    title_de: Funktionslücken
+    description_de: Wichtige Funktionalität fehlt, weil Entwickler annahmen, sie sei nicht nötig, was zu unvollständigen Lösungen führt, die die Nutzerbedürfnisse nicht erfüllen.
+    slug_de: funktionsluecken
+  feedback-isolation:
+    title_de: Feedback-Isolation
+    description_de: Entwicklungsteams arbeiten ohne regelmäßigen Input von Stakeholdern und Nutzern, was zu Produkten führt, die Anforderungen und Nutzerbedürfnisse verfehlen.
+    slug_de: feedback-isolation
+  flaky-tests:
+    title_de: Flaky Tests
+    description_de: Tests schlagen zufällig fehl aufgrund von Timing, Setup oder Abhängigkeiten, was das Vertrauen in die Testsuite untergräbt.
+    slug_de: flaky-tests
+  frequent-changes-to-requirements:
+    title_de: Häufige Anforderungsänderungen
+    description_de: Die Anforderungen für ein Projekt oder Feature werden ständig aktualisiert, selbst nachdem die Entwicklung begonnen hat, was zu Nacharbeit, Verzögerungen und Frustration führt.
+    slug_de: haeufige-anforderungsaenderungen
+  frequent-hotfixes-and-rollbacks:
+    title_de: Häufige Hotfixes und Rollbacks
+    description_de: Das Team deployt ständig kleine Fixes oder macht Releases rückgängig, aufgrund unzureichender Tests und Qualitätskontrolle.
+    slug_de: haeufige-hotfixes-und-rollbacks
+  garbage-collection-pressure:
+    title_de: Garbage-Collection-Druck
+    description_de: Übermäßige Objektallokation und -freigabe verursacht häufige Garbage-Collection-Zyklen, was zu Performance-Pausen führt und den Anwendungsdurchsatz verringert.
+    slug_de: garbage-collection-druck
+  global-state-and-side-effects:
+    title_de: Globaler Zustand und Nebeneffekte
+    description_de: Übermäßiger Einsatz globaler Variablen oder Funktionen mit versteckten Nebeneffekten erschwert es, das Codeverhalten nachzuvollziehen.
+    slug_de: globaler-zustand-und-nebeneffekte
+  god-object-anti-pattern:
+    title_de: God-Object-Antipattern
+    description_de: Einzelne Klassen oder Komponenten übernehmen zu viele Verantwortlichkeiten und werden dadurch übermäßig komplex und schwer zu warten oder zu testen.
+    slug_de: god-object-antipattern
+  gold-plating:
+    title_de: Gold Plating
+    description_de: Entwickler fügen einem Projekt unnötige Funktionen oder Komplexität hinzu, weil sie glauben, das würde die Stakeholder beeindrucken, auch wenn es nicht angefragt wurde.
+    slug_de: gold-plating
+  gradual-performance-degradation:
+    title_de: Schleichende Performance-Verschlechterung
+    description_de: Die Anwendungsperformance verschlechtert sich im Laufe der Zeit langsam, aufgrund von Ressourcenlecks, angehäuften technischen Schulden oder ineffizienten Algorithmen.
+    slug_de: schleichende-performance-verschlechterung
+  graphql-complexity-issues:
+    title_de: GraphQL-Komplexitätsprobleme
+    description_de: GraphQL-Abfragen werden zu komplex oder aufwendig in der Ausführung, was Performance-Probleme und potenzielle Denial-of-Service-Schwachstellen verursacht.
+    slug_de: graphql-komplexitaetsprobleme
+  growing-task-queues:
+    title_de: Wachsende Task-Queues
+    description_de: Asynchrone Verarbeitungswarteschlangen häufen unverarbeitete Aufgaben an, was auf einen Engpass in der Verarbeitungspipeline hinweist.
+    slug_de: wachsende-task-queues
+  hardcoded-values:
+    title_de: Hartcodierte Werte
+    description_de: Magische Zahlen und feste Zeichenketten verringern die Flexibilität und erschweren Konfiguration und Anpassung.
+    slug_de: hartcodierte-werte
+  hidden-dependencies:
+    title_de: Versteckte Abhängigkeiten
+    description_de: Workarounds und Patches erzeugen unerwartete Abhängigkeiten zwischen Systemkomponenten, die aus der Codestruktur nicht ersichtlich sind.
+    slug_de: versteckte-abhaengigkeiten
+  hidden-side-effects:
+    title_de: Versteckte Nebeneffekte
+    description_de: Funktionen haben undokumentierte Nebeneffekte, die Zustand verändern oder Aktionen auslösen, die über ihren offensichtlichen Zweck hinausgehen.
+    slug_de: versteckte-nebeneffekte
+  high-api-latency:
+    title_de: Hohe API-Latenz
+    description_de: Die Zeit, die eine API zum Antworten auf eine Anfrage benötigt, ist übermäßig lang, was zu schlechter Anwendungsperformance und negativer Nutzererfahrung führt.
+    slug_de: hohe-api-latenz
+  high-bug-introduction-rate:
+    title_de: Hohe Rate an neu eingeführten Fehlern
+    description_de: Mit jeder Änderung an der Codebasis werden viele neue Fehler eingeführt, was auf zugrunde liegende Qualitätsprobleme hinweist.
+    slug_de: hohe-rate-an-neu-eingefuehrten-fehlern
+  high-client-side-resource-consumption:
+    title_de: Hoher Ressourcenverbrauch auf Client-Seite
+    description_de: Client-Anwendungen verbrauchen übermäßig viel CPU oder Speicher, was zu träger Performance und schlechter Nutzererfahrung führt.
+    slug_de: hoher-ressourcenverbrauch-auf-client-seite
+  high-connection-count:
+    title_de: Hohe Anzahl an Verbindungen
+    description_de: Eine große Anzahl offener Datenbankverbindungen, selbst wenn sie inaktiv sind, kann erhebliche Speicherressourcen verbrauchen und zu Verbindungsablehnungen führen.
+    slug_de: hohe-anzahl-an-verbindungen
+  high-coupling-low-cohesion:
+    title_de: Hohe Kopplung und geringe Kohäsion
+    description_de: Softwarekomponenten sind übermäßig voneinander abhängig und erfüllen zu viele unzusammenhängende Funktionen, was das System schwer veränderbar und verständlich macht.
+    slug_de: hohe-kopplung-und-geringe-kohaesion
+  high-database-resource-utilization:
+    title_de: Hohe Datenbank-Ressourcennutzung
+    description_de: Der Datenbankserver arbeitet durchgängig mit hoher CPU- oder Speichernutzung, was Instabilität riskiert und alle abhängigen Services verlangsamt.
+    slug_de: hohe-datenbank-ressourcennutzung
+  high-defect-rate-in-production:
+    title_de: Hohe Fehlerrate in Produktion
+    description_de: Nach einem Release werden in der Produktivumgebung viele Fehler entdeckt, was auf zugrunde liegende Probleme im Entwicklungs- und Qualitätssicherungsprozess hinweist.
+    slug_de: hohe-fehlerrate-in-produktion
+  high-maintenance-costs:
+    title_de: Hohe Wartungskosten
+    description_de: Ein unverhältnismäßig großer Teil des Entwicklungsbudgets und -aufwands wird für die Wartung des bestehenden Systems statt für neuen Wert aufgewendet.
+    slug_de: hohe-wartungskosten
+  high-number-of-database-queries:
+    title_de: Hohe Anzahl an Datenbankabfragen
+    description_de: Eine einzelne Nutzeranfrage löst eine unerwartet hohe Anzahl an Datenbankabfragen aus, was zu Performance-Verschlechterung und erhöhter Datenbanklast führt.
+    slug_de: hohe-anzahl-an-datenbankabfragen
+  high-resource-utilization-on-client:
+    title_de: Hohe Ressourcennutzung auf dem Client
+    description_de: Client-Anwendungen können übermäßig viel CPU oder Speicher verbrauchen, was zu schlechter Nutzererfahrung führt, besonders auf weniger leistungsfähigen Geräten.
+    slug_de: hohe-ressourcennutzung-auf-dem-client
+  high-technical-debt:
+    title_de: Hohe technische Schulden
+    description_de: Ansammlung von Design- oder Implementierungsabkürzungen, die langfristig zu erhöhten Kosten und Aufwand führen.
+    slug_de: hohe-technische-schulden
+  high-turnover:
+    title_de: Hohe Fluktuation
+    description_de: Neue Entwickler werden frustriert und verlassen das Team aufgrund schlechten Onboardings und Systemkomplexität.
+    slug_de: hohe-fluktuation
+  history-of-failed-changes:
+    title_de: Geschichte fehlgeschlagener Änderungen
+    description_de: Eine vergangene Historie fehlgeschlagener Deployments oder Änderungen erzeugt eine Kultur der Angst und des Widerstands gegen künftige Änderungen.
+    slug_de: geschichte-fehlgeschlagener-aenderungen
+  immature-delivery-strategy:
+    title_de: Unausgereifte Auslieferungsstrategie
+    description_de: Software-Rollout-Prozesse sind improvisiert, inkonsistent oder unzureichend geplant, was Ausfallzeiten und Nutzerverwirrung erhöht.
+    slug_de: unausgereifte-auslieferungsstrategie
+  imperative-data-fetching-logic:
+    title_de: Imperative Datenabruflogik
+    description_de: Der Anwendungscode ist so geschrieben, dass Daten in einer Schleife abgerufen werden, statt einen effizienteren, deklarativen Ansatz zu nutzen, was zu Performance-Problemen führt.
+    slug_de: imperative-datenabruflogik
+  implementation-partner-dependency:
+    title_de: Abhängigkeit vom Implementierungspartner
+    description_de: Nur die externe Beratungsfirma versteht, wie das System aufgebaut wurde, sodass die Organisation ihre eigene Installation ohne sie nicht ändern, bewerten oder verlassen kann.
+    slug_de: abhaengigkeit-vom-implementierungspartner
+  implementation-rework:
+    title_de: Implementierungs-Nacharbeit
+    description_de: Funktionen müssen neu gebaut werden, wenn sich das anfängliche Verständnis als falsch erweist, was Entwicklungsaufwand verschwendet und die Auslieferung verzögert.
+    slug_de: implementierungs-nacharbeit
+  implementation-starts-without-design:
+    title_de: Implementierung beginnt ohne Design
+    description_de: Die Entwicklung beginnt mit unklarer Struktur, was zu unorganisiertem Code und architektonischer Drift führt.
+    slug_de: implementierung-beginnt-ohne-design
+  implicit-knowledge:
+    title_de: Implizites Wissen
+    description_de: Kritisches Systemwissen existiert als ungeschriebene Annahmen, Stammeswissen und undokumentierte Praktiken, statt explizit festgehalten zu sein.
+    slug_de: implizites-wissen
+  improper-event-listener-management:
+    title_de: Unsachgemäße Verwaltung von Event-Listenern
+    description_de: Event-Listener werden hinzugefügt, aber nicht entfernt, wenn zugehörige Objekte zerstört werden, was Speicherlecks erzeugt und Garbage Collection verhindert.
+    slug_de: unsachgemaesse-verwaltung-von-event-listenern
+  inability-to-innovate:
+    title_de: Unfähigkeit zu innovieren
+    description_de: Das Team ist so sehr mit alltäglichen Wartungsaufgaben beschäftigt, dass es keine Zeit hat, über zukünftige Verbesserungen oder neue Ansätze nachzudenken.
+    slug_de: unfaehigkeit-zu-innovieren
+  inadequate-code-reviews:
+    title_de: Unzureichende Code-Reviews
+    description_de: Code-Reviews werden nicht konsistent durchgeführt, sind übereilt, oberflächlich oder erkennen kritische Probleme nicht, was die Codequalität senkt und das Risiko erhöht.
+    slug_de: unzureichende-code-reviews
+  inadequate-configuration-management:
+    title_de: Unzureichendes Konfigurationsmanagement
+    description_de: Versionen von Code, Daten oder Infrastruktur werden nicht ordentlich nachverfolgt, was zu Fehlern oder Problemen bei Rollbacks führt.
+    slug_de: unzureichendes-konfigurationsmanagement
+  inadequate-error-handling:
+    title_de: Unzureichende Fehlerbehandlung
+    description_de: Schlechte Fehlerbehandlungsmechanismen schaffen es nicht, Ausnahmen geordnet zu handhaben, was zu Anwendungsabstürzen und schlechter Nutzererfahrung führt.
+    slug_de: unzureichende-fehlerbehandlung
+  inadequate-initial-reviews:
+    title_de: Unzureichende Erst-Reviews
+    description_de: Code-Reviews der ersten Runde sind unvollständig oder oberflächlich und erkennen wichtige Probleme nicht, die erst in späteren Review-Runden entdeckt werden.
+    slug_de: unzureichende-erst-reviews
+  inadequate-integration-tests:
+    title_de: Unzureichende Integrationstests
+    description_de: Die Interaktionen zwischen verschiedenen Modulen oder Services werden nicht gründlich getestet, was zu Integrationsfehlern führt.
+    slug_de: unzureichende-integrationstests
+  inadequate-mentoring-structure:
+    title_de: Unzureichende Mentoring-Struktur
+    description_de: Der Organisation fehlt ein systematischer Ansatz für das Mentoring neuer Entwickler, was zu uneinheitlicher Anleitung und Unterstützung führt.
+    slug_de: unzureichende-mentoring-struktur
+  inadequate-onboarding:
+    title_de: Unzureichendes Onboarding
+    description_de: Neue Nutzer haben Schwierigkeiten zu verstehen, wie die Anwendung zu nutzen ist, was zu frühzeitiger Abwanderung führt.
+    slug_de: unzureichendes-onboarding
+  inadequate-requirements-gathering:
+    title_de: Unzureichende Anforderungserhebung
+    description_de: Unzureichende Analyse und Dokumentation von Anforderungen führt zu Lösungen, die tatsächliche Bedürfnisse nicht erfüllen.
+    slug_de: unzureichende-anforderungserhebung
+  inadequate-test-data-management:
+    title_de: Unzureichendes Testdatenmanagement
+    description_de: Die Nutzung unrealistischer, veralteter oder unzureichender Testdaten führt zu Tests, die reale Szenarien nicht akkurat abbilden.
+    slug_de: unzureichendes-testdatenmanagement
+  inadequate-test-infrastructure:
+    title_de: Unzureichende Testinfrastruktur
+    description_de: Fehlende Werkzeuge, Umgebungen oder Automatisierung machen gründliches Testen langsam oder unmöglich.
+    slug_de: unzureichende-testinfrastruktur
+  inappropriate-skillset:
+    title_de: Unpassendes Fähigkeitsprofil
+    description_de: Teammitgliedern fehlt wesentliches Wissen oder Erfahrung, das für ihre zugewiesenen Rollen und Verantwortlichkeiten nötig ist.
+    slug_de: unpassendes-faehigkeitsprofil
+  incomplete-knowledge:
+    title_de: Unvollständiges Wissen
+    description_de: Entwicklern ist nicht bewusst, an welchen Stellen überall ähnliche Logik existiert, was zu Synchronisationsproblemen und anderen Schwierigkeiten führen kann.
+    slug_de: unvollstaendiges-wissen
+  incomplete-projects:
+    title_de: Unvollständige Projekte
+    description_de: Funktionen werden begonnen, aber aufgrund sich verändernder Prioritäten nie fertiggestellt, was zu erheblichem verschwendetem Aufwand und Frustration im Entwicklungsteam führt.
+    slug_de: unvollstaendige-projekte
+  inconsistent-behavior:
+    title_de: Inkonsistentes Verhalten
+    description_de: Derselbe Geschäftsprozess erzeugt je nach Auslösungsort unterschiedliche Ergebnisse, was zu einer verwirrenden und unvorhersehbaren Nutzererfahrung führt.
+    slug_de: inkonsistentes-verhalten
+  inconsistent-codebase:
+    title_de: Inkonsistente Codebasis
+    description_de: Dem Projektcode fehlt einheitlicher Stil, fehlen einheitliche Coding-Standards und Designmuster, was ihn schwer lesbar, wartbar macht und das Onboarding neuer Entwickler erschwert.
+    slug_de: inkonsistente-codebasis
+  inconsistent-coding-standards:
+    title_de: Inkonsistente Coding-Standards
+    description_de: Das Fehlen einheitlicher Coding-Standards in der gesamten Codebasis erzeugt Wartungsschwierigkeiten und verringert Lesbarkeit und Qualität des Codes.
+    slug_de: inkonsistente-coding-standards
+  inconsistent-execution:
+    title_de: Inkonsistente Ausführung
+    description_de: Manuelle Prozesse führen zu Abweichungen darin, wie Aufgaben von verschiedenen Teammitgliedern und im Zeitverlauf erledigt werden, was unvorhersehbare Ergebnisse erzeugt.
+    slug_de: inkonsistente-ausfuehrung
+  inconsistent-knowledge-acquisition:
+    title_de: Inkonsistenter Wissenserwerb
+    description_de: Neue Teammitglieder lernen je nach Mentor oder Lernpfad unterschiedliche Aspekte und Tiefen des Systemwissens, was zu ungleicher Kompetenzverteilung führt.
+    slug_de: inkonsistenter-wissenserwerb
+  inconsistent-naming-conventions:
+    title_de: Inkonsistente Namenskonventionen
+    description_de: Unstrukturierte oder widersprüchliche Namen erschweren das Lesen, Navigieren und Warten von Code.
+    slug_de: inkonsistente-namenskonventionen
+  inconsistent-onboarding-experience:
+    title_de: Inkonsistente Onboarding-Erfahrung
+    description_de: Neue Teammitglieder erhalten je nachdem, wer gerade verfügbar ist, um zu helfen, drastisch unterschiedliche Onboarding-Erfahrungen, was zu ungleichen Ergebnissen führt.
+    slug_de: inkonsistente-onboarding-erfahrung
+  inconsistent-quality:
+    title_de: Inkonsistente Qualität
+    description_de: Manche Teile des Systems sind gut gepflegt, während andere verfallen, was zu unvorhersehbarer Nutzererfahrung und Wartungsherausforderungen führt.
+    slug_de: inkonsistente-qualitaet
+  incorrect-index-type:
+    title_de: Falscher Index-Typ
+    description_de: Verwendung eines für ein gegebenes Abfragemuster ungeeigneten Datenbank-Index-Typs, was zu ineffizientem Datenabruf führt.
+    slug_de: falscher-index-typ
+  incorrect-max-connection-pool-size:
+    title_de: Falsche maximale Connection-Pool-Größe
+    description_de: Die maximale Anzahl an Verbindungen in einem Datenbank-Connection-Pool ist falsch eingestellt, was entweder zu Ressourcenverschwendung oder Verbindungserschöpfung führt.
+    slug_de: falsche-maximale-connection-pool-groesse
 
 solutions: {}
