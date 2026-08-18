@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 357 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–45), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 365 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–46), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -189,6 +189,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | 43 | Probleme: reduced-predictability, reduced-review-participation, reduced-team-flexibility, reduced-team-productivity, refactoring-avoidance, regression-bugs, regulatory-compliance-drift, reimplemented-standard-functionality (8 Dateien) | ✅ |
 | 44 | Probleme: release-anxiety, release-instability, requirements-ambiguity, resistance-to-change, resource-allocation-failures, resource-contention, resource-waste, rest-api-design-issues (8 Dateien) | ✅ |
 | 45 | Probleme: retention-obligations-block-change, review-bottlenecks, review-process-avoidance, review-process-breakdown, reviewer-anxiety, reviewer-inexperience, ripple-effect-of-changes, rushed-approvals (8 Dateien) | ✅ |
-| 46+ | Restliche Probleme (alphabetisch ab „scaling-inefficiencies“) + alle 561 Lösungen | offen |
+| 46 | Probleme: scaling-inefficiencies, schema-evolution-paralysis, scope-change-resistance, scope-creep, second-system-effect, secret-management-problems, serialization-deserialization-bottlenecks, service-discovery-failures (8 Dateien) | ✅ |
+| 47+ | Restliche Probleme (alphabetisch ab „service-timeouts“) + alle 561 Lösungen | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
