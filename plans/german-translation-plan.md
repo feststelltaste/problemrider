@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 341 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–43), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 349 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–44), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -187,6 +187,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | 41 | Probleme: product-direction-chaos, project-authority-vacuum, project-resource-constraints, quality-blind-spots, quality-compromises, quality-degradation, queries-that-prevent-index-usage, race-conditions (8 Dateien) | ✅ |
 | 42 | Probleme: rapid-prototyping-becoming-production, rapid-system-changes, rapid-team-growth, rate-limiting-issues, reduced-code-submission-frequency, reduced-feature-quality, reduced-individual-productivity, reduced-innovation (8 Dateien) | ✅ |
 | 43 | Probleme: reduced-predictability, reduced-review-participation, reduced-team-flexibility, reduced-team-productivity, refactoring-avoidance, regression-bugs, regulatory-compliance-drift, reimplemented-standard-functionality (8 Dateien) | ✅ |
-| 44+ | Restliche Probleme (alphabetisch ab „reinvented-wheel-syndrome“ o.ä.) + alle 561 Lösungen | offen |
+| 44 | Probleme: release-anxiety, release-instability, requirements-ambiguity, resistance-to-change, resource-allocation-failures, resource-contention, resource-waste, rest-api-design-issues (8 Dateien) | ✅ |
+| 45+ | Restliche Probleme (alphabetisch ab „retention-obligations-block-change“) + alle 561 Lösungen | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
