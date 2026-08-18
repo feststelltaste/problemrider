@@ -453,7 +453,7 @@ problems:
     description_de: Die Zeit vom Beginn der Arbeit bis zu ihrer Fertigstellung und Auslieferung wird deutlich länger als die tatsächlich benötigte Arbeitszeit.
     slug_de: verlaengerte-durchlaufzeiten
   extended-research-time:
-    title_de: Verlängerte Rechercheszeit
+    title_de: Verlängerte Recherchezeit
     description_de: Entwickler verbringen einen erheblichen Teil ihres Tages mit Recherche statt mit Umsetzung, aufgrund von Wissenslücken oder komplexen Legacy-Systemen.
     slug_de: verlaengerte-recherchezeit
   extended-review-cycles:
@@ -870,7 +870,7 @@ problems:
     slug_de: wissensabhaengigkeit
   knowledge-gaps:
     title_de: Wissenslücken
-    description_de: Mangelndes Verständnis von Systemen, Geschäftsanforderungen oder technischen Domänen führt zu verlängerter Rechercheszeit und suboptimalen Lösungen.
+    description_de: Mangelndes Verständnis von Systemen, Geschäftsanforderungen oder technischen Domänen führt zu verlängerter Recherchezeit und suboptimalen Lösungen.
     slug_de: wissensluecken
   knowledge-sharing-breakdown:
     title_de: Zusammenbruch des Wissensaustauschs

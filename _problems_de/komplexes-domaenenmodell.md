@@ -55,7 +55,7 @@ Ein komplexes Domänenmodell entsteht, wenn die Geschäftsdomäne, die das Softw
 <br/>  Die inhärente Komplexität der Domäne erschwert es Entwicklern, Geschäftsregeln vollständig zu verstehen, was anhaltende Wissenslücken schafft.
 - [Hohe Rate an neu eingeführten Fehlern](hohe-rate-an-neu-eingefuehrten-fehlern.md)
 <br/>  Das Missverstehen komplexer Domänenregeln führt zu häufigen Implementierungsfehlern und neuen Defekten.
-- [Verlängerte Rechercheszeit](verlaengerte-recherchezeit.md)
+- [Verlängerte Recherchezeit](verlaengerte-recherchezeit.md)
 <br/>  Entwickler verbringen erhebliche Zeit damit, komplexe Domänenkonzepte zu recherchieren und zu verstehen, bevor sie Features umsetzen können.
 - [Schwieriges Onboarding neuer Entwickler](schwieriges-onboarding-neuer-entwickler.md)
 <br/>  Neue Teammitglieder benötigen umfangreiche Zeit, um die komplexe Domäne zu erlernen, bevor sie effektiv beitragen können.

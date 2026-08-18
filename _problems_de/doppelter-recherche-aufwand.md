@@ -47,8 +47,8 @@ Doppelter Recherche-Aufwand entsteht, wenn mehrere Teammitglieder unabhängig vo
 
 ## Symptoms ▲
 
-- [Verlängerte Rechercheszeit](verlaengerte-recherchezeit.md)
-<br/>  Wenn Recherche über Teammitglieder hinweg dupliziert statt geteilt wird, steigt die insgesamt aufgewendete Rechercheszeit dramatisch.
+- [Verlängerte Recherchezeit](verlaengerte-recherchezeit.md)
+<br/>  Wenn Recherche über Teammitglieder hinweg dupliziert statt geteilt wird, steigt die insgesamt aufgewendete Recherchezeit dramatisch.
 - [Verschwendeter Entwicklungsaufwand](verschwendeter-entwicklungsaufwand.md)
 <br/>  Mehrere Personen, die unabhängig voneinander dasselbe Thema recherchieren, stellen direkt verschwendete Entwicklungskapazität dar.
 - [Verringerte Teamproduktivität](verringerte-teamproduktivitaet.md)
@@ -76,7 +76,7 @@ Doppelter Recherche-Aufwand entsteht, wenn mehrere Teammitglieder unabhängig vo
 - **Recherchethemen-Tracking:** Beobachtung, welche Themen Teammitglieder recherchieren, zur Identifikation von Überlappungen
 - **Fragemuster-Analyse:** Nachverfolgung wiederkehrender Fragen, die auf wiederholte Recherche hindeuten
 - **Dokumentations-Review:** Suche nach mehreren Dokumenten oder Codebeispielen, die dieselben Themen behandeln
-- **Zeittracking-Analyse:** Vergleich der Rechercheszeit mit der Komplexität der untersuchten Themen
+- **Zeittracking-Analyse:** Vergleich der Recherchezeit mit der Komplexität der untersuchten Themen
 - **Team-Umfragen:** Befragung zu Erfahrungen mit Recherchekoordination und Wissensaustausch
 
 ## Examples
