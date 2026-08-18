@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 269 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–34), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 277 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–35), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -178,6 +178,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | 32 | Probleme: maintenance-overhead, maintenance-paralysis, manual-deployment-processes, market-pressure, master-data-ownership-gaps, memory-barrier-inefficiency, memory-fragmentation, memory-leaks (8 Dateien) | ✅ |
 | 33 | Probleme: memory-swapping, mental-fatigue, mentor-burnout, merge-conflicts, micromanagement-culture, microservice-communication-overhead, misaligned-deliverables, misconfigured-connection-pools (8 Dateien) | ✅ |
 | 34 | Probleme: missed-deadlines, missing-end-to-end-tests, missing-rollback-strategy, misunderstanding-of-oop, mixed-coding-styles, modernization-roi-justification-failure, modernization-strategy-paralysis, monitoring-gaps (8 Dateien) | ✅ |
-| 35+ | Restliche Probleme (alphabetisch ab „monolithic-architecture-constraints” o.ä.) + alle 561 Lösungen | offen |
+| 35 | Probleme: monolithic-architecture-constraints, monolithic-functions-and-classes, n-plus-one-query-problem, negative-brand-perception, negative-user-feedback, network-latency, new-hire-frustration, nitpicking-culture (8 Dateien) | ✅ |
+| 36+ | Restliche Probleme (alphabetisch ab „no-continuous-feedback-loop” o.ä.) + alle 561 Lösungen | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
