@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 229 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–29), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 237 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–30), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -173,6 +173,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | 27 | Probleme: insufficient-design-skills, insufficient-testing, insufficient-worker-capacity, integer-overflow-underflow, integration-difficulties, interrupt-overhead, invisible-nature-of-technical-debt, knowledge-dependency (8 Dateien) | ✅ |
 | 28 | Probleme: knowledge-gaps, knowledge-sharing-breakdown, knowledge-silos, lack-of-ownership-and-accountability, language-barriers, large-estimates-for-small-changes, large-feature-scope, large-pull-requests (8 Dateien) | ✅ |
 | 29 | Probleme: large-risky-releases, lazy-loading, legacy-api-versioning-nightmare, legacy-business-logic-extraction-difficulty, legacy-code-without-tests, legacy-configuration-management-chaos, legacy-skill-shortage, legacy-system-documentation-archaeology (8 Dateien) | ✅ |
-| 30+ | Restliche Probleme (alphabetisch ab „legal-and-regulatory-compliance-issues“ o.ä.) + alle 561 Lösungen | offen |
+| 30 | Probleme: legal-disputes, limited-team-learning, load-balancing-problems, lock-contention, log-injection-vulnerabilities, log-spam, logging-configuration-issues, long-build-and-test-times (8 Dateien) | ✅ |
+| 31+ | Restliche Probleme (alphabetisch ab „long-lived-feature-branches“ o.ä.) + alle 561 Lösungen | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
