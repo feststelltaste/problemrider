@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 205 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–26), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 213 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–27), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -170,6 +170,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | 24 | Probleme: increased-cognitive-load, increased-cost-of-development, increased-customer-support-load, increased-error-rates, increased-manual-testing-effort, increased-manual-work, increased-risk-of-bugs, increased-stress-and-burnout (8 Dateien) | ✅ |
 | 25 | Probleme: increased-technical-shortcuts, increased-time-to-market, increasing-brittleness, index-fragmentation, individual-recognition-culture, inefficient-code, inefficient-database-indexing, inefficient-development-environment (8 Dateien) | ✅ |
 | 26 | Probleme: inefficient-frontend-code, inefficient-processes, inexperienced-developers, information-decay, information-fragmentation, insecure-data-transmission, insufficient-audit-logging, insufficient-code-review (8 Dateien) | ✅ |
+| 27 | Probleme: insufficient-design-skills, insufficient-testing, insufficient-worker-capacity, integer-overflow-underflow, integration-difficulties, interrupt-overhead, invisible-nature-of-technical-debt, knowledge-dependency (8 Dateien) | ✅ |
 | 15+ | Restliche Probleme (alphabetisch ab „extended-review-cycles“) + alle 561 Lösungen | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
