@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 149 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–19), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 157 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–20), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -163,6 +163,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | 17 | Probleme: frequent-hotfixes-and-rollbacks, garbage-collection-pressure, global-state-and-side-effects, god-object-anti-pattern, gold-plating, gradual-performance-degradation, graphql-complexity-issues, growing-task-queues (8 Dateien) | ✅ |
 | 18 | Probleme: hardcoded-values, hidden-dependencies, hidden-side-effects, high-api-latency, high-bug-introduction-rate, high-client-side-resource-consumption, high-connection-count, high-coupling-low-cohesion (8 Dateien) | ✅ |
 | 19 | Probleme: high-database-resource-utilization, high-defect-rate-in-production, high-maintenance-costs, high-number-of-database-queries, high-resource-utilization-on-client, high-technical-debt, high-turnover, history-of-failed-changes (8 Dateien) | ✅ |
+| 20 | Probleme: immature-delivery-strategy, imperative-data-fetching-logic, implementation-partner-dependency, implementation-rework, implementation-starts-without-design, implicit-knowledge, improper-event-listener-management, inability-to-innovate (8 Dateien) | ✅ |
 | 15+ | Restliche Probleme (alphabetisch ab „extended-review-cycles“) + alle 561 Lösungen | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
