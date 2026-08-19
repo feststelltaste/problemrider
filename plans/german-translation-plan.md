@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 216 / 561 Lösungs-Dateien (Solution-Batches 1–27). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 224 / 561 Lösungs-Dateien (Solution-Batches 1–28). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -228,6 +228,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | Solution-Batch 25 | Lösungen: distributed-processing, distributed-tracing, documentation-as-code, documentation-of-compatibility-requirements, domain-aligned-architecture, domain-based-authorization-concept, domain-data-versioning, domain-driven-design (8 Dateien) | ✅ |
 | Solution-Batch 26 | Lösungen: domain-experts, domain-immersion, domain-modeling, domain-patterns, domain-quiz, domain-specific-languages, duplication-detection, dynamic-code-analysis (8 Dateien) | ✅ |
 | Solution-Batch 27 | Lösungen: efficient-algorithms, elastic-resource-utilization, elastic-scaling, emergency-drills, empty-states-and-first-use-guidance, emulation, encryption, endpoint-detection-and-response (8 Dateien) | ✅ |
-| Solution-Batch 28+ | Restliche Lösungs-Dateien (alphabetisch ab „environment-parity") | offen |
+| Solution-Batch 28 | Lösungen: environment-parity, environment-variables-for-configuration, error-budgets, error-correction-codes, error-handling, error-logging, error-logs, error-reporting-and-analysis (8 Dateien) | ✅ |
+| Solution-Batch 29+ | Restliche Lösungs-Dateien (alphabetisch ab „event-driven-architecture") | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
