@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 8 / 561 Lösungs-Dateien (Solution-Batch 1). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 16 / 561 Lösungs-Dateien (Solution-Batches 1–2). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -202,6 +202,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | 56 | Probleme: upgrade-blocked-by-customization, upstream-timeouts, user-confusion, user-frustration, user-trust-erosion, vendor-dependency, vendor-dependency-entrapment, vendor-lock-in, vendor-relationship-strain, virtual-memory-thrashing (10 Dateien) | ✅ |
 | 57 | Letzte 5 Probleme: voided-vendor-support, wasted-development-effort, work-blocking, work-queue-buildup, workaround-culture (5 Dateien) — **alle 452 Problem-Dateien abgeschlossen** | ✅ |
 | Solution-Batch 1 | Lösungen: a-b-testing, abstracted-file-system-access, abstraction, abstraction-layers, abuse-case-definition, acceptance-tests, accessibility-concept, adapter (8 Dateien) | ✅ |
-| Solution-Batch 2+ | Restliche Lösungs-Dateien (alphabetisch ab „adaptive-behavior“) | offen |
+| Solution-Batch 2 | Lösungen: adaptive-behavior, anti-corruption-layer, api-calls-optimization, api-deprecation-policy, api-documentation, api-first-design, api-first-development, api-gateway (8 Dateien) | ✅ |
+| Solution-Batch 3+ | Restliche Lösungs-Dateien (alphabetisch ab „api-security“) | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
