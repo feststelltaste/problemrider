@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 152 / 561 Lösungs-Dateien (Solution-Batches 1–19). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 160 / 561 Lösungs-Dateien (Solution-Batches 1–20). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -220,6 +220,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | Solution-Batch 17 | Lösungen: continuous-integration-and-delivery, continuous-performance-monitoring, contract-testing, cost-of-delay, cqrs, cross-functional-skill-development, cross-platform-build-scripts, cross-platform-build-tools (8 Dateien) | ✅ |
 | Solution-Batch 18 | Lösungen: cross-platform-frameworks, cross-platform-serialization, cross-version-testing, cryptographic-methods, custom-views, customizable-user-interface, customization-cost-attribution, customization-under-version-control (8 Dateien) | ✅ |
 | Solution-Batch 19 | Lösungen: customizing, dark-launches, data-aggregation, data-archiving, data-deduplication, data-ecosystems, data-enrichment, data-export (8 Dateien) | ✅ |
-| Solution-Batch 20+ | Restliche Lösungs-Dateien (alphabetisch ab „data-flow-control") | offen |
+| Solution-Batch 20 | Lösungen: data-flow-control, data-format-conversion, data-formats, data-integration, data-integrity, data-modeling, data-partitioning, data-quality-checks (8 Dateien) | ✅ |
+| Solution-Batch 21+ | Restliche Lösungs-Dateien (alphabetisch ab „data-replication") | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
