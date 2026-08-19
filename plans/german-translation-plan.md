@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 120 / 561 Lösungs-Dateien (Solution-Batches 1–15). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 128 / 561 Lösungs-Dateien (Solution-Batches 1–16). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -216,6 +216,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | Solution-Batch 13 | Lösungen: code-splitting, cognitive-load-minimization, cold-start-mitigation, collaborative-problem-solving, communities-of-practice, compatibility-as-error, compatibility-certification, compatibility-governance (8 Dateien) | ✅ |
 | Solution-Batch 14 | Lösungen: compatibility-matrix, compatibility-measurement, compatibility-requirements, compatibility-standards, compatibility-testing, compatibility-testing-by-users, compression, concurrency-control (8 Dateien) | ✅ |
 | Solution-Batch 15 | Lösungen: configuration-checks, confirmation-dialogs, connection-pooling, consistent-terminology, consistent-user-interface, consumer-driven-contracts, containerization, containerized-databases (8 Dateien) | ✅ |
-| Solution-Batch 16+ | Restliche Lösungs-Dateien (alphabetisch ab „content-negotiation") | offen |
+| Solution-Batch 16 | Lösungen: content-negotiation, contextual-help, continuous-data-verification, continuous-delivery, continuous-dependency-updates, continuous-deployment, continuous-feedback, continuous-integration (8 Dateien) | ✅ |
+| Solution-Batch 17+ | Restliche Lösungs-Dateien (alphabetisch ab „continuous-integration-and-delivery") | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
