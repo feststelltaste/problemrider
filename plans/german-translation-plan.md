@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 312 / 561 Lösungs-Dateien (Solution-Batches 1–39). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 320 / 561 Lösungs-Dateien (Solution-Batches 1–40). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -240,6 +240,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | Solution-Batch 37 | interactive-tutorials, internal-technical-coaching, interoperability-tests, intuitive-navigation, isolated-test-environments, isolation-of-faulty-components, iterative-development, key-management | ✅ |
 | Solution-Batch 38 | keyboard-support, knowledge-base, knowledge-rotation, knowledge-sharing-practices, large-scale-refactoring, layered-architecture, lazy-evaluation, lazy-loading | ✅ |
 | Solution-Batch 39 | least-privilege, lightweight-design-review, living-documentation, load-balancing, load-shedding, load-testing, localization, logging | ✅ |
-| Solution-Batch 40+ | Restliche Lösungs-Dateien (alphabetisch ab „logging-and-monitoring") | offen |
+| Solution-Batch 40 | logging-and-monitoring, logging-guidelines, loose-coupling, malware-protection, mass-test-data-generation, master-data-stewardship, materialized-views, mediator | ✅ |
+| Solution-Batch 41+ | Restliche Lösungs-Dateien (alphabetisch ab „memory-hierarchy") | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
