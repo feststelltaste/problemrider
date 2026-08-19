@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 429 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–54), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 läuft: 437 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–55), 0 / 561 Lösungs-Dateien. Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -198,6 +198,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | 52 | Probleme: team-demoralization, team-dysfunction, team-members-not-engaged-in-review-process, team-silos, technical-architecture-limitations, technology-isolation, technology-lock-in, technology-stack-fragmentation (8 Dateien) | ✅ |
 | 53 | Probleme: test-debt, testing-complexity, testing-environment-fragility, thread-pool-exhaustion, tight-coupling-issues, time-pressure, tool-limitations, unbounded-data-growth (8 Dateien) | ✅ |
 | 54 | Probleme: unbounded-data-structures, unclear-documentation-ownership, unclear-goals-and-priorities, unclear-sharing-expectations, uncontrolled-codebase-growth, undefined-code-style-guidelines, uneven-work-flow, uneven-workload-distribution (8 Dateien) | ✅ |
-| 55+ | Restliche Probleme (alphabetisch ab „unmotivated-employees“) + alle 561 Lösungen | offen |
+| 55 | Probleme: unmotivated-employees, unoptimized-file-access, unpredictable-system-behavior, unproductive-meetings, unrealistic-deadlines, unrealistic-schedule, unreleased-resources, unused-indexes (8 Dateien) | ✅ |
+| 56+ | Restliche Probleme (alphabetisch ab „upgrade-blocked-by-customization“, letzte 15 Dateien) + alle 561 Lösungen | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
