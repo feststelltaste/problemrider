@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 553 / 561 Lösungs-Dateien (Solution-Batches 1–69). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3 vollständig abgeschlossen: 452 / 452 Problem-Dateien (Batches 1–57) und 561 / 561 Lösungs-Dateien (Solution-Batches 1–70) inhaltlich übersetzt. Alle `_problems/` und `_solutions/` Einträge haben nun ein deutsches Gegenstück in `_problems_de/` bzw. `_solutions_de/`. Nächster Schritt: Phase 4 (QA-Durchgang) und Phase 5 (laufende Wartung), siehe unten.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -270,6 +270,8 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | Solution-Batch 67 | extraktion-typisierter-schemata, ubiquitous-language, verstaendliche-fehlermeldungen, rueckgaengig-machen-und-wiederholen, usability-tests, abnahmetests-durch-nutzer, nutzerzentriertes-design, nutzer-communities | ✅ |
 | Solution-Batch 68 | user-stories, werthierarchie, definition-von-wertebereichen, value-stream-mapping, konsolidierung-von-varianten, vendor-management-praxis, versionskontrolle-fuer-kompatibilitaet, versionierungsschema | ✅ |
 | Solution-Batch 69 | vertikale-skalierung, video-tutorials, virtuelle-entwicklungsumgebungen, virtuelle-netzwerke, virtualisierung, virtualisierte-listen, visuelle-hierarchie, schwachstellenscans, walking-skeleton | ✅ |
-| Solution-Batch 70 (letzte) | watchdog, web-application-firewall, wireframing, work-in-progress-limits, workaround-registry, write-ahead-logging, written-first-communication, zero-trust-architecture | offen |
+| Solution-Batch 70 (letzte) | watchdog, web-application-firewall, wireframing, work-in-progress-limits, workaround-register, write-ahead-logging, schriftlich-zuerst-kommunikation, zero-trust-architecture | ✅ |
+
+**Alle 70 Solution-Batches abgeschlossen — 561 / 561 Lösungs-Dateien übersetzt.**
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
