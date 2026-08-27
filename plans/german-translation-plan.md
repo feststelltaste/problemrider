@@ -1,6 +1,6 @@
 # Plan: Deutsche Übersetzung von ProblemRider
 
-Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 488 / 561 Lösungs-Dateien (Solution-Batches 1–61). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
+Status: **Phase 0 + Phase 1 + Phase 2 abgeschlossen (komplette Chrome/UI-Übersetzung, alle 5 Übersichtsseiten unter `/de/`, `_data/titles_de.yml` mit deutschem Titel/Beschreibung/Slug für alle 1013 Einträge) — Phase 3, Teil 1 abgeschlossen: 452 / 452 Problem-Dateien inhaltlich übersetzt (Batches 1–57). Phase 3, Teil 2 läuft: 496 / 561 Lösungs-Dateien (Solution-Batches 1–62). Autonome Batch-Bearbeitung (je ~8 Dateien, automatisch committet und gepusht) läuft weiter.**
 
 Dieses Dokument hält fest, wie ProblemRider (Layouts, Seiten, `_problems/`, `_solutions/`) ins Deutsche übersetzt werden kann, ohne die bestehende englische Seite, ihre Verlinkungslogik oder die Wartungs-Skripte zu brechen. Es ist als lebendes Arbeitsdokument gedacht (analog zu `plans/causal-link-review.md`): Entscheidungen zuerst treffen, dann in Batches abarbeiten und den Fortschritt hier abhaken.
 
@@ -262,6 +262,7 @@ Keine grundsätzlichen mehr offen — Title Case, Anglizismen, Landscape-Umfang 
 | Solution-Batch 59 | selbsttest, semantic-versioning, separation-of-concerns, serialisierungsoptimierung, serverless-computing, service-level-agreements, service-level-indicators, service-level-objectives | ✅ |
 | Solution-Batch 60 | service-mesh, kurze-iterationszyklen, simulationsumgebungen, site-reliability-engineering-sre, kleine-aenderungspakete, smoke-testing, solid-prinzipien, spezialisierte-hardware | ✅ |
 | Solution-Batch 61 | specification-by-example, gestufte-investition-mit-entscheidungspunkten, stakeholder-feedback-loops, standardsoftware, standardisierte-datenformate, standardisierte-deployment-skripte, standardisierte-schnittstellen, standardisierte-protokolle | ✅ |
-| Solution-Batch 62+ | Restliche Lösungs-Dateien (alphabetisch ab „static-analysis-and-linting") | offen |
+| Solution-Batch 62 | statische-analyse-und-linting, statische-codeanalyse, statusueberwachung, story-mapping, strangler-fig-pattern, strategisches-loeschen-von-code, streaming, stresstests | ✅ |
+| Solution-Batch 63+ | Restliche Lösungs-Dateien (alphabetisch ab „structured-communication-protocols") | offen |
 
 Stand: 109 / 452 Problem-Dateien (_problems_de/), 0 / 561 Lösungs-Dateien (_solutions_de/). Jeder Batch wird direkt committet und nach `claude/german-translation-plan-wsmx5o` gepusht. Manche Links in bereits übersetzten Dateien zeigen noch auf `slug_de`-Ziele, die erst in einem späteren Batch entstehen — das ist erwartet und löst sich auf, sobald der komplette Katalog übersetzt ist; `check_links.py`/`validate_causal_links.py --detail` sollten erst nach Abschluss von Phase 3 (oder mit `--dry-run`-artiger Toleranz für "noch nicht übersetzt") gegen `_problems_de`/`_solutions_de` laufen.
