@@ -6,11 +6,12 @@ lang: de
 ---
 
 {% assign t = site.data.i18n["de"] %}
+{% assign count_placeholder = "%" | append: "{count}" %}
 <div class="solutions-page">
   <h1>{{ t['solutions_page.title'] }}</h1>
 
   <p class="page-description">
-    {{ t['solutions_page.description'] | replace: '%{count}', site.solutions_de.size }}
+    {{ t['solutions_page.description'] | replace: count_placeholder, site.solutions_de.size }}
     <a href="https://qualitytactics.de/en/" target="_blank" rel="noopener">Quality Tactics</a>
   </p>
 
@@ -64,7 +65,7 @@ lang: de
             {% endfor %}
             {% if solution.problems.size > 5 %}
               {% assign problems_remaining = solution.problems.size | minus: 5 %}
-              <small class="more-indicator">{{ t['solutions_page.more_indicator'] | replace: '%{count}', problems_remaining }}</small>
+              <small class="more-indicator">{{ t['solutions_page.more_indicator'] | replace: count_placeholder, problems_remaining }}</small>
             {% endif %}
           </div>
         {% endif %}

@@ -6,11 +6,12 @@ lang: de
 ---
 
 {% assign t = site.data.i18n["de"] %}
+{% assign count_placeholder = "%" | append: "{count}" %}
 <div class="problems-page">
   <h1>{{ t['problems_page.title'] }}</h1>
 
   <p class="page-description">
-    {{ t['problems_page.description'] | replace: '%{count}', site.problems_de.size }}
+    {{ t['problems_page.description'] | replace: count_placeholder, site.problems_de.size }}
   </p>
 
   <div class="search-filter">
@@ -46,7 +47,7 @@ lang: de
               {% endfor %}
               {% if problem.symptoms.size > 5 %}
                 {% assign symptoms_remaining = problem.symptoms.size | minus: 5 %}
-                <small class="more-indicator">{{ t['problems_page.more_indicator'] | replace: '%{count}', symptoms_remaining }}</small>
+                <small class="more-indicator">{{ t['problems_page.more_indicator'] | replace: count_placeholder, symptoms_remaining }}</small>
               {% endif %}
             </div>
           {% endif %}
@@ -67,7 +68,7 @@ lang: de
               {% endfor %}
               {% if problem.root_causes.size > 5 %}
                 {% assign root_causes_remaining = problem.root_causes.size | minus: 5 %}
-                <small class="more-indicator">{{ t['problems_page.more_indicator'] | replace: '%{count}', root_causes_remaining }}</small>
+                <small class="more-indicator">{{ t['problems_page.more_indicator'] | replace: count_placeholder, root_causes_remaining }}</small>
               {% endif %}
             </div>
           {% endif %}

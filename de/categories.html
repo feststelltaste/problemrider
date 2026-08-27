@@ -6,6 +6,7 @@ lang: de
 ---
 
 {% assign t = site.data.i18n["de"] %}
+{% assign count_placeholder = "%" | append: "{count}" %}
 <div class="categories-page">
   <h1>{{ t['categories_page.title'] }}</h1>
 
@@ -41,8 +42,8 @@ lang: de
             {% if category_problems.size == 1 %}{% assign problem_count_key = "categories_page.problem_count_one" %}{% endif %}
             {% assign solution_count_key = "categories_page.solution_count_other" %}
             {% if category_solutions.size == 1 %}{% assign solution_count_key = "categories_page.solution_count_one" %}{% endif %}
-            <a href="#{{ category }}-problems">{{ t[problem_count_key] | replace: '%{count}', category_problems.size }}</a>
-            <a href="#{{ category }}-solutions">{{ t[solution_count_key] | replace: '%{count}', category_solutions.size }}</a>
+            <a href="#{{ category }}-problems">{{ t[problem_count_key] | replace: count_placeholder, category_problems.size }}</a>
+            <a href="#{{ category }}-solutions">{{ t[solution_count_key] | replace: count_placeholder, category_solutions.size }}</a>
           </nav>
 
           <section class="category-section">
@@ -60,8 +61,8 @@ lang: de
               {% if category_problems.size > 5 %}
                 {% assign problems_remaining = category_problems.size | minus: 5 %}
                 <div class="show-more">
-                  <button class="show-more-btn" onclick="toggleCategory(this)" data-more-label="{{ t['categories_page.show_more'] | replace: '%{count}', problems_remaining }}" data-less-label="{{ t['categories_page.show_less'] }}">
-                    {{ t['categories_page.show_more'] | replace: '%{count}', problems_remaining }}
+                  <button class="show-more-btn" onclick="toggleCategory(this)" data-more-label="{{ t['categories_page.show_more'] | replace: count_placeholder, problems_remaining }}" data-less-label="{{ t['categories_page.show_less'] }}">
+                    {{ t['categories_page.show_more'] | replace: count_placeholder, problems_remaining }}
                   </button>
                   <div class="hidden-items" style="display: none;">
                     {% for problem in category_problems offset: 5 %}
@@ -98,8 +99,8 @@ lang: de
               {% if category_solutions.size > 5 %}
                 {% assign solutions_remaining = category_solutions.size | minus: 5 %}
                 <div class="show-more">
-                  <button class="show-more-btn" onclick="toggleCategory(this)" data-more-label="{{ t['categories_page.show_more'] | replace: '%{count}', solutions_remaining }}" data-less-label="{{ t['categories_page.show_less'] }}">
-                    {{ t['categories_page.show_more'] | replace: '%{count}', solutions_remaining }}
+                  <button class="show-more-btn" onclick="toggleCategory(this)" data-more-label="{{ t['categories_page.show_more'] | replace: count_placeholder, solutions_remaining }}" data-less-label="{{ t['categories_page.show_less'] }}">
+                    {{ t['categories_page.show_more'] | replace: count_placeholder, solutions_remaining }}
                   </button>
                   <div class="hidden-items" style="display: none;">
                     {% for solution in category_solutions offset: 5 %}
