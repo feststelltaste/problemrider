@@ -120,7 +120,7 @@ layout: default
 
   <nav class="solution-navigation">
     {% assign solutions_overview_path = "/solutions/" %}
-    {% if current_lang == "de" %}{% assign solutions_overview_path = "/de/solutions/" %}{% endif %}
+    {% if current_lang == "de" %}{% assign solutions_overview_path = "/de/loesungen/" %}{% endif %}
     <a href="{{ solutions_overview_path | relative_url }}" class="back-to-solutions">{{ t['solution_layout.back_to_solutions'] }}</a>
   </nav>
 </article>

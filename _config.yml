@@ -24,10 +24,10 @@ collections:
     permalink: /:collection/:name.html
   problems_de:
     output: true
-    permalink: /de/problems/:name.html
+    permalink: /de/probleme/:name.html
   solutions_de:
     output: true
-    permalink: /de/solutions/:name.html
+    permalink: /de/loesungen/:name.html
 
 # Defaults
 defaults:

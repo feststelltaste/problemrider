@@ -17,14 +17,14 @@
   {%- assign hreflang_alt_url = nil -%}
   {%- assign hreflang_alt_lang = "de" -%}
   {%- if current_lang == "de" -%}{%- assign hreflang_alt_lang = "en" -%}{%- endif -%}
-  {%- if page.collection == "problems" -%}
+  {%- if page.collection == "problems" or page.collection == "problems_de" -%}
     {%- if page.lang == "de" -%}
       {%- assign hreflang_target = site.problems | where: "slug", page.en_slug | first -%}
     {%- else -%}
       {%- assign hreflang_target = site.problems_de | where: "en_slug", page.slug | first -%}
     {%- endif -%}
     {%- if hreflang_target -%}{%- assign hreflang_alt_url = hreflang_target.url -%}{%- endif -%}
-  {%- elsif page.collection == "solutions" -%}
+  {%- elsif page.collection == "solutions" or page.collection == "solutions_de" -%}
     {%- if page.lang == "de" -%}
       {%- assign hreflang_target = site.solutions | where: "slug", page.en_slug | first -%}
     {%- else -%}

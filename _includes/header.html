@@ -1,7 +1,13 @@
 {% assign current_lang = page.lang | default: site.lang | default: "en" %}
 {% assign t = site.data.i18n[current_lang] %}
 {% assign nav_prefix = "" %}
-{% if current_lang == "de" %}{% assign nav_prefix = "/de" %}{% endif %}
+{% assign problems_path = "/problems/" %}
+{% assign solutions_path = "/solutions/" %}
+{% if current_lang == "de" %}
+  {% assign nav_prefix = "/de" %}
+  {% assign problems_path = "/probleme/" %}
+  {% assign solutions_path = "/loesungen/" %}
+{% endif %}
 <header class="site-header" role="banner">
   <div class="wrapper">
     <a class="site-title" rel="author" href="{{ nav_prefix | append: '/' | relative_url }}">{{ site.title | escape }}</a>
@@ -17,11 +23,11 @@
       </label>
 
       <div class="trigger">
-        <a class="page-link" href="{{ nav_prefix | append: '/problems/' | relative_url }}">{{ t['nav.problems'] }}</a>
-        <a class="page-link" href="{{ nav_prefix | append: '/solutions/' | relative_url }}">{{ t['nav.solutions'] }}</a>
+        <a class="page-link" href="{{ nav_prefix | append: problems_path | relative_url }}">{{ t['nav.problems'] }}</a>
+        <a class="page-link" href="{{ nav_prefix | append: solutions_path | relative_url }}">{{ t['nav.solutions'] }}</a>
         <a class="page-link" href="{{ nav_prefix | append: '/categories/' | relative_url }}">{{ t['nav.categories'] }}</a>
         <a class="page-link" href="{{ nav_prefix | append: '/landscape/' | relative_url }}">{{ t['nav.landscape'] }}</a>
-        {% if page.collection == 'problems' or page.collection == 'solutions' %}
+        {% if page.collection == 'problems' or page.collection == 'solutions' or page.collection == 'problems_de' or page.collection == 'solutions_de' %}
           <button type="button" class="page-link analysis-trail-menu-button" data-analysis-trail-open>
             <svg class="analysis-trail-menu-button__icon" viewBox="0 0 18 16" aria-hidden="true" focusable="false">
               <path d="M4 3 L14 8 L5 13" fill="none" stroke="currentColor" stroke-width="1.4" />
@@ -46,14 +52,14 @@
           switcher stays hidden rather than linking to a 404.
         {% endcomment %}
         {% assign language_switch_url = nil %}
-        {% if page.collection == 'problems' %}
+        {% if page.collection == 'problems' or page.collection == 'problems_de' %}
           {% if page.lang == 'de' %}
             {% assign switch_target = site.problems | where: "slug", page.en_slug | first %}
           {% else %}
             {% assign switch_target = site.problems_de | where: "en_slug", page.slug | first %}
           {% endif %}
           {% if switch_target %}{% assign language_switch_url = switch_target.url %}{% endif %}
-        {% elsif page.collection == 'solutions' %}
+        {% elsif page.collection == 'solutions' or page.collection == 'solutions_de' %}
           {% if page.lang == 'de' %}
             {% assign switch_target = site.solutions | where: "slug", page.en_slug | first %}
           {% else %}

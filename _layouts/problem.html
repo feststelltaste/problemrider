@@ -93,7 +93,7 @@ layout: default
 
   <nav class="problem-navigation">
     {% assign problems_overview_path = "/problems/" %}
-    {% if current_lang == "de" %}{% assign problems_overview_path = "/de/problems/" %}{% endif %}
+    {% if current_lang == "de" %}{% assign problems_overview_path = "/de/probleme/" %}{% endif %}
     <a href="{{ problems_overview_path | relative_url }}" target="_self" class="back-to-problems">{{ t['problem_layout.back_to_problems'] }}</a>
   </nav>
 </article>

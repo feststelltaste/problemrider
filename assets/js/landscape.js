@@ -118,14 +118,16 @@
   // node.id is always the English slug (it's the shared key across both
   // language pages and the deep-link hash, see initialSelectionFromHash
   // below) - but the article that URL should load has to be the German one
-  // on /de/landscape/, at its own slug_de under the /de/ prefix
-  // (_config.yml's problems_de/solutions_de permalinks), else the map would
-  // show German labels but pop up English article text underneath. A node
-  // with no German translation yet (slug_de null) falls back to the
+  // on /de/landscape/, at its own slug_de under /de/probleme/ or
+  // /de/loesungen/ (_config.yml's problems_de/solutions_de permalinks - the
+  // directory names are German too, not just the content), else the map
+  // would show German labels but pop up English article text underneath. A
+  // node with no German translation yet (slug_de null) falls back to the
   // English article rather than a 404.
   function urlFor(kind, node) {
     if (lang === 'de' && node && node.slug_de) {
-      return baseurl + '/de/' + kind + '/' + node.slug_de + '.html';
+      var deKind = kind === 'solutions' ? 'loesungen' : 'probleme';
+      return baseurl + '/de/' + deKind + '/' + node.slug_de + '.html';
     }
     return baseurl + '/' + kind + '/' + node.id + '.html';
   }
