@@ -32,8 +32,26 @@
     searchMatchOther: '%{count} matches'
   };
 
+  // de/landscape.html sets both of these; the English page leaves them
+  // unset, so lang defaults to 'en' and category labels stay the raw
+  // (English) category key everywhere except the German page.
+  var lang = window.SITE_LANG || 'en';
+  var categoryLabelsDe = window.CATEGORY_LABELS_DE || {};
+
   function colorFor(category) {
     return categoryColors[category] || '#6c757d';
+  }
+
+  // Node titles carry a title_de (see create_landscape.py) once a German
+  // translation of that problem/solution exists; a brand-new entry that
+  // hasn't been translated yet falls back to the English title rather than
+  // showing a blank label.
+  function labelFor(node) {
+    return (lang === 'de' && node.title_de) ? node.title_de : node.title;
+  }
+
+  function categoryLabelFor(category) {
+    return (lang === 'de' && categoryLabelsDe[category]) ? categoryLabelsDe[category] : category;
   }
 
   function hexToRgba(hex, alpha) {
@@ -97,8 +115,19 @@
   // one place that builds a URL in plain JS, so it needs the same prefix
   // handed to it explicitly or the fetch 404s in production only.
   var baseurl = window.SITE_BASEURL || '';
-  function urlFor(kind, id) {
-    return baseurl + '/' + kind + '/' + id + '.html';
+  // node.id is always the English slug (it's the shared key across both
+  // language pages and the deep-link hash, see initialSelectionFromHash
+  // below) - but the article that URL should load has to be the German one
+  // on /de/landscape/, at its own slug_de under the /de/ prefix
+  // (_config.yml's problems_de/solutions_de permalinks), else the map would
+  // show German labels but pop up English article text underneath. A node
+  // with no German translation yet (slug_de null) falls back to the
+  // English article rather than a 404.
+  function urlFor(kind, node) {
+    if (lang === 'de' && node && node.slug_de) {
+      return baseurl + '/de/' + kind + '/' + node.slug_de + '.html';
+    }
+    return baseurl + '/' + kind + '/' + node.id + '.html';
   }
 
   function applyTransform() {
@@ -192,9 +221,9 @@
     heading.focus({ preventScroll: true });
   });
 
-  function loadArticle(kind, id) {
+  function loadArticle(kind, node) {
     article.innerHTML = '<div class="loading">Loading…</div>';
-    window.fetch(urlFor(kind, id)).then(function (response) {
+    window.fetch(urlFor(kind, node)).then(function (response) {
       if (!response.ok) throw new Error('Could not load page');
       return response.text();
     }).then(function (html) {
@@ -230,8 +259,12 @@
   // rarely did anything, which just looked like the feature wasn't there. So
   // now it's this simpler split instead: real center on first open, nothing
   // at all afterwards.
+  function nodeFor(tab, id) {
+    return (data[tab] || []).filter(function (item) { return item.id === id; })[0];
+  }
+
   function centerOnNode(tab, id) {
-    var node = (data[tab] || []).filter(function (item) { return item.id === id; })[0];
+    var node = nodeFor(tab, id);
     var state = tabState[tab];
     if (!node || state.zoom === null) return;
     var viewportWidth = mapWrap.clientWidth || 800;
@@ -252,7 +285,7 @@
     updateArticleVisibility();
     if (!articleWasOpen) centerOnNode(tab, id);
     var kind = tab === 'solutions' ? 'solutions' : 'problems';
-    loadArticle(kind, id);
+    loadArticle(kind, nodeFor(tab, id));
     if (options.updateHash !== false) {
       var hash = '#' + kind + '/' + id;
       if (window.location.hash !== hash) {
@@ -274,7 +307,7 @@
       // for are visibly the same kind of chip, just smaller.
       var chip = document.createElement('span');
       chip.className = 'landscape-node__label landscape__legend-chip';
-      chip.textContent = category;
+      chip.textContent = categoryLabelFor(category);
       chip.style.setProperty('--node-color', colorFor(category));
       chip.style.setProperty('--node-bg', hexToRgba(colorFor(category), 0.12));
       legend.appendChild(chip);
@@ -294,10 +327,10 @@
       var label = document.createElement('button');
       label.type = 'button';
       label.className = 'landscape-node__label';
-      label.textContent = node.title;
+      label.textContent = labelFor(node);
       label.style.setProperty('--node-color', colorFor(node.category));
       label.style.setProperty('--node-bg', hexToRgba(colorFor(node.category), 0.12));
-      label.setAttribute('aria-label', node.title + ' (' + node.category + ')');
+      label.setAttribute('aria-label', labelFor(node) + ' (' + categoryLabelFor(node.category) + ')');
       label.addEventListener('click', function (event) {
         event.stopPropagation();
         if (suppressNodeClick) { suppressNodeClick = false; return; }
@@ -392,7 +425,7 @@
         element.classList.remove('is-dimmed', 'is-matched');
         return;
       }
-      var isMatch = node.title.toLowerCase().indexOf(query) !== -1;
+      var isMatch = labelFor(node).toLowerCase().indexOf(query) !== -1;
       element.classList.toggle('is-matched', isMatch);
       element.classList.toggle('is-dimmed', !isMatch);
       if (isMatch) matches++;

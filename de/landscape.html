@@ -449,11 +449,13 @@ lang: de
   // fetches 404 in production despite working fine in local dev (where
   // baseurl is empty).
   window.SITE_BASEURL = {{ site.baseurl | jsonify }};
-  // Node labels in landscape-data.js are still the English titles (that data
-  // file is generated once from the English embeddings, see Decision 5 in
-  // plans/german-translation-plan.md) - a German label layer for the map
-  // itself is tracked as follow-up work, not yet wired up here.
   window.SITE_LANG = "de";
+  // Each node in landscape-data.js carries a title_de/slug_de alongside its
+  // (unchanged) English title/id and x/y position, see Decision 5 in
+  // plans/german-translation-plan.md - landscape.js picks title_de for the
+  // label and links to slug_de's article when SITE_LANG is "de". Category
+  // names shown in the legend/aria-labels go through this same-shaped map.
+  window.CATEGORY_LABELS_DE = {{ site.data.categories_de | jsonify }};
   window.LANDSCAPE_I18N = {
     searchMatchOne: {{ t['landscape.search_match_one'] | jsonify }},
     searchMatchOther: {{ t['landscape.search_match_other'] | jsonify }}

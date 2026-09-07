@@ -29,6 +29,13 @@ How it works:
        before the next embedding run) fall back to the average position of
        whichever of their `related_problems`/`related_solutions` neighbors
        do have one.
+    6. Each node also carries `title_de`/`slug_de` when a German translation
+       exists in `_problems_de`/`_solutions_de` (matched via that file's
+       `en_slug` front matter), so `/de/landscape/` can show a German label
+       and link to the German article without recomputing any position -
+       see Decision 5 in plans/german-translation-plan.md. Both are `null`
+       for an item with no German translation yet; the frontend falls back
+       to the English title/id in that case.
 
 Usage:
     python scripts/create_landscape.py
@@ -89,6 +96,27 @@ def primary_category(frontmatter):
     if isinstance(category, str) and category:
         return category
     return "Uncategorized"
+
+
+def load_de_titles(de_dir):
+    """Map English slug -> {title_de, slug_de} from a `_problems_de`/
+    `_solutions_de` collection, via each file's `en_slug` front-matter
+    back-reference and its own filename. Used to give the map's node labels
+    (and the article URL the map fetches) a German counterpart without
+    recomputing any embeddings or positions - see Decision 5 in
+    plans/german-translation-plan.md: the German page reuses the exact same
+    layout as English, only the displayed/linked text changes."""
+    mapping = {}
+    pattern = os.path.join(PROJECT_ROOT, de_dir, "*.md")
+    for path in glob.glob(pattern):
+        frontmatter = parse_frontmatter(path)
+        if not frontmatter:
+            continue
+        en_slug = frontmatter.get("en_slug")
+        title_de = frontmatter.get("title")
+        if en_slug and title_de:
+            mapping[en_slug] = {"title_de": title_de, "slug_de": Path(path).stem}
+    return mapping
 
 
 def load_items(items_dir, embeddings_dir, related_field):
@@ -172,7 +200,7 @@ def declutter(coords, min_label_distance):
     return coords
 
 
-def layout(items, label, separation_factor, min_label_distance):
+def layout(items, label, separation_factor, min_label_distance, de_titles):
     with_embedding = [item for item in items if item["embedding"] is not None]
     without_embedding = [item for item in items if item["embedding"] is None]
     print(f"{label}: {len(with_embedding)} with cached embedding, {len(without_embedding)} without")
@@ -229,10 +257,13 @@ def layout(items, label, separation_factor, min_label_distance):
     nodes = []
     for item in items:
         x, y = positions[item["slug"]]
+        de = de_titles.get(item["slug"])
         nodes.append(
             {
                 "id": item["slug"],
                 "title": item["title"],
+                "title_de": de["title_de"] if de else None,
+                "slug_de": de["slug_de"] if de else None,
                 "category": item["category"],
                 "cluster": item.get("cluster"),
                 "x": round(x, 1),
@@ -262,11 +293,13 @@ def main():
 
     problems = load_items("_problems", "embeddings/problems", "related_problems")
     solutions = load_items("_solutions", "embeddings/solutions", "related_solutions")
+    problem_titles_de = load_de_titles("_problems_de")
+    solution_titles_de = load_de_titles("_solutions_de")
 
     data = {
         "canvas": {"width": CANVAS_WIDTH, "height": CANVAS_HEIGHT},
-        "problems": layout(problems, "Problems", args.separation, args.min_label_distance),
-        "solutions": layout(solutions, "Solutions", args.separation, args.min_label_distance),
+        "problems": layout(problems, "Problems", args.separation, args.min_label_distance, problem_titles_de),
+        "solutions": layout(solutions, "Solutions", args.separation, args.min_label_distance, solution_titles_de),
     }
 
     js_content = "window.LANDSCAPE_DATA = " + json.dumps(data, indent=2) + ";\n"
