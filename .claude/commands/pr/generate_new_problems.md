@@ -22,3 +22,11 @@ reciprocity is required for graph consistency but does not confirm causal validi
 If a relationship is merely plausible and cannot be supported, report it as a
 candidate instead of silently adding it. Use `/pr:review_causal_links` when a full
 evidence-based assessment is needed.
+
+The catalog also exists in German (`_problems_de/`, one file per `_problems/`
+entry, linked back via `en_slug`). New entries created by this command have no
+German counterpart yet by construction — that's expected, not an error to fix
+here. Mention in your summary that the new problems still need a German
+translation, and that `python scripts/list_untranslated_de.py` will list them
+(along with anything else added since the last translation pass) whenever
+someone next works through Phase 5 of `plans/german-translation-plan.md`.

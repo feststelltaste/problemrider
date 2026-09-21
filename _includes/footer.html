@@ -1,3 +1,5 @@
+{% assign current_lang = page.lang | default: site.lang | default: "en" %}
+{% assign t = site.data.i18n[current_lang] %}
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
@@ -16,16 +18,16 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        <p>{{ site.description | escape }}</p>
+        <p>{% if current_lang == "de" %}{{ t['footer.tagline'] }}{% else %}{{ site.description | escape }}{% endif %}</p>
       </div>
 
       <div class="footer-col footer-col-3">
         <ul class="contact-list">
           <li>
-            <a href="https://github.com/feststelltaste/problemrider/">GitHub Repository</a>
+            <a href="https://github.com/feststelltaste/problemrider/">{{ t['footer.github_repository'] }}</a>
           </li>
           <li>
-            Content licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+            {{ t['footer.license_prefix'] }} <a href="https://creativecommons.org/licenses/by-sa/4.0/">{{ t['footer.license_name'] }}</a>
           </li>
         </ul>
       </div>
