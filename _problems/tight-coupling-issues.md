@@ -6,17 +6,17 @@ category:
 - Architecture
 - Code
 related_problems:
-- slug: high-coupling-low-cohesion
-  similarity: 0.75
-- slug: deployment-coupling
-  similarity: 0.7
 - slug: ripple-effect-of-changes
+  similarity: 0.7
+- slug: deployment-coupling
   similarity: 0.7
 - slug: circular-dependency-problems
   similarity: 0.7
-- slug: unpredictable-system-behavior
+- slug: high-coupling-low-cohesion
   similarity: 0.65
 - slug: hidden-dependencies
+  similarity: 0.65
+- slug: cascade-failures
   similarity: 0.65
 solutions:
 - event-driven-architecture

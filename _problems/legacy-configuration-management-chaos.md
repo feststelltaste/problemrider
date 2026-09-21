@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: configuration-chaos
-  similarity: 0.75
+  similarity: 0.7
 - slug: inadequate-configuration-management
   similarity: 0.65
-- slug: legacy-api-versioning-nightmare
-  similarity: 0.65
-- slug: change-management-chaos
+- slug: legacy-system-documentation-archaeology
   similarity: 0.65
 - slug: configuration-drift
-  similarity: 0.65
-- slug: technology-stack-fragmentation
-  similarity: 0.65
+  similarity: 0.6
+- slug: legacy-api-versioning-nightmare
+  similarity: 0.6
+- slug: change-management-chaos
+  similarity: 0.6
 solutions:
 - infrastructure-as-code
 - externalized-configuration

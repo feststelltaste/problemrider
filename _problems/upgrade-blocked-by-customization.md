@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: core-modification-of-standard-software
-  similarity: 0.7
-- slug: excessive-customization
-  similarity: 0.65
-- slug: vendor-dependency-entrapment
   similarity: 0.65
 - slug: voided-vendor-support
   similarity: 0.6
-- slug: reimplemented-standard-functionality
+- slug: excessive-customization
+  similarity: 0.6
+- slug: vendor-dependency-entrapment
+  similarity: 0.6
+- slug: long-release-cycles
   similarity: 0.55
-- slug: schema-evolution-paralysis
-  similarity: 0.55
+- slug: vendor-dependency
+  similarity: 0.5
 solutions:
 - fit-to-standard-principle
 - explicit-extension-points

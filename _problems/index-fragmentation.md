@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: unused-indexes
   similarity: 0.7
+- slug: incorrect-index-type
+  similarity: 0.7
 - slug: inefficient-database-indexing
   similarity: 0.7
-- slug: incorrect-index-type
-  similarity: 0.65
 - slug: database-query-performance-issues
   similarity: 0.6
-- slug: queries-that-prevent-index-usage
+- slug: high-number-of-database-queries
   similarity: 0.6
-- slug: slow-database-queries
+- slug: lazy-loading
   similarity: 0.6
 solutions:
 - query-optimization-process

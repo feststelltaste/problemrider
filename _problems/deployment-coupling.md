@@ -10,14 +10,14 @@ related_problems:
   similarity: 0.7
 - slug: shared-dependencies
   similarity: 0.65
-- slug: complex-deployment-process
-  similarity: 0.65
-- slug: high-coupling-low-cohesion
+- slug: ripple-effect-of-changes
   similarity: 0.65
 - slug: deployment-risk
   similarity: 0.6
-- slug: ripple-effect-of-changes
+- slug: deployment-environment-inconsistencies
   similarity: 0.6
+- slug: high-coupling-low-cohesion
+  similarity: 0.55
 solutions:
 - ci-cd-pipeline
 - event-driven-architecture

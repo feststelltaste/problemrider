@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: decision-paralysis
-  similarity: 0.8
-- slug: decision-avoidance
   similarity: 0.75
-- slug: delayed-decision-making
-  similarity: 0.7
 - slug: maintenance-paralysis
   similarity: 0.7
-- slug: fear-of-failure
+- slug: modernization-strategy-paralysis
   similarity: 0.65
-- slug: work-blocking
-  similarity: 0.65
+- slug: decision-avoidance
+  similarity: 0.6
+- slug: constant-firefighting
+  similarity: 0.6
+- slug: development-disruption
+  similarity: 0.6
 solutions:
 - architecture-decision-records
 - functional-spike

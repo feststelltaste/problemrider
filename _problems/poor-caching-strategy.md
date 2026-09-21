@@ -5,18 +5,18 @@ description: Data that could be cached is fetched from the source on every reque
 category:
 - Performance
 related_problems:
-- slug: slow-database-queries
-  similarity: 0.7
+- slug: lazy-loading
+  similarity: 0.65
 - slug: cache-invalidation-problems
-  similarity: 0.7
-- slug: high-api-latency
-  similarity: 0.7
+  similarity: 0.65
 - slug: slow-application-performance
-  similarity: 0.7
-- slug: n-plus-one-query-problem
-  similarity: 0.7
-- slug: high-number-of-database-queries
-  similarity: 0.7
+  similarity: 0.6
+- slug: high-api-latency
+  similarity: 0.6
+- slug: imperative-data-fetching-logic
+  similarity: 0.6
+- slug: inefficient-code
+  similarity: 0.6
 solutions:
 - caching-strategy
 - distributed-caching

@@ -8,16 +8,16 @@ category:
 related_problems:
 - slug: vendor-dependency
   similarity: 0.65
-- slug: legal-disputes
-  similarity: 0.6
-- slug: stakeholder-frustration
-  similarity: 0.6
 - slug: dependency-on-supplier
+  similarity: 0.6
+- slug: vendor-dependency-entrapment
   similarity: 0.55
-- slug: power-struggles
+- slug: stakeholder-frustration
   similarity: 0.55
-- slug: stakeholder-confidence-loss
-  similarity: 0.55
+- slug: legal-disputes
+  similarity: 0.5
+- slug: stakeholder-dissatisfaction
+  similarity: 0.5
 solutions:
 - dependency-management-strategy
 - vendor-management-practice

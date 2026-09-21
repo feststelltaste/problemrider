@@ -7,17 +7,11 @@ category:
 - Security
 related_problems:
 - slug: cross-site-scripting-vulnerabilities
-  similarity: 0.7
+  similarity: 0.65
 - slug: log-injection-vulnerabilities
   similarity: 0.65
-- slug: error-message-information-disclosure
-  similarity: 0.6
-- slug: authentication-bypass-vulnerabilities
+- slug: buffer-overflow-vulnerabilities
   similarity: 0.55
-- slug: authorization-flaws
-  similarity: 0.55
-- slug: session-management-issues
-  similarity: 0.5
 solutions:
 - security-hardening-process
 - abuse-case-definition

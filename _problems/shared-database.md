@@ -6,17 +6,9 @@ category:
 - Database
 related_problems:
 - slug: shared-dependencies
-  similarity: 0.8
+  similarity: 0.75
 - slug: deployment-coupling
-  similarity: 0.6
-- slug: monolithic-architecture-constraints
   similarity: 0.55
-- slug: database-schema-design-problems
-  similarity: 0.55
-- slug: schema-evolution-paralysis
-  similarity: 0.55
-- slug: high-number-of-database-queries
-  similarity: 0.5
 solutions:
 - evolutionary-database-design
 - modularization-and-bounded-contexts

@@ -20,6 +20,7 @@ problems:
 - poor-communication
 - custom-report-sprawl
 - master-data-ownership-gaps
+- stringly-typed-code
 layout: solution
 related_solutions:
 - slug: consistent-user-interface

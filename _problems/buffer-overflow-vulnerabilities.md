@@ -6,17 +6,15 @@ category:
 - Code
 - Security
 related_problems:
-- slug: stack-overflow-errors
-  similarity: 0.65
-- slug: integer-overflow-underflow
-  similarity: 0.65
+- slug: cross-site-scripting-vulnerabilities
+  similarity: 0.55
 - slug: null-pointer-dereferences
-  similarity: 0.65
-- slug: memory-leaks
-  similarity: 0.5
+  similarity: 0.55
 - slug: sql-injection-vulnerabilities
+  similarity: 0.55
+- slug: authentication-bypass-vulnerabilities
   similarity: 0.5
-- slug: error-message-information-disclosure
+- slug: log-injection-vulnerabilities
   similarity: 0.5
 solutions:
 - security-hardening-process

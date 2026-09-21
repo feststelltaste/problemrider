@@ -30,6 +30,7 @@ problems:
 - partial-bug-fixes
 - entity-attribute-value-overuse
 - core-modification-of-standard-software
+- dynamic-connascence
 layout: solution
 related_solutions:
 - slug: mikado-method

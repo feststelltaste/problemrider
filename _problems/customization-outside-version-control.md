@@ -9,17 +9,17 @@ category:
 - Code
 related_problems:
 - slug: excessive-customization
-  similarity: 0.7
+  similarity: 0.65
 - slug: low-code-customization-sprawl
-  similarity: 0.65
+  similarity: 0.6
+- slug: configuration-chaos
+  similarity: 0.55
 - slug: inadequate-configuration-management
-  similarity: 0.65
+  similarity: 0.55
 - slug: custom-report-sprawl
-  similarity: 0.65
+  similarity: 0.55
 - slug: core-modification-of-standard-software
-  similarity: 0.6
-- slug: reimplemented-standard-functionality
-  similarity: 0.6
+  similarity: 0.55
 solutions:
 - customization-under-version-control
 - version-control

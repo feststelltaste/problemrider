@@ -7,16 +7,16 @@ category:
 - Process
 related_problems:
 - slug: maintenance-overhead
-  similarity: 0.75
+  similarity: 0.7
 - slug: budget-overruns
   similarity: 0.65
 - slug: constant-firefighting
   similarity: 0.65
 - slug: context-switching-overhead
+  similarity: 0.65
+- slug: development-disruption
   similarity: 0.6
-- slug: high-maintenance-costs
-  similarity: 0.6
-- slug: high-technical-debt
+- slug: poor-operational-concept
   similarity: 0.6
 solutions:
 - infrastructure-as-code

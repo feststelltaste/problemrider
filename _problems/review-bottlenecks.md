@@ -8,16 +8,16 @@ category:
 related_problems:
 - slug: code-review-inefficiency
   similarity: 0.75
-- slug: bottleneck-formation
-  similarity: 0.7
 - slug: review-process-breakdown
+  similarity: 0.7
+- slug: team-members-not-engaged-in-review-process
   similarity: 0.7
 - slug: inadequate-code-reviews
   similarity: 0.7
-- slug: extended-review-cycles
-  similarity: 0.7
+- slug: insufficient-code-review
+  similarity: 0.65
 - slug: maintenance-bottlenecks
-  similarity: 0.7
+  similarity: 0.65
 solutions:
 - code-review-process-reform
 - small-change-batches

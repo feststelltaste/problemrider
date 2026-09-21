@@ -10,15 +10,15 @@ related_problems:
 - slug: insufficient-code-review
   similarity: 0.8
 - slug: inadequate-code-reviews
-  similarity: 0.8
+  similarity: 0.75
 - slug: code-review-inefficiency
   similarity: 0.75
+- slug: review-bottlenecks
+  similarity: 0.7
 - slug: review-process-avoidance
-  similarity: 0.75
+  similarity: 0.7
 - slug: team-members-not-engaged-in-review-process
-  similarity: 0.75
-- slug: superficial-code-reviews
-  similarity: 0.75
+  similarity: 0.7
 solutions:
 - code-review-process-reform
 - code-review-guidelines

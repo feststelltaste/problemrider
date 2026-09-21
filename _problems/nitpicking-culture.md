@@ -13,11 +13,11 @@ related_problems:
   similarity: 0.7
 - slug: inadequate-code-reviews
   similarity: 0.7
-- slug: fear-of-conflict
-  similarity: 0.7
+- slug: insufficient-code-review
+  similarity: 0.65
 - slug: code-review-inefficiency
-  similarity: 0.7
-- slug: defensive-coding-practices
+  similarity: 0.65
+- slug: review-process-breakdown
   similarity: 0.65
 solutions:
 - code-review-process-reform

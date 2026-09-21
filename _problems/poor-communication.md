@@ -10,15 +10,15 @@ related_problems:
 - slug: communication-breakdown
   similarity: 0.85
 - slug: poor-teamwork
-  similarity: 0.75
-- slug: team-silos
   similarity: 0.7
-- slug: developer-frustration-and-burnout
+- slug: team-silos
   similarity: 0.65
 - slug: stakeholder-developer-communication-gap
   similarity: 0.65
-- slug: duplicated-work
+- slug: team-coordination-issues
   similarity: 0.65
+- slug: knowledge-sharing-breakdown
+  similarity: 0.6
 solutions:
 - psychological-safety-practices
 - structured-communication-protocols

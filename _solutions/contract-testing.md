@@ -20,6 +20,7 @@ problems:
 - schema-evolution-paralysis
 - testing-complexity
 - abi-compatibility-issues
+- stringly-typed-code
 layout: solution
 related_solutions:
 - slug: consumer-driven-contracts

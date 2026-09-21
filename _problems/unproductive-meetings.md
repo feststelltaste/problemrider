@@ -7,16 +7,16 @@ category:
 - Process
 related_problems:
 - slug: inefficient-processes
-  similarity: 0.65
+  similarity: 0.6
 - slug: bikeshedding
   similarity: 0.55
-- slug: unrealistic-deadlines
-  similarity: 0.55
-- slug: duplicated-effort
+- slug: reduced-team-productivity
   similarity: 0.55
 - slug: development-disruption
   similarity: 0.55
-- slug: poor-planning
+- slug: unmotivated-employees
+  similarity: 0.5
+- slug: team-dysfunction
   similarity: 0.5
 solutions:
 - structured-communication-protocols

@@ -7,18 +7,18 @@ category:
 - Database
 - Process
 related_problems:
-- slug: excessive-customization
-  similarity: 0.7
 - slug: low-code-customization-sprawl
-  similarity: 0.65
+  similarity: 0.6
 - slug: customization-outside-version-control
-  similarity: 0.65
-- slug: entity-attribute-value-overuse
-  similarity: 0.6
+  similarity: 0.55
+- slug: master-data-ownership-gaps
+  similarity: 0.55
+- slug: excessive-customization
+  similarity: 0.55
 - slug: authorization-role-explosion
-  similarity: 0.6
-- slug: reimplemented-standard-functionality
-  similarity: 0.6
+  similarity: 0.55
+- slug: process-software-misfit
+  similarity: 0.55
 solutions:
 - feature-usage-measurement
 - variant-consolidation

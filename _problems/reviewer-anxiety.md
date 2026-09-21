@@ -7,18 +7,18 @@ category:
 - Process
 - Team
 related_problems:
-- slug: fear-of-conflict
-  similarity: 0.75
-- slug: reduced-review-participation
-  similarity: 0.75
 - slug: author-frustration
-  similarity: 0.75
+  similarity: 0.7
+- slug: fear-of-conflict
+  similarity: 0.7
+- slug: reduced-review-participation
+  similarity: 0.7
 - slug: reviewer-inexperience
-  similarity: 0.75
+  similarity: 0.65
+- slug: release-anxiety
+  similarity: 0.65
 - slug: review-process-avoidance
-  similarity: 0.7
-- slug: team-members-not-engaged-in-review-process
-  similarity: 0.7
+  similarity: 0.6
 solutions:
 - code-review-process-reform
 - code-review-guidelines

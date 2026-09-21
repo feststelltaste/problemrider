@@ -8,16 +8,16 @@ category:
 related_problems:
 - slug: requirements-ambiguity
   similarity: 0.65
-- slug: feature-gaps
+- slug: feedback-isolation
   similarity: 0.6
-- slug: poor-planning
-  similarity: 0.6
-- slug: knowledge-gaps
-  similarity: 0.6
-- slug: no-continuous-feedback-loop
-  similarity: 0.6
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.55
 - slug: poor-documentation
-  similarity: 0.6
+  similarity: 0.55
+- slug: feature-gaps
+  similarity: 0.55
+- slug: poor-operational-concept
+  similarity: 0.55
 solutions:
 - evolutionary-requirements-development
 - requirements-analysis

@@ -7,18 +7,10 @@ category:
 - Operations
 - Process
 related_problems:
-- slug: custom-report-sprawl
-  similarity: 0.6
 - slug: authorization-flaws
-  similarity: 0.6
-- slug: excessive-customization
+  similarity: 0.65
+- slug: custom-report-sprawl
   similarity: 0.55
-- slug: low-code-customization-sprawl
-  similarity: 0.55
-- slug: change-management-chaos
-  similarity: 0.5
-- slug: approval-dependencies
-  similarity: 0.5
 solutions:
 - role-model-rationalization
 - authorization-concept

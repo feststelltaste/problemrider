@@ -13,12 +13,12 @@ related_problems:
   similarity: 0.7
 - slug: system-integration-blindness
   similarity: 0.65
-- slug: test-debt
-  similarity: 0.65
+- slug: testing-complexity
+  similarity: 0.6
 - slug: insufficient-testing
-  similarity: 0.65
-- slug: missing-end-to-end-tests
-  similarity: 0.65
+  similarity: 0.6
+- slug: feature-gaps
+  similarity: 0.6
 solutions:
 - definition-of-done
 - abuse-case-definition

@@ -6,18 +6,18 @@ category:
 - Code
 - Performance
 related_problems:
-- slug: lock-contention
+- slug: race-conditions
   similarity: 0.6
 - slug: memory-barrier-inefficiency
   similarity: 0.6
 - slug: atomic-operation-overhead
-  similarity: 0.6
-- slug: race-conditions
-  similarity: 0.6
+  similarity: 0.55
+- slug: lock-contention
+  similarity: 0.55
+- slug: dma-coherency-issues
+  similarity: 0.55
 - slug: data-structure-cache-inefficiency
-  similarity: 0.55
-- slug: alignment-and-padding-issues
-  similarity: 0.55
+  similarity: 0.5
 solutions:
 - profiling
 - performance-measurements

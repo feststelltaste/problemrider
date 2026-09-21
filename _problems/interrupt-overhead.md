@@ -7,17 +7,17 @@ category:
 - Performance
 related_problems:
 - slug: context-switching-overhead
-  similarity: 0.55
-- slug: microservice-communication-overhead
-  similarity: 0.55
+  similarity: 0.65
 - slug: atomic-operation-overhead
-  similarity: 0.55
-- slug: high-client-side-resource-consumption
-  similarity: 0.55
-- slug: high-resource-utilization-on-client
-  similarity: 0.55
+  similarity: 0.6
+- slug: operational-overhead
+  similarity: 0.6
 - slug: endianness-conversion-overhead
-  similarity: 0.5
+  similarity: 0.55
+- slug: memory-barrier-inefficiency
+  similarity: 0.55
+- slug: maintenance-overhead
+  similarity: 0.55
 solutions:
 - profiling
 - performance-measurements

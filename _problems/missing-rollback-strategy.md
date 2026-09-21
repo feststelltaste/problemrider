@@ -11,14 +11,14 @@ related_problems:
   similarity: 0.8
 - slug: immature-delivery-strategy
   similarity: 0.65
-- slug: frequent-hotfixes-and-rollbacks
-  similarity: 0.65
-- slug: complex-deployment-process
-  similarity: 0.65
-- slug: history-of-failed-changes
-  similarity: 0.65
 - slug: manual-deployment-processes
   similarity: 0.65
+- slug: frequent-hotfixes-and-rollbacks
+  similarity: 0.6
+- slug: complex-deployment-process
+  similarity: 0.6
+- slug: large-risky-releases
+  similarity: 0.55
 solutions:
 - blue-green-canary-deployments
 - ci-cd-pipeline

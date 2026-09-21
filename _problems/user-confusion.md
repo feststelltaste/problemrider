@@ -6,16 +6,16 @@ category:
 - Requirements
 related_problems:
 - slug: inconsistent-behavior
-  similarity: 0.8
-- slug: user-trust-erosion
-  similarity: 0.7
+  similarity: 0.75
 - slug: user-frustration
+  similarity: 0.75
+- slug: team-confusion
   similarity: 0.7
-- slug: poor-user-experience-ux-design
+- slug: user-trust-erosion
   similarity: 0.65
 - slug: customer-dissatisfaction
-  similarity: 0.6
-- slug: negative-user-feedback
+  similarity: 0.65
+- slug: poor-user-experience-ux-design
   similarity: 0.6
 solutions:
 - user-centered-design

@@ -9,16 +9,16 @@ category:
 related_problems:
 - slug: api-versioning-conflicts
   similarity: 0.8
-- slug: breaking-changes
-  similarity: 0.65
+- slug: obsolete-technologies
+  similarity: 0.6
 - slug: legacy-configuration-management-chaos
-  similarity: 0.65
+  similarity: 0.6
+- slug: poor-interfaces-between-applications
+  similarity: 0.6
 - slug: integration-difficulties
-  similarity: 0.65
-- slug: regulatory-compliance-drift
-  similarity: 0.65
+  similarity: 0.6
 - slug: technology-stack-fragmentation
-  similarity: 0.65
+  similarity: 0.6
 solutions:
 - anti-corruption-layer
 - dependency-management-strategy

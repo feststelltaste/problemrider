@@ -8,16 +8,16 @@ category:
 related_problems:
 - slug: inadequate-integration-tests
   similarity: 0.75
-- slug: integration-difficulties
+- slug: hidden-dependencies
+  similarity: 0.65
+- slug: poor-interfaces-between-applications
   similarity: 0.65
 - slug: quality-blind-spots
   similarity: 0.65
+- slug: cascade-failures
+  similarity: 0.6
 - slug: unpredictable-system-behavior
-  similarity: 0.6
-- slug: poor-interfaces-between-applications
-  similarity: 0.6
-- slug: missing-end-to-end-tests
-  similarity: 0.6
+  similarity: 0.55
 solutions:
 - documentation-as-code
 - modularization-and-bounded-contexts

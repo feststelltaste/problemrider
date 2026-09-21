@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: insufficient-code-review
-  similarity: 0.9
-- slug: superficial-code-reviews
   similarity: 0.85
-- slug: review-process-breakdown
+- slug: superficial-code-reviews
   similarity: 0.8
 - slug: code-review-inefficiency
-  similarity: 0.8
+  similarity: 0.75
+- slug: review-process-breakdown
+  similarity: 0.75
 - slug: inadequate-initial-reviews
-  similarity: 0.8
+  similarity: 0.75
 - slug: team-members-not-engaged-in-review-process
-  similarity: 0.8
+  similarity: 0.75
 solutions:
 - code-review-process-reform
 - checklists

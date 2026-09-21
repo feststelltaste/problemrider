@@ -6,17 +6,17 @@ category:
 - Code
 - Management
 related_problems:
-- slug: vendor-dependency-entrapment
-  similarity: 0.8
-- slug: dependency-on-supplier
-  similarity: 0.7
 - slug: technology-lock-in
+  similarity: 0.75
+- slug: vendor-dependency-entrapment
+  similarity: 0.75
+- slug: dependency-on-supplier
   similarity: 0.7
 - slug: vendor-dependency
   similarity: 0.65
-- slug: implementation-partner-dependency
-  similarity: 0.65
 - slug: technology-isolation
+  similarity: 0.65
+- slug: technology-stack-fragmentation
   similarity: 0.6
 solutions:
 - anti-corruption-layer

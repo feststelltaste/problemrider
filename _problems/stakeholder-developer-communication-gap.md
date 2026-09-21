@@ -8,13 +8,13 @@ category:
 related_problems:
 - slug: misaligned-deliverables
   similarity: 0.75
-- slug: frequent-changes-to-requirements
+- slug: stakeholder-dissatisfaction
   similarity: 0.7
 - slug: no-continuous-feedback-loop
   similarity: 0.7
+- slug: stakeholder-frustration
+  similarity: 0.65
 - slug: communication-breakdown
-  similarity: 0.7
-- slug: incomplete-projects
   similarity: 0.65
 - slug: poor-communication
   similarity: 0.65

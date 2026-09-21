@@ -6,14 +6,8 @@ category:
 - Security
 - Security
 related_problems:
-- slug: secret-management-problems
+- slug: silent-data-corruption
   similarity: 0.55
-- slug: error-message-information-disclosure
-  similarity: 0.55
-- slug: password-security-weaknesses
-  similarity: 0.5
-- slug: authentication-bypass-vulnerabilities
-  similarity: 0.5
 solutions:
 - secret-management
 - security-hardening-process

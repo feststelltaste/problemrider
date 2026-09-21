@@ -8,16 +8,16 @@ category:
 - Process
 related_problems:
 - slug: high-technical-debt
-  similarity: 0.75
+  similarity: 0.65
 - slug: difficulty-quantifying-benefits
   similarity: 0.65
-- slug: complex-and-obscure-logic
+- slug: maintenance-paralysis
   similarity: 0.65
-- slug: test-debt
-  similarity: 0.65
-- slug: accumulated-decision-debt
+- slug: resistance-to-change
   similarity: 0.6
-- slug: delayed-issue-resolution
+- slug: increased-technical-shortcuts
+  similarity: 0.6
+- slug: decision-avoidance
   similarity: 0.6
 solutions:
 - technical-debt-backlog

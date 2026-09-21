@@ -11,13 +11,13 @@ related_problems:
   similarity: 0.65
 - slug: reduced-predictability
   similarity: 0.65
-- slug: staff-availability-issues
+- slug: changing-project-scope
+  similarity: 0.65
+- slug: development-disruption
+  similarity: 0.65
+- slug: reduced-innovation
   similarity: 0.6
-- slug: single-points-of-failure
-  similarity: 0.6
-- slug: inability-to-innovate
-  similarity: 0.6
-- slug: unclear-goals-and-priorities
+- slug: constant-firefighting
   similarity: 0.6
 solutions:
 - cross-functional-skill-development

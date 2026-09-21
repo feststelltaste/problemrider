@@ -9,14 +9,14 @@ related_problems:
 - slug: hidden-dependencies
   similarity: 0.6
 - slug: implicit-knowledge
-  similarity: 0.6
-- slug: implementation-partner-dependency
   similarity: 0.55
-- slug: information-fragmentation
+- slug: technology-stack-fragmentation
+  similarity: 0.55
+- slug: obsolete-technologies
   similarity: 0.55
 - slug: vendor-dependency-entrapment
   similarity: 0.55
-- slug: technology-stack-fragmentation
+- slug: legacy-system-documentation-archaeology
   similarity: 0.55
 solutions:
 - user-centered-design

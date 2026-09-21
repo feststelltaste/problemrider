@@ -7,17 +7,17 @@ category:
 - Management
 - Process
 related_problems:
-- slug: cargo-culting
-  similarity: 0.6
 - slug: increased-technical-shortcuts
   similarity: 0.6
-- slug: inexperienced-developers
+- slug: obsolete-technologies
   similarity: 0.6
-- slug: difficult-developer-onboarding
-  similarity: 0.6
-- slug: decision-avoidance
+- slug: technology-lock-in
   similarity: 0.55
-- slug: cv-driven-development
+- slug: cargo-culting
+  similarity: 0.55
+- slug: technology-isolation
+  similarity: 0.55
+- slug: technology-stack-fragmentation
   similarity: 0.55
 solutions:
 - dependency-management-strategy

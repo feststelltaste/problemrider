@@ -7,17 +7,17 @@ category:
 - Performance
 related_problems:
 - slug: growing-task-queues
-  similarity: 0.75
+  similarity: 0.85
 - slug: task-queues-backing-up
-  similarity: 0.75
+  similarity: 0.8
 - slug: work-queue-buildup
-  similarity: 0.7
-- slug: capacity-mismatch
   similarity: 0.65
+- slug: capacity-mismatch
+  similarity: 0.55
+- slug: resource-contention
+  similarity: 0.55
 - slug: thread-pool-exhaustion
-  similarity: 0.6
-- slug: staff-availability-issues
-  similarity: 0.6
+  similarity: 0.55
 solutions:
 - backpressure
 - capacity-planning

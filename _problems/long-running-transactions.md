@@ -9,16 +9,16 @@ category:
 related_problems:
 - slug: long-running-database-transactions
   similarity: 0.95
-- slug: slow-database-queries
-  similarity: 0.7
-- slug: high-database-resource-utilization
-  similarity: 0.65
+- slug: database-connection-leaks
+  similarity: 0.6
 - slug: high-connection-count
-  similarity: 0.65
+  similarity: 0.6
+- slug: high-database-resource-utilization
+  similarity: 0.6
+- slug: unreleased-resources
+  similarity: 0.55
 - slug: high-number-of-database-queries
-  similarity: 0.65
-- slug: n-plus-one-query-problem
-  similarity: 0.65
+  similarity: 0.55
 solutions:
 - concurrency-control
 - profiling

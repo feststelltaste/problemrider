@@ -7,18 +7,18 @@ category:
 - Process
 - Team
 related_problems:
+- slug: clever-code
+  similarity: 0.6
 - slug: fear-of-conflict
-  similarity: 0.7
+  similarity: 0.6
+- slug: copy-paste-programming
+  similarity: 0.6
 - slug: inadequate-code-reviews
-  similarity: 0.7
+  similarity: 0.6
 - slug: superficial-code-reviews
-  similarity: 0.7
-- slug: review-process-avoidance
-  similarity: 0.65
-- slug: nitpicking-culture
-  similarity: 0.65
-- slug: review-process-breakdown
-  similarity: 0.65
+  similarity: 0.55
+- slug: undefined-code-style-guidelines
+  similarity: 0.55
 solutions:
 - clean-code
 - design-by-contract

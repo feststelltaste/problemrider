@@ -10,14 +10,14 @@ related_problems:
 - slug: alignment-and-padding-issues
   similarity: 0.75
 - slug: poor-caching-strategy
-  similarity: 0.65
-- slug: algorithmic-complexity-problems
   similarity: 0.6
-- slug: cache-invalidation-problems
+- slug: memory-barrier-inefficiency
   similarity: 0.6
 - slug: unbounded-data-structures
   similarity: 0.6
-- slug: false-sharing
+- slug: algorithmic-complexity-problems
+  similarity: 0.6
+- slug: cache-invalidation-problems
   similarity: 0.55
 solutions:
 - caching-strategy

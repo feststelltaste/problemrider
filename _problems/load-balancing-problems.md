@@ -7,17 +7,15 @@ category:
 - Performance
 related_problems:
 - slug: uneven-workload-distribution
-  similarity: 0.65
+  similarity: 0.6
 - slug: rate-limiting-issues
-  similarity: 0.65
-- slug: service-timeouts
-  similarity: 0.6
+  similarity: 0.55
 - slug: service-discovery-failures
-  similarity: 0.6
-- slug: external-service-delays
   similarity: 0.55
-- slug: upstream-timeouts
-  similarity: 0.55
+- slug: scaling-inefficiencies
+  similarity: 0.5
+- slug: resource-contention
+  similarity: 0.5
 solutions:
 - event-driven-architecture
 - horizontal-scaling

@@ -10,15 +10,15 @@ related_problems:
 - slug: poor-communication
   similarity: 0.85
 - slug: knowledge-sharing-breakdown
-  similarity: 0.8
-- slug: duplicated-work
+  similarity: 0.75
+- slug: team-silos
   similarity: 0.7
-- slug: communication-risk-within-project
-  similarity: 0.7
-- slug: team-dysfunction
-  similarity: 0.7
-- slug: duplicated-effort
-  similarity: 0.7
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.65
+- slug: team-coordination-issues
+  similarity: 0.65
+- slug: team-confusion
+  similarity: 0.65
 solutions:
 - clear-roles-and-ownership
 - psychological-safety-practices

@@ -6,18 +6,18 @@ category:
 - Code
 - Process
 related_problems:
-- slug: difficult-developer-onboarding
-  similarity: 0.75
-- slug: difficult-to-understand-code
-  similarity: 0.7
-- slug: inefficient-development-environment
-  similarity: 0.7
 - slug: delayed-bug-fixes
-  similarity: 0.7
-- slug: increased-cost-of-development
-  similarity: 0.7
+  similarity: 0.65
+- slug: difficult-to-understand-code
+  similarity: 0.6
+- slug: delayed-issue-resolution
+  similarity: 0.6
+- slug: partial-bug-fixes
+  similarity: 0.6
 - slug: difficult-code-comprehension
-  similarity: 0.7
+  similarity: 0.6
+- slug: accumulation-of-workarounds
+  similarity: 0.6
 solutions:
 - observability-and-monitoring
 - audit-trail-management
@@ -80,6 +80,8 @@ Debugging difficulties arise when developers struggle to identify, isolate, and 
 <br/>  When code is hard to comprehend, developers struggle to form accurate mental models needed to identify and fix bugs.
 - [Monolithic Functions and Classes](monolithic-functions-and-classes.md)
 <br/>  Extremely large functions with complex logic create enormous search spaces when trying to locate the source of a bug.
+- [Dynamic Connascence](dynamic-connascence.md)
+<br/>  When a naming contract only exists at runtime, there is no stack trace pointing back to its source, forcing developers to reconstruct the contract by hand.
 
 ## Detection Methods ○
 - **Time Tracking Analysis:** Measure time spent debugging versus time spent on feature development

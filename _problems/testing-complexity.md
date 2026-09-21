@@ -6,17 +6,17 @@ category:
 - Code
 - Testing
 related_problems:
+- slug: difficult-to-test-code
+  similarity: 0.7
 - slug: insufficient-testing
   similarity: 0.65
-- slug: code-duplication
+- slug: complex-and-obscure-logic
   similarity: 0.65
-- slug: difficult-to-test-code
-  similarity: 0.65
-- slug: difficult-code-reuse
-  similarity: 0.65
-- slug: testing-environment-fragility
+- slug: inconsistent-quality
   similarity: 0.6
-- slug: increased-manual-testing-effort
+- slug: test-debt
+  similarity: 0.6
+- slug: quality-blind-spots
   similarity: 0.6
 solutions:
 - test-coverage-strategy

@@ -14,6 +14,7 @@ problems:
 - global-state-and-side-effects
 - improper-event-listener-management
 - circular-dependency-problems
+- dynamic-connascence
 layout: solution
 related_solutions:
 - slug: abstracted-file-system-access

@@ -7,17 +7,17 @@ category:
 - Team
 related_problems:
 - slug: inconsistent-codebase
-  similarity: 0.85
-- slug: inconsistent-naming-conventions
   similarity: 0.8
-- slug: undefined-code-style-guidelines
+- slug: inconsistent-naming-conventions
   similarity: 0.75
 - slug: mixed-coding-styles
   similarity: 0.75
+- slug: undefined-code-style-guidelines
+  similarity: 0.7
 - slug: inconsistent-quality
-  similarity: 0.7
+  similarity: 0.65
 - slug: code-duplication
-  similarity: 0.7
+  similarity: 0.55
 solutions:
 - static-analysis-and-linting
 - code-conventions

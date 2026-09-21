@@ -7,15 +7,11 @@ category:
 - Architecture
 - Code
 related_problems:
-- slug: database-schema-design-problems
-  similarity: 0.6
-- slug: custom-report-sprawl
-  similarity: 0.6
 - slug: schema-evolution-paralysis
-  similarity: 0.6
-- slug: unused-indexes
   similarity: 0.55
-- slug: queries-that-prevent-index-usage
+- slug: database-schema-design-problems
+  similarity: 0.5
+- slug: unused-indexes
   similarity: 0.5
 solutions:
 - attribute-usage-analysis

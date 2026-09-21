@@ -7,18 +7,18 @@ category:
 - Code
 - Process
 related_problems:
-- slug: complex-implementation-paths
+- slug: modernization-strategy-paralysis
   similarity: 0.6
-- slug: cognitive-overload
+- slug: architectural-mismatch
   similarity: 0.6
-- slug: feature-creep
+- slug: stagnant-architecture
   similarity: 0.6
-- slug: accumulation-of-workarounds
-  similarity: 0.6
-- slug: feature-bloat
-  similarity: 0.6
-- slug: ripple-effect-of-changes
-  similarity: 0.6
+- slug: legacy-system-documentation-archaeology
+  similarity: 0.55
+- slug: strangler-fig-pattern-failures
+  similarity: 0.55
+- slug: modernization-roi-justification-failure
+  similarity: 0.55
 solutions:
 - architecture-reviews
 - architecture-roadmap

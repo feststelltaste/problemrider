@@ -7,15 +7,7 @@ category:
 - Security
 related_problems:
 - slug: buffer-overflow-vulnerabilities
-  similarity: 0.65
-- slug: stack-overflow-errors
-  similarity: 0.6
-- slug: inadequate-error-handling
-  similarity: 0.5
-- slug: memory-leaks
-  similarity: 0.5
-- slug: integer-overflow-underflow
-  similarity: 0.5
+  similarity: 0.55
 solutions:
 - static-analysis-and-linting
 - fuzz-testing

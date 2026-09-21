@@ -6,18 +6,18 @@ category:
 - Code
 - Management
 related_problems:
-- slug: vendor-lock-in
-  similarity: 0.8
 - slug: vendor-dependency
   similarity: 0.75
-- slug: dependency-on-supplier
+- slug: vendor-lock-in
   similarity: 0.75
-- slug: implementation-partner-dependency
+- slug: dependency-on-supplier
   similarity: 0.7
-- slug: legacy-skill-shortage
-  similarity: 0.65
 - slug: voided-vendor-support
-  similarity: 0.65
+  similarity: 0.6
+- slug: upgrade-blocked-by-customization
+  similarity: 0.6
+- slug: technology-lock-in
+  similarity: 0.6
 solutions:
 - anti-corruption-layer
 - dependency-management-strategy

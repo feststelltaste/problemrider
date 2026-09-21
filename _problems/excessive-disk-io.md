@@ -5,18 +5,18 @@ description: The system performs a high number of disk read/write operations, in
 category:
 - Performance
 related_problems:
-- slug: slow-database-queries
-  similarity: 0.75
-- slug: excessive-logging
-  similarity: 0.75
-- slug: high-database-resource-utilization
-  similarity: 0.75
-- slug: high-api-latency
-  similarity: 0.7
-- slug: slow-application-performance
+- slug: memory-swapping
   similarity: 0.7
 - slug: resource-contention
-  similarity: 0.7
+  similarity: 0.65
+- slug: high-database-resource-utilization
+  similarity: 0.65
+- slug: unoptimized-file-access
+  similarity: 0.65
+- slug: excessive-logging
+  similarity: 0.6
+- slug: high-api-latency
+  similarity: 0.6
 solutions:
 - caching-strategy
 - efficient-algorithms

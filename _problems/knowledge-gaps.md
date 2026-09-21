@@ -7,18 +7,18 @@ category:
 - Process
 - Team
 related_problems:
-- slug: skill-development-gaps
-  similarity: 0.8
-- slug: knowledge-silos
-  similarity: 0.75
-- slug: knowledge-dependency
-  similarity: 0.7
 - slug: incomplete-knowledge
-  similarity: 0.7
-- slug: feature-gaps
-  similarity: 0.7
-- slug: information-fragmentation
-  similarity: 0.7
+  similarity: 0.65
+- slug: skill-development-gaps
+  similarity: 0.65
+- slug: knowledge-silos
+  similarity: 0.65
+- slug: knowledge-dependency
+  similarity: 0.6
+- slug: team-silos
+  similarity: 0.6
+- slug: inconsistent-knowledge-acquisition
+  similarity: 0.6
 solutions:
 - architecture-decision-records
 - documentation-as-code

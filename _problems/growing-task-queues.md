@@ -6,18 +6,18 @@ category:
 - Code
 - Performance
 related_problems:
-- slug: task-queues-backing-up
-  similarity: 0.8
 - slug: insufficient-worker-capacity
-  similarity: 0.75
+  similarity: 0.85
+- slug: task-queues-backing-up
+  similarity: 0.85
 - slug: work-queue-buildup
   similarity: 0.7
-- slug: service-timeouts
-  similarity: 0.6
+- slug: unbounded-data-growth
+  similarity: 0.55
 - slug: increased-error-rates
-  similarity: 0.6
-- slug: external-service-delays
-  similarity: 0.6
+  similarity: 0.5
+- slug: high-defect-rate-in-production
+  similarity: 0.5
 solutions:
 - backpressure
 - capacity-planning

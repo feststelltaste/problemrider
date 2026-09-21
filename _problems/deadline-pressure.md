@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: time-pressure
-  similarity: 0.85
+  similarity: 0.75
 - slug: unrealistic-deadlines
   similarity: 0.75
-- slug: increased-technical-shortcuts
-  similarity: 0.7
-- slug: market-pressure
-  similarity: 0.7
-- slug: lower-code-quality
+- slug: constantly-shifting-deadlines
   similarity: 0.65
-- slug: high-technical-debt
-  similarity: 0.65
+- slug: missed-deadlines
+  similarity: 0.6
+- slug: unrealistic-schedule
+  similarity: 0.6
+- slug: decision-paralysis
+  similarity: 0.55
 solutions:
 - formal-change-control-process
 - iterative-development
@@ -65,6 +65,10 @@ Deadline pressure occurs when development teams face intense time constraints th
 <br/>  Time pressure leads developers to implement the first working solution without considering its algorithmic efficiency.
 - [Assumption-Based Development](assumption-based-development.md)
 <br/>  When a compressed timeline falls specifically during requirements clarification, developers proceed on unvalidated assumptions rather than taking time to confirm understanding with stakeholders.
+- [Stringly Typed Code](stringly-typed-code.md)
+<br/>  Introducing an enum or value object requires touching more places than passing a string along, so it is the shortcut under time pressure.
+- [Dynamic Connascence](dynamic-connascence.md)
+<br/>  Reflection- or convention-based wiring is faster to write than explicit, typed wiring, so pressed developers reach for it without weighing the refactoring risk.
 
 ## Causes ▼
 

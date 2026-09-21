@@ -7,17 +7,17 @@ category:
 - Database
 - Performance
 related_problems:
-- slug: slow-database-queries
+- slug: imperative-data-fetching-logic
+  similarity: 0.75
+- slug: high-number-of-database-queries
   similarity: 0.75
 - slug: n-plus-one-query-problem
-  similarity: 0.75
-- slug: imperative-data-fetching-logic
   similarity: 0.7
-- slug: high-number-of-database-queries
+- slug: slow-database-queries
+  similarity: 0.7
+- slug: inefficient-database-indexing
   similarity: 0.7
 - slug: poor-caching-strategy
-  similarity: 0.65
-- slug: slow-application-performance
   similarity: 0.65
 solutions:
 - caching-strategy

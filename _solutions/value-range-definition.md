@@ -13,6 +13,7 @@ problems:
 - regression-bugs
 - increased-risk-of-bugs
 - integer-overflow-underflow
+- stringly-typed-code
 layout: solution
 related_solutions:
 - slug: input-validation

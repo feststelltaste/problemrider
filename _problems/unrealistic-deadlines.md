@@ -6,18 +6,18 @@ category:
 - Management
 - Process
 related_problems:
-- slug: time-pressure
+- slug: unrealistic-schedule
+  similarity: 0.8
+- slug: deadline-pressure
   similarity: 0.75
 - slug: missed-deadlines
   similarity: 0.75
-- slug: deadline-pressure
-  similarity: 0.75
-- slug: unrealistic-schedule
-  similarity: 0.7
 - slug: constantly-shifting-deadlines
   similarity: 0.7
+- slug: time-pressure
+  similarity: 0.65
 - slug: delayed-project-timelines
-  similarity: 0.7
+  similarity: 0.65
 solutions:
 - iterative-development
 - requirements-analysis

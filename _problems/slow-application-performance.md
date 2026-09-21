@@ -5,16 +5,16 @@ category:
 - Performance
 related_problems:
 - slug: high-api-latency
-  similarity: 0.8
-- slug: slow-database-queries
-  similarity: 0.8
-- slug: inefficient-code
   similarity: 0.75
-- slug: slow-response-times-for-lists
+- slug: high-client-side-resource-consumption
   similarity: 0.7
-- slug: external-service-delays
+- slug: slow-database-queries
+  similarity: 0.7
+- slug: high-resource-utilization-on-client
   similarity: 0.7
 - slug: inefficient-frontend-code
+  similarity: 0.7
+- slug: slow-response-times-for-lists
   similarity: 0.7
 solutions:
 - observability-and-monitoring

@@ -7,16 +7,16 @@ category:
 - Process
 related_problems:
 - slug: inconsistent-coding-standards
-  similarity: 0.85
+  similarity: 0.8
 - slug: undefined-code-style-guidelines
-  similarity: 0.8
-- slug: inconsistent-naming-conventions
-  similarity: 0.8
+  similarity: 0.75
+- slug: brittle-codebase
+  similarity: 0.75
 - slug: mixed-coding-styles
   similarity: 0.75
-- slug: code-duplication
+- slug: inconsistent-naming-conventions
   similarity: 0.7
-- slug: difficult-to-understand-code
+- slug: difficult-code-reuse
   similarity: 0.7
 solutions:
 - static-analysis-and-linting

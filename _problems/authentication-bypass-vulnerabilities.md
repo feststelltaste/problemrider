@@ -9,15 +9,15 @@ related_problems:
 - slug: authorization-flaws
   similarity: 0.75
 - slug: password-security-weaknesses
-  similarity: 0.6
-- slug: session-management-issues
-  similarity: 0.6
-- slug: error-message-information-disclosure
-  similarity: 0.6
+  similarity: 0.55
+- slug: insufficient-audit-logging
+  similarity: 0.55
+- slug: log-injection-vulnerabilities
+  similarity: 0.55
+- slug: buffer-overflow-vulnerabilities
+  similarity: 0.5
 - slug: cross-site-scripting-vulnerabilities
-  similarity: 0.55
-- slug: sql-injection-vulnerabilities
-  similarity: 0.55
+  similarity: 0.5
 solutions:
 - secret-management
 - security-hardening-process

@@ -13,6 +13,7 @@ problems:
 - integer-overflow-underflow
 - null-pointer-dereferences
 - race-conditions
+- stringly-typed-code
 layout: solution
 related_solutions:
 - slug: mutation-testing

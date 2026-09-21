@@ -6,17 +6,17 @@ category:
 - Business
 - Requirements
 related_problems:
-- slug: difficult-developer-onboarding
+- slug: inconsistent-onboarding-experience
   similarity: 0.7
 - slug: poor-user-experience-ux-design
-  similarity: 0.7
-- slug: inconsistent-onboarding-experience
   similarity: 0.65
-- slug: inadequate-error-handling
+- slug: negative-user-feedback
   similarity: 0.6
-- slug: new-hire-frustration
+- slug: user-confusion
   similarity: 0.6
-- slug: inadequate-mentoring-structure
+- slug: difficult-developer-onboarding
+  similarity: 0.6
+- slug: user-frustration
   similarity: 0.6
 solutions:
 - documentation-as-code

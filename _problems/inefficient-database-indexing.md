@@ -8,13 +8,13 @@ category:
 related_problems:
 - slug: incorrect-index-type
   similarity: 0.85
-- slug: slow-database-queries
-  similarity: 0.8
 - slug: queries-that-prevent-index-usage
+  similarity: 0.75
+- slug: unused-indexes
   similarity: 0.75
 - slug: database-query-performance-issues
   similarity: 0.7
-- slug: high-number-of-database-queries
+- slug: lazy-loading
   similarity: 0.7
 - slug: index-fragmentation
   similarity: 0.7

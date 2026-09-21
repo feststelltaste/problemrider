@@ -6,17 +6,17 @@ category:
 - Process
 related_problems:
 - slug: poor-planning
-  similarity: 0.75
-- slug: delayed-project-timelines
-  similarity: 0.7
+  similarity: 0.8
 - slug: planning-credibility-issues
-  similarity: 0.65
-- slug: project-resource-constraints
+  similarity: 0.7
+- slug: unrealistic-schedule
   similarity: 0.65
 - slug: reduced-predictability
-  similarity: 0.65
-- slug: poor-project-control
   similarity: 0.6
+- slug: delayed-project-timelines
+  similarity: 0.6
+- slug: missed-deadlines
+  similarity: 0.55
 solutions:
 - evolutionary-requirements-development
 - iterative-development

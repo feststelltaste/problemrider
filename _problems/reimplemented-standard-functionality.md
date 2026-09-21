@@ -8,18 +8,18 @@ category:
 - Process
 - Business
 related_problems:
-- slug: excessive-customization
-  similarity: 0.7
-- slug: process-software-misfit
-  similarity: 0.65
 - slug: implementation-rework
   similarity: 0.65
+- slug: excessive-customization
+  similarity: 0.6
 - slug: core-modification-of-standard-software
-  similarity: 0.65
+  similarity: 0.55
 - slug: customization-outside-version-control
-  similarity: 0.6
-- slug: implementation-partner-dependency
-  similarity: 0.6
+  similarity: 0.55
+- slug: process-software-misfit
+  similarity: 0.55
+- slug: convenience-driven-development
+  similarity: 0.55
 solutions:
 - fit-to-standard-principle
 - functional-gap-analysis

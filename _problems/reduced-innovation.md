@@ -10,14 +10,14 @@ related_problems:
 - slug: inability-to-innovate
   similarity: 0.8
 - slug: resistance-to-change
-  similarity: 0.7
-- slug: fear-of-failure
-  similarity: 0.7
-- slug: reduced-team-productivity
   similarity: 0.65
-- slug: maintenance-paralysis
+- slug: fear-of-failure
+  similarity: 0.65
+- slug: reduced-team-flexibility
   similarity: 0.6
-- slug: history-of-failed-changes
+- slug: reduced-team-productivity
+  similarity: 0.6
+- slug: maintenance-paralysis
   similarity: 0.6
 solutions:
 - impact-mapping

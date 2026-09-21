@@ -7,18 +7,18 @@ category:
 - Communication
 - Process
 related_problems:
-- slug: reduced-code-submission-frequency
-  similarity: 0.75
 - slug: rushed-approvals
-  similarity: 0.75
-- slug: extended-review-cycles
-  similarity: 0.75
+  similarity: 0.65
+- slug: review-bottlenecks
+  similarity: 0.6
+- slug: large-feature-scope
+  similarity: 0.6
+- slug: reduced-code-submission-frequency
+  similarity: 0.6
 - slug: inadequate-code-reviews
-  similarity: 0.7
-- slug: code-review-inefficiency
-  similarity: 0.7
-- slug: review-process-breakdown
-  similarity: 0.7
+  similarity: 0.55
+- slug: excessive-class-size
+  similarity: 0.55
 solutions:
 - code-review-process-reform
 - trunk-based-development

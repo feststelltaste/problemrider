@@ -9,15 +9,15 @@ related_problems:
 - slug: stakeholder-frustration
   similarity: 0.85
 - slug: stakeholder-confidence-loss
-  similarity: 0.7
-- slug: customer-dissatisfaction
-  similarity: 0.65
+  similarity: 0.75
 - slug: eager-to-please-stakeholders
-  similarity: 0.65
-- slug: declining-business-metrics
-  similarity: 0.6
+  similarity: 0.7
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.7
 - slug: communication-risk-outside-project
-  similarity: 0.6
+  similarity: 0.65
+- slug: misaligned-deliverables
+  similarity: 0.65
 solutions:
 - continuous-feedback
 - product-owner

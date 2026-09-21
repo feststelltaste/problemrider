@@ -6,17 +6,17 @@ category:
 - Communication
 - Process
 related_problems:
-- slug: feedback-isolation
-  similarity: 0.8
 - slug: stakeholder-developer-communication-gap
   similarity: 0.7
+- slug: feedback-isolation
+  similarity: 0.65
 - slug: misaligned-deliverables
-  similarity: 0.7
+  similarity: 0.6
 - slug: team-members-not-engaged-in-review-process
   similarity: 0.6
-- slug: work-blocking
+- slug: slow-feature-development
   similarity: 0.6
-- slug: feature-gaps
+- slug: development-disruption
   similarity: 0.6
 solutions:
 - continuous-feedback

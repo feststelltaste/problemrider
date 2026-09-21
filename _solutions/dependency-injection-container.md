@@ -12,6 +12,7 @@ problems:
 - global-state-and-side-effects
 - god-object-anti-pattern
 - maintenance-overhead
+- dynamic-connascence
 layout: solution
 related_solutions:
 - slug: dependency-injection

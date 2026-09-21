@@ -7,16 +7,16 @@ category:
 - Code
 related_problems:
 - slug: god-object-anti-pattern
-  similarity: 0.8
-- slug: excessive-class-size
-  similarity: 0.7
+  similarity: 0.75
 - slug: poorly-defined-responsibilities
   similarity: 0.7
 - slug: monolithic-architecture-constraints
   similarity: 0.7
-- slug: bloated-class
+- slug: excessive-class-size
   similarity: 0.65
-- slug: code-duplication
+- slug: over-reliance-on-utility-classes
+  similarity: 0.6
+- slug: bloated-class
   similarity: 0.6
 solutions:
 - incremental-refactoring

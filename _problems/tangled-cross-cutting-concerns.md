@@ -6,17 +6,17 @@ category:
 - Architecture
 - Code
 related_problems:
+- slug: spaghetti-code
+  similarity: 0.6
+- slug: complex-and-obscure-logic
+  similarity: 0.6
 - slug: tight-coupling-issues
   similarity: 0.6
-- slug: deployment-coupling
+- slug: team-coordination-issues
   similarity: 0.6
-- slug: mixed-coding-styles
+- slug: poorly-defined-responsibilities
   similarity: 0.55
-- slug: spaghetti-code
-  similarity: 0.55
-- slug: difficult-code-reuse
-  similarity: 0.55
-- slug: high-coupling-low-cohesion
+- slug: circular-dependency-problems
   similarity: 0.55
 solutions:
 - incremental-refactoring

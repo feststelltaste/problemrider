@@ -8,17 +8,13 @@ category:
 - Testing
 related_problems:
 - slug: poor-caching-strategy
-  similarity: 0.7
+  similarity: 0.65
 - slug: data-structure-cache-inefficiency
-  similarity: 0.6
-- slug: n-plus-one-query-problem
   similarity: 0.55
-- slug: inconsistent-behavior
+- slug: synchronization-problems
   similarity: 0.55
-- slug: dma-coherency-issues
-  similarity: 0.55
-- slug: unbounded-data-growth
-  similarity: 0.55
+- slug: cross-system-data-synchronization-problems
+  similarity: 0.5
 solutions:
 - caching-strategy
 - distributed-caching

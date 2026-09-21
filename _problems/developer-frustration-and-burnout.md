@@ -7,18 +7,18 @@ category:
 - Management
 - Team
 related_problems:
-- slug: mental-fatigue
-  similarity: 0.75
-- slug: lower-code-quality
-  similarity: 0.75
-- slug: author-frustration
-  similarity: 0.7
-- slug: new-hire-frustration
-  similarity: 0.7
 - slug: increased-stress-and-burnout
   similarity: 0.7
 - slug: mentor-burnout
-  similarity: 0.7
+  similarity: 0.65
+- slug: mental-fatigue
+  similarity: 0.65
+- slug: new-hire-frustration
+  similarity: 0.6
+- slug: development-disruption
+  similarity: 0.6
+- slug: team-demoralization
+  similarity: 0.6
 solutions:
 - blameless-postmortems
 - on-call-duty

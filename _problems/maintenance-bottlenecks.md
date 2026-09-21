@@ -9,15 +9,15 @@ category:
 related_problems:
 - slug: bottleneck-formation
   similarity: 0.75
-- slug: review-bottlenecks
+- slug: maintenance-paralysis
   similarity: 0.7
+- slug: legacy-skill-shortage
+  similarity: 0.65
 - slug: single-points-of-failure
   similarity: 0.65
-- slug: maintenance-paralysis
+- slug: review-bottlenecks
   similarity: 0.65
-- slug: work-queue-buildup
-  similarity: 0.65
-- slug: work-blocking
+- slug: maintenance-overhead
   similarity: 0.65
 solutions:
 - architecture-roadmap

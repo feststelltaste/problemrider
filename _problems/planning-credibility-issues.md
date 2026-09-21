@@ -7,17 +7,17 @@ category:
 - Management
 - Process
 related_problems:
+- slug: poor-planning
+  similarity: 0.7
 - slug: stakeholder-confidence-loss
   similarity: 0.7
 - slug: planning-dysfunction
-  similarity: 0.65
+  similarity: 0.7
 - slug: reduced-predictability
   similarity: 0.65
-- slug: poor-planning
-  similarity: 0.65
-- slug: missed-deadlines
+- slug: eager-to-please-stakeholders
   similarity: 0.6
-- slug: stakeholder-frustration
+- slug: unrealistic-schedule
   similarity: 0.6
 solutions:
 - iterative-development

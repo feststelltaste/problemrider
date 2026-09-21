@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: insufficient-testing
   similarity: 0.7
-- slug: high-defect-rate-in-production
+- slug: inadequate-test-infrastructure
   similarity: 0.65
-- slug: incomplete-projects
+- slug: outdated-tests
+  similarity: 0.65
+- slug: testing-complexity
   similarity: 0.6
-- slug: gold-plating
+- slug: testing-environment-fragility
   similarity: 0.6
-- slug: misunderstanding-of-oop
-  similarity: 0.6
-- slug: inconsistent-behavior
+- slug: legacy-code-without-tests
   similarity: 0.6
 solutions:
 - test-coverage-strategy

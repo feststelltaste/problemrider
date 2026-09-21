@@ -8,16 +8,16 @@ category:
 - Performance
 related_problems:
 - slug: ripple-effect-of-changes
-  similarity: 0.7
-- slug: cascade-delays
   similarity: 0.65
-- slug: change-management-chaos
-  similarity: 0.65
-- slug: configuration-chaos
-  similarity: 0.65
-- slug: system-outages
+- slug: single-points-of-failure
   similarity: 0.65
 - slug: tight-coupling-issues
+  similarity: 0.65
+- slug: cascade-delays
+  similarity: 0.6
+- slug: change-management-chaos
+  similarity: 0.6
+- slug: system-integration-blindness
   similarity: 0.6
 solutions:
 - backpressure

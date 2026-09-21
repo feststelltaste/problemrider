@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: fear-of-change
-  similarity: 0.8
+  similarity: 0.85
 - slug: resistance-to-change
-  similarity: 0.75
-- slug: maintenance-paralysis
-  similarity: 0.7
-- slug: brittle-codebase
-  similarity: 0.7
-- slug: refactoring-avoidance
   similarity: 0.7
 - slug: fear-of-failure
   similarity: 0.7
+- slug: history-of-failed-changes
+  similarity: 0.65
+- slug: maintenance-paralysis
+  similarity: 0.65
+- slug: refactoring-avoidance
+  similarity: 0.65
 solutions:
 - blue-green-canary-deployments
 - feature-flags
@@ -78,6 +78,8 @@ Fear of breaking changes is a common problem in software development. It is the 
 <br/>  Tightly coupled code means changes in one area frequently affect other areas, making it genuinely risky to modify the system.
 - [Poor Test Coverage](poor-test-coverage.md)
 <br/>  Without sufficient test coverage, developers cannot verify their changes are safe, reinforcing the fear of making modifications.
+- [Dynamic Connascence](dynamic-connascence.md)
+<br/>  Once a team has been burned by a rename that silently broke a runtime-only naming contract, they become reluctant to rename or move anything near reflective or convention-based code.
 
 ## Detection Methods ○
 - **Code Churn:** Analyze the history of the codebase to see how often the code is being changed.

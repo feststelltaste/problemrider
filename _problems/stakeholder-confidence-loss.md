@@ -10,13 +10,13 @@ related_problems:
 - slug: stakeholder-frustration
   similarity: 0.75
 - slug: stakeholder-dissatisfaction
-  similarity: 0.7
+  similarity: 0.75
 - slug: planning-credibility-issues
   similarity: 0.7
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.65
 - slug: declining-business-metrics
   similarity: 0.65
-- slug: eager-to-please-stakeholders
-  similarity: 0.6
 - slug: misaligned-deliverables
   similarity: 0.6
 solutions:

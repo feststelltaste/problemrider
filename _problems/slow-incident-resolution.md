@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: delayed-issue-resolution
-  similarity: 0.7
+  similarity: 0.65
 - slug: delayed-bug-fixes
-  similarity: 0.65
+  similarity: 0.6
 - slug: system-outages
-  similarity: 0.65
-- slug: monitoring-gaps
-  similarity: 0.65
-- slug: slow-development-velocity
   similarity: 0.6
-- slug: customer-dissatisfaction
+- slug: slow-application-performance
   similarity: 0.6
+- slug: maintenance-bottlenecks
+  similarity: 0.55
+- slug: external-service-delays
+  similarity: 0.55
 solutions:
 - observability-and-monitoring
 - chaos-engineering

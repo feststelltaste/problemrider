@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: inexperienced-developers
   similarity: 0.7
+- slug: misunderstanding-of-oop
+  similarity: 0.7
 - slug: insufficient-testing
-  similarity: 0.65
-- slug: insufficient-code-review
-  similarity: 0.65
-- slug: inappropriate-skillset
-  similarity: 0.65
+  similarity: 0.7
+- slug: inconsistent-codebase
+  similarity: 0.7
 - slug: incomplete-knowledge
   similarity: 0.65
-- slug: skill-development-gaps
+- slug: difficult-code-reuse
   similarity: 0.65
 solutions:
 - architecture-reviews

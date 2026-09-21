@@ -20,6 +20,7 @@ problems:
 - insufficient-design-skills
 - procedural-programming-in-oop-languages
 - entity-attribute-value-overuse
+- stringly-typed-code
 layout: solution
 related_solutions:
 - slug: domain-modeling

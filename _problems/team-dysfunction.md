@@ -9,15 +9,15 @@ related_problems:
 - slug: poor-teamwork
   similarity: 0.75
 - slug: team-confusion
-  similarity: 0.7
-- slug: communication-breakdown
-  similarity: 0.7
-- slug: poor-communication
-  similarity: 0.65
+  similarity: 0.75
 - slug: team-coordination-issues
+  similarity: 0.75
+- slug: team-demoralization
   similarity: 0.65
-- slug: duplicated-work
+- slug: reduced-team-productivity
   similarity: 0.65
+- slug: team-silos
+  similarity: 0.6
 solutions:
 - blameless-postmortems
 - team-working-agreements

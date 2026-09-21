@@ -5,17 +5,17 @@ description: A situation where a codebase grows in size and complexity without a
 category:
 - Code
 related_problems:
-- slug: feature-creep-without-refactoring
-  similarity: 0.7
-- slug: feature-creep
-  similarity: 0.7
-- slug: unbounded-data-growth
-  similarity: 0.65
 - slug: brittle-codebase
+  similarity: 0.65
+- slug: spaghetti-code
   similarity: 0.6
 - slug: rapid-team-growth
   similarity: 0.6
-- slug: large-feature-scope
+- slug: monolithic-architecture-constraints
+  similarity: 0.6
+- slug: unbounded-data-growth
+  similarity: 0.6
+- slug: inconsistent-codebase
   similarity: 0.6
 solutions:
 - architecture-reviews

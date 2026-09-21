@@ -8,17 +8,17 @@ category:
 - Team
 related_problems:
 - slug: fear-of-failure
-  similarity: 0.65
-- slug: micromanagement-culture
-  similarity: 0.65
-- slug: workaround-culture
-  similarity: 0.6
-- slug: history-of-failed-changes
-  similarity: 0.6
+  similarity: 0.55
 - slug: perfectionist-review-culture
-  similarity: 0.6
+  similarity: 0.55
 - slug: perfectionist-culture
-  similarity: 0.6
+  similarity: 0.5
+- slug: history-of-failed-changes
+  similarity: 0.5
+- slug: individual-recognition-culture
+  similarity: 0.5
+- slug: workaround-culture
+  similarity: 0.5
 solutions:
 - blameless-postmortems
 - security-culture

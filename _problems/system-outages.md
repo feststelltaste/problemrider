@@ -7,18 +7,18 @@ category:
 - Code
 - Operations
 related_problems:
-- slug: service-timeouts
-  similarity: 0.65
 - slug: slow-incident-resolution
-  similarity: 0.65
-- slug: customer-dissatisfaction
-  similarity: 0.65
-- slug: increased-error-rates
-  similarity: 0.65
-- slug: cascade-failures
-  similarity: 0.65
+  similarity: 0.6
+- slug: service-discovery-failures
+  similarity: 0.6
 - slug: user-frustration
-  similarity: 0.65
+  similarity: 0.6
+- slug: customer-dissatisfaction
+  similarity: 0.6
+- slug: cascade-failures
+  similarity: 0.6
+- slug: poor-system-environment
+  similarity: 0.55
 solutions:
 - blue-green-canary-deployments
 - observability-and-monitoring

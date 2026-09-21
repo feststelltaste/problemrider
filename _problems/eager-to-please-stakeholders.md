@@ -7,18 +7,18 @@ category:
 - Communication
 - Process
 related_problems:
-- slug: stakeholder-frustration
-  similarity: 0.65
 - slug: stakeholder-dissatisfaction
+  similarity: 0.7
+- slug: stakeholder-frustration
+  similarity: 0.7
+- slug: constantly-shifting-deadlines
   similarity: 0.65
-- slug: product-direction-chaos
-  similarity: 0.6
-- slug: stakeholder-confidence-loss
-  similarity: 0.6
-- slug: planning-credibility-issues
-  similarity: 0.6
-- slug: unclear-goals-and-priorities
-  similarity: 0.6
+- slug: budget-overruns
+  similarity: 0.65
+- slug: communication-risk-outside-project
+  similarity: 0.65
+- slug: stakeholder-developer-communication-gap
+  similarity: 0.65
 solutions:
 - evolutionary-requirements-development
 - formal-change-control-process

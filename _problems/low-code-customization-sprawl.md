@@ -7,18 +7,18 @@ category:
 - Process
 - Architecture
 related_problems:
-- slug: customization-outside-version-control
-  similarity: 0.65
-- slug: custom-report-sprawl
-  similarity: 0.65
-- slug: excessive-customization
-  similarity: 0.65
 - slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.65
+- slug: complex-and-obscure-logic
   similarity: 0.6
-- slug: accumulation-of-workarounds
+- slug: custom-report-sprawl
   similarity: 0.6
-- slug: reimplemented-standard-functionality
+- slug: customization-outside-version-control
   similarity: 0.6
+- slug: spaghetti-code
+  similarity: 0.6
+- slug: brittle-codebase
+  similarity: 0.55
 solutions:
 - customization-under-version-control
 - duplication-detection

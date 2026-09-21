@@ -6,17 +6,17 @@ category:
 - Code
 related_problems:
 - slug: high-bug-introduction-rate
-  similarity: 0.75
+  similarity: 0.7
 - slug: increased-bug-count
-  similarity: 0.7
+  similarity: 0.65
 - slug: increased-cost-of-development
-  similarity: 0.7
-- slug: debugging-difficulties
-  similarity: 0.65
-- slug: lower-code-quality
-  similarity: 0.65
+  similarity: 0.6
+- slug: difficult-to-understand-code
+  similarity: 0.6
 - slug: fear-of-change
-  similarity: 0.65
+  similarity: 0.6
+- slug: brittle-codebase
+  similarity: 0.6
 solutions:
 - contract-testing
 - development-workflow-automation
@@ -72,6 +72,8 @@ Increased risk of bugs occurs when the structure, complexity, or clarity of code
 <br/>  Developers lacking experience are more likely to introduce defects through misunderstanding of code or business logic.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Layered workarounds create unexpected interactions and edge cases between old and new logic paths, making it more likely that changes introduce bugs.
+- [Stringly Typed Code](stringly-typed-code.md)
+<br/>  Without a compiler-checked set of valid values, typos and unhandled cases in string comparisons slip through and surface as runtime defects.
 
 ## Detection Methods ○
 - **Bug Pattern Analysis:** Track which areas of code or types of changes are most likely to introduce bugs

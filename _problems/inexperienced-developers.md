@@ -7,18 +7,18 @@ category:
 - Communication
 - Process
 related_problems:
-- slug: difficult-developer-onboarding
-  similarity: 0.75
 - slug: reviewer-inexperience
   similarity: 0.75
 - slug: insufficient-design-skills
   similarity: 0.7
-- slug: inadequate-mentoring-structure
+- slug: incomplete-knowledge
   similarity: 0.7
-- slug: knowledge-gaps
+- slug: inability-to-innovate
   similarity: 0.65
-- slug: inappropriate-skillset
-  similarity: 0.65
+- slug: inconsistent-knowledge-acquisition
+  similarity: 0.6
+- slug: difficult-developer-onboarding
+  similarity: 0.6
 solutions:
 - pair-and-mob-programming
 - structured-onboarding-program
@@ -64,6 +64,10 @@ Inexperienced developers refers to a situation where team members lack the knowl
 <br/>  Developers unfamiliar with concurrent programming nuances may overuse atomic operations without understanding their performance cost.
 - [Authentication Bypass Vulnerabilities](authentication-bypass-vulnerabilities.md)
 <br/>  Developers without security expertise often implement custom authentication logic with subtle flaws that allow it to be bypassed.
+- [Stringly Typed Code](stringly-typed-code.md)
+<br/>  Developers unfamiliar with typed alternatives to raw strings don't recognize the long-term cost of skipping them.
+- [Dynamic Connascence](dynamic-connascence.md)
+<br/>  Developers unfamiliar with a framework's convention-over-configuration magic don't recognize that they are creating an implicit runtime contract at all.
 
 ## Causes ▼
 

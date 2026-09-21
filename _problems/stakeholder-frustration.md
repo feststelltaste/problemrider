@@ -11,14 +11,14 @@ related_problems:
   similarity: 0.85
 - slug: stakeholder-confidence-loss
   similarity: 0.75
-- slug: author-frustration
+- slug: eager-to-please-stakeholders
+  similarity: 0.7
+- slug: stakeholder-developer-communication-gap
   similarity: 0.65
 - slug: user-frustration
   similarity: 0.65
-- slug: eager-to-please-stakeholders
-  similarity: 0.65
-- slug: customer-dissatisfaction
-  similarity: 0.65
+- slug: author-frustration
+  similarity: 0.6
 solutions:
 - continuous-feedback
 - evolutionary-requirements-development

@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: resistance-to-change
-  similarity: 0.75
-- slug: maintenance-paralysis
-  similarity: 0.75
+  similarity: 0.7
 - slug: fear-of-change
-  similarity: 0.75
-- slug: feature-creep-without-refactoring
+  similarity: 0.7
+- slug: maintenance-paralysis
   similarity: 0.7
 - slug: fear-of-breaking-changes
-  similarity: 0.7
-- slug: brittle-codebase
   similarity: 0.65
+- slug: high-technical-debt
+  similarity: 0.6
+- slug: brittle-codebase
+  similarity: 0.6
 solutions:
 - incremental-refactoring
 - technical-debt-backlog

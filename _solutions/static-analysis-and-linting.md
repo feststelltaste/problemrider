@@ -31,6 +31,8 @@ problems:
 - race-conditions
 - deadlock-conditions
 - log-injection-vulnerabilities
+- dynamic-connascence
+- stringly-typed-code
 layout: solution
 related_solutions:
 - slug: code-metrics

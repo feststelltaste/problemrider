@@ -19,6 +19,8 @@ problems:
 - imperative-data-fetching-logic
 - high-technical-debt
 - data-migration-integrity-issues
+- dynamic-connascence
+- stringly-typed-code
 layout: solution
 related_solutions:
 - slug: attribute-usage-analysis

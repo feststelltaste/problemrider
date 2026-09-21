@@ -24,6 +24,7 @@ problems:
 - core-modification-of-standard-software
 - upgrade-blocked-by-customization
 - voided-vendor-support
+- dynamic-connascence
 layout: solution
 related_solutions:
 - slug: variant-consolidation

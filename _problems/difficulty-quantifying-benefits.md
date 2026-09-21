@@ -7,17 +7,17 @@ category:
 - Process
 - Testing
 related_problems:
-- slug: modernization-roi-justification-failure
-  similarity: 0.65
 - slug: invisible-nature-of-technical-debt
   similarity: 0.65
+- slug: modernization-roi-justification-failure
+  similarity: 0.65
+- slug: short-term-focus
+  similarity: 0.55
+- slug: maintenance-paralysis
+  similarity: 0.55
 - slug: complex-implementation-paths
   similarity: 0.55
-- slug: resistance-to-change
-  similarity: 0.55
-- slug: high-technical-debt
-  similarity: 0.55
-- slug: increased-cost-of-development
+- slug: complex-and-obscure-logic
   similarity: 0.55
 solutions:
 - technical-debt-backlog

@@ -6,18 +6,16 @@ category:
 - Architecture
 - Performance
 related_problems:
-- slug: service-timeouts
-  similarity: 0.6
-- slug: external-service-delays
-  similarity: 0.6
-- slug: network-latency
-  similarity: 0.6
-- slug: high-api-latency
-  similarity: 0.6
-- slug: serialization-deserialization-bottlenecks
-  similarity: 0.6
-- slug: service-discovery-failures
+- slug: interrupt-overhead
   similarity: 0.55
+- slug: service-discovery-failures
+  similarity: 0.5
+- slug: endianness-conversion-overhead
+  similarity: 0.5
+- slug: atomic-operation-overhead
+  similarity: 0.5
+- slug: upstream-timeouts
+  similarity: 0.5
 solutions:
 - api-first-design
 - caching-strategy

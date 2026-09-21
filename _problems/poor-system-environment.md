@@ -5,17 +5,17 @@ description: The system is deployed in an unstable, misconfigured, or unsuitable
 category:
 - Operations
 related_problems:
-- slug: testing-environment-fragility
-  similarity: 0.65
-- slug: environment-variable-issues
-  similarity: 0.65
+- slug: deployment-environment-inconsistencies
+  similarity: 0.7
 - slug: configuration-chaos
   similarity: 0.65
 - slug: inefficient-development-environment
   similarity: 0.65
-- slug: deployment-environment-inconsistencies
-  similarity: 0.65
-- slug: system-outages
+- slug: poor-operational-concept
+  similarity: 0.6
+- slug: inconsistent-quality
+  similarity: 0.6
+- slug: environment-variable-issues
   similarity: 0.6
 solutions:
 - infrastructure-as-code

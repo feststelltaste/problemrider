@@ -7,17 +7,17 @@ category:
 - Code
 - Performance
 related_problems:
-- slug: false-sharing
-  similarity: 0.6
 - slug: memory-barrier-inefficiency
+  similarity: 0.65
+- slug: interrupt-overhead
   similarity: 0.6
+- slug: false-sharing
+  similarity: 0.55
 - slug: lock-contention
   similarity: 0.55
-- slug: interrupt-overhead
+- slug: maintenance-bottlenecks
   similarity: 0.55
-- slug: microservice-communication-overhead
-  similarity: 0.55
-- slug: algorithmic-complexity-problems
+- slug: operational-overhead
   similarity: 0.5
 solutions:
 - profiling

@@ -36,6 +36,7 @@ problems:
 - entity-attribute-value-overuse
 - core-modification-of-standard-software
 - upgrade-blocked-by-customization
+- dynamic-connascence
 layout: solution
 related_solutions:
 - slug: test-coverage-strategy

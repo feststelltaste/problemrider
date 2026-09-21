@@ -15,6 +15,7 @@ problems:
 - communication-risk-outside-project
 - poor-contract-design
 - rapid-system-changes
+- dynamic-connascence
 layout: solution
 related_solutions:
 - slug: contract-testing

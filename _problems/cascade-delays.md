@@ -8,17 +8,17 @@ category:
 - Process
 related_problems:
 - slug: delayed-project-timelines
-  similarity: 0.75
-- slug: approval-dependencies
   similarity: 0.7
 - slug: missed-deadlines
-  similarity: 0.7
+  similarity: 0.65
+- slug: constantly-shifting-deadlines
+  similarity: 0.6
 - slug: cascade-failures
-  similarity: 0.65
-- slug: extended-cycle-times
-  similarity: 0.65
+  similarity: 0.6
 - slug: delayed-decision-making
-  similarity: 0.65
+  similarity: 0.6
+- slug: approval-dependencies
+  similarity: 0.6
 solutions:
 - iterative-development
 - short-iteration-cycles

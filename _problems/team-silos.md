@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: knowledge-silos
-  similarity: 0.75
-- slug: poor-communication
-  similarity: 0.7
-- slug: incomplete-knowledge
-  similarity: 0.7
-- slug: team-coordination-issues
   similarity: 0.7
 - slug: communication-breakdown
   similarity: 0.7
-- slug: knowledge-gaps
+- slug: poor-communication
   similarity: 0.65
+- slug: team-coordination-issues
+  similarity: 0.65
+- slug: knowledge-sharing-breakdown
+  similarity: 0.65
+- slug: team-dysfunction
+  similarity: 0.6
 solutions:
 - knowledge-sharing-practices
 - architecture-workshops

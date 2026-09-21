@@ -6,17 +6,17 @@ category:
 - Code
 - Process
 related_problems:
+- slug: technology-stack-fragmentation
+  similarity: 0.7
 - slug: technology-isolation
   similarity: 0.7
 - slug: legacy-skill-shortage
   similarity: 0.65
-- slug: technology-stack-fragmentation
-  similarity: 0.65
 - slug: system-stagnation
   similarity: 0.6
-- slug: vendor-dependency-entrapment
+- slug: legacy-api-versioning-nightmare
   similarity: 0.6
-- slug: stagnant-architecture
+- slug: premature-technology-introduction
   similarity: 0.6
 solutions:
 - dependency-management-strategy

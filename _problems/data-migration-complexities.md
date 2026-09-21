@@ -10,14 +10,14 @@ related_problems:
 - slug: data-migration-integrity-issues
   similarity: 0.7
 - slug: cross-system-data-synchronization-problems
-  similarity: 0.7
-- slug: deployment-risk
   similarity: 0.65
-- slug: complex-deployment-process
-  similarity: 0.6
-- slug: legacy-business-logic-extraction-difficulty
+- slug: deployment-risk
   similarity: 0.55
-- slug: schema-evolution-paralysis
+- slug: complex-deployment-process
+  similarity: 0.55
+- slug: complex-and-obscure-logic
+  similarity: 0.55
+- slug: complex-implementation-paths
   similarity: 0.55
 solutions:
 - evolutionary-database-design

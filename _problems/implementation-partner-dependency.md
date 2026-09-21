@@ -8,17 +8,17 @@ category:
 - Management
 related_problems:
 - slug: dependency-on-supplier
-  similarity: 0.7
+  similarity: 0.65
 - slug: vendor-dependency
-  similarity: 0.7
-- slug: vendor-dependency-entrapment
-  similarity: 0.7
-- slug: knowledge-dependency
-  similarity: 0.65
-- slug: vendor-lock-in
-  similarity: 0.65
-- slug: reimplemented-standard-functionality
   similarity: 0.6
+- slug: vendor-dependency-entrapment
+  similarity: 0.6
+- slug: knowledge-dependency
+  similarity: 0.6
+- slug: hidden-dependencies
+  similarity: 0.55
+- slug: customization-outside-version-control
+  similarity: 0.55
 solutions:
 - vendor-management-practice
 - knowledge-rotation

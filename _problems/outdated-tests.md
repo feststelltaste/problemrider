@@ -6,18 +6,18 @@ category:
 - Code
 - Testing
 related_problems:
-- slug: flaky-tests
-  similarity: 0.65
 - slug: legacy-code-without-tests
   similarity: 0.65
-- slug: testing-environment-fragility
+- slug: inadequate-test-data-management
+  similarity: 0.65
+- slug: flaky-tests
   similarity: 0.6
 - slug: test-debt
   similarity: 0.6
-- slug: information-decay
+- slug: testing-complexity
   similarity: 0.6
-- slug: poor-test-coverage
-  similarity: 0.6
+- slug: quality-blind-spots
+  similarity: 0.55
 solutions:
 - test-coverage-strategy
 - mutation-testing

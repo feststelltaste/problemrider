@@ -10,15 +10,15 @@ related_problems:
 - slug: inadequate-integration-tests
   similarity: 0.65
 - slug: quality-blind-spots
-  similarity: 0.65
-- slug: poor-test-coverage
-  similarity: 0.6
-- slug: system-integration-blindness
   similarity: 0.6
 - slug: inadequate-test-infrastructure
-  similarity: 0.6
-- slug: testing-environment-fragility
-  similarity: 0.6
+  similarity: 0.55
+- slug: incomplete-projects
+  similarity: 0.55
+- slug: feature-gaps
+  similarity: 0.55
+- slug: poor-test-coverage
+  similarity: 0.55
 solutions:
 - test-coverage-strategy
 - acceptance-tests

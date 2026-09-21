@@ -9,16 +9,16 @@ category:
 related_problems:
 - slug: missing-rollback-strategy
   similarity: 0.8
-- slug: large-risky-releases
-  similarity: 0.75
-- slug: complex-deployment-process
-  similarity: 0.75
 - slug: manual-deployment-processes
   similarity: 0.7
+- slug: complex-deployment-process
+  similarity: 0.7
+- slug: large-risky-releases
+  similarity: 0.65
 - slug: immature-delivery-strategy
-  similarity: 0.65
-- slug: history-of-failed-changes
-  similarity: 0.65
+  similarity: 0.6
+- slug: deployment-coupling
+  similarity: 0.6
 solutions:
 - blue-green-canary-deployments
 - ci-cd-pipeline

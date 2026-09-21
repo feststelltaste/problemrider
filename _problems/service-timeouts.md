@@ -8,16 +8,16 @@ category:
 related_problems:
 - slug: upstream-timeouts
   similarity: 0.9
+- slug: high-connection-count
+  similarity: 0.65
 - slug: external-service-delays
-  similarity: 0.8
+  similarity: 0.6
 - slug: high-api-latency
-  similarity: 0.8
+  similarity: 0.6
 - slug: network-latency
-  similarity: 0.7
-- slug: system-outages
-  similarity: 0.65
-- slug: service-discovery-failures
-  similarity: 0.65
+  similarity: 0.6
+- slug: increased-error-rates
+  similarity: 0.6
 solutions:
 - blue-green-canary-deployments
 - event-driven-architecture

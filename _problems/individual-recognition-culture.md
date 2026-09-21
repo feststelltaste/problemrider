@@ -9,14 +9,12 @@ related_problems:
 - slug: micromanagement-culture
   similarity: 0.6
 - slug: blame-culture
-  similarity: 0.6
-- slug: perfectionist-review-culture
-  similarity: 0.55
-- slug: perfectionist-culture
-  similarity: 0.55
-- slug: knowledge-silos
   similarity: 0.5
 - slug: poor-teamwork
+  similarity: 0.5
+- slug: knowledge-silos
+  similarity: 0.5
+- slug: team-dysfunction
   similarity: 0.5
 solutions:
 - psychological-safety-practices

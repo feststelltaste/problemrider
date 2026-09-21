@@ -13,6 +13,7 @@ problems:
 - integration-difficulties
 - cross-system-data-synchronization-problems
 - shared-dependencies
+- dynamic-connascence
 layout: solution
 related_solutions:
 - slug: semantic-versioning

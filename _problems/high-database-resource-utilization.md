@@ -6,17 +6,17 @@ category:
 - Code
 - Performance
 related_problems:
+- slug: high-resource-utilization-on-client
+  similarity: 0.75
+- slug: high-client-side-resource-consumption
+  similarity: 0.75
 - slug: slow-database-queries
-  similarity: 0.8
-- slug: high-connection-count
-  similarity: 0.75
-- slug: excessive-disk-io
-  similarity: 0.75
+  similarity: 0.7
 - slug: high-number-of-database-queries
   similarity: 0.7
-- slug: misconfigured-connection-pools
+- slug: database-query-performance-issues
   similarity: 0.7
-- slug: high-api-latency
+- slug: high-connection-count
   similarity: 0.7
 solutions:
 - query-optimization-process

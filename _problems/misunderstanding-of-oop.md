@@ -7,18 +7,18 @@ category:
 - Architecture
 - Team
 related_problems:
-- slug: over-reliance-on-utility-classes
-  similarity: 0.75
 - slug: procedural-background
+  similarity: 0.75
+- slug: over-reliance-on-utility-classes
   similarity: 0.7
-- slug: inefficient-code
-  similarity: 0.65
 - slug: insufficient-design-skills
-  similarity: 0.6
-- slug: poor-encapsulation
-  similarity: 0.6
+  similarity: 0.7
+- slug: difficult-code-comprehension
+  similarity: 0.65
 - slug: difficult-code-reuse
-  similarity: 0.6
+  similarity: 0.65
+- slug: procedural-programming-in-oop-languages
+  similarity: 0.65
 solutions:
 - architecture-reviews
 - clean-code
@@ -54,6 +54,8 @@ A misunderstanding of object-oriented programming (OOP) is a common problem in t
 <br/>  Poor OOP design leads to rigid structures that cannot be extended properly, forcing developers to create workarounds instead.
 - [Spaghetti Code](spaghetti-code.md)
 <br/>  Misunderstanding encapsulation and proper object design leads to tangled, unstructured code with unclear control flow.
+- [Stringly Typed Code](stringly-typed-code.md)
+<br/>  Developers who don't reach for value objects or enums as a modeling tool default to the primitive type that happens to be convenient, which is usually a string.
 
 ## Causes ▼
 

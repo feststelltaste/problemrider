@@ -9,16 +9,16 @@ category:
 related_problems:
 - slug: core-modification-of-standard-software
   similarity: 0.65
-- slug: vendor-dependency-entrapment
-  similarity: 0.65
 - slug: upgrade-blocked-by-customization
+  similarity: 0.6
+- slug: vendor-dependency-entrapment
   similarity: 0.6
 - slug: reimplemented-standard-functionality
   similarity: 0.55
+- slug: vendor-dependency
+  similarity: 0.55
 - slug: implementation-partner-dependency
-  similarity: 0.55
-- slug: excessive-customization
-  similarity: 0.55
+  similarity: 0.5
 solutions:
 - vendor-management-practice
 - explicit-extension-points

@@ -8,16 +8,16 @@ category:
 - Business
 related_problems:
 - slug: lack-of-ownership-and-accountability
-  similarity: 0.65
+  similarity: 0.6
 - slug: unclear-documentation-ownership
   similarity: 0.6
+- slug: inconsistent-quality
+  similarity: 0.55
 - slug: custom-report-sprawl
   similarity: 0.55
-- slug: poor-interfaces-between-applications
+- slug: cross-system-data-synchronization-problems
   similarity: 0.5
-- slug: poor-domain-model
-  similarity: 0.5
-- slug: information-fragmentation
+- slug: data-migration-integrity-issues
   similarity: 0.5
 solutions:
 - master-data-stewardship

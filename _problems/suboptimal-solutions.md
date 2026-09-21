@@ -7,18 +7,18 @@ category:
 - Code
 - Requirements
 related_problems:
-- slug: accumulation-of-workarounds
-  similarity: 0.6
+- slug: poor-user-experience-ux-design
+  similarity: 0.55
 - slug: process-design-flaws
-  similarity: 0.6
-- slug: workaround-culture
   similarity: 0.55
-- slug: increased-technical-shortcuts
+- slug: reduced-feature-quality
   similarity: 0.55
-- slug: complex-implementation-paths
+- slug: inefficient-code
   similarity: 0.55
-- slug: second-system-effect
-  similarity: 0.55
+- slug: quality-compromises
+  similarity: 0.5
+- slug: slow-application-performance
+  similarity: 0.5
 solutions:
 - architecture-reviews
 - boring-technologies

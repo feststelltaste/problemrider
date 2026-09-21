@@ -8,17 +8,17 @@ category:
 - Code
 related_problems:
 - slug: upgrade-blocked-by-customization
-  similarity: 0.7
-- slug: excessive-customization
-  similarity: 0.7
+  similarity: 0.65
 - slug: voided-vendor-support
   similarity: 0.65
+- slug: excessive-customization
+  similarity: 0.6
 - slug: reimplemented-standard-functionality
-  similarity: 0.65
+  similarity: 0.55
 - slug: customization-outside-version-control
-  similarity: 0.6
+  similarity: 0.55
 - slug: process-software-misfit
-  similarity: 0.6
+  similarity: 0.55
 solutions:
 - explicit-extension-points
 - fit-to-standard-principle

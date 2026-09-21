@@ -30,6 +30,7 @@ problems:
 - refactoring-avoidance
 - technology-stack-fragmentation
 - undefined-code-style-guidelines
+- dynamic-connascence
 layout: solution
 related_solutions:
 - slug: large-scale-refactoring

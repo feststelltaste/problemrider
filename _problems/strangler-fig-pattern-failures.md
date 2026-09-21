@@ -7,18 +7,18 @@ category:
 - Code
 - Operations
 related_problems:
-- slug: integration-difficulties
-  similarity: 0.65
 - slug: modernization-strategy-paralysis
-  similarity: 0.6
+  similarity: 0.65
+- slug: second-system-effect
+  similarity: 0.55
+- slug: cascade-failures
+  similarity: 0.55
 - slug: modernization-roi-justification-failure
-  similarity: 0.6
-- slug: complex-implementation-paths
-  similarity: 0.6
-- slug: architectural-mismatch
-  similarity: 0.6
+  similarity: 0.55
 - slug: stagnant-architecture
-  similarity: 0.6
+  similarity: 0.55
+- slug: maintenance-paralysis
+  similarity: 0.5
 solutions:
 - strangler-fig-pattern
 - walking-skeleton

@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: change-management-chaos
-  similarity: 0.7
+  similarity: 0.65
 - slug: breaking-changes
   similarity: 0.65
-- slug: information-decay
-  similarity: 0.65
-- slug: configuration-chaos
-  similarity: 0.65
+- slug: increasing-brittleness
+  similarity: 0.6
 - slug: frequent-changes-to-requirements
-  similarity: 0.65
-- slug: fear-of-change
-  similarity: 0.65
+  similarity: 0.6
+- slug: ripple-effect-of-changes
+  similarity: 0.6
+- slug: changing-project-scope
+  similarity: 0.6
 solutions:
 - architecture-roadmap
 - change-management-process

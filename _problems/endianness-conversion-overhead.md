@@ -6,11 +6,15 @@ category:
 - Code
 - Performance
 related_problems:
-- slug: serialization-deserialization-bottlenecks
+- slug: interrupt-overhead
   similarity: 0.55
 - slug: microservice-communication-overhead
-  similarity: 0.55
-- slug: interrupt-overhead
+  similarity: 0.5
+- slug: context-switching-overhead
+  similarity: 0.5
+- slug: serialization-deserialization-bottlenecks
+  similarity: 0.5
+- slug: atomic-operation-overhead
   similarity: 0.5
 solutions:
 - standardized-data-formats

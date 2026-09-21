@@ -7,17 +7,17 @@ category:
 - Requirements
 related_problems:
 - slug: user-confusion
-  similarity: 0.7
+  similarity: 0.65
 - slug: user-frustration
   similarity: 0.65
-- slug: negative-user-feedback
-  similarity: 0.65
-- slug: quality-degradation
+- slug: stakeholder-confidence-loss
   similarity: 0.6
 - slug: customer-dissatisfaction
-  similarity: 0.6
-- slug: inconsistent-behavior
-  similarity: 0.6
+  similarity: 0.55
+- slug: quality-degradation
+  similarity: 0.55
+- slug: negative-user-feedback
+  similarity: 0.55
 solutions:
 - regression-testing
 - user-centered-design

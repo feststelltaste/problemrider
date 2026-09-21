@@ -13,11 +13,11 @@ related_problems:
   similarity: 0.65
 - slug: missing-end-to-end-tests
   similarity: 0.65
-- slug: integration-difficulties
-  similarity: 0.6
-- slug: insufficient-testing
-  similarity: 0.6
 - slug: inadequate-test-infrastructure
+  similarity: 0.6
+- slug: quality-blind-spots
+  similarity: 0.6
+- slug: integration-difficulties
   similarity: 0.6
 solutions:
 - test-coverage-strategy

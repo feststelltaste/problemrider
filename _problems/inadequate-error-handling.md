@@ -6,18 +6,18 @@ category:
 - Code
 - Requirements
 related_problems:
-- slug: poor-test-coverage
-  similarity: 0.65
-- slug: increased-error-rates
-  similarity: 0.65
 - slug: poor-user-experience-ux-design
-  similarity: 0.6
-- slug: inadequate-code-reviews
-  similarity: 0.6
-- slug: system-outages
-  similarity: 0.6
+  similarity: 0.55
+- slug: increased-error-rates
+  similarity: 0.55
+- slug: inefficient-code
+  similarity: 0.55
 - slug: inadequate-onboarding
-  similarity: 0.6
+  similarity: 0.55
+- slug: resource-allocation-failures
+  similarity: 0.5
+- slug: inconsistent-quality
+  similarity: 0.5
 solutions:
 - definition-of-done
 - dead-letter-queue

@@ -7,18 +7,18 @@ category:
 - Code
 - Process
 related_problems:
-- slug: complex-implementation-paths
+- slug: implementation-rework
   similarity: 0.55
-- slug: process-design-flaws
+- slug: analysis-paralysis
   similarity: 0.55
 - slug: architectural-mismatch
   similarity: 0.55
-- slug: insufficient-design-skills
+- slug: process-design-flaws
   similarity: 0.55
-- slug: feature-creep-without-refactoring
+- slug: stagnant-architecture
   similarity: 0.55
-- slug: inexperienced-developers
-  similarity: 0.55
+- slug: poor-contract-design
+  similarity: 0.5
 solutions:
 - evolutionary-requirements-development
 - requirements-analysis

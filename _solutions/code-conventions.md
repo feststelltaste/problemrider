@@ -21,6 +21,7 @@ problems:
 - bikeshedding
 - log-spam
 - difficult-to-understand-code
+- stringly-typed-code
 layout: solution
 related_solutions:
 - slug: code-review-process-reform

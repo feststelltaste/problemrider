@@ -7,17 +7,17 @@ category:
 - Process
 related_problems:
 - slug: perfectionist-review-culture
-  similarity: 0.8
-- slug: micromanagement-culture
+  similarity: 0.7
+- slug: history-of-failed-changes
   similarity: 0.6
-- slug: blame-culture
+- slug: complex-deployment-process
   similarity: 0.6
-- slug: analysis-paralysis
+- slug: insufficient-testing
   similarity: 0.6
-- slug: fear-of-failure
+- slug: release-anxiety
   similarity: 0.6
-- slug: nitpicking-culture
-  similarity: 0.55
+- slug: constantly-shifting-deadlines
+  similarity: 0.6
 solutions:
 - psychological-safety-practices
 - team-autonomy-and-empowerment

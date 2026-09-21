@@ -9,16 +9,16 @@ category:
 related_problems:
 - slug: complex-domain-model
   similarity: 0.75
-- slug: legacy-business-logic-extraction-difficulty
-  similarity: 0.65
-- slug: architectural-mismatch
-  similarity: 0.6
 - slug: poorly-defined-responsibilities
-  similarity: 0.6
-- slug: complex-implementation-paths
-  similarity: 0.6
-- slug: integration-difficulties
-  similarity: 0.6
+  similarity: 0.55
+- slug: poor-interfaces-between-applications
+  similarity: 0.55
+- slug: legacy-business-logic-extraction-difficulty
+  similarity: 0.55
+- slug: database-schema-design-problems
+  similarity: 0.5
+- slug: poor-system-environment
+  similarity: 0.5
 solutions:
 - modularization-and-bounded-contexts
 - bounded-contexts

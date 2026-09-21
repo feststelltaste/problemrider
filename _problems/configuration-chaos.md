@@ -6,17 +6,17 @@ category:
 - Operations
 - Process
 related_problems:
-- slug: legacy-configuration-management-chaos
-  similarity: 0.75
 - slug: configuration-drift
-  similarity: 0.75
+  similarity: 0.8
 - slug: change-management-chaos
   similarity: 0.75
-- slug: testing-environment-fragility
+- slug: inadequate-configuration-management
+  similarity: 0.75
+- slug: legacy-configuration-management-chaos
   similarity: 0.7
-- slug: deployment-environment-inconsistencies
+- slug: poor-system-environment
   similarity: 0.65
-- slug: rapid-system-changes
+- slug: inconsistent-behavior
   similarity: 0.65
 solutions:
 - infrastructure-as-code

@@ -5,17 +5,17 @@ description: Developers add unnecessary features or complexity to a project beca
 category:
 - Process
 related_problems:
-- slug: incomplete-projects
-  similarity: 0.7
 - slug: feature-creep
   similarity: 0.65
-- slug: large-feature-scope
-  similarity: 0.65
-- slug: feature-creep-without-refactoring
+- slug: complex-deployment-process
+  similarity: 0.6
+- slug: eager-to-please-stakeholders
+  similarity: 0.6
+- slug: insufficient-testing
   similarity: 0.6
 - slug: slow-feature-development
   similarity: 0.6
-- slug: budget-overruns
+- slug: no-continuous-feedback-loop
   similarity: 0.6
 solutions:
 - architecture-reviews

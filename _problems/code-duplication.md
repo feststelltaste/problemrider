@@ -6,17 +6,17 @@ category:
 - Architecture
 - Code
 related_problems:
-- slug: synchronization-problems
-  similarity: 0.8
-- slug: copy-paste-programming
-  similarity: 0.75
-- slug: inconsistent-coding-standards
-  similarity: 0.7
-- slug: inconsistent-codebase
+- slug: duplicated-effort
   similarity: 0.7
 - slug: duplicated-work
   similarity: 0.7
-- slug: duplicated-effort
+- slug: copy-paste-programming
+  similarity: 0.7
+- slug: duplicated-research-effort
+  similarity: 0.65
+- slug: synchronization-problems
+  similarity: 0.65
+- slug: difficult-code-reuse
   similarity: 0.65
 solutions:
 - incremental-refactoring
@@ -78,6 +78,8 @@ Code duplication occurs when similar or identical functionality is implemented i
 <br/>  Convenience-driven development directly leads to code duplication since copying existing code is the most convenient ....
 - [Inexperienced Developers](inexperienced-developers.md)
 <br/>  Inexperienced developers frequently duplicate code because they don't know about existing implementations or don't understand how to properly abstract and reuse existing logic.
+- [Stringly Typed Code](stringly-typed-code.md)
+<br/>  Because no single type owns a string-encoded value's valid values or validation, the same comparison and parsing logic gets re-implemented everywhere the value is used.
 
 ## Detection Methods ○
 - **Static Analysis Tools:** Use tools that can identify duplicate or similar code blocks across the codebase

@@ -7,17 +7,17 @@ category:
 - Process
 - Team
 related_problems:
-- slug: communication-breakdown
-  similarity: 0.8
 - slug: knowledge-silos
+  similarity: 0.8
+- slug: communication-breakdown
   similarity: 0.75
+- slug: unclear-sharing-expectations
+  similarity: 0.7
 - slug: information-fragmentation
   similarity: 0.7
-- slug: knowledge-gaps
-  similarity: 0.7
-- slug: team-silos
+- slug: inconsistent-knowledge-acquisition
   similarity: 0.65
-- slug: unclear-sharing-expectations
+- slug: poor-teamwork
   similarity: 0.65
 solutions:
 - knowledge-sharing-practices

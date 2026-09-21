@@ -6,16 +6,16 @@ category:
 related_problems:
 - slug: difficult-to-understand-code
   similarity: 0.85
+- slug: complex-and-obscure-logic
+  similarity: 0.75
 - slug: difficult-code-reuse
+  similarity: 0.75
+- slug: difficult-to-test-code
   similarity: 0.7
 - slug: increased-cognitive-load
   similarity: 0.7
-- slug: complex-and-obscure-logic
-  similarity: 0.7
-- slug: difficult-developer-onboarding
-  similarity: 0.7
-- slug: debugging-difficulties
-  similarity: 0.7
+- slug: inconsistent-codebase
+  similarity: 0.65
 solutions:
 - clean-code
 - loose-coupling
@@ -83,6 +83,8 @@ Difficult code comprehension is a situation where developers have a hard time un
 <br/>  Outdated or missing documentation means developers must rely solely on reading code to understand intent.
 - [Accumulation of Workarounds](accumulation-of-workarounds.md)
 <br/>  Multiple alternative code paths and conditional workarounds layered on top of the original logic make the code extremely hard to follow.
+- [Stringly Typed Code](stringly-typed-code.md)
+<br/>  Readers cannot discover the valid values or intended meaning of a field from its type; they must trace through the code to reconstruct an implicit enum.
 
 ## Detection Methods ○
 - **Developer Surveys:** Ask developers if they find the codebase easy to read and understand.

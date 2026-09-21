@@ -8,15 +8,15 @@ category:
 related_problems:
 - slug: competing-priorities
   similarity: 0.7
+- slug: development-disruption
+  similarity: 0.65
 - slug: unclear-goals-and-priorities
-  similarity: 0.7
-- slug: product-direction-chaos
   similarity: 0.65
-- slug: work-blocking
+- slug: constant-firefighting
   similarity: 0.65
-- slug: constantly-shifting-deadlines
-  similarity: 0.65
-- slug: team-confusion
+- slug: context-switching-overhead
+  similarity: 0.6
+- slug: time-pressure
   similarity: 0.6
 solutions:
 - sustainable-pace-practices

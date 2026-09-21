@@ -8,16 +8,16 @@ category:
 - Requirements
 related_problems:
 - slug: customer-dissatisfaction
-  similarity: 0.85
+  similarity: 0.75
 - slug: user-confusion
-  similarity: 0.7
+  similarity: 0.75
 - slug: stakeholder-frustration
-  similarity: 0.65
-- slug: user-trust-erosion
   similarity: 0.65
 - slug: negative-user-feedback
   similarity: 0.65
-- slug: system-outages
+- slug: user-trust-erosion
+  similarity: 0.65
+- slug: poor-user-experience-ux-design
   similarity: 0.65
 solutions:
 - user-centered-design

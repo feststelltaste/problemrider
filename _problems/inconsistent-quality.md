@@ -6,17 +6,17 @@ category:
 - Code
 - Process
 related_problems:
-- slug: inconsistent-coding-standards
-  similarity: 0.7
-- slug: inconsistent-execution
-  similarity: 0.7
-- slug: quality-degradation
-  similarity: 0.7
 - slug: inconsistent-behavior
-  similarity: 0.7
+  similarity: 0.65
+- slug: inconsistent-coding-standards
+  similarity: 0.65
+- slug: quality-degradation
+  similarity: 0.65
 - slug: inconsistent-codebase
   similarity: 0.65
-- slug: inconsistent-knowledge-acquisition
+- slug: lack-of-ownership-and-accountability
+  similarity: 0.65
+- slug: reduced-feature-quality
   similarity: 0.65
 solutions:
 - definition-of-done

@@ -6,17 +6,17 @@ category:
 - Management
 - Process
 related_problems:
-- slug: poor-planning
-  similarity: 0.65
 - slug: no-formal-change-control-process
   similarity: 0.65
-- slug: delayed-project-timelines
-  similarity: 0.65
-- slug: planning-dysfunction
+- slug: poor-planning
   similarity: 0.6
-- slug: monitoring-gaps
+- slug: incomplete-projects
+  similarity: 0.6
+- slug: communication-risk-outside-project
   similarity: 0.55
-- slug: missed-deadlines
+- slug: poor-operational-concept
+  similarity: 0.55
+- slug: poor-contract-design
   similarity: 0.55
 solutions:
 - formal-change-control-process

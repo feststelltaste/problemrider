@@ -6,17 +6,17 @@ category:
 - Code
 - Process
 related_problems:
-- slug: wasted-development-effort
-  similarity: 0.7
 - slug: reimplemented-standard-functionality
   similarity: 0.65
+- slug: wasted-development-effort
+  similarity: 0.6
 - slug: complex-implementation-paths
-  similarity: 0.6
-- slug: frequent-changes-to-requirements
-  similarity: 0.6
-- slug: accumulation-of-workarounds
-  similarity: 0.6
-- slug: feature-creep-without-refactoring
+  similarity: 0.55
+- slug: implementation-starts-without-design
+  similarity: 0.55
+- slug: incomplete-projects
+  similarity: 0.55
+- slug: analysis-paralysis
   similarity: 0.55
 solutions:
 - boring-technologies

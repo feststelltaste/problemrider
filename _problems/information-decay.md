@@ -7,17 +7,17 @@ category:
 - Communication
 related_problems:
 - slug: poor-documentation
-  similarity: 0.75
-- slug: quality-degradation
+  similarity: 0.7
+- slug: information-fragmentation
   similarity: 0.7
 - slug: unclear-documentation-ownership
   similarity: 0.65
-- slug: information-fragmentation
-  similarity: 0.65
-- slug: rapid-system-changes
+- slug: quality-degradation
   similarity: 0.65
 - slug: legacy-system-documentation-archaeology
-  similarity: 0.65
+  similarity: 0.6
+- slug: knowledge-gaps
+  similarity: 0.6
 solutions:
 - architecture-decision-records
 - documentation-as-code

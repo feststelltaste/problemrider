@@ -7,18 +7,18 @@ category:
 - Process
 - Testing
 related_problems:
-- slug: high-bug-introduction-rate
-  similarity: 0.65
-- slug: increased-bug-count
-  similarity: 0.65
-- slug: delayed-bug-fixes
-  similarity: 0.6
 - slug: breaking-changes
   similarity: 0.6
-- slug: increased-risk-of-bugs
+- slug: partial-bug-fixes
   similarity: 0.6
-- slug: frequent-hotfixes-and-rollbacks
+- slug: high-bug-introduction-rate
   similarity: 0.6
+- slug: increased-bug-count
+  similarity: 0.55
+- slug: delayed-bug-fixes
+  similarity: 0.55
+- slug: increasing-brittleness
+  similarity: 0.55
 solutions:
 - test-coverage-strategy
 - acceptance-tests
@@ -90,6 +90,8 @@ Regression bugs are defects that occur when previously working functionality bre
 <br/>  Poor code reviews fail to identify changes that could break existing functionality before they are merged.
 - [Partial Bug Fixes](partial-bug-fixes.md)
 <br/>  Partial bug fixes that don't address root causes are a direct cause of regression bugs, as the underlying issue resur....
+- [Dynamic Connascence](dynamic-connascence.md)
+<br/>  A rename or move that passes every automated check can still break a naming contract that only exists at runtime, producing a regression no test suite anticipated.
 
 ## Detection Methods ○
 - **Automated Regression Test Suites:** Comprehensive automated tests that verify existing functionality after every change

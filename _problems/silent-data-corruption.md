@@ -9,16 +9,8 @@ category:
 related_problems:
 - slug: data-migration-integrity-issues
   similarity: 0.55
-- slug: cache-invalidation-problems
+- slug: insecure-data-transmission
   similarity: 0.55
-- slug: data-migration-complexities
-  similarity: 0.5
-- slug: information-decay
-  similarity: 0.5
-- slug: increased-error-rates
-  similarity: 0.5
-- slug: configuration-drift
-  similarity: 0.5
 solutions:
 - evolutionary-database-design
 - audit-trail-management

@@ -7,18 +7,18 @@ category:
 - Process
 - Team
 related_problems:
-- slug: developer-frustration-and-burnout
-  similarity: 0.75
 - slug: quality-degradation
-  similarity: 0.7
+  similarity: 0.65
+- slug: quality-compromises
+  similarity: 0.65
 - slug: inadequate-code-reviews
-  similarity: 0.7
-- slug: increased-stress-and-burnout
-  similarity: 0.7
-- slug: increased-cognitive-load
-  similarity: 0.7
-- slug: increased-cost-of-development
-  similarity: 0.7
+  similarity: 0.65
+- slug: insufficient-code-review
+  similarity: 0.6
+- slug: team-churn-impact
+  similarity: 0.6
+- slug: reduced-code-submission-frequency
+  similarity: 0.55
 solutions:
 - definition-of-done
 - pair-and-mob-programming

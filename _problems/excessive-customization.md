@@ -9,17 +9,17 @@ category:
 - Process
 related_problems:
 - slug: customization-outside-version-control
-  similarity: 0.7
+  similarity: 0.65
 - slug: reimplemented-standard-functionality
-  similarity: 0.7
-- slug: core-modification-of-standard-software
-  similarity: 0.7
-- slug: custom-report-sprawl
-  similarity: 0.7
-- slug: low-code-customization-sprawl
-  similarity: 0.65
+  similarity: 0.6
 - slug: upgrade-blocked-by-customization
-  similarity: 0.65
+  similarity: 0.6
+- slug: core-modification-of-standard-software
+  similarity: 0.6
+- slug: low-code-customization-sprawl
+  similarity: 0.55
+- slug: process-software-misfit
+  similarity: 0.55
 solutions:
 - explicit-extension-points
 - customization-cost-attribution

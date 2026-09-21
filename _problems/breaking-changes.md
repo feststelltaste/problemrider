@@ -7,18 +7,18 @@ category:
 - Code
 - Testing
 related_problems:
-- slug: api-versioning-conflicts
-  similarity: 0.7
-- slug: legacy-api-versioning-nightmare
-  similarity: 0.65
 - slug: rapid-system-changes
   similarity: 0.65
-- slug: change-management-chaos
-  similarity: 0.6
-- slug: increasing-brittleness
-  similarity: 0.6
+- slug: api-versioning-conflicts
+  similarity: 0.65
 - slug: regression-bugs
   similarity: 0.6
+- slug: increasing-brittleness
+  similarity: 0.55
+- slug: fear-of-breaking-changes
+  similarity: 0.55
+- slug: brittle-codebase
+  similarity: 0.55
 solutions:
 - anti-corruption-layer
 - dependency-management-strategy
