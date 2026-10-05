@@ -408,6 +408,10 @@ problems:
     title_de: Doppelte Arbeit
     description_de: Mehrere Teammitglieder arbeiten unwissentlich an denselben Aufgaben oder lösen dieselben Probleme, was zu verschwendetem Aufwand und potenziellen Konflikten führt.
     slug_de: doppelte-arbeit
+  dynamic-connascence:
+    title_de: Dynamic Connascence
+    description_de: Ein Name, Dateipfad oder String-Literal kodiert eine Laufzeit-Referenz zwischen Erzeuger und Verbraucher, die der Compiler sowie automatisiertes Umbenennen oder Verschieben beim Refactoring nicht erkennen können.
+    slug_de: dynamic-connascence
   eager-to-please-stakeholders:
     title_de: Übermäßige Gefälligkeit gegenüber Stakeholdern
     description_de: Das Projektteam stimmt jeder neuen Anfrage der Stakeholder zu, ohne zurückzufragen oder Kompromisse zu erklären, was zu Scope Creep und weiteren Problemen führen kann.
@@ -1584,6 +1588,10 @@ problems:
     title_de: Fehlschläge des Strangler-Fig-Patterns
     description_de: Die schrittweise Modernisierung mittels Strangler-Fig-Pattern stockt aufgrund komplexer Abhängigkeiten und Herausforderungen bei der Datenkonsistenz.
     slug_de: fehlschlaege-des-strangler-fig-patterns
+  stringly-typed-code:
+    title_de: Stringly Typed Code
+    description_de: Fachliche Konzepte wie Status, Typ oder Identität werden als rohe, unvalidierte Strings statt als Enums oder Value Objects dargestellt, wodurch die Typprüfung von der Kompilierzeit in die Laufzeit verschoben wird.
+    slug_de: stringly-typed-code
   style-arguments-in-code-reviews:
     title_de: Stildiskussionen in Code-Reviews
     description_de: Eine Situation, in der ein erheblicher Teil der Zeit in Code-Reviews damit verbracht wird, über triviale Stilfragen zu diskutieren, statt sich auf Logik und Design zu konzentrieren.
